@@ -1,0 +1,491 @@
+<!doctype html><html lang="zh-CN"><head><script>(function(){var H='3cfc9752923a03bf797634824be62c204630e71146b569ff82b87cfbaf54d3ff';var k='jt_gate';function ok(){document.documentElement.style.visibility='visible';}
+async function sha(s){var b=new TextEncoder().encode(s);var d=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(d)).map(x=>x.toString(16).padStart(2,'0')).join('');}
+document.documentElement.style.visibility='hidden';
+(async function(){if(sessionStorage.getItem(k)===H){ok();return;}for(var i=0;i<3;i++){var p=prompt('金泰AI 中国历史文化图库（内部初稿）\n请输入访问口令：');if(p===null)break;var h=await sha(p.trim());if(h===H){sessionStorage.setItem(k,H);ok();return;}}
+document.documentElement.style.visibility='visible';document.body.innerHTML='<p style="font:22pt Microsoft YaHei;padding:60px;color:#8a1c1c">口令不正确。请向金泰AI索取访问口令后刷新页面。</p>';})();})();</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>影视参考图集 · 金泰AI 图库</title>
+<style>
+:root{--bg:#121416;--p1:#1a1d20;--p2:#23272b;--p3:#2c3136;--line:#3a4046;--tx:#ece8e0;--mu:#aaa59b;--ac:#e0a943;--ac2:#71b8cf;--red:#d8624f;--ok:#7cc48a}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font:22px/1.6 "Microsoft YaHei","PingFang SC",sans-serif}
+a{color:var(--ac2)}button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer;background:var(--p2);border:1px solid var(--line);border-radius:10px;padding:8px 16px;font-size:19px}
+button:hover{border-color:var(--ac)}button.pri{background:var(--ac);color:#1a1409;border-color:var(--ac);font-weight:bold}button.ghost{background:transparent}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+input,select,textarea{background:var(--p1);border:1px solid var(--line);border-radius:10px;padding:9px 12px}
+header.top{position:sticky;top:0;z-index:20;background:#0d0f10ee;backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.hrow{max-width:1900px;margin:auto;padding:12px 28px 6px;display:flex;gap:22px;align-items:baseline;flex-wrap:wrap}
+.hrow h1{margin:0;font-size:36px;letter-spacing:2px}.hrow .sub{color:var(--mu);font-size:19px}.hrow .back{font-size:19px}
+.stats{color:var(--mu);font-size:19px}.stats b{color:var(--ac);font-size:23px}
+nav.tabs{max-width:1900px;margin:auto;padding:4px 28px 10px;display:flex;gap:10px;flex-wrap:wrap}
+nav.tabs button{font-size:20px;padding:8px 20px;border-radius:24px}nav.tabs button.on{background:var(--tx);color:#111;border-color:var(--tx);font-weight:bold}
+nav.tabs b{color:var(--ac);margin-left:4px}nav.tabs button.on b{color:#8a5a00}
+main{max-width:1900px;margin:auto;padding:18px 28px 80px}
+.searchbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+#q{flex:1;min-width:420px;font-size:25px;padding:12px 18px;border-radius:14px;border:2px solid var(--line)}#q:focus{border-color:var(--ac)}
+.hint{color:var(--mu);font-size:18px;margin:6px 2px}.hint code{background:var(--p2);padding:1px 8px;border-radius:6px;cursor:pointer}
+.active{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0;min-height:10px;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:6px;background:var(--p3);border:1px solid var(--line);border-radius:22px;padding:4px 12px;font-size:18px}
+.pill.q{border-color:var(--ac)}.pill i{font-style:normal;color:var(--mu);font-size:15px}.pill button{border:0;background:none;padding:0 2px;font-size:20px;color:var(--mu)}
+.sw{display:inline-block;width:20px;height:20px;border-radius:4px;border:1px solid #0006;vertical-align:middle}
+.layout{display:grid;grid-template-columns:370px minmax(0,1fr);gap:24px;align-items:start}
+aside#facets{position:sticky;top:150px;max-height:calc(100vh - 170px);overflow:auto;padding-right:8px}
+aside details{border-bottom:1px solid var(--line);padding:6px 0}aside summary{cursor:pointer;font-size:21px;font-weight:bold;padding:4px 0;list-style:none;display:flex;justify-content:space-between}
+aside summary::after{content:'＋';color:var(--mu)}aside details[open] summary::after{content:'－'}aside summary em{font-style:normal;color:var(--ac);font-size:16px;font-weight:normal}
+.grp{font-size:15px;color:var(--mu);margin:6px 0 2px}
+.chip{display:inline-block;margin:3px 3px 3px 0;padding:3px 11px;border:1px solid var(--line);border-radius:18px;font-size:18px;cursor:pointer;background:var(--p1);user-select:none}
+.chip small{color:var(--mu);font-size:14px;margin-left:4px}.chip.on{background:var(--ac);color:#1a1409;border-color:var(--ac)}.chip.on small{color:#5a3d00}.chip.zero{opacity:.35}
+.mode{font-size:16px;color:var(--mu);margin:8px 0}
+.rhead{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px}#count{font-size:21px}#count b{color:var(--ac)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:18px}
+.card{background:var(--p1);border:1px solid var(--line);border-radius:14px;overflow:hidden;position:relative;display:flex;flex-direction:column}
+.card:hover{border-color:var(--ac)}.thumb{position:relative;cursor:zoom-in;background:#000;line-height:0;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;overflow:hidden}.thumb img{max-width:100%;max-height:100%;width:auto;height:auto;display:block}.thumb svg.wid{width:100%;height:auto;display:block}.thumb svg.nar{height:100%;width:auto;display:block}
+.badge{position:absolute;left:8px;top:8px;background:#000a;color:#ddd;font-size:14px;line-height:1.4;padding:2px 8px;border-radius:6px}.badge.fr{background:#1f6b3acc}
+.pal{display:flex;height:14px}.pal span{flex:1}
+.cap{padding:8px 14px 4px;font-size:19px;cursor:pointer}.cap b{font-size:21px}.cap .y{color:var(--mu)}.cap p{margin:2px 0;color:#cfcac0;font-size:18px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tg{font-size:16px;color:var(--mu);padding:0 14px 8px}
+.acts{display:flex;gap:8px;padding:0 12px 12px;margin-top:auto}.acts button{flex:1;font-size:17px;padding:6px 8px}.acts button.in{background:#1f5a3c;border-color:#2f8a5a}
+.pager{display:flex;gap:14px;justify-content:center;align-items:center;margin:26px 0}
+.empty{padding:50px;text-align:center;color:var(--mu);font-size:22px}
+dialog{width:min(1720px,97vw);max-height:95vh;border:1px solid var(--line);border-radius:16px;background:var(--p1);color:var(--tx);padding:0}
+dialog::backdrop{background:#000c}.dh{position:sticky;top:0;background:var(--p1);display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 22px;border-bottom:1px solid var(--line);z-index:2}
+.dh h2{margin:0;font-size:28px}.dh .nav{display:flex;gap:8px}.dbody{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:26px;padding:20px 24px}
+.vis{background:#000;border-radius:10px;overflow:hidden;line-height:0}.vis svg,.vis img{width:100%;height:auto}
+.palbig{display:flex;gap:8px;margin:10px 0}.palbig div{flex:1;border-radius:8px;height:64px;position:relative;cursor:pointer}.palbig div span{position:absolute;bottom:4px;left:6px;font-size:14px;background:#000a;padding:0 6px;border-radius:4px;line-height:1.5}
+.kv{width:100%;border-collapse:collapse;font-size:19px}.kv th{width:128px;text-align:left;color:var(--mu);font-weight:normal;vertical-align:top;padding:5px 8px 5px 0}.kv td{padding:5px 0}
+.kv .t{display:inline-block;background:var(--p3);border-radius:6px;padding:0 9px;margin:2px 4px 2px 0;cursor:pointer;font-size:18px}.kv .t:hover{background:var(--ac);color:#111}
+h3{font-size:23px;margin:18px 0 8px;color:var(--ac)}.note{font-size:21px;line-height:1.75;background:var(--p2);padding:14px 16px;border-radius:10px;margin:0}
+textarea.pr{width:100%;min-height:210px;font-size:19px;line-height:1.7;resize:vertical}
+.btns{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}.btns a{display:inline-block;background:var(--p2);border:1px solid var(--line);border-radius:10px;padding:6px 14px;font-size:18px;text-decoration:none;color:var(--tx)}.btns a:hover{border-color:var(--ac2)}
+.strip{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px}.strip .mini{flex:0 0 220px;cursor:pointer;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#000;line-height:0}.strip .mini:hover{border-color:var(--ac)}.strip .mini svg,.strip .mini img{width:100%;height:auto}
+.muted{color:var(--mu)}.warn{color:var(--ac)}.small{font-size:17px}
+.two{display:grid;grid-template-columns:340px minmax(0,1fr);gap:24px;align-items:start}
+.decklist .dk{padding:12px 14px;border:1px solid var(--line);border-radius:12px;margin-bottom:10px;cursor:pointer;background:var(--p1)}.decklist .dk.on{border-color:var(--ac);background:var(--p2)}.decklist .dk b{font-size:21px}
+.dkhead input{font-size:28px;font-weight:bold;width:100%;margin-bottom:8px}.dkhead textarea{width:100%;min-height:90px}
+.dgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px;margin-top:14px}.ditem{background:var(--p1);border:1px solid var(--line);border-radius:12px;overflow:hidden}.ditem.drag{opacity:.4}.ditem.over{border-color:var(--ac)}
+.ditem .cap{cursor:grab}.ditem textarea{width:calc(100% - 20px);margin:0 10px 8px;min-height:60px;font-size:17px}.ditem .acts button{font-size:16px}
+.banner{background:#3a2c0f;border:1px solid var(--ac);border-radius:12px;padding:12px 18px;margin-bottom:16px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.cmpgrid{display:grid;gap:14px}.cmpgrid .col{background:var(--p1);border:1px solid var(--line);border-radius:12px;overflow:hidden}.cmpgrid .col h4{margin:8px 12px;font-size:20px}
+table.cmp{width:100%;border-collapse:collapse;font-size:18px;margin-top:14px}table.cmp th{position:sticky;left:0;background:var(--p2);color:var(--mu);font-weight:normal;text-align:left;padding:7px 10px;width:130px;border-bottom:1px solid var(--line)}
+table.cmp td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}table.cmp td.diff{background:#3a2c0f}
+.fp{background:var(--p1);border:1px solid var(--line);border-radius:12px;padding:14px}.fp h4{margin:0 0 4px;font-size:23px}.mosaic{display:flex;flex-direction:column;gap:2px;border-radius:8px;overflow:hidden;margin:8px 0}.mosaic div{display:flex;height:9px}.mosaic span{flex:1}
+.bar{display:grid;grid-template-columns:96px 1fr 40px;gap:8px;align-items:center;font-size:16px;margin:3px 0}.bar i{display:block;height:14px;background:var(--ac2);border-radius:4px}.bar em{font-style:normal;color:var(--mu);text-align:right}
+.fpgrid{display:grid;gap:16px}.fp .sec{font-size:16px;color:var(--ac);margin:10px 0 2px}
+.wgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(420px,1fr));gap:16px;margin-top:12px}.wc{background:var(--p1);border:1px solid var(--line);border-radius:12px;padding:14px 16px}.wc h4{margin:0;font-size:23px}.wc .m{color:var(--mu);font-size:17px}.wc p{font-size:18px;margin:6px 0}
+table.bench{width:100%;border-collapse:collapse;font-size:18px}table.bench th,table.bench td{border:1px solid var(--line);padding:10px 12px;vertical-align:top;text-align:left}table.bench th{background:var(--p2)}table.bench td b{color:var(--ac)}
+.prose{max-width:1250px;font-size:21px;line-height:1.8}.prose h3{margin-top:26px}.prose li{margin:6px 0}
+#toast{position:fixed;left:50%;bottom:30px;transform:translateX(-50%);background:var(--ac);color:#111;padding:12px 24px;border-radius:12px;font-size:20px;display:none;z-index:99;box-shadow:0 6px 20px #0008}
+#printArea{display:none}
+@media(max-width:1100px){.layout,.two{grid-template-columns:1fr}aside#facets{position:static;max-height:none}.dbody{grid-template-columns:1fr}#q{min-width:0}}
+@media print{body{background:#fff;color:#111;font-size:15pt}header.top,main,dialog,#toast{display:none!important}#printArea{display:block}
+ #printArea .cover{page-break-after:always;padding:30mm 10mm}#printArea h1{font-size:30pt;margin:0 0 8mm}#printArea .pi{page-break-inside:avoid;display:grid;grid-template-columns:58% 1fr;gap:6mm;margin-bottom:8mm;border-bottom:1px solid #ccc;padding-bottom:6mm}
+ #printArea .pi svg,#printArea .pi img{width:100%;height:auto}#printArea .pi h2{font-size:17pt;margin:0 0 2mm}#printArea .pi p{margin:1mm 0;font-size:13pt;line-height:1.55}#printArea .pal{height:6mm}@page{size:A4 landscape;margin:12mm}}
+</style></head><body>
+<header class="top"><div class="hrow"><a class="back" href="index.html">← 图库总检索</a><h1>影视参考图集</h1><span class="sub">对标 ShotDeck · 按景别、灯光、色彩、构图、地点、人物情绪、摄影机、镜头找画面</span>
+<span class="stats"><b id="sW">–</b> 部作品 · <b id="sS">–</b> 个镜头 · <b id="sF">0</b> 张截帧 · 更新于 2026-09-30 11:39<span id="sNew"></span></span></div>
+<nav class="tabs"><button data-tab="find" class="on">找画面</button><button data-tab="decks">参考图集<b id="nDeck"></b></button><button data-tab="compare">风格对照<b id="nCmp"></b></button><button data-tab="works">作品库</button><button data-tab="bench">对标与外部资源</button><button data-tab="help">使用说明</button></nav></header>
+<main>
+<section id="tab-find">
+ <div class="searchbar"><input id="q" placeholder="描述你要的画面，如：夜晚 蓝色 室内 人物特写" autocomplete="off">
+ <button id="colorBtn" title="挑一个颜色，找画面里有这个颜色的镜头">按颜色找</button><input type="color" id="colorPick" value="#2f5d8a" style="width:58px;height:48px;padding:2px">
+ <button id="imgBtn" title="选一张你手头的参考图，按色板找相近的镜头（图片只在本机读取，不上传）">以图找色</button><input type="file" id="imgFile" accept="image/*" hidden>
+ <select id="sort"><option value="new">新增在前</option><option value="year">年份从新到旧</option><option value="old">年份从旧到新</option><option value="title">片名</option></select></div>
+ <p class="hint">试试：<code>夜晚 蓝色 室内 人物特写</code> <code>雨夜 霓虹 近景</code> <code>逆光 剪影 黄昏</code> <code>对称 冷调 走廊</code> <code>golden hour wide shot</code> <code>王家卫</code>。能识别的词会自动变成筛选条件（亮框标签），其余当全文检索。</p>
+ <div id="active" class="active"></div>
+ <div class="layout"><aside id="facets"></aside>
+ <div><div class="rhead"><span id="count"></span><span><button id="addAllDeck" class="ghost">当前结果加入图集…</button> <button id="resetAll">清除全部条件</button></span></div>
+ <div id="grid" class="grid"></div><div class="pager"><button id="prev">上一页</button><span id="page"></span><button id="next">下一页</button>
+ <select id="psize"><option>30</option><option selected>60</option><option>120</option></select></div></div></div>
+</section>
+<section id="tab-decks" hidden><div id="deckBanner"></div><div class="two"><div><button class="pri" id="newDeck">＋ 新建参考图集</button> <button id="importDeck">导入分享链接</button>
+ <p class="muted small">图集存在你这台电脑的浏览器里；换电脑或发给别人用“复制分享链接”或“导出方案页”。</p><div id="deckList" class="decklist"></div></div><div id="deckView"></div></div></section>
+<section id="tab-compare" hidden>
+ <h3 style="margin-top:0">镜头对照（最多 4 个）</h3><p class="muted small">在任何镜头卡片上点“对照”加入。逐项对齐比较，黄色格子是彼此不同的地方。</p><div id="cmpShots"></div>
+ <h3>风格指纹：作品 / 导演 / 摄影指导对照</h3><p class="muted small">选 2–3 个对象，看它们的镜头在景别、光、色、构图、情绪上的分布与色板。</p>
+ <div class="btns"><select id="fpKind"><option value="work">按作品</option><option value="dir">按导演</option><option value="dp">按摄影指导</option></select><input id="fpQ" list="fpList" placeholder="输入名称后回车添加" style="min-width:360px"><datalist id="fpList"></datalist><button id="fpAdd">添加</button><button id="fpClear" class="ghost">清空</button></div>
+ <div id="fpView" class="fpgrid"></div>
+</section>
+<section id="tab-works" hidden><div class="searchbar"><input id="wq" placeholder="搜片名、导演、摄影指导" style="flex:1;min-width:300px"><select id="wType"></select><select id="wKind"></select><select id="wRegion"></select><select id="wDecade"></select><select id="wSort"><option value="year">年份从新到旧</option><option value="old">年份从旧到新</option><option value="n">镜头数</option><option value="title">片名</option></select></div>
+ <p id="wCount" class="muted"></p><div id="wGrid" class="wgrid"></div></section>
+<section id="tab-bench" hidden><div id="benchView" class="prose" style="max-width:none"></div></section>
+<section id="tab-help" hidden><div class="prose">
+<h3 style="margin-top:0">这个板块是什么</h3>
+<p>对标 ShotDeck 的影视镜头参考库：每条记录是一部真实电影或剧集里的一个具体镜头，带全套标签（景别、机位、画面人物、运镜、焦段、景深、灯光、时间、天气、内外景、地点、色彩、构图、人物情绪、画幅、拍摄格式、摄影机、镜头品牌、变形宽银幕/球面），附研究笔记（光、色、构图怎样表达情绪）和一条原创复刻提示词（贴进 IMAGE 2 出同构画面，不复制原片人物）。</p>
+<h3>画面图从哪来</h3>
+<ul><li><b>示意图</b>：每个镜头都有一张按标签自动画的示意图（画幅、主光方向、剪影大小与位置、构图线、天气），色板是按记忆<b>估色</b>，用来快速比较光色构图，不是影片原帧。</li>
+<li><b>真实截帧</b>：团队把自己看片时截的图放进 <code>影视参考图集_收件箱</code>，文件名写镜头编号（如 <code>YS-0001-03.jpg</code>）或片名（如 <code>花样年华_走廊.jpg</code>）。每晚自动处理：实测色板、生成缩略图、由 A 机自动打标签，截帧只进本机内部版，不上公网。</li>
+<li><b>看原片画面</b>：每个镜头的详情里有 FilmGrab、SHOT.CAFE、Frame Set、Flim、ShotDeck、Eyecandy 的外链。</li></ul>
+<h3>怎么精准找画面</h3>
+<ul><li>在顶部输入框用大白话描述，如“夜晚 蓝色 室内 人物特写”，能识别的词自动变成筛选条件；中英文都行。</li>
+<li>左侧逐类点选：同一类里多选时，景别这类单选项按“任一”，灯光、色彩、构图、情绪这类多选项默认“同时满足”，可在左侧顶部切换。</li>
+<li>“按颜色找”：挑一个颜色，找色板里有相近颜色的镜头；“以图找色”：选一张你手头的参考图，按色板相似度排序（图片只在本机读取）。</li>
+<li>详情里的任何标签都能点，点了就加入筛选。</li></ul>
+<h3>参考图集（Deck）</h3>
+<ul><li>卡片上点“＋图集”收藏，组成一个视觉方案；图集里可以拖动排序、给每个镜头写备注、写整体方案说明。</li>
+<li>分享给导演、摄影、美术或客户：复制分享链接（对方打开即看到同一套镜头和备注）；导出方案页（单个 HTML 文件，微信、邮件直接发）；打印或存 PDF（本机有截帧时会带上真实截帧）；导出提示词 TXT（整套复刻提示词）。</li></ul>
+<h3>研究电影风格</h3>
+<ul><li>“风格对照”里并排比较 2–4 个镜头，或选 2–3 部作品、导演、摄影指导，看他们在景别、光调、色调、构图、情绪上的分布和整片色板。</li>
+<li>“作品库”按作品浏览，每部作品有整片色板条和全片视觉策略一句话。</li></ul>
+<h3>数据状态与更新</h3>
+<ul><li>所有记录默认“待核”：镜头描述、器材信息来自公开资料和模型记忆，需对照原片核验；核过的改“已核”。摄影机、镜头只写业内公开记载，拿不准写“未公开”。</li>
+<li>每天 0:00 随图库一起自动扩容（新增作品与镜头），并刷新对标网站的公开数字。</li></ul>
+</div></section>
+</main>
+<dialog id="detail"><div class="dh"><h2 id="dTitle"></h2><div class="nav"><button id="dPrev">← 上一个</button><button id="dNext">下一个 →</button><button id="dAdd" class="pri">＋ 加入图集</button><button id="dCmp">加入对照</button><button id="dClose">关闭</button></div></div><div id="dBody"></div></dialog>
+<dialog id="pick"><div class="dh"><h2>加入哪个参考图集？</h2><button id="pClose">取消</button></div><div style="padding:18px 22px"><div id="pList"></div><div class="btns"><input id="pNew" placeholder="或输入新图集名称" style="flex:1"><button class="pri" id="pNewBtn">新建并加入</button></div></div></dialog>
+<div id="toast"></div><div id="printArea"></div>
+<script>
+const VOCAB={"facets":[{"key":"type","name":"类型","level":"work","multi":false,"groups":[{"name":"","values":["电影","剧集"]}]},{"key":"kinds","name":"片种","level":"work","multi":true,"groups":[{"name":"电影","values":["经典电影","新片","独立电影","艺术电影","国际电影","类型片","纪录电影","动画电影"]},{"name":"剧集","values":["剧情剧集","迷你剧","纪录剧集","动画剧集","国际剧集"]}]},{"key":"region","name":"地区","level":"work","multi":false,"groups":[{"name":"华语","values":["中国大陆","中国香港","中国台湾"]},{"name":"亚洲","values":["日本","韩国","东南亚","印度","伊朗","中东其他"]},{"name":"欧美","values":["美国","加拿大","英国","爱尔兰","法国","意大利","德国","西班牙","北欧","俄罗斯/苏联","东欧"]},{"name":"其他","values":["拉丁美洲","澳大利亚/新西兰","非洲","其他"]}]},{"key":"decade","name":"年代","level":"auto","multi":false,"groups":[{"name":"","values":["1920年代","1930年代","1940年代","1950年代","1960年代","1970年代","1980年代","1990年代","2000年代","2010年代","2020年代"]}]},{"key":"format","name":"拍摄格式","level":"work","multi":false,"groups":[{"name":"","values":["35毫米胶片","65/70毫米胶片","16毫米胶片","IMAX胶片","数字","数字大画幅","胶片数字混合","未公开"]}]},{"key":"cam","name":"摄影机","level":"auto","multi":false,"groups":[{"name":"","values":["ARRI","Panavision","Sony","RED","IMAX","Blackmagic","Canon","Aaton","Mitchell","其他","未公开"]}]},{"key":"lensb","name":"镜头品牌","level":"auto","multi":false,"groups":[{"name":"","values":["Cooke","Zeiss","Panavision","Leica","ARRI","Angénieux","Canon","Hawk","Atlas","Lomo","Kowa","Todd-AO","其他","未公开"]}]},{"key":"optic","name":"镜头光学","level":"auto","multi":false,"groups":[{"name":"","values":["变形宽银幕","球面","未公开"]}]},{"key":"ar","name":"画幅","level":"work","multi":false,"groups":[{"name":"","values":["1.19:1","1.33:1","1.37:1","1.43:1","1.50:1","1.66:1","1.78:1","1.85:1","1.90:1","2.00:1","2.20:1","2.35:1","2.39:1","2.55:1","2.76:1","可变画幅"]}]},{"key":"size","name":"景别","level":"shot","multi":false,"groups":[{"name":"","values":["大远景","远景","全景","中景","近景","特写","大特写"]}]},{"key":"angle","name":"机位角度","level":"shot","multi":false,"groups":[{"name":"","values":["平视","仰拍","俯拍","顶拍","低机位","荷兰角","航拍"]}]},{"key":"frame","name":"画面人物","level":"shot","multi":false,"groups":[{"name":"","values":["单人","双人","三人","群像","过肩","主观视角","插入镜头","空镜"]}]},{"key":"move","name":"运镜","level":"shot","multi":true,"groups":[{"name":"","values":["固定","推","拉","摇","横移","跟拍","升降","手持","斯坦尼康","航拍运动","变焦","希区柯克变焦","甩镜","长镜头","慢动作","快动作","环绕"]}]},{"key":"lens_type","name":"镜头焦段","level":"shot","multi":false,"groups":[{"name":"","values":["超广角","广角","标准","长焦","超长焦","微距","鱼眼","移轴"]}]},{"key":"dof","name":"景深","level":"shot","multi":false,"groups":[{"name":"","values":["浅景深","常规景深","深焦"]}]},{"key":"light","name":"灯光","level":"shot","multi":true,"groups":[{"name":"光质","values":["硬光","柔光"]},{"name":"调性","values":["高调","低调","高反差","低反差","剪影"]},{"name":"光位","values":["顺光","侧光","逆光","轮廓光","顶光","底光","伦勃朗光"]},{"name":"光源","values":["日光","阴天散射光","月光","窗光","实景光源","烛火","火光","霓虹","荧光灯","路灯","车灯","屏幕光","闪电","混合光"]}]},{"key":"ld","name":"主光方向","level":"shot","multi":false,"groups":[{"name":"","values":["左","右","顶","后","底","前"]}]},{"key":"time","name":"时间","level":"shot","multi":false,"groups":[{"name":"","values":["白天","清晨","黄昏","日落金光","蓝调时刻","夜晚","不可辨"]}]},{"key":"weather","name":"天气","level":"shot","multi":false,"groups":[{"name":"","values":["晴","阴","雨","雪","雾","风沙","烟尘","室内不可见"]}]},{"key":"ie","name":"内外景","level":"shot","multi":false,"groups":[{"name":"","values":["内景","外景","内外"]}]},{"key":"loc","name":"地点","level":"shot","multi":true,"groups":[{"name":"居住","values":["居室","卧室","厨房","浴室","走廊","楼梯","庭院","屋顶","地下室","电梯"]},{"name":"工作与公共","values":["办公室","会议室","学校","图书馆","医院","法庭","监狱","警局","工厂","仓库","实验室","矿井"]},{"name":"消费娱乐","values":["餐厅","酒吧","咖啡馆","夜总会","商店","市场","旅馆","剧院","舞台","赌场","泳池","体育场","公园"]},{"name":"宗教宫廷","values":["教堂","寺庙","宫殿","墓地","废墟","博物馆"]},{"name":"交通","values":["车内","火车","地铁","飞机","船","车站","停车场","公路","加油站","桥","隧道","电话亭"]},{"name":"城市","values":["街道","小巷","城市天际线"]},{"name":"自然","values":["乡村","田野","森林","山地","沙漠","雪原","海边","湖河","水下"]},{"name":"特殊","values":["太空","战场","摄影棚"]}]},{"key":"color","name":"色彩","level":"shot","multi":true,"groups":[{"name":"色调","values":["暖调","冷调","冷暖对比","中性"]},{"name":"饱和","values":["高饱和","低饱和","单色","黑白"]},{"name":"主色","values":["红","橙","黄","金","绿","青","蓝","紫","品红","粉","棕褐","白","黑"]}]},{"key":"comp","name":"构图","level":"shot","multi":true,"groups":[{"name":"","values":["居中","三分法","对称","框中框","引导线","前景遮挡","负空间","对角线","纵深调度","短边构图","倒影镜像","重复图形","分割画面","低地平线","高地平线","失衡构图"]}]},{"key":"pos","name":"主体位置","level":"shot","multi":false,"groups":[{"name":"","values":["左","中","右"]}]},{"key":"emo","name":"人物情绪","level":"shot","multi":true,"groups":[{"name":"低落","values":["孤独","压抑","悲伤","绝望","迷惘","疏离","窒息"]},{"name":"紧张","values":["紧张","恐惧","危险","愤怒","疯狂","决绝"]},{"name":"温暖","values":["喜悦","温情","浪漫","暧昧","欲望","希望","释然","怀旧"]},{"name":"其他","values":["平静","敬畏","威严","荒诞","梦幻","神秘","无人物"]}]},{"key":"st","name":"核验","level":"auto","multi":false,"groups":[{"name":"","values":["待核","已核"]}]},{"key":"hasfr","name":"截帧","level":"auto","multi":false,"groups":[{"name":"","values":["有截帧","无截帧"]}]}]},SYN={"大全景":"size:大远景","极远景":"size:大远景","全身":"size:全景","中全景":"size:全景","半身":"size:中景","中近景":"size:近景","胸像":"size:近景","人物特写":"size:特写","脸部特写":"size:特写","面部特写":"size:特写","细节特写":"size:大特写","眼部特写":"size:大特写","extreme wide":"size:大远景","ews":"size:大远景","wide shot":"size:远景","wide":"size:远景","full shot":"size:全景","medium wide":"size:全景","medium shot":"size:中景","medium":"size:中景","medium close-up":"size:近景","mcu":"size:近景","close-up":"size:特写","closeup":"size:特写","close up":"size:特写","cu":"size:特写","extreme close-up":"size:大特写","ecu":"size:大特写","仰视":"angle:仰拍","仰角":"angle:仰拍","俯视":"angle:俯拍","俯角":"angle:俯拍","鸟瞰":"angle:顶拍","垂直俯拍":"angle:顶拍","上帝视角":"angle:顶拍","倾斜构图":"angle:荷兰角","斜角":"angle:荷兰角","低角度":"angle:低机位","平拍":"angle:平视","low angle":"angle:仰拍","high angle":"angle:俯拍","overhead":"angle:顶拍","top-down":"angle:顶拍","dutch":"angle:荷兰角","dutch angle":"angle:荷兰角","aerial":"angle:航拍","eye level":"angle:平视","单人镜头":"frame:单人","双人镜头":"frame:双人","群戏":"frame:群像","人群":"frame:群像","过肩镜头":"frame:过肩","主观镜头":"frame:主观视角","空镜头":"frame:空镜","物件特写":"frame:插入镜头","single":"frame:单人","two shot":"frame:双人","two-shot":"frame:双人","group":"frame:群像","crowd":"frame:群像","ots":"frame:过肩","over the shoulder":"frame:过肩","pov":"frame:主观视角","insert":"frame:插入镜头","推镜":"move:推","推进":"move:推","拉镜":"move:拉","拉远":"move:拉","摇镜":"move:摇","移镜":"move:横移","跟镜":"move:跟拍","摇臂":"move:升降","升降镜头":"move:升降","手持摄影":"move:手持","稳定器":"move:斯坦尼康","滑动变焦":"move:希区柯克变焦","眩晕变焦":"move:希区柯克变焦","甩镜头":"move:甩镜","一镜到底":"move:长镜头","长镜":"move:长镜头","升格":"move:慢动作","降格":"move:快动作","环绕运镜":"move:环绕","static":"move:固定","push in":"move:推","dolly in":"move:推","pull out":"move:拉","pan":"move:摇","tracking":"move:横移","crane":"move:升降","handheld":"move:手持","steadicam":"move:斯坦尼康","zoom":"move:变焦","dolly zoom":"move:希区柯克变焦","whip pan":"move:甩镜","long take":"move:长镜头","oner":"move:长镜头","slow motion":"move:慢动作","orbit":"move:环绕","广角镜头":"lens_type:广角","长焦镜头":"lens_type:长焦","望远镜头":"lens_type:超长焦","标准镜头":"lens_type:标准","微距镜头":"lens_type:微距","鱼眼镜头":"lens_type:鱼眼","wide lens":"lens_type:广角","telephoto":"lens_type:长焦","macro":"lens_type:微距","fisheye":"lens_type:鱼眼","tilt-shift":"lens_type:移轴","背景虚化":"dof:浅景深","虚化":"dof:浅景深","大光圈":"dof:浅景深","全景深":"dof:深焦","深景深":"dof:深焦","shallow":"dof:浅景深","deep focus":"dof:深焦","散射光":"light:柔光","高调光":"light:高调","低调光":"light:低调","暗调":"light:低调","强反差":"light:高反差","明暗对比":"light:高反差","背光":"light:逆光","逆光剪影":["light:逆光","light:剪影"],"轮廓":"light:轮廓光","发丝光":"light:轮廓光","脚光":"light:底光","伦勃朗":"light:伦勃朗光","自然光":"light:日光","阳光":"light:日光","太阳光":"light:日光","月色":"light:月光","窗户光":"light:窗光","窗边光":"light:窗光","实景灯":"light:实景光源","实用光源":"light:实景光源","台灯":"light:实景光源","蜡烛":"light:烛火","烛光":"light:烛火","篝火":"light:火光","火焰":"light:火光","霓虹灯":"light:霓虹","日光灯":"light:荧光灯","电视光":"light:屏幕光","手机光":"light:屏幕光","雷电":"light:闪电","hard light":"light:硬光","soft light":"light:柔光","high key":"light:高调","low key":"light:低调","high contrast":"light:高反差","low contrast":"light:低反差","silhouette":"light:剪影","side light":"light:侧光","backlight":"light:逆光","backlit":"light:逆光","rim light":"light:轮廓光","top light":"light:顶光","underlight":"light:底光","rembrandt":"light:伦勃朗光","daylight":"light:日光","sunlight":"light:日光","moonlight":"light:月光","window light":"light:窗光","practical":"light:实景光源","candle":"light:烛火","candlelight":"light:烛火","firelight":"light:火光","neon":"light:霓虹","fluorescent":"light:荧光灯","streetlight":"light:路灯","headlights":"light:车灯","lightning":"light:闪电","mixed light":"light:混合光","日景":"time:白天","白日":"time:白天","日间":"time:白天","中午":"time:白天","早晨":"time:清晨","黎明":"time:清晨","拂晓":"time:清晨","日出":"time:清晨","傍晚":"time:黄昏","夕阳":"time:日落金光","日落":"time:日落金光","魔幻时刻":"time:日落金光","黄金时刻":"time:日落金光","蓝调":"time:蓝调时刻","蓝色时刻":"time:蓝调时刻","夜":"time:夜晚","夜景":"time:夜晚","晚上":"time:夜晚","夜里":"time:夜晚","深夜":"time:夜晚","夜间":"time:夜晚","雨夜":["time:夜晚","weather:雨"],"雪夜":["time:夜晚","weather:雪"],"day":"time:白天","dawn":"time:清晨","sunrise":"time:清晨","dusk":"time:黄昏","sunset":"time:日落金光","golden hour":"time:日落金光","magic hour":"time:日落金光","blue hour":"time:蓝调时刻","night":"time:夜晚","晴天":"weather:晴","阴天":"weather:阴","下雨":"weather:雨","雨天":"weather:雨","大雨":"weather:雨","暴雨":"weather:雨","下雪":"weather:雪","雪天":"weather:雪","大雾":"weather:雾","雾气":"weather:雾","薄雾":"weather:雾","沙尘":"weather:风沙","烟雾":"weather:烟尘","硝烟":"weather:烟尘","sunny":"weather:晴","rain":"weather:雨","rainy":"weather:雨","snow":"weather:雪","fog":"weather:雾","foggy":"weather:雾","mist":"weather:雾","smoke":"weather:烟尘","dust":"weather:风沙","室内":"ie:内景","屋内":"ie:内景","室外":"ie:外景","户外":"ie:外景","透窗":"ie:内外","interior":"ie:内景","int":"ie:内景","exterior":"ie:外景","ext":"ie:外景","暖色":"color:暖调","暖色调":"color:暖调","冷色":"color:冷调","冷色调":"color:冷调","冷暖":"color:冷暖对比","互补色":"color:冷暖对比","撞色":"color:冷暖对比","鲜艳":"color:高饱和","浓烈":"color:高饱和","灰调":"color:低饱和","去饱和":"color:低饱和","淡雅":"color:低饱和","黑白片":"color:黑白","单色调":"color:单色","红色":"color:红","大红":"color:红","橙色":"color:橙","橘色":"color:橙","黄色":"color:黄","金色":"color:金","绿色":"color:绿","墨绿":"color:绿","青色":"color:青","蓝色":"color:蓝","藏蓝":"color:蓝","深蓝":"color:蓝","紫色":"color:紫","品红色":"color:品红","洋红":"color:品红","粉色":"color:粉","粉红":"color:粉","棕色":"color:棕褐","褐色":"color:棕褐","棕褐色":"color:棕褐","白色":"color:白","黑色":"color:黑","warm":"color:暖调","cool":"color:冷调","cold":"color:冷调","saturated":"color:高饱和","desaturated":"color:低饱和","monochrome":"color:单色","black and white":"color:黑白","b&w":"color:黑白","red":"color:红","orange":"color:橙","yellow":"color:黄","gold":"color:金","golden":"color:金","green":"color:绿","cyan":"color:青","teal":"color:青","blue":"color:蓝","purple":"color:紫","magenta":"color:品红","pink":"color:粉","brown":"color:棕褐","sepia":"color:棕褐","white":"color:白","black":"color:黑","中心构图":"comp:居中","居中构图":"comp:居中","三分":"comp:三分法","九宫格":"comp:三分法","对称构图":"comp:对称","画中框":"comp:框中框","框架构图":"comp:框中框","门框":"comp:框中框","窗框":"comp:框中框","汇聚线":"comp:引导线","透视线":"comp:引导线","前景":"comp:前景遮挡","遮挡":"comp:前景遮挡","留白":"comp:负空间","大留白":"comp:负空间","对角线构图":"comp:对角线","纵深":"comp:纵深调度","景深调度":"comp:纵深调度","反向构图":"comp:短边构图","倒影":"comp:倒影镜像","镜像":"comp:倒影镜像","镜子":"comp:倒影镜像","重复":"comp:重复图形","图案":"comp:重复图形","分割":"comp:分割画面","分屏":"comp:分割画面","失衡":"comp:失衡构图","不平衡":"comp:失衡构图","center":"comp:居中","centered":"comp:居中","rule of thirds":"comp:三分法","symmetry":"comp:对称","symmetrical":"comp:对称","frame within frame":"comp:框中框","frame in a frame":"comp:框中框","leading lines":"comp:引导线","foreground":"comp:前景遮挡","negative space":"comp:负空间","diagonal":"comp:对角线","deep staging":"comp:纵深调度","short side":"comp:短边构图","reflection":"comp:倒影镜像","pattern":"comp:重复图形","split screen":"comp:分割画面","寂寞":"emo:孤独","孤单":"emo:孤独","孤寂":"emo:孤独","压迫":"emo:压抑","沉重":"emo:压抑","紧张感":"emo:紧张","悬疑":"emo:紧张","焦虑":"emo:紧张","恐怖":"emo:恐惧","害怕":"emo:恐惧","惊恐":"emo:恐惧","哀伤":"emo:悲伤","伤感":"emo:悲伤","忧郁":"emo:悲伤","哀悼":"emo:悲伤","暴怒":"emo:愤怒","快乐":"emo:喜悦","欢乐":"emo:喜悦","开心":"emo:喜悦","温馨":"emo:温情","温暖":"emo:温情","亲情":"emo:温情","爱情":"emo:浪漫","性感":"emo:欲望","情欲":"emo:欲望","迷茫":"emo:迷惘","困惑":"emo:迷惘","冷漠":"emo:疏离","隔阂":"emo:疏离","疏离感":"emo:疏离","宁静":"emo:平静","安静":"emo:平静","平和":"emo:平静","崇高":"emo:敬畏","震撼":"emo:敬畏","壮丽":"emo:敬畏","怀念":"emo:怀旧","乡愁":"emo:怀旧","荒谬":"emo:荒诞","黑色幽默":"emo:荒诞","癫狂":"emo:疯狂","疯癫":"emo:疯狂","决心":"emo:决绝","坚定":"emo:决绝","窒息感":"emo:窒息","幽闭":"emo:窒息","解脱":"emo:释然","权威":"emo:威严","庄严":"emo:威严","危机":"emo:危险","凶险":"emo:危险","梦境":"emo:梦幻","超现实":"emo:梦幻","诡秘":"emo:神秘","神秘感":"emo:神秘","lonely":"emo:孤独","loneliness":"emo:孤独","isolation":"emo:孤独","oppressive":"emo:压抑","tense":"emo:紧张","tension":"emo:紧张","fear":"emo:恐惧","dread":"emo:恐惧","sad":"emo:悲伤","sadness":"emo:悲伤","grief":"emo:悲伤","anger":"emo:愤怒","angry":"emo:愤怒","joy":"emo:喜悦","happy":"emo:喜悦","romantic":"emo:浪漫","romance":"emo:浪漫","desire":"emo:欲望","confused":"emo:迷惘","detached":"emo:疏离","calm":"emo:平静","peaceful":"emo:平静","awe":"emo:敬畏","hope":"emo:希望","despair":"emo:绝望","nostalgia":"emo:怀旧","nostalgic":"emo:怀旧","absurd":"emo:荒诞","madness":"emo:疯狂","determined":"emo:决绝","claustrophobic":"emo:窒息","relief":"emo:释然","danger":"emo:危险","dreamy":"emo:梦幻","surreal":"emo:梦幻","mysterious":"emo:神秘","mystery":"emo:神秘","影片":"type:电影","film":"type:电影","movie":"type:电影","电视剧":"type:剧集","连续剧":"type:剧集","美剧":["type:剧集","region:美国"],"韩剧":["type:剧集","region:韩国"],"日剧":["type:剧集","region:日本"],"英剧":["type:剧集","region:英国"],"国产剧":["type:剧集","region:中国大陆"],"tv":"type:剧集","series":"type:剧集","老片":"kinds:经典电影","经典":"kinds:经典电影","最新":"kinds:新片","独立":"kinds:独立电影","独立制片":"kinds:独立电影","艺术片":"kinds:艺术电影","文艺片":"kinds:艺术电影","作者电影":"kinds:艺术电影","外国片":"kinds:国际电影","外语片":"kinds:国际电影","商业片":"kinds:类型片","纪录片":"kinds:纪录电影","动画片":"kinds:动画电影","动画":"kinds:动画电影","迷你剧集":"kinds:迷你剧","限定剧":"kinds:迷你剧","纪录系列":"kinds:纪录剧集","classic":"kinds:经典电影","indie":"kinds:独立电影","independent":"kinds:独立电影","arthouse":"kinds:艺术电影","documentary":"kinds:纪录电影","animation":"kinds:动画电影","miniseries":"kinds:迷你剧","docuseries":"kinds:纪录剧集","大陆":"region:中国大陆","内地":"region:中国大陆","国产":"region:中国大陆","香港":"region:中国香港","港片":"region:中国香港","台湾":"region:中国台湾","台片":"region:中国台湾","日片":"region:日本","韩片":"region:韩国","好莱坞":"region:美国","瑞典":"region:北欧","丹麦":"region:北欧","挪威":"region:北欧","芬兰":"region:北欧","冰岛":"region:北欧","俄罗斯":"region:俄罗斯/苏联","苏联":"region:俄罗斯/苏联","波兰":"region:东欧","匈牙利":"region:东欧","捷克":"region:东欧","罗马尼亚":"region:东欧","墨西哥":"region:拉丁美洲","巴西":"region:拉丁美洲","阿根廷":"region:拉丁美洲","智利":"region:拉丁美洲","泰国":"region:东南亚","越南":"region:东南亚","菲律宾":"region:东南亚","新加坡":"region:东南亚","马来西亚":"region:东南亚","澳大利亚":"region:澳大利亚/新西兰","澳洲":"region:澳大利亚/新西兰","新西兰":"region:澳大利亚/新西兰","以色列":"region:中东其他","土耳其":"region:中东其他","黎巴嫩":"region:中东其他","客厅":"loc:居室","房间":"loc:居室","公寓":"loc:居室","卧房":"loc:卧室","卫生间":"loc:浴室","洗手间":"loc:浴室","浴缸":"loc:浴室","过道":"loc:走廊","楼道":"loc:走廊","楼梯间":"loc:楼梯","台阶":"loc:楼梯","写字楼":"loc:办公室","饭店":"loc:餐厅","餐馆":"loc:餐厅","食堂":"loc:餐厅","酒馆":"loc:酒吧","夜店":"loc:夜总会","舞厅":"loc:夜总会","咖啡店":"loc:咖啡馆","超市":"loc:商店","便利店":"loc:商店","店铺":"loc:商店","菜市场":"loc:市场","集市":"loc:市场","酒店":"loc:旅馆","宾馆":"loc:旅馆","汽车旅馆":"loc:旅馆","病房":"loc:医院","手术室":"loc:医院","教室":"loc:学校","校园":"loc:学校","礼拜堂":"loc:教堂","大教堂":"loc:教堂","寺院":"loc:寺庙","道观":"loc:寺庙","皇宫":"loc:宫殿","王宫":"loc:宫殿","城堡":"loc:宫殿","法院":"loc:法庭","牢房":"loc:监狱","警察局":"loc:警局","车间":"loc:工厂","厂房":"loc:工厂","库房":"loc:仓库","地窖":"loc:地下室","汽车内":"loc:车内","车里":"loc:车内","出租车":"loc:车内","列车":"loc:火车","车厢":"loc:火车","地铁站":"loc:地铁","机舱":"loc:飞机","轮船":"loc:船","船舱":"loc:船","渔船":"loc:船","马路":"loc:街道","街头":"loc:街道","大街":"loc:街道","胡同":"loc:小巷","巷子":"loc:小巷","天际线":"loc:城市天际线","天台":"loc:屋顶","楼顶":"loc:屋顶","大桥":"loc:桥","火车站":"loc:车站","汽车站":"loc:车站","站台":"loc:车站","停车库":"loc:停车场","高速公路":"loc:公路","油站":"loc:加油站","村庄":"loc:乡村","农村":"loc:乡村","麦田":"loc:田野","稻田":"loc:田野","草原":"loc:田野","树林":"loc:森林","丛林":"loc:森林","竹林":"loc:森林","高山":"loc:山地","山谷":"loc:山地","荒漠":"loc:沙漠","戈壁":"loc:沙漠","雪地":"loc:雪原","冰原":"loc:雪原","海滩":"loc:海边","大海":"loc:海边","河边":"loc:湖河","湖边":"loc:湖河","江边":"loc:湖河","水中":"loc:水下","宇宙":"loc:太空","飞船":"loc:太空","战壕":"loc:战场","前线":"loc:战场","剧场":"loc:剧院","电影院":"loc:剧院","遗迹":"loc:废墟","地道":"loc:隧道","墓园":"loc:墓地","坟地":"loc:墓地","院子":"loc:庭院","四合院":"loc:庭院","游泳池":"loc:泳池","球场":"loc:体育场","体育馆":"loc:体育场","书房":"loc:图书馆","藏书楼":"loc:图书馆","阅览室":"loc:图书馆","矿洞":"loc:矿井","煤矿":"loc:矿井","矿坑":"loc:矿井","美术馆":"loc:博物馆","展厅":"loc:博物馆","画廊":"loc:博物馆","片场":"loc:摄影棚","影棚":"loc:摄影棚","bedroom":"loc:卧室","kitchen":"loc:厨房","bathroom":"loc:浴室","hallway":"loc:走廊","corridor":"loc:走廊","stairs":"loc:楼梯","staircase":"loc:楼梯","office":"loc:办公室","restaurant":"loc:餐厅","diner":"loc:餐厅","bar":"loc:酒吧","cafe":"loc:咖啡馆","nightclub":"loc:夜总会","store":"loc:商店","shop":"loc:商店","market":"loc:市场","hotel":"loc:旅馆","motel":"loc:旅馆","hospital":"loc:医院","school":"loc:学校","classroom":"loc:学校","church":"loc:教堂","temple":"loc:寺庙","palace":"loc:宫殿","castle":"loc:宫殿","courtroom":"loc:法庭","prison":"loc:监狱","jail":"loc:监狱","factory":"loc:工厂","warehouse":"loc:仓库","laboratory":"loc:实验室","basement":"loc:地下室","car":"loc:车内","car interior":"loc:车内","train":"loc:火车","subway":"loc:地铁","airplane":"loc:飞机","boat":"loc:船","ship":"loc:船","street":"loc:街道","alley":"loc:小巷","skyline":"loc:城市天际线","rooftop":"loc:屋顶","bridge":"loc:桥","station":"loc:车站","parking lot":"loc:停车场","road":"loc:公路","highway":"loc:公路","gas station":"loc:加油站","village":"loc:乡村","field":"loc:田野","forest":"loc:森林","woods":"loc:森林","mountain":"loc:山地","mountains":"loc:山地","desert":"loc:沙漠","beach":"loc:海边","sea":"loc:海边","ocean":"loc:海边","river":"loc:湖河","lake":"loc:湖河","underwater":"loc:水下","space":"loc:太空","battlefield":"loc:战场","stage":"loc:舞台","theater":"loc:剧院","theatre":"loc:剧院","casino":"loc:赌场","ruins":"loc:废墟","tunnel":"loc:隧道","cemetery":"loc:墓地","courtyard":"loc:庭院","pool":"loc:泳池","elevator":"loc:电梯","park":"loc:公园","stadium":"loc:体育场","library":"loc:图书馆","mine":"loc:矿井","museum":"loc:博物馆","gallery":"loc:博物馆","studio":"loc:摄影棚"},EN={"大远景":"extreme wide shot","远景":"wide shot","全景":"full shot","中景":"medium shot","近景":"medium close-up","特写":"close-up","大特写":"extreme close-up","平视":"eye level","仰拍":"low angle","俯拍":"high angle","顶拍":"overhead","低机位":"ground level","荷兰角":"dutch angle","航拍":"aerial","单人":"single","双人":"two people","三人":"three people","群像":"crowd","过肩":"over the shoulder","主观视角":"pov","插入镜头":"insert detail","空镜":"empty","硬光":"hard light","柔光":"soft light","高调":"high key","低调":"low key","高反差":"high contrast","低反差":"low contrast","剪影":"silhouette","顺光":"front light","侧光":"side light","逆光":"backlight","轮廓光":"rim light","顶光":"top light","底光":"under light","伦勃朗光":"rembrandt light","日光":"sunlight","阴天散射光":"overcast light","月光":"moonlight","窗光":"window light","实景光源":"practical lamp","烛火":"candlelight","火光":"firelight","霓虹":"neon","荧光灯":"fluorescent light","路灯":"streetlight","车灯":"headlights","屏幕光":"screen glow","闪电":"lightning","混合光":"mixed light","白天":"day","清晨":"dawn","黄昏":"dusk","日落金光":"golden hour","蓝调时刻":"blue hour","夜晚":"night","雨":"rain","雪":"snow","雾":"fog","风沙":"dust storm","烟尘":"smoke","阴":"overcast","内景":"interior","外景":"exterior","内外":"through window","暖调":"warm","冷调":"cool","冷暖对比":"warm and cool contrast","高饱和":"saturated","低饱和":"desaturated","单色":"monochrome","黑白":"black and white","红":"red","橙":"orange","黄":"yellow","金":"golden","绿":"green","青":"teal","蓝":"blue","紫":"purple","品红":"magenta","粉":"pink","棕褐":"sepia brown","白":"white","黑":"black","居中":"centered","三分法":"rule of thirds","对称":"symmetrical","框中框":"frame within frame","引导线":"leading lines","前景遮挡":"foreground framing","负空间":"negative space","对角线":"diagonal","纵深调度":"deep staging","短边构图":"short siding","倒影镜像":"reflection","重复图形":"pattern","分割画面":"split frame","低地平线":"low horizon","高地平线":"high horizon","失衡构图":"unbalanced","浅景深":"shallow depth of field","深焦":"deep focus","居室":"living room","卧室":"bedroom","厨房":"kitchen","浴室":"bathroom","走廊":"hallway","楼梯":"stairs","庭院":"courtyard","屋顶":"rooftop","地下室":"basement","电梯":"elevator","办公室":"office","会议室":"conference room","学校":"classroom","医院":"hospital","法庭":"courtroom","监狱":"prison","警局":"police station","工厂":"factory","仓库":"warehouse","实验室":"laboratory","餐厅":"restaurant","酒吧":"bar","咖啡馆":"cafe","夜总会":"nightclub","商店":"store","市场":"market","旅馆":"hotel","剧院":"theater","舞台":"stage","赌场":"casino","泳池":"swimming pool","体育场":"stadium","公园":"park","教堂":"church","寺庙":"temple","宫殿":"palace","墓地":"cemetery","废墟":"ruins","车内":"car interior","火车":"train","地铁":"subway","飞机":"airplane","船":"boat","车站":"train station","停车场":"parking lot","公路":"road","加油站":"gas station","桥":"bridge","隧道":"tunnel","电话亭":"phone booth","街道":"street","小巷":"alley","城市天际线":"city skyline","乡村":"countryside","田野":"field","森林":"forest","山地":"mountains","沙漠":"desert","雪原":"snowfield","海边":"beach","湖河":"river","水下":"underwater","太空":"space","战场":"war zone","图书馆":"library","矿井":"mine shaft","博物馆":"museum","摄影棚":"film studio","孤独":"lonely","压抑":"oppressive","悲伤":"sad","绝望":"despair","迷惘":"lost","疏离":"detached","窒息":"claustrophobic","紧张":"tense","恐惧":"fear","危险":"danger","愤怒":"anger","疯狂":"madness","决绝":"determined","喜悦":"joy","温情":"tender","浪漫":"romantic","暧昧":"longing","欲望":"desire","希望":"hope","释然":"relief","怀旧":"nostalgic","平静":"calm","敬畏":"awe","威严":"imposing","荒诞":"absurd","梦幻":"dreamlike","神秘":"mysterious","推":"push in","拉":"pull out","摇":"pan","横移":"tracking","跟拍":"follow","升降":"crane","手持":"handheld","斯坦尼康":"steadicam","航拍运动":"drone","变焦":"zoom","希区柯克变焦":"dolly zoom","甩镜":"whip pan","长镜头":"long take","慢动作":"slow motion","快动作":"fast motion","环绕":"orbit"},SHOTCAFE={"白天":"day","夜晚":"night","日落金光":"sunset","内景":"interior","外景":"exterior","大远景":"extreme wide","远景":"wide shot","全景":"medium wide","中景":"medium shot","近景":"medium close-up","特写":"close-up","大特写":"extreme close-up","仰拍":"low-angle","俯拍":"high-angle","顶拍":"overhead","荷兰角":"dutch-angle","航拍":"aerial","单人":"clean single","双人":"two-shot","三人":"three-shot","群像":"group-shot","过肩":"over-the-shoulder","插入镜头":"insert","剪影":"silhouette","实景光源":"practical lamp","烛火":"candlelight","火光":"fire light","霓虹":"neon","荧光灯":"fluorescent light","黑白":"black and white","框中框":"frame in a frame","倒影镜像":"reflection","雨":"rain","雪":"snow","烟尘":"smoke","卧室":"bedroom","厨房":"kitchen","浴室":"bathroom","走廊":"hallway","楼梯":"stairs","居室":"living room","屋顶":"rooftop","地下室":"basement","办公室":"office","会议室":"conference room","学校":"classroom","医院":"hospital","监狱":"prison","警局":"police station","仓库":"warehouse","餐厅":"restaurant","酒吧":"bar","商店":"store","旅馆":"motel","剧院":"theatre","舞台":"stage","泳池":"swimming pool","教堂":"church","车内":"car interior","火车":"train","飞机":"airplane","船":"boat","车站":"train station","停车场":"parking lot","公路":"road","桥":"bridge","隧道":"tunnel","街道":"street","城市天际线":"city","乡村":"countryside","田野":"field","森林":"forest","山地":"mountains","沙漠":"desert","海边":"beach","湖河":"river","水下":"underwater","太空":"space","战场":"war zone"},EYECANDY={"希区柯克变焦":"dolly-zoom","甩镜":"whip-pan","摇":"pan","变焦":"zoom-in","分割画面":"split-screen"},BENCH={"checked":"2026-09-30","shotdeck":[["截图总量","官网称“数百万张”","概括规模，未给精确实时数字"],["明确数字记录","官方活动页写 160 万张以上","页面未标明统计日期，不能当成今天的实时总量"],["作品总量","官网称“数千部作品”","电影、剧集、MV、广告四种来源合计，未给精确数字"],["各来源分别数量","未查到完整官方统计","无法可靠列出电影、剧集、MV、广告各有多少"],["更新规模示例","2026 年 2 月新增超过 5 万张","单月增量，不是总量"],["收录范围","电影 Film：经典电影、新片、独立电影、国际电影、艺术电影；剧集 TV：剧集画面，含纪录剧集；另有 MV、广告","本板块的“类型／片种”分面照此设置"],["标签体系","每张图人工打标 30 多类、50 多个关键词：主创、类型、摄影机、镜头、景别构图、灯光、色彩、地点、演员情绪等","本板块的分面筛选照此设计"]],"shotdeck_note":"以上 ShotDeck 数字来自用户整理的资料（2026-09-30）；ShotDeck 网站开启了人机验证，脚本无法访问，未自动核对。","sites":[{"name":"Flim","url":"https://flim.ai/","source":"电影、剧集、广告、MV 等；截图与视频片段","search":"自然语言搜索、以图搜图、色彩与景别筛选；可建立参考板","scale":"官方不同页面写 150 万＋至 200 万＋截图，口径有差异；有免费层，完整图库需订阅","borrow":"顶部“描述你要的画面”智能搜索（自动识别标签）；以图找色、按颜色找","live":"首页：1.5M 张截图、400K 段视频、5.8K 部电影、2K 部剧集、15K 支广告、5.5K 支 MV、150K 段动画","live_date":"2026-09-30"},{"name":"Frame Set","url":"https://frameset.app/search","source":"广告、MV、电影；静态画面与动态片段","search":"用完整句子描述镜头；收藏成 Sets，并制作导演阐述与提案","scale":"官方称数十万画面和动态片段；当前首页称搜索、Sets、Treatments 免费","borrow":"参考图集＋方案页导出（相当于 Treatment）；每个镜头一键带英文描述跳 Frame Set 找同类","live":"","live_date":""},{"name":"FilmGrab","url":"https://film-grab.com/","source":"以电影截图为主，人工精选","search":"按电影浏览，适合研究整部作品的光线、配色和构图","scale":"官方介绍称覆盖近 4,000 部电影；免费","borrow":"“作品库”按作品浏览、整片色板条；“风格指纹”对照整部作品；每部作品一键跳 FilmGrab 看原片截图","live":"关于页：4,000 films","live_date":"2026-09-30"},{"name":"SHOT.CAFE","url":"https://shot.cafe/","source":"电影截图","search":"白天／夜晚、内景／外景、景别、机位等标签，可组合检索","scale":"首页显示 24,321 张截图；规模较小","borrow":"标签组合检索；每个镜头一键跳 SHOT.CAFE 同标签组合","live":"首页：24,321 张截图、109,941 个标签、834 种颜色，来自 187 部电影和 23 支广告","live_date":"2026-09-30"},{"name":"Eyecandy","url":"https://eyecannndy.com/","source":"影视、广告、MV 等的动态片段与 GIF","search":"按推拉摇移、匹配剪辑、变速、分屏、视觉特效等技法分类","scale":"免费；本次未查到明确资源总量","borrow":"“运镜”分面（推拉摇移、甩镜、希区柯克变焦、慢动作…）；有对应技法页的镜头一键跳 Eyecandy","live":"","live_date":""}]};
+const DATA_DIR='d3';const SHARDS=[{"era": "__works__", "file": "00.js", "n": 124, "np": 0}, {"era": "镜头", "file": "01.js", "n": 610, "np": 0}];const FRAME_DIR='影视参考图集_截帧',JIMENG='https://jimeng.jianying.com/ai-tool/image/generate';
+const $=i=>document.getElementById(i),esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let WORKS=[],R=[],FR={},BYID=new Map(),BYW=new Map(),loaded=0;
+const FACETS=VOCAB.facets,FK={};FACETS.forEach(f=>{FK[f.key]=f;f.values=f.groups.flatMap(g=>g.values);});
+const WORK_KEYS=new Set(['type','kinds','region','decade','format','cam','lensb','optic','ar']);
+const MULTI=new Set(FACETS.filter(f=>f.multi).map(f=>f.key));
+const SHOW=['type','kinds','region','decade','size','angle','frame','move','lens_type','dof','light','time','weather','ie','loc','color','comp','emo','pos','ar','format','cam','lensb','optic','st','hasfr'];
+window.__SHARD__=(file,kind,recs)=>{if(kind==='__works__')WORKS=recs;else R.push(...recs);loaded++;};
+function loadScript(src){return new Promise(res=>{const t=document.createElement('script');t.src=src;t.onload=()=>res(true);t.onerror=()=>res(false);document.head.appendChild(t);});}
+function frOf(r){return FR[r.id]||(r.fk&&FR[r.fk])||null;}
+function val(r,k){if(k==='hasfr')return frOf(r)?'有截帧':'无截帧';if(WORK_KEYS.has(k))return r.W[k];return r[k];}
+function vals(r,k){const v=val(r,k);return v==null||v===''?[]:Array.isArray(v)?v:[v];}
+/* ---------- 颜色工具 ---------- */
+function rgb(h){h=h.replace('#','');return[parseInt(h.slice(0,2),16),parseInt(h.slice(2,4),16),parseInt(h.slice(4,6),16)];}
+function hex(c){return'#'+c.map(x=>Math.max(0,Math.min(255,Math.round(x))).toString(16).padStart(2,'0')).join('');}
+function lum(h){const[r,g,b]=rgb(h);return .2126*r+.7152*g+.0722*b;}
+function mix(a,b,t){const A=rgb(a),B=rgb(b);return hex(A.map((x,i)=>x+(B[i]-x)*t));}
+function sat(h){const[r,g,b]=rgb(h);const mx=Math.max(r,g,b),mn=Math.min(r,g,b);return mx?(mx-mn)/mx:0;}
+function lab(h){let[r,g,b]=rgb(h).map(v=>{v/=255;return v>.04045?Math.pow((v+.055)/1.055,2.4):v/12.92;});let x=(r*.4124+g*.3576+b*.1805)/.95047,y=r*.2126+g*.7152+b*.0722,z=(r*.0193+g*.1192+b*.9505)/1.08883;
+ const f=t=>t>.008856?Math.cbrt(t):7.787*t+16/116;x=f(x);y=f(y);z=f(z);return[116*y-16,500*(x-y),200*(y-z)];}
+function dE(a,b){const A=lab(a),B=lab(b);return Math.hypot(A[0]-B[0],A[1]-B[1],A[2]-B[2]);}
+function palOf(r){const f=frOf(r);return(f&&f.pal)||r.pal;}
+/* ---------- 示意图 ---------- */
+let SVGN=0;
+function parseAR(a){const m=/^(\d(?:\.\d+)?)/.exec(a||'');return m?parseFloat(m[1]):1.85;}
+function figPath(){return'M.455 .15L.545 .15L.55 .185C.6 .19 .67 .195 .7 .225C.725 .25 .73 .3 .73 .36L.735 .53L.7 .535L.69 .4L.675 .54L.655 1L.545 1L.515 .62L.485 .62L.455 1L.345 1L.325 .54L.31 .4L.3 .535L.265 .53L.27 .36C.27 .3 .275 .25 .3 .225C.33 .195 .4 .19 .45 .185Z';}
+const HEAD='<ellipse cx=".5" cy=".085" rx=".058" ry=".072"';
+function schem(r,W0){
+ const id='s'+(++SVGN),W=W0||640,ar=parseAR(r.W.ar),H=Math.round(W/ar);
+ const P=palOf(r).slice().sort((a,b)=>lum(a)-lum(b)),n=P.length,dark=P[0],d2=P[1]||P[0],mid=P[Math.floor(n/2)],l2=P[n-2]||P[n-1],light=P[n-1];
+ const L=new Set(r.light||[]),C=new Set(r.comp||[]),hi=L.has('高调'),lo=L.has('低调')||r.time==='夜晚',hard=L.has('硬光'),sil=L.has('剪影')||(r.ld==='后'&&L.has('逆光'));
+ const cont=L.has('高反差')?.95:L.has('低反差')?.42:hard?.8:.62,bw=(r.color||[]).includes('黑白');
+ const out=r.ie==='外景',wide=['大远景','远景','全景'].includes(r.size)||r.frame==='空镜';
+ let hz=C.has('低地平线')?.78:C.has('高地平线')?.3:r.angle==='仰拍'?.8:r.angle==='俯拍'?.28:.62;if(r.angle==='顶拍'||r.angle==='航拍')hz=-1;
+ let s=`<svg xmlns="http://www.w3.org/2000/svg" class="${ar<1.77?'nar':'wid'}" viewBox="0 0 ${W} ${H}"><defs>`;
+ const top=hi?l2:out&&wide&&hz>0?mix(mid,l2,.35):mix(d2,mid,.35),bot=hi?mid:dark;
+ s+=`<linearGradient id="${id}b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${top}"/><stop offset="1" stop-color="${bot}"/></linearGradient>`;
+ const LP={左:[.04,.34],右:[.96,.34],顶:[.5,-.12],后:[.5,.36],底:[.5,1.15],前:[.5,.46]}[r.ld]||[.2,.3];
+ const px={左:.33,中:.5,右:.67}[r.pos]||.5,cx=(C.has('负空间')?(px<.5?.22:px>.5?.78:.5):(C.has('居中')||C.has('对称')?.5:px))*W;
+ if(r.ld==='后')LP[0]=cx/W;
+ s+=`<radialGradient id="${id}l" cx="${LP[0]}" cy="${LP[1]}" r="${hard?.55:.85}"><stop offset="0" stop-color="${light}" stop-opacity="${cont}"/><stop offset="${hard?.45:.7}" stop-color="${light}" stop-opacity="${cont*.25}"/><stop offset="1" stop-color="${light}" stop-opacity="0"/></radialGradient>`;
+ s+=`<radialGradient id="${id}v" cx=".5" cy=".5" r=".75"><stop offset=".55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="${lo?.7:.4}"/></radialGradient>`;
+ const bgL=(lum(top)+lum(bot))/2,bright=bgL>135;
+ const lit=sil?mix(dark,'#000000',.4):bright?mix(dark,mid,.55):mix(mid,l2,.25),shade=sil?lit:bright?mix(dark,'#000000',.15):mix(dark,'#000000',lo?.35:.1);
+ const gx=r.ld==='左'?[0,1,0,0]:r.ld==='右'?[1,0,0,0]:r.ld==='顶'?[0,0,0,1]:r.ld==='底'?[0,1,1,0]:[0,0,0,1];
+ const flat=r.ld==='后'||r.ld==='前'||hi;s+=`<linearGradient id="${id}f" x1="${gx[0]}" y1="${r.ld==='底'?1:gx[2]}" x2="${gx[1]}" y2="${r.ld==='底'?0:gx[3]}"><stop offset="0" stop-color="${flat?lit:mix(lit,light,.25)}"/><stop offset="${flat?.9:.3}" stop-color="${flat?lit:mix(lit,shade,.5)}"/><stop offset="${flat?1:.46}" stop-color="${shade}"/><stop offset="1" stop-color="${shade}"/></linearGradient>`;
+ s+=`<filter id="${id}g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="${W/40}"/></filter>`;
+ if(bw)s+=`<filter id="${id}m"><feColorMatrix type="saturate" values="0"/></filter>`;
+ s+=`</defs><g${bw?` filter="url(#${id}m)"`:''}${r.angle==='荷兰角'||C.has('失衡构图')?` transform="rotate(-7 ${W/2} ${H/2})"`:''}><rect x="-${W*.2}" y="-${H*.2}" width="${W*1.4}" height="${H*1.4}" fill="url(#${id}b)"/>`;
+ const rep=C.has('重复图形'),sym=C.has('对称');
+ if(rep){for(let i=0;i<9;i++){s+=`<rect x="${W*(.04+i*.115)}" y="${H*.08}" width="${W*.05}" height="${H*.84}" fill="${i%2?d2:mid}" opacity=".35"/>`;}}
+ if(sym&&!rep){s+=`<rect x="${W*.06}" y="0" width="${W*.13}" height="${H}" fill="${d2}" opacity=".7"/><rect x="${W*.81}" y="0" width="${W*.13}" height="${H}" fill="${d2}" opacity=".7"/>`;}
+ if(hz>0&&((out&&['大远景','远景','全景','中景'].includes(r.size))||r.frame==='空镜')){const y=H*hz;s+=`<rect x="-${W*.2}" y="${y}" width="${W*1.4}" height="${H*1.2}" fill="${mix(dark,d2,.5)}" opacity=".85"/><line x1="0" y1="${y}" x2="${W}" y2="${y}" stroke="${l2}" stroke-opacity=".35" stroke-width="2"/>`;
+  if(r.time==='日落金光'||r.time==='黄昏')s+=`<ellipse cx="${W*.5}" cy="${y}" rx="${W*.7}" ry="${H*.18}" fill="${light}" opacity=".35" filter="url(#${id}g)"/>`;}
+ if(hz<0&&(r.angle==='航拍'||r.angle==='顶拍')&&out){for(let i=0;i<6;i++)s+=`<rect x="${W*(i*.17-.05)}" y="${H*((i%3)*.33)}" width="${W*.16}" height="${H*.31}" fill="${[d2,mid,dark][i%3]}" opacity=".45"/>`;}
+ s+=`<rect x="-${W*.2}" y="-${H*.2}" width="${W*1.4}" height="${H*1.4}" fill="url(#${id}l)"/>`;
+ // 光源形态
+ if(L.has('窗光')){const wx=r.ld==='右'?W*.78:W*.06;s+=`<rect x="${wx}" y="${H*.12}" width="${W*.16}" height="${H*.46}" fill="${light}" opacity=".75"/><polygon points="${wx+W*.08},${H*.12} ${wx+W*.16},${H*.58} ${cx},${H*.98} ${cx-W*.12},${H*.98}" fill="${light}" opacity=".12"/>`;}
+ if(L.has('路灯')||L.has('实景光源')){const lx=r.ld==='左'?W*.14:r.ld==='右'?W*.86:cx+W*.18,ly=L.has('路灯')?H*.07:H*.3;s+=`<circle cx="${lx}" cy="${ly}" r="${W*.018}" fill="${light}"/><circle cx="${lx}" cy="${ly}" r="${W*.07}" fill="${light}" opacity=".35" filter="url(#${id}g)"/>`;
+  if(L.has('路灯'))s+=`<polygon points="${lx-W*.01},${ly} ${lx+W*.01},${ly} ${lx+W*.16},${H} ${lx-W*.16},${H}" fill="${light}" opacity=".1"/>`;}
+ if(L.has('霓虹')){const ns=P.slice().sort((a,b)=>sat(b)-sat(a));s+=`<ellipse cx="${W*.12}" cy="${H*.25}" rx="${W*.2}" ry="${H*.25}" fill="${ns[0]}" opacity=".55" filter="url(#${id}g)"/><ellipse cx="${W*.9}" cy="${H*.3}" rx="${W*.18}" ry="${H*.22}" fill="${ns[1]||ns[0]}" opacity=".5" filter="url(#${id}g)"/>`;}
+ if(L.has('烛火')||L.has('火光')){s+=`<circle cx="${cx+(r.pos==='右'?-1:1)*W*.13}" cy="${H*.72}" r="${W*.1}" fill="#ffb54a" opacity=".45" filter="url(#${id}g)"/><circle cx="${cx+(r.pos==='右'?-1:1)*W*.13}" cy="${H*.72}" r="${W*.012}" fill="#fff2c4"/>`;}
+ if(L.has('屏幕光')){s+=`<rect x="${cx-W*.1}" y="${H*.82}" width="${W*.2}" height="${H*.1}" fill="${mix(light,'#9fd0ff',.5)}" opacity=".8"/><ellipse cx="${cx}" cy="${H*.6}" rx="${W*.2}" ry="${H*.3}" fill="${mix(light,'#9fd0ff',.5)}" opacity=".18" filter="url(#${id}g)"/>`;}
+ if(L.has('车灯')){s+=`<circle cx="${W*.35}" cy="${H*.72}" r="${W*.02}" fill="#fff"/><circle cx="${W*.47}" cy="${H*.72}" r="${W*.02}" fill="#fff"/><ellipse cx="${W*.41}" cy="${H*.72}" rx="${W*.16}" ry="${H*.07}" fill="#fff" opacity=".25" filter="url(#${id}g)"/>`;}
+ if(C.has('框中框')){const ix=W*.17,iy=H*.1;s+=`<path fill-rule="evenodd" d="M${-W*.2} ${-H*.2}H${W*1.2}V${H*1.2}H${-W*.2}Z M${ix} ${iy}V${H-iy*.4}H${W-ix}V${iy}Z" fill="${mix(dark,'#000000',.3)}" opacity=".82"/>`;}
+ // 人物
+ const figs=[];const SZ={大远景:[.09,null],远景:[.3,.86],全景:[.8,.95],中景:[1.6,.12],近景:[2.8,.1],特写:[5.2,.02],大特写:[13,-.73]}[r.size]||[1.6,.12];
+ const fh=SZ[0]*H;let topY=SZ[1]==null?(hz>0?H*hz-fh*.92:H*.6):SZ[1]>.5&&SZ[0]<1?H*SZ[1]-fh:SZ[1]*H;
+ if(r.size==='大远景'&&hz<=0)topY=H*.55;
+ if(r.frame==='单人'||r.frame==='主观视角')figs.push([cx,topY,1]);
+ else if(r.frame==='双人'||r.frame==='三人'){const d=Math.min(W*.19,fh*.28),g=Math.min(Math.max(cx,W*.1+d),W*.9-d);if(r.frame==='双人')figs.push([g-d,topY,1],[g+d,topY+fh*.01,.98]);else figs.push([g-d,topY+fh*.02,.97],[g,topY,1],[g+d,topY+fh*.03,.96]);}
+ else if(r.frame==='群像'){const k=r.size==='大远景'||r.size==='远景'?11:6;for(let i=0;i<k;i++){const t=(i+.5)/k,sc=.72+((i*37)%10)/36;figs.push([W*(.08+t*.84),topY+fh*(1-sc)*.9,sc]);}}
+ else if(r.frame==='过肩'){figs.push([cx,topY,1]);}
+ const back=C.has('纵深调度')&&figs.length;if(back)s+=`<g transform="translate(${(cx<W/2?W*.72:W*.26)-fh*.13},${(hz>0?H*hz:H*.55)-fh*.3}) scale(${fh*.3})"><path d="${figPath()}" fill="${shade}" opacity=".8"/>${HEAD} fill="${shade}" opacity=".8"/></g>`;
+ if(C.has('倒影镜像')&&figs.length){const f0=figs[0],sy=hz>0?H*hz:H*.62;s+=`<g transform="translate(${f0[0]-fh*.5},${2*sy-f0[1]}) scale(${fh},${-fh})" opacity=".25"><path d="${figPath()}" fill="${lit}"/>${HEAD} fill="${lit}"/></g>`;}
+ const top2=r.angle==='顶拍';
+ figs.forEach(([x,y,sc])=>{const h=fh*sc;
+  if(top2){s+=`<ellipse cx="${x}" cy="${y+h*.3}" rx="${h*.2}" ry="${h*.12}" fill="url(#${id}f)"/><circle cx="${x}" cy="${y+h*.3}" r="${h*.08}" fill="${shade}"/>`;return;}
+  s+=`<g transform="translate(${x-h*.5},${y}) scale(${h})"><path d="${figPath()}" fill="url(#${id}f)"/>${HEAD} fill="url(#${id}f)"/>`;
+  if((sil||L.has('轮廓光'))&&h>=60){const rs=Math.max(.003,1.6/h);s+=`${HEAD} fill="none" stroke="${light}" stroke-width="${rs}" stroke-opacity=".9"/><path d="${figPath()}" fill="none" stroke="${light}" stroke-width="${rs}" stroke-opacity=".7"/>`;}
+  s+='</g>';});
+ if(r.frame==='过肩'){const sx=cx<W/2?W*.95:W*.05,h=fh*1.7;s+=`<g transform="translate(${sx-h*.5},${H*.18}) scale(${h})" filter="url(#${id}g)"><path d="${figPath()}" fill="${mix(dark,'#000000',.5)}"/>${HEAD} fill="${mix(dark,'#000000',.5)}"/></g>`;}
+ if(r.frame==='插入镜头'){s+=`<rect x="${W*.36}" y="${H*.38}" width="${W*.28}" height="${H*.34}" rx="${W*.03}" fill="url(#${id}f)"/><circle cx="${W*.5}" cy="${H*.45}" r="${H*.12}" fill="${lit}" opacity=".85"/>`;}
+ if(C.has('前景遮挡')){const fx=cx<W/2?W*1.02:-W*.02;s+=`<ellipse cx="${fx}" cy="${H*.62}" rx="${W*.2}" ry="${H*.6}" fill="${mix(dark,'#000000',.55)}" filter="url(#${id}g)"/>`;}
+ // 天气
+ if(r.weather==='雨')for(let i=0;i<70;i++){const x=(i*97)%W,y=(i*53)%H;s+=`<line x1="${x}" y1="${y}" x2="${x-W*.012}" y2="${y+H*.07}" stroke="${light}" stroke-opacity=".32" stroke-width="1.4"/>`;}
+ if(r.weather==='雪')for(let i=0;i<90;i++){s+=`<circle cx="${(i*89)%W}" cy="${(i*61)%H}" r="${1.2+(i%3)}" fill="#fff" opacity=".7"/>`;}
+ if(r.weather==='雾')s+=`<rect x="0" y="0" width="${W}" height="${H}" fill="${l2}" opacity=".28"/><ellipse cx="${W*.5}" cy="${H*.55}" rx="${W*.7}" ry="${H*.25}" fill="${light}" opacity=".22" filter="url(#${id}g)"/>`;
+ if(r.weather==='烟尘'||r.weather==='风沙')s+=`<ellipse cx="${W*.3}" cy="${H*.4}" rx="${W*.5}" ry="${H*.3}" fill="${mix(mid,light,.4)}" opacity=".3" filter="url(#${id}g)"/>`;
+ s+=`<rect x="-${W*.2}" y="-${H*.2}" width="${W*1.4}" height="${H*1.4}" fill="url(#${id}v)"/></g>`;
+ // 构图辅助线
+ const ln=`stroke="#fff" stroke-opacity=".22" stroke-width="1.6" stroke-dasharray="7 7" fill="none"`;
+ if(C.has('三分法'))s+=`<path d="M${W/3} 0V${H}M${2*W/3} 0V${H}M0 ${H/3}H${W}M0 ${2*H/3}H${W}" ${ln}/>`;
+ if(sym||C.has('居中'))s+=`<path d="M${W/2} 0V${H}" ${ln}/>`;
+ if(C.has('对角线'))s+=`<path d="M0 ${H}L${W} 0" ${ln}/>`;
+ if(C.has('分割画面'))s+=`<rect x="${W*.49}" y="0" width="${W*.02}" height="${H}" fill="${dark}" opacity=".9"/>`;
+ if(C.has('引导线')){const hy=Math.max(H*.1,Math.min(H*.55,topY+fh*.1));s+=`<path d="M0 ${H}L${cx} ${hy}M${W} ${H}L${cx} ${hy}M0 ${H*.1}L${cx} ${hy}M${W} ${H*.1}L${cx} ${hy}" stroke="${light}" stroke-opacity=".25" stroke-width="2" fill="none"/>`;}
+ s+=`<text x="${W-10}" y="${H-10}" text-anchor="end" font-size="${Math.max(13,W/34)}" fill="#fff" fill-opacity=".45" font-family="Arial">${esc(r.W.ar||'1.85:1')}</text></svg>`;
+ return s;}
+function visual(r,W,big){const f=frOf(r);if(f)return`<img loading="lazy" src="${FRAME_DIR}/${esc(big?f.f:f.t)}" alt="${esc(r.W.t)} 截帧">`;return schem(r,W);}
+function palHTML(r){return`<div class="pal">${palOf(r).map(c=>`<span style="background:${c}"></span>`).join('')}</div>`;}
+/* ---------- 智能搜索 ---------- */
+const TERMS=[];(function(){const seen=new Set();const add=(t,tg)=>{const k=t.toLowerCase();if(seen.has(k+'>'+tg.join()))return;seen.add(k+'>'+tg.join());TERMS.push([k,tg]);};
+ FACETS.forEach(f=>{if(['ld','pos','st','hasfr','decade','ar'].includes(f.key))return;f.values.forEach(v=>add(v,[f.key+':'+v]));});
+ Object.entries(SYN).forEach(([k,v])=>add(k,Array.isArray(v)?v:[v]));TERMS.sort((a,b)=>b[0].length-a[0].length);})();
+function parseQ(q){const tags=[];let rest=' '+q.toLowerCase().replace(/[，,、；;。/|]+/g,' ')+' ';
+ const tm=WORKS.map(w=>[w.t,w.te]).flat().filter(x=>x&&x.length>=2).sort((a,b)=>b.length-a.length);let work=null;
+ for(const t of tm){const k=t.toLowerCase();if(rest.includes(k)){work=t;rest=rest.replace(k,' ');break;}}
+ for(const[t,tg]of TERMS){const ascii=/^[\x00-\x7f]+$/.test(t);
+  if(ascii){const re=new RegExp('(^|[^a-z])'+t.replace(/[.*+?^${}()|[\]\\&]/g,'\\$&')+'(?=[^a-z]|$)');if(re.test(rest)){rest=rest.replace(re,'$1 ');tags.push(...tg);}}
+  else if(t.length===1){const re=new RegExp('(^|\\s)'+t+'(?=\\s)');if(re.test(rest)){rest=rest.replace(re,' ');tags.push(...tg);}}
+  else if(rest.includes(t)){rest=rest.split(t).join(' ');tags.push(...tg);}}
+
+ return{tags:[...new Set(tags)],work,words:rest.split(/\s+/).filter(w=>w.length>=2)};}
+/* ---------- 状态与筛选 ---------- */
+let SEL={},MODE='and',QP={tags:[],work:null,words:[]},COLOR=null,IMGPAL=null,WID=null,list=[],page=0,PS=60;
+function selOf(k){return SEL[k]||(SEL[k]=new Set());}
+function effective(){const e={};Object.entries(SEL).forEach(([k,s])=>{if(s.size)e[k]=new Set(s);});QP.tags.forEach(t=>{const[k,v]=t.split(':');(e[k]||(e[k]=new Set())).add(v);});return e;}
+function passFacet(r,k,set){const vs=vals(r,k);if(MULTI.has(k)&&MODE==='and'){for(const v of set)if(!vs.includes(v))return false;return true;}return vs.some(v=>set.has(v));}
+function baseFilter(r,skip,E){for(const k in E){if(k===skip)continue;if(!passFacet(r,k,E[k]))return false;}
+ if(WID&&r.W.wid!==WID)return false;if(QP.work&&r.W.t!==QP.work&&r.W.te!==QP.work)return false;
+ for(const w of QP.words)if(!r.text.includes(w))return false;
+ if(COLOR&&r._cd>COLOR.tol)return false;return true;}
+function apply(keepPage){const E=effective();
+ if(COLOR)R.forEach(r=>{r._cd=Math.min(...palOf(r).map(c=>dE(c,COLOR.hex)));});
+ list=R.filter(r=>baseFilter(r,null,E));
+ if(IMGPAL){list.forEach(r=>{const p=palOf(r);r._pd=(IMGPAL.reduce((a,c)=>a+Math.min(...p.map(x=>dE(c,x))),0)+p.reduce((a,c)=>a+Math.min(...IMGPAL.map(x=>dE(c,x))),0))/(IMGPAL.length+p.length);});list.sort((a,b)=>a._pd-b._pd);}
+ else if(COLOR)list.sort((a,b)=>a._cd-b._cd);else sortList();
+ if(!keepPage)page=0;renderFacets(E);renderActive(E);renderGrid();}
+function sortList(){const s=$('sort').value;list.sort(s==='year'?(a,b)=>b.W.y-a.W.y||cmpId(a,b):s==='old'?(a,b)=>a.W.y-b.W.y||cmpId(a,b):s==='title'?(a,b)=>a.W.t.localeCompare(b.W.t,'zh')||cmpId(a,b):(a,b)=>(b.add||'').localeCompare(a.add||'')||cmpId(a,b));}
+function cmpId(a,b){return a.id<b.id?-1:a.id>b.id?1:0;}
+function renderFacets(E){const box=$('facets'),open={};box.querySelectorAll('details').forEach(d=>open[d.dataset.k]=d.open);
+ let h=`<div class="mode">多选类（灯光/色彩/构图/情绪等）同类多选：<select id="modeSel"><option value="and"${MODE==='and'?' selected':''}>同时满足</option><option value="or"${MODE==='or'?' selected':''}>任一即可</option></select></div>`;
+ SHOW.forEach(k=>{const f=FK[k];if(!f)return;const cnt={};const pool=R.filter(r=>baseFilter(r,k,E));pool.forEach(r=>vals(r,k).forEach(v=>cnt[v]=(cnt[v]||0)+1));
+  const on=E[k]||new Set();const isOpen=open[k]!==undefined?open[k]:['size','light','time','ie','color','comp','emo','type'].includes(k)||on.size>0;
+  h+=`<details data-k="${k}"${isOpen?' open':''}><summary>${f.name}${on.size?`<em>已选 ${on.size}</em>`:''}</summary>`;
+  f.groups.forEach(g=>{const vs=g.values.filter(v=>cnt[v]||on.has(v));if(!vs.length)return;if(g.name)h+=`<div class="grp">${g.name}</div>`;
+   vs.forEach(v=>{h+=`<span class="chip${on.has(v)?' on':''}${cnt[v]?'':' zero'}" data-k="${k}" data-v="${esc(v)}">${esc(v)}<small>${cnt[v]||0}</small></span>`;});});
+  h+='</details>';});
+ box.innerHTML=h;$('modeSel').onchange=e=>{MODE=e.target.value;apply();};
+ box.querySelectorAll('.chip').forEach(c=>c.onclick=()=>toggle(c.dataset.k,c.dataset.v));}
+function toggle(k,v,force){const s=selOf(k);const qi=QP.tags.indexOf(k+':'+v);if(qi>=0){QP.tags.splice(qi,1);apply();return;}
+ if(force===true)s.add(v);else if(s.has(v))s.delete(v);else s.add(v);apply();}
+function renderActive(E){let h='';QP.tags.forEach(t=>{const[k,v]=t.split(':');h+=`<span class="pill q"><i>${FK[k].name}</i>${esc(v)}<button data-q="${esc(t)}" title="移除">×</button></span>`;});
+ Object.entries(SEL).forEach(([k,s])=>s.forEach(v=>{h+=`<span class="pill"><i>${FK[k].name}</i>${esc(v)}<button data-k="${k}" data-v="${esc(v)}" title="移除">×</button></span>`;}));
+ if(QP.work)h+=`<span class="pill q"><i>作品</i>${esc(QP.work)}<button data-x="work">×</button></span>`;
+ if(WID){const w=WORKS.find(x=>x.wid===WID);h+=`<span class="pill q"><i>作品</i>${esc(w?w.t:WID)}<button data-x="wid">×</button></span>`;}
+ QP.words.forEach(w=>{h+=`<span class="pill"><i>全文</i>${esc(w)}<button data-w="${esc(w)}">×</button></span>`;});
+ if(COLOR)h+=`<span class="pill q"><i>含近似色</i><span class="sw" style="background:${COLOR.hex}"></span>${COLOR.hex} 容差 <input type="range" id="tol" min="8" max="40" value="${COLOR.tol}" style="width:120px;padding:0"><button data-x="color">×</button></span>`;
+ if(IMGPAL)h+=`<span class="pill q"><i>以图找色</i>${IMGPAL.map(c=>`<span class="sw" style="background:${c}"></span>`).join('')}<button data-x="img">×</button></span>`;
+ $('active').innerHTML=h;
+ $('active').querySelectorAll('button').forEach(b=>b.onclick=()=>{if(b.dataset.q){QP.tags=QP.tags.filter(t=>t!==b.dataset.q);}else if(b.dataset.k){selOf(b.dataset.k).delete(b.dataset.v);}else if(b.dataset.w){QP.words=QP.words.filter(w=>w!==b.dataset.w);}
+  else if(b.dataset.x==='work')QP.work=null;else if(b.dataset.x==='wid')WID=null;else if(b.dataset.x==='color')COLOR=null;else if(b.dataset.x==='img')IMGPAL=null;apply();});
+ const tol=$('tol');if(tol)tol.onchange=()=>{COLOR.tol=+tol.value;apply();};}
+function card(r,opts={}){const w=r.W,f=frOf(r),inD=DECKS.cur&&deckHas(r.id),inC=CMP.includes(r.id);
+ return`<div class="card" data-id="${r.id}"><div class="thumb" data-open="${r.id}">${visual(r,560)}<span class="badge${f?' fr':''}">${f?'截帧 · 实测色':'示意图 · 估色'}</span></div>${palHTML(r)}
+ <div class="cap" data-open="${r.id}"><b>${esc(w.t)}</b> <span class="y">${w.y}${r.ep?' · '+esc(r.ep):''}</span><p>${esc(r.sc)}</p></div>
+ <div class="tg">${[r.size,r.time,r.ie,(r.light||[]).slice(0,2).join('·'),(r.color||[]).slice(0,2).join('·'),(r.emo||[])[0]].filter(Boolean).map(esc).join(' · ')}</div>
+ <div class="acts"><button data-add="${r.id}" class="${inD?'in':''}">${inD?'✓ 已在图集':'＋图集'}</button><button data-cmp="${r.id}" class="${inC?'in':''}">${inC?'✓ 对照中':'对照'}</button></div></div>`;}
+function bindCards(root){root.querySelectorAll('[data-open]').forEach(e=>e.onclick=()=>openDetail(e.dataset.open));
+ root.querySelectorAll('[data-add]').forEach(b=>b.onclick=e=>{e.stopPropagation();addToDeck([b.dataset.add]);});
+ root.querySelectorAll('[data-cmp]').forEach(b=>b.onclick=e=>{e.stopPropagation();toggleCmp(b.dataset.cmp);});}
+function renderGrid(){const n=list.length,pages=Math.max(1,Math.ceil(n/PS));if(page>=pages)page=pages-1;
+ $('count').innerHTML=`找到 <b>${n}</b> 个镜头（${new Set(list.map(r=>r.w)).size} 部作品）`+(loaded<SHARDS.length?' · 正在载入…':'');
+ $('page').textContent=`第 ${page+1} / ${pages} 页`;$('prev').disabled=page===0;$('next').disabled=page>=pages-1;
+ const g=$('grid');g.innerHTML=n?list.slice(page*PS,page*PS+PS).map(r=>card(r)).join(''):'<div class="empty">没有符合的镜头。可以减少一些条件，或把多选类切到“任一即可”。</div>';bindCards(g);}
+/* ---------- 详情 ---------- */
+let CUR=null;
+function tagLinks(k,vs){return(Array.isArray(vs)?vs:[vs]).filter(Boolean).map(v=>`<span class="t" data-k="${k}" data-v="${esc(v)}" title="加入筛选">${esc(v)}</span>`).join('');}
+function extLinks(r){const w=r.W,en=encodeURIComponent,q=w.te||w.t;
+ const sc=[r.time,r.ie,r.size,r.frame,...(r.light||[]),...(r.comp||[]),...(r.loc||[])].map(v=>SHOTCAFE[v]).filter(Boolean).slice(0,3);
+ const fs=r.en||[r.size,r.time,r.ie].map(v=>EN[v]).filter(Boolean).join(' ');const ey=(r.move||[]).concat(r.comp||[]).map(v=>EYECANDY[v]).find(Boolean);
+ let h=`<a target="_blank" rel="noopener" href="https://film-grab.com/?s=${en(q)}">FilmGrab 看这部作品的截图</a>`;
+ if(sc.length)h+=`<a target="_blank" rel="noopener" href="https://shot.cafe/tag/${sc.map(x=>x.replace(/ /g,'+')).join(',')}">SHOT.CAFE 同标签画面</a>`;
+ h+=`<a target="_blank" rel="noopener" href="https://frameset.app/search?search=${en(fs)}">Frame Set 按描述找同类</a>`;
+ h+=`<a href="#" data-copyopen="https://shotdeck.com/browse/stills" data-copy="${esc(q)}">ShotDeck（复制片名后打开）</a><a href="#" data-copyopen="https://flim.ai/" data-copy="${esc(fs)}">Flim（复制描述后打开）</a>`;
+ h+=ey?`<a target="_blank" rel="noopener" href="https://eyecannndy.com/technique/${ey}">Eyecandy 技法：${esc(Object.keys(EYECANDY).find(k=>EYECANDY[k]===ey))}</a>`:`<a target="_blank" rel="noopener" href="https://eyecannndy.com/">Eyecandy 运镜技法库</a>`;
+ h+=`<a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${en(w.t)}">豆瓣</a><a target="_blank" rel="noopener" href="https://www.imdb.com/find/?q=${en(q+' '+w.y)}">IMDb</a>`;return h;}
+function similar(r,k){const key=x=>new Set([x.size,x.time,x.ie,...(x.light||[]),...(x.color||[]),...(x.comp||[]),...(x.emo||[])]);const A=key(r);
+ return R.filter(x=>x.id!==r.id&&x.w!==r.w).map(x=>{const B=key(x);let i=0;A.forEach(v=>{if(B.has(v))i++;});return[i/(A.size+B.size-i),x];}).sort((a,b)=>b[0]-a[0]).slice(0,k).map(a=>a[1]);}
+function openDetail(id){const r=BYID.get(id);if(!r)return;CUR=r;const w=r.W,f=frOf(r);
+ $('dTitle').innerHTML=`${esc(w.t)} <span class="muted" style="font-size:20px">${esc(w.te||'')} · ${w.y}${r.ep?' · '+esc(r.ep):''} · ${r.id}</span>`;
+ const P=palOf(r);const same=(BYW.get(r.w)||[]).filter(x=>x.id!==r.id),sim=similar(r,8);
+ $('dBody').innerHTML=`<div class="dbody"><div><div class="vis">${visual(r,1100,true)}</div>
+ <div class="palbig">${P.map(c=>`<div style="background:${c}" data-hex="${c}" title="点击复制色值"><span>${c}</span></div>`).join('')}</div>
+ <p class="muted small">${f?'真实截帧 · 色板为实测（本机内部版）':'示意图：按标签自动绘制（画幅、主光方向、剪影大小与位置、构图线、天气），色板为估色，不是影片原帧。看原片画面用下面的外链。'}</p>
+ <h3>这一镜</h3><p class="note">${esc(r.sc)}${r.wh?`<br><span class="muted small">位置：${esc(r.wh)}${r.pl?' · '+esc(r.pl):''}</span>`:r.pl?`<br><span class="muted small">${esc(r.pl)}</span>`:''}</p>
+ <h3>研究笔记：光、色、构图如何表达情绪</h3><p class="note">${esc(r.note)}</p>
+ <h3>复刻提示词（原创同构画面，贴进 IMAGE 2）</h3><textarea class="pr" id="dPr" readonly>${esc(r.pr)}</textarea>
+ <div class="btns"><button class="pri" id="dCopy">复制提示词</button><button id="dGo">复制并打开 IMAGE 2</button><button id="dCopyAll">复制镜头卡（含标签）</button></div>
+ <h3>去看原片画面</h3><div class="btns">${extLinks(r)}</div></div>
+ <div><table class="kv">
+ <tr><th>景别</th><td>${tagLinks('size',r.size)}</td></tr><tr><th>机位角度</th><td>${tagLinks('angle',r.angle)}</td></tr><tr><th>画面人物</th><td>${tagLinks('frame',r.frame)}</td></tr>
+ <tr><th>运镜</th><td>${tagLinks('move',r.move)}</td></tr><tr><th>焦段 / 景深</th><td>${tagLinks('lens_type',r.lens_type)}${tagLinks('dof',r.dof)}</td></tr>
+ <tr><th>灯光</th><td>${tagLinks('light',r.light)}<span class="muted small"> 主光：${esc(r.ld||'')}</span></td></tr><tr><th>时间 / 天气</th><td>${tagLinks('time',r.time)}${tagLinks('weather',r.weather)}</td></tr>
+ <tr><th>内外景</th><td>${tagLinks('ie',r.ie)}</td></tr><tr><th>地点</th><td>${tagLinks('loc',r.loc)}</td></tr>
+ <tr><th>色彩</th><td>${tagLinks('color',r.color)}</td></tr><tr><th>构图</th><td>${tagLinks('comp',r.comp)}<span class="muted small"> 主体：${esc(r.pos||'')}</span></td></tr><tr><th>人物情绪</th><td>${tagLinks('emo',r.emo)}</td></tr>
+ <tr><th>核验</th><td>${tagLinks('st',r.st)}<span class="muted small"> 新增于 ${esc(r.add||'')}</span></td></tr></table>
+ <h3>作品</h3><table class="kv"><tr><th>片名</th><td><b>${esc(w.t)}</b> ${esc(w.te||'')} <a href="#" id="dWork">看这部作品全部镜头 →</a></td></tr>
+ <tr><th>年份 / 类型</th><td>${w.y} · ${tagLinks('type',w.type)}${tagLinks('kinds',w.kinds)}${w.genre?'<span class="muted small"> '+esc(w.genre)+'</span>':''}</td></tr><tr><th>地区</th><td>${tagLinks('region',w.region)}</td></tr>
+ <tr><th>导演</th><td>${esc(w.dir)}</td></tr><tr><th>摄影指导</th><td>${esc(w.dp||'待核')}</td></tr>${w.pd?`<tr><th>美术</th><td>${esc(w.pd)}</td></tr>`:''}
+ <tr><th>画幅 / 格式</th><td>${tagLinks('ar',w.ar)}${tagLinks('format',w.format)}</td></tr><tr><th>摄影机</th><td>${tagLinks('cam',w.cam)} ${esc(w.camera)}</td></tr><tr><th>镜头组</th><td>${tagLinks('lensb',w.lensb)}${tagLinks('optic',w.optic)} ${esc(w.lens)}</td></tr>
+ <tr><th>资料依据</th><td class="small">${esc(w.src||'公开幕后资料（待核）')}</td></tr><tr><th>全片视觉</th><td>${esc(w.look||'')}</td></tr></table>
+ ${same.length?`<h3>同片其他镜头</h3><div class="strip">${same.map(x=>`<div class="mini" data-open="${x.id}" title="${esc(x.sc)}">${visual(x,300)}</div>`).join('')}</div>`:''}
+ <h3>相似镜头（其他作品）</h3><div class="strip">${sim.map(x=>`<div class="mini" data-open="${x.id}" title="${esc(x.W.t+'：'+x.sc)}">${visual(x,300)}</div>`).join('')}</div></div></div>`;
+ const d=$('detail');d.querySelectorAll('.mini[data-open]').forEach(e=>e.onclick=()=>openDetail(e.dataset.open));
+ d.querySelectorAll('.t[data-k]').forEach(e=>e.onclick=()=>{d.close();showTab('find');toggle(e.dataset.k,e.dataset.v,true);});
+ d.querySelectorAll('.palbig div').forEach(e=>e.onclick=()=>copy(e.dataset.hex,'已复制色值 '+e.dataset.hex));
+ d.querySelectorAll('[data-copyopen]').forEach(a=>a.onclick=ev=>{ev.preventDefault();copy(a.dataset.copy,'已复制「'+a.dataset.copy+'」，登录后粘贴搜索');window.open(a.dataset.copyopen,'_blank','noopener');});
+ $('dWork').onclick=ev=>{ev.preventDefault();d.close();WID=r.W.wid;showTab('find');apply();};
+ $('dCopy').onclick=()=>copy(r.pr,'已复制复刻提示词');$('dGo').onclick=()=>{copy(r.pr,'已复制，IMAGE 2 已在新标签打开，粘贴即可');window.open(JIMENG,'_blank','noopener');};
+ $('dCopyAll').onclick=()=>copy(shotText(r),'已复制镜头卡');
+ $('dAdd').textContent=deckHas(r.id)?'✓ 已在当前图集':'＋ 加入图集';$('dCmp').textContent=CMP.includes(r.id)?'✓ 对照中':'加入对照';
+ if(!d.open)d.showModal();d.scrollTop=0;}
+function shotText(r){const w=r.W;return`【${r.id}】${w.t}（${w.te||''}，${w.y}）${r.ep?' '+r.ep:''}\n导演：${w.dir}　摄影：${w.dp||'待核'}　画幅：${w.ar||''}\n画面：${r.sc}\n标签：${[r.size,r.angle,r.frame,...(r.move||[]),r.lens_type,r.dof,...(r.light||[]),r.time,r.weather,r.ie,...(r.loc||[]),...(r.color||[]),...(r.comp||[]),...(r.emo||[])].filter(Boolean).join(' / ')}\n色板：${palOf(r).join(' ')}\n研究笔记：${r.note}\n复刻提示词：${r.pr}`;}
+function step(d){const i=list.findIndex(x=>x.id===CUR.id);const pool=i>=0?list:R;const j=(i>=0?i:R.indexOf(CUR))+d;if(j>=0&&j<pool.length)openDetail(pool[j].id);}
+/* ---------- 参考图集 ---------- */
+const DKEY='jt_film_decks_v1';let DECKS=JSON.parse(localStorage.getItem(DKEY)||'{"list":[],"cur":null}'),SHARED=null;
+function saveDecks(){localStorage.setItem(DKEY,JSON.stringify(DECKS));$('nDeck').textContent=DECKS.list.length?' '+DECKS.list.length:'';}
+function curDeck(){return DECKS.list.find(d=>d.id===DECKS.cur)||null;}
+function deckHas(id){const d=curDeck();return!!(d&&d.items.some(x=>x.id===id));}
+function newDeck(name){const d={id:'d'+Date.now().toString(36),name:name||'未命名参考图集',desc:'',items:[],created:new Date().toISOString().slice(0,10)};DECKS.list.unshift(d);DECKS.cur=d.id;saveDecks();return d;}
+let PENDING=[];
+function addToDeck(ids){PENDING=ids;if(!DECKS.list.length){$('pNew').value='';openPick();return;}if(ids.length===1&&curDeck()){const d=curDeck();if(!d.items.some(x=>x.id===ids[0])){d.items.push({id:ids[0],note:''});saveDecks();toast('已加入「'+d.name+'」');}else{d.items=d.items.filter(x=>x.id!==ids[0]);saveDecks();toast('已从「'+d.name+'」移除');}refreshMarks();return;}openPick();}
+function openPick(){$('pList').innerHTML=DECKS.list.map(d=>`<button style="display:block;width:100%;text-align:left;margin-bottom:8px" data-d="${d.id}"><b>${esc(d.name)}</b> <span class="muted">${d.items.length} 镜</span>${d.id===DECKS.cur?' <span class="warn">（当前）</span>':''}</button>`).join('')||'<p class="muted">还没有图集，输入名称新建一个。</p>';
+ $('pList').querySelectorAll('[data-d]').forEach(b=>b.onclick=()=>{DECKS.cur=b.dataset.d;pushPending();});$('pick').showModal();}
+function pushPending(){const d=curDeck();let n=0;PENDING.forEach(id=>{if(!d.items.some(x=>x.id===id)){d.items.push({id,note:''});n++;}});saveDecks();$('pick').close();toast(`已加入「${d.name}」${n} 镜`);refreshMarks();}
+function refreshMarks(){document.querySelectorAll('[data-add]').forEach(b=>{const on=deckHas(b.dataset.add);b.classList.toggle('in',on);b.textContent=on?'✓ 已在图集':'＋图集';});if(CUR&&$('detail').open)$('dAdd').textContent=deckHas(CUR.id)?'✓ 已在当前图集':'＋ 加入图集';if(!$('tab-decks').hidden)renderDecks();}
+function b64e(s){return btoa(unescape(encodeURIComponent(s))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');}
+function b64d(s){s=s.replace(/-/g,'+').replace(/_/g,'/');while(s.length%4)s+='=';return decodeURIComponent(escape(atob(s)));}
+const PUBLIC_FILM='https://aikingtai-ctrl.github.io/jintai-history-image-library/film.html';
+function shareURL(d){const payload={n:d.name,d:d.desc,i:d.items.map(x=>x.note?[x.id,x.note]:[x.id])};const base=location.protocol==='file:'?PUBLIC_FILM:location.href.split('#')[0];return base+'#deck='+b64e(JSON.stringify(payload));}
+function readShared(){const m=/#deck=([^&]+)/.exec(location.hash);if(!m)return;try{const p=JSON.parse(b64d(m[1]));SHARED={id:'shared',name:p.n||'分享的参考图集',desc:p.d||'',items:(p.i||[]).map(a=>({id:a[0],note:a[1]||''})),shared:true};}catch(e){toast('分享链接无法解析');}}
+function renderDecks(){const L=$('deckList');L.innerHTML=DECKS.list.map(d=>`<div class="dk${d.id===DECKS.cur&&!SHOWSHARED?' on':''}" data-d="${d.id}"><b>${esc(d.name)}</b><div class="muted small">${d.items.length} 镜 · 建于 ${d.created}</div><div class="pal" style="margin-top:6px">${d.items.slice(0,12).map(x=>BYID.get(x.id)).filter(Boolean).map(r=>`<span style="background:${palOf(r)[2]}"></span>`).join('')}</div></div>`).join('')||'<p class="muted">还没有参考图集。在“找画面”里点卡片上的“＋图集”，或点上面的“新建”。</p>';
+ L.querySelectorAll('[data-d]').forEach(e=>e.onclick=()=>{DECKS.cur=e.dataset.d;SHOWSHARED=false;saveDecks();renderDecks();});
+ $('deckBanner').innerHTML=SHARED?`<div class="banner"><span>你打开的是别人分享的参考图集《${esc(SHARED.name)}》，共 ${SHARED.items.length} 镜。</span><button class="pri" id="saveShared">另存为我的图集</button><button id="viewShared">查看</button><button class="ghost" id="dropShared">关闭</button></div>`:'';
+ if(SHARED){$('saveShared').onclick=()=>{const d=newDeck(SHARED.name);d.desc=SHARED.desc;d.items=SHARED.items.map(x=>({...x}));saveDecks();SHARED=null;SHOWSHARED=false;history.replaceState(null,'',location.href.split('#')[0]);toast('已存为你的图集');renderDecks();};
+  $('viewShared').onclick=()=>{SHOWSHARED=true;renderDecks();};$('dropShared').onclick=()=>{SHARED=null;SHOWSHARED=false;history.replaceState(null,'',location.href.split('#')[0]);renderDecks();};}
+ const d=SHOWSHARED&&SHARED?SHARED:curDeck();const V=$('deckView');if(!d){V.innerHTML='';return;}const ro=!!d.shared;
+ const miss=d.items.filter(x=>!BYID.has(x.id)).length;
+ V.innerHTML=`<div class="dkhead">${ro?`<h2 style="margin:0 0 8px;font-size:30px">${esc(d.name)}</h2><p class="note">${esc(d.desc)||'（没有方案说明）'}</p>`:`<input id="dkName" value="${esc(d.name)}"><textarea id="dkDesc" placeholder="视觉方案说明：这套参考想表达的光、色、构图方向，给导演/摄影/美术/客户看">${esc(d.desc)}</textarea>`}</div>
+ <div class="btns"><button class="pri" id="dkShare">复制分享链接</button><button id="dkHtml">导出方案页（HTML）</button><button id="dkPrint">打印 / 存 PDF</button><button id="dkTxt">导出提示词 TXT</button><button id="dkIds">复制镜头编号</button><button id="dkCmp">全部加入对照</button>${ro?'':'<button class="ghost" id="dkDel">删除这个图集</button>'}</div>
+ ${miss?`<p class="warn small">有 ${miss} 个镜头编号在当前数据里找不到（可能数据还没载入完）。</p>`:''}
+ <div class="dgrid" id="dkGrid">${d.items.map((x,i)=>{const r=BYID.get(x.id);if(!r)return'';return`<div class="ditem" draggable="${!ro}" data-i="${i}"><div class="thumb" data-open="${r.id}">${visual(r,520)}</div>${palHTML(r)}<div class="cap"><b>${i+1}. ${esc(r.W.t)}</b> <span class="y">${r.W.y} · ${r.id}</span><p>${esc(r.sc)}</p></div>
+  ${ro?(x.note?`<p class="note small" style="margin:0 10px 10px">${esc(x.note)}</p>`:''):`<textarea data-note="${i}" placeholder="给这一镜写备注：参考它的什么（光/色/构图/情绪）">${esc(x.note)}</textarea><div class="acts"><button data-up="${i}">↑</button><button data-dn="${i}">↓</button><button data-rm="${i}">移除</button></div>`}</div>`;}).join('')}</div>`;
+ bindCards(V);
+ if(!ro){$('dkName').oninput=e=>{d.name=e.target.value;saveDecks();};$('dkName').onchange=()=>renderDecks();$('dkDesc').oninput=e=>{d.desc=e.target.value;saveDecks();};
+  V.querySelectorAll('[data-note]').forEach(t=>t.oninput=()=>{d.items[+t.dataset.note].note=t.value;saveDecks();});
+  const mv=(i,j)=>{if(j<0||j>=d.items.length)return;const[x]=d.items.splice(i,1);d.items.splice(j,0,x);saveDecks();renderDecks();};
+  V.querySelectorAll('[data-up]').forEach(b=>b.onclick=()=>mv(+b.dataset.up,+b.dataset.up-1));V.querySelectorAll('[data-dn]').forEach(b=>b.onclick=()=>mv(+b.dataset.dn,+b.dataset.dn+1));
+  V.querySelectorAll('[data-rm]').forEach(b=>b.onclick=()=>{d.items.splice(+b.dataset.rm,1);saveDecks();renderDecks();refreshMarks();});
+  let from=null;V.querySelectorAll('.ditem').forEach(el=>{el.ondragstart=()=>{from=+el.dataset.i;el.classList.add('drag');};el.ondragend=()=>el.classList.remove('drag');
+   el.ondragover=e=>{e.preventDefault();el.classList.add('over');};el.ondragleave=()=>el.classList.remove('over');el.ondrop=e=>{e.preventDefault();el.classList.remove('over');if(from!=null)mv(from,+el.dataset.i);from=null;};});
+  $('dkDel').onclick=()=>{if(!confirm('删除参考图集「'+d.name+'」？（镜头本身不受影响）'))return;DECKS.list=DECKS.list.filter(x=>x.id!==d.id);DECKS.cur=DECKS.list[0]?DECKS.list[0].id:null;saveDecks();renderDecks();refreshMarks();};}
+ $('dkShare').onclick=()=>{const u=shareURL(d);copy(u,'已复制分享链接（'+d.items.length+' 镜）。对方打开线上图库即看到这套图集和备注（需输入图库访问口令；本机截帧不随链接分享，要带截帧请用“打印 / 存 PDF”）');};
+ $('dkHtml').onclick=()=>exportHTML(d);$('dkPrint').onclick=()=>printDeck(d);$('dkTxt').onclick=()=>dl(d.name+'_复刻提示词.txt',d.items.map((x,i)=>{const r=BYID.get(x.id);return r?`${i+1}. ${shotText(r)}${x.note?'\n备注：'+x.note:''}`:'';}).join('\n\n'));
+ $('dkIds').onclick=()=>copy(d.items.map(x=>x.id).join(' '),'已复制 '+d.items.length+' 个镜头编号');$('dkCmp').onclick=()=>{d.items.slice(0,4).forEach(x=>{if(!CMP.includes(x.id))CMP.push(x.id);});CMP=CMP.slice(-4);saveCmp();showTab('compare');};}
+let SHOWSHARED=false;
+function deckDoc(d,forPrint){const items=d.items.map(x=>[x,BYID.get(x.id)]).filter(a=>a[1]);const date=new Date().toISOString().slice(0,10);
+ const body=items.map(([x,r],i)=>`<div class="pi"><div>${forPrint?visual(r,900,true):schem(r,900)}${palHTML(r)}</div><div><h2>${i+1}. ${esc(r.W.t)} <small style="color:#888">${esc(r.W.te||'')} · ${r.W.y}${r.ep?' · '+esc(r.ep):''}</small></h2>
+ <p><b>画面：</b>${esc(r.sc)}</p><p><b>标签：</b>${[r.size,r.angle,...(r.light||[]),r.time,r.ie,...(r.color||[]),...(r.comp||[]),...(r.emo||[])].filter(Boolean).map(esc).join(' · ')}</p>
+ <p><b>导演 / 摄影：</b>${esc(r.W.dir)} / ${esc(r.W.dp||'待核')} · 画幅 ${esc(r.W.ar||'')}</p><p><b>研究笔记：</b>${esc(r.note)}</p>${x.note?`<p style="background:#fff3cf;padding:2mm 3mm"><b>备注：</b>${esc(x.note)}</p>`:''}<p style="color:#888;font-size:10pt">${r.id} · 示意图按标签绘制，色板为${frOf(r)&&forPrint?'实测':'估色'}</p></div></div>`).join('');
+ return{date,body,cover:`<div class="cover"><p style="color:#a07a2a;letter-spacing:3px">金泰AI · 影视参考图集</p><h1>${esc(d.name)}</h1><p style="font-size:16pt;line-height:1.8;white-space:pre-wrap">${esc(d.desc||'')}</p><p style="color:#888">${items.length} 个参考镜头 · ${date}</p></div>`};}
+function printDeck(d){const x=deckDoc(d,true);$('printArea').innerHTML=x.cover+x.body;setTimeout(()=>window.print(),300);}
+function exportHTML(d){const x=deckDoc(d,false);const html=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(d.name)} · 参考图集</title><style>body{margin:0;background:#f5f2ec;color:#1d1d1d;font:20px/1.7 "Microsoft YaHei",sans-serif}.wrap{max-width:1500px;margin:auto;padding:30px}.cover{padding:40px 0 20px;border-bottom:2px solid #ccc;margin-bottom:30px}h1{font-size:40px;margin:0 0 12px}.pi{display:grid;grid-template-columns:58% 1fr;gap:28px;margin-bottom:34px;padding-bottom:28px;border-bottom:1px solid #ddd}.pi svg{width:100%;height:auto;display:block;border-radius:8px}.pal{display:flex;height:16px;border-radius:0 0 8px 8px;overflow:hidden}.pal span{flex:1}.pi h2{margin:0 0 8px;font-size:26px}.pi p{margin:6px 0}@media(max-width:900px){.pi{grid-template-columns:1fr}}@media print{.pi{page-break-inside:avoid}}</style></head><body><div class="wrap">${x.cover}${x.body}<p style="color:#888;font-size:16px">由金泰AI 影视参考图集导出。示意图按镜头标签自动绘制，不是影片原帧；各镜头原片画面请在图库详情页的外链查看。</p></div></body></html>`;
+ dl(d.name+'_参考图集.html',html,'text/html');}
+/* ---------- 对照 ---------- */
+let CMP=JSON.parse(localStorage.getItem('jt_film_cmp')||'[]'),FP=JSON.parse(localStorage.getItem('jt_film_fp')||'[]');
+function saveCmp(){localStorage.setItem('jt_film_cmp',JSON.stringify(CMP));localStorage.setItem('jt_film_fp',JSON.stringify(FP));$('nCmp').textContent=CMP.length?' '+CMP.length:'';}
+function toggleCmp(id){if(CMP.includes(id))CMP=CMP.filter(x=>x!==id);else{CMP.push(id);if(CMP.length>4){CMP.shift();toast('对照最多 4 个，已移出最早的一个');}}saveCmp();document.querySelectorAll(`[data-cmp="${id}"]`).forEach(b=>{const on=CMP.includes(id);b.classList.toggle('in',on);b.textContent=on?'✓ 对照中':'对照';});if(CUR&&$('detail').open)$('dCmp').textContent=CMP.includes(CUR.id)?'✓ 对照中':'加入对照';if(!$('tab-compare').hidden)renderCompare();}
+function renderCompare(){const rs=CMP.map(id=>BYID.get(id)).filter(Boolean);const box=$('cmpShots');
+ if(!rs.length){box.innerHTML='<p class="empty" style="padding:24px">还没有加入对照的镜头。</p>';}else{
+ const rows=[['作品',r=>r.W.t+' '+r.W.y],['导演 / 摄影',r=>r.W.dir+' / '+(r.W.dp||'待核')],['画幅',r=>r.W.ar],['景别',r=>r.size],['机位角度',r=>r.angle],['画面人物',r=>r.frame],['运镜',r=>(r.move||[]).join('、')],['焦段 / 景深',r=>[r.lens_type,r.dof].filter(Boolean).join(' / ')],
+  ['灯光',r=>(r.light||[]).join('、')],['主光方向',r=>r.ld],['时间',r=>r.time],['天气',r=>r.weather],['内外景',r=>r.ie],['地点',r=>(r.loc||[]).join('、')],['色彩',r=>(r.color||[]).join('、')],['构图',r=>(r.comp||[]).join('、')],['主体位置',r=>r.pos],['人物情绪',r=>(r.emo||[]).join('、')],['研究笔记',r=>r.note]];
+ box.innerHTML=`<div class="btns"><button id="cmpClear" class="ghost">清空对照</button><button id="cmpDeck">把这些镜头存为图集</button></div><div class="cmpgrid" style="grid-template-columns:repeat(${rs.length},minmax(0,1fr))">${rs.map(r=>`<div class="col"><div class="thumb" data-open="${r.id}">${visual(r,700)}</div>${palHTML(r)}<h4>${esc(r.W.t)} <span class="muted small">${r.id}</span></h4><div class="acts"><button data-cmp="${r.id}">移出对照</button></div></div>`).join('')}</div>
+ <div style="overflow-x:auto"><table class="cmp">${rows.map(([n,fn])=>{const vs=rs.map(r=>fn(r)||'');const diff=new Set(vs).size>1&&n!=='研究笔记'&&n!=='作品'&&n!=='导演 / 摄影';return`<tr><th>${n}</th>${vs.map(v=>`<td class="${diff?'diff':''}">${esc(v)}</td>`).join('')}</tr>`;}).join('')}</table></div>`;
+ bindCards(box);$('cmpClear').onclick=()=>{CMP=[];saveCmp();renderCompare();refreshCmpBtns();};$('cmpDeck').onclick=()=>addToDeck(CMP.slice());}
+ renderFP();}
+function refreshCmpBtns(){document.querySelectorAll('[data-cmp]').forEach(b=>{const on=CMP.includes(b.dataset.cmp);b.classList.toggle('in',on);b.textContent=on?'✓ 对照中':'对照';});}
+function fpPool(f){return f.kind==='work'?(BYW.get((WORKS.find(w=>w.wid===f.key)||{}).i)||[]):f.kind==='dir'?R.filter(r=>(r.W.dir||'').split(/[；;、，,]/).map(s=>s.trim()).includes(f.key)):R.filter(r=>(r.W.dp||'').split(/[；;、，,]/).map(s=>s.trim()).includes(f.key));}
+function fpOptions(){const k=$('fpKind').value;let opts=[];if(k==='work')opts=WORKS.map(w=>`${w.t}（${w.y}）`);else{const s=new Set();WORKS.forEach(w=>((k==='dir'?w.dir:w.dp)||'').split(/[；;、，,]/).map(x=>x.trim()).filter(x=>x&&x!=='待核').forEach(x=>s.add(x)));opts=[...s];}
+ $('fpList').innerHTML=opts.sort((a,b)=>a.localeCompare(b,'zh')).map(o=>`<option value="${esc(o)}">`).join('');}
+function fpAdd(){const k=$('fpKind').value,v=$('fpQ').value.trim();if(!v)return;let f=null;
+ if(k==='work'){const w=WORKS.find(w=>`${w.t}（${w.y}）`===v||w.t===v||w.te===v);if(w)f={kind:'work',key:w.wid,label:`${w.t}（${w.y}）`};}else f={kind:k,key:v,label:(k==='dir'?'导演 ':'摄影 ')+v};
+ if(!f||!fpPool(f).length){toast('没找到：'+v);return;}if(FP.some(x=>x.kind===f.kind&&x.key===f.key))return;FP.push(f);if(FP.length>3)FP.shift();$('fpQ').value='';saveCmp();renderFP();}
+function dist(pool,fn,keys){const c={};pool.forEach(r=>{[].concat(fn(r)||[]).forEach(v=>{if(!keys||keys.includes(v))c[v]=(c[v]||0)+1;});});return Object.entries(c).sort((a,b)=>b[1]-a[1]);}
+function bars(title,arr,n,max){if(!arr.length)return'';return`<div class="sec">${title}</div>`+arr.slice(0,max||6).map(([k,v])=>`<div class="bar"><span>${esc(k)}</span><i style="width:${Math.round(v/n*100)}%"></i><em>${Math.round(v/n*100)}%</em></div>`).join('');}
+function renderFP(){const V=$('fpView');if(!FP.length){V.innerHTML='<p class="muted">例：选“按作品”，输入片名后回车；再添加一两部来对照。</p>';return;}
+ V.style.gridTemplateColumns=`repeat(${FP.length},minmax(0,1fr))`;
+ V.innerHTML=FP.map((f,i)=>{const pool=fpPool(f),n=pool.length;const g=FK.light.groups;const lum0=pool.map(r=>palOf(r).reduce((a,c)=>a+lum(c),0)/palOf(r).length);const avg=Math.round(lum0.reduce((a,b)=>a+b,0)/Math.max(1,n));
+  const works=new Set(pool.map(r=>r.w));
+  return`<div class="fp"><h4>${esc(f.label)}</h4><div class="muted small">${n} 个镜头${works.size>1?' · '+works.size+' 部作品':''} · 平均亮度 ${avg}/255 <button class="ghost" data-fprm="${i}" style="font-size:15px;padding:2px 10px">移除</button> <button class="ghost" data-fpgo="${i}" style="font-size:15px;padding:2px 10px">看全部镜头</button></div>
+  <div class="mosaic">${pool.map(r=>`<div>${palOf(r).map(c=>`<span style="background:${c}"></span>`).join('')}</div>`).join('')}</div>
+  ${bars('景别',dist(pool,r=>r.size),n,7)}${bars('光调与反差',dist(pool,r=>r.light,g[1].values),n)}${bars('光质',dist(pool,r=>r.light,g[0].values),n)}${bars('光源',dist(pool,r=>r.light,g[3].values),n,5)}
+  ${bars('色调',dist(pool,r=>r.color,FK.color.groups[0].values),n)}${bars('饱和',dist(pool,r=>r.color,FK.color.groups[1].values),n)}${bars('主色',dist(pool,r=>r.color,FK.color.groups[2].values),n,5)}
+  ${bars('时间',dist(pool,r=>r.time),n,5)}${bars('构图',dist(pool,r=>r.comp),n,6)}${bars('人物情绪',dist(pool,r=>r.emo),n,6)}${bars('运镜',dist(pool,r=>r.move),n,5)}
+  <div class="sec">代表镜头</div><div class="strip">${pool.slice(0,8).map(x=>`<div class="mini" data-open="${x.id}" title="${esc(x.sc)}">${visual(x,300)}</div>`).join('')}</div></div>`;}).join('');
+ V.querySelectorAll('[data-open]').forEach(e=>e.onclick=()=>openDetail(e.dataset.open));V.querySelectorAll('[data-fprm]').forEach(b=>b.onclick=()=>{FP.splice(+b.dataset.fprm,1);saveCmp();renderFP();});
+ V.querySelectorAll('[data-fpgo]').forEach(b=>b.onclick=()=>{const f=FP[+b.dataset.fpgo];if(f.kind==='work'){WID=f.key;QP={tags:[],work:null,words:[]};$('q').value='';}else{WID=null;$('q').value=f.key;QP=parseQ(f.key);}showTab('find');apply();});}
+/* ---------- 作品库 ---------- */
+function fillSel(id,name,arr){$(id).innerHTML=`<option value="">${name}：全部</option>`+arr.map(v=>`<option>${esc(v)}</option>`).join('');}
+function renderWorks(){const q=$('wq').value.trim().toLowerCase(),t=$('wType').value,k=$('wKind').value,rg=$('wRegion').value,dc=$('wDecade').value,so=$('wSort').value;
+ let ws=WORKS.filter(w=>(!t||w.type===t)&&(!k||(w.kinds||[]).includes(k))&&(!rg||w.region===rg)&&(!dc||w.decade===dc)&&(!q||[w.t,w.te,w.dir,w.dp,w.pd].join(' ').toLowerCase().includes(q)));
+ ws.sort(so==='old'?(a,b)=>a.y-b.y:so==='n'?(a,b)=>b.n-a.n:so==='title'?(a,b)=>a.t.localeCompare(b.t,'zh'):(a,b)=>b.y-a.y);
+ $('wCount').textContent=`${ws.length} 部作品`;
+ $('wGrid').innerHTML=ws.map(w=>{const shots=BYW.get(w.i)||[];return`<div class="wc"><h4>${esc(w.t)} <span class="muted" style="font-size:18px">${esc(w.te||'')} · ${w.y}</span></h4>
+ <div class="m">${esc(w.type)} · ${esc((w.kinds||[]).join('、'))} · ${esc(w.region)} · 导演 ${esc(w.dir)} · 摄影 ${esc(w.dp||'待核')}</div>
+ <div class="mosaic" style="flex-direction:row;height:22px">${shots.map(r=>`<span style="background:${palOf(r)[2]}"></span>`).join('')}</div><p>${esc(w.look||'')}</p>
+ <div class="btns"><button data-wid="${w.wid}">看 ${shots.length} 个镜头</button><button data-wfp="${w.wid}">加入风格指纹</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
+ $('wGrid').querySelectorAll('[data-wid]').forEach(b=>b.onclick=()=>{WID=b.dataset.wid;showTab('find');apply();});
+ $('wGrid').querySelectorAll('[data-wfp]').forEach(b=>b.onclick=()=>{const w=WORKS.find(x=>x.wid===b.dataset.wfp);if(!FP.some(x=>x.key===w.wid)){FP.push({kind:'work',key:w.wid,label:`${w.t}（${w.y}）`});if(FP.length>3)FP.shift();saveCmp();}showTab('compare');});}
+/* ---------- 对标页 ---------- */
+function renderBench(){const b=BENCH;const nW=WORKS.length,nS=R.length,nF=Object.keys(FR).length;
+ $('benchView').innerHTML=`<h3 style="margin-top:0">本板块现状</h3><p>${nW} 部作品 · ${nS} 个镜头 · ${nF} 张本机截帧。每天 0:00 自动新增，并刷新下表中能自动核对的公开数字（最近刷新：${esc(b.checked||'')}）。</p>
+ <p class="muted small">定位：ShotDeck 是授权影片截图库；本板块是结构化的镜头档案库——每个镜头有全套标签、研究笔记和原创复刻提示词，示意图按标签绘制；真实截帧由团队本地积累，只在内部版显示；看原片画面走外链。</p>
+ <h3>ShotDeck（对标对象）</h3><table class="bench"><tr><th>项目</th><th>数字 / 说法</th><th>说明</th></tr>${b.shotdeck.map(x=>`<tr><td>${esc(x[0])}</td><td><b>${esc(x[1])}</b></td><td>${esc(x[2])}</td></tr>`).join('')}</table>
+ <p class="small muted">${esc(b.shotdeck_note||'')}</p>
+ <h3>五个值得收藏的参考站</h3><table class="bench"><tr><th style="width:150px">网站</th><th>资源来源与形式</th><th>检索 / 分类特点</th><th>数量与费用</th><th>本板块借鉴了什么</th></tr>
+ ${b.sites.map(s=>`<tr><td><a target="_blank" rel="noopener" href="${esc(s.url)}"><b>${esc(s.name)}</b></a></td><td>${esc(s.source)}</td><td>${esc(s.search)}</td><td>${esc(s.scale)}${s.live?`<br><span class="small" style="color:var(--ok)">自动核对（${esc(s.live_date)}）：${esc(s.live)}</span>`:''}</td><td>${esc(s.borrow)}</td></tr>`).join('')}</table>
+ <p class="small muted">表中“数量与费用”一栏的文字来自整理资料（2026-09-30）；绿色小字是每日脚本从各站首页自动抓到的公开数字，抓取失败时保留上一次结果。ShotDeck 有人机验证、Eyecandy 拒绝脚本访问，这两家不做自动抓取。</p>`;}
+/* ---------- 通用 ---------- */
+function toast(m){const t=$('toast');t.textContent=m;t.style.display='block';clearTimeout(t._h);t._h=setTimeout(()=>t.style.display='none',3200);}
+async function copy(t,m){try{await navigator.clipboard.writeText(t);}catch(e){const a=document.createElement('textarea');a.value=t;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove();}toast(m||'已复制');}
+function dl(name,t,type){const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([t],{type:(type||'text/plain')+';charset=utf-8'}));a.download=name.replace(/[\\/:*?"<>|]/g,'_');a.click();}
+function showTab(t){document.querySelectorAll('nav.tabs button').forEach(b=>b.classList.toggle('on',b.dataset.tab===t));document.querySelectorAll('main>section').forEach(s=>s.hidden=s.id!=='tab-'+t);
+ if(t==='decks')renderDecks();if(t==='compare')renderCompare();if(t==='works')renderWorks();if(t==='bench')renderBench();window.scrollTo({top:0});}
+document.querySelectorAll('nav.tabs button').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
+let qT=null;$('q').oninput=()=>{clearTimeout(qT);qT=setTimeout(()=>{QP=parseQ($('q').value);apply();},250);};
+document.querySelectorAll('.hint code').forEach(c=>c.onclick=()=>{$('q').value=c.textContent;QP=parseQ(c.textContent);apply();});
+$('sort').onchange=()=>apply();$('psize').onchange=()=>{PS=+$('psize').value;apply();};$('prev').onclick=()=>{page--;renderGrid();window.scrollTo({top:0});};$('next').onclick=()=>{page++;renderGrid();window.scrollTo({top:0});};
+$('resetAll').onclick=()=>{SEL={};QP={tags:[],work:null,words:[]};COLOR=null;IMGPAL=null;WID=null;$('q').value='';apply();};
+$('colorBtn').onclick=()=>{COLOR={hex:$('colorPick').value,tol:COLOR?COLOR.tol:18};IMGPAL=null;apply();};$('colorPick').oninput=()=>{if(COLOR){COLOR.hex=$('colorPick').value;apply(true);}};
+$('imgBtn').onclick=()=>$('imgFile').click();
+$('imgFile').onchange=e=>{const f=e.target.files[0];if(!f)return;const img=new Image();img.onload=()=>{const c=document.createElement('canvas');c.width=c.height=72;const x=c.getContext('2d');x.drawImage(img,0,0,72,72);
+ const d=x.getImageData(0,0,72,72).data,px=[];for(let i=0;i<d.length;i+=4)px.push([d[i],d[i+1],d[i+2]]);IMGPAL=kmeans(px,5).map(hex).sort((a,b)=>lum(a)-lum(b));COLOR=null;URL.revokeObjectURL(img.src);$('imgFile').value='';apply();toast('已按这张图的色板排序');};img.src=URL.createObjectURL(f);};
+function kmeans(px,k){let C=[];for(let i=0;i<k;i++)C.push(px[Math.floor((i+.5)*px.length/k)].slice());for(let it=0;it<12;it++){const S=C.map(()=>[0,0,0,0]);px.forEach(p=>{let b=0,bd=1e9;C.forEach((c,j)=>{const dd=(p[0]-c[0])**2+(p[1]-c[1])**2+(p[2]-c[2])**2;if(dd<bd){bd=dd;b=j;}});S[b][0]+=p[0];S[b][1]+=p[1];S[b][2]+=p[2];S[b][3]++;});C=C.map((c,j)=>S[j][3]?[S[j][0]/S[j][3],S[j][1]/S[j][3],S[j][2]/S[j][3]]:c);}return C;}
+$('addAllDeck').onclick=()=>{if(!list.length)return;if(list.length>60&&!confirm(`当前结果有 ${list.length} 个镜头，全部加入图集？`))return;addToDeck(list.map(r=>r.id));};
+$('dClose').onclick=()=>$('detail').close();$('dPrev').onclick=()=>step(-1);$('dNext').onclick=()=>step(1);
+$('dAdd').onclick=()=>addToDeck([CUR.id]);$('dCmp').onclick=()=>toggleCmp(CUR.id);
+document.addEventListener('keydown',e=>{if($('detail').open&&!/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)){if(e.key==='ArrowRight')step(1);if(e.key==='ArrowLeft')step(-1);}});
+$('pClose').onclick=()=>$('pick').close();$('pNewBtn').onclick=()=>{newDeck($('pNew').value.trim()||'未命名参考图集');pushPending();};
+$('newDeck').onclick=()=>{const n=prompt('参考图集名称（如：雨夜霓虹·都市孤独）');if(n===null)return;newDeck(n.trim()||'未命名参考图集');SHOWSHARED=false;renderDecks();};
+$('importDeck').onclick=()=>{const u=prompt('粘贴分享链接');if(!u)return;const m=/#deck=([^&\s]+)/.exec(u);if(!m){toast('链接里没有图集内容');return;}location.hash='deck='+m[1];readShared();SHOWSHARED=true;renderDecks();};
+$('fpKind').onchange=fpOptions;$('fpAdd').onclick=fpAdd;$('fpQ').onkeydown=e=>{if(e.key==='Enter')fpAdd();};$('fpClear').onclick=()=>{FP=[];saveCmp();renderFP();};
+['wq','wType','wKind','wRegion','wDecade','wSort'].forEach(i=>$(i)[i==='wq'?'oninput':'onchange']=renderWorks);
+(async function init(){if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
+ for(const s of SHARDS)await loadScript(DATA_DIR+'/'+s.file);
+ R.forEach(r=>{r.W=WORKS[r.w];r.text=[r.W.t,r.W.te,r.W.dir,r.W.dp,r.W.pd,r.W.genre,r.sc,r.pl,r.note,r.en,r.ep,r.id].join(' ').toLowerCase();BYID.set(r.id,r);if(!BYW.has(r.w))BYW.set(r.w,[]);BYW.get(r.w).push(r);});
+ $('sW').textContent=WORKS.length;$('sS').textContent=R.length;$('sF').textContent=Object.keys(FR).length;
+ const last=R.reduce((a,r)=>r.add>a?r.add:a,'');if(last){const n=R.filter(r=>r.add===last).length;$('sNew').innerHTML=` · 最近一批 ${last.slice(0,4)}-${last.slice(4,6)}-${last.slice(6)} 新增 <b>${n}</b> 镜`;}
+ fillSel('wType','类型',FK.type.values);fillSel('wKind','片种',FK.kinds.values);fillSel('wRegion','地区',FK.region.values.filter(v=>WORKS.some(w=>w.region===v)));fillSel('wDecade','年代',FK.decade.values.filter(v=>WORKS.some(w=>w.decade===v)));
+ fpOptions();saveDecks();saveCmp();readShared();apply();if(SHARED){SHOWSHARED=true;showTab('decks');}})();
+</script></body></html>
