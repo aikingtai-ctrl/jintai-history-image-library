@@ -40,6 +40,7 @@ aside summary::after{content:'＋';color:var(--mu)}aside details[open] summary::
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:18px}
 .card{background:var(--p1);border:1px solid var(--line);border-radius:14px;overflow:hidden;position:relative;display:flex;flex-direction:column}
 .card:hover{border-color:var(--ac)}.thumb{position:relative;cursor:zoom-in;background:#000;line-height:0;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;overflow:hidden}.thumb img{max-width:100%;max-height:100%;width:auto;height:auto;display:block}.thumb svg.wid{width:100%;height:auto;display:block}.thumb svg.nar{height:100%;width:auto;display:block}
+.thumb.source{aspect-ratio:auto;min-height:210px;background:var(--p2)}.source-ref{width:100%;padding:40px 18px 16px;line-height:1.7;font-size:19px;color:var(--tx)}.source-ref p{margin:6px 0}.source-ref a{display:inline-block;margin-right:16px}.vis .source-ref{padding:20px}.mini .source-ref{font-size:16px;padding:12px}.palette-pending{margin:6px 14px;color:var(--mu);font-size:16px}
 .badge{position:absolute;left:8px;top:8px;background:#000a;color:#ddd;font-size:14px;line-height:1.4;padding:2px 8px;border-radius:6px}.badge.fr{background:#1f6b3acc}
 .pal{display:flex;height:14px}.pal span{flex:1}
 .cap{padding:8px 14px 4px;font-size:19px;cursor:pointer}.cap b{font-size:21px}.cap .y{color:var(--mu)}.cap p{margin:2px 0;color:#cfcac0;font-size:18px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
@@ -83,10 +84,11 @@ table.bench{width:100%;border-collapse:collapse;font-size:18px}table.bench th,ta
 </style></head><body>
 <header class="top"><div class="hrow"><a class="back" href="index.html">← 图库总检索</a><h1>影视参考图集</h1><span class="sub">对标 ShotDeck · 按景别、灯光、色彩、构图、地点、人物情绪、摄影机、镜头找画面</span>
 <span class="stats" id="sourceStats" hidden></span>
-<span class="stats">镜头描述库：<b id="sW">–</b> 部作品 · <b id="sS">–</b> 条描述 · <b id="sF">0</b> 张本机截帧 · 更新于 2026-10-08 13:47<span id="sNew"></span></span></div>
+<span class="stats">镜头描述库：<b id="sW">–</b> 部作品 · <b id="sS">–</b> 条描述 · <b id="sF">0</b> 张本机截帧 · 更新于 2026-10-09 01:36<span id="sOrigin"></span><span id="sNew"></span></span></div>
 <nav class="tabs"><button data-tab="find" class="on">找画面</button><button onclick="location.href='sources.html'">逐片镜头提示词与来源</button><button data-tab="decks">参考图集<b id="nDeck"></b></button><button data-tab="compare">风格对照<b id="nCmp"></b></button><button data-tab="works">作品库</button><button data-tab="bench">对标与外部资源</button><button data-tab="help">使用说明</button></nav></header>
 <main>
 <section id="tab-find">
+ <p class="hint" id="descriptionGoal"></p>
  <div class="searchbar"><input id="q" placeholder="描述你要的画面，如：夜晚 蓝色 室内 人物特写" autocomplete="off">
  <button id="colorBtn" title="挑一个颜色，找画面里有这个颜色的镜头">按颜色找</button><input type="color" id="colorPick" value="#2f5d8a" style="width:58px;height:48px;padding:2px">
  <button id="imgBtn" title="选一张你手头的参考图，按色板找相近的镜头（图片只在本机读取，不上传）">以图找色</button><input type="file" id="imgFile" accept="image/*" hidden>
@@ -111,9 +113,9 @@ table.bench{width:100%;border-collapse:collapse;font-size:18px}table.bench th,ta
 <section id="tab-bench" hidden><div id="benchView" class="prose" style="max-width:none"></div></section>
 <section id="tab-help" hidden><div class="prose">
 <h3 style="margin-top:0">这个板块是什么</h3>
-<p>对标 ShotDeck 的影视镜头参考库：每条记录是一部真实电影或剧集里的一个具体镜头，带全套标签（景别、机位、画面人物、运镜、焦段、景深、灯光、时间、天气、内外景、地点、色彩、构图、人物情绪、画幅、拍摄格式、摄影机、镜头品牌、变形宽银幕/球面），附研究笔记（光、色、构图怎样表达情绪）和一条原创复刻提示词（贴进 IMAGE 2 出同构画面，不复制原片人物）。</p>
+<p>对标 ShotDeck 的影视镜头参考库。既有镜头笔记与新增来源静帧分析一起参与搜索，附研究笔记和原创创作提示词。来源静帧可能来自同一连续镜头，条数不等同于已核验的独立剪辑镜头。缺少的景别、灯光、器材等标签明确待标注；可在左侧“标签状态”筛选。来源分析支持正文检索，手动选择摄影标签时只匹配已标注记录。</p>
 <h3>画面图从哪来</h3>
-<ul><li><b>示意图</b>：每个镜头都有一张按标签自动画的示意图（画幅、主光方向、剪影大小与位置、构图线、天气），色板是按记忆<b>估色</b>，用来快速比较光色构图，不是影片原帧。</li>
+<ul><li><b>来源画面分析</b>：新增记录保留对应原图和作品画廊链接，以文字来源卡展示；没有本机截帧时不绘制示意图。色板待测的记录不参与颜色匹配，静帧不能确认运镜和器材参数。</li><li><b>既有示意图</b>：旧镜头笔记按已有标签自动画示意图（画幅、主光方向、剪影大小与位置、构图线、天气），色板是按记忆<b>估色</b>，用来快速比较光色构图，不是影片原帧。</li>
 <li><b>真实截帧</b>：团队把自己看片时截的图放进 <code>影视参考图集_收件箱</code>，文件名写镜头编号（如 <code>YS-0001-03.jpg</code>）或片名（如 <code>花样年华_走廊.jpg</code>）。每晚自动处理：实测色板、生成缩略图、由 A 机自动打标签，截帧只进本机内部版，不上公网。</li>
 <li><b>看原片画面</b>：每个镜头的详情里有 FilmGrab、SHOT.CAFE、Frame Set、Flim、ShotDeck、Eyecandy 的外链。</li></ul>
 <h3>怎么精准找画面</h3>
@@ -140,23 +142,28 @@ const VOCAB={"facets":[{"key":"type","name":"类型","level":"work","multi":fals
 const DATA_DIR='d3';const SHARDS=[{"era": "__works__", "file": "00_works.js", "n": 178, "np": 0}, {"era": "镜头", "file": "01_idx.js", "n": 2257, "np": 0}, {"era": "__detail__", "file": "d001.js", "n": 981, "np": 0, "lo": 1, "hi": 40}, {"era": "__detail__", "file": "d002.js", "n": 474, "np": 0, "lo": 41, "hi": 80}, {"era": "__detail__", "file": "d003.js", "n": 190, "np": 0, "lo": 81, "hi": 120}, {"era": "__detail__", "file": "d004.js", "n": 379, "np": 0, "lo": 121, "hi": 160}, {"era": "__detail__", "file": "d005.js", "n": 233, "np": 0, "lo": 161, "hi": 200}];const FRAME_DIR='影视参考图集_截帧',JIMENG='https://jimeng.jianying.com/ai-tool/image/generate';
 const $=i=>document.getElementById(i),esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 let WORKS=[],R=[],FR={},BYID=new Map(),BYW=new Map(),loaded=0;
+let VISUAL_MANIFEST=[],VISUAL_VERSION='';
 const FACETS=VOCAB.facets,FK={};FACETS.forEach(f=>{FK[f.key]=f;f.values=f.groups.flatMap(g=>g.values);});
+const TAG_STATUS={key:'tag_status',name:'标签状态',multi:false,groups:[{name:'',values:['待标注','已有标签（待核）','已有标签（已核）']}],values:['待标注','已有标签（待核）','已有标签（已核）']};FACETS.push(TAG_STATUS);FK.tag_status=TAG_STATUS;
 const WORK_KEYS=new Set(['type','kinds','region','decade','format','cam','lensb','optic','ar']);
 const MULTI=new Set(FACETS.filter(f=>f.multi).map(f=>f.key));
-const SHOW=['type','kinds','region','decade','size','angle','frame','move','lens_type','dof','light','time','weather','ie','loc','color','comp','emo','pos','ar','format','cam','lensb','optic','st','hasfr'];
+const SHOW=['type','kinds','region','decade','tag_status','size','angle','frame','move','lens_type','dof','light','time','weather','ie','loc','color','comp','emo','pos','ar','format','cam','lensb','optic','st','hasfr'];
 const VV={};FACETS.forEach(f=>VV[f.key]=f.values);
 function dec(a){const S=(k,c)=>c>=0?VV[k][c]:'',M=(k,cs)=>cs.map(c=>VV[k][c]);const r={id:a[0],w:a[1],sc:a[2],pl:a[3],ep:a[4]};
  r.size=S('size',a[5]);r.angle=S('angle',a[6]);r.frame=S('frame',a[7]);r.lens_type=S('lens_type',a[8]);r.dof=S('dof',a[9]);r.move=M('move',a[10]);r.light=M('light',a[11]);
  r.ld=S('ld',a[12]);r.time=S('time',a[13]);r.weather=S('weather',a[14]);r.ie=S('ie',a[15]);r.loc=M('loc',a[16]);r.color=M('color',a[17]);r.pal=a[18].split(',').map(x=>'#'+x);
  r.comp=M('comp',a[19]);r.pos=S('pos',a[20]);r.emo=M('emo',a[21]);r.st=a[22]?'已核':'待核';r.add=String(a[23]);if(a[24])r.fk=a[24];return r;}
 window.__SHARD__=(file,kind,recs)=>{if(kind==='__works__')WORKS=recs;else for(const a of recs)R.push(dec(a));loaded++;};
+window.__VISUAL_WORKS__=works=>{WORKS=works;};
+window.__VISUAL_INDEX__=records=>{R.push(...records);};
+window.__VISUAL_DETAIL__=map=>{for(const id in map){const r=BYID.get(id);if(!r||r.origin!=='visual')continue;const d=map[id];for(const k of ['wh','note','pr','en','source_url','source_page','verification','observation_limits','observed_resolution','review','frame_id','original_prompt_id'])if(d[k]!==undefined)r[k]=d[k];}};
 const DETS=SHARDS.filter(x=>x.era==='__detail__'),STARTUP=SHARDS.length-DETS.length,detDone=new Set();
 window.__DET__=(lo,hi,map)=>{for(const id in map){const r=BYID.get(id);if(r){const d=map[id];r.wh=d[0];r.note=d[1];r.pr=d[2];r.en=d[3];}}};
-async function ensureDet(rs){const need=new Set();rs.forEach(r=>{if(!r||r.note!==undefined)return;const x=DETS.find(x=>r.W.no>=x.lo&&r.W.no<=x.hi);if(x&&!detDone.has(x.file))need.add(x);});
- for(const x of need){await loadScript(DATA_DIR+'/'+x.file);detDone.add(x.file);}}
+async function ensureDet(rs){const need=new Set();rs.forEach(r=>{if(!r||r.note!==undefined)return;const x=r.origin==='visual'?VISUAL_MANIFEST.find(x=>x.file===r.detail_file):DETS.find(x=>r.W.no>=x.lo&&r.W.no<=x.hi);if(x&&!detDone.has(x.file))need.add(x);});
+ for(const x of need){const ok=await loadScript(DATA_DIR+'/'+x.file+(x.version?'?v='+encodeURIComponent(x.version):''));if(ok)detDone.add(x.file);}}
 function loadScript(src){return new Promise(res=>{const t=document.createElement('script');t.src=src;t.onload=()=>res(true);t.onerror=()=>res(false);document.head.appendChild(t);});}
 function frOf(r){return FR[r.id]||(r.fk&&FR[r.fk])||null;}
-function val(r,k){if(k==='hasfr')return frOf(r)?'有截帧':'无截帧';if(WORK_KEYS.has(k))return r.W[k];return r[k];}
+function val(r,k){if(k==='hasfr')return frOf(r)?'有截帧':'无截帧';if(k==='tag_status')return r.tag_status||(r.origin==='visual'?'待标注':r.st==='已核'?'已有标签（已核）':'已有标签（待核）');if(WORK_KEYS.has(k))return r.W[k];return r[k];}
 function vals(r,k){const v=val(r,k);return v==null||v===''?[]:Array.isArray(v)?v:[v];}
 /* ---------- 颜色工具 ---------- */
 function rgb(h){h=h.replace('#','');return[parseInt(h.slice(0,2),16),parseInt(h.slice(2,4),16),parseInt(h.slice(4,6),16)];}
@@ -168,13 +175,17 @@ const LABC=new Map();function lab(h){let v=LABC.get(h);if(!v){v=lab0(h);LABC.set
 function lab0(h){let[r,g,b]=rgb(h).map(v=>{v/=255;return v>.04045?Math.pow((v+.055)/1.055,2.4):v/12.92;});let x=(r*.4124+g*.3576+b*.1805)/.95047,y=r*.2126+g*.7152+b*.0722,z=(r*.0193+g*.1192+b*.9505)/1.08883;
  const f=t=>t>.008856?Math.cbrt(t):7.787*t+16/116;x=f(x);y=f(y);z=f(z);return[116*y-16,500*(x-y),200*(y-z)];}
 function dE(a,b){const A=lab(a),B=lab(b);return Math.hypot(A[0]-B[0],A[1]-B[1],A[2]-B[2]);}
-function palOf(r){const f=frOf(r);return(f&&f.pal)||r.pal;}
+function palOf(r){const f=frOf(r);return((f&&f.pal)||r.pal||[]).filter(c=>/^#[0-9a-f]{6}$/i.test(c));}
+const safeSource=u=>{try{const x=new URL(u);return ['http:','https:'].includes(x.protocol)?x.href:'';}catch{return '';}};
+function sourceLinks(r){return [[r.source_url,'查看对应来源原图'],[r.source_page,'作品画廊']].filter(([u])=>safeSource(u)).map(([u,label])=>`<a data-source-link target="_blank" rel="noopener noreferrer" href="${esc(safeSource(u))}">${label}</a>`).join('');}
+function sourceVisual(r){return `<div class="source-ref"><strong>真实来源静帧 · 文字分析</strong><p>${sourceLinks(r)||'画面来源待核'}</p><p class="muted small">${esc(r.verification||'观图待人工核')} · 无本机截帧</p></div>`;}
 /* ---------- 示意图 ---------- */
 let SVGN=0;
 function parseAR(a){const m=/^(\d(?:\.\d+)?)/.exec(a||'');return m?parseFloat(m[1]):1.85;}
 function figPath(){return'M.455 .15L.545 .15L.55 .185C.6 .19 .67 .195 .7 .225C.725 .25 .73 .3 .73 .36L.735 .53L.7 .535L.69 .4L.675 .54L.655 1L.545 1L.515 .62L.485 .62L.455 1L.345 1L.325 .54L.31 .4L.3 .535L.265 .53L.27 .36C.27 .3 .275 .25 .3 .225C.33 .195 .4 .19 .45 .185Z';}
 const HEAD='<ellipse cx=".5" cy=".085" rx=".058" ry=".072"';
 function schem(r,W0){
+ if(r.origin==='visual')return sourceVisual(r);
  const id='s'+(++SVGN),W=W0||640,ar=parseAR(r.W.ar),H=Math.round(W/ar);
  const P=palOf(r).slice().sort((a,b)=>lum(a)-lum(b)),n=P.length,dark=P[0],d2=P[1]||P[0],mid=P[Math.floor(n/2)],l2=P[n-2]||P[n-1],light=P[n-1];
  const L=new Set(r.light||[]),C=new Set(r.comp||[]),hi=L.has('高调'),lo=L.has('低调')||r.time==='夜晚',hard=L.has('硬光'),sil=L.has('剪影')||(r.ld==='后'&&L.has('逆光'));
@@ -246,8 +257,8 @@ function schem(r,W0){
  if(C.has('引导线')){const hy=Math.max(H*.1,Math.min(H*.55,topY+fh*.1));s+=`<path d="M0 ${H}L${cx} ${hy}M${W} ${H}L${cx} ${hy}M0 ${H*.1}L${cx} ${hy}M${W} ${H*.1}L${cx} ${hy}" stroke="${light}" stroke-opacity=".25" stroke-width="2" fill="none"/>`;}
  s+=`<text x="${W-10}" y="${H-10}" text-anchor="end" font-size="${Math.max(13,W/34)}" fill="#fff" fill-opacity=".45" font-family="Arial">${esc(r.W.ar||'1.85:1')}</text></svg>`;
  return s;}
-function visual(r,W,big){const f=frOf(r);if(f)return`<img loading="lazy" src="${FRAME_DIR}/${esc(big?f.f:f.t)}" alt="${esc(r.W.t)} 截帧">`;return schem(r,W);}
-function palHTML(r){return`<div class="pal">${palOf(r).map(c=>`<span style="background:${c}"></span>`).join('')}</div>`;}
+function visual(r,W,big){const f=frOf(r);if(f)return`<img loading="lazy" src="${FRAME_DIR}/${esc(big?f.f:f.t)}" alt="${esc(r.W.t)} 截帧">`;return r.origin==='visual'?sourceVisual(r):schem(r,W);}
+function palHTML(r){const p=palOf(r);return p.length?`<div class="pal">${p.map(c=>`<span style="background:${c}"></span>`).join('')}</div>`:'<p class="palette-pending">色板待测 · 不参与颜色匹配</p>';}
 /* ---------- 智能搜索 ---------- */
 const TERMS=[];(function(){const seen=new Set();const add=(t,tg)=>{const k=t.toLowerCase();if(seen.has(k+'>'+tg.join()))return;seen.add(k+'>'+tg.join());TERMS.push([k,tg]);};
  FACETS.forEach(f=>{if(['ld','pos','st','hasfr','decade','ar'].includes(f.key))return;f.values.forEach(v=>add(v,[f.key+':'+v]));});
@@ -260,7 +271,7 @@ function parseQ(q){const tags=[];let rest=' '+q.toLowerCase().replace(/[，,、�
   else if(t.length===1){const re=new RegExp('(^|\\s)'+t+'(?=\\s)');if(re.test(rest)){rest=rest.replace(re,' ');tags.push(...tg);}}
   else if(rest.includes(t)){rest=rest.split(t).join(' ');tags.push(...tg);}}
 
- return{tags:[...new Set(tags)],work,words:rest.split(/\s+/).filter(w=>w.length>=2)};}
+ return{tags:[...new Set(tags)],work,words:rest.split(/\s+/).filter(w=>w.length>=2),rawWords:q.toLowerCase().replace(/[，,、；;。/|]+/g,' ').split(/\s+/).filter(Boolean)};}
 /* ---------- 状态与筛选 ---------- */
 let SEL={},MODE='and',QP={tags:[],work:null,words:[]},COLOR=null,IMGPAL=null,WID=null,list=[],page=0,PS=60;
 function selOf(k){return SEL[k]||(SEL[k]=new Set());}
@@ -268,13 +279,13 @@ function effective(){const e={};Object.entries(SEL).forEach(([k,s])=>{if(s.size)
 function passFacet(r,k,set){const vs=vals(r,k);if(MULTI.has(k)&&MODE==='and'){for(const v of set)if(!vs.includes(v))return false;return true;}return vs.some(v=>set.has(v));}
 function passNon(r){if(WID&&r.W.wid!==WID)return false;if(QP.work&&r.W.t!==QP.work&&r.W.te!==QP.work)return false;
  for(const w of QP.words)if(!r.text.includes(w))return false;if(COLOR&&r._cd>COLOR.tol)return false;return true;}
-function passFacets(r,E,skip){for(const k in E){if(k===skip)continue;if(!passFacet(r,k,E[k]))return false;}return true;}
+function passFacets(r,E,skip){for(const k in E){if(k===skip)continue;if(!passFacet(r,k,E[k])){if(r.origin==='visual'&&!vals(r,k).length&&!SEL[k]?.size&&QP.rawWords?.length&&QP.rawWords.every(w=>r.text.includes(w)))continue;return false;}}return true;}
 function baseFilter(r,skip,E){return passNon(r)&&passFacets(r,E,skip);}
 let BASE=[];
 function apply(keepPage){const E=effective();
  if(COLOR)R.forEach(r=>{r._cd=Math.min(...palOf(r).map(c=>dE(c,COLOR.hex)));});
  BASE=R.filter(passNon);list=BASE.filter(r=>passFacets(r,E,null));
- if(IMGPAL){list.forEach(r=>{const p=palOf(r);r._pd=(IMGPAL.reduce((a,c)=>a+Math.min(...p.map(x=>dE(c,x))),0)+p.reduce((a,c)=>a+Math.min(...IMGPAL.map(x=>dE(c,x))),0))/(IMGPAL.length+p.length);});list.sort((a,b)=>a._pd-b._pd);}
+ if(IMGPAL){list=list.filter(r=>palOf(r).length);list.forEach(r=>{const p=palOf(r);r._pd=(IMGPAL.reduce((a,c)=>a+Math.min(...p.map(x=>dE(c,x))),0)+p.reduce((a,c)=>a+Math.min(...IMGPAL.map(x=>dE(c,x))),0))/(IMGPAL.length+p.length);});list.sort((a,b)=>a._pd-b._pd);}
  else if(COLOR)list.sort((a,b)=>a._cd-b._cd);else sortList();
  if(!keepPage)page=0;renderFacets(E);renderActive(E);renderGrid();}
 function sortList(){const s=$('sort').value;list.sort(s==='year'?(a,b)=>b.W.y-a.W.y||cmpId(a,b):s==='old'?(a,b)=>a.W.y-b.W.y||cmpId(a,b):s==='title'?(a,b)=>a.W.t.localeCompare(b.W.t,'zh')||cmpId(a,b):(a,b)=>(b.add||'').localeCompare(a.add||'')||cmpId(a,b));}
@@ -303,15 +314,16 @@ function renderActive(E){let h='';QP.tags.forEach(t=>{const[k,v]=t.split(':');h+
   else if(b.dataset.x==='work')QP.work=null;else if(b.dataset.x==='wid')WID=null;else if(b.dataset.x==='color')COLOR=null;else if(b.dataset.x==='img')IMGPAL=null;apply();});
  const tol=$('tol');if(tol)tol.onchange=()=>{COLOR.tol=+tol.value;apply();};}
 function card(r,opts={}){const w=r.W,f=frOf(r),inD=DECKS.cur&&deckHas(r.id),inC=CMP.includes(r.id);
- return`<div class="card" data-id="${r.id}"><div class="thumb" data-open="${r.id}">${visual(r,560)}<span class="badge${f?' fr':''}">${f?'截帧 · 实测色':'示意图 · 估色'}</span></div>${palHTML(r)}
- <div class="cap" data-open="${r.id}"><b>${esc(w.t)}</b> <span class="y">${w.y}${r.ep?' · '+esc(r.ep):''}</span><p>${esc(r.sc)}</p></div>
- <div class="tg">${[r.size,r.time,r.ie,(r.light||[]).slice(0,2).join('·'),(r.color||[]).slice(0,2).join('·'),(r.emo||[])[0]].filter(Boolean).map(esc).join(' · ')}</div>
+ return`<div class="card" data-id="${r.id}"><div class="thumb${r.origin==='visual'&&!f?' source':''}" data-open="${r.id}">${visual(r,560)}<span class="badge${f?' fr':''}">${f?'截帧 · 实测色':r.origin==='visual'?'来源静帧 · 标签待标注':'示意图 · 估色'}</span></div>${palHTML(r)}
+ <div class="cap" data-open="${r.id}"><b>${esc(w.t)}</b> <span class="y">${esc(w.y||'年份待核')}${r.ep?' · '+esc(r.ep):''}</span><p>${esc(r.sc)}</p></div>
+ <div class="tg">${[r.size,r.time,r.ie,(r.light||[]).slice(0,2).join('·'),(r.color||[]).slice(0,2).join('·'),(r.emo||[])[0]].filter(Boolean).map(esc).join(' · ')||'摄影标签待标注'}</div>
  <div class="acts"><button data-add="${r.id}" class="${inD?'in':''}">${inD?'✓ 已在图集':'＋图集'}</button><button data-cmp="${r.id}" class="${inC?'in':''}">${inC?'✓ 对照中':'对照'}</button></div></div>`;}
 function bindCards(root){root.querySelectorAll('[data-open]').forEach(e=>e.onclick=()=>openDetail(e.dataset.open));
+ root.querySelectorAll('[data-source-link]').forEach(a=>a.onclick=e=>e.stopPropagation());
  root.querySelectorAll('[data-add]').forEach(b=>b.onclick=e=>{e.stopPropagation();addToDeck([b.dataset.add]);});
  root.querySelectorAll('[data-cmp]').forEach(b=>b.onclick=e=>{e.stopPropagation();toggleCmp(b.dataset.cmp);});}
 function renderGrid(){const n=list.length,pages=Math.max(1,Math.ceil(n/PS));if(page>=pages)page=pages-1;
- $('count').innerHTML=`找到 <b>${n}</b> 个镜头（${new Set(list.map(r=>r.w)).size} 部作品）`+(loaded<STARTUP?' · 正在载入…':'');
+ $('count').innerHTML=`找到 <b>${n}</b> 条镜头描述（${new Set(list.map(r=>r.w)).size} 部作品）`+(loaded<STARTUP?' · 正在载入…':'');
  $('page').textContent=`第 ${page+1} / ${pages} 页`;$('prev').disabled=page===0;$('next').disabled=page>=pages-1;
  const g=$('grid');g.innerHTML=n?list.slice(page*PS,page*PS+PS).map(r=>card(r)).join(''):'<div class="empty">没有符合的镜头。可以减少一些条件，或把多选类切到“任一即可”。</div>';bindCards(g);}
 /* ---------- 详情 ---------- */
@@ -320,36 +332,38 @@ function tagLinks(k,vs){return(Array.isArray(vs)?vs:[vs]).filter(Boolean).map(v=
 function extLinks(r){const w=r.W,en=encodeURIComponent,q=w.te||w.t;
  const sc=[r.time,r.ie,r.size,r.frame,...(r.light||[]),...(r.comp||[]),...(r.loc||[])].map(v=>SHOTCAFE[v]).filter(Boolean).slice(0,3);
  const fs=r.en||[r.size,r.time,r.ie].map(v=>EN[v]).filter(Boolean).join(' ');const ey=(r.move||[]).concat(r.comp||[]).map(v=>EYECANDY[v]).find(Boolean);
- let h=`<a target="_blank" rel="noopener" href="https://film-grab.com/?s=${en(q)}">FilmGrab 看这部作品的截图</a>`;
+ let h=sourceLinks(r)+`<a target="_blank" rel="noopener" href="https://film-grab.com/?s=${en(q)}">FilmGrab 看这部作品的截图</a>`;
  if(sc.length)h+=`<a target="_blank" rel="noopener" href="https://shot.cafe/tag/${sc.map(x=>x.replace(/ /g,'+')).join(',')}">SHOT.CAFE 同标签画面</a>`;
  h+=`<a target="_blank" rel="noopener" href="https://frameset.app/search?search=${en(fs)}">Frame Set 按描述找同类</a>`;
  h+=`<a href="#" data-copyopen="https://shotdeck.com/browse/stills" data-copy="${esc(q)}">ShotDeck（复制片名后打开）</a><a href="#" data-copyopen="https://flim.ai/" data-copy="${esc(fs)}">Flim（复制描述后打开）</a>`;
  h+=ey?`<a target="_blank" rel="noopener" href="https://eyecannndy.com/technique/${ey}">Eyecandy 技法：${esc(Object.keys(EYECANDY).find(k=>EYECANDY[k]===ey))}</a>`:`<a target="_blank" rel="noopener" href="https://eyecannndy.com/">Eyecandy 运镜技法库</a>`;
  h+=`<a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${en(w.t)}">豆瓣</a><a target="_blank" rel="noopener" href="https://www.imdb.com/find/?q=${en(q+' '+w.y)}">IMDb</a>`;return h;}
-function similar(r,k){const key=x=>new Set([x.size,x.time,x.ie,...(x.light||[]),...(x.color||[]),...(x.comp||[]),...(x.emo||[])]);const A=key(r);
- return R.filter(x=>x.id!==r.id&&x.w!==r.w).map(x=>{const B=key(x);let i=0;A.forEach(v=>{if(B.has(v))i++;});return[i/(A.size+B.size-i),x];}).sort((a,b)=>b[0]-a[0]).slice(0,k).map(a=>a[1]);}
+function similar(r,k){const key=x=>new Set([x.size,x.time,x.ie,...(x.light||[]),...(x.color||[]),...(x.comp||[]),...(x.emo||[])].filter(Boolean));const A=key(r);if(!A.size)return[];
+ return R.filter(x=>x.id!==r.id&&x.w!==r.w&&key(x).size).map(x=>{const B=key(x);let i=0;A.forEach(v=>{if(B.has(v))i++;});return[i/(A.size+B.size-i),x];}).sort((a,b)=>b[0]-a[0]).slice(0,k).map(a=>a[1]);}
 async function openDetail(id){const r=BYID.get(id);if(!r)return;CUR=r;await ensureDet([r]);const w=r.W,f=frOf(r);
- $('dTitle').innerHTML=`${esc(w.t)} <span class="muted" style="font-size:20px">${esc(w.te||'')} · ${w.y}${r.ep?' · '+esc(r.ep):''} · ${r.id}</span>`;
+ const pending=r.origin==='visual',tags=(k,vs)=>tagLinks(k,vs)||(pending?'<span class="muted small">待标注</span>':''),limits=(Array.isArray(r.observation_limits)?r.observation_limits:r.observation_limits?[r.observation_limits]:[]).filter(Boolean).join('；');
+ $('dTitle').innerHTML=`${esc(w.t)} <span class="muted" style="font-size:20px">${esc(w.te||'')} · ${esc(w.y||'年份待核')}${r.ep?' · '+esc(r.ep):''} · ${r.id}</span>`;
  const P=palOf(r);const same=(BYW.get(r.w)||[]).filter(x=>x.id!==r.id),sim=similar(r,8);
  $('dBody').innerHTML=`<div class="dbody"><div><div class="vis">${visual(r,1100,true)}</div>
  <div class="palbig">${P.map(c=>`<div style="background:${c}" data-hex="${c}" title="点击复制色值"><span>${c}</span></div>`).join('')}</div>
- <p class="muted small">${f?'真实截帧 · 色板为实测（本机内部版）':'示意图：按标签自动绘制（画幅、主光方向、剪影大小与位置、构图线、天气），色板为估色，不是影片原帧。看原片画面用下面的外链。'}</p>
+ <p class="muted small">${f?'真实截帧 · 色板为实测（本机内部版）':pending?'依据对应来源静帧撰写画面分析，无本机截帧。摄影标签待标注，色板待测；不能据此确认运镜、器材或精确参数。经典代表性仍待逐片精选。':'示意图：按标签自动绘制（画幅、主光方向、剪影大小与位置、构图线、天气），色板为估色，不是影片原帧。看原片画面用下面的外链。'}</p>
+ ${pending?`<p class="muted small">核验状态：${esc(r.verification||'观图待人工核')}</p>`:''}${limits?`<p class="muted small">画面限制：${esc(limits)}</p>`:''}${r.review?`<p class="muted small">复核记录：${esc(r.review)}</p>`:''}
  <h3>这一镜</h3><p class="note">${esc(r.sc)}${r.wh?`<br><span class="muted small">位置：${esc(r.wh)}${r.pl?' · '+esc(r.pl):''}</span>`:r.pl?`<br><span class="muted small">${esc(r.pl)}</span>`:''}</p>
- <h3>研究笔记：光、色、构图如何表达情绪</h3><p class="note">${esc(r.note)}</p>
- <h3>复刻提示词（原创同构画面，贴进 IMAGE 2）</h3><textarea class="pr" id="dPr" readonly>${esc(r.pr)}</textarea>
+ <h3>研究笔记：光、色、构图如何表达情绪</h3><p class="note">${esc(r.note===undefined?'正文未成功载入，请关闭后重试。':r.note)}</p>
+ <h3>${pending?'创作提示词（来源静帧改写）':'复刻提示词（原创同构画面，贴进 IMAGE 2）'}</h3><textarea class="pr" id="dPr" readonly>${esc(r.pr)}</textarea>
  <div class="btns"><button class="pri" id="dCopy">复制提示词</button><button id="dGo">复制并打开 IMAGE 2</button><button id="dCopyAll">复制镜头卡（含标签）</button></div>
  <h3>去看原片画面</h3><div class="btns">${extLinks(r)}</div></div>
  <div><table class="kv">
- <tr><th>景别</th><td>${tagLinks('size',r.size)}</td></tr><tr><th>机位角度</th><td>${tagLinks('angle',r.angle)}</td></tr><tr><th>画面人物</th><td>${tagLinks('frame',r.frame)}</td></tr>
- <tr><th>运镜</th><td>${tagLinks('move',r.move)}</td></tr><tr><th>焦段 / 景深</th><td>${tagLinks('lens_type',r.lens_type)}${tagLinks('dof',r.dof)}</td></tr>
- <tr><th>灯光</th><td>${tagLinks('light',r.light)}<span class="muted small"> 主光：${esc(r.ld||'')}</span></td></tr><tr><th>时间 / 天气</th><td>${tagLinks('time',r.time)}${tagLinks('weather',r.weather)}</td></tr>
- <tr><th>内外景</th><td>${tagLinks('ie',r.ie)}</td></tr><tr><th>地点</th><td>${tagLinks('loc',r.loc)}</td></tr>
- <tr><th>色彩</th><td>${tagLinks('color',r.color)}</td></tr><tr><th>构图</th><td>${tagLinks('comp',r.comp)}<span class="muted small"> 主体：${esc(r.pos||'')}</span></td></tr><tr><th>人物情绪</th><td>${tagLinks('emo',r.emo)}</td></tr>
- <tr><th>核验</th><td>${tagLinks('st',r.st)}<span class="muted small"> 新增于 ${esc(r.add||'')}</span></td></tr></table>
+ <tr><th>景别</th><td>${tags('size',r.size)}</td></tr><tr><th>机位角度</th><td>${tags('angle',r.angle)}</td></tr><tr><th>画面人物</th><td>${tags('frame',r.frame)}</td></tr>
+ <tr><th>运镜</th><td>${tags('move',r.move)}</td></tr><tr><th>焦段 / 景深</th><td>${tags('lens_type',r.lens_type)}${tags('dof',r.dof)}</td></tr>
+ <tr><th>灯光</th><td>${tags('light',r.light)}<span class="muted small"> 主光：${esc(r.ld||'')}</span></td></tr><tr><th>时间 / 天气</th><td>${tags('time',r.time)}${tags('weather',r.weather)}</td></tr>
+ <tr><th>内外景</th><td>${tags('ie',r.ie)}</td></tr><tr><th>地点</th><td>${tags('loc',r.loc)}</td></tr>
+ <tr><th>色彩</th><td>${tags('color',r.color)}</td></tr><tr><th>构图</th><td>${tags('comp',r.comp)}<span class="muted small"> 主体：${esc(r.pos||'')}</span></td></tr><tr><th>人物情绪</th><td>${tags('emo',r.emo)}</td></tr>
+ <tr><th>核验</th><td>${tags('st',r.st)}<span class="muted small"> 新增于 ${esc(r.add||'')}</span></td></tr></table>
  <h3>作品</h3><table class="kv"><tr><th>片名</th><td><b>${esc(w.t)}</b> ${esc(w.te||'')} <a href="#" id="dWork">看这部作品全部镜头 →</a></td></tr>
- <tr><th>年份 / 类型</th><td>${w.y} · ${tagLinks('type',w.type)}${tagLinks('kinds',w.kinds)}${w.genre?'<span class="muted small"> '+esc(w.genre)+'</span>':''}</td></tr><tr><th>地区</th><td>${tagLinks('region',w.region)}</td></tr>
+ <tr><th>年份 / 类型</th><td>${esc(w.y||'年份待核')} · ${tags('type',w.type)}${tags('kinds',w.kinds)}${w.genre?'<span class="muted small"> '+esc(w.genre)+'</span>':''}</td></tr><tr><th>地区</th><td>${tags('region',w.region)}</td></tr>
  <tr><th>导演</th><td>${esc(w.dir)}</td></tr><tr><th>摄影指导</th><td>${esc(w.dp||'待核')}</td></tr>${w.pd?`<tr><th>美术</th><td>${esc(w.pd)}</td></tr>`:''}
- <tr><th>画幅 / 格式</th><td>${tagLinks('ar',w.ar)}${tagLinks('format',w.format)}</td></tr><tr><th>摄影机</th><td>${tagLinks('cam',w.cam)} ${esc(w.camera)}</td></tr><tr><th>镜头组</th><td>${tagLinks('lensb',w.lensb)}${tagLinks('optic',w.optic)} ${esc(w.lens)}</td></tr>
+ <tr><th>画幅 / 格式</th><td>${tags('ar',w.ar)}${tags('format',w.format)}</td></tr><tr><th>摄影机</th><td>${tags('cam',w.cam)} ${esc(w.camera)}</td></tr><tr><th>镜头组</th><td>${tags('lensb',w.lensb)}${tags('optic',w.optic)} ${esc(w.lens)}</td></tr>
  <tr><th>资料依据</th><td class="small">${esc(w.src||'公开幕后资料（待核）')}</td></tr><tr><th>全片视觉</th><td>${esc(w.look||'')}</td></tr></table>
  ${same.length?`<h3>同片其他镜头</h3><div class="strip">${same.map(x=>`<div class="mini" data-open="${x.id}" title="${esc(x.sc)}">${visual(x,300)}</div>`).join('')}</div>`:''}
  <h3>相似镜头（其他作品）</h3><div class="strip">${sim.map(x=>`<div class="mini" data-open="${x.id}" title="${esc(x.W.t+'：'+x.sc)}">${visual(x,300)}</div>`).join('')}</div></div></div>`;
@@ -360,9 +374,10 @@ async function openDetail(id){const r=BYID.get(id);if(!r)return;CUR=r;await ensu
  $('dWork').onclick=ev=>{ev.preventDefault();d.close();WID=r.W.wid;showTab('find');apply();};
  $('dCopy').onclick=()=>copy(r.pr,'已复制复刻提示词');$('dGo').onclick=()=>{copy(r.pr,'已复制，IMAGE 2 已在新标签打开，粘贴即可');window.open(JIMENG,'_blank','noopener');};
  $('dCopyAll').onclick=()=>copy(shotText(r),'已复制镜头卡');
+ for(const id of ['dCopy','dGo','dCopyAll'])$(id).disabled=pending&&(r.pr===undefined||r.note===undefined);
  $('dAdd').textContent=deckHas(r.id)?'✓ 已在当前图集':'＋ 加入图集';$('dCmp').textContent=CMP.includes(r.id)?'✓ 对照中':'加入对照';
  if(!d.open)d.showModal();d.scrollTop=0;}
-function shotText(r){const w=r.W;return`【${r.id}】${w.t}（${w.te||''}，${w.y}）${r.ep?' '+r.ep:''}\n导演：${w.dir}　摄影：${w.dp||'待核'}　画幅：${w.ar||''}\n画面：${r.sc}\n标签：${[r.size,r.angle,r.frame,...(r.move||[]),r.lens_type,r.dof,...(r.light||[]),r.time,r.weather,r.ie,...(r.loc||[]),...(r.color||[]),...(r.comp||[]),...(r.emo||[])].filter(Boolean).join(' / ')}\n色板：${palOf(r).join(' ')}\n研究笔记：${r.note}\n复刻提示词：${r.pr}`;}
+function shotText(r){const w=r.W,source=r.origin==='visual'?`\n来源原图：${safeSource(r.source_url)||'待核'}\n作品画廊：${safeSource(r.source_page)||'待核'}\n核验：${r.verification||'观图待人工核'}　摄影标签：${val(r,'tag_status')}`:'';return`【${r.id}】${w.t}（${w.te||''}，${w.y}）${r.ep?' '+r.ep:''}\n导演：${w.dir}　摄影：${w.dp||'待核'}　画幅：${w.ar||''}\n画面：${r.sc}\n标签：${[r.size,r.angle,r.frame,...(r.move||[]),r.lens_type,r.dof,...(r.light||[]),r.time,r.weather,r.ie,...(r.loc||[]),...(r.color||[]),...(r.comp||[]),...(r.emo||[])].filter(Boolean).join(' / ')}\n色板：${palOf(r).join(' ')||'待测'}\n研究笔记：${r.note}\n复刻提示词：${r.pr}${source}`;}
 function step(d){const i=list.findIndex(x=>x.id===CUR.id);const pool=i>=0?list:R;const j=(i>=0?i:R.indexOf(CUR))+d;if(j>=0&&j<pool.length)openDetail(pool[j].id);}
 /* ---------- 参考图集 ---------- */
 const DKEY='jt_film_decks_v1';let DECKS=JSON.parse(localStorage.getItem(DKEY)||'{"list":[],"cur":null}'),SHARED=null;
@@ -381,7 +396,7 @@ function b64d(s){s=s.replace(/-/g,'+').replace(/_/g,'/');while(s.length%4)s+='='
 const PUBLIC_FILM='https://aikingtai-ctrl.github.io/jintai-history-image-library/film.html';
 function shareURL(d){const payload={n:d.name,d:d.desc,i:d.items.map(x=>x.note?[x.id,x.note]:[x.id])};const base=location.protocol==='file:'?PUBLIC_FILM:location.href.split('#')[0];return base+'#deck='+b64e(JSON.stringify(payload));}
 function readShared(){const m=/#deck=([^&]+)/.exec(location.hash);if(!m)return;try{const p=JSON.parse(b64d(m[1]));SHARED={id:'shared',name:p.n||'分享的参考图集',desc:p.d||'',items:(p.i||[]).map(a=>({id:a[0],note:a[1]||''})),shared:true};}catch(e){toast('分享链接无法解析');}}
-function renderDecks(){const L=$('deckList');L.innerHTML=DECKS.list.map(d=>`<div class="dk${d.id===DECKS.cur&&!SHOWSHARED?' on':''}" data-d="${d.id}"><b>${esc(d.name)}</b><div class="muted small">${d.items.length} 镜 · 建于 ${d.created}</div><div class="pal" style="margin-top:6px">${d.items.slice(0,12).map(x=>BYID.get(x.id)).filter(Boolean).map(r=>`<span style="background:${palOf(r)[2]}"></span>`).join('')}</div></div>`).join('')||'<p class="muted">还没有参考图集。在“找画面”里点卡片上的“＋图集”，或点上面的“新建”。</p>';
+function renderDecks(){const L=$('deckList');L.innerHTML=DECKS.list.map(d=>`<div class="dk${d.id===DECKS.cur&&!SHOWSHARED?' on':''}" data-d="${d.id}"><b>${esc(d.name)}</b><div class="muted small">${d.items.length} 镜 · 建于 ${d.created}</div><div class="pal" style="margin-top:6px">${d.items.slice(0,12).map(x=>BYID.get(x.id)).filter(r=>r&&palOf(r).length).map(r=>`<span style="background:${palOf(r)[Math.min(2,palOf(r).length-1)]}"></span>`).join('')}</div></div>`).join('')||'<p class="muted">还没有参考图集。在“找画面”里点卡片上的“＋图集”，或点上面的“新建”。</p>';
  L.querySelectorAll('[data-d]').forEach(e=>e.onclick=()=>{DECKS.cur=e.dataset.d;SHOWSHARED=false;saveDecks();renderDecks();});
  $('deckBanner').innerHTML=SHARED?`<div class="banner"><span>你打开的是别人分享的参考图集《${esc(SHARED.name)}》，共 ${SHARED.items.length} 镜。</span><button class="pri" id="saveShared">另存为我的图集</button><button id="viewShared">查看</button><button class="ghost" id="dropShared">关闭</button></div>`:'';
  if(SHARED){$('saveShared').onclick=()=>{const d=newDeck(SHARED.name);d.desc=SHARED.desc;d.items=SHARED.items.map(x=>({...x}));saveDecks();SHARED=null;SHOWSHARED=false;history.replaceState(null,'',location.href.split('#')[0]);toast('已存为你的图集');renderDecks();};
@@ -407,12 +422,12 @@ function renderDecks(){const L=$('deckList');L.innerHTML=DECKS.list.map(d=>`<div
  $('dkIds').onclick=()=>copy(d.items.map(x=>x.id).join(' '),'已复制 '+d.items.length+' 个镜头编号');$('dkCmp').onclick=()=>{d.items.slice(0,4).forEach(x=>{if(!CMP.includes(x.id))CMP.push(x.id);});CMP=CMP.slice(-4);saveCmp();showTab('compare');};}
 let SHOWSHARED=false;
 function deckDoc(d,forPrint){const items=d.items.map(x=>[x,BYID.get(x.id)]).filter(a=>a[1]);const date=new Date().toISOString().slice(0,10);
- const body=items.map(([x,r],i)=>`<div class="pi"><div>${forPrint?visual(r,900,true):schem(r,900)}${palHTML(r)}</div><div><h2>${i+1}. ${esc(r.W.t)} <small style="color:#888">${esc(r.W.te||'')} · ${r.W.y}${r.ep?' · '+esc(r.ep):''}</small></h2>
+ const body=items.map(([x,r],i)=>`<div class="pi"><div>${forPrint?visual(r,900,true):r.origin==='visual'?sourceVisual(r):schem(r,900)}${palHTML(r)}</div><div><h2>${i+1}. ${esc(r.W.t)} <small style="color:#888">${esc(r.W.te||'')} · ${r.W.y}${r.ep?' · '+esc(r.ep):''}</small></h2>
  <p><b>画面：</b>${esc(r.sc)}</p><p><b>标签：</b>${[r.size,r.angle,...(r.light||[]),r.time,r.ie,...(r.color||[]),...(r.comp||[]),...(r.emo||[])].filter(Boolean).map(esc).join(' · ')}</p>
- <p><b>导演 / 摄影：</b>${esc(r.W.dir)} / ${esc(r.W.dp||'待核')} · 画幅 ${esc(r.W.ar||'')}</p><p><b>研究笔记：</b>${esc(r.note)}</p>${x.note?`<p style="background:#fff3cf;padding:2mm 3mm"><b>备注：</b>${esc(x.note)}</p>`:''}<p style="color:#888;font-size:10pt">${r.id} · 示意图按标签绘制，色板为${frOf(r)&&forPrint?'实测':'估色'}</p></div></div>`).join('');
+ <p><b>导演 / 摄影：</b>${esc(r.W.dir)} / ${esc(r.W.dp||'待核')} · 画幅 ${esc(r.W.ar||'')}</p><p><b>研究笔记：</b>${esc(r.note)}</p>${x.note?`<p style="background:#fff3cf;padding:2mm 3mm"><b>备注：</b>${esc(x.note)}</p>`:''}<p style="color:#888;font-size:10pt">${esc(r.id)} · ${r.origin==='visual'?'来源静帧分析 · '+esc(r.verification||'观图待人工核'):'示意图按标签绘制，色板为'+(frOf(r)&&forPrint?'实测':'估色')}</p></div></div>`).join('');
  return{date,body,cover:`<div class="cover"><p style="color:#a07a2a;letter-spacing:3px">金泰AI · 影视参考图集</p><h1>${esc(d.name)}</h1><p style="font-size:16pt;line-height:1.8;white-space:pre-wrap">${esc(d.desc||'')}</p><p style="color:#888">${items.length} 个参考镜头 · ${date}</p></div>`};}
 async function printDeck(d){await ensureDet(d.items.map(x=>BYID.get(x.id)));const x=deckDoc(d,true);$('printArea').innerHTML=x.cover+x.body;setTimeout(()=>window.print(),300);}
-async function exportHTML(d){await ensureDet(d.items.map(x=>BYID.get(x.id)));const x=deckDoc(d,false);const html=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(d.name)} · 参考图集</title><style>body{margin:0;background:#f5f2ec;color:#1d1d1d;font:20px/1.7 "Microsoft YaHei",sans-serif}.wrap{max-width:1500px;margin:auto;padding:30px}.cover{padding:40px 0 20px;border-bottom:2px solid #ccc;margin-bottom:30px}h1{font-size:40px;margin:0 0 12px}.pi{display:grid;grid-template-columns:58% 1fr;gap:28px;margin-bottom:34px;padding-bottom:28px;border-bottom:1px solid #ddd}.pi svg{width:100%;height:auto;display:block;border-radius:8px}.pal{display:flex;height:16px;border-radius:0 0 8px 8px;overflow:hidden}.pal span{flex:1}.pi h2{margin:0 0 8px;font-size:26px}.pi p{margin:6px 0}@media(max-width:900px){.pi{grid-template-columns:1fr}}@media print{.pi{page-break-inside:avoid}}</style></head><body><div class="wrap">${x.cover}${x.body}<p style="color:#888;font-size:16px">由金泰AI 影视参考图集导出。示意图按镜头标签自动绘制，不是影片原帧；各镜头原片画面请在图库详情页的外链查看。</p></div></body></html>`;
+async function exportHTML(d){await ensureDet(d.items.map(x=>BYID.get(x.id)));const x=deckDoc(d,false);const html=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(d.name)} · 参考图集</title><style>body{margin:0;background:#f5f2ec;color:#1d1d1d;font:20px/1.7 "Microsoft YaHei",sans-serif}.wrap{max-width:1500px;margin:auto;padding:30px}.cover{padding:40px 0 20px;border-bottom:2px solid #ccc;margin-bottom:30px}h1{font-size:40px;margin:0 0 12px}.pi{display:grid;grid-template-columns:58% 1fr;gap:28px;margin-bottom:34px;padding-bottom:28px;border-bottom:1px solid #ddd}.pi svg{width:100%;height:auto;display:block;border-radius:8px}.pal{display:flex;height:16px;border-radius:0 0 8px 8px;overflow:hidden}.pal span{flex:1}.pi h2{margin:0 0 8px;font-size:26px}.pi p{margin:6px 0}@media(max-width:900px){.pi{grid-template-columns:1fr}}@media print{.pi{page-break-inside:avoid}}</style></head><body><div class="wrap">${x.cover}${x.body}<p style="color:#888;font-size:16px">由金泰AI 影视参考图集导出。旧笔记的示意图按标签绘制，不是影片原帧；来源静帧分析以文字和对应原图链接展示，核验状态见逐条说明。</p></div></body></html>`;
  dl(d.name+'_参考图集.html',html,'text/html');}
 /* ---------- 对照 ---------- */
 let CMP=JSON.parse(localStorage.getItem('jt_film_cmp')||'[]'),FP=JSON.parse(localStorage.getItem('jt_film_fp')||'[]');
@@ -437,10 +452,10 @@ function dist(pool,fn,keys){const c={};pool.forEach(r=>{[].concat(fn(r)||[]).for
 function bars(title,arr,n,max){if(!arr.length)return'';return`<div class="sec">${title}</div>`+arr.slice(0,max||6).map(([k,v])=>`<div class="bar"><span>${esc(k)}</span><i style="width:${Math.round(v/n*100)}%"></i><em>${Math.round(v/n*100)}%</em></div>`).join('');}
 function renderFP(){const V=$('fpView');if(!FP.length){V.innerHTML='<p class="muted">例：选“按作品”，输入片名后回车；再添加一两部来对照。</p>';return;}
  V.style.gridTemplateColumns=`repeat(${FP.length},minmax(0,1fr))`;
- V.innerHTML=FP.map((f,i)=>{const pool=fpPool(f),n=pool.length;const g=FK.light.groups;const lum0=pool.map(r=>palOf(r).reduce((a,c)=>a+lum(c),0)/palOf(r).length);const avg=Math.round(lum0.reduce((a,b)=>a+b,0)/Math.max(1,n));
+ V.innerHTML=FP.map((f,i)=>{const pool=fpPool(f),n=pool.length;const g=FK.light.groups;const colored=pool.filter(r=>palOf(r).length),lum0=colored.map(r=>palOf(r).reduce((a,c)=>a+lum(c),0)/palOf(r).length);const avg=lum0.length?Math.round(lum0.reduce((a,b)=>a+b,0)/lum0.length):'待测';
   const works=new Set(pool.map(r=>r.w));
-  return`<div class="fp"><h4>${esc(f.label)}</h4><div class="muted small">${n} 个镜头${works.size>1?' · '+works.size+' 部作品':''} · 平均亮度 ${avg}/255 <button class="ghost" data-fprm="${i}" style="font-size:15px;padding:2px 10px">移除</button> <button class="ghost" data-fpgo="${i}" style="font-size:15px;padding:2px 10px">看全部镜头</button></div>
-  <div class="mosaic">${pool.map(r=>`<div>${palOf(r).map(c=>`<span style="background:${c}"></span>`).join('')}</div>`).join('')}</div>
+  return`<div class="fp"><h4>${esc(f.label)}</h4><div class="muted small">${n} 个镜头${works.size>1?' · '+works.size+' 部作品':''} · 平均亮度 ${avg}${lum0.length?'/255':'（色板未测）'} <button class="ghost" data-fprm="${i}" style="font-size:15px;padding:2px 10px">移除</button> <button class="ghost" data-fpgo="${i}" style="font-size:15px;padding:2px 10px">看全部镜头</button></div>
+  <div class="mosaic">${colored.map(r=>`<div>${palOf(r).map(c=>`<span style="background:${c}"></span>`).join('')}</div>`).join('')}</div>
   ${bars('景别',dist(pool,r=>r.size),n,7)}${bars('光调与反差',dist(pool,r=>r.light,g[1].values),n)}${bars('光质',dist(pool,r=>r.light,g[0].values),n)}${bars('光源',dist(pool,r=>r.light,g[3].values),n,5)}
   ${bars('色调',dist(pool,r=>r.color,FK.color.groups[0].values),n)}${bars('饱和',dist(pool,r=>r.color,FK.color.groups[1].values),n)}${bars('主色',dist(pool,r=>r.color,FK.color.groups[2].values),n,5)}
   ${bars('时间',dist(pool,r=>r.time),n,5)}${bars('构图',dist(pool,r=>r.comp),n,6)}${bars('人物情绪',dist(pool,r=>r.emo),n,6)}${bars('运镜',dist(pool,r=>r.move),n,5)}
@@ -458,14 +473,14 @@ function renderWorks(){const q=$('wq').value.trim().toLowerCase(),t=$('wType').v
  $('wPrev').onclick=()=>{WPAGE--;renderWorks();window.scrollTo({top:0});};$('wNext').onclick=()=>{WPAGE++;renderWorks();window.scrollTo({top:0});};
  $('wGrid').innerHTML=ws.slice(WPAGE*WPS,WPAGE*WPS+WPS).map(w=>{const shots=BYW.get(w.i)||[];return`<div class="wc"><h4>${esc(w.t)} <span class="muted" style="font-size:18px">${esc(w.te||'')} · ${w.y}</span></h4>
  <div class="m">${esc(w.type)} · ${esc((w.kinds||[]).join('、'))} · ${esc(w.region)} · 导演 ${esc(w.dir)} · 摄影 ${esc(w.dp||'待核')}</div>
- <div class="mosaic" style="flex-direction:row;height:22px">${shots.map(r=>`<span style="background:${palOf(r)[2]}"></span>`).join('')}</div><p>${esc(w.look||'')}</p>
+ <div class="mosaic" style="flex-direction:row;height:22px">${shots.filter(r=>palOf(r).length).map(r=>`<span style="background:${palOf(r)[Math.min(2,palOf(r).length-1)]}"></span>`).join('')}</div><p>${esc(w.look||'')}</p>
  <div class="btns"><button data-wid="${w.wid}">看 ${shots.length} 个镜头</button><button data-wfp="${w.wid}">加入风格指纹</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
  $('wGrid').querySelectorAll('[data-wid]').forEach(b=>b.onclick=()=>{WID=b.dataset.wid;showTab('find');apply();});
  $('wGrid').querySelectorAll('[data-wfp]').forEach(b=>b.onclick=()=>{const w=WORKS.find(x=>x.wid===b.dataset.wfp);if(!FP.some(x=>x.key===w.wid)){FP.push({kind:'work',key:w.wid,label:`${w.t}（${w.y}）`});if(FP.length>3)FP.shift();saveCmp();}showTab('compare');});}
 /* ---------- 对标页 ---------- */
 function renderBench(){const b=BENCH;const nW=WORKS.length,nS=R.length,nF=Object.keys(FR).length;
  $('benchView').innerHTML=`<h3 style="margin-top:0">本板块现状</h3><p>${nW} 部作品 · ${nS} 个镜头 · ${nF} 张本机截帧。每天 0:00 自动新增，并刷新下表中能自动核对的公开数字（最近刷新：${esc(b.checked||'')}）。</p>
- <p class="muted small">定位：ShotDeck 是授权影片截图库；本板块是结构化的镜头档案库——每个镜头有全套标签、研究笔记和原创复刻提示词，示意图按标签绘制；真实截帧由团队本地积累，只在内部版显示；看原片画面走外链。</p>
+ <p class="muted small">定位：ShotDeck 是授权影片截图库；本板块提供既有结构标签镜头笔记和新增真实来源静帧分析；新分析可全文检索、查看笔记并复制创作提示词，缺失的摄影标签明确待标注。旧笔记保留标签示意图，新增来源记录展示文字来源卡与原图链接；本机截帧仅在内部版显示。</p>
  <h3>ShotDeck（对标对象）</h3><table class="bench"><tr><th>项目</th><th>数字 / 说法</th><th>说明</th></tr>${b.shotdeck.map(x=>`<tr><td>${esc(x[0])}</td><td><b>${esc(x[1])}</b></td><td>${esc(x[2])}</td></tr>`).join('')}</table>
  <p class="small muted">${esc(b.shotdeck_note||'')}</p>
  <h3>五个值得收藏的参考站</h3><table class="bench"><tr><th style="width:150px">网站</th><th>资源来源与形式</th><th>检索 / 分类特点</th><th>数量与费用</th><th>本板块借鉴了什么</th></tr>
@@ -496,10 +511,14 @@ $('newDeck').onclick=()=>{const n=prompt('参考图集名称（如：雨夜霓�
 $('importDeck').onclick=()=>{const u=prompt('粘贴分享链接');if(!u)return;const m=/#deck=([^&\s]+)/.exec(u);if(!m){toast('链接里没有图集内容');return;}location.hash='deck='+m[1];readShared();SHOWSHARED=true;renderDecks();};
 $('fpKind').onchange=fpOptions;$('fpAdd').onclick=fpAdd;$('fpQ').onkeydown=e=>{if(e.key==='Enter')fpAdd();};$('fpClear').onclick=()=>{FP=[];saveCmp();renderFP();};
 ['wq','wType','wKind','wRegion','wDecade','wSort'].forEach(i=>$(i)[i==='wq'?'oninput':'onchange']=()=>{WPAGE=0;renderWorks();});
-(async function init(){await loadScript('d4/summary.js?v=bf8049b71c72');const sourceSummary=window.FILM_SOURCE_SUMMARY;if(sourceSummary){$('sourceStats').hidden=false;$('sourceStats').innerHTML=`<b>${sourceSummary.catalogue_works.toLocaleString()}</b> 部作品目录 · <b>${sourceSummary.frame_references.toLocaleString()}</b> 条有来源画面参考${sourceSummary.prompt_records?` · <b>${sourceSummary.prompt_records.toLocaleString()}</b> 条镜头提示词（${sourceSummary.prompt_works.toLocaleString()} 部）`:""}${sourceSummary.award_works?` · <b>${sourceSummary.award_works.toLocaleString()}</b> 部获奖 · <b>${sourceSummary.classic_works.toLocaleString()}</b> 部经典榜单`:''} · <a href="sources.html">逐片镜头提示词与来源 →</a>`;}if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
+(async function init(){await loadScript('d4/summary.js?v=5f4ce2a47b26');const sourceSummary=window.FILM_SOURCE_SUMMARY;if(sourceSummary){$('sourceStats').hidden=false;$('sourceStats').innerHTML=`<b>${sourceSummary.catalogue_works.toLocaleString()}</b> 部作品目录 · <b>${sourceSummary.frame_references.toLocaleString()}</b> 条有来源画面参考${sourceSummary.prompt_records?` · <b>${sourceSummary.prompt_records.toLocaleString()}</b> 条镜头提示词（${sourceSummary.prompt_works.toLocaleString()} 部）`:""}${sourceSummary.award_works?` · <b>${sourceSummary.award_works.toLocaleString()}</b> 部获奖 · <b>${sourceSummary.classic_works.toLocaleString()}</b> 部经典榜单`:''} · <a href="sources.html">逐片镜头提示词与来源 →</a>`;}if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
  for(const s of SHARDS.filter(x=>x.era!=='__detail__'))await loadScript(DATA_DIR+'/'+s.file);
- R.forEach(r=>{r.W=WORKS[r.w];r.text=[r.W.t,r.W.te,r.W.dir,r.W.dp,r.W.pd,r.W.genre,r.sc,r.pl,r.ep,r.id].join(' ').toLowerCase();BYID.set(r.id,r);if(!BYW.has(r.w))BYW.set(r.w,[]);BYW.get(r.w).push(r);});
+ await loadScript(DATA_DIR+'/vmanifest.js?v='+encodeURIComponent(sourceSummary?.version||''));const visualManifest=window.FILM_VISUAL_MANIFEST;let visualLoadFailed=false;
+ if(visualManifest){VISUAL_MANIFEST=Array.isArray(visualManifest)?visualManifest:visualManifest.shards||visualManifest.manifest||[];VISUAL_VERSION=visualManifest.version||sourceSummary?.version||'';for(const s of VISUAL_MANIFEST.filter(x=>x.era!=='__visual_detail__'))if(!await loadScript(DATA_DIR+'/'+s.file+'?v='+encodeURIComponent(s.version||VISUAL_VERSION)))visualLoadFailed=true;}
+ R=R.filter(r=>WORKS[r.w]);R.forEach(r=>{r.W=WORKS[r.w];r.text=[r.W.t,r.W.te,...(r.W.aliases||[]),r.W.dir,r.W.dp,r.W.pd,r.W.genre,r.sc,r.pl,r.ep,r.id,r.search_text||''].join(' ').toLowerCase();BYID.set(r.id,r);if(!BYW.has(r.w))BYW.set(r.w,[]);BYW.get(r.w).push(r);});
  $('sW').textContent=WORKS.length;$('sS').textContent=R.length;$('sF').textContent=Object.keys(FR).length;
+ const target=Number(sourceSummary?.shot_description_target)||225700,remaining=Math.max(0,target-R.length);$('descriptionGoal').textContent=`100 倍目标 ${target.toLocaleString()} 条镜头描述 · 当前实际可检索 ${R.length.toLocaleString()} 条（${(R.length/target*100).toFixed(1)}%） · 还需 ${remaining.toLocaleString()} 条${remaining?'，尚未完成':''}。来源静帧分析不等同于已核验的独立剪辑镜头。`;
+ const visualShots=R.filter(r=>r.origin==='visual').length;$('sOrigin').textContent=` · 既有笔记 ${R.length-visualShots} 条 · 来源静帧分析 ${visualShots} 条${visualLoadFailed?'（部分来源分片载入失败，请刷新重试）':''}`;
  const last=R.reduce((a,r)=>r.add>a?r.add:a,'');if(last){const n=R.filter(r=>r.add===last).length;$('sNew').innerHTML=` · 最近一批 ${last.slice(0,4)}-${last.slice(4,6)}-${last.slice(6)} 新增 <b>${n}</b> 镜`;}
  fillSel('wType','类型',FK.type.values);fillSel('wKind','片种',FK.kinds.values);fillSel('wRegion','地区',FK.region.values.filter(v=>WORKS.some(w=>w.region===v)));fillSel('wDecade','年代',FK.decade.values.filter(v=>WORKS.some(w=>w.decade===v)));
  fpOptions();saveDecks();saveCmp();readShared();apply();if(SHARED){SHOWSHARED=true;showTab('decks');}})();
