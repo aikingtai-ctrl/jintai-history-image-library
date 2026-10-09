@@ -26,7 +26,7 @@ document.documentElement.style.visibility='visible';document.body.innerHTML='<p 
 </main>
 <dialog id="detail"><div class="dialog-head"><h2 id="dtitle"></h2><button id="close">关闭</button></div><p class="muted" id="dinfo"></p><p id="dsource"></p><p class="notice muted">以下为源站中的具体画面记录。点击“查看来源画面”到源站查看，本站不下载或展示这些影片截图。画面内容及摄影标签尚待补充。</p><div class="grid" id="frames"></div><div class="pager"><button id="fprev">上一页</button><span id="fpage"></span><button id="fnext">下一页</button></div></dialog>
 <dialog id="pdetail" aria-labelledby="ptitle"><div class="dialog-head"><h2 id="ptitle"></h2><button id="pclose">关闭</button></div><p class="muted" id="pinfo"></p><p class="notice muted">提示词是供创作参考的改写。来源静帧分析只依据可见画面，不能据此确认运镜、器材或精确拍摄参数；既有笔记保留原核验状态。是否属于影片最具代表性的经典镜头仍需逐部审定。</p><p id="pcopy-status" class="prompt-status muted" role="status" aria-live="polite"></p><div class="prompt-list" id="prompts"></div><div class="pager"><button id="pprev">上一页</button><span id="ppage"></span><button id="pnext">下一页</button></div></dialog>
-<script src="d4/summary.js?v=e681f1c2d496"></script><script src="d4/catalogue.js?v=e681f1c2d496"></script>
+<script src="d4/summary.js?v=153d77ca296c"></script><script src="d4/catalogue.js?v=153d77ca296c"></script>
 <script>
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>{try{const p=new URL(u);return ['http:','https:'].includes(p.protocol)?p.href:'';}catch{return '';}};
