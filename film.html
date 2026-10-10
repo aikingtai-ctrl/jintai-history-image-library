@@ -84,12 +84,13 @@ table.bench{width:100%;border-collapse:collapse;font-size:18px}table.bench th,ta
 </style></head><body>
 <header class="top"><div class="hrow"><a class="back" href="index.html">← 图库总检索</a><h1>影视参考图集</h1><span class="sub">对标 ShotDeck · 按景别、灯光、色彩、构图、地点、人物情绪、摄影机、镜头找画面</span>
 <span class="stats" id="sourceStats" hidden></span>
-<span class="stats">镜头描述库：<b id="sW">–</b> 部作品 · <b id="sS">–</b> 条描述 · <b id="sF">0</b> 张本机截帧 · 更新于 2026-10-09 20:15<span id="sOrigin"></span><span id="sNew"></span></span></div>
+<span class="stats">镜头描述库：<b id="sW">–</b> 部作品 · <b id="sS">–</b> 条描述 · <b id="sF">0</b> 张本机截帧 · 更新于 2026-10-09 20:35<span id="sOrigin"></span><span id="sNew"></span></span></div>
 <nav class="tabs"><button data-tab="find" class="on">找画面</button><button onclick="location.href='sources.html'">逐片镜头提示词与来源</button><button data-tab="decks">参考图集<b id="nDeck"></b></button><button data-tab="compare">风格对照<b id="nCmp"></b></button><button data-tab="works">作品库</button><button data-tab="bench">对标与外部资源</button><button data-tab="help">使用说明</button></nav></header>
 <main>
 <section id="tab-find">
  <p class="hint" id="workGoal"></p>
  <p class="hint" id="descriptionGoal"></p>
+ <p class="hint" role="status"><span id="loadStatus">正在载入镜头描述，载入后即可搜索…</span> <button id="retryLoad" hidden>重试载入</button></p>
  <div class="searchbar"><input id="q" placeholder="描述你要的画面，如：夜晚 蓝色 室内 人物特写" autocomplete="off">
  <button id="colorBtn" title="挑一个颜色，找画面里有这个颜色的镜头">按颜色找</button><input type="color" id="colorPick" value="#2f5d8a" style="width:58px;height:48px;padding:2px">
  <button id="imgBtn" title="选一张你手头的参考图，按色板找相近的镜头（图片只在本机读取，不上传）">以图找色</button><input type="file" id="imgFile" accept="image/*" hidden>
@@ -156,13 +157,13 @@ function dec(a){const S=(k,c)=>c>=0?VV[k][c]:'',M=(k,cs)=>cs.map(c=>VV[k][c]);co
  r.comp=M('comp',a[19]);r.pos=S('pos',a[20]);r.emo=M('emo',a[21]);r.st=a[22]?'已核':'待核';r.add=String(a[23]);if(a[24])r.fk=a[24];return r;}
 window.__SHARD__=(file,kind,recs)=>{if(kind==='__works__')WORKS=recs;else for(const a of recs)R.push(dec(a));loaded++;};
 window.__VISUAL_WORKS__=works=>{WORKS=works;};
-window.__VISUAL_INDEX__=records=>{const indices=new Map();WORKS.forEach((work,index)=>{if(work.source_id)indices.set(work.source_id,index);if(work.wid)indices.set(work.wid,index);});for(const record of records){const index=indices.get(record.source_work_id);if(index===undefined){VISUAL_ASSOCIATION_FAILED=true;continue;}R.push({...record,w:index});}};
+window.__VISUAL_INDEX__=records=>{const indices=new Map(),seen=new Set(R.map(r=>r.id));WORKS.forEach((work,index)=>{if(work.source_id)indices.set(work.source_id,index);if(work.wid)indices.set(work.wid,index);});for(const record of records){if(seen.has(record.id))continue;const index=indices.get(record.source_work_id);if(index===undefined){VISUAL_ASSOCIATION_FAILED=true;continue;}seen.add(record.id);R.push({...record,w:index});}};
 window.__VISUAL_DETAIL__=map=>{for(const id in map){const r=BYID.get(id);if(!r||r.origin!=='visual')continue;const d=map[id];for(const k of ['wh','note','pr','en','source_url','source_page','verification','observation_limits','observed_resolution','review','frame_id','original_prompt_id'])if(d[k]!==undefined)r[k]=d[k];}};
 const DETS=SHARDS.filter(x=>x.era==='__detail__'),STARTUP=SHARDS.length-DETS.length,detDone=new Set();
 window.__DET__=(lo,hi,map)=>{for(const id in map){const r=BYID.get(id);if(r){const d=map[id];r.wh=d[0];r.note=d[1];r.pr=d[2];r.en=d[3];}}};
 async function ensureDet(rs){const need=new Set();rs.forEach(r=>{if(!r||r.note!==undefined)return;const x=r.origin==='visual'?VISUAL_MANIFEST.find(x=>x.file===r.detail_file):DETS.find(x=>r.W.no>=x.lo&&r.W.no<=x.hi);if(x&&!detDone.has(x.file))need.add(x);});
  for(const x of need){const ok=await loadScript(DATA_DIR+'/'+x.file+(x.version?'?v='+encodeURIComponent(x.version):''));if(ok)detDone.add(x.file);}}
-function loadScript(src){return new Promise(res=>{const t=document.createElement('script');t.src=src;t.onload=()=>res(true);t.onerror=()=>res(false);document.head.appendChild(t);});}
+function loadScript(src){return new Promise(res=>{const t=document.createElement('script');let done=false,timer;const finish=ok=>{if(done)return;done=true;clearTimeout(timer);if(!ok)t.remove();res(ok);};t.src=src;t.onload=()=>finish(true);t.onerror=()=>finish(false);timer=setTimeout(()=>finish(false),30000);document.head.appendChild(t);});}
 function frOf(r){return FR[r.id]||(r.fk&&FR[r.fk])||null;}
 function val(r,k){if(k==='hasfr')return frOf(r)?'有截帧':'无截帧';if(k==='tag_status')return r.tag_status||(r.origin==='visual'?'待标注':r.st==='已核'?'已有标签（已核）':'已有标签（待核）');if(WORK_KEYS.has(k))return r.W[k];return r[k];}
 function vals(r,k){const v=val(r,k);return v==null||v===''?[]:Array.isArray(v)?v:[v];}
@@ -465,7 +466,7 @@ function renderFP(){const V=$('fpView');if(!FP.length){V.innerHTML='<p class="mu
  V.querySelectorAll('[data-fpgo]').forEach(b=>b.onclick=()=>{const f=FP[+b.dataset.fpgo];if(f.kind==='work'){WID=f.key;QP={tags:[],work:null,words:[]};$('q').value='';}else{WID=null;$('q').value=f.key;QP=parseQ(f.key);}showTab('find');apply();});}
 /* ---------- 作品库 ---------- */
 let WPAGE=0;const WPS=60;
-function fillSel(id,name,arr){$(id).innerHTML=`<option value="">${name}：全部</option>`+arr.map(v=>`<option>${esc(v)}</option>`).join('');}
+function fillSel(id,name,arr){const select=$(id),value=select.value;select.innerHTML=`<option value="">${name}：全部</option>`+arr.map(v=>`<option>${esc(v)}</option>`).join('');if(arr.includes(value))select.value=value;}
 function renderWorks(){const q=$('wq').value.trim().toLowerCase(),t=$('wType').value,k=$('wKind').value,rg=$('wRegion').value,dc=$('wDecade').value,so=$('wSort').value;
  let ws=WORKS.filter(w=>(!t||w.type===t)&&(!k||(w.kinds||[]).includes(k))&&(!rg||w.region===rg)&&(!dc||w.decade===dc)&&(!q||[w.t,w.te,w.dir,w.dp,w.pd].join(' ').toLowerCase().includes(q)));
  ws.sort(so==='old'?(a,b)=>a.y-b.y:so==='n'?(a,b)=>b.n-a.n:so==='title'?(a,b)=>a.t.localeCompare(b.t,'zh'):(a,b)=>b.y-a.y);
@@ -512,16 +513,35 @@ $('newDeck').onclick=()=>{const n=prompt('参考图集名称（如：雨夜霓�
 $('importDeck').onclick=()=>{const u=prompt('粘贴分享链接');if(!u)return;const m=/#deck=([^&\s]+)/.exec(u);if(!m){toast('链接里没有图集内容');return;}location.hash='deck='+m[1];readShared();SHOWSHARED=true;renderDecks();};
 $('fpKind').onchange=fpOptions;$('fpAdd').onclick=fpAdd;$('fpQ').onkeydown=e=>{if(e.key==='Enter')fpAdd();};$('fpClear').onclick=()=>{FP=[];saveCmp();renderFP();};
 ['wq','wType','wKind','wRegion','wDecade','wSort'].forEach(i=>$(i)[i==='wq'?'oninput':'onchange']=()=>{WPAGE=0;renderWorks();});
-(async function init(){await loadScript('d4/summary.js?v=ce577d2136ce');const sourceSummary=window.FILM_SOURCE_SUMMARY;if(sourceSummary){$('sourceStats').hidden=false;$('sourceStats').innerHTML=`<b>${sourceSummary.catalogue_works.toLocaleString()}</b> 部作品目录 · <b>${sourceSummary.frame_references.toLocaleString()}</b> 条有来源画面参考${sourceSummary.prompt_records?` · <b>${sourceSummary.prompt_records.toLocaleString()}</b> 条镜头提示词（${sourceSummary.prompt_works.toLocaleString()} 部）`:""}${sourceSummary.award_works?` · <b>${sourceSummary.award_works.toLocaleString()}</b> 部获奖 · <b>${sourceSummary.classic_works.toLocaleString()}</b> 部经典榜单`:''} · <a href="sources.html">逐片镜头提示词与来源 →</a>`;}if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
- for(const s of SHARDS.filter(x=>x.era!=='__detail__'))await loadScript(DATA_DIR+'/'+s.file);
- await loadScript(DATA_DIR+'/vmanifest.js?v='+encodeURIComponent(sourceSummary?.version||''));const visualManifest=window.FILM_VISUAL_MANIFEST;let visualLoadFailed=false;
- if(visualManifest){VISUAL_MANIFEST=Array.isArray(visualManifest)?visualManifest:visualManifest.shards||visualManifest.manifest||[];VISUAL_VERSION=visualManifest.version||sourceSummary?.version||'';for(const s of VISUAL_MANIFEST.filter(x=>x.era!=='__visual_detail__'))if(!await loadScript(DATA_DIR+'/'+s.file+'?v='+encodeURIComponent(s.version||VISUAL_VERSION)))visualLoadFailed=true;}
+function refreshLoaded(sourceSummary,visualLoadFailed){BYID.clear();BYW.clear();
  R=R.filter(r=>WORKS[r.w]);R.forEach(r=>{r.W=WORKS[r.w];r.text=[r.W.t,r.W.te,...(r.W.aliases||[]),r.W.dir,r.W.dp,r.W.pd,r.W.genre,r.sc,r.pl,r.ep,r.id,r.search_text||''].join(' ').toLowerCase();BYID.set(r.id,r);if(!BYW.has(r.w))BYW.set(r.w,[]);BYW.get(r.w).push(r);});
- $('sW').textContent=WORKS.length;$('sS').textContent=R.length;$('sF').textContent=Object.keys(FR).length;
+ $('sW').textContent=new Set(R.map(r=>r.w)).size;$('sS').textContent=R.length;$('sF').textContent=Object.keys(FR).length;
  const workTarget=Number(sourceSummary?.shot_description_work_target)||4150,minPerWork=Number(sourceSummary?.shot_description_min_per_work)||5,coveredWorks=new Set(R.map(r=>r.w)).size,workRemaining=Math.max(0,workTarget-coveredWorks);$('workGoal').textContent=`5 倍作品目标 ${workTarget.toLocaleString()} 部 · 当前有镜头提示词 ${coveredWorks.toLocaleString()} 部 · 还需 ${workRemaining.toLocaleString()} 部${workRemaining?'，尚未完成':''}。每部优先补足 ${minPerWork} 条${typeof sourceSummary?.prompt_works_with_minimum==='number'?`；≥${minPerWork} 条描述 ${sourceSummary.prompt_works_with_minimum.toLocaleString()} 部（含原有笔记）`:''}。`;
  const target=Number(sourceSummary?.shot_description_target)||225700,remaining=Math.max(0,target-R.length);$('descriptionGoal').textContent=`100 倍目标 ${target.toLocaleString()} 条镜头描述 · 当前实际可检索 ${R.length.toLocaleString()} 条（${(R.length/target*100).toFixed(1)}%） · 还需 ${remaining.toLocaleString()} 条${remaining?'，尚未完成':''}。来源静帧分析不等同于已核验的独立剪辑镜头。`;
  const visualShots=R.filter(r=>r.origin==='visual').length;$('sOrigin').textContent=` · 既有笔记 ${R.length-visualShots} 条 · 来源静帧分析 ${visualShots} 条${visualLoadFailed?'（部分来源分片载入失败，请刷新重试）':''}${VISUAL_ASSOCIATION_FAILED?'（来源分片与作品不一致，请刷新重试）':''}`;
  const last=R.reduce((a,r)=>r.add>a?r.add:a,'');if(last){const n=R.filter(r=>r.add===last).length;$('sNew').innerHTML=` · 最近一批 ${last.slice(0,4)}-${last.slice(4,6)}-${last.slice(6)} 新增 <b>${n}</b> 镜`;}
  fillSel('wType','类型',FK.type.values);fillSel('wKind','片种',FK.kinds.values);fillSel('wRegion','地区',FK.region.values.filter(v=>WORKS.some(w=>w.region===v)));fillSel('wDecade','年代',FK.decade.values.filter(v=>WORKS.some(w=>w.decade===v)));
- fpOptions();saveDecks();saveCmp();readShared();apply();if(SHARED){SHOWSHARED=true;showTab('decks');}})();
+ fpOptions();apply(true);}
+$('retryLoad').onclick=()=>location.reload();
+(async function init(){let sourceSummary,visualLoadFailed=false;try{
+ const summaryReady=loadScript('d4/summary.js?v=c67363bf52c2');if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
+ for(const s of SHARDS.filter(x=>x.era!=='__detail__'))if(!await loadScript(DATA_DIR+'/'+s.file))visualLoadFailed=true;
+ saveDecks();saveCmp();readShared();refreshLoaded(sourceSummary,visualLoadFailed);
+ $('loadStatus').textContent=`正在继续载入，可先搜索已载入的 ${R.length.toLocaleString()} 条镜头描述…`;
+ await summaryReady;sourceSummary=window.FILM_SOURCE_SUMMARY;if(sourceSummary){$('sourceStats').hidden=false;$('sourceStats').innerHTML=`<b>${sourceSummary.catalogue_works.toLocaleString()}</b> 部作品目录 · <b>${sourceSummary.frame_references.toLocaleString()}</b> 条有来源画面参考${sourceSummary.prompt_records?` · <b>${sourceSummary.prompt_records.toLocaleString()}</b> 条镜头提示词（${sourceSummary.prompt_works.toLocaleString()} 部）`:""}${sourceSummary.award_works?` · <b>${sourceSummary.award_works.toLocaleString()}</b> 部获奖 · <b>${sourceSummary.classic_works.toLocaleString()}</b> 部经典榜单`:''} · <a href="sources.html">逐片镜头提示词与来源 →</a>`;}
+ if(!await loadScript(DATA_DIR+'/vmanifest.js?v='+encodeURIComponent(sourceSummary?.version||'')))visualLoadFailed=true;
+ const visualManifest=window.FILM_VISUAL_MANIFEST;
+ if(visualManifest){VISUAL_MANIFEST=Array.isArray(visualManifest)?visualManifest:visualManifest.shards||visualManifest.manifest||[];VISUAL_VERSION=visualManifest.version||sourceSummary?.version||'';
+  const workShard=VISUAL_MANIFEST.find(x=>x.era==='__visual_works__');
+  const worksLoaded=!workShard||await loadScript(DATA_DIR+'/'+workShard.file+'?v='+encodeURIComponent(workShard.version||VISUAL_VERSION));
+  if(!worksLoaded)visualLoadFailed=true;
+  else for(const s of VISUAL_MANIFEST.filter(x=>x.era==='__visual_index__')){
+   if(!await loadScript(DATA_DIR+'/'+s.file+'?v='+encodeURIComponent(s.version||VISUAL_VERSION)))visualLoadFailed=true;
+   refreshLoaded(sourceSummary,visualLoadFailed);$('loadStatus').textContent=`正在继续载入，可先搜索已载入的 ${R.length.toLocaleString()} 条镜头描述…`;
+  }
+ }
+ refreshLoaded(sourceSummary,visualLoadFailed);$('retryLoad').hidden=!(visualLoadFailed||VISUAL_ASSOCIATION_FAILED);
+ $('loadStatus').textContent=`${visualLoadFailed||VISUAL_ASSOCIATION_FAILED?'部分镜头描述未载入，请重试。当前':'已'}载入 ${R.length.toLocaleString()} 条镜头描述，可搜索。`;
+ if(SHARED){SHOWSHARED=true;showTab('decks');}
+ }catch(e){$('loadStatus').textContent='镜头描述载入中断，请重试载入。';$('retryLoad').hidden=false;console.error('镜头描述载入中断',e);}})();
 </script></body></html>
