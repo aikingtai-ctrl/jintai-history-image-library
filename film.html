@@ -84,7 +84,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:18px}table.bench th,ta
 </style></head><body>
 <header class="top"><div class="hrow"><a class="back" href="index.html">← 图库总检索</a><h1>影视参考图集</h1><span class="sub">对标 ShotDeck · 按景别、灯光、色彩、构图、地点、人物情绪、摄影机、镜头找画面</span>
 <span class="stats" id="sourceStats" hidden></span>
-<span class="stats">镜头描述库：<b id="sW">–</b> 部作品 · <b id="sS">–</b> 条描述 · <b id="sF">0</b> 张本机截帧 · 更新于 2026-10-10 05:46<span id="sOrigin"></span><span id="sNew"></span></span></div>
+<span class="stats">镜头描述库：<b id="sW">–</b> 部作品 · <b id="sS">–</b> 条描述 · <b id="sF">0</b> 张本机截帧 · 更新于 2026-10-10 06:03<span id="sOrigin"></span><span id="sNew"></span></span></div>
 <nav class="tabs"><button data-tab="find" class="on">找画面</button><button onclick="location.href='sources.html'">逐片镜头提示词与来源</button><button data-tab="decks">参考图集<b id="nDeck"></b></button><button data-tab="compare">风格对照<b id="nCmp"></b></button><button data-tab="works">作品库</button><button data-tab="bench">对标与外部资源</button><button data-tab="help">使用说明</button></nav></header>
 <main>
 <section id="tab-find">
@@ -524,7 +524,7 @@ function refreshLoaded(sourceSummary,visualLoadFailed){BYID.clear();BYW.clear();
  fpOptions();apply(true);}
 $('retryLoad').onclick=()=>location.reload();
 (async function init(){let sourceSummary,visualLoadFailed=false;try{
- const summaryReady=loadScript('d4/summary.js?v=28444df5700d');if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
+ const summaryReady=loadScript('d4/summary.js?v=8723ddd68f7c');if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
  for(const s of SHARDS.filter(x=>x.era!=='__detail__'))if(!await loadScript(DATA_DIR+'/'+s.file))visualLoadFailed=true;
  saveDecks();saveCmp();readShared();refreshLoaded(sourceSummary,visualLoadFailed);
  $('loadStatus').textContent=`正在继续载入，可先搜索已载入的 ${R.length.toLocaleString()} 条镜头描述…`;
