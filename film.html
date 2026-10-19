@@ -46,7 +46,8 @@ aside summary::after{content:'＋';color:var(--mu)}aside details[open] summary::
 .cap{padding:8px 14px 4px;font-size:19px;cursor:pointer}.cap b{font-size:21px}.cap .y{color:var(--mu)}.cap p{margin:2px 0;color:#cfcac0;font-size:18px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .tg{font-size:16px;color:var(--mu);padding:0 14px 8px}
 .acts{display:flex;gap:8px;padding:0 12px 12px;margin-top:auto}.acts button{flex:1;font-size:17px;padding:6px 8px}.acts button.in{background:#1f5a3c;border-color:#2f8a5a}
-.pager{display:flex;gap:14px;justify-content:center;align-items:center;margin:26px 0}
+.pager{display:flex;gap:12px;justify-content:center;align-items:center;flex-wrap:wrap;margin:26px 0}
+.page-nums{display:inline-flex;gap:6px;align-items:center;flex-wrap:wrap}.pnum{min-width:44px;padding:6px 12px;text-align:center}.pnum.on{background:var(--ac);color:#1a1409;border-color:var(--ac);font-weight:bold}.pdots{color:var(--mu);padding:0 4px}.page-jump{display:inline-flex;gap:6px;align-items:center;color:var(--mu);font-size:18px}.page-jump select{min-width:150px}.page-jump input[type="number"]{width:92px;text-align:center;padding:6px 8px}
 .empty{padding:50px;text-align:center;color:var(--mu);font-size:22px}
 dialog{width:min(1720px,97vw);max-height:95vh;border:1px solid var(--line);border-radius:16px;background:var(--p1);color:var(--tx);padding:0}
 dialog::backdrop{background:#000c}.dh{position:sticky;top:0;background:var(--p1);display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 22px;border-bottom:1px solid var(--line);z-index:2}
@@ -84,7 +85,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:18px}table.bench th,ta
 </style></head><body>
 <header class="top"><div class="hrow"><a class="back" href="index.html">← 图库总检索</a><h1>影视参考图集</h1><span class="sub">对标 ShotDeck · 按景别、灯光、色彩、构图、地点、人物情绪、摄影机、镜头找画面</span>
 <span class="stats" id="sourceStats" hidden></span>
-<span class="stats">镜头描述库：<b id="sW">–</b> 部作品 · <b id="sS">–</b> 条描述 · <b id="sF">0</b> 张本机截帧 · 更新于 2026-10-19 11:29<span id="sOrigin"></span><span id="sNew"></span></span></div>
+<span class="stats">镜头描述库：<b id="sW">–</b> 部作品 · <b id="sS">–</b> 条描述 · <b id="sF">0</b> 张本机截帧 · 更新于 2026-10-19 12:42<span id="sOrigin"></span><span id="sNew"></span></span></div>
 <nav class="tabs"><button data-tab="find" class="on">找画面</button><button onclick="location.href='sources.html'">逐片镜头提示词与来源</button><button data-tab="decks">参考图集<b id="nDeck"></b></button><button data-tab="compare">风格对照<b id="nCmp"></b></button><button data-tab="works">作品库</button><button data-tab="bench">对标与外部资源</button><button data-tab="help">使用说明</button></nav></header>
 <main>
 <section id="tab-find">
@@ -99,8 +100,8 @@ table.bench{width:100%;border-collapse:collapse;font-size:18px}table.bench th,ta
  <div id="active" class="active"></div>
  <div class="layout"><aside id="facets"></aside>
  <div><div class="rhead"><span id="count"></span><span><button id="addAllDeck" class="ghost">当前结果加入图集…</button> <button id="resetAll">清除全部条件</button></span></div>
- <div id="grid" class="grid"></div><div class="pager"><button id="prev">上一页</button><span id="page"></span><button id="next">下一页</button>
- <select id="psize"><option>30</option><option selected>60</option><option>120</option></select></div></div></div>
+ <div id="grid" class="grid"></div><div class="pager"><button id="first" type="button">首页</button><button id="prev" type="button">上一页</button><span class="page-nums" id="page-nums"></span><span id="page"></span><button id="next" type="button">下一页</button><button id="last" type="button">末页</button>
+ <label class="page-jump">页数选择 <select id="page-select" aria-label="选择页码"></select></label><span class="page-jump">跳至 <input id="page-input" type="number" min="1" value="1" aria-label="输入页码"> 页 <button id="page-go" type="button">跳转</button></span><label class="page-jump">每页 <select id="psize"><option>30</option><option selected>60</option><option>120</option></select> 条</label></div></div></div>
 </section>
 <section id="tab-decks" hidden><div id="deckBanner"></div><div class="two"><div><button class="pri" id="newDeck">＋ 新建参考图集</button> <button id="importDeck">导入分享链接</button>
  <p class="muted small">图集存在你这台电脑的浏览器里；换电脑或发给别人用“复制分享链接”或“导出方案页”。</p><div id="deckList" class="decklist"></div></div><div id="deckView"></div></div></section>
@@ -325,9 +326,13 @@ function bindCards(root){root.querySelectorAll('[data-open]').forEach(e=>e.oncli
  root.querySelectorAll('[data-source-link]').forEach(a=>a.onclick=e=>e.stopPropagation());
  root.querySelectorAll('[data-add]').forEach(b=>b.onclick=e=>{e.stopPropagation();addToDeck([b.dataset.add]);});
  root.querySelectorAll('[data-cmp]').forEach(b=>b.onclick=e=>{e.stopPropagation();toggleCmp(b.dataset.cmp);});}
-function renderGrid(){const n=list.length,pages=Math.max(1,Math.ceil(n/PS));if(page>=pages)page=pages-1;
+function syncPager(cur0,pages){const cur=cur0+1;$('page').textContent=`第 ${cur} / ${pages} 页`;$('prev').disabled=cur0===0;$('next').disabled=cur0>=pages-1;if($('first'))$('first').disabled=cur0===0;if($('last'))$('last').disabled=cur0>=pages-1;
+ const nums=$('page-nums');if(nums){const listPages=[],start=Math.max(1,Math.min(cur-2,pages-6)),end=Math.min(pages,Math.max(cur+2,7));if(start>1)listPages.push(1);if(start>2)listPages.push('…');for(let p=start;p<=end;p++)listPages.push(p);if(end<pages-1)listPages.push('…');if(end<pages)listPages.push(pages);nums.innerHTML=listPages.map(p=>p==='…'?'<span class="pdots">…</span>':`<button type="button" class="pnum${p===cur?' on':''}" data-page="${p}"${p===cur?' aria-current="page"':''}>${p}</button>`).join('');nums.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>{page=Number(b.dataset.page)-1;renderGrid();window.scrollTo({top:0});});}
+ const sel=$('page-select');if(sel){if(sel._max!==pages){sel._max=pages;sel.innerHTML=Array.from({length:pages},(_,i)=>`<option value="${i+1}">第 ${i+1} / ${pages} 页</option>`).join('');}sel.value=String(cur);sel.disabled=pages<=1;}
+ const inp=$('page-input');if(inp){inp.max=String(pages);inp.value=String(cur);inp.disabled=pages<=1;if($('page-go'))$('page-go').disabled=pages<=1;}}
+function renderGrid(){const n=list.length,pages=Math.max(1,Math.ceil(n/PS));page=Math.max(0,Math.min(page,pages-1));
  $('count').innerHTML=`找到 <b>${n}</b> 条镜头描述（${new Set(list.map(r=>r.w)).size} 部作品）`+(loaded<STARTUP?' · 正在载入…':'');
- $('page').textContent=`第 ${page+1} / ${pages} 页`;$('prev').disabled=page===0;$('next').disabled=page>=pages-1;
+ syncPager(page,pages);
  const g=$('grid');g.innerHTML=n?list.slice(page*PS,page*PS+PS).map(r=>card(r)).join(''):'<div class="empty">没有符合的镜头。可以减少一些条件，或把多选类切到“任一即可”。</div>';bindCards(g);}
 /* ---------- 详情 ---------- */
 let CUR=null;
@@ -472,8 +477,8 @@ function renderWorks(){const q=$('wq').value.trim().toLowerCase(),t=$('wType').v
  let ws=WORKS.filter(w=>(!t||w.type===t)&&(!k||(w.kinds||[]).includes(k))&&(!rg||w.region===rg)&&(!dc||w.decade===dc)&&(!q||[w.t,w.te,w.dir,w.dp,w.pd].join(' ').toLowerCase().includes(q)));
  ws.sort(so==='old'?(a,b)=>a.y-b.y:so==='n'?(a,b)=>b.n-a.n:so==='title'?(a,b)=>a.t.localeCompare(b.t,'zh'):(a,b)=>b.y-a.y);
  const wp=Math.max(1,Math.ceil(ws.length/WPS));if(WPAGE>=wp)WPAGE=0;
- $('wCount').innerHTML=`${ws.length} 部作品 · 第 ${WPAGE+1} / ${wp} 页 <button id="wPrev"${WPAGE?'':' disabled'}>上一页</button> <button id="wNext"${WPAGE<wp-1?'':' disabled'}>下一页</button>`;
- $('wPrev').onclick=()=>{WPAGE--;renderWorks();window.scrollTo({top:0});};$('wNext').onclick=()=>{WPAGE++;renderWorks();window.scrollTo({top:0});};
+ $('wCount').innerHTML=`${ws.length} 部作品 · 第 ${WPAGE+1} / ${wp} 页 <button id="wPrev"${WPAGE?'':' disabled'}>上一页</button> <button id="wNext"${WPAGE<wp-1?'':' disabled'}>下一页</button> <label class="page-jump">页数选择 <select id="wPageSelect" aria-label="选择作品页码"${wp<=1?' disabled':''}>${Array.from({length:wp},(_,i)=>`<option value="${i}"${i===WPAGE?' selected':''}>第 ${i+1} / ${wp} 页</option>`).join('')}</select></label>`;
+ $('wPrev').onclick=()=>{WPAGE--;renderWorks();window.scrollTo({top:0});};$('wNext').onclick=()=>{WPAGE++;renderWorks();window.scrollTo({top:0});};$('wPageSelect').onchange=()=>{WPAGE=Number($('wPageSelect').value)||0;renderWorks();window.scrollTo({top:0});};
  $('wGrid').innerHTML=ws.slice(WPAGE*WPS,WPAGE*WPS+WPS).map(w=>{const shots=BYW.get(w.i)||[];return`<div class="wc"><h4>${esc(w.t)} <span class="muted" style="font-size:18px">${esc(w.te||'')} · ${w.y}</span></h4>
  <div class="m">${esc(w.type)} · ${esc((w.kinds||[]).join('、'))} · ${esc(w.region)} · 导演 ${esc(w.dir)} · 摄影 ${esc(w.dp||'待核')}</div>
  <div class="mosaic" style="flex-direction:row;height:22px">${shots.filter(r=>palOf(r).length).map(r=>`<span style="background:${palOf(r)[Math.min(2,palOf(r).length-1)]}"></span>`).join('')}</div><p>${esc(w.look||'')}</p>
@@ -498,7 +503,11 @@ function showTab(t){document.querySelectorAll('nav.tabs button').forEach(b=>b.cl
 document.querySelectorAll('nav.tabs button[data-tab]').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
 let qT=null;$('q').oninput=()=>{clearTimeout(qT);qT=setTimeout(()=>{QP=parseQ($('q').value);apply();},250);};
 document.querySelectorAll('.hint code').forEach(c=>c.onclick=()=>{$('q').value=c.textContent;QP=parseQ(c.textContent);apply();});
-$('sort').onchange=()=>apply();$('psize').onchange=()=>{PS=+$('psize').value;apply();};$('prev').onclick=()=>{page--;renderGrid();window.scrollTo({top:0});};$('next').onclick=()=>{page++;renderGrid();window.scrollTo({top:0});};
+$('sort').onchange=()=>apply();$('psize').onchange=()=>{PS=+$('psize').value;apply();};
+$('first').onclick=()=>{page=0;renderGrid();window.scrollTo({top:0});};$('prev').onclick=()=>{page--;renderGrid();window.scrollTo({top:0});};$('next').onclick=()=>{page++;renderGrid();window.scrollTo({top:0});};$('last').onclick=()=>{page=Math.max(0,Math.ceil(list.length/PS)-1);renderGrid();window.scrollTo({top:0});};
+$('page-select').onchange=()=>{page=Math.max(0,Number($('page-select').value)-1);renderGrid();window.scrollTo({top:0});};
+const goGridPage=()=>{const pages=Math.max(1,Math.ceil(list.length/PS)),v=Number($('page-input').value);if(Number.isFinite(v)&&v>=1){page=Math.min(pages-1,Math.max(0,Math.trunc(v)-1));renderGrid();window.scrollTo({top:0});}};
+$('page-go').onclick=goGridPage;$('page-input').onkeydown=e=>{if(e.key==='Enter')goGridPage();};
 $('resetAll').onclick=()=>{SEL={};QP={tags:[],work:null,words:[]};COLOR=null;IMGPAL=null;WID=null;$('q').value='';apply();};
 $('colorBtn').onclick=()=>{COLOR={hex:$('colorPick').value,tol:COLOR?COLOR.tol:18};IMGPAL=null;apply();};$('colorPick').oninput=()=>{if(COLOR){COLOR.hex=$('colorPick').value;apply(true);}};
 $('imgBtn').onclick=()=>$('imgFile').click();
