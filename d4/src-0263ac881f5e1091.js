@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0263ac881f5e1091-rm3645199360-01","Police 2020 (1997) - IMDb rm3645199360","https://m.media-amazon.com/images/M/MV5BMTM0MDdiMWQtMzFiMy00OWNkLWFiOTMtNDg0ZjcyNjk4MGE5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0216978/mediaviewer/rm3645199360/","IMDb Official Stills"]];

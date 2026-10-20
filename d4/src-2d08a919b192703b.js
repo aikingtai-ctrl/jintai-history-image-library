@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2d08a919b192703b-rm701368320-01","How to Make the Cruelest Month (1998) - IMDb rm701368320","https://m.media-amazon.com/images/M/MV5BZjYwYThjNDEtNmZjMS00MmNjLWI1MzMtMjhmMzE5N2QwNGRlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0138501/mediaviewer/rm701368320/","IMDb Official Stills"]];

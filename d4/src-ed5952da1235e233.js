@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ed5952da1235e233-rm541037825-01","Gone in the Night (1996) - IMDb rm541037825","https://m.media-amazon.com/images/M/MV5BMDAxZjNkMGQtNDgzOS00YTM3LWFiY2QtMjIxZjgyMDBkYWE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0116434/mediaviewer/rm541037825/","IMDb Official Stills"]];

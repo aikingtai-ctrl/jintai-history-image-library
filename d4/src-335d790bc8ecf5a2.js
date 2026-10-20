@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-335d790bc8ecf5a2-rm1833546498-01","Giant Mine (1996) - IMDb rm1833546498","https://m.media-amazon.com/images/M/MV5BYWZlZmY4NDktZGRiYS00NGEzLTk2ODQtOTU2Yjc1NWMyMGY2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0116411/mediaviewer/rm1833546498/","IMDb Official Stills"]];

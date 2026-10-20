@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9755fabc829213e3-rm1962278912-01","Your Studio and You (1996) - IMDb rm1962278912","https://m.media-amazon.com/images/M/MV5BNDE0NTZiZmQtZjIxYy00MWFlLWFjMDItZWVmMmQ3MTU3YTI2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0159144/mediaviewer/rm1962278912/","IMDb Official Stills"]];

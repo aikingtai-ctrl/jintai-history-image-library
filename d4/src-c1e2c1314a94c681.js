@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c1e2c1314a94c681-rm2078221568-01","Elevated (1997) - IMDb rm2078221568","https://m.media-amazon.com/images/M/MV5BNTVhYzU2NGItMzlkOS00OWJjLWFkMzktOWZhMjk0NGU2ODczXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0168730/mediaviewer/rm2078221568/","IMDb Official Stills"]];

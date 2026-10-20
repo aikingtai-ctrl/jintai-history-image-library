@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4076ec924da6d5d1-rm1097705730-01","Tender Fictions (1996) - IMDb rm1097705730","https://m.media-amazon.com/images/M/MV5BNjNkNGRmZjctMjU3MC00ZTY1LWIyMTYtZDAxNWM5Y2U1ZTQ0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0114646/mediaviewer/rm1097705730/","IMDb Official Stills"]];

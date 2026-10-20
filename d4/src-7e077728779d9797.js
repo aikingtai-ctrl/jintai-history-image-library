@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7e077728779d9797-rm3766489344-01","Windsor Protocol (1996) - IMDb rm3766489344","https://m.media-amazon.com/images/M/MV5BM2YwMDc1MjItOWEyYi00N2U1LWFhZDUtNjgwNWVkZDk3NGIzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0118173/mediaviewer/rm3766489344/","IMDb Official Stills"]];

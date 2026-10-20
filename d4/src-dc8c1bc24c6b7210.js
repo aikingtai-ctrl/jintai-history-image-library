@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-dc8c1bc24c6b7210-rm1589053184-01","Lenny Bruce: Swear to Tell the Truth (1998) - IMDb rm1589053184","https://m.media-amazon.com/images/M/MV5BMGE0MWVmNzktMjA3ZC00ZDZkLTgwZmEtNmExNjkzYmU3ZTRkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0175844/mediaviewer/rm1589053184/","IMDb Official Stills"]];

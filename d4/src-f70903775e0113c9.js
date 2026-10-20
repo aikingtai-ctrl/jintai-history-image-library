@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f70903775e0113c9-rm683678208-01","Elvis Meets Nixon (1997) - IMDb rm683678208","https://m.media-amazon.com/images/M/MV5BZjE5YjcwYjYtYmM1Zi00MzMzLWEzZTMtMmRiZGJjNDM0NDBmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0122474/mediaviewer/rm683678208/","IMDb Official Stills"]];

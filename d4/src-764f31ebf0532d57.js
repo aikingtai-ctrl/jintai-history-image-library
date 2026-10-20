@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-764f31ebf0532d57-rm697829376-01","Stolen Memories: Secrets from the Rose Garden (1996) - IMDb rm697829376","https://m.media-amazon.com/images/M/MV5BZTk3OTViZDItZWEyNy00M2I0LWJiYWEtY2ExNjU0NTNkNDI5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0114549/mediaviewer/rm697829376/","IMDb Official Stills"]];

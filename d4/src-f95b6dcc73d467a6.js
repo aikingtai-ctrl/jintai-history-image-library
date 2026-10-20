@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f95b6dcc73d467a6-rm536420353-01","Deadly Outbreak (1996) - IMDb rm536420353","https://m.media-amazon.com/images/M/MV5BYjZkOGE3OTAtNTRkZi00NzY2LTgyM2UtZTM5ZjYxMmM3ODNmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0112828/mediaviewer/rm536420353/","IMDb Official Stills"]];
