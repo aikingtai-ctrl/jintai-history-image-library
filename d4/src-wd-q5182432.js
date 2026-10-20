@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5182432-rm2441423872-01","突破水障 (1956) - IMDb rm2441423872","https://m.media-amazon.com/images/M/MV5BYjA0NmFlYzItMWFmMi00OTk3LWE5MDUtZmUwMzgyNDEyZTQyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0049102/mediaviewer/rm2441423872/","IMDb Official Stills"]];

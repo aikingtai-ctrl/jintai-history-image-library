@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1417812-rm3863943168-01","飛越珠穆瑪朗峰 (1934) - IMDb rm3863943168","https://m.media-amazon.com/images/M/MV5BZjhkOGFhNmQtZTQ0NC00ZTc3LWIwYjEtYTJlMjIyM2Y0NGRkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0024777/mediaviewer/rm3863943168/","IMDb Official Stills"]];

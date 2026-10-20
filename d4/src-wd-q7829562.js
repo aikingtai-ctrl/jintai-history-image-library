@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7829562-rm2246263553-01","走向獨立 (1948) - IMDb rm2246263553","https://m.media-amazon.com/images/M/MV5BMzY5NjNjYzctNGU0ZS00NTQyLWE5YTYtN2YzMDRhNTE4OTYwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0040893/mediaviewer/rm2246263553/","IMDb Official Stills"]];

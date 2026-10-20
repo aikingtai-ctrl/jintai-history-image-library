@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9d6fee9774f0de5d-rm1541937152-01","甜蜜的艾玛，亲爱的芭比 (1992) - IMDb rm1541937152","https://m.media-amazon.com/images/M/MV5BZjU5YTNkNDgtMjE3Ni00YThhLWE1ZGUtZjMzYzcwODllOGM2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0105919/mediaviewer/rm1541937152/","IMDb Official Stills"]];

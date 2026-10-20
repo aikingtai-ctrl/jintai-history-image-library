@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7786140-rm2894807296-01","機械時代 (1954) - IMDb rm2894807296","https://m.media-amazon.com/images/M/MV5BNjMxMGUzMmYtOWU0ZC00Y2ZmLThjY2YtMTgzZDYzNGY4MTBhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0047578/mediaviewer/rm2894807296/","IMDb Official Stills"]];

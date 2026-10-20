@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1722894-rm66988545-01","箭鱼摔跤 (1931) - IMDb rm66988545","https://m.media-amazon.com/images/M/MV5BODgxOGRiYjItYTZiZi00YWIxLTkyMjEtNDhmYjJlODZlNzdjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0023711/mediaviewer/rm66988545/","IMDb Official Stills"]];

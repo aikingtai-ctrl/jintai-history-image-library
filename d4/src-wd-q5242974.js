@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5242974-rm1540173824-01","畫家的一天 (1960) - IMDb rm1540173824","https://m.media-amazon.com/images/M/MV5BMWJlNDRlZTEtNjAxZi00MzU1LWE5NmItNTcyYjc1YjEwMjljXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0053753/mediaviewer/rm1540173824/","IMDb Official Stills"]];

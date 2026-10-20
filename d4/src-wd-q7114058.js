@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7114058-rm3693228288-01","给温莎快乐妻子们的序曲 (1953) - IMDb rm3693228288","https://m.media-amazon.com/images/M/MV5BNDk3ZWM3YTctODA1NS00NTc0LWEzZDMtNDI5ODViYzIwOTcyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0046154/mediaviewer/rm3693228288/","IMDb Official Stills"]];

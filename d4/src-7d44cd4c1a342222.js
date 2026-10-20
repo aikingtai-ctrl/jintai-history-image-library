@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7d44cd4c1a342222-rm1879905537-01","Summer with Hope (2022) - IMDb rm1879905537","https://m.media-amazon.com/images/M/MV5BOTk3Njg3MWQtYTU1ZS00MjUzLWE5ZjYtZTYxOWYyNDdkMjBlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt20769484/mediaviewer/rm1879905537/","IMDb Official Stills"]];

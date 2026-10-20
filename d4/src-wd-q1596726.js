@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1596726-rm1337995264-01","獨立宣言 (1938) - IMDb rm1337995264","https://m.media-amazon.com/images/M/MV5BNGJmN2E0NTUtMGI3Mi00MTQwLWFiNTUtM2RkM2RiMTQ3NDA4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0030046/mediaviewer/rm1337995264/","IMDb Official Stills"]];

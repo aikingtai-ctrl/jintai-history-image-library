@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4782789-rm1293933569-01","龍宮派對 (1949) - IMDb rm1293933569","https://m.media-amazon.com/images/M/MV5BNGU3MGFhMmQtZjM4Yi00ZGVjLThkNzItZmU5OTg1OTM0ODE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0041130/mediaviewer/rm1293933569/","IMDb Official Stills"]];

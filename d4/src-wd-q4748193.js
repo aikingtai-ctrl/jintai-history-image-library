@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4748193-rm2589593345-01","水陆战将 (1943) - IMDb rm2589593345","https://m.media-amazon.com/images/M/MV5BNjI1YmNjZmItMDliZi00ZGMwLTgyMDEtY2FmODZkNDM0NTkxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0035634/mediaviewer/rm2589593345/","IMDb Official Stills"]];

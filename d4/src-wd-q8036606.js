@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q8036606-rm498242561-01","孩子的世界 (1951) - IMDb rm498242561","https://m.media-amazon.com/images/M/MV5BNTRlNmQwNDUtNzc4My00MWQwLTljYWQtYWU3MWI0M2E0MjBiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0044218/mediaviewer/rm498242561/","IMDb Official Stills"]];

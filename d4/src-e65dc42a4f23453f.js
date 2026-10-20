@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e65dc42a4f23453f-rm1705415168-01","美丽的大脚 (2002) - IMDb rm1705415168","https://m.media-amazon.com/images/M/MV5BMTI1NTUxMTMyMl5BMl5BanBnXkFtZTcwNzg5ODIzMQ@@._V1_.jpg","https://www.imdb.com/title/tt0361634/mediaviewer/rm1705415168/","IMDb Official Stills"]];

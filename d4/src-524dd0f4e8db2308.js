@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-524dd0f4e8db2308-rm644895488-01","Finding Christa (1992) - IMDb rm644895488","https://m.media-amazon.com/images/M/MV5BMTU3OTY2OTMyN15BMl5BanBnXkFtZTgwMTI2Mjc1NDM@._V1_.jpg","https://www.imdb.com/title/tt0123071/mediaviewer/rm644895488/","IMDb Official Stills"]];

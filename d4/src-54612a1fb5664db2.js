@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-54612a1fb5664db2-rm2854938368-01","姊妹情殤 (2011) - IMDb rm2854938368","https://m.media-amazon.com/images/M/MV5BY2EwODdiNDYtYzNhMS00ZmVmLTgyN2EtM2JlZGRlMDkxZTY1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2023367/mediaviewer/rm2854938368/","IMDb Official Stills"]];

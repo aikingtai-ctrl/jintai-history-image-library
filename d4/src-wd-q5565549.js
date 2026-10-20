@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5565549-rm534130688-01","杰索菲娜 (1960) - IMDb rm534130688","https://m.media-amazon.com/images/M/MV5BZDVkNWFmZjEtYzQ5Yi00OTU0LWFmOTEtZGUyZjU0NWEyZWFkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0053866/mediaviewer/rm534130688/","IMDb Official Stills"]];

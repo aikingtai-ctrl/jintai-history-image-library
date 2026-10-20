@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1144028-rm921031169-01","海豹岛 (1948) - IMDb rm921031169","https://m.media-amazon.com/images/M/MV5BNzY5MTllNzMtZTY1NS00ZThlLWEyNWItNjFiZTcyN2UzZTQ1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0040763/mediaviewer/rm921031169/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b0362f37b2dc65db-rm647993088-01","SULANGA ENU PINISA (2005) - IMDb rm647993088","https://m.media-amazon.com/images/M/MV5BMTQyMTM0NDUxNF5BMl5BanBnXkFtZTcwNjA1MjU3MQ@@._V1_.jpg","https://www.imdb.com/title/tt0413358/mediaviewer/rm647993088/","IMDb Official Stills"]];

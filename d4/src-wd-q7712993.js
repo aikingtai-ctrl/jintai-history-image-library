@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7712993-rm875383553-01","阿拉斯加的爱斯基摩人 (1953) - IMDb rm875383553","https://m.media-amazon.com/images/M/MV5BZGEwMjU3YTYtMWFiNy00NWVkLTg0MWMtZmU2ZTg0YmVjNzllXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0045485/mediaviewer/rm875383553/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c44a3c38309aa987-rm3007964160-01","神探亨特张 (2012) - IMDb rm3007964160","https://m.media-amazon.com/images/M/MV5BNjYxYzJlMWQtNzg5OC00MTI1LWI5MDgtM2M5MWY3Y2ZlNDE4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2273470/mediaviewer/rm3007964160/","IMDb Official Stills"]];

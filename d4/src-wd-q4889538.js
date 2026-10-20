@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4889538-rm773075712-01","班吉 (1951) - IMDb rm773075712","https://m.media-amazon.com/images/M/MV5BNDZjYjRkMWQtZDE1YS00ODZkLThhZTItYmE4ZjE5ZGZlOTMxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0043334/mediaviewer/rm773075712/","IMDb Official Stills"]];

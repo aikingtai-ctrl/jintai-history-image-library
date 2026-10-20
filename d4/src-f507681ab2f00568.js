@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f507681ab2f00568-rm3127764224-01","意外華爾滋 (1990) - IMDb rm3127764224","https://m.media-amazon.com/images/M/MV5BMzM5MmQ2ZjgtNWZmZC00NDRlLWFiZGItMWFmZDMzYjVmOGZjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0128542/mediaviewer/rm3127764224/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c2af069efd6baede-rm2406796033-01","Ste. Anne (2021) - IMDb rm2406796033","https://m.media-amazon.com/images/M/MV5BNjE3ZGY0MDctZTdmZS00NjgxLWFlZWYtMjZlMjAxYTdmNTM5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt14091768/mediaviewer/rm2406796033/","IMDb Official Stills"]];

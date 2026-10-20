@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-009bf3b5a7f6f64a-rm3892990720-01","博愛屋 (1998) - IMDb rm3892990720","https://m.media-amazon.com/images/M/MV5BMzEwOTY3OTMxN15BMl5BanBnXkFtZTgwMTc3MTk1NDM@._V1_.jpg","https://www.imdb.com/title/tt0139221/mediaviewer/rm3892990720/","IMDb Official Stills"]];

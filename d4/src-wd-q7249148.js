@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7249148-rm3908253184-01","希望計畫 (1961) - IMDb rm3908253184","https://m.media-amazon.com/images/M/MV5BYTQ4Y2IzM2MtZDE5MC00MjdmLTk5ZDQtZTBkNGJlMDk0ZjE0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0055333/mediaviewer/rm3908253184/","IMDb Official Stills"]];

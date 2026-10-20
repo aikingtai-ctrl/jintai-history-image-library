@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1946707-rm337320704-01","月之鳥 (1959) - IMDb rm337320704","https://m.media-amazon.com/images/M/MV5BYTBmZWQ1MjItYjdlOS00NWEzLTliODktMDI4MWJlNjc3MmQ1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0053080/mediaviewer/rm337320704/","IMDb Official Stills"]];

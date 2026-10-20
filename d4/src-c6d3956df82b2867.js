@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c6d3956df82b2867-rm2157472513-01","Sonita (2016) - IMDb rm2157472513","https://m.media-amazon.com/images/M/MV5BZDNhNTViN2UtNjYyYy00YmQ2LWFmN2MtNzBlYzNlN2FhOTkyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt33049276/mediaviewer/rm2157472513/","IMDb Official Stills"]];

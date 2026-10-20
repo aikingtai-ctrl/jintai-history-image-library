@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1313591-rm1020538880-01","第一步 (1947) - IMDb rm1020538880","https://m.media-amazon.com/images/M/MV5BOTg1MTdmNDgtYjAzOC00ZTI1LWI0ZjMtNTgyMjRkYWExOTllXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0039384/mediaviewer/rm1020538880/","IMDb Official Stills"]];

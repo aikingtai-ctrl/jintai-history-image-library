@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b9d45458885032a1-rm2785623296-01","焦裕禄 (1990) - IMDb rm2785623296","https://m.media-amazon.com/images/M/MV5BYmUyNjUyMTktODY0NC00YjQyLTgwZDUtM2UwMWZmNDNjNDYxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0470385/mediaviewer/rm2785623296/","IMDb Official Stills"]];

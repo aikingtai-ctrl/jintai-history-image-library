@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3c1cb1df6f747966-rm12451840-01","Krapatchouk (1992) - IMDb rm12451840","https://m.media-amazon.com/images/M/MV5BNGE4OTI3MDEtOTQyNC00NzAyLWE3MzAtZDdhMjNjNjlhZTI4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0104638/mediaviewer/rm12451840/","IMDb Official Stills"]];

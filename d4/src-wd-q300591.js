@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q300591-rm3090018561-01","遠離戰爭的時代 (1954) - IMDb rm3090018561","https://m.media-amazon.com/images/M/MV5BODVjMzM1MTEtMmI4ZC00MDA4LWFjODUtNWVmNTAyNGJiNDBiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0047587/mediaviewer/rm3090018561/","IMDb Official Stills"]];

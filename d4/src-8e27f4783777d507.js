@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8e27f4783777d507-rm308529154-01","For the Opponents (2026) - IMDb rm308529154","https://m.media-amazon.com/images/M/MV5BYTc1NmQ5OWEtMTZiMy00Yjc2LTk0MTgtMWJlNzRkZjJiMTY0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt42004508/mediaviewer/rm308529154/","IMDb Official Stills"]];

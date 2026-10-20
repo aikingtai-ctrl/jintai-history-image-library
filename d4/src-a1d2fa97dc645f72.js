@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a1d2fa97dc645f72-rm1564745472-01","2CV裡的革命 (2001) - IMDb rm1564745472","https://m.media-amazon.com/images/M/MV5BZWUxN2QxMjMtOWY5Ni00NDAyLWJhMTctNzVhZTNlMGMwOGVlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0274323/mediaviewer/rm1564745472/","IMDb Official Stills"]];

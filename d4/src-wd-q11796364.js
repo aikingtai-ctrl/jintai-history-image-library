@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11796364-rm2518095872-01","Odwiedziny prezydenta (1961) - IMDb rm2518095872","https://m.media-amazon.com/images/M/MV5BNWU2NTdjYjEtNGViZC00YmNiLTgzNTItY2Y0NGY4YTc0MDZiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0055245/mediaviewer/rm2518095872/","IMDb Official Stills"]];

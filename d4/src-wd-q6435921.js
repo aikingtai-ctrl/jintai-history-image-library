@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q6435921-rm2065249024-01","腊卡塔火山 (1933) - IMDb rm2065249024","https://m.media-amazon.com/images/M/MV5BNGVjNzYxMjgtZmJhYy00OThiLWI3ZDAtZDAzNTFlYmRiMjI1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0024231/mediaviewer/rm2065249024/","IMDb Official Stills"]];

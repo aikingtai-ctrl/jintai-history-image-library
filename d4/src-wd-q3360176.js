@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3360176-rm3731788544-01","Pacific 231 (1949) - IMDb rm3731788544","https://m.media-amazon.com/images/M/MV5BMTI3ODcwNzIxMF5BMl5BanBnXkFtZTcwMjQ0ODM1MQ@@._V1_.jpg","https://www.imdb.com/title/tt0263830/mediaviewer/rm3731788544/","IMDb Official Stills"]];

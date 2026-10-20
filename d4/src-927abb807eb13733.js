@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-927abb807eb13733-rm2758862080-01","My Soul Brother (1993) - IMDb rm2758862080","https://m.media-amazon.com/images/M/MV5BMGZhNzJmOTMtNGQ2MC00MTk2LWE3YmYtOTdhMTU2ZmEyYjM1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0107564/mediaviewer/rm2758862080/","IMDb Official Stills"]];

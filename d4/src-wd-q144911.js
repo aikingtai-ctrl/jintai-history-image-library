@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q144911-rm2095264000-01","职责之外 (1942) - IMDb rm2095264000","https://m.media-amazon.com/images/M/MV5BZjY2OGJkOGMtYmI5NC00MGE3LWE1N2QtYTc2YTNmNWNlMmQ5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0034511/mediaviewer/rm2095264000/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7083d9a4e5d6c99e-rm2516590848-01","渴望 (2002) - IMDb rm2516590848","https://m.media-amazon.com/images/M/MV5BMjQ4YmM5NDEtMzAxMC00MGYxLWJhMzAtYWJmYTNmNjQ5NGI5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0328727/mediaviewer/rm2516590848/","IMDb Official Stills"]];

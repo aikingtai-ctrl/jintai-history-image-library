@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1017834-rm128657921-01","忙碌的小熊 (1939) - IMDb rm128657921","https://m.media-amazon.com/images/M/MV5BZjM2MjkyYmQtNzYxYi00NTRkLThhNWMtY2EyZjczNWMwODZlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0031128/mediaviewer/rm128657921/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7c0b34044701adee-rm3154437888-01","A Children's Story (2004) - IMDb rm3154437888","https://m.media-amazon.com/images/M/MV5BN2QxMDBjZTEtNTJjZi00NTZhLTgxYjUtYmRlYTM5MTRjYzViXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0414891/mediaviewer/rm3154437888/","IMDb Official Stills"]];

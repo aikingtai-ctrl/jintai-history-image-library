@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3523352-rm1336819968-01","濕背獵犬 (1957) - IMDb rm1336819968","https://m.media-amazon.com/images/M/MV5BZWViM2MyYmEtNjA5Yy00OTVlLTgxZjYtMzdkYmUyMWViN2RmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0051187/mediaviewer/rm1336819968/","IMDb Official Stills"]];

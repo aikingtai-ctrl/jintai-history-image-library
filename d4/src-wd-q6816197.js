@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q6816197-rm3626781441-01","征服北極的人 (1955) - IMDb rm3626781441","https://m.media-amazon.com/images/M/MV5BYjY2NDQyNTMtYTAzMy00ZTdhLWE5NmEtODE4ZWYyZmI4MGI0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0048369/mediaviewer/rm3626781441/","IMDb Official Stills"]];

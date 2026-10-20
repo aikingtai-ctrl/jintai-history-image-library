@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1736790-rm1376726528-01","母親會活著 (1938) - IMDb rm1376726528","https://m.media-amazon.com/images/M/MV5BMTU5ZGMxMTMtOTlmNC00ZTIzLWJmM2MtNTI0OTQ1YjkzMjMyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0030855/mediaviewer/rm1376726528/","IMDb Official Stills"]];

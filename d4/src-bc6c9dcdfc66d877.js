@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-bc6c9dcdfc66d877-rm4258526208-01","幻覺與慾動 (2012) - IMDb rm4258526208","https://m.media-amazon.com/images/M/MV5BMjA5MzM5NDI1Nl5BMl5BanBnXkFtZTgwNDM2MTI3NTE@._V1_.jpg","https://www.imdb.com/title/tt2332514/mediaviewer/rm4258526208/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-75c475b44ca56510-rm787979520-01","凤凰琴 (1993) - IMDb rm787979520","https://m.media-amazon.com/images/M/MV5BOTkwNDYzOTY0MF5BMl5BanBnXkFtZTcwNzcxNDQyMQ@@._V1_.jpg","https://www.imdb.com/title/tt0106617/mediaviewer/rm787979520/","IMDb Official Stills"]];

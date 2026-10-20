@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q2870461-rm3141587457-01","熊之国 (1953) - IMDb rm3141587457","https://m.media-amazon.com/images/M/MV5BZmFhNmIyZjMtNmQwZi00ZjAyLWEyNWMtZjcyOGRiZTdhODY3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0045545/mediaviewer/rm3141587457/","IMDb Official Stills"]];

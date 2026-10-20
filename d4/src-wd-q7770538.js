@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7770538-rm1116089344-01","南北戰爭真實故事 (1956) - IMDb rm1116089344","https://m.media-amazon.com/images/M/MV5BOGQ1NjE3YjYtNmQyNC00ZjhiLTk1YzQtMWNhNzVjYTM1NGZhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0049885/mediaviewer/rm1116089344/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1391649-rm89534208-01","面對危險 (1946) - IMDb rm89534208","https://m.media-amazon.com/images/M/MV5BMTA3YmYwNDAtZGUzMS00NjliLTg0YzMtMmU5ZGYwZGYwZjc4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0038515/mediaviewer/rm89534208/","IMDb Official Stills"]];
