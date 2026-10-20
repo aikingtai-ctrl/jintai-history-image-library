@@ -15,6 +15,7 @@ document.documentElement.style.visibility='visible';document.body.innerHTML='<p 
 <p class="notice" id="workGoal"></p><p class="muted" id="descriptionGoal"></p>
 <p class="notice" id="awardGoal" hidden></p><p class="muted" id="awardScope" hidden></p>
 <p class="muted" id="date"></p>
+<p><button id="prompts-only">已配镜头提示词作品</button><span class="muted" id="prompts-only-count"></span></p>
 <p><button id="cinematography">历届奥斯卡最佳摄影获奖电影</button><span class="muted" id="cinematography-count"></span></p>
 <p><button id="cinematography-all">历届最佳摄影：获奖＋正式提名</button><span class="muted" id="cinematography-all-count"></span></p>
 <p class="notice muted">点击作品卡片的“镜头与提示词”查看逐镜画面说明、构图光影分析和可复制提示词。既有笔记与来源静帧分析分别标明核验状态；未补齐的作品明确显示待补。画面参考按来源图片 URL 去重，同一连续镜头可能有多帧，不等同于独立镜头或提示词条数。</p>
@@ -29,7 +30,7 @@ document.documentElement.style.visibility='visible';document.body.innerHTML='<p 
 </main>
 <dialog id="detail"><div class="dialog-head"><h2 id="dtitle"></h2><button id="close">关闭</button></div><p class="muted" id="dinfo"></p><p id="dsource"></p><p class="notice muted">以下为源站中的具体画面记录。点击“查看来源画面”到源站查看，本站不下载或展示这些影片截图。画面内容及摄影标签尚待补充。</p><div class="grid" id="frames"></div><div class="pager"><button id="fprev" type="button">上一页</button><span class="page-nums" id="fpage-nums"></span><span id="fpage"></span><button id="fnext" type="button">下一页</button><label class="page-jump">页数选择 <select id="fpage-select" aria-label="选择来源画面页码"></select></label></div></dialog>
 <dialog id="pdetail" aria-labelledby="ptitle"><div class="dialog-head"><h2 id="ptitle"></h2><button id="pclose">关闭</button></div><p class="muted" id="pinfo"></p><p class="notice muted">提示词是供创作参考的改写。来源静帧分析只依据可见画面，不能据此确认运镜、器材或精确拍摄参数；既有笔记保留原核验状态。是否属于影片最具代表性的经典镜头仍需逐部审定。</p><p id="pcopy-status" class="prompt-status muted" role="status" aria-live="polite"></p><div class="prompt-list" id="prompts"></div><div class="pager"><button id="pprev" type="button">上一页</button><span class="page-nums" id="ppage-nums"></span><span id="ppage"></span><button id="pnext" type="button">下一页</button><label class="page-jump">页数选择 <select id="ppage-select" aria-label="选择提示词页码"></select></label></div></dialog>
-<script src="d4/summary.js?v=989b2d78b3f5"></script><script src="d4/catalogue.js?v=989b2d78b3f5"></script>
+<script src="d4/summary.js?v=7b33346faba9"></script><script src="d4/catalogue.js?v=7b33346faba9"></script>
 <script>
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>{try{const p=new URL(u);return ['http:','https:'].includes(p.protocol)?p.href:'';}catch{return '';}};
@@ -84,6 +85,8 @@ $('page-go').onclick=goPage;$('page-input').onkeydown=e=>{if(e.key==='Enter')goP
 $('fprev').onclick=()=>{fpage--;renderFrames();};$('fnext').onclick=()=>{fpage++;renderFrames();};$('fpage-select').onchange=()=>{fpage=Math.max(0,Number($('fpage-select').value)-1);renderFrames();};
 $('pprev').onclick=()=>{ppage--;renderPrompts();$('pdetail').scrollTop=0;};$('pnext').onclick=()=>{ppage++;renderPrompts();$('pdetail').scrollTop=0;};$('ppage-select').onchange=()=>{ppage=Math.max(0,Number($('ppage-select').value)-1);renderPrompts();$('pdetail').scrollTop=0;};
 $('coverage').innerHTML+='<option value="oscar-cinematography">奥斯卡最佳摄影获奖电影</option><option value="oscar-cinematography-all">最佳摄影获奖＋正式提名</option>';
+$('prompts-only-count').textContent=` · ${WORKS.filter(w=>promptCount(w)>0).length.toLocaleString()} 部已配逐镜提示词，点击仅看有提示词作品`;
+$('prompts-only').onclick=()=>{for(const id of ['q','type','festival','award','classic','genre','region','decade'])$(id).value='';$('coverage').value='prompts';$('sort').value='prompts';awardOptions();filter();};
 $('cinematography-count').textContent=` · ${WORKS.filter(oscarCinematography).length} 部 · 黑白／彩色／综合摄影类别，学院官网获奖依据`;
 $('cinematography').onclick=()=>{for(const id of ['q','type','festival','award','classic','genre','region','decade'])$(id).value='';$('coverage').value='oscar-cinematography';$('sort').value='oldest';awardOptions();filter();};
 const cineWorks=WORKS.filter(oscarCinematographyAll);$('cinematography-all-count').textContent=` · ${cineWorks.length} 部 · ${cineWorks.filter(w=>cinematographyEntries(w).some(a=>a.status==='winner')).length} 部获奖 · ${cineWorks.filter(w=>cinematographyEntries(w).some(a=>a.status==='nominee')).length} 部正式提名 · ${cineWorks.filter(w=>visualPromptCount(w)>=5).length} 部已有至少5条来源观图提示词，其余待补`;
