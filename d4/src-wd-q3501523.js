@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3501523-rm2516245760-01","保护人 (2009) - IMDb rm2516245760","https://m.media-amazon.com/images/M/MV5BMjIxMjAxNzA2M15BMl5BanBnXkFtZTgwNTUxMDY0MDE@._V1_.jpg","https://www.imdb.com/title/tt1348318/mediaviewer/rm2516245760/","IMDb Official Stills"]];

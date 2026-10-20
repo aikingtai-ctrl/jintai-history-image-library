@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1729448-rm2479643392-01","嘎喳嘎喳的鳥 (1971) - IMDb rm2479643392","https://m.media-amazon.com/images/M/MV5BYTBiZGYxZWItZWQxYi00N2FkLThjN2QtYzIxNTAxYzQ5MTI0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0066959/mediaviewer/rm2479643392/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cc47efdd508cdb39-rm396153602-01","PATKA Z ULICY BARSKIEJ (1954) - IMDb rm396153602","https://m.media-amazon.com/images/M/MV5BYmU5MDU5MjUtZDkyNC00ZGE4LWE1NDUtNjY5MDY1ZDZhY2VjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0047351/mediaviewer/rm396153602/","IMDb Official Stills"]];

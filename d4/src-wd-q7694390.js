@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7694390-rm2957394689-01","少年父親 (1978) - IMDb rm2957394689","https://m.media-amazon.com/images/M/MV5BMjkyNTlkOWQtNzBmYy00MzJkLTllZGEtZmFiZTVhZTU1ZWQwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0078372/mediaviewer/rm2957394689/","IMDb Official Stills"]];

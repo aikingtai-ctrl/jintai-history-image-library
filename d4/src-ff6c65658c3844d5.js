@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ff6c65658c3844d5-rm2123886337-01","ANIMATED GENESIS (1952) - IMDb rm2123886337","https://m.media-amazon.com/images/M/MV5BMGY2YWFlNzYtZmU2NC00NWYxLWJjY2EtMGQxZTYwZmNlNzViXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2002605/mediaviewer/rm2123886337/","IMDb Official Stills"]];

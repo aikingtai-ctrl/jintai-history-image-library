@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q95214515-rm1953949953-01","Sans un Cri (1992) - IMDb rm1953949953","https://m.media-amazon.com/images/M/MV5BNTRjOTkyY2ItODdhMy00NDQ4LWE2MzctMmE0NWI4MGQ0MzBiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0102838/mediaviewer/rm1953949953/","IMDb Official Stills"]];

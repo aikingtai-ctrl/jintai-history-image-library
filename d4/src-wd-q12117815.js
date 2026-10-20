@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q12117815-rm1827608577-01","遊戲的結局 (1975) - IMDb rm1827608577","https://m.media-amazon.com/images/M/MV5BOThjYjZhMDktNzc3My00OWVlLWEwMzItMGIxZTI3M2Q2N2QwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0072939/mediaviewer/rm1827608577/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q113543655-rm1616909825-01","烏都殘垣 (2022) - IMDb rm1616909825","https://m.media-amazon.com/images/M/MV5BNDFkYTVjYmEtYmNhYy00ZmI3LWI2MGUtNzEyNWQ1ODdlZmIxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt20221546/mediaviewer/rm1616909825/","IMDb Official Stills"]];

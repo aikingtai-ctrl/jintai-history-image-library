@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3319861-rm3930683904-01","Mon cher Sujet (1988) - IMDb rm3930683904","https://m.media-amazon.com/images/M/MV5BZjA4MzU5ZDctMjhkNC00NGEzLTgzYmYtMjQ5OWE3MzI5Mzc0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0097902/mediaviewer/rm3930683904/","IMDb Official Stills"]];

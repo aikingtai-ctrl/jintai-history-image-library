@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q16176709-rm3773020672-01","Blod & ære (2008) - IMDb rm3773020672","https://m.media-amazon.com/images/M/MV5BMjAyNjQ2Njg4Ml5BMl5BanBnXkFtZTcwMTU0MDI0NA@@._V1_.jpg","https://www.imdb.com/title/tt1442555/mediaviewer/rm3773020672/","IMDb Official Stills"]];

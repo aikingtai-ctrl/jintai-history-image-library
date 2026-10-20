@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1816081-rm605756160-01","休閒 (1976) - IMDb rm605756160","https://m.media-amazon.com/images/M/MV5BNjkzYTc0ZjAtZGUyZS00MjAxLTk2Y2EtYzU5NjkzNWRmYTA4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0074787/mediaviewer/rm605756160/","IMDb Official Stills"]];

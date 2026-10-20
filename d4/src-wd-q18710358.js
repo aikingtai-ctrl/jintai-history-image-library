@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q18710358-rm1720990976-01","Ko Yad (2012) - IMDb rm1720990976","https://m.media-amazon.com/images/M/MV5BOWVkMGVjYzgtMGM4Mi00Nzk1LWI3NjQtZGMzZmJjMTIyYWY2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3673936/mediaviewer/rm1720990976/","IMDb Official Stills"]];

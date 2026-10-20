@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q18910412-rm1109605376-01","‎Magnus - en vårdag (2013) - IMDb rm1109605376","https://m.media-amazon.com/images/M/MV5BYTFlNmFhNzYtOGRhYy00NzZlLWFhYTQtMGQ2NDlmZGY2NDU4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3432040/mediaviewer/rm1109605376/","IMDb Official Stills"]];

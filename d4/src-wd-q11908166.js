@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11908166-rm2770276352-01","Barcelona, abans que el temps ho esborri (2011) - IMDb rm2770276352","https://m.media-amazon.com/images/M/MV5BMzdhNGNmNGUtOTY2YS00ZTFhLWJjN2QtYTA2ZDQ2M2RkMDMyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1777544/mediaviewer/rm2770276352/","IMDb Official Stills"]];

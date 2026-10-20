@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11721328-rm713562624-01","Jasminum (2006) - IMDb rm713562624","https://m.media-amazon.com/images/M/MV5BYWI5YzI1M2UtMTZjMC00Yjk3LTk2NDMtNjQ5MTlkNTY1ZDE3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0778749/mediaviewer/rm713562624/","IMDb Official Stills"]];

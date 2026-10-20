@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1671458-rm3245686528-01","採訪退役者 (1970) - IMDb rm3245686528","https://m.media-amazon.com/images/M/MV5BNTY2MWQwZDQtN2JlZi00ZDEwLWFhYzgtN2UwODdlNzM4YzZiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0065894/mediaviewer/rm3245686528/","IMDb Official Stills"]];

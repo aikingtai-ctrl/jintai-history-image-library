@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4770901-rm4273989120-01","无尽的等待 (2009) - IMDb rm4273989120","https://m.media-amazon.com/images/M/MV5BZGVmNjNkM2QtNjZkZi00ZTI2LWFmNzktNTA1OGNiNGE4YzM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1359552/mediaviewer/rm4273989120/","IMDb Official Stills"]];

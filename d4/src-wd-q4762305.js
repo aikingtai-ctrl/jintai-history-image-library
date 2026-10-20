@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4762305-rm2732863488-01","天使與大喬 (1975) - IMDb rm2732863488","https://m.media-amazon.com/images/M/MV5BZTc0NDUyOTUtNjAwOC00NmZhLWE0ODQtZTJkNzU4ZWM3NjM1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0072646/mediaviewer/rm2732863488/","IMDb Official Stills"]];

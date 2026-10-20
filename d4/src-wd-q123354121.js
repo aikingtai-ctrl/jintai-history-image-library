@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q123354121-rm4093978881-01","袁隆平 (2009) - IMDb rm4093978881","https://m.media-amazon.com/images/M/MV5BNjAzZGY0NTQtZjFmYy00MzZlLWI4MzktYzRjMTAwOGUxZDVhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11496490/mediaviewer/rm4093978881/","IMDb Official Stills"]];

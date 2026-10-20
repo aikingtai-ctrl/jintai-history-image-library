@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5135206-rm466235392-01","親密和諧 (1981) - IMDb rm466235392","https://m.media-amazon.com/images/M/MV5BMTQ1MDBhYzItYTRiYy00OTQ0LWFkODktMmQ0ODdiY2Y3OWVkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0082187/mediaviewer/rm466235392/","IMDb Official Stills"]];

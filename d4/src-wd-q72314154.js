@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q72314154-rm1253108481-01","El sueño de Adán (1994) - IMDb rm1253108481","https://m.media-amazon.com/images/M/MV5BMTkxMzg1NWUtN2FiMy00NmJiLWEyNzktMTQ3NGE5ZDUwMjliXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0157076/mediaviewer/rm1253108481/","IMDb Official Stills"]];

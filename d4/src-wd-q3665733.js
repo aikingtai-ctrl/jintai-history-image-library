@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3665733-rm2649239552-01","夏卡爾 (1963) - IMDb rm2649239552","https://m.media-amazon.com/images/M/MV5BZWRiNzE5MjEtNGQ0OC00OTFlLWEwMjYtZjk0MDRmYWNmNDJiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0056920/mediaviewer/rm2649239552/","IMDb Official Stills"]];

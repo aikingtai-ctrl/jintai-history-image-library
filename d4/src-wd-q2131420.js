@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q2131420-rm2615217664-01","In Real Life (2008) - IMDb rm2615217664","https://m.media-amazon.com/images/M/MV5BNTVlZTNmMDMtNzgxOS00NDNhLWE3ZmYtNjhhMzQ5NWY0NDgwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1087453/mediaviewer/rm2615217664/","IMDb Official Stills"]];

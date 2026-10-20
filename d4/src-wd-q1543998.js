@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1543998-rm1629538305-01","重力是我的敵人 (1977) - IMDb rm1629538305","https://m.media-amazon.com/images/M/MV5BYzc2YTc4Y2QtOGJmMC00ZDJlLTg5N2YtZTc5NWFiOGNmMmFiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0076105/mediaviewer/rm1629538305/","IMDb Official Stills"]];

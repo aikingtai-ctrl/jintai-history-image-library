@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q97669847-rm2937054976-01","Jordi Dauder, la revolució pendent (2012) - IMDb rm2937054976","https://m.media-amazon.com/images/M/MV5BZmRkYzgyMjMtYjU0Zi00MTZkLWJiNzUtMjRmNmFjNjRlODcwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2321375/mediaviewer/rm2937054976/","IMDb Official Stills"]];

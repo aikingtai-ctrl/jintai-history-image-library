@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7933208-rm166664705-01","紫羅蘭 (1981) - IMDb rm166664705","https://m.media-amazon.com/images/M/MV5BMTBlMGZjYTgtNzYzMi00NjRkLTllZGMtOWFiZDhlYzE3OGQ4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0083293/mediaviewer/rm166664705/","IMDb Official Stills"]];

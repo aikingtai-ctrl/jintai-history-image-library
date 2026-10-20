@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-21b33152de769bb2-rm770711296-01","LA SEINE A RENCONTRÉ PARIS (1958) - IMDb rm770711296","https://m.media-amazon.com/images/M/MV5BNjM0OGQ4NGQtYTIyNS00NzdiLTliYjktMjkzYTI4MTEwYWJmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0050948/mediaviewer/rm770711296/","IMDb Official Stills"]];

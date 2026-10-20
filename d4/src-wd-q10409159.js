@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q10409159-rm219801344-01","Smejdi (2013) - IMDb rm219801344","https://m.media-amazon.com/images/M/MV5BMWE2MjNiNjUtMDVlYy00YzJiLTkzYWQtMGE1ZWE0N2JkZDRhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3097010/mediaviewer/rm219801344/","IMDb Official Stills"]];

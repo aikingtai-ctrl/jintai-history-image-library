@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q99463062-rm116220928-01","Ara Malikian. A Life Among Strings (2019) - IMDb rm116220928","https://m.media-amazon.com/images/M/MV5BMGMzMTM3NTUtMWI1ZS00NzkxLWJjMTktMGIxY2U3YTY0YTlhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10260382/mediaviewer/rm116220928/","IMDb Official Stills"]];

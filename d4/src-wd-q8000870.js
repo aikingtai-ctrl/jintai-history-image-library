@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q8000870-rm4072094720-01","狂野之翼 (1966) - IMDb rm4072094720","https://m.media-amazon.com/images/M/MV5BZjk3MjE1MmQtZTY5Ni00MDMzLWEwYmItM2JlNDM4MzlkMzhlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0061192/mediaviewer/rm4072094720/","IMDb Official Stills"]];

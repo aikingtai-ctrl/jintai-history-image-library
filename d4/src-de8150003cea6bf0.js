@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-de8150003cea6bf0-rm680411393-01","Faruk (2024) - IMDb rm680411393","https://m.media-amazon.com/images/M/MV5BN2Q1MTczYWQtNmIxZS00MzFlLThmMzYtZDg4OTI4MDVmMjE2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt30440590/mediaviewer/rm680411393/","IMDb Official Stills"]];

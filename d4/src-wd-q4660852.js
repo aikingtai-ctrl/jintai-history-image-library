@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4660852-rm1452100609-01","一年的明天 (1966) - IMDb rm1452100609","https://m.media-amazon.com/images/M/MV5BYjBkYjQzMzktOGY0YS00NjFlLWIxMTUtYmY0Yzk3NGM0OTE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0061205/mediaviewer/rm1452100609/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7744536-rm933960448-01","The King is Dead (2012) - IMDb rm933960448","https://m.media-amazon.com/images/M/MV5BYTQxZjI5NjMtMGM3MC00NDczLTg0MjEtNTc3MTZjNTgxMzJjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2072263/mediaviewer/rm933960448/","IMDb Official Stills"]];

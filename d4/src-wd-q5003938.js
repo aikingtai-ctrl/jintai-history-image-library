@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5003938-rm371225600-01","Byari (2011) - IMDb rm371225600","https://m.media-amazon.com/images/M/MV5BMWRlNDc1OWUtMTkyMi00NWY3LWJiZGUtODRkOGJjZDdhMmU1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2146054/mediaviewer/rm371225600/","IMDb Official Stills"]];

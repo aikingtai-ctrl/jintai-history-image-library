@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q2377376-rm3451917824-01","In for Treatment (1979) - IMDb rm3451917824","https://m.media-amazon.com/images/M/MV5BYzJkZGRlMGItZGMwMC00ZDUzLThhODYtNjMzZjgyZTY4OGJmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0079674/mediaviewer/rm3451917824/","IMDb Official Stills"]];

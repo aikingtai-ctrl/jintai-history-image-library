@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11705049-rm1351254528-01","Magic Journey to Africa (2010) - IMDb rm1351254528","https://m.media-amazon.com/images/M/MV5BMTQwNTc4Mzc3MF5BMl5BanBnXkFtZTcwMzg3NTk0Mw@@._V1_.jpg","https://www.imdb.com/title/tt1247681/mediaviewer/rm1351254528/","IMDb Official Stills"]];

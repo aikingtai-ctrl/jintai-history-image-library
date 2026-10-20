@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11317940-rm3392365312-01","幫老爸拍張照 (2012) - IMDb rm3392365312","https://m.media-amazon.com/images/M/MV5BZDc5MWExMjEtZWY3Ni00YTNlLTliMzQtMmU1MjJkMzU5YWJiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2476426/mediaviewer/rm3392365312/","IMDb Official Stills"]];

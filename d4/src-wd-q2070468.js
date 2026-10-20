@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q2070468-rm2773944320-01","人為何要創造 (1968) - IMDb rm2773944320","https://m.media-amazon.com/images/M/MV5BMTA0OTQ3NmEtYjIzZC00YTgwLTkzZmMtYTRmNjZkOWU0NTI4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0063804/mediaviewer/rm2773944320/","IMDb Official Stills"]];

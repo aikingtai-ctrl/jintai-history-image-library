@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c45c9f305888e670-rm2544559617-01","Alfalfa (1988) - IMDb rm2544559617","https://m.media-amazon.com/images/M/MV5BNGJiZDRjZjItMmYxNi00YTNkLTk5OWUtMWNiZWMyM2ZkNmQxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0136703/mediaviewer/rm2544559617/","IMDb Official Stills"]];

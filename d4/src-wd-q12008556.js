@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q12008556-rm895557120-01","Upperdog (2009) - IMDb rm895557120","https://m.media-amazon.com/images/M/MV5BYTJiYjU2ZmItZDgxYy00OTg2LWI4OTYtZWVhMzVlNDRiY2MyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1489263/mediaviewer/rm895557120/","IMDb Official Stills"]];

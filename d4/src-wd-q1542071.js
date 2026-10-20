@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1542071-rm3840415744-01","奇妙事件 (1981) - IMDb rm3840415744","https://m.media-amazon.com/images/M/MV5BMzhlYjQ5ODAtMzliYi00OGZlLTk5NGEtNjU0YTUwZWUxZjYxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0083257/mediaviewer/rm3840415744/","IMDb Official Stills"]];

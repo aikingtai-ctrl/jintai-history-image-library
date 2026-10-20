@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4952696-rm3970256128-01","男孩和女孩 (1983) - IMDb rm3970256128","https://m.media-amazon.com/images/M/MV5BZWNjMGEyMzUtNzMxOS00ZTEyLWJiYzItZDY2NWMzM2VmN2MwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0083688/mediaviewer/rm3970256128/","IMDb Official Stills"]];

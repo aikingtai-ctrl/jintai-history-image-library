@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7786328-rm2881564672-01","針孔世界 (1972) - IMDb rm2881564672","https://m.media-amazon.com/images/M/MV5BNmE0Njc5OGUtZDc2YS00MjU5LTllYzItOGZjOWE1MTNhMmM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0069373/mediaviewer/rm2881564672/","IMDb Official Stills"]];

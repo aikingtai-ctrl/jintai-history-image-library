@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125569914-rm4101402625-01","Emergency (2007) - IMDb rm4101402625","https://m.media-amazon.com/images/M/MV5BYjE3MGNhMWUtNmM3ZS00YjA5LTg1Y2QtMGQ1YmI0NTZkNmNiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11496478/mediaviewer/rm4101402625/","IMDb Official Stills"]];

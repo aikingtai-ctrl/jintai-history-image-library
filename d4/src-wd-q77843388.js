@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q77843388-rm2843570176-01","Dostoevsky's Travels (1991) - IMDb rm2843570176","https://m.media-amazon.com/images/M/MV5BM2NjYTBiYjktNjY0MS00ODY0LTk3NjAtYmYxYTViMjRmMWZhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0130631/mediaviewer/rm2843570176/","IMDb Official Stills"]];

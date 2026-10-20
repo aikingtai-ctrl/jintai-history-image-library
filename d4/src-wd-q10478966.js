@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q10478966-rm1754469120-01","Ebbe - The Movie (2009) - IMDb rm1754469120","https://m.media-amazon.com/images/M/MV5BYTA4NTQzMWItNjI0ZS00Y2EzLWJhZDEtMDllYjU1MWQyOTY3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1566205/mediaviewer/rm1754469120/","IMDb Official Stills"]];

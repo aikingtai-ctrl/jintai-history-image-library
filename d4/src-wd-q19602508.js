@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q19602508-rm526688257-01","Lean a Ladder Against Heaven (2014) - IMDb rm526688257","https://m.media-amazon.com/images/M/MV5BZDdhYjg0Y2QtZWRlMS00Yzk3LWJmMmItMTNmNTllZDE4ZWE3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3798062/mediaviewer/rm526688257/","IMDb Official Stills"]];

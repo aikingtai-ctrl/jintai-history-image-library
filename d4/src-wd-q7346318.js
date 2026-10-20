@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7346318-rm138919680-01","羅伯特·甘迺迪記得 (1968) - IMDb rm138919680","https://m.media-amazon.com/images/M/MV5BMjI2NjM4NDAzM15BMl5BanBnXkFtZTcwODQ5ODkwNg@@._V1_.jpg","https://www.imdb.com/title/tt0063514/mediaviewer/rm138919680/","IMDb Official Stills"]];

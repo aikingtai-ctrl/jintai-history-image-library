@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q300436-rm273636353-01","赫伯·阿尔帕特和蒂华纳铜管乐队合奏二首 (1966) - IMDb rm273636353","https://m.media-amazon.com/images/M/MV5BM2U5NWMzYTktYjgyYS00YTA4LWE0ZmItOGZmNjk3ZDFjYmIxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0060503/mediaviewer/rm273636353/","IMDb Official Stills"]];

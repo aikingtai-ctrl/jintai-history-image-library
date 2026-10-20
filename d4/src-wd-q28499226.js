@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q28499226-rm4249416961-01","Le Signaleur (1997) - IMDb rm4249416961","https://m.media-amazon.com/images/M/MV5BMDEzNGU2OWEtYWRhZS00NTIwLWI2MzItZTI5ODI4YTQ0NmU2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0120129/mediaviewer/rm4249416961/","IMDb Official Stills"]];

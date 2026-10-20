@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7763620-rm100278016-01","The Shakshuka System (2008) - IMDb rm100278016","https://m.media-amazon.com/images/M/MV5BNmRkMTU2NzgtMTYzMi00OGMxLWJmOTAtMTY1MjFmMmRhNjcyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3001008/mediaviewer/rm100278016/","IMDb Official Stills"]];

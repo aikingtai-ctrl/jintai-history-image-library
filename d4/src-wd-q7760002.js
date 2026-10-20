@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7760002-rm2532257024-01","保護紅杉 (1967) - IMDb rm2532257024","https://m.media-amazon.com/images/M/MV5BODliODk5NDYtZmY1OC00MDE5LWIyOGEtMmFmOWRkNzVkMmJiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0062184/mediaviewer/rm2532257024/","IMDb Official Stills"]];

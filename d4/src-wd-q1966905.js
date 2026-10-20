@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1966905-rm291410944-01","Wolfsbergen (2007) - IMDb rm291410944","https://m.media-amazon.com/images/M/MV5BMTgxMzY4NDQxN15BMl5BanBnXkFtZTcwOTk1MDg5MQ@@._V1_.jpg","https://www.imdb.com/title/tt0824422/mediaviewer/rm291410944/","IMDb Official Stills"]];

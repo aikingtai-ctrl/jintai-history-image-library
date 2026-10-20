@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q82815531-rm3057529088-01","Pantalones (2000) - IMDb rm3057529088","https://m.media-amazon.com/images/M/MV5BMDU5MmMzYzQtZGQ5My00ZjY3LTgxZGItMjg3ZGNkZjQ0YTI0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0276387/mediaviewer/rm3057529088/","IMDb Official Stills"]];

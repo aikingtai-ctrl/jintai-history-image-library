@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1268783-rm1451242240-01","狄蘭·湯瑪斯 (1962) - IMDb rm1451242240","https://m.media-amazon.com/images/M/MV5BZTE3N2RjNzUtNWExNy00OTYwLThiMmMtZDMzOWZlZDVhMGNjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0055943/mediaviewer/rm1451242240/","IMDb Official Stills"]];

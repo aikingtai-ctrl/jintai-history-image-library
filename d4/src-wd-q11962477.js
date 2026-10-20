@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11962477-rm2705635584-01","Brødre i krig (2010) - IMDb rm2705635584","https://m.media-amazon.com/images/M/MV5BMTg2MTY4MTk1Ml5BMl5BanBnXkFtZTcwODc1MTMzNQ@@._V1_.jpg","https://www.imdb.com/title/tt1909288/mediaviewer/rm2705635584/","IMDb Official Stills"]];

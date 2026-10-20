@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e930f0dbe4e4d128-rm241068032-01","SHIROI SANMYAKU (1957) - IMDb rm241068032","https://m.media-amazon.com/images/M/MV5BMWRjMDRiMWEtNzIyMC00ODU0LTk1NTUtNmM2ZDlkMzg1NzE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0261299/mediaviewer/rm241068032/","IMDb Official Stills"]];

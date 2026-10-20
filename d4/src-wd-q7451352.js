@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7451352-rm1140141312-01","沉默的守卫 (1971) - IMDb rm1140141312","https://m.media-amazon.com/images/M/MV5BOTk5OTI3YWQtN2YxZS00MjVkLTliM2YtYzRjYmE5OGRiMDAyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0067733/mediaviewer/rm1140141312/","IMDb Official Stills"]];

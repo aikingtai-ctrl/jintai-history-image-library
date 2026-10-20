@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q727523-rm792209152-01","特別快遞 (1978) - IMDb rm792209152","https://m.media-amazon.com/images/M/MV5BN2M0MmM3MjMtY2U3NS00MDMwLTg5OTgtYzkzNTMyNWYxZDFlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0206312/mediaviewer/rm792209152/","IMDb Official Stills"]];

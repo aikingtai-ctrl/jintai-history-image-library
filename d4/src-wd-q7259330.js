@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7259330-rm3883744256-01","Pulijanmam (2006) - IMDb rm3883744256","https://m.media-amazon.com/images/M/MV5BNTA1YzI5MDgtMjQ4OC00MzIyLWFlOTUtNTVmMTI5ZWFkMjhhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1102308/mediaviewer/rm3883744256/","IMDb Official Stills"]];

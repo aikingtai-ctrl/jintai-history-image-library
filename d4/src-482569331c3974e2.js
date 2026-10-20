@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-482569331c3974e2-rm1886557184-01","El efecto Iguazú (2003) - IMDb rm1886557184","https://m.media-amazon.com/images/M/MV5BMTY4MDYyMTA4MV5BMl5BanBnXkFtZTcwNjc5NjY5MQ@@._V1_.jpg","https://www.imdb.com/title/tt0338953/mediaviewer/rm1886557184/","IMDb Official Stills"]];

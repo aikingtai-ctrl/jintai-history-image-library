@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q2586568-rm3898897152-01","战争见证：查理·克莱门茨医生 (1985) - IMDb rm3898897152","https://m.media-amazon.com/images/M/MV5BZTBjMTYzZTYtMTJjOC00MjdmLTlhZjctMTJkNzA5ODBhOGE5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0090330/mediaviewer/rm3898897152/","IMDb Official Stills"]];

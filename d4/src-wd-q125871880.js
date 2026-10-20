@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125871880-rm4071056640-01","Dr. Huang Danian (2018) - IMDb rm4071056640","https://m.media-amazon.com/images/M/MV5BZGFkODgxNTUtODhjNi00NjIyLTk1MjUtMjllODcwOTRhMzE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10250578/mediaviewer/rm4071056640/","IMDb Official Stills"]];

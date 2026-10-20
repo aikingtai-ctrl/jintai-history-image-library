@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7810833-rm3386396928-01","活下來！ (1964) - IMDb rm3386396928","https://m.media-amazon.com/images/M/MV5BMWFkNTdjNTgtN2EzZC00N2Q4LTk1MjItZDEwMzgxYjAwZGQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0059814/mediaviewer/rm3386396928/","IMDb Official Stills"]];

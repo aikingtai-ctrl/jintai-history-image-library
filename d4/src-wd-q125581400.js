@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125581400-rm2107292930-01","Deng Pingshou (2009) - IMDb rm2107292930","https://m.media-amazon.com/images/M/MV5BYTBmMjY0YWEtOTRhZi00Zjk3LTk2ZjYtMDgwZmViODhlNzMzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt9536918/mediaviewer/rm2107292930/","IMDb Official Stills"]];

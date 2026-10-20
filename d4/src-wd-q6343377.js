@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q6343377-rm4032957952-01","Kaalpurush (2005) - IMDb rm4032957952","https://m.media-amazon.com/images/M/MV5BYzkyMmZhZjYtYWI1My00YjEwLTkxMjktMDBjMWFlMGNjOWU1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0438888/mediaviewer/rm4032957952/","IMDb Official Stills"]];

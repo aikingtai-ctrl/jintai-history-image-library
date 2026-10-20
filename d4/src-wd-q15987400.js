@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q15987400-rm810231040-01","Solar Eclipse (2011) - IMDb rm810231040","https://m.media-amazon.com/images/M/MV5BZjA0YmE2YjItMGJiYS00MmE1LWIxNTktNTE1NmU5NDdiZGZiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2140287/mediaviewer/rm810231040/","IMDb Official Stills"]];

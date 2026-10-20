@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q2410603-rm3317048320-01","評論 (1963) - IMDb rm3317048320","https://m.media-amazon.com/images/M/MV5BZjdkZDIyODItNDZlMC00MzYxLWI0NjktNjI0OGYzNjFlN2QwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0056965/mediaviewer/rm3317048320/","IMDb Official Stills"]];

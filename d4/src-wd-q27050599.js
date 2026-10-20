@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q27050599-rm2664709120-01","Talking Heads (2016) - IMDb rm2664709120","https://m.media-amazon.com/images/M/MV5BNjIwNWJlODctY2M4YS00ZWI3LWJjN2EtYzJhZGNiNGM3ZDBkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5835730/mediaviewer/rm2664709120/","IMDb Official Stills"]];

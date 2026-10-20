@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11149538-rm638196224-01","Naayika (2011) - IMDb rm638196224","https://m.media-amazon.com/images/M/MV5BMDA3MDFjM2QtN2UzNC00NzgxLWIxNmMtMTBjMDlkMjRlMGM4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2355725/mediaviewer/rm638196224/","IMDb Official Stills"]];

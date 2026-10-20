@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-215426836833e370-rm4073528832-01","OCCUPE TOI D’AMÉLIE (1949) - IMDb rm4073528832","https://m.media-amazon.com/images/M/MV5BYTg3YjE0ZGQtZjNmNy00YTM3LWJmZDMtNmViMjA2YWExNDE5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0041710/mediaviewer/rm4073528832/","IMDb Official Stills"]];

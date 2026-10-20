@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ac45bd89a49b887d-rm1228763649-01","LA MER ET LES JOURS (1959) - IMDb rm1228763649","https://m.media-amazon.com/images/M/MV5BYzYyNjA1YjctMzRkZC00NGMyLWFhNTgtOGM5OWMyZDZlY2JhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0266764/mediaviewer/rm1228763649/","IMDb Official Stills"]];

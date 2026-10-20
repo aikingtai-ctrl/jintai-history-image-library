@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q2409976-rm421206784-01","盒子 (1967) - IMDb rm421206784","https://m.media-amazon.com/images/M/MV5BN2Y5ZDYzY2YtNTcwMC00ZmM4LWFjN2YtODkwMWIzMzAzZDYzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0061421/mediaviewer/rm421206784/","IMDb Official Stills"]];

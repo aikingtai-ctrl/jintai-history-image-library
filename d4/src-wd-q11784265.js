@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11784265-rm12051712-01","Mniejsze zlo (2009) - IMDb rm12051712","https://m.media-amazon.com/images/M/MV5BNzkyOGExY2ItNzExMy00MTZkLWI0YTYtYzE3MjkwZDM0YjE3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1485750/mediaviewer/rm12051712/","IMDb Official Stills"]];

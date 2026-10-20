@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1546056-rm2803571456-01","是對的總是對的嗎？ (1970) - IMDb rm2803571456","https://m.media-amazon.com/images/M/MV5BM2U5OTc1MDItNjQ3YS00OTJiLTgwNGEtMGEwMjAyNzI4YTU0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0065901/mediaviewer/rm2803571456/","IMDb Official Stills"]];

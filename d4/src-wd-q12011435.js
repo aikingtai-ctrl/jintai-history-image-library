@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q12011435-rm992939009-01","To Guard a Mountain (2012) - IMDb rm992939009","https://m.media-amazon.com/images/M/MV5BYjM0MTdiNTEtYmFlYS00MjE0LTlkNWEtNjZkYmY5ODEwZjg0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2231536/mediaviewer/rm992939009/","IMDb Official Stills"]];

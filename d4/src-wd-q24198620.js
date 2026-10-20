@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q24198620-rm1204883456-01","The Lives of Thérèse (2016) - IMDb rm1204883456","https://m.media-amazon.com/images/M/MV5BZjdhMGEwZWYtNzIzZS00OGU1LWIxNGMtYmUwYTA4MmJhYWMzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5721658/mediaviewer/rm1204883456/","IMDb Official Stills"]];

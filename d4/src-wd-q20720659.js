@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q20720659-rm3614892800-01","Kothanodi (2015) - IMDb rm3614892800","https://m.media-amazon.com/images/M/MV5BMTkxOTE5NTA2N15BMl5BanBnXkFtZTgwNTIwOTYyNzE@._V1_.jpg","https://www.imdb.com/title/tt4577388/mediaviewer/rm3614892800/","IMDb Official Stills"]];

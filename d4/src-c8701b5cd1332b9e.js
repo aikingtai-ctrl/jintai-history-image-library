@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c8701b5cd1332b9e-rm327795714-01","OCZEKIWANIE (1962) - IMDb rm327795714","https://m.media-amazon.com/images/M/MV5BMTdhNDc5YmMtNGUwOS00NDVjLTg5NDQtM2U5OTA4YjE4N2M3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4316758/mediaviewer/rm327795714/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2359d90abaeec60b-rm956758785-01","PARIS LA BELLE (1960) - IMDb rm956758785","https://m.media-amazon.com/images/M/MV5BY2Y3ZTNjNTktNjUzOS00Y2JkLTg3YjgtNzhlNTc3MzBkMjM1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0175023/mediaviewer/rm956758785/","IMDb Official Stills"]];

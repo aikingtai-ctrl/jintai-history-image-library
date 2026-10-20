@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-94f708578e3aefd8-rm235668736-01","PARBAJ (1961) - IMDb rm235668736","https://m.media-amazon.com/images/M/MV5BNzYwYmI3YjktZTgwNS00Y2Q1LWExMzItNGE2MDcwM2E5OTZlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0318601/mediaviewer/rm235668736/","IMDb Official Stills"]];

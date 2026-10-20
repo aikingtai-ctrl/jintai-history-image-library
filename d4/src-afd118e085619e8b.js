@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-afd118e085619e8b-rm2311489793-01","VISAGES DE BRONZE (1958) - IMDb rm2311489793","https://m.media-amazon.com/images/M/MV5BMTUwN2E1NGQtNTVjOS00OTdmLWJjNmUtMTlkZmFjOGUwNzhkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0170770/mediaviewer/rm2311489793/","IMDb Official Stills"]];

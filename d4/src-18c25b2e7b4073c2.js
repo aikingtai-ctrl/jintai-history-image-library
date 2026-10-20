@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-18c25b2e7b4073c2-rm3250775296-01","LE SOURIRE (1960) - IMDb rm3250775296","https://m.media-amazon.com/images/M/MV5BMDgzOWMyYjItNzk4NS00ZmY0LTkxZWEtMTE5MDUwN2ExZGMyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0465076/mediaviewer/rm3250775296/","IMDb Official Stills"]];

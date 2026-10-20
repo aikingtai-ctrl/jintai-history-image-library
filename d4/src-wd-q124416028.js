@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124416028-rm3928047873-01","人類冬眠記 (2024) - IMDb rm3928047873","https://m.media-amazon.com/images/M/MV5BZGI2ODNlMzItOGU2YS00MDBjLTkwZjctZjhmZmFlMWI1YjAyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt30956144/mediaviewer/rm3928047873/","IMDb Official Stills"]];

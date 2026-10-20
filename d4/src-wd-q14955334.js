@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q14955334-rm1733695488-01","Faro (2013) - IMDb rm1733695488","https://m.media-amazon.com/images/M/MV5BNGNjNTQ5N2UtN2Y1My00NDJlLWE4ZDEtZTVlNDI0NTQ0M2RlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2188741/mediaviewer/rm1733695488/","IMDb Official Stills"]];

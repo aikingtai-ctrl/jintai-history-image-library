@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7897926-rm310720257-01","往上飛 (1984) - IMDb rm310720257","https://m.media-amazon.com/images/M/MV5BOTFkNDYxMzUtOGJkMS00NDYzLTgyNDItYTc3NDQ1ZmY1NjZkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0088332/mediaviewer/rm310720257/","IMDb Official Stills"]];

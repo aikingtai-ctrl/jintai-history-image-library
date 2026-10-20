@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3156585-rm670274560-01","J’ai Horreur de l’Amour (1997) - IMDb rm670274560","https://m.media-amazon.com/images/M/MV5BMzA1ODU5MDMzMF5BMl5BanBnXkFtZTcwODc2MDY4MQ@@._V1_.jpg","https://www.imdb.com/title/tt0119391/mediaviewer/rm670274560/","IMDb Official Stills"]];

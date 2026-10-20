@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e09d913d3bd79c27-rm2526490368-01","小鎮春回 (1969) - IMDb rm2526490368","https://m.media-amazon.com/images/M/MV5BZTA0YTA0ZGYtZTIxNS00NDdkLWFmYjEtODBkMzc5NTc2Yjg0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4302792/mediaviewer/rm2526490368/","IMDb Official Stills"]];

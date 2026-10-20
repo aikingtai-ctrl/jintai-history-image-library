@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q25405479-rm1065425408-01","The Gates of Paradise (1971) - IMDb rm1065425408","https://m.media-amazon.com/images/M/MV5BNTQwM2FjYWEtYjBjNy00NDlmLWI0NTUtYTkxNWZmNjY2MTEwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0134917/mediaviewer/rm1065425408/","IMDb Official Stills"]];

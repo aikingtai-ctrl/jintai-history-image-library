@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5048007-rm1558720512-01","卡薩爾指揮：1964 (1964) - IMDb rm1558720512","https://m.media-amazon.com/images/M/MV5BN2QwZWYxOWItMDllNS00NzBmLTk3NjctNDlmNTk5MWVlMWY2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0057922/mediaviewer/rm1558720512/","IMDb Official Stills"]];

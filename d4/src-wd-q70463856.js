@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q70463856-rm3553732610-01","Picture to Post (1969) - IMDb rm3553732610","https://m.media-amazon.com/images/M/MV5BMzIxM2ExODEtZDFmNi00NDg1LTk4N2UtMGIzZGUyYTYwMGJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0316401/mediaviewer/rm3553732610/","IMDb Official Stills"]];

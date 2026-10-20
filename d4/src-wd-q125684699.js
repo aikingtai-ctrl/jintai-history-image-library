@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125684699-rm237330432-01","Loyalty and Betrayal (2012) - IMDb rm237330432","https://m.media-amazon.com/images/M/MV5BOWY5M2FlMzgtZWFlMi00MmRmLWE2MjEtZWExZWZhMGYwNmI5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt9496830/mediaviewer/rm237330432/","IMDb Official Stills"]];

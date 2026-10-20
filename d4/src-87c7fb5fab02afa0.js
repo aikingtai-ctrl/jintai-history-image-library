@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-87c7fb5fab02afa0-rm2086218496-01","LA PETITE CUILLÈRE (1961) - IMDb rm2086218496","https://m.media-amazon.com/images/M/MV5BNmIwZjY4OWEtZjczZC00YjRlLWE0YjUtOGYzOTVkODE4OWY0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0318559/mediaviewer/rm2086218496/","IMDb Official Stills"]];

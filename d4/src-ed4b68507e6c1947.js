@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ed4b68507e6c1947-rm1516070912-01","GOTOMA THE BUDDHA (1957) - IMDb rm1516070912","https://m.media-amazon.com/images/M/MV5BNWE2Zjg1OGQtMTM3MS00ZWVjLWFmYjQtNjQyYmJiYjk5YjViXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0317595/mediaviewer/rm1516070912/","IMDb Official Stills"]];

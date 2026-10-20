@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11247833-rm1165113601-01","Adimadhyantham (2011) - IMDb rm1165113601","https://m.media-amazon.com/images/M/MV5BNTNlYjg4ZWEtZWU5Ny00MGJhLThmZWYtMmQ3NWFlYjdjZDBkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2284964/mediaviewer/rm1165113601/","IMDb Official Stills"]];

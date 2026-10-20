@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q21055112-rm1877223936-01","Cheb (1991) - IMDb rm1877223936","https://m.media-amazon.com/images/M/MV5BNzlhM2IzMGUtZTQwNy00ZDJjLWFjY2UtMzIzMTljNzIzNWI0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0099244/mediaviewer/rm1877223936/","IMDb Official Stills"]];

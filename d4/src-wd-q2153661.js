@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q2153661-rm31724288-01","Manneken Pis (1995) - IMDb rm31724288","https://m.media-amazon.com/images/M/MV5BZThmZGM2NjgtM2NkMi00OTA4LTk3NTAtNDBmNzU5ODQ2ZDdjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0113767/mediaviewer/rm31724288/","IMDb Official Stills"]];

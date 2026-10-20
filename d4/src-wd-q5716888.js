@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5716888-rm3640956672-01","Under the Salt (2008) - IMDb rm3640956672","https://m.media-amazon.com/images/M/MV5BMTQ0ODQ1MjUzNF5BMl5BanBnXkFtZTcwNDIzOTA4MQ@@._V1_.jpg","https://www.imdb.com/title/tt1110207/mediaviewer/rm3640956672/","IMDb Official Stills"]];

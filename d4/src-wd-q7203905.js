@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7203905-rm3454409216-01","Pleasant Moments (2006) - IMDb rm3454409216","https://m.media-amazon.com/images/M/MV5BMWJmOTZjMzEtYzU3MS00OWRiLWI0MTQtODk5Njc0MDU5NWI0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0491650/mediaviewer/rm3454409216/","IMDb Official Stills"]];

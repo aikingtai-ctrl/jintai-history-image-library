@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q2641404-rm4177081856-01","雞 (1963) - IMDb rm4177081856","https://m.media-amazon.com/images/M/MV5BMzczOTUwNTgtNWNmNi00ZTQ2LTk4N2MtNjllMDkwNWIyMTJkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0059613/mediaviewer/rm4177081856/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7069549-rm1610559744-01","計算我們的日子 (1976) - IMDb rm1610559744","https://m.media-amazon.com/images/M/MV5BMTFmMmJhMjgtNWRkNC00OTljLTkwYWQtNWNkMDQ1MDA5YjdmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0074987/mediaviewer/rm1610559744/","IMDb Official Stills"]];

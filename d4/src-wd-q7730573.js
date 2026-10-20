@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7730573-rm46280704-01","美元本質 (1980) - IMDb rm46280704","https://m.media-amazon.com/images/M/MV5BZTY3MDU3ZTEtYTdjMC00OGY2LTljNDYtMjRkNzhkOGYzYzlmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0080643/mediaviewer/rm46280704/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q111203089-rm2097101312-01","I Wanna Be Boss (2008) - IMDb rm2097101312","https://m.media-amazon.com/images/M/MV5BMjYxZjc1ZjQtNmZmNy00MDkxLWExMTItNzY3NDkzYTQ0MjVlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1314360/mediaviewer/rm2097101312/","IMDb Official Stills"]];

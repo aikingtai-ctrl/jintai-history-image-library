@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q21427818-rm2256130305-01","Printemps Perdu (1990) - IMDb rm2256130305","https://m.media-amazon.com/images/M/MV5BNmZmODc2MDgtYjY4Ny00ZTJiLThjZWQtODdmZTBhM2VlMDNhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0129321/mediaviewer/rm2256130305/","IMDb Official Stills"]];

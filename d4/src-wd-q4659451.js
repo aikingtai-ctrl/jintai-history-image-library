@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4659451-rm396834048-01","意外事件 (1982) - IMDb rm396834048","https://m.media-amazon.com/images/M/MV5BYzgzMjdlNjctYmIwZi00OGQwLWIyODMtYzgxMDI1MmJmZGQyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0084672/mediaviewer/rm396834048/","IMDb Official Stills"]];

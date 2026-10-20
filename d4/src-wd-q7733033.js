@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7733033-rm3805425664-01","林肯樣貌 (1955) - IMDb rm3805425664","https://m.media-amazon.com/images/M/MV5BYWFjMzkyM2MtMzUyZS00YmY3LTlkZTUtY2NjZTA3ZjA2NWQwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0048049/mediaviewer/rm3805425664/","IMDb Official Stills"]];

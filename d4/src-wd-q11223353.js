@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11223353-rm1174936064-01","Nidra (2012) - IMDb rm1174936064","https://m.media-amazon.com/images/M/MV5BZjZjOTIwM2EtMGIzZi00ODhjLTljYjgtNjZkZjJhYzJlNWE0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2290543/mediaviewer/rm1174936064/","IMDb Official Stills"]];

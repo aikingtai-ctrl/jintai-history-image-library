@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5bd7833be253e417-rm916478464-01","Rights and Reactions: Lesbian & Gay Rights on Trial (1988) - IMDb rm916478464","https://m.media-amazon.com/images/M/MV5BOTk1MTIyNjctNzkzNS00NThiLWE1YjctZDU1Mjc5YWY2NGVmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0239895/mediaviewer/rm916478464/","IMDb Official Stills"]];

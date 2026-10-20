@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q17504875-rm184905984-01","Girls (2007) - IMDb rm184905984","https://m.media-amazon.com/images/M/MV5BYWVhOTE0ZTQtYjM3Mi00M2Y1LThlNWQtYmZmNDNiZGY5NzgyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0981298/mediaviewer/rm184905984/","IMDb Official Stills"]];

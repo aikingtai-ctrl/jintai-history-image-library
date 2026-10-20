@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124544671-rm1921074689-01","綠色直接行動 (2024) - IMDb rm1921074689","https://m.media-amazon.com/images/M/MV5BZjFiY2Q2N2UtYTJlOS00ZmI1LWI1ZjktYTBhMjY2NDJjNTYwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt31015444/mediaviewer/rm1921074689/","IMDb Official Stills"]];

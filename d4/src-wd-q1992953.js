@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1992953-rm155696896-01","小岩城九英豪 (1964) - IMDb rm155696896","https://m.media-amazon.com/images/M/MV5BMTMzNDUwNTUxMF5BMl5BanBnXkFtZTcwNzQ5ODkwNg@@._V1_.jpg","https://www.imdb.com/title/tt0058410/mediaviewer/rm155696896/","IMDb Official Stills"]];

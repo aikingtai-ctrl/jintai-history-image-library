@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-172ae32ad1caeed2-rm507130624-01","失蹤兒童 (1981) - IMDb rm507130624","https://m.media-amazon.com/images/M/MV5BMmRkMjUxOWYtMTc1Ni00MWIyLThmNzktZWMwZmYyNDI0MjE5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0084185/mediaviewer/rm507130624/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q17504900-rm859377664-01","Folk ved fjorden (2011) - IMDb rm859377664","https://m.media-amazon.com/images/M/MV5BOGU5OTA2ZDQtOTlkOC00OTFmLWE5ZjMtY2Y3MGY3MTZiOGVhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2304643/mediaviewer/rm859377664/","IMDb Official Stills"]];

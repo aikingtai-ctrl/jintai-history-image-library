@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q16953960-rm3376634112-01","Dakhal (1981) - IMDb rm3376634112","https://m.media-amazon.com/images/M/MV5BNDVlM2Q0MmYtYmViNS00NzJjLTlkMzQtOWQyMzk0NTNiMjI2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0150260/mediaviewer/rm3376634112/","IMDb Official Stills"]];

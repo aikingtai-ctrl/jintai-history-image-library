@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q2411430-rm2052300544-01","神鹰之战 (1978) - IMDb rm2052300544","https://m.media-amazon.com/images/M/MV5BMTc5Nzc5NzQwMl5BMl5BanBnXkFtZTcwMjYwMzUxMQ@@._V1_.jpg","https://www.imdb.com/title/tt0077564/mediaviewer/rm2052300544/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1f84163320da710e-rm1567431936-01","A CITY CALLED COPENHAGEN (1960) - IMDb rm1567431936","https://m.media-amazon.com/images/M/MV5BODM1YzkxOTctNjQyYy00YThlLWE5OTMtNzAxZGIxNTcwMjU0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0053685/mediaviewer/rm1567431936/","IMDb Official Stills"]];
