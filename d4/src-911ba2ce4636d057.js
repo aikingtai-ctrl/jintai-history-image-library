@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-911ba2ce4636d057-rm1205150720-01","Heathcliff: The Movie (1986) - IMDb rm1205150720","https://m.media-amazon.com/images/M/MV5BNWUxYTAyNGYtMGU0Ni00MzA1LWI1Y2ItNmQ0N2MzNThhNGY1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0104401/mediaviewer/rm1205150720/","IMDb Official Stills"]];

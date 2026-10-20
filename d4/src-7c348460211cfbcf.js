@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7c348460211cfbcf-rm2222294529-01","Kung Fu: The Next Generation (1987) - IMDb rm2222294529","https://m.media-amazon.com/images/M/MV5BMGMyZDRjZTMtNjkzNy00ZjM5LWE0MWEtZGE2ZDI1YTA0Y2QzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0093372/mediaviewer/rm2222294529/","IMDb Official Stills"]];

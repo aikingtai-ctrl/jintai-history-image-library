@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d78ebb66781b1946-rm1276056064-01","Salvation! (1987) - IMDb rm1276056064","https://m.media-amazon.com/images/M/MV5BNzRmZTFmM2ItNThkMy00ZTQ0LTgzMGYtYWRlNTg4OTM4NDliXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0093912/mediaviewer/rm1276056064/","IMDb Official Stills"]];

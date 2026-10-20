@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cf6c9434f56ef18d-rm1915359488-01","Still Crazy Like a Fox (1987) - IMDb rm1915359488","https://m.media-amazon.com/images/M/MV5BMzZhMjFkMTctODE5MC00Nzk3LTk1NzctNDYzMTJjNTliM2QzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0094040/mediaviewer/rm1915359488/","IMDb Official Stills"]];

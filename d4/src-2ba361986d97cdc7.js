@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2ba361986d97cdc7-rm2955874560-01","Video from Hell (1987) - IMDb rm2955874560","https://m.media-amazon.com/images/M/MV5BOThlOTIwMTAtODQyMS00NzQwLWIzMDMtOGZkOTc5ODQxNmJmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0090261/mediaviewer/rm2955874560/","IMDb Official Stills"]];

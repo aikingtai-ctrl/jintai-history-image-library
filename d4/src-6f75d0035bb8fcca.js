@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6f75d0035bb8fcca-rm4185267456-01","The Amazing Mr. Bickford (1987) - IMDb rm4185267456","https://m.media-amazon.com/images/M/MV5BOWZhZjFjNjgtZTY2OC00ZjY1LTliMTUtZTRiMjk3NWM1MzQ4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0215511/mediaviewer/rm4185267456/","IMDb Official Stills"]];

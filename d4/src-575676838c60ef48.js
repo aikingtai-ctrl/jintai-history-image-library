@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-575676838c60ef48-rm775953152-01","Superstar: The Karen Carpenter Story (1987) - IMDb rm775953152","https://m.media-amazon.com/images/M/MV5BNjkxNDE5ZmYtODJhMC00YWE0LWJiMDktMDk3MGI0MjYwNjFkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0094075/mediaviewer/rm775953152/","IMDb Official Stills"]];
