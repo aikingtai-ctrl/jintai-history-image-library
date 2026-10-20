@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q18394286-rm200088064-01","Thrishna (1981) - IMDb rm200088064","https://m.media-amazon.com/images/M/MV5BYWY0NDQ2YWQtMWEwNi00M2FmLTg5MGMtY2VkYTk3OWIzMWQwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0216300/mediaviewer/rm200088064/","IMDb Official Stills"]];

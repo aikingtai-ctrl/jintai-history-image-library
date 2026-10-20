@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q17183037-rm3295729408-01","Rat Pack Rat (2014) - IMDb rm3295729408","https://m.media-amazon.com/images/M/MV5BMjM1NzQzMjE0OF5BMl5BanBnXkFtZTgwMDI0NDYwMTE@._V1_.jpg","https://www.imdb.com/title/tt3394946/mediaviewer/rm3295729408/","IMDb Official Stills"]];

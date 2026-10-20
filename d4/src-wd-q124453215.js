@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124453215-rm1587587074-01","白蛇传 (1980) - IMDb rm1587587074","https://m.media-amazon.com/images/M/MV5BODY2YmI3ODQtOGM5Zi00ZjJjLThjNWQtOTI3NTc0ZGIwZGYyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11137412/mediaviewer/rm1587587074/","IMDb Official Stills"]];

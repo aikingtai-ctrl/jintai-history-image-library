@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4693261-rm2400668416-01","Agniputhri (1967) - IMDb rm2400668416","https://m.media-amazon.com/images/M/MV5BMDg0MDM4ZTMtMjYyOS00OGYyLWJlN2UtMzc1NDk4YzNhYjg1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0213432/mediaviewer/rm2400668416/","IMDb Official Stills"]];

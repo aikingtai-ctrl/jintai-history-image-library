@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q16247012-rm3856210176-01","Bara (1980) - IMDb rm3856210176","https://m.media-amazon.com/images/M/MV5BYjQ3OTVlMWItNjVkNC00MzE0LTliYzEtNjkxMDA5MDMwNmQ5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0286573/mediaviewer/rm3856210176/","IMDb Official Stills"]];

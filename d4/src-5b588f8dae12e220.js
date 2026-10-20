@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5b588f8dae12e220-rm1066837504-01","迴光奏鳴曲 (2014) - IMDb rm1066837504","https://m.media-amazon.com/images/M/MV5BMTg2MDkyNzI1MF5BMl5BanBnXkFtZTcwMzc5MTU0OQ@@._V1_.jpg","https://www.imdb.com/title/tt2733124/mediaviewer/rm1066837504/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q16255033-rm2114345472-01","Uttar Falguni (1963) - IMDb rm2114345472","https://m.media-amazon.com/images/M/MV5BNmUxZjVlYWMtZjA3Yi00MWExLWI1ZDctNzA1NjAyMmE2YjU1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0324391/mediaviewer/rm2114345472/","IMDb Official Stills"]];

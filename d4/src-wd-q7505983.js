@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7505983-rm2548580096-01","Shyamchi Aai (1953) - IMDb rm2548580096","https://m.media-amazon.com/images/M/MV5BNDkwY2IwMGYtNDY3My00Yjc2LWE2NjItYmZiODE0NTFlNTZmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0155174/mediaviewer/rm2548580096/","IMDb Official Stills"]];

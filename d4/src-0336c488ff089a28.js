@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0336c488ff089a28-rm1484595201-01","九槍 (2022) - IMDb rm1484595201","https://m.media-amazon.com/images/M/MV5BMjM0Y2UzZGItNzIzMi00NDg5LWE2Y2MtNDFiOTcwNzNmZGRlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt22463330/mediaviewer/rm1484595201/","IMDb Official Stills"]];

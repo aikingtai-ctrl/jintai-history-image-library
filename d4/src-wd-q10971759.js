@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q10971759-rm304497664-01","Sudigundalu (1968) - IMDb rm304497664","https://m.media-amazon.com/images/M/MV5BYTU3NTE0MGEtYWIxMC00YzJjLTkxNDAtZTkxMjgzMDk1MDBlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0261331/mediaviewer/rm304497664/","IMDb Official Stills"]];

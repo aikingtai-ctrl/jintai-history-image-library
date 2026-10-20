@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cb2486e43df6d011-rm3931415553-01","南巫 (2020) - IMDb rm3931415553","https://m.media-amazon.com/images/M/MV5BMTdlMmQ0YzYtZDY2MS00NmI0LWEyZGYtODEzYTJjYWU5NGI0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt13212046/mediaviewer/rm3931415553/","IMDb Official Stills"]];

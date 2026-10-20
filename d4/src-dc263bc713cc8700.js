@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-dc263bc713cc8700-rm3608661250-01","疊羅漢 (2025) - IMDb rm3608661250","https://m.media-amazon.com/images/M/MV5BMDgzMzgzOTQtMTYzMi00ZjE0LWJmYzgtZjViYjk3MWEwNTI5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt43504171/mediaviewer/rm3608661250/","IMDb Official Stills"]];

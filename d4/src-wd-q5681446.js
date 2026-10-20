@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5681446-rm4095184129-01","Thakara (1980) - IMDb rm4095184129","https://m.media-amazon.com/images/M/MV5BMzlmNWMxMDAtYzFkMC00ZDU0LTlkYjEtNmQ5NDMwNDQwNDY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0331931/mediaviewer/rm4095184129/","IMDb Official Stills"]];

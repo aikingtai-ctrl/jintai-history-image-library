@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11144746-rm2510030081-01","泪痕 (1979) - IMDb rm2510030081","https://m.media-amazon.com/images/M/MV5BZGJjNDIyNDItOTkzYy00YmQ0LWFhNzktYjIyNGQ0ZGViNDI3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11137408/mediaviewer/rm2510030081/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3530100-rm3189171968-01","Koodevide (1983) - IMDb rm3189171968","https://m.media-amazon.com/images/M/MV5BZDA2NzQwN2UtNjU5OC00NDdhLTg0YzctYWNjOTNhNjNjYmIyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0248946/mediaviewer/rm3189171968/","IMDb Official Stills"]];

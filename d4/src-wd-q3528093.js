@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3528093-rm3260272896-01","Tibet in Song (2010) - IMDb rm3260272896","https://m.media-amazon.com/images/M/MV5BMTk3MzIzODE2MV5BMl5BanBnXkFtZTgwNjgyODk4MDE@._V1_.jpg","https://www.imdb.com/title/tt1334566/mediaviewer/rm3260272896/","IMDb Official Stills"]];

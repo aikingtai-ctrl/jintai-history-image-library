@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q12126390-rm1135284480-01","My First Wife (1984) - IMDb rm1135284480","https://m.media-amazon.com/images/M/MV5BYzQyOWQ5YTktOTU0Ny00ZWExLWE1ZTUtNmU1MGRkNWQzNjczXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0087765/mediaviewer/rm1135284480/","IMDb Official Stills"]];

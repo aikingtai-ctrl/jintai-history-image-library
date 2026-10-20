@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7399026-rm145249024-01","Sagar Sangamey (1959) - IMDb rm145249024","https://m.media-amazon.com/images/M/MV5BMDcyNzZhODAtNDVlNS00M2UwLTk3YWQtNjI5OWVlZjE2NTcyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0156987/mediaviewer/rm145249024/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q759314-rm2685210880-01","求愛者 (1963) - IMDb rm2685210880","https://m.media-amazon.com/images/M/MV5BYWFmMDkwZWUtM2UzOC00Y2IzLWIyZjQtNzM2NDhkYmZkZDFmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0054056/mediaviewer/rm2685210880/","IMDb Official Stills"]];

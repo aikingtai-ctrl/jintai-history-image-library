@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6719a7d78631d2ee-rm907121410-01","我家的事 (2025) - IMDb rm907121410","https://m.media-amazon.com/images/M/MV5BNDAwNWUyNTktMjM2OS00OGYxLWIxZGUtZThjNjQ3YmMzZTQ5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35403082/mediaviewer/rm907121410/","IMDb Official Stills"]];

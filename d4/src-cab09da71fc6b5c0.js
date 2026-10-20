@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cab09da71fc6b5c0-rm3306077953-01","玩酷青春 (2010) - IMDb rm3306077953","https://m.media-amazon.com/images/M/MV5BNGQyYmIxYWMtZjE0Yi00OGM5LWIyM2UtODEyMjMzMTJkMTE4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2674496/mediaviewer/rm3306077953/","IMDb Official Stills"]];

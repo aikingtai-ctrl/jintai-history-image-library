@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a30a7eb17c031723-rm1861071873-01","Pictura (1951) - IMDb rm1861071873","https://m.media-amazon.com/images/M/MV5BNDUxZDZmNjgtNDA1MS00MWU1LWE0ZjgtOTk1ODk1YTg1ZTQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0045031/mediaviewer/rm1861071873/","IMDb Official Stills"]];

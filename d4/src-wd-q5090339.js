@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5090339-rm3353928960-01","Chembarathi (1972) - IMDb rm3353928960","https://m.media-amazon.com/images/M/MV5BZTc1NWU2MjQtMDE1MS00YWY1LTg5YjctZWJkYjI1MTc5YTA2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0240407/mediaviewer/rm3353928960/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-fd58bb4c3d031f8f-rm2970816513-01","當我望向你的時候 (2022) - IMDb rm2970816513","https://m.media-amazon.com/images/M/MV5BNWMxM2VkYTAtZDU2NS00NzY0LTk5OWQtNjI1ZDUwMmM4MDg5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt19781792/mediaviewer/rm2970816513/","IMDb Official Stills"]];

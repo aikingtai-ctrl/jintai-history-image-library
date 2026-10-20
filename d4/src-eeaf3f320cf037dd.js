@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-eeaf3f320cf037dd-rm4051139585-01","由島至島 (2024) - IMDb rm4051139585","https://m.media-amazon.com/images/M/MV5BOWUzODY5ZDUtYjllOS00NTU2LTliN2QtNmNkYWIwYTEyMjRiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32341501/mediaviewer/rm4051139585/","IMDb Official Stills"]];

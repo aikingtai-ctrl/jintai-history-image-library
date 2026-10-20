@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11626342-rm643070721-01","冲动杀人 儿子呵！ (1979) - IMDb rm643070721","https://m.media-amazon.com/images/M/MV5BYjkyNDllMmItNDYyZC00ZmNkLWFiMzAtODQyMzliYzVhMDk3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0078661/mediaviewer/rm643070721/","IMDb Official Stills"]];

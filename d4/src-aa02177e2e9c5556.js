@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-aa02177e2e9c5556-rm3941089536-01","只有大海知道 (2018) - IMDb rm3941089536","https://m.media-amazon.com/images/M/MV5BNjllNGY2MjktNTg0OC00MjZkLTkzOWUtN2Y3NjY4OWFjNjRiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7475882/mediaviewer/rm3941089536/","IMDb Official Stills"]];

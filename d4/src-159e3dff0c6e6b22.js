@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-159e3dff0c6e6b22-rm2850421504-01","酥油燈 (2013) - IMDb rm2850421504","https://m.media-amazon.com/images/M/MV5BMzQ4OTY2MTUzNV5BMl5BanBnXkFtZTgwODYyMTAxMzE@._V1_.jpg","https://www.imdb.com/title/tt2922078/mediaviewer/rm2850421504/","IMDb Official Stills"]];

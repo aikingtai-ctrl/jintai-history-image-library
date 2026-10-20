@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q6894191-rm1334771969-01","Mohiniyaattam (1976) - IMDb rm1334771969","https://m.media-amazon.com/images/M/MV5BMzUyMmQ3NDMtNWYzYS00YTk4LWI5NjEtZWVlOGQxZmRhYzUyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0282007/mediaviewer/rm1334771969/","IMDb Official Stills"]];

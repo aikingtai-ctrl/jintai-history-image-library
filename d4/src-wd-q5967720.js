@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5967720-rm266151168-01","La Pachanga (1981) - IMDb rm266151168","https://m.media-amazon.com/images/M/MV5BZmRkMWUwYmQtYmJkNS00NjFjLWEzYzUtNTlmM2QzNzIxZWNjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0082874/mediaviewer/rm266151168/","IMDb Official Stills"]];

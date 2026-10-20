@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q12978703-rm3927602432-01","Swami Ayyappan (1975) - IMDb rm3927602432","https://m.media-amazon.com/images/M/MV5BMWM1N2Q5OTUtZmE4NS00ZTIxLWE0ZjktMDg5MzYzZGE0MjkwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0363110/mediaviewer/rm3927602432/","IMDb Official Stills"]];

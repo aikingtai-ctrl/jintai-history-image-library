@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q15041023-rm2406493440-01","瓦姿瑪的抉擇 (2013) - IMDb rm2406493440","https://m.media-amazon.com/images/M/MV5BNjRlMWU5ZGQtYWZlMS00ZThlLTk5NDItMGExMmU4NDU2ZmY3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2551492/mediaviewer/rm2406493440/","IMDb Official Stills"]];

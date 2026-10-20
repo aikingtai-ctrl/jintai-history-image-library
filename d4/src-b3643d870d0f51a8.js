@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b3643d870d0f51a8-rm469823744-01","一首搖滾上月球 (2013) - IMDb rm469823744","https://m.media-amazon.com/images/M/MV5BMjQxNDk1MjkxOF5BMl5BanBnXkFtZTgwNDk0MjUyNTE@._V1_.jpg","https://www.imdb.com/title/tt3266806/mediaviewer/rm469823744/","IMDb Official Stills"]];

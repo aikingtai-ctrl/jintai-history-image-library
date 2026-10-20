@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q6010646-rm1951113474-01","In Search of Anna (1979) - IMDb rm1951113474","https://m.media-amazon.com/images/M/MV5BMDJjYjVmODktMWZhZS00ZWY1LWI3MTQtZjYwODExZmExNjA5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0080919/mediaviewer/rm1951113474/","IMDb Official Stills"]];

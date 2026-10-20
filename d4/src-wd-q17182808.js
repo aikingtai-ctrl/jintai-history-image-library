@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q17182808-rm1527599872-01","Of God and Dogs (2014) - IMDb rm1527599872","https://m.media-amazon.com/images/M/MV5BMjc2MDE4OTczNF5BMl5BanBnXkFtZTgwNjU0Mjk1NDM@._V1_.jpg","https://www.imdb.com/title/tt3278940/mediaviewer/rm1527599872/","IMDb Official Stills"]];

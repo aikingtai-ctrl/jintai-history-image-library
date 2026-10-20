@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124653495-rm2184993792-01","从奴隶到将军 (1979) - IMDb rm2184993792","https://m.media-amazon.com/images/M/MV5BOGMzZmQ5ODMtNWVlOC00ZDRhLWExZTYtYjI4ZjEwMzVhZGFlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0356483/mediaviewer/rm2184993792/","IMDb Official Stills"]];

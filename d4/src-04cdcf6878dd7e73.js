@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-04cdcf6878dd7e73-rm599233537-01","Amasone (2014) - IMDb rm599233537","https://m.media-amazon.com/images/M/MV5BZjI2MmUzMmEtNTAwYS00MGZlLWE0NGEtZmUxYjdiY2Y2NGYyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3596968/mediaviewer/rm599233537/","IMDb Official Stills"]];

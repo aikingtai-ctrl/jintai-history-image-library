@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5104414-rm3726818049-01","Chomana Dudi (1975) - IMDb rm3726818049","https://m.media-amazon.com/images/M/MV5BNzVhMTUzN2QtMDIwOS00YTdjLWFiYWQtMzY1NjFmZTZjYjdmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0072781/mediaviewer/rm3726818049/","IMDb Official Stills"]];

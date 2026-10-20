@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124472860-rm460796160-01","Ji Hong Chang (1979) - IMDb rm460796160","https://m.media-amazon.com/images/M/MV5BMzQyMmVlMTQtOWQ1Mi00NDk3LThmMGQtNmM0ZjM1NTdhNTM0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6721784/mediaviewer/rm460796160/","IMDb Official Stills"]];

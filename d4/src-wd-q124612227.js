@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124612227-rm1936183553-01","New Heroes and Heroines (1951) - IMDb rm1936183553","https://m.media-amazon.com/images/M/MV5BMjdkNTRkOGQtMzY4ZS00OGZkLTkyNmMtNDdjOTdiMTQ2NmVkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1440385/mediaviewer/rm1936183553/","IMDb Official Stills"]];

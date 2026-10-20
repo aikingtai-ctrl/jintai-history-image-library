@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-18af0325649b4177-rm2445618176-01","街舞狂潮 (2010) - IMDb rm2445618176","https://m.media-amazon.com/images/M/MV5BZGE5N2JiMGUtNGU0Zi00NWY0LTk5ZDItNjAzNTRhYWI1NmM4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3798098/mediaviewer/rm2445618176/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7295642-rm2297423104-01","Rathinirvedam (1978) - IMDb rm2297423104","https://m.media-amazon.com/images/M/MV5BZDQ0ZmU1MGYtYTY5Yi00MDI0LTkzMGEtOWU0OGNjODJkYzk0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0156011/mediaviewer/rm2297423104/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5681330-rm951982592-01","Hatey Bazarey (1967) - IMDb rm951982592","https://m.media-amazon.com/images/M/MV5BMDY4NGYyYzAtYWM0ZS00ZTY5LWIxY2YtNzU2YjAxZDJmZDNjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0061753/mediaviewer/rm951982592/","IMDb Official Stills"]];

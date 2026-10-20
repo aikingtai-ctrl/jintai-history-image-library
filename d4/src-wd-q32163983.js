@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q32163983-rm1345501697-01","南海潮 (片) (1962) - IMDb rm1345501697","https://m.media-amazon.com/images/M/MV5BOWViYjQ4MGUtZWUyYy00ZTFiLTliYmEtN2E2ZjFlMjcyMjU3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11348736/mediaviewer/rm1345501697/","IMDb Official Stills"]];

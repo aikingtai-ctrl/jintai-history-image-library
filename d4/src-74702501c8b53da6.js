@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-74702501c8b53da6-rm1655726337-01","漂亮朋友 (2024) - IMDb rm1655726337","https://m.media-amazon.com/images/M/MV5BM2I5NWYxNWYtMjVkOC00ZWEzLTg0YWYtM2RiMTQxMmM2MjUyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt33616511/mediaviewer/rm1655726337/","IMDb Official Stills"]];

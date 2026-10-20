@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q93914204-rm2149072128-01","女大学生宿舍 (1983) - IMDb rm2149072128","https://m.media-amazon.com/images/M/MV5BZDc2NGE2MjItOTYzNS00NTM5LTkyM2ItYmJkZWJkZTMxMGI4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6558076/mediaviewer/rm2149072128/","IMDb Official Stills"]];

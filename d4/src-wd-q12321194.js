@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q12321194-rm1000292096-01","Kampen mod uretten (1949) - IMDb rm1000292096","https://m.media-amazon.com/images/M/MV5BOTcyZDMyZWMtODcwYS00NDFkLWI3MDktZmJjYjlhNTE3YWFjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0041537/mediaviewer/rm1000292096/","IMDb Official Stills"]];

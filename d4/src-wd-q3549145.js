@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3549145-rm2344292608-01","奇異的旅行 (1981) - IMDb rm2344292608","https://m.media-amazon.com/images/M/MV5BNjBmMDIzZmUtODc5Ni00NDk1LTliOGQtM2Y5MGMxNjA5ZTEzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0081679/mediaviewer/rm2344292608/","IMDb Official Stills"]];

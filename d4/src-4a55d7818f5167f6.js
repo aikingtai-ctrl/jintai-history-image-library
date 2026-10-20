@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4a55d7818f5167f6-rm1538980609-01","廢棄之城 (2020) - IMDb rm1538980609","https://m.media-amazon.com/images/M/MV5BMDcyMThmOGUtOWNiYi00YjAwLTgyNDctZjMxMGFiMzJjZmZiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt13236576/mediaviewer/rm1538980609/","IMDb Official Stills"]];

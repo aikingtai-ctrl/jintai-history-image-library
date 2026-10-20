@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2f80f812803869ae-rm3832847362-01","Jadu Bhatta (1954) - IMDb rm3832847362","https://m.media-amazon.com/images/M/MV5BY2NmMmYwYTAtNmFhOC00NWY1LWIwYmItMTAzOTliZGRmOWUxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0233961/mediaviewer/rm3832847362/","IMDb Official Stills"]];

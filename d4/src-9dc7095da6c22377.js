@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9dc7095da6c22377-rm1679019777-01","詠晴 (2021) - IMDb rm1679019777","https://m.media-amazon.com/images/M/MV5BNzkyOTJmNDktMTY4ZS00YzJjLWE1OWQtNzA2MGE4Nzk4ZDg4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12211188/mediaviewer/rm1679019777/","IMDb Official Stills"]];

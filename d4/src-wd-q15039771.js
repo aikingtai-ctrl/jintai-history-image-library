@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q15039771-rm3730183424-01","Hard Knocks (1980) - IMDb rm3730183424","https://m.media-amazon.com/images/M/MV5BNjExMGVlMjUtNzk0NC00NWZjLTg4OWYtMGUzNjY2NTBlNDgwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0080840/mediaviewer/rm3730183424/","IMDb Official Stills"]];

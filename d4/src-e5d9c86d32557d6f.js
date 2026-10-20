@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e5d9c86d32557d6f-rm4196987137-01","講話沒有在聽 (2021) - IMDb rm4196987137","https://m.media-amazon.com/images/M/MV5BNzU4MWQyMDgtMWFmNC00ZjllLTlkMWYtMzExZTA4NjNhOTA3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt15484842/mediaviewer/rm4196987137/","IMDb Official Stills"]];

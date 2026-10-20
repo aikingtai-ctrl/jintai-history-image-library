@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-23764dd682267a71-rm426597888-01","錘子鐮刀都休息 (2013) - IMDb rm426597888","https://m.media-amazon.com/images/M/MV5BY2QxNjVkMjYtOGMzYi00Y2QxLTk2MWQtOTNjMTI5ZDk4Y2YwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5769480/mediaviewer/rm426597888/","IMDb Official Stills"]];

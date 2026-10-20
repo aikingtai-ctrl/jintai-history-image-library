@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7515902-rm3644312834-01","Silver City (1984) - IMDb rm3644312834","https://m.media-amazon.com/images/M/MV5BZjBhMzU1NzgtMjg4NS00MGMzLTljODQtNGJlYTAzZjM1M2M1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0088119/mediaviewer/rm3644312834/","IMDb Official Stills"]];

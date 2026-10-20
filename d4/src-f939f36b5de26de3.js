@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f939f36b5de26de3-rm1928247553-01","九月二十八日．晴 (2016) - IMDb rm1928247553","https://m.media-amazon.com/images/M/MV5BZjRhODQzMmEtYmJiNy00ZWNmLTk4YTItODJiZDk4YTU3NjllXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5351164/mediaviewer/rm1928247553/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q123126812-rm3282030593-01","哈森与加米拉 (1955) - IMDb rm3282030593","https://m.media-amazon.com/images/M/MV5BZWMxMjVkODgtMTQ5MS00ZTE5LWIzMDctM2UzN2NlNDhmZmU0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1851007/mediaviewer/rm3282030593/","IMDb Official Stills"]];

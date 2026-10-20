@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7774161-rm3109230848-01","重量 (2012) - IMDb rm3109230848","https://m.media-amazon.com/images/M/MV5BNjhjYzQyY2UtM2Y5Zi00ZWFiLTlhZjAtYWI0YTRhOGE5YjNlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2384688/mediaviewer/rm3109230848/","IMDb Official Stills"]];

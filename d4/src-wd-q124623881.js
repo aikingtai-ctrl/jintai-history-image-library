@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124623881-rm1446198528-01","The Great Beginning (1954) - IMDb rm1446198528","https://m.media-amazon.com/images/M/MV5BMmY0MzcxZTgtZWEyMC00Y2RhLWEzNjYtNjhkM2Q2ZDJkMjc4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2023819/mediaviewer/rm1446198528/","IMDb Official Stills"]];

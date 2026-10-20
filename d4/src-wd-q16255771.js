@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q16255771-rm1426282240-01","The Hidden Hero (1980) - IMDb rm1426282240","https://m.media-amazon.com/images/M/MV5BMjRmODY5YTYtM2Q0ZC00NGI0LTg5ZjAtNTM3NDI2ZmZhOGNkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0151223/mediaviewer/rm1426282240/","IMDb Official Stills"]];

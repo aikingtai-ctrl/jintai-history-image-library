@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q15915588-rm1727155200-01","Second Dance (1983) - IMDb rm1727155200","https://m.media-amazon.com/images/M/MV5BOTBlNWEzMGYtMDhlMS00NDQ5LTliZTEtNTM4MzdiNDQ5MDZjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0085166/mediaviewer/rm1727155200/","IMDb Official Stills"]];

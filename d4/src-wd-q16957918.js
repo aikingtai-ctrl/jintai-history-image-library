@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q16957918-rm4190162689-01","Chokh (1982) - IMDb rm4190162689","https://m.media-amazon.com/images/M/MV5BZTk0Y2RlNzAtMTA4Ny00YjFlLWJlYzYtNGRiMjc1ZDRjYWY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0360472/mediaviewer/rm4190162689/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-fdaed75d222006c7-rm496179200-01","拾荒少年 (2012) - IMDb rm496179200","https://m.media-amazon.com/images/M/MV5BMTEyNjYzN2MtZDhlNi00YWI0LTllMDktYTlmN2Q0N2UxYmZlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2543700/mediaviewer/rm496179200/","IMDb Official Stills"]];

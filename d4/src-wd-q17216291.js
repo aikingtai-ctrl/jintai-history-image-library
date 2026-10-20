@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q17216291-rm2197546753-01","我是貓 (1975) - IMDb rm2197546753","https://m.media-amazon.com/images/M/MV5BMWQ2ZjMyYTItNjA3NC00YjQ1LWEyMjktY2Q2MjQzOTNmNzFjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0073879/mediaviewer/rm2197546753/","IMDb Official Stills"]];

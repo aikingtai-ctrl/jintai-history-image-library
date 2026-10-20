@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q12975913-rm164179713-01","An Indian Dream (1983) - IMDb rm164179713","https://m.media-amazon.com/images/M/MV5BOGJkZDRlNWQtYWVkMi00ZjIyLWEwMGItNzA3MWYwMWZmNjI0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0309965/mediaviewer/rm164179713/","IMDb Official Stills"]];

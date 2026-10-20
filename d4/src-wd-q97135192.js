@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q97135192-rm1378419968-01","Escuchando al juez Garzón (2011) - IMDb rm1378419968","https://m.media-amazon.com/images/M/MV5BNjJjOTk2OTAtNzZmMS00MTU3LWE4MDYtNGEyNzQyYTNkYjAyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1824171/mediaviewer/rm1378419968/","IMDb Official Stills"]];

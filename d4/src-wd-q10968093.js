@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q10968093-rm4239742208-01","Mirza Ghalib (1954) - IMDb rm4239742208","https://m.media-amazon.com/images/M/MV5BNmFlNjVhMzMtZGMwOS00NjQ0LWJmZTQtOTBjNjI4OGZmOTEwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0137958/mediaviewer/rm4239742208/","IMDb Official Stills"]];

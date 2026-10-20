@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4788033-rm639845376-01","Ardhangi (1955) - IMDb rm639845376","https://m.media-amazon.com/images/M/MV5BMTRjMDE1ZjgtYjlhNS00MjI2LWJlM2ItODk1NDRhY2NhZDcyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0255807/mediaviewer/rm639845376/","IMDb Official Stills"]];

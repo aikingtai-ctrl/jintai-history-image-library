@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11400014-rm1341929984-01","動亂 (1980) - IMDb rm1341929984","https://m.media-amazon.com/images/M/MV5BOGUwODcwMGItYzc0Yy00ZjY4LTk5MTgtZDQ2ZWMwNjg5ZWJkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0312647/mediaviewer/rm1341929984/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7699464-rm2723432192-01","Tenali Ramakrishna (1956) - IMDb rm2723432192","https://m.media-amazon.com/images/M/MV5BYzY5ZmYxNWYtOTI2ZC00MTIzLWI0NmYtZWI4MGYyZGRlZTljXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0259631/mediaviewer/rm2723432192/","IMDb Official Stills"]];

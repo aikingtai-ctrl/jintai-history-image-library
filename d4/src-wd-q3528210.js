@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3528210-rm3008349953-01","Tiempo de lobos (1981) - IMDb rm3008349953","https://m.media-amazon.com/images/M/MV5BMDUxNWE4ZDEtY2Y4Ni00ZDAwLThlZjUtZTRkMTgyNjdlYmIwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0083202/mediaviewer/rm3008349953/","IMDb Official Stills"]];
