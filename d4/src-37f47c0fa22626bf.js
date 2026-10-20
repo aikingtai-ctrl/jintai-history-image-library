@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-37f47c0fa22626bf-rm3776728065-01","Why Korea? (1950) - IMDb rm3776728065","https://m.media-amazon.com/images/M/MV5BZjMxNjNkNmQtMmIxNy00OWZlLWExMGItNDk0YWEyZWU5ZGJlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0043135/mediaviewer/rm3776728065/","IMDb Official Stills"]];

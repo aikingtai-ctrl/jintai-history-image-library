@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ed769ef7dff6bfd6-rm28388353-01","Prelude to War (1942) - IMDb rm28388353","https://m.media-amazon.com/images/M/MV5BMGNiN2NmMWYtMGQ3Yy00NDllLTk0OTctMjU3YjRkMzBlNTYxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0035209/mediaviewer/rm28388353/","IMDb Official Stills"]];

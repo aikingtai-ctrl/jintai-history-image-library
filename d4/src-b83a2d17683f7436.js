@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b83a2d17683f7436-rm2482216192-01","Frank Film (1973) - IMDb rm2482216192","https://m.media-amazon.com/images/M/MV5BMjAwMTUyODU1OF5BMl5BanBnXkFtZTcwODMwMzQyMQ@@._V1_.jpg","https://www.imdb.com/title/tt0070071/mediaviewer/rm2482216192/","IMDb Official Stills"]];

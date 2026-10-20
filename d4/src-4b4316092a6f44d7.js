@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4b4316092a6f44d7-rm2245406720-01","Grandad of Races (1950) - IMDb rm2245406720","https://m.media-amazon.com/images/M/MV5BYjU5MDQ5ODYtYmExYi00YjgwLTg2NGQtYzhiODlhNTljMmM4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0042518/mediaviewer/rm2245406720/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-29d8da10c58a606b-rm1584083456-01","The Fighting Lady (1944) - IMDb rm1584083456","https://m.media-amazon.com/images/M/MV5BNjUxNWU4ZjYtN2NmZC00ZmVkLWFmN2ItODdmZDFiOTMxOGQ5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0036823/mediaviewer/rm1584083456/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5d9c88518972c5c2-rm3224846080-01","Czechoslovakia 1968 (1969) - IMDb rm3224846080","https://m.media-amazon.com/images/M/MV5BNTUzMDA4ZDMtZTE2ZS00NTlhLWE1ZTQtMjhiZWM1MGU0ODFlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0064200/mediaviewer/rm3224846080/","IMDb Official Stills"]];
