@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b0042b3b8194c62f-rm375808000-01","The Crossing (2000) - IMDb rm375808000","https://m.media-amazon.com/images/M/MV5BNzQ2MWViNmYtYTMzMC00MzJmLTgyZTQtZWYyYmNkOTg3NDk5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0210628/mediaviewer/rm375808000/","IMDb Official Stills"]];

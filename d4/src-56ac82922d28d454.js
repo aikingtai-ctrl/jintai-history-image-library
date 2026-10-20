@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-56ac82922d28d454-rm2214275328-01","A Boy Named Sue (2001) - IMDb rm2214275328","https://m.media-amazon.com/images/M/MV5BMmJmYjdlYTItMTZkZi00MzA0LWIwYzAtMzg0ZDhiMDA0Y2VmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0297034/mediaviewer/rm2214275328/","IMDb Official Stills"]];

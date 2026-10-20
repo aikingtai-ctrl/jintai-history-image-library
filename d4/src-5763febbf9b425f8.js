@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5763febbf9b425f8-rm3042908161-01","Scratch (2001) - IMDb rm3042908161","https://m.media-amazon.com/images/M/MV5BNTQyNmMyMjAtODU0Yi00NzhhLTllYjAtZjJkMjg4MTlhMjRjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0143861/mediaviewer/rm3042908161/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-552390011fa388c3-rm3650188801-01","West 47th Street (2001) - IMDb rm3650188801","https://m.media-amazon.com/images/M/MV5BNmIyMTViNWQtOTRjYy00YmZlLTkxZDctYTgyNzVhN2Y3NjM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0357309/mediaviewer/rm3650188801/","IMDb Official Stills"]];
