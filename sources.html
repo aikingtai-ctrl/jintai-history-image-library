@@ -1,4 +1,4 @@
-<!doctype html><html lang="zh-CN"><head><script>(function(){var H='3cfc9752923a03bf797634824be62c204630e71146b569ff82b87cfbaf54d3ff';var k='jt_gate';function ok(){document.documentElement.style.visibility='visible';}
+<!doctype html><html lang="zh-CN"><head><script>(function(){var H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3';var k='jt_gate';function ok(){document.documentElement.style.visibility='visible';}
 async function sha(s){var b=new TextEncoder().encode(s);var d=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(d)).map(x=>x.toString(16).padStart(2,'0')).join('');}
 document.documentElement.style.visibility='hidden';
 (async function(){if(sessionStorage.getItem(k)===H){ok();return;}for(var i=0;i<3;i++){var p=prompt('金泰AI 中国历史文化图库（内部初稿）\n请输入访问口令：');if(p===null)break;var h=await sha(p.trim());if(h===H){sessionStorage.setItem(k,H);ok();return;}}
