@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-604355bdf1e24132-rm1725300226-01","Shock Treatment (1995) - IMDb rm1725300226","https://m.media-amazon.com/images/M/MV5BMDM0MDIzZjQtOGQ1MS00ZTA4LTk1N2EtOWZlZTIxOGQ4NWFkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0112160/mediaviewer/rm1725300226/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8e2bc88a2e2c12d7-rm2200574976-01","Nitrate Kisses (1992) - IMDb rm2200574976","https://m.media-amazon.com/images/M/MV5BOTgyZjE2OGMtOGI2My00YTdhLWE1NGMtYTE2NDEzYmQxMzQxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0107693/mediaviewer/rm2200574976/","IMDb Official Stills"]];

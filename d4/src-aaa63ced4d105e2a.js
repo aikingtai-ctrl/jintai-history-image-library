@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-aaa63ced4d105e2a-rm1191013120-01","A Time to Heal (1994) - IMDb rm1191013120","https://m.media-amazon.com/images/M/MV5BZDNkYTdiNzEtYTgyYy00Nzc1LWEwNGUtZmQ4Yjk4YzQwNDAxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0111437/mediaviewer/rm1191013120/","IMDb Official Stills"]];

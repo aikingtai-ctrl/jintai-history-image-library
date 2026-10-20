@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3083a94fcf59dffd-rm796627456-01","A Private Matter (1992) - IMDb rm796627456","https://m.media-amazon.com/images/M/MV5BMzQ1MTEwMTgwMl5BMl5BanBnXkFtZTcwMDg2MzczMQ@@._V1_.jpg","https://www.imdb.com/title/tt0105176/mediaviewer/rm796627456/","IMDb Official Stills"]];

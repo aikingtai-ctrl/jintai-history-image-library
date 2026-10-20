@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d1400279431a5d98-rm970594560-01","Itsy Bitsy Spider (1992) - IMDb rm970594560","https://m.media-amazon.com/images/M/MV5BYTkyNDNhMDMtODFhNS00MTYyLTkwMzUtYjlhODc4OTAxYzA1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0104536/mediaviewer/rm970594560/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1c58d1c989f66ac5-rm1292472832-01","Eyes Beyond Seeing (1995) - IMDb rm1292472832","https://m.media-amazon.com/images/M/MV5BMTk1MTA3MzA2MV5BMl5BanBnXkFtZTcwMTM5NTI0MQ@@._V1_.jpg","https://www.imdb.com/title/tt0192006/mediaviewer/rm1292472832/","IMDb Official Stills"]];

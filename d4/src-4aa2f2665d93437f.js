@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4aa2f2665d93437f-rm2357088000-01","Slave of Dreams (1995) - IMDb rm2357088000","https://m.media-amazon.com/images/M/MV5BNDlmNjNhYTQtYTM0Ny00Y2UzLWFhYjktNGM0MjUxOWFlMTI2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0114470/mediaviewer/rm2357088000/","IMDb Official Stills"]];

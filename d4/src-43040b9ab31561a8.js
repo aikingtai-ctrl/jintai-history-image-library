@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-43040b9ab31561a8-rm3363505152-01","Pets or Meat: The Return to Flint (1992) - IMDb rm3363505152","https://m.media-amazon.com/images/M/MV5BMzU1Yjg1NzYtMGFlYi00YTJkLWIyNDktMWM0Yzc1ODkyOTczXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0105134/mediaviewer/rm3363505152/","IMDb Official Stills"]];

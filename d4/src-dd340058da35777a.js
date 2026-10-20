@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-dd340058da35777a-rm2318157312-01","Party (1994) - IMDb rm2318157312","https://m.media-amazon.com/images/M/MV5BODQwMGZmNWMtZjQ2Zi00ZjgwLTgwOTEtMTk5MGI1NmEzOWNjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0110782/mediaviewer/rm2318157312/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3291a479370d1894-rm629575937-01","The Great Mom Swap (1995) - IMDb rm629575937","https://m.media-amazon.com/images/M/MV5BMzc3MWMyZTUtYTM0YS00MjliLTkyZDMtYzkzYjk5ZGM1NDgwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0113215/mediaviewer/rm629575937/","IMDb Official Stills"]];
