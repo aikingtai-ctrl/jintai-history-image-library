@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-220ea6e617f4c638-rm99751680-01","Dorf's Golf Bible (1988) - IMDb rm99751680","https://m.media-amazon.com/images/M/MV5BMGEwYjA2NTItMWMyYy00YjQxLWIyOWEtNjFlODM3Mzc3MmIyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0092913/mediaviewer/rm99751680/","IMDb Official Stills"]];

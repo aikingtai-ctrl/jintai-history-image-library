@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-19873ea7562339eb-rm2705146624-01","Coins in the Fountain (1990) - IMDb rm2705146624","https://m.media-amazon.com/images/M/MV5BOGNkMDMyNDgtZTgwMi00NDQ3LWI5MmItNDIxNWQzYjQxMzNiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0099284/mediaviewer/rm2705146624/","IMDb Official Stills"]];

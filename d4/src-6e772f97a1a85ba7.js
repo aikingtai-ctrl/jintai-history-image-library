@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6e772f97a1a85ba7-rm2625725696-01","Identity Crisis (1989) - IMDb rm2625725696","https://m.media-amazon.com/images/M/MV5BZjQ0ODdkMjctMmI3Zi00YzY3LWI3ZTEtZDNkNWYwMzJkNjIxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0099825/mediaviewer/rm2625725696/","IMDb Official Stills"]];

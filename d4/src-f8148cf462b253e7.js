@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f8148cf462b253e7-rm4111432192-01","Rose Kennedy: A Life to Remember (1990) - IMDb rm4111432192","https://m.media-amazon.com/images/M/MV5BODljODY3NjUtYTE3NS00NTMzLWJlYjAtNzQ4MWYxZDAzYThkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0100517/mediaviewer/rm4111432192/","IMDb Official Stills"]];

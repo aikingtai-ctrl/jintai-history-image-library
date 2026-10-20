@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-59f286df012e7d9d-rm1635331840-01","Ika Hands (1988) - IMDb rm1635331840","https://m.media-amazon.com/images/M/MV5BMzAwMTMzYzItOTk3Zi00M2NhLWI4NDUtMzJhZjlhN2U2NWNjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5168754/mediaviewer/rm1635331840/","IMDb Official Stills"]];

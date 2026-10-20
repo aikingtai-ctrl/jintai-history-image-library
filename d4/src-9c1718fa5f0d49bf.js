@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9c1718fa5f0d49bf-rm4292847361-01","Death Faces (1988) - IMDb rm4292847361","https://m.media-amazon.com/images/M/MV5BMTJkYmQyYWYtYjlhYy00ZDA3LWE2ZjQtYmQxZDNkOGE5MzAwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0360505/mediaviewer/rm4292847361/","IMDb Official Stills"]];

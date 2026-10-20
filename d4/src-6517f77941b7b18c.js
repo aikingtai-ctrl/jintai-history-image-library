@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6517f77941b7b18c-rm2510328320-01","Andre's Mother (1990) - IMDb rm2510328320","https://m.media-amazon.com/images/M/MV5BMTk3MjI5NDExNV5BMl5BanBnXkFtZTcwMDQ5NzA0MQ@@._V1_.jpg","https://www.imdb.com/title/tt0099037/mediaviewer/rm2510328320/","IMDb Official Stills"]];

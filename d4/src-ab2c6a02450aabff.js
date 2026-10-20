@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ab2c6a02450aabff-rm1914019584-01","Dorf on Golf (1987) - IMDb rm1914019584","https://m.media-amazon.com/images/M/MV5BMTgyNzg1MzU5OF5BMl5BanBnXkFtZTcwMDAwNTcxMQ@@._V1_.jpg","https://www.imdb.com/title/tt0092912/mediaviewer/rm1914019584/","IMDb Official Stills"]];

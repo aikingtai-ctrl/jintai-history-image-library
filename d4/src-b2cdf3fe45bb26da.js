@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b2cdf3fe45bb26da-rm3173725184-01","Romeo.Juliet (1990) - IMDb rm3173725184","https://m.media-amazon.com/images/M/MV5BZWNlYjkwNzMtMTZmNC00ZTk0LWJlYjItZTRhOTIyYzA4OWQ5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0100512/mediaviewer/rm3173725184/","IMDb Official Stills"]];

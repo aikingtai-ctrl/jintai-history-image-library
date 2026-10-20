@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4efe0909b1e73720-rm1411063296-01","Terminal City Ricochet (1990) - IMDb rm1411063296","https://m.media-amazon.com/images/M/MV5BMjE0ZThmODItYTA4OC00Y2Q4LTgyYjUtNzNjNmYzMDM5NzQ2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0100763/mediaviewer/rm1411063296/","IMDb Official Stills"]];

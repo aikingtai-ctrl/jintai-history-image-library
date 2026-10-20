@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f66f701c9e0234d5-rm4217784065-01","Justin Case (1988) - IMDb rm4217784065","https://m.media-amazon.com/images/M/MV5BMjM3YWE2OWEtMDAyOS00ODU0LWExMDgtYTFmNDMwNjEzMjA0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0095420/mediaviewer/rm4217784065/","IMDb Official Stills"]];

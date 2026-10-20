@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-52db66a55c43ab25-rm1141874432-01","That's Black Entertainment (1990) - IMDb rm1141874432","https://m.media-amazon.com/images/M/MV5BMTg0OTQ5MTg3MF5BMl5BanBnXkFtZTcwNjA4NzYxMQ@@._V1_.jpg","https://www.imdb.com/title/tt0100768/mediaviewer/rm1141874432/","IMDb Official Stills"]];

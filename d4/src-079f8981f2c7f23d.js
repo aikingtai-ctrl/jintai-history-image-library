@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-079f8981f2c7f23d-rm1689005056-01","The True Story of Frank Zappa's 200 Motels (1989) - IMDb rm1689005056","https://m.media-amazon.com/images/M/MV5BZDQ5NzE4YWQtOTYzYS00NmYzLWIzNGItNzFkNGNhMGY4ZjE0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0096313/mediaviewer/rm1689005056/","IMDb Official Stills"]];

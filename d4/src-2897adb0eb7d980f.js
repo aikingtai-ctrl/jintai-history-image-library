@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2897adb0eb7d980f-rm1648114432-01","Victim of the Brain (1988) - IMDb rm1648114432","https://m.media-amazon.com/images/M/MV5BZmIyYjk5NDktNjcyMS00YTYyLWI2OGUtYmJlOTAwNzgzM2JiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0096382/mediaviewer/rm1648114432/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4e6b269dc9ddcc61-rm1626544640-01","12:01 PM (1990) - IMDb rm1626544640","https://m.media-amazon.com/images/M/MV5BZWZhMjQ0ODMtYmM3NS00YjAwLTlkZTktNGMyNGM4NzgxYWJiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0098962/mediaviewer/rm1626544640/","IMDb Official Stills"]];
