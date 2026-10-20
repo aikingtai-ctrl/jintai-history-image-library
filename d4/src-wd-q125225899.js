@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125225899-rm1025714945-01","The Red Suit (1997) - IMDb rm1025714945","https://m.media-amazon.com/images/M/MV5BM2Y0ODVmYTQtNGRkOC00ZjYxLTk1YTktNDRkNWVkNDY3MDg0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0262470/mediaviewer/rm1025714945/","IMDb Official Stills"]];

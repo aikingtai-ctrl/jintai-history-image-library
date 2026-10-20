@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q30328547-rm31834882-01","Tamer of Wild Horses (1967) - IMDb rm31834882","https://m.media-amazon.com/images/M/MV5BZGRmZjc0ZGItODlkZC00NDdkLTgwM2QtMDhlOTQyYWVkNDRkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0475640/mediaviewer/rm31834882/","IMDb Official Stills"]];

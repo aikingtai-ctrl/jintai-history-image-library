@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q17383500-rm2423921152-01","A Night in Rio (1951) - IMDb rm2423921152","https://m.media-amazon.com/images/M/MV5BZjE5YWNmODQtZmM1Ni00MGNmLTgxY2UtYTM3N2NkYzNkMmE4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0138747/mediaviewer/rm2423921152/","IMDb Official Stills"]];

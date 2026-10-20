@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0d2daa2961bd1dad-rm2080329985-01","Infantaria (2023) - IMDb rm2080329985","https://m.media-amazon.com/images/M/MV5BMTEyZTk0MTItNzhhYy00ZmYwLWFlODUtNTJhZGQ4NzFmZmM5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt14072894/mediaviewer/rm2080329985/","IMDb Official Stills"]];

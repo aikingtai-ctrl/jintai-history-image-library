@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q18602764-rm3629538561-01","Times of Darkness (1995) - IMDb rm3629538561","https://m.media-amazon.com/images/M/MV5BODQ5ZGI1ZDUtMzI0OC00ZmQzLWEzMTktNDZjZThjMGFkMGEwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0266781/mediaviewer/rm3629538561/","IMDb Official Stills"]];

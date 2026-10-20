@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-803e1fc9533aee87-rm3965509378-01","If Pigeons Turned to Gold (2026) - IMDb rm3965509378","https://m.media-amazon.com/images/M/MV5BODllYmUyZGItOTdlZC00MTE2LTlmOWItNjk4ZTg3NjZmOWU1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt39383477/mediaviewer/rm3965509378/","IMDb Official Stills"]];

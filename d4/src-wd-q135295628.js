@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q135295628-rm3753819138-01","Better Go Mad in the Wild (2025) - IMDb rm3753819138","https://m.media-amazon.com/images/M/MV5BM2Y1NDM0N2MtNjliMS00MWM5LTk3NjAtMjg1OTFlYjFlYmMzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37438800/mediaviewer/rm3753819138/","IMDb Official Stills"]];

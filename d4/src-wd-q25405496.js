@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q25405496-rm1200594945-01","Difficult Days (1988) - IMDb rm1200594945","https://m.media-amazon.com/images/M/MV5BMjVlOWI0YmItMDc4Ni00OGNkLThiODEtZTBmNzQwNDgyNjA0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0092942/mediaviewer/rm1200594945/","IMDb Official Stills"]];

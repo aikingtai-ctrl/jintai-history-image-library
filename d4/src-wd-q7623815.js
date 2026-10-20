@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7623815-rm270668032-01","Strikebound (1984) - IMDb rm270668032","https://m.media-amazon.com/images/M/MV5BZDM3NDc3ZGEtOTk5YS00MmIzLWE5MDMtZWZiNGFlY2VkMDNlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0088198/mediaviewer/rm270668032/","IMDb Official Stills"]];

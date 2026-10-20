@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2068f8561aefd313-rm1399715330-01","Akababuru: Expresión de asombro (2025) - IMDb rm1399715330","https://m.media-amazon.com/images/M/MV5BMDcyYWRjMzQtNDJkYS00MmNkLWExOGUtYmU1YjZmZWI3ZmFkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35440407/mediaviewer/rm1399715330/","IMDb Official Stills"]];

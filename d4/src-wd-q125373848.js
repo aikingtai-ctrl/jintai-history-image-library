@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125373848-rm610241025-01","Frequency for Victory (2002) - IMDb rm610241025","https://m.media-amazon.com/images/M/MV5BYzRkYWNhMzctZmJiNC00OGQzLWI0NmItZTFmMTE5MzBhNmZmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10173198/mediaviewer/rm610241025/","IMDb Official Stills"]];

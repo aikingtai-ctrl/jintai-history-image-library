@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11990963-rm3313925121-01","Nattseilere (1986) - IMDb rm3313925121","https://m.media-amazon.com/images/M/MV5BY2MxMjcxNDYtMjdkYi00NTY0LWI0NTUtYjFhMGVjZDgyMTgwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0089671/mediaviewer/rm3313925121/","IMDb Official Stills"]];

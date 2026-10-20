@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cc9faf50fae6b3db-rm229694722-01","Di san xian (2026) - IMDb rm229694722","https://m.media-amazon.com/images/M/MV5BMjRlODljYmEtYTc2YS00Njc5LTljODctNGI0MDQ2MDljOWMwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt39385969/mediaviewer/rm229694722/","IMDb Official Stills"]];

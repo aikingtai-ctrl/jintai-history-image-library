@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e40bca58024c4543-rm30032641-01","Songs of Love and Hate (2024) - IMDb rm30032641","https://m.media-amazon.com/images/M/MV5BMTBmZGYxNDItZjYyYS00NTQwLTg5MGMtN2JhYWNjODJmZTZmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt30970709/mediaviewer/rm30032641/","IMDb Official Stills"]];

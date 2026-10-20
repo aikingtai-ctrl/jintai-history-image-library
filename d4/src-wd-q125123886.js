@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125123886-rm2809160448-01","Joyous Heroes (1988) - IMDb rm2809160448","https://m.media-amazon.com/images/M/MV5BN2RiZWJkYzEtY2EwYy00NjRjLTgwODQtOGEwMzI0NThhN2Y4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1122592/mediaviewer/rm2809160448/","IMDb Official Stills"]];

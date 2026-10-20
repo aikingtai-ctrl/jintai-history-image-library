@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11786533-rm4080919552-01","Mujhe Kucch Kehna Hai (2001) - IMDb rm4080919552","https://m.media-amazon.com/images/M/MV5BYmYyYTk0ZmItNDUyMy00ZDAzLThiNWItZDkyNTk5YTFhMDgxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0284328/mediaviewer/rm4080919552/","IMDb Official Stills"]];

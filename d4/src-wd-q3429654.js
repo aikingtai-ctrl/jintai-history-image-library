@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3429654-rm804193792-01","Father and Son (1994) - IMDb rm804193792","https://m.media-amazon.com/images/M/MV5BMDU4ZTRiOGEtNGRjZS00MTJkLWJhYWEtMWFjN2Y5OTdlMjIzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0110762/mediaviewer/rm804193792/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q15804762-rm953523201-01","David (1977) - IMDb rm953523201","https://m.media-amazon.com/images/M/MV5BZmQwMjgyZGYtODI2Mi00MTJkLTljYWYtNGFmNjM0NjQzZmVlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0216666/mediaviewer/rm953523201/","IMDb Official Stills"]];

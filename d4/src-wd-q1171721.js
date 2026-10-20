@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1171721-rm3506707968-01","真实的生活 (2006) - IMDb rm3506707968","https://m.media-amazon.com/images/M/MV5BMTQ5NDAxMzU0MV5BMl5BanBnXkFtZTgwMTc4NjM0ODE@._V1_.jpg","https://www.imdb.com/title/tt0476965/mediaviewer/rm3506707968/","IMDb Official Stills"]];

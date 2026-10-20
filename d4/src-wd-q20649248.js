@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q20649248-rm3463913472-01","Once Upon a Time in Shanghai (1998) - IMDb rm3463913472","https://m.media-amazon.com/images/M/MV5BZjFlNjIxYTQtMzNiZi00MjAyLTlhNWMtMjlkMzdhMzZjNGUzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0470533/mediaviewer/rm3463913472/","IMDb Official Stills"]];

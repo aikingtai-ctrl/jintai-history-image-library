@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-eaa10ea25ae2effd-rm464576258-01","Hora do recreio (2025) - IMDb rm464576258","https://m.media-amazon.com/images/M/MV5BYmMzYTkzNmUtZTQ2My00MDgyLTgyYjAtZDc0N2ViMGY5NzlkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35443123/mediaviewer/rm464576258/","IMDb Official Stills"]];

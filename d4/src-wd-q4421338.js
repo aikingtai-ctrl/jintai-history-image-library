@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4421338-rm3537507072-01","The Tale of Fedot, the Shooter (2001) - IMDb rm3537507072","https://m.media-amazon.com/images/M/MV5BMzEzYzVhMjAtNTAzYy00MGE2LTg4ZWMtYmM4NzQ3MWFlOGRlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0308903/mediaviewer/rm3537507072/","IMDb Official Stills"]];

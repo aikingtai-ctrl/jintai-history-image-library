@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7218983-rm2395086336-01","Revenge of Itzik Finkelstein (1993) - IMDb rm2395086336","https://m.media-amazon.com/images/M/MV5BZjk3YjM1MzUtNDA2My00MGMwLTg2ZTMtNjAzMGNkNWI3ZjE5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0107690/mediaviewer/rm2395086336/","IMDb Official Stills"]];

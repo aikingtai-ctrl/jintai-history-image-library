@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q60994616-rm1609869313-01","弹道无痕 (1994) - IMDb rm1609869313","https://m.media-amazon.com/images/M/MV5BMWQzYWU1OWUtMzEwZC00YjExLTkwNjMtN2UwOWNiNzE4NDc1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10229408/mediaviewer/rm1609869313/","IMDb Official Stills"]];

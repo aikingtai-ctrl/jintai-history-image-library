@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q15805703-rm1863108354-01","The Bride (1971) - IMDb rm1863108354","https://m.media-amazon.com/images/M/MV5BZTMyNTYzNGYtODdmMi00MjZjLTk4YmMtNDY5YTZiM2VkOTUxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0475669/mediaviewer/rm1863108354/","IMDb Official Stills"]];

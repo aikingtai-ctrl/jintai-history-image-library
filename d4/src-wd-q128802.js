@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q128802-rm3171163136-01","燕山日记 (1987) - IMDb rm3171163136","https://m.media-amazon.com/images/M/MV5BMjljOGQ0NzQtMGQ5YS00NGM2LWI1ZjEtMGJjNTJiM2JiNDU0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0094359/mediaviewer/rm3171163136/","IMDb Official Stills"]];

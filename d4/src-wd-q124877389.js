@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124877389-rm313146624-01","The Echo of Qi Lian Mountain (1984) - IMDb rm313146624","https://m.media-amazon.com/images/M/MV5BOGY1NTMyMDQtZjhjYy00ZTZlLTgxYmMtMzE3NTFjM2FmMzVhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0192489/mediaviewer/rm313146624/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4292437-rm2476179969-01","Dreams of an Idiot (1993) - IMDb rm2476179969","https://m.media-amazon.com/images/M/MV5BNGE1MzMwZmEtMzc3Zi00ZTM5LThiY2MtMjU5NzRmYzk3MDgwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0130399/mediaviewer/rm2476179969/","IMDb Official Stills"]];

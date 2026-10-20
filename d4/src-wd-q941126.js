@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q941126-rm1126699264-01","黑带女郎 (2007) - IMDb rm1126699264","https://m.media-amazon.com/images/M/MV5BOTFjOGEyMDYtNGQzNC00Mzg5LTlkOWUtMDFjNGM0NWZmNzc2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0995029/mediaviewer/rm1126699264/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124354779-rm2232694272-01","The Breakthrough (1996) - IMDb rm2232694272","https://m.media-amazon.com/images/M/MV5BMDNjOWY4YzEtN2I5ZC00ZTE0LWI2ZmEtM2JiYTNlZmRlNzUxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6779054/mediaviewer/rm2232694272/","IMDb Official Stills"]];

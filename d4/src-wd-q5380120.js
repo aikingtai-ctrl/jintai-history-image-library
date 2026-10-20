@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5380120-rm281273600-01","Ente Veedu Appuvinteyum (2003) - IMDb rm281273600","https://m.media-amazon.com/images/M/MV5BNjBkMWU0NTYtNzAwZi00ZWQ5LWE1NzEtNmVlYWJjNWNhYzRlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0389973/mediaviewer/rm281273600/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q111264209-rm487523584-01","Dear Karl (1984) - IMDb rm487523584","https://m.media-amazon.com/images/M/MV5BNTc4ZDZiYTItMzgwMi00ZThlLThhNjQtYTU4MjBlN2M1YjBiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0089485/mediaviewer/rm487523584/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4065268-rm4000586240-01","Untitled Eldar Ryazanov/Hans Christian Andersen Project (2006) - IMDb rm4000586240","https://m.media-amazon.com/images/M/MV5BOTcyY2RlYjItNmRkNi00MWJjLTk0ZTYtMTg1ZDRkNTIxNjAzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0466174/mediaviewer/rm4000586240/","IMDb Official Stills"]];

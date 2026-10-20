@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4901987-rm853402624-01","Bhoothakkannadi (1997) - IMDb rm853402624","https://m.media-amazon.com/images/M/MV5BYWZkYTg4ZmEtNWVmOC00YjJiLWJjOGUtMDZlZGY5NDIxNzk3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0197294/mediaviewer/rm853402624/","IMDb Official Stills"]];

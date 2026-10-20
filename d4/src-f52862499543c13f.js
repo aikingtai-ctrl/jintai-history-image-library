@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f52862499543c13f-rm151496450-01","Little Rebels Cinema Club (2025) - IMDb rm151496450","https://m.media-amazon.com/images/M/MV5BYWJiMWJhYmItZDU4NC00MDIwLTlmYjAtZGI4YTgzNDQ0NDliXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35444084/mediaviewer/rm151496450/","IMDb Official Stills"]];

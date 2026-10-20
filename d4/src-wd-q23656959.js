@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q23656959-rm14935040-01","Champions (2004) - IMDb rm14935040","https://m.media-amazon.com/images/M/MV5BOGFlMDMzNzItNzhkYy00ZTY1LWJiNGUtNWU5ZjFmNjI5NDQ1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0403310/mediaviewer/rm14935040/","IMDb Official Stills"]];

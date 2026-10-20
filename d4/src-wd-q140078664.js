@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q140078664-rm2629815042-01","Everyday in Gaza (2025) - IMDb rm2629815042","https://m.media-amazon.com/images/M/MV5BYjNiYTg5OWYtOTU3NS00ZjhkLWE4M2UtY2JjOWFiOGRjNGE2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt41894293/mediaviewer/rm2629815042/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9073a0b1ddcad696-rm3434486272-01","Rakas... (1961) - IMDb rm3434486272","https://m.media-amazon.com/images/M/MV5BZjBmOGMwNjctYmEwYS00NDljLWEwZTMtYjFjYzkzYzVhMmQyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0056392/mediaviewer/rm3434486272/","IMDb Official Stills"]];

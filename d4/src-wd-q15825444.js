@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q15825444-rm3175559680-01","The Step (1975) - IMDb rm3175559680","https://m.media-amazon.com/images/M/MV5BOWM3MDYxODAtZjZlZi00Y2Q3LWI4NzUtOWYxNzgwMDMzNjJlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0475681/mediaviewer/rm3175559680/","IMDb Official Stills"]];

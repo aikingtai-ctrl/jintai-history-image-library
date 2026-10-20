@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q624254-rm3933608448-01","五歲的心願 (2003) - IMDb rm3933608448","https://m.media-amazon.com/images/M/MV5BYzRlYmI1MTYtYzE4Yy00NWQ5LTgzYzctYThhMWJlN2RjOTFiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0359784/mediaviewer/rm3933608448/","IMDb Official Stills"]];

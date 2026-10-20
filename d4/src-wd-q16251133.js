@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q16251133-rm181917185-01","Main Zinda Hoon (1988) - IMDb rm181917185","https://m.media-amazon.com/images/M/MV5BMGY1M2JhMTktOTc0Yy00YTMxLTkxYWYtYTE0ZjJmYjI0MDM1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0446395/mediaviewer/rm181917185/","IMDb Official Stills"]];

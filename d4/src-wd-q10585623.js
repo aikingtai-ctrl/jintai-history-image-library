@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q10585623-rm2275955968-01","My Mother Had Fourteen Children (2000) - IMDb rm2275955968","https://m.media-amazon.com/images/M/MV5BODg4ZmYyODYtZjM2Yy00NDZmLWE3YjYtZjhlMjFkY2IxNTdiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0238417/mediaviewer/rm2275955968/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4918638-rm2229338368-01","Biswaprakash (1999) - IMDb rm2229338368","https://m.media-amazon.com/images/M/MV5BMGIyMzU3OGEtNTZhNi00MDhmLTljOTctYmQyYzViYmI4OWJkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1407158/mediaviewer/rm2229338368/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q6422362-rm1505499136-01","Después de la tormenta (1990) - IMDb rm1505499136","https://m.media-amazon.com/images/M/MV5BM2Q2NWVkY2UtNWM2Yy00ZWZkLThmNzctM2M3NWIzNzdmNmZkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0099411/mediaviewer/rm1505499136/","IMDb Official Stills"]];

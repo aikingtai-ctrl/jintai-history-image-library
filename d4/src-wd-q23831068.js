@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q23831068-rm3017112064-01","Nocturnal Butterflies (1997) - IMDb rm3017112064","https://m.media-amazon.com/images/M/MV5BMjMzMDQ0MDEtM2FiOS00ODY5LTkxNjEtMTdiMTY0OTcxYzhlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0207001/mediaviewer/rm3017112064/","IMDb Official Stills"]];

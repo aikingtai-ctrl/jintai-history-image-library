@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7635898-rm1105992192-01","Sukrutham (1994) - IMDb rm1105992192","https://m.media-amazon.com/images/M/MV5BNmQ3YTRlYTUtNjBkYy00NzY2LWFmYzgtMTYzZDhiNTUzM2ExXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0246959/mediaviewer/rm1105992192/","IMDb Official Stills"]];

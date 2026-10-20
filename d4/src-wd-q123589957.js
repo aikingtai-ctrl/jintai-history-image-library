@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q123589957-rm2710948865-01","买买提外传 (1987) - IMDb rm2710948865","https://m.media-amazon.com/images/M/MV5BZjdiMDM4NDktYTY2ZS00NGIyLTg3MjItNzhhNzI2ODRkMDQyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10833154/mediaviewer/rm2710948865/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q15699412-rm4087546112-01","Bangarwadi (1995) - IMDb rm4087546112","https://m.media-amazon.com/images/M/MV5BMTE2ODc4YzMtMjUxNi00NWY5LTk1MzYtNGM5M2MwYWU4Y2UwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0249386/mediaviewer/rm4087546112/","IMDb Official Stills"]];

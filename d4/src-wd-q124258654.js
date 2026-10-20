@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124258654-rm284403969-01","A Young Prisoner's Revenge (2001) - IMDb rm284403969","https://m.media-amazon.com/images/M/MV5BZWM3ZDc5NDQtYTQyNS00ZTc3LWFkZDUtZGRiNzk4ZGYwNDFlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0801844/mediaviewer/rm284403969/","IMDb Official Stills"]];

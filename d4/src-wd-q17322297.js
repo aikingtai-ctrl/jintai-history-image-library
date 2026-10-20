@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q17322297-rm3420848128-01","悲歡故事 (2005) - IMDb rm3420848128","https://m.media-amazon.com/images/M/MV5BNzZlYzY4NDEtMzA3My00YmQxLTgyZGUtMmQ5ZjA0YjlhNmM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0825266/mediaviewer/rm3420848128/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4450088-rm3486850304-01","You Can't Live Like That (1990) - IMDb rm3486850304","https://m.media-amazon.com/images/M/MV5BMDc0OWMyNzMtYmNmOC00ZTI2LThmYmQtMDNiZjMxNGFiODIyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0100738/mediaviewer/rm3486850304/","IMDb Official Stills"]];

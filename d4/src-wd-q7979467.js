@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7979467-rm2919109376-01","Weekend with Kate (1990) - IMDb rm2919109376","https://m.media-amazon.com/images/M/MV5BOTUwNTkyNjYtMDYzZi00NjhlLWI1YWQtNzEyZWNiOGM0ZGIxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0100909/mediaviewer/rm2919109376/","IMDb Official Stills"]];

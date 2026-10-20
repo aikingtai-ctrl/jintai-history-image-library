@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q129171-rm1510218752-01","揭谛 揭谛 婆罗揭谛 (1989) - IMDb rm1510218752","https://m.media-amazon.com/images/M/MV5BOTdhOGYyMWQtZGVmYy00ODQ4LTg4YTktOWFmOTI0NWI0MTgxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0096778/mediaviewer/rm1510218752/","IMDb Official Stills"]];

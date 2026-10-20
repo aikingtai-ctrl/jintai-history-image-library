@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11024779-rm2194699008-01","Hum Naujawan (1985) - IMDb rm2194699008","https://m.media-amazon.com/images/M/MV5BMDY1NDdhNjQtYTVjNy00OTlhLWI3OTAtOWRkNDA2ZGU5NWNhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0154620/mediaviewer/rm2194699008/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q110907767-rm3407756544-01","蒋筑英 (1992) - IMDb rm3407756544","https://m.media-amazon.com/images/M/MV5BZDA3MWE3NzctZWNmYi00N2RiLTk1YzQtYzJjYzE4N2Q5ZTIwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5165012/mediaviewer/rm3407756544/","IMDb Official Stills"]];

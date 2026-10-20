@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q10968568-rm2478705409-01","Kante Koothurne Kanu (2000) - IMDb rm2478705409","https://m.media-amazon.com/images/M/MV5BYTMxYTRlMzMtZTg3Mi00OTExLThhMjYtYTQxZDQ2ZmQ4NjI5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0292570/mediaviewer/rm2478705409/","IMDb Official Stills"]];

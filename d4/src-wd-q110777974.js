@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q110777974-rm302509569-01","Mironins (2021) - IMDb rm302509569","https://m.media-amazon.com/images/M/MV5BOGFkYjM0ZDUtNDAyNi00ZTRmLTlmYjQtYzZkNGM3MTE3OGMzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt16277420/mediaviewer/rm302509569/","IMDb Official Stills"]];

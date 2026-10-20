@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q18912817-rm1677473536-01","Herfra til Tøyen (1986) - IMDb rm1677473536","https://m.media-amazon.com/images/M/MV5BNmU1NTg3YmItZDQyNy00ODM1LWE5YjEtMjg5ZjQ4ZjQ3M2UzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0304152/mediaviewer/rm1677473536/","IMDb Official Stills"]];

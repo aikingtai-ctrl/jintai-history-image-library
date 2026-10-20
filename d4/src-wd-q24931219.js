@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q24931219-rm1414402560-01","Что делать? или Куйгорож (2007) - IMDb rm1414402560","https://m.media-amazon.com/images/M/MV5BNDZiYjQyZWUtZjU2YS00YjliLWJhZmYtZjMzOGQ1YzAwNWZkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1555250/mediaviewer/rm1414402560/","IMDb Official Stills"]];

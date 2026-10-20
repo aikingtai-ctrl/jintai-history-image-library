@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q48936075-rm733164544-01","世界上最疼我的那个人去了 (2002) - IMDb rm733164544","https://m.media-amazon.com/images/M/MV5BODQwODE3MDktODY5OS00ZDQ2LTliOWUtYWU3MWJmZTA4OTFiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0390054/mediaviewer/rm733164544/","IMDb Official Stills"]];

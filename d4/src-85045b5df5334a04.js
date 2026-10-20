@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-85045b5df5334a04-rm1196067330-01","Zirkuskind (2025) - IMDb rm1196067330","https://m.media-amazon.com/images/M/MV5BODM1ODQxOWQtNmQ0YS00YzQzLWJjNzctNGVhZjY1ODJjODI1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35449402/mediaviewer/rm1196067330/","IMDb Official Stills"]];

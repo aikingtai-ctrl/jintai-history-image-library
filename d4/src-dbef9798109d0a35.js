@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-dbef9798109d0a35-rm1171306498-01","Koki, Ciao (2025) - IMDb rm1171306498","https://m.media-amazon.com/images/M/MV5BYzViNWJiMzQtM2IwYy00NzI3LThjMDYtY2ZiN2RkNzRjYTVlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35407259/mediaviewer/rm1171306498/","IMDb Official Stills"]];

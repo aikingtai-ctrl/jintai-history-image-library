@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5463170-rm2013535232-01","开辟 (1991) - IMDb rm2013535232","https://m.media-amazon.com/images/M/MV5BMDQ1ZmEyYzEtMDQ3My00NTdhLWI2ZGItMjg3ZjRhZTEwMzM0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0104586/mediaviewer/rm2013535232/","IMDb Official Stills"]];

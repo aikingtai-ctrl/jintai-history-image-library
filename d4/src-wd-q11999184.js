@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11999184-rm1215790081-01","Blessed Are Those Who Thirst (1997) - IMDb rm1215790081","https://m.media-amazon.com/images/M/MV5BNmMwNDZlMDItMzUzMy00Njg3LWJmY2EtY2QzMWZjMTI1NTA2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0124864/mediaviewer/rm1215790081/","IMDb Official Stills"]];

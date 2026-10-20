@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q6041237-rm3446937600-01","Ahava Asura (1997) - IMDb rm3446937600","https://m.media-amazon.com/images/M/MV5BNDRiNmNiYjEtNjExMC00ZWQyLTliNDMtYzZmYmIyYjg1OTliXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0143231/mediaviewer/rm3446937600/","IMDb Official Stills"]];

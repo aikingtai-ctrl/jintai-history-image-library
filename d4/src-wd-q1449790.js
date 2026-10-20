@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1449790-rm2313307904-01","Lal Darja (1997) - IMDb rm2313307904","https://m.media-amazon.com/images/M/MV5BZTM0ZWFhZWItNWI0MC00NTgzLWIxZTYtMjUyMjViZTAxODlmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0142521/mediaviewer/rm2313307904/","IMDb Official Stills"]];

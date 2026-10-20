@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q523456-rm209157121-01","人渣正传 (1997) - IMDb rm209157121","https://m.media-amazon.com/images/M/MV5BYjljZjY2NmUtOTIxMy00MDY4LTkxNjgtODI5YzYwOTI2ZDhlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0118785/mediaviewer/rm209157121/","IMDb Official Stills"]];

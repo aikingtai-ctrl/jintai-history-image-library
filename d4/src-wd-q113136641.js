@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q113136641-rm195100929-01","遲來的告白 (2022) - IMDb rm195100929","https://m.media-amazon.com/images/M/MV5BZDJhNzA1YjMtNDMyNS00ZDI2LTk0YjAtMGE4NGYyYWVlOTkyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt20112674/mediaviewer/rm195100929/","IMDb Official Stills"]];

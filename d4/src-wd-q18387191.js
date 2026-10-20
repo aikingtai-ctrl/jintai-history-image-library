@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q18387191-rm3434713858-01","Karunam (2000) - IMDb rm3434713858","https://m.media-amazon.com/images/M/MV5BMGU3MGI2NjctYzg0ZS00NTJmLTg1OGQtODUyMWFhNzY5ZDM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0256852/mediaviewer/rm3434713858/","IMDb Official Stills"]];

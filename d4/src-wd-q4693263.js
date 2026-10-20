@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4693263-rm3435390208-01","Agnisakshi (1999) - IMDb rm3435390208","https://m.media-amazon.com/images/M/MV5BYjZlMTc0YzAtYTllNC00NDg5LTliZTAtZjlmZmI4ZmUzNTQxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0205727/mediaviewer/rm3435390208/","IMDb Official Stills"]];

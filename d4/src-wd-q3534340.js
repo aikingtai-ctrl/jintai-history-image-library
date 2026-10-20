@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3534340-rm61085696-01","Kathapurushan (1995) - IMDb rm61085696","https://m.media-amazon.com/images/M/MV5BOTBmNmExYzgtYzFmYy00ZGFkLWE5MzgtNDIyNDNlNDg2YjgzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0116749/mediaviewer/rm61085696/","IMDb Official Stills"]];

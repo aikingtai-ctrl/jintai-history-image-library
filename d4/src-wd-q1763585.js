@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1763585-rm2071106560-01","All About My Father (2002) - IMDb rm2071106560","https://m.media-amazon.com/images/M/MV5BMjAzNTY0MDgxMF5BMl5BanBnXkFtZTcwMTg5NjY5MQ@@._V1_.jpg","https://www.imdb.com/title/tt0310622/mediaviewer/rm2071106560/","IMDb Official Stills"]];

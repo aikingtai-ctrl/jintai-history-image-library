@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q123304328-rm1887747073-01","The Kunlun Column (1988) - IMDb rm1887747073","https://m.media-amazon.com/images/M/MV5BM2FkYTQ0NGQtMDc1ZC00NzViLWEzYzYtOGM5MDJmYWZkNjE5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10833120/mediaviewer/rm1887747073/","IMDb Official Stills"]];

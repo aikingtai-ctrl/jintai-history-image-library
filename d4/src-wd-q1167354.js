@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1167354-rm2454131968-01","早年的麵包 (1962) - IMDb rm2454131968","https://m.media-amazon.com/images/M/MV5BNWQ5YmM3YjEtZTY4Yi00NThmLWEwOGQtYmIxYTZjYzA3Y2Y0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0054705/mediaviewer/rm2454131968/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cdefa7ebea2e8025-rm726764034-01","La memoria de las mariposas (2025) - IMDb rm726764034","https://m.media-amazon.com/images/M/MV5BZjUxMmIwZWEtYjZjYi00Nzg5LWFlNGYtNGUzOWQwYzc1MDY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35440114/mediaviewer/rm726764034/","IMDb Official Stills"]];

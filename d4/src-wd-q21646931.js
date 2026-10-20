@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q21646931-rm4232672000-01","春天的狂想 (1998) - IMDb rm4232672000","https://m.media-amazon.com/images/M/MV5BMzQzMDQxNWEtNjZiMi00Y2U0LWJkYzctOTkzYTUwMWNmYjc0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0461329/mediaviewer/rm4232672000/","IMDb Official Stills"]];

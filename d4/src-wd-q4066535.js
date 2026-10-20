@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4066535-rm3497632000-01","安娜·卡列尼娜 (2009) - IMDb rm3497632000","https://m.media-amazon.com/images/M/MV5BMTQzNDk4NDMxNF5BMl5BanBnXkFtZTcwNDM5NjUzOQ@@._V1_.jpg","https://www.imdb.com/title/tt0403726/mediaviewer/rm3497632000/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124259173-rm1231493120-01","A Father with His Twenty-five Children (2002) - IMDb rm1231493120","https://m.media-amazon.com/images/M/MV5BYjc0YTBhZjMtODFlNS00YTI4LTk4MGItMjExNjg3MDMzMzUwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0390805/mediaviewer/rm1231493120/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-86a19a8bc762de4d-rm1432213506-01","Szemem sarka (2023) - IMDb rm1432213506","https://m.media-amazon.com/images/M/MV5BNzcyNDZkNTAtMWRhYS00YjJhLThhNTUtZGIzOWZlYjkwZDI2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt28535058/mediaviewer/rm1432213506/","IMDb Official Stills"]];

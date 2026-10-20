@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q10527453-rm3594318338-01","妻子們2：十年後 (1985) - IMDb rm3594318338","https://m.media-amazon.com/images/M/MV5BNTRlNWQ1ZTYtZGRkNi00MmRmLWFjNjUtNTliYmJjZTgxMTE5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0089313/mediaviewer/rm3594318338/","IMDb Official Stills"]];

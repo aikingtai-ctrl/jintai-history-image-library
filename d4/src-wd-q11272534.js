@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11272534-rm2639958017-01","鶴 (1988) - IMDb rm2639958017","https://m.media-amazon.com/images/M/MV5BZTU4YThhMmMtY2FkMC00OGQ3LWJmOGQtNjhhMThmOWFhYWE3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0185732/mediaviewer/rm2639958017/","IMDb Official Stills"]];

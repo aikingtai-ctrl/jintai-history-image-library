@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11040692-rm501678336-01","Kamla Ki Maut (1989) - IMDb rm501678336","https://m.media-amazon.com/images/M/MV5BNDI1ZGZhNzMtYzA1Mi00MDIxLWIwYjctNjEwMzAzZGNjNWM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0157882/mediaviewer/rm501678336/","IMDb Official Stills"]];

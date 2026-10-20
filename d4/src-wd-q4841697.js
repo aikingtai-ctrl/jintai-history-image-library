@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4841697-rm1211892992-01","虎虎相迫 (1989) - IMDb rm1211892992","https://m.media-amazon.com/images/M/MV5BODk5OGFiOGEtZDcwOS00ZmY5LTg3YjUtZTU4ZTUzZDBhYjRkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0158481/mediaviewer/rm1211892992/","IMDb Official Stills"]];

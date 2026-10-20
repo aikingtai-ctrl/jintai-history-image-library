@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5212990-rm2116882688-01","Damul (1985) - IMDb rm2116882688","https://m.media-amazon.com/images/M/MV5BOGZhZjQxM2YtZjZiYS00NDc5LWFmM2YtMjc1NDY1MjVjNTRkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0088986/mediaviewer/rm2116882688/","IMDb Official Stills"]];

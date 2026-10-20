@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125026284-rm3456839680-01","Xiang si nü zi ke dian (1985) - IMDb rm3456839680","https://m.media-amazon.com/images/M/MV5BMWQwZjM2ZWMtYjE5Ny00ZTY3LThiOGEtOGQ5NzhhNDdjNzRiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6685008/mediaviewer/rm3456839680/","IMDb Official Stills"]];

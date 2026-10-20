@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-892c2708f8b598ff-rm817353730-01","Was an Empfindsamkeit bleibt (2026) - IMDb rm817353730","https://m.media-amazon.com/images/M/MV5BYjE5YjM0OTMtMTI2Yy00YjJlLWE2OWYtYjNhZTY2YmZjOGExXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt39383613/mediaviewer/rm817353730/","IMDb Official Stills"]];

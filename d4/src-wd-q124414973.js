@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124414973-rm1741302272-01","Our Retired Veterans (1985) - IMDb rm1741302272","https://m.media-amazon.com/images/M/MV5BZTZiZTBlOWMtYWZiNi00Zjk2LTljMzEtZjIzZDljZjQyYWM4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6889920/mediaviewer/rm1741302272/","IMDb Official Stills"]];

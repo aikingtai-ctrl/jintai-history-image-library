@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q97007308-rm3541179904-01","Otstupnik (1987) - IMDb rm3541179904","https://m.media-amazon.com/images/M/MV5BODUwMzAwYTUtYThkNy00YjY0LTk0MzUtYTUwNGM0YmM2ZTAzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0175016/mediaviewer/rm3541179904/","IMDb Official Stills"]];

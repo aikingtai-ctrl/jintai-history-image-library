@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-55905bbbbac86375-rm194805762-01","Lapso (2024) - IMDb rm194805762","https://m.media-amazon.com/images/M/MV5BYjcxOTFlYmYtNTliNy00N2FjLWIyY2YtYWM3YmY3NjE0MzZiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt30521212/mediaviewer/rm194805762/","IMDb Official Stills"]];

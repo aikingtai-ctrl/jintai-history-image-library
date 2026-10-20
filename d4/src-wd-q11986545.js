@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11986545-rm468373249-01","Liv Ullmann scener fra et liv (1997) - IMDb rm468373249","https://m.media-amazon.com/images/M/MV5BZjJhMDA4NjktNmE1ZC00MTFhLWEyNzMtYWJhNTlhMTM1YmQwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0163721/mediaviewer/rm468373249/","IMDb Official Stills"]];

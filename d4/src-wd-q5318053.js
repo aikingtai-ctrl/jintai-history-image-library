@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5318053-rm2630229248-01","Dweepa (2002) - IMDb rm2630229248","https://m.media-amazon.com/images/M/MV5BNDJjMTA5NDMtMmQwNi00YjRjLTkzOGMtN2Y4ZjE2NzE1ZGNjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0330241/mediaviewer/rm2630229248/","IMDb Official Stills"]];

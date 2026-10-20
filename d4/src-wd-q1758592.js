@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1758592-rm483955456-01","Just Bea (2004) - IMDb rm483955456","https://m.media-amazon.com/images/M/MV5BNTgyMzYzODUyNV5BMl5BanBnXkFtZTcwNTUzNjU0MQ@@._V1_.jpg","https://www.imdb.com/title/tt0373712/mediaviewer/rm483955456/","IMDb Official Stills"]];

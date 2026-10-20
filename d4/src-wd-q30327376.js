@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q30327376-rm782867457-01","Ares vs. Atlas (1967) - IMDb rm782867457","https://m.media-amazon.com/images/M/MV5BYzA3NTYyM2MtOTQzNi00YzM5LTkyZmEtNDYyZDA1M2RjMmQ5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0475510/mediaviewer/rm782867457/","IMDb Official Stills"]];

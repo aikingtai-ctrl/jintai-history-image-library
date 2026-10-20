@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q15924397-rm3268230144-01","紧急迫降 (2000年电影) (1999) - IMDb rm3268230144","https://m.media-amazon.com/images/M/MV5BOWI0NjA3ZDItOTRlYi00MmQzLWE0OTktZDQ5NDM3ZjNmMDVkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0262529/mediaviewer/rm3268230144/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125191578-rm60982017-01","Rescued from Desperate Situation (1994) - IMDb rm60982017","https://m.media-amazon.com/images/M/MV5BNTg0MWVmMDUtOTJkYy00YTVkLWE1ODctOWQ1MzBhYTEzZjJjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6483148/mediaviewer/rm60982017/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3565938-rm3203916800-01","Big Beat (1993) - IMDb rm3203916800","https://m.media-amazon.com/images/M/MV5BOWRmYjNlODQtYjYwNS00MjllLTk1NmEtZDA0ODUzYWY5OTg1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0108027/mediaviewer/rm3203916800/","IMDb Official Stills"]];

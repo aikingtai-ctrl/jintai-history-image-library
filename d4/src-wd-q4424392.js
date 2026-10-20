@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4424392-rm2269625345-01","Смерть Таирова (2004) - IMDb rm2269625345","https://m.media-amazon.com/images/M/MV5BZGQzMGQ0MzktNWYzMS00OThhLWJjYTktYzA0NTIyZjVmNTY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5040310/mediaviewer/rm2269625345/","IMDb Official Stills"]];

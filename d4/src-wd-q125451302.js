@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125451302-rm3808701952-01","38 Degrees (2003) - IMDb rm3808701952","https://m.media-amazon.com/images/M/MV5BZjM1Y2RkOWUtZjliNy00ZGM2LWI5YmQtMWJiNWY5ZjFkZjRkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0453204/mediaviewer/rm3808701952/","IMDb Official Stills"]];

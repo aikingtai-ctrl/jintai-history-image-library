@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1087205-rm895615232-01","赤目四十八泷心中未遂 (2003) - IMDb rm895615232","https://m.media-amazon.com/images/M/MV5BMTBkNDcyMjMtZjNiZS00YjBiLTg1NmMtNTZhZmI3NmMyODBkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0400145/mediaviewer/rm895615232/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3437195-rm2625246720-01","Robinson et compagnie (1991) - IMDb rm2625246720","https://m.media-amazon.com/images/M/MV5BYzhjYjc4ZDItZmFhNy00ZmM3LWJhNTItODQzZWMxNWM4Yzc4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0330830/mediaviewer/rm2625246720/","IMDb Official Stills"]];

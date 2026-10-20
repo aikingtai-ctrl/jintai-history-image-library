@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6e1ed4119aeab970-rm1631432962-01","Umibe é Iku Michi (2025) - IMDb rm1631432962","https://m.media-amazon.com/images/M/MV5BNjMxY2MxMDItOTE2MS00MzNhLTkyNTktYzE1NjU0ZjQxZGY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35449385/mediaviewer/rm1631432962/","IMDb Official Stills"]];

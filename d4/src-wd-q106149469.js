@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q106149469-rm1244454657-01","The Siamese Bond (2020) - IMDb rm1244454657","https://m.media-amazon.com/images/M/MV5BOTE2ZGY3MTctODE5YS00NzBkLTliZmMtYjc5YzQ0NDUyNDQwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt13528580/mediaviewer/rm1244454657/","IMDb Official Stills"]];

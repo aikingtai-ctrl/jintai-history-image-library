@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7652963-rm270750976-01","我自己 (1994) - IMDb rm270750976","https://m.media-amazon.com/images/M/MV5BM2MxZDg0Y2QtODdhNy00ZDFiLWJiM2YtNGVmMjYwZGMzNDBlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0111332/mediaviewer/rm270750976/","IMDb Official Stills"]];

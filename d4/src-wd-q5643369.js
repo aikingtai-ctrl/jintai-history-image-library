@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5643369-rm3202891520-01","Halodhia Choraye Baodhan Khai (1987) - IMDb rm3202891520","https://m.media-amazon.com/images/M/MV5BMDRkZDEwYjktMzcwMC00MGFiLTg0MTEtMGY0YjFjYzkzZDAxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0093136/mediaviewer/rm3202891520/","IMDb Official Stills"]];

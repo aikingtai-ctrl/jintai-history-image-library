@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q2411497-rm248000512-01","山姆大叔歷險記 (1970) - IMDb rm248000512","https://m.media-amazon.com/images/M/MV5BNDdkNmFkNzMtZDY1OS00Njg0LTlhYzgtNzg3MjdlYWI2ZGExXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0065751/mediaviewer/rm248000512/","IMDb Official Stills"]];

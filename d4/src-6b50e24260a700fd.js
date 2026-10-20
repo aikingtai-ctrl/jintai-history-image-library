@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6b50e24260a700fd-rm1105255682-01","Atlasul universului (2026) - IMDb rm1105255682","https://m.media-amazon.com/images/M/MV5BZGZjYjRiYWQtZTg0ZS00NjIyLTgyYzEtNTIzMTNkYjY2NTUwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt28084471/mediaviewer/rm1105255682/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1167352-rm3715573248-01","Baker's Bread (1976) - IMDb rm3715573248","https://m.media-amazon.com/images/M/MV5BNWU2YWJiN2QtZTgyMi00MjE2LTg5NTctNjM5OTA1NTZmZjYwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0074245/mediaviewer/rm3715573248/","IMDb Official Stills"]];

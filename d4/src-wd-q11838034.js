@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11838034-rm2539067904-01","Wtorek (2001) - IMDb rm2539067904","https://m.media-amazon.com/images/M/MV5BNjhmYjk4NzItMjEyNC00ZTE1LThjMTQtOTdmMDk2NzdiY2RjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0313793/mediaviewer/rm2539067904/","IMDb Official Stills"]];

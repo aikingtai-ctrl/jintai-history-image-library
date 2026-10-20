@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q12031988-rm1096356609-01","The Melancholic Chicken (1999) - IMDb rm1096356609","https://m.media-amazon.com/images/M/MV5BN2Y0NTk3ZmQtOTc4OC00YzFhLTk3NDEtZjllMzhiZmUzZjQ0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0167245/mediaviewer/rm1096356609/","IMDb Official Stills"]];

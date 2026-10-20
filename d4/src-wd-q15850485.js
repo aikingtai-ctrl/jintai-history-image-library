@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q15850485-rm7746048-01","The Flying Man (1962) - IMDb rm7746048","https://m.media-amazon.com/images/M/MV5BZTY2OGMwYzctYjFjZS00Y2E0LWFiMTQtMzM0OTdlYzg5Yjg1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0475586/mediaviewer/rm7746048/","IMDb Official Stills"]];

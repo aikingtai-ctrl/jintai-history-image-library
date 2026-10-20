@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124822358-rm95266049-01","The Cold Night (1984) - IMDb rm95266049","https://m.media-amazon.com/images/M/MV5BNjc0NjhmODAtNTRhNy00MmQ2LTkzMWEtNzQyODc4ZjM2NGExXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4458202/mediaviewer/rm95266049/","IMDb Official Stills"]];

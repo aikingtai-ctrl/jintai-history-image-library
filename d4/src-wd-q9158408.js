@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q9158408-rm1022826496-01","Apel (1970) - IMDb rm1022826496","https://m.media-amazon.com/images/M/MV5BZWQzODhhODEtZGM3Ny00MWY0LTg4ZmUtNjY2OGI0YjQxZjRhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0402802/mediaviewer/rm1022826496/","IMDb Official Stills"]];

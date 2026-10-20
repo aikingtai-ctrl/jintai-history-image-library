@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q14948601-rm2008030976-01","一代天骄成吉思汗 (1998) - IMDb rm2008030976","https://m.media-amazon.com/images/M/MV5BOTM1YjEzZDAtYTNjNi00ZTA2LThkYjktNDIzYTI3YzRjMmFkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0179191/mediaviewer/rm2008030976/","IMDb Official Stills"]];

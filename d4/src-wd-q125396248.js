@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125396248-rm592583936-01","C.E.O. (2002) - IMDb rm592583936","https://m.media-amazon.com/images/M/MV5BMGFlMjU3NTQtMTgzYi00M2I2LTg2MmItOTBhYTU5ODhhOGFmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0312535/mediaviewer/rm592583936/","IMDb Official Stills"]];

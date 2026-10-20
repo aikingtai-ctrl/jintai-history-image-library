@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4583860-rm3926733312-01","A Year Along the Abandoned Road (1991) - IMDb rm3926733312","https://m.media-amazon.com/images/M/MV5BNWIzMDI0NzQtMmE1ZC00MTBiLWFmNzQtNGQ0OWY2YTk1NGJlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0103301/mediaviewer/rm3926733312/","IMDb Official Stills"]];

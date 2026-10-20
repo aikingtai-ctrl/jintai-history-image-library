@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q10671524-rm4217975552-01","Slaves (2008) - IMDb rm4217975552","https://m.media-amazon.com/images/M/MV5BNDZkMmJlMmUtYmQzMy00ZmU5LTg5NGUtZjI2M2MxYjA1ZTg0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1376723/mediaviewer/rm4217975552/","IMDb Official Stills"]];

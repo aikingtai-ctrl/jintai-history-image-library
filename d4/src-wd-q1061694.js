@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1061694-rm4016121088-01","Chandani - The daughter of the elephant whisperer (2010) - IMDb rm4016121088","https://m.media-amazon.com/images/M/MV5BYzJmMGJjYzAtMTI5Mi00YTA0LWExNWYtOTMwNmVmZDQ1ODVhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1612264/mediaviewer/rm4016121088/","IMDb Official Stills"]];

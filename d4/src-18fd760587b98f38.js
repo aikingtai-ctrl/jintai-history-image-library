@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-18fd760587b98f38-rm1999297794-01","Not a Hero (2026) - IMDb rm1999297794","https://m.media-amazon.com/images/M/MV5BNjk0YzE3NDAtYzczYy00ZjM5LWE2MTUtYzNmODE5ZWZhMGVjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt39371375/mediaviewer/rm1999297794/","IMDb Official Stills"]];

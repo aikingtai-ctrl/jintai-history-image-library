@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q108257780-rm1801751042-01","Francesca (1987) - IMDb rm1801751042","https://m.media-amazon.com/images/M/MV5BNjE4YTM5MjgtYmZlYS00NTRmLThlMWItMmQyODAwYzk2NDk1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0091073/mediaviewer/rm1801751042/","IMDb Official Stills"]];

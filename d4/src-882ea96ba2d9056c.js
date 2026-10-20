@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-882ea96ba2d9056c-rm720125953-01","Uli (2024) - IMDb rm720125953","https://m.media-amazon.com/images/M/MV5BMzk0N2Q4YWEtNWUzYi00NTc1LTkyNTAtMTI5MTQ3YWYwNWJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt30970908/mediaviewer/rm720125953/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q17413061-rm1375226368-01","Dei mjuke hendene (1998) - IMDb rm1375226368","https://m.media-amazon.com/images/M/MV5BNGRkNTQ1ZmEtNDFlMC00MWNhLWJlNDctMmZmM2VlNGEzNGE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0167113/mediaviewer/rm1375226368/","IMDb Official Stills"]];

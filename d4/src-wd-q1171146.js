@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1171146-rm4069452288-01","我們這一班 (2003) - IMDb rm4069452288","https://m.media-amazon.com/images/M/MV5BMjQxODkxMTIxNl5BMl5BanBnXkFtZTgwNzA2MTYwNjE@._V1_.jpg","https://www.imdb.com/title/tt0311141/mediaviewer/rm4069452288/","IMDb Official Stills"]];

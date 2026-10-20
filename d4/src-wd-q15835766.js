@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q15835766-rm317537024-01","Mr. Pascal (1979) - IMDb rm317537024","https://m.media-amazon.com/images/M/MV5BOTEwYTZlZDAtMThlYy00NmQzLTkyMWMtNzZjM2Q2NzhjNzNiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0216010/mediaviewer/rm317537024/","IMDb Official Stills"]];

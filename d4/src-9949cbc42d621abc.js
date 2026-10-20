@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9949cbc42d621abc-rm2004719362-01","Futsu no seikatsu (2025) - IMDb rm2004719362","https://m.media-amazon.com/images/M/MV5BZDM4MWJmNGUtNTE5ZC00NDE3LWI3YTQtNDlmOWM1YWMxNGFjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35405817/mediaviewer/rm2004719362/","IMDb Official Stills"]];

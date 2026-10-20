@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-43dfde68e3573a9e-rm1978877441-01","Un pájaro voló (2024) - IMDb rm1978877441","https://m.media-amazon.com/images/M/MV5BYzFmNTE4ZjktYzY5MC00YzY2LTgwODUtNDk3M2I1M2VhNWRiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt30970585/mediaviewer/rm1978877441/","IMDb Official Stills"]];

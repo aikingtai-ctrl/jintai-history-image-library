@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5101357-rm2315642624-01","Chinthavishtayaya Shyamala (1998) - IMDb rm2315642624","https://m.media-amazon.com/images/M/MV5BNjBkZDcwMjgtMDIwNy00NzcyLTk1OGUtYmIwM2U0ZTY4Y2I4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0377643/mediaviewer/rm2315642624/","IMDb Official Stills"]];

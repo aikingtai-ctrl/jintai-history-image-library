@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d11ef3aba023c890-rm1794393601-01","Khamyazeye bozorg (2024) - IMDb rm1794393601","https://m.media-amazon.com/images/M/MV5BZjkyMjJmZjctMTg1Ni00NWVhLThiM2UtZTg1ODE2MjZmY2ZhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt31016912/mediaviewer/rm1794393601/","IMDb Official Stills"]];

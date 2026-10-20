@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q138329032-rm1903593730-01","Made Of Sugar (2024) - IMDb rm1903593730","https://m.media-amazon.com/images/M/MV5BMTM5OWU0YzUtNGM2Ni00NmIxLWE0N2YtYmM5MDQzM2ZjYjVlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt33775526/mediaviewer/rm1903593730/","IMDb Official Stills"]];

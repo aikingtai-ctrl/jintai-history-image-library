@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3197017-rm3932794881-01","King Kongs Faust (1985) - IMDb rm3932794881","https://m.media-amazon.com/images/M/MV5BZTI1ZmI0NTgtOGY2OC00YTk2LWIxMzEtNWY0ZWJiMDAxYjY1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0087560/mediaviewer/rm3932794881/","IMDb Official Stills"]];

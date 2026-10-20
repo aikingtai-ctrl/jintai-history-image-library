@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125335949-rm160903425-01","Team Spirit (2000) - IMDb rm160903425","https://m.media-amazon.com/images/M/MV5BZmE4ZmMwNTYtYTE5OS00OTZlLTlhMTYtNjJiZmRiZTNhNDQxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0263800/mediaviewer/rm160903425/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4515241-rm4258796288-01","Chekhov's Motifs (2002) - IMDb rm4258796288","https://m.media-amazon.com/images/M/MV5BZDAyNWU1YjQtNTQxNS00NzYwLTk5MTItNWM1YmZiZjY4Zjc5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0321641/mediaviewer/rm4258796288/","IMDb Official Stills"]];

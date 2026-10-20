@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q11983850-rm1811739394-01","Living Amongst Lions (1998) - IMDb rm1811739394","https://m.media-amazon.com/images/M/MV5BZjYyOTRmYjAtYTViMS00ZjcxLWJkMjItYjA4ZTI3NWUxN2QzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0171481/mediaviewer/rm1811739394/","IMDb Official Stills"]];

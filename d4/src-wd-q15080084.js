@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q15080084-rm2835977217-01","Tabarana Kathe (1987) - IMDb rm2835977217","https://m.media-amazon.com/images/M/MV5BYjNiMTcxNjgtMGQzOC00NWI5LTk2NWMtZmNkYzQ0ZjQxZDIwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0232753/mediaviewer/rm2835977217/","IMDb Official Stills"]];

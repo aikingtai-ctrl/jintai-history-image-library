@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q27625646-rm3820013058-01","Der Mörder (1979) - IMDb rm3820013058","https://m.media-amazon.com/images/M/MV5BZThiODUyMmEtYzNkYi00ZGE5LTkxOWQtNDJkOTNmZTFkZjFhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0079602/mediaviewer/rm3820013058/","IMDb Official Stills"]];

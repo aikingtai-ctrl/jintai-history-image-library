@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124365770-rm2562395137-01","Yang Gui Fei (1992) - IMDb rm2562395137","https://m.media-amazon.com/images/M/MV5BZmZhZWNhODgtM2Q5Yy00NWRhLWE2OTQtYWY5Y2QwYmNlYWM4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10261262/mediaviewer/rm2562395137/","IMDb Official Stills"]];

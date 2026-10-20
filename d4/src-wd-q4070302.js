@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4070302-rm2677400832-01","女演员 (2007) - IMDb rm2677400832","https://m.media-amazon.com/images/M/MV5BYmUyY2MzYjktZmI4My00Njc1LWJjOTQtOWE5MzM4MWVjYmI0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1116026/mediaviewer/rm2677400832/","IMDb Official Stills"]];

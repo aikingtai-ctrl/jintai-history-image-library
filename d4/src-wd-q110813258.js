@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q110813258-rm1197469441-01","Farrucas (2021) - IMDb rm1197469441","https://m.media-amazon.com/images/M/MV5BYTg0Yjk3OGEtYzBlZC00N2JkLWEyOGEtYzkwOTZmNGFiM2Q4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12237226/mediaviewer/rm1197469441/","IMDb Official Stills"]];
