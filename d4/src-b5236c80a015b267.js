@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b5236c80a015b267-rm1588826112-01","Abby Singer (2003) - IMDb rm1588826112","https://m.media-amazon.com/images/M/MV5BMTI0MTIwNDg1OV5BMl5BanBnXkFtZTcwOTg0MzU1MQ@@._V1_.jpg","https://www.imdb.com/title/tt0384792/mediaviewer/rm1588826112/","IMDb Official Stills"]];
