@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a6f1d173ef99e991-rm3556605952-01","Living in Emergency (2010) - IMDb rm3556605952","https://m.media-amazon.com/images/M/MV5BMjM0NzMxNDk5N15BMl5BanBnXkFtZTcwODYzNjc2Mw@@._V1_.jpg","https://www.imdb.com/title/tt1294182/mediaviewer/rm3556605952/","IMDb Official Stills"]];

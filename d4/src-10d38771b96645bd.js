@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-10d38771b96645bd-rm459508480-01","The Cross (2009) - IMDb rm459508480","https://m.media-amazon.com/images/M/MV5BMTc1NzA2NDk3MF5BMl5BanBnXkFtZTcwNjI5NTI0Mg@@._V1_.jpg","https://www.imdb.com/title/tt1385869/mediaviewer/rm459508480/","IMDb Official Stills"]];

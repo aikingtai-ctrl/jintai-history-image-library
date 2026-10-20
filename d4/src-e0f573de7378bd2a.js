@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e0f573de7378bd2a-rm3572338176-01","Spoken Word (2010) - IMDb rm3572338176","https://m.media-amazon.com/images/M/MV5BMjIzNDE2NTYwNV5BMl5BanBnXkFtZTcwNjM3OTI5Mg@@._V1_.jpg","https://www.imdb.com/title/tt1212443/mediaviewer/rm3572338176/","IMDb Official Stills"]];

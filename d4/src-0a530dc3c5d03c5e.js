@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0a530dc3c5d03c5e-rm2924985088-01","Sleeping with Charlie Kaufman (2010) - IMDb rm2924985088","https://m.media-amazon.com/images/M/MV5BMTY3ODAzNjgxNV5BMl5BanBnXkFtZTcwOTcyMDg3NA@@._V1_.jpg","https://www.imdb.com/title/tt1597145/mediaviewer/rm2924985088/","IMDb Official Stills"]];

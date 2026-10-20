@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0be9abde6549c0f5-rm3061886464-01","What's the Matter with Kansas? (2010) - IMDb rm3061886464","https://m.media-amazon.com/images/M/MV5BMjMzNjAwMTEyMl5BMl5BanBnXkFtZTcwNzE2Njc1OA@@._V1_.jpg","https://www.imdb.com/title/tt1323977/mediaviewer/rm3061886464/","IMDb Official Stills"]];

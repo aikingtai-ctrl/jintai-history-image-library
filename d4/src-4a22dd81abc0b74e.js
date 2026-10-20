@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4a22dd81abc0b74e-rm2400092928-01","Stonewall Uprising (2010) - IMDb rm2400092928","https://m.media-amazon.com/images/M/MV5BOTI1ODQ1NDI5M15BMl5BanBnXkFtZTcwNDczODU2Mw@@._V1_.jpg","https://www.imdb.com/title/tt1562450/mediaviewer/rm2400092928/","IMDb Official Stills"]];
