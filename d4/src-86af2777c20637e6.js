@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-86af2777c20637e6-rm1184344064-01","The Waiting Room (2012) - IMDb rm1184344064","https://m.media-amazon.com/images/M/MV5BMTQxMDYwMDM2OF5BMl5BanBnXkFtZTcwMzI3MzcyOA@@._V1_.jpg","https://www.imdb.com/title/tt1618399/mediaviewer/rm1184344064/","IMDb Official Stills"]];

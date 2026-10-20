@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-bcd8fcdf2ce281d3-rm4093359360-01","Kumaré (2012) - IMDb rm4093359360","https://m.media-amazon.com/images/M/MV5BMTg2NDcxNTg5OF5BMl5BanBnXkFtZTcwOTUxNjA4Nw@@._V1_.jpg","https://www.imdb.com/title/tt1865425/mediaviewer/rm4093359360/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-dc128d35cbd71f0a-rm3378033664-01","Mansome (2012) - IMDb rm3378033664","https://m.media-amazon.com/images/M/MV5BMTY4NDI3MTM1MF5BMl5BanBnXkFtZTcwMDU3NjU3Nw@@._V1_.jpg","https://www.imdb.com/title/tt2294729/mediaviewer/rm3378033664/","IMDb Official Stills"]];

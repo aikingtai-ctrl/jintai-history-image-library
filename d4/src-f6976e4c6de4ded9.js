@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f6976e4c6de4ded9-rm853982720-01","Carbon Nation (2011) - IMDb rm853982720","https://m.media-amazon.com/images/M/MV5BODgyNjYzOTEwNF5BMl5BanBnXkFtZTcwNzk3Mjc0NQ@@._V1_.jpg","https://www.imdb.com/title/tt1482991/mediaviewer/rm853982720/","IMDb Official Stills"]];
