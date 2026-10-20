@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d659649f572fb5bd-rm2930068736-01","Dear Diary (1996) - IMDb rm2930068736","https://m.media-amazon.com/images/M/MV5BNmEzZTdhMzgtNjg3OS00M2U1LTk3NGYtODU2YzNiM2VkZDQ1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0116058/mediaviewer/rm2930068736/","IMDb Official Stills"]];
