@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7411c72dc7fe5b87-rm1882394880-01","假如我是真的 (1981) - IMDb rm1882394880","https://m.media-amazon.com/images/M/MV5BNjVmMDAwYzQtZTA0Ny00ZmExLWJjZTEtM2IwZjRkZGJmZWNhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0289112/mediaviewer/rm1882394880/","IMDb Official Stills"]];

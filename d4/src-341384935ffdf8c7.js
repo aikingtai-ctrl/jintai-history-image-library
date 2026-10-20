@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-341384935ffdf8c7-rm3549106432-01","必要條件 (1982) - IMDb rm3549106432","https://m.media-amazon.com/images/M/MV5BMGQyMjJjMTctOThlNy00MWE5LTg1YTItZDFkYzllNjZmOTdlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0084123/mediaviewer/rm3549106432/","IMDb Official Stills"]];

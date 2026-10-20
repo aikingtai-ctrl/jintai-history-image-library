@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e14ba9b3f1f0ebe6-rm2645567744-01","AMOUR D’ENFANCE (2001) - IMDb rm2645567744","https://m.media-amazon.com/images/M/MV5BZjE0YWNkM2ItZmY3Yi00NzZhLTllZjYtMWVhMGIyMzJmNDNmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0284848/mediaviewer/rm2645567744/","IMDb Official Stills"]];

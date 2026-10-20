@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3e9f7c210abcfd4f-rm2434323456-01","Cantata de Chile (1976) - IMDb rm2434323456","https://m.media-amazon.com/images/M/MV5BMTg1MzExMDk2M15BMl5BanBnXkFtZTgwOTA3NjkxMTE@._V1_.jpg","https://www.imdb.com/title/tt0072760/mediaviewer/rm2434323456/","IMDb Official Stills"]];

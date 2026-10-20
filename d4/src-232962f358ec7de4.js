@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-232962f358ec7de4-rm920998145-01","黑狐：希特勒 (1962) - IMDb rm920998145","https://m.media-amazon.com/images/M/MV5BNGZjNDUzZDUtOGQwYi00MGMwLTg2ZWItNWU3MmM0M2FmNWI0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0055801/mediaviewer/rm920998145/","IMDb Official Stills"]];

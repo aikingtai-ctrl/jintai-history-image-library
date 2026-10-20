@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a05212e82abd6ab2-rm217703936-01","HISTOIRE D’ADRIEN (1980) - IMDb rm217703936","https://m.media-amazon.com/images/M/MV5BZjMyNWM4MzAtMjliZS00MjVhLThlN2QtMGUzYmU0ZDdjMmE0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0080874/mediaviewer/rm217703936/","IMDb Official Stills"]];

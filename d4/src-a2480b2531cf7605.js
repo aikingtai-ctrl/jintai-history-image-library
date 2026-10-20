@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a2480b2531cf7605-rm4080215553-01","死亡设计 (1947) - IMDb rm4080215553","https://m.media-amazon.com/images/M/MV5BYzk2Y2FjMzUtNzhkMC00YjRiLWIyOTctZGIxNWQwMTczN2YzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0040285/mediaviewer/rm4080215553/","IMDb Official Stills"]];

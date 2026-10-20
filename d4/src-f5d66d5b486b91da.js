@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f5d66d5b486b91da-rm1792544768-01","KNAVE OF HEARTS (1954) - IMDb rm1792544768","https://m.media-amazon.com/images/M/MV5BMTM5YzFlZGItZGM2NC00YjU5LWE1MDItMjU3ZDBlY2UyYzY1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0047243/mediaviewer/rm1792544768/","IMDb Official Stills"]];

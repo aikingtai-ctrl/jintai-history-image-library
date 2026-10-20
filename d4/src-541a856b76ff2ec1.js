@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-541a856b76ff2ec1-rm3929617152-01","自己的歷程 (1968) - IMDb rm3929617152","https://m.media-amazon.com/images/M/MV5BZDZlODdkZjktODNhZC00ZmM1LWFjNTgtMWY2YWE3Mjg1YWZhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0063160/mediaviewer/rm3929617152/","IMDb Official Stills"]];

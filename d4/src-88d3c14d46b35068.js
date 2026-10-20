@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-88d3c14d46b35068-rm2783122176-01","The Fiancee (1980) - IMDb rm2783122176","https://m.media-amazon.com/images/M/MV5BYmM1ZmUxNTEtOGZiNS00NDg3LTgzOWMtMTk4NTIyNWU2ZmU0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0081711/mediaviewer/rm2783122176/","IMDb Official Stills"]];

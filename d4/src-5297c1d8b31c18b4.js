@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5297c1d8b31c18b4-rm304028160-01","人生路標 (1970) - IMDb rm304028160","https://m.media-amazon.com/images/M/MV5BODhkMzU2MmEtZjRmOS00MDJiLTg4YjktNzhiMjk2ZWY3YTc0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0068016/mediaviewer/rm304028160/","IMDb Official Stills"]];

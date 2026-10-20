@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7c42d01b89c0578d-rm1434932481-01","沙漠胜利 (1943) - IMDb rm1434932481","https://m.media-amazon.com/images/M/MV5BNWFmM2Q4Y2MtOTUwYi00MmVkLTk5NTYtZmIyNDNiNTkyZjg3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0035796/mediaviewer/rm1434932481/","IMDb Official Stills"]];

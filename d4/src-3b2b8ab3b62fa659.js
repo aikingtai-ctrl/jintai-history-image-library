@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3b2b8ab3b62fa659-rm4237696256-01","TUEUR A GAGES (1998) - IMDb rm4237696256","https://m.media-amazon.com/images/M/MV5BZTEwZTdmZDEtNWY0MC00MWUzLWFlOTQtNGZkNzRjYWUwOGRlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0157124/mediaviewer/rm4237696256/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-fe3335d2e00a26f8-rm2257261568-01","吾土吾民 (1975) - IMDb rm2257261568","https://m.media-amazon.com/images/M/MV5BMjQwZWViN2QtMDlhOC00MTFjLWFlNDctMmYwNjBjOWI1ZjQ0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0314902/mediaviewer/rm2257261568/","IMDb Official Stills"]];

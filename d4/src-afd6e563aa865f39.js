@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-afd6e563aa865f39-rm4206695168-01","MUZI BEZ KIDEL (1946) - IMDb rm4206695168","https://m.media-amazon.com/images/M/MV5BNTJmZDk2OTUtOTcyNi00Yjk1LThmZDQtMjVmZjdkN2IxODM0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0038760/mediaviewer/rm4206695168/","IMDb Official Stills"]];

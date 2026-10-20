@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-323138bb872949bd-rm1223088897-01","烏迪的破曉 (1949) - IMDb rm1223088897","https://m.media-amazon.com/images/M/MV5BNzExZjM0MTYtNjBmMC00ZTdiLWExZWEtMmUzNWQ4YTA4YjdjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0041283/mediaviewer/rm1223088897/","IMDb Official Stills"]];

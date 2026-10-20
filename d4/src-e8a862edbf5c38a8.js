@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e8a862edbf5c38a8-rm3720615936-01","老莫的第二個春天 (1984) - IMDb rm3720615936","https://m.media-amazon.com/images/M/MV5BZDRlZDIwOTgtYTYzOC00NTEzLTk3YWQtZTdhY2IzOWJiN2ExXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0183390/mediaviewer/rm3720615936/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8be088f462b4ee58-rm3360371456-01","阿圖.魯賓斯坦，對生活的熱愛 (1969) - IMDb rm3360371456","https://m.media-amazon.com/images/M/MV5BZmJjNzQ5ZjQtYzVmNy00NDUxLTg4ODktYTk0OWE3OThjODMxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0064043/mediaviewer/rm3360371456/","IMDb Official Stills"]];

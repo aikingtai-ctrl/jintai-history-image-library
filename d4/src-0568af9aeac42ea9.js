@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0568af9aeac42ea9-rm4021166592-01","電梯 (1978) - IMDb rm4021166592","https://m.media-amazon.com/images/M/MV5BNWE3ZjY5YzctY2MwOS00NzA4LWIwNzQtNmMwOGE4ZTNjY2FjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0425756/mediaviewer/rm4021166592/","IMDb Official Stills"]];

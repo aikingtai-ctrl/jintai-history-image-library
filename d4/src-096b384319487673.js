@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-096b384319487673-rm408686592-01","找尋飢餓 (1981) - IMDb rm408686592","https://m.media-amazon.com/images/M/MV5BNWMxYmZkOTUtZWJhNi00MmYzLWExZjEtNjgzZDg5NGJkOGM4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0080341/mediaviewer/rm408686592/","IMDb Official Stills"]];

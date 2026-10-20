@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1b50651c15c94437-rm1502323201-01","Founding Ceremony (1989) - IMDb rm1502323201","https://m.media-amazon.com/images/M/MV5BMGNjOTAzZWUtOTBlMC00YmNmLTk1YmYtNTJiMjc4Y2MyYjc0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0333690/mediaviewer/rm1502323201/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e8bfddb129064d88-rm154307585-01","大衛 (1979) - IMDb rm154307585","https://m.media-amazon.com/images/M/MV5BYzFkYzQ5NDMtZDQyOS00MzI2LWE2NGYtZjY4Njg5ZWY3YzA5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt9869222/mediaviewer/rm154307585/","IMDb Official Stills"]];

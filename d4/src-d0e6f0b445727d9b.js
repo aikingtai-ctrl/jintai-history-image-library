@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d0e6f0b445727d9b-rm1310844160-01","汪洋中的一條船 (1978) - IMDb rm1310844160","https://m.media-amazon.com/images/M/MV5BNzAzOGM3YWYtNTg5Ny00ZDhkLTkwY2MtYWE1ZmFiNTBmNGNkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0079277/mediaviewer/rm1310844160/","IMDb Official Stills"]];

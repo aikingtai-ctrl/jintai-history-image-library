@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-62bd4a73405446ce-rm182313984-01","PIRAVI (1989) - IMDb rm182313984","https://m.media-amazon.com/images/M/MV5BNGI0ZDExZWUtZTM4NS00ZTMwLWIwNzAtMjAzMTkyNWRkMjU0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0095872/mediaviewer/rm182313984/","IMDb Official Stills"]];

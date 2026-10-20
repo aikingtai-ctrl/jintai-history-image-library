@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e3245d2ea7ef5b04-rm2115720192-01","美國青年 (1967) - IMDb rm2115720192","https://m.media-amazon.com/images/M/MV5BZTQxYzRiZmItY2E3Zi00ZWNhLTg1ZDMtMzQ4ZmEzMDFhMGZlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0062515/mediaviewer/rm2115720192/","IMDb Official Stills"]];

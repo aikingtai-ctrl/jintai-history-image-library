@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e4182c2878778016-rm3363995650-01","SKUGGOR OOER SNON (1946) - IMDb rm3363995650","https://m.media-amazon.com/images/M/MV5BOTQ0MGE4MjctYjk5Yi00ZmVhLWIwZTgtOTU2ODIyNGQ2NjVjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0337182/mediaviewer/rm3363995650/","IMDb Official Stills"]];

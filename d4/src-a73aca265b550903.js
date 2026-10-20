@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a73aca265b550903-rm888017408-01","女人中的陌生人 (1985) - IMDb rm888017408","https://m.media-amazon.com/images/M/MV5BNWU4OGEwZDMtZmI5ZS00MmQ0LWE5YTktYmNjYzJjMDRmZmFiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0089169/mediaviewer/rm888017408/","IMDb Official Stills"]];

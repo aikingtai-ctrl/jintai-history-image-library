@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-59923b431d359ed8-rm1285894912-01","家在台北 (1970) - IMDb rm1285894912","https://m.media-amazon.com/images/M/MV5BMDBjM2E5ZmQtYzdkYy00ZDFiLWE3NGYtNDA4N2NjNGE1MDkyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0978620/mediaviewer/rm1285894912/","IMDb Official Stills"]];

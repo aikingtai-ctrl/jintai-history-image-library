@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ec8844f20b8cb474-rm17600001-01","戴眼鏡的人 (1969) - IMDb rm17600001","https://m.media-amazon.com/images/M/MV5BZTRiZWRjNmMtMzVjZi00NTYyLWEzNTAtNmYwZTk4ODc4MzUyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0065058/mediaviewer/rm17600001/","IMDb Official Stills"]];

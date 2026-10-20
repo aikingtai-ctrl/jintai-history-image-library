@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8ab6bd405d6135b0-rm1548289280-01","早安台北 (1979) - IMDb rm1548289280","https://m.media-amazon.com/images/M/MV5BMzk1MjEwMzktMzcwZS00YjM5LTlmYTgtNzA4ZWNhMGI0NjEzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0314939/mediaviewer/rm1548289280/","IMDb Official Stills"]];

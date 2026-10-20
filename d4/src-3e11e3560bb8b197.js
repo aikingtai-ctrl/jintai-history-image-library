@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3e11e3560bb8b197-rm3337698048-01","舒梅特琳恩 (1988) - IMDb rm3337698048","https://m.media-amazon.com/images/M/MV5BZDBkZTI3YzAtNzc2YS00NTliLTljNTQtYTAwZjRjYWE5OWUzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0096052/mediaviewer/rm3337698048/","IMDb Official Stills"]];

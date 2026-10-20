@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3ce606fbd30b623b-rm2846738688-01","列夫·托尔斯泰 (1984) - IMDb rm2846738688","https://m.media-amazon.com/images/M/MV5BMTc0MzIxNjU0M15BMl5BanBnXkFtZTgwNzUyMTM2MTE@._V1_.jpg","https://www.imdb.com/title/tt0087615/mediaviewer/rm2846738688/","IMDb Official Stills"]];

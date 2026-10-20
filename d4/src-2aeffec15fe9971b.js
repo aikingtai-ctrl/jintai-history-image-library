@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2aeffec15fe9971b-rm1188175360-01","少数勇敢者 (1965) - IMDb rm1188175360","https://m.media-amazon.com/images/M/MV5BNmFjMGY5ZmItYjE3Yi00OWExLWI2NjctZDM2ZGNmZGNhYjQxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0063316/mediaviewer/rm1188175360/","IMDb Official Stills"]];

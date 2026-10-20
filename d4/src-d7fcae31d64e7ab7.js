@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d7fcae31d64e7ab7-rm1960407552-01","DADDY’S GIRL (2001) - IMDb rm1960407552","https://m.media-amazon.com/images/M/MV5BNjllMmRmMjUtYTgyYy00Y2UyLWI3MTMtYjE0ZWNlYTIxZDlhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0283301/mediaviewer/rm1960407552/","IMDb Official Stills"]];

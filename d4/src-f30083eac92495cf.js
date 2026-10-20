@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f30083eac92495cf-rm2144621569-01","無煙不起火 (1973) - IMDb rm2144621569","https://m.media-amazon.com/images/M/MV5BMTY0YWYxYTctOGY3MS00NWU1LWI0ZTYtMWUxZTliYjJjNzJlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0158475/mediaviewer/rm2144621569/","IMDb Official Stills"]];

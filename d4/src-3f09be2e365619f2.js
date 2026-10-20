@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3f09be2e365619f2-rm1220797696-01","MARANA SIMHASANAM (1999) - IMDb rm1220797696","https://m.media-amazon.com/images/M/MV5BNmI5MDMxYzQtNWI3Ny00OTE5LTkwYWItMjAwYmVjMTg3NTczXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0200838/mediaviewer/rm1220797696/","IMDb Official Stills"]];
