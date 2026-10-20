@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-a-borrowed-life-1994-rm3799912704-01","多桑 (1994) - IMDb rm3799912704","https://m.media-amazon.com/images/M/MV5BODIxMTE1NDItNzMwMS00OWJjLTk5YWYtYzI5NjYyYzY0ODgwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0109691/mediaviewer/rm3799912704/","IMDb Official Stills"]];

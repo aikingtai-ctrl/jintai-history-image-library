@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-summer-snow-1995-rm1764812544-01","女人，四十。 (1995) - IMDb rm1764812544","https://m.media-amazon.com/images/M/MV5BOWIwMWE1ZGMtMmVjZS00ODQ4LTk4OGYtOWZkMmU1NmNjYzI1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0111767/mediaviewer/rm1764812544/","IMDb Official Stills"]];

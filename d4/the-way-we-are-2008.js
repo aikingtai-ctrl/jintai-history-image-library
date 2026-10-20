@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-the-way-we-are-2008-rm1949361920-01","天水围的日与夜 (2008) - IMDb rm1949361920","https://m.media-amazon.com/images/M/MV5BMjkyMDA2YmQtYTUzYy00NTJkLWFkYWYtYTU5MzdjZmRhYWFiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1233499/mediaviewer/rm1949361920/","IMDb Official Stills"]];

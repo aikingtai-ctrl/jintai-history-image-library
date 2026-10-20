@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-homecoming-1984-rm3697787904-01","似水流年 (1984) - IMDb rm3697787904","https://m.media-amazon.com/images/M/MV5BMTkyNzc2MDg0Nl5BMl5BanBnXkFtZTgwODUxMTc3MjE@._V1_.jpg","https://www.imdb.com/title/tt0088126/mediaviewer/rm3697787904/","IMDb Official Stills"]];

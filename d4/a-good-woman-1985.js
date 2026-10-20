@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-a-good-woman-1985-rm4131504898-01","良家妇女 (1985) - IMDb rm4131504898","https://m.media-amazon.com/images/M/MV5BMTBkZDY3YWYtYWI1My00N2ZjLTk0ZGEtOTA4NTZjM2MwNzcwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0325731/mediaviewer/rm4131504898/","IMDb Official Stills"]];
