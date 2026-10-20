@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-lotus-lantern-1999-rm2418809088-01","宝莲灯 (1999) - IMDb rm2418809088","https://m.media-amazon.com/images/M/MV5BNTZiMjFlZWUtYjExMC00NDczLTkzOTEtMjI1ZDUzZmJjZmIwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0262264/mediaviewer/rm2418809088/","IMDb Official Stills"]];

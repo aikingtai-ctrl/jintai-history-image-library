@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-a-flower-in-the-raining-night-1983-rm1071739136-01","看海的日子 (1983) - IMDb rm1071739136","https://m.media-amazon.com/images/M/MV5BYjc2NTg5NjQtOWYwMy00ZWMzLWEwMWMtZDI0YTc2N2NkOTcyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0491008/mediaviewer/rm1071739136/","IMDb Official Stills"]];

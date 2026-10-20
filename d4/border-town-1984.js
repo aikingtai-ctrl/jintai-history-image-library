@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-border-town-1984-rm280043008-01","边城 (1984) - IMDb rm280043008","https://m.media-amazon.com/images/M/MV5BYzZmOTc1NGUtZjIxNi00Y2FhLWI2ZDQtNjhhZTJmZDhhMmJlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0086878/mediaviewer/rm280043008/","IMDb Official Stills"]];

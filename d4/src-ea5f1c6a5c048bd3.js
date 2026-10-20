@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ea5f1c6a5c048bd3-rm1008540160-01","Paraguayan Hammock (2006) - IMDb rm1008540160","https://m.media-amazon.com/images/M/MV5BOTI0NzgxYzEtN2ZhZi00MGE0LTkzNjYtYjQ2ZTViN2I2NmE2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0482987/mediaviewer/rm1008540160/","IMDb Official Stills"]];

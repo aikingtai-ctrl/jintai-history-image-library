@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-ah-fei-1984-rm140013568-01","油麻菜籽 (1984) - IMDb rm140013568","https://m.media-amazon.com/images/M/MV5BMTIyNmY3OWUtNTM0NC00Nzc1LWJmYjUtYTMwZDAxM2QwMWQxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0337507/mediaviewer/rm140013568/","IMDb Official Stills"]];

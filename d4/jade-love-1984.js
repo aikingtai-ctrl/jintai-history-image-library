@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-jade-love-1984-rm2550870528-01","玉卿嫂 (1984) - IMDb rm2550870528","https://m.media-amazon.com/images/M/MV5BZTgzM2I1NjEtMzE2OS00YTA3LTliNWUtMzU2YjFmN2VlYzljXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1587888/mediaviewer/rm2550870528/","IMDb Official Stills"]];

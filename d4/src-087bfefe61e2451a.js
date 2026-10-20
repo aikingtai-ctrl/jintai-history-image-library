@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-087bfefe61e2451a-rm2045573888-01","Modern Life (2008) - IMDb rm2045573888","https://m.media-amazon.com/images/M/MV5BMTc1ODcxOTEzNl5BMl5BanBnXkFtZTgwMTQ4NzkwMzE@._V1_.jpg","https://www.imdb.com/title/tt0881310/mediaviewer/rm2045573888/","IMDb Official Stills"]];
