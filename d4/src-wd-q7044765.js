@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7044765-rm313333504-01","No Picnic (1986) - IMDb rm313333504","https://m.media-amazon.com/images/M/MV5BYmQwYTJkYTctNjRmOS00ZjFjLWI0NjEtOTgzMTk3ODY0ODdlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0174119/mediaviewer/rm313333504/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q30203582-rm2421734657-01","The Making of Monsters (1991) - IMDb rm2421734657","https://m.media-amazon.com/images/M/MV5BZTllM2VmM2MtY2I4NS00ZjBhLWFiMzItMWE0MzZlOTQ5NDdjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0095571/mediaviewer/rm2421734657/","IMDb Official Stills"]];

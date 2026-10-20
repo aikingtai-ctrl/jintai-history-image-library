@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d2054c6406ab6f2d-rm3174978561-01","Still Alice (2015) - IMDb rm3174978561","https://m.media-amazon.com/images/M/MV5BNmMxZjczYmEtYTZmNi00MTc5LWI2ODYtMWUyZjAwZDI0ODZkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6132934/mediaviewer/rm3174978561/","IMDb Official Stills"]];

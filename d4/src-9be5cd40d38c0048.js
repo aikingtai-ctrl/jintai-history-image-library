@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9be5cd40d38c0048-rm28257536-01","Walls of Fire (1971) - IMDb rm28257536","https://m.media-amazon.com/images/M/MV5BYzA1YjVlZWUtMGM0Yi00NzIyLTlkYzItZTAwZWYwZjIxMzAyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0067960/mediaviewer/rm28257536/","IMDb Official Stills"]];

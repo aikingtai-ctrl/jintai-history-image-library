@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c2cfa2f60216c84b-rm4077070337-01","The Revenant (2016) - IMDb rm4077070337","https://m.media-amazon.com/images/M/MV5BZmZiOWYyYTItOTQwMy00YzZiLTg2OGMtZTcyZDFlOTMzODcxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27426848/mediaviewer/rm4077070337/","IMDb Official Stills"]];

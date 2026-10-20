@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4820497-rm2468639488-01","August 15th (2008) - IMDb rm2468639488","https://m.media-amazon.com/images/M/MV5BYTY5MGZhODgtYWY3MS00OGFjLWFmN2ItMjI2YjU5NDU0NmU2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1157608/mediaviewer/rm2468639488/","IMDb Official Stills"]];

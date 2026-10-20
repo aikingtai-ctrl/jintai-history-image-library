@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d8eb7f7fe396862f-rm1405947904-01","Europa Europa (1992) - IMDb rm1405947904","https://m.media-amazon.com/images/M/MV5BYmFhNjE5YTItMTBkMS00NzJhLWE5M2EtYzMxMzRjZjU1YzYxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0104209/mediaviewer/rm1405947904/","IMDb Official Stills"]];

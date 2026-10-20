@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q86443992-rm2457896705-01","发现的那一年 (2020) - IMDb rm2457896705","https://m.media-amazon.com/images/M/MV5BYTU5MzA3NTYtNGVmYi00OGY5LTk1ZmItYzNiNzY3NzcyYjAyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11572530/mediaviewer/rm2457896705/","IMDb Official Stills"]];

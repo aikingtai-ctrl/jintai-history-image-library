@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1291260-rm2394395136-01","Educating Peter (1992) - IMDb rm2394395136","https://m.media-amazon.com/images/M/MV5BMjA3OTExMTI5MV5BMl5BanBnXkFtZTcwNjM4NTMzMQ@@._V1_.jpg","https://www.imdb.com/title/tt0104167/mediaviewer/rm2394395136/","IMDb Official Stills"]];

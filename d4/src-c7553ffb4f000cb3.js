@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c7553ffb4f000cb3-rm1710214658-01","SILENT VOICES (2026) - IMDb rm1710214658","https://m.media-amazon.com/images/M/MV5BZjBmOWZiZDktYjEzZi00NTZhLTk2OWQtZmI4ZWM0ZDAxMTRmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt42029134/mediaviewer/rm1710214658/","IMDb Official Stills"]];

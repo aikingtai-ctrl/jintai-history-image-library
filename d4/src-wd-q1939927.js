@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1939927-rm1697857280-01","珍貴影像 (1986) - IMDb rm1697857280","https://m.media-amazon.com/images/M/MV5BZjViYmRmZTgtOTViMy00ODNmLTg5ZDItYzkwZmE0NWFhODY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0091787/mediaviewer/rm1697857280/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q2576914-rm560231168-01","You Don't Have to Die (1988) - IMDb rm560231168","https://m.media-amazon.com/images/M/MV5BNDVjZDI3MmQtMjYzMi00MzM1LWFhYmQtY2M2NjdjODZlNzEyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0096484/mediaviewer/rm560231168/","IMDb Official Stills"]];

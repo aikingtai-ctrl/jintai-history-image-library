@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q21041538-rm3188197376-01","¡Qué vecinos tan animales! (1998) - IMDb rm3188197376","https://m.media-amazon.com/images/M/MV5BY2QzMTMxNGYtMTg2ZC00ZmY0LTg3NmEtNWM3MzAzMzE0N2JjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0233001/mediaviewer/rm3188197376/","IMDb Official Stills"]];

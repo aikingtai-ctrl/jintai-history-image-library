@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q48674148-rm490022912-01","Samsaram (1990) - IMDb rm490022912","https://m.media-amazon.com/images/M/MV5BNGE4OTMyYWQtMmUzZS00ZTJjLTkzYTAtNzI0YmU2NjI3ZDAxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0123254/mediaviewer/rm490022912/","IMDb Official Stills"]];

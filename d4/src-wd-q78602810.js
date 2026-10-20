@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q78602810-rm3609500928-01","Our Stork (2000) - IMDb rm3609500928","https://m.media-amazon.com/images/M/MV5BMTkzOTU4NTY5M15BMl5BanBnXkFtZTcwOTgyNzAzMQ@@._V1_.jpg","https://www.imdb.com/title/tt0273811/mediaviewer/rm3609500928/","IMDb Official Stills"]];

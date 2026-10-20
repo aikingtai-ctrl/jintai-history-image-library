@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q73311269-rm2357796608-01","La leyenda de Balthasar el Castrado (1995) - IMDb rm2357796608","https://m.media-amazon.com/images/M/MV5BZjAyMDE3NjItYzkyMS00ZGFjLWIzNDQtYTFlOTZhOWZiMjJkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0113648/mediaviewer/rm2357796608/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q59403437-rm1391791872-01","Paths in the Night (1999) - IMDb rm1391791872","https://m.media-amazon.com/images/M/MV5BMjQ3ZDYxMGYtZTljYi00NWVkLWJlOGUtYjlmN2RjYThjNTNlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0204736/mediaviewer/rm1391791872/","IMDb Official Stills"]];

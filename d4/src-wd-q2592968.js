@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q2592968-rm275018496-01","女人－為了美國，為了世界 (1986) - IMDb rm275018496","https://m.media-amazon.com/images/M/MV5BZjQ4Mjc0ZDAtYjM5NS00ODI2LWEyOGUtZTIxZGYwY2EwNDJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0092235/mediaviewer/rm275018496/","IMDb Official Stills"]];

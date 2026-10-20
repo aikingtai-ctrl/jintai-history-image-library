@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1113247-rm2179414016-01","好奇害死猫 (2006) - IMDb rm2179414016","https://m.media-amazon.com/images/M/MV5BNjE0Yzk3ZTYtYTQzZC00NGM5LTg1MmEtNjI0NTk4YmI1ZDQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0805513/mediaviewer/rm2179414016/","IMDb Official Stills"]];

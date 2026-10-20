@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q12261336-rm3497563136-01","The Island of the Crab (2000) - IMDb rm3497563136","https://m.media-amazon.com/images/M/MV5BMTgxMjU3MzQ2NV5BMl5BanBnXkFtZTcwMDU1MDY5MQ@@._V1_.jpg","https://www.imdb.com/title/tt0276226/mediaviewer/rm3497563136/","IMDb Official Stills"]];

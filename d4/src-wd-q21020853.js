@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q21020853-rm2417660416-01","沃伊采克 (1994) - IMDb rm2417660416","https://m.media-amazon.com/images/M/MV5BMTI4MTE1NDAxNF5BMl5BanBnXkFtZTcwNzM4ODE0MQ@@._V1_.jpg","https://www.imdb.com/title/tt0111749/mediaviewer/rm2417660416/","IMDb Official Stills"]];

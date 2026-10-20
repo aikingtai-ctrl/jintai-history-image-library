@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-94653c016040facb-rm850932224-01","Adaptation (2003) - IMDb rm850932224","https://m.media-amazon.com/images/M/MV5BZTRhYWU0ZTUtNDJkYS00NjMwLWE5YjQtNzdiMDAyY2JmZGMzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6574432/mediaviewer/rm850932224/","IMDb Official Stills"]];

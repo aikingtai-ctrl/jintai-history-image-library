@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q71064043-rm1147084288-01","Perturbado (1993) - IMDb rm1147084288","https://m.media-amazon.com/images/M/MV5BOGM4MThmMTItZDFjYS00ODAyLTkxNGUtZjVmNWQ2YTYyNWUxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0107814/mediaviewer/rm1147084288/","IMDb Official Stills"]];

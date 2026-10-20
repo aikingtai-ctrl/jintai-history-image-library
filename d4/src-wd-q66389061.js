@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q66389061-rm3452654592-01","Babooska (2005) - IMDb rm3452654592","https://m.media-amazon.com/images/M/MV5BNjg4YTlkYzItYjVlYS00NWJlLTkzZTYtYmYwNWNkOWE1NDM4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0783667/mediaviewer/rm3452654592/","IMDb Official Stills"]];

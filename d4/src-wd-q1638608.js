@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1638608-rm486617856-01","残疾画家 (1999) - IMDb rm486617856","https://m.media-amazon.com/images/M/MV5BY2E0M2Y5MDktZTA3Ny00NGMxLTg3M2EtYzVhYTgxNGNiY2M2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0239528/mediaviewer/rm486617856/","IMDb Official Stills"]];

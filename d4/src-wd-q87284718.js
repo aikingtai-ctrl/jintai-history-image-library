@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q87284718-rm3548298241-01","Los niños del Nepal (2002) - IMDb rm3548298241","https://m.media-amazon.com/images/M/MV5BN2RmYzYwZmYtMTY1OC00NzA1LWFjNTYtMjU2YmViNzVlZDE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0474833/mediaviewer/rm3548298241/","IMDb Official Stills"]];

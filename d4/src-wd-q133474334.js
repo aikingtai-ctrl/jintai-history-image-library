@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q133474334-rm2632613376-01","Mistertao (1988) - IMDb rm2632613376","https://m.media-amazon.com/images/M/MV5BZGVlOGVlMTMtNWRlZC00OTQ0LWJlMjMtMzk3MWQzZDBjOTY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0124009/mediaviewer/rm2632613376/","IMDb Official Stills"]];

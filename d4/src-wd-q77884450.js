@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q77884450-rm1729597953-01","Fight Girl (2018) - IMDb rm1729597953","https://m.media-amazon.com/images/M/MV5BY2U1Mzc1OTYtYmM5My00Njc5LTkxOGQtMzZjZjk0NWM1NDY2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10720940/mediaviewer/rm1729597953/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q300509-rm1777774848-01","A Note of Triumph: The Golden Age of Norman Corwin (2005) - IMDb rm1777774848","https://m.media-amazon.com/images/M/MV5BMjY1MTc2MzcyNV5BMl5BanBnXkFtZTcwMTQzOTkyNw@@._V1_.jpg","https://www.imdb.com/title/tt0491795/mediaviewer/rm1777774848/","IMDb Official Stills"]];

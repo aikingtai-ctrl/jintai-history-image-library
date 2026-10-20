@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q77850682-rm3871474688-01","The Man Who Loves Gary Lineker (1993) - IMDb rm3871474688","https://m.media-amazon.com/images/M/MV5BZjdmYTNlZjUtMDkyNS00MGU0LThjZTItMzlmZmNhMTkxN2IzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0145001/mediaviewer/rm3871474688/","IMDb Official Stills"]];

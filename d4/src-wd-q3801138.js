@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3801138-rm592648704-01","A Tale of the Wind (1988) - IMDb rm592648704","https://m.media-amazon.com/images/M/MV5BZTU4YmJlZDctZTQzOS00MWIwLWFiMTgtMjVhNTBiOTgxOWQ4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0096337/mediaviewer/rm592648704/","IMDb Official Stills"]];

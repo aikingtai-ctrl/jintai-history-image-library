@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q9367519-rm1102439680-01","Hear My Cry (1991) - IMDb rm1102439680","https://m.media-amazon.com/images/M/MV5BYTk5M2ExMTQtYTZhOC00OGI2LTg4MzMtNmQyYzg5NTAxMWVjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0128804/mediaviewer/rm1102439680/","IMDb Official Stills"]];

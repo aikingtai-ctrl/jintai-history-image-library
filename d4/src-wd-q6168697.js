@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q6168697-rm3146785280-01","Je t'aime John Wayne (2000) - IMDb rm3146785280","https://m.media-amazon.com/images/M/MV5BMGI0Y2IyNWItMmFmZS00NWU5LTk3MzItYTZmNjRmYzdhMDQxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0277050/mediaviewer/rm3146785280/","IMDb Official Stills"]];

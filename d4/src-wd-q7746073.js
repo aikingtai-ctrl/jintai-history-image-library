@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7746073-rm1156303361-01","The Last Supper (1994) - IMDb rm1156303361","https://m.media-amazon.com/images/M/MV5BYjUyNTZlMDQtNjI2NS00M2RlLTljY2ItN2UzM2UxNTEyMTE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0110310/mediaviewer/rm1156303361/","IMDb Official Stills"]];

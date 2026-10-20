@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q6945486-rm2195448832-01","奇蹟的夏天 (2006) - IMDb rm2195448832","https://m.media-amazon.com/images/M/MV5BZDZmOTgxM2UtYTg3My00YzQ2LWE5OTQtMDg1ZjI3ODk5MTRjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1006945/mediaviewer/rm2195448832/","IMDb Official Stills"]];

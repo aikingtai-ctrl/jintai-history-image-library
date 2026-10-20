@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7043319-rm580621056-01","第二號 (2006) - IMDb rm580621056","https://m.media-amazon.com/images/M/MV5BMjE0NTAzNTgxM15BMl5BanBnXkFtZTcwNDIwNTk0MQ@@._V1_.jpg","https://www.imdb.com/title/tt0452345/mediaviewer/rm580621056/","IMDb Official Stills"]];

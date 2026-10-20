@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5824894-rm2464100352-01","El enigma del chico croqueta (2004) - IMDb rm2464100352","https://m.media-amazon.com/images/M/MV5BNzQ2MDkxM2UtNzU0Ni00NWM1LWJiMWYtOTJlZTI0MGY0OTE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4121616/mediaviewer/rm2464100352/","IMDb Official Stills"]];

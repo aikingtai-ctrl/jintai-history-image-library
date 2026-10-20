@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5765903-rm3680377344-01","Chevrolet (1997) - IMDb rm3680377344","https://m.media-amazon.com/images/M/MV5BN2YyNDljMzAtOWVmZC00YWE5LTgwZGYtYWEzMjQ4MWZhYTllXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0136753/mediaviewer/rm3680377344/","IMDb Official Stills"]];

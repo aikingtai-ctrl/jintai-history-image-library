@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q90545563-rm1725009153-01","盛夏汁愛 (2019) - IMDb rm1725009153","https://m.media-amazon.com/images/M/MV5BOTM3OWU3ZDUtMGZjMS00MDNhLWE2ZDYtZjIwNGYxOWNiNDg0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt9302096/mediaviewer/rm1725009153/","IMDb Official Stills"]];

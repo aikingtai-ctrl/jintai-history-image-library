@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q3352070-rm1298018560-01","Omnibus (1992) - IMDb rm1298018560","https://m.media-amazon.com/images/M/MV5BMjdkYTRiNjUtYmFkMy00OGJmLTlkNGQtYjRkZTFlZjI3Y2U2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0105051/mediaviewer/rm1298018560/","IMDb Official Stills"]];

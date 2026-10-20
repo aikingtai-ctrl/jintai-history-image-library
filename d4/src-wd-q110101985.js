@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q110101985-rm571863041-01","誰在阻止我們 (2021) - IMDb rm571863041","https://m.media-amazon.com/images/M/MV5BYzc1MjU0ODctOWI3NS00NTc5LWE3Y2UtODYwYTVjNTY4N2U4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt15398166/mediaviewer/rm571863041/","IMDb Official Stills"]];

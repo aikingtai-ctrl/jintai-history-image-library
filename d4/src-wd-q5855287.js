@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5855287-rm1082047489-01","Lalia (1999) - IMDb rm1082047489","https://m.media-amazon.com/images/M/MV5BNjMxZjQxMDEtZjJlOS00ZDliLWFlNTgtMmU5NTcwMDMyODU2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0231947/mediaviewer/rm1082047489/","IMDb Official Stills"]];

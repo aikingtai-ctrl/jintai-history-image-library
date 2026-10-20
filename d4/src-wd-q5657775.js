@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5657775-rm1594693632-01","Goodbye From the Heart (2000) - IMDb rm1594693632","https://m.media-amazon.com/images/M/MV5BZGMzMWFjMTgtMGJlOC00NzQ0LWJjY2EtZTRiZGQ0MzA0NjE2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0256583/mediaviewer/rm1594693632/","IMDb Official Stills"]];

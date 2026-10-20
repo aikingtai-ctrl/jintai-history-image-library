@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q78517080-rm1568652289-01","Confluencias (1998) - IMDb rm1568652289","https://m.media-amazon.com/images/M/MV5BY2Y0MzE5ZGMtYzE3MC00YmZmLWI4MDItZTk1YjEwYjI5MGI4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0231388/mediaviewer/rm1568652289/","IMDb Official Stills"]];

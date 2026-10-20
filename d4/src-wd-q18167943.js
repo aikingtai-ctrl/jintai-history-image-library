@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q18167943-rm1298862848-01","Live Bait (1995) - IMDb rm1298862848","https://m.media-amazon.com/images/M/MV5BZGJiNDk2MWQtMDk3NC00NWJhLTk4MGMtMWU2ZTFmMjA1NTNkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0113673/mediaviewer/rm1298862848/","IMDb Official Stills"]];

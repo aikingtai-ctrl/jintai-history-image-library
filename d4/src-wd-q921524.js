@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q921524-rm1866993664-01","切尔诺贝利之心 (2003) - IMDb rm1866993664","https://m.media-amazon.com/images/M/MV5BOTU5ZmVmODEtZjQ2ZS00NzdiLTk4MDItNjI2YWZiOGFhMzQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0396959/mediaviewer/rm1866993664/","IMDb Official Stills"]];

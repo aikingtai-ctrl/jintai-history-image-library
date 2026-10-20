@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q28726784-rm1097826561-01","Gigi, Monica... and Bianca (1996) - IMDb rm1097826561","https://m.media-amazon.com/images/M/MV5BZDRhZGM1ZGQtYmJkMS00ZTA0LWI4MTMtZjgxNmI1ZTEwMWMxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0134672/mediaviewer/rm1097826561/","IMDb Official Stills"]];

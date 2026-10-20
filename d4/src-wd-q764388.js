@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q764388-rm3015716864-01","Defending Our Lives (1993) - IMDb rm3015716864","https://m.media-amazon.com/images/M/MV5BYjI2NmIzMzMtMTU5Yi00YWEwLTg4MjUtMzk1MTA0NDhlY2QwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0106694/mediaviewer/rm3015716864/","IMDb Official Stills"]];

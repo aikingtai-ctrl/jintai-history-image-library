@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q6155537-rm1079345665-01","Un instante en la vida ajena (2003) - IMDb rm1079345665","https://m.media-amazon.com/images/M/MV5BZTYxZGI0MGMtZDYzNi00OGQ5LWFiM2UtNjg5ZjRkMGZhY2EwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0382753/mediaviewer/rm1079345665/","IMDb Official Stills"]];

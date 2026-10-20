@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4660144-rm123958016-01","A Time for Justice (1994) - IMDb rm123958016","https://m.media-amazon.com/images/M/MV5BNjQxMjBjMzMtNGViOC00ZmIxLTkyNzItMjg5ODQ2NjQ5MGFjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0111436/mediaviewer/rm123958016/","IMDb Official Stills"]];

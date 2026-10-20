@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2c4fea2a9ad76c00-rm129803777-01","Eyes of Children (1956) - IMDb rm129803777","https://m.media-amazon.com/images/M/MV5BNzhiMzhjOGYtNmJhZS00NjY4LWIyMDctYWZjODE0YzA4ZDdlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0262548/mediaviewer/rm129803777/","IMDb Official Stills"]];

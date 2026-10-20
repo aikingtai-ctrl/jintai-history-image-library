@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q28416060-rm815802625-01","日曜日式散步者 (2016) - IMDb rm815802625","https://m.media-amazon.com/images/M/MV5BYjNlYTcyMjYtYzkxNC00NmU2LTg0ZjItNjU1MjllNmUwNTQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27455919/mediaviewer/rm815802625/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q80024242-rm944243456-01","Siete cafés por semana (1999) - IMDb rm944243456","https://m.media-amazon.com/images/M/MV5BNTQxOWEzMzgtM2Q1Yy00YzIzLTk2Y2EtNTY2MDExYmRjODFjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0232642/mediaviewer/rm944243456/","IMDb Official Stills"]];

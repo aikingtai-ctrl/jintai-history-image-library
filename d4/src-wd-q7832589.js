@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7832589-rm1775670016-01","交通 (2004) - IMDb rm1775670016","https://m.media-amazon.com/images/M/MV5BMzY1NTU3MTc4OV5BMl5BanBnXkFtZTcwMDc5NDY0MQ@@._V1_.jpg","https://www.imdb.com/title/tt0409396/mediaviewer/rm1775670016/","IMDb Official Stills"]];

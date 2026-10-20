@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q7744580-rm3881179136-01","乒乓男孩的煩惱 (2008) - IMDb rm3881179136","https://m.media-amazon.com/images/M/MV5BNTljYmFlMjUtZThlZS00NjlkLTlhN2QtYjcwNjA5MzVlYWE2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1110272/mediaviewer/rm3881179136/","IMDb Official Stills"]];

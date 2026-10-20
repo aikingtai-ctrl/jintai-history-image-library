@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5825735-rm1247350528-01","El Milagro de Candeal (2004) - IMDb rm1247350528","https://m.media-amazon.com/images/M/MV5BOWNhOWQxMDItNWI2MC00M2RjLTk5NTQtZGI3NmRkOTM4YjliXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0436590/mediaviewer/rm1247350528/","IMDb Official Stills"]];

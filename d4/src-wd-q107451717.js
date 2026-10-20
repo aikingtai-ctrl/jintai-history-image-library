@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q107451717-rm1749993473-01","Instructions for Survival (2021) - IMDb rm1749993473","https://m.media-amazon.com/images/M/MV5BZDIzOWUxMDAtYzliMi00MjFjLTlmYWYtMTk4NGM2ZGZjYjgzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt14130986/mediaviewer/rm1749993473/","IMDb Official Stills"]];

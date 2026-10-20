@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q1651008-rm3957399296-01","Election Night (1998) - IMDb rm3957399296","https://m.media-amazon.com/images/M/MV5BNDcyMGY3MmYtYmQyZC00OGNhLWJlNWUtZDY0ODc5NmM0MzViXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0189179/mediaviewer/rm3957399296/","IMDb Official Stills"]];

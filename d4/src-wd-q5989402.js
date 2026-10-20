@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5989402-rm3594983424-01","Madregilda (1993) - IMDb rm3594983424","https://m.media-amazon.com/images/M/MV5BNjRlYmQ1NjktYmE5Zi00MDYwLTgxM2YtNWU3YjNiNWQxMzU4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0107480/mediaviewer/rm3594983424/","IMDb Official Stills"]];

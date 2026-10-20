@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q5937354-rm3482661376-01","Human Remains (1998) - IMDb rm3482661376","https://m.media-amazon.com/images/M/MV5BZmQ1MGMyMDgtMDc4NC00OWU0LTk1YmItZjJhNTNmMDNjMjZjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0164053/mediaviewer/rm3482661376/","IMDb Official Stills"]];
