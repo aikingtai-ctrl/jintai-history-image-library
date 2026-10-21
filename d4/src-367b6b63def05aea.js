@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-367b6b63def05aea-rm3294309377-01","No Smoking (1994) - IMDb rm3294309377","https://m.media-amazon.com/images/M/MV5BOGIzNWI4Y2ItNWFmZi00M2FlLThkNzMtNjFkYThhMWIzOTA0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0111223/mediaviewer/rm3294309377/","IMDb Official Stills"]];

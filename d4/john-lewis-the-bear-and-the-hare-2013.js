@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-john-lewis-the-bear-and-the-hare-2013-rm1130148865-01","约翰·路易斯·熊与兔 (2013) - IMDb rm1130148865","https://m.media-amazon.com/images/M/MV5BODM3NzE5ZTMtNWFlMi00MWIzLWEzYzctOGUxNmIxMjgyODViXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6630642/mediaviewer/rm1130148865/","IMDb Official Stills"]];

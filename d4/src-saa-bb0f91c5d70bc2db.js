@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-bb0f91c5d70bc2db-rm2215945986-01","THE 12 INCH PIANIST (2025) - IMDb rm2215945986","https://m.media-amazon.com/images/M/MV5BYWM1MmJlNzMtOGQxZC00MzE3LWFiM2EtYjYwNzk3NDRmYTM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt39210275/mediaviewer/rm2215945986/","IMDb Official Stills"]];

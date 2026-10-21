@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-32046f446ff22f30-rm1542787328-01","Mer mankutyan tangon (1984) - IMDb rm1542787328","https://m.media-amazon.com/images/M/MV5BZmQ1YWI2M2ItOTAxZS00N2QxLTg5MGEtM2ViZDU3NWRjZmJlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0090124/mediaviewer/rm1542787328/","IMDb Official Stills"]];

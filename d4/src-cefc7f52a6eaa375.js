@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cefc7f52a6eaa375-rm1812762113-01","The Guest: An Episode in the Life of Eugène Marais (1977) - IMDb rm1812762113","https://m.media-amazon.com/images/M/MV5BYmZkNTcyYjItZTQ1ZC00ZDViLWE5MDctNmMxYmZlMzUyMTE4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0128241/mediaviewer/rm1812762113/","IMDb Official Stills"]];

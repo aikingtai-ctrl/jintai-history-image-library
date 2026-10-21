@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b6bea54794de6310-rm2071923968-01","God sobaki (1994) - IMDb rm2071923968","https://m.media-amazon.com/images/M/MV5BNDYxZTE5YjUtODg1Mi00YzdkLWI1OTItOWFiMGJjYTQyYjJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0107023/mediaviewer/rm2071923968/","IMDb Official Stills"]];

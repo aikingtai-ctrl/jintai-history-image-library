@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d86bb8706b9e423f-rm3704472065-01","Tous à table (2001) - IMDb rm3704472065","https://m.media-amazon.com/images/M/MV5BYWZkODAxYTktMTYxOC00YjM5LTg5NmMtMDU3YmVlNWM1ZjlkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0288266/mediaviewer/rm3704472065/","IMDb Official Stills"]];

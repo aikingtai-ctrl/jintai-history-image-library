@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a77b513a36623d27-rm2319201024-01","草房子 (1999) - IMDb rm2319201024","https://m.media-amazon.com/images/M/MV5BZDhkNGU1ODItMWEzYi00NDUyLTgxMjktNTVlYjhlMzc1YjhiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0264457/mediaviewer/rm2319201024/","IMDb Official Stills"]];

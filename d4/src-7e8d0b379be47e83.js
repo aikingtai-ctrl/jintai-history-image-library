@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7e8d0b379be47e83-rm1520723712-01","Chicherin (1986) - IMDb rm1520723712","https://m.media-amazon.com/images/M/MV5BOTExYmFlNzUtYjQ2MS00M2IxLWI2NDktZDUwMzQ4NDUzYmI5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0090826/mediaviewer/rm1520723712/","IMDb Official Stills"]];

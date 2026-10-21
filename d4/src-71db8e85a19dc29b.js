@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-71db8e85a19dc29b-rm1277208834-01","A solidão dos lagartos / The Loneliness of Lizards (2025) - IMDb rm1277208834","https://m.media-amazon.com/images/M/MV5BOWY1NzMwZjMtZmQ3NC00NTFmLTk4ODgtNDQ2NWY4NWZlMTJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt36693344/mediaviewer/rm1277208834/","IMDb Official Stills"]];

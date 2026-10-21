@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-dd0a6062a112975c-rm3265917698-01","愛情來了 (1997) - IMDb rm3265917698","https://m.media-amazon.com/images/M/MV5BNGRmZjQyM2ItNmI4Yy00ZWFkLTkxMGYtZGQ5ZTIzZmMxNjc4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0168973/mediaviewer/rm3265917698/","IMDb Official Stills"]];

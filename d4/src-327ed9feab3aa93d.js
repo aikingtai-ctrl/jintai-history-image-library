@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-327ed9feab3aa93d-rm589246464-01","Le jour où Dieu est parti en voyage (2009) - IMDb rm589246464","https://m.media-amazon.com/images/M/MV5BOWMwNTdmNGItM2JlOS00N2I2LWI1NmEtYWMyNWZiNjYxOGZiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1235848/mediaviewer/rm589246464/","IMDb Official Stills"]];

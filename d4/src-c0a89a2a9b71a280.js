@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c0a89a2a9b71a280-rm3382320128-01","黃色故事 (1988) - IMDb rm3382320128","https://m.media-amazon.com/images/M/MV5BNzJiOGZmOGItNjQ1Mi00MzBhLTgxM2ItMjMwZmMxMWYzMjlhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0093230/mediaviewer/rm3382320128/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-75fbc6e5639d2e02-rm2120894721-01","Jak vypilo sluničko stenatku vodu (1960) - IMDb rm2120894721","https://m.media-amazon.com/images/M/MV5BM2I5ZTgyODQtZDkxOS00ZjkyLTg2ODctNzM0YTlhNWMyYTkwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0426047/mediaviewer/rm2120894721/","IMDb Official Stills"]];

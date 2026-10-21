@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-25834d6cdcc543c7-rm2217162240-01","die ruhe bleibt (2013) - IMDb rm2217162240","https://m.media-amazon.com/images/M/MV5BNTU1OGM0NGYtNTMzMy00MmY3LTgzYWYtMzg5YjE4OTJkNTUwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2661386/mediaviewer/rm2217162240/","IMDb Official Stills"]];

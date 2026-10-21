@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ead1a41ffd29e67b-rm767043073-01","La sfida (1957) - IMDb rm767043073","https://m.media-amazon.com/images/M/MV5BOWMzYTBjMDYtZjVhNi00ZjU2LWFkYTQtODI3MzFjNTNjZjc0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0050496/mediaviewer/rm767043073/","IMDb Official Stills"]];

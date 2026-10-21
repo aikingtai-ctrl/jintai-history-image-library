@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-56db6306c07a7056-rm2457683200-01","ELETBETANCOLTATOTT LEANY (1965) - IMDb rm2457683200","https://m.media-amazon.com/images/M/MV5BMzE3NzEzZTctYzRiNy00MWM3LTk1MGEtOGIwNTkyM2VlMzkxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0058786/mediaviewer/rm2457683200/","IMDb Official Stills"]];

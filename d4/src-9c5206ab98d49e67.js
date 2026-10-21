@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9c5206ab98d49e67-rm4049309185-01","Azghyin ushtykzyn’azaby (1993) - IMDb rm4049309185","https://m.media-amazon.com/images/M/MV5BYWU0YjRjYTktMTc3Ny00OTljLWE5NWQtOGE2NDEwOTI4ODA0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0128063/mediaviewer/rm4049309185/","IMDb Official Stills"]];

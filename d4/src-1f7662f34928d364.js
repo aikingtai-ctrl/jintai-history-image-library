@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1f7662f34928d364-rm874863104-01","追寻那只鸟 (2023) - IMDb rm874863104","https://m.media-amazon.com/images/M/MV5BM2FkZGRiZWItMGYzOS00Njg4LWJjMmYtYjBhOGRmMjAyYzM1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1798118/mediaviewer/rm874863104/","IMDb Official Stills"]];

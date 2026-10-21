@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ede3c511b4026a0a-rm1432261120-01","Symbiopsychotaxiplasm: Take One (1967) - IMDb rm1432261120","https://m.media-amazon.com/images/M/MV5BMTQ1ODYyODYyOV5BMl5BanBnXkFtZTcwNDM0MTA0MQ@@._V1_.jpg","https://www.imdb.com/title/tt0296881/mediaviewer/rm1432261120/","IMDb Official Stills"]];

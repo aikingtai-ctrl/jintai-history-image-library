@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d2af7568c077fc7e-rm324571904-01","Toad Warrior (1996) - IMDb rm324571904","https://m.media-amazon.com/images/M/MV5BMjI5Nzc3ODYyNl5BMl5BanBnXkFtZTcwNjUxODM1MQ@@._V1_.jpg","https://www.imdb.com/title/tt0117930/mediaviewer/rm324571904/","IMDb Official Stills"]];

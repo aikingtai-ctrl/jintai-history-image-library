@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-74dd883a34ea10b1-rm3124698880-01","Alex (2005) - IMDb rm3124698880","https://m.media-amazon.com/images/M/MV5BMjQ1MjhjYWMtOWFhNC00ZDA4LWE5ZmItNzlmN2VlZThkNDE3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0409678/mediaviewer/rm3124698880/","IMDb Official Stills"]];

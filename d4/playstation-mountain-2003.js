@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-playstation-mountain-2003-rm498894337-01","PlayStation·人山 (2003) - IMDb rm498894337","https://m.media-amazon.com/images/M/MV5BMzM2MzRlYTktNzdkNy00YmMwLWE1NGUtNDBkOWNkNDAxN2E5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8672120/mediaviewer/rm498894337/","IMDb Official Stills"]];

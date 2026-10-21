@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7742d51786bf16fd-rm3931117568-01","Bamboleho (2001) - IMDb rm3931117568","https://m.media-amazon.com/images/M/MV5BNGY3ZDBlNjgtNjA2ZC00YTI0LWJjMGYtOTBkMjk2NmU5NTc5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0297011/mediaviewer/rm3931117568/","IMDb Official Stills"]];

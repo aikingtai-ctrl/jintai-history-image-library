@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e83d2cdafaffa8a7-rm412617728-01","Três irmãos (1994) - IMDb rm412617728","https://m.media-amazon.com/images/M/MV5BNTU4MDczNzktYTAwOS00ZWVhLWJiYTktYjQxYjA5ZjU1OGQ4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0111508/mediaviewer/rm412617728/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c90dae07262c6684-rm1108038400-01","Chernov (1990) - IMDb rm1108038400","https://m.media-amazon.com/images/M/MV5BM2YxOTNiMjEtZGU0MC00Njc0LTgyMzUtMjBlZGViOGVlYzk4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0099249/mediaviewer/rm1108038400/","IMDb Official Stills"]];

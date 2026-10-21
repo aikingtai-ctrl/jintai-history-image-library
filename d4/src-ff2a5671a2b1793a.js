@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ff2a5671a2b1793a-rm1339438592-01","茉莉花 (1980) - IMDb rm1339438592","https://m.media-amazon.com/images/M/MV5BZDA5MTE4N2YtODNiZC00NzliLThkN2ItNmUxZjQ5YzAyY2U3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0121561/mediaviewer/rm1339438592/","IMDb Official Stills"]];

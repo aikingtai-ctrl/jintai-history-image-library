@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-61edca9fdc6d8b03-rm2515948032-01","Azonositás (1976) - IMDb rm2515948032","https://m.media-amazon.com/images/M/MV5BNWU5NGM4ZDQtNTMwMC00MjNhLTk0ZGMtOTk4MDNkYjBhODliXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0072676/mediaviewer/rm2515948032/","IMDb Official Stills"]];

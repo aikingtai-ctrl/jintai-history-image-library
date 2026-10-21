@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9ed58d8859fdbb64-rm273636353-01","A Divine Double Feature (1990) - IMDb rm273636353","https://m.media-amazon.com/images/M/MV5BM2U5NWMzYTktYjgyYS00YTA4LWE0ZmItOGZmNjk3ZDFjYmIxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0060503/mediaviewer/rm273636353/","IMDb Official Stills"]];

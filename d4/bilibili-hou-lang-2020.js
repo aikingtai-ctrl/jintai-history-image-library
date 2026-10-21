@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-bilibili-hou-lang-2020-rm3497169666-01","哔哩哔哩·后浪 (2020) - IMDb rm3497169666","https://m.media-amazon.com/images/M/MV5BOGNkYjhiNWEtNmUzYy00YjIyLTg1MWUtZTRmYmI3NjAzMmMyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35322552/mediaviewer/rm3497169666/","IMDb Official Stills"]];

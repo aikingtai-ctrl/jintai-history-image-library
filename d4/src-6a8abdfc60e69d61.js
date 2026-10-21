@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6a8abdfc60e69d61-rm1323666433-01","Venedig (1962) - IMDb rm1323666433","https://m.media-amazon.com/images/M/MV5BMDgxMzk5YzctZGYxMy00NmI3LWJlMzctNTViMWUxZmY1MTNkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0227733/mediaviewer/rm1323666433/","IMDb Official Stills"]];

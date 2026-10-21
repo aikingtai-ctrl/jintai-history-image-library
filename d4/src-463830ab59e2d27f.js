@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-463830ab59e2d27f-rm4166225664-01","LA PLAINE (2005) - IMDb rm4166225664","https://m.media-amazon.com/images/M/MV5BMTM2NzczMDk5NV5BMl5BanBnXkFtZTcwNjYzMTEyMw@@._V1_.jpg","https://www.imdb.com/title/tt1177540/mediaviewer/rm4166225664/","IMDb Official Stills"]];

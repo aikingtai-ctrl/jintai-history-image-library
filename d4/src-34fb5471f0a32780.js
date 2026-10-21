@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-34fb5471f0a32780-rm2766414081-01","梨山春曉 (1968) - IMDb rm2766414081","https://m.media-amazon.com/images/M/MV5BYTVmYjI0MjEtNWZhYS00NmM5LThhZDgtMTJiYzJjYTRkZTA4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1956491/mediaviewer/rm2766414081/","IMDb Official Stills"]];

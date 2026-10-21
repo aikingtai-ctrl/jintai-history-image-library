@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8be8b78f7dd1ade9-rm2796791553-01","Van Gogh (1952) - IMDb rm2796791553","https://m.media-amazon.com/images/M/MV5BMTU0ZGYxMDctMzFkYi00M2ZmLTk3MWYtMTNkMzNmMmNlZTg3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt13143848/mediaviewer/rm2796791553/","IMDb Official Stills"]];

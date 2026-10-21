@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-08145989c13ab059-rm1124381698-01","La rose et le réséda (1947) - IMDb rm1124381698","https://m.media-amazon.com/images/M/MV5BYzQwNjljODYtN2FlZC00YmRjLWE5YjUtMTI1NGIzMDExM2QwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0039785/mediaviewer/rm1124381698/","IMDb Official Stills"]];

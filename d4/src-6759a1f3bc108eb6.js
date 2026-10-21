@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6759a1f3bc108eb6-rm1989013761-01","Gonin no sekkôhei (1938) - IMDb rm1989013761","https://m.media-amazon.com/images/M/MV5BZmRmYWZlNjYtZjlkYi00MGIzLWI5YzEtZTI4MWJhODUyYTAwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0030195/mediaviewer/rm1989013761/","IMDb Official Stills"]];

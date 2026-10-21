@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-65ab032d09049f5a-rm2497487104-01","Layla Fourie (2013) - IMDb rm2497487104","https://m.media-amazon.com/images/M/MV5BMTAzNjg0OTMyODleQTJeQWpwZ15BbWU3MDU4NTYxMzk@._V1_.jpg","https://www.imdb.com/title/tt2296835/mediaviewer/rm2497487104/","IMDb Official Stills"]];

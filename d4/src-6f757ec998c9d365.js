@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6f757ec998c9d365-rm833704960-01","古寧頭大戰 (1980) - IMDb rm833704960","https://m.media-amazon.com/images/M/MV5BOWZjYTcyMzgtZjk0ZC00YzcyLTllZmUtNTFkOTJlMTc3NjY0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0164385/mediaviewer/rm833704960/","IMDb Official Stills"]];

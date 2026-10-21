@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-a-lifelong-journey-2022-rm3084444929-01","人世间 (2022) - IMDb rm3084444929","https://m.media-amazon.com/images/M/MV5BNGYyMjU3ODctMzEwYS00MThmLTg3OGItMDA0ZTY0MzBlNmE4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt17506764/mediaviewer/rm3084444929/","IMDb Official Stills"]];

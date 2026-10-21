@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-073e1bf22420c885-rm1746278400-01","Jarosław Dąbrowski (1976) - IMDb rm1746278400","https://m.media-amazon.com/images/M/MV5BMWRlMGU5YjYtOWY0Yy00MDlmLTlkMTgtNGExNTlmMGI3ZmIzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0074712/mediaviewer/rm1746278400/","IMDb Official Stills"]];

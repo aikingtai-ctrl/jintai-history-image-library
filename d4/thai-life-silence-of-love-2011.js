@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-thai-life-silence-of-love-2011-rm2913616896-01","泰国人寿·无声的爱 (2011) - IMDb rm2913616896","https://m.media-amazon.com/images/M/MV5BMmQ5MmJiOWItZWQ1YS00MGEwLWJmZDAtYzk0MDJhYjVmYWMyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8707442/mediaviewer/rm2913616896/","IMDb Official Stills"]];

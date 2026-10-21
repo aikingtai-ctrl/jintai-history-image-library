@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-716cab4c42e1807e-rm3963755008-01","Os 12 trabalhos / The 12 Labours (2006) - IMDb rm3963755008","https://m.media-amazon.com/images/M/MV5BMTFiMzEwZTAtOWYwZS00ZmZiLWI5ZGUtOTE2OWJmNDAxMjA5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0877323/mediaviewer/rm3963755008/","IMDb Official Stills"]];

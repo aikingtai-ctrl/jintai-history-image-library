@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b7f1d06a091c3670-rm100936704-01","Yeats Country (1965) - IMDb rm100936704","https://m.media-amazon.com/images/M/MV5BZWRiMWIwYjQtOGUxMi00OGZjLTliMzktMDRhNGNkMmEyNjYwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0059926/mediaviewer/rm100936704/","IMDb Official Stills"]];

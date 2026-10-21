@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-59c63cf3b5c76ff2-rm3117701120-01","Volnitsa / Volnica (1956) - IMDb rm3117701120","https://m.media-amazon.com/images/M/MV5BM2NhMjUwZTYtMWVkNy00MTFlLWFmNDEtZjc5ZGJkZjI4YzBmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0048796/mediaviewer/rm3117701120/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-643e1205dbb6f598-rm3963255808-01","飛躍羚羊 (1986) - IMDb rm3963255808","https://m.media-amazon.com/images/M/MV5BOTllM2RjNGMtN2U1My00N2JhLWJkMDUtOWFhODNlNzQ0NzBjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0091037/mediaviewer/rm3963255808/","IMDb Official Stills"]];

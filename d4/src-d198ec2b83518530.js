@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d198ec2b83518530-rm1767526145-01","The Concert (1974) - IMDb rm1767526145","https://m.media-amazon.com/images/M/MV5BYzE4N2Y3YTktOTExYS00NmZmLWJmZjctZTc5N2VjNzRkMjJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0071355/mediaviewer/rm1767526145/","IMDb Official Stills"]];

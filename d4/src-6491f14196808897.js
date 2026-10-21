@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6491f14196808897-rm1421155072-01","Le pèlerinage (1961) - IMDb rm1421155072","https://m.media-amazon.com/images/M/MV5BMDU4NmM2YTctZGQyYi00MGZhLWI0YTctNGM1ZTdjZjliNzFjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0055301/mediaviewer/rm1421155072/","IMDb Official Stills"]];

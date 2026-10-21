@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-ae5df59141181496-rm3223187201-01","SLUMBER WITH SNAKES (2021) - IMDb rm3223187201","https://m.media-amazon.com/images/M/MV5BZmQ2ODkwYzYtOTc4ZS00N2RmLWE3NzEtNmQwNGJlMmJmZTU5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt16378324/mediaviewer/rm3223187201/","IMDb Official Stills"]];

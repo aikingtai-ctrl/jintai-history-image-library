@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f4b014b899a9b67c-rm1825531392-01","DAI BI (2001) - IMDb rm1825531392","https://m.media-amazon.com/images/M/MV5BMTI4ZDViOWEtOGI2Ny00MTVmLThkMDgtNDgzYmU0MTVhZDlkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10177096/mediaviewer/rm1825531392/","IMDb Official Stills"]];

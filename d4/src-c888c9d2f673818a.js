@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c888c9d2f673818a-rm2487707905-01","UPSHOT (2024) - IMDb rm2487707905","https://m.media-amazon.com/images/M/MV5BNzYxZTc3MjAtN2VjOS00YWZhLWE4MTYtMGU3NjlmYTZlZDJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32898058/mediaviewer/rm2487707905/","IMDb Official Stills"]];

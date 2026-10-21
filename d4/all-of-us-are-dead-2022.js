@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-all-of-us-are-dead-2022-rm3981736193-01","僵尸校园 (2022) - IMDb rm3981736193","https://m.media-amazon.com/images/M/MV5BNDc3M2Y4NjQtOGVhNi00ODJlLWI1ZDctYmIxMDNmZmFiNTA0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32173941/mediaviewer/rm3981736193/","IMDb Official Stills"]];

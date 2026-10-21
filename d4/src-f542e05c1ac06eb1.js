@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f542e05c1ac06eb1-rm2527010816-01","Cseplö Gyuri (1978) - IMDb rm2527010816","https://m.media-amazon.com/images/M/MV5BYzhiMDg5YTMtNjRkZi00ZDcwLWI0ODItZDU3MmI2NzIwZDU2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0077384/mediaviewer/rm2527010816/","IMDb Official Stills"]];

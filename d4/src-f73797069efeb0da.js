@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f73797069efeb0da-rm620979201-01","倒仓 (2024) - IMDb rm620979201","https://m.media-amazon.com/images/M/MV5BY2Q0ODc0NjgtNzZiNS00MjRiLWI0NWMtOGZhNjk5ZDhiM2M1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt31940224/mediaviewer/rm620979201/","IMDb Official Stills"]];

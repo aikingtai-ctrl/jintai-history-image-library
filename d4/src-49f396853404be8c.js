@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-49f396853404be8c-rm2132548096-01","Del rosa... al amarillo (1963) - IMDb rm2132548096","https://m.media-amazon.com/images/M/MV5BNWViYjcyNTctZTdhNy00MjUzLWJiNDUtMTE5YjUyYTNkODUyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0056981/mediaviewer/rm2132548096/","IMDb Official Stills"]];

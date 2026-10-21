@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-mercedes-benz-lucky-star-2002-rm1892278529-01","奔驰·幸运星 (2002) - IMDb rm1892278529","https://m.media-amazon.com/images/M/MV5BNmYzZDBhNDItM2QyMi00ZjkxLTljM2MtZTU1OWZkMDI0NjQ0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8583492/mediaviewer/rm1892278529/","IMDb Official Stills"]];

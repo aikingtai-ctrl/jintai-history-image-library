@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6bb0e13e76e053d7-rm3740606465-01","故园 (2023) - IMDb rm3740606465","https://m.media-amazon.com/images/M/MV5BMjUxOGMxYTItYjNhNC00NmY3LWI0MmItODRkODA1ZjU5YjAxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27881537/mediaviewer/rm3740606465/","IMDb Official Stills"]];

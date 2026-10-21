@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7de4a53d3d79c007-rm1760015873-01","LEMMING AID (1994) - IMDb rm1760015873","https://m.media-amazon.com/images/M/MV5BZDQ1MjAxYWItNWE4Yy00NDY0LTg5NDQtYmU4NDNlOWQ3YjNkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0110326/mediaviewer/rm1760015873/","IMDb Official Stills"]];

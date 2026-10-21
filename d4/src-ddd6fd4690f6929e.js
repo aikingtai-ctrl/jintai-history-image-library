@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ddd6fd4690f6929e-rm714734082-01","Children of the Sun (1960) - IMDb rm714734082","https://m.media-amazon.com/images/M/MV5BZTE2NzExY2MtNmM3ZS00ZjU5LThlZTQtZjE5MmIxNWY4ZWZlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0312560/mediaviewer/rm714734082/","IMDb Official Stills"]];

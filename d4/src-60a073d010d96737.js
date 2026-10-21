@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-60a073d010d96737-rm2570980352-01","Our Man in Nirvana (2006) - IMDb rm2570980352","https://m.media-amazon.com/images/M/MV5BNDkzNjM5MDgyMV5BMl5BanBnXkFtZTgwNDg3MTgwMDI@._V1_.jpg","https://www.imdb.com/title/tt0781448/mediaviewer/rm2570980352/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ceb3eb2b70613cd8-rm3017615104-01","Jake's Women (1996) - IMDb rm3017615104","https://m.media-amazon.com/images/M/MV5BOTYwZjk5NjYtYjFhOC00YzBlLThjNjUtYmRiYjRmNGMxYTcyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0116680/mediaviewer/rm3017615104/","IMDb Official Stills"]];

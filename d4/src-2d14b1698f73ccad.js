@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2d14b1698f73ccad-rm2200865792-01","Angela (2010) - IMDb rm2200865792","https://m.media-amazon.com/images/M/MV5BMTY1MDAyNDYwNF5BMl5BanBnXkFtZTcwNTU3NjAzMw@@._V1_.jpg","https://www.imdb.com/title/tt1538867/mediaviewer/rm2200865792/","IMDb Official Stills"]];

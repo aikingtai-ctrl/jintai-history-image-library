@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-wo-xin-chang-dan-2007-rm1523066368-01","卧薪尝胆 (2007) - IMDb rm1523066368","https://m.media-amazon.com/images/M/MV5BN2I2YThmNTAtOTA0MS00MTE5LThlNTgtZWM5NDJmNDk2YWEzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5619290/mediaviewer/rm1523066368/","IMDb Official Stills"]];

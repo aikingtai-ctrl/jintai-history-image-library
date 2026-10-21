@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-the-forbidden-city-2005-rm2444032258-01","故宫 (2005) - IMDb rm2444032258","https://m.media-amazon.com/images/M/MV5BYzE0Njg4ZGEtODJlZC00Y2M4LTgwYTktMmM4N2Q1MDJlN2FhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27766538/mediaviewer/rm2444032258/","IMDb Official Stills"]];

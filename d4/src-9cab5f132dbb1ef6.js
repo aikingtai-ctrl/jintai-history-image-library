@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9cab5f132dbb1ef6-rm4119331328-01","Theater of Life (2016) - IMDb rm4119331328","https://m.media-amazon.com/images/M/MV5BNWJjYzlmMGYtZDcxYS00ODNlLTlhNDMtM2Y5N2U5Zjg4ZDYyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5331878/mediaviewer/rm4119331328/","IMDb Official Stills"]];

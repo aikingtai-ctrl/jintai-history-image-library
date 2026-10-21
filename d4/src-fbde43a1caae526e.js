@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-fbde43a1caae526e-rm2191472128-01","Red Hot Skate Rock (1988) - IMDb rm2191472128","https://m.media-amazon.com/images/M/MV5BMWZiNWU1NmUtOWJlYS00MmUxLWExMTgtZGI2ZmI2YjI5NTg2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0180955/mediaviewer/rm2191472128/","IMDb Official Stills"]];

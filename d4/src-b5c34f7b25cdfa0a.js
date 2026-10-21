@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b5c34f7b25cdfa0a-rm1195708929-01","IL BARBIERE COMPLOTTISTA (2022) - IMDb rm1195708929","https://m.media-amazon.com/images/M/MV5BN2M4YWZkNGItYWQ3MS00ZWY5LThiMjYtMDljNTllNmQ5OGY0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt19815650/mediaviewer/rm1195708929/","IMDb Official Stills"]];

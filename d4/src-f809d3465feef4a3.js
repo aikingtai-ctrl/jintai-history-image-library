@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f809d3465feef4a3-rm2237736192-01","Storm Signal (1966) - IMDb rm2237736192","https://m.media-amazon.com/images/M/MV5BYjkwOTcwOWQtZTc0Mi00ZmMwLTk1OGYtOGQwM2E5MjY0ODgwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1483514/mediaviewer/rm2237736192/","IMDb Official Stills"]];

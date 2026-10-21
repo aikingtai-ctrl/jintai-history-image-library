@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7478131da1f656e6-rm3085659648-01","Letzte Liebe (1979) - IMDb rm3085659648","https://m.media-amazon.com/images/M/MV5BOWJkMGJlOTUtZjliNS00NWIyLWI2ZmMtNGVjNzUwMzE2MGE5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0079465/mediaviewer/rm3085659648/","IMDb Official Stills"]];

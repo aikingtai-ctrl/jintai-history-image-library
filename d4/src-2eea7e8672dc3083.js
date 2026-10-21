@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2eea7e8672dc3083-rm3818277377-01","Clebs (2020) - IMDb rm3818277377","https://m.media-amazon.com/images/M/MV5BYjE5YWNiOTgtZjM5MS00YmFmLTk5MDEtNTEzOWIzZmU2MzdiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt30221968/mediaviewer/rm3818277377/","IMDb Official Stills"]];

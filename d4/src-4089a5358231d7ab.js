@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4089a5358231d7ab-rm1016595200-01","Badis (1989) - IMDb rm1016595200","https://m.media-amazon.com/images/M/MV5BZTg5NTRiODItZThiMS00YTc3LTkzNmItZTcyMGYwZTg2OWJjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0101400/mediaviewer/rm1016595200/","IMDb Official Stills"]];

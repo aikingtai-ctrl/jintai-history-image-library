@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-09cee6dfa8aff044-rm903665666-01","BUTCHER’S STAIN (2025) - IMDb rm903665666","https://m.media-amazon.com/images/M/MV5BYTQ2NDM4MzYtYjM5ZS00YTcyLWI2ZjktN2U4YjdmMzAxZDEzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt39232815/mediaviewer/rm903665666/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-renjianshi-2016-rm623687425-01","人间世 (2016) - IMDb rm623687425","https://m.media-amazon.com/images/M/MV5BOWFhMTU2MmMtMGE3Yy00MTA0LWEzNzctODAyYjkxY2UyNmY5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12380212/mediaviewer/rm623687425/","IMDb Official Stills"]];

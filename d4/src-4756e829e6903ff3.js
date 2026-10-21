@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4756e829e6903ff3-rm3727504128-01","IS IT THE DESIGN ON THE WRAPPER ? (1997) - IMDb rm3727504128","https://m.media-amazon.com/images/M/MV5BODI2NDcxYTctMWE1ZC00MmM0LThlNWYtYWM1N2RlMjQ1NjVhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0119387/mediaviewer/rm3727504128/","IMDb Official Stills"]];

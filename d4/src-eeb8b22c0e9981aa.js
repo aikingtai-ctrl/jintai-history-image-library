@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-eeb8b22c0e9981aa-rm1071473921-01","Pen Point Percussion (1951) - IMDb rm1071473921","https://m.media-amazon.com/images/M/MV5BNjdmZDM2NzYtOWFjNC00NGRlLWEwYTctNjhmOTVhNDBlYmE5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0042838/mediaviewer/rm1071473921/","IMDb Official Stills"]];

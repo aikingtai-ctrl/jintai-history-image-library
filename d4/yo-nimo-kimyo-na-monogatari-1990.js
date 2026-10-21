@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-yo-nimo-kimyo-na-monogatari-1990-rm89747712-01","世界奇妙物语 (1990) - IMDb rm89747712","https://m.media-amazon.com/images/M/MV5BZThmYzBkY2QtY2QwNC00MThhLWI2ZGMtMmVhODUyOWI3MDcwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1466867/mediaviewer/rm89747712/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e6eb9bd229303c75-rm1182902786-01","Mary Anning (2025) - IMDb rm1182902786","https://m.media-amazon.com/images/M/MV5BNDlhZjVkMzctYmFlNy00ZWE4LWI3YTktYmFlNDMyNDE1NmZjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt36639995/mediaviewer/rm1182902786/","IMDb Official Stills"]];

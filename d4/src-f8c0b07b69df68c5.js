@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f8c0b07b69df68c5-rm1901007104-01","La nave bianca (1941) - IMDb rm1901007104","https://m.media-amazon.com/images/M/MV5BOGIyOWQ3N2EtNWE0OS00MzliLTlmNjgtNDZkMzdiZjJhZjlmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0033941/mediaviewer/rm1901007104/","IMDb Official Stills"]];

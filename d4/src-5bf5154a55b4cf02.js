@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5bf5154a55b4cf02-rm1504503041-01","The Jaywalker (1956) - IMDb rm1504503041","https://m.media-amazon.com/images/M/MV5BYTIxNTlhODYtMTEwNi00NTc3LWE1OTQtNGJmZWFjN2NmNTgyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0049380/mediaviewer/rm1504503041/","IMDb Official Stills"]];

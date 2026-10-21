@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-62c2870f84691c97-rm4272593666-01","Tomea (1960) - IMDb rm4272593666","https://m.media-amazon.com/images/M/MV5BMzAzZTIwNWQtYmQ4Yi00OTdhLTg1NDEtYjY2M2QwYzA4MGM1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0229783/mediaviewer/rm4272593666/","IMDb Official Stills"]];

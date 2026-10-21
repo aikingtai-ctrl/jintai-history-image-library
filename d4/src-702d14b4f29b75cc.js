@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-702d14b4f29b75cc-rm3737078016-01","La morte al lavoro (1978) - IMDb rm3737078016","https://m.media-amazon.com/images/M/MV5BNDRmYmVhYWItNzhhNy00NTQ0LWE3YmYtNDA3NzJiMmM4Zjc4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0077948/mediaviewer/rm3737078016/","IMDb Official Stills"]];

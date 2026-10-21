@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d3f8abbea0c8322b-rm3010862081-01","How the Garcia Girls Spent Their Summer (2008) - IMDb rm3010862081","https://m.media-amazon.com/images/M/MV5BYWU5NGM2NTctODA5Yi00ZmZiLWJiZjYtOTRjOTQ0MThjNDYzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1503961/mediaviewer/rm3010862081/","IMDb Official Stills"]];

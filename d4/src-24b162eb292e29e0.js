@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-24b162eb292e29e0-rm2982643458-01","La grande migration (1997) - IMDb rm2982643458","https://m.media-amazon.com/images/M/MV5BYzcwYWRjZmQtMWExYS00OTYyLWI5NTktY2E4NGYwNThhZTdjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0113208/mediaviewer/rm2982643458/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-yuanmingyuan-2006-rm4243160064-01","圆明园 (2006) - IMDb rm4243160064","https://m.media-amazon.com/images/M/MV5BZDRmYjE4OWEtM2I2Ny00NmViLWEzNGYtZjljOTQ2ZDkxZTJmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1448625/mediaviewer/rm4243160064/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-eb500ba4235e5810-rm1051053312-01","A Ciambra (2014) - IMDb rm1051053312","https://m.media-amazon.com/images/M/MV5BMTg5MzI4NDI4Nl5BMl5BanBnXkFtZTgwNjQxMTcwMjE@._V1_.jpg","https://www.imdb.com/title/tt3683632/mediaviewer/rm1051053312/","IMDb Official Stills"]];

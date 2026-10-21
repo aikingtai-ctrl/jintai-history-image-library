@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c80db9769aaa80a9-rm1360818176-01","Sabaku (2017) - IMDb rm1360818176","https://m.media-amazon.com/images/M/MV5BZjkzODJhZmEtNGVhMS00OTQ3LWIzMDctZDE4Zjk5OTRjZTA1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt9268802/mediaviewer/rm1360818176/","IMDb Official Stills"]];

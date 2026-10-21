@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1f9d307a46986825-rm2466772993-01","L’ENFANT SALAMANDRE (2021) - IMDb rm2466772993","https://m.media-amazon.com/images/M/MV5BMjAyYzU5MDgtOTE5YS00MTc4LTg5YmQtNGQyZGE4ODNlYjM4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt15018628/mediaviewer/rm2466772993/","IMDb Official Stills"]];

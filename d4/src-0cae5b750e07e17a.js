@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0cae5b750e07e17a-rm1631524608-01","精忠報國 (1971) - IMDb rm1631524608","https://m.media-amazon.com/images/M/MV5BZWE2OTViYzMtNGJjMi00ZTM3LThiMzctOTViNjE4OTRhYjAyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0212255/mediaviewer/rm1631524608/","IMDb Official Stills"]];

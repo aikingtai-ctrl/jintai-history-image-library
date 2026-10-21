@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-bmw-the-escape-2016-rm2901742336-01","宝马·逃亡 (2016) - IMDb rm2901742336","https://m.media-amazon.com/images/M/MV5BNGQ2NzM4MGUtMjcxYy00ODA5LTkzNTItOGJjYjI0YWM2NzI1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5476606/mediaviewer/rm2901742336/","IMDb Official Stills"]];

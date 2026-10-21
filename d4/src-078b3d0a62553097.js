@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-078b3d0a62553097-rm2942460673-01","Cykelsymfonien (1984) - IMDb rm2942460673","https://m.media-amazon.com/images/M/MV5BNGEyM2JhNjMtOGQ1Mi00ZjEzLThiNjgtOGIxMjQ4NGE5Y2I1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0131346/mediaviewer/rm2942460673/","IMDb Official Stills"]];

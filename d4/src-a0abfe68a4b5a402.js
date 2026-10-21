@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a0abfe68a4b5a402-rm2461860608-01","原鄉人 (1981) - IMDb rm2461860608","https://m.media-amazon.com/images/M/MV5BMWJiZTYxMTYtMGNjNC00NDIwLWFjZTUtOGUyMGI1MTBkZDViXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0314929/mediaviewer/rm2461860608/","IMDb Official Stills"]];

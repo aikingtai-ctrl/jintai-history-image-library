@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-881e64cb6c8d2663-rm435926273-01","GILI-BILI STARIK SO STAROUKHOI (1965) - IMDb rm435926273","https://m.media-amazon.com/images/M/MV5BMzNhZjdhMjktNDNlOS00MDE1LWJmOGUtN2E0ZDVhNTE4NTgzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3725432/mediaviewer/rm435926273/","IMDb Official Stills"]];

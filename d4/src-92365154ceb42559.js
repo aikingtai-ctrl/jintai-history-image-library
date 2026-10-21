@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-92365154ceb42559-rm1453644290-01","REVESTRICTION (1990) - IMDb rm1453644290","https://m.media-amazon.com/images/M/MV5BYTNkYTUyNGItMzI4Mi00ZTE1LTg1NzgtNDU5NDkyNDYwN2FkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0241890/mediaviewer/rm1453644290/","IMDb Official Stills"]];

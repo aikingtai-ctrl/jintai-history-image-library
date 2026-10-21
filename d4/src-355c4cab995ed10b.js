@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-355c4cab995ed10b-rm4187285761-01","Jaje (1960) - IMDb rm4187285761","https://m.media-amazon.com/images/M/MV5BMjc3ZGU3MTEtN2JlNy00ZDRmLWFlNDMtYmI3MjE0ZmYxMGVjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2769330/mediaviewer/rm4187285761/","IMDb Official Stills"]];

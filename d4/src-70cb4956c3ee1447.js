@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-70cb4956c3ee1447-rm1113432320-01","TAULUKAUPPIAAT (2010) - IMDb rm1113432320","https://m.media-amazon.com/images/M/MV5BMjAwODM0NTA2M15BMl5BanBnXkFtZTcwOTA0MjczOQ@@._V1_.jpg","https://www.imdb.com/title/tt1646131/mediaviewer/rm1113432320/","IMDb Official Stills"]];

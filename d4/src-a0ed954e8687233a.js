@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a0ed954e8687233a-rm2652472833-01","Adventure of (1957) - IMDb rm2652472833","https://m.media-amazon.com/images/M/MV5BYTY0MDJkOWItYmMyNy00MzVjLWJiN2EtYjBkMjE0N2I5YmViXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0235335/mediaviewer/rm2652472833/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e2662611e24f9367-rm2237010432-01","Admiral Nakhimov (1947) - IMDb rm2237010432","https://m.media-amazon.com/images/M/MV5BMTRlNWMyNzgtNzUyMi00YTFmLTlmZjgtMzFjNGE0OGQ0N2M0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0039132/mediaviewer/rm2237010432/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2549806e2ea1a543-rm1308272641-01","FAJNIE, ZE JESTES (2004) - IMDb rm1308272641","https://m.media-amazon.com/images/M/MV5BOTQwMTc3Y2EtMmUyZC00ODJkLWI2ZWUtMzZhMzA2ZTRlOTYyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0424077/mediaviewer/rm1308272641/","IMDb Official Stills"]];

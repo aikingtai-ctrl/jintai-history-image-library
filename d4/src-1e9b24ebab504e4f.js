@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1e9b24ebab504e4f-rm1245291266-01","TWA FÈY (THREE LEAVES) (2024) - IMDb rm1245291266","https://m.media-amazon.com/images/M/MV5BZmFlMDg3NjUtNjgwMy00ZjM5LThlZDQtYjJmN2EzYjRjZWRkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38983513/mediaviewer/rm1245291266/","IMDb Official Stills"]];

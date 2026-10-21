@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3f765e7b48bdef75-rm589700352-01","Sa-kwa (2005) - IMDb rm589700352","https://m.media-amazon.com/images/M/MV5BM2YwNTViMDktMmJmNy00OWFlLWI3MmMtOTQ1ZTkxNDJjYTY0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0478025/mediaviewer/rm589700352/","IMDb Official Stills"]];

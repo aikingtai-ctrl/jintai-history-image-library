@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-bc6baa236b523064-rm2591165696-01","El mil usos (1984) - IMDb rm2591165696","https://m.media-amazon.com/images/M/MV5BMmFhYzRjOTQtY2MyNy00ODZhLWI5ZGEtYWUzNWRkYTYzZDA3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0319861/mediaviewer/rm2591165696/","IMDb Official Stills"]];

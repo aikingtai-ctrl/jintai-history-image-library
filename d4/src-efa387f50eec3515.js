@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-efa387f50eec3515-rm4211473410-01","女孩不平凡 (2026) - IMDb rm4211473410","https://m.media-amazon.com/images/M/MV5BMDY1ZWQ4ODktYWE2Yy00OGFiLWIzMGItZTEyNmFiZTFmNDQ2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt45961713/mediaviewer/rm4211473410/","IMDb Official Stills"]];

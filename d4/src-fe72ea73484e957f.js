@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-fe72ea73484e957f-rm930585600-01","Masks (1999) - IMDb rm930585600","https://m.media-amazon.com/images/M/MV5BMTUwODkwOTYzNV5BMl5BanBnXkFtZTcwNjUyMzMyMQ@@._V1_.jpg","https://www.imdb.com/title/tt0250197/mediaviewer/rm930585600/","IMDb Official Stills"]];

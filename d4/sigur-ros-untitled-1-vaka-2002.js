@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-sigur-ros-untitled-1-vaka-2002-rm3391004929-01","Untitled #1 (Vaka) — 胜利玫瑰 (2002) - IMDb rm3391004929","https://m.media-amazon.com/images/M/MV5BODA2YzQzZjUtMDlkNi00OWVmLWJhYzAtN2VhOTM2NWM4OGJmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt13075266/mediaviewer/rm3391004929/","IMDb Official Stills"]];

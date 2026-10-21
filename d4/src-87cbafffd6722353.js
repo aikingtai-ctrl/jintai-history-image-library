@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-87cbafffd6722353-rm2650648833-01","NEZ NAM NAROSTLA KRIDLA (1958) - IMDb rm2650648833","https://m.media-amazon.com/images/M/MV5BYWVhYWYyODUtYjQ0Yi00NDE3LWExNGEtMzljNzcyZWQ1MzM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0195783/mediaviewer/rm2650648833/","IMDb Official Stills"]];

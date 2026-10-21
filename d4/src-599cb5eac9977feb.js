@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-599cb5eac9977feb-rm3242617089-01","GWE-IN ESI JEONGCHE (THE MASKED MONSTER) (2024) - IMDb rm3242617089","https://m.media-amazon.com/images/M/MV5BOTJhOTM1OWQtOTM4Ny00MzhkLThjYzMtYWVmMDMwMTIxN2YzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32897661/mediaviewer/rm3242617089/","IMDb Official Stills"]];

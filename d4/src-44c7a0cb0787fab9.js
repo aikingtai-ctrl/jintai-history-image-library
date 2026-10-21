@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-44c7a0cb0787fab9-rm3892368386-01","The Bell Jar (1979) - IMDb rm3892368386","https://m.media-amazon.com/images/M/MV5BZGNlMmY3MTUtOGZlNS00NTg0LWE4MWQtNjliNGRlODNhMjdiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt40603358/mediaviewer/rm3892368386/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-aaa9267d1717e6c7-rm1509475330-01","真假千金 (1972) - IMDb rm1509475330","https://m.media-amazon.com/images/M/MV5BNDljOGY1MmItZWM2Yy00MWU4LWEzNmEtZTRhMjRmZTRkOTQ2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt43703835/mediaviewer/rm1509475330/","IMDb Official Stills"]];

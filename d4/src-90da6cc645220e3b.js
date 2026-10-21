@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-90da6cc645220e3b-rm1416897792-01","DIMANCHES (2011) - IMDb rm1416897792","https://m.media-amazon.com/images/M/MV5BMGM1NDExZTktNzgyNS00NDMzLTk4OGQtNTFmNTdmZTQ5M2VmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1942057/mediaviewer/rm1416897792/","IMDb Official Stills"]];

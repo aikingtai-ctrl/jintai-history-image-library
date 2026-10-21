@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4798a5d1c9f31c15-rm3076398592-01","Tandoori Love (2008) - IMDb rm3076398592","https://m.media-amazon.com/images/M/MV5BZjdmYmFlMmQtMDQ2Yy00NTM4LThlMzYtNDZhOTVlYzhhMjYwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1087526/mediaviewer/rm3076398592/","IMDb Official Stills"]];

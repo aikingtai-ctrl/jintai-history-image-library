@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e394997216df3d27-rm2662314241-01","SYRUP (1994) - IMDb rm2662314241","https://m.media-amazon.com/images/M/MV5BZDc5MWMwMDgtNmM0YS00MWU0LWFjMWItNmM5YTY1MzM3YjY1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0111338/mediaviewer/rm2662314241/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-52cf222631874fff-rm2658821632-01","Tüske a köröm alatt (1988) - IMDb rm2658821632","https://m.media-amazon.com/images/M/MV5BMTNhYzI3YzUtOGZlNS00NzQxLWFkOGYtNmFiYjMxYzNhYTNiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0094202/mediaviewer/rm2658821632/","IMDb Official Stills"]];

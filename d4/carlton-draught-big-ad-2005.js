@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-carlton-draught-big-ad-2005-rm2073865218-01","卡尔顿·大广告 (2005) - IMDb rm2073865218","https://m.media-amazon.com/images/M/MV5BMTE5MjkyYTctMjVhMC00MmZjLTk2NDktOTM0MGQ1MDEyZTNmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38781333/mediaviewer/rm2073865218/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3bd7855a4d54ee7c-rm3128891136-01","The last Days of Dolwyn (1949) - IMDb rm3128891136","https://m.media-amazon.com/images/M/MV5BM2M5Yzc2MzgtOTQyNS00NDQ4LWFjOGQtOTE5YzUxYWY5NzcxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0041579/mediaviewer/rm3128891136/","IMDb Official Stills"]];

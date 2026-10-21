@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a0147ba10bd88882-rm1179726336-01","太太萬歲 (1968) - IMDb rm1179726336","https://m.media-amazon.com/images/M/MV5BYzk2ZTIwOTMtM2EzNy00MTgyLTk5ZGYtNjY2MWRlMjAwNzUwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4693398/mediaviewer/rm1179726336/","IMDb Official Stills"]];

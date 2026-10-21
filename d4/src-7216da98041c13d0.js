@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7216da98041c13d0-rm2294881536-01","Dzien wilekiej przygody (1935) - IMDb rm2294881536","https://m.media-amazon.com/images/M/MV5BOGE5OGEwNjgtMTk3Ni00NmJiLWJlODktNTdiZDIzODdmNzQyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0285048/mediaviewer/rm2294881536/","IMDb Official Stills"]];

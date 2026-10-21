@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-393c22dc1f59d474-rm180303872-01","Potomok belogo barssa (1985) - IMDb rm180303872","https://m.media-amazon.com/images/M/MV5BYjFhMGExZmYtMGNjMi00OGVkLTgwMGMtNzMyNDllNjgxYWJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0087937/mediaviewer/rm180303872/","IMDb Official Stills"]];

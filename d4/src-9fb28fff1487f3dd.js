@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9fb28fff1487f3dd-rm1290680064-01","The Rival World (1955) - IMDb rm1290680064","https://m.media-amazon.com/images/M/MV5BNTIyNjEyYWUtZWRjNi00Y2RiLWI0MjQtNzkzNDVlZmZhN2EyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0048669/mediaviewer/rm1290680064/","IMDb Official Stills"]];

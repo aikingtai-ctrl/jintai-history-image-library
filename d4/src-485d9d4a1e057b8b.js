@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-485d9d4a1e057b8b-rm3403645697-01","Il neige à Marrakech (2006) - IMDb rm3403645697","https://m.media-amazon.com/images/M/MV5BYmEyZGJjYTYtMDQ5NS00NWIyLTg1M2YtOTBjNWZjYjY2MzNiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1161758/mediaviewer/rm3403645697/","IMDb Official Stills"]];

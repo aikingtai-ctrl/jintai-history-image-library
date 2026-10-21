@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-20fbcd6c40a7ccc5-rm994821378-01","Zavada neni na vasem prijimaci (1962) - IMDb rm994821378","https://m.media-amazon.com/images/M/MV5BNTNkYTVkMmItY2E2MC00OTcwLTg5NDUtNzNhZWQzMDdlMDBiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6956880/mediaviewer/rm994821378/","IMDb Official Stills"]];

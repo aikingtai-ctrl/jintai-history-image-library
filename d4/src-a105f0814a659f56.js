@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a105f0814a659f56-rm2270731778-01","BUKPYTACY (1988) - IMDb rm2270731778","https://m.media-amazon.com/images/M/MV5BMGQyZjFlZDEtZjY5Mi00MGU2LWJiNmItOWJhODM4MzlkNzhiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt34817571/mediaviewer/rm2270731778/","IMDb Official Stills"]];

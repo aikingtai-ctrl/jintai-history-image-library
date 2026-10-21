@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c85a9f1fd5ff27b9-rm4035675650-01","Tabatô (2013) - IMDb rm4035675650","https://m.media-amazon.com/images/M/MV5BYWFiNjA5Y2QtZjJjMC00NWNhLTk5NGQtOTA2YmYxMWMzYmQyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2661940/mediaviewer/rm4035675650/","IMDb Official Stills"]];

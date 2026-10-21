@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8476ad38c07c6011-rm2796917248-01","La espalda del mundo (2000) - IMDb rm2796917248","https://m.media-amazon.com/images/M/MV5BOTExMDk4NDMwNF5BMl5BanBnXkFtZTcwOTI0NDMzMQ@@._V1_.jpg","https://www.imdb.com/title/tt0264584/mediaviewer/rm2796917248/","IMDb Official Stills"]];

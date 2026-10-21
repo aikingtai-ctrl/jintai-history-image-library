@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-81d95439ecf505bd-rm1330997761-01","Der Fleck (2024) - IMDb rm1330997761","https://m.media-amazon.com/images/M/MV5BMTA4MDI1MzgtNjViYi00NWRmLTg2MTQtNWI0ZjcxMWQzYzMwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32886614/mediaviewer/rm1330997761/","IMDb Official Stills"]];

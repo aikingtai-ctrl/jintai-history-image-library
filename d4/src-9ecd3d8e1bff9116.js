@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9ecd3d8e1bff9116-rm1172381952-01","Wir Bergler in den Bergen sind eigentlich nicht schuld, daß wir da sind (1975) - IMDb rm1172381952","https://m.media-amazon.com/images/M/MV5BYzJlOThiNWEtZjFjNy00YTU2LWI1YjctMjQ0MzI5N2RmNDNhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0346146/mediaviewer/rm1172381952/","IMDb Official Stills"]];

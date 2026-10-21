@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-passionate-years-2001-rm3825867008-01","激情燃烧的岁月 (2001) - IMDb rm3825867008","https://m.media-amazon.com/images/M/MV5BMDg0Y2ZlOGYtMWZlYi00YmZmLWFiMWItYmVjY2MxZTlmMmYzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1373286/mediaviewer/rm3825867008/","IMDb Official Stills"]];

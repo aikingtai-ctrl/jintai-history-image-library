@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-coca-cola-hilltop-1971-rm452495105-01","可口可乐·山顶 (1971) - IMDb rm452495105","https://m.media-amazon.com/images/M/MV5BMDEwZTEwNmYtZTRiMy00NWE5LWFmYWUtYWIwN2U4NzNiYjAxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11166424/mediaviewer/rm452495105/","IMDb Official Stills"]];

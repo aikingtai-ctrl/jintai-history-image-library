@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-20f331720378a7e3-rm3212646144-01","PLANET Σ (2015) - IMDb rm3212646144","https://m.media-amazon.com/images/M/MV5BZWYzMzRkMmMtZDIzMS00NDczLWE4YzctYTA0YjFhODgzZjE0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5802030/mediaviewer/rm3212646144/","IMDb Official Stills"]];

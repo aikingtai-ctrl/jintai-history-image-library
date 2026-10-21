@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3946064b8a563bfc-rm3924837632-01","Âge d'or, L' (1930) - IMDb rm3924837632","https://m.media-amazon.com/images/M/MV5BOWU1N2VkNGEtMjY3ZC00YWFiLWI1YWItNDU1ZTA3OTJhYTg3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4322180/mediaviewer/rm3924837632/","IMDb Official Stills"]];

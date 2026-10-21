@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7542357dd3c1d122-rm1601768704-01","Hora sred oblatzite (1946) - IMDb rm1601768704","https://m.media-amazon.com/images/M/MV5BMTYzY2M3ZGItNDRkZi00MTdjLWE2MzItZmIzYWVmNTM4MzMyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0332126/mediaviewer/rm1601768704/","IMDb Official Stills"]];

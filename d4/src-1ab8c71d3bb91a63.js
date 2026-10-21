@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1ab8c71d3bb91a63-rm1729250817-01","Bezoek aan Picasso (1949) - IMDb rm1729250817","https://m.media-amazon.com/images/M/MV5BZjk3NmQyOGMtZTY1NS00Y2IzLWFmNWMtYWMzMTRkOWEzNTllXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0267316/mediaviewer/rm1729250817/","IMDb Official Stills"]];

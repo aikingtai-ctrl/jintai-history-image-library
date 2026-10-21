@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c60572b9aaf01d2c-rm3875064578-01","LE RAT (1981) - IMDb rm3875064578","https://m.media-amazon.com/images/M/MV5BY2Y2N2MyNTAtZmU3ZS00NTM3LThiYjgtNWI0ZDIyZTQwNjU4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0232517/mediaviewer/rm3875064578/","IMDb Official Stills"]];

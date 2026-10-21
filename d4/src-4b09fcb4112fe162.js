@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4b09fcb4112fe162-rm1213880321-01","ET SALAMMBO ? (1970) - IMDb rm1213880321","https://m.media-amazon.com/images/M/MV5BYjQ4MDU0ODQtNjQ2Ny00OWY1LWI4MmUtNGMzNzUzZmU3OTM2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4944980/mediaviewer/rm1213880321/","IMDb Official Stills"]];

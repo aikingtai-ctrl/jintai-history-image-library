@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cab271c49c269817-rm2545626880-01","Henry Moore (1951) - IMDb rm2545626880","https://m.media-amazon.com/images/M/MV5BOTZmYTdlZjUtNGQ3MC00Mjc4LWFlOWYtNzNjYmVlNTRkZTE3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1737177/mediaviewer/rm2545626880/","IMDb Official Stills"]];

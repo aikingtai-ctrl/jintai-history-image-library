@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-afd0cb3edd647205-rm974741505-01","BOLCHAYA SEMYA (1955) - IMDb rm974741505","https://m.media-amazon.com/images/M/MV5BNzBhMDgwYjktNzZiYS00NWY3LWE5ZDMtMzQ5NDE4ZWI0MzhkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt33678338/mediaviewer/rm974741505/","IMDb Official Stills"]];

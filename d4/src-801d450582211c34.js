@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-801d450582211c34-rm3288334082-01","To The Rescue (1952) - IMDb rm3288334082","https://m.media-amazon.com/images/M/MV5BNTllZjkxMGUtMjM4Yy00MjMzLThhMWEtMWY4YjI2NGEzNTQyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt45077719/mediaviewer/rm3288334082/","IMDb Official Stills"]];

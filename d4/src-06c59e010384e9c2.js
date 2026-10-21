@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-06c59e010384e9c2-rm551552513-01","Gerichtstag (1966) - IMDb rm551552513","https://m.media-amazon.com/images/M/MV5BNDA5NmQzNDYtNWJhNi00OTdiLTk1ZGItMjNkZDg1NGRiOGE4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4514700/mediaviewer/rm551552513/","IMDb Official Stills"]];

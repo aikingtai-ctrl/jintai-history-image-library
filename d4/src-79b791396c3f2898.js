@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-79b791396c3f2898-rm203954688-01","Planeta krawiec (1983) - IMDb rm203954688","https://m.media-amazon.com/images/M/MV5BOWMxNzNhYTEtY2QwOS00N2UyLThjZjgtOWQxNzZkNTM4MWRhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0086115/mediaviewer/rm203954688/","IMDb Official Stills"]];

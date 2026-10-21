@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5bdd4bdfe63bc1f5-rm29164288-01","碧雲天 (1976) - IMDb rm29164288","https://m.media-amazon.com/images/M/MV5BNGJkYWY3OWEtYjJkMC00ZjFlLWJiMDAtZDIzOTI5NmM5NjVlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0194701/mediaviewer/rm29164288/","IMDb Official Stills"]];

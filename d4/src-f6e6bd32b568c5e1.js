@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f6e6bd32b568c5e1-rm513537025-01","Zvezdopad (1981) - IMDb rm513537025","https://m.media-amazon.com/images/M/MV5BY2YxYzQ2YjUtMjI2YS00ZTExLThiNzEtNzRhY2JhM2Q4Njc2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0083145/mediaviewer/rm513537025/","IMDb Official Stills"]];

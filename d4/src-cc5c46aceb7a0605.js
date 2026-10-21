@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cc5c46aceb7a0605-rm4287526144-01","Yûreisen (1956) - IMDb rm4287526144","https://m.media-amazon.com/images/M/MV5BOGYzNzJkYmMtNzE3Zi00Yzg4LTk1YjctMzI0N2IxODQyYmJiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0419283/mediaviewer/rm4287526144/","IMDb Official Stills"]];

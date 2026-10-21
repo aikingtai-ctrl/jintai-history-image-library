@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-01ce5a5d6fc16359-rm2883406848-01","Le monde de Paul Delvaux (1946) - IMDb rm2883406848","https://m.media-amazon.com/images/M/MV5BZmU2ODJmZWMtNjc0OS00ZTNlLTk5MDItMTYwNmFiY2JkZWNjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2033295/mediaviewer/rm2883406848/","IMDb Official Stills"]];

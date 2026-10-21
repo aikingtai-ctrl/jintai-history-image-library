@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ba44bffbb7c6ebf3-rm4074951425-01","Caribbean (1951) - IMDb rm4074951425","https://m.media-amazon.com/images/M/MV5BYzA1NDZhNjctNzZkYS00ZmZmLWE2ZjQtYTI0ZTVjYWI0YzA2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3786866/mediaviewer/rm4074951425/","IMDb Official Stills"]];

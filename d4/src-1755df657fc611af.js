@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1755df657fc611af-rm2008824576-01","Amenecer en puerta oscura (1957) - IMDb rm2008824576","https://m.media-amazon.com/images/M/MV5BMzYyZGZhZWYtNTRjNC00M2MwLWE0NWUtOWExZjk3ODdiYjBiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0050116/mediaviewer/rm2008824576/","IMDb Official Stills"]];

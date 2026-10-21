@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-chet-faker-gold-2014-rm3232193792-01","Gold — Chet Faker (2014) - IMDb rm3232193792","https://m.media-amazon.com/images/M/MV5BOGU0ZTMwNjEtZTRiMS00NTJhLTgxODEtYTE1YzQ5OWZiZDkwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4274922/mediaviewer/rm3232193792/","IMDb Official Stills"]];

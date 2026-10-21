@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d1c05e4783449803-rm1893840385-01","Hamu (1994) - IMDb rm1893840385","https://m.media-amazon.com/images/M/MV5BOGZjYTVmODUtYTgxZi00NzFhLThlMzktYWY3MWU0YzNhMGFhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0194931/mediaviewer/rm1893840385/","IMDb Official Stills"]];

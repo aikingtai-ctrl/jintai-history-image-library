@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2709ad213b766108-rm115857154-01","Alfa Tau! (1942) - IMDb rm115857154","https://m.media-amazon.com/images/M/MV5BODgwOGMyNTctOTI2MS00NDRkLWFmNWEtZTE5YTE2MWIzZmY1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0034444/mediaviewer/rm115857154/","IMDb Official Stills"]];

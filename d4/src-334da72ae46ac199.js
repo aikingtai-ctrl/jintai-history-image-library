@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-334da72ae46ac199-rm2955904257-01","Kwa Heri Mandima (2010) - IMDb rm2955904257","https://m.media-amazon.com/images/M/MV5BMjQzZDViNzAtZTJlNy00NmFlLThiNGItMTdkODkwZDI3ZmVhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1850379/mediaviewer/rm2955904257/","IMDb Official Stills"]];

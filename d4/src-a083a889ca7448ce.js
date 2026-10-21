@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a083a889ca7448ce-rm1324158976-01","Baara (1978) - IMDb rm1324158976","https://m.media-amazon.com/images/M/MV5BYTQwMjlkNWUtMWVkNC00YTg3LTliYmQtOGY1ZjA3NWQ0NGNkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0077198/mediaviewer/rm1324158976/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-21389fb2d90244cd-rm460245505-01","Lo specchio, la tigre et la pianura (1961) - IMDb rm460245505","https://m.media-amazon.com/images/M/MV5BZDBmZjI5MWQtZjc1YS00ODhmLWJiOWUtNWIwOTk4NGFjMzg1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0240916/mediaviewer/rm460245505/","IMDb Official Stills"]];

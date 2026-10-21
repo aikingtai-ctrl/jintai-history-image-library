@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-dove-real-beauty-sketches-2013-rm1291472128-01","多芬·真美素描 (2013) - IMDb rm1291472128","https://m.media-amazon.com/images/M/MV5BOWYwNWI2NzAtMDZhYy00ZmRmLTk4MzAtYTY2NDlhNGRkMzE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5168788/mediaviewer/rm1291472128/","IMDb Official Stills"]];

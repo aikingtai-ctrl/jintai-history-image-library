@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-47470ae006a3dd48-rm325444608-01","PRIMERA NIEVE (2006) - IMDb rm325444608","https://m.media-amazon.com/images/M/MV5BMjIwNGUzM2YtYTNiZC00OTcxLWFlMmMtZmM0ZWQ0MWJlNDc4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0800964/mediaviewer/rm325444608/","IMDb Official Stills"]];

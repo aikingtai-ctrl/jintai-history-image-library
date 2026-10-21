@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8132e94dbd38736c-rm2296716032-01","大藍湖 (2012) - IMDb rm2296716032","https://m.media-amazon.com/images/M/MV5BYzVkY2Q4MWMtNzU4OS00OTdlLWI3YjctYzk5M2ZiNzYzZjBmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2066857/mediaviewer/rm2296716032/","IMDb Official Stills"]];

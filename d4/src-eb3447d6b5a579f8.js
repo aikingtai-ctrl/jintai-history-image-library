@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-eb3447d6b5a579f8-rm4134411777-01","LUX (2021) - IMDb rm4134411777","https://m.media-amazon.com/images/M/MV5BZTExNjFjZjktMjc4ZC00YTE4LTkwYTUtYjc1MGI0OTkyMGI3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt18547894/mediaviewer/rm4134411777/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d1da2dbcc777dff8-rm2387489536-01","Titanics ti liv (2008) - IMDb rm2387489536","https://m.media-amazon.com/images/M/MV5BMDkyNGJmMTItZDY5ZC00MzI3LWIzOTEtNWYzYWQyOTE3YjA2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1087873/mediaviewer/rm2387489536/","IMDb Official Stills"]];

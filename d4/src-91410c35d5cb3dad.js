@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-91410c35d5cb3dad-rm4024099840-01","一隻鳥仔哮啾啾 (1997) - IMDb rm4024099840","https://m.media-amazon.com/images/M/MV5BZTFlODMwYmQtMDczNi00N2JiLWI2NGUtN2QxNzYxY2FlOGFhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0189117/mediaviewer/rm4024099840/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-19b56ee0d1eb7250-rm2273717248-01","A City Decides (1956) - IMDb rm2273717248","https://m.media-amazon.com/images/M/MV5BZWY4NzZhOTEtOWNlMS00MDIyLWIzY2QtY2FiZDhhNzQxZDU5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0049081/mediaviewer/rm2273717248/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5ff8fc2d9da37e80-rm2576756736-01","Saiyûki (1961) - IMDb rm2576756736","https://m.media-amazon.com/images/M/MV5BZjExNmEzNDgtYzhiNC00Y2E2LWEwNDUtOGFjOTM5MGNlMWI1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0203688/mediaviewer/rm2576756736/","IMDb Official Stills"]];

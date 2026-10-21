@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-78241328728fffe6-rm151503106-01","I WANT TO LIVE (2026) - IMDb rm151503106","https://m.media-amazon.com/images/M/MV5BOTMyM2QzMjYtMzgxOC00YTQ3LWJkYzYtNjgyZDAwZGU0NzczXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt41301705/mediaviewer/rm151503106/","IMDb Official Stills"]];

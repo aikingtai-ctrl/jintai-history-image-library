@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-34d3624154bc5ac0-rm2647855360-01","烽火萬里情 (1968) - IMDb rm2647855360","https://m.media-amazon.com/images/M/MV5BNGEyZDk0YTYtMDUwZC00NGI5LTkxMzAtYzFkMWJjNzAyY2IxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0186095/mediaviewer/rm2647855360/","IMDb Official Stills"]];

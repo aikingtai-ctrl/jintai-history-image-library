@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4c7bac0ce00b00bf-rm835337728-01","Ubu (1979) - IMDb rm835337728","https://m.media-amazon.com/images/M/MV5BMDZiZTVmNTMtZjBiMi00YWQxLWI1OTQtYTkzMWZkZTFjZDM0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0094205/mediaviewer/rm835337728/","IMDb Official Stills"]];

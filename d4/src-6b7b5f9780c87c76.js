@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6b7b5f9780c87c76-rm341260800-01","Shag (1989) - IMDb rm341260800","https://m.media-amazon.com/images/M/MV5BNmM2ZGNlOTYtNWQ3Yi00OGNiLTkwZjYtYTk4MDRjZTczZjdhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0096085/mediaviewer/rm341260800/","IMDb Official Stills"]];

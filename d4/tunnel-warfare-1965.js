@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-tunnel-warfare-1965-rm2361081088-01","地道战 (1965) - IMDb rm2361081088","https://m.media-amazon.com/images/M/MV5BZGJmYzMxNjItYzU1OS00YTFiLWEyYmEtYTZjMTdkZTkyYmFhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1110246/mediaviewer/rm2361081088/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-075e2fd982c52835-rm3181110528-01","The Foot Shooting Party (1994) - IMDb rm3181110528","https://m.media-amazon.com/images/M/MV5BZTMzYTkzZDEtMjVhMC00NGU3LWI5Y2QtZWM3ZDA2YTZkNjMwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0109820/mediaviewer/rm3181110528/","IMDb Official Stills"]];

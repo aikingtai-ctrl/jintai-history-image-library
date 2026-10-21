@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-26a872b7a3e1f7cb-rm3591573761-01","Haenderne op (1998) - IMDb rm3591573761","https://m.media-amazon.com/images/M/MV5BZGM5MGE3YWItZTMyNy00MTYzLTk2YjYtNjUyNzNlMjU4NTVhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0194028/mediaviewer/rm3591573761/","IMDb Official Stills"]];

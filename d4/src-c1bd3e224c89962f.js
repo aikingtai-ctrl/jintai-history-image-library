@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c1bd3e224c89962f-rm2133271040-01","E o kaku kodomotachi (1956) - IMDb rm2133271040","https://m.media-amazon.com/images/M/MV5BMTk5ZDQ0ZDctZDhmMC00NDliLTk4M2QtZTAyYzRjYzEwMTY3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0049068/mediaviewer/rm2133271040/","IMDb Official Stills"]];

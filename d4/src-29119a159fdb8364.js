@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-29119a159fdb8364-rm604770561-01","L'Équateur aux cent visages (1948) - IMDb rm604770561","https://m.media-amazon.com/images/M/MV5BYjI1OTE4MDEtMTkzYi00MDNlLThhYjAtZTg5NzJiZDE2ZTAzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0041184/mediaviewer/rm604770561/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-790e2105287e11ec-rm2785942528-01","Guelwaar (1992) - IMDb rm2785942528","https://m.media-amazon.com/images/M/MV5BNDFlMzQwNzItZjM3Ni00NmZkLTliZTQtNjVhYzBiMTIwZjllXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0104373/mediaviewer/rm2785942528/","IMDb Official Stills"]];

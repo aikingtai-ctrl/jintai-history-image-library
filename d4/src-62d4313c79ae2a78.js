@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-62d4313c79ae2a78-rm2030581760-01","The Carpenter and his Clumsy Wife (2004) - IMDb rm2030581760","https://m.media-amazon.com/images/M/MV5BODg3MDVlYTEtNmI0Ni00MzJkLTg3ZmQtYWNiZjYxN2Q1NzM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0424882/mediaviewer/rm2030581760/","IMDb Official Stills"]];

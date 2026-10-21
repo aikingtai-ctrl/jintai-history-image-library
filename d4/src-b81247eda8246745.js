@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b81247eda8246745-rm2897024512-01","Le paquebot Tenacity (1934) - IMDb rm2897024512","https://m.media-amazon.com/images/M/MV5BNzdiYjE2MDYtNjAwMy00Mjg4LTg3MzItMDgzYjNlZDg3N2JjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0025623/mediaviewer/rm2897024512/","IMDb Official Stills"]];

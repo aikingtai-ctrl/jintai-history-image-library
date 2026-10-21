@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-87c341bb70081046-rm1319571712-01","Joe’s Bed-Stuy Barbershop: We Cut Heads (1983) - IMDb rm1319571712","https://m.media-amazon.com/images/M/MV5BNzNiODViZTctNzg2Yy00OWE4LTk1YzUtNjExZTFlZmU0ZGVjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0085758/mediaviewer/rm1319571712/","IMDb Official Stills"]];

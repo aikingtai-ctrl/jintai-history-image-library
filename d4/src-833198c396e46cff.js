@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-833198c396e46cff-rm1525741825-01","Wilhelm De Kooning (1966) - IMDb rm1525741825","https://m.media-amazon.com/images/M/MV5BZGUwZmVjYTctMWMyZi00NWVhLWFlNTgtOGIyYjVjYzBlODk4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0208574/mediaviewer/rm1525741825/","IMDb Official Stills"]];

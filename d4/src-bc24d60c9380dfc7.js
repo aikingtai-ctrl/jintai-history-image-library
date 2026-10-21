@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-bc24d60c9380dfc7-rm3886383106-01","BIALY REDYK (1949) - IMDb rm3886383106","https://m.media-amazon.com/images/M/MV5BZDU5OGM0MzktNGM2Ni00ZTIzLWJjZjUtNDg4YjFiOWFhZjVjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0380154/mediaviewer/rm3886383106/","IMDb Official Stills"]];

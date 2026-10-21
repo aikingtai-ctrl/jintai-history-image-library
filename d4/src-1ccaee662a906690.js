@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1ccaee662a906690-rm3948548352-01","Scugnizzi (1989) - IMDb rm3948548352","https://m.media-amazon.com/images/M/MV5BMGZkODA1MTQtNmRiNC00MTI0LWFiMGYtMjRiNzRlNmU5MGUzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0098271/mediaviewer/rm3948548352/","IMDb Official Stills"]];

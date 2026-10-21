@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-dc64762e4dea8f8c-rm2814619394-01","Sept en attente (1995) - IMDb rm2814619394","https://m.media-amazon.com/images/M/MV5BMzg2OWNmNDUtY2FmMS00YzdhLThkMjItYmU1NzU3NTFhNjhkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0117599/mediaviewer/rm2814619394/","IMDb Official Stills"]];

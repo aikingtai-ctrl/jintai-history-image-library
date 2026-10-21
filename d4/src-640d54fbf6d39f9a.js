@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-640d54fbf6d39f9a-rm2765438208-01","LE COQ CHANTE A MINUIT (1965) - IMDb rm2765438208","https://m.media-amazon.com/images/M/MV5BZTZhNGNiZWItMDdhYi00ZjQ1LTg4ZDEtZjUzNTE4YjY3MGM1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0259945/mediaviewer/rm2765438208/","IMDb Official Stills"]];

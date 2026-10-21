@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c4c99e12fd30633a-rm1218073345-01","Le songe des chevaux sauvages (1960) - IMDb rm1218073345","https://m.media-amazon.com/images/M/MV5BZTRjYjA1OTgtYzVhYS00MzU2LWIwZWItZDc0YjU5NzU1YjhiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0064260/mediaviewer/rm1218073345/","IMDb Official Stills"]];

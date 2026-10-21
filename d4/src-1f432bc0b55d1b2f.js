@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1f432bc0b55d1b2f-rm3808410881-01","山有多高 (2002) - IMDb rm3808410881","https://m.media-amazon.com/images/M/MV5BNTYxMDcxMTYtMmNkOS00Y2ViLWJmMjItNDU2MWIxMzk3YzdmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0341400/mediaviewer/rm3808410881/","IMDb Official Stills"]];

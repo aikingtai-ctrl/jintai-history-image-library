@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3402845f36eec3fc-rm2089501953-01","少年噶瑪蘭 (1999) - IMDb rm2089501953","https://m.media-amazon.com/images/M/MV5BNjM5Y2I5NDktZmQxZi00NTg2LWE3NjEtOWE1YWNhNzE0ZmMzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11162414/mediaviewer/rm2089501953/","IMDb Official Stills"]];

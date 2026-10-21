@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c71277504374c31d-rm1041040640-01","Sambar Salsa (2007) - IMDb rm1041040640","https://m.media-amazon.com/images/M/MV5BMTcyOTc2ZjAtNjViZi00Nzk2LTlhMmYtMGI2OTY5MTg0MDIxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0808457/mediaviewer/rm1041040640/","IMDb Official Stills"]];

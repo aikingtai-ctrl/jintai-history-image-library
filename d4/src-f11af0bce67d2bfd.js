@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f11af0bce67d2bfd-rm1870547712-01","Nice Time (1957) - IMDb rm1870547712","https://m.media-amazon.com/images/M/MV5BMGMwN2E2OWItYTg5Ni00OGM4LTg1YzQtNTdlOTI0NDkzOGQwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0201798/mediaviewer/rm1870547712/","IMDb Official Stills"]];

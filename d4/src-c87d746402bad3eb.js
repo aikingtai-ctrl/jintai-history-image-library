@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c87d746402bad3eb-rm2675906560-01","Ter land, ter zee en in de lucht (1981) - IMDb rm2675906560","https://m.media-amazon.com/images/M/MV5BYzY5NWFiMjEtMDIzYy00ZDAyLWJlYjMtYWNlYTA5ZTQ5NTMwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0133229/mediaviewer/rm2675906560/","IMDb Official Stills"]];

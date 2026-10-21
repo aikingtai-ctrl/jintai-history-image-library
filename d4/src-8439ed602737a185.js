@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8439ed602737a185-rm1724908032-01","想死趁現在 (1999) - IMDb rm1724908032","https://m.media-amazon.com/images/M/MV5BYmQzYTlmYzgtZWY3ZC00NTM4LWI2NTQtMThjYTM1ZmYwZjEwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0270271/mediaviewer/rm1724908032/","IMDb Official Stills"]];

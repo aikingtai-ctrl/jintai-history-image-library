@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d8f56105eef051ad-rm1600297984-01","啞女情深 (1966) - IMDb rm1600297984","https://m.media-amazon.com/images/M/MV5BMTY1MDE2NzM5OV5BMl5BanBnXkFtZTcwMTkyMTIyMQ@@._V1_.jpg","https://www.imdb.com/title/tt0185686/mediaviewer/rm1600297984/","IMDb Official Stills"]];

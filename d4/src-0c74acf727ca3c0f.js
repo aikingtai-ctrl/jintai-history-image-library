@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0c74acf727ca3c0f-rm215232257-01","The Undefeated (1951) - IMDb rm215232257","https://m.media-amazon.com/images/M/MV5BMTRjZDQ4Y2ItNDYzMS00NTRhLThhNjAtNDI4YjBmOGY0YWRjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0214240/mediaviewer/rm215232257/","IMDb Official Stills"]];

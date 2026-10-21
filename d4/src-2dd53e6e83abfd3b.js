@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2dd53e6e83abfd3b-rm2179138048-01","Vetrarmorgun (2014) - IMDb rm2179138048","https://m.media-amazon.com/images/M/MV5BMzE0YjMzMmUtZGFlZC00ZTVhLTg0ZTAtZmVjMTlmZWY4MjJmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3467294/mediaviewer/rm2179138048/","IMDb Official Stills"]];

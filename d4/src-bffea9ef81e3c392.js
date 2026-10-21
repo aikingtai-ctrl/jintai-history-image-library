@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-bffea9ef81e3c392-rm4065996800-01","唐山過台灣 (1986) - IMDb rm4065996800","https://m.media-amazon.com/images/M/MV5BODI2NDE5NDEtYjgyMy00MjRhLWJmODktMDNkN2I2OWViOWMzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1220587/mediaviewer/rm4065996800/","IMDb Official Stills"]];

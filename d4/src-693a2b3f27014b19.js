@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-693a2b3f27014b19-rm3165680385-01","Le mystère de l'atelier Quinze (1957) - IMDb rm3165680385","https://m.media-amazon.com/images/M/MV5BOTNlOGM5ZjAtNGZjZi00ZTNlLThhZGMtMTRiZjQ3ODAwOWJmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0050739/mediaviewer/rm3165680385/","IMDb Official Stills"]];

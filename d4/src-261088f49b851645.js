@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-261088f49b851645-rm3573437952-01","Shkola nomer 3 (2017) - IMDb rm3573437952","https://m.media-amazon.com/images/M/MV5BZDYyYTE2OTMtNWFhYS00NzNhLTg5NjAtZWYyNmZjYjA2OGZiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6875570/mediaviewer/rm3573437952/","IMDb Official Stills"]];

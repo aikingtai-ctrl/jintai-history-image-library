@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f7d20fa50f73ba06-rm1021870336-01","美國心 (1987) - IMDb rm1021870336","https://m.media-amazon.com/images/M/MV5BMTYzNjIwNzI0OV5BMl5BanBnXkFtZTcwNjIyODY3Mw@@._V1_.jpg","https://www.imdb.com/title/tt0169547/mediaviewer/rm1021870336/","IMDb Official Stills"]];

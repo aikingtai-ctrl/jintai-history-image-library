@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c9fc79abc4f44cda-rm269272834-01","Krek (1968) - IMDb rm269272834","https://m.media-amazon.com/images/M/MV5BYTJiMzc3YjEtZDBkZi00YTdmLWJkMWItN2JiMTliNGI5OTY3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0234055/mediaviewer/rm269272834/","IMDb Official Stills"]];

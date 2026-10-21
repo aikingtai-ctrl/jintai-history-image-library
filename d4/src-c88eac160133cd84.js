@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c88eac160133cd84-rm194267137-01","La estrella azul / The Blue Star (2023) - IMDb rm194267137","https://m.media-amazon.com/images/M/MV5BNmEyNWMxY2YtMWM5YS00ZDU3LWE5NmEtNTFhN2YyN2YyODUxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11941694/mediaviewer/rm194267137/","IMDb Official Stills"]];

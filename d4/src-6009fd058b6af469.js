@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6009fd058b6af469-rm3734425601-01","ZVIRATKA A PETROVSKI (1946) - IMDb rm3734425601","https://m.media-amazon.com/images/M/MV5BMDk1OTc3NGEtYzRkYy00MDI1LThiZGMtYmRiNmQ3MzY4OTFlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt9434738/mediaviewer/rm3734425601/","IMDb Official Stills"]];

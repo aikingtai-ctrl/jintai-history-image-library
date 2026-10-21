@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c0986659ca28f635-rm2154699264-01","Araya (1959) - IMDb rm2154699264","https://m.media-amazon.com/images/M/MV5BYjdhMzQ0NTMtOThjMi00OGVlLThhNmUtZjQwYTUzNjY5Yjg4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0051372/mediaviewer/rm2154699264/","IMDb Official Stills"]];

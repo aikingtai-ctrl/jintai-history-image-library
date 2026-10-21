@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b8c603d6fe727d4c-rm3063144705-01","Bird in the Peninsula (2022) - IMDb rm3063144705","https://m.media-amazon.com/images/M/MV5BMTE4ZThhMjItMTRlMS00MWFmLWFmOGMtMDAyMGVjY2MwZjBjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt17162390/mediaviewer/rm3063144705/","IMDb Official Stills"]];

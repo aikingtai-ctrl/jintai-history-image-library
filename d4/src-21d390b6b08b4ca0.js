@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-21d390b6b08b4ca0-rm1802358273-01","Ot edno do osem (1967) - IMDb rm1802358273","https://m.media-amazon.com/images/M/MV5BZjY2MmFlMDItMDA3NS00Mjg2LWIzMjktMGZhYzJhNzZlYTU4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0469507/mediaviewer/rm1802358273/","IMDb Official Stills"]];

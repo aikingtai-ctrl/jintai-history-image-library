@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-hometown-of-literature-2020-rm663006978-01","文学的故乡 (2020) - IMDb rm663006978","https://m.media-amazon.com/images/M/MV5BYTlmMWVmMzctZjg2NC00MmFkLWIwNTMtYWQ2OGE2YmYwNjRlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38721379/mediaviewer/rm663006978/","IMDb Official Stills"]];

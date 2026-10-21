@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f2942843b6cf39b7-rm2641917696-01","V peskach svednei asii (1943) - IMDb rm2641917696","https://m.media-amazon.com/images/M/MV5BNzZkOGJjZjctYmZiZC00OTdiLWEwYTUtYTcwNzViNjUzMjUwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0036485/mediaviewer/rm2641917696/","IMDb Official Stills"]];

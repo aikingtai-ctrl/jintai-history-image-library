@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f8dc873a0cd34a8c-rm1239957248-01","Uttara (2000) - IMDb rm1239957248","https://m.media-amazon.com/images/M/MV5BMzgwNjNkYTQtNmZmNy00ZTMxLWI3Y2UtZmM3ZDNmYzU1N2Y4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0255665/mediaviewer/rm1239957248/","IMDb Official Stills"]];

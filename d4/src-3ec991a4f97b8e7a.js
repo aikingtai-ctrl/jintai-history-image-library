@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3ec991a4f97b8e7a-rm3916434688-01","Là-bas (2011) - IMDb rm3916434688","https://m.media-amazon.com/images/M/MV5BZGI0ZGVlYTMtMTk2MC00MzFhLTgzN2MtZWQzZmIwODQ4MDA3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2087864/mediaviewer/rm3916434688/","IMDb Official Stills"]];

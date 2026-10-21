@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a747cbcdd5dc7b0d-rm1388479488-01","SHE’ELOT SHEL PO’EL MET (2002) - IMDb rm1388479488","https://m.media-amazon.com/images/M/MV5BMTYwOTYxMDk3MV5BMl5BanBnXkFtZTcwNDEzODQxNA@@._V1_.jpg","https://www.imdb.com/title/tt0318070/mediaviewer/rm1388479488/","IMDb Official Stills"]];

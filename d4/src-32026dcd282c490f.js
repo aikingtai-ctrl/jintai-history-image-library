@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-32026dcd282c490f-rm1108496128-01","Blind Spot (2018) - IMDb rm1108496128","https://m.media-amazon.com/images/M/MV5BYjNhMmMxNDMtZDVkNC00NWZkLTkyNGUtMDU5NTEwOTRjZTAyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8125842/mediaviewer/rm1108496128/","IMDb Official Stills"]];

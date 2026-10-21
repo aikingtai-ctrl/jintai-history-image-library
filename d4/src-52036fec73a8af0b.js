@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-52036fec73a8af0b-rm3088364288-01","What Goes Up (2003) - IMDb rm3088364288","https://m.media-amazon.com/images/M/MV5BMTU2NDgwMjQwNF5BMl5BanBnXkFtZTcwMTM5NDYxNw@@._V1_.jpg","https://www.imdb.com/title/tt0832318/mediaviewer/rm3088364288/","IMDb Official Stills"]];

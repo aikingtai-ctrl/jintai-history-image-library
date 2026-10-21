@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-before-dawn-2010-rm2378323457-01","黎明之前 (2010) - IMDb rm2378323457","https://m.media-amazon.com/images/M/MV5BYjRmOWRlZWEtNWYxNy00ODYxLTk1NjYtMjBkNTIxMjJkMjM2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1671633/mediaviewer/rm2378323457/","IMDb Official Stills"]];

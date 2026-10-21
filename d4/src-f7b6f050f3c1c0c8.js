@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f7b6f050f3c1c0c8-rm1458791680-01","The snowy day (1965) - IMDb rm1458791680","https://m.media-amazon.com/images/M/MV5BMTk0YTMyYTYtZTlhZS00MzUxLWEzNjMtZmZlNTIzMDg3NTVmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0208453/mediaviewer/rm1458791680/","IMDb Official Stills"]];

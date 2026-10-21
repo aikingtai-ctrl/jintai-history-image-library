@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f3c9af4f8f52d392-rm3070684416-01","風雨生信心 (1972) - IMDb rm3070684416","https://m.media-amazon.com/images/M/MV5BOTY5MTUzOTMwN15BMl5BanBnXkFtZTgwNzQwODYwNzE@._V1_.jpg","https://www.imdb.com/title/tt5095038/mediaviewer/rm3070684416/","IMDb Official Stills"]];

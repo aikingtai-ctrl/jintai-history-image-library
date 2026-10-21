@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a89e00f4a398662c-rm3492304640-01","La vita è breve, ma la giornata è lunghissima (2004) - IMDb rm3492304640","https://m.media-amazon.com/images/M/MV5BZmRiZmQ0MDUtY2MzMS00Mjg3LTlkYzgtYWZhNjIxYTAzMjZhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2166734/mediaviewer/rm3492304640/","IMDb Official Stills"]];

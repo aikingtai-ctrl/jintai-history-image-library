@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3172bd2d5c684d8d-rm758132480-01","Au Café Romand (2008) - IMDb rm758132480","https://m.media-amazon.com/images/M/MV5BN2JjNDk0ZWItZmMxMi00MzAxLTk2ZDQtMTMzNDVmZDE1OWQ5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1313229/mediaviewer/rm758132480/","IMDb Official Stills"]];

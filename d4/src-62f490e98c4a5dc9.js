@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-62f490e98c4a5dc9-rm1861506049-01","Canada's Awakening North (1951) - IMDb rm1861506049","https://m.media-amazon.com/images/M/MV5BOWJhZTBhODktZTNiNy00ZDczLTk5ODEtMDkxMzdlZmU2ZmZhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0222904/mediaviewer/rm1861506049/","IMDb Official Stills"]];

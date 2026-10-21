@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-00c1f8ef50cf6fe9-rm559127808-01","THE DOONESBURY SPECIAL (1978) - IMDb rm559127808","https://m.media-amazon.com/images/M/MV5BMTYzNTkzNjQzM15BMl5BanBnXkFtZTcwMDk3MDAzMQ@@._V1_.jpg","https://www.imdb.com/title/tt0075953/mediaviewer/rm559127808/","IMDb Official Stills"]];

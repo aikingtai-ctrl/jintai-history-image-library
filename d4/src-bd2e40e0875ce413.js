@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-bd2e40e0875ce413-rm429076992-01","Mukhsin (2007) - IMDb rm429076992","https://m.media-amazon.com/images/M/MV5BMTc5YTU3YjgtNmYxOS00MDQyLWIyZjktMjMxNGM3N2VmMzAwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1127882/mediaviewer/rm429076992/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cf7234ef1d2759f8-rm1972476928-01","Yue kuai le, yue duo luo (1998) - IMDb rm1972476928","https://m.media-amazon.com/images/M/MV5BODUxNzUzODg5MV5BMl5BanBnXkFtZTcwNTc2NTEyMQ@@._V1_.jpg","https://www.imdb.com/title/tt0144029/mediaviewer/rm1972476928/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-81814198ef6a4dad-rm947278336-01","Ich bin ein Elefant, Madame (1969) - IMDb rm947278336","https://m.media-amazon.com/images/M/MV5BMzFjOWFmNzEtZDM1NS00ZDA1LTliM2QtYmI3YTVmMTQxM2MyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0063122/mediaviewer/rm947278336/","IMDb Official Stills"]];

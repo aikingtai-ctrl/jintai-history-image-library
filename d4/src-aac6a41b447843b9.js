@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-aac6a41b447843b9-rm2453110529-01","MIZU NO NAKA NO HACHIGATSU / FISHES IN AUGUST (1998) - IMDb rm2453110529","https://m.media-amazon.com/images/M/MV5BMmM5OWFkNjEtM2U2Yy00OWRjLTg5NTQtYWEwYjdjYWJmMzNjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0181694/mediaviewer/rm2453110529/","IMDb Official Stills"]];

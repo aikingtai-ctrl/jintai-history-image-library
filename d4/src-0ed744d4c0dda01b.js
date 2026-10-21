@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0ed744d4c0dda01b-rm3369338624-01","碧血黃花 (1980) - IMDb rm3369338624","https://m.media-amazon.com/images/M/MV5BYzAxNTc3N2QtY2IyYy00MWY5LWI1MDAtMmEzN2FlMTRmZTMxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0121108/mediaviewer/rm3369338624/","IMDb Official Stills"]];

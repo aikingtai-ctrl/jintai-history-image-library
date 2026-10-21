@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-51049f37ec199995-rm3750752257-01","The Challenge (1964) - IMDb rm3750752257","https://m.media-amazon.com/images/M/MV5BNzBjZjM4Y2EtZTJmNC00ZmYyLWIxZjEtZTQ5YWMxMmE5Mjk0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3455836/mediaviewer/rm3750752257/","IMDb Official Stills"]];

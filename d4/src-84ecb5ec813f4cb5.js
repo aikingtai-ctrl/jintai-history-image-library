@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-84ecb5ec813f4cb5-rm2569162496-01","Tuolla puolen (2015) - IMDb rm2569162496","https://m.media-amazon.com/images/M/MV5BMTgyN2NkYmItYTE0MC00Y2EwLTk1YjYtOTA2Y2Q2YWJjNzY3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4418026/mediaviewer/rm2569162496/","IMDb Official Stills"]];

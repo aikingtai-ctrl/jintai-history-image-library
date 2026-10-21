@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4eef6955e62de491-rm1285144321-01","南方澳海洋紀事 (2004) - IMDb rm1285144321","https://m.media-amazon.com/images/M/MV5BODY3MGQ5NDYtNTA2MC00YWU3LTg5YTUtYTQ0ZTFiNWZkMTQ4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0447320/mediaviewer/rm1285144321/","IMDb Official Stills"]];

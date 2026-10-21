@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5e59e5ddd25e75e0-rm2824163584-01","Chasse Royale (2016) - IMDb rm2824163584","https://m.media-amazon.com/images/M/MV5BMmI2YmUyODUtMzg4My00MDA5LWE4OTQtYjIwNDBkMzkyMjk0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5590350/mediaviewer/rm2824163584/","IMDb Official Stills"]];

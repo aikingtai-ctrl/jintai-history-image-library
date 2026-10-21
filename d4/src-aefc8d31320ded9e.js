@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-aefc8d31320ded9e-rm4279859969-01","屋顶足球 (2024) - IMDb rm4279859969","https://m.media-amazon.com/images/M/MV5BMmUzYzllYWUtM2Q0MS00MzljLTlkNzktYjAwY2I5ZWU4YmYxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt13545740/mediaviewer/rm4279859969/","IMDb Official Stills"]];

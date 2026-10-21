@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-57a16ac821eefb8a-rm4090553344-01","黑暗之光 (1999) - IMDb rm4090553344","https://m.media-amazon.com/images/M/MV5BOWM0MmVlMzUtYTg2MS00Zjc4LWFmN2MtNGE3ZDEzNmQwZDVjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0200689/mediaviewer/rm4090553344/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-d64a2fefb61733dc-rm1676265730-01","DRIFTING (2026) - IMDb rm1676265730","https://m.media-amazon.com/images/M/MV5BZmE4MTY1MTItODJkMS00ZGE5LWE2NWEtYTBkZjMyYTY2MThkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt42280447/mediaviewer/rm1676265730/","IMDb Official Stills"]];

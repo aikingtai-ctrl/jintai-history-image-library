@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-60f3c2de8dd888ce-rm4047101952-01","竊聽風雲3 (2015) - IMDb rm4047101952","https://m.media-amazon.com/images/M/MV5BMjQ5MDk0MTQ2Ml5BMl5BanBnXkFtZTgwMzA1MjE0NzE@._V1_.jpg","https://www.imdb.com/title/tt4242804/mediaviewer/rm4047101952/","IMDb Official Stills"]];

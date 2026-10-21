@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5e192c3e4c9ff3fe-rm2464212224-01","我的美麗與哀愁 (1995) - IMDb rm2464212224","https://m.media-amazon.com/images/M/MV5BOTdlZmUwNWEtZGQ0MS00YTU1LWE4MTMtNTgzOWFlZDkyM2JmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0114965/mediaviewer/rm2464212224/","IMDb Official Stills"]];

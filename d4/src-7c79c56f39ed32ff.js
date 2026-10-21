@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7c79c56f39ed32ff-rm2278240256-01","CRACKER BAG (2003) - IMDb rm2278240256","https://m.media-amazon.com/images/M/MV5BZWY3YmIwY2ItNGY2MC00M2ZkLTgxYTQtYTE4OWQ1ZWJhMTViXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0363243/mediaviewer/rm2278240256/","IMDb Official Stills"]];

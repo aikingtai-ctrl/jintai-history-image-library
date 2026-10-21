@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-11962e2af8fee36c-rm2065454592-01","Ménagerie intérieure (2007) - IMDb rm2065454592","https://m.media-amazon.com/images/M/MV5BMGNkOWI0NWQtZjM2Ni00ZGJlLWE3ZTMtNzhhOWYxZjY5YzM1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1017954/mediaviewer/rm2065454592/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c5bb4a59d890cd1a-rm3056416256-01","The Legend of Alfred Packer (1980) - IMDb rm3056416256","https://m.media-amazon.com/images/M/MV5BZjhjMjIwNzctNzRiNS00NTVmLTljZjEtOWJjMmJlZGZjYTE2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0251182/mediaviewer/rm3056416256/","IMDb Official Stills"]];

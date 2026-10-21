@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0768eaa97b6fab7f-rm2141244674-01","A Slipping-Down Life (2004) - IMDb rm2141244674","https://m.media-amazon.com/images/M/MV5BZDZmYzRkZWMtNjhiOS00MTVlLTk2MDgtNWY1ZGJjZmE4NzY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7345338/mediaviewer/rm2141244674/","IMDb Official Stills"]];

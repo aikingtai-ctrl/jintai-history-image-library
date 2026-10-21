@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-fecf2c8c9229b87c-rm2905289728-01","The Soldier (1962) - IMDb rm2905289728","https://m.media-amazon.com/images/M/MV5BZGY4ZGNjMGUtOTk3Yi00NGJhLTgxMTgtOGFjY2IwYTExMjNhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1634545/mediaviewer/rm2905289728/","IMDb Official Stills"]];

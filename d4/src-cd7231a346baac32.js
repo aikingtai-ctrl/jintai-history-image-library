@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cd7231a346baac32-rm1712724736-01","Tani tatuwen piyabanna (Flying with One Wing) / Flying with one wing (2002) - IMDb rm1712724736","https://m.media-amazon.com/images/M/MV5BZjFmNzhhYWEtN2NjNC00MDc0LThhZTMtNDM0YjlkNDk0ODMzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0338484/mediaviewer/rm1712724736/","IMDb Official Stills"]];

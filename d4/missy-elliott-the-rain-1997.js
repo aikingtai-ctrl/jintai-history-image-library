@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-missy-elliott-the-rain-1997-rm3327410688-01","The Rain (Supa Dupa Fly) — 蜜西·艾略特 (1997) - IMDb rm3327410688","https://m.media-amazon.com/images/M/MV5BMTZkNTliZjUtMTgxZC00NDlkLWI4YzQtNjdmODE2OTUxY2FlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6723074/mediaviewer/rm3327410688/","IMDb Official Stills"]];

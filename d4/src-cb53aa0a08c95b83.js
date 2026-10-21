@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cb53aa0a08c95b83-rm4094557698-01","金玉奴 (1966) - IMDb rm4094557698","https://m.media-amazon.com/images/M/MV5BNjc1NjM3NmUtNjNkYy00NmI4LTgyZjQtYjEwMmQzMjIxMTU1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0405685/mediaviewer/rm4094557698/","IMDb Official Stills"]];

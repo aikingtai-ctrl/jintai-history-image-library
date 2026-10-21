@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-de0886d412058f20-rm3549525504-01","NEW YORK, NEW YORK (1959) - IMDb rm3549525504","https://m.media-amazon.com/images/M/MV5BOTA4OGVmNmMtMDMyOC00NzcyLTg2ZmItOGRkNDM1MjBiNzE3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0052496/mediaviewer/rm3549525504/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d17dd41bb1a42e59-rm4107767297-01","Första gången (2013) - IMDb rm4107767297","https://m.media-amazon.com/images/M/MV5BNjhkNzYzNmEtNjYzYy00MmFmLThiNmYtZjJmZmUxYWMwMjNmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2623464/mediaviewer/rm4107767297/","IMDb Official Stills"]];

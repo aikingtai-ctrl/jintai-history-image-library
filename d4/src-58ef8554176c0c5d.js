@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-58ef8554176c0c5d-rm3124042240-01","Varsovie (1953) - IMDb rm3124042240","https://m.media-amazon.com/images/M/MV5BODAyNjBhMjgtYzNmNS00YzQxLWI4YzMtZTFkOGIxYTNhZjBmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0046493/mediaviewer/rm3124042240/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-894904cd91dc90b3-rm2287237888-01","Shine (1997) - IMDb rm2287237888","https://m.media-amazon.com/images/M/MV5BNmQ5OWVmMDItZmM1Mi00MWNhLWFjOTUtNWU4NmNlMDhmN2FjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6651516/mediaviewer/rm2287237888/","IMDb Official Stills"]];

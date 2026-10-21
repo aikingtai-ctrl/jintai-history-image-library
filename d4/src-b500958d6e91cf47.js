@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b500958d6e91cf47-rm722222080-01","La sonrisa de la Virgen (1958) - IMDb rm722222080","https://m.media-amazon.com/images/M/MV5BMmExMjM2ZWItZDY0ZS00ZmUxLWEyMDctMmVhZmZlMmNmYWIxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0055467/mediaviewer/rm722222080/","IMDb Official Stills"]];

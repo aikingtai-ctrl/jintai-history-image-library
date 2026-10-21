@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-levis-flat-eric-1999-rm327311105-01","李维斯·扁平埃里克 (1999) - IMDb rm327311105","https://m.media-amazon.com/images/M/MV5BOGVjNDk3MzAtOWRhYy00NDBjLTllZDQtMzdiOGQ5M2UwY2JiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt28789459/mediaviewer/rm327311105/","IMDb Official Stills"]];

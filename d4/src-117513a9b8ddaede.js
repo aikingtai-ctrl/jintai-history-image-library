@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-117513a9b8ddaede-rm3754170368-01","海峽兩岸 (1988) - IMDb rm3754170368","https://m.media-amazon.com/images/M/MV5BYWU0NGM3ZDktNmJjYS00NjFmLTk4ZmItNTZmOGY2MGI4YzI3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5075508/mediaviewer/rm3754170368/","IMDb Official Stills"]];

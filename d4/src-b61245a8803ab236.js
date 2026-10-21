@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b61245a8803ab236-rm3295647745-01","Pompei (1936) - IMDb rm3295647745","https://m.media-amazon.com/images/M/MV5BNzlkN2Y5NzMtN2IwZC00YzZlLTk1NDctZTY3MGFkYTRhMDRlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0191175/mediaviewer/rm3295647745/","IMDb Official Stills"]];

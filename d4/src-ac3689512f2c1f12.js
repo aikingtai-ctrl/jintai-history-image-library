@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ac3689512f2c1f12-rm1310498560-01","桂花巷 (1987) - IMDb rm1310498560","https://m.media-amazon.com/images/M/MV5BMTgzODc4NTA1NV5BMl5BanBnXkFtZTcwNTEwMjcxMQ@@._V1_.jpg","https://www.imdb.com/title/tt0093125/mediaviewer/rm1310498560/","IMDb Official Stills"]];

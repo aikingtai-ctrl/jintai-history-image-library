@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e38bbfa0b5aa4745-rm1770381569-01","Baqyt (2022) - IMDb rm1770381569","https://m.media-amazon.com/images/M/MV5BNTdkNTM4NWUtOWQ5Ny00OTZjLThkYmEtZTg5OTg5ODcxMmYxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt17079314/mediaviewer/rm1770381569/","IMDb Official Stills"]];

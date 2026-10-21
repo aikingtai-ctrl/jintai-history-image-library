@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7e9658789596d486-rm437684225-01","Barbara Hepworth (1961) - IMDb rm437684225","https://m.media-amazon.com/images/M/MV5BMTUyODAyMmItOGZhNS00OWQ1LWFlNzUtNjA0OTAyNjE5MDNlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1737105/mediaviewer/rm437684225/","IMDb Official Stills"]];

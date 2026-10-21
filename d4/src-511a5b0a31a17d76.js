@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-511a5b0a31a17d76-rm4075724544-01","L'Afrance (2001) - IMDb rm4075724544","https://m.media-amazon.com/images/M/MV5BODkzMjU4MzE3Ml5BMl5BanBnXkFtZTYwODU5ODc5._V1_.jpg","https://www.imdb.com/title/tt0292895/mediaviewer/rm4075724544/","IMDb Official Stills"]];

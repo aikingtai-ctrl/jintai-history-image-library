@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2e954a96a7c12248-rm1225855232-01","Tappe-haye Marlik (1963) - IMDb rm1225855232","https://m.media-amazon.com/images/M/MV5BYTE5MzdhYTktYjdiNi00YTZmLThhMDUtMThlMzc4YWY2ZTkwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1856747/mediaviewer/rm1225855232/","IMDb Official Stills"]];

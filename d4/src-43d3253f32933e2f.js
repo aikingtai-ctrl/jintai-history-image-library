@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-43d3253f32933e2f-rm385726978-01","El cerco (2006) - IMDb rm385726978","https://m.media-amazon.com/images/M/MV5BNjY0NzllMGMtYTBhNy00YTEzLTgwYmMtNTA4YTdmYzczZTgzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1954413/mediaviewer/rm385726978/","IMDb Official Stills"]];

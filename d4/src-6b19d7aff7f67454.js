@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6b19d7aff7f67454-rm1523462144-01","晚春情事 (1989) - IMDb rm1523462144","https://m.media-amazon.com/images/M/MV5BMmFmNGFmZDEtMGVmOC00ZTI2LWI0YzUtMDQyYzViMWY1NjdlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0098617/mediaviewer/rm1523462144/","IMDb Official Stills"]];

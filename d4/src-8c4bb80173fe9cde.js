@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8c4bb80173fe9cde-rm342562304-01","Geniusz sceny (1938) - IMDb rm342562304","https://m.media-amazon.com/images/M/MV5BYzExMGRiMDUtYzNiNS00MjViLTgyZWMtYmNiZjM4ZjlkMDYyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0158633/mediaviewer/rm342562304/","IMDb Official Stills"]];

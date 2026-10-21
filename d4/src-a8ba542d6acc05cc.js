@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a8ba542d6acc05cc-rm3220236033-01","Harlem Wednesday (1958) - IMDb rm3220236033","https://m.media-amazon.com/images/M/MV5BYzk5NjE2YjMtOWYwMy00NjlkLWI5NzAtNTJlY2I5NWZiN2JmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0177826/mediaviewer/rm3220236033/","IMDb Official Stills"]];

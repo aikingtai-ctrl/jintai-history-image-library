@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-fbc47a2eee8290c1-rm3805512449-01","Okasan (1967) - IMDb rm3805512449","https://m.media-amazon.com/images/M/MV5BOGFjZGY1ODctYmQ1MS00MzFjLTg1OWItZjM2MGY5ZjY2Nzk4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0061869/mediaviewer/rm3805512449/","IMDb Official Stills"]];

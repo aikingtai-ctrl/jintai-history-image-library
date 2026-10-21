@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-08a77c26923eb019-rm485756160-01","Sciopèn (1982) - IMDb rm485756160","https://m.media-amazon.com/images/M/MV5BODNiZTYyYTMtOWNkOC00MzhhLWEyNzYtNWVlY2JiY2Q4NDZkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0184883/mediaviewer/rm485756160/","IMDb Official Stills"]];

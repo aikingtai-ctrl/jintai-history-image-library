@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d95703a030e5a462-rm2145986816-01","MONSIEUR PLATEAU (1965) - IMDb rm2145986816","https://m.media-amazon.com/images/M/MV5BMTBlY2JhMzEtOGJkYS00Y2RjLWJmNTktZTQ3NzVmMDQ0ZjQwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0197255/mediaviewer/rm2145986816/","IMDb Official Stills"]];

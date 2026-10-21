@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5576ce4f82261825-rm1177412608-01","Annem sinema ögreniyor (2007) - IMDb rm1177412608","https://m.media-amazon.com/images/M/MV5BYzhlNTdmMDQtNzMyZC00ZmQ1LWIxZWUtZjAxNWU2NjdlYTVhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0984004/mediaviewer/rm1177412608/","IMDb Official Stills"]];

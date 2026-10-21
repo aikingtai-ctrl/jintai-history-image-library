@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4491806389a9cbeb-rm835183872-01","天馬茶房 (1999) - IMDb rm835183872","https://m.media-amazon.com/images/M/MV5BZTFjYTBhNGUtNWJkNS00MTA4LTk2YjAtZGZmNGQ0ZjQwYmU0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0215254/mediaviewer/rm835183872/","IMDb Official Stills"]];

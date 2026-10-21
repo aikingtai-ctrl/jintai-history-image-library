@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-fedex-fast-talker-1981-rm1433243905-01","联邦快递·快嘴先生 (1981) - IMDb rm1433243905","https://m.media-amazon.com/images/M/MV5BZDg3MzZkMzMtMGQ5OC00YWJiLThhNTUtMGYwYjJjMDFjNzdjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0082020/mediaviewer/rm1433243905/","IMDb Official Stills"]];

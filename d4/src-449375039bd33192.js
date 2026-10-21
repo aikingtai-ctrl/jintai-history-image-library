@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-449375039bd33192-rm2531009280-01","El mejor de los tiempos (1989) - IMDb rm2531009280","https://m.media-amazon.com/images/M/MV5BN2M3YTVmN2ItMjU1NS00YzNkLTlmZWMtOTljMmQyNTU0MjE4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0097860/mediaviewer/rm2531009280/","IMDb Official Stills"]];

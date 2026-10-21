@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-15ed715e5a1604e4-rm1387628289-01","Mannesmann (1937) - IMDb rm1387628289","https://m.media-amazon.com/images/M/MV5BMjk4MGQzYWEtM2VkYS00MzA5LWI3YmUtNTYxOGU3ODBmYTMxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3053038/mediaviewer/rm1387628289/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8d0ac67c1253d9e6-rm768610304-01","Lethohand Vaska (A Tale from the Labour Camp) (1996) - IMDb rm768610304","https://m.media-amazon.com/images/M/MV5BMTkwMDJjZmQtNTVjZC00ZjYwLTgzNzgtZDI3ZjZjYTE0Yzk5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0116468/mediaviewer/rm768610304/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-sakanaction-shin-takarajima-2015-rm709041921-01","新宝岛 — 鱼韵乐队 (2015) - IMDb rm709041921","https://m.media-amazon.com/images/M/MV5BOTBkYWU5OGQtYTAzMi00NWExLTk0MDYtMDRjMTc5NjRjMTQ1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt19606456/mediaviewer/rm709041921/","IMDb Official Stills"]];

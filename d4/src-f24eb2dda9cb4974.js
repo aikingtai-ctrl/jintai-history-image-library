@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f24eb2dda9cb4974-rm4143440896-01","Honzíkova cesta (1956) - IMDb rm4143440896","https://m.media-amazon.com/images/M/MV5BMDJmZTcyN2MtMjIyMy00NGY4LWI5ZjctYzI2NGQzNjdmYTA4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0049327/mediaviewer/rm4143440896/","IMDb Official Stills"]];

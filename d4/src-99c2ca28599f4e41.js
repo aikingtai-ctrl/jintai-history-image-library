@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-99c2ca28599f4e41-rm2056797184-01","LE TERRITOIRE DES AUTRES (1970) - IMDb rm2056797184","https://m.media-amazon.com/images/M/MV5BNjRhYzk4MmUtZWE1Zi00MjM2LWE4NTItMWE3MDIzY2EwODZiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0145519/mediaviewer/rm2056797184/","IMDb Official Stills"]];

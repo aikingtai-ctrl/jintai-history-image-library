@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1a30a089dd117650-rm751559680-01","情非得已之生存之道 (2007) - IMDb rm751559680","https://m.media-amazon.com/images/M/MV5BMzIwYjljZTktN2Q2Zi00MWYyLWJiNjktOTU0MTFiMDMwNTQwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1239313/mediaviewer/rm751559680/","IMDb Official Stills"]];

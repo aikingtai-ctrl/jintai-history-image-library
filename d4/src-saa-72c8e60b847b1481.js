@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-72c8e60b847b1481-rm992261378-01","KUBRICK, LIKE I LOVE YOU (2025) - IMDb rm992261378","https://m.media-amazon.com/images/M/MV5BODkxNjYyOTYtMjk3MS00OGQyLWFhZDItNzBiMGQwZWFiNzlmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37530178/mediaviewer/rm992261378/","IMDb Official Stills"]];

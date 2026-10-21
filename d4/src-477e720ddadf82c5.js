@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-477e720ddadf82c5-rm2068352513-01","Sishi puhuo (1992) - IMDb rm2068352513","https://m.media-amazon.com/images/M/MV5BZTcwOTQ5MWItNDUyOS00NmM0LTg5MTktMDcyYzRmZDZlZTg2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0108145/mediaviewer/rm2068352513/","IMDb Official Stills"]];

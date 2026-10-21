@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-fcaa07eb3c735ba4-rm653597952-01","Gaudi (1963) - IMDb rm653597952","https://m.media-amazon.com/images/M/MV5BZjFhZjg4ZjMtMjIzMS00MzIxLTkxNDEtMDFmOGM1NjYwZDExXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0057092/mediaviewer/rm653597952/","IMDb Official Stills"]];

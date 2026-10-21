@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-the-chemical-brothers-wide-open-2016-rm2359653888-01","Wide Open — 化学兄弟 (2016) - IMDb rm2359653888","https://m.media-amazon.com/images/M/MV5BNTBlYTIwNTItNmZiMC00ODNmLTlmNzctODRlNDM2ZDRjNjYyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt9162902/mediaviewer/rm2359653888/","IMDb Official Stills"]];

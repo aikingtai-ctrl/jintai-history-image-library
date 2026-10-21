@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-blockade-2005-rm130763009-01","封锁 (2005) - IMDb rm130763009","https://m.media-amazon.com/images/M/MV5BM2I2ODk3MDMtMWVhMC00YzA0LWE2ZDAtZjNmN2MzMDJhYjZlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0769501/mediaviewer/rm130763009/","IMDb Official Stills"]];

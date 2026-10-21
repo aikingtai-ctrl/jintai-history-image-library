@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-41175e1d75d766dc-rm994381568-01","Era o Hotel Cambridge (2016) - IMDb rm994381568","https://m.media-amazon.com/images/M/MV5BMDAwYmUzMWMtNjJiZC00YjRlLWJmODgtZmRlNDg5YTc4NWZjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5067984/mediaviewer/rm994381568/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-dde34f17f3ac0e82-rm801832706-01","Doktor Faust (1959) - IMDb rm801832706","https://m.media-amazon.com/images/M/MV5BMjBlNDMyNTEtNmNhZC00YzY4LTg0ZTQtYmMwMjViZjA3NjQ5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2351255/mediaviewer/rm801832706/","IMDb Official Stills"]];

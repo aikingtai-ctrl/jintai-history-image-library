@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cf1a9a2dc06138af-rm3161256704-01","Bad at Dancing (2015) - IMDb rm3161256704","https://m.media-amazon.com/images/M/MV5BMTQ3MDc3NTY0NV5BMl5BanBnXkFtZTgwNzM1NDY2NDE@._V1_.jpg","https://www.imdb.com/title/tt4132216/mediaviewer/rm3161256704/","IMDb Official Stills"]];

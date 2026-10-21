@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9135531b592210b5-rm3504831488-01","SHIRASAGI (1959) - IMDb rm3504831488","https://m.media-amazon.com/images/M/MV5BYjY3NTkzODItZTcxZC00YjI1LTg2NWUtNDhmMjZjMTgwZTY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0052192/mediaviewer/rm3504831488/","IMDb Official Stills"]];

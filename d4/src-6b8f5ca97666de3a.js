@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6b8f5ca97666de3a-rm1839012865-01","Enter Hamlet (1965) - IMDb rm1839012865","https://m.media-amazon.com/images/M/MV5BNGVkZjQyYTktYTQzMy00Mzg5LWEzZWEtNzUxNDBlNTNlNzA4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0208121/mediaviewer/rm1839012865/","IMDb Official Stills"]];

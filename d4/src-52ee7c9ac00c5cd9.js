@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-52ee7c9ac00c5cd9-rm2120941057-01","L'affaire Manet (1950) - IMDb rm2120941057","https://m.media-amazon.com/images/M/MV5BOGE3NzNjNzgtNTMwOS00YWM3LWJiMTItYTJiNjc2MzhjNTRkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0268127/mediaviewer/rm2120941057/","IMDb Official Stills"]];

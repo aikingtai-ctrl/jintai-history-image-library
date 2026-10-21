@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5a84a7e056db06b4-rm1528100352-01","EN GOD DAG AT GO (1999) - IMDb rm1528100352","https://m.media-amazon.com/images/M/MV5BMjA1MzI2MzUxOF5BMl5BanBnXkFtZTgwNTEzNTA1NTE@._V1_.jpg","https://www.imdb.com/title/tt2786460/mediaviewer/rm1528100352/","IMDb Official Stills"]];

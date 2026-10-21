@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-17c4744733d341c8-rm1716163584-01","Kamataki (2006) - IMDb rm1716163584","https://m.media-amazon.com/images/M/MV5BNjUxMTg2MjA0MV5BMl5BanBnXkFtZTcwMTc2MDc5MQ@@._V1_.jpg","https://www.imdb.com/title/tt1286214/mediaviewer/rm1716163584/","IMDb Official Stills"]];

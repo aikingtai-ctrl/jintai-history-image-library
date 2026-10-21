@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2223744559627a36-rm4276767489-01","Siam - Land und Leute (1955) - IMDb rm4276767489","https://m.media-amazon.com/images/M/MV5BOTFkNGVlMzctNDcyMS00NjU1LWE0ZTYtYTU0M2IxZTBmMTdhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0047485/mediaviewer/rm4276767489/","IMDb Official Stills"]];

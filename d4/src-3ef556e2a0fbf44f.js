@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3ef556e2a0fbf44f-rm3070684416-01","還君明珠雙淚垂 (1972) - IMDb rm3070684416","https://m.media-amazon.com/images/M/MV5BOTY5MTUzOTMwN15BMl5BanBnXkFtZTgwNzQwODYwNzE@._V1_.jpg","https://www.imdb.com/title/tt5095038/mediaviewer/rm3070684416/","IMDb Official Stills"]];

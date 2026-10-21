@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5f9e11d70ed185f7-rm2753745921-01","Le voleur de paratonnerres (1946) - IMDb rm2753745921","https://m.media-amazon.com/images/M/MV5BNjNiMTFkM2UtNjQ5NC00N2MyLTlmYjQtMWE5MjIzNDgwNTE0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0828130/mediaviewer/rm2753745921/","IMDb Official Stills"]];

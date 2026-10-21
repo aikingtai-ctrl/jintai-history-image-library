@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1229c06bf2e50d8e-rm3738884097-01","Min far har penge (1951) - IMDb rm3738884097","https://m.media-amazon.com/images/M/MV5BM2U1MjU1MDktOGM2Ni00MTUzLTg5ZDAtYWE5Y2NjZjk4YjZhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0304405/mediaviewer/rm3738884097/","IMDb Official Stills"]];

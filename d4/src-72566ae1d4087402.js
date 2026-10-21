@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-72566ae1d4087402-rm1333776129-01","Szerelmi álmok (1935) - IMDb rm1333776129","https://m.media-amazon.com/images/M/MV5BMzI5N2EzMTUtMzJiZi00NzRkLTkxZjEtNThkYTI2NmJiNWU2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0240954/mediaviewer/rm1333776129/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4e3b6f2474c1b0dd-rm4227917056-01","擁抱大白熊 (2004) - IMDb rm4227917056","https://m.media-amazon.com/images/M/MV5BMDQ0YmJkNWItOTk4YS00OGYzLWI2YjctOWQ5OGZjODhhZTdkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0446927/mediaviewer/rm4227917056/","IMDb Official Stills"]];

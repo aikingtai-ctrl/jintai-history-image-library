@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f4f8bca20239702a-rm2702252544-01","Gost' (1987) - IMDb rm2702252544","https://m.media-amazon.com/images/M/MV5BMjA1YjMyNGYtN2NkZS00NGE5LWE5YjctOTlhZTQzZTE4YzZiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0208186/mediaviewer/rm2702252544/","IMDb Official Stills"]];

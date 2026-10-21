@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d3716cba2483c34d-rm3310755841-01","Edge of the Blade (2023) - IMDb rm3310755841","https://m.media-amazon.com/images/M/MV5BYjhmYWE2YWQtMzAzMy00ZmI5LTg0MWYtYmFjMjAxNDY1NWY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27940618/mediaviewer/rm3310755841/","IMDb Official Stills"]];

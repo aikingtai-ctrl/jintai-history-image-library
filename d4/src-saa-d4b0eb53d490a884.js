@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-d4b0eb53d490a884-rm2877734402-01","TIDES OF LIFE (2025) - IMDb rm2877734402","https://m.media-amazon.com/images/M/MV5BNzFlZTAwM2YtY2I0MS00Y2EwLWJhMDYtYTViZjdkMjcyMWZiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37443261/mediaviewer/rm2877734402/","IMDb Official Stills"]];

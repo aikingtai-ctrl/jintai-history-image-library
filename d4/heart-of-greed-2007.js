@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-heart-of-greed-2007-rm2799639296-01","溏心风暴 (2007) - IMDb rm2799639296","https://m.media-amazon.com/images/M/MV5BZGU4Y2UzMWMtZjI3ZS00ZTE0LTg2ZmItOTAzMTNlYzJhNzU2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1037955/mediaviewer/rm2799639296/","IMDb Official Stills"]];

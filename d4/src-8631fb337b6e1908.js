@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8631fb337b6e1908-rm4082809089-01","A Case of focal Epilepsy (1954) - IMDb rm4082809089","https://m.media-amazon.com/images/M/MV5BYTVlZDQ3OWYtMjllOS00YjQ2LTk3MDEtNjExZDRhNDUxMDEyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0687333/mediaviewer/rm4082809089/","IMDb Official Stills"]];

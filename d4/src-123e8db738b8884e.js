@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-123e8db738b8884e-rm2932048896-01","Dürä..! (2010) - IMDb rm2932048896","https://m.media-amazon.com/images/M/MV5BMTYzOTc3OTk2NV5BMl5BanBnXkFtZTcwMDk1ODQxNA@@._V1_.jpg","https://www.imdb.com/title/tt1684664/mediaviewer/rm2932048896/","IMDb Official Stills"]];

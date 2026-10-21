@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5cb01d256d100a52-rm2428340736-01","Captive (2008) - IMDb rm2428340736","https://m.media-amazon.com/images/M/MV5BMTczNjE2Mzk0M15BMl5BanBnXkFtZTcwMTA0MzAyMg@@._V1_.jpg","https://www.imdb.com/title/tt1244663/mediaviewer/rm2428340736/","IMDb Official Stills"]];

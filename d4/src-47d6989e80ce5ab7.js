@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-47d6989e80ce5ab7-rm1068368897-01","大决战 (1992) - IMDb rm1068368897","https://m.media-amazon.com/images/M/MV5BM2I5YWJhM2YtNWNjMi00OTRhLTgyY2YtMzMyMmE0MDliYTZmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0120591/mediaviewer/rm1068368897/","IMDb Official Stills"]];

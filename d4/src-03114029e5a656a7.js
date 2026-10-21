@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-03114029e5a656a7-rm2001323008-01","Super Why! Attack of the Eraser (2010) - IMDb rm2001323008","https://m.media-amazon.com/images/M/MV5BNjg5OTQyNjYzNV5BMl5BanBnXkFtZTgwMjM3Njc3MjE@._V1_.jpg","https://www.imdb.com/title/tt1312855/mediaviewer/rm2001323008/","IMDb Official Stills"]];

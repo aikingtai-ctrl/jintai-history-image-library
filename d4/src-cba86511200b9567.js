@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cba86511200b9567-rm2749008898-01","与康斯坦莎共雕时光 (2025) - IMDb rm2749008898","https://m.media-amazon.com/images/M/MV5BMzc1MDVlYjItOWQ3ZC00NjY3LWE0NDgtY2Q3NTI2MjY2NGYxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35729422/mediaviewer/rm2749008898/","IMDb Official Stills"]];

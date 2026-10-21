@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-empress-wu-zetian-1995-rm1133331713-01","武则天 (1995) - IMDb rm1133331713","https://m.media-amazon.com/images/M/MV5BNTBiZmJjZTktMjVhZC00NmQ1LWE0ZTYtNmVlMDE1N2I4ODAwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt9040308/mediaviewer/rm1133331713/","IMDb Official Stills"]];

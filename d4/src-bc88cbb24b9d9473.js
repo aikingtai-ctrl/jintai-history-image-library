@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-bc88cbb24b9d9473-rm4189303810-01","Primera Enseñanza (Primary Education) (2025) - IMDb rm4189303810","https://m.media-amazon.com/images/M/MV5BNTk0YmRmYmQtNjEzYy00MWJjLTliOGQtMzExZDcyOWIwZGE5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37507386/mediaviewer/rm4189303810/","IMDb Official Stills"]];

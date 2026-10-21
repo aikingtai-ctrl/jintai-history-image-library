@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c0a3e0b4b7b30e78-rm2638547200-01","SWINGER (1995) - IMDb rm2638547200","https://m.media-amazon.com/images/M/MV5BYjBiNDkwOGQtODY1NS00ZDA5LTgxYmItMmU1MjFiYTkwMTZhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0143914/mediaviewer/rm2638547200/","IMDb Official Stills"]];

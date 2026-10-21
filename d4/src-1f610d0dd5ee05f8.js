@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1f610d0dd5ee05f8-rm2339123457-01","大山來了 (2023) - IMDb rm2339123457","https://m.media-amazon.com/images/M/MV5BMjRkMDI3NTItMDUzZS00MTAzLWE0ZDEtZmZjODMzNzdmYzM5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt26695026/mediaviewer/rm2339123457/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-heineken-the-entrance-2011-rm2108103168-01","喜力·入场 (2011) - IMDb rm2108103168","https://m.media-amazon.com/images/M/MV5BYjFjZjI2ZDMtYzc0NC00YTA4LTk0OTQtN2ExMDNhY2UyYjE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4532262/mediaviewer/rm2108103168/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-1a15d461e34757a4-rm4162953218-01","FLOWER_GAN (2025) - IMDb rm4162953218","https://m.media-amazon.com/images/M/MV5BNjFiMGVmZmQtZTQ5ZC00NTI0LTg4N2YtYmZjNDgwNDJjY2QwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38634024/mediaviewer/rm4162953218/","IMDb Official Stills"]];

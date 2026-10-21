@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ef03bf91540c3306-rm2634545153-01","PRIN ORAS CIRCULA SCURTE POVESTI DE DRAGOSTE (2021) - IMDb rm2634545153","https://m.media-amazon.com/images/M/MV5BN2YwNTQzODctNzgyYy00Zjk0LWFlZTMtNjE3ZTRlNmJjYWQxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt14923382/mediaviewer/rm2634545153/","IMDb Official Stills"]];

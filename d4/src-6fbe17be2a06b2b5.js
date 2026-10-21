@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6fbe17be2a06b2b5-rm166599424-01","M/Other (1999) - IMDb rm166599424","https://m.media-amazon.com/images/M/MV5BZWNjZGNkNDEtZTE3OS00MGUzLWIzNTQtZjA1Njk3NDEwOTU2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0201743/mediaviewer/rm166599424/","IMDb Official Stills"]];

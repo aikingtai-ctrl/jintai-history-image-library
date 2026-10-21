@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9cd05522edf8d2ef-rm1490221313-01","Hrnečku vař (1953) - IMDb rm1490221313","https://m.media-amazon.com/images/M/MV5BNzI2YmM1ZDctYWViYi00YWViLTk4YzEtMjMwOGZlNmRkZDc0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1006892/mediaviewer/rm1490221313/","IMDb Official Stills"]];

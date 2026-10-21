@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-eb49d2a724771f54-rm3902274050-01","Untitled The Exorcist film (2023) - IMDb rm3902274050","https://m.media-amazon.com/images/M/MV5BNGVmMGM4ZWUtMmU0OS00M2MzLWE2NzctN2Q0NjJlNjYxYTliXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt43748088/mediaviewer/rm3902274050/","IMDb Official Stills"]];

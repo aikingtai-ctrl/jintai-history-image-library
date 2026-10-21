@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d7744f36c39d762b-rm2495938816-01","Kocicí skola (1961) - IMDb rm2495938816","https://m.media-amazon.com/images/M/MV5BNGE1NWZiY2UtMjBmMi00MGI5LWI4OWYtMjM4YWE0NThlM2IwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0244592/mediaviewer/rm2495938816/","IMDb Official Stills"]];

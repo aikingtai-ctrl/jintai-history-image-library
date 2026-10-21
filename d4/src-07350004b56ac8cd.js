@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-07350004b56ac8cd-rm146673664-01","A Confession (2015) - IMDb rm146673664","https://m.media-amazon.com/images/M/MV5BYWNlMDhjMjAtYjc1ZS00MmU4LWE1YzEtMzQzZTg3ZjNmMDM5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4326538/mediaviewer/rm146673664/","IMDb Official Stills"]];

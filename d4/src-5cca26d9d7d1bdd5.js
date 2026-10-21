@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5cca26d9d7d1bdd5-rm1302689537-01","被告山杠斧 (1995) - IMDb rm1302689537","https://m.media-amazon.com/images/M/MV5BOTk0MDI0NzctMmIyNS00MjIxLTk0MGEtMDViNDQ0NDM0NTA2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0333139/mediaviewer/rm1302689537/","IMDb Official Stills"]];

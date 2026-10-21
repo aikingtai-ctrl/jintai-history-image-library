@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a8e0b6d12eefea7f-rm3905169152-01","手足情深 (1978) - IMDb rm3905169152","https://m.media-amazon.com/images/M/MV5BMDY3YzJjZDQtZmE5NC00MjRlLTkxMjItNTE5MjI0MDAwODNlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2734086/mediaviewer/rm3905169152/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ea9bfa46b0394c77-rm3508367361-01","Liudi iz Kamnya (2007) - IMDb rm3508367361","https://m.media-amazon.com/images/M/MV5BYjllNThkMGMtMGM1MC00OTlkLThhZWItZWIzZWJjM2ExNmM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1100122/mediaviewer/rm3508367361/","IMDb Official Stills"]];

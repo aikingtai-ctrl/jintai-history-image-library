@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0ebf680e1c9a2577-rm410008576-01","缺乏名字的場所 (2015) - IMDb rm410008576","https://m.media-amazon.com/images/M/MV5BOGFmYTExOGItYzFmNy00OWIzLTkzZDctYjI1ODA3NjdjYWU1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6142224/mediaviewer/rm410008576/","IMDb Official Stills"]];

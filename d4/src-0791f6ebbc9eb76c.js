@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0791f6ebbc9eb76c-rm1108376833-01","Gas (1949) - IMDb rm1108376833","https://m.media-amazon.com/images/M/MV5BMmY2M2RjMWItZmRiZS00ZjIwLThhYjEtMzJhNDRiMDAyNDEwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0041406/mediaviewer/rm1108376833/","IMDb Official Stills"]];

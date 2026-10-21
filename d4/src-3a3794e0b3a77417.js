@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3a3794e0b3a77417-rm2962289409-01","Rhythmetic (1956) - IMDb rm2962289409","https://m.media-amazon.com/images/M/MV5BNTk0MWZiYTAtNTU3OC00NWVjLWE3ZTAtYmUyMzQxNjQ0MTYzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0049700/mediaviewer/rm2962289409/","IMDb Official Stills"]];

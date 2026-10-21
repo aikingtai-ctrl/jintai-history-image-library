@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a26c97476440c4a4-rm3622616321-01","幾度夕陽紅 (1967) - IMDb rm3622616321","https://m.media-amazon.com/images/M/MV5BNGZiM2QyODgtODY3Zi00ZTM1LTk1OGItMmYwYTU5YWQ2MzQzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1560960/mediaviewer/rm3622616321/","IMDb Official Stills"]];

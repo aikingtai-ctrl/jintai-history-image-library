@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-163fb0604f314841-rm531073025-01","Faja Lobbi (1960) - IMDb rm531073025","https://m.media-amazon.com/images/M/MV5BYmQzODE5OTAtN2Y1ZC00OTIyLWIwMTktNWIyYzI1YWU4NDUyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0053811/mediaviewer/rm531073025/","IMDb Official Stills"]];

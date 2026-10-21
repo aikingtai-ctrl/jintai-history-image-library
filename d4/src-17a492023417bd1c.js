@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-17a492023417bd1c-rm3175388673-01","Song for the Jungle (2018) - IMDb rm3175388673","https://m.media-amazon.com/images/M/MV5BMDJjNjg3ZDgtYjY3YS00M2Y1LTlmNzUtMDI1NzQxYzhmZmVlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8223304/mediaviewer/rm3175388673/","IMDb Official Stills"]];

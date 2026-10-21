@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ca90cc3b07f57523-rm2777981185-01","人工脊椎體 (1970) - IMDb rm2777981185","https://m.media-amazon.com/images/M/MV5BMmFhM2FmYzItYzhiMy00ZjI2LTg2MTMtYTkyNjhhZjY1YzhiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt13054188/mediaviewer/rm2777981185/","IMDb Official Stills"]];

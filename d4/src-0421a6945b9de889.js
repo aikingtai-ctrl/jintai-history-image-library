@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0421a6945b9de889-rm1959180800-01","Tribute (1981) - IMDb rm1959180800","https://m.media-amazon.com/images/M/MV5BMTY0NzA1MDUyM15BMl5BanBnXkFtZTcwNTcyOTM0NA@@._V1_.jpg","https://www.imdb.com/title/tt1527826/mediaviewer/rm1959180800/","IMDb Official Stills"]];

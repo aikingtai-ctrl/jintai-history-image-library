@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1b9fbd22b639883f-rm846993152-01","Les astronautes (1959) - IMDb rm846993152","https://m.media-amazon.com/images/M/MV5BYmMwZTY1Y2EtNWE0Mi00ZTU2LWEyM2YtZjVhNGZmYWJhNTIxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0052585/mediaviewer/rm846993152/","IMDb Official Stills"]];

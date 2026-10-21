@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c7516afb68e7d762-rm2462528512-01","Les Oiseaux-tonnerre (2014) - IMDb rm2462528512","https://m.media-amazon.com/images/M/MV5BNmU5OWRjYjMtZDNhMC00YTg2LTg5MGUtNTU2ZGNiZTM3OGJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3672906/mediaviewer/rm2462528512/","IMDb Official Stills"]];

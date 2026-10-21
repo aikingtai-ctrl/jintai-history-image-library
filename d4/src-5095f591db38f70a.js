@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5095f591db38f70a-rm2532862721-01","Sans voix (2024) - IMDb rm2532862721","https://m.media-amazon.com/images/M/MV5BNzBjYWQwYjEtMDc4NS00OGU5LTgzMjAtMmRkN2MwYjc4MDBmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32897535/mediaviewer/rm2532862721/","IMDb Official Stills"]];

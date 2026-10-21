@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1cec3f0f3eb33fbf-rm1046265346-01","Runners (1984) - IMDb rm1046265346","https://m.media-amazon.com/images/M/MV5BZGI2OTUwZmItYmM2NC00MDhiLTllYmQtNGZhNDQzODhjYmQxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37505182/mediaviewer/rm1046265346/","IMDb Official Stills"]];

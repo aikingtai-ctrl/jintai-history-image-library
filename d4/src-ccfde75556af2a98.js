@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ccfde75556af2a98-rm1461400832-01","一個女工的故事 (1979) - IMDb rm1461400832","https://m.media-amazon.com/images/M/MV5BYTQzM2VmZTEtMmIzMS00M2QwLWJkNTUtOTA3YTgyMWIyN2NlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1854380/mediaviewer/rm1461400832/","IMDb Official Stills"]];

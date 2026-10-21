@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1d698f4d2c28138e-rm865735680-01","Objekte (1961) - IMDb rm865735680","https://m.media-amazon.com/images/M/MV5BNTc2ZjUzMmQtMDc3Ni00Y2U2LWE3NjctOTZmMjc4NTJiM2NiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0055137/mediaviewer/rm865735680/","IMDb Official Stills"]];

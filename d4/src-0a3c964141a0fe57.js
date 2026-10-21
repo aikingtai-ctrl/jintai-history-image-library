@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0a3c964141a0fe57-rm329593600-01","我的爺爺 (1981) - IMDb rm329593600","https://m.media-amazon.com/images/M/MV5BYzlmMzcyNTUtN2ZlNS00NTU1LTk3ZmEtMmI0OWQxNTc0ODIzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0084912/mediaviewer/rm329593600/","IMDb Official Stills"]];

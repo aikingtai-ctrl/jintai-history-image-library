@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-157c2914f13e402f-rm1745128962-01","Butterflies (2005) - IMDb rm1745128962","https://m.media-amazon.com/images/M/MV5BZDNmNTg0YTItNzIxZC00Y2I5LWE5ZjMtZmY4MGVlYjRhNjVmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0472448/mediaviewer/rm1745128962/","IMDb Official Stills"]];

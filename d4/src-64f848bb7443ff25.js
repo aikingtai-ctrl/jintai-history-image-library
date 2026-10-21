@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-64f848bb7443ff25-rm2297237504-01","Ikinai (1998) - IMDb rm2297237504","https://m.media-amazon.com/images/M/MV5BMmQ5ODAwYzctM2E4My00ZDJjLTllOWEtNjBjNWU1OTQ4MTQ5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0165828/mediaviewer/rm2297237504/","IMDb Official Stills"]];

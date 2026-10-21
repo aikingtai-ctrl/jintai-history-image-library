@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-22ac7b4cf5528d6e-rm2902104320-01","At Dawning (2002) - IMDb rm2902104320","https://m.media-amazon.com/images/M/MV5BMTY4MTA4NjY1OF5BMl5BanBnXkFtZTYwOTYwNjE3._V1_.jpg","https://www.imdb.com/title/tt0310673/mediaviewer/rm2902104320/","IMDb Official Stills"]];

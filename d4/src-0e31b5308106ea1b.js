@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0e31b5308106ea1b-rm3268227072-01","三朵花 (1971) - IMDb rm3268227072","https://m.media-amazon.com/images/M/MV5BMTQ1NjQ0OTEtMGZjOS00ZGE1LWE0Y2QtMTQwOWRkMjk1NzcxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3831746/mediaviewer/rm3268227072/","IMDb Official Stills"]];

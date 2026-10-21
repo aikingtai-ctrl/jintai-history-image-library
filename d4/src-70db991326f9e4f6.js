@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-70db991326f9e4f6-rm3013947136-01","Les Indiens sont encore loin (1977) - IMDb rm3013947136","https://m.media-amazon.com/images/M/MV5BNzUzMmIxOGQtM2Q0MC00YWJkLTkyNzctOTMwMjJjMWNlMTg3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0074681/mediaviewer/rm3013947136/","IMDb Official Stills"]];

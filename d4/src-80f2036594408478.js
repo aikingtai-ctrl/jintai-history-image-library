@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-80f2036594408478-rm3905883649-01","Fairplay (2022) - IMDb rm3905883649","https://m.media-amazon.com/images/M/MV5BNjVjMmQ1ZDktZjYxZi00M2Y0LWI2OWYtYjgyZDQzNTIwNjc2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt21615440/mediaviewer/rm3905883649/","IMDb Official Stills"]];

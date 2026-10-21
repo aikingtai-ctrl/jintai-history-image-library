@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a641d71cb9c59a0f-rm2772203008-01","成功嶺上 (1979) - IMDb rm2772203008","https://m.media-amazon.com/images/M/MV5BMzhlZGQwZDktMGI3MS00MDI1LTgxZGEtOTcxMWE4OWI4YWJmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0313880/mediaviewer/rm2772203008/","IMDb Official Stills"]];

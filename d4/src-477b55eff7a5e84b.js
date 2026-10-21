@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-477b55eff7a5e84b-rm2461565952-01","Zaman, l'homme des roseaux (2003) - IMDb rm2461565952","https://m.media-amazon.com/images/M/MV5BMTU1NzI1NzQ2NF5BMl5BanBnXkFtZTcwMTUwNzYxNA@@._V1_.jpg","https://www.imdb.com/title/tt0383724/mediaviewer/rm2461565952/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-763ba7af59433a45-rm1867310849-01","Le dormeur (2003) - IMDb rm1867310849","https://m.media-amazon.com/images/M/MV5BOGFhNjFjMWMtMjczNy00OGUzLTlhMGQtMjM0OTk4Y2E4MTM2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0461939/mediaviewer/rm1867310849/","IMDb Official Stills"]];

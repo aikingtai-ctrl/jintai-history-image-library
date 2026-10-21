@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-648105ee21200289-rm2633881857-01","人肉戰車 (1982) - IMDb rm2633881857","https://m.media-amazon.com/images/M/MV5BMWMyMzc1NTctMDgxZS00MTMyLTkxODQtNjEwZWVjNWMwMGJiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2154709/mediaviewer/rm2633881857/","IMDb Official Stills"]];

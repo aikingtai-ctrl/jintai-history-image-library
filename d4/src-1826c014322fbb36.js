@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1826c014322fbb36-rm1415299586-01","Le métier de danseur (1953) - IMDb rm1415299586","https://m.media-amazon.com/images/M/MV5BNjQ0YzUwMTgtMzAwNy00NjUwLTliZmItODEyYzdhODJlMWI4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0141639/mediaviewer/rm1415299586/","IMDb Official Stills"]];

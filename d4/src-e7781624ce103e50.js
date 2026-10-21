@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e7781624ce103e50-rm355142144-01","EL VIENTO SE LLEVO LO QUE / WIND WITH THE GONE (1998) - IMDb rm355142144","https://m.media-amazon.com/images/M/MV5BOGIwNTlhMjctYjMzZi00ZTdjLWIwNWEtZmFjMWJjYTI0OGUwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0169364/mediaviewer/rm355142144/","IMDb Official Stills"]];

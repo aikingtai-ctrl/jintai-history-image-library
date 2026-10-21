@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b0df08b4b3ce8d15-rm4266485249-01","El llanto / The Wailing (2024) - IMDb rm4266485249","https://m.media-amazon.com/images/M/MV5BMjQ2ZGY3ZGQtYjE5OS00YTBhLTllOGUtYzdjYmZmMDFhN2UwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt34104836/mediaviewer/rm4266485249/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9fc5ea6909c5f3af-rm412040192-01","London for a Day (1962) - IMDb rm412040192","https://m.media-amazon.com/images/M/MV5BZWJiYTEyYTAtNGUyZi00MTY5LWFiMjQtZTNmYTJhMzdkM2ZhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5331012/mediaviewer/rm412040192/","IMDb Official Stills"]];

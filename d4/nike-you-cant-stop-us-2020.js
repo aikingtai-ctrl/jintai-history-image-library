@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-nike-you-cant-stop-us-2020-rm4192089857-01","耐克·势不可挡 (2020) - IMDb rm4192089857","https://m.media-amazon.com/images/M/MV5BMGU0ZDNiYjAtNDkxOS00MWZiLTgwYzgtMDBkMjFjZjBlZTIzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12830934/mediaviewer/rm4192089857/","IMDb Official Stills"]];

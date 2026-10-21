@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-the-sandwich-man-1983-rm1139663872-01","儿子的大玩偶 (1983) - IMDb rm1139663872","https://m.media-amazon.com/images/M/MV5BYTk0NzljZWMtMTZmYy00ZjNlLTg3MmEtYTIzMWZhYmI3Y2U3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0085503/mediaviewer/rm1139663872/","IMDb Official Stills"]];

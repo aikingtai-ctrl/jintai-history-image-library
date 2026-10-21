@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-559a2215e397c60c-rm2523236097-01","bill – das absolute augenmass (2008) - IMDb rm2523236097","https://m.media-amazon.com/images/M/MV5BM2EzMjg5NjEtNjEyMi00ZTlhLTgyYjAtYjllN2MzZWFkY2NkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1404020/mediaviewer/rm2523236097/","IMDb Official Stills"]];

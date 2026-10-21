@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-43fee26324e44208-rm303846145-01","我的喜马拉雅 (2020) - IMDb rm303846145","https://m.media-amazon.com/images/M/MV5BOWZlYzk3MGUtYjExMS00MjJhLWI3MzMtYjE5ZmY4NTdiMzUzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12752900/mediaviewer/rm303846145/","IMDb Official Stills"]];

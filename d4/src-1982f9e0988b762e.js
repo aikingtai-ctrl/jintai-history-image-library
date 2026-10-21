@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1982f9e0988b762e-rm3129964545-01","En el balcón vacío (1961) - IMDb rm3129964545","https://m.media-amazon.com/images/M/MV5BZDcyZDU0MzMtMDdjYi00ZWJhLWE0YmYtZDNlM2MzNDBjMWRkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27721737/mediaviewer/rm3129964545/","IMDb Official Stills"]];

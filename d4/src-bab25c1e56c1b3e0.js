@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-bab25c1e56c1b3e0-rm1555058944-01","PAUL EST LÀ (2017) - IMDb rm1555058944","https://m.media-amazon.com/images/M/MV5BMzQ5NmQ2OWUtNjhiYy00N2MzLWFiMmYtZWY1YWQzOTYxYTcyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7197034/mediaviewer/rm1555058944/","IMDb Official Stills"]];

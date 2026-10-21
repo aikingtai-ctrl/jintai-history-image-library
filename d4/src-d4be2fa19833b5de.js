@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d4be2fa19833b5de-rm3372974849-01","Un día y nada (2008) - IMDb rm3372974849","https://m.media-amazon.com/images/M/MV5BYjcyOTYwMzAtYWY1OC00ZTQ5LTlmYWEtZmQyYzBiZjI5ZWJiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3140538/mediaviewer/rm3372974849/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8cf5327e54724ef4-rm2863110658-01","Barboni (1946) - IMDb rm2863110658","https://m.media-amazon.com/images/M/MV5BYzUxMGQyNDQtMGMxNC00ZmUwLTljYTUtM2Y3NmM3ZmY5MzRhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0156328/mediaviewer/rm2863110658/","IMDb Official Stills"]];

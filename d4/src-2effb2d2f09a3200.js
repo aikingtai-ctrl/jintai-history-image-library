@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2effb2d2f09a3200-rm810363905-01","宜室宜家 (1962) - IMDb rm810363905","https://m.media-amazon.com/images/M/MV5BZGY1NWEwZmYtZjliMS00NjVhLTk1MTYtOWE4YTFhYzgxZDNkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27662833/mediaviewer/rm810363905/","IMDb Official Stills"]];

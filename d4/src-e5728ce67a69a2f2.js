@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e5728ce67a69a2f2-rm448549632-01","Flyaway (1972) - IMDb rm448549632","https://m.media-amazon.com/images/M/MV5BZjAwMzMyMDQtNWRkNi00MDhjLWE2YjMtZDlhMDBmN2NlYTU3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0224096/mediaviewer/rm448549632/","IMDb Official Stills"]];

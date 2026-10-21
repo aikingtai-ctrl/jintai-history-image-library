@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a963f5bda5553919-rm1449338880-01","网络时代的爱情 (1999) - IMDb rm1449338880","https://m.media-amazon.com/images/M/MV5BYzljNzlkMmEtZmUyMS00MThmLTgxNTYtZjY3ZDNmZDgxNzY1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0289996/mediaviewer/rm1449338880/","IMDb Official Stills"]];

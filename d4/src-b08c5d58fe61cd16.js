@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b08c5d58fe61cd16-rm3684627201-01","The Confessions of Amans (1977) - IMDb rm3684627201","https://m.media-amazon.com/images/M/MV5BYjczMWQ2NDctZTAwZC00ZWRhLTg0M2ItZTE5ODk4N2ViMzFiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0177653/mediaviewer/rm3684627201/","IMDb Official Stills"]];

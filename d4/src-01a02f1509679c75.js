@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-01a02f1509679c75-rm1865403905-01","LE RISQUE DE VIVRE (1980) - IMDb rm1865403905","https://m.media-amazon.com/images/M/MV5BOTUxODZkNTQtNGY0MC00NjdkLTlmOTEtZjk4ZGY1NjYzNjFhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0224015/mediaviewer/rm1865403905/","IMDb Official Stills"]];

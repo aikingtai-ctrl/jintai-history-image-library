@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-33c1bffd5b8ae646-rm1206772736-01","生命狂想曲 (2005) - IMDb rm1206772736","https://m.media-amazon.com/images/M/MV5BNjFmMGE5ZDQtYTVlMS00NWI2LTg2MjctNGVjYjQ0OWU2ODEyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0485760/mediaviewer/rm1206772736/","IMDb Official Stills"]];

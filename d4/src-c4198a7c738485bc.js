@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c4198a7c738485bc-rm784540160-01","Storytelling Giant (1988) - IMDb rm784540160","https://m.media-amazon.com/images/M/MV5BNThjYjZjMjEtOTJmMy00MDM0LWFmMTgtMmE3MzJmZmMyMDM4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2876350/mediaviewer/rm784540160/","IMDb Official Stills"]];

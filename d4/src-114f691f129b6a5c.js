@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-114f691f129b6a5c-rm743704577-01","'A iucata (2013) - IMDb rm743704577","https://m.media-amazon.com/images/M/MV5BNGNkODU1ZWYtZjM2Ny00ZTkxLThjM2UtODMzODEzMWExOWI3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3103456/mediaviewer/rm743704577/","IMDb Official Stills"]];

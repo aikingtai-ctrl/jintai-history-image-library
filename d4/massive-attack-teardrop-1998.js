@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-massive-attack-teardrop-1998-rm3076160256-01","Teardrop — Massive Attack (1998) - IMDb rm3076160256","https://m.media-amazon.com/images/M/MV5BZjhjY2E2OGItYzAzMi00YTUxLWFjMDktMDU0NDU2OGJmMWNlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7038500/mediaviewer/rm3076160256/","IMDb Official Stills"]];

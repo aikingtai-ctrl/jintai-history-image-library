@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9fbc53ecb53de95c-rm1309791745-01","Neft (2003) - IMDb rm1309791745","https://m.media-amazon.com/images/M/MV5BNmNlZDBlNGQtNDJjMC00MTE0LTk5MzMtYTAwNWI0Mzc2YjM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0396761/mediaviewer/rm1309791745/","IMDb Official Stills"]];

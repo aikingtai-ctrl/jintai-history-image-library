@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f0262fbc2bfed9b9-rm4094557698-01","重慶演習 (1966) - IMDb rm4094557698","https://m.media-amazon.com/images/M/MV5BNjc1NjM3NmUtNjNkYy00NmI4LTgyZjQtYjEwMmQzMjIxMTU1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0405685/mediaviewer/rm4094557698/","IMDb Official Stills"]];

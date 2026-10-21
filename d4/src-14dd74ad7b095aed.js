@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-14dd74ad7b095aed-rm1031811584-01","Mister Universo (2016) - IMDb rm1031811584","https://m.media-amazon.com/images/M/MV5BZGZhNTMxZTctNWJjOS00ZmQ2LTkyZmYtNTU2MTJkMDkxZjU0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5943690/mediaviewer/rm1031811584/","IMDb Official Stills"]];

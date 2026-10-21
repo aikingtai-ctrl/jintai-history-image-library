@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5236aa0ddd7941ca-rm1862880768-01","Rent-A-Cop (1988) - IMDb rm1862880768","https://m.media-amazon.com/images/M/MV5BMTZmZGQyZjYtZTdjMS00OGViLThjOTktM2VhMTFmMDU4NWQwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1592030/mediaviewer/rm1862880768/","IMDb Official Stills"]];

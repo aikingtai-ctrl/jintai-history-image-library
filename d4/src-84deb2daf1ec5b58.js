@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-84deb2daf1ec5b58-rm2257300482-01","地久天長 (2002) - IMDb rm2257300482","https://m.media-amazon.com/images/M/MV5BZDQxZWQyZmUtNDc4ZS00YTE3LWExMWItNTZhYTZjMzkxN2MyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0116383/mediaviewer/rm2257300482/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-09130befcbce129c-rm3735623168-01","Treffit (2013) - IMDb rm3735623168","https://m.media-amazon.com/images/M/MV5BNDg4ZDNmNTktODM3YS00NTVlLThmZGUtNTlhZWNhYWM3YmRjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2974498/mediaviewer/rm3735623168/","IMDb Official Stills"]];

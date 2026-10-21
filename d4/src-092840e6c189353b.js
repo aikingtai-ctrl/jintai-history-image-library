@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-092840e6c189353b-rm2089508097-01","Elias rekefisker (1958) - IMDb rm2089508097","https://m.media-amazon.com/images/M/MV5BY2I5MDdiNDAtNTcwNy00OWU1LTlhM2UtODM0MTRlNmMzOGRiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0225602/mediaviewer/rm2089508097/","IMDb Official Stills"]];

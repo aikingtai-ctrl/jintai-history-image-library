@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-59b26a3b01bdb7fd-rm4075308032-01","Symphonie de l'eau (1936) - IMDb rm4075308032","https://m.media-amazon.com/images/M/MV5BYTI0YWNmNjItYjMzYy00NjM4LTliMzAtMmEzMzY1OTdhNTkyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0193982/mediaviewer/rm4075308032/","IMDb Official Stills"]];

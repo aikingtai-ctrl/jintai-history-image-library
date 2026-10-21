@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5297890cb3a92f4d-rm3959141378-01","DI CAVALCANTI (1977) - IMDb rm3959141378","https://m.media-amazon.com/images/M/MV5BMTNiYmUzNTUtYWJlNy00MDc4LWJiNWUtMGYwYTJlOGM5MTQwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0075937/mediaviewer/rm3959141378/","IMDb Official Stills"]];

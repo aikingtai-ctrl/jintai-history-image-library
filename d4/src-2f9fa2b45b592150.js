@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2f9fa2b45b592150-rm3603929858-01","Omaru - Eine afrikanische Liebesgeschichte (1955) - IMDb rm3603929858","https://m.media-amazon.com/images/M/MV5BNmZjOWUxNmEtNWYzZS00MmQ0LWE1NDItYzE3MjI1Yzk5MzBmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0048446/mediaviewer/rm3603929858/","IMDb Official Stills"]];

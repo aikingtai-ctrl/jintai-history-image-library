@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d45348916896d7d2-rm1908277248-01","Dies rigorose Leben (1983) - IMDb rm1908277248","https://m.media-amazon.com/images/M/MV5BMDdlZWI4NzAtZTIzMi00NjdlLTg3MGUtZDEyYmY5NzdiYjY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0083832/mediaviewer/rm1908277248/","IMDb Official Stills"]];

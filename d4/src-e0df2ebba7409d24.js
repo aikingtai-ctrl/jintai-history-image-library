@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e0df2ebba7409d24-rm2942240256-01","La Frontera (1992) - IMDb rm2942240256","https://m.media-amazon.com/images/M/MV5BOTVjNmRhMDItMWY2MS00MDI1LTlkMmMtMTg0NzBjNTVmYTUyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0380401/mediaviewer/rm2942240256/","IMDb Official Stills"]];

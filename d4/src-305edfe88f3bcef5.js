@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-305edfe88f3bcef5-rm184408321-01","魔輪 (1983) - IMDb rm184408321","https://m.media-amazon.com/images/M/MV5BNTMzMDdhMWMtYjMxOS00MWZhLWEwNzItNjBlMzJhNGVkMTNhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5112258/mediaviewer/rm184408321/","IMDb Official Stills"]];

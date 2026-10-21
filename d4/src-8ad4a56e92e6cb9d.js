@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8ad4a56e92e6cb9d-rm3944028928-01","Napló szerelmeimnek (1987) - IMDb rm3944028928","https://m.media-amazon.com/images/M/MV5BNmRlMTYyNTMtYTQyNi00ZDc1LTg3NTEtNWE2MWQ4Y2JkNGNhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0093599/mediaviewer/rm3944028928/","IMDb Official Stills"]];

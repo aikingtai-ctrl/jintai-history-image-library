@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d12d49581834b4b6-rm1567579392-01","冷血十三鷹 (1979) - IMDb rm1567579392","https://m.media-amazon.com/images/M/MV5BYzIxMDBmMGQtNjA3Ni00ODJmLWFlZjctZWViODRmNmM1MDQzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0195421/mediaviewer/rm1567579392/","IMDb Official Stills"]];

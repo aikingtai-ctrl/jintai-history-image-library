@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-897a637d384d16ec-rm2489472512-01","Jaalgedi (2018) - IMDb rm2489472512","https://m.media-amazon.com/images/M/MV5BODZiMjc3N2QtMWYyNy00YWQwLTkzY2EtNzg2NjFmM2M5OTAwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7981050/mediaviewer/rm2489472512/","IMDb Official Stills"]];

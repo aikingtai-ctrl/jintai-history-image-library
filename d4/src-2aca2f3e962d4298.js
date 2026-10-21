@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2aca2f3e962d4298-rm1159819008-01","六朝怪談 (1980) - IMDb rm1159819008","https://m.media-amazon.com/images/M/MV5BMjUxZTcyMmYtYjE2MS00N2U1LWI0MDYtOWY1YTYyYjY0NzZkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1220568/mediaviewer/rm1159819008/","IMDb Official Stills"]];

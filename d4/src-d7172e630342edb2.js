@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d7172e630342edb2-rm1870241538-01","The Loon's Necklace (1949) - IMDb rm1870241538","https://m.media-amazon.com/images/M/MV5BMTFjMzI4Y2ItZGM3Mi00NzgyLThmZDQtY2M5NTNmMTVlZjhhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0250512/mediaviewer/rm1870241538/","IMDb Official Stills"]];

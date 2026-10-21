@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ae1c6f6616cc35b7-rm3499365888-01","愛麗絲的鏡子 (2006) - IMDb rm3499365888","https://m.media-amazon.com/images/M/MV5BYmQwOTZkYjItMjFiMC00YTkzLTk2YTMtNTc2MTcyNWQxYmU1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0490784/mediaviewer/rm3499365888/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d0898091d036adc6-rm3255959809-01","Face (2000) - IMDb rm3255959809","https://m.media-amazon.com/images/M/MV5BNjhjMzAzODQtZDRjYS00ZTA3LTk1MWMtNGY0YTRiMmI0NTVkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0254821/mediaviewer/rm3255959809/","IMDb Official Stills"]];

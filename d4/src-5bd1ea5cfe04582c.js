@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5bd1ea5cfe04582c-rm2312352256-01","A Chjàna (2011) - IMDb rm2312352256","https://m.media-amazon.com/images/M/MV5BMTcxOTQ3MTgwN15BMl5BanBnXkFtZTcwNDAxNDM5Ng@@._V1_.jpg","https://www.imdb.com/title/tt1996158/mediaviewer/rm2312352256/","IMDb Official Stills"]];

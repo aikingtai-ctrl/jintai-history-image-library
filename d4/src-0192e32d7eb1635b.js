@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0192e32d7eb1635b-rm329453056-01","Douce France (1995) - IMDb rm329453056","https://m.media-amazon.com/images/M/MV5BYzgxODViOGEtZTQ0MS00YTZlLTk4ZmEtNmQ5MjE5OTFjNThlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0112891/mediaviewer/rm329453056/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-40030e67e25cb90d-rm682739969-01","Time is Money (1994) - IMDb rm682739969","https://m.media-amazon.com/images/M/MV5BOTJkYjkwYWYtMDgyNi00YzRkLThiODctODdiNWM0ZTYwMDJmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0111434/mediaviewer/rm682739969/","IMDb Official Stills"]];

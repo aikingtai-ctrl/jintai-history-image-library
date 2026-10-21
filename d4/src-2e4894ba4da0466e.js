@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2e4894ba4da0466e-rm2949668096-01","A Field Guide to Being a 12-Year-Old Girl (2018) - IMDb rm2949668096","https://m.media-amazon.com/images/M/MV5BMjg4NDdlMzItMzNkMS00MDNiLWExZGUtYTIxZTlmZmU5YzlhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7762244/mediaviewer/rm2949668096/","IMDb Official Stills"]];

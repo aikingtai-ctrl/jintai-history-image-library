@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ecd0e66ef06c1aa9-rm12951553-01","Lachsmänner (2020) - IMDb rm12951553","https://m.media-amazon.com/images/M/MV5BMzBhOGMzM2QtOGIzZS00ZWY4LTlmNTEtZjBjMjdiMmQ0NGE5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12935064/mediaviewer/rm12951553/","IMDb Official Stills"]];

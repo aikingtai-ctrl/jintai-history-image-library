@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d93cdafa39fbf34c-rm1473164801-01","Glasskår (2002) - IMDb rm1473164801","https://m.media-amazon.com/images/M/MV5BNzE2ZTBkYmEtZmM2NC00ZDBmLTgwODItMDliN2Y0MTJhY2I2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0309630/mediaviewer/rm1473164801/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b42413eb6d5058f6-rm1230448896-01","Toro negro (2005) - IMDb rm1230448896","https://m.media-amazon.com/images/M/MV5BZWI5ODE0MjgtOWI0Yy00ZjAyLTgzODQtNzcwNWJhMDVjMzRhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0462045/mediaviewer/rm1230448896/","IMDb Official Stills"]];

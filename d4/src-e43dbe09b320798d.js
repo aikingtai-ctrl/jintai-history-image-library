@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e43dbe09b320798d-rm2733121537-01","LAUTREC (1975) - IMDb rm2733121537","https://m.media-amazon.com/images/M/MV5BYmFjODliMWEtYjcyNi00MGY0LTk0OTUtZDU5Nzk4NmQzNzVlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27630341/mediaviewer/rm2733121537/","IMDb Official Stills"]];

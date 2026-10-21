@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3354a157c87fe28f-rm3624086528-01","NYITANY (1965) - IMDb rm3624086528","https://m.media-amazon.com/images/M/MV5BZjAxMDNjMzgtZGMzMy00N2MyLWFmM2ItYTY0NzkzOWE5MDZjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0059559/mediaviewer/rm3624086528/","IMDb Official Stills"]];

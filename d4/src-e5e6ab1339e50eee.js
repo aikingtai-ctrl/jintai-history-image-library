@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e5e6ab1339e50eee-rm13314817-01","Wave Coral and Rock (1962) - IMDb rm13314817","https://m.media-amazon.com/images/M/MV5BMWRjN2M0ZWQtZTczNy00MTYzLThmY2YtODczZGNiODg1NjQ0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0495731/mediaviewer/rm13314817/","IMDb Official Stills"]];

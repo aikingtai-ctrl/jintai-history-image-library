@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3f090156eb96a07c-rm3636596736-01","Portrait Orson Welles (1968) - IMDb rm3636596736","https://m.media-amazon.com/images/M/MV5BN2FjNTkwZmYtMzA0NC00NjU4LTgxZGEtYjQ3ZjY3ZGE1ZWJiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0234497/mediaviewer/rm3636596736/","IMDb Official Stills"]];

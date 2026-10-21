@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7deef057935cdcc5-rm1899478273-01","A Thousand Suns (2013) - IMDb rm1899478273","https://m.media-amazon.com/images/M/MV5BODgzMmZiMTEtN2EzOC00ZTgzLThiOTctYzRiN2E1MWM0NDdmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3118566/mediaviewer/rm1899478273/","IMDb Official Stills"]];

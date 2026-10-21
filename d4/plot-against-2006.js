@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-plot-against-2006-rm2537693441-01","暗算 (2006) - IMDb rm2537693441","https://m.media-amazon.com/images/M/MV5BYmZhZWRjYTMtMTJkMi00NmRkLWFkZjAtOWViYTFlOTA0MDYyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0780586/mediaviewer/rm2537693441/","IMDb Official Stills"]];

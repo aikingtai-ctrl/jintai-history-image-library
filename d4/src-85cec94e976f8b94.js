@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-85cec94e976f8b94-rm1087899904-01","CONTE DE QUARTIER (2006) - IMDb rm1087899904","https://m.media-amazon.com/images/M/MV5BYmVhYTA3YTgtMWI3Yy00NTk0LTllYjYtMzFmZjE0OWYwZTdhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0800958/mediaviewer/rm1087899904/","IMDb Official Stills"]];

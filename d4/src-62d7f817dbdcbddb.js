@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-62d7f817dbdcbddb-rm3869172992-01","Mother Teresa of Cats (2010) - IMDb rm3869172992","https://m.media-amazon.com/images/M/MV5BNDFlYjkxNTUtZGMzMy00NDdlLWE1MTItZjZlZDI1ZTQ4NDI0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1683046/mediaviewer/rm3869172992/","IMDb Official Stills"]];

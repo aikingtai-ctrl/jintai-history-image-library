@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ccf5a566269f4131-rm307109120-01","Ailsa (1994) - IMDb rm307109120","https://m.media-amazon.com/images/M/MV5BOWNiNThjNTEtNjYwZC00ZGU1LWJjZDYtNTEzY2Q5MjBjN2M0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0109064/mediaviewer/rm307109120/","IMDb Official Stills"]];

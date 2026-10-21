@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0277445b1adc7a62-rm1415825665-01","Svatba na selo (1946) - IMDb rm1415825665","https://m.media-amazon.com/images/M/MV5BYWI0NmQ1NGMtZmQ3OC00ZDQ5LTg0Y2QtMGIxMTdiMjFkNmJjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0344406/mediaviewer/rm1415825665/","IMDb Official Stills"]];

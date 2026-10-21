@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-038c2659f928aad8-rm1455051008-01","大樂師.為愛配樂 (2018) - IMDb rm1455051008","https://m.media-amazon.com/images/M/MV5BMWIzN2UxODItZmRhZi00NWI5LTk3ZDItMTA5MTkwNGU1ZTU4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7762772/mediaviewer/rm1455051008/","IMDb Official Stills"]];

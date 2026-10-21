@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c6e8163225bce1d7-rm3691517952-01","忠仔 (1996) - IMDb rm3691517952","https://m.media-amazon.com/images/M/MV5BODBiYzZkNTktZmVhNS00NDc4LTkwNDAtODM1ZGNlNTQ2YjEwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0115486/mediaviewer/rm3691517952/","IMDb Official Stills"]];

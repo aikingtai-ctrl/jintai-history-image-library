@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-279a3e05378198b6-rm1508702976-01","ZEILEN (1963) - IMDb rm1508702976","https://m.media-amazon.com/images/M/MV5BOTAyMDYxOTQwMV5BMl5BanBnXkFtZTgwMzY4NzkwMzE@._V1_.jpg","https://www.imdb.com/title/tt0865364/mediaviewer/rm1508702976/","IMDb Official Stills"]];

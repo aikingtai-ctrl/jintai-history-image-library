@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-chrysler-imported-from-detroit-2011-rm836608001-01","克莱斯勒·底特律进口 (2011) - IMDb rm836608001","https://m.media-amazon.com/images/M/MV5BMWIwN2M4MGMtZDVmMi00OGJkLWFiZmYtNzQyNjcwNjlhMmJiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12504968/mediaviewer/rm836608001/","IMDb Official Stills"]];

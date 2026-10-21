@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2edc21dbffe2496d-rm497686784-01","Flug des Albatros (1997) - IMDb rm497686784","https://m.media-amazon.com/images/M/MV5BNDg0OTgxZjAtM2ZhNC00YWM1LTkyNzAtYTcyODYzMjE2NGU5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0113088/mediaviewer/rm497686784/","IMDb Official Stills"]];

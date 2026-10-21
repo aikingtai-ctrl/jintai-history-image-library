@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4e07c522917bace5-rm3711798785-01","OSTROV (1974) - IMDb rm3711798785","https://m.media-amazon.com/images/M/MV5BNmEzNGVkOTctYjE5OC00MjMwLTg4YWItYzI3MDIxZjIwZWE3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1726703/mediaviewer/rm3711798785/","IMDb Official Stills"]];

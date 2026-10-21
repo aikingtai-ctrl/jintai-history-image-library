@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-174cfbf695cadf75-rm1230960129-01","Shirins Hochzeit (1976) - IMDb rm1230960129","https://m.media-amazon.com/images/M/MV5BZmZiMTMyMmMtYzJkZi00YzBjLWE2YWEtMGYxMjU4NGVhMTY0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0073704/mediaviewer/rm1230960129/","IMDb Official Stills"]];

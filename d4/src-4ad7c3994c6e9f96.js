@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4ad7c3994c6e9f96-rm3237606401-01","The Trumouse Show (2003) - IMDb rm3237606401","https://m.media-amazon.com/images/M/MV5BYTFkYzE0NGUtM2JiYi00NzM4LWJkMWYtMzJmMmZjNGNiN2I4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0387649/mediaviewer/rm3237606401/","IMDb Official Stills"]];

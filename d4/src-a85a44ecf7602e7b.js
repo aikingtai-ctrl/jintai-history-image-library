@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a85a44ecf7602e7b-rm869393664-01","Stella Polaris (1994) - IMDb rm869393664","https://m.media-amazon.com/images/M/MV5BMmY4N2ZhZmYtZDI4MS00NjA5LWFiNmYtMGJlMTBhZjBjMzI1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0108221/mediaviewer/rm869393664/","IMDb Official Stills"]];

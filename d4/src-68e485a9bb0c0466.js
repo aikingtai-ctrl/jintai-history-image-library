@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-68e485a9bb0c0466-rm239126528-01","Prázdniny s Minkou (1963) - IMDb rm239126528","https://m.media-amazon.com/images/M/MV5BMjAyOTI2NTUxOF5BMl5BanBnXkFtZTgwNzcwODY1MTE@._V1_.jpg","https://www.imdb.com/title/tt0396826/mediaviewer/rm239126528/","IMDb Official Stills"]];

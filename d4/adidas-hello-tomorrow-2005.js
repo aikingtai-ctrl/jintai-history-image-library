@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-adidas-hello-tomorrow-2005-rm4245303296-01","阿迪达斯·你好明天 (2005) - IMDb rm4245303296","https://m.media-amazon.com/images/M/MV5BYmE1MTU3YWEtYzVlYi00YWYwLWIzNmEtNmU4Yzc2OWEwOWQ0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6682162/mediaviewer/rm4245303296/","IMDb Official Stills"]];

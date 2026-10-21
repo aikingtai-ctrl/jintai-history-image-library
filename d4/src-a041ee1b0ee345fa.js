@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a041ee1b0ee345fa-rm3808181505-01","風再起時 (2023) - IMDb rm3808181505","https://m.media-amazon.com/images/M/MV5BZjMwOWFkZTktZTJkMC00MDljLTk3NmQtZjAzMTg4N2FjNWQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt22071346/mediaviewer/rm3808181505/","IMDb Official Stills"]];

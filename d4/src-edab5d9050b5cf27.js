@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-edab5d9050b5cf27-rm1615096577-01","Der Goldene Garten (1954) - IMDb rm1615096577","https://m.media-amazon.com/images/M/MV5BNTVlYzhhNzUtMmQ3NS00NjM4LThkOWItNzg0Yjc0MjA5ZDY3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0444153/mediaviewer/rm1615096577/","IMDb Official Stills"]];

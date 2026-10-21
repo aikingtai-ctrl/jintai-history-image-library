@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b817bedfdfa9db61-rm4084534272-01","Crayola Kids Adventures (1997) - IMDb rm4084534272","https://m.media-amazon.com/images/M/MV5BODhkNzVlZGEtMDI2YS00YWE2LWI1MTktNThjZDY4ZTZlODlkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0233494/mediaviewer/rm4084534272/","IMDb Official Stills"]];

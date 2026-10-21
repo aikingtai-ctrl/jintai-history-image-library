@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5557255c783252a8-rm1870675456-01","KINU’ACH (2000) - IMDb rm1870675456","https://m.media-amazon.com/images/M/MV5BODkyNDYyNTctOTA0Mi00YmJhLWEyMTQtNjlmMzY2MDU1ODU3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0260124/mediaviewer/rm1870675456/","IMDb Official Stills"]];

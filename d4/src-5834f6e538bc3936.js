@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5834f6e538bc3936-rm3089917697-01","Țara moţilor (1938) - IMDb rm3089917697","https://m.media-amazon.com/images/M/MV5BM2Y0MTIxNTAtYWE0NC00MTc2LWE0MGYtNzNiNDE5NmMzOTA2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0030830/mediaviewer/rm3089917697/","IMDb Official Stills"]];

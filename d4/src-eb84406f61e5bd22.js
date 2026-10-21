@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-eb84406f61e5bd22-rm1929839360-01","One Silver Piece / Jeden stříbrný (1976) - IMDb rm1929839360","https://m.media-amazon.com/images/M/MV5BODc3ZDI1MTgtZDZjNS00NzM3LWFlMDUtNzgxM2Y4ZjJmMGFlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0170074/mediaviewer/rm1929839360/","IMDb Official Stills"]];

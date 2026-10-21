@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-afe7ead6db7d81e0-rm3670534145-01","Escape to Paradise (2001) - IMDb rm3670534145","https://m.media-amazon.com/images/M/MV5BZTgzNGIzYmYtYjk3NC00MzAwLWFmNWYtYmFhMzU3ZTkxNjRkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0236449/mediaviewer/rm3670534145/","IMDb Official Stills"]];

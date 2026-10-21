@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1feb11c1ac443a1d-rm2654310145-01","52 Tuesdays (2014) - IMDb rm2654310145","https://m.media-amazon.com/images/M/MV5BMGE4NGFiZGEtNmY3YS00ZTE4LWI2NGQtNDBhOGM4ZjlhZjY3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6939492/mediaviewer/rm2654310145/","IMDb Official Stills"]];

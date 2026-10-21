@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-45ff209395593722-rm3843765504-01","期待你長大 (1987) - IMDb rm3843765504","https://m.media-amazon.com/images/M/MV5BYzdiZDQzZGQtYzZkYi00YjE5LTg2NzItM2FlZjMzMzliNzU3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5084076/mediaviewer/rm3843765504/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c075b6dd21383bd8-rm2640295938-01","Ludzie w drodze (1961) - IMDb rm2640295938","https://m.media-amazon.com/images/M/MV5BYmJjOTQ2NmQtMjdjYi00YmQ3LTliY2MtN2E2ZDk3ZDM5ZWUwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0896830/mediaviewer/rm2640295938/","IMDb Official Stills"]];

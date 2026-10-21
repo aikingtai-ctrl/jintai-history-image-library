@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b5cc74ec03ff91a9-rm114549760-01","Bumazhnyy soldat (2008) - IMDb rm114549760","https://m.media-amazon.com/images/M/MV5BYzkzYjMyOWMtYzY2ZC00ZTI5LThkNGUtZjAwYjVlN2U5MDljXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1284576/mediaviewer/rm114549760/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-23fd3d5f90914ded-rm2529836544-01","Kalabaza tripontzia (1985) - IMDb rm2529836544","https://m.media-amazon.com/images/M/MV5BNzJiZGFmNTctY2NiYy00MDk2LWI5NDYtZGUyNGVjZjI3NzRlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0088874/mediaviewer/rm2529836544/","IMDb Official Stills"]];

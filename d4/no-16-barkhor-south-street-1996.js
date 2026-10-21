@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-no-16-barkhor-south-street-1996-rm1363112704-01","八廓南街16号 (1996) - IMDb rm1363112704","https://m.media-amazon.com/images/M/MV5BNjg1YjE1OTUtMGY0Yi00OTE0LWE2NjQtZDkxYTFlMjBjNzBlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3569600/mediaviewer/rm1363112704/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-615c468207560272-rm1087513856-01","A Quarter Million Teenagers (1965) - IMDb rm1087513856","https://m.media-amazon.com/images/M/MV5BMDE0ZDQzYWQtNzllNy00MmFhLWEwZGEtMDczMmZjZDg4OWQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0219988/mediaviewer/rm1087513856/","IMDb Official Stills"]];

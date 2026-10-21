@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ad30ac0dacabbf21-rm301729537-01","Les Dieux du Supermarché (2022) - IMDb rm301729537","https://m.media-amazon.com/images/M/MV5BMmNlMDAyOGYtODU0My00NzI4LTk4NjctYzhlN2UxNDlmZjc5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt22986082/mediaviewer/rm301729537/","IMDb Official Stills"]];

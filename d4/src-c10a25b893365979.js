@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c10a25b893365979-rm1939691008-01","Monobloc (2005) - IMDb rm1939691008","https://m.media-amazon.com/images/M/MV5BMTQ0MTg2NzYtMjlhNy00OWQ4LTgwNzItZmI5MmY5NzI2MTUwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0362873/mediaviewer/rm1939691008/","IMDb Official Stills"]];

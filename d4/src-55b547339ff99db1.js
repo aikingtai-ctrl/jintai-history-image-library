@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-55b547339ff99db1-rm1272716032-01","Satellite Boy (2013) - IMDb rm1272716032","https://m.media-amazon.com/images/M/MV5BNTgxNzdlMTgtYzE5Zi00OThmLTg4ZDUtZDMyZWU2ZjJhMTIzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2234397/mediaviewer/rm1272716032/","IMDb Official Stills"]];

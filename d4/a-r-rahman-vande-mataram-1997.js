@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-a-r-rahman-vande-mataram-1997-rm324529153-01","Vande Mataram — A.R.拉赫曼 (1997) - IMDb rm324529153","https://m.media-amazon.com/images/M/MV5BZWI3OTAzN2UtM2U2Mi00MmQxLWJiMTEtOWJhYTk2ZWZmMTQxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt16432442/mediaviewer/rm324529153/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-59b7be552ac6e8e9-rm2848815104-01","André Masson et les quatre éléments (1958) - IMDb rm2848815104","https://m.media-amazon.com/images/M/MV5BMmUyODU1ZWItZTQwZS00Yjk2LTkxYjMtNjY1Y2JhMjVjN2FhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0207968/mediaviewer/rm2848815104/","IMDb Official Stills"]];

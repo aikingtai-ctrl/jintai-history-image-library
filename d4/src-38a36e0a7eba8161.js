@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-38a36e0a7eba8161-rm3479019265-01","SAMOSTOIATELNAIA JIZN (1992) - IMDb rm3479019265","https://m.media-amazon.com/images/M/MV5BMjdkNmZhMmItZjJhMy00ZDkzLWJlYTctMTIzY2U5NDRkMmRjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0105921/mediaviewer/rm3479019265/","IMDb Official Stills"]];

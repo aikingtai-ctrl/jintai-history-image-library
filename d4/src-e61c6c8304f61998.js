@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e61c6c8304f61998-rm1254756352-01","浮世戀曲 (1992) - IMDb rm1254756352","https://m.media-amazon.com/images/M/MV5BYWVhMjIzZGItMjViYy00Mzc0LWI5OTgtZWI3MjAwNmM2OGIyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0099620/mediaviewer/rm1254756352/","IMDb Official Stills"]];

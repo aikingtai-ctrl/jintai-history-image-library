@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-12360cfad17f9eb6-rm2774952449-01","PROGRESS MINING (2024) - IMDb rm2774952449","https://m.media-amazon.com/images/M/MV5BMGRhODQ3MmQtNDFiYy00Yjk4LTk5NzctMDE0NjBhZDVhZjExXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32897521/mediaviewer/rm2774952449/","IMDb Official Stills"]];

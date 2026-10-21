@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-and-the-spring-comes-2007-rm1944328960-01","立春 (2007) - IMDb rm1944328960","https://m.media-amazon.com/images/M/MV5BYWExZGZiZmMtMDY2Ni00Y2Y1LWI1N2QtYzUwMjI1NTNhYzkzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1214973/mediaviewer/rm1944328960/","IMDb Official Stills"]];

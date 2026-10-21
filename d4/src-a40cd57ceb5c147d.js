@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a40cd57ceb5c147d-rm2212585217-01","ARENA (2009) - IMDb rm2212585217","https://m.media-amazon.com/images/M/MV5BNzgyYTM1N2QtNTI5OS00Y2Q3LWIxMDEtYThjMDBjMTBmZjAwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1711364/mediaviewer/rm2212585217/","IMDb Official Stills"]];

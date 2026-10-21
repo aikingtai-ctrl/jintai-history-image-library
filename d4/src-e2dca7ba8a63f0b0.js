@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e2dca7ba8a63f0b0-rm260344578-01","A FLEUR D’EAU (1963) - IMDb rm260344578","https://m.media-amazon.com/images/M/MV5BYjUwNzg0NDMtZjI1OC00NzUyLTg4NGYtZTZkYmQ1OWRlZGY3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35704111/mediaviewer/rm260344578/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a66e8d9fde3077c2-rm1656728833-01","The Man that Got Away (2012) - IMDb rm1656728833","https://m.media-amazon.com/images/M/MV5BNjhmNmU1ZGMtZGZmZS00NDQ3LWJjN2UtMmExOGVkOTU2Y2ZjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2094151/mediaviewer/rm1656728833/","IMDb Official Stills"]];

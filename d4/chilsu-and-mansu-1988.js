@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-chilsu-and-mansu-1988-rm717757952-01","七洙和万洙 (1988) - IMDb rm717757952","https://m.media-amazon.com/images/M/MV5BOGEzZGJiNWMtZjE1OS00ZDdiLWEyZWMtZDY5MGE4ZGUxYTAzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0150113/mediaviewer/rm717757952/","IMDb Official Stills"]];

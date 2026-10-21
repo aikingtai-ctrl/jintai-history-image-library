@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-dd644706a2ec3ee8-rm3164847105-01","Zavaros éjszaka (1940) - IMDb rm3164847105","https://m.media-amazon.com/images/M/MV5BNzA2YTVkZTctNWUxNy00OGQ1LWI1NmYtZTUzNDRmNDRmNzViXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0170831/mediaviewer/rm3164847105/","IMDb Official Stills"]];

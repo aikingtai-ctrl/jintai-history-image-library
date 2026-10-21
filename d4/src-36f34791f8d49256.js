@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-36f34791f8d49256-rm2716657921-01","Pasts (1996) - IMDb rm2716657921","https://m.media-amazon.com/images/M/MV5BMmFlYzEyM2MtOTZjYi00NTE5LTkxMTctZGU5NWY0MzExYWY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0497256/mediaviewer/rm2716657921/","IMDb Official Stills"]];

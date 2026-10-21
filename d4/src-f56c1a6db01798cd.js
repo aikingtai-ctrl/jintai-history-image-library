@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f56c1a6db01798cd-rm468107264-01","One Way or Another (1977) - IMDb rm468107264","https://m.media-amazon.com/images/M/MV5BMTkxOTg3MTc5MV5BMl5BanBnXkFtZTgwODA4ODMzMjE@._V1_.jpg","https://www.imdb.com/title/tt0075335/mediaviewer/rm468107264/","IMDb Official Stills"]];

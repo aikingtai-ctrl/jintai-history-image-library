@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7616fff222a21907-rm654649088-01","NAJPIĘKNIEJSZE FAJERWERKI EVER (2017) - IMDb rm654649088","https://m.media-amazon.com/images/M/MV5BYzE2MDFmMGQtMTYyYy00YjNjLWExNGEtZTU3MjUxMzNiNWNiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6541546/mediaviewer/rm654649088/","IMDb Official Stills"]];

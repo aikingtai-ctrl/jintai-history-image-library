@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5540c1726a733ee2-rm506535937-01","The Djarn Djarns (2005) - IMDb rm506535937","https://m.media-amazon.com/images/M/MV5BOWIzMDRlMWMtMTI0ZC00OGMwLTlkYzMtNGZmNzgzMGU4YzE2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0453651/mediaviewer/rm506535937/","IMDb Official Stills"]];

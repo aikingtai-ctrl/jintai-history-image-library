@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d7fcad54668b949d-rm821436417-01","伊人自强 (2023) - IMDb rm821436417","https://m.media-amazon.com/images/M/MV5BNTMzYTEwYzAtMGZhNS00MmY4LTgzYWMtOGNjNjRjYzM3ODA2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27881517/mediaviewer/rm821436417/","IMDb Official Stills"]];

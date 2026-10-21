@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e01778cd9879cbfb-rm3083482881-01","母與女 (1971) - IMDb rm3083482881","https://m.media-amazon.com/images/M/MV5BNjMzZTJhMTItMzUzZi00ZmFlLTkxNWEtNTM2YWIzYzA2Y2Q5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3136494/mediaviewer/rm3083482881/","IMDb Official Stills"]];

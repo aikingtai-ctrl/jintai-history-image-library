@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7d6e0a4fd2edddaf-rm141440513-01","SZEL (1996) - IMDb rm141440513","https://m.media-amazon.com/images/M/MV5BZWUyMjgyNDgtZTQ1My00NDZlLWJiOWQtMDRmMjZkNzg5MWRhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0162681/mediaviewer/rm141440513/","IMDb Official Stills"]];

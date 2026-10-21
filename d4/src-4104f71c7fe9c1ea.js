@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4104f71c7fe9c1ea-rm2443225346-01","Pete's Meteor (1999) - IMDb rm2443225346","https://m.media-amazon.com/images/M/MV5BN2NmMzI4YzQtYTExZi00NmJjLWJlNTktMDBmYmU4MjM1MDY2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38275139/mediaviewer/rm2443225346/","IMDb Official Stills"]];

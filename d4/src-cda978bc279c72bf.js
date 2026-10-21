@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cda978bc279c72bf-rm889054721-01","GLOIRE A FÉLIX TOURNACHON (1967) - IMDb rm889054721","https://m.media-amazon.com/images/M/MV5BODQxODkxMWUtODk1OC00OGNjLTgzZjYtMTdkMWJlNjc1NDQxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt17422630/mediaviewer/rm889054721/","IMDb Official Stills"]];

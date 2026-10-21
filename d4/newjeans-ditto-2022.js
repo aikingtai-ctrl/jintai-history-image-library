@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-newjeans-ditto-2022-rm1222920705-01","Ditto — NewJeans (2022) - IMDb rm1222920705","https://m.media-amazon.com/images/M/MV5BNGE1ZjU1ZGItNmU5Yi00MzAyLTgzOWItNDcyYjFmZDFhZTBlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt24805912/mediaviewer/rm1222920705/","IMDb Official Stills"]];

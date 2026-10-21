@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5489f41f9c3e4f4f-rm4167475969-01","Landsbykirken (1947) - IMDb rm4167475969","https://m.media-amazon.com/images/M/MV5BMDRkNTJiYzMtODQxOC00MzMwLTkxN2EtN2ExNTQ4N2I4M2I4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0039549/mediaviewer/rm4167475969/","IMDb Official Stills"]];

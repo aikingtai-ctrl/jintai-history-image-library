@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-strawberry-night-2012-rm2982609152-01","草莓之夜 (2012) - IMDb rm2982609152","https://m.media-amazon.com/images/M/MV5BYTlhM2UwNTItMmUwMS00Y2FiLTllNmYtMzI4ODFiNTdhZWU3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1959087/mediaviewer/rm2982609152/","IMDb Official Stills"]];

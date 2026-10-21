@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-romance-of-the-three-kingdoms-1994-rm2442776833-01","三国演义 (1994) - IMDb rm2442776833","https://m.media-amazon.com/images/M/MV5BMWZhYzY4NTktZjI1Zi00ZTQxLTkzYzItNjU2NmMzMjhjYjFmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt13630448/mediaviewer/rm2442776833/","IMDb Official Stills"]];

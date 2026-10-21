@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6c2746b1c5ca2200-rm4224971776-01","Ai ni ai wo (2001) - IMDb rm4224971776","https://m.media-amazon.com/images/M/MV5BMTQ2MTQ0OTA3Ml5BMl5BanBnXkFtZTgwNjM2MTI3NTE@._V1_.jpg","https://www.imdb.com/title/tt0275902/mediaviewer/rm4224971776/","IMDb Official Stills"]];

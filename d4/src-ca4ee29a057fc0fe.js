@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ca4ee29a057fc0fe-rm547207681-01","多少柔情多少淚 (1968) - IMDb rm547207681","https://m.media-amazon.com/images/M/MV5BNzMwZTI3ZjQtYzY3Ny00YjIwLWI1ZjItOTlkOTA5ODgzODUyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8928614/mediaviewer/rm547207681/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-51058c35dc094156-rm375271424-01","MAGIC MACHINES (1970) - IMDb rm375271424","https://m.media-amazon.com/images/M/MV5BOTNlMGJiODktODBkZS00ZGE0LWJmODUtM2JhZmY0ZTU2ZjJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0064623/mediaviewer/rm375271424/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-823a8ee759d18004-rm1906750722-01","再見UFO (2026) - IMDb rm1906750722","https://m.media-amazon.com/images/M/MV5BNzY0NTU4MjEtYTYxNC00OTk3LTlhZmMtYjRkZmE0MTliZWI3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38191550/mediaviewer/rm1906750722/","IMDb Official Stills"]];

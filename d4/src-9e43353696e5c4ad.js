@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9e43353696e5c4ad-rm94006784-01","THE STONE OF FOLLY (2002) - IMDb rm94006784","https://m.media-amazon.com/images/M/MV5BOTY3NWFlZDQtOTU5Yi00NThhLThkN2YtMTNkYTA2YjUzM2I2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0318086/mediaviewer/rm94006784/","IMDb Official Stills"]];

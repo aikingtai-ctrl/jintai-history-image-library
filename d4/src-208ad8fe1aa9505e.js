@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-208ad8fe1aa9505e-rm4005800961-01","Magical Mystery Tour (2012) - IMDb rm4005800961","https://m.media-amazon.com/images/M/MV5BZjJmYWI3MzMtMGFkMy00YjUwLTgzN2QtMDhmNDk1MWI0NTU3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12791752/mediaviewer/rm4005800961/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e4da0dbddcc98820-rm2192872448-01","Vacsora (2008) - IMDb rm2192872448","https://m.media-amazon.com/images/M/MV5BMTc3OTExOTE4OV5BMl5BanBnXkFtZTcwNjk5MTM5MQ@@._V1_.jpg","https://www.imdb.com/title/tt1278470/mediaviewer/rm2192872448/","IMDb Official Stills"]];

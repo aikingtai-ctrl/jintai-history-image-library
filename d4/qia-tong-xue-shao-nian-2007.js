@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-qia-tong-xue-shao-nian-2007-rm1884477954-01","恰同学少年 (2007) - IMDb rm1884477954","https://m.media-amazon.com/images/M/MV5BZmNmMmFjZmYtYmI3Yy00ZjgyLWJmMjktN2YyZDU4Y2NkOGY2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt28212799/mediaviewer/rm1884477954/","IMDb Official Stills"]];

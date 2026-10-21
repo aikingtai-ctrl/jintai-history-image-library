@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c0e88740b043767b-rm1852381696-01","Místo v houfu (1964) - IMDb rm1852381696","https://m.media-amazon.com/images/M/MV5BNWMzMmRlNTQtYmY3NS00YzEyLTk5NTMtNmQxMmJjZWM1MzllXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0170277/mediaviewer/rm1852381696/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-longji-1994-rm3687823617-01","龙脊 (1994) - IMDb rm3687823617","https://m.media-amazon.com/images/M/MV5BNzU1OGYwOTAtYWNiMy00MGVkLTgzYzgtMjdmYjRmZDY5ZDY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11911000/mediaviewer/rm3687823617/","IMDb Official Stills"]];

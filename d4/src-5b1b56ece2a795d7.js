@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5b1b56ece2a795d7-rm2131836160-01","山林中头一个女人 (1987) - IMDb rm2131836160","https://m.media-amazon.com/images/M/MV5BZDdlOGM0YzUtZDkyNS00ZGM5LThhZWEtOGZmMzdjNGZjNWYxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0354911/mediaviewer/rm2131836160/","IMDb Official Stills"]];

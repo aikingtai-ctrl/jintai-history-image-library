@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d68c1b1df4f69d17-rm1393170432-01","ärtico (2014) - IMDb rm1393170432","https://m.media-amazon.com/images/M/MV5BNDE1ZjVmNDYtMmJhMy00Yjc0LTllMGMtMWRhNzUxNzc5OWFhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3509772/mediaviewer/rm1393170432/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cd43f0114d087ebd-rm868265217-01","今年的湖畔會很冷 (1983) - IMDb rm868265217","https://m.media-amazon.com/images/M/MV5BY2ZkMDg0ZTEtYTJkYS00NDY3LWE0ZjEtMTRkYWJjZTcwODZmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0102257/mediaviewer/rm868265217/","IMDb Official Stills"]];

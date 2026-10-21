@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7109a344b2c176d3-rm4087375104-01","SHE RUNS (2019) - IMDb rm4087375104","https://m.media-amazon.com/images/M/MV5BZTUxMmY0ZDctZTY5NS00ODk5LTlhZDItNjM5MzZlMmRiODlmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10219160/mediaviewer/rm4087375104/","IMDb Official Stills"]];

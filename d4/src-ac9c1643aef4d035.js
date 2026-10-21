@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ac9c1643aef4d035-rm2782198018-01","Michelangelo (1964) - IMDb rm2782198018","https://m.media-amazon.com/images/M/MV5BNjU4MmJlOTUtNzIwNy00OWIwLWJkYmMtZjU0YjE5MDM2YTk1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0173421/mediaviewer/rm2782198018/","IMDb Official Stills"]];

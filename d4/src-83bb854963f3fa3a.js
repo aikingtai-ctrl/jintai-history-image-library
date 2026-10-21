@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-83bb854963f3fa3a-rm610389761-01","Herr Goldstein (2005) - IMDb rm610389761","https://m.media-amazon.com/images/M/MV5BZjA0MzZjN2QtMGVmOC00ZjEwLThjZjktNGZjNDkzYzAxMzBkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0461964/mediaviewer/rm610389761/","IMDb Official Stills"]];

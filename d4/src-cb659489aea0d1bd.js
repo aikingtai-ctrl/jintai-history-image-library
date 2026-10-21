@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cb659489aea0d1bd-rm1760112640-01","LE CHEVAL DE FER (1984) - IMDb rm1760112640","https://m.media-amazon.com/images/M/MV5BNjYwZWIyMjItNjFlYi00YTU1LTk1MWItYTVlZjA0MzBmOGU3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0245047/mediaviewer/rm1760112640/","IMDb Official Stills"]];

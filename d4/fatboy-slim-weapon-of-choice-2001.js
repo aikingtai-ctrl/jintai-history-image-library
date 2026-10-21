@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-fatboy-slim-weapon-of-choice-2001-rm3147239680-01","Weapon of Choice — 胖小子 (2001) - IMDb rm3147239680","https://m.media-amazon.com/images/M/MV5BZWM2ODViNzEtNmY1Zi00ZWFiLTk1ZTgtNjg1MDc0NDBlNjY5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4073856/mediaviewer/rm3147239680/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2c66d7e1e1ce3f2a-rm3052987392-01","Gypsy (2011) - IMDb rm3052987392","https://m.media-amazon.com/images/M/MV5BOTFiMjg0NGQtNzM3MS00M2I4LTlkZDItYjcyODQxMzViMGRlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1980935/mediaviewer/rm3052987392/","IMDb Official Stills"]];

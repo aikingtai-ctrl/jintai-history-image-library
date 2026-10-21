@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-04d6ba36d2709655-rm3605732352-01","The Curse (2012) - IMDb rm3605732352","https://m.media-amazon.com/images/M/MV5BMjg2OTgwMzEtMTJhMi00YmY1LWI3ODctYjc2MDkxOGE2NzZhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2189752/mediaviewer/rm3605732352/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-04fb4e3dcfd394d1-rm3656463872-01","The Private Life of the Gannets (1935) - IMDb rm3656463872","https://m.media-amazon.com/images/M/MV5BMjJmNjQ4MmEtODhiMi00YWZiLWI4ZjgtMjI4YmY5NzBlMzg5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0029443/mediaviewer/rm3656463872/","IMDb Official Stills"]];

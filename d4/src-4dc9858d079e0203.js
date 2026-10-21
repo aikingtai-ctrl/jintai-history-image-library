@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4dc9858d079e0203-rm3354837762-01","Czarbe czy białe (1967) - IMDb rm3354837762","https://m.media-amazon.com/images/M/MV5BMDUxMWRhODItMWRkYS00MjQyLTk4MDgtZmU0YzYzYmEwMWFlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt42558273/mediaviewer/rm3354837762/","IMDb Official Stills"]];

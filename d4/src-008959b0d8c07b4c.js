@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-008959b0d8c07b4c-rm2665916162-01","The Trials of Oscar Wilde (The Man With The Green Carnation) (1960) - IMDb rm2665916162","https://m.media-amazon.com/images/M/MV5BMjljZGIzZDUtOGY4MC00MGM5LWExZDctNjNhZjAyNjFlODFkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt39163316/mediaviewer/rm2665916162/","IMDb Official Stills"]];

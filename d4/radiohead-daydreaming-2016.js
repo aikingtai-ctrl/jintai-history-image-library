@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-radiohead-daydreaming-2016-rm2303553792-01","Daydreaming — 电台司令 (2016) - IMDb rm2303553792","https://m.media-amazon.com/images/M/MV5BMTY0YzQzYWQtN2RhNC00YjJhLTg1ZGYtNDI1NTcyMjcwZjdhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6138202/mediaviewer/rm2303553792/","IMDb Official Stills"]];

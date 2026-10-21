@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-84c78b15b20f2e1c-rm3374976000-01","Il giudice ragazzino (1994) - IMDb rm3374976000","https://m.media-amazon.com/images/M/MV5BMWFjZDliMTktNzFlMS00NDY0LTkzNGYtNjNlZDU4OTIzYjVhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0178502/mediaviewer/rm3374976000/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-the-long-river-2022-rm2694723841-01","天下长河 (2022) - IMDb rm2694723841","https://m.media-amazon.com/images/M/MV5BNjVmYzVjNzMtMGQwYi00ZDgzLWE2YzMtNTFmYzNjMWQ3MDEzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt23473346/mediaviewer/rm2694723841/","IMDb Official Stills"]];

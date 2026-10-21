@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-55b0ba992cb4aaa9-rm777821185-01","Alf, Bill & Fred (1964) - IMDb rm777821185","https://m.media-amazon.com/images/M/MV5BNWU3OTQ0ZDgtNzE5Zi00YTRjLTgyYTQtNTJkOTUyM2UzYjdiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0057832/mediaviewer/rm777821185/","IMDb Official Stills"]];

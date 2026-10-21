@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-british-airways-face-1989-rm126018817-01","英国航空·人脸 (1989) - IMDb rm126018817","https://m.media-amazon.com/images/M/MV5BYjc2MzUyYzgtNTg0NC00MjVhLWI4OTktNzY3YWU2OWU2MTc3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11377578/mediaviewer/rm126018817/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-76b408a550876ba0-rm1298609665-01","Zeit der Unruhe / News 23/06/2016 (2017) - IMDb rm1298609665","https://m.media-amazon.com/images/M/MV5BMDM3Nzk0ODAtNzFlMS00MmQxLTk2MGMtM2QyNTY5NjFiZDc4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6896438/mediaviewer/rm1298609665/","IMDb Official Stills"]];

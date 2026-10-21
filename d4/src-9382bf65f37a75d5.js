@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9382bf65f37a75d5-rm4139133440-01","Te amo (1986) - IMDb rm4139133440","https://m.media-amazon.com/images/M/MV5BYjQ2YTA1NDQtNzFlYi00ZGM1LTg0MDAtYzBkZmYwY2MwZWU2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0320576/mediaviewer/rm4139133440/","IMDb Official Stills"]];

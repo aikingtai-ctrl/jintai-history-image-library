@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a15b86ba2e04ac96-rm4048371969-01","LES MINES DE SEL DE WIELICZKA (1946) - IMDb rm4048371969","https://m.media-amazon.com/images/M/MV5BOTA5YTA0MWItMzQyMS00YmVhLTg2ZmItMzU3NmQ5NjM2YTgzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt31392261/mediaviewer/rm4048371969/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f1d705b30464cc4d-rm3526538753-01","1812 (1973) - IMDb rm3526538753","https://m.media-amazon.com/images/M/MV5BNjZiMjkwMjAtZmJhMS00ZGJjLWJkZjAtNTZhYWQxNzkzNDg3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0259824/mediaviewer/rm3526538753/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f1bde02b9bc076d5-rm2758851074-01","脱缰者也 (2025) - IMDb rm2758851074","https://m.media-amazon.com/images/M/MV5BODI0NzJkMmUtMzMxMi00NWNmLThmZmEtNTgyYTFkMjczZmVmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37151965/mediaviewer/rm2758851074/","IMDb Official Stills"]];

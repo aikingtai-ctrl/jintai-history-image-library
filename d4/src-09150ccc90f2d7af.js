@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-09150ccc90f2d7af-rm678416898-01","Boy to Man (1962) - IMDb rm678416898","https://m.media-amazon.com/images/M/MV5BY2VjYTMyZDYtMjlmNi00MmE4LThhMDQtNWVhYTNjZTIyM2EzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0210585/mediaviewer/rm678416898/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-daf3692207ce536d-rm114663426-01","DAD’S NOT HOME (2025) - IMDb rm114663426","https://m.media-amazon.com/images/M/MV5BYTQ1YTkxMmMtMmM2ZS00YmY1LTk1MzMtMmU5NGY1ZjVhMjhmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37302987/mediaviewer/rm114663426/","IMDb Official Stills"]];

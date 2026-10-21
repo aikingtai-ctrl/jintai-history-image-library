@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e17b1d00906b3ece-rm1156521472-01","Kroppen är en ensam plats (2016) - IMDb rm1156521472","https://m.media-amazon.com/images/M/MV5BYTQxMTJkZGYtYzQ5Yi00ZmZhLTljYjktODQzNDNjMzFiOGVjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5490312/mediaviewer/rm1156521472/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-63225afa8340b37f-rm2550609664-01","Libera me (1993) - IMDb rm2550609664","https://m.media-amazon.com/images/M/MV5BNDA3ODc3MGYtYWQyYy00ZWExLWFlYzktM2E3NzI1ZTA3ZDYzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0107403/mediaviewer/rm2550609664/","IMDb Official Stills"]];

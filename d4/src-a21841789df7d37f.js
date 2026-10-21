@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a21841789df7d37f-rm66706433-01","Genet à Chatila (1999) - IMDb rm66706433","https://m.media-amazon.com/images/M/MV5BODhiZTY3MjMtZDIzYS00ODViLTk2YzctMTk2YTE5ZDdiNWE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0210700/mediaviewer/rm66706433/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b9d966723652f3d6-rm1967614209-01","LA DÉPOSITION (2024) - IMDb rm1967614209","https://m.media-amazon.com/images/M/MV5BYjMwZjg4ODQtMTY0Ni00OTA4LTg3YTQtNWJlZjlkOTFjNDE0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32352238/mediaviewer/rm1967614209/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-74cecfe23298708b-rm1633977346-01","Wir Erben (2024) - IMDb rm1633977346","https://m.media-amazon.com/images/M/MV5BNDg2NDc4NDItZTVlOS00NmFmLTk2YjktNGExYzQ2MDM5NmRhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt33055430/mediaviewer/rm1633977346/","IMDb Official Stills"]];

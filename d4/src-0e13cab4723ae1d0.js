@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0e13cab4723ae1d0-rm3234151680-01","The Lead Shoes (1949) - IMDb rm3234151680","https://m.media-amazon.com/images/M/MV5BOTM4NzFkY2ItMTlmOS00MjRiLWI4Y2MtZWJiMjIzYjJhNmQ0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0279918/mediaviewer/rm3234151680/","IMDb Official Stills"]];

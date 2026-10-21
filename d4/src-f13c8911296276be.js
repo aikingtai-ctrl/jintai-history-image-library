@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f13c8911296276be-rm1981449216-01","This Way of Life (2010) - IMDb rm1981449216","https://m.media-amazon.com/images/M/MV5BMTY3MTMyNzA2NF5BMl5BanBnXkFtZTcwOTM2NjcyNA@@._V1_.jpg","https://www.imdb.com/title/tt1480692/mediaviewer/rm1981449216/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f122c62e7b9bd967-rm1491948800-01","Mr. and Mrs. Bridge (1990) - IMDb rm1491948800","https://m.media-amazon.com/images/M/MV5BZDAxY2JkNTUtMjg0MC00ZDhjLTkwMGItNTQ1Nzc1YTg5YmE0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6083366/mediaviewer/rm1491948800/","IMDb Official Stills"]];

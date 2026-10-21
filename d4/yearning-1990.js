@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-yearning-1990-rm2232597505-01","渴望 (1990) - IMDb rm2232597505","https://m.media-amazon.com/images/M/MV5BNTA2ODkwNTItZjU3My00MTIzLTg3ZjItOWMzMzE4YTQzNzUxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0417859/mediaviewer/rm2232597505/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125583965-rm77222657-01","Six Sisters in the War (2009) - IMDb rm77222657","https://m.media-amazon.com/images/M/MV5BNzI1YWNiNmMtMmJiNS00NjUwLTkxMDQtZjhkYWQ0ZmExNTUzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3259460/mediaviewer/rm77222657/","IMDb Official Stills"]];

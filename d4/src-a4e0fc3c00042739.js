@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a4e0fc3c00042739-rm3188513282-01","Impostor (2002) - IMDb rm3188513282","https://m.media-amazon.com/images/M/MV5BNGNmMWVhYmItYjk0ZC00YTkzLWFlNzItYzJjZTNkNDdjNWEyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt39248800/mediaviewer/rm3188513282/","IMDb Official Stills"]];

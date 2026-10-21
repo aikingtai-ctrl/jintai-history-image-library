@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6dfdd90471f2a9cf-rm701378560-01","蒂蒂日記 (1978) - IMDb rm701378560","https://m.media-amazon.com/images/M/MV5BMWZkMTY5NmItZDAzNS00ZmI2LWJkYzItYzhlNDE4NzEzOWQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1205475/mediaviewer/rm701378560/","IMDb Official Stills"]];

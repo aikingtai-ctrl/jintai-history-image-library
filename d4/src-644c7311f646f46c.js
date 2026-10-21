@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-644c7311f646f46c-rm41236736-01","沙河悲歌 (2000) - IMDb rm41236736","https://m.media-amazon.com/images/M/MV5BNjcxNjQwMWItZjJlMS00MmU4LWFkYmMtMjM4NmFjNjZiOGY2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0276269/mediaviewer/rm41236736/","IMDb Official Stills"]];

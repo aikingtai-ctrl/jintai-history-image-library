@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f724a15c934e40e1-rm3505131520-01","Through the Ashes of the Empire / Prin cenuşa imperiului (1976) - IMDb rm3505131520","https://m.media-amazon.com/images/M/MV5BMGRiYTY0ZTctMTgxNy00YjdiLWEyNDYtMGE0MWUwY2IyNWJiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0073572/mediaviewer/rm3505131520/","IMDb Official Stills"]];

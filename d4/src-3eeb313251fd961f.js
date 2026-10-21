@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3eeb313251fd961f-rm782230784-01","為誰辛苦為誰忙 (1963) - IMDb rm782230784","https://m.media-amazon.com/images/M/MV5BYWEzZGI0Y2UtZWMwZS00YzQwLWI0MzMtODBhNGQxZDZlMmEzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0407888/mediaviewer/rm782230784/","IMDb Official Stills"]];

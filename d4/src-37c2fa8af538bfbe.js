@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-37c2fa8af538bfbe-rm3088659200-01","KUZDOK (1977) - IMDb rm3088659200","https://m.media-amazon.com/images/M/MV5BMzQ5MmE2ZTktYzcwYy00N2JlLTkxMjItMTk4ZGFlMjRiNmNjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0240667/mediaviewer/rm3088659200/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q124678752-rm3067020288-01","Shu guang (1979) - IMDb rm3067020288","https://m.media-amazon.com/images/M/MV5BYzkwZWJjZTMtMGJmOS00YjAxLWI1OWUtZDE5ZDNhMzNhNjkzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0185372/mediaviewer/rm3067020288/","IMDb Official Stills"]];

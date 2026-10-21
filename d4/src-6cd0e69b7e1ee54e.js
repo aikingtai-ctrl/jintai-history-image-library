@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6cd0e69b7e1ee54e-rm1717638912-01","Dylan (2011) - IMDb rm1717638912","https://m.media-amazon.com/images/M/MV5BZmQ1OTc2ZjktZjA4MC00ODJjLTk1YzktOTNmOTM1N2I1MmJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2069760/mediaviewer/rm1717638912/","IMDb Official Stills"]];

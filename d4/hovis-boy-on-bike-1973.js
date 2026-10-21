@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-hovis-boy-on-bike-1973-rm1039697665-01","霍维斯·单车少年 (1973) - IMDb rm1039697665","https://m.media-amazon.com/images/M/MV5BNWM4YzgyM2UtZTllNy00MDZhLTk2NzgtYmY4ZDgyZGE2ZjRlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11588548/mediaviewer/rm1039697665/","IMDb Official Stills"]];

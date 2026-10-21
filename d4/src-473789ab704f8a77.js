@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-473789ab704f8a77-rm3909103616-01","MOTO PERPETUO (1981) - IMDb rm3909103616","https://m.media-amazon.com/images/M/MV5BYTkwNjljMTQtYzI5Zi00MTcyLTgyMjAtOTQ5OGRjNjAyNTY2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0232129/mediaviewer/rm3909103616/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125454193-rm2632745985-01","My Bittersweet Taiwan (2004) - IMDb rm2632745985","https://m.media-amazon.com/images/M/MV5BZGUwN2U2MzctZDg3MS00YzE3LWIxOGQtMzI3OWVjZGJjY2YwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11280112/mediaviewer/rm2632745985/","IMDb Official Stills"]];

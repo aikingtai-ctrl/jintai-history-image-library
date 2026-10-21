@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-guinness-anticipation-1994-rm263506690-01","健力士·期待 (1994) - IMDb rm263506690","https://m.media-amazon.com/images/M/MV5BMDBiM2NlYzYtMzNmMi00YjFhLTg5ZDMtNmQ1ZjYzMDUxYzg2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt42172799/mediaviewer/rm263506690/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b506f0c0dbb5db8e-rm4218154241-01","Sale gosse (1995) - IMDb rm4218154241","https://m.media-amazon.com/images/M/MV5BZDgwNGQ3MjEtZjA4NS00OTViLWI4YmYtMzg0Y2VjZDI5ZjVlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0117541/mediaviewer/rm4218154241/","IMDb Official Stills"]];

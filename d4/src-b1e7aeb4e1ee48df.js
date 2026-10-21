@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b1e7aeb4e1ee48df-rm228880384-01","刀瘟 (1990) - IMDb rm228880384","https://m.media-amazon.com/images/M/MV5BYzhhOGJjMGYtNjc2YS00ZmZhLTk2N2ItOTNmYzRmZjVlMWIwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0099359/mediaviewer/rm228880384/","IMDb Official Stills"]];

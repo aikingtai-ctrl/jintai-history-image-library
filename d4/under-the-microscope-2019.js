@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-under-the-microscope-2019-rm2421212674-01","显微镜下的大明 (2019) - IMDb rm2421212674","https://m.media-amazon.com/images/M/MV5BMzc3MWUxNDItN2Y2MC00ZWNmLTliMmEtMGY2MGRiZjI4YTgyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt19063626/mediaviewer/rm2421212674/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b060721ebad6499a-rm1517304320-01","La disco resplandece / The Disco Shines (2016) - IMDb rm1517304320","https://m.media-amazon.com/images/M/MV5BZjQ2ZWU3MjItZTEwZS00NGI4LWFlMmYtNWM5YzI1MDBmZWFmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6224850/mediaviewer/rm1517304320/","IMDb Official Stills"]];

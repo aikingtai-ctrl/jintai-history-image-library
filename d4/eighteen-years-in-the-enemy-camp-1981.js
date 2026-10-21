@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-eighteen-years-in-the-enemy-camp-1981-rm1875296512-01","敌营十八年 (1981) - IMDb rm1875296512","https://m.media-amazon.com/images/M/MV5BMTgwMzkzMTUxOV5BMl5BanBnXkFtZTgwOTAzMDQ0MjE@._V1_.jpg","https://www.imdb.com/title/tt2356833/mediaviewer/rm1875296512/","IMDb Official Stills"]];

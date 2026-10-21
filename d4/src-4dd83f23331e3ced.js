@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4dd83f23331e3ced-rm617771521-01","BAD FOR A MOMENT (2024) - IMDb rm617771521","https://m.media-amazon.com/images/M/MV5BMzE5NTNlZDAtYmY3NC00MTQ0LWFkNDItYTM1MGQwOWJiMzVlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32205780/mediaviewer/rm617771521/","IMDb Official Stills"]];

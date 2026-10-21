@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6ede0186b4df9b8e-rm583221248-01","BUY IT NOW (2005) - IMDb rm583221248","https://m.media-amazon.com/images/M/MV5BMDcxOGJiMjUtNTg3YS00MGE3LWE0YWQtMmVmODI3OTI0NDIyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0462215/mediaviewer/rm583221248/","IMDb Official Stills"]];

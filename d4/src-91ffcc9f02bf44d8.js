@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-91ffcc9f02bf44d8-rm2766414081-01","中國電影新聞596號 (1968) - IMDb rm2766414081","https://m.media-amazon.com/images/M/MV5BYTVmYjI0MjEtNWZhYS00NmM5LThhZDgtMTJiYzJjYTRkZTA4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1956491/mediaviewer/rm2766414081/","IMDb Official Stills"]];

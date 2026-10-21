@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-93b75767c9c2f72c-rm3604882688-01","Between the Tides (1958) - IMDb rm3604882688","https://m.media-amazon.com/images/M/MV5BYzgzYTIzZjItZGEwYS00NjFhLWJmZjgtYzEzZDFlNjdmMjg5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0052621/mediaviewer/rm3604882688/","IMDb Official Stills"]];

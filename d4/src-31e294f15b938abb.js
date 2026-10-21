@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-31e294f15b938abb-rm4203447042-01","Seeta (1934) - IMDb rm4203447042","https://m.media-amazon.com/images/M/MV5BYjEwYzgwODItMWE1Ni00ZDNhLTg4ODQtZDA1YmU3NjJiZjdhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0157008/mediaviewer/rm4203447042/","IMDb Official Stills"]];

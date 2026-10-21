@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-aa9155f8ef987a28-rm2303880704-01","Bluebird (2005) - IMDb rm2303880704","https://m.media-amazon.com/images/M/MV5BNTNkZmUyZDktZDIxYS00YzExLTg3Y2YtNzFmYzgzODA1YzEwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1044532/mediaviewer/rm2303880704/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4c108356222a766a-rm3483965696-01","Bonjour Timothy (1996) - IMDb rm3483965696","https://m.media-amazon.com/images/M/MV5BYjNkYWViOTgtZDk0Yy00NmM2LWI2NzAtMzNhOTBiYWQ4YWExXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0112557/mediaviewer/rm3483965696/","IMDb Official Stills"]];

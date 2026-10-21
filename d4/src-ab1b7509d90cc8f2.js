@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ab1b7509d90cc8f2-rm3556776960-01","Negli occhi (2009) - IMDb rm3556776960","https://m.media-amazon.com/images/M/MV5BYjA4ZjYzYTAtN2U3Mi00NzkwLTg3M2EtNjczYTdjOTZmZTk0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1510924/mediaviewer/rm3556776960/","IMDb Official Stills"]];

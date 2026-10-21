@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-60302a57e015b0f4-rm468912384-01","COFFEE AND CIGARETTES (SOMEWHERE IN CALIFORNIA) (1993) - IMDb rm468912384","https://m.media-amazon.com/images/M/MV5BMzJiMTY0MzYtMTI4Yy00ZTJjLWFhYzMtZjM4ODViMWQ3ZWRiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0106584/mediaviewer/rm468912384/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-feist-1234-2007-rm102770688-01","1234 — 费斯特 (2007) - IMDb rm102770688","https://m.media-amazon.com/images/M/MV5BYzY4ZTMzYjAtZTM0NC00NDg3LThiZDgtYTRmNDkzMTY1OWZiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6775878/mediaviewer/rm102770688/","IMDb Official Stills"]];

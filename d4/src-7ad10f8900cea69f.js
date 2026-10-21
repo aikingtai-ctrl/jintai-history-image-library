@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7ad10f8900cea69f-rm3773827840-01","Il papà di Giovanna (2008) - IMDb rm3773827840","https://m.media-amazon.com/images/M/MV5BMmJjOGM5NmYtNDlhNC00YTEzLThkMTMtYTNiOGMwOWU3OTU0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1249306/mediaviewer/rm3773827840/","IMDb Official Stills"]];

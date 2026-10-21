@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-920cd74bb3c7cb4c-rm2957589760-01","Spalicek (1947) - IMDb rm2957589760","https://m.media-amazon.com/images/M/MV5BOTdiMWFkNjYtMzg5NC00ZjZmLTk1ZGYtYmIwZmRjYjE0Yjg0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0227528/mediaviewer/rm2957589760/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-587ac3e1c197bbaf-rm3474176768-01","Zeit des Abschieds (2006) - IMDb rm3474176768","https://m.media-amazon.com/images/M/MV5BMTQ3MjUzODIxMF5BMl5BanBnXkFtZTcwNzgyMjM4NA@@._V1_.jpg","https://www.imdb.com/title/tt0027532/mediaviewer/rm3474176768/","IMDb Official Stills"]];

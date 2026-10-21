@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-527b065d16ea5125-rm424521472-01","Fortune Lane (1947) - IMDb rm424521472","https://m.media-amazon.com/images/M/MV5BMzc2MjM5NDE3MF5BMl5BanBnXkFtZTcwMTI5ODA3OA@@._V1_.jpg","https://www.imdb.com/title/tt0039427/mediaviewer/rm424521472/","IMDb Official Stills"]];

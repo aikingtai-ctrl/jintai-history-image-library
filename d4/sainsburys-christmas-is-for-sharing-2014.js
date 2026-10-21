@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-sainsburys-christmas-is-for-sharing-2014-rm3342021632-01","塞恩斯伯里·圣诞休战 (2014) - IMDb rm3342021632","https://m.media-amazon.com/images/M/MV5BMzc0NTk3YzAtYzM2Ny00Zjk0LWJjZjAtYjhkOTFjZjA2Y2NlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6701056/mediaviewer/rm3342021632/","IMDb Official Stills"]];

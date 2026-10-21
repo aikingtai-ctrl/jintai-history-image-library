@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-38f4f21e10a67973-rm894483201-01","Faraon (1999) - IMDb rm894483201","https://m.media-amazon.com/images/M/MV5BMmVlNWY5MWUtZjIyOC00NDMyLWFmZTAtNjhlNzRjOWU2NTlhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0192012/mediaviewer/rm894483201/","IMDb Official Stills"]];

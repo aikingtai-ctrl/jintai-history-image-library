@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e118b25568c7dae9-rm233443328-01","LA VOIE EST-OUEST (1951) - IMDb rm233443328","https://m.media-amazon.com/images/M/MV5BZjE3NTMzNDMtYzE0Ny00NDZlLTk5YTAtNjIxMjQ2NjA2MjMwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0120854/mediaviewer/rm233443328/","IMDb Official Stills"]];

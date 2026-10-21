@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c73be91fb732b4b9-rm116398337-01","不敢跟你講 (1970) - IMDb rm116398337","https://m.media-amazon.com/images/M/MV5BNzlhNWM4ZTgtNzhhOS00YzYwLWFiZDMtZjRhODdiN2U3YTI0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt13225588/mediaviewer/rm116398337/","IMDb Official Stills"]];

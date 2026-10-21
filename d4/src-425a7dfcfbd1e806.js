@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-425a7dfcfbd1e806-rm711615232-01","Izgubljena olovka (1960) - IMDb rm711615232","https://m.media-amazon.com/images/M/MV5BM2RhNGE5ZTAtYzZmNC00YWVmLTk0MDYtMGJiNTg1ZjMyMTE3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0053960/mediaviewer/rm711615232/","IMDb Official Stills"]];

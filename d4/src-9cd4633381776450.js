@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9cd4633381776450-rm2969562625-01","Floating (1992) - IMDb rm2969562625","https://m.media-amazon.com/images/M/MV5BNTk0YzA1Y2UtYWZiNS00MWI4LTg5N2ItYzVkNWYyOGEwNjAzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0317514/mediaviewer/rm2969562625/","IMDb Official Stills"]];

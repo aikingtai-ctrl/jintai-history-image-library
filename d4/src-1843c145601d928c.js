@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1843c145601d928c-rm2508676352-01","A Short Vision (1956) - IMDb rm2508676352","https://m.media-amazon.com/images/M/MV5BYWQ0OTM0NjktOWY0ZS00ODczLWIzM2EtMmM4M2NlOTAyNjE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1446470/mediaviewer/rm2508676352/","IMDb Official Stills"]];

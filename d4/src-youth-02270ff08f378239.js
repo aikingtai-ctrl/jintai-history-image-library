@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-youth-02270ff08f378239-rm4274128129-01","White Night (1996) - IMDb rm4274128129","https://m.media-amazon.com/images/M/MV5BNzBjZjVkOWYtYWVhOC00N2Y2LTg1Y2QtMWRkNjdkMDVmYWFmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1241815/mediaviewer/rm4274128129/","IMDb Official Stills"]];

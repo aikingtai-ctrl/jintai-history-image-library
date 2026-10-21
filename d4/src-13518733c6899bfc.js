@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-13518733c6899bfc-rm2575897856-01","METAMORPHOSIS (1976) - IMDb rm2575897856","https://m.media-amazon.com/images/M/MV5BMzhkOGU2YzgtYjQ4NC00NTgzLTk5NDMtMzRhMDU3MTc2MTRmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0074561/mediaviewer/rm2575897856/","IMDb Official Stills"]];

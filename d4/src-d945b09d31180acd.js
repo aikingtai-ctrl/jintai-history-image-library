@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d945b09d31180acd-rm1915136769-01","The searching eye (1964) - IMDb rm1915136769","https://m.media-amazon.com/images/M/MV5BMmI4ZDE0YTEtYzgyZS00ZDk4LTgzNjgtNDYzZGE0MzYyMjJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0058558/mediaviewer/rm1915136769/","IMDb Official Stills"]];

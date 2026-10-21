@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-the-return-of-the-condor-heroes-1995-rm1610839808-01","神雕侠侣 (1995) - IMDb rm1610839808","https://m.media-amazon.com/images/M/MV5BNzY2ZjhkZGEtZjA0NC00NjFiLWI2NmYtYzVlYzA2NmEyNjI3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt9328284/mediaviewer/rm1610839808/","IMDb Official Stills"]];

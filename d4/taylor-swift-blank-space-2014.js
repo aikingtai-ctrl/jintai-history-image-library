@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-taylor-swift-blank-space-2014-rm534316032-01","Blank Space — 泰勒·斯威夫特 (2014) - IMDb rm534316032","https://m.media-amazon.com/images/M/MV5BY2YyNzliZjUtNDhkMi00NDgyLWFlYjQtMTU4MDkxYTRiYTdlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4321224/mediaviewer/rm534316032/","IMDb Official Stills"]];

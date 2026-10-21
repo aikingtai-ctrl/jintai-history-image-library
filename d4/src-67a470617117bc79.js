@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-67a470617117bc79-rm470593793-01","L'escalier (2003) - IMDb rm470593793","https://m.media-amazon.com/images/M/MV5BYTgwYTZiOGQtNjQ2NS00ZmJhLTk2NDAtMzljNWE4NzFhMzNkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0349414/mediaviewer/rm470593793/","IMDb Official Stills"]];

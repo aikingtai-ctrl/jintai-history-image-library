@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9c2b771531b6861c-rm1306469632-01","The Contraption (1978) - IMDb rm1306469632","https://m.media-amazon.com/images/M/MV5BOWE2Mjg3NDItYTBjZS00MDFlLWI4MjgtZGMwMzYxOTEyMzkyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0169703/mediaviewer/rm1306469632/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5ee9b7125b53ce4e-rm3469819648-01","La patrulla (1954) - IMDb rm3469819648","https://m.media-amazon.com/images/M/MV5BYWY1ZjcxOTMtYTVlYi00MjA5LWEyODctNTYxNWMyZTU0NjM0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0047335/mediaviewer/rm3469819648/","IMDb Official Stills"]];

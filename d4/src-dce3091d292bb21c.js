@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-dce3091d292bb21c-rm1008582146-01","Blind, ins Auge (Blind, into the Eye) (2025) - IMDb rm1008582146","https://m.media-amazon.com/images/M/MV5BYTI3NzkwM2QtZmRlNy00YzAzLWEzZGEtMGM4ZTVhZGMyZjk2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37504729/mediaviewer/rm1008582146/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-volvo-trucks-epic-split-2013-rm3673703680-01","沃尔沃卡车·史诗级劈叉 (2013) - IMDb rm3673703680","https://m.media-amazon.com/images/M/MV5BNmIzMDhlOWUtNzA0ZC00ZTJiLTljMDktMWYyNjIyMjNkMGQwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8742284/mediaviewer/rm3673703680/","IMDb Official Stills"]];

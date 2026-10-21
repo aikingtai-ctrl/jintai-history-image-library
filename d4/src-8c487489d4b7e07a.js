@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8c487489d4b7e07a-rm935964930-01","Un dimanche de Gazoully (1955) - IMDb rm935964930","https://m.media-amazon.com/images/M/MV5BYWZmMGUxMGYtOWM0Ny00M2NmLThmZmQtYzBkMzNlNjdjNzNmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7786710/mediaviewer/rm935964930/","IMDb Official Stills"]];

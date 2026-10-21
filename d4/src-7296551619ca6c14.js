@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7296551619ca6c14-rm282660864-01","Nömadak Tx (2006) - IMDb rm282660864","https://m.media-amazon.com/images/M/MV5BZjRiYzVjY2QtNmJkYy00ZTVkLTgxM2MtODJiYzFjNThkZDc0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1013854/mediaviewer/rm282660864/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-28f88fbfd183b11a-rm2694914304-01","Au coeur de la vie (1963) - IMDb rm2694914304","https://m.media-amazon.com/images/M/MV5BMDIxYWQ1MzktYWFlNC00ZWI3LTg2NTQtMDBlOTQ2ZTAzOWI5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0206569/mediaviewer/rm2694914304/","IMDb Official Stills"]];

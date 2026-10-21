@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c4dac12ba7452e38-rm2107726336-01","Spell Reel (2017) - IMDb rm2107726336","https://m.media-amazon.com/images/M/MV5BMGI5MTUwYmItZGYxNy00YmE5LWI0OGYtYjdkMDdjMDU2ZjA2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7128868/mediaviewer/rm2107726336/","IMDb Official Stills"]];

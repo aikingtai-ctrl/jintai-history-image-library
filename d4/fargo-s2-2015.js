@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-fargo-s2-2015-rm3631350528-01","冰血暴 第二季 (2015) - IMDb rm3631350528","https://m.media-amazon.com/images/M/MV5BNDRiNDg4YzEtY2Q3OS00YWZmLThmZDUtM2VhZjI5YWUyOGRmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5883998/mediaviewer/rm3631350528/","IMDb Official Stills"]];

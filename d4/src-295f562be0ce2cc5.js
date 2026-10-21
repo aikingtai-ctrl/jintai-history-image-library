@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-295f562be0ce2cc5-rm2848722433-01","Un amico (1967) - IMDb rm2848722433","https://m.media-amazon.com/images/M/MV5BYzQyYzU1ODEtNjdmMC00YTg1LTk2OWUtZjhmZGE5NGUwNmQ5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0209911/mediaviewer/rm2848722433/","IMDb Official Stills"]];

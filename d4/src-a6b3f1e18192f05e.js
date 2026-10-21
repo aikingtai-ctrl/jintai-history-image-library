@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a6b3f1e18192f05e-rm1058439682-01","大哉中華 (1968) - IMDb rm1058439682","https://m.media-amazon.com/images/M/MV5BZTMzMGYzYmYtMGQ0My00YmZjLWFmZTMtNjNhZmYwODQ0NjE2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35899346/mediaviewer/rm1058439682/","IMDb Official Stills"]];

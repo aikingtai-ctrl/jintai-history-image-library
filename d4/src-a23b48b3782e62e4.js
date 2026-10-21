@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a23b48b3782e62e4-rm2480225024-01","Les monts s'embrasent (2015) - IMDb rm2480225024","https://m.media-amazon.com/images/M/MV5BOGVlYTg1OGMtNDJjOS00MjRkLWE5MTktY2IzNTZkY2UwMzQ1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4882138/mediaviewer/rm2480225024/","IMDb Official Stills"]];

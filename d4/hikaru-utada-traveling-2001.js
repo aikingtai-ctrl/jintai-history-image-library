@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-hikaru-utada-traveling-2001-rm1886017537-01","traveling — 宇多田光 (2001) - IMDb rm1886017537","https://m.media-amazon.com/images/M/MV5BNjZjNzcxNmUtNzE5MC00MWFlLWIwNDMtODk2ZTFkZTY0MTM4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt28606447/mediaviewer/rm1886017537/","IMDb Official Stills"]];

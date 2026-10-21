@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5b1ff19cd1735084-rm1574117632-01","Cinema Alcazar (1998) - IMDb rm1574117632","https://m.media-amazon.com/images/M/MV5BYzc0ZWY5MzEtOGNjMC00NGI4LWI2YzEtN2ZmODlhOTU2OWYzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0143179/mediaviewer/rm1574117632/","IMDb Official Stills"]];

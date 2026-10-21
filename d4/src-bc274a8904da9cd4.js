@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-bc274a8904da9cd4-rm3857348608-01","Hadiatt Abi (2015) - IMDb rm3857348608","https://m.media-amazon.com/images/M/MV5BMTEzMDk4MmEtNTA0My00Y2FjLTg2Y2QtNDZmNTM1NTgyMGNlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4434256/mediaviewer/rm3857348608/","IMDb Official Stills"]];

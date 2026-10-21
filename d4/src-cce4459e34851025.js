@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cce4459e34851025-rm2868391936-01","Vika (2006) - IMDb rm2868391936","https://m.media-amazon.com/images/M/MV5BOTE0MDRiMTAtYWFjMC00MmFmLTk5ZDEtOWIyODdlMDRiZGRjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0872274/mediaviewer/rm2868391936/","IMDb Official Stills"]];

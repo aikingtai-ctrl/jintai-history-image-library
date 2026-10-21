@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-81376331bdadc738-rm1280115712-01","Baghé Sangui (1976) - IMDb rm1280115712","https://m.media-amazon.com/images/M/MV5BZTYzYzZiOGEtYTFlNy00YTQxLWE0YzItMDIxNjcyM2MyYTdlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0169580/mediaviewer/rm1280115712/","IMDb Official Stills"]];

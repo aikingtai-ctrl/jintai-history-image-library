@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-caf8c133393c715d-rm2478407937-01","Vu du ciel (1959) - IMDb rm2478407937","https://m.media-amazon.com/images/M/MV5BYzQyZjU1MGUtNGU3NS00MWJjLWJlNzItNjA0NjY0Y2IyNjE5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0052890/mediaviewer/rm2478407937/","IMDb Official Stills"]];

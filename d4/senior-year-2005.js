@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-senior-year-2005-rm2019776001-01","高三 (2005) - IMDb rm2019776001","https://m.media-amazon.com/images/M/MV5BOWMwMGViYmQtYWVkMS00OGVmLWJiOWEtMzBkMDg1M2ExYjA2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0989656/mediaviewer/rm2019776001/","IMDb Official Stills"]];

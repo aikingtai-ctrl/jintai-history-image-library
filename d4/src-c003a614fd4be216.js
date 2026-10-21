@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c003a614fd4be216-rm784975106-01","LA SENSATION (1992) - IMDb rm784975106","https://m.media-amazon.com/images/M/MV5BMThjYzRmYjEtYzNiOC00MjQ1LTk5YzYtNGQ2NDk3NTEzYmZjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt43723263/mediaviewer/rm784975106/","IMDb Official Stills"]];

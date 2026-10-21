@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5df2bbe257365b6f-rm2566221824-01","OH MY DARLING (1978) - IMDb rm2566221824","https://m.media-amazon.com/images/M/MV5BMWFiYjQxODgtNmYzZi00OWE2LWJmMjQtMDEyZTEyNTA2NDBhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0078017/mediaviewer/rm2566221824/","IMDb Official Stills"]];

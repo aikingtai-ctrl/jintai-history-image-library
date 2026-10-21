@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c187362da053667f-rm1485484289-01","蝴蝶 (2005) - IMDb rm1485484289","https://m.media-amazon.com/images/M/MV5BNTZkNjg4ZmQtMzMwNy00NjdhLTkwYjEtNzVmYjE2NDlhOWI4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8184616/mediaviewer/rm1485484289/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b654769c48065365-rm1414665472-01","Le sabotier du val de Loire (1956) - IMDb rm1414665472","https://m.media-amazon.com/images/M/MV5BMjE1YTQ1ZGMtNWRlNS00NDMyLWEwODAtMDQwOGVmYmIwM2RhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0048575/mediaviewer/rm1414665472/","IMDb Official Stills"]];

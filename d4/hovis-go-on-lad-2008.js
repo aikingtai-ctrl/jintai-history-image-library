@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-hovis-go-on-lad-2008-rm698722305-01","霍维斯·加油小子 (2008) - IMDb rm698722305","https://m.media-amazon.com/images/M/MV5BZmYzMjEzZGQtMDA0YS00ZWJlLTk0ZDYtMDU2OWY4YjVjOWNjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11588526/mediaviewer/rm698722305/","IMDb Official Stills"]];

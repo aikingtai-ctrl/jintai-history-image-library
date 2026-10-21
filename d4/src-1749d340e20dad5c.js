@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1749d340e20dad5c-rm1454864897-01","Sea Creatures (1974) - IMDb rm1454864897","https://m.media-amazon.com/images/M/MV5BY2Y2NDhlY2QtYzMwYS00NmZhLWFiZDEtZWQ0YTRiN2UzMDJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt26752537/mediaviewer/rm1454864897/","IMDb Official Stills"]];

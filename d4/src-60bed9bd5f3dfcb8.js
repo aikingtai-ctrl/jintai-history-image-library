@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-60bed9bd5f3dfcb8-rm4129769217-01","白雲故鄉 (1963) - IMDb rm4129769217","https://m.media-amazon.com/images/M/MV5BZjkwNGE1MTEtZTBmMC00YmMyLWI1YWMtN2M5NzRhYWFiYzczXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3517704/mediaviewer/rm4129769217/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q17581461-rm3878051072-01","Moment of Impact (1998) - IMDb rm3878051072","https://m.media-amazon.com/images/M/MV5BNTg0NDAwZWMtNmM0OC00ZjRlLTkwMzMtZDdkMzhiMGFlYTBjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0410329/mediaviewer/rm3878051072/","IMDb Official Stills"]];

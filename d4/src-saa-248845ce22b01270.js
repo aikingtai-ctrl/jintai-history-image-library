@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-248845ce22b01270-rm2834345474-01","WITHOUT PERFECTION (2025) - IMDb rm2834345474","https://m.media-amazon.com/images/M/MV5BZDEwNDcyNjQtMmU5ZS00Yzk1LTk1MjEtMzRiNDUxODAyNWQ5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38110930/mediaviewer/rm2834345474/","IMDb Official Stills"]];

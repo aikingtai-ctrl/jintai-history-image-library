@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1c68c55c7eaf28b2-rm1661828352-01","The Mass of Men (2012) - IMDb rm1661828352","https://m.media-amazon.com/images/M/MV5BZWM2NzAyZmMtMzE5MC00NTc3LTk3MDQtNjc5NTNiMmEzZDViXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2211602/mediaviewer/rm1661828352/","IMDb Official Stills"]];

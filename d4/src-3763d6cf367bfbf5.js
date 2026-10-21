@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3763d6cf367bfbf5-rm4199057154-01","ALI (2025) - IMDb rm4199057154","https://m.media-amazon.com/images/M/MV5BOGM4NzE3YzQtOTY3YS00MDhlLTg1OTMtZmMxY2E5ZmM3NzRjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt36724188/mediaviewer/rm4199057154/","IMDb Official Stills"]];

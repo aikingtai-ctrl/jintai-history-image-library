@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-46d87a8ac546e7ae-rm827538944-01","Le coin des enfants (1936) - IMDb rm827538944","https://m.media-amazon.com/images/M/MV5BMjFlZWE0YTQtMjhiMC00YTUzLWFkMDAtODcxYWQ1YWFmMDVkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0406647/mediaviewer/rm827538944/","IMDb Official Stills"]];

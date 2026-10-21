@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4a87752693345d82-rm230627840-01","The Marginal Ones / Oka Oori Katha (1978) - IMDb rm230627840","https://m.media-amazon.com/images/M/MV5BNWFiZTcxYTAtNjc0Ny00Y2YxLThhMDMtZWNmYzQ0NTZjZGY3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0076492/mediaviewer/rm230627840/","IMDb Official Stills"]];

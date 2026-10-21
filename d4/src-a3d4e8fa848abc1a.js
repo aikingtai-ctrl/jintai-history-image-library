@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a3d4e8fa848abc1a-rm982056449-01","Ghosts (1997) - IMDb rm982056449","https://m.media-amazon.com/images/M/MV5BZWUwODU1YjItZjY0NC00NGFhLWIxODItNGNlNmMwMWE5OTA5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt14224394/mediaviewer/rm982056449/","IMDb Official Stills"]];

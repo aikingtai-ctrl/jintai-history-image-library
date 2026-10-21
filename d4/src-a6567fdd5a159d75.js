@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a6567fdd5a159d75-rm3536128256-01","The Tie (2015) - IMDb rm3536128256","https://m.media-amazon.com/images/M/MV5BMTUyNTRkZDAtNDYwNC00YjQ1LTk1NDEtMjUxNjY1ZTYzMTlhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4282616/mediaviewer/rm3536128256/","IMDb Official Stills"]];

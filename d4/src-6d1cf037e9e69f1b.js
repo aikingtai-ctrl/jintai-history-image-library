@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6d1cf037e9e69f1b-rm2304185856-01","Maya Darpan (1972) - IMDb rm2304185856","https://m.media-amazon.com/images/M/MV5BZjllNjY2NzctNWM0ZS00YWM2LTkwYmMtOTBhMGI0NmM4ZWRkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0068929/mediaviewer/rm2304185856/","IMDb Official Stills"]];

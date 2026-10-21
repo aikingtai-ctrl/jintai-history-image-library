@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d137fb57194e16a7-rm3270259456-01","Der stille Ozean (1983) - IMDb rm3270259456","https://m.media-amazon.com/images/M/MV5BOGJjOTllZjgtNjRkNy00YzNlLTlmMTMtOGE1OWYwMDNlNzRjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0086368/mediaviewer/rm3270259456/","IMDb Official Stills"]];

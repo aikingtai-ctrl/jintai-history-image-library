@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-01b49fd7b70ae163-rm4216812801-01","DIPLOMATIE DE L'ÉCLIPSE (2023) - IMDb rm4216812801","https://m.media-amazon.com/images/M/MV5BNDIxZGU4YmYtNjc4Yi00MzdkLWE0OTgtMTUxMzc0NTA4OWU5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt31159503/mediaviewer/rm4216812801/","IMDb Official Stills"]];

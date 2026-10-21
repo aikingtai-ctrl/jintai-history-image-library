@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-gotye-somebody-that-i-used-to-know-2011-rm1149488129-01","Somebody That I Used to Know — 高缇耶 (2011) - IMDb rm1149488129","https://m.media-amazon.com/images/M/MV5BYWFhMTFhNmItYWRmOS00OTRlLThlMjYtMjk1ZThkYWQwNDEwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt14347274/mediaviewer/rm1149488129/","IMDb Official Stills"]];

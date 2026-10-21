@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-38e7e2e3f5338047-rm428051458-01","Shahed (2024) - IMDb rm428051458","https://m.media-amazon.com/images/M/MV5BZjA0ZDMzYTUtMzQ1Ni00NWE5LTg1OTEtN2E2N2Y0MGZlOTJjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt36364276/mediaviewer/rm428051458/","IMDb Official Stills"]];

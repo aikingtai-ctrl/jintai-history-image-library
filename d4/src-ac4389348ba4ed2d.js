@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ac4389348ba4ed2d-rm265835264-01","ÎN ACVARIU (2013) - IMDb rm265835264","https://m.media-amazon.com/images/M/MV5BYWI3MzU4YmEtNjFmMC00ZmVjLTgwYjgtMTI0NWMxNWYxNTE0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2894678/mediaviewer/rm265835264/","IMDb Official Stills"]];

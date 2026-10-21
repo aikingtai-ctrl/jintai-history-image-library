@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-43de4a45cb86a23c-rm4002486784-01","Yli rajan (1942) - IMDb rm4002486784","https://m.media-amazon.com/images/M/MV5BNGJkODM2NTMtNDJkOS00ZGQxLWIzMTAtZjQ3MDJhMDMyMWYwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0035579/mediaviewer/rm4002486784/","IMDb Official Stills"]];

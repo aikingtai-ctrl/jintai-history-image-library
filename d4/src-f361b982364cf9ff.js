@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f361b982364cf9ff-rm3517553665-01","Kuckuck (2017) - IMDb rm3517553665","https://m.media-amazon.com/images/M/MV5BNTRjOTMzNGYtZTQ1My00ODVlLWI0NzMtNjI2OGIwN2U5ODQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10511436/mediaviewer/rm3517553665/","IMDb Official Stills"]];

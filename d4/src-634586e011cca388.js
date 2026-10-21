@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-634586e011cca388-rm3487424513-01","Orientation (1996) - IMDb rm3487424513","https://m.media-amazon.com/images/M/MV5BNjQ3Y2U5ZTktMWRmNS00MzcxLTkyMTktOGNhMTlkNzViMTYzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0420048/mediaviewer/rm3487424513/","IMDb Official Stills"]];

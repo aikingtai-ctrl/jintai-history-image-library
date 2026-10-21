@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-be3c3651b06dc3de-rm1410452226-01","Pan-tele-tron (1957) - IMDb rm1410452226","https://m.media-amazon.com/images/M/MV5BYTE5NWJlNTQtMTM5ZS00MGY4LTg3MDQtMGY1ZjU5NzJlZmUyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0360861/mediaviewer/rm1410452226/","IMDb Official Stills"]];

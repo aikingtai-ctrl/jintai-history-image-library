@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-868eacb89b21f1b5-rm3309638145-01","LORI (2022) - IMDb rm3309638145","https://m.media-amazon.com/images/M/MV5BNDkzM2QwMWUtZTNlYy00MWEzLTk0OTItMTcwMTg2MWIwMzhiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt19844646/mediaviewer/rm3309638145/","IMDb Official Stills"]];

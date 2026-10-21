@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8608671dcf5d75b6-rm2788747008-01","石碇的夏天 (2001) - IMDb rm2788747008","https://m.media-amazon.com/images/M/MV5BZTdhZDQxOTItZDlhYS00ZTE3LWFjMzEtMmQyZTMwNDRhZjA4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4719902/mediaviewer/rm2788747008/","IMDb Official Stills"]];

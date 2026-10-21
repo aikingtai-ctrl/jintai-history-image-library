@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7509b63bbf35a0bf-rm280173312-01","戀之風景 (2004) - IMDb rm280173312","https://m.media-amazon.com/images/M/MV5BNWM5MmM2NDUtOWU1NC00NGVjLTliMTAtYTRhY2Y5OWQ3ZWI1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0377923/mediaviewer/rm280173312/","IMDb Official Stills"]];

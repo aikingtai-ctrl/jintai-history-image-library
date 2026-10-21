@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-156c5bf06c7ad431-rm2241336064-01","Archaeology (1968) - IMDb rm2241336064","https://m.media-amazon.com/images/M/MV5BZDQ4NGNiZDItMTJiNi00MTc2LWE3ZjAtYTQ5NGE4YzkwOTViXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0826032/mediaviewer/rm2241336064/","IMDb Official Stills"]];

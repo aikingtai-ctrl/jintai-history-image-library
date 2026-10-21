@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4f3d9ea1b9ed5476-rm255465984-01","Planet Man (1996) - IMDb rm255465984","https://m.media-amazon.com/images/M/MV5BZWY5MTQ5M2QtMDlhMi00NTIxLTk0NTMtMDIzNjFhZjg4M2EwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0117347/mediaviewer/rm255465984/","IMDb Official Stills"]];

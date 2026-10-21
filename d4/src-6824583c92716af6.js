@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6824583c92716af6-rm4226537984-01","Barefoot (2013) - IMDb rm4226537984","https://m.media-amazon.com/images/M/MV5BMTQ2Njc3NjU1MV5BMl5BanBnXkFtZTcwMDA1MTA4OQ@@._V1_.jpg","https://www.imdb.com/title/tt2896952/mediaviewer/rm4226537984/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0847ab42498817c9-rm3353336834-01","LES VACANCES (1997) - IMDb rm3353336834","https://m.media-amazon.com/images/M/MV5BMDgyODU2YjItZjQwYi00NDU4LTlhNGMtMTAwNDk3ZTNlZGZiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0120426/mediaviewer/rm3353336834/","IMDb Official Stills"]];

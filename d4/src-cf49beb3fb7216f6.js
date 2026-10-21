@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cf49beb3fb7216f6-rm229922049-01","Pribitie poezda (1996) - IMDb rm229922049","https://m.media-amazon.com/images/M/MV5BNWZiMmY2ODYtMWVlYy00ZDIyLTgxZmMtYmVhZWNmYjhkZTY1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2087918/mediaviewer/rm229922049/","IMDb Official Stills"]];

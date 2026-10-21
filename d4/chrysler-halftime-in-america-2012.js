@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-chrysler-halftime-in-america-2012-rm135802880-01","克莱斯勒·美国中场 (2012) - IMDb rm135802880","https://m.media-amazon.com/images/M/MV5BNjdjZmYwZjktN2I1OS00YmEyLWI3MTgtZjAzNGU0YmMyZWM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2462630/mediaviewer/rm135802880/","IMDb Official Stills"]];

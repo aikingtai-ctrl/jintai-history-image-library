@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-playstation-double-life-1999-rm3606891008-01","PlayStation·双重生活 (1999) - IMDb rm3606891008","https://m.media-amazon.com/images/M/MV5BMTg1NDM5NjkyMl5BMl5BanBnXkFtZTgwODc4NTAzMTE@._V1_.jpg","https://www.imdb.com/title/tt1037230/mediaviewer/rm3606891008/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-995328f79f70b862-rm3666328833-01","Vera (1987) - IMDb rm3666328833","https://m.media-amazon.com/images/M/MV5BNGU0NGFlN2EtN2RkZS00MWY0LWE4NjMtYjFlMDVjZmI2NGVlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0092162/mediaviewer/rm3666328833/","IMDb Official Stills"]];

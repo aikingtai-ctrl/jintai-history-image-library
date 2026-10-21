@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-59b4f58a4d6a478d-rm1776777473-01","Tinashé (2022) - IMDb rm1776777473","https://m.media-amazon.com/images/M/MV5BNjYzOThhODctM2M0ZC00YWU2LTkzZmUtY2NhM2U2Y2E0ODgyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32103970/mediaviewer/rm1776777473/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-80a4682d49d6ef54-rm1501037568-01","Verano de goliat (2010) - IMDb rm1501037568","https://m.media-amazon.com/images/M/MV5BOGUzZTUxZWYtMTI2Yi00ZjIzLTk3YmYtZDY4YThiMTg2YmQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1714758/mediaviewer/rm1501037568/","IMDb Official Stills"]];

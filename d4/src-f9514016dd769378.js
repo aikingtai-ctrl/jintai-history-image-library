@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f9514016dd769378-rm2728204544-01","Nordrand (1999) - IMDb rm2728204544","https://m.media-amazon.com/images/M/MV5BYjhhZTk5ODctYTMxOC00ZWFkLWJjOWItMzAxYzkyMzkxZWRjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0209187/mediaviewer/rm2728204544/","IMDb Official Stills"]];

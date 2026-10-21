@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-39ae272f08c286a6-rm2858324992-01","DELWENDE (2005) - IMDb rm2858324992","https://m.media-amazon.com/images/M/MV5BMTc1Nzg1MDEwNl5BMl5BanBnXkFtZTcwNDA3MDg5MQ@@._V1_.jpg","https://www.imdb.com/title/tt0470277/mediaviewer/rm2858324992/","IMDb Official Stills"]];

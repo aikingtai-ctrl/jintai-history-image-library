@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-21a58ee30d056916-rm3122829825-01","Ulybka Buddy (2009) - IMDb rm3122829825","https://m.media-amazon.com/images/M/MV5BZGJkYWYxNmQtNjUyZi00NzBmLTkzZTYtZGFlZjQ5NDY0MDY2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2657184/mediaviewer/rm3122829825/","IMDb Official Stills"]];

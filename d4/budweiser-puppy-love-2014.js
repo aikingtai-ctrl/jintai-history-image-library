@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-budweiser-puppy-love-2014-rm1189542657-01","百威·小狗之恋 (2014) - IMDb rm1189542657","https://m.media-amazon.com/images/M/MV5BYzg0M2I3MzctNDMzMi00OWY1LWJlZTItZGQ5ZDhkMzcyN2FiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt14912746/mediaviewer/rm1189542657/","IMDb Official Stills"]];

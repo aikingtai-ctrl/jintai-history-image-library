@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-368935601bf252db-rm1057669122-01","Return of Techno-Destructo (1996) - IMDb rm1057669122","https://m.media-amazon.com/images/M/MV5BNGFlZTBmOWEtNjI2Ni00MzVkLTkwYjQtYzZkOTRmMWU4MzM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0361993/mediaviewer/rm1057669122/","IMDb Official Stills"]];

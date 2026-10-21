@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-6b38093c68383a51-rm4092785409-01","FROZEN OUT (2021) - IMDb rm4092785409","https://m.media-amazon.com/images/M/MV5BYjc2M2ViNGMtODdhYS00NDY4LTliN2ItOTAwYTdlNGRmOTkzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt15346626/mediaviewer/rm4092785409/","IMDb Official Stills"]];

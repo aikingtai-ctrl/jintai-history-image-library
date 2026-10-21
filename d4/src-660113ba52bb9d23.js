@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-660113ba52bb9d23-rm3224966656-01","彩雲飛 (1973) - IMDb rm3224966656","https://m.media-amazon.com/images/M/MV5BZTE2YzA3MzYtNmU0ZS00YzI0LWI3ZjktMmE0NWI5MWFhNDc0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1216278/mediaviewer/rm3224966656/","IMDb Official Stills"]];

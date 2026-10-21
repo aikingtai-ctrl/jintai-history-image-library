@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1939131945bd48b9-rm800310274-01","Respirer une fois sur trois (2026) - IMDb rm800310274","https://m.media-amazon.com/images/M/MV5BOTliZjc2MTgtZjA4Mi00NWVjLTg1YjAtOGI3MzI0NGU2NzEwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt43660810/mediaviewer/rm800310274/","IMDb Official Stills"]];

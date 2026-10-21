@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-46e2190b31d68d4e-rm3737709825-01","Snehulak (1966) - IMDb rm3737709825","https://m.media-amazon.com/images/M/MV5BYjRiMmFlMjktOGFkNy00NzY0LWJhZWUtODMzNTY1Y2ZlZDIzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0208451/mediaviewer/rm3737709825/","IMDb Official Stills"]];

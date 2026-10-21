@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-00ccfdb97f5ec5d9-rm2795000064-01","一萬四千個證人 (1962) - IMDb rm2795000064","https://m.media-amazon.com/images/M/MV5BZmIyMjMwMDMtYmVjMS00MTQ0LWE0NWUtNjFhYzE3OTI2YjQ1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0231061/mediaviewer/rm2795000064/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e27cc8cc93eb1bcb-rm1913831938-01","Loutka, pritel cloveka (1982) - IMDb rm1913831938","https://m.media-amazon.com/images/M/MV5BZjBiZGRiY2MtMjM5ZS00ZjgzLThkOGEtZGJhMWQ2ZmY5ZWM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0133068/mediaviewer/rm1913831938/","IMDb Official Stills"]];

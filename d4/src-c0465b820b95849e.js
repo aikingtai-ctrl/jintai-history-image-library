@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c0465b820b95849e-rm275187456-01","Passaporto rosso (1935) - IMDb rm275187456","https://m.media-amazon.com/images/M/MV5BNjk2YmQ1MDgtZjQ1Mi00NWFmLWE1M2UtZjcyMWZkMTVkZjI5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0026853/mediaviewer/rm275187456/","IMDb Official Stills"]];

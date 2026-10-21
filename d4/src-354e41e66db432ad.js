@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-354e41e66db432ad-rm1321130497-01","Boundary Lines (1947) - IMDb rm1321130497","https://m.media-amazon.com/images/M/MV5BODJlZTdhYTYtZDBkNy00Nzg4LWFiM2ItYTllNmIwY2FiZTgwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt13287268/mediaviewer/rm1321130497/","IMDb Official Stills"]];

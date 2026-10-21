@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5b46e1fdc06a6abd-rm1506083072-01","Nichego Lichnogo (2007) - IMDb rm1506083072","https://m.media-amazon.com/images/M/MV5BYmFmZmRmNzMtNDMyOC00ZGY3LWJkMTYtM2E4MTgyZTg5MTQ4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1060263/mediaviewer/rm1506083072/","IMDb Official Stills"]];

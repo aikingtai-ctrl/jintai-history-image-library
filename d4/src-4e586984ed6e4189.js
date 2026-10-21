@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4e586984ed6e4189-rm3549732865-01","LA PINCE À ONGLES (1969) - IMDb rm3549732865","https://m.media-amazon.com/images/M/MV5BMDU1NTc4NDMtMjI0My00ZDQ0LTkzMmYtMjFhN2E4YTA4ZmU2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0263866/mediaviewer/rm3549732865/","IMDb Official Stills"]];

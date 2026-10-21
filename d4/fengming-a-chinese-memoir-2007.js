@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-fengming-a-chinese-memoir-2007-rm786772992-01","和凤鸣 (2007) - IMDb rm786772992","https://m.media-amazon.com/images/M/MV5BZDA0OGE0NGItODY0Yi00NzU0LTg3ZjgtMTRmZDlhZmIwZDI4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1032880/mediaviewer/rm786772992/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1706477883a3e8e4-rm1889920001-01","Nada para ver aqui (2022) - IMDb rm1889920001","https://m.media-amazon.com/images/M/MV5BNTk5NzVmY2UtM2M1Yy00ZDljLWI1MWMtNTdmY2YzMTBkNmMzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt17464658/mediaviewer/rm1889920001/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-bjork-all-is-full-of-love-1999-rm583667968-01","All Is Full of Love — 比约克 (1999) - IMDb rm583667968","https://m.media-amazon.com/images/M/MV5BNDY0MTU2N2EtZmY0Zi00NWZmLTk5OWQtNDAwNGU5MjgwOGE0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6805320/mediaviewer/rm583667968/","IMDb Official Stills"]];

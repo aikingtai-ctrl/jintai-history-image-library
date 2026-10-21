@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b74b15dfcf403876-rm270899714-01","Curriculum vitae (1987) - IMDb rm270899714","https://m.media-amazon.com/images/M/MV5BZmQ4M2IwZWUtYWFhNS00ZTVhLThjZGQtOTlmMzM5MjE3NTVmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0123771/mediaviewer/rm270899714/","IMDb Official Stills"]];

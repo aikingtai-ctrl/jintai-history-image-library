@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7b40a7f6901666ae-rm2648911104-01","See you at the pillar (1967) - IMDb rm2648911104","https://m.media-amazon.com/images/M/MV5BM2IxMmNjY2EtYWJlZC00YzJkLTgzZTQtMWIzMDY4OWYzMDc1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0062246/mediaviewer/rm2648911104/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0cf6d8ab5a2a6359-rm3717353216-01","Tu enfanteras sans douleur (1956) - IMDb rm3717353216","https://m.media-amazon.com/images/M/MV5BMjdjZTEzZTktZjI0Yy00ZDQzLWJhMDktYTJjMGYxZDJkZGZiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0407115/mediaviewer/rm3717353216/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-adf4d6c131c2b1de-rm3769048576-01","Angel at Sea (2009) - IMDb rm3769048576","https://m.media-amazon.com/images/M/MV5BMDk3ZTMxNDItYzY2My00MGI4LWIzMjQtMTAwNzZjNWJhMTQ2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1356860/mediaviewer/rm3769048576/","IMDb Official Stills"]];

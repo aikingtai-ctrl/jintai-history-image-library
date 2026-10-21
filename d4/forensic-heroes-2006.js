@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-forensic-heroes-2006-rm3701604608-01","法证先锋 (2006) - IMDb rm3701604608","https://m.media-amazon.com/images/M/MV5BODYwZDZhNzUtZTZmNi00ZjRmLWEwMDUtMGJlYjc2MGQxMDZmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0852612/mediaviewer/rm3701604608/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5fab2a4a769b281e-rm3252687105-01","1921 (2021) - IMDb rm3252687105","https://m.media-amazon.com/images/M/MV5BN2VjNGMzZTYtYzI4Ny00M2EyLWFmNmItOGZmOTg4Yzg4MjBlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt17237318/mediaviewer/rm3252687105/","IMDb Official Stills"]];

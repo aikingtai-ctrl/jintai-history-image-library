@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-the-young-emperor-2003-rm1694286338-01","少年天子 (2003) - IMDb rm1694286338","https://m.media-amazon.com/images/M/MV5BMGYyYTY0YmMtM2FhNS00OTNkLTgxZTMtNDQwMTMzMjBhNjFmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10568244/mediaviewer/rm1694286338/","IMDb Official Stills"]];

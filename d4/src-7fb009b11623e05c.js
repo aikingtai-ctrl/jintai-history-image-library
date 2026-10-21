@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7fb009b11623e05c-rm2618811648-01","神奇洗衣機 (2004) - IMDb rm2618811648","https://m.media-amazon.com/images/M/MV5BZTllNmFlYjUtNWVmZS00MDkzLTk3NTMtNmNhZmJlOWQ0NmU4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0447271/mediaviewer/rm2618811648/","IMDb Official Stills"]];

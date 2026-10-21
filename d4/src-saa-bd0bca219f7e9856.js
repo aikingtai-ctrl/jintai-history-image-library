@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-bd0bca219f7e9856-rm1065250561-01","A DREAM CALLED KHUSHI (HAPPINESS) (2024) - IMDb rm1065250561","https://m.media-amazon.com/images/M/MV5BODgxYTNhNTUtNGYyYS00NDMwLWEyNjItZDVmZWE3MGEyMjQ1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt33306102/mediaviewer/rm1065250561/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-15d89500c6d8b65e-rm476020224-01","Ballett ist ausgefallen (2002) - IMDb rm476020224","https://m.media-amazon.com/images/M/MV5BOTY3M2Y4NjEtZDYzNi00MjkyLTlmZTEtMmI4YmI4MTRlOGYyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0310708/mediaviewer/rm476020224/","IMDb Official Stills"]];

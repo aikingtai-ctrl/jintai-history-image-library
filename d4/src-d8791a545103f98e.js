@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d8791a545103f98e-rm2643729920-01","Aita (2010) - IMDb rm2643729920","https://m.media-amazon.com/images/M/MV5BNTU2YTBjZWMtNTU0Ni00NjNmLThhMmItMmY3MDViZWQ0NmRjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1274636/mediaviewer/rm2643729920/","IMDb Official Stills"]];

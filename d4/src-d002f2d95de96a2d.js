@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d002f2d95de96a2d-rm65337857-01","Premieres Pas (1948) - IMDb rm65337857","https://m.media-amazon.com/images/M/MV5BYzExYzQyZjUtZTY4ZC00YWEzLTkyYzItOGIyMjcwMTg0ZmJlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt14857452/mediaviewer/rm65337857/","IMDb Official Stills"]];

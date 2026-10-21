@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ee01a62a100d030a-rm3940066304-01","A batalha de Tabatô (2013) - IMDb rm3940066304","https://m.media-amazon.com/images/M/MV5BMjM2MTc4MDI3NF5BMl5BanBnXkFtZTcwMDQzNzI2OQ@@._V1_.jpg","https://www.imdb.com/title/tt2671652/mediaviewer/rm3940066304/","IMDb Official Stills"]];

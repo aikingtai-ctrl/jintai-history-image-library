@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-nodame-cantabile-2006-rm594745856-01","交响情人梦 (2006) - IMDb rm594745856","https://m.media-amazon.com/images/M/MV5BMmYzMjIzY2EtZmFjOC00ODk0LWJhZTQtNTlkMDMyNDlkYWI4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0965546/mediaviewer/rm594745856/","IMDb Official Stills"]];

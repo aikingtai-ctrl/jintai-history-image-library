@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-87dac50b6905a161-rm3681548544-01","Kiiroi karasu (Yellow Crow) (1957) - IMDb rm3681548544","https://m.media-amazon.com/images/M/MV5BMTgxNDk4MDA2NV5BMl5BanBnXkFtZTgwOTE3MDc1MzE@._V1_.jpg","https://www.imdb.com/title/tt4223584/mediaviewer/rm3681548544/","IMDb Official Stills"]];

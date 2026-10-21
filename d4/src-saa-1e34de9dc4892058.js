@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-1e34de9dc4892058-rm2964647681-01","LES CHAUSSURES DE LOUIS (2021) - IMDb rm2964647681","https://m.media-amazon.com/images/M/MV5BMDcwMjZmYWMtZmU4Yi00NWVmLWE0NGItOTIxMzNkNDZlYWQ2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt16287242/mediaviewer/rm2964647681/","IMDb Official Stills"]];

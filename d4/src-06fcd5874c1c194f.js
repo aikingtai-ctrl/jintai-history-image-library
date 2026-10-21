@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-06fcd5874c1c194f-rm3479879169-01","銀簪子 (2000) - IMDb rm3479879169","https://m.media-amazon.com/images/M/MV5BZGVlZDk2ZmItNDMwOC00ZTkwLThmN2EtNjczYWQxMjc2NjJiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0290936/mediaviewer/rm3479879169/","IMDb Official Stills"]];

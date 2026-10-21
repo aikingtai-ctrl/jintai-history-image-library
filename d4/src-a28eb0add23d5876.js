@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a28eb0add23d5876-rm3135438082-01","Vlnená pohádka (1964) - IMDb rm3135438082","https://m.media-amazon.com/images/M/MV5BYjZkNTYzNDUtZmFiOC00NDE4LWFkZTItNDYxYTg3YjFjMTgzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0428024/mediaviewer/rm3135438082/","IMDb Official Stills"]];

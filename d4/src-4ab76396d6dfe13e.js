@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4ab76396d6dfe13e-rm1414076928-01","AÏSSA (2014) - IMDb rm1414076928","https://m.media-amazon.com/images/M/MV5BNTk5NzRkZjQtZmYxOC00OTM0LTgzMTEtNWY5ZDUyNmZkOTg1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3672622/mediaviewer/rm1414076928/","IMDb Official Stills"]];

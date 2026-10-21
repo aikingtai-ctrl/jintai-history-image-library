@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9511926ddc24e08c-rm2872413185-01","The Little Samurai (2007) - IMDb rm2872413185","https://m.media-amazon.com/images/M/MV5BMWVlMjMyYjYtMGNkOC00MTlkLWI1YzgtMmVlYjgzYzE5OTcyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2846848/mediaviewer/rm2872413185/","IMDb Official Stills"]];

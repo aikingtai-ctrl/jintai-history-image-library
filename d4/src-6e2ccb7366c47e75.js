@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6e2ccb7366c47e75-rm3191950592-01","Dans l'ombre (2004) - IMDb rm3191950592","https://m.media-amazon.com/images/M/MV5BNjQzNGRjNmUtOTAzMS00MGJkLTlkODktMTIwNjBmYTI2YjIxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0427123/mediaviewer/rm3191950592/","IMDb Official Stills"]];

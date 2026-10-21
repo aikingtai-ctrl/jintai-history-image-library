@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-97fe1b8b5739792c-rm233411330-01","Il pianto delle zitelle (1958) - IMDb rm233411330","https://m.media-amazon.com/images/M/MV5BN2IyNGU1NzEtMjc4Yy00YTFiLTg2M2YtYTcyZTQzNGU0YTk1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0194235/mediaviewer/rm233411330/","IMDb Official Stills"]];

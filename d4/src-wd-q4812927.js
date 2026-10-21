@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q4812927-rm4280739072-01","Atayalangal (2008) - IMDb rm4280739072","https://m.media-amazon.com/images/M/MV5BNWE4MTFjNTMtNDZjZi00YWZiLWEzOTItNjJjMmIzZmFkZGFhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2407340/mediaviewer/rm4280739072/","IMDb Official Stills"]];

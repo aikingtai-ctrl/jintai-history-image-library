@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-guinness-tipping-point-2007-rm23015937-01","健力士·临界点 (2007) - IMDb rm23015937","https://m.media-amazon.com/images/M/MV5BOGQwMmU1MTQtZDAxMy00OTY1LTkyYjYtOWNkNmFlZDkzM2Q0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt18884106/mediaviewer/rm23015937/","IMDb Official Stills"]];

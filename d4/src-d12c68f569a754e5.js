@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d12c68f569a754e5-rm2595760640-01","La cage (2002) - IMDb rm2595760640","https://m.media-amazon.com/images/M/MV5BZGE3MTAwOTMtMzI3ZS00OTEwLTk4YWYtYmU4NTBiY2YzNzQxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0296547/mediaviewer/rm2595760640/","IMDb Official Stills"]];

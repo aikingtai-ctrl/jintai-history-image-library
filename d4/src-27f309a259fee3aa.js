@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-27f309a259fee3aa-rm2196986624-01","香花與毒草 (1976) - IMDb rm2196986624","https://m.media-amazon.com/images/M/MV5BZmU1ZjA1ZDItNGFhNi00ODYyLTk4MGItY2Q4NDQwZjUwZjVmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2169700/mediaviewer/rm2196986624/","IMDb Official Stills"]];

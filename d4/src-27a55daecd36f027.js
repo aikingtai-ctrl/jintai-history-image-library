@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-27a55daecd36f027-rm3445446656-01","Totems (2014) - IMDb rm3445446656","https://m.media-amazon.com/images/M/MV5BNjExMWNmZTAtZmZjOS00OWU2LTgwYTgtOWMyMzQ5YjcwMjFhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3734438/mediaviewer/rm3445446656/","IMDb Official Stills"]];

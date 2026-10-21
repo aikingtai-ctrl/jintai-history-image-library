@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2642dd1ff01970f7-rm1629633792-01","Malva (1956) - IMDb rm1629633792","https://m.media-amazon.com/images/M/MV5BZWUwNzgyMmEtM2U2Zi00MTMzLWJmMmUtYmZlNDQxMDNiY2ZlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0048334/mediaviewer/rm1629633792/","IMDb Official Stills"]];

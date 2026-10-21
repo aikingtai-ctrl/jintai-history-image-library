@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9af954047936d569-rm3561624064-01","B'Yerushalaim (1963) - IMDb rm3561624064","https://m.media-amazon.com/images/M/MV5BZGE1YzQxOGQtYjBjOC00ZmIzLWI1YTctNDAyZjYxODg3OTY2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0164373/mediaviewer/rm3561624064/","IMDb Official Stills"]];

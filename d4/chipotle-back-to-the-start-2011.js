@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-chipotle-back-to-the-start-2011-rm4032178944-01","Chipotle·回到起点 (2011) - IMDb rm4032178944","https://m.media-amazon.com/images/M/MV5BNDMzNTNjZDUtNWFmZi00YTc4LTlmYjEtZWM5MTkzOTRlZDBkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3142910/mediaviewer/rm4032178944/","IMDb Official Stills"]];

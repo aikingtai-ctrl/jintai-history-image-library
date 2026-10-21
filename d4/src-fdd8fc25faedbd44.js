@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-fdd8fc25faedbd44-rm2094799616-01","音樂人生 (2009) - IMDb rm2094799616","https://m.media-amazon.com/images/M/MV5BM2Q1MWNlYjQtNWIwMC00NWIyLWI2YzItM2FkNTZkYTAxMzgzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1562343/mediaviewer/rm2094799616/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2f64e9db06b60bb7-rm895809281-01","Min morbror tyckte mycket om gult (2008) - IMDb rm895809281","https://m.media-amazon.com/images/M/MV5BNTMwYzQ2NjctYzEyOS00ZmQ2LWFkMWUtNDYwMWRjMmNjNTVhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1723806/mediaviewer/rm895809281/","IMDb Official Stills"]];

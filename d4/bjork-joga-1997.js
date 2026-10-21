@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-bjork-joga-1997-rm475638273-01","Jóga — 比约克 (1997) - IMDb rm475638273","https://m.media-amazon.com/images/M/MV5BMzExNTkzYzEtODUwYy00NTAzLTk5ZWUtMjI1Zjc2YzRlY2Y3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12521878/mediaviewer/rm475638273/","IMDb Official Stills"]];

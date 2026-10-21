@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4f122df2cc94a228-rm3704204544-01","L'ambassadeur & moi (2011) - IMDb rm3704204544","https://m.media-amazon.com/images/M/MV5BMTM4NDg2OTgzNl5BMl5BanBnXkFtZTcwNTM3MDc4OA@@._V1_.jpg","https://www.imdb.com/title/tt2088813/mediaviewer/rm3704204544/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6b3b3dfa9cda08bc-rm443751168-01","Crayon (1965) - IMDb rm443751168","https://m.media-amazon.com/images/M/MV5BYzYxNTU4MTktMDhkNy00MTUwLTk4NjctOTU1ZmUwZDQ4ZmFhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0060874/mediaviewer/rm443751168/","IMDb Official Stills"]];

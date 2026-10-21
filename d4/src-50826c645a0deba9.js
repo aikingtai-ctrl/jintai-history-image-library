@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-50826c645a0deba9-rm1777339904-01","Bolivia (2001) - IMDb rm1777339904","https://m.media-amazon.com/images/M/MV5BYzNmN2FmNTYtN2MxNy00MjM4LWIyMzItZWMzYWQ5MzhjYWRjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0280253/mediaviewer/rm1777339904/","IMDb Official Stills"]];

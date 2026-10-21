@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1b5d1471ff19d2f0-rm3790938113-01","寻她 (2023) - IMDb rm3790938113","https://m.media-amazon.com/images/M/MV5BMjEzNDk0ZGYtNTY3OS00NjU3LTg4MjYtMmE3NmE3ZDhkZTE5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt26935954/mediaviewer/rm3790938113/","IMDb Official Stills"]];

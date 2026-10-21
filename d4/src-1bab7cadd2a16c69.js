@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1bab7cadd2a16c69-rm102833664-01","苦戀 (1982) - IMDb rm102833664","https://m.media-amazon.com/images/M/MV5BMGNjODI3OTktMTZhYS00YWI4LTkwNTctY2VlYmJhYjkxNTdjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1538494/mediaviewer/rm102833664/","IMDb Official Stills"]];

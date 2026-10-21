@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c5cd1e0ed0a4a6fc-rm3249002242-01","La sève (2016) - IMDb rm3249002242","https://m.media-amazon.com/images/M/MV5BZTRiZTQ0N2YtYWM3ZC00OGNlLWE4YTktMzkxM2YzNThlYjA4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6217634/mediaviewer/rm3249002242/","IMDb Official Stills"]];

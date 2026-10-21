@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b1c8d43b46ff485e-rm3411487744-01","LABORAT (2014) - IMDb rm3411487744","https://m.media-amazon.com/images/M/MV5BNzc4YjIzMDktZmM5NS00ZTZiLTkzMGYtMWVjYWQ2ZDhhYmRkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3498488/mediaviewer/rm3411487744/","IMDb Official Stills"]];

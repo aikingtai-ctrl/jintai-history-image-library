@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c1f574e1fb034460-rm3498878720-01","The Amber Amulet (2013) - IMDb rm3498878720","https://m.media-amazon.com/images/M/MV5BMjk1OTQxNjM0Nl5BMl5BanBnXkFtZTcwODkwNzQ1OQ@@._V1_.jpg","https://www.imdb.com/title/tt2713836/mediaviewer/rm3498878720/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-19c3d6a584920f7a-rm635012609-01","Tabu, dernier voyage (1996) - IMDb rm635012609","https://m.media-amazon.com/images/M/MV5BOTk3NTg4NTItMjU2MS00OGJhLWFiNTQtNWQyMTY2ZmY2Y2MwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0256418/mediaviewer/rm635012609/","IMDb Official Stills"]];

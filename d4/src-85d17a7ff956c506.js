@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-85d17a7ff956c506-rm587952896-01","黑夜到黎明 (1963) - IMDb rm587952896","https://m.media-amazon.com/images/M/MV5BMjM3NjAwZjItNmFlZS00N2E0LWFiYzktM2I3ZDFiMjE4ODU2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4564538/mediaviewer/rm587952896/","IMDb Official Stills"]];

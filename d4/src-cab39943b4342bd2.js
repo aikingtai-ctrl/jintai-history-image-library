@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cab39943b4342bd2-rm1729286402-01","Lettere di condannati a morte della Resistenza (1953) - IMDb rm1729286402","https://m.media-amazon.com/images/M/MV5BZTJlMDViZWYtYmY5NS00ZTRhLWIwMDctYzUzMzhiMGFjNjNjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0171476/mediaviewer/rm1729286402/","IMDb Official Stills"]];

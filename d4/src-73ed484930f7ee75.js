@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-73ed484930f7ee75-rm3523427584-01","龍城十日 (1971) - IMDb rm3523427584","https://m.media-amazon.com/images/M/MV5BNTcxZDBiNmItYWYxMi00ZTcwLWEyZjgtNzA3ZDA5NmFjZTY5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0165372/mediaviewer/rm3523427584/","IMDb Official Stills"]];

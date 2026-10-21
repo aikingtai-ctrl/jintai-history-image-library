@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-beyonce-hold-up-2016-rm1839246594-01","Hold Up — 碧昂丝 (2016) - IMDb rm1839246594","https://m.media-amazon.com/images/M/MV5BMWRlYmJlZDktZTQ0Yi00Mjg3LTg2NTctMDFjZTVkMTZhMzg3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10347570/mediaviewer/rm1839246594/","IMDb Official Stills"]];

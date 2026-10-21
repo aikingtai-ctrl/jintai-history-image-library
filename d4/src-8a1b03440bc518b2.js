@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8a1b03440bc518b2-rm1547638528-01","策馬入林 (1985) - IMDb rm1547638528","https://m.media-amazon.com/images/M/MV5BZmU4MGU3MGQtNzJhZi00MmI5LWE4MmYtOGM5NjQzNjljYWQwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0342176/mediaviewer/rm1547638528/","IMDb Official Stills"]];

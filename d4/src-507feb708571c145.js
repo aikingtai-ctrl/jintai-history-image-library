@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-507feb708571c145-rm962848000-01","The Beads of a Rosary / Paciorki jednego różańca (1980) - IMDb rm962848000","https://m.media-amazon.com/images/M/MV5BOWZiY2NlZWYtOTIyYS00ZjUwLWJjZGMtZTc3YmRkZjliOTFiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0081295/mediaviewer/rm962848000/","IMDb Official Stills"]];

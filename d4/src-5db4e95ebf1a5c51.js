@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5db4e95ebf1a5c51-rm2267025664-01","Tanner / Der schwarze Tanner (1986) - IMDb rm2267025664","https://m.media-amazon.com/images/M/MV5BMDMyMmJlODgtZGU4Ny00NWU0LThkZGEtNTBlOTc1Y2MwMGVlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0143860/mediaviewer/rm2267025664/","IMDb Official Stills"]];

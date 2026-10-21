@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c5197d8c7d29e8c6-rm1385110016-01","Honey, I Shrunk the Audience (1994) - IMDb rm1385110016","https://m.media-amazon.com/images/M/MV5BOTM3ZjE5OWYtMjc2Yy00NzFjLWE4NWMtNTU5MTFlZTFjZjNiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0113325/mediaviewer/rm1385110016/","IMDb Official Stills"]];

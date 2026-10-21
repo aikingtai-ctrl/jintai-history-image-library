@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-bcb012adf4bb8a6c-rm1478543362-01","GAUZE (2026) - IMDb rm1478543362","https://m.media-amazon.com/images/M/MV5BYjcxZjU2NGItYWVkNi00OWYxLTgwZGUtNWZlZjc0ZGE2M2VjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt42440616/mediaviewer/rm1478543362/","IMDb Official Stills"]];

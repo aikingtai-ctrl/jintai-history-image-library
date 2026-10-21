@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-aa662fcf662acd6f-rm3831015169-01","台灣教育 (1962) - IMDb rm3831015169","https://m.media-amazon.com/images/M/MV5BOTQ4OWY3MDYtNDJlOS00NGE1LThhNWQtZjA4ZDgzOTA5ZjgzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt13156304/mediaviewer/rm3831015169/","IMDb Official Stills"]];

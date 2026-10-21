@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-186721121da1d324-rm605206017-01","Beshivhey Hayom / In Praise of the Day (2013) - IMDb rm605206017","https://m.media-amazon.com/images/M/MV5BNzFmNzAxN2UtNzAzNi00MjJiLWE5MTYtNjJjMjQ1ZTBmYjhiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2718360/mediaviewer/rm605206017/","IMDb Official Stills"]];

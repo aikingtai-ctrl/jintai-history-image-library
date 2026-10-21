@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-700110a96351f839-rm289042433-01","相爱在西双版纳 (1998) - IMDb rm289042433","https://m.media-amazon.com/images/M/MV5BYzczM2U3N2ItOWFkMS00OWExLWFjYzctMTFjZTIwMGRmMDI5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10195284/mediaviewer/rm289042433/","IMDb Official Stills"]];

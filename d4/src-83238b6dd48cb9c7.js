@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-83238b6dd48cb9c7-rm224705537-01","Clown (2002) - IMDb rm224705537","https://m.media-amazon.com/images/M/MV5BMjc4YjllYTMtYjQ1Ny00MGJkLThmNzAtN2VkZGU4OGEwMGM5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0338866/mediaviewer/rm224705537/","IMDb Official Stills"]];

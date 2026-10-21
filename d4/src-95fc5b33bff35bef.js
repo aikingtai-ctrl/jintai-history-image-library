@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-95fc5b33bff35bef-rm2268287744-01","Muzhyki (1982) - IMDb rm2268287744","https://m.media-amazon.com/images/M/MV5BMDdiZGZkNmUtMjBkYS00OTNjLTg4MTktNjEwNDVkNDIwNGRmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0232910/mediaviewer/rm2268287744/","IMDb Official Stills"]];

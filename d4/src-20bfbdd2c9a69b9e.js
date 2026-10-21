@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-20bfbdd2c9a69b9e-rm3836567040-01","Bi anai / Bi anai (Two Brothers) (2011) - IMDb rm3836567040","https://m.media-amazon.com/images/M/MV5BMGE1MTg2MjktOWQ2My00YzIwLWFmMTMtYjU1ODlkNWE1MDJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2072059/mediaviewer/rm3836567040/","IMDb Official Stills"]];

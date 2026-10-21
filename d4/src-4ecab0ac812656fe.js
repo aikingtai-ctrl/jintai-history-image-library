@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4ecab0ac812656fe-rm1771163906-01","Stanna en stund (1950) - IMDb rm1771163906","https://m.media-amazon.com/images/M/MV5BMzliNGRjM2QtMzQ5OC00YTYxLThhZDgtNDU3NDhlYTkxZDgyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt14202594/mediaviewer/rm1771163906/","IMDb Official Stills"]];

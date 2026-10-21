@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-32d2ac6a44a42aa9-rm3126038017-01","Barak (1999) - IMDb rm3126038017","https://m.media-amazon.com/images/M/MV5BZTk1YWQ0ODgtMDA0YS00NjE0LWFlODQtMDE4M2QyMTA4ZDRlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0210564/mediaviewer/rm3126038017/","IMDb Official Stills"]];

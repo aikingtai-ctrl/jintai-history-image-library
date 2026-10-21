@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-70c80ce4e9c3001d-rm1312074753-01","Starting Place/Point de départ (1993) - IMDb rm1312074753","https://m.media-amazon.com/images/M/MV5BZDRiMThmZDItZGQ2OC00ZDlmLTgzMjMtYzBkNzU1MGE3MjQ5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0108216/mediaviewer/rm1312074753/","IMDb Official Stills"]];

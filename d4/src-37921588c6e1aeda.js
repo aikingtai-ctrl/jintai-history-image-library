@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-37921588c6e1aeda-rm1732306688-01","BERIK (2010) - IMDb rm1732306688","https://m.media-amazon.com/images/M/MV5BN2U1NTM4MTctMTg3Yi00NzI5LTk5ZmEtMzAwNDI3YWM4OTA2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1668193/mediaviewer/rm1732306688/","IMDb Official Stills"]];

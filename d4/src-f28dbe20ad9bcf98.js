@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f28dbe20ad9bcf98-rm421303297-01","黑狗來了 (2003) - IMDb rm421303297","https://m.media-amazon.com/images/M/MV5BY2FjZDIyMTctY2UwOC00MjBmLWE1M2UtMTcwYjA2OTNjNjU5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0490428/mediaviewer/rm421303297/","IMDb Official Stills"]];

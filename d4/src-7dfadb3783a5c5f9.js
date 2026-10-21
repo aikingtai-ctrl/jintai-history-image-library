@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7dfadb3783a5c5f9-rm2351039232-01","The Dying Rooms (1995) - IMDb rm2351039232","https://m.media-amazon.com/images/M/MV5BMmM5ZWYwYjctMDM0OS00MTI4LWJjMzgtNDYxZGQ0MTE1YTk1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0112919/mediaviewer/rm2351039232/","IMDb Official Stills"]];

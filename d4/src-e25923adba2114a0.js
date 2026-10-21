@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e25923adba2114a0-rm1405753088-01","PTU (2004) - IMDb rm1405753088","https://m.media-amazon.com/images/M/MV5BOTA0MjJlNTYtNDQ0OC00NzYwLWJkZWUtM2NlYzllZDUyMDE0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0404165/mediaviewer/rm1405753088/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-573e6421292b1fb9-rm1670202625-01","源 (1980) - IMDb rm1670202625","https://m.media-amazon.com/images/M/MV5BODY1NTRmMjMtNTJjNC00MDA2LTllZmEtYjRhMTFiNzNmM2IwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7775824/mediaviewer/rm1670202625/","IMDb Official Stills"]];

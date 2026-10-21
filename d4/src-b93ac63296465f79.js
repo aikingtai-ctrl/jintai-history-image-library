@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b93ac63296465f79-rm4141395969-01","Aterfödelsen (2011) - IMDb rm4141395969","https://m.media-amazon.com/images/M/MV5BNzUzNmY4YzYtNWM3OC00NjhiLTk2NDEtMjkyYjk5NWJiNWZkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1895306/mediaviewer/rm4141395969/","IMDb Official Stills"]];

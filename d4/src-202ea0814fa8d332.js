@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-202ea0814fa8d332-rm2235238656-01","Naganiacz (1964) - IMDb rm2235238656","https://m.media-amazon.com/images/M/MV5BMjIwY2Q5MjMtODI1ZC00YThkLTg5MzktZTU5NTJkZGE0MjQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0058388/mediaviewer/rm2235238656/","IMDb Official Stills"]];

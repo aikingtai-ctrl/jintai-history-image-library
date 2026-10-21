@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9fa4f057a7b37341-rm659660033-01","西夏路遥遥 (1997) - IMDb rm659660033","https://m.media-amazon.com/images/M/MV5BNWNjMTM2ODktM2E5ZC00YmYzLTg1NzctYTgwZTNhYTkyZjM4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0123329/mediaviewer/rm659660033/","IMDb Official Stills"]];

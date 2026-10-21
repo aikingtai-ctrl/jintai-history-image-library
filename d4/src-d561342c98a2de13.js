@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d561342c98a2de13-rm370070785-01","Minari (2021) - IMDb rm370070785","https://m.media-amazon.com/images/M/MV5BMzliZjU4MTYtZTYwOS00ZDkyLWE5OTgtZGY5MDA2MzUwMGJmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt14031218/mediaviewer/rm370070785/","IMDb Official Stills"]];

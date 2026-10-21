@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cf0f207f6dbbf15e-rm1356121601-01","DE SLAAPKAMER (1990) - IMDb rm1356121601","https://m.media-amazon.com/images/M/MV5BMjNhZmI2OWQtNzI0ZS00YzQ5LTk1NTMtNmUyMjVkMjliNWNiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3801676/mediaviewer/rm1356121601/","IMDb Official Stills"]];

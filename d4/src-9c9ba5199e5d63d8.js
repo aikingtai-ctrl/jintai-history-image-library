@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9c9ba5199e5d63d8-rm1069920768-01","Muerte al amanecer (1977) - IMDb rm1069920768","https://m.media-amazon.com/images/M/MV5BMTMyNjE5NTE4M15BMl5BanBnXkFtZTcwOTA2NjI5Ng@@._V1_.jpg","https://www.imdb.com/title/tt0092991/mediaviewer/rm1069920768/","IMDb Official Stills"]];

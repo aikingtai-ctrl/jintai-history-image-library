@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-baebc4a939b6ef6e-rm2333165568-01","Donnie Darko (Director's Cut) (re-release) (2004) - IMDb rm2333165568","https://m.media-amazon.com/images/M/MV5BOTM3ZjFlNWItZjI2NS00OGIxLThmNjctMTVkNDE5N2NlYmVkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7345360/mediaviewer/rm2333165568/","IMDb Official Stills"]];

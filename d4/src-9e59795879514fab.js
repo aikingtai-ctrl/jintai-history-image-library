@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9e59795879514fab-rm3624803328-01","Mirt sost shi amit (1975) - IMDb rm3624803328","https://m.media-amazon.com/images/M/MV5BNDFlZjdkM2UtMTAyNS00YzU2LTgxY2EtMzdjNGUwMWQwZDAzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0073394/mediaviewer/rm3624803328/","IMDb Official Stills"]];

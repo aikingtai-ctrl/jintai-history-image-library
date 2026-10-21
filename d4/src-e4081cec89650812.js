@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e4081cec89650812-rm3969465857-01","La rivière et les hommes (1951) - IMDb rm3969465857","https://m.media-amazon.com/images/M/MV5BM2M3Y2IxYmItMWI0MC00OWM1LTkwZDQtNGM0N2Y5ZTNhMzRlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0210395/mediaviewer/rm3969465857/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6a5865bae9158d51-rm339023104-01","皇天后土 (1981) - IMDb rm339023104","https://m.media-amazon.com/images/M/MV5BYjVhMjFhYmMtZmQ1My00OGQ4LTgxNDItNzJiNWI5MDYxNjI1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0082189/mediaviewer/rm339023104/","IMDb Official Stills"]];

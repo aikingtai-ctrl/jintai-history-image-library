@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7e873a79004532f5-rm1743756288-01","Hush-a-bye Baby (1990) - IMDb rm1743756288","https://m.media-amazon.com/images/M/MV5BMTUyMzQyNzMzNl5BMl5BanBnXkFtZTcwMTUyODcxMQ@@._V1_.jpg","https://www.imdb.com/title/tt0102080/mediaviewer/rm1743756288/","IMDb Official Stills"]];

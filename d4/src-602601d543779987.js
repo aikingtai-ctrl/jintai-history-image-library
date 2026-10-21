@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-602601d543779987-rm2953546241-01","Skyscraper (1959) - IMDb rm2953546241","https://m.media-amazon.com/images/M/MV5BNWZmNWVjZWEtMjYxOS00NTJmLWJiNjItMTE5Y2UyM2Q4NzM5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0053282/mediaviewer/rm2953546241/","IMDb Official Stills"]];

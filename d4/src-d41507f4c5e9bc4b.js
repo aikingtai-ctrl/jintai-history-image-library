@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d41507f4c5e9bc4b-rm1298557441-01","Better Not Kill the Groove (2024) - IMDb rm1298557441","https://m.media-amazon.com/images/M/MV5BMzAxOWYzMTMtOWY5YS00NGUzLThjNjAtNDIwZWI0MjlkY2RmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32897463/mediaviewer/rm1298557441/","IMDb Official Stills"]];

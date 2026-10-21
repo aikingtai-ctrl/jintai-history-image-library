@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7919a259151b4113-rm2618543873-01","Negyedízigien (1942) - IMDb rm2618543873","https://m.media-amazon.com/images/M/MV5BNmYwNDE5YjUtMGM4Yy00ZWE1LWE0MGQtNmY3MGEyZjI3NTgyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0243450/mediaviewer/rm2618543873/","IMDb Official Stills"]];

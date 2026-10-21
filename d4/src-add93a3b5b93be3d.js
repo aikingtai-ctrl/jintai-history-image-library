@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-add93a3b5b93be3d-rm2819368704-01","Short Cuts (1992) - IMDb rm2819368704","https://m.media-amazon.com/images/M/MV5BZGE2MmUzYjItOTMwYy00NDM5LWI5ODgtMDUwZmVhY2M3N2EwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7435916/mediaviewer/rm2819368704/","IMDb Official Stills"]];

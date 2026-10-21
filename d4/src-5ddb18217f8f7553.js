@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5ddb18217f8f7553-rm3164839426-01","Through the Eyes of a Painter (1967) - IMDb rm3164839426","https://m.media-amazon.com/images/M/MV5BYTM3YjIzOWYtMDZjNi00MTUxLWFmYjItMTBhNzA4ODE2ZDlhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0232801/mediaviewer/rm3164839426/","IMDb Official Stills"]];

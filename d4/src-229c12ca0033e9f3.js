@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-229c12ca0033e9f3-rm1590481666-01","The Animal Movie (1966) - IMDb rm1590481666","https://m.media-amazon.com/images/M/MV5BMjFlNWY5ZDAtZmUzMi00YTQ2LWJiNjItNzc4ZjExZjQ0MWI4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0208217/mediaviewer/rm1590481666/","IMDb Official Stills"]];

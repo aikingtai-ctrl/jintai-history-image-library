@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f2aedac95e831848-rm568878337-01","NORAH (2024) - IMDb rm568878337","https://m.media-amazon.com/images/M/MV5BYWQ3ZmVjZDItMmI3ZC00NzZlLTgwNTgtOGEwYThkOGIzODcyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt34459806/mediaviewer/rm568878337/","IMDb Official Stills"]];

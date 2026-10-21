@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-soundgarden-black-hole-sun-1994-rm767708160-01","Black Hole Sun — 声音花园乐队 (1994) - IMDb rm767708160","https://m.media-amazon.com/images/M/MV5BNzAxNDFkMWEtNGQ5Yi00NWYxLTk4YzctNmQ5MGFiNzc4ZmZkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4287432/mediaviewer/rm767708160/","IMDb Official Stills"]];

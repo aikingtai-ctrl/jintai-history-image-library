@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7c58c9f7540a7c4a-rm2898736129-01","To Live with Herds (1972) - IMDb rm2898736129","https://m.media-amazon.com/images/M/MV5BMGVjYWFkZTgtYTcwNS00YzEzLTljMmEtNTQxNWQ4MmVhNmM5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12804124/mediaviewer/rm2898736129/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f0255f854020468b-rm134639617-01","The Tender Game (1958) - IMDb rm134639617","https://m.media-amazon.com/images/M/MV5BZGU5NWJmNjUtNzg5MC00NTU1LWJkMzgtYzNlM2JlODlmYmU1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0178057/mediaviewer/rm134639617/","IMDb Official Stills"]];

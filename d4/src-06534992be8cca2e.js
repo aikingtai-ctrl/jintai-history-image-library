@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-06534992be8cca2e-rm361825536-01","Bye Bye Africa (1998) - IMDb rm361825536","https://m.media-amazon.com/images/M/MV5BODE2NWU0OWMtZTg3NS00NzhjLTljZTUtM2I2ZTY4NDRlMzg0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0209950/mediaviewer/rm361825536/","IMDb Official Stills"]];

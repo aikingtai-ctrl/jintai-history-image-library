@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-bd771912762c06a2-rm33832192-01","落鷹峽 (1971) - IMDb rm33832192","https://m.media-amazon.com/images/M/MV5BM2NkZTcwNTItNDVmNi00ODJkLTk4YWItMDZjZmU1ZjU2YzUyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1746585/mediaviewer/rm33832192/","IMDb Official Stills"]];

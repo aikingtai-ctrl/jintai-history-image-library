@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f0b056f7518af661-rm697453313-01","Senaste nytt (1997) - IMDb rm697453313","https://m.media-amazon.com/images/M/MV5BYzE1NmIzNjctYzA1Mi00MzQzLWE4MWYtYWU2NmIzNWZlY2JhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0117597/mediaviewer/rm697453313/","IMDb Official Stills"]];

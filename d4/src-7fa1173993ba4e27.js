@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7fa1173993ba4e27-rm2877886720-01","KHARIJ (1983) - IMDb rm2877886720","https://m.media-amazon.com/images/M/MV5BYTFlY2NiYTQtMmU3ZC00ZjViLTljYzctZGRiYzYzMDI0MDY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0084198/mediaviewer/rm2877886720/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3676428453845ea5-rm1102350081-01","Metall des Himmels (1935) - IMDb rm1102350081","https://m.media-amazon.com/images/M/MV5BNzA2ZmJiMGItMjJlYy00NGRjLTlkMGEtZDcxYTdjNjY0Njk3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0417963/mediaviewer/rm1102350081/","IMDb Official Stills"]];

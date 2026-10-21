@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-bayside-shakedown-1997-rm1254955776-01","跳跃大搜查线 (1997) - IMDb rm1254955776","https://m.media-amazon.com/images/M/MV5BY2FjZGZiYzYtNTUyOS00NGJhLTkzYjgtNTczZjI1YjM0MDlkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0210199/mediaviewer/rm1254955776/","IMDb Official Stills"]];

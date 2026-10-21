@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cb4c6fd6b01a6344-rm2529435905-01","Huo Hu (1994) - IMDb rm2529435905","https://m.media-amazon.com/images/M/MV5BYWE0NzI4M2YtZmFiZi00NDU1LWEwZmYtYzNjNjc4YzNjYjJlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0194957/mediaviewer/rm2529435905/","IMDb Official Stills"]];

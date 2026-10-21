@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8a9a5057a7746f06-rm47716352-01","豔光四射歌舞團 (2004) - IMDb rm47716352","https://m.media-amazon.com/images/M/MV5BMjg5NzgyOGUtNzg5Ni00MzhiLTkxNjgtMzAxMjgwM2JlMjg4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0436789/mediaviewer/rm47716352/","IMDb Official Stills"]];

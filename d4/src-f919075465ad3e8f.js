@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f919075465ad3e8f-rm2499039744-01","Im Namen des Volkes (1974) - IMDb rm2499039744","https://m.media-amazon.com/images/M/MV5BZmJhYjg2YmUtNGFiZi00Y2M0LTlmYzQtNjRkZTE1ZGJkNGNmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0163003/mediaviewer/rm2499039744/","IMDb Official Stills"]];

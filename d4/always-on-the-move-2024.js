@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-always-on-the-move-2024-rm1958768641-01","南来北往 (2024) - IMDb rm1958768641","https://m.media-amazon.com/images/M/MV5BMDI0Njc1ZDktNWI4OS00ZDUwLTg2N2UtMDQzYWIzMzI1YTQ5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27951223/mediaviewer/rm1958768641/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-channel-4-meet-the-superhumans-2012-rm1112799490-01","英国第四频道·见见超人 (2012) - IMDb rm1112799490","https://m.media-amazon.com/images/M/MV5BNTNlYzc2MDQtZDFkNC00OTVmLTg5YWItNTE5M2EzMjVmYjc4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt44861919/mediaviewer/rm1112799490/","IMDb Official Stills"]];

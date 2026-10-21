@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-a7fc5195b29a8d8b-rm1629363713-01","EAGLES REST IN LIANGSHAN (2021) - IMDb rm1629363713","https://m.media-amazon.com/images/M/MV5BMTlhNmVmM2YtZWY1Ni00OGE1LTk5M2MtODQ5MTBjODQ3ODQwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt18690058/mediaviewer/rm1629363713/","IMDb Official Stills"]];

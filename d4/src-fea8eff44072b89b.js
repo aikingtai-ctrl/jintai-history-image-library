@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-fea8eff44072b89b-rm3950876674-01","Here's Hockey (1953) - IMDb rm3950876674","https://m.media-amazon.com/images/M/MV5BYmVkOTU0ODgtMWY2Ny00MTFiLTk1ZDctNWJiYTA1MzUxNmE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt9076336/mediaviewer/rm3950876674/","IMDb Official Stills"]];

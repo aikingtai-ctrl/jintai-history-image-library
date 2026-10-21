@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9ea9101d8238c4fb-rm2104873474-01","Une fenêtre plein sud (A South Facing Window) (2025) - IMDb rm2104873474","https://m.media-amazon.com/images/M/MV5BOTE1MDA5NTMtNDhjNS00ZjYwLTg1NTktZWY5ZTMzZjMyNDc3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37502882/mediaviewer/rm2104873474/","IMDb Official Stills"]];

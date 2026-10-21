@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e4614e43aa19594b-rm2045432321-01","H Is for Happiness (2020) - IMDb rm2045432321","https://m.media-amazon.com/images/M/MV5BYzg5MTBjNzgtOTZmNC00ZWUwLTgyZDctOTIwZjIwNTdiZTI5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt13635440/mediaviewer/rm2045432321/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e783faab02e48ef7-rm663030784-01","Rose Hobart (1936) - IMDb rm663030784","https://m.media-amazon.com/images/M/MV5BYjZmZTNhMmEtOTVlOS00ZjQ0LTgwOGItZTVlZDdmYTQ2YWVhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0138758/mediaviewer/rm663030784/","IMDb Official Stills"]];

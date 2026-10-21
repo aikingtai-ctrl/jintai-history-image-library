@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2e18e6f110380591-rm2204603906-01","夜未央 (2025) - IMDb rm2204603906","https://m.media-amazon.com/images/M/MV5BNjk4YzEyMWQtYjU1Mi00NWEwLWI1YTUtYTRlY2FlODk4NDM2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35503491/mediaviewer/rm2204603906/","IMDb Official Stills"]];

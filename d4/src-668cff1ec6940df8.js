@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-668cff1ec6940df8-rm2998592000-01","HAPPY NOW (2004) - IMDb rm2998592000","https://m.media-amazon.com/images/M/MV5BMjEwNDk5OTI0OV5BMl5BanBnXkFtZTgwNzEwNTExNzE@._V1_.jpg","https://www.imdb.com/title/tt0424135/mediaviewer/rm2998592000/","IMDb Official Stills"]];

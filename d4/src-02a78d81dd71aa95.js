@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-02a78d81dd71aa95-rm4199196418-01","Comment on freine dans une descente? (2005) - IMDb rm4199196418","https://m.media-amazon.com/images/M/MV5BYmFjMjUzZDMtMGQyMi00MDljLWJhZTMtNTdjODE1NjNkYzQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2654054/mediaviewer/rm4199196418/","IMDb Official Stills"]];

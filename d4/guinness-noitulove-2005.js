@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-guinness-noitulove-2005-rm2413190657-01","健力士·逆进化 (2005) - IMDb rm2413190657","https://m.media-amazon.com/images/M/MV5BM2UxMzBiMGMtY2YzNC00ZTc1LWJkNmItY2ZjMTQ5Nzg4NWFiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt28698344/mediaviewer/rm2413190657/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-13d7113783a095f7-rm4034046465-01","IZNENADNA I PRERANA SMRT PUKOVNIKA K.K (1987) - IMDb rm4034046465","https://m.media-amazon.com/images/M/MV5BMTg3MjM4N2UtNWFiZi00NmRmLWJiOWItNWFlMjVkMGMzOGIwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0192170/mediaviewer/rm4034046465/","IMDb Official Stills"]];

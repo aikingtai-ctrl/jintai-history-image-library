@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-08df31036a18c84c-rm1081029120-01","Tse (2010) - IMDb rm1081029120","https://m.media-amazon.com/images/M/MV5BNThiNzc4MmMtMDMwYy00NDM5LWJhZjMtZTRjYTgwODY4OWYwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1925526/mediaviewer/rm1081029120/","IMDb Official Stills"]];

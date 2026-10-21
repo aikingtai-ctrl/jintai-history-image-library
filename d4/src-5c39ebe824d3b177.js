@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5c39ebe824d3b177-rm950716160-01","Meathead (2012) - IMDb rm950716160","https://m.media-amazon.com/images/M/MV5BMTYzMTE2OTczOV5BMl5BanBnXkFtZTgwNTQyOTM2MjE@._V1_.jpg","https://www.imdb.com/title/tt2243672/mediaviewer/rm950716160/","IMDb Official Stills"]];

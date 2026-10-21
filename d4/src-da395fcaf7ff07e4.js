@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-da395fcaf7ff07e4-rm1343146240-01","50 ANS (1989) - IMDb rm1343146240","https://m.media-amazon.com/images/M/MV5BMjE0MDc3MzQ3MV5BMl5BanBnXkFtZTgwMjM2Njk2MTE@._V1_.jpg","https://www.imdb.com/title/tt0096442/mediaviewer/rm1343146240/","IMDb Official Stills"]];

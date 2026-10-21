@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7c8dbf9df2dfc691-rm2898098432-01","Teresa Confalonieri (1934) - IMDb rm2898098432","https://m.media-amazon.com/images/M/MV5BN2Q3ZDViY2ItN2U3Ny00NTg3LTg1MTYtY2NhMzdlMjI0MDQ2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0025866/mediaviewer/rm2898098432/","IMDb Official Stills"]];

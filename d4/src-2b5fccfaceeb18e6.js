@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2b5fccfaceeb18e6-rm2529605378-01","Utan Kelly (2025) - IMDb rm2529605378","https://m.media-amazon.com/images/M/MV5BY2Y0YTE1MDYtZjViNy00MmQxLWFmZDYtZjZlMTk1YTI0M2E2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37673380/mediaviewer/rm2529605378/","IMDb Official Stills"]];

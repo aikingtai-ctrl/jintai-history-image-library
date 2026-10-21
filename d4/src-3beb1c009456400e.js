@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3beb1c009456400e-rm2218962946-01","With Hasan In Gaza (2025) - IMDb rm2218962946","https://m.media-amazon.com/images/M/MV5BZGQ5Yjg3N2QtMWYzMC00Y2IzLTg1ZjQtYzYyMzBhYzhhYjI5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37538502/mediaviewer/rm2218962946/","IMDb Official Stills"]];

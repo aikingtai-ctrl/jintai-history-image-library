@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5b06560c94899c70-rm2178266626-01","Force Times Displacement (2025) - IMDb rm2178266626","https://m.media-amazon.com/images/M/MV5BN2I1ODA4ZWEtYmIzMS00NGQyLTk4ODQtYTk4MzVjOTdjYWEzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37506033/mediaviewer/rm2178266626/","IMDb Official Stills"]];

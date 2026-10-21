@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1855d471f7a3fdd2-rm3072035329-01","我叫阿銘啦 (2000) - IMDb rm3072035329","https://m.media-amazon.com/images/M/MV5BMjViNDc4OTctZDdjNy00MmM1LTk4YWItM2I4MzE1MDkxYWFhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0287146/mediaviewer/rm3072035329/","IMDb Official Stills"]];

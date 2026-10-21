@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-70ad82b33f708f3a-rm2731456001-01","En djevel i skapet (2000) - IMDb rm2731456001","https://m.media-amazon.com/images/M/MV5BZTk4ZDY3ODctZWY5Ni00YWNjLThiODUtNDBhNzU0MTNlZDM0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0239347/mediaviewer/rm2731456001/","IMDb Official Stills"]];

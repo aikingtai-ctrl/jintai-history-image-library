@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-207579e57a1b2974-rm2047338240-01","夢幻部落 (2002) - IMDb rm2047338240","https://m.media-amazon.com/images/M/MV5BOGE0MTEwY2UtYjUzZS00OGQxLWJiOWQtNTY3N2E3MDZmNzcwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0340854/mediaviewer/rm2047338240/","IMDb Official Stills"]];

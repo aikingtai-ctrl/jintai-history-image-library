@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-42f363a438b3968a-rm4081366274-01","Showing Up (2023) - IMDb rm4081366274","https://m.media-amazon.com/images/M/MV5BODgzZmFmZjMtM2JmMy00ZjUyLWJmOWQtOGNiYjVkNTUxNDdkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38215311/mediaviewer/rm4081366274/","IMDb Official Stills"]];

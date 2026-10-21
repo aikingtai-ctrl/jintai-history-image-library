@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4ee191d9b31dfe80-rm3160301312-01","And Quiet Flows the Don Part III / Tikhiy Don (1958) - IMDb rm3160301312","https://m.media-amazon.com/images/M/MV5BY2RiMjk1NDQtNmY1Yi00N2YzLWE4NjAtNDJlYjQyY2I4MThhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0187550/mediaviewer/rm3160301312/","IMDb Official Stills"]];

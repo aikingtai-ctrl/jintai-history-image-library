@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-bd1270e039e2b430-rm2096216834-01","Kitsch Panorama (2009) - IMDb rm2096216834","https://m.media-amazon.com/images/M/MV5BM2I4ZDlhZWMtOGYzMi00OThlLThmYmYtNTFlY2I3M2Q3YzI2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1598095/mediaviewer/rm2096216834/","IMDb Official Stills"]];

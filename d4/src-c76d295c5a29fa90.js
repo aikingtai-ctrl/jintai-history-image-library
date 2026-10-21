@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c76d295c5a29fa90-rm1756019201-01","CLARA (2005) - IMDb rm1756019201","https://m.media-amazon.com/images/M/MV5BZDVjZWExMjQtMjRmYS00NDFlLTgyYWEtYWIwOGUxNzI1OTEzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0459667/mediaviewer/rm1756019201/","IMDb Official Stills"]];

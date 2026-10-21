@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-940355ccf38bddbc-rm599023360-01","BIKUR HOLIM (2005) - IMDb rm599023360","https://m.media-amazon.com/images/M/MV5BMWJiMDBiODUtZDFkZC00NGJkLTlkMjEtYzY4NjJiY2FiNTA4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7697424/mediaviewer/rm599023360/","IMDb Official Stills"]];

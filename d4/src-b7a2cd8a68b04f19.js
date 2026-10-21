@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b7a2cd8a68b04f19-rm180817152-01","Peshavar Waltz (1994) - IMDb rm180817152","https://m.media-amazon.com/images/M/MV5BMDk5NTQ5NTQtNzdmOS00ODRhLTg0MGItZGRmMWM0NjIxZTFlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0110817/mediaviewer/rm180817152/","IMDb Official Stills"]];

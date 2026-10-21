@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1847c5286ab0151f-rm3529593857-01","Trapped by the Terror (1949) - IMDb rm3529593857","https://m.media-amazon.com/images/M/MV5BOTZkNzE5MTktMzU0Yi00ZjgxLThiZjYtYzVmNDUxZGVmYjBhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0041984/mediaviewer/rm3529593857/","IMDb Official Stills"]];

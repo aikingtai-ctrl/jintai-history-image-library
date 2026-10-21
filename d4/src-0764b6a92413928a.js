@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0764b6a92413928a-rm2811010561-01","ANINO (2000) - IMDb rm2811010561","https://m.media-amazon.com/images/M/MV5BY2ZkNDNhYmQtNTlkZC00ZmFmLTkzOWYtYTU2N2Y2OGMzMTI3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0245718/mediaviewer/rm2811010561/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-hagetaka-2007-rm1560784898-01","秃鹰 (2007) - IMDb rm1560784898","https://m.media-amazon.com/images/M/MV5BNDhiNzM3ZDAtYjIxYi00NzYzLWE2OTUtYmYxMGFkZTYxYzBlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0956322/mediaviewer/rm1560784898/","IMDb Official Stills"]];

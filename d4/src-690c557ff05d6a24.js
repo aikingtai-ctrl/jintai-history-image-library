@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-690c557ff05d6a24-rm3640004864-01","Angi Vera (1979) - IMDb rm3640004864","https://m.media-amazon.com/images/M/MV5BNzViOWVlOGMtMzZlMC00ZWM4LTg4NmUtODY2NTVjZmQ4NDk3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0183295/mediaviewer/rm3640004864/","IMDb Official Stills"]];

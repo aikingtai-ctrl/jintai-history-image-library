@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-22d1234150e5561c-rm1425355264-01","Pasión en el mar (1956) - IMDb rm1425355264","https://m.media-amazon.com/images/M/MV5BOWRiMWQxOTMtN2NiNS00NGRlLTk2ZDQtMzI0ZThjZjBiNWIxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0049599/mediaviewer/rm1425355264/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3371b7a83b6c3ac4-rm3534368768-01","JE SAIS QUE J’AI TORT MAIS DEMANDEZ A MES COPAINS ILS DISENT LA MÊME CHOSE (1983) - IMDb rm3534368768","https://m.media-amazon.com/images/M/MV5BNzVkYTU3NGUtM2JlOS00N2RjLWFkMjMtM2M1OTZkNDUwNTE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0245178/mediaviewer/rm3534368768/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-four-generations-under-one-roof-1985-rm2409585920-01","四世同堂 (1985) - IMDb rm2409585920","https://m.media-amazon.com/images/M/MV5BNTEzNTRlMGUtZDc2ZC00ZDM5LTliMmMtZTYwYjZjOTkyOWY2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6771382/mediaviewer/rm2409585920/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-abcc348612139c54-rm2420843521-01","Untitled Ghostbusters: Afterlife sequel (2023) - IMDb rm2420843521","https://m.media-amazon.com/images/M/MV5BYTViODYxYmMtYmQzZS00MjJjLWI4YmItODk0NThmMWJhMDRjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt28267808/mediaviewer/rm2420843521/","IMDb Official Stills"]];

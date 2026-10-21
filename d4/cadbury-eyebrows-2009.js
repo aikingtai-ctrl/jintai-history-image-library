@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-cadbury-eyebrows-2009-rm1285070850-01","吉百利·眉毛 (2009) - IMDb rm1285070850","https://m.media-amazon.com/images/M/MV5BODA2NDJmYTMtOGNjYy00ZTUxLTliOGMtMjBlZGI0YTNjM2NlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt33838632/mediaviewer/rm1285070850/","IMDb Official Stills"]];

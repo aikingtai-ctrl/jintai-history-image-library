@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c60703868fb57c69-rm310081792-01","煙水寒 (1978) - IMDb rm310081792","https://m.media-amazon.com/images/M/MV5BNDM3MjBmNmEtMTQxYy00NGUzLTg0NWYtMzg5MGNiMjQ3NjZkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2510008/mediaviewer/rm310081792/","IMDb Official Stills"]];

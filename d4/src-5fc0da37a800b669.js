@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5fc0da37a800b669-rm838095360-01","Die Sachverständigen (1973) - IMDb rm838095360","https://m.media-amazon.com/images/M/MV5BZmYxMzJjM2ItN2JhNi00NWYzLWI2MTgtZWEyZTY3Nzc5MTI4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0163188/mediaviewer/rm838095360/","IMDb Official Stills"]];

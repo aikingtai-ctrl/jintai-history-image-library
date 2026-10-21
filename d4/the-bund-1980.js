@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-the-bund-1980-rm3679651329-01","上海滩 (1980) - IMDb rm3679651329","https://m.media-amazon.com/images/M/MV5BNzVmNjAzZDYtMTA3ZS00NjQ1LWExOTEtNjAzMTE3MWI3OGY3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt22538274/mediaviewer/rm3679651329/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7c0eb11512135e2a-rm3379947265-01","Born in Damascus (2022) - IMDb rm3379947265","https://m.media-amazon.com/images/M/MV5BMTBiMGE2MmEtMTk5My00OGFkLTk5OWUtNWUxNWJjYzdkODFlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt15939930/mediaviewer/rm3379947265/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-the-long-march-2001-rm2760782592-01","长征 (2001) - IMDb rm2760782592","https://m.media-amazon.com/images/M/MV5BMTM3MDMyZmMtOWIyMC00YjNhLWE4OTQtMjI3NTlmMzZiMzVlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0854148/mediaviewer/rm2760782592/","IMDb Official Stills"]];

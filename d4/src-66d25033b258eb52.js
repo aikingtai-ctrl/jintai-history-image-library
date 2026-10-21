@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-66d25033b258eb52-rm3233298944-01","Vento di terra (2004) - IMDb rm3233298944","https://m.media-amazon.com/images/M/MV5BZmE1ZjA4ODktZTVhOC00NzAzLWI4OGMtY2IyMGFjNjkwZWQzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0424536/mediaviewer/rm3233298944/","IMDb Official Stills"]];

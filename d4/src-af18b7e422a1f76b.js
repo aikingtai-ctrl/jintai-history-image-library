@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-af18b7e422a1f76b-rm1267336960-01","A Wopbobaloobop a Lopbamboom (1989) - IMDb rm1267336960","https://m.media-amazon.com/images/M/MV5BZTliNTY3NzEtNmNmMS00ZjIxLTlhMTUtNWMwOTA3ZWIwYjU5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0096745/mediaviewer/rm1267336960/","IMDb Official Stills"]];

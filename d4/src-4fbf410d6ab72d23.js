@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4fbf410d6ab72d23-rm1079755266-01","La cité du midi (1951) - IMDb rm1079755266","https://m.media-amazon.com/images/M/MV5BYWRhNjU0N2QtOTBjYy00ZWMzLTliYjMtZGQ0ZjE2NDkxYzE3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0140901/mediaviewer/rm1079755266/","IMDb Official Stills"]];

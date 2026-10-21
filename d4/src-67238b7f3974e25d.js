@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-67238b7f3974e25d-rm1385326593-01","RAZEH-DEL (2024) - IMDb rm1385326593","https://m.media-amazon.com/images/M/MV5BZTViYTk4MTAtZDVhYi00OTE3LWI4OWMtY2FlNGFiZTA4YjkwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32896749/mediaviewer/rm1385326593/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-120fc284f9c25af8-rm1155074048-01","Aadmi Ki Aurat Aur Anya Kahaniya (2009) - IMDb rm1155074048","https://m.media-amazon.com/images/M/MV5BOTMxMzAyZmUtYjBmMy00YmFjLTgzNTctOGI1OWVlMWJhZjk5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1500682/mediaviewer/rm1155074048/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-lauryn-hill-doo-wop-that-thing-1998-rm438517760-01","Doo Wop (That Thing) — 萝琳·希尔 (1998) - IMDb rm438517760","https://m.media-amazon.com/images/M/MV5BYWE0ZDA1MzYtOGJkZS00M2E4LTlmZTItNGUzMmZmODk4YTAxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6668286/mediaviewer/rm438517760/","IMDb Official Stills"]];

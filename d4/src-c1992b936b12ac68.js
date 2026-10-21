@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c1992b936b12ac68-rm4009781504-01","Bror, min bror (1999) - IMDb rm4009781504","https://m.media-amazon.com/images/M/MV5BYzdiYjJmN2UtODE0Yi00OGI2LWI0ZWQtZGViZDNlMDEyODUxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0191850/mediaviewer/rm4009781504/","IMDb Official Stills"]];

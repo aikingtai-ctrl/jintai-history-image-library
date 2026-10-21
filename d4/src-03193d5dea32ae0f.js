@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-03193d5dea32ae0f-rm4069683968-01","Mahlzeiten (1967) - IMDb rm4069683968","https://m.media-amazon.com/images/M/MV5BNWZmMjQyMDQtZjM5Mi00ZDJlLWI2YjYtYWRhNDhiMzA4ZTMzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0060653/mediaviewer/rm4069683968/","IMDb Official Stills"]];

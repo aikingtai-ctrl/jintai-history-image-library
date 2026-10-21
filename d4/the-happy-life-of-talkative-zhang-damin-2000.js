@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-the-happy-life-of-talkative-zhang-damin-2000-rm2112757248-01","贫嘴张大民的幸福生活 (2000) - IMDb rm2112757248","https://m.media-amazon.com/images/M/MV5BZDhlYWZjMzktMjUwZS00MjY2LTk5MjktMDBjYmM1MjcwMjk0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1604929/mediaviewer/rm2112757248/","IMDb Official Stills"]];

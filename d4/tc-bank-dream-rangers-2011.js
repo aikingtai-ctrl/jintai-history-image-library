@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-tc-bank-dream-rangers-2011-rm4108712448-01","大众银行·梦骑士 (2011) - IMDb rm4108712448","https://m.media-amazon.com/images/M/MV5BMTQ5MjY3NjM5NV5BMl5BanBnXkFtZTgwMDUzNDc5MjE@._V1_.jpg","https://www.imdb.com/title/tt3508174/mediaviewer/rm4108712448/","IMDb Official Stills"]];

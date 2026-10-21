@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f030d8ed1ebd44cf-rm1624832257-01","Skeleton Woman (2005) - IMDb rm1624832257","https://m.media-amazon.com/images/M/MV5BNDRlNjQyYmUtMzBjZS00OWQ3LWI4YjEtNWNiZDZkNzVjZTE3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0214140/mediaviewer/rm1624832257/","IMDb Official Stills"]];

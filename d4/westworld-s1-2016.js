@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-westworld-s1-2016-rm511502593-01","西部世界 第一季 (2016) - IMDb rm511502593","https://m.media-amazon.com/images/M/MV5BNjQ3MzlkMGQtOWZmZS00NTEyLWI2ZDMtYzA4YmZiZGE5MDZkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt16152328/mediaviewer/rm511502593/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-40d425e0cf000728-rm707126528-01","野麻雀 (1997) - IMDb rm707126528","https://m.media-amazon.com/images/M/MV5BYTUwNmM3NzAtMmQxYy00NjEwLWJjMzEtMWZjM2Y5Mzk3NWJiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0253964/mediaviewer/rm707126528/","IMDb Official Stills"]];

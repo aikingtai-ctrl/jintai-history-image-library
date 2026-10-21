@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-saa-d1ae12c73184b883-rm34600704-01","THE SHYNESS OF TREES (2025) - IMDb rm34600704","https://m.media-amazon.com/images/M/MV5BMTk2NDcwMjkyNV5BMl5BanBnXkFtZTgwMDY1MDc2NTE@._V1_.jpg","https://www.imdb.com/title/tt3450900/mediaviewer/rm34600704/","IMDb Official Stills"]];

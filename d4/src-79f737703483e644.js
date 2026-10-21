@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-79f737703483e644-rm1374096640-01","餃子 (2005) - IMDb rm1374096640","https://m.media-amazon.com/images/M/MV5BZGZjYjVlOGUtYWEyYi00ZTQ2LWI1OTYtOGQxNWNkYzY1MzdmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6083430/mediaviewer/rm1374096640/","IMDb Official Stills"]];

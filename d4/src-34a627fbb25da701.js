@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-34a627fbb25da701-rm2385911552-01","La circostanza (1974) - IMDb rm2385911552","https://m.media-amazon.com/images/M/MV5BYjJiZDJmNjItMDFlOC00YWY1LTk3ZGYtMDMzOTkxNzBmNzZlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0069885/mediaviewer/rm2385911552/","IMDb Official Stills"]];

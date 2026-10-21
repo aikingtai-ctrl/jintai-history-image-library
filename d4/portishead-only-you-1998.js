@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-portishead-only-you-1998-rm899839488-01","Only You — 波蒂斯黑德 (1998) - IMDb rm899839488","https://m.media-amazon.com/images/M/MV5BZDI0YjkzOGEtZTU3Mi00NzFlLWE4YWMtYjZjNjY2ODRkY2NmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6805250/mediaviewer/rm899839488/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8ca041cd6598dcb6-rm65143296-01","Lucia (2004) - IMDb rm65143296","https://m.media-amazon.com/images/M/MV5BMjc3NzE2NzgzNl5BMl5BanBnXkFtZTgwNTk4OTkxMDI@._V1_.jpg","https://www.imdb.com/title/tt0402349/mediaviewer/rm65143296/","IMDb Official Stills"]];

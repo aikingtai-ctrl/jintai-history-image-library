@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e924b1d463084fb8-rm2537572864-01","Staila crudanta (2005) - IMDb rm2537572864","https://m.media-amazon.com/images/M/MV5BZDhlN2U2OGYtOGJhOC00YmFkLTlmMjItMDlhZDJlNmQwNTc4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0469834/mediaviewer/rm2537572864/","IMDb Official Stills"]];

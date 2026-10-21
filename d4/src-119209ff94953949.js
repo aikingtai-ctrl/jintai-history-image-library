@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-119209ff94953949-rm228776192-01","I Was Born, But... (2010) - IMDb rm228776192","https://m.media-amazon.com/images/M/MV5BMTM4MjAyNTUwOF5BMl5BanBnXkFtZTgwNjY3NzkwMDE@._V1_.jpg","https://www.imdb.com/title/tt1398029/mediaviewer/rm228776192/","IMDb Official Stills"]];

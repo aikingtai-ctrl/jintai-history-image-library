@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-88c5b41faa638603-rm3856467968-01","13 Lakes (2004) - IMDb rm3856467968","https://m.media-amazon.com/images/M/MV5BY2QwZDQ2NDYtMmJlNy00N2Y4LWI3MWMtYzZmZDgwM2Y5M2NkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0445158/mediaviewer/rm3856467968/","IMDb Official Stills"]];

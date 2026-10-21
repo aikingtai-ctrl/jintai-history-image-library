@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7e1d9c77491745b2-rm2758700033-01","雪豹和她的朋友们 (2023) - IMDb rm2758700033","https://m.media-amazon.com/images/M/MV5BOTZmNjkzOGItNDRhZC00MGI3LTgyZTMtNzExNDVhOTljM2JmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27996484/mediaviewer/rm2758700033/","IMDb Official Stills"]];

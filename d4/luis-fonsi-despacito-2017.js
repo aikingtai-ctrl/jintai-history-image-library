@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-luis-fonsi-despacito-2017-rm3226617088-01","Despacito — 路易斯·冯西 (2017) - IMDb rm3226617088","https://m.media-amazon.com/images/M/MV5BZTNlZTg0NWMtZDMyMC00ZjZkLTgzNjAtMzBjMDVjZjRmNmJjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7038876/mediaviewer/rm3226617088/","IMDb Official Stills"]];

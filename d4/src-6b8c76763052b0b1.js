@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6b8c76763052b0b1-rm432672768-01","Kinderspiele (1992) - IMDb rm432672768","https://m.media-amazon.com/images/M/MV5BYmM3MDllYmItZTdiMi00YWQ3LTg3MTctMzE0YjU1M2E0MzE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0104615/mediaviewer/rm432672768/","IMDb Official Stills"]];

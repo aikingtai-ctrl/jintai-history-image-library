@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b088f0fe6bbf57b3-rm2153137664-01","无人喝彩 (1994) - IMDb rm2153137664","https://m.media-amazon.com/images/M/MV5BMTE3YjhiZTYtYmNjMi00YTQ4LWJiOGUtN2FlNmNjNGMzODUyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0478434/mediaviewer/rm2153137664/","IMDb Official Stills"]];

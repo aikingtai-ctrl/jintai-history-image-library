@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-00cc2583196a6d12-rm318764546-01","Seattle Film Festival 2022 Awards Ceremony (2022) - IMDb rm318764546","https://m.media-amazon.com/images/M/MV5BYjM5N2NiMTYtMzMyMC00OWFjLTlmYzktOWVlZjA0MjY2MDk2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt48410062/mediaviewer/rm318764546/","IMDb Official Stills"]];

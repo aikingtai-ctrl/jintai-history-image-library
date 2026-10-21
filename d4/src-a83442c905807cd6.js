@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a83442c905807cd6-rm3158219009-01","PERFORMANCE PIECES (1989) - IMDb rm3158219009","https://m.media-amazon.com/images/M/MV5BZTUxYjc0YmItNGE0Mi00NDQ1LThmMDctNDQzZjRjMTUyNDIxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10495310/mediaviewer/rm3158219009/","IMDb Official Stills"]];

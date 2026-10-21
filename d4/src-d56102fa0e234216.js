@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d56102fa0e234216-rm815701248-01","Kairat (1992) - IMDb rm815701248","https://m.media-amazon.com/images/M/MV5BMTk5ODI1Mjg1MV5BMl5BanBnXkFtZTcwMDc4NjcyMQ@@._V1_.jpg","https://www.imdb.com/title/tt0104587/mediaviewer/rm815701248/","IMDb Official Stills"]];

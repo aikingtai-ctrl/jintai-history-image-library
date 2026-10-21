@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-00a8a77608900884-rm4279362560-01","Kolorowe ponczochy (1962) - IMDb rm4279362560","https://m.media-amazon.com/images/M/MV5BZDYwYjcwM2MtYzQ5Ni00NWVjLTgwY2UtMDc2YjI1OTM2YTA5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0054000/mediaviewer/rm4279362560/","IMDb Official Stills"]];

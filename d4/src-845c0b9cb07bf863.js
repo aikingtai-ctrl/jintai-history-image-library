@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-845c0b9cb07bf863-rm2611454721-01","Co jsme udelali slepícim (1978) - IMDb rm2611454721","https://m.media-amazon.com/images/M/MV5BNGRlYzI5OTItOWNkYi00YzdkLWEzNzAtMWM2OTQ4Yjc3ZmJlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0169693/mediaviewer/rm2611454721/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-wendys-wheres-the-beef-1984-rm1306760961-01","温蒂汉堡·牛肉在哪儿 (1984) - IMDb rm1306760961","https://m.media-amazon.com/images/M/MV5BMTZmZTM4NTctYWYwNC00ZmJmLTg3YzUtNWM4Y2E4OGUwNGJlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10918948/mediaviewer/rm1306760961/","IMDb Official Stills"]];

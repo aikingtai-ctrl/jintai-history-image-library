@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-the-white-stripes-seven-nation-army-2003-rm2596623104-01","Seven Nation Army — 白色条纹乐队 (2003) - IMDb rm2596623104","https://m.media-amazon.com/images/M/MV5BZGY5ZTg4Y2QtOGFjZS00MTU1LWJjM2QtNzNiMTQ2MTE3NzQ4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7797426/mediaviewer/rm2596623104/","IMDb Official Stills"]];

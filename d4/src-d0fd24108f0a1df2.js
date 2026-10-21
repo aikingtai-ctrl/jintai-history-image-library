@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d0fd24108f0a1df2-rm2466026240-01","Monsieur Fabre (1952) - IMDb rm2466026240","https://m.media-amazon.com/images/M/MV5BMTAyNzcxNTk2ODFeQTJeQWpwZ15BbWU3MDAwOTgzNDE@._V1_.jpg","https://www.imdb.com/title/tt0044917/mediaviewer/rm2466026240/","IMDb Official Stills"]];

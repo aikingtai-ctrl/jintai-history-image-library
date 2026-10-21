@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125381393-rm3499381248-01","Dream of a Young Soldier (2001) - IMDb rm3499381248","https://m.media-amazon.com/images/M/MV5BMzM5OTg5MGItMzUyMi00NWM2LThiZTItYTc2YzQ2NjM3YzNhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0346904/mediaviewer/rm3499381248/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e476d2475dd2e705-rm2120529920-01","Vivre (1994) - IMDb rm2120529920","https://m.media-amazon.com/images/M/MV5BMTQ3NTA5MDcxOF5BMl5BanBnXkFtZTcwMzc3MDU5NA@@._V1_.jpg","https://www.imdb.com/title/tt0110081/mediaviewer/rm2120529920/","IMDb Official Stills"]];

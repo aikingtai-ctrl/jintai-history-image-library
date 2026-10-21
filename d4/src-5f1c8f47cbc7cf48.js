@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5f1c8f47cbc7cf48-rm2302160896-01","MERLIN OU LE COURS DE L’OR (1982) - IMDb rm2302160896","https://m.media-amazon.com/images/M/MV5BYTlhMjg4OTktOTcwMy00MmZjLWE3ZWMtYjMwYjgyNjI0ZGQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0243417/mediaviewer/rm2302160896/","IMDb Official Stills"]];

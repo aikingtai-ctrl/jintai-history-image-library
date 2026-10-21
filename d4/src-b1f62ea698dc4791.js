@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b1f62ea698dc4791-rm496201985-01","頤園飄香 (1984) - IMDb rm496201985","https://m.media-amazon.com/images/M/MV5BZjliMGQ2YjYtNjFmOS00NWUwLThhZDQtZmZkYTUxM2UzMjFjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5092470/mediaviewer/rm496201985/","IMDb Official Stills"]];

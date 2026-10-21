@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7c127ece6449c585-rm3284973313-01","Auguszta etet (1986) - IMDb rm3284973313","https://m.media-amazon.com/images/M/MV5BMzM1ZWJhMjgtYTIxYy00NzdjLWIxMGItNjIwZjE3M2IxZDhhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0123386/mediaviewer/rm3284973313/","IMDb Official Stills"]];

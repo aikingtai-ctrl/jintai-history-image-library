@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e5d35f1e624a82db-rm2678796288-01","El otro barrio / The Other Side (2000) - IMDb rm2678796288","https://m.media-amazon.com/images/M/MV5BNjQ2MjM0ZDMtMWE1Yi00NTU1LTg2ZTUtYTg0NmI5NTM3Y2YyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3994250/mediaviewer/rm2678796288/","IMDb Official Stills"]];

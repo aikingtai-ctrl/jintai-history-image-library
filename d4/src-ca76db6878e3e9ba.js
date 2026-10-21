@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ca76db6878e3e9ba-rm3664223745-01","Jane bleibt Jane (1977) - IMDb rm3664223745","https://m.media-amazon.com/images/M/MV5BNWQ3OWNiMDYtYzZhMi00OWY2LThjMzQtYTZlMDIwNDRhYmY0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0387315/mediaviewer/rm3664223745/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c4af3b78d4026b09-rm2712843778-01","Forfølgelsen (1981) - IMDb rm2712843778","https://m.media-amazon.com/images/M/MV5BNTg2ZjFlZWItYmY3Zi00MTkzLTlhMzUtMzRlZTY5MjJhNmQ4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0082401/mediaviewer/rm2712843778/","IMDb Official Stills"]];

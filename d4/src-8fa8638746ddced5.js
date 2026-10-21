@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8fa8638746ddced5-rm3803124992-01","乾隆下江南 (1977) - IMDb rm3803124992","https://m.media-amazon.com/images/M/MV5BNjc5OThjOTktZDA2NC00ODQ3LThlOWEtNDJjMDgxMjIzZGVmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0075637/mediaviewer/rm3803124992/","IMDb Official Stills"]];

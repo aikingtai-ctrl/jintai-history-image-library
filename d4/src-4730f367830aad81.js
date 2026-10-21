@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4730f367830aad81-rm502653952-01","Freunde (2001) - IMDb rm502653952","https://m.media-amazon.com/images/M/MV5BNWJmZTQ0OTEtZDI1OS00MDU0LWI2MWItOGFkZjYxYTU5MzhkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0297125/mediaviewer/rm502653952/","IMDb Official Stills"]];

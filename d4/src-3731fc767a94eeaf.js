@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3731fc767a94eeaf-rm3495924224-01","Fyra Veckor i Juni (2006) - IMDb rm3495924224","https://m.media-amazon.com/images/M/MV5BMTYxNDQyNDY2N15BMl5BanBnXkFtZTcwODYzMjA0MQ@@._V1_.jpg","https://www.imdb.com/title/tt0472526/mediaviewer/rm3495924224/","IMDb Official Stills"]];

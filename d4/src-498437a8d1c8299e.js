@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-498437a8d1c8299e-rm670883585-01","再见吧!少年 (2021) - IMDb rm670883585","https://m.media-amazon.com/images/M/MV5BNjVlYTI3NmItZTdjOS00YjQ1LTgzZWItNTlhMGJhMWQ1N2ZmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12695058/mediaviewer/rm670883585/","IMDb Official Stills"]];

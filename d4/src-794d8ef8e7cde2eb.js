@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-794d8ef8e7cde2eb-rm1701324800-01","Samac (1958) - IMDb rm1701324800","https://m.media-amazon.com/images/M/MV5BNjcxMGE5YTktN2I2ZS00MTM3LWFkZjAtNzU0MDVlNTI4M2JlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0355934/mediaviewer/rm1701324800/","IMDb Official Stills"]];

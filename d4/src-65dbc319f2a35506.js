@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-65dbc319f2a35506-rm3119572737-01","The Hat (1964) - IMDb rm3119572737","https://m.media-amazon.com/images/M/MV5BNjhiNDRkOTctZmM2OS00NjFmLWI4OTEtNDlhYjYxMzgxMTkzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0156596/mediaviewer/rm3119572737/","IMDb Official Stills"]];

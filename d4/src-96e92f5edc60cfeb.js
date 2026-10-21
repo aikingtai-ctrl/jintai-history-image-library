@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-96e92f5edc60cfeb-rm3025860610-01","Die Brücke über den Fluss (2016) - IMDb rm3025860610","https://m.media-amazon.com/images/M/MV5BMTExZWMyOTYtOTZmYS00YjgzLWE1MDQtZjNiNjc3Y2E4OTk3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5652768/mediaviewer/rm3025860610/","IMDb Official Stills"]];

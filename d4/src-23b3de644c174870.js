@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-23b3de644c174870-rm4175488256-01","經過 (2004) - IMDb rm4175488256","https://m.media-amazon.com/images/M/MV5BYjRkMmE3N2EtMWI5Yy00MDk0LWJlNWItNDYyZDEyYjk0YjFkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0447349/mediaviewer/rm4175488256/","IMDb Official Stills"]];

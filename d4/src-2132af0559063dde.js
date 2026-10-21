@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2132af0559063dde-rm1359011073-01","Marinai senza stelle (1948) - IMDb rm1359011073","https://m.media-amazon.com/images/M/MV5BZDQ1YzQ5OTMtZWIwMS00NGUxLTg0N2QtOGZiMDc2ODlkN2VjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0036143/mediaviewer/rm1359011073/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5a59ca39a3468fbf-rm2899778049-01","疯狂的代价 (1989) - IMDb rm2899778049","https://m.media-amazon.com/images/M/MV5BZjFkZGZjMDUtZmIyYi00NjVhLThlMjktODQwZDAzODkzOGI4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0095151/mediaviewer/rm2899778049/","IMDb Official Stills"]];

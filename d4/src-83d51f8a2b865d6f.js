@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-83d51f8a2b865d6f-rm3333750273-01","Scary Time (1960) - IMDb rm3333750273","https://m.media-amazon.com/images/M/MV5BNjRmYTQ2NmItZTMyMy00OWQ4LWE2OTktMDQ0MzI4ODgzYTYxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt7029538/mediaviewer/rm3333750273/","IMDb Official Stills"]];

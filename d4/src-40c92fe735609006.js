@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-40c92fe735609006-rm4188018688-01","PACSIRTA (1964) - IMDb rm4188018688","https://m.media-amazon.com/images/M/MV5BMmIyMTZmZGUtMjY0Mi00MGI5LWExNTQtZjJiMzdkMjU4ODY3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0057394/mediaviewer/rm4188018688/","IMDb Official Stills"]];

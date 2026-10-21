@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a8ad153675af5159-rm823741441-01","The Ever-Changing Motor Car (1962) - IMDb rm823741441","https://m.media-amazon.com/images/M/MV5BMDdmY2UxYjYtYmUzYy00MDYyLThmMjEtNjhlMDUyNjBhZmIwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1879070/mediaviewer/rm823741441/","IMDb Official Stills"]];

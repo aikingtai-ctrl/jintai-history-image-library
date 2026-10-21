@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-amy-winehouse-back-to-black-2007-rm789972224-01","Back to Black — 艾米·怀恩豪斯 (2007) - IMDb rm789972224","https://m.media-amazon.com/images/M/MV5BZmFmZWI4NTUtYjc5MS00YWUxLWE3YmYtZWY0NDE3YWM0ZDg5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6326294/mediaviewer/rm789972224/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b73c1d2915b237e0-rm2112804097-01","STOP (1999) - IMDb rm2112804097","https://m.media-amazon.com/images/M/MV5BNWZiZDkzODYtYzM3MS00ZWU0LTk1ZjctMjIzMGQyN2Q2YzBmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0202598/mediaviewer/rm2112804097/","IMDb Official Stills"]];

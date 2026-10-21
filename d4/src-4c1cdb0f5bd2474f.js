@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4c1cdb0f5bd2474f-rm2514426112-01","L'albero delle pere (1998) - IMDb rm2514426112","https://m.media-amazon.com/images/M/MV5BYzNmNDBlZGQtOTQyZS00NGNjLTgzMTAtNDZiYWIyMWQ2N2JlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0143093/mediaviewer/rm2514426112/","IMDb Official Stills"]];

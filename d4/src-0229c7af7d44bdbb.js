@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0229c7af7d44bdbb-rm3840465410-01","SCULPTURE PHYSIQUE (1988) - IMDb rm3840465410","https://m.media-amazon.com/images/M/MV5BY2U5NmNkZTItNDEwMS00MzlhLTgyMjgtNzA2ZmVjMTZiYjI2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0242863/mediaviewer/rm3840465410/","IMDb Official Stills"]];

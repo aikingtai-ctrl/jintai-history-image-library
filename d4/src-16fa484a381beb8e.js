@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-16fa484a381beb8e-rm4242990080-01","金雞SSS (2015) - IMDb rm4242990080","https://m.media-amazon.com/images/M/MV5BODM5YjBiNjktMGNiMC00NTIwLThjZjAtODFjYzUyMmY3ZDUzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3451660/mediaviewer/rm4242990080/","IMDb Official Stills"]];

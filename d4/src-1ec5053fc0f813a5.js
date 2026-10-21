@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1ec5053fc0f813a5-rm2236081152-01","VIAGEM AO PRINCIPIO DO MUNDO (1997) - IMDb rm2236081152","https://m.media-amazon.com/images/M/MV5BZTkwNWRkMDktMzY4NC00ZTY4LWE3ZDQtNDNjOTQxZTNiMWUyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0120443/mediaviewer/rm2236081152/","IMDb Official Stills"]];

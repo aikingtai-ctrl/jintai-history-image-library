@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-chinese-style-divorce-2004-rm1363351808-01","中国式离婚 (2004) - IMDb rm1363351808","https://m.media-amazon.com/images/M/MV5BZjAwODRhZDItYzQ1MS00NmU2LThjNzktN2MxNDUyZjg2YzY1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0463277/mediaviewer/rm1363351808/","IMDb Official Stills"]];

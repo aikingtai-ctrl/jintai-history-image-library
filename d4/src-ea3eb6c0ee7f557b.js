@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ea3eb6c0ee7f557b-rm2696745728-01","Rodzina czlowiecza (1966) - IMDb rm2696745728","https://m.media-amazon.com/images/M/MV5BMGU4MTVjMzItNzJkYy00NGVlLWI1ODQtNWZlY2Y2NzZmNzQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0175127/mediaviewer/rm2696745728/","IMDb Official Stills"]];

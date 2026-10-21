@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-coca-cola-happiness-factory-2006-rm281363712-01","可口可乐·快乐工厂 (2006) - IMDb rm281363712","https://m.media-amazon.com/images/M/MV5BZWFlYWQ3YTktZjBkMi00ZTBkLThjMWMtNmFjODY5M2U5NmEwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8747496/mediaviewer/rm281363712/","IMDb Official Stills"]];

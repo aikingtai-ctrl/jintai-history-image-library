@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2553031d8fa29e01-rm1484444162-01","狀元及第 (1965) - IMDb rm1484444162","https://m.media-amazon.com/images/M/MV5BODg1ZjY1MzUtZGMwOS00M2ZkLThhNWQtYjg2ODIyMjIzNDYzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1534433/mediaviewer/rm1484444162/","IMDb Official Stills"]];

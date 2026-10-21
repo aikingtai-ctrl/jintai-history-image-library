@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-60acd925b6e77317-rm3552127745-01","LA DOUCEUR DU VILLAGE (1964) - IMDb rm3552127745","https://m.media-amazon.com/images/M/MV5BZTZkYmQyZTctOTQ2Ni00MTRjLWFkNDktZDk0OGNmYzNiNzQ4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1806942/mediaviewer/rm3552127745/","IMDb Official Stills"]];

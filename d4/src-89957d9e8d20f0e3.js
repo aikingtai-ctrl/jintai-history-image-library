@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-89957d9e8d20f0e3-rm1706151426-01","The Old Bull Knows, Or Once Knew (2025) - IMDb rm1706151426","https://m.media-amazon.com/images/M/MV5BMjUxYmRjYzctNDY1OS00Y2FkLWJkNzAtOGUxNzA3YjQwMzM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt42745444/mediaviewer/rm1706151426/","IMDb Official Stills"]];

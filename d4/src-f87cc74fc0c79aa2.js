@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f87cc74fc0c79aa2-rm1183522304-01","La Sangre Brota (2008) - IMDb rm1183522304","https://m.media-amazon.com/images/M/MV5BOTg4MWM1MzktZWJlMy00N2I2LTlhN2UtNzQ0ZTAxMmFjMjJhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1189361/mediaviewer/rm1183522304/","IMDb Official Stills"]];

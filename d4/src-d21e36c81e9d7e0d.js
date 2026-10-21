@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d21e36c81e9d7e0d-rm3125421312-01","Balthazar (1994) - IMDb rm3125421312","https://m.media-amazon.com/images/M/MV5BYTI5ZDhlMjgtY2EyMi00ZjhhLWJkNTktODRkZGQ1ZjM1ZmRlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2154507/mediaviewer/rm3125421312/","IMDb Official Stills"]];

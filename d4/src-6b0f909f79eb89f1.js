@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6b0f909f79eb89f1-rm3227529984-01","Voyage en Boscavie (1958) - IMDb rm3227529984","https://m.media-amazon.com/images/M/MV5BOTYzMjlhZDgtODQ4ZC00ZGYzLWI1OTYtODk1ZWI3YjQ5NTY3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1849204/mediaviewer/rm3227529984/","IMDb Official Stills"]];

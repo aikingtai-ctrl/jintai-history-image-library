@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f9ba03b23b29984e-rm3557310208-01","大頭仔 (1988) - IMDb rm3557310208","https://m.media-amazon.com/images/M/MV5BOTc1OWQ1MmYtZWZhNi00YTI4LTgzNDYtODkxYmYxN2NiN2E5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2852802/mediaviewer/rm3557310208/","IMDb Official Stills"]];

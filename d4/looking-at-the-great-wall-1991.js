@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-looking-at-the-great-wall-1991-rm3528197632-01","望长城 (1991) - IMDb rm3528197632","https://m.media-amazon.com/images/M/MV5BNjA1MDFiOTMtOTJhMS00OGY2LWEwMmMtMGQ1Zjg5ZTM0YmY0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6241222/mediaviewer/rm3528197632/","IMDb Official Stills"]];

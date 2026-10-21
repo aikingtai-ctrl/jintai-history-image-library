@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-black-cat-detective-1984-rm2110665728-01","黑猫警长 (1984) - IMDb rm2110665728","https://m.media-amazon.com/images/M/MV5BMTAxMjI4NzAtMjU2OS00M2U1LTllYWYtMDIyMTE0YWQ3YzE4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6821884/mediaviewer/rm2110665728/","IMDb Official Stills"]];

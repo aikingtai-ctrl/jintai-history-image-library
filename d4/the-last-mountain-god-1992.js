@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-the-last-mountain-god-1992-rm3121173505-01","最后的山神 (1992) - IMDb rm3121173505","https://m.media-amazon.com/images/M/MV5BZTBjZDAzNDktZWJhZC00YTA3LWIxZDAtNDJiZmNhODA2MDZmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt30021894/mediaviewer/rm3121173505/","IMDb Official Stills"]];

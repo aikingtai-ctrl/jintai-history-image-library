@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-budweiser-whassup-1999-rm2788243201-01","百威·Whassup (1999) - IMDb rm2788243201","https://m.media-amazon.com/images/M/MV5BMDhjYWE0OTYtZjQ5Ny00MGQ3LWEyNmMtOWFlYmVmMmIzNDljXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0205297/mediaviewer/rm2788243201/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-april-rhapsody-2000-rm4203874304-01","人间四月天 (2000) - IMDb rm4203874304","https://m.media-amazon.com/images/M/MV5BNDBjNWIyNzctOWQ1ZC00MjViLWExNWUtMDdlMzhhZjIxMmRhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0243084/mediaviewer/rm4203874304/","IMDb Official Stills"]];

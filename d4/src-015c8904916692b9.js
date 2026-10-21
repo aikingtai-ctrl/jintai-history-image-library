@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-015c8904916692b9-rm3891817217-01","PUNTER (2024) - IMDb rm3891817217","https://m.media-amazon.com/images/M/MV5BOTI2MDAwMjEtNzhiOC00ZjMzLTg2MjItNzhiZTNhZmUwMGY2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32896738/mediaviewer/rm3891817217/","IMDb Official Stills"]];

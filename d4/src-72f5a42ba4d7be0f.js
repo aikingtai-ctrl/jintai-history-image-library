@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-72f5a42ba4d7be0f-rm806371584-01","The Cold (1992) - IMDb rm806371584","https://m.media-amazon.com/images/M/MV5BZWI4NGNhODUtMmE5My00ZjdkLWJlZGItNjJkMDczOTNlNzMxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0345665/mediaviewer/rm806371584/","IMDb Official Stills"]];

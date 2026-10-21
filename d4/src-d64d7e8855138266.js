@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d64d7e8855138266-rm3496120322-01","REVOLVING ROUNDS (2024) - IMDb rm3496120322","https://m.media-amazon.com/images/M/MV5BODM1NDM0NWQtNTczYy00YmY1LWJkM2QtYzc3MjgxZGRjNWJiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32880217/mediaviewer/rm3496120322/","IMDb Official Stills"]];
