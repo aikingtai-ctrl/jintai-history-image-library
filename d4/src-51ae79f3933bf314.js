@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-51ae79f3933bf314-rm1972713728-01","飛向白日青天 (1978) - IMDb rm1972713728","https://m.media-amazon.com/images/M/MV5BZTkxMjNiNTItZDQ3Ni00M2M0LTljZmItMjdhMjQ2MWJiMDhmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1964876/mediaviewer/rm1972713728/","IMDb Official Stills"]];

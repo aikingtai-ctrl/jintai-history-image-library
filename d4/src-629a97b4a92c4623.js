@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-629a97b4a92c4623-rm3780627202-01","So ist das Leben und nicht anders / Life is Like That and Not Otherwise (2025) - IMDb rm3780627202","https://m.media-amazon.com/images/M/MV5BZjlmYzllY2ItZTMxZS00Yjg5LTgwOTMtNjhlZmRmZjUxNmQzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt42206752/mediaviewer/rm3780627202/","IMDb Official Stills"]];

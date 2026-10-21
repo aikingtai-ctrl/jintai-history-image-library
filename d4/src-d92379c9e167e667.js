@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d92379c9e167e667-rm1602388226-01","Science in the Orchestra (1950) - IMDb rm1602388226","https://m.media-amazon.com/images/M/MV5BYjEyY2NjNjMtN2FkMC00Mzc1LWJkZWItNjFlN2JiMWVmZGE1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt36733029/mediaviewer/rm1602388226/","IMDb Official Stills"]];

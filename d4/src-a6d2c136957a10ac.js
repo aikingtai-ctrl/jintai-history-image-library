@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a6d2c136957a10ac-rm1150879489-01","Skrivánci na nítich (1990) - IMDb rm1150879489","https://m.media-amazon.com/images/M/MV5BMzg4NTc3MTQtNTQ4ZS00MzY0LTkyNTYtOGJmYjljYWIxN2Q0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2092443/mediaviewer/rm1150879489/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7e22925c0fed4a41-rm1965580289-01","Our Kid / Kölyök (1960) - IMDb rm1965580289","https://m.media-amazon.com/images/M/MV5BYzk3ZjE5OTktYThlZi00ZDk3LWE2MzMtMjljNjIwYjg2N2ZhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1696778/mediaviewer/rm1965580289/","IMDb Official Stills"]];

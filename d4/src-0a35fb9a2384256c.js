@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0a35fb9a2384256c-rm327806721-01","Le drapeau de l'humanité (1942) - IMDb rm327806721","https://m.media-amazon.com/images/M/MV5BNmE5Mjk5M2YtMDJkYi00YjY1LThiYzQtOTRlMDc2MmViNTc2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0403614/mediaviewer/rm327806721/","IMDb Official Stills"]];

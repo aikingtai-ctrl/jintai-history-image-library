@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-76281c6293c12ed4-rm3561420545-01","As Old as the Hills (1950) - IMDb rm3561420545","https://m.media-amazon.com/images/M/MV5BNjcxMjY4MzgtZDYzZi00MTZhLTg3ZWYtNzExMDI3NWNkYmYwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0030176/mediaviewer/rm3561420545/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-131480303ac76e35-rm2600550913-01","Houles célestes (1949) - IMDb rm2600550913","https://m.media-amazon.com/images/M/MV5BM2QwYTUyNTUtNWE1Zi00NTU2LWI3YjctZWRlNWExOWFiM2YyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt30457315/mediaviewer/rm2600550913/","IMDb Official Stills"]];

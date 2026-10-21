@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3282d9f081a56732-rm2140456962-01","周恩来——伟大的朋友 (1998) - IMDb rm2140456962","https://m.media-amazon.com/images/M/MV5BNjE1YTFjMzQtYzU5MC00OTJlLWIxMmMtNTAzN2Y5OGFjZTMwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38639784/mediaviewer/rm2140456962/","IMDb Official Stills"]];

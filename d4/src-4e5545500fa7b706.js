@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4e5545500fa7b706-rm1972713728-01","Quando le Pleiadi tramontano (1951) - IMDb rm1972713728","https://m.media-amazon.com/images/M/MV5BZTkxMjNiNTItZDQ3Ni00M2M0LTljZmItMjdhMjQ2MWJiMDhmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1964876/mediaviewer/rm1972713728/","IMDb Official Stills"]];

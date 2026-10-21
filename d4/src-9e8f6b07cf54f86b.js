@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9e8f6b07cf54f86b-rm751797250-01","Hectorologie (1966) - IMDb rm751797250","https://m.media-amazon.com/images/M/MV5BNDYzYjJjYjEtZTFmOC00ZDI0LTk2YmQtZTVkZWJmMjFhM2U5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt36981451/mediaviewer/rm751797250/","IMDb Official Stills"]];

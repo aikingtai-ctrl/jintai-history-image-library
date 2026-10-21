@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-af53fad342636880-rm237865986-01","Spring Comes to Kashmir (1956) - IMDb rm237865986","https://m.media-amazon.com/images/M/MV5BMGRlYjkyNTctZTBkZS00ZDM3LWI4MTgtOGRhOTI3MDkzMGQ2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt36387165/mediaviewer/rm237865986/","IMDb Official Stills"]];

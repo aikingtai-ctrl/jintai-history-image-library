@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7d9fe8a4a7269463-rm422839553-01","The Immortal Land (1958) - IMDb rm422839553","https://m.media-amazon.com/images/M/MV5BNjQyZTQ0YmMtYjE2MC00MWJkLTgzNTgtOTA2ODA0OTQwNjc0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt23636146/mediaviewer/rm422839553/","IMDb Official Stills"]];

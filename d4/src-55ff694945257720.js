@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-55ff694945257720-rm1314473985-01","Il pellicano cieco (1963) - IMDb rm1314473985","https://m.media-amazon.com/images/M/MV5BZGRhZTQ3NjEtMjBkNS00NTI2LTg5ZTEtNmFlODIyOGQ0YWU0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt30476558/mediaviewer/rm1314473985/","IMDb Official Stills"]];

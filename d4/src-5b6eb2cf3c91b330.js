@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5b6eb2cf3c91b330-rm2874417665-01","Kalkmalerier fresques d'eglises (1954) - IMDb rm2874417665","https://m.media-amazon.com/images/M/MV5BMDJlY2U2ZTQtNGNkYy00MzM5LWJkNjctNTlmYzk1ZDk1M2IyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27798997/mediaviewer/rm2874417665/","IMDb Official Stills"]];

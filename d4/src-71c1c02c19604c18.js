@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-71c1c02c19604c18-rm2776059393-01","Lorenzo il Magnifico (1949) - IMDb rm2776059393","https://m.media-amazon.com/images/M/MV5BYmMwMjcwODktYmU0ZS00MDAyLWJjOTYtNzE3NTA1Njc5NTQ0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt30788125/mediaviewer/rm2776059393/","IMDb Official Stills"]];

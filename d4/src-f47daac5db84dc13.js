@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f47daac5db84dc13-rm1219386113-01","Giorni d'amore (1955) - IMDb rm1219386113","https://m.media-amazon.com/images/M/MV5BYzkyNWQ2NDktZmY2OS00NWYwLThlYmItNzMwYTY4OThlNjY5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt24657304/mediaviewer/rm1219386113/","IMDb Official Stills"]];

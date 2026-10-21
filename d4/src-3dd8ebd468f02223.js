@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3dd8ebd468f02223-rm3500895744-01","Gli atomi ci aiutano (1959) - IMDb rm3500895744","https://m.media-amazon.com/images/M/MV5BNWIxYmViNWQtYTdjYS00NTA2LWE1ZTItMzRkYzMwOGM0OTM4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3923014/mediaviewer/rm3500895744/","IMDb Official Stills"]];

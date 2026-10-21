@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-30a599bc61ec37f3-rm2836439297-01","Röntgenstrahlen (1937) - IMDb rm2836439297","https://m.media-amazon.com/images/M/MV5BZDdjZWZkNWMtNGVkNS00YzZiLWE4ZDAtOGM0MWQzNWYwZDJkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0442332/mediaviewer/rm2836439297/","IMDb Official Stills"]];

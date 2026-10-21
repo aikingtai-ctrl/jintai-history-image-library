@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cd57d41241b9cdef-rm2429728257-01","Kövek, varak, emberek (1956) - IMDb rm2429728257","https://m.media-amazon.com/images/M/MV5BNzYwZjAwMTUtYWIzYS00MDU3LWJmNjEtNjIyMjZjZjljYTNkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2651778/mediaviewer/rm2429728257/","IMDb Official Stills"]];

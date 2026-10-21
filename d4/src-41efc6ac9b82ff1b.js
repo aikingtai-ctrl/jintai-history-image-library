@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-41efc6ac9b82ff1b-rm2140456962-01","ONE WEEK AND A DAY (SHAVUA VE YOM (2016) - IMDb rm2140456962","https://m.media-amazon.com/images/M/MV5BNjE1YTFjMzQtYzU5MC00OTJlLWIxMmMtNTAzN2Y5OGFjZTMwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38639784/mediaviewer/rm2140456962/","IMDb Official Stills"]];

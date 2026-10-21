@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d687aeeeca7f3d5f-rm2622141441-01","Zauber der Natur (1956) - IMDb rm2622141441","https://m.media-amazon.com/images/M/MV5BZWZmNzMyOTEtMzdmOC00NGY0LTlkNzEtMzdjODJiYTA1NDcwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12394232/mediaviewer/rm2622141441/","IMDb Official Stills"]];

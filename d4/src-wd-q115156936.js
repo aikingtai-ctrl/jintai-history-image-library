@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q115156936-rm4111372801-01","La matta dei fiori (1997) - IMDb rm4111372801","https://m.media-amazon.com/images/M/MV5BMzdiMTM2MTUtMDFlNy00NzljLWJhMjYtZGFkNTAyMmE0ODM5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0188961/mediaviewer/rm4111372801/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c9045eb55cf48476-rm2671222786-01","Kamyshovyy ray / The cane paradise (1990) - IMDb rm2671222786","https://m.media-amazon.com/images/M/MV5BNjllMjRmNTctMzcxMy00MmU1LWEzNDYtN2QwMWYwZDRmODNiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38969320/mediaviewer/rm2671222786/","IMDb Official Stills"]];

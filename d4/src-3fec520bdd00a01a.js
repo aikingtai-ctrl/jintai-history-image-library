@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3fec520bdd00a01a-rm1472700673-01","Kermesse fantastique (1951) - IMDb rm1472700673","https://m.media-amazon.com/images/M/MV5BMjE1NmU2MzUtMjllNS00ZDQ1LTliZDMtODA1N2ZlOTQyMDhiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0441335/mediaviewer/rm1472700673/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9e4383d76cbfe042-rm1741688577-01","Metropolitan Nocturne (1935) - IMDb rm1741688577","https://m.media-amazon.com/images/M/MV5BMzQ4MGJjMjMtZjRhMy00Yjk3LTgxZjEtYTg3YTk1MDU4ZGI3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0611278/mediaviewer/rm1741688577/","IMDb Official Stills"]];

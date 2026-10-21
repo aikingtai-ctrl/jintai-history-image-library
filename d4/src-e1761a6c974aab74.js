@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e1761a6c974aab74-rm1809339648-01","Il pennello magico (1956) - IMDb rm1809339648","https://m.media-amazon.com/images/M/MV5BNTZmYmQ5MTEtYjgxOC00MjBhLThiNWQtOGNhNmIwNGZkZTg5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8081870/mediaviewer/rm1809339648/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f8fa67f765362067-rm387975681-01","Giungla sommersa (1953) - IMDb rm387975681","https://m.media-amazon.com/images/M/MV5BYzM5MGEyZjUtNDEyYi00YjFhLWE0MzUtNGMyOGVkYzkwODIwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt21265588/mediaviewer/rm387975681/","IMDb Official Stills"]];

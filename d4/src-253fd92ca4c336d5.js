@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-253fd92ca4c336d5-rm1152498178-01","Lembi di Albania in Calabria (1956) - IMDb rm1152498178","https://m.media-amazon.com/images/M/MV5BMzE0ZDY3NmItMzFjZC00MTg3LWFmNTUtZWZkODFmZmI0MDlmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37139078/mediaviewer/rm1152498178/","IMDb Official Stills"]];

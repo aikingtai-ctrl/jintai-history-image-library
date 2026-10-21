@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6224e26ee7ba2e51-rm3403778-01","Timeless Temiar (1956) - IMDb rm3403778","https://m.media-amazon.com/images/M/MV5BYzRkOGQ0ZDAtZmZkZC00NjUyLTgyMDMtYzk3MTY4ZWJiN2EwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt47936607/mediaviewer/rm3403778/","IMDb Official Stills"]];

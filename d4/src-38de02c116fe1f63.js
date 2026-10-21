@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-38de02c116fe1f63-rm3366439938-01","Soldaţii. Poveste din Ferentari / Soldiers. Story from Ferentari (2017) - IMDb rm3366439938","https://m.media-amazon.com/images/M/MV5BMDJiZTU5ODgtNDU5ZC00YjVhLWI1MTctZTFkY2UwNjUzZmFlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt43249618/mediaviewer/rm3366439938/","IMDb Official Stills"]];

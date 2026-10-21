@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-be60c5e03d7481f3-rm2403494913-01","Il toro (1993) - IMDb rm2403494913","https://m.media-amazon.com/images/M/MV5BNmI3YjdmOTMtNjM5Ni00MmY2LWJlNTYtODA5ZDM0YjEyNmY4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt33030472/mediaviewer/rm2403494913/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c4a7aaee92ffe7c9-rm3816799234-01","Lubovnik (The Lover) (2002) - IMDb rm3816799234","https://m.media-amazon.com/images/M/MV5BMDY1MzgyZDMtY2IxNy00OGZiLWFhNDgtMDRiZWVmNTE4YzVhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37577867/mediaviewer/rm3816799234/","IMDb Official Stills"]];

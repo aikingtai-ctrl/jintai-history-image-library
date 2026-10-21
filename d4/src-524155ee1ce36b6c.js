@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-524155ee1ce36b6c-rm441609984-01","The name of the cloud is ignorance (1965) - IMDb rm441609984","https://m.media-amazon.com/images/M/MV5BOTU3OTQ0NmUtYTVkNS00NmRiLTg5ZWEtZDM2NjRhZTRmMDkzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt5126522/mediaviewer/rm441609984/","IMDb Official Stills"]];

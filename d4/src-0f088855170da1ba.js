@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0f088855170da1ba-rm1538858753-01","Wealth of the World - Congo Harvest (1951) - IMDb rm1538858753","https://m.media-amazon.com/images/M/MV5BMTViMmJmZTYtNDgxNi00ZTBkLTlkMzgtODRjYTBmOGRhNTNlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt19499956/mediaviewer/rm1538858753/","IMDb Official Stills"]];

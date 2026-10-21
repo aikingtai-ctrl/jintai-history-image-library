@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ad2c7d2b8c111aa5-rm2407118082-01","Über alle Zeiten (1950) - IMDb rm2407118082","https://m.media-amazon.com/images/M/MV5BNGU5NjdiZDYtMDkxZi00ODg5LTg4NWItMzQ4YjRjNGIxZDk4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38221434/mediaviewer/rm2407118082/","IMDb Official Stills"]];

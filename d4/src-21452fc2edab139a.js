@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-21452fc2edab139a-rm1520124417-01","Lightning Masters (1953) - IMDb rm1520124417","https://m.media-amazon.com/images/M/MV5BMjc1ZDZiMDQtZDQ3ZC00NDc2LTkxM2ItNmRhMDc3MTFjNzgxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt23459380/mediaviewer/rm1520124417/","IMDb Official Stills"]];

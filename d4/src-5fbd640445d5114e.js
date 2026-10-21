@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5fbd640445d5114e-rm1603870721-01","Pour le mistral (1966) - IMDb rm1603870721","https://m.media-amazon.com/images/M/MV5BZjBiMThiNTMtNDJlZi00NjhhLTlhNDEtNThiNjIwOTRiMDEyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1853053/mediaviewer/rm1603870721/","IMDb Official Stills"]];

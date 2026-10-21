@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0d234f9e783b9200-rm602650113-01","Anacleto e la faina (1942) - IMDb rm602650113","https://m.media-amazon.com/images/M/MV5BODM3M2E0MjAtZmEzOS00NGIwLTg2ODAtZTMzYmExMmRhNDg4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2371248/mediaviewer/rm602650113/","IMDb Official Stills"]];

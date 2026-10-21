@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-27a8e8ccf8ff325a-rm3288742145-01","Chimichimito (1961) - IMDb rm3288742145","https://m.media-amazon.com/images/M/MV5BNjY2MzVhYzItZTBmZC00YTQzLWI3MzMtZjU4NmYwZjQ2ZjMyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt24512406/mediaviewer/rm3288742145/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6483e1c58ded8f78-rm691542528-01","Le cuivre du Katanga (1952) - IMDb rm691542528","https://m.media-amazon.com/images/M/MV5BNjk4NmUwOGQtNzk2Mi00N2YwLWFhMDItYmRjODViN2M3YTM5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3729118/mediaviewer/rm691542528/","IMDb Official Stills"]];

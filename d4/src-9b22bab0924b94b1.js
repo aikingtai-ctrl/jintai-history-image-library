@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9b22bab0924b94b1-rm1858071297-01","Avventura del Sarca (1960) - IMDb rm1858071297","https://m.media-amazon.com/images/M/MV5BYzVkNzZmMTEtZDg4Mi00OTgzLWJkMDMtMzM4M2Q3YjBkYzA5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2669040/mediaviewer/rm1858071297/","IMDb Official Stills"]];

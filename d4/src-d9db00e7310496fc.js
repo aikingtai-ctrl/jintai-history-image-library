@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d9db00e7310496fc-rm4163050240-01","麥兜．菠蘿油王子 (2004) - IMDb rm4163050240","https://m.media-amazon.com/images/M/MV5BYmRhZDM3ZmMtY2VmYy00NjI1LTllYTEtODVjZmJmMDliMDJjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0419954/mediaviewer/rm4163050240/","IMDb Official Stills"]];

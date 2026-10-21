@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c58f8855e6715949-rm1235955713-01","Giotto e la Cappella degli Scrovegni (1947) - IMDb rm1235955713","https://m.media-amazon.com/images/M/MV5BYzBhYzA1M2MtM2JlMS00MzQ5LWJkYTQtMTkwNmZlNTk3YWM5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt26595024/mediaviewer/rm1235955713/","IMDb Official Stills"]];

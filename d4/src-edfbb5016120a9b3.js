@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-edfbb5016120a9b3-rm2937560064-01","The Medal / Signum laudis (1980) - IMDb rm2937560064","https://m.media-amazon.com/images/M/MV5BMTczNDIxNDg1Nl5BMl5BanBnXkFtZTcwNzAxNjgyMQ@@._V1_.jpg","https://www.imdb.com/title/tt0218346/mediaviewer/rm2937560064/","IMDb Official Stills"]];

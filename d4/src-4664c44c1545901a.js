@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4664c44c1545901a-rm200505856-01","Năică şi veveriţa (1967) - IMDb rm200505856","https://m.media-amazon.com/images/M/MV5BZjQ4NTBjMTAtOGM4Yi00ODEwLThmNWItZjQzNGM0NzZjZDNmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0062028/mediaviewer/rm200505856/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d758de77e24b0970-rm3284412161-01","Sepatu Baru (2014) - IMDb rm3284412161","https://m.media-amazon.com/images/M/MV5BMDdkZjZjN2EtNmIwYS00ODU0LWFiNGQtYWJlMzc2NjczMmJmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt28198366/mediaviewer/rm3284412161/","IMDb Official Stills"]];

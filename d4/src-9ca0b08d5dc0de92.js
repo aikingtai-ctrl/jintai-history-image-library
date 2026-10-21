@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9ca0b08d5dc0de92-rm3063870209-01","The Slip Up / Poślizg (1972) - IMDb rm3063870209","https://m.media-amazon.com/images/M/MV5BN2I3YjVkMjktMjI2Ni00NDg5LWE3NjQtMGVmNzMzMzlkZmFmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt15359122/mediaviewer/rm3063870209/","IMDb Official Stills"]];

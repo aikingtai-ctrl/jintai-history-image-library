@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cdb900babf6d8055-rm2564760832-01","Aparajito (1957) - IMDb rm2564760832","https://m.media-amazon.com/images/M/MV5BMWY1YzRhODktMTBjMi00NjNjLWE5NmYtMDg5OThkMjEzODU0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0158013/mediaviewer/rm2564760832/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e23574dc0a7d75c1-rm1740941570-01","Das Knalleidoskop (1959) - IMDb rm1740941570","https://m.media-amazon.com/images/M/MV5BMTcyNjk0MzctZGM2Yi00YzEzLWE5MDAtOTljMWMzZWEwMjE0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38431414/mediaviewer/rm1740941570/","IMDb Official Stills"]];

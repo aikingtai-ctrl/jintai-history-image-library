@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1fc256673770014c-rm1538858753-01","River of Ocean (1963) - IMDb rm1538858753","https://m.media-amazon.com/images/M/MV5BMTViMmJmZTYtNDgxNi00ZTBkLTlkMzgtODRjYTBmOGRhNTNlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt19499956/mediaviewer/rm1538858753/","IMDb Official Stills"]];

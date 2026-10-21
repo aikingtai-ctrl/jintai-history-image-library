@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-71e781eb0d510648-rm2090123521-01","Dalla palude all'azienda agraria (1952) - IMDb rm2090123521","https://m.media-amazon.com/images/M/MV5BMzU2MmZlNDgtOWY2Zi00OGM4LTk1ZmYtOGRmMTA0MDQxNDg4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0075057/mediaviewer/rm2090123521/","IMDb Official Stills"]];

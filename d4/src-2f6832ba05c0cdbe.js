@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2f6832ba05c0cdbe-rm154766082-01","L'herbe à la reyne (1951) - IMDb rm154766082","https://m.media-amazon.com/images/M/MV5BNDE4NDg3M2EtZjE5NC00MmU3LTlkNTktYjhjOGYzYTk0ZDg3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0196829/mediaviewer/rm154766082/","IMDb Official Stills"]];

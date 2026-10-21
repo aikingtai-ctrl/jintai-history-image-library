@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-06986c579084df96-rm3572306945-01","George Grosz' Interregnum (1961) - IMDb rm3572306945","https://m.media-amazon.com/images/M/MV5BNWRmM2NkMDktYzc4Yy00NTU4LWE1YzItNDM0YmQ4MWJlN2Q2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0053858/mediaviewer/rm3572306945/","IMDb Official Stills"]];

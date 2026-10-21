@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2698783b728c8550-rm633167617-01","The Life Cycle of the Malaria Parasite (1951) - IMDb rm633167617","https://m.media-amazon.com/images/M/MV5BOWI4ZDhkMzEtNzJiOC00NDY5LTk4MTgtNDlhZDBmNjIwYmYxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt28789068/mediaviewer/rm633167617/","IMDb Official Stills"]];

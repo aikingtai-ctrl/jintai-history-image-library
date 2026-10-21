@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c381e9445c38fd92-rm3354077952-01","Terre Adélie (1952) - IMDb rm3354077952","https://m.media-amazon.com/images/M/MV5BMTliM2Q0YTMtNGY3NC00OTcxLWI0MTQtMWQ2NmQwMjI1OTk5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6948702/mediaviewer/rm3354077952/","IMDb Official Stills"]];

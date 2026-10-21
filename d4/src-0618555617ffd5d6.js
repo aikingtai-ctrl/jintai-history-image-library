@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0618555617ffd5d6-rm166164737-01","Munks un lemijs - Lidojam (1995) - IMDb rm166164737","https://m.media-amazon.com/images/M/MV5BMGVlOTk4MjYtMDRkYS00ZjdmLWEwOWMtMDUyMmRjMDE1ZjZhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt26594259/mediaviewer/rm166164737/","IMDb Official Stills"]];

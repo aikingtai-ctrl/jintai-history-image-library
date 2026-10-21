@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a44d9ac6a1304b94-rm4228398336-01","Ritmo e colore (1949) - IMDb rm4228398336","https://m.media-amazon.com/images/M/MV5BNzk1ZGVjNWMtYzBmZC00NzU0LThhZjItODcyNDdkM2Q0NjE4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4072024/mediaviewer/rm4228398336/","IMDb Official Stills"]];

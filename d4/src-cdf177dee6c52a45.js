@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cdf177dee6c52a45-rm421079553-01","La quille (1961) - IMDb rm421079553","https://m.media-amazon.com/images/M/MV5BN2RjN2Q2ZDMtMGY5OC00ZWY0LWIwMDktNzAwM2NiMDJkNzE3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27179965/mediaviewer/rm421079553/","IMDb Official Stills"]];

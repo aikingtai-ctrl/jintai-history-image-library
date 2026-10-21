@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-df7f4e65ec272797-rm1822081538-01","Nesmrtelna laska (1961) - IMDb rm1822081538","https://m.media-amazon.com/images/M/MV5BMGY4MGZiZjktNThkNS00ZDk0LTljNmMtMjdhMGNjYjUwNDgzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt39150110/mediaviewer/rm1822081538/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8e9b6e85de9dbb91-rm1208305409-01","Une vielle soupière (1978) - IMDb rm1208305409","https://m.media-amazon.com/images/M/MV5BNzgyNjUwYjUtMGJlOC00NGRhLWEyMjYtYzVkY2FlYzFlOWIxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt28546691/mediaviewer/rm1208305409/","IMDb Official Stills"]];

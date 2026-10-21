@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3fed63fae51ee3de-rm431023360-01","Le stelle al servizio dell'uomo (1956) - IMDb rm431023360","https://m.media-amazon.com/images/M/MV5BNDExMTQ4N2EtOWUwYy00YzFkLTg1MDktOTk5MDMzZTRjMGM0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2427830/mediaviewer/rm431023360/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e59d702b18adfacb-rm3947524608-01","Ernst Barlach (1950) - IMDb rm3947524608","https://m.media-amazon.com/images/M/MV5BOTYyZDBiN2MtYTk1ZC00ZDNiLWFmOGYtNTE0MGZhZmNmNTc2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1695773/mediaviewer/rm3947524608/","IMDb Official Stills"]];

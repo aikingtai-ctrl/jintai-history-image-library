@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ba9180d42e00b2e8-rm2874417665-01","Knud (1966) - IMDb rm2874417665","https://m.media-amazon.com/images/M/MV5BMDJlY2U2ZTQtNGNkYy00MzM5LWJkNjctNTlmYzk1ZDk1M2IyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27798997/mediaviewer/rm2874417665/","IMDb Official Stills"]];

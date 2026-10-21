@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-91b3d1049c62aa28-rm3851123457-01","Abstract in Concrete (1952) - IMDb rm3851123457","https://m.media-amazon.com/images/M/MV5BNjg0OGQ1NjUtZDMwMi00ZTQzLTg0YjQtMmNlMDRlZDViMGVkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32012060/mediaviewer/rm3851123457/","IMDb Official Stills"]];

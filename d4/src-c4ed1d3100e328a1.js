@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c4ed1d3100e328a1-rm1548336641-01","Die Kamera fahrt mit... (1936) - IMDb rm1548336641","https://m.media-amazon.com/images/M/MV5BNjBlNWY1MGMtMTFkOS00ZWFkLWI5YmItZWM5YzcyNGM5NDIyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4842268/mediaviewer/rm1548336641/","IMDb Official Stills"]];

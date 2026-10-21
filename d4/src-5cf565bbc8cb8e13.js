@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5cf565bbc8cb8e13-rm196868866-01","Armonie pucciniane (1938) - IMDb rm196868866","https://m.media-amazon.com/images/M/MV5BYTRjYjNmZDEtYmU1NC00NTAyLWJmNzUtNGE4MmQ5MGIxOWY1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38893248/mediaviewer/rm196868866/","IMDb Official Stills"]];

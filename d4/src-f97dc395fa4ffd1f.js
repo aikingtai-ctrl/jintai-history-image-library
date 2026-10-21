@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f97dc395fa4ffd1f-rm3215420416-01","The pink blue print (1967) - IMDb rm3215420416","https://m.media-amazon.com/images/M/MV5BN2U5ZTNlYWUtNDViMC00OGEyLWI4OTUtYTBkMzVjYzdmOTQ4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt9818910/mediaviewer/rm3215420416/","IMDb Official Stills"]];

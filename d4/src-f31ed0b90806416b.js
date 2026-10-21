@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f31ed0b90806416b-rm2006999809-01","Teiva (1962) - IMDb rm2006999809","https://m.media-amazon.com/images/M/MV5BNWFkNjc2MzgtYTYxYi00NGNhLTk2ZWEtNDhmYzY1NzllOTgzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt33500036/mediaviewer/rm2006999809/","IMDb Official Stills"]];

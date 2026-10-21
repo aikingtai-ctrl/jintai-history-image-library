@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-83b049e1b128cac5-rm2140456962-01","Naval Photography In Science (1948) - IMDb rm2140456962","https://m.media-amazon.com/images/M/MV5BNjE1YTFjMzQtYzU5MC00OTJlLWIxMmMtNTAzN2Y5OGFjZTMwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38639784/mediaviewer/rm2140456962/","IMDb Official Stills"]];

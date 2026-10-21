@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-23af35ade663ce9c-rm3704337666-01","The Moving Spirit (1953) - IMDb rm3704337666","https://m.media-amazon.com/images/M/MV5BMzhkMWExYzYtYTIzOS00NDk5LWI5NmEtN2FjMmVkYmRiMTgwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37434413/mediaviewer/rm3704337666/","IMDb Official Stills"]];

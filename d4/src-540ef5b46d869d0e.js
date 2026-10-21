@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-540ef5b46d869d0e-rm1006452992-01","Der Spielverderber (1960) - IMDb rm1006452992","https://m.media-amazon.com/images/M/MV5BNjlmNjE4ZGMtNTI4My00YTc5LThkNjgtYTQ5MjYwYTY2N2YyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1666754/mediaviewer/rm1006452992/","IMDb Official Stills"]];

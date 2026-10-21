@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f57704087d5aa7b8-rm1773244928-01","Introduction to the Frog (1950) - IMDb rm1773244928","https://m.media-amazon.com/images/M/MV5BMzQ0OTI5MzU5MV5BMl5BanBnXkFtZTcwODQ5MjMzMQ@@._V1_.jpg","https://www.imdb.com/title/tt0805554/mediaviewer/rm1773244928/","IMDb Official Stills"]];

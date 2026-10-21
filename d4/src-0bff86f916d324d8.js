@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0bff86f916d324d8-rm1834211841-01","骑士风云 (1991) - IMDb rm1834211841","https://m.media-amazon.com/images/M/MV5BMDUzMTVlZWEtODQwYy00NTVlLWI1OTYtODU1ZmFjNGM4NDQ3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2501116/mediaviewer/rm1834211841/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b69f9483e2a92c32-rm3363947009-01","San Gimignano (1956) - IMDb rm3363947009","https://m.media-amazon.com/images/M/MV5BNjAwOWFmNzktNzUwNC00ZWQ1LTk0MjgtNjk1MWIxMDkzMDA0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt14463162/mediaviewer/rm3363947009/","IMDb Official Stills"]];

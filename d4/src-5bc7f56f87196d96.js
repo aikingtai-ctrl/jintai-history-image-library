@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5bc7f56f87196d96-rm3202577153-01","非常夏日 (2000) - IMDb rm3202577153","https://m.media-amazon.com/images/M/MV5BMDk1MjI1ZjMtNjQzZC00YTY5LTk4NTYtY2Q1MjNkOGE1ZDg2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32249420/mediaviewer/rm3202577153/","IMDb Official Stills"]];

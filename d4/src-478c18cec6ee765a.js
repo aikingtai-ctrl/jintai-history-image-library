@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-478c18cec6ee765a-rm3250708225-01","Ritratto del padre (1964) - IMDb rm3250708225","https://m.media-amazon.com/images/M/MV5BMDBjYWMwYWUtZTUzNC00MzgwLTk0NDEtOGNlZTczMWNmZmQ4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12267240/mediaviewer/rm3250708225/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-edfd89a9cf11585a-rm4159402752-01","Ping Pong (1950) - IMDb rm4159402752","https://m.media-amazon.com/images/M/MV5BNTY1ZWE4ZTEtZjgyZC00NTBkLWI2ZGItYzc2Njg2MDNjZGQyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0489711/mediaviewer/rm4159402752/","IMDb Official Stills"]];

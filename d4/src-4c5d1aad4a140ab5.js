@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4c5d1aad4a140ab5-rm3845717250-01","Secret in the hive (1963) - IMDb rm3845717250","https://m.media-amazon.com/images/M/MV5BODZlMjZkZWYtNDIzOC00N2U3LTlhYTItNGE1ZGE2NmUxODQ4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0374757/mediaviewer/rm3845717250/","IMDb Official Stills"]];

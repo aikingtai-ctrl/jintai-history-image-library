@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9a4ba0dcb67a3487-rm1342842880-01","First as a Child (1950) - IMDb rm1342842880","https://m.media-amazon.com/images/M/MV5BZTY2N2M4ZTItY2Q2ZC00ZjI3LWE5ZGMtYjY2MzU1M2MyOGRiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0929482/mediaviewer/rm1342842880/","IMDb Official Stills"]];

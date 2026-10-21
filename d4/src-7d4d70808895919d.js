@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7d4d70808895919d-rm1412195585-01","Yadjika (1961) - IMDb rm1412195585","https://m.media-amazon.com/images/M/MV5BN2Y3OWQ1NTQtODBmMC00MTc4LWE2NmItOWZkN2YzOTI4MDlkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt34548768/mediaviewer/rm1412195585/","IMDb Official Stills"]];

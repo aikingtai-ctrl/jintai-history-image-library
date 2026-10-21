@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5f776bfbe0fe48b1-rm3998979585-01","La voce di Paganini (1947) - IMDb rm3998979585","https://m.media-amazon.com/images/M/MV5BMmQ0NzRhMzktMmM2MS00NzQzLTlkZTgtYzBkZWI5NWZiMmE4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt9332868/mediaviewer/rm3998979585/","IMDb Official Stills"]];

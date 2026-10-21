@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-703cdd10857aba5a-rm18581506-01","Chicos normales / Ordinary Boys (2008) - IMDb rm18581506","https://m.media-amazon.com/images/M/MV5BOTVmNjY3ZDktNWE1ZS00MDIxLWI1YzctYWJiOThjMmU4N2I5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35840759/mediaviewer/rm18581506/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b62c3ab208533db2-rm3327147265-01","Hos isbjrnene i zoologisk have (1952) - IMDb rm3327147265","https://m.media-amazon.com/images/M/MV5BYTMwZjY0MTUtZmQ4NS00MGQzLTgyMzQtMWUzMDhlMTY4ZDkwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt26248372/mediaviewer/rm3327147265/","IMDb Official Stills"]];

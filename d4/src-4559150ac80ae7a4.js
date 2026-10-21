@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4559150ac80ae7a4-rm3073818113-01","Tales from the Vienna Woods / Geschichten aus dem Wiener Wald (1980) - IMDb rm3073818113","https://m.media-amazon.com/images/M/MV5BMzNlYzQ4YWYtZTRiMC00MGJjLWI4MWUtN2VlMjUzODUxYjhiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11974602/mediaviewer/rm3073818113/","IMDb Official Stills"]];

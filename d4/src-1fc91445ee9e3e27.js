@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1fc91445ee9e3e27-rm790651905-01","Carpaccio (1947) - IMDb rm790651905","https://m.media-amazon.com/images/M/MV5BMDY1OTA5ZjQtNGQwZS00OTYxLTk1NGEtNjk4ZGEwNDZiNWFkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt34428588/mediaviewer/rm790651905/","IMDb Official Stills"]];

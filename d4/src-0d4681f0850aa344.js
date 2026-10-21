@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0d4681f0850aa344-rm2124961536-01","Vertigine bianca (1941) - IMDb rm2124961536","https://m.media-amazon.com/images/M/MV5BOGRmMTNjNDktZjJiMy00NTYxLThjZmQtYjRjYTNhZWMzZDcyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0049916/mediaviewer/rm2124961536/","IMDb Official Stills"]];

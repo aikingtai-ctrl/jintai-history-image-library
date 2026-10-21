@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-171563eedf001fb5-rm3203597056-01","Smierc prowincjala (1967) - IMDb rm3203597056","https://m.media-amazon.com/images/M/MV5BM2RmZGNiODYtMmVlZC00MjJhLWIxNjAtNDU1ODg5Mzk1NTkxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6132446/mediaviewer/rm3203597056/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1cc05253f68553dc-rm1279951362-01","Che cosa è la fisica (1952) - IMDb rm1279951362","https://m.media-amazon.com/images/M/MV5BOTE5MzYxMDEtZTJiMy00YzBkLWJmMzAtMWQ0MWU4Y2Y1OTM1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt35063056/mediaviewer/rm1279951362/","IMDb Official Stills"]];

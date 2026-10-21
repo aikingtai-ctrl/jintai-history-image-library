@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-02aff8f0f6f0c202-rm2552800514-01","Noirs matins (2025) - IMDb rm2552800514","https://m.media-amazon.com/images/M/MV5BODlkZDgzMGQtYWE2MS00ZWNiLWI4YzMtYTdhNDFkMDlmZjQzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37510041/mediaviewer/rm2552800514/","IMDb Official Stills"]];

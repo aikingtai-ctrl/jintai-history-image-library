@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-fbf5162b2fec057e-rm855176960-01","The Greedy Boy's Dream (1948) - IMDb rm855176960","https://m.media-amazon.com/images/M/MV5BMjI4NzM5MDU0NF5BMl5BanBnXkFtZTgwOTU5NTE1NTE@._V1_.jpg","https://www.imdb.com/title/tt1282866/mediaviewer/rm855176960/","IMDb Official Stills"]];

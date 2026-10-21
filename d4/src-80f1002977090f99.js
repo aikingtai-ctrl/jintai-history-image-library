@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-80f1002977090f99-rm2205479937-01","安国夫人 (2024) - IMDb rm2205479937","https://m.media-amazon.com/images/M/MV5BZThjOGMwOWMtNzgxZC00YWRlLTk0YzItMjYxNDRiN2E5NTA1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt15663128/mediaviewer/rm2205479937/","IMDb Official Stills"]];

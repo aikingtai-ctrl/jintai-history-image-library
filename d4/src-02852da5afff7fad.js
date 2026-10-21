@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-02852da5afff7fad-rm3403778-01","孙文少年行 (1996) - IMDb rm3403778","https://m.media-amazon.com/images/M/MV5BYzRkOGQ0ZDAtZmZkZC00NjUyLTgyMDMtYzk3MTY4ZWJiN2EwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt47936607/mediaviewer/rm3403778/","IMDb Official Stills"]];

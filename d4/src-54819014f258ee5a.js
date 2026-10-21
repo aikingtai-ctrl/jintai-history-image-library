@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-54819014f258ee5a-rm1044320513-01","Turbo Jet Propulsion (1949) - IMDb rm1044320513","https://m.media-amazon.com/images/M/MV5BZjljZmMwZjYtNWVjNi00MTQzLWFkMWYtMjUzNWFhNGQyMmMwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt19365984/mediaviewer/rm1044320513/","IMDb Official Stills"]];

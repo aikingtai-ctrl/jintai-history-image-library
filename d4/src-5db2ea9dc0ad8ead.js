@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5db2ea9dc0ad8ead-rm1950111488-01","Rinnsteinpiraten (1993) - IMDb rm1950111488","https://m.media-amazon.com/images/M/MV5BM2EyMzlhM2YtNDgyMC00NTFjLTgwYWItYzBjZThmZjc5OTU3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8026952/mediaviewer/rm1950111488/","IMDb Official Stills"]];

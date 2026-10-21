@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-wd-q125227379-rm3632033793-01","快乐老家 (1998) - IMDb rm3632033793","https://m.media-amazon.com/images/M/MV5BYjRkODU2ZTEtNjY4OS00NjI3LTk0NjgtYWE3YWZhMzY4MjYzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt30985762/mediaviewer/rm3632033793/","IMDb Official Stills"]];

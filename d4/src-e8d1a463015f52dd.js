@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e8d1a463015f52dd-rm598798594-01","Fautrier l'enragé (1964) - IMDb rm598798594","https://m.media-amazon.com/images/M/MV5BZjM4OGUwNWUtNThmZC00NDg0LWFjYjQtMTE3ODU1Mjg5Y2U1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt40245477/mediaviewer/rm598798594/","IMDb Official Stills"]];

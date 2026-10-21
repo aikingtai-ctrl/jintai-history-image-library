@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2b1412983804c79d-rm174160128-01","Man Learns To Farm (1953) - IMDb rm174160128","https://m.media-amazon.com/images/M/MV5BZDdhMTYyYzgtYWE3ZC00NGMzLTk0MzgtYWVmYjM0YTU2NjUyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8927990/mediaviewer/rm174160128/","IMDb Official Stills"]];

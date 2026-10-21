@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-87fd47c5e7661c0c-rm4116312834-01","Les dessins s'animent (1952) - IMDb rm4116312834","https://m.media-amazon.com/images/M/MV5BOGM4Zjg3MDUtZDY0Zi00MWVkLTkzYTQtZTQ1MTIzZjE4NWFlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2873246/mediaviewer/rm4116312834/","IMDb Official Stills"]];

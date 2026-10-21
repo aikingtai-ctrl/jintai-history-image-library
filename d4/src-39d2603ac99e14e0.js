@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-39d2603ac99e14e0-rm1422970113-01","Richard Strauss - Ein Leben für die Musik (1950) - IMDb rm1422970113","https://m.media-amazon.com/images/M/MV5BM2MxM2E5OWItODZlNC00M2EwLTg4MmQtMjRlZmM3NDIyM2Q3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt14372510/mediaviewer/rm1422970113/","IMDb Official Stills"]];

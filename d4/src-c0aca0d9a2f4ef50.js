@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c0aca0d9a2f4ef50-rm3119227650-01","Povidáni o pejskovi a kočičce (1955) - IMDb rm3119227650","https://m.media-amazon.com/images/M/MV5BZGVkZTk1MTctMTI0MS00OWIxLWEyMmYtNzNjMWY1YWEwNTRmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38778715/mediaviewer/rm3119227650/","IMDb Official Stills"]];

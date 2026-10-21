@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-073c31f18a9222b6-rm1158398209-01","Chartres (1923) - IMDb rm1158398209","https://m.media-amazon.com/images/M/MV5BMmM5NzFlM2YtZDBhOC00Mjk5LWE3NTMtOGRlYWYwYjcyMDU1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt14633958/mediaviewer/rm1158398209/","IMDb Official Stills"]];

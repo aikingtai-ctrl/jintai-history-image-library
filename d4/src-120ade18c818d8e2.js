@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-120ade18c818d8e2-rm155672576-01","Les eaux souterraines (1957) - IMDb rm155672576","https://m.media-amazon.com/images/M/MV5BMmIyZWY1ODItYjQ1MS00ZDNkLWEwNmQtNzNhNmQwOGVlNTI3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10039414/mediaviewer/rm155672576/","IMDb Official Stills"]];

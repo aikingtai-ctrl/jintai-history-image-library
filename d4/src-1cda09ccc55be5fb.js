@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1cda09ccc55be5fb-rm2271194881-01","Pervys Mai V Moskve (1947) - IMDb rm2271194881","https://m.media-amazon.com/images/M/MV5BMzYxNGE1MmUtZWExNy00NGI2LWEwODctYjE5YjFjMjIwMGRlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12769276/mediaviewer/rm2271194881/","IMDb Official Stills"]];

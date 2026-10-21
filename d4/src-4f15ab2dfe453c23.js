@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-4f15ab2dfe453c23-rm1293271810-01","La slitta (1956) - IMDb rm1293271810","https://m.media-amazon.com/images/M/MV5BOGM1NzJkZTAtYmNjNS00NzNlLWExODktNmYwOGQ5ZTA1MTVjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2848042/mediaviewer/rm1293271810/","IMDb Official Stills"]];

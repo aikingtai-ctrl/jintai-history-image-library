@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5cda3a400e441d9f-rm1810665218-01","Kanajo to kare (1964) - IMDb rm1810665218","https://m.media-amazon.com/images/M/MV5BNzUzNzQ2MjctODkwOS00MDQ3LWIyODAtNTA4NDdlMDQ3YzVmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3068174/mediaviewer/rm1810665218/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f800246e58c4312d-rm576539905-01","Sardegna (1953) - IMDb rm576539905","https://m.media-amazon.com/images/M/MV5BMTUwZGVhZWYtNzdiOC00Yjg3LTk5MmItNDMxNzU0MzI1NGY1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt31064382/mediaviewer/rm576539905/","IMDb Official Stills"]];

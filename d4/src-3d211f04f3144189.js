@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3d211f04f3144189-rm2301261568-01","La foret continue (1960) - IMDb rm2301261568","https://m.media-amazon.com/images/M/MV5BMDBhNmViZTEtMmYxNi00ZGQ3LWFiZWQtNzdmMGZiZTViYWE2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt4691810/mediaviewer/rm2301261568/","IMDb Official Stills"]];

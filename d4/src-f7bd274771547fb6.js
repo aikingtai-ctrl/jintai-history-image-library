@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f7bd274771547fb6-rm1477576192-01","Prebroiavane na divite zaitsi (1973) - IMDb rm1477576192","https://m.media-amazon.com/images/M/MV5BNTRjMjE0ZTktOTg3MC00N2QyLWFmZGEtMGU5ZjFkZDk5M2ZmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0470291/mediaviewer/rm1477576192/","IMDb Official Stills"]];

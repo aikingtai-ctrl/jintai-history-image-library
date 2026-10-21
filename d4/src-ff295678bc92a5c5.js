@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ff295678bc92a5c5-rm3414426881-01","Mr. Marsh Comes to School (1961) - IMDb rm3414426881","https://m.media-amazon.com/images/M/MV5BZTkxMGNhNjMtMTI3MS00YWM5LThhM2YtNmQ1NDQ3ZDIxM2NiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt23572918/mediaviewer/rm3414426881/","IMDb Official Stills"]];

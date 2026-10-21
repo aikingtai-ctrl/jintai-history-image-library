@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-674f5af0f23e6547-rm3959337729-01","New Fighter Shall Arise / Vstanou noví bojovníci (1951) - IMDb rm3959337729","https://m.media-amazon.com/images/M/MV5BYzk3MjFiNWYtOGQzMS00Zjk3LThhZjktZWYzZGEwNjMxNjA4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt11789754/mediaviewer/rm3959337729/","IMDb Official Stills"]];

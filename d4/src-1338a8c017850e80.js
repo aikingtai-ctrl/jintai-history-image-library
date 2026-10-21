@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-1338a8c017850e80-rm1290603777-01","E no naka no boku no mura (The Village Of My Paintings) (1996) - IMDb rm1290603777","https://m.media-amazon.com/images/M/MV5BNjQ4MjcyMmEtMWZhYy00MDYwLWI4NTUtNjVlZDgwNWQ5YWRmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1566645/mediaviewer/rm1290603777/","IMDb Official Stills"]];

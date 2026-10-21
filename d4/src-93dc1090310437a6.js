@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-93dc1090310437a6-rm2293523712-01","Beth ha àrava (1948) - IMDb rm2293523712","https://m.media-amazon.com/images/M/MV5BMzhiNWVhM2ItMThhYi00OTVkLWJlZTMtZDdlYzE0M2VkMGM3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt2915842/mediaviewer/rm2293523712/","IMDb Official Stills"]];

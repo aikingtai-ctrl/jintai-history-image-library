@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8ebd2d3a16993e0d-rm2611823104-01","An american Illustrator (1962) - IMDb rm2611823104","https://m.media-amazon.com/images/M/MV5BMjk4NDVjY2YtOTcxNy00YjIxLTgwZGEtMjNhYTczZmVjMDFhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8426392/mediaviewer/rm2611823104/","IMDb Official Stills"]];

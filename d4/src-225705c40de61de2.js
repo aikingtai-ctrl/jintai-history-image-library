@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-225705c40de61de2-rm309243138-01","Ferestedah (1982) - IMDb rm309243138","https://m.media-amazon.com/images/M/MV5BMGJiZWM3ZmEtZWI4YS00ZTI2LWFlZTYtMmM4ZDY4YzhkZmNkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38840669/mediaviewer/rm309243138/","IMDb Official Stills"]];

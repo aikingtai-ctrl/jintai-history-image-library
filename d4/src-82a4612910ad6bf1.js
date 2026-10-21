@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-82a4612910ad6bf1-rm998203648-01","Kleine Laus - ganz groß (1954) - IMDb rm998203648","https://m.media-amazon.com/images/M/MV5BZjBhOWE2YTktZGY3MC00ODkyLWExM2ItZjZhMTQ5ZTFhZmFkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0051823/mediaviewer/rm998203648/","IMDb Official Stills"]];

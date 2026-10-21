@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2b53980eb79e5adb-rm2660482049-01","Die Schleuse (1962) - IMDb rm2660482049","https://m.media-amazon.com/images/M/MV5BMGQ0M2FmYTQtNTI4NS00NzM5LWIzOGEtZmI1OGUxZThiZDAzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12065096/mediaviewer/rm2660482049/","IMDb Official Stills"]];

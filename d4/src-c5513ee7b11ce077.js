@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c5513ee7b11ce077-rm1612729345-01","Cristo tra i Primitivi (1951) - IMDb rm1612729345","https://m.media-amazon.com/images/M/MV5BZDg2NjI1OWMtY2Q1NC00NzQxLTlkYjctNjE3ZTk1OWE4NTFiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0045625/mediaviewer/rm1612729345/","IMDb Official Stills"]];

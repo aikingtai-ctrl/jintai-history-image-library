@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5cab001630126c54-rm2102243073-01","Rostlina a voda (1953) - IMDb rm2102243073","https://m.media-amazon.com/images/M/MV5BMGM0ZDk0NDctODhmZS00YWIwLTk1NGEtMTlhMTAzYTdlZTk5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0375141/mediaviewer/rm2102243073/","IMDb Official Stills"]];

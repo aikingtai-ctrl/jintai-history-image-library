@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-91665601f985e56f-rm511381760-01","Visite officielle du president Houphouet en Guinee (1963) - IMDb rm511381760","https://m.media-amazon.com/images/M/MV5BNTIyYWJlNjYtZmVkMi00YmFjLWFiMTMtYmIzODFhYjIxY2Q5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0112727/mediaviewer/rm511381760/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-bea92ff143554405-rm2039001857-01","The basic Principles of Lubrification (1952) - IMDb rm2039001857","https://m.media-amazon.com/images/M/MV5BNGNhZTExZDEtYTU0ZC00ODQ3LWEwNjItZGU4OTdhZWMwMTliXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0330724/mediaviewer/rm2039001857/","IMDb Official Stills"]];

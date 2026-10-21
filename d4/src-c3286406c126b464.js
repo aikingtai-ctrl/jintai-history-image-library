@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-c3286406c126b464-rm1790801152-01","毛泽东 (1984) - IMDb rm1790801152","https://m.media-amazon.com/images/M/MV5BNjAxNDdiNjQtODVlMC00ZTNhLWEzMTktYzhkMjMxMDcwNzFlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6394548/mediaviewer/rm1790801152/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0e7123c8fbe3fae6-rm1698679554-01","Straza na Drini (1942) - IMDb rm1698679554","https://m.media-amazon.com/images/M/MV5BOWIxZTJiZTgtNDhlOC00YTM1LWJiOGItMTkxYWQ3ODc4YTYxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt42207332/mediaviewer/rm1698679554/","IMDb Official Stills"]];

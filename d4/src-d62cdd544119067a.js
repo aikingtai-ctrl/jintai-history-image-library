@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d62cdd544119067a-rm789582849-01","A kis kakuk (1942) - IMDb rm789582849","https://m.media-amazon.com/images/M/MV5BMzBlYmZlZjQtODg1MC00ZGM3LTlhZmUtZGIxYjMzZWU5YmNjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt21093352/mediaviewer/rm789582849/","IMDb Official Stills"]];

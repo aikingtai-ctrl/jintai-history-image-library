@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3f2e46e2545e2634-rm3403778-01","學仙記 (1992) - IMDb rm3403778","https://m.media-amazon.com/images/M/MV5BYzRkOGQ0ZDAtZmZkZC00NjUyLTgyMDMtYzk3MTY4ZWJiN2EwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt47936607/mediaviewer/rm3403778/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6bc41bfee5c0b3fc-rm1408789248-01","Big Bill Blues (1957) - IMDb rm1408789248","https://m.media-amazon.com/images/M/MV5BNmE1MGNjNzgtM2E0Ny00OGIxLWJmZWMtNWU0NGMyNGQxZTJlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8755180/mediaviewer/rm1408789248/","IMDb Official Stills"]];

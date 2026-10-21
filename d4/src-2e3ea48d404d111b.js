@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2e3ea48d404d111b-rm3662388226-01","Pas a deux (1989) - IMDb rm3662388226","https://m.media-amazon.com/images/M/MV5BNzIzMTNiMjItZWI2MC00Y2UwLWIwNTQtMzk2MDYwYTA4MGYzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt33055536/mediaviewer/rm3662388226/","IMDb Official Stills"]];

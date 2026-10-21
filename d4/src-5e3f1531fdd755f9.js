@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-5e3f1531fdd755f9-rm1986519809-01","The Battle of Stalingrad Parts I and II / Stalingradskaya bitva I, II (1949) - IMDb rm1986519809","https://m.media-amazon.com/images/M/MV5BNjEyNjIyZjUtNzQ5OC00OTJlLTk4MjYtN2U0YTFiYTAxNjI2XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt16977712/mediaviewer/rm1986519809/","IMDb Official Stills"]];

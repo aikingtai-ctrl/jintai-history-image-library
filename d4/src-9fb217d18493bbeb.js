@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9fb217d18493bbeb-rm3599760642-01","Albero verde (1964) - IMDb rm3599760642","https://m.media-amazon.com/images/M/MV5BNjgyNTMzM2UtNjA3ZC00NDdjLWJhYzctZWU1MTkzYzI1NDY3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt39950894/mediaviewer/rm3599760642/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-dbe45183358ec9e0-rm2136726018-01","We've Come a long Way (1951) - IMDb rm2136726018","https://m.media-amazon.com/images/M/MV5BOWYxN2Y1ODUtMDAzZi00MzRkLWJlZjMtNGEwOTk3NGYxMzg4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10126676/mediaviewer/rm2136726018/","IMDb Official Stills"]];

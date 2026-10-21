@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-869fde4cf080599b-rm2976843264-01","Clowns on the Wall / Bohóc a falon (1968) - IMDb rm2976843264","https://m.media-amazon.com/images/M/MV5BZmM4ZWZkYjEtYjEyMi00Y2ZjLTg1YTYtMmVlY2U5OTRjNGNjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1928196/mediaviewer/rm2976843264/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-82cb16382dfb7372-rm3108279809-01","L'île aux oiseaux (1958) - IMDb rm3108279809","https://m.media-amazon.com/images/M/MV5BZWMyMDYwY2ItOThmOC00ODQwLWJmOTYtNDRkMDc2MGM3YmYzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10662466/mediaviewer/rm3108279809/","IMDb Official Stills"]];

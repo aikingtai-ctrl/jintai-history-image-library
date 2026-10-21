@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2594896f0bfb4cf3-rm2683345665-01","O Rio de Janeiro continua lindo (2022) - IMDb rm2683345665","https://m.media-amazon.com/images/M/MV5BN2UxZjM2M2UtNjQyZS00ZWU1LWI1MDUtYzFkZGIzOTM5ZDZlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10192352/mediaviewer/rm2683345665/","IMDb Official Stills"]];

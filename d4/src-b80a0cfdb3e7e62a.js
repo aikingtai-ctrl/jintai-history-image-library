@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b80a0cfdb3e7e62a-rm674936322-01","Le Grand Magal de Touba (1962) - IMDb rm674936322","https://m.media-amazon.com/images/M/MV5BYTkzY2Q4OWMtN2QzOC00ZmMyLWExODAtMjk3YjRkZDI1YjgyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt34966984/mediaviewer/rm674936322/","IMDb Official Stills"]];

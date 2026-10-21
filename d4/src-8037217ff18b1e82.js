@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8037217ff18b1e82-rm622724096-01","Sandakan hachibanshokan, bohk yo (1975) - IMDb rm622724096","https://m.media-amazon.com/images/M/MV5BZmJhYmRlODktNmVmMi00NjYwLWJiMGItZWQ2Mzc0OWU3MjU4XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0121434/mediaviewer/rm622724096/","IMDb Official Stills"]];

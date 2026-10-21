@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-0e06501213629dc9-rm2981743618-01","Tři muži (1960) - IMDb rm2981743618","https://m.media-amazon.com/images/M/MV5BZDY3ZDM4OGEtNzJlZC00NzAwLWEwNDMtZjdlNDY1YWVhNjQwXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt43249689/mediaviewer/rm2981743618/","IMDb Official Stills"]];

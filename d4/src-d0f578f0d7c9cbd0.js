@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d0f578f0d7c9cbd0-rm3377192450-01","Il trasporto d'urgenza con mezzi di fortuna (1952) - IMDb rm3377192450","https://m.media-amazon.com/images/M/MV5BNDM2YjA2ODctNjM3OS00NjViLTg1NTQtMDRmZjYwMzc0ZjZmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38887563/mediaviewer/rm3377192450/","IMDb Official Stills"]];

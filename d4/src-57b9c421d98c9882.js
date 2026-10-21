@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-57b9c421d98c9882-rm208036865-01","南越宫词 (2021) - IMDb rm208036865","https://m.media-amazon.com/images/M/MV5BZDJlNTExODYtNTUwMi00YzQwLWJlZjUtOGViY2ZiYTAzZTNiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt34380144/mediaviewer/rm208036865/","IMDb Official Stills"]];

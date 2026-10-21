@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-fa3e46ec752b8b3f-rm35128320-01","Pugni chiusi (2011) - IMDb rm35128320","https://m.media-amazon.com/images/M/MV5BMjA1ZDhhODItYjZkYi00MTllLWFjOTItZjc5OTg5OTc0ZTAyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6258936/mediaviewer/rm35128320/","IMDb Official Stills"]];

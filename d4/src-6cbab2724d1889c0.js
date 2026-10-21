@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6cbab2724d1889c0-rm1544621313-01","Das Werk am Rhein (1952) - IMDb rm1544621313","https://m.media-amazon.com/images/M/MV5BYmE1N2MwOTQtY2E4OS00OWQ0LWE1MzMtYTIwMjYyODQwYmI3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt22029442/mediaviewer/rm1544621313/","IMDb Official Stills"]];

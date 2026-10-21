@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a41fd6fc9eedc3cd-rm2748332801-01","Vie sauvage / Wild Life (2014) - IMDb rm2748332801","https://m.media-amazon.com/images/M/MV5BYjljMTgzZDEtMGQyZi00MjZiLTg1NjItZTlhOGRhYmMzZmI1XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt1034240/mediaviewer/rm2748332801/","IMDb Official Stills"]];

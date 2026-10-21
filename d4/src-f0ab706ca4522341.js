@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-f0ab706ca4522341-rm3943307520-01","L'architettura della penisola sorrentina (1955) - IMDb rm3943307520","https://m.media-amazon.com/images/M/MV5BNTA3MGY3N2EtZjExMy00ZDQyLWIxMGItZThhZTA0MTJmYzIzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0324384/mediaviewer/rm3943307520/","IMDb Official Stills"]];

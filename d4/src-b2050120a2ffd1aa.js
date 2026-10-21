@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-b2050120a2ffd1aa-rm1167534593-01","Gatz Harana / Salt Valley (2025) - IMDb rm1167534593","https://m.media-amazon.com/images/M/MV5BZDhkZTQ5ZDItYTM4Ny00OTU0LTg3ZmEtY2NjN2VmY2JiYmVkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt6384432/mediaviewer/rm1167534593/","IMDb Official Stills"]];

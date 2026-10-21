@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-7f4c720d6a5547f9-rm2801649921-01","It's the Maine Sardine (1949) - IMDb rm2801649921","https://m.media-amazon.com/images/M/MV5BZmE5NmZmYWMtOWE0NS00YWRjLTk5OTQtNjA5MmEyYjlhYjMxXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt14131408/mediaviewer/rm2801649921/","IMDb Official Stills"]];

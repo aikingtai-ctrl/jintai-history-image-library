@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-65470d361e959152-rm2082562048-01","Mon ami Pierre (1951) - IMDb rm2082562048","https://m.media-amazon.com/images/M/MV5BY2RlYmE2MmQtMzM4NS00ZGUzLTgwOGEtN2E5MWMzNDk1ZGYzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0307004/mediaviewer/rm2082562048/","IMDb Official Stills"]];

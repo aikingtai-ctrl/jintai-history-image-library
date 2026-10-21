@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-75d45b6f2e072ed3-rm350024704-01","Pastorale d'automne (1958) - IMDb rm350024704","https://m.media-amazon.com/images/M/MV5BMTYzMDI3MDQ4Ml5BMl5BanBnXkFtZTgwNDU2ODE3NTE@._V1_.jpg","https://www.imdb.com/title/tt0306497/mediaviewer/rm350024704/","IMDb Official Stills"]];

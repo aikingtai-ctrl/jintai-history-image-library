@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-3ab0d04b2d056263-rm3522818561-01","Roentgencinematografia del corpo umano (1954) - IMDb rm3522818561","https://m.media-amazon.com/images/M/MV5BYzdmNGNkNjYtNWRhOC00NzI0LWI1NmUtZjdhNzliNmI1NDFiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt12784522/mediaviewer/rm3522818561/","IMDb Official Stills"]];

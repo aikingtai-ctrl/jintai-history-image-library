@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-50034c545d8f87e9-rm2478733824-01","La herida / Wounded (2013) - IMDb rm2478733824","https://m.media-amazon.com/images/M/MV5BZGZjMTUxMmEtNmE5Ny00ZWEzLWI5NTgtZDBlZTFkOTVhNzU3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8784778/mediaviewer/rm2478733824/","IMDb Official Stills"]];

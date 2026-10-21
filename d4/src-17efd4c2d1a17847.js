@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-17efd4c2d1a17847-rm508183296-01","François, Le Rhinoceros (1954) - IMDb rm508183296","https://m.media-amazon.com/images/M/MV5BOTY2NTU2ZTMtNTRkNi00OTE5LWExOWYtODY0NGZlYWIyZDFjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3311172/mediaviewer/rm508183296/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-e6106f276de388ad-rm2753513216-01","Virus sconosciuto (poliomelite) (1950) - IMDb rm2753513216","https://m.media-amazon.com/images/M/MV5BNDI0Yjc0MTgtNWI0NS00NjJhLWI5MzMtMjk4NjFiYmRmYjMyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8692840/mediaviewer/rm2753513216/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-ef390921e370a1ac-rm3948837377-01","Langer gang / Passages (1992) - IMDb rm3948837377","https://m.media-amazon.com/images/M/MV5BMWQ5ZThhM2UtMjY1Yy00YjlmLWEzNTMtYjgxNTU2MTgwOGJjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt31956628/mediaviewer/rm3948837377/","IMDb Official Stills"]];

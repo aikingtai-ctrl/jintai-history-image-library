@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2ddb932e1dcdcc1e-rm1081753344-01","Décembre, mois des enfants (1958) - IMDb rm1081753344","https://m.media-amazon.com/images/M/MV5BMzI5NzhhY2QtNzI1MC00YzM4LWIwZjMtY2IzMmZhYTM4NGFiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3412054/mediaviewer/rm1081753344/","IMDb Official Stills"]];

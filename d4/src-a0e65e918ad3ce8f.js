@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-a0e65e918ad3ce8f-rm1248018688-01","A Sculptor's Landscape - Henry Moore (1958) - IMDb rm1248018688","https://m.media-amazon.com/images/M/MV5BMWE5YWJjMmMtYmY4Ni00MGI4LThiZDctZGEwNTliYTA5YjUzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt8493078/mediaviewer/rm1248018688/","IMDb Official Stills"]];

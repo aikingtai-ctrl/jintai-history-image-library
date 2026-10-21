@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-90a5ddd285e4a4bd-rm1955606529-01","It’s Rain and Shine Together / Veri az ördög a feleségét (1978) - IMDb rm1955606529","https://m.media-amazon.com/images/M/MV5BOGY4NzYzODQtMWZiMS00MjMzLWI4NzMtMDk2ZGZiMDc1ZDE0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt26626809/mediaviewer/rm1955606529/","IMDb Official Stills"]];

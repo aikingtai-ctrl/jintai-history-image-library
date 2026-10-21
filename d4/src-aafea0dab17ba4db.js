@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-aafea0dab17ba4db-rm592581889-01","Human and animal beginnings (1967) - IMDb rm592581889","https://m.media-amazon.com/images/M/MV5BYTJmZTE0YTMtMmE2OS00OWYyLWIyMjgtNjQ5YzhlZDdjMzFiXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt3443668/mediaviewer/rm592581889/","IMDb Official Stills"]];

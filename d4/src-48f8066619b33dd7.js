@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-48f8066619b33dd7-rm2970551297-01","Olympia - Olympia (1972) - IMDb rm2970551297","https://m.media-amazon.com/images/M/MV5BNmFkMThhZjUtYzZmYS00NTY0LWI4ZGQtYjgyODdkNzAxZDcyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt22029664/mediaviewer/rm2970551297/","IMDb Official Stills"]];

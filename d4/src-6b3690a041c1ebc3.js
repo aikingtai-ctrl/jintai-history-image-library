@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6b3690a041c1ebc3-rm3752478465-01","Plitvicka jezera (1957) - IMDb rm3752478465","https://m.media-amazon.com/images/M/MV5BNDQwZDY5NDEtNjlhZS00MDA1LTg1MjktNWUzODdkMjk3ODNhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt28517431/mediaviewer/rm3752478465/","IMDb Official Stills"]];

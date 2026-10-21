@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-53691917c0ef9f20-rm3575234306-01","Veille d'armes (1936) - IMDb rm3575234306","https://m.media-amazon.com/images/M/MV5BMWQzMDJjODAtYWI0OC00ZWNjLWFiODAtMTUyZDE1Nzk2MzUyXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt37540676/mediaviewer/rm3575234306/","IMDb Official Stills"]];

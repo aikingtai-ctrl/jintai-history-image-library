@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2b48941831f5c8fe-rm3366421761-01","Arthur Honnegger, sa vie, son oeuvre (1957) - IMDb rm3366421761","https://m.media-amazon.com/images/M/MV5BOThmZWM4NTctMjQ5Yi00YTkxLWE5ODktN2ZkNDA1YWZlY2M0XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0206772/mediaviewer/rm3366421761/","IMDb Official Stills"]];

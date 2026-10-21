@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-2a12a6388544abb9-rm966416896-01","Nachtspaziergang (2009) - IMDb rm966416896","https://m.media-amazon.com/images/M/MV5BZGIwZTFlYjUtZjUwYS00ZWM3LTllYzQtZDA2NTE1MmY0OWVlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0039838/mediaviewer/rm966416896/","IMDb Official Stills"]];

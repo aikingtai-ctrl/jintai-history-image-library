@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-78440c2db3f0dad7-rm229546753-01","Le biccherne di Siena (1951) - IMDb rm229546753","https://m.media-amazon.com/images/M/MV5BNzJmYTJjMDktNTI4NC00MmZkLTk5MTgtNWQwN2YxZmM2ZmE3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt10116208/mediaviewer/rm229546753/","IMDb Official Stills"]];

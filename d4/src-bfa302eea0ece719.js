@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-bfa302eea0ece719-rm1265600002-01","Storia di Ciro (1964) - IMDb rm1265600002","https://m.media-amazon.com/images/M/MV5BOTQ2YWE4NmYtOTJiYy00MDRjLWJiZWQtOWFiNDAxNTAzODdkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt27458927/mediaviewer/rm1265600002/","IMDb Official Stills"]];

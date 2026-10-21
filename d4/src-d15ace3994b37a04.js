@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-d15ace3994b37a04-rm3408599040-01","Como nace un volcán (1948) - IMDb rm3408599040","https://m.media-amazon.com/images/M/MV5BNzQ4Y2M5NzItNDNjMi00YWU3LTlkZDktNDhmOWRjZGI2YzFkXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0078544/mediaviewer/rm3408599040/","IMDb Official Stills"]];

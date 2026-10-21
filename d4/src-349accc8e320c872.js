@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-349accc8e320c872-rm3359502081-01","Entre les autres (2023) - IMDb rm3359502081","https://m.media-amazon.com/images/M/MV5BNTk4ZDg5MTktN2E0NC00YTBhLWExNzItMjdkODBhMGZmZGZlXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt16317640/mediaviewer/rm3359502081/","IMDb Official Stills"]];

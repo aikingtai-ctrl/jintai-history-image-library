@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9dc1756b08be512d-rm3716569601-01","Polio - Diagnosis and Management (1948) - IMDb rm3716569601","https://m.media-amazon.com/images/M/MV5BOTlmYWU4NGQtOTNjZS00MTlkLThmZTYtNzQ2MWMxOGUwYmZmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt28445724/mediaviewer/rm3716569601/","IMDb Official Stills"]];

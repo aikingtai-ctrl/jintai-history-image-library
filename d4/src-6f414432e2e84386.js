@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-6f414432e2e84386-rm2880414721-01","Du sel, du calcaire, et du coke (1955) - IMDb rm2880414721","https://m.media-amazon.com/images/M/MV5BN2EzOTAwNzYtZmY2Ny00MmNjLTkxMjUtNGQ2MGY0N2M0Yzg3XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt13137878/mediaviewer/rm2880414721/","IMDb Official Stills"]];

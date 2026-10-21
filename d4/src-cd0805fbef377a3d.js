@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-cd0805fbef377a3d-rm4068696321-01","Xiatian De Xue (1995) - IMDb rm4068696321","https://m.media-amazon.com/images/M/MV5BYmY4NTUzY2ItZjUyMS00YmZiLThmZWQtYjgwNmNiMzFiYzY5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt30034307/mediaviewer/rm4068696321/","IMDb Official Stills"]];

@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-43946c4cb9ce8cd2-rm3060381442-01","Aesop's Fables (1960) - IMDb rm3060381442","https://m.media-amazon.com/images/M/MV5BNTkwYjAyZjItOTg4MS00NjNhLWJhZGUtYjQ0NjJmODcwNDJmXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt38043556/mediaviewer/rm3060381442/","IMDb Official Stills"]];

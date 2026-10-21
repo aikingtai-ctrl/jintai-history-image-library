@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-8de3f3785c1d5ca1-rm3553503744-01","Nous sommes tous encore ici (2026) - IMDb rm3553503744","https://m.media-amazon.com/images/M/MV5BZjcwMDJkNTAtZjFkYS00OTdjLTk5MjYtMjZhZWUzZTkzYmZhXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0119808/mediaviewer/rm3553503744/","IMDb Official Stills"]];

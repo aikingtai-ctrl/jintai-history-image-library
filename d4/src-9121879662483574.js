@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-9121879662483574-rm1443492354-01","Gli orizzonti del sole (1954) - IMDb rm1443492354","https://m.media-amazon.com/images/M/MV5BNmJmYTE5ZTgtOTZlZC00Y2RmLTljYTctYTI2MzdjY2ZlZjU5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt47246908/mediaviewer/rm1443492354/","IMDb Official Stills"]];

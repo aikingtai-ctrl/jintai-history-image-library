@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-bb23b9cdb8e74b5e-rm503362306-01","Due giorni in Italia (1956) - IMDb rm503362306","https://m.media-amazon.com/images/M/MV5BYWRiNmRlMDQtY2FlNy00NDAwLThhZDAtZTE4NDYzMTU5NmE5XkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt32446354/mediaviewer/rm503362306/","IMDb Official Stills"]];

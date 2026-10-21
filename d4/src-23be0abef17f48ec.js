@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-23be0abef17f48ec-rm799951105-01","抗日烽火 (1986) - IMDb rm799951105","https://m.media-amazon.com/images/M/MV5BZGY4MGVhOTgtNGVjYS00ZDZjLWIzMTQtZDRjZWUwODBiNzRjXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt30581592/mediaviewer/rm799951105/","IMDb Official Stills"]];

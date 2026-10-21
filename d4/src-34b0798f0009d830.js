@@ -1,0 +1,1 @@
+window.FILM_SOURCE_FRAMES=[["IM-src-34b0798f0009d830-rm1327717888-01","I gondolieri di Venezia (1964) - IMDb rm1327717888","https://m.media-amazon.com/images/M/MV5BNGNkZjdjMzktZThkYy00M2QyLTkxMWYtZmNmZGRjYTM1MjkzXkEyXkFqcGc@._V1_.jpg","https://www.imdb.com/title/tt0185506/mediaviewer/rm1327717888/","IMDb Official Stills"]];
