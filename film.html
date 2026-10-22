@@ -534,7 +534,7 @@ function refreshLoaded(sourceSummary,visualLoadFailed){BYID.clear();BYW.clear();
  fpOptions();apply(true);}
 $('retryLoad').onclick=()=>location.reload();
 (async function init(){let sourceSummary,visualLoadFailed=false;try{
- const summaryReady=loadScript('d4/summary.js?v=eac12d054704');if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
+ const summaryReady=loadScript('d4/summary.js?v=0c250f20bcb4');if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
  for(const s of SHARDS.filter(x=>x.era!=='__detail__'))if(!await loadScript(DATA_DIR+'/'+s.file))visualLoadFailed=true;
  saveDecks();saveCmp();readShared();refreshLoaded(sourceSummary,visualLoadFailed);
  $('loadStatus').textContent=`正在继续载入，可先搜索已载入的 ${R.length.toLocaleString()} 条镜头描述…`;
