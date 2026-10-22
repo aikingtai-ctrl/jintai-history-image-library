@@ -1,4 +1,4 @@
-<!doctype html><html lang="zh-CN"><head><script>(function(){var H='3cfc9752923a03bf797634824be62c204630e71146b569ff82b87cfbaf54d3ff';var k='jt_gate';function ok(){document.documentElement.style.visibility='visible';}
+<!doctype html><html lang="zh-CN"><head><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><script>(function(){var H='3cfc9752923a03bf797634824be62c204630e71146b569ff82b87cfbaf54d3ff';var k='jt_gate';function ok(){document.documentElement.style.visibility='visible';}
 async function sha(s){var b=new TextEncoder().encode(s);var d=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(d)).map(x=>x.toString(16).padStart(2,'0')).join('');}
 document.documentElement.style.visibility='hidden';
 (async function(){if(sessionStorage.getItem(k)===H){ok();return;}for(var i=0;i<3;i++){var p=prompt('金泰AI 中国历史文化图库（内部初稿）\n请输入访问口令：');if(p===null)break;var h=await sha(p.trim());if(h===H){sessionStorage.setItem(k,H);ok();return;}}
@@ -534,7 +534,7 @@ function refreshLoaded(sourceSummary,visualLoadFailed){BYID.clear();BYW.clear();
  fpOptions();apply(true);}
 $('retryLoad').onclick=()=>location.reload();
 (async function init(){let sourceSummary,visualLoadFailed=false;try{
- const summaryReady=loadScript('d4/summary.js?v=7d525514b41b');if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
+ const summaryReady=loadScript('d4/summary.js?v=eac12d054704');if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
  for(const s of SHARDS.filter(x=>x.era!=='__detail__'))if(!await loadScript(DATA_DIR+'/'+s.file))visualLoadFailed=true;
  saveDecks();saveCmp();readShared();refreshLoaded(sourceSummary,visualLoadFailed);
  $('loadStatus').textContent=`正在继续载入，可先搜索已载入的 ${R.length.toLocaleString()} 条镜头描述…`;
