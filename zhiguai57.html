@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="zh-CN">
-<head><script>(function(){var H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3',K='jt_gate_'+H.slice(0,12);try{if(sessionStorage.getItem(K)==='1'){document.documentElement.setAttribute('data-jt-ok','1');return;}}catch(e){}document.documentElement.style.visibility='hidden';function s256(s){var K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];function R(n,x){return(x>>>n)|(x<<(32-n));}var u=unescape(encodeURIComponent(s)),l=u.length,m=[],i;for(i=0;i<l;i++)m[i>>2]|=(u.charCodeAt(i)&255)<<(24-(i%4)*8);m[l>>2]|=0x80<<(24-(l%4)*8);m[(((l+8)>>6)<<4)+15]=l*8;var h=[0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19],w=new Array(64);for(i=0;i<m.length;i+=16){var a=h[0],b=h[1],c=h[2],d=h[3],e=h[4],f=h[5],g=h[6],j=h[7],t;for(t=0;t<64;t++){if(t<16)w[t]=m[i+t]|0;else{var x=w[t-15],y=w[t-2];w[t]=((R(7,x)^R(18,x)^(x>>>3))+w[t-7]+(R(17,y)^R(19,y)^(y>>>10))+w[t-16])|0;}var T1=(j+(R(6,e)^R(11,e)^R(25,e))+((e&f)^(~e&g))+K[t]+w[t])|0,T2=((R(2,a)^R(13,a)^R(22,a))+((a&b)^(a&c)^(b&c)))|0;j=g;g=f;f=e;e=(d+T1)|0;d=c;c=b;b=a;a=(T1+T2)|0;}for(t=0;t<8;t++)h[t]=(h[t]+[a,b,c,d,e,f,g,j][t])|0;}var o='';for(i=0;i<8;i++)o+=('00000000'+(h[i]>>>0).toString(16)).slice(-8);return o;}for(var n=0;n<3;n++){var p=prompt('请输入访问口令：');if(p===null)break;if(s256(p.trim())===H){try{sessionStorage.setItem(K,'1');}catch(e){}document.documentElement.setAttribute('data-jt-ok','1');document.documentElement.style.visibility='visible';return;}}function lockDom(){document.documentElement.removeAttribute('data-jt-ok');if(document.body){document.body.innerHTML='<div style="display:flex;align-items:center;justify-content:center;height:100vh;background:#121316;color:#f5f0e6;font:22pt Microsoft YaHei,sans-serif">口令错误或已取消，无法访问此页面。请刷新重试。</div>';document.body.style.setProperty('display','block','important');}document.documentElement.style.visibility='visible';}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',lockDom);else lockDom();})();</script>
+<head><script>(function(){var H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3',K='jt_gate_'+H.slice(0,12);try{if(sessionStorage.getItem(K)==='1'||sessionStorage.getItem('jt_gate')===H){document.documentElement.setAttribute('data-jt-ok','1');return;}}catch(e){}document.documentElement.style.visibility='hidden';function s256(s){var K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];function R(n,x){return(x>>>n)|(x<<(32-n));}var u=unescape(encodeURIComponent(s)),l=u.length,m=[],i;for(i=0;i<l;i++)m[i>>2]|=(u.charCodeAt(i)&255)<<(24-(i%4)*8);m[l>>2]|=0x80<<(24-(l%4)*8);m[(((l+8)>>6)<<4)+15]=l*8;var h=[0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19],w=new Array(64);for(i=0;i<m.length;i+=16){var a=h[0],b=h[1],c=h[2],d=h[3],e=h[4],f=h[5],g=h[6],j=h[7],t;for(t=0;t<64;t++){if(t<16)w[t]=m[i+t]|0;else{var x=w[t-15],y=w[t-2];w[t]=((R(7,x)^R(18,x)^(x>>>3))+w[t-7]+(R(17,y)^R(19,y)^(y>>>10))+w[t-16])|0;}var T1=(j+(R(6,e)^R(11,e)^R(25,e))+((e&f)^(~e&g))+K[t]+w[t])|0,T2=((R(2,a)^R(13,a)^R(22,a))+((a&b)^(a&c)^(b&c)))|0;j=g;g=f;f=e;e=(d+T1)|0;d=c;c=b;b=a;a=(T1+T2)|0;}for(t=0;t<8;t++)h[t]=(h[t]+[a,b,c,d,e,f,g,j][t])|0;}var o='';for(i=0;i<8;i++)o+=('00000000'+(h[i]>>>0).toString(16)).slice(-8);return o;}for(var n=0;n<3;n++){var p=prompt('请输入访问口令：');if(p===null)break;if(s256(p.trim())===H){try{sessionStorage.setItem(K,'1');sessionStorage.setItem('jt_gate',H);}catch(e){}document.documentElement.setAttribute('data-jt-ok','1');document.documentElement.style.visibility='visible';return;}}function lockDom(){document.documentElement.removeAttribute('data-jt-ok');if(document.body){document.body.innerHTML='<div style="display:flex;align-items:center;justify-content:center;height:100vh;background:#121316;color:#f5f0e6;font:22pt Microsoft YaHei,sans-serif">口令错误或已取消，无法访问此页面。请刷新重试。</div>';document.body.style.setProperty('display','block','important');}document.documentElement.style.visibility='visible';}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',lockDom);else lockDom();})();</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>中国古代志怪·佛道感应·仙传·笔记·传奇·神魔 57 部故事总集 · 角色/场景/道具资产总库</title>
@@ -42,32 +42,31 @@ textarea{width:100%;min-height:220px;background:#111317;color:#e5dfd3;border:1px
 </head>
 <body>
 <header>
-  <div><a href="index.html">← 返回《图库总检索》</a> · <a href="dynasty2000.html">薄弱环节与朝代多类别专集</a> · <a href="myth5000.html">神话传说5000专集</a> · <a href="websearch5000.html">全网考证总专集</a></div>
-  <h1>中国古代志怪·佛道感应·仙传·笔记·传奇·神魔 57 部故事总集 · 角色/场景/道具全归拢总库</h1>
+  <p style="margin:0 0 8px;font-size:14.5pt;line-height:1.6"><a href="index.html" style="color:#284b45;font-weight:bold">← 返回《图库总检索》首页（52,979条目 / 261,412提示词）</a> ｜ <a href="browser.html" style="color:#284b45;font-weight:bold">提示词浏览器（51,986条目）</a> ｜ <a href="figures.html" style="color:#8a1c1c;font-weight:bold">历代历史名人（11,000人）</a> ｜ <a href="dynasty2000.html" style="color:#1d5c42;font-weight:bold">薄弱环节与工程配套（14,000条）</a> ｜ <a href="zhiguai31.html" style="color:#4a2574;font-weight:bold">57部志怪神魔总集（6,000条）</a> ｜ <a href="arch5680.html" style="color:#1f4e5f;font-weight:bold">历代建筑总集（8,248座）</a> ｜ <a href="myth5000.html" style="color:#5b2c83;font-weight:bold">神话传说（5,000条目）</a> ｜ <a href="websearch5000.html" style="color:#1b4f72;font-weight:bold">全网考证总库（41,000条）</a> ｜ <a href="film.html" style="color:#7a1f1f;font-weight:bold">影视参考图集</a></p>
+  <h1>★ 中国古代志怪·佛道感应·仙传·笔记·传奇·神魔 57 部故事总集 · 角色/场景/道具/配套全归拢总库</h1>
   <div class="stats">
     <span>57 部经典古籍全覆盖</span>
     <span>三批累计 600 组经典篇章 · 6,000 条十二段提示词（ZG-20261028-0001..6000）</span>
     <span>角色 2,400 条 ＋ 场景 1,800 条 ＋ 道具 1,200 条 ＋ 配套 600 条</span>
-    <span>全库关联既有条目 2668 个（合计归拢 8668 项）</span>
+    <span>全库关联既有条目 2,668 个（合计归拢 8,668 项）</span>
   </div>
   <div class="notice">
     <b>归拢说明：</b>本专集完整归拢 <b>57 部中国古代故事总集</b>：<br>
     ① <b>志怪、笔记与传奇小说（33部）</b>：《神异经》《搜神记》《搜神后记》《博物志》《幽明录》《续齐谐记》《异苑》《酉阳杂俎》《玄怪录》《续玄怪录》《广异记》《宣室志》《夷坚志》《聊斋志异》《阅微草堂笔记》《子不语》《夜谭随录》《谐铎》《剪灯新话》《剪灯余话》《觅灯因话》《太平广记》＋增补《拾遗记》《博异志》《集异记》《甘泽谣》《三水小牍》《纂异记》《稽神录》《青琐高议》《睽车志》《耳食录》《夜雨秋灯录》；<br>
     ② <b>佛教感应、冥报（7部）</b>：《光世音应验记》《续光世音应验记》《系观世音应验记》《冥祥记》《冤魂志（还冤记）》《冥报记》《集神州三宝感通录》；<br>
     ③ <b>神仙、道教相关（8部）</b>：《列仙传》《神仙传》《汉武帝内传》《续仙传》《墉城集仙录》《录异记》《神仙感遇传》《江淮异人录》；<br>
-    ④ <b>神魔与民间幻想长篇（9部）</b>：《西游记》《封神演义》《三遂平妖传》《东游记》《南游记》《北游记》《西游补》《镜花缘》《绿野仙踪》。<br>
-    全部涵盖核心<b>角色（人物/仙真/佛菩萨/鬼狐/精怪）</b>、<b>场景（实景/幽冥/幻境/洞天/伽蓝）</b>、<b>道具（法宝/舍利经像/丹鼎符箓/奇器）</b>与<b>配套（舟楫/舆辇/机关阵法）</b>，零A机生成，零否定词。
+    ④ <b>神魔与民间幻想长篇（9部）</b>：《西游记》《封神演义》《三遂平妖传》《东游记》《南游记》《北游记》《西游补》《镜花缘》《绿野仙踪》。
   </div>
   <div class="tabs">
     <button class="tab on" id="tabBooks" onclick="setTab('books')">一、57部古籍《角色·场景·道具·配套》归拢总表（57部·600组篇章）</button>
-    <button class="tab" id="tabPrompts" onclick="setTab('prompts')">二、专项新增 6,000 条角色/场景/道具 IMAGE 2 提示词（600组×10态）</button>
-    <button class="tab" id="tabExisting" onclick="setTab('existing')">三、全库既有 57 部古籍关联资产检索（精选 600 条 / 总计 2668 条）</button>
+    <button class="tab" id="tabPrompts" onclick="setTab('prompts')">二、专项新增 6,000 条角色/场景/道具/配套 IMAGE 2 提示词（600组×10态）</button>
+    <button class="tab" id="tabExisting" onclick="setTab('existing')">三、全库既有 57 部古籍关联资产检索（精选 600 条 / 总计 2,668 条）</button>
   </div>
 </header>
 <main>
   <section id="secBooks">
     <div class="bar">
-      <input id="qBook" placeholder="搜索57部书名、作者、角色（如：观世音、西王母、赤松子、麻姑、蓝采和、红线女、步飞烟、鱼玄机、韩湘子、吕洞宾）…">
+      <input id="qBook" placeholder="支持多关键词空格搜索57部书名、作者、朝代、角色、法宝（如：观世音、西王母、赤松子、麻姑、红线女、聂小倩、吕洞宾）…">
       <select id="catBook">
         <option value="">全部类别（57部）</option>
         <option value="佛教感应">佛教感应、冥报（7部）</option>
@@ -75,19 +74,30 @@ textarea{width:100%;min-height:220px;background:#111317;color:#e5dfd3;border:1px
         <option value="志怪">志怪、笔记与传奇小说（33部）</option>
         <option value="神魔">神魔与民间幻想长篇（9部）</option>
       </select>
+      <select id="sortBook">
+        <option value="bno">排序：按 57 部古籍目录编号（1→57）</option>
+        <option value="cat">排序：按四大古籍门类归拢</option>
+        <option value="count_desc">排序：按收录篇章与关联资产数倒序</option>
+      </select>
     </div>
     <div class="grid" id="bookGrid"></div>
   </section>
 
   <section id="secPrompts" style="display:none">
     <div class="bar">
-      <input id="qPrompt" placeholder="搜索篇章、角色、场景、法宝道具、编号（如：ZG-20261028、冥祥记、冤魂志、冥报记、列仙传、神仙传、汉武帝内传、墉城集仙录、拾遗记、甘泽谣、三水小牍、耳食录、夜雨秋灯录）…">
+      <input id="qPrompt" placeholder="支持多关键词空格搜索篇章、角色、场景、道具、配套、编号（如：冥祥记 莲华、神仙传 麻姑、耳食录、夜雨秋灯录）…">
       <select id="selType">
         <option value="">全部资产类型（6000条）</option>
         <option value="角色">角色 / 神魔仙佛精怪（2400条）</option>
         <option value="场景">场景 / 幻境洞天冥司（1800条）</option>
         <option value="道具">道具 / 法宝经像信物（1200条）</option>
         <option value="配套">配套 / 舟车仙辇阵法（600条）</option>
+      </select>
+      <select id="sortPrompt">
+        <option value="book">排序：按 57 部古籍与篇章次序（1→57部 · 推荐）</option>
+        <option value="seq">排序：按提示词编号正序（ZG-0001→6000）</option>
+        <option value="seq_desc">排序：按最新扩充批次优先（第3批→第1批）</option>
+        <option value="type">排序：按资产类型归类（角色→场景→道具→配套）</option>
       </select>
       <button onclick="resetPromptFilter()">重置筛选</button>
       <button class="gold" onclick="exportFilteredTxt()">导出当前筛选 TXT</button>
@@ -104,7 +114,7 @@ textarea{width:100%;min-height:220px;background:#111317;color:#e5dfd3;border:1px
 
   <section id="secExisting" style="display:none">
     <div class="bar">
-      <input id="qExist" placeholder="在全库既有57部古籍关联条目中搜索角色、场景、道具…">
+      <input id="qExist" placeholder="在全库既有57部古籍关联条目中多关键词搜索角色、场景、道具…">
     </div>
     <div class="grid" id="existGrid"></div>
   </section>
@@ -134,18 +144,32 @@ function setTab(t) {
 }
 
 function renderBooks() {
-  const q = $('qBook').value.trim().toLowerCase();
+  const rawQ = $('qBook').value.trim().toLowerCase();
+  const tokens = rawQ ? rawQ.split(/\s+/).filter(Boolean) : [];
   const cat = $('catBook').value;
+  const sortMode = $('sortBook') ? $('sortBook').value : 'bno';
   const g = $('bookGrid');
   g.innerHTML = '';
-  RAW.books.filter(b => {
+  const books = RAW.books.filter(b => {
     if (cat && !b.category.includes(cat)) return false;
-    if (q) {
+    if (tokens.length) {
       const hay = (b.book + ' ' + b.author_era + ' ' + b.themes + ' ' + b.stories.join(' ') + ' ' + b.characters.join(' ') + ' ' + b.scenes.join(' ') + ' ' + b.props.join(' ')).toLowerCase();
-      if (!hay.includes(q)) return false;
+      for (const tk of tokens) { if (!hay.includes(tk)) return false; }
     }
     return true;
-  }).forEach(b => {
+  }).slice().sort((a,b) => {
+    if (sortMode === 'cat') {
+      if (a.category !== b.category) return a.category.localeCompare(b.category, 'zh-Hans-CN');
+      return a.book_no - b.book_no;
+    }
+    if (sortMode === 'count_desc') {
+      const ca = a.group_count * 10 + a.existing_count, cb = b.group_count * 10 + b.existing_count;
+      if (ca !== cb) return cb - ca;
+      return a.book_no - b.book_no;
+    }
+    return a.book_no - b.book_no;
+  });
+  books.forEach(b => {
     const d = document.createElement('div');
     d.className = 'card';
     d.innerHTML = `
@@ -164,7 +188,7 @@ function renderBooks() {
 
 function initChips() {
   const box = $('bookChips');
-  let html = `<span class="chip on" data-bno="0" onclick="pickBook(0)">全部57部古籍（6000条）</span>`;
+  let html = `<span class="chip on" data-bno="0" onclick="pickBook(0)">全部57部古籍（${ITEMS.length}条）</span>`;
   RAW.books.forEach(b => {
     html += `<span class="chip" data-bno="${b.book_no}" onclick="pickBook(${b.book_no})">${b.book_no}.${b.book}（${b.group_count*10}）</span>`;
   });
@@ -187,20 +211,38 @@ function jumpBook(bno) {
 function resetPromptFilter() {
   $('qPrompt').value = '';
   $('selType').value = '';
+  if ($('sortPrompt')) $('sortPrompt').value = 'book';
   pickBook(0);
 }
 
 function applyPrompts() {
-  const q = $('qPrompt').value.trim().toLowerCase();
+  const rawQ = $('qPrompt').value.trim().toLowerCase();
+  const tokens = rawQ ? rawQ.split(/\s+/).filter(Boolean) : [];
   const tp = $('selType').value;
-  filtered = ITEMS.filter(r => {
+  const sortMode = $('sortPrompt') ? $('sortPrompt').value : 'book';
+  const list = ITEMS.filter(r => {
     if (curBookNo && r.book_no !== curBookNo) return false;
     if (tp && r.asset_type !== tp) return false;
-    if (q) {
+    if (tokens.length) {
       const hay = (r.id + ' ' + r.book + ' ' + r.author_era + ' ' + r.story + ' ' + r.title + ' ' + r.characters + ' ' + r.scenes + ' ' + r.props + ' ' + r.prompt).toLowerCase();
-      if (!hay.includes(q)) return false;
+      for (const tk of tokens) { if (!hay.includes(tk)) return false; }
     }
     return true;
+  });
+  const TYPE_ORDER = {'角色':1, '场景':2, '道具':3, '配套':4};
+  filtered = list.slice().sort((a,b) => {
+    if (sortMode === 'book') {
+      if (a.book_no !== b.book_no) return a.book_no - b.book_no;
+      return a.seq - b.seq;
+    }
+    if (sortMode === 'seq_desc') return b.seq - a.seq;
+    if (sortMode === 'type') {
+      const ta = TYPE_ORDER[a.asset_type] || 9, tb = TYPE_ORDER[b.asset_type] || 9;
+      if (ta !== tb) return ta - tb;
+      if (a.book_no !== b.book_no) return a.book_no - b.book_no;
+      return a.seq - b.seq;
+    }
+    return a.seq - b.seq;
   });
   renderPrompts();
 }
@@ -208,7 +250,7 @@ function applyPrompts() {
 function renderPrompts() {
   const total = filtered.length, pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
   if (page >= pages) page = pages - 1;
-  $('pCount').textContent = `当前筛选 ${total} 条提示词`;
+  $('pCount').textContent = `当前筛选 ${total} 条提示词（总计 ${ITEMS.length} 条）`;
   $('pInfo').textContent = `第 ${page+1} / ${pages} 页`;
   $('prevBtn').disabled = page <= 0;
   $('nextBtn').disabled = page >= pages - 1;
@@ -248,10 +290,16 @@ function chgPage(delta) {
 }
 
 function renderExisting() {
-  const q = $('qExist').value.trim().toLowerCase();
+  const rawQ = $('qExist').value.trim().toLowerCase();
+  const tokens = rawQ ? rawQ.split(/\s+/).filter(Boolean) : [];
   const g = $('existGrid');
   g.innerHTML = '';
-  RAW.existing.filter(r => !q || (r.book + ' ' + r.title + ' ' + r.brief + ' ' + r.src + ' ' + r.p).toLowerCase().includes(q)).slice(0, 120).forEach((r, idx) => {
+  RAW.existing.filter(r => {
+    if (!tokens.length) return true;
+    const hay = (r.book + ' ' + r.title + ' ' + r.brief + ' ' + r.src + ' ' + r.p).toLowerCase();
+    for (const tk of tokens) { if (!hay.includes(tk)) return false; }
+    return true;
+  }).slice(0, 120).forEach((r, idx) => {
     const d = document.createElement('div');
     d.className = 'card';
     d.innerHTML = `
@@ -281,8 +329,10 @@ function exportFilteredTxt() {
 
 $('qBook').oninput = renderBooks;
 $('catBook').onchange = renderBooks;
+$('sortBook').onchange = renderBooks;
 $('qPrompt').oninput = () => { page = 0; applyPrompts(); };
 $('selType').onchange = () => { page = 0; applyPrompts(); };
+$('sortPrompt').onchange = () => { page = 0; applyPrompts(); };
 $('qExist').oninput = renderExisting;
 initChips();
 renderBooks();
