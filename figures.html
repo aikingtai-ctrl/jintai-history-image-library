@@ -157,6 +157,7 @@ function figSubRank(r){
   const base=ERA_ORDER[r.era]||999;
   const lb=r.era_label||'';
   if(r.era==='XIANQIN'){
+    if(/五帝|三皇|上古/.test(lb))return base+0;
     if(/夏/.test(lb))return base+1;
     if(/商/.test(lb))return base+2;
     if(/西周/.test(lb))return base+3;

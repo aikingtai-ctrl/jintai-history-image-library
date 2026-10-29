@@ -360,7 +360,8 @@ function computeChronoRank(r){
   const d=(r.dyn||'')+' '+(r.title||'')+' '+(r.sub||'');
   let sub=50;
   if(r.era==='先秦'){
-    if(/夏代|夏朝|二里头|大禹|夏桀|陶寺/.test(d))sub=10;
+    if(/夏代|夏朝|二里头|大禹|姒禹|夏启|少康|夏桀|陶寺/.test(d))sub=10;
+    else if(/旧石器|新石器|河姆渡|仰韶|半坡|红山|良渚|龙山|大汶口|石峁|齐家/.test(d))sub=12;
     else if(/商代|商朝|殷墟|殷商|盘龙城|妇好|武丁/.test(d))sub=20;
     else if(/西周|周武王|周公|周成王|周穆王|镐京/.test(d))sub=30;
     else if(/春秋|齐桓|晋文|楚庄|孔子|老子|孙武/.test(d))sub=40;
