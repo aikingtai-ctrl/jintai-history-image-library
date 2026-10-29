@@ -85,7 +85,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:18px}table.bench th,ta
 </style></head><body>
 <header class="top"><div class="hrow"><a class="back" href="index.html" title="返回54,179条目历史文化图库总检索">← 图库总检索（54,179条目）</a><a class="back" href="figures.html" style="margin-left:6px">历史名人（1.1万）</a><a class="back" href="zhiguai31.html" style="margin-left:6px">57部志怪（8000条）</a><a class="back" href="epics.html" style="margin-left:6px">古典文学史诗（4280条）</a><a class="back" href="dynasty2000.html" style="margin-left:6px">薄弱政权与配套（2.0万）</a><a class="back" href="arch5680.html" style="margin-left:6px">历代建筑（8562座）</a><h1>影视参考图集</h1><span class="sub">对标 ShotDeck · 按景别、灯光、色彩、构图、地点、人物情绪、摄影机、镜头找画面</span>
 <span class="stats" id="sourceStats" hidden></span>
-<span class="stats">镜头描述库：<b id="sW">27278</b> 部作品 · <b id="sS">540651</b> 条描述 · <b id="sF">0</b> 张本机截帧 · <span id="sUpdated">更新于 2026-10-29 23:00</span><span id="sOrigin"></span><span id="sNew"></span></span></div>
+<span class="stats">镜头描述库：<b id="sW">27278</b> 部作品 · <b id="sS">540671</b> 条描述 · <b id="sF">0</b> 张本机截帧 · <span id="sUpdated">更新于 2026-10-29 23:11</span><span id="sOrigin"></span><span id="sNew"></span></span></div>
 <nav class="tabs"><button data-tab="find" class="on">找画面</button><button onclick="location.href='sources.html?prompts=1'">逐片镜头提示词与来源</button><button data-tab="decks">参考图集<b id="nDeck"></b></button><button data-tab="compare">风格对照<b id="nCmp"></b></button><button data-tab="works">作品库</button><button data-tab="bench">对标与外部资源</button><button data-tab="help">使用说明</button></nav></header>
 <main>
 <section id="tab-find">
@@ -538,7 +538,7 @@ function refreshLoaded(sourceSummary,visualLoadFailed){BYID.clear();BYW.clear();
  fpOptions();apply(true);}
 $('retryLoad').onclick=()=>location.reload();
 (async function init(){let sourceSummary,visualLoadFailed=false;try{
- const summaryReady=loadScript('d4/summary.js?v=7364629b6e56');if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
+ const summaryReady=loadScript('d4/summary.js?v=32bfa2779b0f');if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
  for(const s of SHARDS.filter(x=>x.era!=='__detail__'))if(!await loadScript(DATA_DIR+'/'+s.file))visualLoadFailed=true;
  await summaryReady;sourceSummary=window.FILM_SOURCE_SUMMARY;if(sourceSummary){$('sourceStats').hidden=false;$('sourceStats').innerHTML=`<b>${sourceSummary.catalogue_works.toLocaleString()}</b> 部作品目录 · <b>${sourceSummary.frame_references.toLocaleString()}</b> 条有来源画面参考${sourceSummary.prompt_records?` · <b>${sourceSummary.prompt_records.toLocaleString()}</b> 条镜头提示词（${sourceSummary.prompt_works.toLocaleString()} 部）`:""}${sourceSummary.award_works?` · <b>${sourceSummary.award_works.toLocaleString()}</b> 部获奖 · <b>${sourceSummary.classic_works.toLocaleString()}</b> 部经典榜单`:''} · <a href="sources.html">逐片镜头提示词与来源 →</a>`;}
  saveDecks();saveCmp();readShared();refreshLoaded(sourceSummary,visualLoadFailed);
