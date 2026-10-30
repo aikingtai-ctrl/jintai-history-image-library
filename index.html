@@ -1,4 +1,8 @@
-<!doctype html><html lang="zh-CN"><head><script>(function(){var H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3';var k='jt_gate';function getSaved(){try{if(localStorage.getItem(k)===H)return true;}catch(e){}try{if(sessionStorage.getItem(k)===H)return true;}catch(e){}return false;}function saveOk(){try{localStorage.setItem(k,H);}catch(e){}try{sessionStorage.setItem(k,H);}catch(e){}}if(getSaved()){document.documentElement.setAttribute('data-jt-ok','1');return;}var st=document.createElement('style');st.id='jt_gate_css';st.textContent='html:not([data-jt-ok="1"]) body{display:none!important}';document.documentElement.appendChild(st);document.documentElement.style.visibility='hidden';function shaPure(ascii){function rr(v,a){return(v>>>a)|(v<<(32-a));}var bytes=[],i,j;if(typeof TextEncoder!=='undefined'){bytes=Array.from(new TextEncoder().encode(ascii));}else{for(i=0;i<ascii.length;i++){var c=ascii.charCodeAt(i);if(c<128)bytes.push(c);else if(c<2048)bytes.push(192|(c>>6),128|(c&63));else bytes.push(224|(c>>12),128|((c>>6)&63),128|(c&63));}}var bitLen=bytes.length*8;bytes.push(0x80);while((bytes.length%64)!==56)bytes.push(0);var hi=Math.floor(bitLen/4294967296),lo=bitLen>>>0;bytes.push((hi>>>24)&255,(hi>>>16)&255,(hi>>>8)&255,hi&255,(lo>>>24)&255,(lo>>>16)&255,(lo>>>8)&255,lo&255);var K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];var H0=[0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];for(i=0;i<bytes.length;i+=64){var W=new Array(64);for(j=0;j<16;j++)W[j]=((bytes[i+j*4]<<24)|(bytes[i+j*4+1]<<16)|(bytes[i+j*4+2]<<8)|bytes[i+j*4+3])>>>0;for(j=16;j<64;j++){var s0=rr(W[j-15],7)^rr(W[j-15],18)^(W[j-15]>>>3);var s1=rr(W[j-2],17)^rr(W[j-2],19)^(W[j-2]>>>10);W[j]=(W[j-16]+s0+W[j-7]+s1)>>>0;}var a=H0[0],b=H0[1],c=H0[2],d=H0[3],e=H0[4],f=H0[5],g=H0[6],h=H0[7];for(j=0;j<64;j++){var S1=rr(e,6)^rr(e,11)^rr(e,25),ch=(e&f)^((~e)&g),t1=(h+S1+ch+K[j]+W[j])>>>0;var S0=rr(a,2)^rr(a,13)^rr(a,22),maj=(a&b)^(a&c)^(b&c),t2=(S0+maj)>>>0;h=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=b;b=a;a=(t1+t2)>>>0;}H0[0]=(H0[0]+a)>>>0;H0[1]=(H0[1]+b)>>>0;H0[2]=(H0[2]+c)>>>0;H0[3]=(H0[3]+d)>>>0;H0[4]=(H0[4]+e)>>>0;H0[5]=(H0[5]+f)>>>0;H0[6]=(H0[6]+g)>>>0;H0[7]=(H0[7]+h)>>>0;}return H0.map(function(x){return('00000000'+x.toString(16)).slice(-8);}).join('');}async function sha(s){try{if(window.crypto&&crypto.subtle&&typeof TextEncoder!=='undefined'){var b=new TextEncoder().encode(s);var d=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(d)).map(function(x){return x.toString(16).padStart(2,'0');}).join('');}}catch(e){}return shaPure(s);}function lockDom(){window.__SHARD__=window.__IDX_BATCH__=window.__VISUAL_INDEX__=window.__VISUAL_WORKS__=window.apply=window.render=window.loadAll=function(){};document.querySelectorAll('script[src]').forEach(function(s){s.onload=s.onerror=null;if(s.parentNode)s.parentNode.removeChild(s);});if(!document.body){var b=document.createElement('body');document.documentElement.appendChild(b);}document.body.innerHTML='<div id="jt_lock_box" style="font:19pt/1.65 Microsoft YaHei,PingFang SC,sans-serif;padding:36px 24px;color:#1d3338;max-width:680px;margin:42px auto;background:#fff;border:2px solid #284b45;border-radius:14px;text-align:center;box-shadow:0 10px 28px rgba(0,0,0,.08)"><div style="font-size:23pt;font-weight:bold;color:#1d3338;margin-bottom:10px">金泰 AI · 中国历史文化图库</div><div style="font-size:15.5pt;color:#4a5d54;margin-bottom:22px">请输入内部访问口令进入检索系统（手机微信 / 浏览器验证一次即可自动记住）</div><div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;max-width:500px;margin:0 auto"><input id="jt_pw_box" type="password" placeholder="请输入访问口令" autocomplete="current-password" style="flex:1;min-width:210px;font:17pt Microsoft YaHei,sans-serif;padding:11px 14px;border:1.5px solid #6f857b;border-radius:8px;background:#fff;color:#263a40"><button id="jt_pw_btn" type="button" style="font:bold 17pt Microsoft YaHei,sans-serif;padding:11px 26px;background:#284b45;color:#fff;border:none;border-radius:8px;cursor:pointer">验证进入</button></div><div id="jt_pw_err" style="font-size:15pt;color:#8a1c1c;min-height:28px;margin-top:12px"></div></div>';document.documentElement.setAttribute('data-jt-ok','1');document.documentElement.style.visibility='visible';var inp=document.getElementById('jt_pw_box'),btn=document.getElementById('jt_pw_btn'),err=document.getElementById('jt_pw_err');async function tryIn(){var v=(inp.value||'').trim();if(!v){err.textContent='请输入访问口令';return;}var h=await sha(v);if(h===H){saveOk();location.reload();}else{err.textContent='口令不正确，请核对后重试';inp.value='';inp.focus();}}if(btn)btn.onclick=tryIn;if(inp){inp.onkeydown=function(e){if(e.key==='Enter')tryIn();};setTimeout(function(){try{inp.focus();}catch(e){}},60);}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',lockDom,{once:true});}else{lockDom();}})();</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html lang="zh-CN"><head><script>(function(){var H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3';var k='jt_gate';var st=document.createElement('style');st.id='jt_gate_css';st.textContent='html:not([data-jt-ok="1"]) body{display:none!important}';document.documentElement.appendChild(st);document.documentElement.style.visibility='hidden';async function sha(s){var b=new TextEncoder().encode(s);var d=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(d)).map(function(x){return x.toString(16).padStart(2,'0');}).join('');}
+function ok(){document.documentElement.setAttribute('data-jt-ok','1');document.documentElement.style.visibility='visible';}
+function lockDom(){window.__SHARD__=window.__VISUAL_INDEX__=window.__VISUAL_WORKS__=window.apply=window.render=window.loadAll=function(){};document.querySelectorAll('script[src]').forEach(function(s){s.onload=s.onerror=null;if(s.parentNode)s.parentNode.removeChild(s);});if(!document.body){var b=document.createElement('body');document.documentElement.appendChild(b);}document.body.innerHTML='<div id="jt_lock_box" style="font:20pt/1.7 Microsoft YaHei,sans-serif;padding:48px 36px;color:#8a1c1c;max-width:760px;margin:70px auto;background:#fff;border:2px solid #8a1c1c;border-radius:12px;text-align:center;box-shadow:0 8px 24px rgba(0,0,0,.08)"><div style="font-size:24pt;font-weight:bold;margin-bottom:14px">口令不正确或未输入口令</div><div style="font-size:17pt;color:#444;margin-bottom:24px">请向金泰AI索取访问口令后输入，或刷新页面重试。</div><div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;max-width:520px;margin:0 auto"><input id="jt_pw_box" type="password" placeholder="请输入访问口令" style="flex:1;min-width:240px;font:17pt Microsoft YaHei;padding:10px 14px;border:1px solid #92a197;border-radius:6px;background:#fff;color:#263a40"><button id="jt_pw_btn" style="font:17pt Microsoft YaHei;padding:10px 24px;background:#284b45;color:#fff;border:none;border-radius:6px;cursor:pointer">验证进入</button></div><div id="jt_pw_err" style="font-size:15pt;color:#8a1c1c;min-height:28px;margin-top:12px"></div></div>';document.documentElement.setAttribute('data-jt-ok','1');document.documentElement.style.visibility='visible';var inp=document.getElementById('jt_pw_box'),btn=document.getElementById('jt_pw_btn'),err=document.getElementById('jt_pw_err');async function tryIn(){var v=(inp.value||'').trim();if(!v){err.textContent='请输入访问口令';return;}var h='';try{h=await sha(v);}catch(e){}if(h===H){try{sessionStorage.setItem(k,H);}catch(e){}location.reload();}else{err.textContent='口令不正确，请核对后重试';inp.value='';inp.focus();}}if(btn)btn.onclick=tryIn;if(inp){inp.onkeydown=function(e){if(e.key==='Enter')tryIn();};inp.focus();}}
+function deny(){if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',lockDom,{once:true});}else{lockDom();}}
+(async function(){try{if(sessionStorage.getItem(k)===H){ok();return;}}catch(e){}for(var i=0;i<3;i++){var p=prompt('金泰AI 中国历史文化图库（内部初稿）\n请输入访问口令：');if(p===null)break;var t=p.trim();if(!t)continue;var h='';try{h=await sha(t);}catch(e){}if(h===H){try{sessionStorage.setItem(k,H);}catch(e){}ok();return;}}deny();})();})();</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>中国历史文化图库 · 总检索</title>
 <style>
 *{box-sizing:border-box}
@@ -70,19 +74,19 @@ textarea{width:100%;min-height:340px;font:16pt/1.6 "Microsoft YaHei";padding:14p
   <div class="meta">影视参考：<a href="film.html">film.html</a> ｜ 年代组浏览器：<a href="browser.html">browser.html</a> ｜ 总入口：<a href="图库总入口.html">图库总入口.html</a> ｜ Excel：<a href="library.xlsx">library.xlsx</a> ｜ 日志：<a href="log.md">log.md</a></div>
 </div>
 <div class="stats">
-  <span>55779 个条目</span>
-  <span>280412 条提示词</span>
+  <span>55979 个条目</span>
+  <span>282412 条提示词</span>
   <span>五个来源合并</span>
   <span style="background:#e6f4ea;color:#137333">默认按历史年代正序（先秦→近现代）</span>
-  <span style="background:#fdf3f3">更新于 2026-10-30 11:02</span>
+  <span style="background:#fdf3f3">更新于 2026-10-30 12:00</span>
 </div>
 <div class="notice">
-  <strong>全库最新馆藏总览（55,779 条目 / 280,412 条提示词）：</strong>
+  <strong>全库最新馆藏总览（55,979 条目 / 282,412 条提示词）：</strong>
   ① <strong>【历代历史名人】</strong>十二期全网正史考证累计达 <strong>12,000 人</strong>（帝王/宰辅/名将/文豪/经史/天算医药/书画/巾帼）；
-  ② <strong>【薄弱朝代·科技天算·民国工业·人民军队军工配套与战役专集】</strong>十三批累计 <strong>2,600 组 · 26,000 条</strong>（涵盖人民军队军工通信舟桥两弹一星航母配套45组与35大历史战役、民国30件国家一级馆藏器物与150组跨江钢桥铁路轮渡驼峰航线兵工化工厂科教学府、元明清重大事件与海运火器御窑铁厂配套、渤海/东夏/南诏/大理/喀喇汗/西辽、西域三十六国、五胡十六国、匈奴/鲜卑/柔然/突厥/回鹘/吐蕃/归义军、夏商西周封国三星堆古滇中山南越夜郎、历代天算医药精密机械等，全库大型工程机械舟车配套突破 <strong>1,000 组</strong>且彻底消除最后一个配套=0空白）；
+  ② <strong>【薄弱朝代·科技天算·神话天工·民国工业·人民军队军工配套与战役专集】</strong>十四批累计 <strong>2,800 组 · 28,000 条</strong>（涵盖神话与传说仙舆楼船天工神冶配套25组、人民军队军工海陆空天电讯舟桥配套80组与47大历史战役、民国59件馆藏国家一级器物与244组跨江钢桥铁路航运金融重工科教学府及重大事件、元明清重大事件与海运火器御窑铁厂配套、渤海/东夏/南诏/大理/喀喇汗/西辽、西域三十六国、五胡十六国、匈奴/鲜卑/柔然/突厥/回鹘/吐蕃/归义军、夏商西周封国三星堆古滇中山南越夜郎、历代天算医药精密机械等，彻底清零全库11大板块全部非名人零值格，全库<strong>器物满 4,000 组 · 历史事件满 1,000 组 · 工程配套达 1,084 组</strong>）；
   ③ <strong>【57部志怪佛道传奇神魔总集】</strong>四批 <strong>800 组 · 8,000 条</strong>（涵盖佛教感应冥报7部、神仙道教8部、志怪笔记传奇33部、神魔幻想9部，统合既有共 10,668 项）；
   ④ <strong>【古典文学名著与多民族英雄史诗总集】</strong>两批合璧 <strong>452 组 · 4,280 条</strong>（L001–L400 专项 400 组·4,000 条 + 既有 52 组·280 条，涵盖诗骚乐府、唐宋诗词变文传奇、宋元南戏元刊杂剧、明清传奇昆曲地方戏、四大名著章回小说及藏蒙《格萨尔》《江格尔》柯尔克孜《玛纳斯》苗羌维彝傣纳西壮佤拉祜景颇鄂伦春达斡尔锡伯朝鲜黎高山门巴珞巴等 50+ 部多民族史诗）；
-  ⑤ <strong>【历代建筑】8,623 座</strong> · <strong>【神话与传说】7,608 项（含 5,000 场景专集）</strong> · <strong>【全网考证总馆藏】59,000 条</strong>。
+  ⑤ <strong>【历代建筑】8,623 座</strong> · <strong>【神话与传说】7,633 项（含 5,000 场景专集与 25 组天工配套）</strong> · <strong>【全网考证总馆藏】61,000 条</strong>。
 </div>
 <div class="portal-panel">
   <div class="portal-row">
@@ -93,8 +97,8 @@ textarea{width:100%;min-height:340px;font:16pt/1.6 "Microsoft YaHei";padding:14p
     <a class="p-btn" href="myth5000.html" style="background:#6b21a8">🐉 神话传说5000场景专集（30,000条）</a>
     <a class="p-btn" href="zhiguai31.html" style="background:#4c1d95">📜 57部志怪佛道传奇神魔总集（8,000条）</a>
     <a class="p-btn" href="epics.html" style="background:#5b3277">📚 古典文学与民族史诗总集（4,280条）</a>
-    <a class="p-btn" href="dynasty2000.html" style="background:#0f5132">🛡️ 薄弱环节与多朝代考证专集（26,000条）</a>
-    <a class="p-btn" href="websearch5000.html" style="background:#1d4d44">🏺 全网考证59,000条总专集</a>
+    <a class="p-btn" href="dynasty2000.html" style="background:#0f5132">🛡️ 薄弱环节与多朝代考证专集（28,000条）</a>
+    <a class="p-btn" href="websearch5000.html" style="background:#1d4d44">🏺 全网考证61,000条总专集</a>
     <a class="p-btn" href="arch2000.html" style="background:#b45309">🏛️ 新增建筑2000项</a>
     <a class="p-btn" href="sources.html" style="background:#334155">📚 影视史源目录</a>
   </div>
@@ -102,12 +106,12 @@ textarea{width:100%;min-height:340px;font:16pt/1.6 "Microsoft YaHei";padding:14p
     <span class="portal-label">⚡ 本页一键定位：</span>
     <button class="q-btn" onclick="quickFilter({kind:'历史名人'})">👤 在本页看：历史名人（12,000人）</button>
     <button class="q-btn" onclick="quickFilter({kind:'建筑'})">🏯 在本页看：历代建筑（8,623座）</button>
-    <button class="q-btn" onclick="quickFilter({era:'神话与传说'})">🐉 在本页看：神话与传说（7,608项）</button>
+    <button class="q-btn" onclick="quickFilter({era:'神话与传说'})">🐉 在本页看：神话与传说（7,633项）</button>
     <button class="q-btn" onclick="quickFilter({spec:'志怪31'})">📜 在本页看：57部志怪佛道总集（800组）</button>
     <button class="q-btn" onclick="quickFilter({era:'文学与民间史诗'})">📚 在本页看：古典文学与民族史诗（452组）</button>
-    <button class="q-btn" onclick="quickFilter({spec:'weak1200'})">🛡️ 在本页看：薄弱环节新扩充（2,600组）</button>
-    <button class="q-btn" onclick="quickFilter({kind:'配套'})">⚙️ 在本页看：车船/水工/军工配套（1,000组）</button>
-    <button class="q-btn" onclick="quickFilter({spec:'20261030',sort:'newest'})">✨ 在本页看：2026-10-30最新批次（400组）</button>
+    <button class="q-btn" onclick="quickFilter({spec:'weak1200'})">🛡️ 在本页看：薄弱环节新扩充（2,800组）</button>
+    <button class="q-btn" onclick="quickFilter({kind:'配套'})">⚙️ 在本页看：车船/水工/军工/神话配套（1,084组）</button>
+    <button class="q-btn" onclick="quickFilter({spec:'20261030',sort:'newest'})">✨ 在本页看：2026-10-30最新批次（600组）</button>
   </div>
 </div>
 </header>
@@ -117,18 +121,18 @@ textarea{width:100%;min-height:340px;font:16pt/1.6 "Microsoft YaHei";padding:14p
   <div class="row">
     <b class="lbl">一、主干朝代<br><small style="font-weight:normal;color:#666;font-size:12.5pt">按历史纪年正序</small></b>
     <div class="row-items" id="era-row">
-      <span class="chip on" data-f="era" data-v="">全部朝代 <small>(55,779)</small></span>
-      <span class="chip" data-f="era" data-v="先秦">① 先秦 <small>(4,781)</small></span>
-      <span class="chip" data-f="era" data-v="秦汉">② 秦汉 <small>(4,529)</small></span>
-      <span class="chip" data-f="era" data-v="三国两晋南北朝">③ 三国两晋南北朝 <small>(6,398)</small></span>
-      <span class="chip" data-f="era" data-v="隋唐五代">④ 隋唐五代 <small>(5,718)</small></span>
-      <span class="chip" data-f="era" data-v="宋辽金西夏">⑤ 宋辽金西夏 <small>(7,481)</small></span>
-      <span class="chip" data-f="era" data-v="元明">⑥ 元明 <small>(4,987)</small></span>
-      <span class="chip" data-f="era" data-v="清">⑦ 清代 <small>(3,238)</small></span>
-      <span class="chip" data-f="era" data-v="民国">⑧ 民国 <small>(1,479)</small></span>
-      <span class="chip" data-f="era" data-v="人民军队（1927至今）">⑨ 人民军队（1927至今） <small>(9,108)</small></span>
+      <span class="chip on" data-f="era" data-v="">全部朝代 <small>(55,979)</small></span>
+      <span class="chip" data-f="era" data-v="先秦">① 先秦 <small>(4,786)</small></span>
+      <span class="chip" data-f="era" data-v="秦汉">② 秦汉 <small>(4,531)</small></span>
+      <span class="chip" data-f="era" data-v="三国两晋南北朝">③ 三国两晋南北朝 <small>(6,419)</small></span>
+      <span class="chip" data-f="era" data-v="隋唐五代">④ 隋唐五代 <small>(5,720)</small></span>
+      <span class="chip" data-f="era" data-v="宋辽金西夏">⑤ 宋辽金西夏 <small>(7,488)</small></span>
+      <span class="chip" data-f="era" data-v="元明">⑥ 元明 <small>(5,006)</small></span>
+      <span class="chip" data-f="era" data-v="清">⑦ 清代 <small>(3,246)</small></span>
+      <span class="chip" data-f="era" data-v="民国">⑧ 民国 <small>(1,543)</small></span>
+      <span class="chip" data-f="era" data-v="人民军队（1927至今）">⑨ 人民军队（1927至今） <small>(9,155)</small></span>
       <span class="era-sep">｜</span>
-      <span class="chip purple" data-f="era" data-v="神话与传说">🐉 神话与传说 <small>(7,608)</small></span>
+      <span class="chip purple" data-f="era" data-v="神话与传说">🐉 神话与传说 <small>(7,633)</small></span>
       <span class="chip purple" data-f="era" data-v="文学与民间史诗">📖 文学与民间史诗 <small>(452)</small></span>
     </div>
   </div>
@@ -240,6 +244,7 @@ textarea{width:100%;min-height:340px;font:16pt/1.6 "Microsoft YaHei";padding:14p
         <span class="chip purple" data-f="subdyn" data-v="道教神仙" data-era="神话与传说">道教神仙与永乐宫/水陆画</span>
         <span class="chip purple" data-f="subdyn" data-v="西游封神" data-era="神话与传说">西游封神与明清小说绣像</span>
         <span class="chip purple" data-f="subdyn" data-v="民间敦煌冥界" data-era="神话与传说">楚辞九歌/民间传说/敦煌冥界</span>
+        <span class="chip purple" data-f="subdyn" data-v="神话配套" data-era="神话与传说">★ 神话仙舆楼船天工配套（25组）</span>
         <span class="chip purple" data-f="subdyn" data-v="志怪31" data-era="神话与传说">★ 57部志怪佛道传奇神魔总集（8000条）</span>
       </div>
       <div class="sub-group" data-era-group="文学与民间史诗">
@@ -260,15 +265,15 @@ textarea{width:100%;min-height:340px;font:16pt/1.6 "Microsoft YaHei";padding:14p
   <div class="row">
     <b class="lbl">三、资产类型<br><small style="font-weight:normal;color:#666;font-size:12.5pt">点选后展开二级细目</small></b>
     <div class="row-items" id="kind-row">
-      <span class="chip on" data-f="kind" data-v="">全部类型 <small>(55,779)</small></span>
+      <span class="chip on" data-f="kind" data-v="">全部类型 <small>(55,979)</small></span>
       <span class="chip star" data-f="kind" data-v="历史名人">★ 历史名人 <small>(12,000)</small></span>
       <span class="chip" data-f="kind" data-v="人物">人物·服饰/容貌/甲胄 <small>(14,851)</small></span>
       <span class="chip" data-f="kind" data-v="全部人物">全部人物合计 <small>(26,851)</small></span>
       <span class="chip" data-f="kind" data-v="场景">场景·生活/军旅/地理 <small>(12,898)</small></span>
       <span class="chip" data-f="kind" data-v="建筑">建筑·宫殿/寺塔/城池 <small>(8,623)</small></span>
-      <span class="chip" data-f="kind" data-v="器物">器物·礼器/瓷器/兵器 <small>(3,954)</small></span>
-      <span class="chip" data-f="kind" data-v="事件">事件 HERO <small>(930)</small></span>
-      <span class="chip green" data-f="kind" data-v="配套">配套·车船/水工/机械 <small>(1,000)</small></span>
+      <span class="chip" data-f="kind" data-v="器物">器物·礼器/瓷器/兵器 <small>(4,000)</small></span>
+      <span class="chip" data-f="kind" data-v="事件">事件 HERO <small>(1,000)</small></span>
+      <span class="chip green" data-f="kind" data-v="配套">配套·车船/水工/机械 <small>(1,084)</small></span>
       <span class="chip purple" data-f="kind" data-v="神话">神话与志怪设定 <small>(1,523)</small></span>
     </div>
   </div>
@@ -284,15 +289,15 @@ textarea{width:100%;min-height:340px;font:16pt/1.6 "Microsoft YaHei";padding:14p
     <b class="lbl">四、专集与考证度<br><small style="font-weight:normal;color:#666;font-size:12.5pt">按专集/证据等级筛选</small></b>
     <div class="row-items">
       <span class="chip on" data-f="spec" data-v="">全部馆藏</span>
-      <span class="chip green" data-f="spec" data-v="weak1200">★ 薄弱环节多类别专集 <small>(2,600组·26,000条)</small></span>
+      <span class="chip green" data-f="spec" data-v="weak1200">★ 薄弱环节多类别专集 <small>(2,800组·28,000条)</small></span>
       <span class="chip purple" data-f="spec" data-v="志怪31">★ 57部志怪佛道传奇神魔 <small>(800组·8,000条)</small></span>
       <span class="chip purple" data-f="spec" data-v="lit200">★ 古典文学与民族史诗 <small>(452组·4,280条)</small></span>
-      <span class="chip green" data-f="spec" data-v="websearch">★ 全网考证馆藏 <small>(5,900组)</small></span>
-      <span class="chip star" data-f="spec" data-v="20261030">★ 2026-10-30最新批次</span>
+      <span class="chip green" data-f="spec" data-v="websearch">★ 全网考证馆藏 <small>(6,100组)</small></span>
+      <span class="chip star" data-f="spec" data-v="20261030">★ 2026-10-30最新批次 <small>(600组·6,000条)</small></span>
       <span class="era-sep">｜</span>
       <span class="chip on" data-f="lvl" data-v="">全部考证等级</span>
       <span class="chip" data-f="lvl" data-v="A" style="border-color:#137333;color:#137333">A级·实物/遗址/正史直证 <small>(22,877)</small></span>
-      <span class="chip" data-f="lvl" data-v="B" style="border-color:#1967d2;color:#1967d2">B级·图像/壁画/文献互证 <small>(18,110)</small></span>
+      <span class="chip" data-f="lvl" data-v="B" style="border-color:#1967d2;color:#1967d2">B级·图像/壁画/文献互证 <small>(18,310)</small></span>
       <span class="chip" data-f="lvl" data-v="典" style="border-color:#6b21a8;color:#6b21a8">典籍与文物考证实证 <small>(5,000)</small></span>
       <span class="chip" data-f="lvl" data-v="C">C级·形制推拟 <small>(7,412)</small></span>
       <span class="era-sep">｜</span>
@@ -355,7 +360,7 @@ textarea{width:100%;min-height:340px;font:16pt/1.6 "Microsoft YaHei";padding:14p
 <div class="controls"><label>视角</label><select id="view"></select><span id="ratio" class="tag"></span><button class="primary" id="copy">复制提示词</button><button class="red" id="go">复制并打开 IMAGE 2</button><button id="copyAll">复制本条全部</button><button id="dl">下载 TXT</button></div>
 <textarea id="prompt" readonly></textarea><p id="src" class="meta"></p><p id="msg" class="status"></p></dialog>
 <script>
-const JIMENG='https://chatgpt.com/';const DATA_DIR='d1';const ALT_DIR=(DATA_DIR==='d1'?'图库总检索_Claude_data':'d1');const SHARDS=[{"era":"神话与传说","file":"00.js","n":1608,"np":8906},{"era":"先秦","file":"01.js","n":2065,"np":11986},{"era":"秦汉","file":"02.js","n":1487,"np":8665},{"era":"三国两晋南北朝","file":"03.js","n":2163,"np":12630},{"era":"隋唐五代","file":"04.js","n":1688,"np":9901},{"era":"宋辽金西夏","file":"05.js","n":2200,"np":12418},{"era":"宋辽金西夏","file":"06.js","n":1097,"np":7026},{"era":"元明","file":"07.js","n":2075,"np":12268},{"era":"清","file":"08.js","n":1094,"np":6471},{"era":"民国","file":"09.js","n":899,"np":5342},{"era":"人民军队（1927至今）","file":"10.js","n":2200,"np":13205},{"era":"人民军队（1927至今）","file":"11.js","n":2200,"np":11109},{"era":"人民军队（1927至今）","file":"12.js","n":2200,"np":13885},{"era":"人民军队（1927至今）","file":"13.js","n":2048,"np":13568},{"era":"文学与民间史诗","file":"14.js","n":52,"np":280},{"era":"元明","file":"nightly_20261012_001.js","n":3,"np":3},{"era":"清","file":"nightly_20261012_002.js","n":5,"np":5},{"era":"先秦","file":"nightly_20261012_003.js","n":1,"np":1},{"era":"隋唐五代","file":"nightly_20261012_005.js","n":2,"np":2},{"era":"元明","file":"nightly_20261012_006.js","n":3,"np":3},{"era":"清","file":"nightly_20261012_007.js","n":1,"np":1},{"era":"清","file":"nightly_20261012_008.js","n":2,"np":2},{"era":"秦汉","file":"nightly_20261013_001.js","n":1,"np":1},{"era":"隋唐五代","file":"nightly_20261013_002.js","n":4,"np":4},{"era":"先秦","file":"nightly_20261015_001.js","n":162,"np":162},{"era":"秦汉","file":"nightly_20261015_002.js","n":167,"np":167},{"era":"三国两晋南北朝","file":"nightly_20261015_003.js","n":161,"np":161},{"era":"隋唐五代","file":"nightly_20261015_004.js","n":172,"np":172},{"era":"宋辽金西夏","file":"nightly_20261015_005.js","n":165,"np":165},{"era":"元明","file":"nightly_20261015_006.js","n":115,"np":115},{"era":"清","file":"nightly_20261015_007.js","n":58,"np":58},{"era":"先秦","file":"nightly_20261016_001.js","n":100,"np":100},{"era":"秦汉","file":"nightly_20261016_002.js","n":133,"np":430},{"era":"三国两晋南北朝","file":"nightly_20261016_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261016_004.js","n":268,"np":880},{"era":"宋辽金西夏","file":"nightly_20261016_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261016_006.js","n":130,"np":130},{"era":"清","file":"nightly_20261016_007.js","n":70,"np":70},{"era":"先秦","file":"nightly_20261019_001.js","n":79,"np":790},{"era":"秦汉","file":"nightly_20261019_002.js","n":75,"np":750},{"era":"三国两晋南北朝","file":"nightly_20261019_003.js","n":51,"np":510},{"era":"隋唐五代","file":"nightly_20261019_004.js","n":104,"np":1040},{"era":"宋辽金西夏","file":"nightly_20261019_005.js","n":28,"np":280},{"era":"元明","file":"nightly_20261019_006.js","n":151,"np":1510},{"era":"清","file":"nightly_20261019_007.js","n":212,"np":2120},{"era":"先秦","file":"nightly_20261020_001.js","n":80,"np":80},{"era":"秦汉","file":"nightly_20261020_002.js","n":120,"np":120},{"era":"三国两晋南北朝","file":"nightly_20261020_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261020_004.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261020_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261020_006.js","n":130,"np":130},{"era":"清","file":"nightly_20261020_007.js","n":70,"np":70},{"era":"先秦","file":"nightly_20261020_008.js","n":840,"np":3360},{"era":"秦汉","file":"nightly_20261020_009.js","n":560,"np":2240},{"era":"三国两晋南北朝","file":"nightly_20261020_010.js","n":800,"np":3200},{"era":"隋唐五代","file":"nightly_20261020_011.js","n":500,"np":2000},{"era":"宋辽金西夏","file":"nightly_20261020_012.js","n":1020,"np":4080},{"era":"元明","file":"nightly_20261020_013.js","n":540,"np":2160},{"era":"清","file":"nightly_20261020_014.js","n":240,"np":960},{"era":"民国","file":"nightly_20261020_015.js","n":200,"np":800},{"era":"人民军队（1927至今）","file":"nightly_20261020_016.js","n":180,"np":720},{"era":"神话与传说","file":"nightly_20261020_017.js","n":800,"np":3200},{"era":"先秦","file":"nightly_20261020_018.js","n":39,"np":390},{"era":"秦汉","file":"nightly_20261020_019.js","n":19,"np":190},{"era":"三国两晋南北朝","file":"nightly_20261020_020.js","n":50,"np":500},{"era":"隋唐五代","file":"nightly_20261020_021.js","n":17,"np":170},{"era":"宋辽金西夏","file":"nightly_20261020_022.js","n":25,"np":250},{"era":"元明","file":"nightly_20261020_023.js","n":25,"np":250},{"era":"清","file":"nightly_20261020_024.js","n":25,"np":250},{"era":"先秦","file":"nightly_20261021_001.js","n":80,"np":80},{"era":"秦汉","file":"nightly_20261021_002.js","n":120,"np":120},{"era":"三国两晋南北朝","file":"nightly_20261021_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261021_004.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261021_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261021_006.js","n":130,"np":130},{"era":"清","file":"nightly_20261021_007.js","n":70,"np":70},{"era":"先秦","file":"nightly_20261021_008.js","n":200,"np":800},{"era":"秦汉","file":"nightly_20261021_009.js","n":200,"np":800},{"era":"三国两晋南北朝","file":"nightly_20261021_010.js","n":200,"np":800},{"era":"隋唐五代","file":"nightly_20261021_011.js","n":200,"np":800},{"era":"宋辽金西夏","file":"nightly_20261021_012.js","n":200,"np":800},{"era":"元明","file":"nightly_20261021_013.js","n":200,"np":800},{"era":"清","file":"nightly_20261021_014.js","n":200,"np":800},{"era":"民国","file":"nightly_20261021_015.js","n":200,"np":800},{"era":"人民军队（1927至今）","file":"nightly_20261021_016.js","n":200,"np":800},{"era":"神话与传说","file":"nightly_20261021_017.js","n":200,"np":800},{"era":"神话与传说","file":"nightly_20261021_018.js","n":600,"np":3600},{"era":"神话与传说","file":"nightly_20261021_019.js","n":700,"np":4200},{"era":"神话与传说","file":"nightly_20261021_020.js","n":600,"np":3600},{"era":"神话与传说","file":"nightly_20261021_021.js","n":500,"np":3000},{"era":"神话与传说","file":"nightly_20261021_022.js","n":600,"np":3600},{"era":"神话与传说","file":"nightly_20261021_023.js","n":600,"np":3600},{"era":"神话与传说","file":"nightly_20261021_024.js","n":500,"np":3000},{"era":"神话与传说","file":"nightly_20261021_025.js","n":500,"np":3000},{"era":"神话与传说","file":"nightly_20261021_026.js","n":400,"np":2400},{"era":"先秦","file":"nightly_20261021_027.js","n":16,"np":160},{"era":"秦汉","file":"nightly_20261021_028.js","n":19,"np":190},{"era":"三国两晋南北朝","file":"nightly_20261021_029.js","n":40,"np":400},{"era":"隋唐五代","file":"nightly_20261021_030.js","n":25,"np":250},{"era":"宋辽金西夏","file":"nightly_20261021_031.js","n":20,"np":200},{"era":"元明","file":"nightly_20261021_032.js","n":40,"np":400},{"era":"清","file":"nightly_20261021_033.js","n":40,"np":400},{"era":"先秦","file":"nightly_20261022_001.js","n":80,"np":80},{"era":"秦汉","file":"nightly_20261022_002.js","n":120,"np":120},{"era":"三国两晋南北朝","file":"nightly_20261022_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261022_004.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261022_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261022_006.js","n":130,"np":130},{"era":"清","file":"nightly_20261022_007.js","n":70,"np":70},{"era":"先秦","file":"nightly_20261022_008.js","n":20,"np":200},{"era":"秦汉","file":"nightly_20261022_009.js","n":20,"np":200},{"era":"三国两晋南北朝","file":"nightly_20261022_010.js","n":12,"np":120},{"era":"隋唐五代","file":"nightly_20261022_011.js","n":20,"np":200},{"era":"宋辽金西夏","file":"nightly_20261022_012.js","n":20,"np":200},{"era":"元明","file":"nightly_20261022_013.js","n":40,"np":400},{"era":"清","file":"nightly_20261022_014.js","n":68,"np":680},{"era":"先秦","file":"nightly_20261023_001.js","n":80,"np":80},{"era":"秦汉","file":"nightly_20261023_002.js","n":120,"np":120},{"era":"三国两晋南北朝","file":"nightly_20261023_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261023_004.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261023_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261023_006.js","n":130,"np":130},{"era":"清","file":"nightly_20261023_007.js","n":70,"np":70},{"era":"先秦","file":"nightly_20261023_008.js","n":35,"np":350},{"era":"秦汉","file":"nightly_20261023_009.js","n":35,"np":350},{"era":"三国两晋南北朝","file":"nightly_20261023_010.js","n":25,"np":250},{"era":"隋唐五代","file":"nightly_20261023_011.js","n":30,"np":300},{"era":"宋辽金西夏","file":"nightly_20261023_012.js","n":35,"np":350},{"era":"元明","file":"nightly_20261023_013.js","n":20,"np":200},{"era":"清","file":"nightly_20261023_014.js","n":20,"np":200},{"era":"先秦","file":"nightly_20261024_008.js","n":35,"np":350},{"era":"秦汉","file":"nightly_20261024_009.js","n":35,"np":350},{"era":"三国两晋南北朝","file":"nightly_20261024_010.js","n":25,"np":250},{"era":"隋唐五代","file":"nightly_20261024_011.js","n":30,"np":300},{"era":"宋辽金西夏","file":"nightly_20261024_012.js","n":35,"np":350},{"era":"元明","file":"nightly_20261024_013.js","n":20,"np":200},{"era":"清","file":"nightly_20261024_014.js","n":20,"np":200},{"era":"先秦","file":"nightly_20261025_008.js","n":35,"np":350},{"era":"秦汉","file":"nightly_20261025_009.js","n":35,"np":350},{"era":"三国两晋南北朝","file":"nightly_20261025_010.js","n":25,"np":250},{"era":"隋唐五代","file":"nightly_20261025_011.js","n":30,"np":300},{"era":"宋辽金西夏","file":"nightly_20261025_012.js","n":35,"np":350},{"era":"元明","file":"nightly_20261025_013.js","n":20,"np":200},{"era":"清","file":"nightly_20261025_014.js","n":20,"np":200},{"era":"先秦","file":"nightly_20261024_001.js","n":135,"np":135},{"era":"秦汉","file":"nightly_20261024_002.js","n":105,"np":105},{"era":"三国两晋南北朝","file":"nightly_20261024_003.js","n":238,"np":238},{"era":"隋唐五代","file":"nightly_20261024_004.js","n":131,"np":131},{"era":"宋辽金西夏","file":"nightly_20261024_005.js","n":191,"np":191},{"era":"元明","file":"nightly_20261024_006.js","n":125,"np":125},{"era":"清","file":"nightly_20261024_007.js","n":75,"np":75},{"era":"先秦","file":"nightly_20261025_001.js","n":116,"np":116},{"era":"秦汉","file":"nightly_20261025_002.js","n":84,"np":84},{"era":"三国两晋南北朝","file":"nightly_20261025_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261025_004.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261025_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261025_006.js","n":178,"np":178},{"era":"清","file":"nightly_20261025_007.js","n":22,"np":22},{"era":"先秦","file":"nightly_20261026_001.js","n":20,"np":20},{"era":"秦汉","file":"nightly_20261026_002.js","n":180,"np":180},{"era":"三国两晋南北朝","file":"nightly_20261026_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261026_004.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261026_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261026_006.js","n":36,"np":36},{"era":"清","file":"nightly_20261026_007.js","n":164,"np":164},{"era":"先秦","file":"nightly_20261026_008.js","n":35,"np":350},{"era":"秦汉","file":"nightly_20261026_009.js","n":35,"np":350},{"era":"三国两晋南北朝","file":"nightly_20261026_010.js","n":25,"np":250},{"era":"隋唐五代","file":"nightly_20261026_011.js","n":30,"np":300},{"era":"宋辽金西夏","file":"nightly_20261026_012.js","n":35,"np":350},{"era":"元明","file":"nightly_20261026_013.js","n":20,"np":200},{"era":"清","file":"nightly_20261026_014.js","n":20,"np":200},{"era":"先秦","file":"nightly_20261027_001.js","n":80,"np":80},{"era":"秦汉","file":"nightly_20261027_002.js","n":120,"np":120},{"era":"三国两晋南北朝","file":"nightly_20261027_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261027_004.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261027_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261027_006.js","n":112,"np":112},{"era":"清","file":"nightly_20261027_007.js","n":88,"np":88},{"era":"先秦","file":"nightly_20261027_008.js","n":18,"np":180},{"era":"秦汉","file":"nightly_20261027_009.js","n":42,"np":420},{"era":"三国两晋南北朝","file":"nightly_20261027_010.js","n":46,"np":460},{"era":"隋唐五代","file":"nightly_20261027_011.js","n":30,"np":300},{"era":"宋辽金西夏","file":"nightly_20261027_012.js","n":24,"np":240},{"era":"元明","file":"nightly_20261027_013.js","n":20,"np":200},{"era":"清","file":"nightly_20261027_014.js","n":20,"np":200},{"era":"先秦","file":"nightly_20261027_015.js","n":18,"np":180},{"era":"秦汉","file":"nightly_20261027_016.js","n":36,"np":360},{"era":"三国两晋南北朝","file":"nightly_20261027_017.js","n":38,"np":380},{"era":"隋唐五代","file":"nightly_20261027_018.js","n":30,"np":300},{"era":"宋辽金西夏","file":"nightly_20261027_019.js","n":14,"np":140},{"era":"元明","file":"nightly_20261027_020.js","n":32,"np":320},{"era":"清","file":"nightly_20261027_021.js","n":32,"np":320},{"era":"先秦","file":"nightly_20261028_001.js","n":28,"np":280},{"era":"秦汉","file":"nightly_20261028_002.js","n":42,"np":420},{"era":"三国两晋南北朝","file":"nightly_20261028_003.js","n":54,"np":540},{"era":"隋唐五代","file":"nightly_20261028_004.js","n":36,"np":360},{"era":"宋辽金西夏","file":"nightly_20261028_005.js","n":20,"np":200},{"era":"元明","file":"nightly_20261028_006.js","n":10,"np":100},{"era":"清","file":"nightly_20261028_007.js","n":10,"np":100},{"era":"先秦","file":"nightly_20261028_008.js","n":6,"np":60},{"era":"秦汉","file":"nightly_20261028_009.js","n":7,"np":70},{"era":"三国两晋南北朝","file":"nightly_20261028_010.js","n":49,"np":490},{"era":"隋唐五代","file":"nightly_20261028_011.js","n":37,"np":370},{"era":"宋辽金西夏","file":"nightly_20261028_012.js","n":13,"np":130},{"era":"元明","file":"nightly_20261028_013.js","n":45,"np":450},{"era":"清","file":"nightly_20261028_014.js","n":43,"np":430},{"era":"先秦","file":"nightly_20261028_015.js","n":11,"np":110},{"era":"秦汉","file":"nightly_20261028_016.js","n":7,"np":70},{"era":"三国两晋南北朝","file":"nightly_20261028_017.js","n":44,"np":440},{"era":"隋唐五代","file":"nightly_20261028_018.js","n":37,"np":370},{"era":"宋辽金西夏","file":"nightly_20261028_019.js","n":13,"np":130},{"era":"元明","file":"nightly_20261028_020.js","n":45,"np":450},{"era":"清","file":"nightly_20261028_021.js","n":43,"np":430},{"era":"先秦","file":"nightly_20261028_022.js","n":30,"np":300},{"era":"秦汉","file":"nightly_20261028_023.js","n":30,"np":300},{"era":"三国两晋南北朝","file":"nightly_20261028_024.js","n":30,"np":300},{"era":"隋唐五代","file":"nightly_20261028_025.js","n":35,"np":350},{"era":"宋辽金西夏","file":"nightly_20261028_026.js","n":40,"np":400},{"era":"元明","file":"nightly_20261028_027.js","n":20,"np":200},{"era":"清","file":"nightly_20261028_028.js","n":15,"np":150},{"era":"先秦","file":"nightly_20261028_029.js","n":30,"np":300},{"era":"秦汉","file":"nightly_20261028_030.js","n":30,"np":300},{"era":"三国两晋南北朝","file":"nightly_20261028_031.js","n":30,"np":300},{"era":"隋唐五代","file":"nightly_20261028_032.js","n":35,"np":350},{"era":"宋辽金西夏","file":"nightly_20261028_033.js","n":40,"np":400},{"era":"元明","file":"nightly_20261028_034.js","n":20,"np":200},{"era":"清","file":"nightly_20261028_035.js","n":15,"np":150},{"era":"先秦","file":"nightly_20261028_036.js","n":36,"np":36},{"era":"秦汉","file":"nightly_20261028_037.js","n":164,"np":164},{"era":"三国两晋南北朝","file":"nightly_20261028_038.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261028_039.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261028_040.js","n":200,"np":200},{"era":"元明","file":"nightly_20261028_041.js","n":166,"np":166},{"era":"清","file":"nightly_20261028_042.js","n":34,"np":34},{"era":"先秦","file":"nightly_20261029_001.js","n":30,"np":300},{"era":"秦汉","file":"nightly_20261029_002.js","n":30,"np":300},{"era":"三国两晋南北朝","file":"nightly_20261029_003.js","n":30,"np":300},{"era":"隋唐五代","file":"nightly_20261029_004.js","n":35,"np":350},{"era":"宋辽金西夏","file":"nightly_20261029_005.js","n":40,"np":400},{"era":"元明","file":"nightly_20261029_006.js","n":20,"np":200},{"era":"清","file":"nightly_20261029_007.js","n":15,"np":150},{"era":"先秦","file":"nightly_20261029_008.js","n":10,"np":100},{"era":"秦汉","file":"nightly_20261029_009.js","n":17,"np":170},{"era":"三国两晋南北朝","file":"nightly_20261029_010.js","n":49,"np":490},{"era":"隋唐五代","file":"nightly_20261029_011.js","n":93,"np":930},{"era":"宋辽金西夏","file":"nightly_20261029_012.js","n":15,"np":150},{"era":"元明","file":"nightly_20261029_013.js","n":0,"np":0},{"era":"清","file":"nightly_20261029_014.js","n":16,"np":160},{"era":"先秦","file":"nightly_20261029_015.js","n":26,"np":260},{"era":"秦汉","file":"nightly_20261029_016.js","n":35,"np":350},{"era":"三国两晋南北朝","file":"nightly_20261029_017.js","n":40,"np":400},{"era":"隋唐五代","file":"nightly_20261029_018.js","n":55,"np":550},{"era":"宋辽金西夏","file":"nightly_20261029_019.js","n":33,"np":330},{"era":"元明","file":"nightly_20261029_020.js","n":9,"np":90},{"era":"清","file":"nightly_20261029_021.js","n":2,"np":20},{"era":"先秦","file":"nightly_20261029_022.js","n":10,"np":100},{"era":"秦汉","file":"nightly_20261029_023.js","n":24,"np":240},{"era":"三国两晋南北朝","file":"nightly_20261029_024.js","n":40,"np":400},{"era":"隋唐五代","file":"nightly_20261029_025.js","n":83,"np":830},{"era":"宋辽金西夏","file":"nightly_20261029_026.js","n":12,"np":120},{"era":"元明","file":"nightly_20261029_027.js","n":10,"np":100},{"era":"清","file":"nightly_20261029_028.js","n":21,"np":210},{"era":"先秦","file":"nightly_20261029_029.js","n":30,"np":300},{"era":"秦汉","file":"nightly_20261029_030.js","n":41,"np":410},{"era":"三国两晋南北朝","file":"nightly_20261029_031.js","n":37,"np":370},{"era":"隋唐五代","file":"nightly_20261029_032.js","n":40,"np":400},{"era":"宋辽金西夏","file":"nightly_20261029_033.js","n":22,"np":220},{"era":"元明","file":"nightly_20261029_034.js","n":4,"np":40},{"era":"清","file":"nightly_20261029_035.js","n":26,"np":260},{"era":"文学与民间史诗","file":"nightly_20261029_036.js","n":19,"np":190},{"era":"文学与民间史诗","file":"nightly_20261029_037.js","n":7,"np":70},{"era":"文学与民间史诗","file":"nightly_20261029_038.js","n":18,"np":180},{"era":"文学与民间史诗","file":"nightly_20261029_039.js","n":22,"np":220},{"era":"文学与民间史诗","file":"nightly_20261029_040.js","n":39,"np":390},{"era":"文学与民间史诗","file":"nightly_20261029_041.js","n":44,"np":440},{"era":"文学与民间史诗","file":"nightly_20261029_042.js","n":51,"np":510},{"era":"先秦","file":"nightly_20261029_043.js","n":32,"np":320},{"era":"秦汉","file":"nightly_20261029_044.js","n":53,"np":530},{"era":"三国两晋南北朝","file":"nightly_20261029_045.js","n":30,"np":300},{"era":"隋唐五代","file":"nightly_20261029_046.js","n":48,"np":480},{"era":"宋辽金西夏","file":"nightly_20261029_047.js","n":17,"np":170},{"era":"元明","file":"nightly_20261029_048.js","n":2,"np":20},{"era":"清","file":"nightly_20261029_049.js","n":18,"np":180},{"era":"先秦","file":"nightly_20261029_050.js","n":30,"np":300},{"era":"秦汉","file":"nightly_20261029_051.js","n":24,"np":240},{"era":"三国两晋南北朝","file":"nightly_20261029_052.js","n":36,"np":360},{"era":"隋唐五代","file":"nightly_20261029_053.js","n":44,"np":440},{"era":"宋辽金西夏","file":"nightly_20261029_054.js","n":29,"np":290},{"era":"元明","file":"nightly_20261029_055.js","n":12,"np":120},{"era":"清","file":"nightly_20261029_056.js","n":25,"np":250},{"era":"文学与民间史诗","file":"nightly_20261029_057.js","n":20,"np":200},{"era":"文学与民间史诗","file":"nightly_20261029_058.js","n":11,"np":110},{"era":"文学与民间史诗","file":"nightly_20261029_059.js","n":17,"np":170},{"era":"文学与民间史诗","file":"nightly_20261029_060.js","n":23,"np":230},{"era":"文学与民间史诗","file":"nightly_20261029_061.js","n":25,"np":250},{"era":"文学与民间史诗","file":"nightly_20261029_062.js","n":50,"np":500},{"era":"文学与民间史诗","file":"nightly_20261029_063.js","n":54,"np":540},{"era":"先秦","file":"nightly_20261029_064.js","n":22,"np":220},{"era":"秦汉","file":"nightly_20261029_065.js","n":14,"np":140},{"era":"三国两晋南北朝","file":"nightly_20261029_066.js","n":15,"np":150},{"era":"隋唐五代","file":"nightly_20261029_067.js","n":20,"np":200},{"era":"宋辽金西夏","file":"nightly_20261029_068.js","n":28,"np":280},{"era":"元明","file":"nightly_20261029_069.js","n":33,"np":330},{"era":"清","file":"nightly_20261029_070.js","n":68,"np":680},{"era":"先秦","file":"nightly_20261029_071.js","n":70,"np":70},{"era":"秦汉","file":"nightly_20261029_072.js","n":130,"np":130},{"era":"三国两晋南北朝","file":"nightly_20261029_073.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261029_074.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261029_075.js","n":200,"np":200},{"era":"元明","file":"nightly_20261029_076.js","n":120,"np":120},{"era":"清","file":"nightly_20261029_077.js","n":80,"np":80},{"era":"先秦","file":"nightly_20261030_001.js","n":7,"np":70},{"era":"秦汉","file":"nightly_20261030_002.js","n":9,"np":90},{"era":"三国两晋南北朝","file":"nightly_20261030_003.js","n":5,"np":50},{"era":"隋唐五代","file":"nightly_20261030_004.js","n":5,"np":50},{"era":"宋辽金西夏","file":"nightly_20261030_005.js","n":7,"np":70},{"era":"元明","file":"nightly_20261030_006.js","n":11,"np":110},{"era":"清","file":"nightly_20261030_007.js","n":6,"np":60},{"era":"民国","file":"nightly_20261030_008.js","n":150,"np":1500},{"era":"先秦","file":"nightly_20261030_009.js","n":4,"np":40},{"era":"秦汉","file":"nightly_20261030_010.js","n":4,"np":40},{"era":"三国两晋南北朝","file":"nightly_20261030_011.js","n":10,"np":100},{"era":"隋唐五代","file":"nightly_20261030_012.js","n":4,"np":40},{"era":"宋辽金西夏","file":"nightly_20261030_013.js","n":8,"np":80},{"era":"元明","file":"nightly_20261030_014.js","n":35,"np":350},{"era":"清","file":"nightly_20261030_015.js","n":25,"np":250},{"era":"民国","file":"nightly_20261030_016.js","n":30,"np":300},{"era":"人民军队（1927至今）","file":"nightly_20261030_017.js","n":80,"np":800}];
+const JIMENG='https://chatgpt.com/';const DATA_DIR='d1';const ALT_DIR=(DATA_DIR==='d1'?'图库总检索_Claude_data':'d1');const SHARDS=[{"era":"神话与传说","file":"00.js","n":1608,"np":8906},{"era":"先秦","file":"01.js","n":2065,"np":11986},{"era":"秦汉","file":"02.js","n":1487,"np":8665},{"era":"三国两晋南北朝","file":"03.js","n":2163,"np":12630},{"era":"隋唐五代","file":"04.js","n":1688,"np":9901},{"era":"宋辽金西夏","file":"05.js","n":2200,"np":12418},{"era":"宋辽金西夏","file":"06.js","n":1097,"np":7026},{"era":"元明","file":"07.js","n":2075,"np":12268},{"era":"清","file":"08.js","n":1094,"np":6471},{"era":"民国","file":"09.js","n":899,"np":5342},{"era":"人民军队（1927至今）","file":"10.js","n":2200,"np":13205},{"era":"人民军队（1927至今）","file":"11.js","n":2200,"np":11109},{"era":"人民军队（1927至今）","file":"12.js","n":2200,"np":13885},{"era":"人民军队（1927至今）","file":"13.js","n":2048,"np":13568},{"era":"文学与民间史诗","file":"14.js","n":52,"np":280},{"era":"元明","file":"nightly_20261012_001.js","n":3,"np":3},{"era":"清","file":"nightly_20261012_002.js","n":5,"np":5},{"era":"先秦","file":"nightly_20261012_003.js","n":1,"np":1},{"era":"隋唐五代","file":"nightly_20261012_005.js","n":2,"np":2},{"era":"元明","file":"nightly_20261012_006.js","n":3,"np":3},{"era":"清","file":"nightly_20261012_007.js","n":1,"np":1},{"era":"清","file":"nightly_20261012_008.js","n":2,"np":2},{"era":"秦汉","file":"nightly_20261013_001.js","n":1,"np":1},{"era":"隋唐五代","file":"nightly_20261013_002.js","n":4,"np":4},{"era":"先秦","file":"nightly_20261015_001.js","n":162,"np":162},{"era":"秦汉","file":"nightly_20261015_002.js","n":167,"np":167},{"era":"三国两晋南北朝","file":"nightly_20261015_003.js","n":161,"np":161},{"era":"隋唐五代","file":"nightly_20261015_004.js","n":172,"np":172},{"era":"宋辽金西夏","file":"nightly_20261015_005.js","n":165,"np":165},{"era":"元明","file":"nightly_20261015_006.js","n":115,"np":115},{"era":"清","file":"nightly_20261015_007.js","n":58,"np":58},{"era":"先秦","file":"nightly_20261016_001.js","n":100,"np":100},{"era":"秦汉","file":"nightly_20261016_002.js","n":133,"np":430},{"era":"三国两晋南北朝","file":"nightly_20261016_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261016_004.js","n":268,"np":880},{"era":"宋辽金西夏","file":"nightly_20261016_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261016_006.js","n":130,"np":130},{"era":"清","file":"nightly_20261016_007.js","n":70,"np":70},{"era":"先秦","file":"nightly_20261019_001.js","n":79,"np":790},{"era":"秦汉","file":"nightly_20261019_002.js","n":75,"np":750},{"era":"三国两晋南北朝","file":"nightly_20261019_003.js","n":51,"np":510},{"era":"隋唐五代","file":"nightly_20261019_004.js","n":104,"np":1040},{"era":"宋辽金西夏","file":"nightly_20261019_005.js","n":28,"np":280},{"era":"元明","file":"nightly_20261019_006.js","n":151,"np":1510},{"era":"清","file":"nightly_20261019_007.js","n":212,"np":2120},{"era":"先秦","file":"nightly_20261020_001.js","n":80,"np":80},{"era":"秦汉","file":"nightly_20261020_002.js","n":120,"np":120},{"era":"三国两晋南北朝","file":"nightly_20261020_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261020_004.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261020_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261020_006.js","n":130,"np":130},{"era":"清","file":"nightly_20261020_007.js","n":70,"np":70},{"era":"先秦","file":"nightly_20261020_008.js","n":840,"np":3360},{"era":"秦汉","file":"nightly_20261020_009.js","n":560,"np":2240},{"era":"三国两晋南北朝","file":"nightly_20261020_010.js","n":800,"np":3200},{"era":"隋唐五代","file":"nightly_20261020_011.js","n":500,"np":2000},{"era":"宋辽金西夏","file":"nightly_20261020_012.js","n":1020,"np":4080},{"era":"元明","file":"nightly_20261020_013.js","n":540,"np":2160},{"era":"清","file":"nightly_20261020_014.js","n":240,"np":960},{"era":"民国","file":"nightly_20261020_015.js","n":200,"np":800},{"era":"人民军队（1927至今）","file":"nightly_20261020_016.js","n":180,"np":720},{"era":"神话与传说","file":"nightly_20261020_017.js","n":800,"np":3200},{"era":"先秦","file":"nightly_20261020_018.js","n":39,"np":390},{"era":"秦汉","file":"nightly_20261020_019.js","n":19,"np":190},{"era":"三国两晋南北朝","file":"nightly_20261020_020.js","n":50,"np":500},{"era":"隋唐五代","file":"nightly_20261020_021.js","n":17,"np":170},{"era":"宋辽金西夏","file":"nightly_20261020_022.js","n":25,"np":250},{"era":"元明","file":"nightly_20261020_023.js","n":25,"np":250},{"era":"清","file":"nightly_20261020_024.js","n":25,"np":250},{"era":"先秦","file":"nightly_20261021_001.js","n":80,"np":80},{"era":"秦汉","file":"nightly_20261021_002.js","n":120,"np":120},{"era":"三国两晋南北朝","file":"nightly_20261021_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261021_004.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261021_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261021_006.js","n":130,"np":130},{"era":"清","file":"nightly_20261021_007.js","n":70,"np":70},{"era":"先秦","file":"nightly_20261021_008.js","n":200,"np":800},{"era":"秦汉","file":"nightly_20261021_009.js","n":200,"np":800},{"era":"三国两晋南北朝","file":"nightly_20261021_010.js","n":200,"np":800},{"era":"隋唐五代","file":"nightly_20261021_011.js","n":200,"np":800},{"era":"宋辽金西夏","file":"nightly_20261021_012.js","n":200,"np":800},{"era":"元明","file":"nightly_20261021_013.js","n":200,"np":800},{"era":"清","file":"nightly_20261021_014.js","n":200,"np":800},{"era":"民国","file":"nightly_20261021_015.js","n":200,"np":800},{"era":"人民军队（1927至今）","file":"nightly_20261021_016.js","n":200,"np":800},{"era":"神话与传说","file":"nightly_20261021_017.js","n":200,"np":800},{"era":"神话与传说","file":"nightly_20261021_018.js","n":600,"np":3600},{"era":"神话与传说","file":"nightly_20261021_019.js","n":700,"np":4200},{"era":"神话与传说","file":"nightly_20261021_020.js","n":600,"np":3600},{"era":"神话与传说","file":"nightly_20261021_021.js","n":500,"np":3000},{"era":"神话与传说","file":"nightly_20261021_022.js","n":600,"np":3600},{"era":"神话与传说","file":"nightly_20261021_023.js","n":600,"np":3600},{"era":"神话与传说","file":"nightly_20261021_024.js","n":500,"np":3000},{"era":"神话与传说","file":"nightly_20261021_025.js","n":500,"np":3000},{"era":"神话与传说","file":"nightly_20261021_026.js","n":400,"np":2400},{"era":"先秦","file":"nightly_20261021_027.js","n":16,"np":160},{"era":"秦汉","file":"nightly_20261021_028.js","n":19,"np":190},{"era":"三国两晋南北朝","file":"nightly_20261021_029.js","n":40,"np":400},{"era":"隋唐五代","file":"nightly_20261021_030.js","n":25,"np":250},{"era":"宋辽金西夏","file":"nightly_20261021_031.js","n":20,"np":200},{"era":"元明","file":"nightly_20261021_032.js","n":40,"np":400},{"era":"清","file":"nightly_20261021_033.js","n":40,"np":400},{"era":"先秦","file":"nightly_20261022_001.js","n":80,"np":80},{"era":"秦汉","file":"nightly_20261022_002.js","n":120,"np":120},{"era":"三国两晋南北朝","file":"nightly_20261022_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261022_004.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261022_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261022_006.js","n":130,"np":130},{"era":"清","file":"nightly_20261022_007.js","n":70,"np":70},{"era":"先秦","file":"nightly_20261022_008.js","n":20,"np":200},{"era":"秦汉","file":"nightly_20261022_009.js","n":20,"np":200},{"era":"三国两晋南北朝","file":"nightly_20261022_010.js","n":12,"np":120},{"era":"隋唐五代","file":"nightly_20261022_011.js","n":20,"np":200},{"era":"宋辽金西夏","file":"nightly_20261022_012.js","n":20,"np":200},{"era":"元明","file":"nightly_20261022_013.js","n":40,"np":400},{"era":"清","file":"nightly_20261022_014.js","n":68,"np":680},{"era":"先秦","file":"nightly_20261023_001.js","n":80,"np":80},{"era":"秦汉","file":"nightly_20261023_002.js","n":120,"np":120},{"era":"三国两晋南北朝","file":"nightly_20261023_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261023_004.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261023_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261023_006.js","n":130,"np":130},{"era":"清","file":"nightly_20261023_007.js","n":70,"np":70},{"era":"先秦","file":"nightly_20261023_008.js","n":35,"np":350},{"era":"秦汉","file":"nightly_20261023_009.js","n":35,"np":350},{"era":"三国两晋南北朝","file":"nightly_20261023_010.js","n":25,"np":250},{"era":"隋唐五代","file":"nightly_20261023_011.js","n":30,"np":300},{"era":"宋辽金西夏","file":"nightly_20261023_012.js","n":35,"np":350},{"era":"元明","file":"nightly_20261023_013.js","n":20,"np":200},{"era":"清","file":"nightly_20261023_014.js","n":20,"np":200},{"era":"先秦","file":"nightly_20261024_008.js","n":35,"np":350},{"era":"秦汉","file":"nightly_20261024_009.js","n":35,"np":350},{"era":"三国两晋南北朝","file":"nightly_20261024_010.js","n":25,"np":250},{"era":"隋唐五代","file":"nightly_20261024_011.js","n":30,"np":300},{"era":"宋辽金西夏","file":"nightly_20261024_012.js","n":35,"np":350},{"era":"元明","file":"nightly_20261024_013.js","n":20,"np":200},{"era":"清","file":"nightly_20261024_014.js","n":20,"np":200},{"era":"先秦","file":"nightly_20261025_008.js","n":35,"np":350},{"era":"秦汉","file":"nightly_20261025_009.js","n":35,"np":350},{"era":"三国两晋南北朝","file":"nightly_20261025_010.js","n":25,"np":250},{"era":"隋唐五代","file":"nightly_20261025_011.js","n":30,"np":300},{"era":"宋辽金西夏","file":"nightly_20261025_012.js","n":35,"np":350},{"era":"元明","file":"nightly_20261025_013.js","n":20,"np":200},{"era":"清","file":"nightly_20261025_014.js","n":20,"np":200},{"era":"先秦","file":"nightly_20261024_001.js","n":135,"np":135},{"era":"秦汉","file":"nightly_20261024_002.js","n":105,"np":105},{"era":"三国两晋南北朝","file":"nightly_20261024_003.js","n":238,"np":238},{"era":"隋唐五代","file":"nightly_20261024_004.js","n":131,"np":131},{"era":"宋辽金西夏","file":"nightly_20261024_005.js","n":191,"np":191},{"era":"元明","file":"nightly_20261024_006.js","n":125,"np":125},{"era":"清","file":"nightly_20261024_007.js","n":75,"np":75},{"era":"先秦","file":"nightly_20261025_001.js","n":116,"np":116},{"era":"秦汉","file":"nightly_20261025_002.js","n":84,"np":84},{"era":"三国两晋南北朝","file":"nightly_20261025_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261025_004.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261025_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261025_006.js","n":178,"np":178},{"era":"清","file":"nightly_20261025_007.js","n":22,"np":22},{"era":"先秦","file":"nightly_20261026_001.js","n":20,"np":20},{"era":"秦汉","file":"nightly_20261026_002.js","n":180,"np":180},{"era":"三国两晋南北朝","file":"nightly_20261026_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261026_004.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261026_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261026_006.js","n":36,"np":36},{"era":"清","file":"nightly_20261026_007.js","n":164,"np":164},{"era":"先秦","file":"nightly_20261026_008.js","n":35,"np":350},{"era":"秦汉","file":"nightly_20261026_009.js","n":35,"np":350},{"era":"三国两晋南北朝","file":"nightly_20261026_010.js","n":25,"np":250},{"era":"隋唐五代","file":"nightly_20261026_011.js","n":30,"np":300},{"era":"宋辽金西夏","file":"nightly_20261026_012.js","n":35,"np":350},{"era":"元明","file":"nightly_20261026_013.js","n":20,"np":200},{"era":"清","file":"nightly_20261026_014.js","n":20,"np":200},{"era":"先秦","file":"nightly_20261027_001.js","n":80,"np":80},{"era":"秦汉","file":"nightly_20261027_002.js","n":120,"np":120},{"era":"三国两晋南北朝","file":"nightly_20261027_003.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261027_004.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261027_005.js","n":200,"np":200},{"era":"元明","file":"nightly_20261027_006.js","n":112,"np":112},{"era":"清","file":"nightly_20261027_007.js","n":88,"np":88},{"era":"先秦","file":"nightly_20261027_008.js","n":18,"np":180},{"era":"秦汉","file":"nightly_20261027_009.js","n":42,"np":420},{"era":"三国两晋南北朝","file":"nightly_20261027_010.js","n":46,"np":460},{"era":"隋唐五代","file":"nightly_20261027_011.js","n":30,"np":300},{"era":"宋辽金西夏","file":"nightly_20261027_012.js","n":24,"np":240},{"era":"元明","file":"nightly_20261027_013.js","n":20,"np":200},{"era":"清","file":"nightly_20261027_014.js","n":20,"np":200},{"era":"先秦","file":"nightly_20261027_015.js","n":18,"np":180},{"era":"秦汉","file":"nightly_20261027_016.js","n":36,"np":360},{"era":"三国两晋南北朝","file":"nightly_20261027_017.js","n":38,"np":380},{"era":"隋唐五代","file":"nightly_20261027_018.js","n":30,"np":300},{"era":"宋辽金西夏","file":"nightly_20261027_019.js","n":14,"np":140},{"era":"元明","file":"nightly_20261027_020.js","n":32,"np":320},{"era":"清","file":"nightly_20261027_021.js","n":32,"np":320},{"era":"先秦","file":"nightly_20261028_001.js","n":28,"np":280},{"era":"秦汉","file":"nightly_20261028_002.js","n":42,"np":420},{"era":"三国两晋南北朝","file":"nightly_20261028_003.js","n":54,"np":540},{"era":"隋唐五代","file":"nightly_20261028_004.js","n":36,"np":360},{"era":"宋辽金西夏","file":"nightly_20261028_005.js","n":20,"np":200},{"era":"元明","file":"nightly_20261028_006.js","n":10,"np":100},{"era":"清","file":"nightly_20261028_007.js","n":10,"np":100},{"era":"先秦","file":"nightly_20261028_008.js","n":6,"np":60},{"era":"秦汉","file":"nightly_20261028_009.js","n":7,"np":70},{"era":"三国两晋南北朝","file":"nightly_20261028_010.js","n":49,"np":490},{"era":"隋唐五代","file":"nightly_20261028_011.js","n":37,"np":370},{"era":"宋辽金西夏","file":"nightly_20261028_012.js","n":13,"np":130},{"era":"元明","file":"nightly_20261028_013.js","n":45,"np":450},{"era":"清","file":"nightly_20261028_014.js","n":43,"np":430},{"era":"先秦","file":"nightly_20261028_015.js","n":11,"np":110},{"era":"秦汉","file":"nightly_20261028_016.js","n":7,"np":70},{"era":"三国两晋南北朝","file":"nightly_20261028_017.js","n":44,"np":440},{"era":"隋唐五代","file":"nightly_20261028_018.js","n":37,"np":370},{"era":"宋辽金西夏","file":"nightly_20261028_019.js","n":13,"np":130},{"era":"元明","file":"nightly_20261028_020.js","n":45,"np":450},{"era":"清","file":"nightly_20261028_021.js","n":43,"np":430},{"era":"先秦","file":"nightly_20261028_022.js","n":30,"np":300},{"era":"秦汉","file":"nightly_20261028_023.js","n":30,"np":300},{"era":"三国两晋南北朝","file":"nightly_20261028_024.js","n":30,"np":300},{"era":"隋唐五代","file":"nightly_20261028_025.js","n":35,"np":350},{"era":"宋辽金西夏","file":"nightly_20261028_026.js","n":40,"np":400},{"era":"元明","file":"nightly_20261028_027.js","n":20,"np":200},{"era":"清","file":"nightly_20261028_028.js","n":15,"np":150},{"era":"先秦","file":"nightly_20261028_029.js","n":30,"np":300},{"era":"秦汉","file":"nightly_20261028_030.js","n":30,"np":300},{"era":"三国两晋南北朝","file":"nightly_20261028_031.js","n":30,"np":300},{"era":"隋唐五代","file":"nightly_20261028_032.js","n":35,"np":350},{"era":"宋辽金西夏","file":"nightly_20261028_033.js","n":40,"np":400},{"era":"元明","file":"nightly_20261028_034.js","n":20,"np":200},{"era":"清","file":"nightly_20261028_035.js","n":15,"np":150},{"era":"先秦","file":"nightly_20261028_036.js","n":36,"np":36},{"era":"秦汉","file":"nightly_20261028_037.js","n":164,"np":164},{"era":"三国两晋南北朝","file":"nightly_20261028_038.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261028_039.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261028_040.js","n":200,"np":200},{"era":"元明","file":"nightly_20261028_041.js","n":166,"np":166},{"era":"清","file":"nightly_20261028_042.js","n":34,"np":34},{"era":"先秦","file":"nightly_20261029_001.js","n":30,"np":300},{"era":"秦汉","file":"nightly_20261029_002.js","n":30,"np":300},{"era":"三国两晋南北朝","file":"nightly_20261029_003.js","n":30,"np":300},{"era":"隋唐五代","file":"nightly_20261029_004.js","n":35,"np":350},{"era":"宋辽金西夏","file":"nightly_20261029_005.js","n":40,"np":400},{"era":"元明","file":"nightly_20261029_006.js","n":20,"np":200},{"era":"清","file":"nightly_20261029_007.js","n":15,"np":150},{"era":"先秦","file":"nightly_20261029_008.js","n":10,"np":100},{"era":"秦汉","file":"nightly_20261029_009.js","n":17,"np":170},{"era":"三国两晋南北朝","file":"nightly_20261029_010.js","n":49,"np":490},{"era":"隋唐五代","file":"nightly_20261029_011.js","n":93,"np":930},{"era":"宋辽金西夏","file":"nightly_20261029_012.js","n":15,"np":150},{"era":"元明","file":"nightly_20261029_013.js","n":0,"np":0},{"era":"清","file":"nightly_20261029_014.js","n":16,"np":160},{"era":"先秦","file":"nightly_20261029_015.js","n":26,"np":260},{"era":"秦汉","file":"nightly_20261029_016.js","n":35,"np":350},{"era":"三国两晋南北朝","file":"nightly_20261029_017.js","n":40,"np":400},{"era":"隋唐五代","file":"nightly_20261029_018.js","n":55,"np":550},{"era":"宋辽金西夏","file":"nightly_20261029_019.js","n":33,"np":330},{"era":"元明","file":"nightly_20261029_020.js","n":9,"np":90},{"era":"清","file":"nightly_20261029_021.js","n":2,"np":20},{"era":"先秦","file":"nightly_20261029_022.js","n":10,"np":100},{"era":"秦汉","file":"nightly_20261029_023.js","n":24,"np":240},{"era":"三国两晋南北朝","file":"nightly_20261029_024.js","n":40,"np":400},{"era":"隋唐五代","file":"nightly_20261029_025.js","n":83,"np":830},{"era":"宋辽金西夏","file":"nightly_20261029_026.js","n":12,"np":120},{"era":"元明","file":"nightly_20261029_027.js","n":10,"np":100},{"era":"清","file":"nightly_20261029_028.js","n":21,"np":210},{"era":"先秦","file":"nightly_20261029_029.js","n":30,"np":300},{"era":"秦汉","file":"nightly_20261029_030.js","n":41,"np":410},{"era":"三国两晋南北朝","file":"nightly_20261029_031.js","n":37,"np":370},{"era":"隋唐五代","file":"nightly_20261029_032.js","n":40,"np":400},{"era":"宋辽金西夏","file":"nightly_20261029_033.js","n":22,"np":220},{"era":"元明","file":"nightly_20261029_034.js","n":4,"np":40},{"era":"清","file":"nightly_20261029_035.js","n":26,"np":260},{"era":"文学与民间史诗","file":"nightly_20261029_036.js","n":19,"np":190},{"era":"文学与民间史诗","file":"nightly_20261029_037.js","n":7,"np":70},{"era":"文学与民间史诗","file":"nightly_20261029_038.js","n":18,"np":180},{"era":"文学与民间史诗","file":"nightly_20261029_039.js","n":22,"np":220},{"era":"文学与民间史诗","file":"nightly_20261029_040.js","n":39,"np":390},{"era":"文学与民间史诗","file":"nightly_20261029_041.js","n":44,"np":440},{"era":"文学与民间史诗","file":"nightly_20261029_042.js","n":51,"np":510},{"era":"先秦","file":"nightly_20261029_043.js","n":32,"np":320},{"era":"秦汉","file":"nightly_20261029_044.js","n":53,"np":530},{"era":"三国两晋南北朝","file":"nightly_20261029_045.js","n":30,"np":300},{"era":"隋唐五代","file":"nightly_20261029_046.js","n":48,"np":480},{"era":"宋辽金西夏","file":"nightly_20261029_047.js","n":17,"np":170},{"era":"元明","file":"nightly_20261029_048.js","n":2,"np":20},{"era":"清","file":"nightly_20261029_049.js","n":18,"np":180},{"era":"先秦","file":"nightly_20261029_050.js","n":30,"np":300},{"era":"秦汉","file":"nightly_20261029_051.js","n":24,"np":240},{"era":"三国两晋南北朝","file":"nightly_20261029_052.js","n":36,"np":360},{"era":"隋唐五代","file":"nightly_20261029_053.js","n":44,"np":440},{"era":"宋辽金西夏","file":"nightly_20261029_054.js","n":29,"np":290},{"era":"元明","file":"nightly_20261029_055.js","n":12,"np":120},{"era":"清","file":"nightly_20261029_056.js","n":25,"np":250},{"era":"文学与民间史诗","file":"nightly_20261029_057.js","n":20,"np":200},{"era":"文学与民间史诗","file":"nightly_20261029_058.js","n":11,"np":110},{"era":"文学与民间史诗","file":"nightly_20261029_059.js","n":17,"np":170},{"era":"文学与民间史诗","file":"nightly_20261029_060.js","n":23,"np":230},{"era":"文学与民间史诗","file":"nightly_20261029_061.js","n":25,"np":250},{"era":"文学与民间史诗","file":"nightly_20261029_062.js","n":50,"np":500},{"era":"文学与民间史诗","file":"nightly_20261029_063.js","n":54,"np":540},{"era":"先秦","file":"nightly_20261029_064.js","n":22,"np":220},{"era":"秦汉","file":"nightly_20261029_065.js","n":14,"np":140},{"era":"三国两晋南北朝","file":"nightly_20261029_066.js","n":15,"np":150},{"era":"隋唐五代","file":"nightly_20261029_067.js","n":20,"np":200},{"era":"宋辽金西夏","file":"nightly_20261029_068.js","n":28,"np":280},{"era":"元明","file":"nightly_20261029_069.js","n":33,"np":330},{"era":"清","file":"nightly_20261029_070.js","n":68,"np":680},{"era":"先秦","file":"nightly_20261029_071.js","n":70,"np":70},{"era":"秦汉","file":"nightly_20261029_072.js","n":130,"np":130},{"era":"三国两晋南北朝","file":"nightly_20261029_073.js","n":200,"np":200},{"era":"隋唐五代","file":"nightly_20261029_074.js","n":200,"np":200},{"era":"宋辽金西夏","file":"nightly_20261029_075.js","n":200,"np":200},{"era":"元明","file":"nightly_20261029_076.js","n":120,"np":120},{"era":"清","file":"nightly_20261029_077.js","n":80,"np":80},{"era":"先秦","file":"nightly_20261030_001.js","n":7,"np":70},{"era":"秦汉","file":"nightly_20261030_002.js","n":9,"np":90},{"era":"三国两晋南北朝","file":"nightly_20261030_003.js","n":5,"np":50},{"era":"隋唐五代","file":"nightly_20261030_004.js","n":5,"np":50},{"era":"宋辽金西夏","file":"nightly_20261030_005.js","n":7,"np":70},{"era":"元明","file":"nightly_20261030_006.js","n":11,"np":110},{"era":"清","file":"nightly_20261030_007.js","n":6,"np":60},{"era":"民国","file":"nightly_20261030_008.js","n":150,"np":1500},{"era":"先秦","file":"nightly_20261030_009.js","n":4,"np":40},{"era":"秦汉","file":"nightly_20261030_010.js","n":4,"np":40},{"era":"三国两晋南北朝","file":"nightly_20261030_011.js","n":10,"np":100},{"era":"隋唐五代","file":"nightly_20261030_012.js","n":4,"np":40},{"era":"宋辽金西夏","file":"nightly_20261030_013.js","n":8,"np":80},{"era":"元明","file":"nightly_20261030_014.js","n":35,"np":350},{"era":"清","file":"nightly_20261030_015.js","n":25,"np":250},{"era":"民国","file":"nightly_20261030_016.js","n":30,"np":300},{"era":"人民军队（1927至今）","file":"nightly_20261030_017.js","n":80,"np":800},{"era":"先秦","file":"nightly_20261030_018.js","n":5,"np":50},{"era":"秦汉","file":"nightly_20261030_019.js","n":2,"np":20},{"era":"三国两晋南北朝","file":"nightly_20261030_020.js","n":21,"np":210},{"era":"隋唐五代","file":"nightly_20261030_021.js","n":2,"np":20},{"era":"宋辽金西夏","file":"nightly_20261030_022.js","n":7,"np":70},{"era":"元明","file":"nightly_20261030_023.js","n":19,"np":190},{"era":"清","file":"nightly_20261030_024.js","n":8,"np":80},{"era":"民国","file":"nightly_20261030_025.js","n":64,"np":640},{"era":"人民军队（1927至今）","file":"nightly_20261030_026.js","n":47,"np":470},{"era":"神话与传说","file":"nightly_20261030_027.js","n":25,"np":250}];
 const R=[];const loaded=new Set(),pending=new Map();let PAGE=30;
 const $=i=>document.getElementById(i);
 let f={era:'',subdyn:'',kind:'',subcat:'',spec:'',lvl:'',lib:''},showAllSubdyn=false,page=0,cur=null,list=[];
@@ -467,150 +472,66 @@ function computeBatchRank(file){
   return dt*1000+parseInt(m[2],10);
 }
 
-const IDX_CHUNKS=["idx_20261030_00.js","idx_20261030_01.js","idx_20261030_02.js","idx_20261030_03.js","idx_20261030_04.js","idx_20261030_05.js","idx_20261030_06.js","idx_20261030_07.js","idx_20261030_08.js"];
-const CDN_BASES=['https://testingcf.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/','https://gcore.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/'];
-const IS_GH_HOST=/github\.io$/i.test(location.hostname||'');
-const byId=new Map(),idxCovered=new Set(),hydratedShards=new Set(),hydratingMap=new Map();
-
-function buildUrls(cdnRel,primaryRel,altRel){
-  const u=[];
-  if(IS_GH_HOST){
-    CDN_BASES.forEach(b=>u.push(b+cdnRel));
-    u.push(primaryRel);
-    if(altRel&&altRel!==primaryRel)u.push(altRel);
-  }else{
-    u.push(primaryRel);
-    if(altRel&&altRel!==primaryRel)u.push(altRel);
-    if(cdnRel&&cdnRel!==primaryRel&&cdnRel!==altRel)u.push(cdnRel);
-    if(location.protocol!=='file:')CDN_BASES.forEach(b=>u.push(b+cdnRel));
-  }
-  return u;
-}
-
-function loadScriptChain(urls,timeoutMs){
-  return new Promise(res=>{
-    let i=0;
-    function next(){
-      if(i>=urls.length){res(false);return;}
-      const u=urls[i++];
-      const s=document.createElement('script');
-      let done=false;
-      const tm=setTimeout(()=>{if(!done){done=true;s.onload=s.onerror=null;if(s.parentNode)s.parentNode.removeChild(s);next();}},timeoutMs||6500);
-      s.src=u;
-      s.onload=()=>{if(!done){done=true;clearTimeout(tm);res(true);}};
-      s.onerror=()=>{if(!done){done=true;clearTimeout(tm);if(s.parentNode)s.parentNode.removeChild(s);next();}};
-      document.head.appendChild(s);
-    }
-    next();
-  });
-}
-
-function indexRecord(r,bRank,idx,shardFile,isFull){
-  const subClean=(r.sub||'').replace(/202610(?:2[789]|30)[^·]*全网考证/g,'');
-  r._search=((r.id||'')+' '+(r.title||'')+' '+(r.era||'')+' '+(r.dyn||'')+' '+(r.kind||'')+' '+(r.cat||'')+' '+subClean+' '+(r.story||'')+' '+(r.brief||'')+' '+(r.src||'')+' '+(r.hold||'')+' '+(r.text||'')).toLowerCase();
-  r._subdynText=((r.dyn||'')+' '+(r.title||'')+' '+subClean+' '+(r.brief||'')+' '+(r.src||'')+' '+(r.story||'')+' '+(r.cat||'')).toLowerCase();
-  r._isHF=isHF(r);
-  r._effKind=r._isHF?'历史名人':(r.kind||'');
-  r._chronoRank=computeChronoRank(r);
-  r._kindRank=KIND_RANK[r._effKind]||9;
-  r._lvlRank=computeLevelRank(r);
-  r._batchRank=bRank*10000+(9999-idx);
-  r._shardFile=shardFile;
-  r._hydrated=!!isFull;
-}
-
-window.__IDX_BATCH__=(groups)=>{
-  groups.forEach(g=>{
-    const shardFile=g[0],era=g[1],rows=g[2];
-    if(idxCovered.has(shardFile))return;
-    idxCovered.add(shardFile);
-    loaded.add(shardFile);
-    const bRank=computeBatchRank(shardFile);
-    rows.forEach((a,idx)=>{
-      if(byId.has(a[0]))return;
-      const r={id:a[0],title:a[1],era:a[2]||era||'',dyn:a[3],kind:a[4],cat:a[5],sub:a[6],story:a[7],brief:a[8],src:a[9],hold:a[10],level:a[11],lib:a[12],n:a[13]||1,variants:[]};
-      indexRecord(r,bRank,idx,shardFile,false);
-      byId.set(r.id,r);
-      R.push(r);
-    });
-  });
-};
-
-let _curLoadingFile='';
 window.__SHARD__=(file,era,recs)=>{
-  const diskFile=_curLoadingFile||file;
-  const bRank=computeBatchRank(diskFile);
+  const bRank=computeBatchRank(file);
   recs.forEach((r,idx)=>{
     if(!r.era&&era)r.era=era;
     if(!r.n)r.n=r.variants?r.variants.length:1;
-    (r.variants||[]).forEach(v=>{
+    r.variants.forEach(v=>{
       if(v.p!==undefined){
         v.prompt=v.p.includes('\x01')?v.p.replace('\x01',r.c||''):v.p;
         delete v.p;
       }
     });
-    const existing=byId.get(r.id);
-    if(existing){
-      existing.variants=r.variants||[];
-      existing.c=r.c||'';
-      existing._hydrated=true;
-    }else{
-      indexRecord(r,bRank,idx,diskFile,true);
-      byId.set(r.id,r);
-      R.push(r);
-    }
+    const subClean=(r.sub||'').replace(/202610(?:2[789]|30)[^·]*全网考证/g,'');
+    r._search=((r.id||'')+' '+(r.title||'')+' '+(r.era||'')+' '+(r.dyn||'')+' '+(r.kind||'')+' '+(r.cat||'')+' '+subClean+' '+(r.story||'')+' '+(r.brief||'')+' '+(r.src||'')+' '+(r.hold||'')+' '+(r.text||'')).toLowerCase();
+    r._subdynText=((r.dyn||'')+' '+(r.title||'')+' '+subClean+' '+(r.brief||'')+' '+(r.src||'')+' '+(r.story||'')+' '+(r.cat||'')).toLowerCase();
+    r._isHF=isHF(r);
+    r._effKind=r._isHF?'历史名人':(r.kind||'');
+    r._chronoRank=computeChronoRank(r);
+    r._kindRank=KIND_RANK[r._effKind]||9;
+    r._lvlRank=computeLevelRank(r);
+    r._batchRank=bRank*10000+(9999-idx);
   });
-  loaded.add(diskFile);
-  hydratedShards.add(diskFile);
+  R.push(...recs);
+  loaded.add(file);
 };
-
-function hydrateShard(shardFile){
-  if(!shardFile||hydratedShards.has(shardFile))return Promise.resolve(true);
-  if(hydratingMap.has(shardFile))return hydratingMap.get(shardFile);
-  const p=(async()=>{
-    _curLoadingFile=shardFile;
-    const ok=await loadScriptChain(buildUrls('d1/'+shardFile,DATA_DIR+'/'+shardFile,ALT_DIR+'/'+shardFile),12000);
-    _curLoadingFile='';
-    if(ok)hydratedShards.add(shardFile);
-    return ok;
-  })();
-  hydratingMap.set(shardFile,p);
-  return p;
-}
 
 function loadShard(s){
   if(loaded.has(s.file))return Promise.resolve();
   if(pending.has(s.file))return pending.get(s.file);
-  const p=hydrateShard(s.file);
+  const p=new Promise(res=>{
+    const t=document.createElement('script');
+    t.src=DATA_DIR+'/'+s.file;
+    t.onload=()=>{res();};
+    t.onerror=()=>{
+      const t2=document.createElement('script');
+      t2.src=ALT_DIR+'/'+s.file;
+      t2.onload=()=>{res();};
+      t2.onerror=()=>{$('loadmsg').textContent='数据文件缺失：'+DATA_DIR+'/'+s.file;res();};
+      document.head.appendChild(t2);
+    };
+    document.head.appendChild(t);
+  });
   pending.set(s.file,p);
   return p;
 }
 
 async function loadAll(){
-  $('loadmsg').textContent='正在通过国内高速节点载入全库索引（0/'+IDX_CHUNKS.length+'）…';
-  let doneIdx=0;
-  await Promise.all(IDX_CHUNKS.map(async fn=>{
-    await loadScriptChain(buildUrls('d1_idx/'+fn,'d1_idx/'+fn,'d1_idx/'+fn),10000);
-    doneIdx++;
-    $('loadmsg').textContent=`正在载入全库索引（${doneIdx}/${IDX_CHUNKS.length}）…`;
-    if(doneIdx===1||doneIdx===IDX_CHUNKS.length){
+  const BATCH=12;
+  for(let i=0;i<SHARDS.length;i+=BATCH){
+    await Promise.all(SHARDS.slice(i,i+BATCH).map(loadShard));
+    loadmsg();
+    if(i===0||i%(BATCH*4)===0||loaded.size===SHARDS.length){
       rebuildStoryDropdown();
       renderSubcats();
       apply();
     }
-  }));
-  const extra=SHARDS.filter(s=>!loaded.has(s.file));
-  if(extra.length>0){
-    const BATCH=8;
-    for(let i=0;i<extra.length;i+=BATCH){
-      for(const s of extra.slice(i,i+BATCH))await loadShard(s);
-      loadmsg();
-    }
-    rebuildStoryDropdown();
-    renderSubcats();
-    apply();
   }
-  $('loadmsg').textContent='全部 '+R.length.toLocaleString()+' 个条目索引已就绪（点击任意卡片即时展开完整提示词）';
+  $('loadmsg').textContent='全部 '+SHARDS.length+' 个数据分片已就绪';
+  rebuildStoryDropdown();
+  renderSubcats();
+  apply();
 }
 
 function loadmsg(){
@@ -741,10 +662,10 @@ function matchSubcat(r,sc){
   if(sc==='pr_furn')return r.kind==='器物'&&/家具|几|案|榻|床|椅|屏风|乐器|琴|瑟|笙|笛|鼓|文房|笔|墨|砚|简牍|书卷/.test(s);
   if(sc==='pr_magic')return r.kind==='器物'&&(r.era==='神话与传说'||/法宝|神兵|法器|神物|仙/.test(s));
   if(sc==='eq_all')return r.kind==='配套';
-  if(sc==='eq_chariot')return r.kind==='配套'&&/车|马|鞍|镫|卤簿|舆|辇|骑|机车|列车|铁道|铁路|公路|客机|航线|卡车|坦克|战机|歼|轰|运输机|步兵战车|火炮|高炮|火箭炮|发射车|牵引/.test(s);
-  if(sc==='eq_ship')return r.kind==='配套'&&/舟|船|帆|漕|运河|仓窖|水|坝|堰|桥|轮渡|汽轮|码头|舰|艇|潜艇|航母|鱼雷|海防|船台|浮桥|宝船/.test(s);
-  if(sc==='eq_mech')return r.kind==='配套'&&/百工|机械|科技|农桑|围猎|攻城|器具|道具|天文|观象|提花|纺|活字|印|高炉|兵工|电|光学|金库|钻井|电台|雷达|导弹|火箭|原子|氢弹|卫星|航天|神舟|北斗|计算机|通信|医疗|手术|密码|测绘|军工/.test(s);
-  if(sc==='ev_hist')return r.kind==='事件'&&(r.cat==='正史'||r.cat==='边塞军阵与盟誓戍防'||r.cat==='军史战役与国防大事'||/战|兵|征|伐|盟|变|起义|会师|渡|保卫|反击|阅兵/.test(s));
+  if(sc==='eq_chariot')return r.kind==='配套'&&/车|马|鞍|镫|卤簿|舆|辇|骑|机车|列车|铁道|铁路|公路|客机|航线|卡车|坦克|战机|歼|轰|强-5|运输机|步兵战车|火炮|高炮|火箭炮|发射车|牵引|飞车|木鸢/.test(s);
+  if(sc==='eq_ship')return r.kind==='配套'&&/舟|船|帆|漕|运河|仓窖|水|坝|堰|桥|轮渡|汽轮|码头|舰|艇|潜艇|航母|鱼雷|海防|船台|浮桥|宝船|浮槎|归墟|龙宫|海市/.test(s);
+  if(sc==='eq_mech')return r.kind==='配套'&&/百工|机械|科技|农桑|围猎|攻城|器具|道具|天文|观象|提花|纺|活字|印|高炉|兵工|电|光学|金库|钻井|电台|雷达|导弹|火箭|原子|氢弹|卫星|航天|神舟|北斗|计算机|通信|医疗|手术|密码|测绘|军工|八卦炉|炼石|息壤|天梯|奈河/.test(s);
+  if(sc==='ev_hist')return r.kind==='事件'&&(r.cat==='正史'||r.cat==='边塞军阵与盟誓戍防'||r.cat==='军史战役与国防大事'||r.cat==='重大历史事件与时代风云'||/战|兵|征|伐|盟|变|起义|会师|渡|保卫|反击|阅兵/.test(s));
   if(sc==='ev_arch')return r.kind==='事件'&&(r.cat==='实录档案与编年'||r.cat==='影像档案');
   if(sc==='ev_lit')return r.kind==='事件'&&(r.cat==='文学演义'||r.cat==='民间传说'||r.cat==='笔记野史'||r.cat==='神话');
   if(sc==='my_all')return r.era==='神话与传说'||r.kind==='神话'||r.id.startsWith('ZG-');
@@ -804,7 +725,7 @@ function toggleAllSubdyn(){
 
 function matchSubdyn(r,v){
   if(!v)return true;
-  if(v==='20261027')return r.id.startsWith('HT-W20261030B-')||r.id.startsWith('HT-W20261030A-')||r.id.startsWith('HT-N20261029-')||r.id.startsWith('HT-W20261029E-')||r.id.startsWith('HT-W20261029D-')||r.id.startsWith('HT-W20261029C-')||r.id.startsWith('HT-W20261029B-')||r.id.startsWith('HT-W20261029-')||r.id.startsWith('HT-N20261028-')||r.id.startsWith('HT-W20261028B-')||r.id.startsWith('HT-W20261028-')||r.id.startsWith('HT-N20261027-')||r.id.startsWith('HT-E20271027-')||r.id.startsWith('HT-E20261027-');
+  if(v==='20261027')return r.id.startsWith('HT-W20261030C-')||r.id.startsWith('HT-W20261030B-')||r.id.startsWith('HT-W20261030A-')||r.id.startsWith('HT-N20261029-')||r.id.startsWith('HT-W20261029E-')||r.id.startsWith('HT-W20261029D-')||r.id.startsWith('HT-W20261029C-')||r.id.startsWith('HT-W20261029B-')||r.id.startsWith('HT-W20261029-')||r.id.startsWith('HT-N20261028-')||r.id.startsWith('HT-W20261028B-')||r.id.startsWith('HT-W20261028-')||r.id.startsWith('HT-N20261027-')||r.id.startsWith('HT-E20271027-')||r.id.startsWith('HT-E20261027-');
   const s=r._subdynText||'';
   if(v==='夏代')return r.era==='先秦'&&/夏代|夏朝|二里头|王城岗|瓦店|新砦|陶寺|大禹|夏桀|夏后/.test(s);
   if(v==='商代')return r.era==='先秦'&&/商代|商朝|殷墟|殷商|商王|妇好|盘庚|武丁|商纣|偃师商城|洹北商城|盘龙城|三星堆|新干大洋洲/.test(s);
@@ -855,6 +776,7 @@ function matchSubdyn(r,v){
   if(v==='道教神仙')return r.era==='神话与传说'&&/道教|神仙|朝元图|永乐宫|水陆画|三清|玉皇|八仙|真武|妈祖|关帝|城隍|雷公|电母|二十八宿|星官/.test(s);
   if(v==='西游封神')return r.era==='神话与传说'&&/西游|封神|小说绣像|孙悟空|哪吒|二郎神|杨戬|姜子牙|牛魔王|铁扇公主|雷震子|龙王|天兵天将/.test(s);
   if(v==='民间敦煌冥界')return r.era==='神话与传说'&&/楚辞|九歌|民间传说|牛郎织女|白蛇|孟姜女|梁祝|年画|敦煌|佛教|冥界|十王|钟馗|罗汉|飞天|少数民族/.test(s);
+  if(v==='神话配套')return r.era==='神话与传说'&&r.kind==='配套';
   if(v==='志怪31')return r.id.startsWith('ZG-')||/神异经|搜神记|搜神后记|博物志|幽明录|续齐谐记|异苑|酉阳杂俎|玄怪录|广异记|宣室志|夷坚志|聊斋志异|阅微草堂|子不语|夜谭随录|谐铎|剪灯|觅灯因话|西游记|封神演义|平妖传|东游记|南游记|北游记|西游补|镜花缘|绿野仙踪|太平广记|光世音应验记|观世音应验记|冥祥记|冤魂志|还冤记|冥报记|集神州三宝感通录|列仙传|神仙传|汉武帝内传|续仙传|墉城集仙录|录异记|神仙感遇传|江淮异人录|拾遗记|博异志|集异记|甘泽谣|三水小牍|纂异记|稽神录|青琐高议|睽车志|耳食录|夜雨秋灯录/.test(s);
   if(v==='先秦诗骚与汉魏六朝乐府'||v==='唐宋诗词名篇与传奇话本'||v==='宋元南戏与元杂剧四大家'||v==='明清传奇与昆曲折子戏'||v==='四大名著与古典章回小说'||v==='三大英雄史诗与民族叙事长诗')return r.era==='文学与民间史诗'&&s.includes(v.toLowerCase());
   if(v==='HERO文学传说')return r.era==='文学与民间史诗'&&!r.id.startsWith('LE-');
@@ -863,11 +785,11 @@ function matchSubdyn(r,v){
 
 function matchSpec(r,sp){
   if(!sp)return true;
-  if(sp==='weak1200')return r.id.startsWith('HT-W20261030B-')||r.id.startsWith('HT-W20261030A-')||r.id.startsWith('HT-N20261029-')||r.id.startsWith('HT-W20261029E-')||r.id.startsWith('HT-W20261029D-')||r.id.startsWith('HT-W20261029C-')||r.id.startsWith('HT-W20261029B-')||r.id.startsWith('HT-W20261029-')||r.id.startsWith('HT-N20261028-')||r.id.startsWith('HT-W20261028B-')||r.id.startsWith('HT-W20261028-')||r.id.startsWith('HT-N20261027-')||r.id.startsWith('HT-E20271027-')||r.id.startsWith('HT-E20261027-');
+  if(sp==='weak1200')return r.id.startsWith('HT-W20261030C-')||r.id.startsWith('HT-W20261030B-')||r.id.startsWith('HT-W20261030A-')||r.id.startsWith('HT-N20261029-')||r.id.startsWith('HT-W20261029E-')||r.id.startsWith('HT-W20261029D-')||r.id.startsWith('HT-W20261029C-')||r.id.startsWith('HT-W20261029B-')||r.id.startsWith('HT-W20261029-')||r.id.startsWith('HT-N20261028-')||r.id.startsWith('HT-W20261028B-')||r.id.startsWith('HT-W20261028-')||r.id.startsWith('HT-N20261027-')||r.id.startsWith('HT-E20271027-')||r.id.startsWith('HT-E20261027-');
   if(sp==='志怪31')return matchSubdyn(r,'志怪31');
   if(sp==='lit200')return r.era==='文学与民间史诗'||r.id.startsWith('LE-');
   if(sp==='websearch')return r.id.startsWith('HT-')||r.id.startsWith('ZG-')||r.id.startsWith('LE-');
-  if(sp==='20261030')return r.id.startsWith('HT-W20261030B-')||r.id.startsWith('HT-W20261030A-');
+  if(sp==='20261030')return r.id.startsWith('HT-W20261030C-')||r.id.startsWith('HT-W20261030B-')||r.id.startsWith('HT-W20261030A-');
   if(sp==='20261029')return r.id.startsWith('HT-N20261029-')||r.id.startsWith('LE-20261029B-')||r.id.startsWith('HT-W20261029E-')||r.id.startsWith('HT-W20261029D-')||r.id.startsWith('LE-20261029-')||r.id.startsWith('HT-W20261029C-')||r.id.startsWith('ZG-20261028-G4')||r.id.startsWith('ZG-20261028-G5')||r.id.startsWith('ZG-20261028-G6')||r.id.startsWith('ZG-20261028-G7')||r.id.startsWith('ZG-20261028-G800')||r.id.startsWith('HT-W20261029B-')||r.id.startsWith('HT-W20261029-')||r.id.startsWith('JT-HF-');
   return true;
 }
@@ -1040,31 +962,19 @@ function render(){
   });
 }
 
-async function openCard(r){
+function openCard(r){
   cur=r;
   $('title').textContent=r.title;
   $('meta').textContent=`${r.id} · ${r.lib} · ${r.era} ${r.dyn||''} · ${r._isHF?'历史名人':r.kind} / ${r.cat||''} / ${r.sub||''} · ${r.level||''}`;
   $('brief').textContent=r.brief||'';
   $('src').textContent='依据提示：'+(r.src||'')+(r.hold?'　｜　馆藏与记载：'+r.hold:'');
   const v=$('view');v.innerHTML='';
-  $('msg').textContent='';
-  if(!$('detail').open)$('detail').showModal();
-  if(!r.variants||r.variants.length===0){
-    $('prompt').value='正在高速载入本条完整十二段提示词，请稍候…';
-    $('ratio').textContent='载入中…';
-    await hydrateShard(r._shardFile);
-  }
-  if(cur!==r)return;
-  if(!r.variants||r.variants.length===0){
-    $('prompt').value='提示词分片载入失败，请检查网络后重试（'+r._shardFile+'）';
-    return;
-  }
   r.variants.forEach((x,i)=>{
     const o=document.createElement('option');
     o.value=i;o.textContent=x.label;
     v.appendChild(o);
   });
-  show(0);
+  show(0);$('msg').textContent='';$('detail').showModal();
 }
 
 function show(i){const x=cur.variants[i];$('prompt').value=x.prompt;$('ratio').textContent='画幅 '+x.ratio;}
@@ -1114,17 +1024,7 @@ $('copy').onclick=()=>cp($('prompt').value,'已复制。');
 $('go').onclick=async()=>{await cp($('prompt').value,'已复制，IMAGE 2 已在新标签打开，粘贴后选画幅 '+cur.variants[$('view').value].ratio+'。');window.open(JIMENG,'_blank');};
 $('copyAll').onclick=()=>cp(cur.variants.map(x=>`【${cur.id} ${cur.title} · ${x.label} · ${x.ratio}】\n${x.prompt}`).join('\\n\\n'),'已复制本条全部。');
 $('dl').onclick=()=>dlTxt(cur.id+'.txt',cur.variants.map(x=>`【${cur.id} ${cur.title} · ${x.label} · ${x.ratio}】\n${x.prompt}`).join('\\n\\n'));
-$('export').onclick=async()=>{
-  const need=[...new Set(list.filter(r=>!r.variants||!r.variants.length).map(r=>r._shardFile).filter(Boolean))];
-  if(need.length>0){
-    for(let i=0;i<need.length;i++){
-      $('loadmsg').textContent=`正在准备导出分片（${i+1}/${need.length}）…`;
-      await hydrateShard(need[i]);
-    }
-    $('loadmsg').textContent='导出准备完成';
-  }
-  dlTxt('图库导出_'+list.length+'条目.txt',list.map(r=>(r.variants||[]).map(x=>`【${r.id} ${r.title} · ${x.label} · ${x.ratio}】\n${x.prompt}`).join('\n\n')).join('\n\n=====\n\n'));
-};
+$('export').onclick=()=>dlTxt('图库导出_'+list.length+'条目.txt',list.map(r=>r.variants.map(x=>`【${r.id} ${r.title} · ${x.label} · ${x.ratio}】\n${x.prompt}`).join('\\n\\n')).join('\\n\\n=====\\n\\n'));
 $('close').onclick=()=>$('detail').close();
 $('prev').onclick=()=>{page--;render();};
 $('next').onclick=()=>{page++;render();};
