@@ -2,11 +2,11 @@
 <title>中国历史文化图库 · 提示词浏览器 V0.1</title>
 <style>*{box-sizing:border-box}body{margin:0;background:#f4f2ed;color:#263a40;font:19pt/1.6 "Microsoft YaHei",sans-serif}header,main{max-width:1680px;margin:auto;padding:22px 32px}h1{font-size:30pt;line-height:1.35;margin:6px 0}h2{font-size:25pt;margin:10px 0}p{margin:10px 0}a{color:#235d73}.stats{display:flex;gap:14px;flex-wrap:wrap}.stats span{background:#e4eade;padding:8px 16px;border-radius:8px;font-size:17pt;white-space:nowrap}.notice{border-left:5px solid #8a1c1c;padding-left:16px;font-size:17pt}.filters{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0;background:#fff;padding:16px;border:1px solid #d5ddd3;border-radius:10px}input,select,button{font:16.5pt "Microsoft YaHei";padding:10px 12px;border:1px solid #92a197;border-radius:6px;background:white;color:#263a40}input{flex:1;min-width:260px}select#sort{background:#f0f6f3;border-color:#284b45;font-weight:bold;color:#1b3b35}button{cursor:pointer;white-space:nowrap}button:disabled{opacity:.45}button.primary{background:#284b45;color:white;border-color:#284b45}button.red{background:#8a1c1c;color:white;border-color:#8a1c1c}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{padding:18px;background:#fff;border:1px solid #d5ddd3;border-radius:8px;display:flex;flex-direction:column;align-items:start;cursor:pointer}.card:hover{border-color:#284b45}.card h3{margin:0 0 6px;font-size:20pt}.card p{font-size:16pt;margin:5px 0}.meta{font-size:15pt;color:#5d6b63}.tag{display:inline-block;background:#eef2f7;border-radius:6px;padding:2px 10px;margin-right:8px;font-size:14pt;white-space:nowrap}.pager{display:flex;gap:16px;align-items:center;margin:22px 0}dialog{width:min(1400px,95vw);max-height:94vh;border:1px solid #627d71;border-radius:10px;padding:24px;background:#fafbf7;color:#263a40}dialog::backdrop{background:#102522aa}.dialog-head{display:flex;align-items:center;justify-content:space-between;gap:15px}.controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:10px 0}textarea{width:100%;min-height:360px;font:17pt/1.65 "Microsoft YaHei";padding:16px;border:1px solid #99aa9b;border-radius:5px;background:white;color:#22382d;margin:12px 0;resize:vertical}.status{min-height:35px;font-size:16pt;color:#295342}.close{white-space:nowrap}@media(max-width:850px){.grid{grid-template-columns:1fr}header,main{padding:16px}h1{font-size:24pt}}</style></head><body>
 <header><p class="meta">金泰 AI · 中国历史文化图库 · <a href="index.html">返回总检索主页</a></p><h1>提示词浏览器 V0.1（按年代组与专卷分类 · IMAGE 2 直接调用）</h1>
-<div class="stats"><span>8 大年代组 + 专项分卷</span><span>55186 个条目</span><span>278996 条提示词</span><span>更新于 2026-10-30 13:03</span></div>
+<div class="stats"><span>8 大年代组 + 专项分卷</span><span>55186 个条目</span><span>278996 条提示词</span><span>更新于 2026-10-30 13:10</span></div>
 <p class="notice">全部条目为初稿，每条附依据提示与预估证据等级，供考证员核对。用法：按年代组/类型/排序筛选 → 点卡片 → 选视角 → 复制，贴入 IMAGE 2。</p></header>
 <main><div class="filters">
 <select id="group">
-  <option value="">全部年代组与分卷（54986 条目）</option>
+  <option value="">全部年代组与分卷（55186 条目）</option>
   <optgroup label="一、主干历史朝代（人物/服饰/场景主卷）">
     <option>一 先秦</option>
     <option>二 秦汉</option>
@@ -153,62 +153,18 @@ function groupOrder(g){
   if(g.startsWith('十'))return 110;
   return 120;
 }
-const IDX_CHUNKS=["idx_20261030130612_00.js","idx_20261030130612_01.js","idx_20261030130612_02.js","idx_20261030130612_03.js","idx_20261030130612_04.js","idx_20261030130612_05.js","idx_20261030130612_06.js","idx_20261030130612_07.js","idx_20261030130612_08.js"];
+const IDX_CHUNKS=["idx_20261030131204_00.js","idx_20261030131204_01.js","idx_20261030131204_02.js","idx_20261030131204_03.js","idx_20261030131204_04.js","idx_20261030131204_05.js","idx_20261030131204_06.js","idx_20261030131204_07.js","idx_20261030131204_08.js"];
 const CDN_BASES=['https://testingcf.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/','https://gcore.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/'];
 const IS_GH_HOST=/github\.io$/i.test(location.hostname||'');
 const byId=new Map(),idxCovered=new Set(),hydratedShards=new Set(),hydratingMap=new Map();
 function buildUrls(cdnRel,primaryRel,altRel){const u=[];if(IS_GH_HOST){CDN_BASES.forEach(b=>u.push(b+cdnRel));u.push(primaryRel);if(altRel&&altRel!==primaryRel)u.push(altRel);}else{u.push(primaryRel);if(altRel&&altRel!==primaryRel)u.push(altRel);if(cdnRel&&cdnRel!==primaryRel&&cdnRel!==altRel)u.push(cdnRel);if(location.protocol!=='file:')CDN_BASES.forEach(b=>u.push(b+cdnRel));}return u;}
 function loadScriptChain(urls,timeoutMs){return new Promise(res=>{let i=0;function next(){if(i>=urls.length){res(false);return;}const s=document.createElement('script');let done=false;const tm=setTimeout(()=>{if(!done){done=true;s.onload=s.onerror=null;if(s.parentNode)s.parentNode.removeChild(s);next();}},timeoutMs||6500);s.src=urls[i++];s.onload=()=>{if(!done){done=true;clearTimeout(tm);res(true);}};s.onerror=()=>{if(!done){done=true;clearTimeout(tm);if(s.parentNode)s.parentNode.removeChild(s);next();}};document.head.appendChild(s);}next();});}
-window.__IDX_BATCH__=(groups)=>{
-  groups.forEach(gr=>{
-    const shardFile=gr[0],g=gr[1],rows=gr[2];
-    if(idxCovered.has(shardFile))return;
-    idxCovered.add(shardFile);loaded.add(shardFile);
-    const idxBase=records.length;
-    rows.forEach((a,i)=>{
-      if(byId.has(a[0]))return;
-      const r={id:a[0],title:a[1],group:a[2]||g||'',era:a[3],dyn:a[4],kind:a[5],cat:a[6],catName:a[7]||a[6]||'',sub:a[8],anchor:a[9],src:a[10],hold:a[11],level:a[12],n:a[13]||1,variants:[],_shardFile:shardFile};
-      r._isHF=(r.kind==='历史名人'||(r.id||'').startsWith('HF-')||(r.id||'').startsWith('JT-HF-'));
-      r._gRank=groupOrder(r.group);
-      r._idx=idxBase+i;
-      r._search=((r.id||'')+' '+(r.title||'')+' '+(r.era||'')+' '+(r.sub||'')+' '+(r.anchor||'')+' '+(r.dyn||'')+' '+(r.hold||'')).toLowerCase();
-      byId.set(r.id,r);records.push(r);
-    });
-  });
-};
+window.__IDX_BATCH__=(groups)=>{groups.forEach(gr=>{const shardFile=gr[0],g=gr[1],rows=gr[2];if(idxCovered.has(shardFile))return;idxCovered.add(shardFile);loaded.add(shardFile);const idxBase=records.length;rows.forEach((a,i)=>{if(byId.has(a[0]))return;const r={id:a[0],title:a[1],group:a[2]||g||'',era:a[3],dyn:a[4],kind:a[5],cat:a[6],catName:a[7]||a[6]||'',sub:a[8],anchor:a[9],src:a[10],hold:a[11],level:a[12],n:a[13]||1,variants:[],_shardFile:shardFile};r._isHF=(r.kind==='历史名人'||(r.id||'').startsWith('HF-')||(r.id||'').startsWith('JT-HF-'));r._gRank=groupOrder(r.group);r._idx=idxBase+i;r._search=((r.id||'')+' '+(r.title||'')+' '+(r.era||'')+' '+(r.sub||'')+' '+(r.anchor||'')+' '+(r.dyn||'')+' '+(r.hold||'')).toLowerCase();byId.set(r.id,r);records.push(r);});});};
 let _curLoadingFile='';
-window.__SHARD__=(file,g,recs)=>{
-  const diskFile=_curLoadingFile||file;
-  const idxBase=records.length;
-  recs.forEach((r,i)=>{
-    if(!r.group)r.group=g||r.era||'';
-    if(!r.catName)r.catName=r.cat||'';
-    if(!r.anchor)r.anchor=r.brief||'';
-    (r.variants||[]).forEach(v=>{if(v.p!==undefined){v.prompt=v.p.includes('\x01')?v.p.replace('\x01',r.c||''):v.p;delete v.p;}});
-    const ex=byId.get(r.id);
-    if(ex){ex.variants=r.variants||[];ex.c=r.c||'';}
-    else{
-      r._isHF=(r.kind==='历史名人'||(r.id||'').startsWith('HF-')||(r.id||'').startsWith('JT-HF-'));
-      r._gRank=groupOrder(r.group);r._idx=idxBase+i;r._shardFile=diskFile;r.n=r.n||(r.variants?r.variants.length:1);
-      r._search=((r.id||'')+' '+(r.title||'')+' '+(r.era||'')+' '+(r.sub||'')+' '+(r.anchor||'')+' '+(r.dyn||'')+' '+(r.hold||'')).toLowerCase();
-      byId.set(r.id,r);records.push(r);
-    }
-  });
-  loaded.add(diskFile);hydratedShards.add(diskFile);
-};
-function hydrateShard(shardFile){
-  if(!shardFile||hydratedShards.has(shardFile))return Promise.resolve(true);
-  if(hydratingMap.has(shardFile))return hydratingMap.get(shardFile);
-  const p=(async()=>{_curLoadingFile=shardFile;const ok=await loadScriptChain(buildUrls('d2/'+shardFile,DATA_DIR+'/'+shardFile,ALT_DIR+'/'+shardFile),12000);_curLoadingFile='';if(ok)hydratedShards.add(shardFile);return ok;})();
-  hydratingMap.set(shardFile,p);return p;
-}
+window.__SHARD__=(file,g,recs)=>{const diskFile=_curLoadingFile||file;const idxBase=records.length;recs.forEach((r,i)=>{if(!r.group)r.group=g||r.era||'';if(!r.catName)r.catName=r.cat||'';if(!r.anchor)r.anchor=r.brief||'';(r.variants||[]).forEach(v=>{if(v.p!==undefined){v.prompt=v.p.includes('\x01')?v.p.replace('\x01',r.c||''):v.p;delete v.p;}});const ex=byId.get(r.id);if(ex){ex.variants=r.variants||[];ex.c=r.c||'';}else{r._isHF=(r.kind==='历史名人'||(r.id||'').startsWith('HF-')||(r.id||'').startsWith('JT-HF-'));r._gRank=groupOrder(r.group);r._idx=idxBase+i;r._shardFile=diskFile;r.n=r.n||(r.variants?r.variants.length:1);r._search=((r.id||'')+' '+(r.title||'')+' '+(r.era||'')+' '+(r.sub||'')+' '+(r.anchor||'')+' '+(r.dyn||'')+' '+(r.hold||'')).toLowerCase();byId.set(r.id,r);records.push(r);}});loaded.add(diskFile);hydratedShards.add(diskFile);};
+function hydrateShard(shardFile){if(!shardFile||hydratedShards.has(shardFile))return Promise.resolve(true);if(hydratingMap.has(shardFile))return hydratingMap.get(shardFile);const p=(async()=>{_curLoadingFile=shardFile;const ok=await loadScriptChain(buildUrls('d2/'+shardFile,DATA_DIR+'/'+shardFile,ALT_DIR+'/'+shardFile),12000);_curLoadingFile='';if(ok)hydratedShards.add(shardFile);return ok;})();hydratingMap.set(shardFile,p);return p;}
 function loadShard(s){if(loaded.has(s.file))return Promise.resolve();if(pending.has(s.file))return pending.get(s.file);const p=hydrateShard(s.file);pending.set(s.file,p);return p;}
-async function loadAll(){
-  await Promise.all(IDX_CHUNKS.map(async fn=>{await loadScriptChain(buildUrls('d2_idx/'+fn,'d2_idx/'+fn,'d2_idx/'+fn),10000);apply();}));
-  const extra=SHARDS.filter(s=>!loaded.has(s.file));
-  for(const s of extra){await loadShard(s);}
-  apply();
-}
+async function loadAll(){await Promise.all(IDX_CHUNKS.map(async fn=>{await loadScriptChain(buildUrls('d2_idx/'+fn,'d2_idx/'+fn,'d2_idx/'+fn),10000);apply();}));const extra=SHARDS.filter(s=>!loaded.has(s.file));for(const s of extra){await loadShard(s);}apply();}
 let PAGE=20;let page=0,cur=null,filtered=records;
 const $=id=>document.getElementById(id);
 function apply(){const g=$('group').value,k=$('kind').value,c=$('cat').value,st=$('sort').value,q=$('query').value.trim().toLowerCase();
@@ -226,14 +182,7 @@ function render(){const n=filtered.length,pages=Math.max(1,Math.ceil(n/PAGE));if
  filtered.slice(page*PAGE,page*PAGE+PAGE).forEach(r=>{const d=document.createElement('div');d.className='card';
   d.innerHTML=`<h3>${r.title}</h3><p><span class="tag">${r.group}</span><span class="tag">${r.catName}</span><span class="tag">${r._isHF?'★ 历史名人':r.kind}</span><span class="tag">${r.n||r.variants.length||1} 视角</span></p><p class="meta">${r.id} · ${r.era||''}</p><p>${(r.anchor||'').slice(0,95)}</p>`;
   d.onclick=()=>openCard(r);grid.appendChild(d);});}
-async function openCard(r){cur=r;$('title').textContent=r.title;$('metadata').textContent=`${r.id} · ${r.group} · ${r.era||''} · ${r.catName} / ${r.sub||''} · 预估等级 ${r.level||''}`;
- $('anchor').textContent='锚点句：'+(r.anchor||'');$('src').textContent='依据提示：'+(r.src||'')+'　｜　馆藏与记载：'+(r.hold||'待补');
- const v=$('view');v.innerHTML='';$('message').textContent='';if(!$('detail').open)$('detail').showModal();
- if(!r.variants||!r.variants.length){$('prompt').value='正在高速载入完整提示词…';await hydrateShard(r._shardFile);}
- if(cur!==r)return;
- if(!r.variants||!r.variants.length){$('prompt').value='分片载入失败：'+r._shardFile;return;}
- r.variants.forEach((x,i)=>{const o=document.createElement('option');o.value=i;o.textContent=x.label;v.appendChild(o);});
- show(0);}
+async function openCard(r){cur=r;$('title').textContent=r.title;$('metadata').textContent=`${r.id} · ${r.group} · ${r.era||''} · ${r.catName} / ${r.sub||''} · 预估等级 ${r.level||''}`;$('anchor').textContent='锚点句：'+(r.anchor||'');$('src').textContent='依据提示：'+(r.src||'')+'　｜　馆藏与记载：'+(r.hold||'待补');const v=$('view');v.innerHTML='';$('message').textContent='';if(!$('detail').open)$('detail').showModal();if(!r.variants||!r.variants.length){$('prompt').value='正在高速载入完整提示词…';await hydrateShard(r._shardFile);}if(cur!==r)return;if(!r.variants||!r.variants.length){$('prompt').value='分片载入失败：'+r._shardFile;return;}r.variants.forEach((x,i)=>{const o=document.createElement('option');o.value=i;o.textContent=x.label;v.appendChild(o);});show(0);}
 function show(i){const x=cur.variants[i];$('prompt').value=x.prompt;$('ratio').textContent='画幅 '+x.ratio;$('ref').textContent='参考图：'+(x.ref||'标准设定');}
 async function copyText(t,msg){try{await navigator.clipboard.writeText(t);$('message').textContent=msg;}catch(e){$('prompt').select();document.execCommand('copy');$('message').textContent=msg+'（已用兼容方式复制）';}}
 $('view').onchange=e=>show(e.target.value);
