@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<script>(function(){var H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3';var k='jt_gate';function getSaved(){try{if(localStorage.getItem(k)===H)return true;}catch(e){}try{if(sessionStorage.getItem(k)===H)return true;}catch(e){}return false;}function saveOk(){try{localStorage.setItem(k,H);}catch(e){}try{sessionStorage.setItem(k,H);}catch(e){}}if(getSaved()){document.documentElement.setAttribute('data-jt-ok','1');return;}var st=document.createElement('style');st.id='jt_gate_css';st.textContent='html:not([data-jt-ok="1"]) body{display:none!important}';document.documentElement.appendChild(st);document.documentElement.style.visibility='hidden';function shaPure(ascii){function rr(v,a){return(v>>>a)|(v<<(32-a));}var bytes=[],i,j;if(typeof TextEncoder!=='undefined'){bytes=Array.from(new TextEncoder().encode(ascii));}else{for(i=0;i<ascii.length;i++){var c=ascii.charCodeAt(i);if(c<128)bytes.push(c);else if(c<2048)bytes.push(192|(c>>6),128|(c&63));else bytes.push(224|(c>>12),128|((c>>6)&63),128|(c&63));}}var bitLen=bytes.length*8;bytes.push(0x80);while((bytes.length%64)!==56)bytes.push(0);var hi=Math.floor(bitLen/4294967296),lo=bitLen>>>0;bytes.push((hi>>>24)&255,(hi>>>16)&255,(hi>>>8)&255,hi&255,(lo>>>24)&255,(lo>>>16)&255,(lo>>>8)&255,lo&255);var K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];var H0=[0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];for(i=0;i<bytes.length;i+=64){var W=new Array(64);for(j=0;j<16;j++)W[j]=((bytes[i+j*4]<<24)|(bytes[i+j*4+1]<<16)|(bytes[i+j*4+2]<<8)|bytes[i+j*4+3])>>>0;for(j=16;j<64;j++){var s0=rr(W[j-15],7)^rr(W[j-15],18)^(W[j-15]>>>3);var s1=rr(W[j-2],17)^rr(W[j-2],19)^(W[j-2]>>>10);W[j]=(W[j-16]+s0+W[j-7]+s1)>>>0;}var a=H0[0],b=H0[1],c=H0[2],d=H0[3],e=H0[4],f=H0[5],g=H0[6],h=H0[7];for(j=0;j<64;j++){var S1=rr(e,6)^rr(e,11)^rr(e,25),ch=(e&f)^((~e)&g),t1=(h+S1+ch+K[j]+W[j])>>>0;var S0=rr(a,2)^rr(a,13)^rr(a,22),maj=(a&b)^(a&c)^(b&c),t2=(S0+maj)>>>0;h=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=b;b=a;a=(t1+t2)>>>0;}H0[0]=(H0[0]+a)>>>0;H0[1]=(H0[1]+b)>>>0;H0[2]=(H0[2]+c)>>>0;H0[3]=(H0[3]+d)>>>0;H0[4]=(H0[4]+e)>>>0;H0[5]=(H0[5]+f)>>>0;H0[6]=(H0[6]+g)>>>0;H0[7]=(H0[7]+h)>>>0;}return H0.map(function(x){return('00000000'+x.toString(16)).slice(-8);}).join('');}async function sha(s){try{if(window.crypto&&crypto.subtle&&typeof TextEncoder!=='undefined'){var b=new TextEncoder().encode(s);var d=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(d)).map(function(x){return x.toString(16).padStart(2,'0');}).join('');}}catch(e){}return shaPure(s);}function lockDom(){window.__SHARD__=window.__IDX_BATCH__=window.__VISUAL_INDEX__=window.__VISUAL_WORKS__=window.apply=window.render=window.loadAll=function(){};document.querySelectorAll('script[src]').forEach(function(s){s.onload=s.onerror=null;if(s.parentNode)s.parentNode.removeChild(s);});if(!document.body){var b=document.createElement('body');document.documentElement.appendChild(b);}document.body.innerHTML='<div id="jt_lock_box" style="font:19pt/1.65 Microsoft YaHei,PingFang SC,sans-serif;padding:36px 24px;color:#1d3338;max-width:680px;margin:42px auto;background:#fff;border:2px solid #284b45;border-radius:14px;text-align:center;box-shadow:0 10px 28px rgba(0,0,0,.08)"><div style="font-size:23pt;font-weight:bold;color:#1d3338;margin-bottom:10px">金泰 AI · 中国历史文化图库</div><div style="font-size:15.5pt;color:#4a5d54;margin-bottom:22px">请输入内部访问口令进入检索系统（手机微信 / 浏览器验证一次即可自动记住）</div><div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;max-width:500px;margin:0 auto"><input id="jt_pw_box" type="password" placeholder="请输入访问口令" autocomplete="current-password" style="flex:1;min-width:210px;font:17pt Microsoft YaHei,sans-serif;padding:11px 14px;border:1.5px solid #6f857b;border-radius:8px;background:#fff;color:#263a40"><button id="jt_pw_btn" type="button" style="font:bold 17pt Microsoft YaHei,sans-serif;padding:11px 26px;background:#284b45;color:#fff;border:none;border-radius:8px;cursor:pointer">验证进入</button></div><div id="jt_pw_err" style="font-size:15pt;color:#8a1c1c;min-height:28px;margin-top:12px"></div></div>';document.documentElement.setAttribute('data-jt-ok','1');document.documentElement.style.visibility='visible';var inp=document.getElementById('jt_pw_box'),btn=document.getElementById('jt_pw_btn'),err=document.getElementById('jt_pw_err');async function tryIn(){var v=(inp.value||'').trim();if(!v){err.textContent='请输入访问口令';return;}var h=await sha(v);if(h===H){saveOk();location.reload();}else{err.textContent='口令不正确，请核对后重试';inp.value='';inp.focus();}}if(btn)btn.onclick=tryIn;if(inp){inp.onkeydown=function(e){if(e.key==='Enter')tryIn();};setTimeout(function(){try{inp.focus();}catch(e){}},60);}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',lockDom,{once:true});}else{lockDom();}})();</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>金泰 AI · 全站更新记录与扩容台账（最新倒序）</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f4f1ea;color:#1e292d;font:20pt/1.68 "Microsoft YaHei","PingFang SC",sans-serif}
+header,main,footer{max-width:1620px;margin:0 auto;padding:24px 32px}
+header{background:linear-gradient(135deg,#1d3b35 0%,#284b45 100%);color:#fff;border-radius:0 0 18px 18px;box-shadow:0 6px 20px rgba(0,0,0,.1)}
+header h1{margin:0 0 10px;font-size:30pt;line-height:1.3}
+header p{margin:6px 0;font-size:18pt;color:#e0ece8}
+.top-nav{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}
+.top-nav a{background:rgba(255,255,255,.15);color:#fff;text-decoration:none;padding:8px 18px;border-radius:10px;font-size:17pt;font-weight:bold;border:1px solid rgba(255,255,255,.25)}
+.top-nav a:hover,.top-nav a.gold{background:#ffd97d;color:#18322c;border-color:#ffd97d}
+.kpi-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px;margin-top:20px}
+.kpi-box{background:rgba(255,255,255,.12);border:1.5px solid rgba(255,255,255,.24);border-radius:12px;padding:14px 18px}
+.kpi-box b{display:block;font-size:23pt;color:#ffd97d;line-height:1.35}
+.kpi-box span{font-size:16.5pt;color:#edf5f2}
+.sec-h{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;margin:28px 0 14px;border-bottom:3px solid #284b45;padding-bottom:8px}
+.sec-h h2{margin:0;font-size:24pt;color:#18322c}
+.sec-h span{font-size:17pt;color:#556560}
+.summary-tbl{width:100%;border-collapse:collapse;background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.04);font-size:18.5pt;margin-bottom:26px}
+.summary-tbl th,.summary-tbl td{border:1px solid #dbd3c3;padding:14px 18px;text-align:left;vertical-align:top;line-height:1.58}
+.summary-tbl th{background:#eae4d6;color:#18322c;font-size:19.5pt}
+.summary-tbl a{color:#8a1c1c;text-decoration:none}
+.summary-tbl a:hover{text-decoration:underline}
+.filter-bar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;background:#fff;padding:18px 22px;border-radius:14px;border:1.5px solid #d5cdbd;margin-bottom:22px}
+.fbtn{font:bold 18pt "Microsoft YaHei",sans-serif;padding:9px 20px;border-radius:10px;border:1.5px solid #b8b0a0;background:#f7f4ed;color:#223330;cursor:pointer}
+.fbtn.on{background:#284b45;color:#fff;border-color:#284b45}
+#kw{flex:1;min-width:280px;font:19pt "Microsoft YaHei",sans-serif;padding:10px 16px;border:1.5px solid #8c9c95;border-radius:10px;background:#fff;color:#1e292d}
+.rec-card{background:#fff;border:2px solid #d6cebe;border-radius:14px;padding:24px 28px;margin-bottom:20px;box-shadow:0 3px 12px rgba(0,0,0,.04)}
+.rec-head{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:10px}
+.rec-time{font-size:20pt;font-weight:bold;color:#8a1c1c}
+.cat-tag,.pill-sm{display:inline-block;padding:4px 14px;border-radius:8px;font-size:16.5pt;font-weight:bold}
+.pill-sm{font-size:15pt;padding:2px 10px;margin-top:4px}
+.cat-tag.crimson,.pill-sm.crimson{background:#fae6e6;color:#8a1c1c}
+.cat-tag.red,.pill-sm.red{background:#fff0db;color:#944d00}
+.cat-tag.green,.pill-sm.green{background:#e4f0ea;color:#1b4d3e}
+.cat-tag.purple,.pill-sm.purple{background:#efe7fa;color:#54287d}
+.rec-card h3{margin:6px 0 14px;font-size:22.5pt;color:#162b30;line-height:1.42}
+.rec-metrics{background:#f9f7f2;border-left:6px solid #284b45;padding:12px 18px;border-radius:0 10px 10px 0;font-size:18.5pt;margin-bottom:14px}
+.rec-metrics div{margin:4px 0}
+.rec-list{margin:10px 0 16px;padding-left:28px;font-size:18.5pt}
+.rec-list li{margin:8px 0}
+.rec-links{display:flex;gap:12px;flex-wrap:wrap}
+.act-btn{display:inline-block;background:#284b45;color:#fff;text-decoration:none;padding:9px 20px;border-radius:9px;font-size:17.5pt;font-weight:bold}
+.act-btn:hover{opacity:.9}
+footer{font-size:17pt;color:#5a6864;padding-bottom:48px}
+@media(max-width:900px){
+  body{font-size:18pt}
+  header,main,footer{padding:16px}
+  header h1{font-size:24pt}
+  .summary-tbl th,.summary-tbl td{padding:10px 12px;font-size:16.5pt}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>📋 金泰 AI · 中国历史文化图库与影视参考库 · 更新记录中心</h1>
+  <p>全部定时扩库、专题深潜、世界电影大奖与八十大摄影权威体系更新台账（严格按最新时间倒序置顶 · 实时同步）</p>
+  <div class="kpi-strip">
+    <div class="kpi-box"><b>60,979 条目 / 305,412 提示词</b><span>《图库总检索》主库 · 443 个分片 · 历史名人 15,000 人</span></div>
+    <div class="kpi-box"><b>27,700 部影片 / 970,236 镜</b><span>《影视参考图集》· 80 大摄影奖 · 315,290 条来源静帧</span></div>
+    <div class="kpi-box"><b>44,000 薄弱专集 / 81,000 全网考证</b><span>九大板块 54 格 100% 满 120 · 八大板块器物全满 500</span></div>
+  </div>
+  <div class="top-nav">
+    <a class="gold" href="../portal.html">← 返回《图库科学导航总入口》</a>
+    <a href="../index.html">《图库总检索》（60,979 条目）</a>
+    <a href="../film.html">《影视参考图集》（970,236 镜）</a>
+    <a href="../sources.html">《全球获奖影片来源目录》</a>
+    <a href="../figures.html">《历代历史名人》（15,000 人）</a>
+    <a href="00_每日更新总目录.html">📂 每日成果总目录</a>
+    <a href="../扩容日志.md">📄 原始扩容日志.md</a>
+  </div>
+</header>
+
+<main>
+  <div class="sec-h">
+    <h2>一、近期关键扩容速览表（最新倒序）</h2>
+    <span>最后刷新：2026-11-02 · 本地 / 云端双 CDN 100% 对齐</span>
+  </div>
+  <table class="summary-tbl">
+    <colgroup>
+      <col style="width:230px">
+      <col style="width:310px">
+      <col>
+    </colgroup>
+    <thead>
+      <tr><th>更新时间与模块</th><th>单次净增规模</th><th>核心里程碑与直达入口</th></tr>
+    </thead>
+    <tbody>
+      <tr><td><b>2026-11-01 24:00</b><br><span class="pill-sm red">👤 历代历史名人</span></td><td><b>+1,000 位名人 / +1,000 条十二段提示词</b></td><td>历代历史名人形象提示词 · 十五期满额扩充 +1,000 人（累计突破 15,000 人 · 主检索突破 30.5 万提示词） <a href="../figures.html" style="font-weight:bold;white-space:nowrap">直达 →</a></td></tr><tr><td><b>2026-11-01 23:10</b><br><span class="pill-sm crimson">🎬 影视参考图集</span></td><td><b>+40 条逐镜构图光影分析与创作提示词（20 部经典扩至 7 镜标准）</b></td><td>世界殿堂级影视艺术与华语武侠/新浪潮名作两轮夜间扩容 +40 镜（累计 27,700 部 · 970,236 镜 · 版本 bafb8e56bc8e） <a href="../film.html" style="font-weight:bold;white-space:nowrap">直达 →</a></td></tr><tr><td><b>2026-11-01 21:00</b><br><span class="pill-sm green">🏛️ 朝代·边疆·馆藏考证</span></td><td><b>+400 组独立母题 / +4,000 条十二段提示词（HT-W20261101A + HT-N20261101）</b></td><td>薄弱边疆政权第 20 批（W3201..W3400）＋ 晚间全网考证共 +4,000 条（九大板块 54 格 100% 全满 120 大满贯 · 全网考证破 81,000 条） <a href="../dynasty2000.html" style="font-weight:bold;white-space:nowrap">直达 →</a></td></tr><tr><td><b>2026-11-01 20:21</b><br><span class="pill-sm crimson">🎬 影视参考图集</span></td><td><b>+100 部具名 DP 获奖影片 / +85,838 条镜头提示词 / +2,286 条大奖与摄影记录</b></td><td>全球八十大摄影权威体系（70→80）与世界核心导演/编剧奖合拢 · 27,700 部整数里程碑 · 单轮净增 +85,838 镜突破 97 万镜（版本 6b2d0d0c0f73） <a href="../film.html" style="font-weight:bold;white-space:nowrap">直达 →</a></td></tr><tr><td><b>2026-10-31 24:00</b><br><span class="pill-sm red">👤 历代历史名人</span></td><td><b>+1,000 位名人 / +1,000 条十二段提示词（HF-20261031-0001..1000）</b></td><td>历代历史名人形象提示词 · 十四期满额扩充 +1,000 人（累计 14,000 人 · 总检索破 30 万条大关） <a href="每日成果/20261031/历代历史名人形象1000人/index.html" style="font-weight:bold;white-space:nowrap">直达 →</a></td></tr><tr><td><b>2026-10-31 23:10</b><br><span class="pill-sm crimson">🎬 影视参考图集</span></td><td><b>+40 条逐镜构图光影分析与提示词</b></td><td>世界电影殿堂级艺术名作晚间两轮补强 +40 镜（累计 27,600 部 · 884,358 镜 · 版本 25b02eabab63） <a href="../film.html" style="font-weight:bold;white-space:nowrap">直达 →</a></td></tr><tr><td><b>2026-10-31 21:00</b><br><span class="pill-sm green">🏛️ 朝代·边疆·馆藏考证</span></td><td><b>+400 组母题 / +4,000 条十二段提示词（HT-W20261031A + HT-N20261031）</b></td><td>薄弱边疆政权第 19 批（W3001..W3200）＋ 晚间考证共 +4,000 条（八大板块器物 100% 全满 500 大满贯 · 专集达 40,000 条） <a href="每日成果/20261031/薄弱环节与八大板块器物全满500边疆十国扩充第1批2000条/index.html" style="font-weight:bold;white-space:nowrap">直达 →</a></td></tr>
+    </tbody>
+  </table>
+
+  <div class="sec-h">
+    <h2>二、逐批次完整更新台账（支持按模块筛选与关键词搜索）</h2>
+    <span id="recCount">共展示 11 组重大更新批次</span>
+  </div>
+
+  <div class="filter-bar">
+    <button type="button" class="fbtn on" data-cat="all">全部记录</button>
+    <button type="button" class="fbtn" data-cat="film">🎬 影视参考图集</button>
+    <button type="button" class="fbtn" data-cat="figures">👤 历代历史名人</button>
+    <button type="button" class="fbtn" data-cat="dynasty">🏛️ 朝代·边疆·馆藏考证</button>
+    <button type="button" class="fbtn" data-cat="literature">📖 红楼·志怪·文学史诗</button>
+    <input id="kw" type="search" placeholder="输入关键词筛选（如：胡金铨、八十大摄影、高句丽、红楼梦、15,000）">
+  </div>
+
+  <div id="recList">
+    
+    <article class="rec-card" data-cat="figures" data-search="2026-11-01 24:00 👤 历代历史名人 历代历史名人形象提示词 · 十五期满额扩充 +1,000 人（累计突破 15,000 人 · 主检索突破 30.5 万提示词） +1,000 位名人 / +1,000 条十二段提示词 名人总库 15,000 人 ｜ 图库总检索 60,979 条目 / 305,412 提示词（443分片） ｜ 提示词浏览器 59,986 条目 / 299,996 提示词（500分片） 批次编号：hf-20261101-0001..1000（新增分片 nightly_20261101_018.js..024.js，d1_idx / d2_idx 极速索引同步刷新至 idx_20261102004014_00..09.js）。 朝代分布：先秦 79 人、秦汉 190 人、三国两晋南北朝 240 人、隋唐五代 181 人、宋辽金西夏 135 人、元明 96 人、清代 79 人。 考证标准：全网检索《二十四史》《清史稿》列传原文与历代《舆服志》冠服制度，零 a 机生成、零重名、零否定词，已合入 index.html、browser.html 与 figures.html。">
+      <div class="rec-head">
+        <div class="rec-time">🕒 2026-11-01 24:00</div>
+        <span class="cat-tag red">👤 历代历史名人</span>
+      </div>
+      <h3>历代历史名人形象提示词 · 十五期满额扩充 +1,000 人（累计突破 15,000 人 · 主检索突破 30.5 万提示词）</h3>
+      <div class="rec-metrics">
+        <div><strong>本轮新增：</strong>+1,000 位名人 / +1,000 条十二段提示词</div>
+        <div><strong>全库累计：</strong>名人总库 15,000 人 ｜ 图库总检索 60,979 条目 / 305,412 提示词（443分片） ｜ 提示词浏览器 59,986 条目 / 299,996 提示词（500分片）</div>
+      </div>
+      <ul class="rec-list"><li>批次编号：HF-20261101-0001..1000（新增分片 nightly_20261101_018.js..024.js，d1_idx / d2_idx 极速索引同步刷新至 idx_20261102004014_00..09.js）。</li><li>朝代分布：先秦 79 人、秦汉 190 人、三国两晋南北朝 240 人、隋唐五代 181 人、宋辽金西夏 135 人、元明 96 人、清代 79 人。</li><li>考证标准：全网检索《二十四史》《清史稿》列传原文与历代《舆服志》冠服制度，零 A 机生成、零重名、零否定词，已合入 index.html、browser.html 与 figures.html。</li></ul>
+      <div class="rec-links"><a class="act-btn" href="../figures.html">打开《历代历史名人 15,000 人》 →</a><a class="act-btn" href="每日成果/20261101/历代历史名人形象1000人/index.html">十五期 1,000 人独立交付页 →</a><a class="act-btn" href="../index.html">打开《图库总检索》（60,979 条目） →</a></div>
+    </article>
+    <article class="rec-card" data-cat="film" data-search="2026-11-01 23:10 🎬 影视参考图集 世界殿堂级影视艺术与华语武侠/新浪潮名作两轮夜间扩容 +40 镜（累计 27,700 部 · 970,236 镜 · 版本 bafb8e56bc8e） +40 条逐镜构图光影分析与创作提示词（20 部经典扩至 7 镜标准） 作品目录 27,700 部 ｜ 获奖作品 13,393 部（29,131 条奖项记录） ｜ 可检索镜头描述 970,236 条（来源静帧 315,290 条） ｜ 待补 0 部 23:07 第一轮（版本 2122c9678578，+20 镜 → 970,216 镜）：《海滩的一天》(杨德昌/杜可风)、《盗马贼》(田壮壮/侯咏)、《刀》(徐克/姜国民)、《大阅兵》(陈凯歌/张艺谋)、《光阴的故事》、《有话好好说》(张艺谋/吕乐)、《立春》(顾长卫/曾念平)、《兰心大剧院》(娄烨/曾剑)、《涉过愤怒的海》(曹保平/钟锐)、《射雕英雄传》(1983) 扩至 7 镜。 23:10 第二轮（版本 bafb8e56bc8e / vmanifest 11f4f3c996fdd9f6，+20 镜 → 970,236 镜）：胡金铨四部曲《大醉侠》(1966)/《迎春阁之风波》(1973)/《忠烈图》(1975)/《空山灵雨》(1979)、徐克《蝶变》(1979)/《新蜀山剑侠》(1983)、《边走边唱》(陈凯歌/顾长卫)、王家卫/杜可风《宝马 the hire·跟踪》(2001) 等扩至 7 镜，d4 与 d3 分片 v967.js 100% 同步。">
+      <div class="rec-head">
+        <div class="rec-time">🕒 2026-11-01 23:10</div>
+        <span class="cat-tag crimson">🎬 影视参考图集</span>
+      </div>
+      <h3>世界殿堂级影视艺术与华语武侠/新浪潮名作两轮夜间扩容 +40 镜（累计 27,700 部 · 970,236 镜 · 版本 bafb8e56bc8e）</h3>
+      <div class="rec-metrics">
+        <div><strong>本轮新增：</strong>+40 条逐镜构图光影分析与创作提示词（20 部经典扩至 7 镜标准）</div>
+        <div><strong>全库累计：</strong>作品目录 27,700 部 ｜ 获奖作品 13,393 部（29,131 条奖项记录） ｜ 可检索镜头描述 970,236 条（来源静帧 315,290 条） ｜ 待补 0 部</div>
+      </div>
+      <ul class="rec-list"><li>23:07 第一轮（版本 2122c9678578，+20 镜 → 970,216 镜）：《海滩的一天》(杨德昌/杜可风)、《盗马贼》(田壮壮/侯咏)、《刀》(徐克/姜国民)、《大阅兵》(陈凯歌/张艺谋)、《光阴的故事》、《有话好好说》(张艺谋/吕乐)、《立春》(顾长卫/曾念平)、《兰心大剧院》(娄烨/曾剑)、《涉过愤怒的海》(曹保平/钟锐)、《射雕英雄传》(1983) 扩至 7 镜。</li><li>23:10 第二轮（版本 bafb8e56bc8e / vmanifest 11f4f3c996fdd9f6，+20 镜 → 970,236 镜）：胡金铨四部曲《大醉侠》(1966)/《迎春阁之风波》(1973)/《忠烈图》(1975)/《空山灵雨》(1979)、徐克《蝶变》(1979)/《新蜀山剑侠》(1983)、《边走边唱》(陈凯歌/顾长卫)、王家卫/杜可风《宝马 The Hire·跟踪》(2001) 等扩至 7 镜，d4 与 d3 分片 v967.js 100% 同步。</li></ul>
+      <div class="rec-links"><a class="act-btn" href="../film.html">打开《影视参考图集》（970,236 镜） →</a><a class="act-btn" href="../sources.html">打开《全球获奖与经典影片来源目录》 →</a></div>
+    </article>
+    <article class="rec-card" data-cat="dynasty" data-search="2026-11-01 21:00 🏛️ 朝代·边疆·馆藏考证 薄弱边疆政权第 20 批（w3201..w3400）＋ 晚间全网考证共 +4,000 条（九大板块 54 格 100% 全满 120 大满贯 · 全网考证破 81,000 条） +400 组独立母题 / +4,000 条十二段提示词（ht-w20261101a + ht-n20261101） 薄弱专集 44,000 条 ｜ 全网考证总库 81,000 条 ｜ 建筑 8,820 座 · 场景 13,147 组 · 器物 4,629 组 · 配套 1,419 组 · 事件 1,353 组 结构性大满贯：先秦、秦汉、三国两晋南北朝、隋唐五代、宋辽金西夏、元明、清、民国、人民军队九大板块 × 六大非名人类别（人物/场景/建筑/器物/配套/事件）共 54 格 100% 全员满 ≥120 组；八大板块器物保持 100% 满 ≥500 组。 稀缺政权深潜：高句丽（集安国内城/丸都山城/将军坟/舞踊塚）、义渠戎国（庆阳袁家崖）、巴蜀罗家坝、五代十国杨吴（江都寻阳公主墓）与南唐（钦陵顺陵）、叶尔羌汗国（莎车阿曼尼莎汗与十二木卡姆）、和硕特汗国、准噶尔汗国。 同步合入晚间馆藏与遗址考证 2,000 条（ht-n20261101-0001..2000，nightly_20261101_001..017.js），websearch5000.html 升级 v2 无损分词压缩至 90.98 mib。">
+      <div class="rec-head">
+        <div class="rec-time">🕒 2026-11-01 21:00</div>
+        <span class="cat-tag green">🏛️ 朝代·边疆·馆藏考证</span>
+      </div>
+      <h3>薄弱边疆政权第 20 批（W3201..W3400）＋ 晚间全网考证共 +4,000 条（九大板块 54 格 100% 全满 120 大满贯 · 全网考证破 81,000 条）</h3>
+      <div class="rec-metrics">
+        <div><strong>本轮新增：</strong>+400 组独立母题 / +4,000 条十二段提示词（HT-W20261101A + HT-N20261101）</div>
+        <div><strong>全库累计：</strong>薄弱专集 44,000 条 ｜ 全网考证总库 81,000 条 ｜ 建筑 8,820 座 · 场景 13,147 组 · 器物 4,629 组 · 配套 1,419 组 · 事件 1,353 组</div>
+      </div>
+      <ul class="rec-list"><li>结构性大满贯：先秦、秦汉、三国两晋南北朝、隋唐五代、宋辽金西夏、元明、清、民国、人民军队九大板块 × 六大非名人类别（人物/场景/建筑/器物/配套/事件）共 54 格 100% 全员满 ≥120 组；八大板块器物保持 100% 满 ≥500 组。</li><li>稀缺政权深潜：高句丽（集安国内城/丸都山城/将军坟/舞踊塚）、义渠戎国（庆阳袁家崖）、巴蜀罗家坝、五代十国杨吴（江都寻阳公主墓）与南唐（钦陵顺陵）、叶尔羌汗国（莎车阿曼尼莎汗与十二木卡姆）、和硕特汗国、准噶尔汗国。</li><li>同步合入晚间馆藏与遗址考证 2,000 条（HT-N20261101-0001..2000，nightly_20261101_001..017.js），websearch5000.html 升级 V2 无损分词压缩至 90.98 MiB。</li></ul>
+      <div class="rec-links"><a class="act-btn" href="../dynasty2000.html">打开《薄弱政权与配套 44,000 条》 →</a><a class="act-btn" href="../websearch5000.html">打开《全网考证 81,000 条总库》 →</a><a class="act-btn" href="每日成果/20261101/薄弱环节与九大板块六格全满120建筑满8800扩充第1批2000条/index.html">第 20 批 W3201..W3400 独立专页 →</a><a class="act-btn" href="每日成果/20261101/晚间21点全网考证扩充2000条/index.html">21:00 晚间考证 2,000 条专页 →</a></div>
+    </article>
+    <article class="rec-card" data-cat="film" data-search="2026-11-01 20:21 🎬 影视参考图集 全球八十大摄影权威体系（70→80）与世界核心导演/编剧奖合拢 · 27,700 部整数里程碑 · 单轮净增 +85,838 镜突破 97 万镜（版本 6b2d0d0c0f73） +100 部具名 dp 获奖影片 / +85,838 条镜头提示词 / +2,286 条大奖与摄影记录 作品目录 27,700 部整 ｜ 全球最佳摄影代表作 3,503 部（获奖 1,825 部满 96 镜 · 提名满 84 镜） ｜ 镜头描述跃升至 970,196 条 新增 10 大摄影权威体系（达 80 大体系）：百花奖最佳摄影、澳门金莲花最佳摄影、金钟奖戏剧摄影、日本蓝丝带最佳摄影、丹麦博迪尔最佳摄影、德国巴伐利亚最佳摄影、普拉金竞技场最佳摄影、魁北克伊里斯最佳摄影、非洲电影学院奖 amaa 最佳摄影、西班牙 cec 最佳摄影。 回填世界核心导演/编剧奖名录：奥斯卡（最佳导演/原创剧本/改编剧本）、戛纳（评审团奖/最佳编剧）、金球奖、bafta、金像奖、金马奖、金鸡奖、百花奖最佳导演。 拓展至 96 维（8×12）大师摄影全典（新增 #89 techniscope 莱昂内极特写、#90 589nm 钠蒸气棱镜合成、#91 弗雷泽潜望探针、#92 pathécolor 机械染印、#93 百叶窗黑色电影硬光、#94 super 16mm 反转片、#95 deakinizer 去镀膜球面镜、#96 双机背投雨夜车窗），扩展分片推进至 v967.js。">
+      <div class="rec-head">
+        <div class="rec-time">🕒 2026-11-01 20:21</div>
+        <span class="cat-tag crimson">🎬 影视参考图集</span>
+      </div>
+      <h3>全球八十大摄影权威体系（70→80）与世界核心导演/编剧奖合拢 · 27,700 部整数里程碑 · 单轮净增 +85,838 镜突破 97 万镜（版本 6b2d0d0c0f73）</h3>
+      <div class="rec-metrics">
+        <div><strong>本轮新增：</strong>+100 部具名 DP 获奖影片 / +85,838 条镜头提示词 / +2,286 条大奖与摄影记录</div>
+        <div><strong>全库累计：</strong>作品目录 27,700 部整 ｜ 全球最佳摄影代表作 3,503 部（获奖 1,825 部满 96 镜 · 提名满 84 镜） ｜ 镜头描述跃升至 970,196 条</div>
+      </div>
+      <ul class="rec-list"><li>新增 10 大摄影权威体系（达 80 大体系）：百花奖最佳摄影、澳门金莲花最佳摄影、金钟奖戏剧摄影、日本蓝丝带最佳摄影、丹麦博迪尔最佳摄影、德国巴伐利亚最佳摄影、普拉金竞技场最佳摄影、魁北克伊里斯最佳摄影、非洲电影学院奖 AMAA 最佳摄影、西班牙 CEC 最佳摄影。</li><li>回填世界核心导演/编剧奖名录：奥斯卡（最佳导演/原创剧本/改编剧本）、戛纳（评审团奖/最佳编剧）、金球奖、BAFTA、金像奖、金马奖、金鸡奖、百花奖最佳导演。</li><li>拓展至 96 维（8×12）大师摄影全典（新增 #89 Techniscope 莱昂内极特写、#90 589nm 钠蒸气棱镜合成、#91 弗雷泽潜望探针、#92 Pathécolor 机械染印、#93 百叶窗黑色电影硬光、#94 Super 16mm 反转片、#95 Deakinizer 去镀膜球面镜、#96 双机背投雨夜车窗），扩展分片推进至 v967.js。</li></ul>
+      <div class="rec-links"><a class="act-btn" href="../film.html">打开《影视参考图集》（找画面） →</a><a class="act-btn" href="../sources.html">打开《全球八十大摄影权威体系目录》 →</a></div>
+    </article>
+    <article class="rec-card" data-cat="figures" data-search="2026-10-31 24:00 👤 历代历史名人 历代历史名人形象提示词 · 十四期满额扩充 +1,000 人（累计 14,000 人 · 总检索破 30 万条大关） +1,000 位名人 / +1,000 条十二段提示词（hf-20261031-0001..1000） 名人总库 14,000 人 ｜ 图库总检索突破 300,412 条提示词（59,579 条目） 朝代分布：先秦 73 人、秦汉 194 人、三国两晋南北朝 242 人、隋唐五代 181 人、宋辽金西夏 135 人、元明 96 人、清代 79 人；全量《二十四史》/《清史稿》列传与《舆服志》考证入库。">
+      <div class="rec-head">
+        <div class="rec-time">🕒 2026-10-31 24:00</div>
+        <span class="cat-tag red">👤 历代历史名人</span>
+      </div>
+      <h3>历代历史名人形象提示词 · 十四期满额扩充 +1,000 人（累计 14,000 人 · 总检索破 30 万条大关）</h3>
+      <div class="rec-metrics">
+        <div><strong>本轮新增：</strong>+1,000 位名人 / +1,000 条十二段提示词（HF-20261031-0001..1000）</div>
+        <div><strong>全库累计：</strong>名人总库 14,000 人 ｜ 图库总检索突破 300,412 条提示词（59,579 条目）</div>
+      </div>
+      <ul class="rec-list"><li>朝代分布：先秦 73 人、秦汉 194 人、三国两晋南北朝 242 人、隋唐五代 181 人、宋辽金西夏 135 人、元明 96 人、清代 79 人；全量《二十四史》/《清史稿》列传与《舆服志》考证入库。</li></ul>
+      <div class="rec-links"><a class="act-btn" href="每日成果/20261031/历代历史名人形象1000人/index.html">十四期 1,000 人独立交付页 →</a><a class="act-btn" href="../figures.html">打开《历代历史名人总库》 →</a></div>
+    </article>
+    <article class="rec-card" data-cat="film" data-search="2026-10-31 23:10 🎬 影视参考图集 世界电影殿堂级艺术名作晚间两轮补强 +40 镜（累计 27,600 部 · 884,358 镜 · 版本 25b02eabab63） +40 条逐镜构图光影分析与提示词 作品目录 27,600 部 ｜ 可检索镜头描述 884,358 条（d3 / d4 100% 同步） 对 20 部影史获奖与作者电影代表作逐镜扩充构图、光位、色温与景深分析，推进至 884,358 镜。">
+      <div class="rec-head">
+        <div class="rec-time">🕒 2026-10-31 23:10</div>
+        <span class="cat-tag crimson">🎬 影视参考图集</span>
+      </div>
+      <h3>世界电影殿堂级艺术名作晚间两轮补强 +40 镜（累计 27,600 部 · 884,358 镜 · 版本 25b02eabab63）</h3>
+      <div class="rec-metrics">
+        <div><strong>本轮新增：</strong>+40 条逐镜构图光影分析与提示词</div>
+        <div><strong>全库累计：</strong>作品目录 27,600 部 ｜ 可检索镜头描述 884,358 条（d3 / d4 100% 同步）</div>
+      </div>
+      <ul class="rec-list"><li>对 20 部影史获奖与作者电影代表作逐镜扩充构图、光位、色温与景深分析，推进至 884,358 镜。</li></ul>
+      <div class="rec-links"><a class="act-btn" href="../film.html">打开《影视参考图集》 →</a></div>
+    </article>
+    <article class="rec-card" data-cat="dynasty" data-search="2026-10-31 21:00 🏛️ 朝代·边疆·馆藏考证 薄弱边疆政权第 19 批（w3001..w3200）＋ 晚间考证共 +4,000 条（八大板块器物 100% 全满 500 大满贯 · 专集达 40,000 条） +400 组母题 / +4,000 条十二段提示词（ht-w20261031a + ht-n20261031） 薄弱专集 40,000 条 ｜ 全网考证 77,000 条 ｜ 全库器物 4,502 组 · 隋唐五代满 6,000 条目 · 事件满 1,250 组 先秦、秦汉、三国两晋南北朝、隋唐五代、宋辽金西夏、元明、清、人民军队八大板块「器物」100% 全员满 ≥500 组大满贯；深度补强琉球尚氏王朝、马楚、闽国、荆南、薛延陀汗国、昭武九姓粟特、石峁与陶寺遗址。">
+      <div class="rec-head">
+        <div class="rec-time">🕒 2026-10-31 21:00</div>
+        <span class="cat-tag green">🏛️ 朝代·边疆·馆藏考证</span>
+      </div>
+      <h3>薄弱边疆政权第 19 批（W3001..W3200）＋ 晚间考证共 +4,000 条（八大板块器物 100% 全满 500 大满贯 · 专集达 40,000 条）</h3>
+      <div class="rec-metrics">
+        <div><strong>本轮新增：</strong>+400 组母题 / +4,000 条十二段提示词（HT-W20261031A + HT-N20261031）</div>
+        <div><strong>全库累计：</strong>薄弱专集 40,000 条 ｜ 全网考证 77,000 条 ｜ 全库器物 4,502 组 · 隋唐五代满 6,000 条目 · 事件满 1,250 组</div>
+      </div>
+      <ul class="rec-list"><li>先秦、秦汉、三国两晋南北朝、隋唐五代、宋辽金西夏、元明、清、人民军队八大板块「器物」100% 全员满 ≥500 组大满贯；深度补强琉球尚氏王朝、马楚、闽国、荆南、薛延陀汗国、昭武九姓粟特、石峁与陶寺遗址。</li></ul>
+      <div class="rec-links"><a class="act-btn" href="每日成果/20261031/薄弱环节与八大板块器物全满500边疆十国扩充第1批2000条/index.html">第 19 批 W3001..W3200 独立专页 →</a><a class="act-btn" href="每日成果/20261031/晚间21点全网考证扩充2000条/index.html">10-31 晚间考证 2,000 条专页 →</a></div>
+    </article>
+    <article class="rec-card" data-cat="film" data-search="2026-10-31 20:16 🎬 影视参考图集 全球七十大摄影权威体系（60→70）与三大电影节/奥斯卡国际影片合拢 · 27,600 部整 · +74,817 镜突破 88 万镜（版本 a05fb7b797a5） +100 部获奖影片 / +74,817 条镜头提示词 作品目录 27,600 部整 ｜ 全球最佳摄影 3,315 部（获奖满 88 镜 8×11 大师全典） ｜ 镜头描述达 884,318 条 新增印度 filmfare/iifa/银幕奖、印尼芝特拉奖、台北电影奖、韩国釜日电影奖及北美 wafca/sdfcs/slfca/dfwfca 共 10 大摄影奖，拓展 #81 蔡司 f/0.7 烛光、#82 舒夫坦镜面合成、#83 分离屈光镜、#85 红外黑白银盐、#88 vistavision 等八大光学母型。">
+      <div class="rec-head">
+        <div class="rec-time">🕒 2026-10-31 20:16</div>
+        <span class="cat-tag crimson">🎬 影视参考图集</span>
+      </div>
+      <h3>全球七十大摄影权威体系（60→70）与三大电影节/奥斯卡国际影片合拢 · 27,600 部整 · +74,817 镜突破 88 万镜（版本 a05fb7b797a5）</h3>
+      <div class="rec-metrics">
+        <div><strong>本轮新增：</strong>+100 部获奖影片 / +74,817 条镜头提示词</div>
+        <div><strong>全库累计：</strong>作品目录 27,600 部整 ｜ 全球最佳摄影 3,315 部（获奖满 88 镜 8×11 大师全典） ｜ 镜头描述达 884,318 条</div>
+      </div>
+      <ul class="rec-list"><li>新增印度 Filmfare/IIFA/银幕奖、印尼芝特拉奖、台北电影奖、韩国釜日电影奖及北美 WAFCA/SDFCS/SLFCA/DFWFCA 共 10 大摄影奖，拓展 #81 蔡司 f/0.7 烛光、#82 舒夫坦镜面合成、#83 分离屈光镜、#85 红外黑白银盐、#88 VistaVision 等八大光学母型。</li></ul>
+      <div class="rec-links"><a class="act-btn" href="../film.html">打开《影视参考图集》 →</a><a class="act-btn" href="../sources.html">打开《影视来源目录》 →</a></div>
+    </article>
+    <article class="rec-card" data-cat="literature" data-search="2026-10-30 全天（8 连发会战） 📖 红楼·志怪·文学史诗 & 影视/朝代 《红楼梦》专集上线（244组/2,327条）＋ 古典文学史诗第3批满百 ＋ 薄弱政权第12–18批（+14,000条）＋ 历史名人十三期（13,000人）＋ 影视四批净增 +268,810 镜破 80 万镜 单日历史文化新增 +19,000 条提示词 ＋ 影视参考单日净增 +268,810 镜 总检索跃升至 58,179 条目 / 295,412 提示词 ｜ 影视参考跃升至 27,500 部 / 809,501 镜 ｜ 全库 66 格非名人矩阵 100% 满百 《红楼梦》专集（hongloumeng.html）：新增 hlm001..hlm200 共 2,000 条（含 200 幅大观园与荣宁二府纯建筑空镜底图 @scn），合璧达 244 组 / 2,327 条。 古典文学与多民族史诗第 3 批（l401..l600，2,000 条）：epics.html 达 652 组 / 6,280 条，六大资产类别 100% 满百。 薄弱边疆与军工配套第 12–18 批（w1601..w3000，共 7 批 14,000 条）：实现全库 11×6=66 格非名人矩阵全面满百、人民军队与先秦秦汉隋唐元明清器物满 500、场景满 13,100、建筑满 8,750。 影视参考图集四连扩（30→40→50→60 大摄影权威体系）：累计跃升至 27,500 部整、809,501 条镜头描述；晚间 24:00 历史名人十三期满 13,000 人。">
+      <div class="rec-head">
+        <div class="rec-time">🕒 2026-10-30 全天（8 连发会战）</div>
+        <span class="cat-tag purple">📖 红楼·志怪·文学史诗 & 影视/朝代</span>
+      </div>
+      <h3>《红楼梦》专集上线（244组/2,327条）＋ 古典文学史诗第3批满百 ＋ 薄弱政权第12–18批（+14,000条）＋ 历史名人十三期（13,000人）＋ 影视四批净增 +268,810 镜破 80 万镜</h3>
+      <div class="rec-metrics">
+        <div><strong>本轮新增：</strong>单日历史文化新增 +19,000 条提示词 ＋ 影视参考单日净增 +268,810 镜</div>
+        <div><strong>全库累计：</strong>总检索跃升至 58,179 条目 / 295,412 提示词 ｜ 影视参考跃升至 27,500 部 / 809,501 镜 ｜ 全库 66 格非名人矩阵 100% 满百</div>
+      </div>
+      <ul class="rec-list"><li>《红楼梦》专集（hongloumeng.html）：新增 HLM001..HLM200 共 2,000 条（含 200 幅大观园与荣宁二府纯建筑空镜底图 @SCN），合璧达 244 组 / 2,327 条。</li><li>古典文学与多民族史诗第 3 批（L401..L600，2,000 条）：epics.html 达 652 组 / 6,280 条，六大资产类别 100% 满百。</li><li>薄弱边疆与军工配套第 12–18 批（W1601..W3000，共 7 批 14,000 条）：实现全库 11×6=66 格非名人矩阵全面满百、人民军队与先秦秦汉隋唐元明清器物满 500、场景满 13,100、建筑满 8,750。</li><li>影视参考图集四连扩（30→40→50→60 大摄影权威体系）：累计跃升至 27,500 部整、809,501 条镜头描述；晚间 24:00 历史名人十三期满 13,000 人。</li></ul>
+      <div class="rec-links"><a class="act-btn" href="../hongloumeng.html">打开《红楼梦角色与全场景专集》 →</a><a class="act-btn" href="../epics.html">打开《古典文学与民族史诗总集》 →</a><a class="act-btn" href="每日成果/20261030/薄弱环节与边疆古国配套事件国宝扩充第7批2000条/index.html">第 18 批 W2801..W3000 专页 →</a><a class="act-btn" href="每日成果/20261030/历代历史名人形象1000人/index.html">十三期历史名人 1,000 人专页 →</a></div>
+    </article>
+    <article class="rec-card" data-cat="literature" data-search="2026-10-28 — 2026-10-29 📖 志怪·史诗·朝代·影视 57 部古代志怪佛道神魔总集四批收官（8,000条）＋ 古典文学史诗第1–2批（4,000条）＋ 薄弱政权第3–11批（18,000条）＋ 名人十一/十二期（12,000人）＋ 影视突破 54 万镜 志怪 +8,000 条 · 史诗 +4,000 条 · 薄弱政权 +18,000 条 · 名人 +2,000 人 · 影视跃升至 27,100 部 / 540,673 镜 zhiguai31.html 统合达 10,668 项 ｜ 历史名人达 12,000 人 ｜ 全站上线五层科学分类导航与 65 级历史正序排序 完整归拢志怪传奇 33 部、佛教感应冥报 7 部、神仙道教仙传 8 部、神魔长篇 9 部共 57 部典籍 800 组 × 10 态 = 8,000 条提示词（g001..g800）。 完成古典文学与民族民间史诗第 1–2 批（l001..l400，4,000 条）及薄弱环节第 3–11 批（w001..w1600）；影视库完成 30 大摄影权威体系合拢，跨越 54 万镜。">
+      <div class="rec-head">
+        <div class="rec-time">🕒 2026-10-28 — 2026-10-29</div>
+        <span class="cat-tag purple">📖 志怪·史诗·朝代·影视</span>
+      </div>
+      <h3>57 部古代志怪佛道神魔总集四批收官（8,000条）＋ 古典文学史诗第1–2批（4,000条）＋ 薄弱政权第3–11批（18,000条）＋ 名人十一/十二期（12,000人）＋ 影视突破 54 万镜</h3>
+      <div class="rec-metrics">
+        <div><strong>本轮新增：</strong>志怪 +8,000 条 · 史诗 +4,000 条 · 薄弱政权 +18,000 条 · 名人 +2,000 人 · 影视跃升至 27,100 部 / 540,673 镜</div>
+        <div><strong>全库累计：</strong>zhiguai31.html 统合达 10,668 项 ｜ 历史名人达 12,000 人 ｜ 全站上线五层科学分类导航与 65 级历史正序排序</div>
+      </div>
+      <ul class="rec-list"><li>完整归拢志怪传奇 33 部、佛教感应冥报 7 部、神仙道教仙传 8 部、神魔长篇 9 部共 57 部典籍 800 组 × 10 态 = 8,000 条提示词（G001..G800）。</li><li>完成古典文学与民族民间史诗第 1–2 批（L001..L400，4,000 条）及薄弱环节第 3–11 批（W001..W1600）；影视库完成 30 大摄影权威体系合拢，跨越 54 万镜。</li></ul>
+      <div class="rec-links"><a class="act-btn" href="../zhiguai31.html">打开《57 部志怪神魔总集》 →</a><a class="act-btn" href="00_每日更新总目录.html">打开《每日更新成果总目录》 →</a></div>
+    </article>
+    <article class="rec-card" data-cat="dynasty" data-search="2026-09-22 — 2026-10-27 🏛️ 奠基与十期里程碑 全库奠基建设 · 历代建筑 7,680 座专集 · 神话传说 5,000 条目专集 · 历史名人一至十期满 10,000 人大关 · 威尼斯 2026 与奥斯卡摄影入库 从首批基础库扩展至 50,000+ 条目 · 建筑 30,720 条 · 神话 30,000 条 · 名人 10,000 人 · 影视 27,238+ 部 完成 arch5680.html、myth5000.html、figures.html、websearch5000.html、film.html、sources.html 全矩阵架构 建立只追加不覆盖安全守卫（append_only_guard.py 锁定保护分片与核心检索页布局）、a 机零依赖正史馆藏考证规程及国内双 cdn 高速分发架构。">
+      <div class="rec-head">
+        <div class="rec-time">🕒 2026-09-22 — 2026-10-27</div>
+        <span class="cat-tag green">🏛️ 奠基与十期里程碑</span>
+      </div>
+      <h3>全库奠基建设 · 历代建筑 7,680 座专集 · 神话传说 5,000 条目专集 · 历史名人一至十期满 10,000 人大关 · 威尼斯 2026 与奥斯卡摄影入库</h3>
+      <div class="rec-metrics">
+        <div><strong>本轮新增：</strong>从首批基础库扩展至 50,000+ 条目 · 建筑 30,720 条 · 神话 30,000 条 · 名人 10,000 人 · 影视 27,238+ 部</div>
+        <div><strong>全库累计：</strong>完成 arch5680.html、myth5000.html、figures.html、websearch5000.html、film.html、sources.html 全矩阵架构</div>
+      </div>
+      <ul class="rec-list"><li>建立只追加不覆盖安全守卫（append_only_guard.py 锁定保护分片与核心检索页布局）、A 机零依赖正史馆藏考证规程及国内双 CDN 高速分发架构。</li></ul>
+      <div class="rec-links"><a class="act-btn" href="../arch5680.html">打开《历代建筑 7,680 座专集》 →</a><a class="act-btn" href="../myth5000.html">打开《神话传说 5,000 场景专集》 →</a><a class="act-btn" href="../扩容日志.md">查看原始 Markdown 扩容日志 →</a></div>
+    </article>
+  </div>
+</main>
+
+<footer>
+  说明：本页面与本机主目录、工程镜像目录、GitHub Pages 云端直连站及 jsDelivr 国内双 CDN（testingcf / gcore）实时对齐；所有扩库严格执行只追加不覆盖（append_only_guard 守护通过）。
+</footer>
+
+<script>
+(function(){
+  var curCat = 'all';
+  var btns = Array.prototype.slice.call(document.querySelectorAll('.fbtn'));
+  var cards = Array.prototype.slice.call(document.querySelectorAll('.rec-card'));
+  var kw = document.getElementById('kw');
+  var cnt = document.getElementById('recCount');
+  function applyFilter(){
+    var q = (kw.value || '').trim().toLowerCase();
+    var shown = 0;
+    cards.forEach(function(c){
+      var okCat = (curCat === 'all') || (c.getAttribute('data-cat') === curCat);
+      var okKw = !q || (c.getAttribute('data-search') || '').indexOf(q) !== -1;
+      var vis = okCat && okKw;
+      c.style.display = vis ? '' : 'none';
+      if(vis) shown++;
+    });
+    cnt.textContent = '当前匹配 ' + shown + ' / ' + cards.length + ' 组重大更新批次';
+  }
+  btns.forEach(function(b){
+    b.onclick = function(){
+      curCat = b.getAttribute('data-cat');
+      btns.forEach(function(x){ x.classList.toggle('on', x === b); });
+      applyFilter();
+    };
+  });
+  kw.oninput = applyFilter;
+})();
+</script>
+</body>
+</html>

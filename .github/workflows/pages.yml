@@ -1,0 +1,109 @@
+name: Deploy GitHub Pages (Lean Shell + Active Index)
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Blobless clone and stage lean _site (<700 MiB)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git clone --filter=blob:none --no-checkout --depth 1 \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" repo
+
+          python3 - <<'PY'
+          import os, pathlib, re, shutil, subprocess
+
+          repo = pathlib.Path("repo")
+          site = pathlib.Path("_site")
+          site.mkdir(parents=True, exist_ok=True)
+
+          def git_bytes(*args):
+              return subprocess.check_output(["git", "-C", str(repo), *args])
+
+          idx_html = git_bytes("show", "HEAD:index.html").decode("utf-8", errors="ignore")
+          brw_html = git_bytes("show", "HEAD:browser.html").decode("utf-8", errors="ignore")
+          d1_active = set(re.findall(r'"(idx_\d+_\d+\.js)"', idx_html))
+          d2_active = set(re.findall(r'"(idx_\d+_\d+\.js)"', brw_html))
+          d3_keep = {"00_works.js", "01_idx.js", "vmanifest.js", "vworks.js"}
+
+          raw_paths = [p.decode("utf-8") for p in git_bytes("ls-tree", "-r", "-z", "--name-only", "HEAD").split(b"\x00") if p]
+          selected = []
+          for rel in raw_paths:
+              if rel.startswith(".github/"):
+                  continue
+              parts = rel.split("/")
+              top = parts[0]
+              name = parts[-1]
+              if top in ("d1", "d2"):
+                  continue
+              if top == "d1_idx":
+                  if name not in d1_active:
+                      continue
+              elif top == "d2_idx":
+                  if name not in d2_active:
+                      continue
+              elif top == "d3":
+                  if not (name in d3_keep or re.match(r"^d\d+\.js$", name)):
+                      continue
+              elif top == "d4":
+                  if name not in ("summary.js", "catalogue.js"):
+                      continue
+              selected.append(rel)
+
+          print(f"Checking out {len(selected)} selected files (d1_active={len(d1_active)}, d2_active={len(d2_active)})...")
+          payload = b"\x00".join(p.encode("utf-8") for p in selected) + b"\x00"
+          subprocess.run(
+              ["git", "-C", str(repo), "checkout", "HEAD", "--pathspec-from-file=-", "--pathspec-file-nul"],
+              input=payload,
+              check=True,
+          )
+
+          total_bytes = 0
+          for rel in selected:
+              src = repo / rel
+              dst = site / rel
+              dst.parent.mkdir(parents=True, exist_ok=True)
+              total_bytes += src.stat().st_size
+              shutil.move(str(src), str(dst))
+
+          (site / ".nojekyll").write_text("", encoding="utf-8")
+          print(f"Staged {len(selected)} files into _site ({total_bytes / (1024*1024):.2f} MiB)")
+          PY
+          shutil_rm_repo=1
+          rm -rf repo
+          du -sh _site
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

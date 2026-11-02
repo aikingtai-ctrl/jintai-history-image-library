@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="zh-CN">
-<head><script>(function(){var H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3';var k='jt_gate';function getSaved(){try{if(localStorage.getItem(k)===H)return true;}catch(e){}try{if(sessionStorage.getItem(k)===H)return true;}catch(e){}return false;}function saveOk(){try{localStorage.setItem(k,H);}catch(e){}try{sessionStorage.setItem(k,H);}catch(e){}}if(getSaved()){document.documentElement.setAttribute('data-jt-ok','1');return;}var st=document.createElement('style');st.id='jt_gate_css';st.textContent='html:not([data-jt-ok="1"]) body{display:none!important}';document.documentElement.appendChild(st);document.documentElement.style.visibility='hidden';function shaPure(ascii){function rr(v,a){return(v>>>a)|(v<<(32-a));}var bytes=[],i,j;if(typeof TextEncoder!=='undefined'){bytes=Array.from(new TextEncoder().encode(ascii));}else{for(i=0;i<ascii.length;i++){var c=ascii.charCodeAt(i);if(c<128)bytes.push(c);else if(c<2048)bytes.push(192|(c>>6),128|(c&63));else bytes.push(224|(c>>12),128|((c>>6)&63),128|(c&63));}}var bitLen=bytes.length*8;bytes.push(0x80);while((bytes.length%64)!==56)bytes.push(0);var hi=Math.floor(bitLen/4294967296),lo=bitLen>>>0;bytes.push((hi>>>24)&255,(hi>>>16)&255,(hi>>>8)&255,hi&255,(lo>>>24)&255,(lo>>>16)&255,(lo>>>8)&255,lo&255);var K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];var H0=[0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];for(i=0;i<bytes.length;i+=64){var W=new Array(64);for(j=0;j<16;j++)W[j]=((bytes[i+j*4]<<24)|(bytes[i+j*4+1]<<16)|(bytes[i+j*4+2]<<8)|bytes[i+j*4+3])>>>0;for(j=16;j<64;j++){var s0=rr(W[j-15],7)^rr(W[j-15],18)^(W[j-15]>>>3);var s1=rr(W[j-2],17)^rr(W[j-2],19)^(W[j-2]>>>10);W[j]=(W[j-16]+s0+W[j-7]+s1)>>>0;}var a=H0[0],b=H0[1],c=H0[2],d=H0[3],e=H0[4],f=H0[5],g=H0[6],h=H0[7];for(j=0;j<64;j++){var S1=rr(e,6)^rr(e,11)^rr(e,25),ch=(e&f)^((~e)&g),t1=(h+S1+ch+K[j]+W[j])>>>0;var S0=rr(a,2)^rr(a,13)^rr(a,22),maj=(a&b)^(a&c)^(b&c),t2=(S0+maj)>>>0;h=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=b;b=a;a=(t1+t2)>>>0;}H0[0]=(H0[0]+a)>>>0;H0[1]=(H0[1]+b)>>>0;H0[2]=(H0[2]+c)>>>0;H0[3]=(H0[3]+d)>>>0;H0[4]=(H0[4]+e)>>>0;H0[5]=(H0[5]+f)>>>0;H0[6]=(H0[6]+g)>>>0;H0[7]=(H0[7]+h)>>>0;}return H0.map(function(x){return('00000000'+x.toString(16)).slice(-8);}).join('');}async function sha(s){try{if(window.crypto&&crypto.subtle&&typeof TextEncoder!=='undefined'){var b=new TextEncoder().encode(s);var d=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(d)).map(function(x){return x.toString(16).padStart(2,'0');}).join('');}}catch(e){}return shaPure(s);}function lockDom(){window.__SHARD__=window.__IDX_BATCH__=window.__VISUAL_INDEX__=window.__VISUAL_WORKS__=window.apply=window.render=window.loadAll=function(){};document.querySelectorAll('script[src]').forEach(function(s){s.onload=s.onerror=null;if(s.parentNode)s.parentNode.removeChild(s);});if(!document.body){var b=document.createElement('body');document.documentElement.appendChild(b);}document.body.innerHTML='<div id="jt_lock_box" style="font:19pt/1.65 Microsoft YaHei,PingFang SC,sans-serif;padding:36px 24px;color:#1d3338;max-width:680px;margin:42px auto;background:#fff;border:2px solid #284b45;border-radius:14px;text-align:center;box-shadow:0 10px 28px rgba(0,0,0,.08)"><div style="font-size:23pt;font-weight:bold;color:#1d3338;margin-bottom:10px">金泰 AI · 中国历史文化图库</div><div style="font-size:15.5pt;color:#4a5d54;margin-bottom:22px">请输入内部访问口令进入检索系统（手机微信 / 浏览器验证一次即可自动记住）</div><div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;max-width:500px;margin:0 auto"><input id="jt_pw_box" type="password" placeholder="请输入访问口令" autocomplete="current-password" style="flex:1;min-width:210px;font:17pt Microsoft YaHei,sans-serif;padding:11px 14px;border:1.5px solid #6f857b;border-radius:8px;background:#fff;color:#263a40"><button id="jt_pw_btn" type="button" style="font:bold 17pt Microsoft YaHei,sans-serif;padding:11px 26px;background:#284b45;color:#fff;border:none;border-radius:8px;cursor:pointer">验证进入</button></div><div id="jt_pw_err" style="font-size:15pt;color:#8a1c1c;min-height:28px;margin-top:12px"></div></div>';document.documentElement.setAttribute('data-jt-ok','1');document.documentElement.style.visibility='visible';var inp=document.getElementById('jt_pw_box'),btn=document.getElementById('jt_pw_btn'),err=document.getElementById('jt_pw_err');async function tryIn(){var v=(inp.value||'').trim();if(!v){err.textContent='请输入访问口令';return;}var h=await sha(v);if(h===H){saveOk();location.reload();}else{err.textContent='口令不正确，请核对后重试';inp.value='';inp.focus();}}if(btn)btn.onclick=tryIn;if(inp){inp.onkeydown=function(e){if(e.key==='Enter')tryIn();};setTimeout(function(){try{inp.focus();}catch(e){}},60);}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',lockDom,{once:true});}else{lockDom();}})();</script>
+<head><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><script>(function(){var H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3';var k='jt_gate';function getSaved(){try{if(localStorage.getItem(k)===H)return true;}catch(e){}try{if(sessionStorage.getItem(k)===H)return true;}catch(e){}return false;}function saveOk(){try{localStorage.setItem(k,H);}catch(e){}try{sessionStorage.setItem(k,H);}catch(e){}}if(getSaved()){document.documentElement.setAttribute('data-jt-ok','1');return;}var st=document.createElement('style');st.id='jt_gate_css';st.textContent='html:not([data-jt-ok="1"]) body{display:none!important}';document.documentElement.appendChild(st);document.documentElement.style.visibility='hidden';function shaPure(ascii){function rr(v,a){return(v>>>a)|(v<<(32-a));}var bytes=[],i,j;if(typeof TextEncoder!=='undefined'){bytes=Array.from(new TextEncoder().encode(ascii));}else{for(i=0;i<ascii.length;i++){var c=ascii.charCodeAt(i);if(c<128)bytes.push(c);else if(c<2048)bytes.push(192|(c>>6),128|(c&63));else bytes.push(224|(c>>12),128|((c>>6)&63),128|(c&63));}}var bitLen=bytes.length*8;bytes.push(0x80);while((bytes.length%64)!==56)bytes.push(0);var hi=Math.floor(bitLen/4294967296),lo=bitLen>>>0;bytes.push((hi>>>24)&255,(hi>>>16)&255,(hi>>>8)&255,hi&255,(lo>>>24)&255,(lo>>>16)&255,(lo>>>8)&255,lo&255);var K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];var H0=[0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];for(i=0;i<bytes.length;i+=64){var W=new Array(64);for(j=0;j<16;j++)W[j]=((bytes[i+j*4]<<24)|(bytes[i+j*4+1]<<16)|(bytes[i+j*4+2]<<8)|bytes[i+j*4+3])>>>0;for(j=16;j<64;j++){var s0=rr(W[j-15],7)^rr(W[j-15],18)^(W[j-15]>>>3);var s1=rr(W[j-2],17)^rr(W[j-2],19)^(W[j-2]>>>10);W[j]=(W[j-16]+s0+W[j-7]+s1)>>>0;}var a=H0[0],b=H0[1],c=H0[2],d=H0[3],e=H0[4],f=H0[5],g=H0[6],h=H0[7];for(j=0;j<64;j++){var S1=rr(e,6)^rr(e,11)^rr(e,25),ch=(e&f)^((~e)&g),t1=(h+S1+ch+K[j]+W[j])>>>0;var S0=rr(a,2)^rr(a,13)^rr(a,22),maj=(a&b)^(a&c)^(b&c),t2=(S0+maj)>>>0;h=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=b;b=a;a=(t1+t2)>>>0;}H0[0]=(H0[0]+a)>>>0;H0[1]=(H0[1]+b)>>>0;H0[2]=(H0[2]+c)>>>0;H0[3]=(H0[3]+d)>>>0;H0[4]=(H0[4]+e)>>>0;H0[5]=(H0[5]+f)>>>0;H0[6]=(H0[6]+g)>>>0;H0[7]=(H0[7]+h)>>>0;}return H0.map(function(x){return('00000000'+x.toString(16)).slice(-8);}).join('');}async function sha(s){try{if(window.crypto&&crypto.subtle&&typeof TextEncoder!=='undefined'){var b=new TextEncoder().encode(s);var d=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(d)).map(function(x){return x.toString(16).padStart(2,'0');}).join('');}}catch(e){}return shaPure(s);}function lockDom(){window.__SHARD__=window.__IDX_BATCH__=window.__VISUAL_INDEX__=window.__VISUAL_WORKS__=window.apply=window.render=window.loadAll=function(){};document.querySelectorAll('script[src]').forEach(function(s){s.onload=s.onerror=null;if(s.parentNode)s.parentNode.removeChild(s);});if(!document.body){var b=document.createElement('body');document.documentElement.appendChild(b);}document.body.innerHTML='<div id="jt_lock_box" style="font:19pt/1.65 Microsoft YaHei,PingFang SC,sans-serif;padding:36px 24px;color:#1d3338;max-width:680px;margin:42px auto;background:#fff;border:2px solid #284b45;border-radius:14px;text-align:center;box-shadow:0 10px 28px rgba(0,0,0,.08)"><div style="font-size:23pt;font-weight:bold;color:#1d3338;margin-bottom:10px">金泰 AI · 中国历史文化图库</div><div style="font-size:15.5pt;color:#4a5d54;margin-bottom:22px">请输入内部访问口令进入检索系统（手机微信 / 浏览器验证一次即可自动记住）</div><div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;max-width:500px;margin:0 auto"><input id="jt_pw_box" type="password" placeholder="请输入访问口令" autocomplete="current-password" style="flex:1;min-width:210px;font:17pt Microsoft YaHei,sans-serif;padding:11px 14px;border:1.5px solid #6f857b;border-radius:8px;background:#fff;color:#263a40"><button id="jt_pw_btn" type="button" style="font:bold 17pt Microsoft YaHei,sans-serif;padding:11px 26px;background:#284b45;color:#fff;border:none;border-radius:8px;cursor:pointer">验证进入</button></div><div id="jt_pw_err" style="font-size:15pt;color:#8a1c1c;min-height:28px;margin-top:12px"></div></div>';document.documentElement.setAttribute('data-jt-ok','1');document.documentElement.style.visibility='visible';var inp=document.getElementById('jt_pw_box'),btn=document.getElementById('jt_pw_btn'),err=document.getElementById('jt_pw_err');async function tryIn(){var v=(inp.value||'').trim();if(!v){err.textContent='请输入访问口令';return;}var h=await sha(v);if(h===H){saveOk();location.reload();}else{err.textContent='口令不正确，请核对后重试';inp.value='';inp.focus();}}if(btn)btn.onclick=tryIn;if(inp){inp.onkeydown=function(e){if(e.key==='Enter')tryIn();};setTimeout(function(){try{inp.focus();}catch(e){}},60);}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',lockDom,{once:true});}else{lockDom();}})();</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>金泰 AI · 中国历史文化图库与影视参考总入口（科学导航总台）</title>
@@ -49,17 +49,39 @@ table.batch-tbl th{background:#f4f0e6;color:#284b45}
   <h1>金泰 AI · 中国历史文化图库与影视视觉总入口</h1>
   <p>全站已完成五层科学分类导航、65 级历史细分政权正序排列（夏→商→周→秦汉→魏晋南北朝→隋唐五代→宋辽金夏→元→明→清→近现代）与多维组合检索升级。</p>
   <div class="kpi-bar">
-    <div class="kpi"><b>59,979 条目 / 304,412 提示词</b><span>《图库总检索》主库（436 个数据分片 · 突破30.4万条）</span></div>
-    <div class="kpi"><b>14,000 位历史名人</b><span>十四期正史列传与《舆服志》实证</span></div>
+    <div class="kpi"><b>60,979 条目 / 305,412 提示词</b><span>《图库总检索》主库（443 个数据分片 · 突破30.5万条）</span></div>
+    <div class="kpi"><b>15,000 位历史名人</b><span>十五期正史列传与《舆服志》实证</span></div>
     <div class="kpi"><b>44,000 条薄弱边疆·科技·神话·历代国宝与军工配套</b><span>22 批专集（W001..W3400）· 九大历史与军事板块六大类别 54格 100% 全满 120 大满贯 · 八大板块器物全满 500</span></div>
     <div class="kpi"><b>57 部志怪神魔 · 10,668 项</b><span>四批 8,000 条新考提示词 ＋ 2,668 既有资产</span></div>
     <div class="kpi"><b>896 组古典文学史诗与红楼专集</b><span>史诗652组（6,280条·六类满百）＋ 红楼梦244组（2,327条·200空镜）</span></div>
     <div class="kpi"><b>8,820 建筑 · 13,147 场景 · 4,629 器物 · 1,419 配套</b><span>事件 1,353 组（九大板块全满120）· 民国 1,760 · 神话 7,734 项</span></div>
-    <div class="kpi"><b>27,700 部影片 · 970,216 镜</b><span>《影视参考图集》（对标 ShotDeck · 100% 实帧转化）</span></div>
+    <div class="kpi"><b>27,700 部影片 · 970,236 镜</b><span>《影视参考图集》（对标 ShotDeck · 80大摄影奖全满）</span></div>
   </div>
 </header>
 
 <main>
+  <section style="background:#fffdf8;border:2.5px solid #8a1c1c;border-radius:14px;padding:20px 24px;margin-bottom:24px;box-shadow:0 4px 14px rgba(138,28,28,.07)">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:12px">
+      <h2 style="margin:0;font-size:22pt;color:#8a1c1c">📋 最新扩容与更新记录（实时倒序置顶 · 截至 2026-11-01 24:00）</h2>
+      <div style="display:flex;gap:10px;flex-wrap:wrap">
+        <a class="btn red" href="更新记录.html">📋 打开《全站更新记录中心》（更新记录.html） →</a>
+        <a class="btn" href="每日更新/00_每日更新总目录.html">📂 每日成果总目录 →</a>
+      </div>
+    </div>
+    <table class="batch-tbl" style="font-size:15.5pt;margin-top:8px">
+      <colgroup><col style="width:210px"><col style="width:270px"><col></colgroup>
+      <thead>
+        <tr><th>更新时间</th><th>单次新增规模</th><th>核心更新内容与直达链接</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><b>2026-11-01 24:00</b></td><td><b>+1,000 位历史名人</b></td><td>《历代历史名人》十五期（HF-20261101）满额入库，累计达 <b>15,000 人</b>，主检索升至 <b>60,979 条目 / 305,412 提示词</b> · <a href="figures.html">直达名人库 →</a></td></tr>
+        <tr><td><b>2026-11-01 23:10</b></td><td><b>+40 条殿堂电影镜头</b></td><td>胡金铨《大醉侠》《空山灵雨》、徐克《刀》《蝶变》、杨德昌《海滩的一天》、王家卫《跟踪》等 20 部名作扩至 7 镜，达 <b>970,236 镜</b> · <a href="film.html">直达影视库 →</a></td></tr>
+        <tr><td><b>2026-11-01 21:00</b></td><td><b>+4,000 条十二段提示词</b></td><td>薄弱边疆第 20 批（W3201..W3400）＋晚间考证：实现<b>九大板块 54 格 100% 全满 120 大满贯</b>，专集达 <b>44,000 条</b>、全网考证破 <b>81,000 条</b> · <a href="dynasty2000.html">直达专集 →</a></td></tr>
+        <tr><td><b>2026-11-01 20:21</b></td><td><b>+100 部影片 / +85,838 镜</b></td><td>合拢<b>全球八十大最佳摄影权威体系</b>与世界核心导演/编剧奖，达成 <b>27,700 部</b>整与 <b>8×12（96镜）大师摄影全典</b> · <a href="sources.html">直达来源目录 →</a></td></tr>
+        <tr><td><b>2026-10-31 全天</b></td><td><b>+5,000 条文化 / +74,857 镜</b></td><td>历史名人十四期达 14,000 人；薄弱第 19 批实现八大板块器物 100% 满 500；影视合拢 70 大摄影奖破 88.4 万镜 · <a href="更新记录.html">查看完整台账 →</a></td></tr>
+      </tbody>
+    </table>
+  </section>
   <div class="sec-title">
     <h2>一、核心检索双主站（全量历史正序总览）</h2>
     <span>支持 5 层联动筛选、7 种确定性排序、多词空格 AND 搜索</span>
@@ -69,8 +91,8 @@ table.batch-tbl th{background:#f4f0e6;color:#284b45}
       <div>
         <h3>1. 《中国历史文化图库 · 总检索》（主入口）</h3>
         <div class="badges">
-          <span class="badge">59,979 个条目</span>
-          <span class="badge">304,412 条提示词</span>
+          <span class="badge">60,979 个条目</span>
+          <span class="badge">305,412 条提示词</span>
           <span class="badge red">默认按先秦→近现代正序</span>
         </div>
         <p>整合全部五个来源与历次专项扩充。按「主干朝代 → 50 细分政权/民族与门类 → 8 大资产类型与二级细目 → 考证等级 → 7 维排序」一页直达，点击卡片即可切换机位并复制到 IMAGE 2。</p>
@@ -86,8 +108,8 @@ table.batch-tbl th{background:#f4f0e6;color:#284b45}
       <div>
         <h3>2. 《提示词浏览器 V0.1》（按年代卷与专卷分卷浏览）</h3>
         <div class="badges">
-          <span class="badge">58,986 个条目</span>
-          <span class="badge">298,996 条提示词</span>
+          <span class="badge">59,986 个条目</span>
+          <span class="badge">299,996 条提示词</span>
           <span class="badge">8 大卷组分类</span>
         </div>
         <p>按「主干朝代主卷、器物建筑风貌分卷、分期补空与辽金西夏元专项、人民军队专项、神话九大体系、类型派生专卷、每日扩容归档」七大逻辑卷组与 65 级历史时序排列。</p>
@@ -108,13 +130,13 @@ table.batch-tbl th{background:#f4f0e6;color:#284b45}
       <div>
         <h3>① 历代历史名人形象考证库</h3>
         <div class="badges">
-          <span class="badge red">14,000 位历史名人</span>
+          <span class="badge red">15,000 位历史名人</span>
           <span class="badge">15 细分时期 × 7 身份类别</span>
         </div>
-        <p>覆盖先秦至清代帝王王侯、名臣良吏、英雄名将、诗人文豪、思想家学者、名医百工、艺术名流共 14 个批次。默认按先秦→清代正序排列，消除跨批次穿插。</p>
+        <p>覆盖先秦至清代帝王王侯、名臣良吏、英雄名将、诗人文豪、思想家学者、名医百工、艺术名流共 15 个批次（HF-20261015..20261101）。默认按先秦→清代正序排列，消除跨批次穿插。</p>
       </div>
       <div class="btn-row">
-        <a class="btn red" href="figures.html">打开《历代历史名人 14,000 人》（figures.html） →</a>
+        <a class="btn red" href="figures.html">打开《历代历史名人 15,000 人》（figures.html） →</a>
       </div>
     </div>
 
@@ -220,7 +242,7 @@ table.batch-tbl th{background:#f4f0e6;color:#284b45}
 
   <div class="sec-title">
     <h2>三、影视参考图集与全球获奖影片拆解库（对标 ShotDeck）</h2>
-    <span>3,503 部全球八十大最佳摄影满 84 镜（1,825 部获奖作满 96 镜 8×12 大师全典） · 1,943 部影史经典满 58 镜 · 4,420 部中外电影最高奖与核心导演编剧奖满 48 镜 · 13,375 部世界电影大奖满 33 镜 · 全库 27,700 部 100% 满 5 镜</span>
+    <span>3,503 部全球八十大最佳摄影满 84 镜（1,825 部获奖作满 96 镜 8×12 大师全典） · 1,943 部影史经典满 58 镜 · 4,420 部中外电影最高奖与核心导演编剧奖满 48 镜 · 13,393 部世界电影大奖满 33 镜 · 全库 27,700 部 100% 满 5 镜</span>
   </div>
   <div class="grid-2">
     <div class="card crimson-card">
@@ -228,8 +250,8 @@ table.batch-tbl th{background:#f4f0e6;color:#284b45}
         <h3>1. 《影视参考图集》（对标 ShotDeck · 找画面/建图集/风格对照）</h3>
         <div class="badges">
           <span class="badge red">27,700 部作品</span>
-          <span class="badge red">970,216 条可复制镜头描述</span>
-          <span class="badge gold">315,190 条来源静帧与观图转化</span>
+          <span class="badge red">970,236 条可复制镜头描述</span>
+          <span class="badge gold">315,290 条来源静帧与观图转化</span>
         </div>
         <p>按景别、机位角度、运镜、焦段、灯光、色彩、构图、时间天气、地点、人物情绪检索电影画面，支持按颜色拾取、以图找色、建立参考图集（Deck）与 4 镜同屏风格对照。</p>
       </div>
@@ -261,7 +283,7 @@ table.batch-tbl th{background:#f4f0e6;color:#284b45}
   </div>
 
   <details class="archive-box">
-    <summary>📂 展开查看：历次每日成果分批独立专页（薄弱环节 1–22 批 W001..W3400 / 红楼梦专集 / 古典文学史诗 1–3 批 / 57部志怪 1–4 批 / 历史名人 1–14 期）</summary>
+    <summary>📂 展开查看：历次每日成果分批独立专页（薄弱环节 1–22 批 W001..W3400 / 红楼梦专集 / 古典文学史诗 1–3 批 / 57部志怪 1–4 批 / 历史名人 1–15 期）</summary>
     <table class="batch-tbl">
       <thead>
         <tr><th style="width:220px">专题系列</th><th>分批独立专页直达链接</th></tr>
@@ -319,8 +341,9 @@ table.batch-tbl th{background:#f4f0e6;color:#284b45}
           </td>
         </tr>
         <tr>
-          <td><b>历代历史名人形象提示词</b><br>（十四期共 14,000 人）</td>
+          <td><b>历代历史名人形象提示词</b><br>（十五期共 15,000 人）</td>
           <td>
+            <a href="每日更新/每日成果/20261101/历代历史名人形象1000人/index.html">十五期（HF-20261101 · 1000人）</a> ｜
             <a href="每日更新/每日成果/20261031/历代历史名人形象1000人/index.html">十四期（HF-20261031 · 1000人）</a> ｜
             <a href="每日更新/每日成果/20261030/历代历史名人形象1000人/index.html">十三期（HF-20261030 · 1000人）</a> ｜
             <a href="每日更新/每日成果/20261029/历代历史名人形象1000人/index.html">十二期（HF-20261029 · 1000人）</a> ｜
@@ -338,6 +361,7 @@ table.batch-tbl th{background:#f4f0e6;color:#284b45}
         <tr>
           <td><b>每日更新总目录与日志</b></td>
           <td>
+            <a href="更新记录.html" style="font-weight:bold;color:#8a1c1c">📋 打开《全站更新记录中心》（更新记录.html）</a> ｜
             <a href="每日更新/00_每日更新总目录.html">打开《每日更新总目录》（00_每日更新总目录.html）</a> ｜
             <a href="扩容日志.md">查看《扩容日志.md》</a>
           </td>
