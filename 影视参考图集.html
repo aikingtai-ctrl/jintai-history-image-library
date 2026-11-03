@@ -265,9 +265,11 @@ function dec(a){const S=(k,c)=>c>=0?VV[k][c]:'',M=(k,cs)=>cs.map(c=>VV[k][c]);co
  r.size=S('size',a[5]);r.angle=S('angle',a[6]);r.frame=S('frame',a[7]);r.lens_type=S('lens_type',a[8]);r.dof=S('dof',a[9]);r.move=M('move',a[10]);r.light=M('light',a[11]);
  r.ld=S('ld',a[12]);r.time=S('time',a[13]);r.weather=S('weather',a[14]);r.ie=S('ie',a[15]);r.loc=M('loc',a[16]);r.color=M('color',a[17]);r.pal=a[18].split(',').map(x=>'#'+x);
  r.comp=M('comp',a[19]);r.pos=S('pos',a[20]);r.emo=M('emo',a[21]);r.st=a[22]?'已核':'待核';r.add=String(a[23]);if(a[24])r.fk=a[24];return r;}
-window.__SHARD__=(file,kind,recs)=>{if(kind==='__works__')WORKS=recs;else for(const a of recs)R.push(dec(a));loaded++;};
-window.__VISUAL_WORKS__=works=>{WORKS=works;};
-window.__VISUAL_INDEX__=records=>{const indices=new Map(),seen=new Set(R.map(r=>r.id));WORKS.forEach((work,index)=>{if(work.source_id)indices.set(work.source_id,index);if(work.wid)indices.set(work.wid,index);});for(const record of records){if(seen.has(record.id))continue;const index=indices.get(record.source_work_id);if(index===undefined){VISUAL_ASSOCIATION_FAILED=true;continue;}seen.add(record.id);R.push({...record,w:index});}};
+let WORK_IDX_MAP=new Map(),SEEN_IDS=new Set();
+function rebuildWorkIdxMap(){WORK_IDX_MAP.clear();WORKS.forEach((work,index)=>{if(work.source_id)WORK_IDX_MAP.set(work.source_id,index);if(work.wid)WORK_IDX_MAP.set(work.wid,index);});}
+window.__SHARD__=(file,kind,recs)=>{if(kind==='__works__'){WORKS=recs;rebuildWorkIdxMap();}else for(const a of recs){const r=dec(a);SEEN_IDS.add(r.id);R.push(r);}loaded++;};
+window.__VISUAL_WORKS__=works=>{WORKS=works;rebuildWorkIdxMap();};
+window.__VISUAL_INDEX__=records=>{if(!WORK_IDX_MAP.size&&WORKS.length)rebuildWorkIdxMap();for(let i=0;i<records.length;i++){const record=records[i];if(SEEN_IDS.has(record.id))continue;const index=WORK_IDX_MAP.get(record.source_work_id);if(index===undefined){VISUAL_ASSOCIATION_FAILED=true;continue;}SEEN_IDS.add(record.id);R.push({...record,w:index});}};
 window.__VISUAL_DETAIL__=map=>{for(const id in map){const r=BYID.get(id);if(!r||r.origin!=='visual')continue;const d=map[id];for(const k of ['wh','note','pr','en','source_url','source_page','verification','observation_limits','observed_resolution','review','frame_id','original_prompt_id'])if(d[k]!==undefined)r[k]=d[k];}};
 const DETS=SHARDS.filter(x=>x.era==='__detail__'),STARTUP=SHARDS.length-DETS.length,detDone=new Set();
 window.__DET__=(lo,hi,map)=>{for(const id in map){const r=BYID.get(id);if(r){const d=map[id];r.wh=d[0];r.note=d[1];r.pr=d[2];r.en=d[3];}}};
@@ -668,7 +670,7 @@ $('retryLoad').onclick=()=>location.reload();
    for(let i=0;i<idxShards.length;i+=24){
     const results=await Promise.all(idxShards.slice(i,i+24).map(s=>loadScript(DATA_DIR+'/'+s.file+'?v='+encodeURIComponent(s.version||VISUAL_VERSION))));
     if(results.some(ok=>!ok))visualLoadFailed=true;
-    $('loadStatus').textContent=` · 载入中 ${R.length.toLocaleString()} 镜…`;
+    $('loadStatus').textContent=` · 载入中 ${R.length.toLocaleString()} 镜…`;await new Promise(r=>setTimeout(r,0));
    }
   }
  }
