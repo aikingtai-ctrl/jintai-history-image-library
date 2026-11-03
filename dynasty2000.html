@@ -328,7 +328,7 @@ function render(){
       <textarea readonly id="p_${r.seq}">${r.p}</textarea>
       <div class="actions">
         <button class="primary" onclick="cp(${r.seq}, false)">复制完整十二段中文提示词</button>
-        <button class="red" onclick="cp(${r.seq}, true)">复制并打开 IMAGE 2</button>
+        <button class="red" onclick="cp(${r.seq}, true)">复制并打开 GPT Image 2</button>
         <span class="msg" id="m_${r.seq}"></span>
       </div>
     `;
@@ -338,7 +338,7 @@ function render(){
 async function cp(seq, openJimeng){
   const el=$('p_'+seq), msg=$('m_'+seq);
   try{await navigator.clipboard.writeText(el.value);}catch(e){el.select();document.execCommand('copy');}
-  msg.textContent=openJimeng?'已复制，正在打开 IMAGE 2（画幅 16:9）…':'✓ 已复制提示词';
+  msg.textContent=openJimeng?'已复制，正在打开 GPT Image 2（画幅 16:9）…':'✓ 已复制提示词';
   if(openJimeng) window.open(JIMENG,'_blank');
 }
 document.querySelectorAll('#eraRow .chip').forEach(c=>c.onclick=()=>{
