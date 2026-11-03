@@ -1,30 +1,180 @@
 <!doctype html><html lang="zh-CN"><head><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><script>(function(){var H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3';var k='jt_gate';function getSaved(){try{if(localStorage.getItem(k)===H)return true;}catch(e){}try{if(sessionStorage.getItem(k)===H)return true;}catch(e){}return false;}function saveOk(){try{localStorage.setItem(k,H);}catch(e){}try{sessionStorage.setItem(k,H);}catch(e){}}if(getSaved()){document.documentElement.setAttribute('data-jt-ok','1');return;}var st=document.createElement('style');st.id='jt_gate_css';st.textContent='html:not([data-jt-ok="1"]) body{display:none!important}';document.documentElement.appendChild(st);document.documentElement.style.visibility='hidden';function shaPure(ascii){function rr(v,a){return(v>>>a)|(v<<(32-a));}var bytes=[],i,j;if(typeof TextEncoder!=='undefined'){bytes=Array.from(new TextEncoder().encode(ascii));}else{for(i=0;i<ascii.length;i++){var c=ascii.charCodeAt(i);if(c<128)bytes.push(c);else if(c<2048)bytes.push(192|(c>>6),128|(c&63));else bytes.push(224|(c>>12),128|((c>>6)&63),128|(c&63));}}var bitLen=bytes.length*8;bytes.push(0x80);while((bytes.length%64)!==56)bytes.push(0);var hi=Math.floor(bitLen/4294967296),lo=bitLen>>>0;bytes.push((hi>>>24)&255,(hi>>>16)&255,(hi>>>8)&255,hi&255,(lo>>>24)&255,(lo>>>16)&255,(lo>>>8)&255,lo&255);var K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];var H0=[0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];for(i=0;i<bytes.length;i+=64){var W=new Array(64);for(j=0;j<16;j++)W[j]=((bytes[i+j*4]<<24)|(bytes[i+j*4+1]<<16)|(bytes[i+j*4+2]<<8)|bytes[i+j*4+3])>>>0;for(j=16;j<64;j++){var s0=rr(W[j-15],7)^rr(W[j-15],18)^(W[j-15]>>>3);var s1=rr(W[j-2],17)^rr(W[j-2],19)^(W[j-2]>>>10);W[j]=(W[j-16]+s0+W[j-7]+s1)>>>0;}var a=H0[0],b=H0[1],c=H0[2],d=H0[3],e=H0[4],f=H0[5],g=H0[6],h=H0[7];for(j=0;j<64;j++){var S1=rr(e,6)^rr(e,11)^rr(e,25),ch=(e&f)^((~e)&g),t1=(h+S1+ch+K[j]+W[j])>>>0;var S0=rr(a,2)^rr(a,13)^rr(a,22),maj=(a&b)^(a&c)^(b&c),t2=(S0+maj)>>>0;h=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=b;b=a;a=(t1+t2)>>>0;}H0[0]=(H0[0]+a)>>>0;H0[1]=(H0[1]+b)>>>0;H0[2]=(H0[2]+c)>>>0;H0[3]=(H0[3]+d)>>>0;H0[4]=(H0[4]+e)>>>0;H0[5]=(H0[5]+f)>>>0;H0[6]=(H0[6]+g)>>>0;H0[7]=(H0[7]+h)>>>0;}return H0.map(function(x){return('00000000'+x.toString(16)).slice(-8);}).join('');}async function sha(s){try{if(window.crypto&&crypto.subtle&&typeof TextEncoder!=='undefined'){var b=new TextEncoder().encode(s);var d=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(d)).map(function(x){return x.toString(16).padStart(2,'0');}).join('');}}catch(e){}return shaPure(s);}function lockDom(){window.__SHARD__=window.__IDX_BATCH__=window.__VISUAL_INDEX__=window.__VISUAL_WORKS__=window.apply=window.render=window.loadAll=function(){};document.querySelectorAll('script[src]').forEach(function(s){s.onload=s.onerror=null;if(s.parentNode)s.parentNode.removeChild(s);});if(!document.body){var b=document.createElement('body');document.documentElement.appendChild(b);}document.body.innerHTML='<div id="jt_lock_box" style="font:19pt/1.65 Microsoft YaHei,PingFang SC,sans-serif;padding:36px 24px;color:#1d3338;max-width:680px;margin:42px auto;background:#fff;border:2px solid #284b45;border-radius:14px;text-align:center;box-shadow:0 10px 28px rgba(0,0,0,.08)"><div style="font-size:23pt;font-weight:bold;color:#1d3338;margin-bottom:10px">金泰 AI · 中国历史文化图库</div><div style="font-size:15.5pt;color:#4a5d54;margin-bottom:22px">请输入内部访问口令进入检索系统（手机微信 / 浏览器验证一次即可自动记住）</div><div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;max-width:500px;margin:0 auto"><input id="jt_pw_box" type="password" placeholder="请输入访问口令" autocomplete="current-password" style="flex:1;min-width:210px;font:17pt Microsoft YaHei,sans-serif;padding:11px 14px;border:1.5px solid #6f857b;border-radius:8px;background:#fff;color:#263a40"><button id="jt_pw_btn" type="button" style="font:bold 17pt Microsoft YaHei,sans-serif;padding:11px 26px;background:#284b45;color:#fff;border:none;border-radius:8px;cursor:pointer">验证进入</button></div><div id="jt_pw_err" style="font-size:15pt;color:#8a1c1c;min-height:28px;margin-top:12px"></div></div>';document.documentElement.setAttribute('data-jt-ok','1');document.documentElement.style.visibility='visible';var inp=document.getElementById('jt_pw_box'),btn=document.getElementById('jt_pw_btn'),err=document.getElementById('jt_pw_err');async function tryIn(){var v=(inp.value||'').trim();if(!v){err.textContent='请输入访问口令';return;}var h=await sha(v);if(h===H){saveOk();location.reload();}else{err.textContent='口令不正确，请核对后重试';inp.value='';inp.focus();}}if(btn)btn.onclick=tryIn;if(inp){inp.onkeydown=function(e){if(e.key==='Enter')tryIn();};setTimeout(function(){try{inp.focus();}catch(e){}},60);}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',lockDom,{once:true});}else{lockDom();}})();</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>全球获奖与经典影片 · 镜头提示词与来源目录</title>
+<title>影视提示词与来源目录 · 金泰AI 图库</title>
 <style>
-:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#121416;color:#ece8e0;font:27px/1.65 "Microsoft YaHei",sans-serif}header,main{max-width:1800px;margin:auto;padding:24px}header{border-bottom:1px solid #3a4046}h1{font-size:42px;margin:12px 0}h2{font-size:34px}h3{font-size:28px;margin:0 0 8px}a{color:#71b8cf}b,.gold{color:#e0a943}.muted{color:#aaa59b;font-size:23px}.stats{display:flex;gap:30px;flex-wrap:wrap}.stats b{font-size:36px}.controls{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}input,select,button{font:inherit;border:1px solid #3a4046;border-radius:10px;background:#23272b;color:inherit;padding:10px 16px}input{flex:1;min-width:260px}button{cursor:pointer}button:disabled{opacity:.4}button:hover,a:hover{color:#e0a943}a.button{display:inline-block;border:1px solid #3a4046;border-radius:9px;padding:7px 12px;text-decoration:none;margin:4px 8px 4px 0}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(430px,1fr));gap:18px}.card{background:#1a1d20;border:1px solid #3a4046;border-radius:12px;padding:22px;overflow-wrap:anywhere}.card p{margin:8px 0}.pager{display:flex;gap:12px;justify-content:center;align-items:center;flex-wrap:wrap;margin:24px 0}.page-nums{display:inline-flex;gap:8px;align-items:center;flex-wrap:wrap}.pnum{min-width:52px;padding:8px 14px;text-align:center}.pnum.on{background:#e0a943;color:#121416;border-color:#e0a943;font-weight:bold}.pdots{color:#aaa59b;padding:0 4px}.page-jump{display:inline-flex;gap:8px;align-items:center;color:#aaa59b;font-size:23px}.page-jump select{min-width:190px;font-size:23px;padding:8px 12px}.page-jump input[type="number"]{flex:0 0 auto;width:110px;min-width:0;text-align:center;font-size:23px;padding:8px 10px}.notice{background:#23272b;padding:14px 20px;border-left:4px solid #e0a943}.frame{display:grid;grid-template-columns:1fr auto;gap:12px}.frame small{font-size:20px}dialog{background:#121416;color:inherit;width:min(1650px,96vw);max-height:94vh;border:1px solid #3a4046;border-radius:14px;font:inherit;padding:24px}dialog::backdrop{background:#000c}.dialog-head{position:sticky;top:-24px;background:#121416;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:14px 0}#error{color:#ffb7aa}button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #e0a943}@media(max-width:600px){body{font-size:24px}.grid{grid-template-columns:1fr}.frame{grid-template-columns:1fr}}
-.browse{border:1px solid #3a4046;border-radius:12px;padding:16px 20px;margin:20px 0}.browse summary{cursor:pointer}.browse p{margin:12px 0}.browse button{font-size:23px;padding:5px 12px;margin:4px 6px 4px 0}.evidence{border-top:1px solid #3a4046;padding-top:10px}.evidence a{display:block;margin:5px 0;font-size:23px}.controls label{display:flex;flex-direction:column;gap:4px;font-size:23px}.controls label select{font-size:25px;max-width:390px}
-.prompt-list{display:grid;gap:22px}.prompt-text{display:block;width:100%;min-height:210px;resize:vertical;background:#121416;color:inherit;border:1px solid #50565c;border-radius:8px;padding:14px;font:24px/1.7 "Microsoft YaHei",sans-serif}.prompt-actions{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-top:14px}.prompt-label{color:#e0a943;font-weight:bold}.prompt-status{min-height:1.6em;color:#e0a943}.prompt-list .card h3{margin-bottom:14px}
+:root{color-scheme:dark;--bg:#121416;--p1:#1a1d20;--p2:#22262a;--p3:#2b3036;--line:#343a40;--tx:#ece8e0;--mu:#9e9a91;--ac:#e0a943;--ac2:#71b8cf}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font:20px/1.58 "Microsoft YaHei","PingFang SC",sans-serif}
+a{color:var(--ac2);text-decoration:none}a:hover{text-decoration:underline}
+b,.gold{color:var(--ac)}
+.muted{color:var(--mu);font-size:17.5px}
+input,select,button{font:inherit;border:1px solid var(--line);border-radius:10px;background:var(--p2);color:inherit;padding:8px 14px;font-size:18px}
+button{cursor:pointer;transition:border-color .14s,background .14s}
+button:disabled{opacity:.4;cursor:not-allowed}
+button:hover{border-color:var(--ac)}
+button.pri{background:var(--ac);color:#1a1409;border-color:var(--ac);font-weight:700}
+button.ghost{background:transparent;color:var(--mu)}button.ghost:hover{color:var(--tx)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--ac);outline-offset:2px}
+a.button{display:inline-block;border:1px solid var(--line);border-radius:9px;padding:6px 12px;text-decoration:none;margin:3px 6px 3px 0;font-size:17px;background:var(--p2)}
+
+/* === Minimalist Sticky Search-First Top Header === */
+header.top{position:sticky;top:0;z-index:30;background:rgba(15,17,19,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.topbar{max-width:1840px;margin:auto;padding:10px 26px 8px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.brand .back-link{color:var(--mu);font-size:17px;font-weight:600}
+.brand .back-link:hover{color:var(--ac);text-decoration:none}
+.brand .sep{color:#555c63}
+.brand strong{font-size:23px;color:var(--tx);letter-spacing:.5px}
+.brand .kpi{font-size:16.5px;color:var(--mu)}
+.brand .kpi b{color:var(--ac);font-weight:700}
+.topnav{display:flex;gap:16px;font-size:17px}
+.topnav a{color:var(--mu)}
+.topnav a:hover{color:var(--tx);text-decoration:none}
+
+.top-search-wrap{max-width:1840px;margin:auto;padding:2px 26px 12px}
+.searchbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+#q{flex:1;min-width:300px;font-size:21px;padding:10px 16px;border-radius:11px;border:1.5px solid #454c54;background:#16191c}
+#q:focus{border-color:var(--ac);background:#1a1e22}
+#q::placeholder{color:#7c8288;font-size:19px}
+.qbtn{font-size:17px;padding:8px 14px;border-radius:10px;background:var(--p1);color:var(--mu)}
+.qbtn.on{background:var(--tx);color:#121416;border-color:var(--tx);font-weight:700}
+.filter-toggle.has-on{border-color:var(--ac);color:var(--ac);background:#2a2417}
+
+main{max-width:1840px;margin:auto;padding:12px 26px 72px}
+
+/* === Collapsible Filter Drawer (Closed by Default!) === */
+details.filter-drawer{background:var(--p1);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:14px}
+details.filter-drawer:not([open]){display:none}
+.controls-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px 14px;align-items:end}
+.controls-grid label{display:flex;flex-direction:column;gap:4px;font-size:15.5px;color:var(--mu)}
+.controls-grid select{width:100%;font-size:17px;padding:7px 10px;background:var(--p2)}
+.browse{border-top:1px solid var(--line);padding-top:12px;margin-top:14px}
+.browse summary{cursor:pointer;font-size:17px;color:var(--mu);user-select:none}
+.browse p{margin:10px 0;font-size:16.5px}
+.browse button{font-size:16px;padding:4px 11px;margin:3px 5px 3px 0;border-radius:16px;background:var(--p2)}
+
+/* === Result Bar & Active Pills === */
+.rhead{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:2px 0 12px;font-size:18px;color:var(--mu)}
+#count b{color:var(--ac);font-size:20px}
+.active-inline{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:6px;background:var(--p3);border:1px solid var(--line);border-radius:20px;padding:2px 11px;font-size:16.5px;color:var(--tx)}
+.pill.q{border-color:var(--ac)}
+.pill i{font-style:normal;color:var(--mu);font-size:14.5px}
+.pill button{border:0;background:none;padding:0 2px;font-size:18px;color:var(--mu)}
+#error:empty{display:none}#error{color:#ffb7aa;margin:8px 0}
+
+/* === Uniform, Crisp Film Cards === */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(390px,1fr));gap:16px}
+.card{background:var(--p1);border:1px solid var(--line);border-radius:13px;padding:18px 20px;display:flex;flex-direction:column;gap:8px;overflow-wrap:anywhere;transition:border-color .14s,transform .14s}
+.card:hover{border-color:var(--ac);transform:translateY(-1px)}
+.card h3{font-size:22px;margin:0;line-height:1.35;color:var(--tx)}
+.card h3.clickable{cursor:pointer}.card h3.clickable:hover{color:var(--ac)}
+.card h3 .yr{font-size:17px;font-weight:400;color:var(--mu);margin-left:4px}
+.en-sub{font-size:15.5px;color:#88847c;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;margin-top:2px}
+.meta-line{margin:0;font-size:17.5px;color:#c9c4ba;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.meta-sub{font-size:16px;color:var(--mu)}
+details.ev-fold{margin:0}
+details.ev-fold summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:8px;user-select:none}
+details.ev-fold summary::-webkit-details-marker{display:none}
+.honor-pill{font-size:16px;color:var(--ac);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ev-more{font-size:14.5px;color:var(--mu);flex-shrink:0}
+.evidence{border-top:1px solid #2b3036;margin-top:8px;padding-top:8px;max-height:200px;overflow:auto}
+.evidence a,.evidence p{display:block;margin:4px 0;font-size:16px}
+.card-acts{display:flex;gap:8px;align-items:center;margin-top:auto;padding-top:8px}
+.card-acts .pri{flex:1;padding:8px 14px;font-size:17.5px}
+.card-acts .ghost{padding:8px 12px;font-size:16.5px}
+
+.pager{display:flex;gap:10px;justify-content:center;align-items:center;flex-wrap:wrap;margin:28px 0 18px}
+.page-nums{display:inline-flex;gap:6px;align-items:center;flex-wrap:wrap}.pnum{min-width:44px;padding:6px 12px;text-align:center}.pnum.on{background:var(--ac);color:#121416;border-color:var(--ac);font-weight:700}.pdots{color:var(--mu);padding:0 4px}.page-jump{display:inline-flex;gap:6px;align-items:center;color:var(--mu);font-size:17px}.page-jump select{min-width:150px;font-size:17px;padding:6px 10px}.page-jump input[type="number"]{flex:0 0 auto;width:90px;min-width:0;text-align:center;font-size:17px;padding:6px 8px}
+.empty{padding:48px;text-align:center;color:var(--mu);font-size:20px;grid-column:1/-1}
+
+/* === Collapsed Footer Library Metadata === */
+details.meta-fold{margin-top:28px;border-top:1px solid #262a2f;padding-top:12px;color:var(--mu);font-size:16px}
+details.meta-fold summary{cursor:pointer;user-select:none;color:#7f848a;font-size:15.5px}
+details.meta-fold .stats{display:flex;gap:18px;flex-wrap:wrap;margin:10px 0}
+details.meta-fold .stats b{font-size:20px}
+details.meta-fold p{margin:6px 0;font-size:16px}
+.notice{background:var(--p2);padding:11px 16px;border-left:3px solid var(--ac);border-radius:6px;font-size:17px}
+
+/* === Dialogs === */
+.frame{display:grid;grid-template-columns:1fr auto;gap:12px}.frame small{font-size:16px}
+dialog{background:var(--bg);color:inherit;width:min(1620px,96vw);max-height:94vh;border:1px solid var(--line);border-radius:16px;font:inherit;padding:22px}
+dialog::backdrop{background:#000c}
+.dialog-head{position:sticky;top:-22px;background:var(--bg);display:flex;justify-content:space-between;align-items:center;gap:16px;padding:12px 0;border-bottom:1px solid var(--line);margin-bottom:12px;z-index:2}
+.dialog-head h2{margin:0;font-size:25px}
+.prompt-list{display:grid;gap:18px}
+.prompt-list .card{transform:none}
+.prompt-text{display:block;width:100%;min-height:185px;resize:vertical;background:#101214;color:inherit;border:1px solid #454c54;border-radius:10px;padding:13px;font:19px/1.68 "Microsoft YaHei",sans-serif}
+.prompt-actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:10px}
+.prompt-label{color:var(--ac);font-weight:700;font-size:18px}
+.prompt-status{min-height:1.5em;color:var(--ac)}
+@media(max-width:760px){.topbar,.top-search-wrap,main{padding-left:14px;padding-right:14px}.grid,.frame{grid-template-columns:1fr}#q{min-width:200px}}
 </style></head><body>
-<header><div style="margin-bottom:8px;font-size:15pt"><a href="film.html" style="font-weight:bold">← 返回《影视参考图集》（28,500部作品 · 1,259,042条镜头描述）</a> ｜ <a href="更新记录.html" style="color:#e0a943;font-weight:bold">📋 更新记录</a> ｜ <a href="index.html" style="font-weight:bold">中国历史文化图库总检索（63,179条目 / 318,412提示词）</a> ｜ <a href="figures.html">历史名人（16,000人）</a> ｜ <a href="zhiguai31.html">57部志怪总集（8,000条）</a> ｜ <a href="epics.html">古典文学史诗（6,280条）</a> ｜ <a href="hongloumeng.html">红楼梦专集（2,327条）</a> ｜ <a href="dynasty2000.html">薄弱政权与配套（54,000条）</a> ｜ <a href="arch5680.html">历代建筑（8,906座）</a></div><h1>全球获奖与经典影片 · 镜头提示词与来源目录</h1>
-<div class="stats" id="stats">正在载入来源目录…</div>
-<p class="notice" id="prompt-coverage"></p>
-<p class="notice" id="workGoal"></p><p class="muted" id="descriptionGoal"></p>
-<p class="notice" id="awardGoal" hidden></p><p class="muted" id="awardScope" hidden></p>
-<p class="muted" id="date"></p>
-<p><button id="cinematography">历届奥斯卡最佳摄影获奖电影</button><span class="muted" id="cinematography-count"></span></p>
-<p><button id="cinematography-all">历届最佳摄影：获奖＋正式提名</button><span class="muted" id="cinematography-all-count"></span></p>
-<p class="notice muted">点击作品卡片的“镜头与提示词”查看逐镜画面说明、构图光影分析和可复制提示词。既有笔记与来源静帧分析分别标明核验状态；未补齐的作品明确显示待补。画面参考按来源图片 URL 去重，同一连续镜头可能有多帧，不等同于独立镜头或提示词条数。</p>
-<p class="muted">优先整理历届电影大奖获奖作品与有出处的经典榜单。“再扩充 50 倍”为长期目标，当前数量按已收录记录统计；获奖记录、榜单入选与镜头描述分别标记。</p>
-</header><main>
-<div class="controls"><input id="q" placeholder="搜索中文／原文片名、导演、奖项、年份或类型" aria-label="搜索作品"><select id="coverage" aria-label="来源范围"><option value="">全部作品</option><option value="prompts">有镜头提示词</option><option value="visualprompts">有来源观图提示词</option><option value="promptpending">提示词待补</option><option value="awards">有获奖记录</option><option value="classics">有经典榜单记录</option><option value="frames">有来源画面</option><option value="sourced">有外部作品资料</option><option value="description">有既有镜头描述</option><option value="pending">仅待核片单</option></select><select id="type" aria-label="资源类型"><option value="">全部资源类型</option><option>电影</option><option>剧集</option><option>电视作品</option><option>MV</option><option>广告</option></select></div>
-<div class="controls"><label>摄影权威体系<select id="cineGuild" aria-label="全球百三十大摄影权威体系"></select></label><label>电影节／奖项体系<select id="festival" aria-label="电影节或奖项体系"></select></label><label>具体奖项<select id="award" aria-label="具体奖项"></select></label><label>经典榜单<select id="classic" aria-label="经典榜单"></select></label><label>叙事类型<select id="genre" aria-label="叙事类型"></select></label><label>地区<select id="region" aria-label="地区"></select></label><label>年代<select id="decade" aria-label="年代"></select></label><label>排序<select id="sort" aria-label="排序"><option value="prompts">有提示词优先</option><option value="priority">获奖与经典优先</option><option value="frames">来源画面最多</option><option value="newest">出品年代从新到旧</option><option value="oldest">出品年代从旧到新</option></select></label><button id="reset">清除条件</button></div>
-<details class="browse" open><summary>分类型浏览 · 点击分类筛选</summary><div id="browse"></div></details>
-<p id="count" class="muted"></p><p id="error" role="alert"></p><div class="grid" id="grid"></div>
-<div class="pager"><button id="first" type="button">首页</button><button id="prev" type="button">上一页</button><span class="page-nums" id="page-nums"></span><span id="page"></span><button id="next" type="button">下一页</button><button id="last" type="button">末页</button><label class="page-jump">页数选择 <select id="page-select" aria-label="选择页码"></select></label><span class="page-jump">跳至 <input id="page-input" type="number" min="1" value="1" aria-label="输入页码"> 页 <button id="page-go" type="button">跳转</button></span></div>
-<p class="muted">来源：作品卡片中的获奖与经典榜单证据 · <a href="https://film-grab.com/about/" target="_blank" rel="noopener noreferrer">FilmGrab</a> · <a href="https://github.com/prust/wikipedia-movie-data" target="_blank" rel="noopener noreferrer">Wikipedia 电影元数据集</a> · 既有片单（单独标记待核）。目录元数据保留来源，尚未逐部人工审定；没有奖项记录的作品不标为获奖。</p>
+<header class="top">
+ <div class="topbar">
+  <div class="brand">
+   <a class="back-link" href="film.html">← 找画面</a>
+   <span class="sep">·</span>
+   <a class="back-link" href="portal.html">总入口</a>
+   <span class="sep">·</span>
+   <strong>影视提示词与来源目录</strong>
+   <span class="kpi" id="topKpi"><b>28,500</b> 部 · <b>1,259,042</b> 镜</span>
+  </div>
+  <nav class="topnav">
+   <a href="index.html">历史图库</a>
+   <a href="更新记录.html">更新记录</a>
+  </nav>
+ </div>
+ <div class="top-search-wrap">
+  <div class="searchbar">
+   <input id="q" type="search" autofocus placeholder="搜片名（中/英）、导演、摄影师、奖项、年份…" aria-label="搜索作品" autocomplete="off">
+   <button type="button" class="qbtn on" id="qAll">全部</button>
+   <button type="button" class="qbtn" id="cinematography">奥斯卡摄影</button>
+   <button type="button" class="qbtn" id="cinematography-all">130大最佳摄影</button>
+   <select id="sort" aria-label="排序"><option value="prompts">有提示词优先</option><option value="priority">获奖与经典优先</option><option value="newest">年份从新到旧</option><option value="oldest">年份从旧到新</option><option value="frames">画面最多</option></select>
+   <button type="button" id="filterToggle" class="filter-toggle" aria-expanded="false">细分筛选<b id="nSrcFilter"></b> ▾</button>
+  </div>
+ </div>
+</header>
+<main>
+ <details id="filterDrawer" class="filter-drawer">
+  <summary hidden>细分筛选</summary>
+  <div class="controls-grid">
+   <label>收录范围<select id="coverage" aria-label="来源范围"><option value="">全部作品</option><option value="prompts">有镜头提示词</option><option value="visualprompts">有来源观图提示词</option><option value="promptpending">提示词待补</option><option value="awards">有获奖记录</option><option value="classics">有经典榜单记录</option><option value="frames">有来源画面</option><option value="sourced">有外部作品资料</option><option value="description">有既有镜头描述</option><option value="pending">仅待核片单</option></select></label>
+   <label>资源类型<select id="type" aria-label="资源类型"><option value="">全部资源类型</option><option>电影</option><option>剧集</option><option>电视作品</option><option>MV</option><option>广告</option></select></label>
+   <label>摄影权威体系<select id="cineGuild" aria-label="全球百三十大摄影权威体系"></select></label>
+   <label>电影节／奖项体系<select id="festival" aria-label="电影节或奖项体系"></select></label>
+   <label>具体奖项<select id="award" aria-label="具体奖项"></select></label>
+   <label>经典榜单<select id="classic" aria-label="经典榜单"></select></label>
+   <label>叙事类型<select id="genre" aria-label="叙事类型"></select></label>
+   <label>地区<select id="region" aria-label="地区"></select></label>
+   <label>年代<select id="decade" aria-label="年代"></select></label>
+   <div><button id="reset" type="button" style="width:100%">清除全部筛选</button></div>
+  </div>
+  <details class="browse"><summary>按摄影体系 / 电影节 / 叙事类型 / 榜单展开点选 ▾</summary><div id="browse"></div></details>
+ </details>
+ <div class="rhead">
+  <span id="count">正在载入目录…</span>
+  <div id="activeSrcPills" class="active-inline"></div>
+ </div>
+ <p id="error" role="alert"></p>
+ <div class="grid" id="grid"></div>
+ <div class="pager"><button id="first" type="button">首页</button><button id="prev" type="button">上一页</button><span class="page-nums" id="page-nums"></span><span id="page"></span><button id="next" type="button">下一页</button><button id="last" type="button">末页</button><label class="page-jump">页码 <select id="page-select" aria-label="选择页码"></select></label><span class="page-jump">跳至 <input id="page-input" type="number" min="1" value="1" aria-label="输入页码"> 页 <button id="page-go" type="button">跳转</button></span></div>
+ <details class="meta-fold">
+  <summary>库况统计与数据说明（28,500部作品 · 1,259,042条镜头描述）</summary>
+  <div class="stats" id="stats"></div>
+  <p id="prompt-coverage"></p>
+  <p id="workGoal"></p>
+  <p id="descriptionGoal"></p>
+  <p id="awardGoal" hidden></p>
+  <p id="awardScope" hidden></p>
+  <p id="date"></p>
+  <p>奥斯卡最佳摄影<span id="cinematography-count"></span></p>
+  <p>全球摄影权威体系<span id="cinematography-all-count"></span></p>
+  <p>来源：作品卡片中的获奖与经典榜单证据 · <a href="https://film-grab.com/about/" target="_blank" rel="noopener noreferrer">FilmGrab</a> · <a href="https://github.com/prust/wikipedia-movie-data" target="_blank" rel="noopener noreferrer">Wikipedia 电影元数据集</a> · 既有片单（单独标记待核）。</p>
+ </details>
 </main>
-<dialog id="detail"><div class="dialog-head"><h2 id="dtitle"></h2><button id="close">关闭</button></div><p class="muted" id="dinfo"></p><p id="dsource"></p><p class="notice muted">以下为源站中的具体画面记录。点击“查看来源画面”到源站查看，本站不下载或展示这些影片截图。画面内容及摄影标签尚待补充。</p><div class="grid" id="frames"></div><div class="pager"><button id="fprev" type="button">上一页</button><span class="page-nums" id="fpage-nums"></span><span id="fpage"></span><button id="fnext" type="button">下一页</button><label class="page-jump">页数选择 <select id="fpage-select" aria-label="选择来源画面页码"></select></label></div></dialog>
-<dialog id="pdetail" aria-labelledby="ptitle"><div class="dialog-head"><h2 id="ptitle"></h2><button id="pclose">关闭</button></div><p class="muted" id="pinfo"></p><p class="notice muted">提示词是供创作参考的改写。来源静帧分析只依据可见画面，不能据此确认运镜、器材或精确拍摄参数；既有笔记保留原核验状态。是否属于影片最具代表性的经典镜头仍需逐部审定。</p><p id="pcopy-status" class="prompt-status muted" role="status" aria-live="polite"></p><div class="prompt-list" id="prompts"></div><div class="pager"><button id="pprev" type="button">上一页</button><span class="page-nums" id="ppage-nums"></span><span id="ppage"></span><button id="pnext" type="button">下一页</button><label class="page-jump">页数选择 <select id="ppage-select" aria-label="选择提示词页码"></select></label></div></dialog>
+<dialog id="detail"><div class="dialog-head"><h2 id="dtitle"></h2><button id="close" type="button">关闭</button></div><p class="muted" id="dinfo"></p><p id="dsource"></p><p class="notice muted">点击“查看来源画面”到源站查看对应静帧。</p><div class="grid" id="frames"></div><div class="pager"><button id="fprev" type="button">上一页</button><span class="page-nums" id="fpage-nums"></span><span id="fpage"></span><button id="fnext" type="button">下一页</button><label class="page-jump">页码 <select id="fpage-select" aria-label="选择来源画面页码"></select></label></div></dialog>
+<dialog id="pdetail" aria-labelledby="ptitle"><div class="dialog-head"><h2 id="ptitle"></h2><button id="pclose" type="button">关闭</button></div><p class="muted" id="pinfo"></p><p id="pcopy-status" class="prompt-status muted" role="status" aria-live="polite"></p><div class="prompt-list" id="prompts"></div><div class="pager"><button id="pprev" type="button">上一页</button><span class="page-nums" id="ppage-nums"></span><span id="ppage"></span><button id="pnext" type="button">下一页</button><label class="page-jump">页码 <select id="ppage-select" aria-label="选择提示词页码"></select></label></div></dialog>
 <script src="d4/summary.js?v=04e798f01644"></script><script src="d4/catalogue.js?v=04e798f01644"></script>
 <script>
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -54,9 +204,23 @@ function browse(){const group=(label,dimension,values)=>{const counts=new Map();
 function syncPager(cur0,max,prefix,onGo){const cur=cur0+1;$(prefix+'page').textContent=`第 ${cur} / ${max} 页`;$(prefix+'prev').disabled=cur0===0;$(prefix+'next').disabled=cur0>=max-1;if(!prefix){$('first').disabled=cur0===0;$('last').disabled=cur0>=max-1;const inp=$('page-input');inp.max=String(max);inp.value=String(cur);inp.disabled=max<=1;$('page-go').disabled=max<=1;}
  const nums=$(prefix+'page-nums');if(nums){const pages=[],start=Math.max(1,Math.min(cur-2,max-6)),end=Math.min(max,Math.max(cur+2,7));if(start>1)pages.push(1);if(start>2)pages.push('…');for(let p=start;p<=end;p++)pages.push(p);if(end<max-1)pages.push('…');if(end<max)pages.push(max);nums.innerHTML=pages.map(p=>p==='…'?'<span class="pdots">…</span>':`<button type="button" class="pnum${p===cur?' on':''}" data-page="${p}"${p===cur?' aria-current="page"':''}>${p}</button>`).join('');nums.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>onGo(Number(b.dataset.page)-1));}
  const sel=$(prefix+'page-select');if(sel){if(sel._max!==max){sel._max=max;sel.innerHTML=Array.from({length:max},(_,i)=>`<option value="${i+1}">第 ${i+1} / ${max} 页</option>`).join('');}sel.value=String(cur);sel.disabled=max<=1;}}
-function render(){const max=Math.max(1,Math.ceil(list.length/PS));page=Math.max(0,Math.min(page,max-1));$('count').textContent=`找到 ${list.length.toLocaleString()} 部作品 · ${list.filter(w=>promptCount(w)>0).length.toLocaleString()} 部有提示词 · ${list.reduce((n,w)=>n+promptCount(w),0).toLocaleString()} 条提示词 · ${list.reduce((n,w)=>n+(w.ref_count||0),0).toLocaleString()} 条来源画面`;
- syncPager(page,max,'',p=>{page=p;render();});
- $('grid').innerHTML=list.slice(page*PS,(page+1)*PS).map(w=>`<article class="card"><h3>${esc(w.title)}</h3><p class="muted">${esc(w.title_en&&w.title_en!==w.title?w.title_en+' · ':'')}${esc(w.year||'上映年待补')} · ${esc(w.type||'资源类型待补')}${['短片','学生短片'].includes(w.film_scope)?' · '+esc(w.film_scope):''}${regions(w).length?' · '+esc(regions(w).join('、')):''}</p><p class="prompt-label">${promptCount(w)?`${promptCount(w).toLocaleString()} 条镜头提示词${visualPromptCount(w)?' · '+visualPromptCount(w).toLocaleString()+' 条来源观图分析':''}`:'镜头提示词待补'}</p><div><button data-prompts="${esc(w.id)}"${promptCount(w)?'':' disabled'}>镜头与提示词${promptCount(w)?'（'+promptCount(w).toLocaleString()+'）':'（待补）'}</button></div><p class="muted">${esc(genres(w).join(' · ')||'叙事类型待补')}<br>导演：${esc(w.director||'待补')}<br>${esc((promptCount(w)>0 && w.status==="目录有来源，镜头待补") ? "有来源画面，摄影标签待补" : w.status)}</p>${evidence(w)}<p class="muted"><b>${w.ref_count||0}</b> 条来源画面 · <b>${promptCount(w)}</b> 条镜头提示词${w.description_count ? (' · ' + w.description_count + ' 条既有描述') : ''}</p><div>${w.ref_count?`<button data-open="${esc(w.id)}">浏览来源画面</button>`:'<span class="muted">来源画面待补</span>'}</div><div>${arr(w.sources).map(s=>link(s.url,s.site+' 作品资料')).join('')}</div></article>`).join('')||'<p>没有符合条件的作品。</p>';
+function honorSummary(w){const ce=cinematographyEntries(w),aw=awards(w),cl=classics(w);const items=[...ce.map(a=>`${a.festival_label||'最佳摄影'}${a.status==='winner'?'获奖':'提名'}`),...aw.map(a=>`${a.festival||''}${a.award||''}`),...cl.map(c=>c.list||'')].filter(Boolean);const uniq=[...new Set(items)];if(!uniq.length)return '';return uniq[0]+(uniq.length>1?` 等 ${uniq.length} 项荣誉`:'');}
+function syncSrcFilterUI(){const cov=$('coverage').value,cg=$('cineGuild')?.value||'',fe=$('festival').value,aw=$('award').value,cl=$('classic').value,ge=$('genre').value,re=$('region').value,de=$('decade').value,ty=$('type').value;
+ const extraCnt=[cov&&!['oscar-cinematography','oscar-cinematography-all'].includes(cov)?cov:'',ty,cg,fe,aw,cl,ge,re,de].filter(Boolean).length;
+ if($('nSrcFilter'))$('nSrcFilter').textContent=extraCnt?' '+extraCnt:'';
+ if($('filterToggle'))$('filterToggle').classList.toggle('has-on',extraCnt>0||Boolean($('filterDrawer')?.open));
+ if($('qAll'))$('qAll').classList.toggle('on',!cov&&!extraCnt);
+ if($('cinematography'))$('cinematography').classList.toggle('on',cov==='oscar-cinematography');
+ if($('cinematography-all'))$('cinematography-all').classList.toggle('on',cov==='oscar-cinematography-all');
+ const pills=[];[['cineGuild','摄影',cg],['festival','影展',fe],['award','奖项',aw],['classic','榜单',cl],['genre','类型',ge],['region','地区',re],['decade','年代',de],['type','类别',ty]].forEach(([id,lbl,val])=>{if(val)pills.push(`<span class="pill"><i>${lbl}</i>${esc(val)}<button type="button" data-clear="${id}">×</button></span>`);});
+ if(cov==='oscar-cinematography')pills.push('<span class="pill q">奥斯卡最佳摄影<button type="button" data-clear="coverage">×</button></span>');
+ else if(cov==='oscar-cinematography-all')pills.push('<span class="pill q">130大最佳摄影<button type="button" data-clear="coverage">×</button></span>');
+ else if(cov){const txt=$('coverage').selectedOptions?.[0]?.textContent||cov;pills.push(`<span class="pill"><i>范围</i>${esc(txt)}<button type="button" data-clear="coverage">×</button></span>`);}
+ const box=$('activeSrcPills');if(box){box.innerHTML=pills.join('');box.querySelectorAll('[data-clear]').forEach(b=>b.onclick=()=>{const id=b.dataset.clear;$(id).value='';if(id==='festival')awardOptions();filter();});}}
+function render(){const max=Math.max(1,Math.ceil(list.length/PS));page=Math.max(0,Math.min(page,max-1));$('count').innerHTML=`共 <b>${list.length.toLocaleString()}</b> 部作品 · <b>${list.reduce((n,w)=>n+promptCount(w),0).toLocaleString()}</b> 条提示词`;
+ syncSrcFilterUI();syncPager(page,max,'',p=>{page=p;render();window.scrollTo({top:0});});
+ $('grid').innerHTML=list.slice(page*PS,(page+1)*PS).map(w=>{const pc=promptCount(w),hs=honorSummary(w),ev=evidence(w),enSub=(w.title_en&&w.title_en!==w.title)?w.title_en:'';
+  return `<article class="card"><div class="card-top"><h3${pc?` data-prompts="${esc(w.id)}" class="clickable"`:''}>${esc(w.title)} <span class="yr">${esc(w.year||'待核')}</span></h3>${enSub?`<div class="en-sub" title="${esc(enSub)}">${esc(enSub)}</div>`:''}</div><p class="meta-line">导演：${esc(w.director||'待补')} · ${esc(regions(w).slice(0,2).join(' / '))} · ${esc(genres(w).slice(0,3).join(' / '))}</p>${hs?`<details class="ev-fold"><summary><span class="honor-pill">🏆 ${esc(hs)}</span><span class="ev-more">明细 ▾</span></summary>${ev}</details>`:`<div class="meta-sub">${esc(w.type||'电影')} · 已收录逐镜提示词</div>`}<div class="card-acts"><button type="button" class="pri" data-prompts="${esc(w.id)}"${pc?'':' disabled'}>${pc?`查看提示词（${pc.toLocaleString()} 镜）`:'提示词待补'}</button>${w.ref_count?`<button type="button" class="ghost" data-open="${esc(w.id)}">来源画面（${w.ref_count}）</button>`:''}</div></article>`;}).join('')||'<p class="empty">没有符合条件的作品。</p>';
  $('grid').querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>openFrames(b.dataset.open));$('grid').querySelectorAll('[data-prompts]').forEach(b=>b.onclick=()=>openPrompts(b.dataset.prompts));}
 function filter(){const words=$('q').value.toLowerCase().trim().split(/\s+/).filter(Boolean),coverage=$('coverage').value,type=$('type').value;
  const cineGuild=$('cineGuild')?$('cineGuild').value:'',festival=$('festival').value,award=$('award').value,classic=$('classic').value,genre=$('genre').value,region=$('region').value,era=$('decade').value;
@@ -90,7 +254,9 @@ $('cinematography').onclick=()=>{for(const id of ['q','type','cineGuild','festiv
 const cineWorks=WORKS.filter(oscarCinematographyAll);$('cinematography-all-count').textContent=` · 全球百三十大摄影权威体系共 ${cineWorks.length.toLocaleString()} 部（奥斯卡／金球奖黑白与彩色摄影／Camerimage／马纳基兄弟金摄影机300／ASC电影·常规剧集·商业与非商业一小时剧集·电视电影限定剧·聚光灯奖／BSC电影与剧集／BAFTA电影与电视工艺剧情及纪实摄影／法国摄影师协会AFC／波兰摄影师协会PSC／韩国摄影师协会黄金摄影奖／艾美奖／圣丹斯／BIFA／戛纳CST·柏林银熊·圣塞巴斯蒂安评委会摄影奖·锡切斯国际奇幻电影节／欧洲电影奖／凯撒·卢米埃尔·玛格丽特／大卫·银丝带·意大利金球·金场记板Ciak d'oro／戈雅·CEC·高迪·白金奖·阿里尔·南方奖／德国LOLA·德国电视奖·巴伐利亚·奥地利奖·瑞士奖·荷兰金牛犊／波兰鹰·格丁尼亚·捷克狮·匈牙利电影奖·普拉金竞技场·罗马尼亚戈波·博迪尔·罗伯特·金甲虫·尤西·挪威阿曼达／尼卡·金鹰·安塔利亚金橙·伊斯坦布尔电影节／奥菲尔／非洲电影学院AMAA／AACTA·加拿大银幕奖故事片与纪录片·魁北克伊里斯故事片与纪录片·巴西大奖／独立精神·克洛特鲁迪斯·黑胶卷·评论家选择·金卫星·土星奖·EDA女性电影记者联盟·NSFC·NYFCC·LAFCA·CFCA·BSFC·OFCS·SFBAFCC·FFCC·HFCS·WAFCA·SDFCS·SLFCA·DFWFCA·COFCA·LVFCS·SFCS·AFCA·PFCS·GFCA／日本学院·每日·蓝丝带／青龙·大钟·釜日／印度国家奖·喀拉拉邦奖与影评人奖·泰米尔纳德·卡纳塔克·马哈拉施特拉邦奖·南迪·桑托沙姆·Filmfare及南印与马拉地语奖·Fakt马拉地奖·Zee电影奖·ITFA国际泰米尔奖·SIIMA·IIFA·银幕奖·维杰奖·孟加拉国家奖·印尼芝特拉·马尼拉MMFF／亚太APSA·亚洲电影大奖·金爵·金鹿·金莲花·金马·金钟·台北电影奖·金像·金鸡·百花·华表奖） · ${cineWorks.filter(w=>promptCount(w)>=104).length.toLocaleString()}/${cineWorks.length.toLocaleString()} 部已100%满104条（超百镜！其中获奖作满128条 8×16 大师摄影全典）提示词（共 ${cineWorks.reduce((n,w)=>n+promptCount(w),0).toLocaleString()} 条，100% 全部补齐）`;
 $('cinematography-all').onclick=()=>{for(const id of ['q','type','cineGuild','festival','award','classic','genre','region','decade'])if($(id))$(id).value='';$('coverage').value='oscar-cinematography-all';$('sort').value='oldest';awardOptions();filter();};
 let timer;$('q').oninput=()=>{clearTimeout(timer);timer=setTimeout(filter,150);};for(const id of ['coverage','type','cineGuild','award','classic','genre','region','decade','sort'])if($(id))$(id).onchange=filter;$('festival').onchange=()=>{awardOptions();filter();};$('reset').onclick=()=>{for(const id of ['q','coverage','type','cineGuild','festival','award','classic','genre','region','decade'])if($(id))$(id).value='';$('sort').value='prompts';awardOptions();filter();};
-if(S&&WORKS.length){const awardWorks=S.award_works??new Set(WORKS.filter(w=>awards(w).length).map(w=>w.id)).size,classicWorks=S.classic_works??WORKS.filter(w=>classics(w).length).length,awardRecords=S.award_records??WORKS.reduce((n,w)=>n+awards(w).length,0);const promptWorks=S.prompt_works??WORKS.filter(w=>promptCount(w)>0).length,promptRecords=S.prompt_records??WORKS.reduce((n,w)=>n+promptCount(w),0),visualRecords=S.visual_prompt_records??WORKS.reduce((n,w)=>n+visualPromptCount(w),0);$('stats').innerHTML=`<span><b>${promptWorks.toLocaleString()}</b> 部有镜头提示词</span><span><b>${promptRecords.toLocaleString()}</b> 条可复制提示词</span><span><b>${visualRecords.toLocaleString()}</b> 条来源静帧分析</span><span><b>${S.catalogue_works.toLocaleString()}</b> 部作品目录</span><span><b>${S.frame_references.toLocaleString()}</b> 条来源画面参考</span><span><b>${awardWorks.toLocaleString()}</b> 部有获奖记录</span><span><b>${classicWorks.toLocaleString()}</b> 部经典榜单入选</span><span><b>${awardRecords.toLocaleString()}</b> 条获奖记录</span><span><b>${S.description_shots.toLocaleString()}</b> 条既有镜头描述</span>`;$('date').textContent=`资料获取日期 ${S.date} · ${S.sourced_works.toLocaleString()} 部有外部作品资料 · ${S.frame_works.toLocaleString()} 部有画面参考`;
+if($('qAll'))$('qAll').onclick=()=>{for(const id of ['coverage','type','cineGuild','festival','award','classic','genre','region','decade'])if($(id))$(id).value='';awardOptions();filter();};
+if($('filterToggle')&&$('filterDrawer')){$('filterToggle').onclick=()=>{const d=$('filterDrawer');d.open=!d.open;$('filterToggle').setAttribute('aria-expanded',String(d.open));syncSrcFilterUI();};}
+if(S&&WORKS.length){const awardWorks=S.award_works??new Set(WORKS.filter(w=>awards(w).length).map(w=>w.id)).size,classicWorks=S.classic_works??WORKS.filter(w=>classics(w).length).length,awardRecords=S.award_records??WORKS.reduce((n,w)=>n+awards(w).length,0);const promptWorks=S.prompt_works??WORKS.filter(w=>promptCount(w)>0).length,promptRecords=S.prompt_records??WORKS.reduce((n,w)=>n+promptCount(w),0),visualRecords=S.visual_prompt_records??WORKS.reduce((n,w)=>n+visualPromptCount(w),0);if($('topKpi'))$('topKpi').innerHTML=`<b>${promptWorks.toLocaleString()}</b> 部 · <b>${promptRecords.toLocaleString()}</b> 镜`;$('stats').innerHTML=`<span><b>${promptWorks.toLocaleString()}</b> 部有镜头提示词</span><span><b>${promptRecords.toLocaleString()}</b> 条可复制提示词</span><span><b>${visualRecords.toLocaleString()}</b> 条来源静帧分析</span><span><b>${S.catalogue_works.toLocaleString()}</b> 部作品目录</span><span><b>${S.frame_references.toLocaleString()}</b> 条来源画面参考</span><span><b>${awardWorks.toLocaleString()}</b> 部有获奖记录</span><span><b>${classicWorks.toLocaleString()}</b> 部经典榜单入选</span><span><b>${awardRecords.toLocaleString()}</b> 条获奖记录</span><span><b>${S.description_shots.toLocaleString()}</b> 条既有镜头描述</span>`;$('date').textContent=`资料获取日期 ${S.date} · ${S.sourced_works.toLocaleString()} 部有外部作品资料 · ${S.frame_works.toLocaleString()} 部有画面参考`;
  const expansion=S.award_expansion;if(expansion&&Number(expansion.target_works)>0){const awardTarget=Number(expansion.target_works),awardRemaining=Math.max(0,awardTarget-awardWorks);$('awardGoal').hidden=false;$('awardGoal').textContent=`获奖相关作品 ${expansion.multiplier} 倍目标：基准 ${Number(expansion.baseline_works).toLocaleString()} 部 → ${awardTarget.toLocaleString()} 部 · 当前 ${awardWorks.toLocaleString()} 部 · 还需 ${awardRemaining.toLocaleString()} 部${awardRemaining?'，尚未完成':'，整体数量已达目标'}。各奖项体系按作品去重，进度见分类按钮；获奖覆盖不等于镜头提示词覆盖。`;}
  const scopeStats=[['award_direct_works','影片奖覆盖'],['award_associated_works','个人获奖关联'],['award_song_associated_works','歌曲获奖关联'],['award_scope_pending_works','获奖对象待核']].filter(([key])=>typeof S[key]==='number');if(scopeStats.length){$('awardScope').hidden=false;$('awardScope').textContent=scopeStats.map(([key,label])=>`${label} ${S[key].toLocaleString()} 部`).join(' · ')+'；各类作品可能重叠，不能相加。';}
  const workTarget=Number(S.shot_description_work_target)||4150,minPerWork=Number(S.shot_description_min_per_work)||5,workRemaining=Math.max(0,workTarget-promptWorks);$('workGoal').textContent=`5 倍作品目标 ${workTarget.toLocaleString()} 部 · 当前有镜头提示词 ${promptWorks.toLocaleString()} 部 · 还需 ${workRemaining.toLocaleString()} 部${workRemaining?'，尚未完成':''}。每部优先补足 ${minPerWork} 条${typeof S.prompt_works_with_minimum==='number'?`；≥${minPerWork} 条描述 ${S.prompt_works_with_minimum.toLocaleString()} 部（含原有笔记）`:''}${typeof S.visual_prompt_works_with_minimum==='number'?`；≥${minPerWork} 条来源观图 ${S.visual_prompt_works_with_minimum.toLocaleString()} 部`:''}。`;
