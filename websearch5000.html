@@ -33,23 +33,59 @@ textarea{width:100%;min-height:190px;font:14pt/1.55 "Microsoft YaHei";padding:12
 .msg{color:#8a1c1c;font-size:14pt;font-weight:bold}
 .pager{display:flex;gap:14px;align-items:center;margin:20px 0;flex-wrap:wrap}
 @media(max-width:1100px){.grid{grid-template-columns:1fr}}
+
+/* === Minimalist Search-First Override (2026-11-03) === */
+[hidden]{display:none!important}
+body{background:#f6f5f1!important;color:#19231f!important}
+header.min-topbar{max-width:1640px;margin:0 auto;padding:10px 26px 6px!important;background:transparent!important;border:0!important;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+header.min-topbar .brand{display:flex;align-items:baseline;gap:10px;font-size:14pt;color:#63706a}
+header.min-topbar .brand strong{font-size:17.5pt;color:#19231f}
+header.min-topbar .brand a{color:#1f5c48;text-decoration:none;font-weight:600}
+header.min-topbar .topnav{display:flex;gap:16px;flex-wrap:wrap;font-size:13.5pt}
+header.min-topbar .topnav a{color:#63706a;text-decoration:none}
+header.min-topbar .topnav a:hover{color:#1f5c48}
+main{max-width:1640px!important;padding:6px 26px 44px!important}
+.toolbar{background:transparent!important;border:0!important;padding:0!important;margin-bottom:8px!important;box-shadow:none!important}
+.search-top{position:sticky;top:0;z-index:35;background:rgba(246,245,241,.96);backdrop-filter:blur(8px);padding:10px 0 12px;border-bottom:1px solid #e3dfd6;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.search-top input[type="search"],.search-top input#q{flex:1 1 380px!important;font-size:16.5pt!important;padding:10px 14px!important;border:1.5px solid #c9c4b8!important;border-radius:10px!important;background:#fff!important;color:#19231f!important}
+.search-top input#q:focus{outline:none!important;border-color:#1f5c48!important;box-shadow:0 0 0 3px rgba(31,92,72,.12)!important}
+.search-top select,.search-top button{font-size:14pt!important;padding:9px 13px!important;border:1px solid #d2cdc2!important;border-radius:9px!important;background:#fff!important;color:#19231f!important;cursor:pointer}
+.search-top button.adv-btn{background:#fbfaf7!important;color:#35443e!important}
+.adv-box{margin-top:10px;background:#fff;border:1px solid #e3dfd6;border-radius:12px;padding:12px 16px;box-shadow:0 6px 20px rgba(0,0,0,.04)}
+.pager{margin:8px 0 12px!important;font-size:13.5pt!important;color:#63706a}
+.card{border-color:#e3dfd6!important;border-radius:11px!important;box-shadow:none!important}
+.card:hover{border-color:#9ab8ac!important;box-shadow:0 6px 18px rgba(24,42,35,.06)!important}
 </style>
 </head>
 <body>
-<header>
-<p style="margin:0 0 8px;font-size:14.5pt;line-height:1.6"><a href="index.html" style="color:#284b45;font-weight:bold">← 返回《图库总检索》首页（63,179条目 / 318,412提示词）</a> ｜ <a href="browser.html" style="color:#284b45;font-weight:bold">提示词浏览器（62,186条目·31.3万条）</a> ｜ <a href="figures.html" style="color:#8a1c1c;font-weight:bold">历代历史名人（16,000人）</a> ｜ <a href="dynasty2000.html" style="color:#1d5c42;font-weight:bold">薄弱环节与工程配套（54,000条）</a> ｜ <a href="zhiguai31.html" style="color:#4a2574;font-weight:bold">57部志怪神魔总集（8,000条）</a> ｜ <a href="epics.html" style="color:#5b3277;font-weight:bold">古典文学与民族史诗（6,280条）</a> ｜ <a href="hongloumeng.html" style="color:#9f1239;font-weight:bold">红楼梦专集（2,327条）</a> ｜ <a href="liaozhai.html" style="color:#7a283b;font-weight:bold">聊斋志异专集（2,998条）</a> ｜ <a href="arch5680.html" style="color:#1f4e5f;font-weight:bold">历代建筑总集（8,906座）</a> ｜ <a href="myth5000.html" style="color:#5b2c83;font-weight:bold">神话传说（5,000条目）</a> ｜ <a href="websearch5000.html" style="color:#1b4f72;font-weight:bold">全网考证总库（93,000条）</a> ｜ <a href="film.html" style="color:#7a1f1f;font-weight:bold">影视参考图集（28,500部·125.9万镜）</a> ｜ <a href="更新记录.html" style="color:#b91c1c;font-weight:bold;background:#fff1f2;padding:2px 8px;border-radius:6px;border:1px solid #fecdd3">📋 更新记录（11-03全库66格破150·W4200已更）</a> ｜ <a href="每日更新/00_每日更新总目录.html" style="color:#7f1d1d;font-weight:bold">📂 每日成果总目录</a></p>
-<h1>★ 全网搜索考证馆藏与古籍实证 93,000 条提示词总专集（2026-10-19 至 2026-11-03 历次扩充合集 · 突破9.3万条与全库66格全破150里程碑！）</h1>
-<div class="stats">
-<span>专集总规模：93,000 条完整中文十二段提示词（9,300 组馆藏文物、古籍、革命功勋文物与近现代工业建筑实证母题 × 10 态 · 突破 93,000 条里程碑！）</span>
-<span>含历代馆藏器物/壁画/画像石 ＋ 薄弱边疆与零记录古国·科技·神话文学·历代国宝与军工配套专集（54,000条·W4200！） ＋ 57部志怪佛道传奇神魔总集（8,000条） ＋ 古典文学与多民族史诗三批（6,000条） ＋ 《红楼梦》角色与全场景专集（2,000条） ＋ 《聊斋志异》角色造型·奇幻场景·法器道具全谱专集（2,000条）</span>
-<span style="background:#fdf3f3;color:#8a1c1c">零 A 机生成 · 100% 馆藏与文献出处 · V3 VLQ 无损压缩 · 更新于 2026-11-03</span>
-</div>
-<div class="notice">
-<b>专集定位：</b>本专集汇总 2026-10-19 至 2026-11-03 历次全网博物馆馆藏、考古发掘报告、古籍文献、军博国博一级文物与国家工业遗产考证扩充之全部 <b>93,000 条十二段中文提示词</b>。支持按<b>大朝代、细分政权/民族/专集、十大影视美术用途、关键词组合与 65 级细分历史时序</b>一页检索。
-</div>
+<header class="min-topbar">
+  <div class="brand">
+    <a href="index.html">← 全库总检索</a>
+    <span>·</span>
+    <strong>全网考证总馆藏 · 93,000 条</strong>
+  </div>
+  <nav class="topnav">
+    <a href="图库总入口.html">专集目录</a>
+    <a href="browser.html">分卷浏览</a>
+    <a href="film.html">影视参考</a>
+    <a href="更新记录.html">更新记录</a>
+  </nav>
 </header>
 <main>
-<div class="row" id="eraRow">
+<div class="toolbar">
+  <div class="search-top"><input id="q" type="search" autofocus placeholder="支持多关键词空格组合检索（如：渤海国 舍利、南诏 铁柱、西辽 铜镜、楼船、水运仪象台、攻城、战车）…">
+<select id="sort" style="font-size:15pt;padding:8px 12px;border:1px solid #d9d0be;border-radius:8px;background:#fff;font-weight:bold;color:#1d4d44">
+  <option value="chrono">排序：按历史朝代与细分政权正序（夏→商→周→秦汉→魏晋→隋唐→宋元明清 · 推荐）</option>
+  <option value="newest">排序：按最新扩充批次优先（最新→最早）</option>
+  <option value="seq">排序：按专集入库序号（1→N）</option>
+  <option value="purpose">排序：按影视美术用途归类</option>
+</select>
+<button id="reset">重置全部筛选</button>
+<button class="primary" id="exportTxt">导出当前筛选 TXT</button>
+    <button type="button" class="adv-btn" onclick="var b=document.getElementById('advBox');b.hidden=!b.hidden;this.textContent=b.hidden?'分类筛选 ▾':'收起筛选 ▴'">分类筛选 ▾</button>
+  </div>
+  <div id="advBox" class="adv-box" hidden>
+    <div class="row" id="eraRow">
 <b>一、大朝代</b>
 <span class="chip on" data-era="">全部朝代</span>
 <span class="chip" data-era="先秦">先秦</span>
@@ -64,7 +100,7 @@ textarea{width:100%;min-height:190px;font:14pt/1.55 "Microsoft YaHei";padding:12
 <span class="chip" data-era="神话与传说">神话与传说</span>
 <span class="chip" data-era="文学与民间史诗">文学与民间史诗</span>
 </div>
-<div class="row" id="regRow">
+    <div class="row" id="regRow">
 <b>二、政权/民族/专题</b>
 <span class="chip on" data-reg="">全部政权与专题</span>
 <span class="chip" data-reg="渤海|东夏|磨盘村|南诏|大理|喀喇汗|汗诺依|西辽|喀喇契丹">渤海/东夏/南诏/大理/喀喇汗/西辽</span>
@@ -84,7 +120,7 @@ textarea{width:100%;min-height:190px;font:14pt/1.55 "Microsoft YaHei";padding:12
 <span class="chip" data-reg="天文|观象|浑仪|简仪|圭表|提花机|花楼机|水转大纺车|活字|针灸铜人|经穴漆人|骨笛|编钟|天工开物|牵星板|卓筒井">★ 历代天算科技与精密机械</span>
 <span class="chip" data-reg="聊斋志异|蒲松龄|聂小倩|婴宁|燕赤霞|画皮|崂山|罗刹海市|席方平|促织|香玉|翩翩">★ 《聊斋志异》角色场景法器专集</span>
 </div>
-<div class="row" id="purpRow">
+    <div class="row" id="purpRow">
 <b>三、影视美术类别</b>
 <span class="chip on" data-purp="">全部类别</span>
 <span class="chip" data-purp="大型配套|工程|舟车|机械|桥梁|军工|水利|配套">★ 大型工程与机械舟车配套</span>
@@ -96,17 +132,7 @@ textarea{width:100%;min-height:190px;font:14pt/1.55 "Microsoft YaHei";padding:12
 <span class="chip" data-purp="远景|全景|空镜|堪景|环境">全景环境与地理空镜</span>
 <span class="chip" data-purp="特写|微距|肌理|铭文|纹饰">文物肌理与微距特写</span>
 </div>
-<div class="row">
-<b>四、搜索与排序</b>
-<input id="q" placeholder="支持多关键词空格组合检索（如：渤海国 舍利、南诏 铁柱、西辽 铜镜、楼船、水运仪象台、攻城、战车）…">
-<select id="sort" style="font-size:15pt;padding:8px 12px;border:1px solid #d9d0be;border-radius:8px;background:#fff;font-weight:bold;color:#1d4d44">
-  <option value="chrono">排序：按历史朝代与细分政权正序（夏→商→周→秦汉→魏晋→隋唐→宋元明清 · 推荐）</option>
-  <option value="newest">排序：按最新扩充批次优先（最新→最早）</option>
-  <option value="seq">排序：按专集入库序号（1→N）</option>
-  <option value="purpose">排序：按影视美术用途归类</option>
-</select>
-<button id="reset">重置全部筛选</button>
-<button class="primary" id="exportTxt">导出当前筛选 TXT</button>
+  </div>
 </div>
 <div class="pager">
 <span id="count" style="font-weight:bold;color:#1d4d44"></span>
