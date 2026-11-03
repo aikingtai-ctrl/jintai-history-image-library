@@ -259,7 +259,7 @@ function renderP(){
       <textarea id="${tid}" readonly>${esc(it[8])}</textarea>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
         <button class="primary" onclick="copyText(document.getElementById('${tid}').value,false)">📋 仅复制提示词</button>
-        <button class="gold" onclick="copyText(document.getElementById('${tid}').value,true)">🚀 复制并打开 IMAGE 2</button>
+        <button class="gold" onclick="copyText(document.getElementById('${tid}').value,true)">复制并打开 GPT Image 2</button>
       </div>
     </div>`;
   }).join('');
@@ -283,7 +283,7 @@ function renderL(){
       <textarea id="${tid}" readonly>${esc(p0)}</textarea>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
         <button class="primary" onclick="copyText(document.getElementById('${tid}').value,false)">📋 复制首镜提示词</button>
-        <button class="gold" onclick="copyText(document.getElementById('${tid}').value,true)">🚀 复制并打开 IMAGE 2</button>
+        <button class="gold" onclick="copyText(document.getElementById('${tid}').value,true)">复制并打开 GPT Image 2</button>
       </div>
     </div>`;
   }).join('');

@@ -370,7 +370,7 @@ function renderPrompts() {
       <textarea readonly id="pt_${r.seq}">${r.prompt}</textarea>
       <div class="bar" style="margin:4px 0">
         <button class="primary" onclick="copyText('pt_${r.seq}', false)">复制十二段提示词</button>
-        <button class="gold" onclick="copyText('pt_${r.seq}', true)">复制并打开 IMAGE 2</button>
+        <button class="gold" onclick="copyText('pt_${r.seq}', true)">复制并打开 GPT Image 2</button>
       </div>
     `;
     g.appendChild(d);
@@ -408,7 +408,7 @@ function renderExisting() {
       <textarea readonly id="ex_${idx}">${r.variants[0] ? r.variants[0].p : ''}</textarea>
       <div class="bar" style="margin:4px 0">
         <button class="primary" onclick="copyText('ex_${idx}', false)">复制当前视角提示词</button>
-        <button class="gold" onclick="copyText('ex_${idx}', true)">复制并打开 IMAGE 2</button>
+        <button class="gold" onclick="copyText('ex_${idx}', true)">复制并打开 GPT Image 2</button>
       </div>
     `;
     g.appendChild(d);

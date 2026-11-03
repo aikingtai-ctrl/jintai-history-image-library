@@ -194,7 +194,7 @@ function render(){
         <label style="font-size:15pt">机位：</label>
         <select onchange="sw(${cardIdx},this.value)">${opts}</select>
         <button class="primary" onclick="cp(${cardIdx},false)">复制提示词</button>
-        <button class="red" onclick="cp(${cardIdx},true)">复制并打开 IMAGE 2</button>
+        <button class="red" onclick="cp(${cardIdx},true)">复制并打开 GPT Image 2</button>
         <span id="m_${cardIdx}" style="font-size:15pt;color:#284b45;font-weight:bold"></span>
       </div>
       <textarea readonly id="t_${cardIdx}">${r.variants[0].p}</textarea>
@@ -206,7 +206,7 @@ window.sw=function(cardIdx,vIdx){$('t_'+cardIdx).value=list[cardIdx].variants[pa
 window.cp=async function(cardIdx,openJm){
   const el=$('t_'+cardIdx),msg=$('m_'+cardIdx);
   try{await navigator.clipboard.writeText(el.value);}catch(e){el.select();document.execCommand('copy');}
-  msg.textContent=openJm?'✓ 已复制并打开 IMAGE 2':'✓ 已复制';
+  msg.textContent=openJm?'✓ 已复制并打开 GPT Image 2':'✓ 已复制';
   if(openJm) window.open(JIMENG,'_blank');
 };
 document.querySelectorAll('#grpRow .chip').forEach(c=>c.onclick=()=>{

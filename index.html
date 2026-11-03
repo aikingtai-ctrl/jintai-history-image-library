@@ -382,7 +382,7 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
   <div class="prompt-box" id="dprompt"></div>
   <div class="actions">
     <button id="copy">复制当前提示词</button>
-    <button id="go" class="secondary">复制并打开即梦</button>
+    <button id="go" class="secondary">复制并打开 GPT Image 2</button>
     <button id="copyAll" class="secondary">复制全部视角</button>
     <button id="dl" class="secondary">下载条目 TXT</button>
     <button id="close" class="secondary">关闭</button>
@@ -1040,7 +1040,7 @@ $('export').onclick=async()=>{
 };
 $('copy').onclick=async()=>{ const v=(cur.variants||[])[curIdx]; if(!v)return; await cp(v.prompt||''); $('copy').textContent='已复制 ✓'; setTimeout(()=>$('copy').textContent='复制当前提示词',1200); };
 $('copyAll').onclick=async()=>{ const t=(cur.variants||[]).map(v=>`【${v.label||''}${v.ratio?' '+v.ratio:''}】\n${v.prompt||''}`).join('\n\n'); await cp(t); $('copyAll').textContent='已复制全部 ✓'; setTimeout(()=>$('copyAll').textContent='复制全部视角',1200); };
-$('go').onclick=async()=>{ const v=(cur.variants||[])[curIdx]; if(v) await cp(v.prompt||''); window.open(JIMENG,'_blank'); };
+$('go').onclick=async()=>{ const v=(cur.variants||[])[curIdx]; window.open(JIMENG,'_blank','noopener'); if(v) await cp(v.prompt||''); $('go').textContent='已复制 · 已打开 GPT Image 2 ✓'; setTimeout(()=>$('go').textContent='复制并打开 GPT Image 2',1400); };
 $('dl').onclick=()=>{ const t=`${cur.title} (${cur.id})\n${cur.era||''} ${cur.dyn||''} / ${cur._effKind||cur.kind||''} ${cur.cat||''}\n\n`+(cur.variants||[]).map(v=>`【${v.label||''}${v.ratio?' '+v.ratio:''}】\n${v.prompt||''}`).join('\n\n'); dlTxt(`${cur.id}_${cur.title}.txt`,t); };
 $('close').onclick=()=>$('detail').close();
 $('detail').onclick=e=>{ if(e.target===$('detail')) $('detail').close(); };

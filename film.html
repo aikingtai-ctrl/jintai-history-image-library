@@ -378,8 +378,8 @@ async function openDetail(id){const r=BYID.get(id);if(!r)return;CUR=r;await ensu
  ${pending?`<p class="muted small">核验状态：${esc(r.verification||'观图待人工核')}</p>`:''}${limits?`<p class="muted small">画面限制：${esc(limits)}</p>`:''}${r.review?`<p class="muted small">复核记录：${esc(r.review)}</p>`:''}
  <h3>这一镜</h3><p class="note">${esc(r.sc)}${r.wh?`<br><span class="muted small">位置：${esc(r.wh)}${r.pl?' · '+esc(r.pl):''}</span>`:r.pl?`<br><span class="muted small">${esc(r.pl)}</span>`:''}</p>
  <h3>研究笔记：光、色、构图如何表达情绪</h3><p class="note">${esc(r.note===undefined?'正文未成功载入，请关闭后重试。':r.note)}</p>
- <h3>${pending?'创作提示词（来源静帧改写）':'复刻提示词（原创同构画面，贴进 IMAGE 2）'}</h3><textarea class="pr" id="dPr" readonly>${esc(r.pr)}</textarea>
- <div class="btns"><button class="pri" id="dCopy">复制提示词</button><button id="dGo">复制并打开 IMAGE 2</button><button id="dCopyAll">复制镜头卡（含标签）</button></div>
+ <h3>${pending?'创作提示词（来源静帧改写）':'复刻提示词（原创同构画面，贴进 GPT Image 2）'}</h3><textarea class="pr" id="dPr" readonly>${esc(r.pr)}</textarea>
+ <div class="btns"><button class="pri" id="dCopy">复制提示词</button><button id="dGo">复制并打开 GPT Image 2</button><button id="dCopyAll">复制镜头卡（含标签）</button></div>
  <h3>去看原片画面</h3><div class="btns">${extLinks(r)}</div></div>
  <div><table class="kv">
  <tr><th>景别</th><td>${tags('size',r.size)}</td></tr><tr><th>机位角度</th><td>${tags('angle',r.angle)}</td></tr><tr><th>画面人物</th><td>${tags('frame',r.frame)}</td></tr>
@@ -400,7 +400,7 @@ async function openDetail(id){const r=BYID.get(id);if(!r)return;CUR=r;await ensu
  d.querySelectorAll('.palbig div').forEach(e=>e.onclick=()=>copy(e.dataset.hex,'已复制色值 '+e.dataset.hex));
  d.querySelectorAll('[data-copyopen]').forEach(a=>a.onclick=ev=>{ev.preventDefault();copy(a.dataset.copy,'已复制「'+a.dataset.copy+'」，登录后粘贴搜索');window.open(a.dataset.copyopen,'_blank','noopener');});
  $('dWork').onclick=ev=>{ev.preventDefault();d.close();WID=r.W.wid;showTab('find');apply();};
- $('dCopy').onclick=()=>copy(r.pr,'已复制复刻提示词');$('dGo').onclick=()=>{copy(r.pr,'已复制，IMAGE 2 已在新标签打开，粘贴即可');window.open(JIMENG,'_blank','noopener');};
+ $('dCopy').onclick=()=>copy(r.pr,'已复制复刻提示词');$('dGo').onclick=()=>{copy(r.pr,'已复制，GPT Image 2 已在新标签打开，粘贴即可');window.open(JIMENG,'_blank','noopener');};
  $('dCopyAll').onclick=()=>copy(shotText(r),'已复制镜头卡');
  for(const id of ['dCopy','dGo','dCopyAll'])$(id).disabled=pending&&(r.pr===undefined||r.note===undefined);
  $('dAdd').textContent=deckHas(r.id)?'✓ 已在当前图集':'＋ 加入图集';$('dCmp').textContent=CMP.includes(r.id)?'✓ 对照中':'加入对照';

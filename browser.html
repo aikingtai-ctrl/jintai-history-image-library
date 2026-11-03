@@ -192,9 +192,9 @@ main{max-width:1640px;margin:0 auto;padding:10px 26px 44px}
       <div id="mTabs" class="view-tabs"></div>
       <div id="mPrompt" class="prompt-box"></div>
       <div class="modal-actions">
-        <button onclick="copyCur()">复制当前提示词</button>
-        <button class="sec" onclick="copyAndJimeng()">复制并打开即梦</button>
-        <button class="sec" onclick="copyAll()">复制全部视角</button>
+        <button id="btnCopyCur" onclick="copyCur()">复制当前提示词</button>
+        <button id="btnGoGpt" class="sec" onclick="copyAndOpenGpt()">复制并打开 GPT Image 2</button>
+        <button id="btnCopyAll" class="sec" onclick="copyAll()">复制全部视角</button>
       </div>
     </div>
   </div>
@@ -313,9 +313,9 @@ function renderModalView(){
 }
 function closeModal(){$('modal').classList.remove('open');}
 async function clip(t){try{await navigator.clipboard.writeText(t);}catch{const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();}}
-async function copyCur(){if(!curItem||!(curItem.variants||[])[curView])return;await clip(curItem.variants[curView].prompt||'');}
-async function copyAll(){if(!curItem)return;await clip((curItem.variants||[]).map(v=>`【${v.label||v.name||''}】\n${v.prompt||''}`).join('\n\n'));}
-async function copyAndJimeng(){await copyCur();window.open(JIMENG,'_blank');}
+async function copyCur(){if(!curItem||!(curItem.variants||[])[curView])return;await clip(curItem.variants[curView].prompt||'');if($('btnCopyCur')){$('btnCopyCur').textContent='已复制 ✓';setTimeout(()=>$('btnCopyCur').textContent='复制当前提示词',1200);}}
+async function copyAll(){if(!curItem)return;await clip((curItem.variants||[]).map(v=>`【${v.label||v.name||''}】\n${v.prompt||''}`).join('\n\n'));if($('btnCopyAll')){$('btnCopyAll').textContent='已复制全部 ✓';setTimeout(()=>$('btnCopyAll').textContent='复制全部视角',1200);}}
+async function copyAndOpenGpt(){window.open(JIMENG,'_blank','noopener');if(curItem&&(curItem.variants||[])[curView])await clip(curItem.variants[curView].prompt||'');if($('btnGoGpt')){$('btnGoGpt').textContent='已复制 · 已打开 GPT Image 2 ✓';setTimeout(()=>$('btnGoGpt').textContent='复制并打开 GPT Image 2',1400);}}
 
 let qTmr=null;
 $('group').onchange=e=>{state.group=e.target.value;rebuildCats();apply();};

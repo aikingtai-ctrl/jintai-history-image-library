@@ -39,27 +39,40 @@ button.gold{background:#7a283b;border-color:#7a283b;color:#fff;font-weight:600}
 textarea{width:100%;min-height:215px;background:#fafcfb;color:#1d2825;border:1px solid #c5d3cb;border-radius:8px;padding:11px;font:12.5pt/1.58 "Microsoft YaHei";resize:vertical}
 .pager{display:flex;gap:14px;align-items:center;margin:18px 0;flex-wrap:wrap}
 @media(max-width:1100px){.grid{grid-template-columns:1fr}}
+
+/* === Minimalist Light Override (2026-11-03) === */
+body{background:#f6f5f1!important;color:#19231f!important}
+header.min-topbar{max-width:1640px;margin:0 auto;padding:10px 26px 8px!important;background:transparent!important;border-bottom:1px solid #e3dfd6!important;display:flex;flex-direction:column;gap:8px}
+header.min-topbar .top-line{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;width:100%}
+header.min-topbar .brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+header.min-topbar .brand a{color:#1f5c48;text-decoration:none;font-size:14pt;font-weight:600}
+header.min-topbar .brand strong{font-size:17.5pt;color:#19231f}
+header.min-topbar .tabs{margin:0!important;gap:8px!important;display:flex;flex-wrap:wrap}
+header.min-topbar .tabs button{padding:5px 13px!important;font-size:13pt!important;border-radius:8px!important}
+header.min-topbar .topnav{display:flex;gap:14px;font-size:13.5pt}
+header.min-topbar .topnav a{color:#63706a;text-decoration:none}
+header.min-topbar .topnav a:hover{color:#1f5c48}
+main{max-width:1640px!important;padding:10px 26px 44px!important}
+.toolbar,.bar{background:#fff!important;border:1px solid #e3dfd6!important;border-radius:11px!important;padding:10px 14px!important;margin-bottom:14px!important;box-shadow:none!important}
+.toolbar input[type="search"],.toolbar input[id^="q"],.bar input[type="search"],.bar input[id^="q"]{font-size:16.5pt!important;padding:9px 14px!important;border:1.5px solid #c9c4b8!important;border-radius:9px!important}
+details.chip-fold{margin-top:8px;width:100%}
+details.chip-fold summary{cursor:pointer;color:#63706a;font-size:13.5pt;padding:4px 0;user-select:none}
 </style>
 </head>
 <body>
-<header>
-  <p style="margin:0 0 8px;font-size:14.5pt;line-height:1.6"><a href="portal.html" style="color:#1f473e;font-weight:bold">← 总导航台</a> ｜ <a href="index.html" style="color:#1f473e;font-weight:bold">图库总检索（63,179条目 / 318,412提示词）</a> ｜ <a href="browser.html" style="color:#1f473e;font-weight:bold">提示词浏览器（62,186条目）</a> ｜ <a href="liaozhai.html" style="color:#7a283b;font-weight:bold">★ 聊斋志异全谱专集（361组 / 2,998条）</a> ｜ <a href="hongloumeng.html" style="color:#9f1239;font-weight:bold">红楼梦专集（2,327条）</a> ｜ <a href="zhiguai31.html" style="color:#4a2574;font-weight:bold">57部志怪（8,000条）</a> ｜ <a href="epics.html" style="color:#5b3277;font-weight:bold">古典文学与史诗（6,280条）</a> ｜ <a href="figures.html" style="color:#8a1c1c;font-weight:bold">历史名人（16,000人）</a> ｜ <a href="dynasty2000.html" style="color:#1d5c42;font-weight:bold">薄弱与配套（54,000条）</a> ｜ <a href="arch5680.html" style="color:#1f4e5f;font-weight:bold">历代建筑（8,906座）</a> ｜ <a href="websearch5000.html" style="color:#1b4f72;font-weight:bold">全网考证库（93,000条）</a> ｜ <a href="film.html" style="color:#7a1f1f;font-weight:bold">影视参考（125.9万镜）</a> ｜ <a href="更新记录.html" style="color:#b91c1c;font-weight:bold">📋 更新记录</a></p>
-  <h1>👻 《聊斋志异》角色造型·奇幻场景·法器道具全谱考证专集</h1>
-  <div class="stats">
-    <span>专项新增 200 组独立聊斋档案（LZ001–LZ200 · 2,000 条十二段中文提示词）</span>
-    <span>角色立像与双人对手戏 1,000 条 ＋ 奇幻院落名场面 600 条 ＋ 纯建筑陈设空镜底图 @SCN 200 条 ＋ 法器信物与奇巧配套 @PRP 200 条</span>
-    <span>合璧全库既有 161 组聊斋馆藏资产（总计 361 组 · 2,998 条）</span>
-  </div>
-  <div class="notice">
-    <b>考证基准与八大板块（每类 25 组 · 250 条）：</b>严格依据<b>蒲松龄手稿四函、乾隆铸雪斋抄本、青柯亭刻本十六卷、光绪十二年上海同文书局《详注聊斋志异图咏》445幅线描册页</b>及<b>山东淄博蒲松龄纪念馆馆藏实物与明清衣冠建筑法式</b>构建，零 A 机调用、零否定词。全面覆盖：<br>
-    ① <b>狐仙灵姝与青丘情缘谱系（LZ001–025）</b>：青凤、娇娜、婴宁、小翠、辛十四娘、鸦头、莲香、红玉、凤阳士人、胡四姐、封三娘、狐梦四姝、长亭、恒娘、胡四娘、嫦娥、蕙芳、仙人岛芳云绿云、小梅、毛狐、张鸿渐舜华、霍女、姬生、冷生、汾州狐；<br>
-    ② <b>幽冥鬼姝与兰若才女谱系（LZ026–050）</b>：聂小倩归宁侍母、连城倦绣、小谢秋容、宦娘古琴、绿衣女、鲁公女、公孙九娘、林四娘舞剑、晚霞、梅女、伍秋月、巧娘、章阿端、金生色、湘裙、小猎犬、连锁续诗、瑞云点额、聂政、王六郎渔神、褚生、叶生、爱奴、细柳、鬼妻；<br>
-    ③ <b>花妖木客与禽鱼精魂谱系（LZ051–075）</b>：葛巾紫牡丹、香玉绛雪、黄英陶三郎、荷花三娘子、竹青神鸦、阿纤鼠仙、白秋练洞庭宫词、花姑子獐仙、绿蜂仙眷、阿英鹦鹉、禽侠白鹳、大鼠狮猫、义犬、粤西白象、海公子巨蛇、蛇人二青、蛙曲、蜂王、黎氏狼妇、毛大福医狼、赵城虎孝义、义鼠、鸽异白鸽、绛妃护花、粉蝶焦尾琴；<br>
-    ④ <b>侠女奇人·才子书生与世情百态谱系（LZ076–100）</b>：白衣侠女、庚娘手刃仇寇、胭脂辩冤、细侯、商三官、乔女、珊瑚、仇大娘、田七郎、向杲化虎、崔猛、老饕、燕赤霞本传、王成斗鹑、石清虚奇石、书痴颜如玉、阿宝化鹦鹉、局诈、念秧、偷桃、口技、戏术、蒲松龄柳泉采风本像、司文郎盲僧嗅文、王子安醉梦；<br>
-    ⑤ <b>荒寺古宅·鲁中书斋与名园洞天场景（LZ101–125）</b>：金华兰若寺、淄川聊斋书屋与柳泉茅亭、崂山太清宫、太原画皮书斋、终南山茨菇花坞、渭南姜第荒楼、散花天女壁画大殿、王太常府蹴鞠园、曹州牡丹台、金陵东篱菊圃、广平古刹喜堂、青州衡王府废宫月台、大明湖历下亭、历城山洞狐府、齐东骡马店与赵城煎饼铺、翩翩芭蕉仙洞、促织寒斋草市、顺天贡院万间号舍、莱阳白杨义冢、扬州运河官舫金山寺、姑苏山塘花船、泰山十八盘碧霞祠、晋中石窑古堡、江南月洞门琴台、长白山雪夜书院与俚曲古戏台；<br>
-    ⑥ <b>龙宫海市·幽冥十殿与天界幻境场景（LZ126–150）</b>：东海水晶龙宫、森罗宝殿业镜台、考弊司虚肚鬼王署、九天灌口二郎金阙、广寒清虚月殿、大罗刹国朝堂与云端海市、洞庭君山湘妃阁、西湖水底副将军府、丰都奈河桥迷魂亭、东海仙人岛琼台、海外夜叉国火山石窟、大人国丈竹巨谷、天河织女机房、华山长空栈道、桂林钟乳暗河、奂山山市危楼、五台山佛光金顶、江汉青蛙神祠、焚毁五通淫祠、塞外黑风古烽燧、酆都铁围城金刚佛光、世外桃花水车村、梦狼虎狼公堂、雷曹九天星海、崂山下清宫雪月花神坛；<br>
-    ⑦ <b>经典篇章高潮戏剧名场面全谱（LZ151–175）</b>：火救褐衣蜂国、续黄粱古寺惊梦、促织跃立鸡冠、施愚山灯勘绣鞋、王成白玉鹑夺魁、田七郎单刀闯署、侠女飞剑斩狐、画皮吞丸呕心复生、道士当街种梨、屠户积薪劈双狼、青布幔口技百声、康熙郯城大震楼阁如舟纪实、韩干画马破绢救主、费县令揖石折狱、凤仙铜镜显影劝学、青梅执帚奔寒窑、贾奉雉仙洞百年归祠、云翠仙泰山化云斥赌徒、鱼容披乌衣化鸦掠江、西湖射蛇抛红巾、细柳空棺顽石戒赌、闻人生怒斥鬼王拔齿、乐云鹤拨云私雨济旱、京师假王府骗局拆穿、柳泉百魅万象总长卷；<br>
-    ⑧ <b>聊斋法器·花魂信物·才子书斋器用与奇巧配套（LZ176–200）</b>：燕赤霞牛皮剑袋飞剑组、画皮彩笔蝇拂革囊组、崂山剪纸月锡酒壶组、凤仙海兽葡萄显影铜镜组、娇娜紫檀药匣赤金毫针组、婴宁锦囊白梅海棠茗器组、促织宣德澄泥盆金丝笼组、石清虚生云太湖供石组、胭脂白绫红莲绣鞋判词组、陆判朱砂判官笔生死簿镂金樽组、宦娘蛇腹断纹唐琴薛涛笺组、连城顾绣《倦绣图》湘竹绷组、龙宫水晶案夜明珠黄金简组、葛巾紫牡丹汉白玉盆银铫组、小翠五彩锦鞠和田白玉瓶组，及黄英菊酒瓮、白秋练洞庭水青花大缸、翩翩芭蕉裁衣白云筐、蒲松龄聊斋手稿油灯端砚、青柯亭与同文图咏雕版工坊、席方平冥司天平金令箭、种梨偷桃百戏独轮车、胡四娘十里红妆八抬喜轿、狐嫁女天顺赤金爵百席灯具、柳泉博山茶壶与聊斋俚曲扬琴三弦全套配套。
+<header class="min-topbar">
+  <div class="top-line">
+    <div class="brand">
+      <a href="index.html">← 全库总检索</a>
+      <span>·</span>
+      <strong>聊斋志异全谱专集 · 2,998 条</strong>
+    </div>
+    <nav class="topnav">
+      <a href="图库总入口.html">专集目录</a>
+      <a href="browser.html">分卷浏览</a>
+      <a href="film.html">影视参考</a>
+      <a href="更新记录.html">更新记录</a>
+    </nav>
   </div>
   <div class="tabs">
     <button class="tab on" id="tGrp" onclick="setTab('grp')">一、200 组《聊斋志异》角色·场景·法器道具总表（LZ001–LZ200）</button>
@@ -70,7 +83,7 @@ textarea{width:100%;min-height:215px;background:#fafcfb;color:#1d2825;border:1px
 <main>
   <section id="secGrp">
     <div class="bar">
-      <input id="qG" placeholder="多词空格搜索角色、篇名、场景、法器（如：聂小倩 燕赤霞、婴宁 梅花、画皮 蝇拂、罗刹海市 水晶宫、促织 澄泥盆、崂山 剪月）…">
+      <input autofocus type="search" id="qG" placeholder="多词空格搜索角色、篇名、场景、法器（如：聂小倩 燕赤霞、婴宁 梅花、画皮 蝇拂、罗刹海市 水晶宫、促织 澄泥盆、崂山 剪月）…">
       <select id="secG">
         <option value="">全部八大聊斋门类（200组 · 2,000条）</option>
         <option value="狐仙灵姝与青丘情缘谱系">① 狐仙灵姝与青丘情缘谱系（25组）</option>
@@ -101,7 +114,7 @@ textarea{width:100%;min-height:215px;background:#fafcfb;color:#1d2825;border:1px
 
   <section id="secPrm" style="display:none">
     <div class="bar">
-      <input id="qP" placeholder="搜索 2,000 条十二段提示词（如：纯景空镜底图、剑袋、海兽葡萄镜、兰若寺、黄英、席方平、山市）…">
+      <input type="search" id="qP" placeholder="搜索 2,000 条十二段提示词（如：纯景空镜底图、剑袋、海兽葡萄镜、兰若寺、黄英、席方平、山市）…">
       <select id="secP">
         <option value="">全部八大聊斋门类（2,000条）</option>
         <option value="狐仙灵姝与青丘情缘谱系">① 狐仙灵姝与青丘情缘</option>
@@ -130,7 +143,7 @@ textarea{width:100%;min-height:215px;background:#fafcfb;color:#1d2825;border:1px
 
   <section id="secLeg" style="display:none">
     <div class="bar">
-      <input id="qL" placeholder="搜索全库既有 161 组《聊斋志异》考证条目（如：画皮、聂小倩、崂山道士、罗刹海市、蒲松龄）…">
+      <input type="search" id="qL" placeholder="搜索全库既有 161 组《聊斋志异》考证条目（如：画皮、聂小倩、崂山道士、罗刹海市、蒲松龄）…">
     </div>
     <div id="infoL" style="font-size:13.5pt;color:#475852;margin:6px 0"></div>
     <div class="grid" id="gridL"></div>
@@ -248,7 +261,7 @@ function renderP(){
       <textarea id="${tid}" readonly>${esc(it[8])}</textarea>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
         <button class="primary" onclick="copyText(document.getElementById('${tid}').value,false)">📋 仅复制提示词</button>
-        <button class="gold" onclick="copyText(document.getElementById('${tid}').value,true)">🚀 复制并打开 IMAGE 2</button>
+        <button class="gold" onclick="copyText(document.getElementById('${tid}').value,true)">复制并打开 GPT Image 2</button>
       </div>
     </div>`;
   }).join('');
@@ -273,7 +286,7 @@ function renderL(){
       <textarea id="${tid}" readonly>${esc(p0)}</textarea>
       <div style="display:flex;gap:10px;flex-wrap:wrap">
         <button class="primary" onclick="copyText(document.getElementById('${tid}').value,false)">📋 复制首镜提示词</button>
-        <button class="gold" onclick="copyText(document.getElementById('${tid}').value,true)">🚀 复制并打开 IMAGE 2</button>
+        <button class="gold" onclick="copyText(document.getElementById('${tid}').value,true)">复制并打开 GPT Image 2</button>
       </div>
     </div>`;
   }).join('');
