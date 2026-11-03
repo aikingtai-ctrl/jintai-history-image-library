@@ -39,24 +39,40 @@ button.gold{background:#8c232c;border-color:#8c232c;color:#fff;font-weight:600}
 textarea{width:100%;min-height:215px;background:#fcfaf5;color:#231b18;border:1px solid #d5c8b4;border-radius:8px;padding:11px;font:12.5pt/1.58 "Microsoft YaHei";resize:vertical}
 .pager{display:flex;gap:14px;align-items:center;margin:18px 0;flex-wrap:wrap}
 @media(max-width:1100px){.grid{grid-template-columns:1fr}}
+
+/* === Minimalist Light Override (2026-11-03) === */
+body{background:#f6f5f1!important;color:#19231f!important}
+header.min-topbar{max-width:1640px;margin:0 auto;padding:10px 26px 8px!important;background:transparent!important;border-bottom:1px solid #e3dfd6!important;display:flex;flex-direction:column;gap:8px}
+header.min-topbar .top-line{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;width:100%}
+header.min-topbar .brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+header.min-topbar .brand a{color:#1f5c48;text-decoration:none;font-size:14pt;font-weight:600}
+header.min-topbar .brand strong{font-size:17.5pt;color:#19231f}
+header.min-topbar .tabs{margin:0!important;gap:8px!important;display:flex;flex-wrap:wrap}
+header.min-topbar .tabs button{padding:5px 13px!important;font-size:13pt!important;border-radius:8px!important}
+header.min-topbar .topnav{display:flex;gap:14px;font-size:13.5pt}
+header.min-topbar .topnav a{color:#63706a;text-decoration:none}
+header.min-topbar .topnav a:hover{color:#1f5c48}
+main{max-width:1640px!important;padding:10px 26px 44px!important}
+.toolbar,.bar{background:#fff!important;border:1px solid #e3dfd6!important;border-radius:11px!important;padding:10px 14px!important;margin-bottom:14px!important;box-shadow:none!important}
+.toolbar input[type="search"],.toolbar input[id^="q"],.bar input[type="search"],.bar input[id^="q"]{font-size:16.5pt!important;padding:9px 14px!important;border:1.5px solid #c9c4b8!important;border-radius:9px!important}
+details.chip-fold{margin-top:8px;width:100%}
+details.chip-fold summary{cursor:pointer;color:#63706a;font-size:13.5pt;padding:4px 0;user-select:none}
 </style>
 </head>
 <body>
-<header>
-  <p style="margin:0 0 8px;font-size:14.5pt;line-height:1.6"><a href="index.html" style="color:#284b45;font-weight:bold">← 返回《图库总检索》首页（63,179条目 / 318,412提示词）</a> ｜ <a href="browser.html" style="color:#284b45;font-weight:bold">提示词浏览器（62,186条目·31.3万条）</a> ｜ <a href="figures.html" style="color:#8a1c1c;font-weight:bold">历代历史名人（16,000人）</a> ｜ <a href="dynasty2000.html" style="color:#1d5c42;font-weight:bold">薄弱环节与工程配套（54,000条）</a> ｜ <a href="zhiguai31.html" style="color:#4a2574;font-weight:bold">57部志怪神魔总集（8,000条）</a> ｜ <a href="epics.html" style="color:#5b3277;font-weight:bold">古典文学与民族史诗（6,280条）</a> ｜ <a href="hongloumeng.html" style="color:#9f1239;font-weight:bold">红楼梦专集（2,327条）</a> ｜ <a href="liaozhai.html" style="color:#7a283b;font-weight:bold">聊斋志异专集（2,998条）</a> ｜ <a href="arch5680.html" style="color:#1f4e5f;font-weight:bold">历代建筑总集（8,906座）</a> ｜ <a href="myth5000.html" style="color:#5b2c83;font-weight:bold">神话传说（5,000条目）</a> ｜ <a href="websearch5000.html" style="color:#1b4f72;font-weight:bold">全网考证总库（93,000条）</a> ｜ <a href="film.html" style="color:#7a1f1f;font-weight:bold">影视参考图集（28,500部·125.9万镜）</a> ｜ <a href="更新记录.html" style="color:#b91c1c;font-weight:bold;background:#fff1f2;padding:2px 8px;border-radius:6px;border:1px solid #fecdd3">📋 更新记录（11-03全库66格破150·W4200已更）</a> ｜ <a href="每日更新/00_每日更新总目录.html" style="color:#7f1d1d;font-weight:bold">📂 每日成果总目录</a></p>
-  <h1>🏮 《红楼梦》角色造型与大观园·荣宁二府全场景考证专集</h1>
-  <div class="stats">
-    <span>专项新增 200 组独立红楼档案（HLM001–HLM200 · 2,000 条十二段中文提示词）</span>
-    <span>角色立像与对手戏 1,000 条 ＋ 院落名场面 600 条 ＋ 纯建筑陈设空镜底图 200 条 ＋ 织造器物微距 200 条</span>
-    <span>合璧全库既有 44 组红楼资产（总计 244 组 · 2,327 条）</span>
-  </div>
-  <div class="notice">
-    <b>考证基准与八大板块：</b>严格依据《脂砚斋重评石头记》（甲戌/庚辰/蒙府/戚序本）与程甲本百二十回原典、<b>旅顺博物馆藏清孙温绘全本《红楼梦》230幅绢本界画</b>、<b>清改琦《红楼梦图咏》五十幅</b>、<b>费丹旭《十二金钗图册》</b>及<b>南京江宁织造博物馆/故宫博物院康乾云锦妆花刻丝实物</b>构建，零 A 机生成、零否定词。涵盖：<br>
-    ① <b>金陵十二钗正册多阶段独立造型（25组·HLM001–025）</b>：黛玉四态（进府/葬花/潇湘夜雨/焚稿）、宝钗三态（扑蝶/雪洞/金玉大礼）、元春省亲、探春三态（海棠理家/兴利改革/远嫁海疆）、湘云三态（醉眠芍药/烤鹿肉/凹晶联句）、妙玉、迎春、惜春、凤姐三态、巧姐二态、李纨、秦可卿二态；<br>
-    ② <b>副册与又副册群芳＋贾宝玉四套核心冠服＋贾母（25组·HLM026–050，及HLM151–155补完）</b>：香菱、宝琴（凫靥裘立雪）、尤二姐、尤三姐、邢岫烟、李纹李绮、晴雯（撕扇/补雀金裘）、袭人、平儿、鸳鸯、紫鹃、莺儿、麝月、司棋、金钏玉钏、小红、芳官、龄官藕官蕊官、琥珀珍珠翡翠玻璃、琴棋书画四侍女、雪雁春纤、彩霞、秋桐宝蟾，以及宝玉紫金冠箭袖/内帏银红袄/玉针蓑雪衣/雀金呢四态；<br>
-    ③ <b>世家男主皇亲公子与三教九流百态（44组·HLM051–084、HLM156–165）</b>：贾政、王夫人、贾赦邢夫人、贾敬贾珍尤氏、贾琏、贾蓉贾蔷、贾环贾兰、北静王、南安太妃、秦钟、柳湘莲、蒋玉菡、甄宝玉、甄应嘉、冯紫英、薛蟠夏金桂、贾雨村、甄士隐、刘姥姥板儿、焦大、赵姨娘马道婆、赖大林之孝周瑞乌进孝、茗烟、张太医、渺渺茫茫二仙与警幻仙姑；<br>
-    ④ <b>大观园二十八院落＋荣宁二府王公第宅＋京师江南外景（39组·HLM085–114、HLM166–175）</b>：大观园鸟瞰全景、翠嶂正门、沁芳亭桥、潇湘馆内外、怡红院绛芸轩、蘅芜苑、秋爽斋、稻香村、栊翠庵、紫菱洲、暖香坞、芦雪广、藕香榭、滴翠亭、凸碧堂、凹晶馆、省亲大观楼、蓼汀花溆、花冢、小厨房、鹿栅鹤苑、牡丹芍药圃；宁荣街大门、荣禧堂、荣庆堂、梨香院、大厨房银缎库、宁府会芳园宗祠、鼓楼恒舒典、扬州盐署、西山悼红轩与太虚幻境三生石（每组均含<b>第07镜纯建筑陈设空镜底图</b>）；<br>
-    ⑤ <b>前八十回与后四十回高潮名场面全谱（62组·HLM115–150、HLM176–200）</b>：共读西厢、元妃省亲、笞宝玉题旧帕、海棠菊花诗社、两宴大观园牙牌令、琉璃世界踏雪、群芳开夜宴掣花签、抄检大观园、祭芙蓉诔、焚稿断痴情、查抄宁国府、雪地拜辞归真及红楼茶酒御膳百美游园总长卷。
+<header class="min-topbar">
+  <div class="top-line">
+    <div class="brand">
+      <a href="index.html">← 全库总检索</a>
+      <span>·</span>
+      <strong>红楼梦角色与全场景专集 · 2,327 条</strong>
+    </div>
+    <nav class="topnav">
+      <a href="图库总入口.html">专集目录</a>
+      <a href="browser.html">分卷浏览</a>
+      <a href="film.html">影视参考</a>
+      <a href="更新记录.html">更新记录</a>
+    </nav>
   </div>
   <div class="tabs">
     <button class="tab on" id="tGrp" onclick="setTab('grp')">一、200 组红楼角色与大观园荣宁二府全场景总表（HLM001–HLM200）</button>
@@ -67,7 +83,7 @@ textarea{width:100%;min-height:215px;background:#fcfaf5;color:#231b18;border:1px
 <main>
   <section id="secGrp">
     <div class="bar">
-      <input id="qG" placeholder="多词空格搜索角色、院落、服饰、回目（如：林黛玉 葬花、潇湘馆 软烟罗、宝琴 凫靥裘、怡红院 穿衣镜、荣禧堂、晴雯 雀金裘）…">
+      <input autofocus type="search" id="qG" placeholder="多词空格搜索角色、院落、服饰、回目（如：林黛玉 葬花、潇湘馆 软烟罗、宝琴 凫靥裘、怡红院 穿衣镜、荣禧堂、晴雯 雀金裘）…">
       <select id="secG">
         <option value="">全部八大红楼门类（200组 · 2,000条）</option>
         <option value="金陵十二钗正册角色">① 金陵十二钗正册角色造型</option>
@@ -97,7 +113,7 @@ textarea{width:100%;min-height:215px;background:#fcfaf5;color:#231b18;border:1px
 
   <section id="secPrm" style="display:none">
     <div class="bar">
-      <input id="qP" placeholder="搜索 2,000 条十二段提示词（如：纯景空镜底图、软烟罗、雀金呢、大观楼、凹晶溪馆、夜宴掣花签）…">
+      <input type="search" id="qP" placeholder="搜索 2,000 条十二段提示词（如：纯景空镜底图、软烟罗、雀金呢、大观楼、凹晶溪馆、夜宴掣花签）…">
       <select id="secP">
         <option value="">全部八大红楼门类（2,000条）</option>
         <option value="金陵十二钗正册角色">① 金陵十二钗正册角色</option>
@@ -126,7 +142,7 @@ textarea{width:100%;min-height:215px;background:#fcfaf5;color:#231b18;border:1px
 
   <section id="secLeg" style="display:none">
     <div class="bar">
-      <input id="qL" placeholder="搜索全库既有 44 组《红楼梦》考证条目…">
+      <input type="search" id="qL" placeholder="搜索全库既有 44 组《红楼梦》考证条目…">
     </div>
     <div class="grid" id="gridL"></div>
   </section>

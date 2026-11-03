@@ -162,7 +162,7 @@ main{max-width:1640px;margin:0 auto;padding:10px 26px 44px}
     <option>日增 每日扩容 20260930</option>
   </optgroup>
 </select>
-    <select id="kind"><option value="">全部大类</option><option value="人物">人物</option><option value="场景">场景</option><option value="器物">器物</option></select>
+    <select id="kind"><option value="">全部大类</option><option value="历史名人">历史名人</option><option value="人物">人物</option><option value="场景">场景</option><option value="建筑">建筑</option><option value="器物">器物</option><option value="配套">配套</option><option value="事件">事件</option></select>
     <select id="cat"><option value="">全部细目</option></select>
     <select id="sort">
       <option value="chrono">年代正序</option>
@@ -231,36 +231,48 @@ window.__SHARD__=(file,g,recs)=>{const diskFile=_curLoadingFile||file;const idxB
 function hydrateShard(shardFile){if(!shardFile||hydratedShards.has(shardFile))return Promise.resolve(true);if(hydratingMap.has(shardFile))return hydratingMap.get(shardFile);const p=(async()=>{_curLoadingFile=shardFile;const ok=await loadScriptChain(buildUrls('d2/'+shardFile,DATA_DIR+'/'+shardFile,ALT_DIR+'/'+shardFile),12000);_curLoadingFile='';if(ok)hydratedShards.add(shardFile);return ok;})();hydratingMap.set(shardFile,p);return p;}
 function loadShard(s){if(loaded.has(s.file))return Promise.resolve();if(pending.has(s.file))return pending.get(s.file);const p=hydrateShard(s.file);pending.set(s.file,p);return p;}
 async function loadAll(){await Promise.all(IDX_CHUNKS.map(async fn=>{await loadScriptChain(buildUrls('d2_idx/'+fn,'d2_idx/'+fn,'d2_idx/'+fn),10000);apply();}));const extra=SHARDS.filter(s=>!loaded.has(s.file));for(const s of extra){await loadShard(s);}apply();}
-let PAGE=30;
+let PAGE=30, _lastCatCount=-1;
 let state={group:'',kind:'',cat:'',q:'',sort:'chrono',page:1},filtered=[],curItem=null,curView=0;
 const $=id=>document.getElementById(id);
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 
 function rebuildCats(){
-  const pool=DATA.filter(x=>(!state.group||x.group===state.group)&&(!state.kind||x.kind===state.kind));
-  const m=new Map();pool.forEach(x=>m.set(x.cat,(m.get(x.cat)||0)+1));
+  const pool=records.filter(x=>{
+    if(state.group && x.group!==state.group) return false;
+    if(state.kind){
+      if(state.kind==='历史名人' && !x._isHF) return false;
+      if(state.kind!=='历史名人' && x.kind!==state.kind) return false;
+    }
+    return true;
+  });
+  const m=new Map();
+  pool.forEach(x=>{ const c=x.catName||x.cat||''; if(c) m.set(c,(m.get(c)||0)+1); });
   const sel=$('cat'),prev=state.cat;
   sel.innerHTML='<option value="">全部细目 ('+m.size+')</option>'+[...m.entries()].sort((a,b)=>b[1]-a[1]).map(([k,v])=>`<option value="${esc(k)}">${esc(k)} (${v})</option>`).join('');
   sel.value=m.has(prev)?prev:'';state.cat=sel.value;
 }
 function apply(){
+  if(records.length!==_lastCatCount){ _lastCatCount=records.length; rebuildCats(); }
   const terms=state.q.trim().toLowerCase().split(/\s+/).filter(Boolean);
-  filtered=DATA.filter(x=>{
+  filtered=records.filter(x=>{
     if(state.group&&x.group!==state.group)return false;
-    if(state.kind&&x.kind!==state.kind)return false;
-    if(state.cat&&x.cat!==state.cat)return false;
+    if(state.kind){
+      if(state.kind==='历史名人'&&!x._isHF)return false;
+      if(state.kind!=='历史名人'&&x.kind!==state.kind)return false;
+    }
+    if(state.cat&&(x.catName||x.cat)!==state.cat)return false;
     if(terms.length){
-      const hay=(x.id+' '+x.title+' '+x.cat+' '+x.group+' '+(x.desc||'')).toLowerCase();
+      const hay=x._search||((x.id||'')+' '+(x.title||'')+' '+(x.group||'')+' '+(x.anchor||'')).toLowerCase();
       for(const t of terms){ if(!hay.includes(t)) return false; }
     }
     return true;
   });
   const s=state.sort||'chrono';
   filtered.sort((a,b)=>{
-    if(s==='chrono') return itemEraRank(a)-itemEraRank(b) || String(a.id).localeCompare(String(b.id));
-    if(s==='chronoDesc') return itemEraRank(b)-itemEraRank(a) || String(a.id).localeCompare(String(b.id));
-    if(s==='title') return String(a.title).localeCompare(String(b.title),'zh');
-    return String(a.id).localeCompare(String(b.id));
+    if(s==='chrono') return (a._gRank-b._gRank) || (a._idx-b._idx);
+    if(s==='chronoDesc') return (b._gRank-a._gRank) || (b._idx-a._idx);
+    if(s==='title') return String(a.title||'').localeCompare(String(b.title||''),'zh-CN');
+    return String(a.id||'').localeCompare(String(b.id||''));
   });
   state.page=1;render();
 }
@@ -272,8 +284,8 @@ function render(){
   const slice=filtered.slice((state.page-1)*PAGE,state.page*PAGE);
   $('grid').innerHTML=slice.map((x,idx)=>`<article class="card" onclick="openModal(${(state.page-1)*PAGE+idx})">
     <h3>${esc(x.title)}</h3>
-    <div class="desc">${esc(x.desc||'')}</div>
-    <div class="card-foot"><span>${esc((x.group||'').replace(/^[0-9]+_/,''))} ｜ ${esc(x.kind||'')} · ${esc(x.cat||'')}</span><span class="views">${(x.views||[]).length||4} 视角</span></div>
+    <div class="desc">${esc(x.anchor||'')}</div>
+    <div class="card-foot"><span>${esc(x.era||x.group||'')} ｜ ${esc(x._isHF?'历史名人':(x.kind||''))}${(x.catName||x.cat)?' · '+esc(x.catName||x.cat):''}</span><span class="views">${x.n||(x.variants||[]).length||1} 视角</span></div>
   </article>`).join('')||'<p style="grid-column:1/-1;text-align:center;color:var(--muted);padding:48px;background:#fff;border:1px dashed var(--line);border-radius:12px">未找到匹配条目，请缩短关键词或点击「清除」。</p>';
   $('pager').innerHTML=`<button ${state.page<=1?'disabled':''} onclick="go(${state.page-1})">上一页</button>
     <span>第 ${state.page} / ${pages.toLocaleString()} 页</span>
@@ -283,25 +295,26 @@ function go(p){state.page=p;render();window.scrollTo({top:0,behavior:'smooth'});
 
 async function openModal(i){
   const item=filtered[i]; if(!item) return;
-  if(!item.views || !item.views.length){
-    try{ await ensureShard(item._s); }catch(e){ alert('分片加载失败：'+e.message); return; }
+  if(!item.variants || !item.variants.length){
+    const ok=await hydrateShard(item._shardFile);
+    if(!ok){ alert('分片加载失败：'+item._shardFile); return; }
   }
   curItem=item;curView=0;
-  $('mMeta').textContent=`#${curItem.id} · ${curItem.group} · ${curItem.kind} / ${curItem.cat}`;
+  $('mMeta').textContent=`#${curItem.id} · ${curItem.group||''} · ${curItem.kind||''} / ${curItem.catName||curItem.cat||''}`;
   $('mTitle').textContent=curItem.title;
-  $('mDesc').textContent=curItem.desc||'';
+  $('mDesc').textContent=curItem.anchor||'';
   renderModalView();
   $('modal').classList.add('open');
 }
 function renderModalView(){
-  const vs=curItem.views||[];
-  $('mTabs').innerHTML=vs.map((v,i)=>`<button class="${i===curView?'active':''}" onclick="curView=${i};renderModalView()">${esc(v.name||('视角'+(i+1)))}</button>`).join('');
-  $('mPrompt').textContent=vs[curView]?vs[curView].prompt:'（无提示词）';
+  const vs=curItem.variants||[];
+  $('mTabs').innerHTML=vs.map((v,i)=>`<button class="${i===curView?'active':''}" onclick="curView=${i};renderModalView()">${esc((v.label||v.name||('视角'+(i+1)))+(v.ratio?' ('+v.ratio+')':''))}</button>`).join('');
+  $('mPrompt').textContent=vs[curView]?(vs[curView].prompt||''):'（无提示词）';
 }
 function closeModal(){$('modal').classList.remove('open');}
 async function clip(t){try{await navigator.clipboard.writeText(t);}catch{const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();}}
-async function copyCur(){if(!curItem||!curItem.views[curView])return;await clip(curItem.views[curView].prompt);}
-async function copyAll(){if(!curItem)return;await clip(curItem.views.map(v=>`【${v.name}】\n${v.prompt}`).join('\n\n'));}
+async function copyCur(){if(!curItem||!(curItem.variants||[])[curView])return;await clip(curItem.variants[curView].prompt||'');}
+async function copyAll(){if(!curItem)return;await clip((curItem.variants||[]).map(v=>`【${v.label||v.name||''}】\n${v.prompt||''}`).join('\n\n'));}
 async function copyAndJimeng(){await copyCur();window.open(JIMENG,'_blank');}
 
 let qTmr=null;
@@ -318,15 +331,15 @@ $('resetBtn').onclick=()=>{
 $('exportBtn').onclick=async()=>{
   if(!filtered.length) return alert('当前无筛选结果');
   if(filtered.length>2000&&!confirm(`将导出 ${filtered.length} 条记录，继续？`))return;
-  const need=new Set(filtered.filter(x=>!x.views||!x.views.length).map(x=>x._s));
-  for(const i of need){ $('count').textContent=`加载分片 ${i+1}/${SHARDS.length}…`; await ensureShard(i); }
-  const txt=filtered.map(x=>`=== ${x.id} ${x.title} [${x.group}/${x.kind}/${x.cat}] ===\n${x.desc||''}\n`+(x.views||[]).map(v=>`【${v.name}】\n${v.prompt}`).join('\n')).join('\n\n');
+  const need=Array.from(new Set(filtered.filter(x=>!x.variants||!x.variants.length).map(x=>x._shardFile).filter(Boolean)));
+  for(let i=0;i<need.length;i++){ $('count').textContent=`加载分片 ${i+1}/${need.length}…`; await hydrateShard(need[i]); }
+  const txt=filtered.map(x=>`=== ${x.id} ${x.title} [${x.group}/${x.kind}/${x.catName||x.cat}] ===\n${x.anchor||''}\n`+(x.variants||[]).map(v=>`【${v.label||v.name||''}】\n${v.prompt||''}`).join('\n')).join('\n\n');
   const blob=new Blob([txt],{type:'text/plain;charset=utf-8'});
   const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`prompts_${filtered.length}.txt`;a.click();
   render();
 };
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
-boot();
+loadAll();
 </script>
 </body>
 </html>

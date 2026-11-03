@@ -31,35 +31,32 @@ a:hover{text-decoration:underline}
 .ghost-btn.has-active{border-color:var(--accent);background:var(--accent-soft);color:var(--accent);font-weight:700}
 .adv-wrap{max-width:1640px;margin:0 auto;padding:0 26px}
 .adv-drawer{margin:4px 0 12px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 18px;box-shadow:0 6px 20px rgba(0,0,0,.04)}
-.f-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px dashed #ece8df}
-.f-row:last-child{border-bottom:0}
-.f-label{flex:0 0 112px;font-weight:700;color:#35443e;font-size:13.5pt;padding-top:4px}
-.f-label small{display:block;font-weight:400;color:var(--muted);font-size:11.5pt}
-.chips{flex:1;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-.chip{font:inherit;font-size:13pt;padding:4px 11px;border-radius:999px;border:1px solid #dad5ca;background:#faf9f5;color:#2c3a34;cursor:pointer;line-height:1.35}
+.row,.f-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px dashed #ece8df}
+.row:last-child,.f-row:last-child{border-bottom:0}
+.lbl,.f-label{flex:0 0 122px;font-weight:700;color:#35443e;font-size:13.5pt;padding-top:3px}
+.lbl small,.f-label small{display:block;font-weight:400;color:var(--muted);font-size:11.5pt}
+.row-items,.chips{flex:1;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.chip{font:inherit;font-size:13pt;padding:4px 11px;border-radius:999px;border:1px solid #dad5ca;background:#faf9f5;color:#2c3a34;cursor:pointer;line-height:1.35;user-select:none}
 .chip:hover{border-color:var(--accent);color:var(--accent)}
-.chip.active{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
-.chip .cnt{opacity:.72;font-size:11.5pt;margin-left:2px}
-.chip.active .cnt{opacity:.92}
-.chip.sub{font-size:12.5pt;padding:3px 10px}
-.chip.myth{border-color:#d8c8eb;color:#5a2d82}
-.chip.myth.active{background:#5a2d82;border-color:#5a2d82;color:#fff}
-.chip.hero-chip{border-color:#e2c4bc;color:var(--warm)}
-.chip.hero-chip.active{background:var(--warm);border-color:var(--warm);color:#fff}
-.chip.spec-chip{border-color:#bdd8cb;color:#1b5b44}
-.chip.spec-chip.active{background:#1b5b44;border-color:#1b5b44;color:#fff}
-.sub-group{background:#faf9f6;border-radius:8px;padding:6px 12px;margin:-2px 0 4px}
-.toggle-more{font:inherit;font-size:12.5pt;padding:3px 10px;border-radius:999px;border:1px dashed #b9b3a6;background:#fff;color:var(--muted);cursor:pointer}
+.chip.on,.chip.active{background:var(--accent)!important;border-color:var(--accent)!important;color:#fff!important;font-weight:600}
+.chip small{opacity:.75;font-size:11.5pt;margin-left:2px}
+.chip.purple{border-color:#d8c8eb;color:#5a2d82}
+.chip.star{border-color:#e2c4bc;color:var(--warm)}
+.chip.green{border-color:#bdd8cb;color:#1b5b44}
+.era-sep{color:#ccc;margin:0 4px}
+.sub-group{display:none;flex-wrap:wrap;gap:6px;align-items:center;width:100%;padding:3px 0}
+.sub-group-tag{font-size:12pt;font-weight:700;color:var(--muted);margin-right:4px}
+.toggle-sub{font:inherit;font-size:12.5pt;padding:3px 10px;border-radius:999px;border:1px dashed #b9b3a6;background:#fff;color:var(--muted);cursor:pointer}
 .adv-tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap;flex:1}
-.adv-tools select{font:inherit;font-size:13.5pt;padding:6px 10px;border:1px solid #d5d0c5;border-radius:8px;background:#fff;max-width:420px}
+.adv-tools select{font:inherit;font-size:13.5pt;padding:6px 10px;border:1px solid #d5d0c5;border-radius:8px;background:#fff;max-width:460px}
 .spec-links{display:flex;flex-wrap:wrap;gap:8px 14px;font-size:13pt;flex:1;padding-top:3px}
 .spec-links a{color:#35584b}
 main{max-width:1640px;margin:0 auto;padding:8px 26px 44px}
 .result-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:4px 2px 10px;color:var(--muted);font-size:13.5pt}
 .result-left{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .crumbs{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-.crumb{background:var(--accent-soft);color:var(--accent);padding:2px 10px;border-radius:999px;font-size:12.5pt;font-weight:600;display:inline-flex;align-items:center;gap:5px}
-.crumb button{border:0;background:none;color:inherit;cursor:pointer;font-size:14pt;padding:0;line-height:1}
+.crumb-tag{background:var(--accent-soft);color:var(--accent);padding:2px 10px;border-radius:999px;font-size:12.5pt;font-weight:600;cursor:pointer}
+.crumb-tag:hover{background:#dcebe4}
 .pager{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:13.5pt}
 .pager button,.pager select,.pager input{font:inherit;font-size:13pt;padding:4px 10px;border:1px solid #d6d1c6;border-radius:7px;background:#fff;cursor:pointer;color:var(--ink)}
 .pager input{width:68px;text-align:center;cursor:text}
@@ -84,12 +81,12 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
 .actions{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
 .actions button{padding:9px 16px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer;font:inherit;font-size:14.5pt}
 .actions button.secondary{background:#fff;color:var(--accent)}
-#status{color:var(--warm);font-weight:600}
+#loadmsg{color:var(--muted);font-size:12.5pt}
 @media (max-width:760px){
   .topbar,.search-bar,.adv-wrap,main{padding-left:14px;padding-right:14px}
   .grid{grid-template-columns:1fr}
-  .f-row{flex-direction:column;gap:6px}
-  .f-label{flex:none}
+  .row,.f-row{flex-direction:column;gap:6px}
+  .lbl,.f-label{flex:none}
 }
 </style>
 </head>
@@ -113,15 +110,16 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
       <span class="search-icon">⌕</span>
       <input id="q" type="search" autofocus autocomplete="off" placeholder="搜索人物、朝代、服饰、建筑、器物、古籍或编号（支持多词空格组合，如：唐 明光铠、北魏 云冈）…">
     </div>
-    <select id="eraSel" class="quick-sel" aria-label="朝代筛选"><option value="">全部朝代</option><option value="先秦">先秦</option><option value="秦汉">秦汉</option><option value="三国两晋南北朝">魏晋南北朝</option><option value="隋唐五代">隋唐五代</option><option value="宋辽金西夏">宋辽金西夏</option><option value="元明">元明</option><option value="清代">清代</option><option value="民国">民国</option><option value="人民军队（1927至今）">近现代军史</option><option value="神话与传说">神话与传说</option><option value="文学与民间史诗">文学与史诗</option></select>
-    <select id="kindSel" class="quick-sel" aria-label="类型筛选"><option value="">全部类型</option><option value="历史名人">历史名人</option><option value="人物">人物服饰/甲胄</option><option value="全部人物">全部人物合计</option><option value="场景">场景/生活/地理</option><option value="建筑">历代建筑</option><option value="器物">器物/礼器/兵器</option><option value="事件HERO">重大历史事件</option><option value="配套">车船/水工/机械</option><option value="神话设定">神话与志怪设定</option></select>
+    <select id="eraSel" class="quick-sel" aria-label="朝代筛选"><option value="">全部朝代</option><option value="先秦">先秦</option><option value="秦汉">秦汉</option><option value="三国两晋南北朝">魏晋南北朝</option><option value="隋唐五代">隋唐五代</option><option value="宋辽金西夏">宋辽金西夏</option><option value="元明">元明</option><option value="清">清代</option><option value="民国">民国</option><option value="人民军队（1927至今）">近现代军史</option><option value="神话与传说">神话与传说</option><option value="文学与民间史诗">文学与史诗</option></select>
+    <select id="kindSel" class="quick-sel" aria-label="类型筛选"><option value="">全部类型</option><option value="历史名人">历史名人</option><option value="人物">人物服饰/甲胄</option><option value="全部人物">全部人物合计</option><option value="场景">场景/生活/地理</option><option value="建筑">历代建筑</option><option value="器物">器物/礼器/兵器</option><option value="事件">重大历史事件</option><option value="配套">车船/水工/机械</option><option value="神话">神话与志怪设定</option></select>
     <select id="sort" class="quick-sel" aria-label="排序方式">
       <option value="chrono">年代正序</option>
-      <option value="chronoDesc">年代倒序</option>
-      <option value="lvl">考证等级优先</option>
-      <option value="views">多视角优先</option>
+      <option value="chrono_desc">年代倒序</option>
+      <option value="level">考证等级优先</option>
+      <option value="newest">最新入库优先</option>
+      <option value="prompts">多视角优先</option>
+      <option value="kind">按资产类型</option>
       <option value="title">标题排序</option>
-      <option value="id">编号排序</option>
     </select>
     <button type="button" id="advToggle" class="ghost-btn" aria-expanded="false">细分筛选 ▾</button>
     <button type="button" id="reset" class="ghost-btn">清除</button>
@@ -346,7 +344,7 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
           <a href="liaozhai.html">聊斋志异专集</a>
           <a href="dynasty2000.html">薄弱多朝代扩充</a>
           <a href="websearch5000.html">全网考证9.3万条</a>
-          <a href="每日更新总目录.html">按日更新批次</a>
+          <a href="每日更新/00_每日更新总目录.html">按日更新批次</a>
           <a href="library.xlsx">Excel总表</a>
         </div>
       </div>
@@ -358,7 +356,7 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
   <div class="result-bar">
     <div class="result-left">
       <span id="count">加载中…</span>
-      <span id="status"></span>
+      <span id="loadmsg"></span>
       <div class="crumbs" id="crumbs"></div>
     </div>
     <div class="pager">
@@ -522,7 +520,7 @@ let _curLoadingFile='';
 window.__SHARD__=(file,era,recs)=>{const diskFile=_curLoadingFile||file;const bRank=computeBatchRank(diskFile);recs.forEach((r,idx)=>{if(!r.era&&era)r.era=era;if(!r.n)r.n=r.variants?r.variants.length:1;(r.variants||[]).forEach(v=>{if(v.p!==undefined){v.prompt=v.p.includes('\x01')?v.p.replace('\x01',r.c||''):v.p;delete v.p;}});const existing=byId.get(r.id);if(existing){existing.variants=r.variants||[];existing.c=r.c||'';existing._hydrated=true;}else{indexRecord(r,bRank,idx,diskFile,true);byId.set(r.id,r);R.push(r);}});loaded.add(diskFile);hydratedShards.add(diskFile);};
 function hydrateShard(shardFile){if(!shardFile||hydratedShards.has(shardFile))return Promise.resolve(true);if(hydratingMap.has(shardFile))return hydratingMap.get(shardFile);const p=(async()=>{_curLoadingFile=shardFile;const ok=await loadScriptChain(buildUrls('d1/'+shardFile,DATA_DIR+'/'+shardFile,ALT_DIR+'/'+shardFile),12000);_curLoadingFile='';if(ok)hydratedShards.add(shardFile);return ok;})();hydratingMap.set(shardFile,p);return p;}
 function loadShard(s){if(loaded.has(s.file))return Promise.resolve();if(pending.has(s.file))return pending.get(s.file);const p=hydrateShard(s.file);pending.set(s.file,p);return p;}
-async function loadAll(){$('loadmsg').textContent='正在通过国内高速节点载入全库索引（0/'+IDX_CHUNKS.length+'）…';let doneIdx=0;await Promise.all(IDX_CHUNKS.map(async fn=>{await loadScriptChain(buildUrls('d1_idx/'+fn,'d1_idx/'+fn,'d1_idx/'+fn),10000);doneIdx++;$('loadmsg').textContent=`正在载入全库索引（${doneIdx}/${IDX_CHUNKS.length}）…`;if(doneIdx===1||doneIdx===IDX_CHUNKS.length){rebuildStoryDropdown();renderSubcats();apply();}}));const extra=SHARDS.filter(s=>!loaded.has(s.file));if(extra.length>0){for(const s of extra){await loadShard(s);loadmsg();}rebuildStoryDropdown();renderSubcats();apply();}$('loadmsg').textContent='全部 '+R.length.toLocaleString()+' 个条目索引已就绪（点击任意卡片即时展开完整提示词）';}
+async function loadAll(){$('loadmsg').textContent='正在通过国内高速节点载入全库索引（0/'+IDX_CHUNKS.length+'）…';let doneIdx=0;await Promise.all(IDX_CHUNKS.map(async fn=>{await loadScriptChain(buildUrls('d1_idx/'+fn,'d1_idx/'+fn,'d1_idx/'+fn),10000);doneIdx++;$('loadmsg').textContent=`正在载入全库索引（${doneIdx}/${IDX_CHUNKS.length}）…`;if(doneIdx===1||doneIdx===IDX_CHUNKS.length){rebuildStoryDropdown();renderSubcats();apply();}}));const extra=SHARDS.filter(s=>!loaded.has(s.file));if(extra.length>0){for(const s of extra){await loadShard(s);loadmsg();}rebuildStoryDropdown();renderSubcats();apply();}$('loadmsg').textContent='';}
 function loadmsg(){if(loaded.size<SHARDS.length)$('loadmsg').textContent=`正在高速载入 ${loaded.size}/${SHARDS.length} 个分片…`;}
 
 const SUBCAT_DEFS={
@@ -909,6 +907,7 @@ function renderCrumbs(){
   }
 }
 
+function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
 function updateAdvBadge(){
   const btn=$('advToggle'); if(!btn) return;
   const extra=[f.subdyn,f.subcat,f.lvl,f.lib,f.spec,$('story').value].filter(Boolean).length;
@@ -917,26 +916,24 @@ function updateAdvBadge(){
   btn.classList.toggle('has-active', extra>0 || open);
 }
 function syncChipUI(){
-  document.querySelectorAll('#era-row .chip').forEach(b=>b.classList.toggle('active', b.dataset.era===f.era));
-  document.querySelectorAll('#subdyn-row .chip').forEach(b=>b.classList.toggle('active', b.dataset.sub===f.subdyn));
-  document.querySelectorAll('#kind-row .chip').forEach(b=>b.classList.toggle('active', b.dataset.kind===f.kind));
-  document.querySelectorAll('#subcat-row .chip').forEach(b=>b.classList.toggle('active', b.dataset.subcat===f.subcat));
-  document.querySelectorAll('[data-lvl]').forEach(b=>b.classList.toggle('active', b.dataset.lvl===f.lvl));
-  document.querySelectorAll('[data-lib]').forEach(b=>b.classList.toggle('active', b.dataset.lib===f.lib));
-  document.querySelectorAll('[data-spec]').forEach(b=>b.classList.toggle('active', b.dataset.spec===f.spec));
+  document.querySelectorAll('#advDrawer .chip[data-f]').forEach(el=>{
+    const k=el.dataset.f, v=el.dataset.v||'';
+    el.classList.toggle('on', (f[k]||'')===v);
+  });
   if($('eraSel')) $('eraSel').value=f.era||'';
   if($('kindSel')) $('kindSel').value=f.kind||'';
   updateAdvBadge();
 }
 
 function render(){
-  const total=filtered.length, tp=Math.max(1,Math.ceil(total/psize));
-  if(page>tp) page=tp;
+  const total=list.length, tp=Math.max(1,Math.ceil(total/PAGE));
+  if(page>=tp) page=tp-1;
+  if(page<0) page=0;
   $('count').textContent=`共 ${total.toLocaleString()} 条`;
-  const ptxt=`第 ${page} / ${tp.toLocaleString()} 页`;
+  const ptxt=`第 ${page+1} / ${tp.toLocaleString()} 页`;
   $('pinfo').textContent=ptxt;
   if($('pinfoB')) $('pinfoB').textContent=ptxt;
-  const slice=filtered.slice((page-1)*psize, page*psize);
+  const slice=list.slice(page*PAGE, (page+1)*PAGE);
   const g=$('grid'); g.innerHTML='';
   if(!slice.length){
     g.innerHTML='<div class="empty-box">未找到匹配条目，请尝试缩短关键词或点击「清除」重置筛选。</div>';
@@ -944,37 +941,42 @@ function render(){
   }
   for(const r of slice){
     const d=document.createElement('div'); d.className='card';
-    const eraTxt=r.subdyn ? `${r.era||''} · ${r.subdyn}` : (r.era||'未分期');
-    const kindTxt=r.subcat ? `${r.kind||'条目'} · ${r.subcat}` : (r.kind||'条目');
-    const views=(r.prompts||[]).length;
+    const eraTxt=r.dyn ? `${r.era||''} · ${r.dyn}` : (r.era||'未分期');
+    const kBase=r._effKind||r.kind||'条目';
+    const kindTxt=(r.cat && r.cat!==kBase) ? `${kBase} · ${r.cat}` : kBase;
+    const views=r.n || (r.variants?r.variants.length:1);
     d.innerHTML=`<h3>${esc(r.title)}</h3>
-      <div class="summary">${esc(r.summary||'')}</div>
+      <div class="summary">${esc(r.brief||'')}</div>
       <div class="card-foot"><span>${esc(eraTxt)} ｜ ${esc(kindTxt)}</span><span class="views">${views} 视角</span></div>`;
     d.onclick=()=>openCard(r);
     g.appendChild(d);
   }
 }
 
-let cur=null, curIdx=0;
+let curIdx=0;
 async function openCard(r){
-  if(!r.prompts || !r.prompts.length){
-    try{ await ensureShard(r._s); }catch(e){ alert('分片加载失败：'+e.message); return; }
+  if(!r.variants || !r.variants.length){
+    $('loadmsg').textContent='正在加载提示词正文…';
+    const ok=await hydrateShard(r._shardFile);
+    $('loadmsg').textContent='';
+    if(!ok){ alert('分片加载失败：'+r._shardFile); return; }
   }
   cur=r; curIdx=0;
   $('dmeta').innerHTML=`<div class="dlg-meta">
-      <span class="dlg-tag">${esc(r.era||'未分期')}${r.subdyn?' · '+esc(r.subdyn):''}</span>
-      <span class="dlg-tag">${esc(r.kind||'')}${r.subcat?' · '+esc(r.subcat):''}</span>
-      ${r.lvl?`<span class="dlg-tag">${esc(r.lvl)}</span>`:''}
-      ${r.src?`<span class="dlg-tag">${esc(r.src)}</span>`:''}
+      <span class="dlg-tag">${esc(r.era||'未分期')}${r.dyn?' · '+esc(r.dyn):''}</span>
+      <span class="dlg-tag">${esc(r._effKind||r.kind||'')}${r.cat?' · '+esc(r.cat):''}</span>
+      ${r.level?`<span class="dlg-tag">${esc(r.level)}</span>`:''}
+      ${r.lib?`<span class="dlg-tag">${esc(r.lib)}</span>`:''}
       <span>#${esc(r.id)}</span>
     </div>
     <h2>${esc(r.title)}</h2>
     ${r.story?`<div style="color:#63706a;font-size:14pt;margin-bottom:4px">典籍/题材：${esc(r.story)}</div>`:''}
-    <p style="color:#45534d;margin:6px 0 10px;line-height:1.6">${esc(r.summary||'')}</p>`;
+    ${r.src?`<div style="color:#63706a;font-size:13.5pt;margin-bottom:4px">考证出处：${esc(r.src)}${r.hold?'（'+esc(r.hold)+'）':''}</div>`:''}
+    <p style="color:#45534d;margin:6px 0 10px;line-height:1.6">${esc(r.brief||'')}</p>`;
   const t=$('dtabs'); t.innerHTML='';
-  (r.prompts||[]).forEach((p,i)=>{
+  (r.variants||[]).forEach((v,i)=>{
     const b=document.createElement('button');
-    b.textContent=p.label||('视角'+(i+1));
+    b.textContent=(v.label||('视角'+(i+1)))+(v.ratio?` (${v.ratio})`:'');
     if(i===0) b.className='active';
     b.onclick=()=>{curIdx=i;[...t.children].forEach((x,j)=>x.classList.toggle('active',j===i));show();};
     t.appendChild(b);
@@ -982,7 +984,7 @@ async function openCard(r){
   show();
   $('detail').showModal();
 }
-function show(){ const p=(cur.prompts||[])[curIdx]; $('dprompt').textContent=p?p.text:'（无提示词正文）'; }
+function show(){ const v=(cur.variants||[])[curIdx]; $('dprompt').textContent=v?(v.prompt||''):'（无提示词正文）'; }
 async function cp(t){ try{await navigator.clipboard.writeText(t);}catch{const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();} }
 function dlTxt(name,text){ const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'})); a.download=name; a.click(); }
 
@@ -994,65 +996,52 @@ $('advToggle').onclick=()=>{
 };
 $('eraSel').onchange=e=>{
   f.era=e.target.value; f.subdyn='';
-  updateSubdynVisibility(); syncChipUI(); filter();
+  updateSubdynVisibility(); rebuildStoryDropdown(); syncChipUI(); apply();
 };
 $('kindSel').onchange=e=>{
   f.kind=e.target.value; f.subcat='';
-  renderSubcats(); syncChipUI(); filter();
+  renderSubcats(); syncChipUI(); apply();
 };
 
-document.getElementById('era-row').addEventListener('click',e=>{
-  const b=e.target.closest('.chip'); if(!b) return;
-  f.era=b.dataset.era; f.subdyn='';
-  updateSubdynVisibility(); syncChipUI(); filter();
+$('advDrawer').addEventListener('click',e=>{
+  const el=e.target.closest('.chip[data-f]'); if(!el) return;
+  const k=el.dataset.f, v=el.dataset.v||'';
+  f[k] = (f[k]===v && v!=='') ? '' : v;
+  if(k==='era'){ f.subdyn=''; updateSubdynVisibility(); rebuildStoryDropdown(); }
+  if(k==='subdyn'){ if(el.dataset.era && !f.era) f.era=el.dataset.era; updateSubdynVisibility(); rebuildStoryDropdown(); }
+  if(k==='kind'){ f.subcat=''; renderSubcats(); }
+  syncChipUI(); apply();
 });
-document.getElementById('subdyn-row').addEventListener('click',e=>{
-  const b=e.target.closest('.chip'); if(!b) return;
-  f.subdyn = (f.subdyn===b.dataset.sub && b.dataset.sub!=='') ? '' : b.dataset.sub;
-  syncChipUI(); filter();
-});
-document.getElementById('toggle-sub-btn').onclick=()=>{
-  subdynExpanded=!subdynExpanded;
-  updateSubdynVisibility();
-};
-document.getElementById('kind-row').addEventListener('click',e=>{
-  const b=e.target.closest('.chip'); if(!b) return;
-  f.kind=b.dataset.kind; f.subcat='';
-  renderSubcats(); syncChipUI(); filter();
-});
-document.querySelectorAll('[data-lvl]').forEach(b=>b.onclick=()=>{ f.lvl=(f.lvl===b.dataset.lvl && b.dataset.lvl!=='')?'':b.dataset.lvl; syncChipUI(); filter(); });
-document.querySelectorAll('[data-lib]').forEach(b=>b.onclick=()=>{ f.lib=(f.lib===b.dataset.lib && b.dataset.lib!=='')?'':b.dataset.lib; syncChipUI(); filter(); });
-document.querySelectorAll('[data-spec]').forEach(b=>b.onclick=()=>{ f.spec=(f.spec===b.dataset.spec && b.dataset.spec!=='')?'':b.dataset.spec; syncChipUI(); filter(); });
 
 let tmr=null;
-$('q').oninput=()=>{ clearTimeout(tmr); tmr=setTimeout(filter,120); };
-$('story').onchange=()=>{ updateAdvBadge(); filter(); };
-$('sort').onchange=filter;
-$('psize').onchange=e=>{ psize=+e.target.value; page=1; render(); };
-$('prev').onclick=()=>{ if(page>1){page--;render();window.scrollTo({top:0,behavior:'smooth'});} };
-$('next').onclick=()=>{ if(page*psize<filtered.length){page++;render();window.scrollTo({top:0,behavior:'smooth'});} };
+$('q').oninput=()=>{ clearTimeout(tmr); tmr=setTimeout(apply,120); };
+$('story').onchange=()=>{ updateAdvBadge(); apply(); };
+$('sort').onchange=apply;
+$('psize').onchange=e=>{ PAGE=+e.target.value; page=0; render(); };
+$('prev').onclick=()=>{ if(page>0){page--;render();window.scrollTo({top:0,behavior:'smooth'});} };
+$('next').onclick=()=>{ if((page+1)*PAGE<list.length){page++;render();window.scrollTo({top:0,behavior:'smooth'});} };
 $('prevB').onclick=()=>$('prev').onclick();
 $('nextB').onclick=()=>$('next').onclick();
-$('go2').onclick=()=>{ const n=+$('goto').value; if(n>=1){page=n;render();window.scrollTo({top:0,behavior:'smooth'});} };
+$('go2').onclick=()=>{ const n=+$('goto').value; if(n>=1){page=n-1;render();window.scrollTo({top:0,behavior:'smooth'});} };
 $('reset').onclick=()=>{
-  f.era=''; f.subdyn=''; f.kind=''; f.subcat=''; f.lvl=''; f.lib=''; f.spec='';
+  f={era:'',subdyn:'',kind:'',subcat:'',spec:'',lvl:'',lib:''};
   $('q').value=''; $('story').value=''; $('sort').value='chrono';
-  updateSubdynVisibility(); renderSubcats(); syncChipUI(); filter();
+  updateSubdynVisibility(); rebuildStoryDropdown(); renderSubcats(); syncChipUI(); apply();
   $('q').focus();
 };
 $('export').onclick=async()=>{
-  if(!filtered.length) return alert('当前无筛选结果');
-  if(filtered.length>2000 && !confirm(`当前共 ${filtered.length} 条，确认全部导出？`)) return;
-  const need=new Set(filtered.filter(r=>!r.prompts||!r.prompts.length).map(r=>r._s));
-  for(const i of need){ $('status').textContent=`加载分片 ${i+1}/${SHARDS.length}…`; await ensureShard(i); }
-  $('status').textContent='';
-  const txt=filtered.map(r=>`【${r.id}】${r.title}（${r.era||''}${r.subdyn?'·'+r.subdyn:''} / ${r.kind||''}${r.subcat?'·'+r.subcat:''} / ${r.lvl||''}）\n${r.summary||''}\n`+(r.prompts||[]).map(p=>`[${p.label}]\n${p.text}`).join('\n\n')).join('\n\n'+'='.repeat(60)+'\n\n');
-  dlTxt(`图库检索导出_${filtered.length}条.txt`,txt);
+  if(!list.length) return alert('当前无筛选结果');
+  if(list.length>2000 && !confirm(`当前共 ${list.length} 条，确认全部导出？`)) return;
+  const need=Array.from(new Set(list.filter(r=>!r.variants||!r.variants.length).map(r=>r._shardFile).filter(Boolean)));
+  for(let i=0;i<need.length;i++){ $('loadmsg').textContent=`加载分片 ${i+1}/${need.length}…`; await hydrateShard(need[i]); }
+  $('loadmsg').textContent='';
+  const txt=list.map(r=>`【${r.id}】${r.title}（${r.era||''}${r.dyn?'·'+r.dyn:''} / ${r._effKind||r.kind||''}${r.cat?'·'+r.cat:''} / ${r.level||''}）\n${r.brief||''}\n`+(r.variants||[]).map(v=>`[${v.label||''}${v.ratio?' '+v.ratio:''}]\n${v.prompt||''}`).join('\n\n')).join('\n\n'+'='.repeat(60)+'\n\n');
+  dlTxt(`图库检索导出_${list.length}条.txt`,txt);
 };
-$('copy').onclick=async()=>{ const p=(cur.prompts||[])[curIdx]; if(!p)return; await cp(p.text); $('copy').textContent='已复制 ✓'; setTimeout(()=>$('copy').textContent='复制当前提示词',1200); };
-$('copyAll').onclick=async()=>{ const t=(cur.prompts||[]).map(p=>`【${p.label}】\n${p.text}`).join('\n\n'); await cp(t); $('copyAll').textContent='已复制全部 ✓'; setTimeout(()=>$('copyAll').textContent='复制全部视角',1200); };
-$('go').onclick=async()=>{ const p=(cur.prompts||[])[curIdx]; if(p) await cp(p.text); window.open(JIMENG,'_blank'); };
-$('dl').onclick=()=>{ const t=`${cur.title} (${cur.id})\n${cur.era||''} ${cur.subdyn||''} / ${cur.kind||''} ${cur.subcat||''}\n\n`+(cur.prompts||[]).map(p=>`【${p.label}】\n${p.text}`).join('\n\n'); dlTxt(`${cur.id}_${cur.title}.txt`,t); };
+$('copy').onclick=async()=>{ const v=(cur.variants||[])[curIdx]; if(!v)return; await cp(v.prompt||''); $('copy').textContent='已复制 ✓'; setTimeout(()=>$('copy').textContent='复制当前提示词',1200); };
+$('copyAll').onclick=async()=>{ const t=(cur.variants||[]).map(v=>`【${v.label||''}${v.ratio?' '+v.ratio:''}】\n${v.prompt||''}`).join('\n\n'); await cp(t); $('copyAll').textContent='已复制全部 ✓'; setTimeout(()=>$('copyAll').textContent='复制全部视角',1200); };
+$('go').onclick=async()=>{ const v=(cur.variants||[])[curIdx]; if(v) await cp(v.prompt||''); window.open(JIMENG,'_blank'); };
+$('dl').onclick=()=>{ const t=`${cur.title} (${cur.id})\n${cur.era||''} ${cur.dyn||''} / ${cur._effKind||cur.kind||''} ${cur.cat||''}\n\n`+(cur.variants||[]).map(v=>`【${v.label||''}${v.ratio?' '+v.ratio:''}】\n${v.prompt||''}`).join('\n\n'); dlTxt(`${cur.id}_${cur.title}.txt`,t); };
 $('close').onclick=()=>$('detail').close();
 $('detail').onclick=e=>{ if(e.target===$('detail')) $('detail').close(); };
 
@@ -1071,7 +1060,7 @@ $('detail').onclick=e=>{ if(e.target===$('detail')) $('detail').close(); };
 updateSubdynVisibility();
 renderSubcats();
 syncChipUI();
-boot();
+loadAll();
 </script>
 </body>
 </html>

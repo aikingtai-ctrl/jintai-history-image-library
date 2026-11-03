@@ -39,26 +39,40 @@ button.gold{background:#9e2a2b;border-color:#9e2a2b;color:#fff;font-weight:600}
 textarea{width:100%;min-height:210px;background:#fcfaf5;color:#1d1a16;border:1px solid #d5cbb8;border-radius:8px;padding:11px;font:12.5pt/1.58 "Microsoft YaHei";resize:vertical}
 .pager{display:flex;gap:14px;align-items:center;margin:18px 0}
 @media(max-width:1100px){.grid{grid-template-columns:1fr}}
+
+/* === Minimalist Light Override (2026-11-03) === */
+body{background:#f6f5f1!important;color:#19231f!important}
+header.min-topbar{max-width:1640px;margin:0 auto;padding:10px 26px 8px!important;background:transparent!important;border-bottom:1px solid #e3dfd6!important;display:flex;flex-direction:column;gap:8px}
+header.min-topbar .top-line{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;width:100%}
+header.min-topbar .brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+header.min-topbar .brand a{color:#1f5c48;text-decoration:none;font-size:14pt;font-weight:600}
+header.min-topbar .brand strong{font-size:17.5pt;color:#19231f}
+header.min-topbar .tabs{margin:0!important;gap:8px!important;display:flex;flex-wrap:wrap}
+header.min-topbar .tabs button{padding:5px 13px!important;font-size:13pt!important;border-radius:8px!important}
+header.min-topbar .topnav{display:flex;gap:14px;font-size:13.5pt}
+header.min-topbar .topnav a{color:#63706a;text-decoration:none}
+header.min-topbar .topnav a:hover{color:#1f5c48}
+main{max-width:1640px!important;padding:10px 26px 44px!important}
+.toolbar,.bar{background:#fff!important;border:1px solid #e3dfd6!important;border-radius:11px!important;padding:10px 14px!important;margin-bottom:14px!important;box-shadow:none!important}
+.toolbar input[type="search"],.toolbar input[id^="q"],.bar input[type="search"],.bar input[id^="q"]{font-size:16.5pt!important;padding:9px 14px!important;border:1.5px solid #c9c4b8!important;border-radius:9px!important}
+details.chip-fold{margin-top:8px;width:100%}
+details.chip-fold summary{cursor:pointer;color:#63706a;font-size:13.5pt;padding:4px 0;user-select:none}
 </style>
 </head>
 <body>
-<header>
-  <p style="margin:0 0 8px;font-size:14.5pt;line-height:1.6"><a href="index.html" style="color:#284b45;font-weight:bold">← 返回《图库总检索》首页（63,179条目 / 318,412提示词）</a> ｜ <a href="browser.html" style="color:#284b45;font-weight:bold">提示词浏览器（62,186条目·31.3万条）</a> ｜ <a href="figures.html" style="color:#8a1c1c;font-weight:bold">历代历史名人（16,000人）</a> ｜ <a href="dynasty2000.html" style="color:#1d5c42;font-weight:bold">薄弱环节与工程配套（54,000条）</a> ｜ <a href="zhiguai31.html" style="color:#4a2574;font-weight:bold">57部志怪神魔总集（8,000条）</a> ｜ <a href="epics.html" style="color:#5b3277;font-weight:bold">古典文学与民族史诗（6,280条）</a> ｜ <a href="hongloumeng.html" style="color:#9f1239;font-weight:bold">红楼梦专集（2,327条）</a> ｜ <a href="liaozhai.html" style="color:#7a283b;font-weight:bold">聊斋志异专集（2,998条）</a> ｜ <a href="arch5680.html" style="color:#1f4e5f;font-weight:bold">历代建筑总集（8,906座）</a> ｜ <a href="myth5000.html" style="color:#5b2c83;font-weight:bold">神话传说（5,000条目）</a> ｜ <a href="websearch5000.html" style="color:#1b4f72;font-weight:bold">全网考证总库（93,000条）</a> ｜ <a href="film.html" style="color:#7a1f1f;font-weight:bold">影视参考图集（28,500部·125.9万镜）</a> ｜ <a href="更新记录.html" style="color:#b91c1c;font-weight:bold;background:#fff1f2;padding:2px 8px;border-radius:6px;border:1px solid #fecdd3">📋 更新记录（11-03全库66格破150·W4200已更）</a> ｜ <a href="每日更新/00_每日更新总目录.html" style="color:#7f1d1d;font-weight:bold">📂 每日成果总目录</a></p>
-  <h1>📚 中国古典文学名著·诗词乐府·唐宋传奇·元明清戏曲·多民族英雄史诗总集</h1>
-  <div class="stats">
-    <span>六大文学与多民族史诗门类全覆盖（第1+2+3批合璧 · L001–L600）</span>
-    <span>专项新增 600 组经典名作 · 6,000 条十二段提示词（LE-20261029 / LE-20261029B / LE-20261030）</span>
-    <span>角色 2,400 条 ＋ 场景 1,800 条 ＋ 器物古籍 1,200 条 ＋ 建筑舞台舟车配套 600 条</span>
-    <span>全库既有文学与民间传说事件 52 组 · 280 条（合计 652 组 · 6,280 条）</span>
-  </div>
-  <div class="notice">
-    <b>体系说明：</b>本总集专为《图库总检索》之<b>「📖 文学与民间史诗」</b>大类建立系统化、全朝代、五十六民族的影视美术资产总库（第1批 L001–L200 ＋ 第2批 L201–L400 ＋ 第3批 L401–L600），使「文学与民间史诗」门类下属人物、场景、器物、建筑、配套、事件六大类型全部突破 100 组以上，涵盖六大核心门类：<br>
-    ① <b>先秦诗骚与汉魏六朝乐府（90组·900条，L001–L030 / L201–L230 / L401–L430）</b>：《诗经》十五国风大小雅三颂、《楚辞·离骚·九歌·天问·九章·远游》、荀子赋篇与汉大赋、汉乐府铙歌与相和歌、《古诗十九首》、建安七子与竹林七贤、陶谢颜鲍山水诗、南北朝民歌及《昭明文选》《文心雕龙》；<br>
-    ② <b>唐宋诗词名篇与传奇话本（102组·1,020条，L031–L064 / L231–L264 / L431–L464）</b>：初盛中晚唐名家王杨卢骆、陈子昂、张若虚、王翰、崔颢、李白、杜甫、王维、孟浩然、高适、岑参、王昌龄、白居易、元稹、刘禹锡、柳宗元、李贺、杜牧、李商隐、温庭筠、李煜，两宋晏欧苏黄柳秦周李陆辛姜吴文英，敦煌变文、唐传奇《莺莺传》《柳毅传》《虬髯客传》《聂隐娘》《红线传》《霍小玉传》《南柯太守传》《枕中记》及宋元话本；<br>
-    ③ <b>宋元南戏与元杂剧四大家（72组·720条，L065–L084 / L265–L288 / L465–L492）</b>：温州南戏《张协状元》与五大南戏《琵琶记》《荆钗记》《白兔记》《拜月亭》《杀狗记》，关汉卿《窦娥冤》《救风尘》《望江亭》《单刀会》《蝴蝶梦》《鲁斋郎》、王实甫《西厢记》《破窑记》、马致远《汉宫秋》《青衫泪》《陈抟高卧》、白朴《梧桐雨》《墙头马上》、纪君祥《赵氏孤儿》、郑光祖《倩女离魂》、乔吉、尚仲贤、康进之、高文秀、张国宾及洪洞广胜寺元代戏曲壁画；<br>
-    ④ <b>明清传奇与昆曲折子戏（88组·880条，L085–L112 / L289–L318 / L493–L522）</b>：明初四大声腔、梁辰鱼《浣纱记》、王世贞《鸣凤记》、高濂《玉簪记·琴挑·秋江》、汤显祖临川四梦《牡丹亭》《紫钗记》《南柯记》《邯郸记》、沈璟《义侠记》、周朝俊《红梅记》、王玉峰《焚香记》、孟称舜《娇红记》、阮大铖《燕子笺》、李玉《清忠谱》《一捧雪》《占花魁》、李渔笠翁十种曲《风筝误》《比目鱼》《奈何天》、洪昇《长生殿》、孔尚任《桃花扇》、方成培《雷峰塔·断桥》及昆曲经典折子戏；<br>
-    ⑤ <b>四大名著与古典章回小说（140组·1,400条，L113–L164 / L319–L364 / L523–L564）</b>：《三国演义》24组、《水浒传》20组、《西游记》20组、《红楼梦》21组，以及《封神演义》《东周列国志》《隋唐演义》《说岳全传》《杨家将》《三言二拍》《聊斋志异》《儒林外史》《镜花缘》《七侠五义》《老残游记》；<br>
-    ⑥ <b>三大英雄史诗与民族叙事长诗（108组·1,080条，L165–L200 / L365–L400 / L565–L600）</b>：藏蒙《格萨尔（格斯尔）》17组（赛马称王、魔岭、霍尔岭、姜岭、门岭、大食财宝宗、地狱救母）、柯尔克孜八部全本《玛纳斯》14组（诞生命名、卡妮凯大婚、阔克托依祭典、天山远征、赛麦台依、赛依铁克、奇格台依）、蒙古《江格尔》14组（宝木巴乐园、洪古尔、阿拉坦策吉、萨布尔、明彦赫兰、格日勒、十二勇士大盟誓），以及苗族《亚鲁王》、彝族《阿诗玛》《梅葛》《阿细的先基》、傣族《召树屯》《娥并与桑洛》、纳西《创世纪·崇般统》《黑白战争》、白族《大黑天神》、瑶族《盘王大歌》、壮族《布洛陀》《莫一大王》、侗族《珠郎娘美》、哈尼《奥色密色》、景颇《目脑纵歌·勒包斋娃》、鄂伦春《莫日根》等五十六民族叙事长诗。
+<header class="min-topbar">
+  <div class="top-line">
+    <div class="brand">
+      <a href="index.html">← 全库总检索</a>
+      <span>·</span>
+      <strong>古典文学与民族史诗总集 · 6,280 条</strong>
+    </div>
+    <nav class="topnav">
+      <a href="图库总入口.html">专集目录</a>
+      <a href="browser.html">分卷浏览</a>
+      <a href="film.html">影视参考</a>
+      <a href="更新记录.html">更新记录</a>
+    </nav>
   </div>
   <div class="tabs">
     <button class="tab on" id="tabWorks" onclick="setTab('works')">一、600 部/篇古典文学与多民族史诗《角色·场景·道具·配套》总表（L001–L600）</button>
@@ -69,7 +83,7 @@ textarea{width:100%;min-height:210px;background:#fcfaf5;color:#1d1a16;border:1px
 <main>
   <section id="secWorks">
     <div class="bar">
-      <input id="qWork" placeholder="支持多关键词空格搜索名著、诗词、戏曲、史诗、角色、场景、器物（如：桃夭、琴挑、剑阁、飞云浦、袖里乾坤、芦雪广、赛马称王、阔克托依、宝木巴、目脑纵歌）…">
+      <input autofocus type="search" id="qWork" placeholder="支持多关键词空格搜索名著、诗词、戏曲、史诗、角色、场景、器物（如：桃夭、琴挑、剑阁、飞云浦、袖里乾坤、芦雪广、赛马称王、阔克托依、宝木巴、目脑纵歌）…">
       <select id="batchWork">
         <option value="">全部 3 批（600组 · L001–L600）</option>
         <option value="3">★ 第3批新增（200组 · L401–L600）</option>
@@ -108,7 +122,7 @@ textarea{width:100%;min-height:210px;background:#fcfaf5;color:#1d1a16;border:1px
 
   <section id="secPrompts" style="display:none">
     <div class="bar">
-      <input id="qPrompt" placeholder="支持多关键词空格搜索名著、篇章、人物、场景、器物、编号（如：L401、LE-20261030、琴挑、上方谷、断枷、袖里乾坤、太虚幻境、格萨尔、玛纳斯、江格尔）…">
+      <input type="search" id="qPrompt" placeholder="支持多关键词空格搜索名著、篇章、人物、场景、器物、编号（如：L401、LE-20261030、琴挑、上方谷、断枷、袖里乾坤、太虚幻境、格萨尔、玛纳斯、江格尔）…">
       <select id="selBatch">
         <option value="">全部 3 批（6,000条）</option>
         <option value="3">★ 第3批新增（2,000条 · L401–L600）</option>
@@ -142,7 +156,7 @@ textarea{width:100%;min-height:210px;background:#fcfaf5;color:#1d1a16;border:1px
       <button onclick="resetPromptFilter()">重置筛选</button>
       <button class="gold" onclick="exportFilteredTxt()">导出当前筛选 TXT</button>
     </div>
-    <div class="chips" id="catChips"></div>
+    <details class="chip-fold"><summary>按书目 / 门类细分筛选 ▾</summary><div class="chips" id="catChips"></div></details>
     <div class="pager">
       <span id="pCount"></span>
       <button id="prevBtn" onclick="chgPage(-1)">上一页</button>
@@ -154,7 +168,7 @@ textarea{width:100%;min-height:210px;background:#fcfaf5;color:#1d1a16;border:1px
 
   <section id="secExisting" style="display:none">
     <div class="bar">
-      <input id="qExist" placeholder="在既有 52 组文学名著与民间传说 HERO 条目中搜索（如：水浒、西游、梁祝、白蛇传、孟姜女、牛郎织女、格萨尔、阿诗玛）…">
+      <input type="search" id="qExist" placeholder="在既有 52 组文学名著与民间传说 HERO 条目中搜索（如：水浒、西游、梁祝、白蛇传、孟姜女、牛郎织女、格萨尔、阿诗玛）…">
       <select id="subExist">
         <option value="">全部既有子集（52组 · 280条）</option>
         <option value="文学名著">文学名著 HERO 关键帧</option>
