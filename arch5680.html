@@ -31,24 +31,59 @@ button.red{background:#8a1c1c;color:#fff;border-color:#8a1c1c}
 textarea{width:100%;min-height:190px;font:16pt/1.6 "Microsoft YaHei";padding:12px;border:1px solid #99aa9b;border-radius:6px;background:#fafbf7;color:#22382d;resize:vertical}
 .pager{display:flex;gap:14px;align-items:center;margin:20px 0;flex-wrap:wrap}
 @media(max-width:1100px){.grid{grid-template-columns:1fr}}
+
+/* === Minimalist Search-First Override (2026-11-03) === */
+[hidden]{display:none!important}
+body{background:#f6f5f1!important;color:#19231f!important}
+header.min-topbar{max-width:1640px;margin:0 auto;padding:10px 26px 6px!important;background:transparent!important;border:0!important;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+header.min-topbar .brand{display:flex;align-items:baseline;gap:10px;font-size:14pt;color:#63706a}
+header.min-topbar .brand strong{font-size:17.5pt;color:#19231f}
+header.min-topbar .brand a{color:#1f5c48;text-decoration:none;font-weight:600}
+header.min-topbar .topnav{display:flex;gap:16px;flex-wrap:wrap;font-size:13.5pt}
+header.min-topbar .topnav a{color:#63706a;text-decoration:none}
+header.min-topbar .topnav a:hover{color:#1f5c48}
+main{max-width:1640px!important;padding:6px 26px 44px!important}
+.toolbar{background:transparent!important;border:0!important;padding:0!important;margin-bottom:8px!important;box-shadow:none!important}
+.search-top{position:sticky;top:0;z-index:35;background:rgba(246,245,241,.96);backdrop-filter:blur(8px);padding:10px 0 12px;border-bottom:1px solid #e3dfd6;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.search-top input[type="search"],.search-top input#q{flex:1 1 380px!important;font-size:16.5pt!important;padding:10px 14px!important;border:1.5px solid #c9c4b8!important;border-radius:10px!important;background:#fff!important;color:#19231f!important}
+.search-top input#q:focus{outline:none!important;border-color:#1f5c48!important;box-shadow:0 0 0 3px rgba(31,92,72,.12)!important}
+.search-top select,.search-top button{font-size:14pt!important;padding:9px 13px!important;border:1px solid #d2cdc2!important;border-radius:9px!important;background:#fff!important;color:#19231f!important;cursor:pointer}
+.search-top button.adv-btn{background:#fbfaf7!important;color:#35443e!important}
+.adv-box{margin-top:10px;background:#fff;border:1px solid #e3dfd6;border-radius:12px;padding:12px 16px;box-shadow:0 6px 20px rgba(0,0,0,.04)}
+.pager{margin:8px 0 12px!important;font-size:13.5pt!important;color:#63706a}
+.card{border-color:#e3dfd6!important;border-radius:11px!important;box-shadow:none!important}
+.card:hover{border-color:#9ab8ac!important;box-shadow:0 6px 18px rgba(24,42,35,.06)!important}
 </style>
 </head>
 <body>
-<header>
-<p style="margin:0 0 8px;font-size:14.5pt;line-height:1.6"><a href="index.html" style="color:#284b45;font-weight:bold">← 返回《图库总检索》首页（63,179条目 / 318,412提示词）</a> ｜ <a href="browser.html" style="color:#284b45;font-weight:bold">提示词浏览器（62,186条目·31.3万条）</a> ｜ <a href="figures.html" style="color:#8a1c1c;font-weight:bold">历代历史名人（16,000人）</a> ｜ <a href="dynasty2000.html" style="color:#1d5c42;font-weight:bold">薄弱环节与工程配套（54,000条）</a> ｜ <a href="zhiguai31.html" style="color:#4a2574;font-weight:bold">57部志怪神魔总集（8,000条）</a> ｜ <a href="epics.html" style="color:#5b3277;font-weight:bold">古典文学与民族史诗（6,280条）</a> ｜ <a href="hongloumeng.html" style="color:#9f1239;font-weight:bold">红楼梦专集（2,327条）</a> ｜ <a href="liaozhai.html" style="color:#7a283b;font-weight:bold">聊斋志异专集（2,998条）</a> ｜ <a href="arch5680.html" style="color:#1f4e5f;font-weight:bold">历代建筑总集（8,906座）</a> ｜ <a href="myth5000.html" style="color:#5b2c83;font-weight:bold">神话传说（5,000条目）</a> ｜ <a href="websearch5000.html" style="color:#1b4f72;font-weight:bold">全网考证总库（93,000条）</a> ｜ <a href="film.html" style="color:#7a1f1f;font-weight:bold">影视参考图集（28,500部·125.9万镜）</a> ｜ <a href="更新记录.html" style="color:#b91c1c;font-weight:bold;background:#fff1f2;padding:2px 8px;border-radius:6px;border:1px solid #fecdd3">📋 更新记录（11-03全库66格破150·W4200已更）</a> ｜ <a href="每日更新/00_每日更新总目录.html" style="color:#7f1d1d;font-weight:bold">📂 每日成果总目录</a></p>
-<h1>中国历史文化图库 · 历代建筑全网考证扩充总专集（专集 7,680 座 / 30,720 条 · 全库建筑累计 8,896 座）</h1>
-<div class="stats">
-<span>本专集收录 7,680 个建筑条目</span>
-<span>本专集收录 30,720 条建筑提示词（每座 4 视角）</span>
-<span>全库建筑累计达 8,906 座</span>
-<span style="background:#fdf3f3;color:#8a1c1c">零 A 机调用 · 全网古建典籍与国保遗址考证</span>
-</div>
-<p class="notice">
-<strong>考证说明：</strong>本专集依据《中国古代建筑史》（五卷本）、杨鸿勋《宫殿考古通论》、《考工记》、李诫《营造法式》、计成《园冶》、清工部《工程做法则例》、样式雷图档及国务院《全国重点文物保护单位》（第一至八批）古建筑与古遗址名录，涵盖先秦至近现代及神话传说共 10 大朝代组，每座建筑提供「立面 3:2、透视 16:9、局部特写 3:2、夜景 16:9」4 个标准制图视角（全中文、零否定词）。默认按<b>新石器→夏→商→西周→春秋→战国→秦→西汉→东汉→三国→两晋→南北朝→隋→唐→五代→宋辽金夏→元→明→清→近现代→神话仙宫</b>正序排列。
-</p>
+<header class="min-topbar">
+  <div class="brand">
+    <a href="index.html">← 全库总检索</a>
+    <span>·</span>
+    <strong>历代建筑考证专集 · 7,680 座</strong>
+  </div>
+  <nav class="topnav">
+    <a href="图库总入口.html">专集目录</a>
+    <a href="browser.html">分卷浏览</a>
+    <a href="film.html">影视参考</a>
+    <a href="更新记录.html">更新记录</a>
+  </nav>
 </header>
 <main>
-<div class="row" id="eraRow">
+<div class="toolbar">
+  <div class="search-top"><input id="q" type="search" autofocus placeholder="支持多关键词空格组合搜索：建筑名称、朝代、构件、遗址地（如：唐 佛寺、宋 桥梁、石峁、三星堆、奉先寺、应县木塔、斗拱、藻井）…">
+<select id="sort" style="font-size:15pt;padding:8px 12px;border:1px solid #d9d0be;border-radius:8px;background:#fff;font-weight:bold;color:#284b45">
+  <option value="chrono">排序：按历史朝代与时期正序（新石器/夏商周→近现代→神话 · 推荐）</option>
+  <option value="sub">排序：按建筑形制归类</option>
+  <option value="id">排序：按建筑编号正序</option>
+  <option value="id_desc">排序：按最新扩充批次优先</option>
+</select>
+<button id="reset">重置全部筛选</button>
+<button class="primary" id="exportTxt">导出当前筛选 TXT</button>
+    <button type="button" class="adv-btn" onclick="var b=document.getElementById('advBox');b.hidden=!b.hidden;this.textContent=b.hidden?'分类筛选 ▾':'收起筛选 ▴'">分类筛选 ▾</button>
+  </div>
+  <div id="advBox" class="adv-box" hidden>
+    <div class="row" id="eraRow">
 <b>一、朝代筛选</b>
 <span class="chip on" data-era="">全部朝代</span>
 <span class="chip" data-era="先秦">先秦</span>
@@ -62,21 +97,11 @@ textarea{width:100%;min-height:190px;font:16pt/1.6 "Microsoft YaHei";padding:12p
 <span class="chip" data-era="人民军队（1927至今）">人民军队（1927至今）</span>
 <span class="chip" data-era="神话与传说">神话与传说仙宫</span>
 </div>
-<div class="row" id="subRow">
+    <div class="row" id="subRow">
 <b>二、建筑形制</b>
 <span class="chip on" data-sub="">全部建筑形制</span>
 </div>
-<div class="row">
-<b>三、搜索与排序</b>
-<input id="q" placeholder="支持多关键词空格组合搜索：建筑名称、朝代、构件、遗址地（如：唐 佛寺、宋 桥梁、石峁、三星堆、奉先寺、应县木塔、斗拱、藻井）…">
-<select id="sort" style="font-size:15pt;padding:8px 12px;border:1px solid #d9d0be;border-radius:8px;background:#fff;font-weight:bold;color:#284b45">
-  <option value="chrono">排序：按历史朝代与时期正序（新石器/夏商周→近现代→神话 · 推荐）</option>
-  <option value="sub">排序：按建筑形制归类</option>
-  <option value="id">排序：按建筑编号正序</option>
-  <option value="id_desc">排序：按最新扩充批次优先</option>
-</select>
-<button id="reset">重置全部筛选</button>
-<button class="primary" id="exportTxt">导出当前筛选 TXT</button>
+  </div>
 </div>
 <div class="pager">
 <span id="count" style="font-weight:bold;color:#284b45"></span>
