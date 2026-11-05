@@ -56,7 +56,7 @@ main{max-width:1640px;margin:0 auto;padding:10px 26px 44px}
 <header class="topbar">
   <div class="brand">
     <strong>分卷提示词浏览</strong>
-    <span>62,586 条目 · 18 分卷</span>
+    <span>64,786 条目 · 18 分卷</span>
   </div>
   <nav class="topnav">
     <a href="index.html">← 全库总检索</a>
@@ -73,7 +73,7 @@ main{max-width:1640px;margin:0 auto;padding:10px 26px 44px}
       <input id="query" type="search" autofocus autocomplete="off" placeholder="搜索分卷条目、朝代、服饰、建筑、器物（支持多词空格组合）…">
     </div>
     <select id="group">
-  <option value="">全部分卷 (62,586)</option>
+  <option value="">全部分卷 (64,786)</option>
   <optgroup label="一、主干历史朝代（人物/服饰/场景主卷）">
     <option>一 先秦</option>
     <option>二 秦汉</option>
@@ -219,18 +219,18 @@ function groupOrder(g){
   if(g.startsWith('十'))return 110;
   return 120;
 }
-const IDX_CHUNKS=["idx_20261104004407_00.js","idx_20261104004407_01.js","idx_20261104004407_02.js","idx_20261104004407_03.js","idx_20261104004407_04.js","idx_20261104004407_05.js","idx_20261104004407_06.js","idx_20261104004407_07.js","idx_20261104004407_08.js","idx_20261104004407_09.js","idx_20261104004407_10.js"];
-const CDN_BASES=['https://testingcf.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/','https://gcore.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/'];
+const IDX_CHUNKS=["idx_20261105101109_00.js","idx_20261105101109_01.js","idx_20261105101109_02.js","idx_20261105101109_03.js","idx_20261105101109_04.js","idx_20261105101109_05.js","idx_20261105101109_06.js","idx_20261105101109_07.js","idx_20261105101109_08.js","idx_20261105101109_09.js","idx_20261105101109_10.js"];
+const CDN_BASES=['https://gcore.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/','https://fastly.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/'];
 const IS_GH_HOST=/github\.io$/i.test(location.hostname||'');
 const byId=new Map(),idxCovered=new Set(),hydratedShards=new Set(),hydratingMap=new Map();
-function buildUrls(cdnRel,primaryRel,altRel){const u=[];if(IS_GH_HOST){CDN_BASES.forEach(b=>u.push(b+cdnRel));u.push(primaryRel);if(altRel&&altRel!==primaryRel)u.push(altRel);}else{u.push(primaryRel);if(altRel&&altRel!==primaryRel)u.push(altRel);if(cdnRel&&cdnRel!==primaryRel&&cdnRel!==altRel)u.push(cdnRel);if(location.protocol!=='file:')CDN_BASES.forEach(b=>u.push(b+cdnRel));}return u;}
+function buildUrls(cdnRel,primaryRel,altRel){const u=[];if(IS_GH_HOST){u.push(primaryRel);if(altRel&&altRel!==primaryRel)u.push(altRel);CDN_BASES.forEach(b=>u.push(b+cdnRel));}else{u.push(primaryRel);if(altRel&&altRel!==primaryRel)u.push(altRel);if(cdnRel&&cdnRel!==primaryRel&&cdnRel!==altRel)u.push(cdnRel);if(location.protocol!=='file:')CDN_BASES.forEach(b=>u.push(b+cdnRel));}return u;}
 function loadScriptChain(urls,timeoutMs){return new Promise(res=>{let i=0;function next(){if(i>=urls.length){res(false);return;}const s=document.createElement('script');let done=false;const tm=setTimeout(()=>{if(!done){done=true;s.onload=s.onerror=null;if(s.parentNode)s.parentNode.removeChild(s);next();}},timeoutMs||6500);s.src=urls[i++];s.onload=()=>{if(!done){done=true;clearTimeout(tm);res(true);}};s.onerror=()=>{if(!done){done=true;clearTimeout(tm);if(s.parentNode)s.parentNode.removeChild(s);next();}};document.head.appendChild(s);}next();});}
 window.__IDX_BATCH__=(groups)=>{groups.forEach(gr=>{const shardFile=gr[0],g=gr[1],rows=gr[2];if(idxCovered.has(shardFile))return;idxCovered.add(shardFile);loaded.add(shardFile);const idxBase=records.length;rows.forEach((a,i)=>{if(byId.has(a[0]))return;const r={id:a[0],title:a[1],group:a[2]||g||'',era:a[3],dyn:a[4],kind:a[5],cat:a[6],catName:a[7]||a[6]||'',sub:a[8],anchor:a[9],src:a[10],hold:a[11],level:a[12],n:a[13]||1,variants:[],_shardFile:shardFile};r._isHF=(r.kind==='历史名人'||(r.id||'').startsWith('HF-')||(r.id||'').startsWith('JT-HF-'));r._gRank=groupOrder(r.group);r._idx=idxBase+i;r._search=((r.id||'')+' '+(r.title||'')+' '+(r.era||'')+' '+(r.sub||'')+' '+(r.anchor||'')+' '+(r.dyn||'')+' '+(r.hold||'')).toLowerCase();byId.set(r.id,r);records.push(r);});});};
 let _curLoadingFile='';
 window.__SHARD__=(file,g,recs)=>{const diskFile=_curLoadingFile||file;const idxBase=records.length;recs.forEach((r,i)=>{if(!r.group)r.group=g||r.era||'';if(!r.catName)r.catName=r.cat||'';if(!r.anchor)r.anchor=r.brief||'';(r.variants||[]).forEach(v=>{if(v.p!==undefined){v.prompt=v.p.includes('\x01')?v.p.replace('\x01',r.c||''):v.p;delete v.p;}});const ex=byId.get(r.id);if(ex){ex.variants=r.variants||[];ex.c=r.c||'';}else{r._isHF=(r.kind==='历史名人'||(r.id||'').startsWith('HF-')||(r.id||'').startsWith('JT-HF-'));r._gRank=groupOrder(r.group);r._idx=idxBase+i;r._shardFile=diskFile;r.n=r.n||(r.variants?r.variants.length:1);r._search=((r.id||'')+' '+(r.title||'')+' '+(r.era||'')+' '+(r.sub||'')+' '+(r.anchor||'')+' '+(r.dyn||'')+' '+(r.hold||'')).toLowerCase();byId.set(r.id,r);records.push(r);}});loaded.add(diskFile);hydratedShards.add(diskFile);};
 function hydrateShard(shardFile){if(!shardFile||hydratedShards.has(shardFile))return Promise.resolve(true);if(hydratingMap.has(shardFile))return hydratingMap.get(shardFile);const p=(async()=>{_curLoadingFile=shardFile;const ok=await loadScriptChain(buildUrls('d2/'+shardFile,DATA_DIR+'/'+shardFile,ALT_DIR+'/'+shardFile),12000);_curLoadingFile='';if(ok)hydratedShards.add(shardFile);return ok;})();hydratingMap.set(shardFile,p);return p;}
 function loadShard(s){if(loaded.has(s.file))return Promise.resolve();if(pending.has(s.file))return pending.get(s.file);const p=hydrateShard(s.file);pending.set(s.file,p);return p;}
-async function loadAll(){await Promise.all(IDX_CHUNKS.map(async fn=>{await loadScriptChain(buildUrls('d2_idx/'+fn,'d2_idx/'+fn,'d2_idx/'+fn),10000);apply();}));const extra=SHARDS.filter(s=>!loaded.has(s.file));for(const s of extra){await loadShard(s);}apply();}
+async function loadAll(){await Promise.all(IDX_CHUNKS.map(async fn=>{await loadScriptChain(buildUrls('d2_idx/'+fn,'d2_idx/'+fn,'d2_idx/'+fn),10000);apply();}));const extra=SHARDS.filter(s=>!loaded.has(s.file));if(extra.length>0){await Promise.all(extra.map(s=>loadShard(s)));apply();}}
 let PAGE=30, _lastCatCount=-1;
 let state={group:'',kind:'',cat:'',q:'',sort:'chrono',page:1},filtered=[],curItem=null,curView=0;
 const $=id=>document.getElementById(id);

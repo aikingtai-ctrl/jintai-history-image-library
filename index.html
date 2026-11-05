@@ -30,7 +30,9 @@ a:hover{text-decoration:underline}
 .ghost-btn:hover{border-color:var(--accent);color:var(--accent);background:#fff}
 .ghost-btn.has-active{border-color:var(--accent);background:var(--accent-soft);color:var(--accent);font-weight:700}
 .adv-wrap{max-width:1640px;margin:0 auto;padding:0 26px}
-.adv-drawer{margin:4px 0 12px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 18px;box-shadow:0 6px 20px rgba(0,0,0,.04)}
+.adv-drawer{margin:8px 0 6px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px 18px 0;box-shadow:0 6px 20px rgba(0,0,0,.04);max-height:min(44vh,430px);overflow-y:auto;overscroll-behavior:contain}
+.adv-foot{position:sticky;bottom:0;z-index:2;background:rgba(255,255,255,.97);backdrop-filter:blur(6px);border-top:1px solid #ece8df;padding:8px 2px;margin-top:4px;display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:13pt;color:var(--muted)}
+.adv-foot strong{color:var(--accent);font-size:14pt}
 .row,.f-row{display:flex;align-items:flex-start;gap:10px;padding:8px 0;border-bottom:1px dashed #ece8df}
 .row:last-child,.f-row:last-child{border-bottom:0}
 .lbl,.f-label{flex:0 0 122px;font-weight:700;color:#35443e;font-size:13.5pt;padding-top:3px}
@@ -94,7 +96,7 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
 <header class="topbar">
   <div class="brand">
     <strong>中国历史文化图库</strong>
-    <span>63,579 条目</span>
+    <span>65,779 条目</span>
   </div>
   <nav class="topnav">
     <a href="图库总入口.html">专集目录</a>
@@ -124,20 +126,21 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
     <button type="button" id="advToggle" class="ghost-btn" aria-expanded="false">细分筛选 ▾</button>
     <button type="button" id="reset" class="ghost-btn">清除</button>
   </div>
-  <div class="adv-wrap">
-    <div id="advDrawer" class="adv-drawer" hidden>
+</div>
+<div class="adv-wrap">
+  <div id="advDrawer" class="adv-drawer" hidden>
       <!-- Row 1: Main Era in strict chronological order -->
   <div class="row">
     <b class="lbl">一、主干朝代<br><small style="font-weight:normal;color:#666;font-size:12.5pt">按历史纪年正序</small></b>
     <div class="row-items" id="era-row">
-      <span class="chip on" data-f="era" data-v="">全部朝代 <small>(63,579)</small></span>
-      <span class="chip" data-f="era" data-v="先秦">① 先秦 <small>(5,308)</small></span>
-      <span class="chip" data-f="era" data-v="秦汉">② 秦汉 <small>(5,866)</small></span>
-      <span class="chip" data-f="era" data-v="三国两晋南北朝">③ 三国两晋南北朝 <small>(7,632)</small></span>
-      <span class="chip" data-f="era" data-v="隋唐五代">④ 隋唐五代 <small>(6,837)</small></span>
-      <span class="chip" data-f="era" data-v="宋辽金西夏">⑤ 宋辽金西夏 <small>(8,397)</small></span>
-      <span class="chip" data-f="era" data-v="元明">⑥ 元明 <small>(5,564)</small></span>
-      <span class="chip" data-f="era" data-v="清">⑦ 清代 <small>(3,677)</small></span>
+      <span class="chip on" data-f="era" data-v="">全部朝代 <small>(65,779)</small></span>
+      <span class="chip" data-f="era" data-v="先秦">① 先秦 <small>(5,462)</small></span>
+      <span class="chip" data-f="era" data-v="秦汉">② 秦汉 <small>(6,226)</small></span>
+      <span class="chip" data-f="era" data-v="三国两晋南北朝">③ 三国两晋南北朝 <small>(8,040)</small></span>
+      <span class="chip" data-f="era" data-v="隋唐五代">④ 隋唐五代 <small>(7,358)</small></span>
+      <span class="chip" data-f="era" data-v="宋辽金西夏">⑤ 宋辽金西夏 <small>(8,856)</small></span>
+      <span class="chip" data-f="era" data-v="元明">⑥ 元明 <small>(5,759)</small></span>
+      <span class="chip" data-f="era" data-v="清">⑦ 清代 <small>(3,780)</small></span>
       <span class="chip" data-f="era" data-v="民国">⑧ 民国 <small>(1,887)</small></span>
       <span class="chip" data-f="era" data-v="人民军队（1927至今）">⑨ 人民军队（1927至今） <small>(9,367)</small></span>
       <span class="era-sep">｜</span>
@@ -276,16 +279,16 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
   <div class="row">
     <b class="lbl">三、资产类型<br><small style="font-weight:normal;color:#666;font-size:12.5pt">点选后展开二级细目</small></b>
     <div class="row-items" id="kind-row">
-      <span class="chip on" data-f="kind" data-v="">全部类型 <small>(63,579)</small></span>
-      <span class="chip star" data-f="kind" data-v="历史名人">★ 历史名人 <small>(16,000)</small></span>
-      <span class="chip" data-f="kind" data-v="人物">人物·服饰/容貌/甲胄 <small>(15,287)</small></span>
-      <span class="chip" data-f="kind" data-v="全部人物">全部人物合计 <small>(31,287)</small></span>
-      <span class="chip" data-f="kind" data-v="场景">场景·生活/军旅/地理 <small>(13,222)</small></span>
-      <span class="chip" data-f="kind" data-v="建筑">建筑·宫殿/寺塔/城池 <small>(8,935)</small></span>
-      <span class="chip" data-f="kind" data-v="器物">器物·礼器/瓷器/兵器 <small>(4,969)</small></span>
-      <span class="chip" data-f="kind" data-v="事件">事件 HERO <small>(1,818)</small></span>
-      <span class="chip green" data-f="kind" data-v="配套">配套·车船/水工/机械 <small>(1,825)</small></span>
-      <span class="chip purple" data-f="kind" data-v="神话">神话与志怪设定 <small>(1,523)</small></span>
+      <span class="chip on" data-f="kind" data-v="">全部类型 <small>(65,779)</small></span>
+      <span class="chip star" data-f="kind" data-v="历史名人">★ 历史名人 <small>(18,000)</small></span>
+      <span class="chip" data-f="kind" data-v="人物">人物·服饰/容貌/甲胄 <small>(15,330)</small></span>
+      <span class="chip" data-f="kind" data-v="全部人物">全部人物合计 <small>(33,330)</small></span>
+      <span class="chip" data-f="kind" data-v="场景">场景·生活/军旅/地理 <small>(13,244)</small></span>
+      <span class="chip" data-f="kind" data-v="建筑">建筑·宫殿/寺塔/城池 <small>(8,970)</small></span>
+      <span class="chip" data-f="kind" data-v="器物">器物·礼器/瓷器/兵器 <small>(5,044)</small></span>
+      <span class="chip" data-f="kind" data-v="事件">事件 HERO <small>(1,824)</small></span>
+      <span class="chip green" data-f="kind" data-v="配套">配套·车船/水工/机械 <small>(1,844)</small></span>
+      <span class="chip purple" data-f="kind" data-v="神话">神话与志怪设定 <small>(5,903)</small></span>
     </div>
   </div>
 
@@ -300,24 +303,25 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
     <b class="lbl">四、专集与考证度<br><small style="font-weight:normal;color:#666;font-size:12.5pt">按专集/证据等级筛选</small></b>
     <div class="row-items">
       <span class="chip on" data-f="spec" data-v="">全部馆藏</span>
-      <span class="chip green" data-f="spec" data-v="weak1200">★ 薄弱环节多类别专集 <small>(5,800组·58,000条)</small></span>
+      <span class="chip green" data-f="spec" data-v="weak1200">★ 薄弱环节多类别专集 <small>(6,000组·60,000条)</small></span>
       <span class="chip star" data-f="spec" data-v="lz">★ 聊斋志异角色场景法器专集 <small>(200组·2,000条)</small></span>
       <span class="chip star" data-f="spec" data-v="hlm">★ 红楼梦角色场景专集 <small>(200组·2,000条)</small></span>
       <span class="chip purple" data-f="spec" data-v="志怪31">★ 57部志怪佛道传奇神魔 <small>(800组·8,000条)</small></span>
       <span class="chip purple" data-f="spec" data-v="lit200">★ 古典文学与民族史诗 <small>(780组·7,560条)</small></span>
-      <span class="chip green" data-f="spec" data-v="websearch">★ 全网考证馆藏 <small>(9,700组·97,000条)</small></span>
-      <span class="chip star" data-f="spec" data-v="20261103">★ 2026-11-03今日四批 <small>(800组·8,000条)</small></span>
+      <span class="chip green" data-f="spec" data-v="websearch">★ 全网考证馆藏 <small>(9,900组·99,000条)</small></span>
+      <span class="chip star" data-f="spec" data-v="20261104">★ 2026-11-04最新两批 <small>(1,200组·3,000条)</small></span>
+      <span class="chip star" data-f="spec" data-v="20261103">★ 2026-11-03五批 <small>(1,800组·9,000条)</small></span>
       <span class="chip star" data-f="spec" data-v="20261102">★ 2026-11-02五批 <small>(1,800组·9,000条)</small></span>
       <span class="era-sep">｜</span>
       <span class="chip on" data-f="lvl" data-v="">全部考证等级</span>
-      <span class="chip" data-f="lvl" data-v="A" style="border-color:#137333;color:#137333">A级·实物/遗址/正史直证 <small>(26,877)</small></span>
-      <span class="chip" data-f="lvl" data-v="B" style="border-color:#1967d2;color:#1967d2">B级·图像/壁画/文献互证 <small>(21,910)</small></span>
-      <span class="chip" data-f="lvl" data-v="典" style="border-color:#6b21a8;color:#6b21a8">典籍与文物考证实证 <small>(5,010)</small></span>
-      <span class="chip" data-f="lvl" data-v="C">C级·形制推拟 <small>(7,402)</small></span>
+      <span class="chip" data-f="lvl" data-v="A" style="border-color:#137333;color:#137333">A级·实物/遗址/正史直证 <small>(28,877)</small></span>
+      <span class="chip" data-f="lvl" data-v="B" style="border-color:#1967d2;color:#1967d2">B级·图像/壁画/文献互证 <small>(22,110)</small></span>
+      <span class="chip" data-f="lvl" data-v="典" style="border-color:#6b21a8;color:#6b21a8">典籍与文物考证实证 <small>(5,000)</small></span>
+      <span class="chip" data-f="lvl" data-v="C">C级·形制推拟 <small>(7,412)</small></span>
       <span class="era-sep">｜</span>
       <span class="chip on" data-f="lib" data-v="">全部来源</span>
       <span class="chip" data-f="lib" data-v="Claude 图库">Claude 图库</span>
-      <span class="chip" data-f="lib" data-v="历史名人图库">历史名人十六期</span>
+      <span class="chip" data-f="lib" data-v="历史名人图库">历史名人十八期</span>
       <span class="chip" data-f="lib" data-v="神话传说（扩充）">神话传说扩充</span>
       <span class="chip" data-f="lib" data-v="事件 HERO（填充）">事件 HERO</span>
       <span class="chip" data-f="lib" data-v="264 类题型（填充）">264 类题型</span>
@@ -335,21 +339,24 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
       <div class="f-row">
         <div class="f-label">独立专集<small>按专题深览</small></div>
         <div class="spec-links">
-          <a href="figures.html">历代名人(1.6万)</a>
-          <a href="arch5680.html">历代建筑(8,935)</a>
+          <a href="figures.html">历代名人(1.8万)</a>
+          <a href="arch5680.html">历代建筑(8,970)</a>
           <a href="myth5000.html">神话传说(3万)</a>
           <a href="zhiguai31.html">57部志怪总集</a>
           <a href="epics.html">文学与民族史诗</a>
           <a href="hongloumeng.html">红楼梦专集</a>
           <a href="liaozhai.html">聊斋志异专集</a>
           <a href="dynasty2000.html">薄弱多朝代扩充</a>
-          <a href="websearch5000.html">全网考证9.7万条</a>
+          <a href="websearch5000.html">全网考证9.9万条</a>
           <a href="每日更新/00_每日更新总目录.html">按日更新批次</a>
           <a href="library.xlsx">Excel总表</a>
         </div>
       </div>
+      <div class="adv-foot">
+        <span>当前筛选匹配 <strong id="advCount">65,779 条</strong>（下方即时显示卡片）</span>
+        <button type="button" class="ghost-btn" id="advDoneBtn" style="padding:5px 14px;font-size:13pt">收起筛选看结果 ▴</button>
+      </div>
     </div>
-  </div>
 </div>
 
 <main>
@@ -501,11 +508,11 @@ function computeBatchRank(file){
   return dt*1000+parseInt(m[2],10);
 }
 
-const IDX_CHUNKS=["idx_20261104004407_00.js","idx_20261104004407_01.js","idx_20261104004407_02.js","idx_20261104004407_03.js","idx_20261104004407_04.js","idx_20261104004407_05.js","idx_20261104004407_06.js","idx_20261104004407_07.js","idx_20261104004407_08.js","idx_20261104004407_09.js","idx_20261104004407_10.js"];
-const CDN_BASES=['https://testingcf.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/','https://gcore.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/'];
+const IDX_CHUNKS=["idx_20261105101109_00.js","idx_20261105101109_01.js","idx_20261105101109_02.js","idx_20261105101109_03.js","idx_20261105101109_04.js","idx_20261105101109_05.js","idx_20261105101109_06.js","idx_20261105101109_07.js","idx_20261105101109_08.js","idx_20261105101109_09.js","idx_20261105101109_10.js"];
+const CDN_BASES=['https://gcore.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/','https://fastly.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/'];
 const IS_GH_HOST=/github\.io$/i.test(location.hostname||'');
 const byId=new Map(),idxCovered=new Set(),hydratedShards=new Set(),hydratingMap=new Map();
-function buildUrls(cdnRel,primaryRel,altRel){const u=[];if(IS_GH_HOST){CDN_BASES.forEach(b=>u.push(b+cdnRel));u.push(primaryRel);if(altRel&&altRel!==primaryRel)u.push(altRel);}else{u.push(primaryRel);if(altRel&&altRel!==primaryRel)u.push(altRel);if(cdnRel&&cdnRel!==primaryRel&&cdnRel!==altRel)u.push(cdnRel);if(location.protocol!=='file:')CDN_BASES.forEach(b=>u.push(b+cdnRel));}return u;}
+function buildUrls(cdnRel,primaryRel,altRel){const u=[];if(IS_GH_HOST){u.push(primaryRel);if(altRel&&altRel!==primaryRel)u.push(altRel);CDN_BASES.forEach(b=>u.push(b+cdnRel));}else{u.push(primaryRel);if(altRel&&altRel!==primaryRel)u.push(altRel);if(cdnRel&&cdnRel!==primaryRel&&cdnRel!==altRel)u.push(cdnRel);if(location.protocol!=='file:')CDN_BASES.forEach(b=>u.push(b+cdnRel));}return u;}
 function loadScriptChain(urls,timeoutMs){return new Promise(res=>{let i=0;function next(){if(i>=urls.length){res(false);return;}const s=document.createElement('script');let done=false;const tm=setTimeout(()=>{if(!done){done=true;s.onload=s.onerror=null;if(s.parentNode)s.parentNode.removeChild(s);next();}},timeoutMs||6500);s.src=urls[i++];s.onload=()=>{if(!done){done=true;clearTimeout(tm);res(true);}};s.onerror=()=>{if(!done){done=true;clearTimeout(tm);if(s.parentNode)s.parentNode.removeChild(s);next();}};document.head.appendChild(s);}next();});}
 function indexRecord(r,bRank,idx,shardFile,isFull){
   const subClean=(r.sub||'').replace(/2026\d4[^·]*全网考证/g,'');
@@ -520,7 +527,7 @@ let _curLoadingFile='';
 window.__SHARD__=(file,era,recs)=>{const diskFile=_curLoadingFile||file;const bRank=computeBatchRank(diskFile);recs.forEach((r,idx)=>{if(!r.era&&era)r.era=era;if(!r.n)r.n=r.variants?r.variants.length:1;(r.variants||[]).forEach(v=>{if(v.p!==undefined){v.prompt=v.p.includes('\x01')?v.p.replace('\x01',r.c||''):v.p;delete v.p;}});const existing=byId.get(r.id);if(existing){existing.variants=r.variants||[];existing.c=r.c||'';existing._hydrated=true;}else{indexRecord(r,bRank,idx,diskFile,true);byId.set(r.id,r);R.push(r);}});loaded.add(diskFile);hydratedShards.add(diskFile);};
 function hydrateShard(shardFile){if(!shardFile||hydratedShards.has(shardFile))return Promise.resolve(true);if(hydratingMap.has(shardFile))return hydratingMap.get(shardFile);const p=(async()=>{_curLoadingFile=shardFile;const ok=await loadScriptChain(buildUrls('d1/'+shardFile,DATA_DIR+'/'+shardFile,ALT_DIR+'/'+shardFile),12000);_curLoadingFile='';if(ok)hydratedShards.add(shardFile);return ok;})();hydratingMap.set(shardFile,p);return p;}
 function loadShard(s){if(loaded.has(s.file))return Promise.resolve();if(pending.has(s.file))return pending.get(s.file);const p=hydrateShard(s.file);pending.set(s.file,p);return p;}
-async function loadAll(){$('loadmsg').textContent='正在通过国内高速节点载入全库索引（0/'+IDX_CHUNKS.length+'）…';let doneIdx=0;await Promise.all(IDX_CHUNKS.map(async fn=>{await loadScriptChain(buildUrls('d1_idx/'+fn,'d1_idx/'+fn,'d1_idx/'+fn),10000);doneIdx++;$('loadmsg').textContent=`正在载入全库索引（${doneIdx}/${IDX_CHUNKS.length}）…`;if(doneIdx===1||doneIdx===IDX_CHUNKS.length){rebuildStoryDropdown();renderSubcats();apply();}}));const extra=SHARDS.filter(s=>!loaded.has(s.file));if(extra.length>0){for(const s of extra){await loadShard(s);loadmsg();}rebuildStoryDropdown();renderSubcats();apply();}$('loadmsg').textContent='';}
+async function loadAll(){$('loadmsg').textContent='正在载入全库索引（0/'+IDX_CHUNKS.length+'）…';let doneIdx=0;await Promise.all(IDX_CHUNKS.map(async fn=>{await loadScriptChain(buildUrls('d1_idx/'+fn,'d1_idx/'+fn,'d1_idx/'+fn),10000);doneIdx++;$('loadmsg').textContent=`正在载入全库索引（${doneIdx}/${IDX_CHUNKS.length}）…`;if(doneIdx===1||doneIdx===IDX_CHUNKS.length){rebuildStoryDropdown();renderSubcats();apply();}}));const extra=SHARDS.filter(s=>!loaded.has(s.file));if(extra.length>0){await Promise.all(extra.map(async s=>{await loadShard(s);loadmsg();}));rebuildStoryDropdown();renderSubcats();apply();}$('loadmsg').textContent='';}
 function loadmsg(){if(loaded.size<SHARDS.length)$('loadmsg').textContent=`正在高速载入 ${loaded.size}/${SHARDS.length} 个分片…`;}
 
 const SUBCAT_DEFS={
@@ -558,7 +565,7 @@ const SUBCAT_DEFS={
   ],
   '全部人物': [
     ['','全部人物（名人+通用）'],
-    ['hf_all','★ 历代历史名人 (16,000)'],
+    ['hf_all','★ 历代历史名人 (18,000)'],
     ['co_dress','朝代冠服与胡汉衣装'],
     ['fa_face','容貌范型与身份骨相'],
     ['co_armor','甲胄戎装与军旅武备'],
@@ -667,8 +674,9 @@ function renderSubcats(){
   defs.forEach(([val,label])=>{
     const sp=document.createElement('span');
     sp.className='chip'+(f.subcat===val?' on':'');
+    sp.dataset.f='subcat';
+    sp.dataset.v=val;
     sp.textContent=label;
-    sp.onclick=()=>{f.subcat=val;renderSubcats();apply();};
     row.appendChild(sp);
   });
 }
@@ -772,13 +780,14 @@ function matchSubdyn(r,v){
 
 function matchSpec(r,sp){
   if(!sp)return true;
-  if(sp==='weak1200')return r.id.startsWith('HT-W20261103C-')||r.id.startsWith('HT-N20261103-')||r.id.startsWith('HT-W20261103B-')||r.id.startsWith('HT-W20261103A-')||r.id.startsWith('HT-W20261102B-')||r.id.startsWith('HT-N20261102-')||r.id.startsWith('HT-W20261102A-')||r.id.startsWith('HT-W20261101A-')||r.id.startsWith('HT-N20261101-')||r.id.startsWith('HT-W20261031A-')||r.id.startsWith('HT-N20261031-')||r.id.startsWith('HT-W20261030G-')||r.id.startsWith('HT-W20261030F-')||r.id.startsWith('HT-W20261030E-')||r.id.startsWith('HT-W20261030D-')||r.id.startsWith('HT-W20261030C-')||r.id.startsWith('HT-W20261030B-')||r.id.startsWith('HT-W20261030A-')||r.id.startsWith('HT-N20261029-')||r.id.startsWith('HT-W20261029E-')||r.id.startsWith('HT-W20261029D-')||r.id.startsWith('HT-W20261029C-')||r.id.startsWith('HT-W20261029B-')||r.id.startsWith('HT-W20261029-')||r.id.startsWith('HT-N20261028-')||r.id.startsWith('HT-W20261028B-')||r.id.startsWith('HT-W20261028-')||r.id.startsWith('HT-N20261027-')||r.id.startsWith('HT-E20271027-')||r.id.startsWith('HT-E20261027-');
+  if(sp==='weak1200')return r.id.startsWith('HT-N20261104-')||r.id.startsWith('HT-W20261103C-')||r.id.startsWith('HT-N20261103-')||r.id.startsWith('HT-W20261103B-')||r.id.startsWith('HT-W20261103A-')||r.id.startsWith('HT-W20261102B-')||r.id.startsWith('HT-N20261102-')||r.id.startsWith('HT-W20261102A-')||r.id.startsWith('HT-W20261101A-')||r.id.startsWith('HT-N20261101-')||r.id.startsWith('HT-W20261031A-')||r.id.startsWith('HT-N20261031-')||r.id.startsWith('HT-W20261030G-')||r.id.startsWith('HT-W20261030F-')||r.id.startsWith('HT-W20261030E-')||r.id.startsWith('HT-W20261030D-')||r.id.startsWith('HT-W20261030C-')||r.id.startsWith('HT-W20261030B-')||r.id.startsWith('HT-W20261030A-')||r.id.startsWith('HT-N20261029-')||r.id.startsWith('HT-W20261029E-')||r.id.startsWith('HT-W20261029D-')||r.id.startsWith('HT-W20261029C-')||r.id.startsWith('HT-W20261029B-')||r.id.startsWith('HT-W20261029-')||r.id.startsWith('HT-N20261028-')||r.id.startsWith('HT-W20261028B-')||r.id.startsWith('HT-W20261028-')||r.id.startsWith('HT-N20261027-')||r.id.startsWith('HT-E20271027-')||r.id.startsWith('HT-E20261027-');
   if(sp==='lz')return r.id.startsWith('LZ-');
   if(sp==='hlm')return r.id.startsWith('HLM-');
   if(sp==='志怪31')return matchSubdyn(r,'志怪31');
   if(sp==='lit200')return (r.era==='文学与民间史诗'&&!r.id.startsWith('HLM-')&&!r.id.startsWith('LZ-'))||r.id.startsWith('LE-');
   if(sp==='websearch')return r.id.startsWith('HT-')||r.id.startsWith('ZG-')||r.id.startsWith('LE-')||r.id.startsWith('HLM-')||r.id.startsWith('LZ-');
-  if(sp==='20261103')return r.id.startsWith('HT-W20261103C-')||r.id.startsWith('HT-N20261103-')||r.id.startsWith('HT-W20261103B-')||r.id.startsWith('HT-W20261103A-');
+  if(sp==='20261104')return (r._shardFile||'').startsWith('nightly_20261104_')||r.id.startsWith('HT-N20261104-');
+  if(sp==='20261103')return (r._shardFile||'').startsWith('nightly_20261103_')||r.id.startsWith('HT-W20261103C-')||r.id.startsWith('HT-N20261103-')||r.id.startsWith('HT-W20261103B-')||r.id.startsWith('HT-W20261103A-');
   if(sp==='20261102')return r.id.startsWith('HF-20261102-')||r.id.startsWith('HT-W20261102B-')||r.id.startsWith('HT-N20261102-')||r.id.startsWith('HT-W20261102A-')||r.id.startsWith('LZ-20261102-');
   if(sp==='20261101')return r.id.startsWith('HF-20261101-')||r.id.startsWith('HT-W20261101A-')||r.id.startsWith('HT-N20261101-');
   if(sp==='20261031')return r.id.startsWith('HF-20261031-')||r.id.startsWith('HT-W20261031A-')||r.id.startsWith('HT-N20261031-');
@@ -877,6 +886,13 @@ function apply(){
   render();
 }
 
+function chipHumanLabel(k,v){
+  const el=document.querySelector(`#advDrawer .chip[data-f="${k}"][data-v="${CSS.escape(v)}"]`);
+  if(!el)return v;
+  const clone=el.cloneNode(true);
+  clone.querySelectorAll('small').forEach(sm=>sm.remove());
+  return clone.textContent.trim()||v;
+}
 function renderCrumbs(){
   const c=$('crumbs');
   c.innerHTML='';
@@ -885,15 +901,15 @@ function renderCrumbs(){
     if(!f[k])return;
     const sp=document.createElement('span');
     sp.className='crumb-tag';
-    sp.innerHTML=`${labels[k]||k}：${f[k]} ✕`;
+    sp.textContent=`${labels[k]||k}：${chipHumanLabel(k,f[k])} ✕`;
     sp.title='点击移除此筛选条件';
     sp.onclick=()=>{
       f[k]='';
       if(k==='kind')f.subcat='';
+      renderSubcats();
       syncChipUI();
       updateSubdynVisibility();
       rebuildStoryDropdown();
-      renderSubcats();
       apply();
     };
     c.appendChild(sp);
@@ -930,6 +946,7 @@ function render(){
   if(page>=tp) page=tp-1;
   if(page<0) page=0;
   $('count').textContent=`共 ${total.toLocaleString()} 条`;
+  if($('advCount')) $('advCount').textContent=`${total.toLocaleString()} 条`;
   const ptxt=`第 ${page+1} / ${tp.toLocaleString()} 页`;
   $('pinfo').textContent=ptxt;
   if($('pinfoB')) $('pinfoB').textContent=ptxt;
@@ -988,14 +1005,16 @@ function show(){ const v=(cur.variants||[])[curIdx]; $('dprompt').textContent=v?
 async function cp(t){ try{await navigator.clipboard.writeText(t);}catch{const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();} }
 function dlTxt(name,text){ const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'})); a.download=name; a.click(); }
 
-$('advToggle').onclick=()=>{
+function setDrawerOpen(open){
   const dr=$('advDrawer');
-  dr.hidden=!dr.hidden;
-  $('advToggle').setAttribute('aria-expanded', String(!dr.hidden));
+  dr.hidden=!open;
+  $('advToggle').setAttribute('aria-expanded', String(open));
   updateAdvBadge();
-};
+}
+$('advToggle').onclick=()=>setDrawerOpen($('advDrawer').hidden);
+if($('advDoneBtn')) $('advDoneBtn').onclick=()=>setDrawerOpen(false);
 $('eraSel').onchange=e=>{
-  f.era=e.target.value; f.subdyn='';
+  f.era=e.target.value; f.subdyn=''; showAllSubdyn=false;
   updateSubdynVisibility(); rebuildStoryDropdown(); syncChipUI(); apply();
 };
 $('kindSel').onchange=e=>{
@@ -1007,10 +1026,11 @@ $('advDrawer').addEventListener('click',e=>{
   const el=e.target.closest('.chip[data-f]'); if(!el) return;
   const k=el.dataset.f, v=el.dataset.v||'';
   f[k] = (f[k]===v && v!=='') ? '' : v;
-  if(k==='era'){ f.subdyn=''; updateSubdynVisibility(); rebuildStoryDropdown(); }
-  if(k==='subdyn'){ if(el.dataset.era && !f.era) f.era=el.dataset.era; updateSubdynVisibility(); rebuildStoryDropdown(); }
+  if(k==='era'){ f.subdyn=''; showAllSubdyn=false; updateSubdynVisibility(); rebuildStoryDropdown(); }
+  if(k==='subdyn'){ if(el.dataset.era && !f.era) f.era=el.dataset.era; if(f.subdyn) showAllSubdyn=false; updateSubdynVisibility(); rebuildStoryDropdown(); }
   if(k==='kind'){ f.subcat=''; renderSubcats(); }
   syncChipUI(); apply();
+  if(window.scrollY>240) window.scrollTo({top:0,behavior:'smooth'});
 });
 
 let tmr=null;
@@ -1024,7 +1044,7 @@ $('prevB').onclick=()=>$('prev').onclick();
 $('nextB').onclick=()=>$('next').onclick();
 $('go2').onclick=()=>{ const n=+$('goto').value; if(n>=1){page=n-1;render();window.scrollTo({top:0,behavior:'smooth'});} };
 $('reset').onclick=()=>{
-  f={era:'',subdyn:'',kind:'',subcat:'',spec:'',lvl:'',lib:''};
+  f={era:'',subdyn:'',kind:'',subcat:'',spec:'',lvl:'',lib:''}; showAllSubdyn=false;
   $('q').value=''; $('story').value=''; $('sort').value='chrono';
   updateSubdynVisibility(); rebuildStoryDropdown(); renderSubcats(); syncChipUI(); apply();
   $('q').focus();
