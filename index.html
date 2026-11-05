@@ -512,7 +512,7 @@ const IDX_CHUNKS=["idx_20261105101109_00.js","idx_20261105101109_01.js","idx_202
 const CDN_BASES=['https://gcore.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/','https://fastly.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/'];
 const IS_GH_HOST=/github\.io$/i.test(location.hostname||'');
 const byId=new Map(),idxCovered=new Set(),hydratedShards=new Set(),hydratingMap=new Map();
-function buildUrls(cdnRel,primaryRel,altRel){const u=[];if(IS_GH_HOST){u.push(primaryRel);if(altRel&&altRel!==primaryRel)u.push(altRel);CDN_BASES.forEach(b=>u.push(b+cdnRel));}else{u.push(primaryRel);if(altRel&&altRel!==primaryRel)u.push(altRel);if(cdnRel&&cdnRel!==primaryRel&&cdnRel!==altRel)u.push(cdnRel);if(location.protocol!=='file:')CDN_BASES.forEach(b=>u.push(b+cdnRel));}return u;}
+function buildUrls(cdnRel,primaryRel,altRel){const u=[];if(IS_GH_HOST){const onP=/^(d1_idx|d2_idx)\//.test(cdnRel);if(onP)u.push(primaryRel);CDN_BASES.forEach(b=>u.push(b+cdnRel));if(!onP)u.push(primaryRel);}else{u.push(primaryRel);if(altRel&&altRel!==primaryRel)u.push(altRel);if(cdnRel&&cdnRel!==primaryRel&&cdnRel!==altRel)u.push(cdnRel);if(location.protocol!=='file:')CDN_BASES.forEach(b=>u.push(b+cdnRel));}return u;}
 function loadScriptChain(urls,timeoutMs){return new Promise(res=>{let i=0;function next(){if(i>=urls.length){res(false);return;}const s=document.createElement('script');let done=false;const tm=setTimeout(()=>{if(!done){done=true;s.onload=s.onerror=null;if(s.parentNode)s.parentNode.removeChild(s);next();}},timeoutMs||6500);s.src=urls[i++];s.onload=()=>{if(!done){done=true;clearTimeout(tm);res(true);}};s.onerror=()=>{if(!done){done=true;clearTimeout(tm);if(s.parentNode)s.parentNode.removeChild(s);next();}};document.head.appendChild(s);}next();});}
 function indexRecord(r,bRank,idx,shardFile,isFull){
   const subClean=(r.sub||'').replace(/2026\d4[^·]*全网考证/g,'');
@@ -947,6 +947,7 @@ function render(){
   if(page<0) page=0;
   $('count').textContent=`共 ${total.toLocaleString()} 条`;
   if($('advCount')) $('advCount').textContent=`${total.toLocaleString()} 条`;
+  if($('advCount')) $('advCount').textContent=`${total.toLocaleString()} 条`;
   const ptxt=`第 ${page+1} / ${tp.toLocaleString()} 页`;
   $('pinfo').textContent=ptxt;
   if($('pinfoB')) $('pinfoB').textContent=ptxt;
@@ -1044,7 +1045,7 @@ $('prevB').onclick=()=>$('prev').onclick();
 $('nextB').onclick=()=>$('next').onclick();
 $('go2').onclick=()=>{ const n=+$('goto').value; if(n>=1){page=n-1;render();window.scrollTo({top:0,behavior:'smooth'});} };
 $('reset').onclick=()=>{
-  f={era:'',subdyn:'',kind:'',subcat:'',spec:'',lvl:'',lib:''}; showAllSubdyn=false;
+  f={era:'',subdyn:'',kind:'',subcat:'',spec:'',lvl:'',lib:''}; showAllSubdyn=false; showAllSubdyn=false;
   $('q').value=''; $('story').value=''; $('sort').value='chrono';
   updateSubdynVisibility(); rebuildStoryDropdown(); renderSubcats(); syncChipUI(); apply();
   $('q').focus();
