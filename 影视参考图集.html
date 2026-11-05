@@ -114,17 +114,77 @@ textarea.pr{width:100%;min-height:195px;font-size:18.5px;line-height:1.68;resize
 .strip{display:flex;gap:10px;overflow-x:auto;padding-bottom:6px}.strip .mini{flex:0 0 210px;cursor:pointer;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#000;line-height:0}.strip .mini:hover{border-color:var(--ac)}.strip .mini svg,.strip .mini img{width:100%;height:auto}
 .muted{color:var(--mu)}.warn{color:var(--ac)}.small{font-size:16px}
 .two{display:grid;grid-template-columns:320px minmax(0,1fr);gap:22px;align-items:start}
-.decklist .dk{padding:12px 14px;border:1px solid var(--line);border-radius:12px;margin-bottom:10px;cursor:pointer;background:var(--p1)}.decklist .dk.on{border-color:var(--ac);background:var(--p2)}.decklist .dk b{font-size:20px}
+.dk-gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(400px,1fr));gap:18px;margin-top:10px}
+.dk-card{background:var(--p1);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .14s,transform .14s}
+.dk-card:hover{border-color:var(--ac);transform:translateY(-1px)}
+.dk-quad{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:2px;background:#0b0d0f;aspect-ratio:16/9;cursor:pointer;overflow:hidden}
+.dk-quad .qcell{position:relative;overflow:hidden;background:#121519;display:flex;align-items:center;justify-content:center;line-height:0}
+.dk-quad .qcell svg,.dk-quad .qcell img{width:100%;height:100%;object-fit:cover;display:block}
+.dk-slate{aspect-ratio:16/9;background:linear-gradient(155deg,#181c22,#101317);padding:18px 20px;display:flex;flex-direction:column;justify-content:space-between;cursor:pointer;position:relative;overflow:hidden}
+.dk-slate .sl-kicker{font-size:14.5px;color:var(--ac);letter-spacing:1px;font-weight:600}
+.dk-slate .sl-title{font-size:24px;font-weight:700;color:var(--tx);line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.dk-slate .sl-sub{font-size:15.5px;color:var(--mu)}
+.dk-body{padding:13px 16px 15px;display:flex;flex-direction:column;gap:7px;flex:1}
+.dk-kicker,.dk-toprow{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:15.5px;color:var(--mu)}
+.cat-badge,.dk-cat{display:inline-block;font-size:14.5px;padding:2px 9px;border-radius:6px;background:var(--p3);color:var(--ac);font-weight:600}
+.dk-cat.mine{background:#1f4b37;color:#9ef0be}.dk-cat.film{background:#263344;color:#9bcaff}
+.dk-card h4{margin:0;font-size:20.5px;line-height:1.38;cursor:pointer;color:var(--tx)}
+.dk-card h4:hover{color:var(--ac)}
+.dk-card p,.dk-desc{margin:0;font-size:16.5px;color:#c7c2b8;line-height:1.5;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;flex:1}
+.dk-foot{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}.dk-foot button{padding:6px 12px;font-size:16.5px}
+.dk-films{font-size:15.5px;color:var(--mu);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.dk-studio-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--line)}
 .dkhead input{font-size:26px;font-weight:700;width:100%;margin-bottom:8px}.dkhead textarea{width:100%;min-height:84px}
-.dgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;margin-top:14px}.ditem{background:var(--p1);border:1px solid var(--line);border-radius:12px;overflow:hidden}.ditem.drag{opacity:.4}.ditem.over{border-color:var(--ac)}
+.dgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px;margin-top:14px}.ditem{background:var(--p1);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}.ditem.drag{opacity:.4}.ditem.over{border-color:var(--ac)}
 .ditem .cap{cursor:grab}.ditem textarea{width:calc(100% - 20px);margin:0 10px 8px;min-height:56px;font-size:16.5px}.ditem .acts button{font-size:16px}
 .banner{background:#3a2c0f;border:1px solid var(--ac);border-radius:12px;padding:12px 18px;margin-bottom:16px;display:flex;gap:14px;align-items:center;flex-wrap:wrap}
-.cmpgrid{display:grid;gap:14px}.cmpgrid .col{background:var(--p1);border:1px solid var(--line);border-radius:12px;overflow:hidden}.cmpgrid .col h4{margin:8px 12px;font-size:19px}
+
+/* === Massive Instant Compare Engine === */
+.cmp-mode-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.cmp-mode-bar button.on,.cmp-subtabs button.on{background:var(--ac);color:#1a1409;border-color:var(--ac);font-weight:700}
+.fp-ac-wrap{position:relative;flex:1;min-width:300px}
+.fp-ac-wrap input{width:100%;font-size:19px;padding:9px 14px}
+.fp-drop{position:absolute;left:0;right:0;top:calc(100% + 5px);max-height:420px;overflow-y:auto;background:var(--p1);border:1px solid var(--ac);border-radius:12px;box-shadow:0 16px 38px rgba(0,0,0,.68);z-index:45;padding:6px}
+.fp-opt{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 12px;border-radius:8px;cursor:pointer;font-size:17.5px}
+.fp-opt:hover,.fp-opt.act{background:var(--p3)}
+.fp-opt .fo-sub{font-size:15px;color:var(--mu)}
+.fp-opt .fo-pal{display:inline-flex;width:65px;height:14px;border-radius:4px;overflow:hidden;flex-shrink:0;border:1px solid #0006}.fp-opt .fo-pal span{flex:1}
+.preset-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:10px 0 14px}
+.preset-row button{font-size:16.5px;padding:5px 13px;border-radius:18px;background:var(--p1)}
+.preset-row button.on{border-color:var(--ac);color:var(--ac);background:#2a2315}
+.view-seg{display:inline-flex;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.view-seg button{border:0;border-radius:0;padding:7px 14px;font-size:17px;background:var(--p1);color:var(--mu)}
+.view-seg button.on{background:var(--tx);color:#121416;font-weight:700}
+.fp-mat-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:13px;background:var(--p1)}
+table.fp-mat{width:100%;border-collapse:collapse;font-size:17px;white-space:nowrap}
+table.fp-mat thead th{position:sticky;top:0;background:var(--p2);color:var(--mu);font-weight:600;padding:10px 10px;border-bottom:1px solid var(--line);cursor:pointer;user-select:none;text-align:right;z-index:3}
+table.fp-mat thead th:first-child{left:0;text-align:left;z-index:5;min-width:270px}
+table.fp-mat thead th.nosort{cursor:default;text-align:left}
+table.fp-mat thead th:hover:not(.nosort){color:var(--ac)}
+table.fp-mat thead th.sorted{color:var(--ac)}
+table.fp-mat tbody tr:hover td{background:rgba(224,169,67,.07)}
+table.fp-mat td{padding:8px 10px;border-bottom:1px solid #282d33;text-align:right;vertical-align:middle}
+table.fp-mat td:first-child{position:sticky;left:0;background:var(--p1);text-align:left;z-index:2;border-right:1px solid var(--line)}
+table.fp-mat tbody tr:hover td:first-child{background:#232629}
+.mat-title{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.mat-title b{font-size:18px;color:var(--tx);max-width:240px;overflow:hidden;text-overflow:ellipsis;display:inline-block;vertical-align:bottom}
+.mat-tag{font-size:13.5px;padding:1px 6px;border-radius:5px;background:var(--p3);color:var(--ac2);margin-right:5px}
+.mat-acts{display:inline-flex;gap:4px;margin-left:6px}
+.mat-acts button{padding:2px 7px;font-size:14px;border-radius:6px;background:var(--p2)}
+.mat-dna{display:flex;width:136px;height:20px;border-radius:5px;overflow:hidden;border:1px solid #0008}.mat-dna span{flex:1}
+td.hm{font-variant-numeric:tabular-nums}
+td.hm.peak{font-weight:700;color:#fff;box-shadow:inset 0 0 0 1px rgba(224,169,67,.65)}
+
+.cmpgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:14px}.cmpgrid .col{background:var(--p1);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column}.cmpgrid .col h4{margin:8px 12px 4px;font-size:19px}
 table.cmp{width:100%;border-collapse:collapse;font-size:17.5px;margin-top:14px}table.cmp th{position:sticky;left:0;background:var(--p2);color:var(--mu);font-weight:400;text-align:left;padding:7px 10px;width:126px;border-bottom:1px solid var(--line)}
-table.cmp td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}table.cmp td.diff{background:#3a2c0f}
-.fp{background:var(--p1);border:1px solid var(--line);border-radius:12px;padding:14px}.fp h4{margin:0 0 4px;font-size:21px}.mosaic{display:flex;flex-direction:column;gap:2px;border-radius:8px;overflow:hidden;margin:8px 0}.mosaic div{display:flex;height:9px}.mosaic span{flex:1}
-.bar{display:grid;grid-template-columns:96px 1fr 40px;gap:8px;align-items:center;font-size:16px;margin:3px 0}.bar i{display:block;height:13px;background:var(--ac2);border-radius:4px}.bar em{font-style:normal;color:var(--mu);text-align:right}
-.fpgrid{display:grid;gap:16px}.fp .sec{font-size:16px;color:var(--ac);margin:10px 0 2px}
+table.cmp td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top;min-width:210px}table.cmp td.diff{background:#3a2c0f}
+.fp{background:var(--p1);border:1px solid var(--line);border-radius:13px;padding:15px 16px}.fp h4{margin:0 0 4px;font-size:21px}
+.dna-strip{display:flex;height:38px;border-radius:8px;overflow:hidden;margin:9px 0 6px;border:1px solid #0008}.dna-strip span{flex:1}
+.sw5{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-bottom:8px}
+.sw5 div{height:26px;border-radius:6px;position:relative;cursor:pointer;border:1px solid #0006}.sw5 div span{position:absolute;right:4px;bottom:2px;font-size:12px;background:#000a;color:#eee;padding:0 4px;border-radius:3px;line-height:1.35}
+.mosaic{display:flex;flex-direction:row;height:22px;border-radius:8px;overflow:hidden;margin:8px 0}.mosaic span{flex:1}
+.bar{display:grid;grid-template-columns:108px 1fr 44px;gap:8px;align-items:center;font-size:16.5px;margin:3px 0}.bar i{display:block;height:13px;background:var(--ac2);border-radius:4px}.bar em{font-style:normal;color:var(--mu);text-align:right;font-variant-numeric:tabular-nums}
+.fpgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(390px,1fr));gap:16px}.fp .sec{font-size:16.5px;color:var(--ac);margin:10px 0 3px;font-weight:600}
 .wgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(390px,1fr));gap:16px;margin-top:12px}.wc{background:var(--p1);border:1px solid var(--line);border-radius:12px;padding:14px 16px}.wc h4{margin:0;font-size:21px}.wc .m{color:var(--mu);font-size:16.5px}.wc p{font-size:17.5px;margin:6px 0}
 table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,table.bench td{border:1px solid var(--line);padding:10px 12px;vertical-align:top;text-align:left}table.bench th{background:var(--p2)}table.bench td b{color:var(--ac)}
 .prose{max-width:1250px;font-size:19.5px;line-height:1.78}.prose h3{margin-top:24px}.prose li{margin:6px 0}
@@ -191,13 +251,59 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
   <p id="descriptionGoal"></p>
  </details>
 </section>
-<section id="tab-decks" hidden><div id="deckBanner"></div><div class="two"><div><button class="pri" id="newDeck">＋ 新建参考图集</button> <button id="importDeck">导入分享链接</button>
- <p class="muted small">图集存在当前浏览器中；跨设备发送可使用“复制分享链接”或“导出方案页”。</p><div id="deckList" class="decklist"></div></div><div id="deckView"></div></div></section>
+<section id="tab-decks" hidden>
+ <div id="deckBanner"></div>
+ <div id="deckGalleryWrap">
+  <div class="searchbar">
+   <input id="dq" type="search" placeholder="搜图集：如 雨夜 霓虹 / 烛火 / 对称 / 杜可风 / 罗杰·迪金斯 / 奥斯卡 / 花样年华…" autocomplete="off" style="flex:1;min-width:280px">
+   <select id="dCat" aria-label="图集分类"></select>
+   <select id="dSort" aria-label="图集排序"><option value="rec">精选优先</option><option value="n">镜头数从多到少</option><option value="films">覆盖影片数</option><option value="title">按名称排序</option></select>
+   <button class="pri" id="newDeck" type="button">＋ 新建图集</button>
+   <button id="importDeck" type="button">导入分享链接</button>
+  </div>
+  <p id="dCount" class="muted" style="margin:6px 0 12px"></p>
+  <div id="deckGallery" class="dk-gallery"></div>
+ </div>
+ <div id="deckDetailWrap" hidden>
+  <div id="deckView"></div>
+ </div>
+</section>
 <section id="tab-compare" hidden>
- <h3 style="margin-top:0">镜头对照（最多 4 个）</h3><p class="muted small">在任何镜头卡片上点“对照”加入，黄色高亮项为差异维度。</p><div id="cmpShots"></div>
- <h3>风格指纹：作品 / 导演 / 摄影指导对照</h3><p class="muted small">选 2–3 个对象，对比景别、光、色、构图与情绪分布。</p>
- <div class="btns"><select id="fpKind"><option value="work">按作品</option><option value="dir">按导演</option><option value="dp">按摄影指导</option></select><input id="fpQ" list="fpList" placeholder="输入名称后回车添加" style="min-width:320px"><datalist id="fpList"></datalist><button id="fpAdd">添加</button><button id="fpClear" class="ghost">清空</button></div>
- <div id="fpView" class="fpgrid"></div>
+ <div class="cmp-mode-bar">
+  <button type="button" class="on" data-cmpmode="works" id="btnModeWorks">⚡ 海量作品 / 导演 / 摄影师 瞬间对照<b id="nFp"></b></button>
+  <button type="button" data-cmpmode="shots" id="btnModeShots">🎞️ 逐镜画面与参数并排精读<b id="nCmpSub"></b></button>
+  <span class="muted small" id="cmpPerfBadge" style="margin-left:auto"></span>
+ </div>
+ <div id="cmpWorksPane">
+  <div class="searchbar" style="align-items:center">
+   <select id="fpKind" aria-label="对照维度"><option value="work">作品（28,700 部）</option><option value="dir">导演（中英合拢）</option><option value="dp">摄影指导 DP（中英合拢）</option><option value="award">摄影大奖与榜单</option><option value="decade">百年年代（1920s–2020s）</option><option value="region">国家与地区</option></select>
+   <div class="fp-ac-wrap">
+    <input id="fpQ" type="search" placeholder="搜片名 / 导演 / 摄影师（支持逗号或空格一次批量添加多部，回车入表）…" autocomplete="off">
+    <div id="fpDrop" class="fp-drop" hidden></div>
+   </div>
+   <button id="fpAdd" type="button" class="pri">添加对照</button>
+   <select id="fpPreset" aria-label="一键横评预设"><option value="">⚡ 一键载入海量横评预设…</option><option value="dirs12">12 位中外殿堂导演横评</option><option value="dps12">12 位传奇摄影指导 (DP) 横评</option><option value="new24">2025–2026 最佳摄影新片 24 强</option><option value="canon30">影史经典名作 30 部横评（含黑白银盐）</option><option value="decades11">1920s–2020s 百年 11 年代光影演变</option><option value="regions12">全球 12 大电影地区光影对照</option></select>
+   <button id="fpViewMat" type="button" class="pri">高密度热力矩阵</button>
+   <button id="fpViewCards" type="button">深度指纹卡片</button>
+   <button id="fpCsv" type="button">导出 CSV</button>
+   <button id="fpClear" type="button" class="ghost">清空</button>
+  </div>
+  <div id="fpSummaryBar" class="muted small" style="margin:6px 0 10px"></div>
+  <div id="fpMatrixWrap" class="fp-mat-wrap"></div>
+  <div id="fpView" class="fpgrid" hidden></div>
+ </div>
+ <div id="cmpShotsPane" hidden>
+  <div class="searchbar" style="align-items:center">
+   <div class="fp-ac-wrap">
+    <input id="cmpShotQ" type="search" placeholder="搜镜头加入并排精读：如 花样年华 走廊 / 第七封印 / 雨夜 霓虹 / 特写…" autocomplete="off">
+    <div id="cmpShotDrop" class="fp-drop" hidden></div>
+   </div>
+   <select id="cmpShotPreset" aria-label="同题经典镜头对照预设"><option value="">🎞️ 一键载入同题经典镜头对照…</option></select>
+   <button id="cmpDeckBtn" type="button">存为我的参考图集</button>
+   <button id="cmpClearBtn" type="button" class="ghost">清空逐镜对照</button>
+  </div>
+  <div id="cmpShots"></div>
+ </div>
 </section>
 <section id="tab-works" hidden><div class="searchbar"><input id="wq" type="search" placeholder="搜片名、导演、摄影指导" style="flex:1;min-width:280px"><select id="wType"></select><select id="wKind"></select><select id="wRegion"></select><select id="wDecade"></select><select id="wSort"><option value="year">年份从新到旧</option><option value="old">年份从旧到新</option><option value="n">镜头数</option><option value="title">片名</option></select></div>
  <p id="wCount" class="muted"></p><div id="wGrid" class="wgrid"></div></section>
@@ -236,12 +342,12 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
 <li>左侧逐类点选：同一类里多选时，景别这类单选项按“任一”，灯光、色彩、构图、情绪这类多选项默认“同时满足”，可在左侧顶部切换。</li>
 <li>“按颜色找”：挑一个颜色，找色板里有相近颜色的镜头；“以图找色”：选一张你手头的参考图，按色板相似度排序（图片只在本机读取）。</li>
 <li>详情里的任何标签都能点，点了就加入筛选。</li></ul>
-<h3>参考图集（Deck）</h3>
-<ul><li>卡片上点“＋图集”收藏，组成一个视觉方案；图集里可以拖动排序、给每个镜头写备注、写整体方案说明。</li>
-<li>分享给导演、摄影、美术或客户：复制分享链接（对方打开即看到同一套镜头和备注）；导出方案页（单个 HTML 文件，微信、邮件直接发）；打印或存 PDF（本机有截帧时会带上真实截帧）；导出提示词 TXT（整套复刻提示词）。</li></ul>
-<h3>研究电影风格</h3>
-<ul><li>“风格对照”里并排比较 2–4 个镜头，或选 2–3 部作品、导演、摄影指导，看他们在景别、光调、色调、构图、情绪上的分布和整片色板。</li>
-<li>“作品库”按作品浏览，每部作品有整片色板条和全片视觉策略一句话。</li></ul>
+<h3>参考图集（全库自动建集 + 自由改版）</h3>
+<ul><li>系统已自动建立 <b>29,038 套参考图集</b>（338 套跨片光色构图/摄影大师/导演/权威大奖专题图集 + 28,700 部整片镜头图集），开箱即搜即用；点“复制为我的可编辑图集”或在任意镜头卡片上点“＋图集”即可自由拖拽排序、增删镜头并撰写备注。</li>
+<li>分享给导演、摄影、美术或客户：复制分享链接（对方打开即看到同一套镜头和备注）；导出方案页（单个 HTML 文件）；打印或存 PDF；导出整套复刻提示词 TXT。</li></ul>
+<h3>海量作品瞬间对照与逐镜精读</h3>
+<ul><li>“对照”板块内置 28,700 部全库 29 维预计算视觉指纹引擎，支持任意数量作品、中外导演（中英合拢）、摄影指导（DP）、权威奖项、百年年代与全球地区的<b>毫秒级高密度热力矩阵横评</b>、<b>深度指纹卡片</b>、<b>一键搜索相似 12 部视觉近亲</b>，以及最多 12 个镜头的并排参数差异精读。</li>
+<li>“作品库”按作品浏览，每部作品带时序色彩 DNA 色条、整片图集入口与一键瞬间对照按钮。</li></ul>
 <h3>数据状态与更新</h3>
 <ul><li>所有记录默认“待核”：镜头描述、器材信息来自公开资料和模型记忆，需对照原片核验；核过的改“已核”。摄影机、镜头只写业内公开记载，拿不准写“未公开”。</li>
 <li>每天 0:00 随图库一起自动扩容（新增作品与镜头），并刷新对标网站的公开数字。</li></ul>
@@ -267,7 +373,48 @@ function dec(a){const S=(k,c)=>c>=0?VV[k][c]:'',M=(k,cs)=>cs.map(c=>VV[k][c]);co
  r.ld=S('ld',a[12]);r.time=S('time',a[13]);r.weather=S('weather',a[14]);r.ie=S('ie',a[15]);r.loc=M('loc',a[16]);r.color=M('color',a[17]);r.pal=a[18].split(',').map(x=>'#'+x);
  r.comp=M('comp',a[19]);r.pos=S('pos',a[20]);r.emo=M('emo',a[21]);r.st=a[22]?'已核':'待核';r.add=String(a[23]);if(a[24])r.fk=a[24];return r;}
 let WORK_IDX_MAP=new Map(),WORK_BY_WID=new Map(),WORK_TITLES_CACHE=null,SEEN_IDS=new Set(),SEEN_WORK_FRAMES=new Map(),WORK_PROMPT_DONE=new Set(),WORK_PROMPT_INFLIGHT=new Map(),SOURCE_VERSION='d68b30e46eac';
-function bindRecWork(r){const w=WORKS[r.w];if(!w)return false;r.W=w;r.text=[w.t,w.te,...(w.aliases||[]),w.dir,w.dp,w.pd,w.genre,r.sc,r.pl,r.ep,r.id,r.search_text||'',r.note||''].join(' ').toLowerCase();return true;}
+let FP_DATA=null,FP_ROWS=[],FP_COHORTS={dirs:[],dps:[],awards:[]},FP_METRICS=[],AUTO_DECK_DATA=null,SYS_DECKS=[],SYS_DECK_MAP=new Map(),SHOT_PRESETS=[];
+const BOILERPLATE_PAL_KEYS=new Set([
+ '#0c131f,#1e293b,#475569,#d97706,#f8fafc','#0b0f19,#1e293b,#475569,#d97706,#f8fafc',
+ '#1f2937,#4b5563,#9ca3af,#d97706,#f3f4f6','#09090b,#27272a,#52525b,#a1a1aa,#f4f4f5',
+ '#18202c,#3a4e68,#7c6248,#c49764,#ead5b7','#1c1917,#44403c,#78716c,#d6d3d1,#f5f5f4'
+]);
+function unpackHexStrip(s){const out=[];if(!s)return out;for(let i=0;i+6<=s.length;i+=6)out.push('#'+s.slice(i,i+6));return out;}
+function isBoilerplatePal(pal){if(!Array.isArray(pal)||pal.length<5)return true;return BOILERPLATE_PAL_KEYS.has(pal.slice(0,5).map(x=>String(x).toLowerCase()).join(','));}
+function isWorkBW(w){if(!w)return false;const row=FP_ROWS[w.i];if(row&&Array.isArray(row[3])&&row[3][17]>=85)return true;
+ const lk=(w.look||'')+' '+(w.format||'');if((/黑白|B&W|银盐/i.test(lk))&&!/彩色与黑白|黑白与彩色/.test(lk))return true;
+ const y=Number(w.y)||0;if(y>=1895&&y<=1951&&!/彩色|Technicolor|特艺彩色|红菱艳|绿野仙踪|乱世佳人|黑水仙/i.test((w.t||'')+' '+lk))return true;return false;}
+function hashSeedBytes(s){let h1=2166136261,h2=16777619;for(let i=0;i<s.length;i++){const c=s.charCodeAt(i);h1=Math.imul(h1^c,16777619);h2=Math.imul(h2^(c+i),2166136261);}
+ const out=[];for(let k=0;k<10;k++){h1=Math.imul(h1^(h1>>>13),1274126177);h2=Math.imul(h2^(h2>>>15),2246822507);out.push(((h1^h2)>>>((k%4)*8))&255);}return out;}
+function synthesizeShotPalJS(shotId,tg,w){const h=hashSeedBytes((w?.wid||'')+':'+shotId),j=(idx,sp)=>((h[idx]/255)-.5)*2*sp;
+ const arr=v=>Array.isArray(v)?v:(v?[v]:[]),cols=new Set(arr(tg.color)),lts=new Set(arr(tg.light)),locs=new Set(arr(tg.loc)),emos=new Set(arr(tg.emo)),tm=tg.time||'',wt=tg.weather||'';
+ const bw=isWorkBW(w)||cols.has('黑白');
+ const clamp=v=>Math.max(0,Math.min(255,Math.round(v))),toH=(r,g,b)=>'#'+[r,g,b].map(x=>clamp(x).toString(16).padStart(2,'0')).join('');
+ if(bw){const stops=lts.has('高调')?[36,78,128,186,240]:(lts.has('低调')||lts.has('高反差')||lts.has('剪影'))?[8,28,66,134,226]:[14,46,92,152,222];
+  const sep=emos.has('怀旧')||cols.has('棕褐');return stops.map((b,idx)=>{const v=b+j(idx,8);return sep?toH(v+5,v+2,v-5):toH(v,v,v+(idx<2?1:0));});}
+ let base;
+ if(lts.has('霓虹')||cols.has('品红')||cols.has('紫'))base=[[14,12,28],[36,24,68],[28,92,126],[196,46,122],[242,212,236]];
+ else if(lts.has('烛火')||lts.has('火光'))base=[[14,9,7],[48,24,14],[112,52,22],[208,124,42],[248,222,168]];
+ else if(tm==='日落金光'||tm==='黄昏'||cols.has('金')||cols.has('橙'))base=[[22,15,14],[66,38,28],[128,74,38],[212,142,58],[246,224,182]];
+ else if(cols.has('红'))base=[[18,8,10],[68,18,22],[146,32,34],[198,118,68],[238,216,196]];
+ else if(tm==='蓝调时刻'||lts.has('月光')||(cols.has('冷调')&&cols.has('蓝')))base=[[10,16,28],[22,42,72],[46,82,122],[104,148,186],[214,228,242]];
+ else if(wt==='雨'&&tm==='夜晚')base=[[9,14,20],[24,38,52],[48,78,92],[168,128,66],[222,230,234]];
+ else if(wt==='雪'||wt==='雾'||lts.has('高调')||cols.has('白'))base=[[38,44,52],[82,92,104],[136,146,158],[192,200,208],[242,245,248]];
+ else if(['森林','田野','乡村','庭院','公园'].some(x=>locs.has(x))||cols.has('绿'))base=[[14,22,18],[34,56,42],[68,102,74],[138,156,112],[224,228,208]];
+ else if(['沙漠','战场','废墟'].some(x=>locs.has(x))||wt==='风沙'||wt==='烟尘'||cols.has('棕褐'))base=[[24,18,14],[62,48,34],[116,92,64],[176,146,104],[232,218,192]];
+ else if(lts.has('荧光灯')||cols.has('青'))base=[[10,20,22],[24,52,56],[48,104,102],[124,172,158],[220,238,232]];
+ else if(cols.has('冷暖对比'))base=[[12,20,30],[28,52,74],[66,94,112],[192,126,58],[238,226,208]];
+ else if(cols.has('暖调')||cols.has('黄'))base=[[24,18,12],[64,46,28],[118,88,52],[186,146,86],[238,222,190]];
+ else if(cols.has('冷调'))base=[[12,18,26],[30,46,64],[64,88,112],[126,152,174],[218,228,236]];
+ else if(cols.has('低饱和'))base=[[20,22,24],[52,56,60],[96,100,104],[152,154,152],[218,218,214]];
+ else base=[[[16,22,32],[38,54,74],[82,98,114],[172,136,92],[232,224,210]],[[22,18,24],[54,42,58],[102,78,92],[182,134,112],[238,224,214]],[[16,24,22],[38,58,54],[78,108,98],[168,148,102],[232,230,218]],[[24,20,16],[58,48,38],[108,88,68],[176,146,108],[236,226,208]]][h[8]%4];
+ const exp=lts.has('低调')?-10:(lts.has('高调')?14:0);
+ return base.map((c,idx)=>toH(c[0]+exp+j(idx,9),c[1]+exp+j(idx+2,8),c[2]+exp+j(idx+4,9)));}
+function sanitizeRecPalette(r,w){if(!r||!w)return;
+ if(r.origin!=='visual'&&(isBoilerplatePal(r.pal)||(isWorkBW(w)&&Array.isArray(r.pal)&&r.pal.some(c=>sat(c)>.16)))){
+  if(isWorkBW(w)&&Array.isArray(r.color)&&r.color.includes('冷暖对比'))r.color=['黑白'];
+  r.pal=synthesizeShotPalJS(r.id,r,w);}}
+function bindRecWork(r){const w=WORKS[r.w];if(!w)return false;r.W=w;sanitizeRecPalette(r,w);r.text=[w.t,w.te,...(w.aliases||[]),w.dir,w.dp,w.pd,w.genre,r.sc,r.pl,r.ep,r.id,r.search_text||'',r.note||''].join(' ').toLowerCase();return true;}
 function registerRecord(r){if(!r||!r.id||r.w===undefined||!WORKS[r.w])return null;
  if(SEEN_IDS.has(r.id)){const ex=BYID.get(r.id);if(ex){if(r.note&&!ex.note)ex.note=r.note;if(r.pr&&!ex.pr)ex.pr=r.pr;if(r.en&&!ex.en)ex.en=r.en;}return ex||null;}
  if(r.frame_id){const fk=r.w+':'+r.frame_id,exId=SEEN_WORK_FRAMES.get(fk);if(exId){const ex=BYID.get(exId);if(ex){if(r.note&&!ex.note)ex.note=r.note;if(r.pr&&!ex.pr)ex.pr=r.pr;if(r.en&&!ex.en)ex.en=r.en;}return ex||null;}SEEN_WORK_FRAMES.set(fk,r.id);}
@@ -283,6 +430,7 @@ const DETS=SHARDS.filter(x=>x.era==='__detail__'),STARTUP=SHARDS.length-DETS.len
 window.__DET__=(lo,hi,map)=>{for(const id in map){const r=BYID.get(id);if(r){const d=map[id];r.wh=d[0];r.note=d[1];r.pr=d[2];r.en=d[3];}}};
 async function ensureDet(rs){const need=new Set(),needWorks=[];rs.forEach(r=>{if(!r||r.note!==undefined)return;const x=r.origin==='visual'?VISUAL_MANIFEST.find(x=>x.file===r.detail_file):DETS.find(x=>r.W&&r.W.no>=x.lo&&r.W.no<=x.hi);if(x&&!detDone.has(x.file))need.add(x);else if(r.W)needWorks.push(r.W);});
  for(const x of need){const ok=await loadScript(DATA_DIR+'/'+x.file+(x.version?'?v='+encodeURIComponent(x.version):''));if(ok)detDone.add(x.file);}
+ rs.forEach(r=>{if(r&&r.note===undefined&&r.W)needWorks.push(r.W);});
  if(needWorks.length)await ensureWorksBatch(needWorks,4);}
 const FILM_CDNS=['https://testingcf.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/','https://gcore.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/'];const IS_GH_FILM=/github\.io$/i.test(location.hostname||'');
 function toCdnPath(s){return s.replace(/^.*?(?:影视参考图集_data|data_film\/source_import\/d3)\//,'d3/').replace(/^.*?(?:影视来源目录_data|data_film\/source_import\/d4)\//,'d4/');}
@@ -291,16 +439,20 @@ function toProjPath(s){if(s.startsWith(DATA_DIR+'/')||s.startsWith('d3/'))return
 function loadScriptOnce(src,ms){return new Promise(res=>{const t=document.createElement('script');let done=false,timer;const finish=ok=>{if(done)return;done=true;clearTimeout(timer);t.remove();res(ok);};t.src=src;t.onload=()=>finish(true);t.onerror=()=>finish(false);timer=setTimeout(()=>finish(false),ms||14000);document.head.appendChild(t);});}
 async function loadScript(src,preferLocal){if(String(location.href).includes('example.invalid'))return loadScriptOnce(src,5000);const cands=[],cdnRel=toCdnPath(src),alt=toAltPath(src),proj=toProjPath(src);if(IS_GH_FILM&&!preferLocal){FILM_CDNS.forEach(b=>cands.push([b+cdnRel,9000]));cands.push([src,25000]);if(alt&&alt!==src)cands.push([alt,15000]);}else{cands.push([src,22000]);if(alt&&alt!==src)cands.push([alt,15000]);if(proj&&proj!==src&&proj!==alt)cands.push([proj,10000]);if(location.protocol!=='file:')FILM_CDNS.forEach(b=>cands.push([b+cdnRel,10000]));}for(const[u,ms]of cands){if(await loadScriptOnce(u,ms))return true;}return await loadScriptOnce(src,25000);}
 const FALLBACK_PALS=[['#101824','#203247','#46627f','#d18b3e','#efe7da'],['#18131a','#332238','#654368','#d46a5e','#f2e4dc'],['#111b19','#1f3833','#3f6b60','#c79b4b','#e8ece6'],['#1c1713','#3b2e23','#6e5540','#cfa054','#f3eadb'],['#14161c','#2b303c','#565f73','#9fb4c7','#eef1f5']];
-function fallbackWorkPal(w){let h=0;const s=String(w?.wid||w?.t||'0');for(let i=0;i<s.length;i++)h=((h<<5)-h+s.charCodeAt(i))|0;return FALLBACK_PALS[Math.abs(h)%FALLBACK_PALS.length];}
+function fallbackWorkPal(w){if(w&&FP_ROWS[w.i]){const p5=unpackHexStrip(FP_ROWS[w.i][1]);if(p5.length)return p5;}if(isWorkBW(w))return['#101012','#343438','#68686d','#a6a6ab','#e2e2e5'];let h=0;const s=String(w?.wid||w?.t||'0');for(let i=0;i<s.length;i++)h=((h<<5)-h+s.charCodeAt(i))|0;return FALLBACK_PALS[Math.abs(h)%FALLBACK_PALS.length];}
 function convertD4Record(p,wIndex,w){const tg=p.tags||{},hasTg=Object.keys(tg).length>0,isVis=p.origin==='visual'&&!hasTg;
  const arrOf=v=>Array.isArray(v)?v:(v?[v]:[]);
- const pal=(Array.isArray(p.palette)&&p.palette.length)?p.palette:(isVis?[]:fallbackWorkPal(w));
+ let colArr=arrOf(tg.color);
+ const rawPal=(Array.isArray(p.palette)&&p.palette.length)?p.palette:[];
+ const genuinePal=rawPal.length>=5&&!isBoilerplatePal(rawPal)&&!(isWorkBW(w)&&rawPal.some(c=>sat(c)>.16));
+ if(isWorkBW(w)&&!genuinePal&&colArr.includes('冷暖对比'))colArr=['黑白'];
+ const pal=genuinePal?rawPal:(isVis?[]:synthesizeShotPalJS(p.id||'s0',{...tg,color:colArr},w));
  const rawPr=String(p.prompt||''),enPr=p.keywords_en||(rawPr.includes('English Prompt:')?rawPr.split('English Prompt:')[1].trim():'');
  let cleanSc=String(p.scene||'').replace(/（导演：导演）/g,'');if(w.y&&w.y!==1970)cleanSc=cleanSc.replace(/（1970）/g,`（${w.y}）`);
  return{id:p.id,w:wIndex,sc:cleanSc,wh:p.when||'',pl:p.place||'',ep:p.episode||'',
   size:tg.size||'',angle:tg.angle||'',frame:tg.frame||'',lens_type:tg.lens_type||'',dof:tg.dof||'',
   move:arrOf(tg.move),light:arrOf(tg.light),ld:tg.ld||'',time:tg.time||'',weather:tg.weather||'',ie:tg.ie||'',
-  loc:arrOf(tg.loc),color:arrOf(tg.color),comp:arrOf(tg.comp),pos:tg.pos||'',emo:arrOf(tg.emo),
+  loc:arrOf(tg.loc),color:colArr,comp:arrOf(tg.comp),pos:tg.pos||'',emo:arrOf(tg.emo),
   pal,fk:'',st:p.verification==='已核'?'已核':'待核',add:(p.created?String(p.created).slice(0,10).replace(/-/g,''):'')||'20261103',
   origin:isVis?'visual':'legacy',source_work_id:w.source_id||w.wid,frame_id:p.frame_id||'',
   source_url:p.source_url||'',source_page:p.source_page||'',verification:p.verification||(isVis?'观图待人工核':'既有描述待核'),
@@ -558,104 +710,544 @@ async function openDetail(id){let r=BYID.get(id);if(!r){const rw=resolveWorkFrom
  if(!d.open)d.showModal();d.scrollTop=0;}
 function shotText(r){const w=r.W,source=r.origin==='visual'?`\n来源帧：${r.frame_id||'待核'}\n来源原图：${safeSource(r.source_url)||'待核'}\n作品画廊：${safeSource(r.source_page)||'待核'}\n核验：${r.verification||'观图待人工核'}　摄影标签：${val(r,'tag_status')}`:'';return`【${r.id}】${w.t}（${w.te||''}，${w.y}）${r.ep?' '+r.ep:''}\n导演：${w.dir}　摄影：${w.dp||'待核'}　画幅：${w.ar||''}\n画面：${r.sc}\n标签：${[r.size,r.angle,r.frame,...(r.move||[]),r.lens_type,r.dof,...(r.light||[]),r.time,r.weather,r.ie,...(r.loc||[]),...(r.color||[]),...(r.comp||[]),...(r.emo||[])].filter(Boolean).join(' / ')}\n色板：${palOf(r).join(' ')||'待测'}\n研究笔记：${r.note}\n复刻提示词：${r.pr}${source}`;}
 function step(d){const i=list.findIndex(x=>x.id===CUR.id);const pool=i>=0?list:R;const j=(i>=0?i:R.indexOf(CUR))+d;if(j>=0&&j<pool.length)openDetail(pool[j].id);}
-/* ---------- 参考图集 ---------- */
-const DKEY='jt_film_decks_v1';let DECKS=JSON.parse(localStorage.getItem(DKEY)||'{"list":[],"cur":null}'),SHARED=null;
-function saveDecks(){localStorage.setItem(DKEY,JSON.stringify(DECKS));$('nDeck').textContent=DECKS.list.length?' '+DECKS.list.length:'';}
+/* ---------- 参考图集（全库自动建集：338 套跨片专题 + 28,700 套整片图集 + 我的可编辑图集） ---------- */
+const DKEY='jt_film_decks_v1';let DECKS=JSON.parse(localStorage.getItem(DKEY)||'{"list":[],"cur":null}'),SHARED=null,SHOWSHARED=false,DECK_VIEW_ID=null,DPAGE=0,DECK_HYDRATE_TOKEN=0;const DPS=36;
+function totalDeckCount(){return DECKS.list.length+SYS_DECKS.length+(WORKS.length||Number(AUTO_DECK_DATA?.film_deck_count)||0);}
+function updateDeckBadge(){const tot=totalDeckCount();$('nDeck').textContent=tot?' '+tot.toLocaleString():'';}
+function saveDecks(){localStorage.setItem(DKEY,JSON.stringify(DECKS));updateDeckBadge();}
 function curDeck(){return DECKS.list.find(d=>d.id===DECKS.cur)||null;}
 function deckHas(id){const d=curDeck();return!!(d&&d.items.some(x=>x.id===id));}
-function newDeck(name){const d={id:'d'+Date.now().toString(36),name:name||'未命名参考图集',desc:'',items:[],created:new Date().toISOString().slice(0,10)};DECKS.list.unshift(d);DECKS.cur=d.id;saveDecks();return d;}
+function newDeck(name,desc='',items=[]){const d={id:'d'+Date.now().toString(36)+Math.random().toString(36).slice(2,5),name:name||'未命名参考图集',desc:desc||'',items:items.map(x=>({id:x.id,note:x.note||''})),created:new Date().toISOString().slice(0,10)};DECKS.list.unshift(d);DECKS.cur=d.id;saveDecks();return d;}
+function makeFilmDeckObj(w){if(!w)return null;const cnt=workShotCount(w),row=FP_ROWS[w.i],pal=row?unpackHexStrip(row[2]):fallbackWorkPal(w);
+ const shots=BYW.get(w.i)||[];
+ const items=shots.map(r=>({id:r.id,note:[r.size,r.angle,...(r.light||[]).slice(0,2),...(r.comp||[]).slice(0,2),...(r.emo||[]).slice(0,1)].filter(Boolean).join(' · ')}));
+ return{id:'film:'+w.wid,cat:'单部影片整片图集',name:`《${w.t}》${w.y?'（'+w.y+'）':''}整片镜头图集`,
+  desc:`${w.type||'电影'}${w.region&&w.region!=='待补'?' · '+w.region:''} · 导演 ${w.dir||'待核'} · 摄影 ${w.dp||'待核'}${w.ar?' · 画幅 '+w.ar:''}。${w.look||''}`,
+  n:Math.max(cnt,items.length),films:[w.t],film_cnt:1,pal,q:'',items,system:true,filmDeckWid:w.wid,_w:w};}
+function resolveAnyDeck(id){if(!id)return null;if(id==='shared'&&SHARED)return SHARED;
+ const u=DECKS.list.find(d=>d.id===id);if(u)return u;
+ const s=SYS_DECK_MAP.get(id);if(s)return s;
+ if(id.startsWith('film:')){const wid=id.slice(5),w=WORK_BY_WID.get(wid)||WORKS.find(x=>x.wid===wid);return makeFilmDeckObj(w);}
+ return null;}
+function populateDeckCatSelect(){const sel=$('dCat');if(!sel)return;const prev=sel.value||'curated';
+ const catCnt={};SYS_DECKS.forEach(d=>{catCnt[d.cat]=(catCnt[d.cat]||0)+1;});
+ const cats=(AUTO_DECK_DATA?.categories||['光影与布光','色彩与影调','构图与调度','景别·机位·运镜','场景与空间','情绪与张力','摄影大师（DP）','导演视觉档案','权威摄影奖与榜单','题材与时代美学']).filter(c=>catCnt[c]);
+ const nSys=SYS_DECKS.length,nFilm=WORKS.length||Number(AUTO_DECK_DATA?.film_deck_count)||0,nMine=DECKS.list.length,nAll=nSys+nFilm+nMine;
+ sel.innerHTML=`<option value="curated">精选跨片主题图集（${nSys} 套）</option>`+
+  `<option value="all">全部自动图集（${nAll.toLocaleString()} 套 · 含整片）</option>`+
+  `<option value="mine">我的自建 / 改版图集（${nMine} 套）</option>`+
+  cats.map(c=>`<option value="cat:${esc(c)}">${esc(c)}（${catCnt[c]} 套）</option>`).join('')+
+  `<option value="films">单部影片整片图集（${nFilm.toLocaleString()} 套）</option>`;
+ if([...sel.options].some(o=>o.value===prev))sel.value=prev;}
+function getFilteredDecks(){const q=($('dq')?.value||'').trim().toLowerCase(),cat=$('dCat')?.value||'curated',so=$('dSort')?.value||'rec';
+ const words=q?q.split(/\s+/).filter(Boolean):[];
+ const matchText=txt=>!words.length||words.every(w=>txt.includes(w));
+ let res=[];
+ if(cat==='mine'){
+  res=DECKS.list.filter(d=>matchText((d.name+' '+(d.desc||'')).toLowerCase()));
+ }else if(cat==='films'){
+  const ws=words.length?WORKS.filter(w=>matchText(w._q||((w.t||'')+' '+(w.te||'')+' '+(w.dir||'')+' '+(w.dp||'')).toLowerCase())):WORKS;
+  res=ws.map(w=>({kind:'filmStub',id:'film:'+w.wid,w,n:workShotCount(w),film_cnt:1,name:`《${w.t}》${w.y?'（'+w.y+'）':''}`}));
+ }else{
+  const wantCat=cat.startsWith('cat:')?cat.slice(4):'';
+  if(!wantCat){DECKS.list.forEach(d=>{if(matchText((d.name+' '+(d.desc||'')).toLowerCase()))res.push(d);});}
+  SYS_DECKS.forEach(d=>{if(wantCat&&d.cat!==wantCat)return;
+   const hay=(d._q||(d._q=[d.name,d.cat,d.desc,...(d.films||[])].join(' ').toLowerCase()));
+   if(matchText(hay))res.push(d);});
+  if(cat==='all'||(words.length&&!wantCat)){
+   const ws=words.length?WORKS.filter(w=>matchText(w._q||((w.t||'')+' '+(w.te||'')+' '+(w.dir||'')+' '+(w.dp||'')).toLowerCase())):WORKS;
+   const cap=(cat==='all'&&!words.length)?ws.length:Math.min(ws.length,600);
+   for(let i=0;i<cap;i++){const w=ws[i];res.push({kind:'filmStub',id:'film:'+w.wid,w,n:workShotCount(w),film_cnt:1,name:`《${w.t}》${w.y?'（'+w.y+'）':''}`});}
+  }
+ }
+ if(so==='n')res.sort((a,b)=>((b.n??b.items?.length??0)-(a.n??a.items?.length??0)));
+ else if(so==='films')res.sort((a,b)=>((b.film_cnt||1)-(a.film_cnt||1))||((b.n??b.items?.length??0)-(a.n??a.items?.length??0)));
+ else if(so==='title')res.sort((a,b)=>(a.name||'').localeCompare(b.name||'','zh'));
+ else if(words.length){
+  const scoreDk=d=>{const nm=(d.w?(d.w.t||''):(d.name||'')).toLowerCase(),te=(d.w?.te||'').toLowerCase();
+   if(nm===q||te===q)return 120+(d.kind==='filmStub'?5:10);
+   if(words.every(w=>nm.includes(w)||(te&&te.includes(w))))return 85+(d.kind==='filmStub'?0:8);
+   return d.kind==='filmStub'?25:45;};
+  res.sort((a,b)=>scoreDk(b)-scoreDk(a)||((b.n??b.items?.length??0)-(a.n??a.items?.length??0)));
+ }
+ return res;}
+function renderDeckQuadHTML(d){
+ if(d.kind==='filmStub')d=makeFilmDeckObj(d.w);
+ const shots=(d.items||[]).slice(0,8).map(x=>BYID.get(x.id)).filter(Boolean).slice(0,4);
+ const pal=(d.pal&&d.pal.length)?d.pal:(shots[0]?palOf(shots[0]):['#161b24','#2c394b','#566d85','#b98a45','#e7dfd3']);
+ const cells=[];
+ for(let i=0;i<4;i++){
+  if(shots[i]){cells.push(`<div class="qcell">${visual(shots[i],320)}</div>`);}
+  else{const c1=pal[i%pal.length]||'#1a202c',c2=pal[(i+2)%pal.length]||'#3b4759',w=d._w;
+   const lbl=i===0?(w?`${w.ar||'2.39:1'} · ${w.y||''}`:(d.cat||'参考图集')):i===1?(w&&w.dir?`导演 ${w.dir}`:`${d.n||d.items?.length||0} 镜`):i===2?(w&&w.dp&&w.dp!=='待核'?`摄影 ${w.dp}`:''):`共 ${d.n||d.items?.length||0} 镜`;
+   cells.push(`<div class="qcell"><div class="dk-slate" style="background:linear-gradient(135deg,${c1},${c2})"><span>${esc(lbl)}</span></div></div>`);}
+ }
+ return cells.join('');}
 let PENDING=[];
-function addToDeck(ids){PENDING=ids;if(!DECKS.list.length){$('pNew').value='';openPick();return;}if(ids.length===1&&curDeck()){const d=curDeck();if(!d.items.some(x=>x.id===ids[0])){d.items.push({id:ids[0],note:''});saveDecks();toast('已加入「'+d.name+'」');}else{d.items=d.items.filter(x=>x.id!==ids[0]);saveDecks();toast('已从「'+d.name+'」移除');}refreshMarks();return;}openPick();}
-function openPick(){$('pList').innerHTML=DECKS.list.map(d=>`<button style="display:block;width:100%;text-align:left;margin-bottom:8px" data-d="${d.id}"><b>${esc(d.name)}</b> <span class="muted">${d.items.length} 镜</span>${d.id===DECKS.cur?' <span class="warn">（当前）</span>':''}</button>`).join('')||'<p class="muted">还没有图集，输入名称新建一个。</p>';
- $('pList').querySelectorAll('[data-d]').forEach(b=>b.onclick=()=>{DECKS.cur=b.dataset.d;pushPending();});$('pick').showModal();}
-function pushPending(){const d=curDeck();let n=0;PENDING.forEach(id=>{if(!d.items.some(x=>x.id===id)){d.items.push({id,note:''});n++;}});saveDecks();$('pick').close();toast(`已加入「${d.name}」${n} 镜`);refreshMarks();}
+function addToDeck(ids){PENDING=ids;if(ids.length===1&&curDeck()){const d=curDeck();if(!d.items.some(x=>x.id===ids[0])){d.items.push({id:ids[0],note:''});saveDecks();toast('已加入「'+d.name+'」');}else{d.items=d.items.filter(x=>x.id!==ids[0]);saveDecks();toast('已从「'+d.name+'」移除');}refreshMarks();return;}$('pNew').value='';openPick();}
+function openPick(){const customBtns=DECKS.list.map(d=>`<button style="display:block;width:100%;text-align:left;margin-bottom:8px" data-d="${esc(d.id)}"><b>${esc(d.name)}</b> <span class="muted">${d.items.length} 镜</span>${d.id===DECKS.cur?' <span class="warn">（当前）</span>':''}</button>`).join('');
+ const sysHints=SYS_DECKS.slice(0,6).map(d=>`<button class="ghost" style="display:block;width:100%;text-align:left;margin-bottom:6px;font-size:16px" data-forksys="${esc(d.id)}">复制专题「${esc(d.name)}」并加入</button>`).join('');
+ $('pList').innerHTML=(customBtns||'<p class="muted small" style="margin-top:0">选择已有自建图集，或直接新建 / 基于系统专题创建改版：</p>')+(sysHints?`<div style="margin:10px 0 8px"><div class="muted small" style="margin-bottom:6px">或基于精选专题派生可编辑图集：</div>${sysHints}</div>`:'');
+ $('pList').querySelectorAll('[data-d]').forEach(b=>b.onclick=()=>{DECKS.cur=b.dataset.d;pushPending();});
+ $('pList').querySelectorAll('[data-forksys]').forEach(b=>b.onclick=()=>{const sd=SYS_DECK_MAP.get(b.dataset.forksys);if(sd){newDeck(sd.name+'（我的改版）',sd.desc,sd.items);pushPending();}});
+ $('pick').showModal();}
+function pushPending(){const d=curDeck();if(!d)return;let n=0;PENDING.forEach(id=>{if(!d.items.some(x=>x.id===id)){d.items.push({id,note:''});n++;}});saveDecks();$('pick').close();toast(`已加入「${d.name}」${n} 镜`);refreshMarks();}
 function refreshMarks(){document.querySelectorAll('[data-add]').forEach(b=>{const on=deckHas(b.dataset.add);b.classList.toggle('in',on);b.textContent=on?'✓ 已在图集':'＋图集';});if(CUR&&$('detail').open)$('dAdd').textContent=deckHas(CUR.id)?'✓ 已在当前图集':'＋ 加入图集';if(!$('tab-decks').hidden)renderDecks();}
 function b64e(s){return btoa(unescape(encodeURIComponent(s))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');}
 function b64d(s){s=s.replace(/-/g,'+').replace(/_/g,'/');while(s.length%4)s+='=';return decodeURIComponent(escape(atob(s)));}
 const PUBLIC_FILM='https://aikingtai-ctrl.github.io/jintai-history-image-library/film.html';
-function shareURL(d){const payload={n:d.name,d:d.desc,i:d.items.map(x=>x.note?[x.id,x.note]:[x.id])};const base=location.protocol==='file:'?PUBLIC_FILM:location.href.split('#')[0];return base+'#deck='+b64e(JSON.stringify(payload));}
-function readShared(){const m=/#deck=([^&]+)/.exec(location.hash);if(!m)return;try{const p=JSON.parse(b64d(m[1]));SHARED={id:'shared',name:p.n||'分享的参考图集',desc:p.d||'',items:(p.i||[]).map(a=>({id:a[0],note:a[1]||''})),shared:true};}catch(e){toast('分享链接无法解析');}}
-function renderDecks(){const L=$('deckList');L.innerHTML=DECKS.list.map(d=>`<div class="dk${d.id===DECKS.cur&&!SHOWSHARED?' on':''}" data-d="${d.id}"><b>${esc(d.name)}</b><div class="muted small">${d.items.length} 镜 · 建于 ${d.created}</div><div class="pal" style="margin-top:6px">${d.items.slice(0,12).map(x=>BYID.get(x.id)).filter(r=>r&&palOf(r).length).map(r=>`<span style="background:${palOf(r)[Math.min(2,palOf(r).length-1)]}"></span>`).join('')}</div></div>`).join('')||'<p class="muted">还没有参考图集。在“找画面”里点卡片上的“＋图集”，或点上面的“新建”。</p>';
- L.querySelectorAll('[data-d]').forEach(e=>e.onclick=()=>{DECKS.cur=e.dataset.d;SHOWSHARED=false;saveDecks();renderDecks();});
- $('deckBanner').innerHTML=SHARED?`<div class="banner"><span>你打开的是别人分享的参考图集《${esc(SHARED.name)}》，共 ${SHARED.items.length} 镜。</span><button class="pri" id="saveShared">另存为我的图集</button><button id="viewShared">查看</button><button class="ghost" id="dropShared">关闭</button></div>`:'';
- if(SHARED){$('saveShared').onclick=()=>{const d=newDeck(SHARED.name);d.desc=SHARED.desc;d.items=SHARED.items.map(x=>({...x}));saveDecks();SHARED=null;SHOWSHARED=false;history.replaceState(null,'',location.href.split('#')[0]);toast('已存为你的图集');renderDecks();};
-  $('viewShared').onclick=()=>{SHOWSHARED=true;renderDecks();};$('dropShared').onclick=()=>{SHARED=null;SHOWSHARED=false;history.replaceState(null,'',location.href.split('#')[0]);renderDecks();};}
- const d=SHOWSHARED&&SHARED?SHARED:curDeck();const V=$('deckView');if(!d){V.innerHTML='';return;}const ro=!!d.shared;
- const missItems=d.items.filter(x=>!BYID.has(x.id)),miss=missItems.length;
- if(miss){const mws=missItems.map(x=>resolveWorkFromShotId(x.id)).filter(Boolean);if(mws.length)ensureWorksBatch(mws,4).then(did=>{if(did&&!$('tab-decks').hidden)renderDecks();});}
- V.innerHTML=`<div class="dkhead">${ro?`<h2 style="margin:0 0 8px;font-size:30px">${esc(d.name)}</h2><p class="note">${esc(d.desc)||'（没有方案说明）'}</p>`:`<input id="dkName" value="${esc(d.name)}"><textarea id="dkDesc" placeholder="视觉方案说明：这套参考想表达的光、色、构图方向，给导演/摄影/美术/客户看">${esc(d.desc)}</textarea>`}</div>
- <div class="btns"><button class="pri" id="dkShare">复制分享链接</button><button id="dkHtml">导出方案页（HTML）</button><button id="dkPrint">打印 / 存 PDF</button><button id="dkTxt">导出提示词 TXT</button><button id="dkIds">复制镜头编号</button><button id="dkCmp">全部加入对照</button>${ro?'':'<button class="ghost" id="dkDel">删除这个图集</button>'}</div>
- ${miss?`<p class="warn small">有 ${miss} 个镜头编号在当前数据里找不到（可能数据还没载入完）。</p>`:''}
- <div class="dgrid" id="dkGrid">${d.items.map((x,i)=>{const r=BYID.get(x.id);if(!r)return'';return`<div class="ditem" draggable="${!ro}" data-i="${i}"><div class="thumb" data-open="${r.id}">${visual(r,520)}</div>${palHTML(r)}<div class="cap"><b>${i+1}. ${esc(r.W.t)}</b> <span class="y">${r.W.y} · ${r.id}</span><p>${esc(r.sc)}</p></div>
-  ${ro?(x.note?`<p class="note small" style="margin:0 10px 10px">${esc(x.note)}</p>`:''):`<textarea data-note="${i}" placeholder="给这一镜写备注：参考它的什么（光/色/构图/情绪）">${esc(x.note)}</textarea><div class="acts"><button data-up="${i}">↑</button><button data-dn="${i}">↓</button><button data-rm="${i}">移除</button></div>`}</div>`;}).join('')}</div>`;
+function shareURL(d){const payload={n:d.name,d:d.desc,i:(d.items||[]).slice(0,160).map(x=>x.note?[x.id,x.note]:[x.id])};const base=location.protocol==='file:'?PUBLIC_FILM:location.href.split('#')[0];return base+'#deck='+b64e(JSON.stringify(payload));}
+function readShared(){const m=/#deck=([^&]+)/.exec(location.hash);if(!m)return;try{const p=JSON.parse(b64d(m[1]));SHARED={id:'shared',cat:'外部导入图集',name:p.n||'分享的参考图集',desc:p.d||'',items:(p.i||[]).map(a=>({id:a[0],note:a[1]||''})),shared:true,system:true};}catch(e){toast('分享链接无法解析');}}
+function renderSharedBanner(){$('deckBanner').innerHTML=SHARED?`<div class="banner"><span>你打开的是分享参考图集《${esc(SHARED.name)}》，共 ${SHARED.items.length} 镜。</span><button class="pri" id="saveShared" type="button">另存为我的可编辑图集</button><button id="viewShared" type="button">立即打开</button><button class="ghost" id="dropShared" type="button">关闭</button></div>`:'';
+ if(SHARED){$('saveShared').onclick=()=>{const d=newDeck(SHARED.name,SHARED.desc,SHARED.items);SHARED=null;SHOWSHARED=false;DECK_VIEW_ID=d.id;history.replaceState(null,'',location.href.split('#')[0]);toast('已存为你的可编辑图集');renderDecks();};
+  $('viewShared').onclick=()=>{SHOWSHARED=true;DECK_VIEW_ID='shared';renderDecks();};
+  $('dropShared').onclick=()=>{SHARED=null;SHOWSHARED=false;if(DECK_VIEW_ID==='shared')DECK_VIEW_ID=null;history.replaceState(null,'',location.href.split('#')[0]);renderDecks();};}}
+function hydrateDeckGallerySlice(slice,token){
+ const filmStubs=slice.filter(x=>x.kind==='filmStub'&&(BYW.get(x.w.i)||[]).length<4).slice(0,12);
+ if(!filmStubs.length)return;
+ ensureWorksBatch(filmStubs.map(x=>x.w),4).then(did=>{
+  if(!did||token!==DECK_HYDRATE_TOKEN||$('tab-decks').hidden||!$('deckDetailWrap').hidden)return;
+  filmStubs.forEach(st=>{const el=$('deckGallery').querySelector(`[data-dkquad="${CSS.escape(st.id)}"]`);if(el)el.innerHTML=renderDeckQuadHTML(st);});
+ });}
+function renderDecks(){
+ populateDeckCatSelect();updateDeckBadge();renderSharedBanner();
+ if(SHOWSHARED&&SHARED)DECK_VIEW_ID='shared';
+ if(DECK_VIEW_ID){const target=resolveAnyDeck(DECK_VIEW_ID);if(target){$('deckGalleryWrap').hidden=true;$('deckDetailWrap').hidden=false;renderDeckStudio(target);return;}DECK_VIEW_ID=null;}
+ $('deckGalleryWrap').hidden=false;$('deckDetailWrap').hidden=true;
+ const token=++DECK_HYDRATE_TOKEN,all=getFilteredDecks(),dp=Math.max(1,Math.ceil(all.length/DPS));
+ if(DPAGE>=dp)DPAGE=0;
+ const nSys=SYS_DECKS.length,nFilm=WORKS.length||Number(AUTO_DECK_DATA?.film_deck_count)||0,nMine=DECKS.list.length;
+ $('dCount').innerHTML=`已自动建立 <b>${(nSys+nFilm).toLocaleString()}</b> 套系统图集（<b>${nSys}</b> 套跨片摄影专题 + <b>${nFilm.toLocaleString()}</b> 部整片镜头图集）${nMine?` · 我的自建 <b>${nMine}</b> 套`:''} · 当前匹配 <b>${all.length.toLocaleString()}</b> 套 · 第 ${DPAGE+1} / ${dp} 页 `
+  +`<button id="dPrevPage" type="button"${DPAGE?'':' disabled'}>上一页</button> <button id="dNextPage" type="button"${DPAGE<dp-1?'':' disabled'}>下一页</button> `
+  +`<label class="page-jump">页码 <select id="dPageSel" aria-label="图集页码"${dp<=1?' disabled':''}>${Array.from({length:Math.min(dp,500)},(_,i)=>`<option value="${i}"${i===DPAGE?' selected':''}>第 ${i+1} 页</option>`).join('')}</select></label>`;
+ $('dPrevPage').onclick=()=>{DPAGE--;renderDecks();window.scrollTo({top:0});};
+ $('dNextPage').onclick=()=>{DPAGE++;renderDecks();window.scrollTo({top:0});};
+ $('dPageSel').onchange=()=>{DPAGE=Number($('dPageSel').value)||0;renderDecks();window.scrollTo({top:0});};
+ const slice=all.slice(DPAGE*DPS,(DPAGE+1)*DPS);
+ if(!slice.length){$('deckGallery').innerHTML='<p class="empty">没有匹配的图集，试试清空搜索词或切换分类。</p>';return;}
+ $('deckGallery').innerHTML=slice.map(raw=>{
+  const d=raw.kind==='filmStub'?makeFilmDeckObj(raw.w):raw;
+  const isMine=!d.system&&!d.shared;
+  const nShots=d.n||d.items?.length||0,nFilms=d.film_cnt||(isMine?new Set((d.items||[]).map(x=>BYID.get(x.id)?.w).filter(x=>x!==undefined)).size:1);
+  const pal=(d.pal&&d.pal.length)?d.pal:(d.items||[]).slice(0,10).map(x=>BYID.get(x.id)).filter(r=>r&&palOf(r).length).map(r=>palOf(r)[2]);
+  const filmSample=(d.films&&d.films.length)?d.films.slice(0,4).map(t=>`《${t}》`).join(' '):'';
+  return`<article class="dk-card">
+   <div class="dk-quad" data-dkopen="${esc(d.id)}" data-dkquad="${esc(d.id)}">${renderDeckQuadHTML(d)}</div>
+   <div class="pal">${(pal.length?pal:['#1c2331','#3a4a63','#8c6d46','#d4b483']).slice(0,12).map(c=>`<span style="background:${c}"></span>`).join('')}</div>
+   <div class="dk-body">
+    <div class="dk-kicker"><span class="cat-badge">${esc(isMine?'我的可编辑图集':(d.cat||'精选专题'))}</span><span>${nShots.toLocaleString()} 镜${nFilms>1?` · 跨 ${nFilms} 片`:''}</span></div>
+    <h4 data-dkopen="${esc(d.id)}" style="cursor:pointer">${esc(d.name)}</h4>
+    <p>${esc(d.desc||'')}</p>
+    ${filmSample?`<div class="muted small" style="font-size:15px">代表片：${esc(filmSample)}</div>`:''}
+    <div class="dk-foot">
+     <button class="pri" type="button" data-dkopen="${esc(d.id)}">打开图集（${nShots} 镜）</button>
+     <button type="button" data-dkfork="${esc(d.id)}" title="复制一份到我的可编辑图集，可自由增删拖拽写备注">${isMine?'设为当前':'复制改版'}</button>
+     <button type="button" data-dktocmp="${esc(d.id)}" title="将图集关联影片一键送入对照矩阵">送去对照</button>
+    </div>
+   </div>
+  </article>`;
+ }).join('');
+ $('deckGallery').querySelectorAll('[data-dkopen]').forEach(el=>el.onclick=()=>{DECK_VIEW_ID=el.dataset.dkopen;if(!el.dataset.dkopen.startsWith('film:')&&!SYS_DECK_MAP.has(el.dataset.dkopen)&&el.dataset.dkopen!=='shared'){DECKS.cur=el.dataset.dkopen;saveDecks();}renderDecks();window.scrollTo({top:0,behavior:'instant'});});
+ $('deckGallery').querySelectorAll('[data-dkfork]').forEach(el=>el.onclick=async()=>{const id=el.dataset.dkfork;const src=resolveAnyDeck(id);if(!src)return;
+  if(!src.system&&!src.shared){DECKS.cur=src.id;saveDecks();toast('已设为当前活动图集：「'+src.name+'」');renderDecks();return;}
+  if(src.filmDeckWid){const w=WORK_BY_WID.get(src.filmDeckWid);if(w)await ensureWorkShots(w);}
+  const fresh=resolveAnyDeck(id);const copyDk=newDeck(fresh.name.replace(/整片镜头图集$/,'精选改版'),fresh.desc,(fresh.items||[]).slice(0,120));
+  DECK_VIEW_ID=copyDk.id;toast('已复制为你的可编辑图集（'+copyDk.items.length+' 镜）');renderDecks();});
+ $('deckGallery').querySelectorAll('[data-dktocmp]').forEach(el=>el.onclick=()=>{sendDeckToCompare(el.dataset.dktocmp);});
+ hydrateDeckGallerySlice(slice,token);}
+function sendDeckToCompare(deckId){const d=resolveAnyDeck(deckId);if(!d)return;
+ if(d.filmDeckWid){const w=WORK_BY_WID.get(d.filmDeckWid);if(w){addFpItems([{kind:'work',key:w.wid,label:`${w.t}（${w.y||''}）`}],false);CMP_MODE='works';showTab('compare');return;}}
+ const wids=[];const seen=new Set();
+ (d.items||[]).forEach(it=>{const r=BYID.get(it.id);const w=r?.W||resolveWorkFromShotId(it.id);if(w&&!seen.has(w.wid)){seen.add(w.wid);wids.push({kind:'work',key:w.wid,label:`${w.t}（${w.y||''}）`});}});
+ if(wids.length>=2){addFpItems(wids,true);CMP_MODE='works';toast(`已将「${d.name}」关联的 ${wids.length} 部影片载入瞬间对照矩阵`);showTab('compare');}
+ else if((d.items||[]).length){CMP=(d.items||[]).slice(0,8).map(x=>x.id);saveCmp();CMP_MODE='shots';showTab('compare');}}
+async function renderDeckStudio(d){const V=$('deckView');
+ if(d.filmDeckWid){const w=d._w||WORK_BY_WID.get(d.filmDeckWid);
+  if(w&&(BYW.get(w.i)||[]).length<(Number(w.n)||1)){V.innerHTML=`<div class="dkhead"><button id="dkBackTmp" type="button">← 返回图集总览</button><h2 style="margin:14px 0 6px">正在载入《${esc(w.t)}》全部 ${w.n} 个镜头…</h2></div>`;$('dkBackTmp').onclick=()=>{DECK_VIEW_ID=null;SHOWSHARED=false;renderDecks();};await ensureWorkShots(w);d=makeFilmDeckObj(w);}}
+ const ro=!!(d.system||d.shared);
+ const allList=getFilteredDecks(),curIdx=allList.findIndex(x=>x.id===d.id);
+ const missItems=(d.items||[]).filter(x=>!BYID.has(x.id)),miss=missItems.length;
+ if(miss){const mws=missItems.map(x=>resolveWorkFromShotId(x.id)).filter(Boolean);if(mws.length)ensureWorksBatch(mws,6).then(did=>{if(did&&DECK_VIEW_ID===d.id&&!$('tab-decks').hidden)renderDeckStudio(resolveAnyDeck(d.id)||d);});}
+ V.innerHTML=`<div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-bottom:14px">
+  <div class="btns" style="margin:0"><button id="dkBack" type="button">← 返回全部图集（${totalDeckCount().toLocaleString()} 套）</button>
+   ${curIdx>0?`<button id="dkPrevDeck" type="button">← 上一套</button>`:''}
+   ${curIdx>=0&&curIdx<allList.length-1?`<button id="dkNextDeck" type="button">下一套 →</button>`:''}
+  </div>
+  <span class="muted small">${esc(ro?(d.cat||'系统精选图集'):'我的可编辑图集')} · 共 ${(d.items||[]).length} 镜${d.film_cnt>1?` · 跨 ${d.film_cnt} 部影片`:''}</span>
+ </div>
+ <div class="dkhead">${ro?`<h2 style="margin:0 0 8px;font-size:30px">${esc(d.name)}</h2><p class="note" style="margin:0">${esc(d.desc)||''}</p>`:`<input id="dkName" value="${esc(d.name)}"><textarea id="dkDesc" placeholder="视觉方案说明：这套参考想表达的光、色、构图方向，给导演/摄影/美术/客户看">${esc(d.desc)}</textarea>`}</div>
+ <div class="btns">
+  ${ro?`<button class="pri" id="dkForkHere" type="button">＋ 复制为我的可编辑图集（可自由增删改备注）</button>`:''}
+  <button class="${ro?'':'pri'}" id="dkShare" type="button">复制分享链接</button>
+  <button id="dkHtml" type="button">导出方案页（HTML）</button>
+  <button id="dkPrint" type="button">打印 / 存 PDF</button>
+  <button id="dkTxt" type="button">导出提示词 TXT</button>
+  <button id="dkIds" type="button">复制镜头编号</button>
+  <button id="dkCmpShots" type="button">送去逐镜并排精读</button>
+  <button id="dkCmpWorks" type="button">关联影片矩阵横评</button>
+  ${(d.q||d.filmDeckWid)?`<button id="dkMoreFind" type="button">在「找画面」搜同类 →</button>`:''}
+  ${ro?'':'<button class="ghost" id="dkDel" type="button">删除这个图集</button>'}
+ </div>
+ ${miss?`<p class="warn small">正在后台补齐 ${miss} 个镜头的完整卡片…</p>`:''}
+ <div class="dgrid" id="dkGrid">${(d.items||[]).map((x,i)=>{const r=BYID.get(x.id);if(!r)return'';return`<div class="ditem" draggable="${!ro}" data-i="${i}"><div class="thumb" data-open="${r.id}">${visual(r,520)}</div>${palHTML(r)}<div class="cap"><b>${i+1}. ${esc(r.W.t)}</b> <span class="y">${r.W.y||''} · ${r.id}</span><p>${esc(r.sc)}</p></div>
+  ${ro?(x.note?`<p class="note small" style="margin:0 12px 12px;color:var(--mu)">${esc(x.note)}</p>`:''):`<textarea data-note="${i}" placeholder="给这一镜写备注：参考它的什么（光/色/构图/情绪）">${esc(x.note)}</textarea><div class="acts"><button type="button" data-up="${i}">↑</button><button type="button" data-dn="${i}">↓</button><button type="button" data-rm="${i}">移除</button></div>`}</div>`;}).join('')}</div>`;
  bindCards(V);
- if(!ro){$('dkName').oninput=e=>{d.name=e.target.value;saveDecks();};$('dkName').onchange=()=>renderDecks();$('dkDesc').oninput=e=>{d.desc=e.target.value;saveDecks();};
+ $('dkBack').onclick=()=>{DECK_VIEW_ID=null;SHOWSHARED=false;renderDecks();window.scrollTo({top:0,behavior:'instant'});};
+ if($('dkPrevDeck'))$('dkPrevDeck').onclick=()=>{DECK_VIEW_ID=allList[curIdx-1].id;renderDecks();window.scrollTo({top:0,behavior:'instant'});};
+ if($('dkNextDeck'))$('dkNextDeck').onclick=()=>{DECK_VIEW_ID=allList[curIdx+1].id;renderDecks();window.scrollTo({top:0,behavior:'instant'});};
+ if($('dkForkHere'))$('dkForkHere').onclick=()=>{const nd=newDeck(d.name+'（改版）',d.desc,(d.items||[]).slice(0,160));DECK_VIEW_ID=nd.id;SHOWSHARED=false;toast('已创建可编辑副本，现在可拖拽排序、改备注或增删镜头');renderDecks();};
+ if($('dkMoreFind'))$('dkMoreFind').onclick=async()=>{if(d.filmDeckWid){WID=d.filmDeckWid;QP={tags:[],work:null,words:[],rawWords:[]};$('q').value='';showTab('find');await ensureWorkShots(d.filmDeckWid);apply();}else if(d.q){WID=null;$('q').value=d.q;QP=parseQ(d.q);showTab('find');apply();}};
+ if(!ro){
+  $('dkName').oninput=e=>{d.name=e.target.value;saveDecks();};$('dkDesc').oninput=e=>{d.desc=e.target.value;saveDecks();};
   V.querySelectorAll('[data-note]').forEach(t=>t.oninput=()=>{d.items[+t.dataset.note].note=t.value;saveDecks();});
-  const mv=(i,j)=>{if(j<0||j>=d.items.length)return;const[x]=d.items.splice(i,1);d.items.splice(j,0,x);saveDecks();renderDecks();};
+  const mv=(i,j)=>{if(j<0||j>=d.items.length)return;const[x]=d.items.splice(i,1);d.items.splice(j,0,x);saveDecks();renderDeckStudio(d);};
   V.querySelectorAll('[data-up]').forEach(b=>b.onclick=()=>mv(+b.dataset.up,+b.dataset.up-1));V.querySelectorAll('[data-dn]').forEach(b=>b.onclick=()=>mv(+b.dataset.dn,+b.dataset.dn+1));
-  V.querySelectorAll('[data-rm]').forEach(b=>b.onclick=()=>{d.items.splice(+b.dataset.rm,1);saveDecks();renderDecks();refreshMarks();});
+  V.querySelectorAll('[data-rm]').forEach(b=>b.onclick=()=>{d.items.splice(+b.dataset.rm,1);saveDecks();renderDeckStudio(d);refreshMarks();});
   let from=null;V.querySelectorAll('.ditem').forEach(el=>{el.ondragstart=()=>{from=+el.dataset.i;el.classList.add('drag');};el.ondragend=()=>el.classList.remove('drag');
    el.ondragover=e=>{e.preventDefault();el.classList.add('over');};el.ondragleave=()=>el.classList.remove('over');el.ondrop=e=>{e.preventDefault();el.classList.remove('over');if(from!=null)mv(from,+el.dataset.i);from=null;};});
-  $('dkDel').onclick=()=>{if(!confirm('删除参考图集「'+d.name+'」？（镜头本身不受影响）'))return;DECKS.list=DECKS.list.filter(x=>x.id!==d.id);DECKS.cur=DECKS.list[0]?DECKS.list[0].id:null;saveDecks();renderDecks();refreshMarks();};}
- $('dkShare').onclick=()=>{const u=shareURL(d);copy(u,'已复制分享链接（'+d.items.length+' 镜）。对方打开线上图库即看到这套图集和备注（需输入图库访问口令；本机截帧不随链接分享，要带截帧请用“打印 / 存 PDF”）');};
- $('dkHtml').onclick=()=>exportHTML(d);$('dkPrint').onclick=()=>printDeck(d);$('dkTxt').onclick=async()=>{await ensureDet(d.items.map(x=>BYID.get(x.id)));dl(d.name+'_复刻提示词.txt',d.items.map((x,i)=>{const r=BYID.get(x.id);return r?`${i+1}. ${shotText(r)}${x.note?'\n备注：'+x.note:''}`:'';}).join('\n\n'));};
- $('dkIds').onclick=()=>copy(d.items.map(x=>x.id).join(' '),'已复制 '+d.items.length+' 个镜头编号');$('dkCmp').onclick=()=>{d.items.slice(0,4).forEach(x=>{if(!CMP.includes(x.id))CMP.push(x.id);});CMP=CMP.slice(-4);saveCmp();showTab('compare');};}
-let SHOWSHARED=false;
-function deckDoc(d,forPrint){const items=d.items.map(x=>[x,BYID.get(x.id)]).filter(a=>a[1]);const date=new Date().toISOString().slice(0,10);
+  $('dkDel').onclick=()=>{if(!confirm('删除参考图集「'+d.name+'」？（镜头本身不受影响）'))return;DECKS.list=DECKS.list.filter(x=>x.id!==d.id);DECKS.cur=DECKS.list[0]?DECKS.list[0].id:null;DECK_VIEW_ID=null;saveDecks();renderDecks();refreshMarks();};
+ }
+ $('dkShare').onclick=()=>{const u=shareURL(d);copy(u,'已复制分享链接（'+Math.min(160,(d.items||[]).length)+' 镜）');};
+ $('dkHtml').onclick=()=>exportHTML(d);$('dkPrint').onclick=()=>printDeck(d);
+ $('dkTxt').onclick=async()=>{toast('正在整理完整镜头提示词…');await ensureDet((d.items||[]).map(x=>BYID.get(x.id)).filter(Boolean));dl(d.name+'_复刻提示词.txt',(d.items||[]).map((x,i)=>{const r=BYID.get(x.id);return r?`${i+1}. ${shotText(r)}${x.note?'\n参考要点：'+x.note:''}`:'';}).filter(Boolean).join('\n\n'));};
+ $('dkIds').onclick=()=>copy((d.items||[]).map(x=>x.id).join(' '),'已复制 '+(d.items||[]).length+' 个镜头编号');
+ $('dkCmpShots').onclick=()=>{CMP=(d.items||[]).slice(0,8).map(x=>x.id);saveCmp();CMP_MODE='shots';showTab('compare');};
+ $('dkCmpWorks').onclick=()=>sendDeckToCompare(d.id);}
+function deckDoc(d,forPrint){const items=(d.items||[]).map(x=>[x,BYID.get(x.id)]).filter(a=>a[1]);const date=new Date().toISOString().slice(0,10);
  const body=items.map(([x,r],i)=>`<div class="pi"><div>${forPrint?visual(r,900,true):r.origin==='visual'?sourceVisual(r):schem(r,900)}${palHTML(r)}</div><div><h2>${i+1}. ${esc(r.W.t)} <small style="color:#888">${esc(r.W.te||'')} · ${r.W.y}${r.ep?' · '+esc(r.ep):''}</small></h2>
  <p><b>画面：</b>${esc(r.sc)}</p><p><b>标签：</b>${[r.size,r.angle,...(r.light||[]),r.time,r.ie,...(r.color||[]),...(r.comp||[]),...(r.emo||[])].filter(Boolean).map(esc).join(' · ')}</p>
- <p><b>导演 / 摄影：</b>${esc(r.W.dir)} / ${esc(r.W.dp||'待核')} · 画幅 ${esc(r.W.ar||'')}</p><p><b>研究笔记：</b>${esc(r.note)}</p>${x.note?`<p style="background:#fff3cf;padding:2mm 3mm"><b>备注：</b>${esc(x.note)}</p>`:''}<p style="color:#888;font-size:10pt">${esc(r.id)} · ${r.origin==='visual'?'来源静帧分析 · '+esc(r.verification||'观图待人工核'):'示意图按标签绘制，色板为'+(frOf(r)&&forPrint?'实测':'估色')}</p></div></div>`).join('');
+ <p><b>导演 / 摄影：</b>${esc(r.W.dir)} / ${esc(r.W.dp||'待核')} · 画幅 ${esc(r.W.ar||'')}</p><p><b>研究笔记：</b>${esc(r.note||'')}</p>${x.note?`<p style="background:#fff3cf;padding:2mm 3mm"><b>参考要点：</b>${esc(x.note)}</p>`:''}<p style="color:#888;font-size:10pt">${esc(r.id)} · ${r.origin==='visual'?'来源静帧分析 · '+esc(r.verification||'观图待人工核'):'示意图按标签绘制，色板为'+(frOf(r)&&forPrint?'实测':'估色')}</p></div></div>`).join('');
  return{date,body,cover:`<div class="cover"><p style="color:#a07a2a;letter-spacing:3px">金泰AI · 影视参考图集</p><h1>${esc(d.name)}</h1><p style="font-size:16pt;line-height:1.8;white-space:pre-wrap">${esc(d.desc||'')}</p><p style="color:#888">${items.length} 个参考镜头 · ${date}</p></div>`};}
-async function printDeck(d){await ensureDet(d.items.map(x=>BYID.get(x.id)));const x=deckDoc(d,true);$('printArea').innerHTML=x.cover+x.body;setTimeout(()=>window.print(),300);}
-async function exportHTML(d){await ensureDet(d.items.map(x=>BYID.get(x.id)));const x=deckDoc(d,false);const html=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(d.name)} · 参考图集</title><style>body{margin:0;background:#f5f2ec;color:#1d1d1d;font:20px/1.7 "Microsoft YaHei",sans-serif}.wrap{max-width:1500px;margin:auto;padding:30px}.cover{padding:40px 0 20px;border-bottom:2px solid #ccc;margin-bottom:30px}h1{font-size:40px;margin:0 0 12px}.pi{display:grid;grid-template-columns:58% 1fr;gap:28px;margin-bottom:34px;padding-bottom:28px;border-bottom:1px solid #ddd}.pi svg{width:100%;height:auto;display:block;border-radius:8px}.pal{display:flex;height:16px;border-radius:0 0 8px 8px;overflow:hidden}.pal span{flex:1}.pi h2{margin:0 0 8px;font-size:26px}.pi p{margin:6px 0}@media(max-width:900px){.pi{grid-template-columns:1fr}}@media print{.pi{page-break-inside:avoid}}</style></head><body><div class="wrap">${x.cover}${x.body}<p style="color:#888;font-size:16px">由金泰AI 影视参考图集导出。旧笔记的示意图按标签绘制，不是影片原帧；来源静帧分析以文字和对应原图链接展示，核验状态见逐条说明。</p></div></body></html>`;
+async function printDeck(d){await ensureDet((d.items||[]).map(x=>BYID.get(x.id)).filter(Boolean));const x=deckDoc(d,true);$('printArea').innerHTML=x.cover+x.body;setTimeout(()=>window.print(),300);}
+async function exportHTML(d){await ensureDet((d.items||[]).map(x=>BYID.get(x.id)).filter(Boolean));const x=deckDoc(d,false);const html=`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${esc(d.name)} · 参考图集</title><style>body{margin:0;background:#f5f2ec;color:#1d1d1d;font:20px/1.7 "Microsoft YaHei",sans-serif}.wrap{max-width:1500px;margin:auto;padding:30px}.cover{padding:40px 0 20px;border-bottom:2px solid #ccc;margin-bottom:30px}h1{font-size:40px;margin:0 0 12px}.pi{display:grid;grid-template-columns:58% 1fr;gap:28px;margin-bottom:34px;padding-bottom:28px;border-bottom:1px solid #ddd}.pi svg{width:100%;height:auto;display:block;border-radius:8px}.pal{display:flex;height:16px;border-radius:0 0 8px 8px;overflow:hidden}.pal span{flex:1}.pi h2{margin:0 0 8px;font-size:26px}.pi p{margin:6px 0}@media(max-width:900px){.pi{grid-template-columns:1fr}}@media print{.pi{page-break-inside:avoid}}</style></head><body><div class="wrap">${x.cover}${x.body}<p style="color:#888;font-size:16px">由金泰AI 影视参考图集导出。</p></div></body></html>`;
  dl(d.name+'_参考图集.html',html,'text/html');}
-/* ---------- 对照 ---------- */
+/* ---------- 对照（海量作品/导演/DP/年代 毫秒级矩阵 & 12 镜并排精读） ---------- */
+const CMP_MAX=12;
 let CMP=JSON.parse(localStorage.getItem('jt_film_cmp')||'[]'),FP=JSON.parse(localStorage.getItem('jt_film_fp')||'[]');
-function saveCmp(){localStorage.setItem('jt_film_cmp',JSON.stringify(CMP));localStorage.setItem('jt_film_fp',JSON.stringify(FP));$('nCmp').textContent=CMP.length?' '+CMP.length:'';}
-function toggleCmp(id){if(CMP.includes(id))CMP=CMP.filter(x=>x!==id);else{CMP.push(id);if(CMP.length>4){CMP.shift();toast('对照最多 4 个，已移出最早的一个');}}saveCmp();document.querySelectorAll(`[data-cmp="${id}"]`).forEach(b=>{const on=CMP.includes(id);b.classList.toggle('in',on);b.textContent=on?'✓ 对照中':'对照';});if(CUR&&$('detail').open)$('dCmp').textContent=CMP.includes(CUR.id)?'✓ 对照中':'加入对照';if(!$('tab-compare').hidden)renderCompare();}
-async function ensureFpWorks(f){if(!f)return;
- if(f.kind==='work'){const w=WORK_BY_WID.get(f.key)||WORKS.find(x=>x.wid===f.key);if(w)await ensureWorkShots(w);}
- else{const ws=WORKS.filter(w=>((f.kind==='dir'?w.dir:w.dp)||'').split(/[；;、，,\/]/).map(s=>s.trim()).includes(f.key)).slice(0,30);if(ws.length)await ensureWorksBatch(ws,6);}}
-async function renderCompare(){const missWs=CMP.filter(id=>!BYID.has(id)).map(resolveWorkFromShotId).filter(Boolean);if(missWs.length)await ensureWorksBatch(missWs,4);
- const rs=CMP.map(id=>BYID.get(id)).filter(Boolean);await ensureDet(rs);const box=$('cmpShots');
- if(!rs.length){box.innerHTML='<p class="empty" style="padding:24px">还没有加入对照的镜头。</p>';}else{
- const rows=[['作品',r=>r.W.t+' '+r.W.y],['导演 / 摄影',r=>r.W.dir+' / '+(r.W.dp||'待核')],['画幅',r=>r.W.ar],['景别',r=>r.size],['机位角度',r=>r.angle],['画面人物',r=>r.frame],['运镜',r=>(r.move||[]).join('、')],['焦段 / 景深',r=>[r.lens_type,r.dof].filter(Boolean).join(' / ')],
-  ['灯光',r=>(r.light||[]).join('、')],['主光方向',r=>r.ld],['时间',r=>r.time],['天气',r=>r.weather],['内外景',r=>r.ie],['地点',r=>(r.loc||[]).join('、')],['色彩',r=>(r.color||[]).join('、')],['构图',r=>(r.comp||[]).join('、')],['主体位置',r=>r.pos],['人物情绪',r=>(r.emo||[]).join('、')],['研究笔记',r=>r.note]];
- box.innerHTML=`<div class="btns"><button id="cmpClear" class="ghost">清空对照</button><button id="cmpDeck">把这些镜头存为图集</button></div><div class="cmpgrid" style="grid-template-columns:repeat(${rs.length},minmax(0,1fr))">${rs.map(r=>`<div class="col"><div class="thumb" data-open="${r.id}">${visual(r,700)}</div>${palHTML(r)}<h4>${esc(r.W.t)} <span class="muted small">${r.id}</span></h4><div class="acts"><button data-cmp="${r.id}">移出对照</button></div></div>`).join('')}</div>
- <div style="overflow-x:auto"><table class="cmp">${rows.map(([n,fn])=>{const vs=rs.map(r=>fn(r)||'');const diff=new Set(vs).size>1&&n!=='研究笔记'&&n!=='作品'&&n!=='导演 / 摄影';return`<tr><th>${n}</th>${vs.map(v=>`<td class="${diff?'diff':''}">${esc(v)}</td>`).join('')}</tr>`;}).join('')}</table></div>`;
- bindCards(box);$('cmpClear').onclick=()=>{CMP=[];saveCmp();renderCompare();refreshCmpBtns();};$('cmpDeck').onclick=()=>addToDeck(CMP.slice());}
- await Promise.all(FP.map(ensureFpWorks));renderFP();}
+let CMP_MODE='works',FP_VIEW_MODE='matrix',FP_SORT={col:-1,asc:false},CMP_USER_CLEARED=false,FP_USER_CLEARED=false;
+const MAT_COLS=[
+ {id:'lum',label:'平均亮度',tip:'全片平均亮度 (0–255)'},
+ {id:0,label:'远大景',tip:'大远景 / 远景 / 全景占比'},
+ {id:2,label:'近特写',tip:'近景 / 特写 / 大特写占比'},
+ {id:5,label:'低调暗',tip:'低调暗部控制占比'},
+ {id:7,label:'硬光反差',tip:'硬光 / 高反差占比'},
+ {id:9,label:'逆光剪影',tip:'逆光 / 剪影 / 轮廓光占比'},
+ {id:10,label:'实景霓虹',tip:'烛火 / 霓虹 / 窗光 / 路灯实景光源占比'},
+ {id:11,label:'夜/魔幻',tip:'夜晚 / 黄昏 / 蓝调时刻占比'},
+ {id:13,label:'暖调',tip:'暖调 / 红橙金色系占比'},
+ {id:14,label:'冷调',tip:'冷调 / 蓝青绿色系占比'},
+ {id:15,label:'冷暖撞色',tip:'冷暖互补对比占比'},
+ {id:17,label:'黑白单色',tip:'黑白银盐 / 单色影调占比'},
+ {id:18,label:'对称居中',tip:'对称 / 居中构图占比'},
+ {id:19,label:'框中框',tip:'框中框 / 前景遮挡占比'},
+ {id:23,label:'长镜横移',tip:'长镜头 / 横移 / 跟拍占比'},
+ {id:25,label:'孤独压抑',tip:'孤独 / 压抑 / 悲伤 / 疏离情绪占比'},
+ {id:26,label:'紧张危险',tip:'紧张 / 恐惧 / 危险 / 对峙占比'}
+];
+function updateCmpBadges(){
+ if($('nFp'))$('nFp').textContent=FP.length?' ('+FP.length+')':'';
+ if($('nCmpSub'))$('nCmpSub').textContent=CMP.length?' ('+CMP.length+')':'';
+ if($('nCmp'))$('nCmp').textContent=(FP.length||CMP.length)?' '+(CMP_MODE==='shots'&&CMP.length?CMP.length:FP.length||CMP.length):'';}
+function saveCmp(){localStorage.setItem('jt_film_cmp',JSON.stringify(CMP));localStorage.setItem('jt_film_fp',JSON.stringify(FP));updateCmpBadges();}
+function ensureDefaultCompareSeeds(){
+ if(!FP.length&&!FP_USER_CLEARED&&WORKS.length){
+  const benchTitles=[['花样年华',2000],['一代宗师',2013],['第七封印',1957],['残菊物语',1939],['2001太空漫游',1968],['银翼杀手2049',2017],['布达佩斯大饭店',2014],['風林火山',2026]];
+  benchTitles.forEach(([t,y])=>{const w=WORKS.find(x=>x.t===t&&(!y||Number(x.y)===y))||WORKS.find(x=>x.t===t);if(w)FP.push({kind:'work',key:w.wid,label:`${w.t}（${w.y||''}）`});});
+  saveCmp();
+ }
+ if(!CMP.length&&!CMP_USER_CLEARED&&SHOT_PRESETS.length){
+  CMP=SHOT_PRESETS[0].ids.slice(0,CMP_MAX);updateCmpBadges();
+ }}
+function setCmpMode(m){CMP_MODE=m;
+ $('btnModeWorks')?.classList.toggle('on',m==='works');$('btnModeShots')?.classList.toggle('on',m==='shots');
+ if($('cmpWorksPane'))$('cmpWorksPane').hidden=(m!=='works');
+ if($('cmpShotsPane'))$('cmpShotsPane').hidden=(m!=='shots');
+ updateCmpBadges();
+ if(!$('tab-compare').hidden){if(m==='works')renderFP();else renderCmpShots();}}
+function setFpViewMode(v){FP_VIEW_MODE=v;
+ $('fpViewMat')?.classList.toggle('pri',v==='matrix');$('fpViewCards')?.classList.toggle('pri',v==='cards');
+ if($('fpMatrixWrap'))$('fpMatrixWrap').hidden=(v!=='matrix');
+ if($('fpView'))$('fpView').hidden=(v!=='cards');
+ renderFP();}
+function addFpItems(items,replaceAll=false){if(replaceAll)FP=[];
+ let added=0;
+ items.forEach(it=>{if(!it||!it.key)return;if(!FP.some(x=>x.kind===it.kind&&x.key===it.key)){FP.push(it);added++;}});
+ FP_USER_CLEARED=false;saveCmp();
+ if(!$('tab-compare').hidden)renderFP();
+ return added;}
+function toggleCmp(id){if(CMP.includes(id))CMP=CMP.filter(x=>x!==id);else{CMP.push(id);if(CMP.length>CMP_MAX){CMP.shift();toast(`逐镜对照最多 ${CMP_MAX} 个，已移出最早的一个`);}}CMP_USER_CLEARED=(CMP.length===0);saveCmp();
+ document.querySelectorAll(`[data-cmp="${id}"]`).forEach(b=>{const on=CMP.includes(id);b.classList.toggle('in',on);b.textContent=on?'✓ 对照中':'对照';});
+ if(CUR&&$('detail').open)$('dCmp').textContent=CMP.includes(CUR.id)?'✓ 对照中':'加入对照';
+ if(!$('tab-compare').hidden&&CMP_MODE==='shots')renderCmpShots();}
 function refreshCmpBtns(){document.querySelectorAll('[data-cmp]').forEach(b=>{const on=CMP.includes(b.dataset.cmp);b.classList.toggle('in',on);b.textContent=on?'✓ 对照中':'对照';});}
-function fpPool(f){return f.kind==='work'?(BYW.get((WORK_BY_WID.get(f.key)||WORKS.find(w=>w.wid===f.key)||{}).i)||[]):f.kind==='dir'?R.filter(r=>(r.W?.dir||'').split(/[；;、，,\/]/).map(s=>s.trim()).includes(f.key)):R.filter(r=>(r.W?.dp||'').split(/[；;、，,\/]/).map(s=>s.trim()).includes(f.key));}
-function fpOptions(){const k=$('fpKind').value;let opts=[];if(k==='work')opts=WORKS.map(w=>`${w.t}（${w.y}）`);else{const s=new Set();WORKS.forEach(w=>((k==='dir'?w.dir:w.dp)||'').split(/[；;、，,\/]/).map(x=>x.trim()).filter(x=>x&&x!=='待核').forEach(x=>s.add(x)));opts=[...s];}
- $('fpList').innerHTML=opts.sort((a,b)=>a.localeCompare(b,'zh')).map(o=>`<option value="${esc(o)}">`).join('');}
-async function fpAdd(){const k=$('fpKind').value,v=$('fpQ').value.trim();if(!v)return;let f=null;
- if(k==='work'){const w=WORKS.find(w=>`${w.t}（${w.y}）`===v||w.t===v||w.te===v);if(w)f={kind:'work',key:w.wid,label:`${w.t}（${w.y}）`};}else f={kind:k,key:v,label:(k==='dir'?'导演 ':'摄影 ')+v};
- if(f)await ensureFpWorks(f);
- if(!f||!fpPool(f).length){toast('没找到：'+v);return;}if(FP.some(x=>x.kind===f.kind&&x.key===f.key))return;FP.push(f);if(FP.length>3)FP.shift();$('fpQ').value='';saveCmp();renderFP();}
-function dist(pool,fn,keys){const c={};pool.forEach(r=>{[].concat(fn(r)||[]).forEach(v=>{if(!keys||keys.includes(v))c[v]=(c[v]||0)+1;});});return Object.entries(c).sort((a,b)=>b[1]-a[1]);}
-function bars(title,arr,n,max){if(!arr.length)return'';return`<div class="sec">${title}</div>`+arr.slice(0,max||6).map(([k,v])=>`<div class="bar"><span>${esc(k)}</span><i style="width:${Math.round(v/n*100)}%"></i><em>${Math.round(v/n*100)}%</em></div>`).join('');}
-function renderFP(){const V=$('fpView');if(!FP.length){V.innerHTML='<p class="muted">例：选“按作品”，输入片名后回车；再添加一两部来对照。</p>';return;}
- V.style.gridTemplateColumns=`repeat(${FP.length},minmax(0,1fr))`;
- V.innerHTML=FP.map((f,i)=>{const pool=fpPool(f),n=pool.length;const g=FK.light.groups;const colored=pool.filter(r=>palOf(r).length),lum0=colored.map(r=>palOf(r).reduce((a,c)=>a+lum(c),0)/palOf(r).length);const avg=lum0.length?Math.round(lum0.reduce((a,b)=>a+b,0)/lum0.length):'待测';
-  const works=new Set(pool.map(r=>r.w));
-  return`<div class="fp"><h4>${esc(f.label)}</h4><div class="muted small">${n} 个镜头${works.size>1?' · '+works.size+' 部作品':''} · 平均亮度 ${avg}${lum0.length?'/255':'（色板未测）'} <button class="ghost" data-fprm="${i}" style="font-size:15px;padding:2px 10px">移除</button> <button class="ghost" data-fpgo="${i}" style="font-size:15px;padding:2px 10px">看全部镜头</button></div>
-  <div class="mosaic">${colored.map(r=>`<div>${palOf(r).map(c=>`<span style="background:${c}"></span>`).join('')}</div>`).join('')}</div>
-  ${bars('景别',dist(pool,r=>r.size),n,7)}${bars('光调与反差',dist(pool,r=>r.light,g[1].values),n)}${bars('光质',dist(pool,r=>r.light,g[0].values),n)}${bars('光源',dist(pool,r=>r.light,g[3].values),n,5)}
-  ${bars('色调',dist(pool,r=>r.color,FK.color.groups[0].values),n)}${bars('饱和',dist(pool,r=>r.color,FK.color.groups[1].values),n)}${bars('主色',dist(pool,r=>r.color,FK.color.groups[2].values),n,5)}
-  ${bars('时间',dist(pool,r=>r.time),n,5)}${bars('构图',dist(pool,r=>r.comp),n,6)}${bars('人物情绪',dist(pool,r=>r.emo),n,6)}${bars('运镜',dist(pool,r=>r.move),n,5)}
-  <div class="sec">代表镜头</div><div class="strip">${pool.slice(0,8).map(x=>`<div class="mini" data-open="${x.id}" title="${esc(x.sc)}">${visual(x,300)}</div>`).join('')}</div></div>`;}).join('');
- V.querySelectorAll('[data-open]').forEach(e=>e.onclick=()=>openDetail(e.dataset.open));V.querySelectorAll('[data-fprm]').forEach(b=>b.onclick=()=>{FP.splice(+b.dataset.fprm,1);saveCmp();renderFP();});
- V.querySelectorAll('[data-fpgo]').forEach(b=>b.onclick=()=>{const f=FP[+b.dataset.fpgo];if(f.kind==='work'){WID=f.key;QP={tags:[],work:null,words:[]};$('q').value='';}else{WID=null;$('q').value=f.key;QP=parseQ(f.key);}showTab('find');apply();});}
+function resolveCohortWis(f){
+ if(f.kind==='work'){const w=WORK_BY_WID.get(f.key)||WORKS.find(x=>x.wid===f.key);return w?[w.i]:[];}
+ if(f.kind==='dir'){const c=(FP_COHORTS.dirs||[]).find(x=>x.id===f.key||x.zh===f.key||x.en===f.key);if(c)return c.wis;
+  const kl=f.key.toLowerCase();return WORKS.filter(w=>(w.dir||'').toLowerCase().includes(kl)).map(w=>w.i);}
+ if(f.kind==='dp'){const c=(FP_COHORTS.dps||[]).find(x=>x.id===f.key||x.zh===f.key||x.en===f.key);if(c)return c.wis;
+  const kl=f.key.toLowerCase();return WORKS.filter(w=>(w.dp||'').toLowerCase().includes(kl)).map(w=>w.i);}
+ if(f.kind==='award'){const c=(FP_COHORTS.awards||[]).find(x=>x.id===f.key||x.zh===f.key);return c?c.wis:[];}
+ if(f.kind==='decade')return WORKS.filter(w=>w.decade===f.key).map(w=>w.i);
+ if(f.kind==='region')return WORKS.filter(w=>w.region===f.key).map(w=>w.i);
+ return[];}
+function computeFallbackWorkRow(w){
+ const pool=BYW.get(w.i)||[],n=Math.max(1,pool.length),bw=isWorkBW(w);
+ const p5=fallbackWorkPal(w),avgL=Math.round(p5.reduce((a,c)=>a+lum(c),0)/p5.length);
+ const m=new Array(29).fill(0);if(bw)m[17]=100;
+ if(pool.length){
+  const pct=fn=>Math.round(pool.filter(fn).length*100/n);
+  m[0]=pct(r=>['大远景','远景','全景'].includes(r.size));m[1]=pct(r=>r.size==='中景');m[2]=pct(r=>['近景','特写','大特写'].includes(r.size));
+  m[5]=pct(r=>(r.light||[]).includes('低调'));m[7]=pct(r=>(r.light||[]).some(x=>x==='硬光'||x==='高反差'));
+  m[9]=pct(r=>(r.light||[]).some(x=>x==='逆光'||x==='剪影'||x==='轮廓光'));
+  m[10]=pct(r=>(r.light||[]).some(x=>['实景光源','烛火','火光','霓虹','路灯','窗光'].includes(x)));
+  m[11]=pct(r=>['夜晚','黄昏','日落金光','蓝调时刻'].includes(r.time));
+  if(!bw){m[13]=pct(r=>(r.color||[]).some(x=>['暖调','红','橙','黄','金'].includes(x)));m[14]=pct(r=>(r.color||[]).some(x=>['冷调','蓝','青','绿'].includes(x)));m[15]=pct(r=>(r.color||[]).includes('冷暖对比'));}
+  m[18]=pct(r=>(r.comp||[]).some(x=>x==='对称'||x==='居中'));m[19]=pct(r=>(r.comp||[]).some(x=>x==='框中框'||x==='前景遮挡'));
+  m[23]=pct(r=>(r.move||[]).some(x=>x==='长镜头'||x==='横移'||x==='跟拍'));
+  m[25]=pct(r=>(r.emo||[]).some(x=>['孤独','压抑','悲伤','疏离'].includes(x)));m[26]=pct(r=>(r.emo||[]).some(x=>['紧张','恐惧','危险'].includes(x)));
+ }
+ return[avgL,p5.map(c=>c.slice(1)).join(''),(p5.concat(p5)).slice(0,10).map(c=>c.slice(1)).join(''),m,0];}
+function computeEntityFP(f,idx){
+ const wis=resolveCohortWis(f);
+ if(!wis.length)return{idx,f,empty:true,label:f.label||f.key,sub:'未匹配到作品',nWorks:0,nShots:0,lum:0,pal5:['#222','#444','#666','#888','#aaa'],dna10:[],m:new Array(29).fill(0),wis:[]};
+ if(wis.length===1&&f.kind==='work'){
+  const w=WORKS[wis[0]],row=FP_ROWS[w.i]||computeFallbackWorkRow(w);
+  const sub=[w.y,w.region&&w.region!=='待补'?w.region:'',w.dir?'导:'+w.dir:'',w.dp&&w.dp!=='待核'?'摄:'+w.dp:''].filter(Boolean).join(' · ');
+  return{idx,f,w,wis,label:f.label||`${w.t}（${w.y||''}）`,sub,nWorks:1,nShots:workShotCount(w),lum:row[0],pal5:unpackHexStrip(row[1]),dna10:unpackHexStrip(row[2]),m:row[3],aw:row[4]||0};
+ }
+ let wSum=0,lumAcc=0,totalShots=0;const mAcc=new Array(29).fill(0),allPals=[];
+ const sortedWis=wis.slice().sort((a,b)=>(Number(WORKS[a]?.y)||1980)-(Number(WORKS[b]?.y)||1980));
+ sortedWis.forEach(wi=>{const w=WORKS[wi];if(!w)return;const cnt=workShotCount(w);totalShots+=cnt;
+  const wt=Math.max(1,Math.min(40,cnt)),row=FP_ROWS[wi]||computeFallbackWorkRow(w);
+  wSum+=wt;lumAcc+=row[0]*wt;const rm=row[3];for(let k=0;k<29;k++)mAcc[k]+=(rm[k]||0)*wt;
+  const p5=unpackHexStrip(row[1]);if(p5.length)allPals.push({y:w.y||0,mid:p5[3]||p5[2],p5});});
+ const m=mAcc.map(v=>Math.round(v/Math.max(1,wSum))),avgLum=Math.round(lumAcc/Math.max(1,wSum));
+ const flatColors=[];allPals.slice(0,120).forEach(x=>flatColors.push(...x.p5));
+ flatColors.sort((a,b)=>lum(a)-lum(b));
+ const pal5=flatColors.length?Array.from({length:5},(_,k)=>flatColors[Math.min(flatColors.length-1,Math.floor((k+.5)*flatColors.length/5))]):['#18202c','#34435a','#647890','#b88b4a','#e8e2d5'];
+ const dna10=allPals.length?Array.from({length:10},(_,k)=>allPals[Math.min(allPals.length-1,Math.floor(k*allPals.length/10))].mid):(pal5.concat(pal5));
+ const kindName={dir:'导演作品群',dp:'摄影指导作品群',award:'获奖与榜单集合',decade:'年代全集',region:'地区影史集合'}[f.kind]||'多片聚合';
+ return{idx,f,wis,label:f.label||f.key,sub:`${kindName} · ${wis.length.toLocaleString()} 部影片`,nWorks:wis.length,nShots:totalShots,lum:avgLum,pal5,dna10,m,aw:0};}
+function findVisualTwins(targetEnt,topK=12){
+ if(!FP_ROWS.length||!targetEnt)return[];
+ const tm=targetEnt.m,tLum=targetEnt.lum,exclude=new Set(targetEnt.wis.length===1?targetEnt.wis:[]);
+ let normA=0;for(let k=0;k<29;k++)normA+=tm[k]*tm[k];normA=Math.sqrt(normA)||1;
+ const scored=[];
+ for(let wi=0;wi<FP_ROWS.length;wi++){
+  if(exclude.has(wi))continue;const w=WORKS[wi];if(!w||(Number(w.n)||0)<6)continue;
+  const row=FP_ROWS[wi],rm=row[3];
+  let dot=0,normB=0;for(let k=0;k<29;k++){const v=rm[k]||0;dot+=tm[k]*v;normB+=v*v;}
+  if(!normB)continue;
+  let sim=dot/(normA*Math.sqrt(normB));
+  sim-=Math.abs(tLum-row[0])/650;
+  if((tm[17]>=80)!==(rm[17]>=80))sim-=0.25;
+  if(row[4])sim+=0.012;
+  scored.push([sim,wi]);
+ }
+ scored.sort((a,b)=>b[0]-a[0]);
+ return scored.slice(0,topK).map(([sim,wi])=>{const w=WORKS[wi];return{kind:'work',key:w.wid,label:`${w.t}（${w.y||''}）`,sim:Math.round(Math.max(0,Math.min(0.99,sim))*100)};});}
+function applyFpPreset(code){if(!code)return;let items=[];
+ if(code==='dirs12'){
+  items=(FP_COHORTS.dirs||[]).slice(0,12).map(c=>({kind:'dir',key:c.id,label:`导演 · ${c.zh} (${c.en})`}));
+ }else if(code==='dps12'){
+  items=(FP_COHORTS.dps||[]).slice(0,12).map(c=>({kind:'dp',key:c.id,label:`摄影 · ${c.zh} (${c.en})`}));
+ }else if(code==='new24'){
+  const ws=WORKS.filter(w=>Number(w.y)>=2025).sort((a,b)=>((FP_ROWS[b.i]?.[4]?30:0)+workShotCount(b))-((FP_ROWS[a.i]?.[4]?30:0)+workShotCount(a))).slice(0,24);
+  items=ws.map(w=>({kind:'work',key:w.wid,label:`${w.t}（${w.y}）`}));
+ }else if(code==='canon30'){
+  const titles=['花样年华','一代宗师','大红灯笼高高挂','霸王别姬','刺客聂隐娘','卧虎藏龙','悲情城市','阳光灿烂的日子','第七封印','残菊物语','罗生门','七武士','东京物语','乱','公民凯恩','教父','现代启示录','巴里·林登','2001太空漫游','闪灵','银翼杀手','银翼杀手2049','沙丘','潜行者','镜子','八部半','天堂之日','老无所依','寄生虫','布达佩斯大饭店'];
+  titles.forEach(t=>{const w=WORKS.find(x=>x.t===t);if(w)items.push({kind:'work',key:w.wid,label:`${w.t}（${w.y||''}）`});});
+ }else if(code==='decades11'){
+  items=FK.decade.values.filter(d=>WORKS.some(w=>w.decade===d)).map(d=>({kind:'decade',key:d,label:d}));
+ }else if(code==='regions12'){
+  items=['中国大陆','中国香港','中国台湾','日本','韩国','美国','英国','法国','意大利','德国','北欧','俄罗斯/苏联'].filter(r=>WORKS.some(w=>w.region===r)).map(r=>({kind:'region',key:r,label:r}));
+ }
+ if(items.length){FP_SORT={col:-1,asc:false};addFpItems(items,true);if(items.length>=4&&FP_VIEW_MODE!=='matrix')setFpViewMode('matrix');toast(`瞬间载入 ${items.length} 组对照对象`);}}
+function searchFpCandidates(qRaw){const q=qRaw.trim().toLowerCase(),kind=$('fpKind')?.value||'work';
+ const out=[];
+ if(kind==='work'){
+  if(!q){
+   WORKS.slice(0,18).forEach(w=>out.push({kind:'work',key:w.wid,label:`${w.t}（${w.y||''}）`,meta:`${workShotCount(w)} 镜 · ${w.dir||''} / ${w.dp||'待核'}`,pal:fallbackWorkPal(w)}));
+   return out;
+  }
+  (FP_COHORTS.dirs||[]).forEach(c=>{if((c.zh+' '+c.en).toLowerCase().includes(q))out.push({kind:'dir',key:c.id,label:`导演 · ${c.zh} (${c.en})`,meta:`${c.wis.length} 部代表作合拢 · ${c.desc}`,pal:[]});});
+  (FP_COHORTS.dps||[]).forEach(c=>{if((c.zh+' '+c.en).toLowerCase().includes(q))out.push({kind:'dp',key:c.id,label:`摄影 · ${c.zh} (${c.en})`,meta:`${c.wis.length} 部掌镜作合拢 · ${c.desc}`,pal:[]});});
+  const exact=[],part=[];
+  for(let i=0;i<WORKS.length;i++){const w=WORKS[i];const tl=(w.t||'').toLowerCase(),tel=(w.te||'').toLowerCase();
+   if(tl===q||tel===q)exact.push(w);
+   else if((tl.includes(q)||tel.includes(q)||(w._q||'').includes(q))&&part.length<30)part.push(w);}
+  exact.concat(part).slice(0,18).forEach(w=>out.push({kind:'work',key:w.wid,label:`${w.t}（${w.y||''}）`,meta:`${workShotCount(w)} 镜 · 导:${w.dir||'待核'}${w.dp&&w.dp!=='待核'?' · 摄:'+w.dp:''}`,pal:fallbackWorkPal(w)}));
+ }else if(kind==='dir'||kind==='dp'){
+  const listC=kind==='dir'?(FP_COHORTS.dirs||[]):(FP_COHORTS.dps||[]);
+  listC.filter(c=>!q||(c.zh+' '+c.en+' '+c.desc).toLowerCase().includes(q)).slice(0,18).forEach(c=>out.push({kind,key:c.id,label:`${kind==='dir'?'导演':'摄影'} · ${c.zh} (${c.en})`,meta:`${c.wis.length} 部作品 · ${c.desc}`,pal:[]}));
+  if(q&&out.length<12){const mapCnt=new Map();WORKS.forEach(w=>{const raw=(kind==='dir'?w.dir:w.dp)||'';if(raw&&raw!=='待核'&&raw.toLowerCase().includes(q))raw.split(/[；;、，,\/]/).map(s=>s.trim()).filter(s=>s.toLowerCase().includes(q)).forEach(s=>mapCnt.set(s,(mapCnt.get(s)||0)+1));});
+   [...mapCnt.entries()].sort((a,b)=>b[1]-a[1]).slice(0,10).forEach(([name,cnt])=>{if(!out.some(x=>x.label.includes(name)))out.push({kind,key:name,label:`${kind==='dir'?'导演':'摄影'} · ${name}`,meta:`${cnt} 部作品`,pal:[]});});}
+ }else if(kind==='award'){
+  (FP_COHORTS.awards||[]).filter(c=>!q||(c.zh+' '+c.en+' '+c.desc).toLowerCase().includes(q)).forEach(c=>out.push({kind:'award',key:c.id,label:c.zh,meta:`${c.wis.length} 部入选影片 · ${c.en}`,pal:[]}));
+ }else if(kind==='decade'){
+  FK.decade.values.filter(d=>!q||d.includes(q)).forEach(d=>{const cnt=WORKS.filter(w=>w.decade===d).length;if(cnt)out.push({kind:'decade',key:d,label:d,meta:`${cnt.toLocaleString()} 部影片`,pal:[]});});
+ }else if(kind==='region'){
+  FK.region.values.filter(r=>!q||r.toLowerCase().includes(q)).forEach(r=>{const cnt=WORKS.filter(w=>w.region===r).length;if(cnt)out.push({kind:'region',key:r,label:r,meta:`${cnt.toLocaleString()} 部影片`,pal:[]});});
+ }
+ return out.slice(0,20);}
+function renderFpDropdown(){const drop=$('fpDrop'),inp=$('fpQ');if(!drop||!inp)return;
+ const cands=searchFpCandidates(inp.value);
+ if(!cands.length){drop.hidden=true;return;}
+ drop.innerHTML=cands.map((c,i)=>`<div class="fp-opt" data-fpi="${i}"><div><b>${esc(c.label)}</b><div class="sub">${esc(c.meta||'')}</div></div><div style="display:flex;align-items:center;gap:8px">${c.pal&&c.pal.length?`<div style="display:flex;width:60px;height:14px;border-radius:3px;overflow:hidden">${c.pal.map(h=>`<span style="flex:1;background:${h}"></span>`).join('')}</div>`:''}<span style="color:var(--ac);font-size:15px;white-space:nowrap">＋加入</span></div></div>`).join('');
+ drop.hidden=false;
+ drop.querySelectorAll('[data-fpi]').forEach(el=>el.onmousedown=ev=>{ev.preventDefault();const c=cands[+el.dataset.fpi];addFpItems([c],false);inp.value='';drop.hidden=true;toast('已加入对照：'+c.label);});}
+function fpAddFromInput(){const raw=($('fpQ')?.value||'').trim();if(!raw){renderFpDropdown();return;}
+ const parts=raw.split(/[,，;；\n]+/).map(s=>s.trim()).filter(Boolean);
+ const toAdd=[];
+ parts.forEach(tok=>{const cands=searchFpCandidates(tok);if(cands.length)toAdd.push(cands[0]);});
+ if(!toAdd.length){toast('未找到匹配项：'+raw);return;}
+ const n=addFpItems(toAdd,false);$('fpQ').value='';if($('fpDrop'))$('fpDrop').hidden=true;
+ toast(n?`瞬间加入 ${n} 项对照`:'已在对照列表中');}
+function heatCellStyle(val,isPeak){
+ if(!val)return'color:#666';
+ const alpha=Math.min(0.42,(val/100)*0.44);
+ return`background:rgba(216,162,74,${alpha.toFixed(3)})${isPeak?';box-shadow:inset 0 0 0 1px rgba(242,199,119,.65)':''}`;}
+function renderFP(){
+ ensureDefaultCompareSeeds();
+ const t0=performance.now();
+ const matWrap=$('fpMatrixWrap'),cardWrap=$('fpView'),sumBar=$('fpSummaryBar'),perfBadge=$('cmpPerfBadge');
+ if(!matWrap||!cardWrap)return;
+ matWrap.hidden=(FP_VIEW_MODE!=='matrix');cardWrap.hidden=(FP_VIEW_MODE!=='cards');
+ $('fpViewMat')?.classList.toggle('pri',FP_VIEW_MODE==='matrix');$('fpViewCards')?.classList.toggle('pri',FP_VIEW_MODE==='cards');
+ if(!FP.length){
+  sumBar.innerHTML='当前列表为空 — 可在上方搜索添加任意影片/导演/DP，或从右侧「⚡ 一键载入海量横评预设」秒开 12–30 组横评。';
+  matWrap.innerHTML='<p class="empty">选择任意预设或输入片名回车，即可毫秒级展开多片光色构图对照。</p>';cardWrap.innerHTML='';return;
+ }
+ let ents=FP.map((f,idx)=>computeEntityFP(f,idx));
+ if(FP_SORT.col!==-1){
+  const col=FP_SORT.col,dir=FP_SORT.asc?1:-1;
+  ents.sort((a,b)=>{const va=col==='shots'?a.nShots:col==='lum'?a.lum:(a.m[col]||0),vb=col==='shots'?b.nShots:col==='lum'?b.lum:(b.m[col]||0);return(va-vb)*dir;});
+ }
+ const totalWorksCovered=ents.reduce((s,e)=>s+(e.nWorks||0),0),totalShotsCovered=ents.reduce((s,e)=>s+(e.nShots||0),0);
+ const peaks={};MAT_COLS.forEach(c=>{peaks[c.id]=Math.max(...ents.map(e=>c.id==='lum'?e.lum:(e.m[c.id]||0)),1);});
+ if(FP_VIEW_MODE==='matrix'){
+  cardWrap.innerHTML='';
+  matWrap.innerHTML=`<table class="fp-mat"><thead><tr>
+   <th style="text-align:left;min-width:250px">对照对象（${ents.length} 组 · 点表头排序）</th>
+   <th data-fpsort="shots" class="${FP_SORT.col==='shots'?'sorted':''}">规模${FP_SORT.col==='shots'?(FP_SORT.asc?' ▲':' ▼'):''}</th>
+   <th style="min-width:146px">全片时序色彩 DNA</th>
+   ${MAT_COLS.map(c=>`<th data-fpsort="${c.id}" title="${esc(c.tip)}" class="${String(FP_SORT.col)===String(c.id)?'sorted':''}">${esc(c.label)}${String(FP_SORT.col)===String(c.id)?(FP_SORT.asc?' ▲':' ▼'):''}</th>`).join('')}
+  </tr></thead><tbody>${ents.map(e=>{
+   const dna=(e.dna10&&e.dna10.length)?e.dna10:e.pal5;
+   return`<tr>
+    <th><div class="fp-row-title"><b>${esc(e.label)}</b><span class="sub">${esc(e.sub)}</span>
+     <div class="fp-mini-acts">
+      <button type="button" data-fptwin="${e.idx}" title="在全部 28,700 部影片中按 29 维余弦相似度秒找视觉最接近的 12 部作品">相似12部</button>
+      ${e.nWorks>1?`<button type="button" data-fpexpand="${e.idx}" title="将该集合的代表影片逐部展开到矩阵中">展开影片</button>`:''}
+      <button type="button" data-fpgo="${e.idx}">看镜头</button>
+      <button type="button" data-fprm="${e.idx}">×</button>
+     </div></div></th>
+    <td style="white-space:nowrap">${e.nWorks>1?`<b>${e.nWorks}</b> 片<br>`:''}<span class="muted small">${e.nShots.toLocaleString()} 镜</span></td>
+    <td><div class="fp-dna-mini" title="从片头到片尾 10 段时序代表色阶">${dna.map(c=>`<span style="background:${c}"></span>`).join('')}</div>
+     <div style="display:flex;gap:3px;margin-top:4px;justify-content:center">${e.pal5.map(c=>`<i data-copyhex="${c}" title="点击复制 ${c}" style="display:inline-block;width:22px;height:8px;border-radius:2px;background:${c};cursor:pointer;border:1px solid rgba(255,255,255,.12)"></i>`).join('')}</div></td>
+    ${MAT_COLS.map(c=>{
+     if(c.id==='lum'){const v=e.lum,pk=v===peaks.lum&&ents.length>1;return`<td class="${pk?'fp-peak':''}" style="background:rgba(255,255,255,${(v/255*0.14).toFixed(3)})">${v}</td>`;}
+     const v=e.m[c.id]||0,pk=v>=peaks[c.id]&&v>0&&ents.length>1;
+     return`<td class="${pk?'fp-peak':''}" style="${heatCellStyle(v,pk)}">${v}%</td>`;
+    }).join('')}
+   </tr>`;}).join('')}</tbody></table>`;
+  matWrap.querySelectorAll('[data-fpsort]').forEach(th=>th.onclick=()=>{const k=th.dataset.fpsort,col=(k==='shots'||k==='lum')?k:Number(k);
+   if(FP_SORT.col===col)FP_SORT.asc=!FP_SORT.asc;else{FP_SORT.col=col;FP_SORT.asc=false;}renderFP();});
+  bindFpActions(matWrap,ents);
+ }else{
+  matWrap.innerHTML='';
+  const cardGroups=[
+   ['景别与机位',[[0,'远/全大景'],[1,'中景'],[2,'近景/特写'],[3,'仰拍/低机位'],[4,'俯拍/顶拍/航拍']]],
+   ['光调与实景光源',[[5,'低调暗部'],[6,'高调明亮'],[7,'硬光高反差'],[8,'柔光散射'],[9,'逆光剪影'],[10,'实景霓虹烛火']]],
+   ['时段与色彩影调',[[11,'夜晚/魔幻时刻'],[12,'雨雪雾风沙'],[13,'暖调色温'],[14,'冷调色温'],[15,'冷暖对比'],[17,'黑白单色']]],
+   ['构图与空间调度',[[18,'对称居中'],[19,'框中框/前景'],[20,'纵深引导线'],[21,'负空间留白']]],
+   ['运镜与情绪张力',[[22,'固定凝视'],[23,'长镜横移跟拍'],[24,'手持推拉变焦'],[25,'孤独压抑疏离'],[26,'紧张悬疑危险'],[27,'温情浪漫喜悦']]]
+  ];
+  cardWrap.style.gridTemplateColumns='repeat(auto-fill,minmax(390px,1fr))';
+  cardWrap.innerHTML=ents.map(e=>{
+   const dna=(e.dna10&&e.dna10.length)?e.dna10:e.pal5;
+   const sampleShots=e.w?(BYW.get(e.w.i)||[]).slice(0,6):[];
+   return`<div class="fp">
+    <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px">
+     <div><h4>${esc(e.label)}</h4><div class="muted small">${esc(e.sub)} · ${e.nShots.toLocaleString()} 镜 · 亮度 ${e.lum}/255</div></div>
+     <button class="ghost" type="button" data-fprm="${e.idx}" style="padding:2px 10px;font-size:15px">移除</button>
+    </div>
+    <div class="btns" style="margin:8px 0 6px">
+     <button type="button" data-fptwin="${e.idx}" style="font-size:15px;padding:4px 10px">找相似12部</button>
+     ${e.nWorks>1?`<button type="button" data-fpexpand="${e.idx}" style="font-size:15px;padding:4px 10px">展开代表片</button>`:''}
+     <button type="button" data-fpgo="${e.idx}" style="font-size:15px;padding:4px 10px">看全部镜头</button>
+    </div>
+    <div class="sec" style="margin-top:6px">全片时序色彩 DNA（片头 → 片尾）</div>
+    <div class="dna-strip">${dna.map(c=>`<span style="background:${c}" title="${c}"></span>`).join('')}</div>
+    <div class="sec">五大主导色阶（点击色块复制 HEX）</div>
+    <div class="sw5">${e.pal5.map(c=>`<div data-copyhex="${c}" style="background:${c};color:${lum(c)>145?'#111':'#f5f5f5'}"><span>${c}</span></div>`).join('')}</div>
+    ${cardGroups.map(([gTitle,pairs])=>`<div class="sec">${gTitle}</div>`+pairs.map(([mi,ml])=>{const v=e.m[mi]||0;return`<div class="bar"><span>${ml}</span><i style="width:${v}%"></i><em>${v}%</em></div>`;}).join('')).join('')}
+    ${sampleShots.length?`<div class="sec">已载入镜头快览</div><div class="strip">${sampleShots.map(x=>`<div class="mini" data-open="${x.id}" title="${esc(x.sc)}">${visual(x,280)}</div>`).join('')}</div>`:''}
+   </div>`;
+  }).join('');
+  bindFpActions(cardWrap,ents);
+ }
+ const dt=(performance.now()-t0).toFixed(1);
+ sumBar.innerHTML=`正在横向对比 <b>${ents.length}</b> 组对象（覆盖 <b>${totalWorksCovered.toLocaleString()}</b> 部作品 · <b>${totalShotsCovered.toLocaleString()}</b> 个镜头） · 点击任意列标题可按指标高低排序，点击「相似12部」可秒搜全库视觉近亲。`;
+ if(perfBadge)perfBadge.textContent=`⚡ 全库 28,700 部预计算引擎 · 本次矩阵合成 ${dt} ms`;
+}
+function bindFpActions(root,ents){
+ root.querySelectorAll('[data-copyhex]').forEach(el=>el.onclick=()=>copy(el.dataset.copyhex,'已复制色值 '+el.dataset.copyhex));
+ root.querySelectorAll('[data-open]').forEach(el=>el.onclick=()=>openDetail(el.dataset.open));
+ root.querySelectorAll('[data-fprm]').forEach(b=>b.onclick=()=>{FP.splice(+b.dataset.fprm,1);FP_USER_CLEARED=(FP.length===0);saveCmp();renderFP();});
+ root.querySelectorAll('[data-fpgo]').forEach(b=>b.onclick=async()=>{const f=FP[+b.dataset.fpgo];if(!f)return;
+  if(f.kind==='work'){WID=f.key;QP={tags:[],work:null,words:[],rawWords:[]};$('q').value='';showTab('find');await ensureWorkShots(f.key);apply();}
+  else if(f.kind==='decade'){SEL={decade:new Set([f.key])};WID=null;$('q').value='';QP={tags:[],work:null,words:[]};showTab('find');apply();}
+  else if(f.kind==='region'){SEL={region:new Set([f.key])};WID=null;$('q').value='';QP={tags:[],work:null,words:[]};showTab('find');apply();}
+  else{const c=[...(FP_COHORTS.dirs||[]),...(FP_COHORTS.dps||[])].find(x=>x.id===f.key);const kw=c?c.zh:f.key;WID=null;$('q').value=kw;QP=parseQ(kw);showTab('find');apply();}});
+ root.querySelectorAll('[data-fptwin]').forEach(b=>b.onclick=()=>{const idx=+b.dataset.fptwin,ent=ents.find(e=>e.idx===idx);if(!ent)return;
+  const twins=findVisualTwins(ent,12);if(!twins.length){toast('全库指纹正在载入，请稍候再试');return;}
+  FP_SORT={col:-1,asc:false};addFpItems([ent.f,...twins],true);setFpViewMode('matrix');toast(`已按 29 维视觉指纹找出与「${ent.label}」最相似的 12 部影片`);});
+ root.querySelectorAll('[data-fpexpand]').forEach(b=>b.onclick=()=>{const idx=+b.dataset.fpexpand,ent=ents.find(e=>e.idx===idx);if(!ent||ent.wis.length<=1)return;
+  const topWis=ent.wis.slice().sort((a,b)=>workShotCount(WORKS[b])-workShotCount(WORKS[a])).slice(0,28);
+  const items=[ent.f,...topWis.map(wi=>({kind:'work',key:WORKS[wi].wid,label:`${WORKS[wi].t}（${WORKS[wi].y||''}）`}))];
+  FP_SORT={col:-1,asc:false};addFpItems(items,true);setFpViewMode('matrix');toast(`已展开「${ent.label}」旗下 ${topWis.length} 部代表影片逐部横评`);});}
+function exportFpCsv(){if(!FP.length){toast('没有可导出的对照数据');return;}
+ const ents=FP.map((f,idx)=>computeEntityFP(f,idx));
+ const hdr=['对象','说明','覆盖影片数','镜头总数','平均亮度(0-255)','主色1','主色2','主色3','主色4','主色5',...(FP_METRICS.length?FP_METRICS:MAT_COLS.filter(c=>typeof c.id==='number').map(c=>c.label))];
+ const lines=[hdr.join(',')];
+ ents.forEach(e=>{const cols=[`"${(e.label||'').replace(/"/g,'""')}"`,`"${(e.sub||'').replace(/"/g,'""')}"`,e.nWorks,e.nShots,e.lum,...e.pal5,...e.m];lines.push(cols.join(','));});
+ dl('影视视觉风格对照矩阵_'+new Date().toISOString().slice(0,10)+'.csv','\ufeff'+lines.join('\n'),'text/csv');}
+function populateShotPresetSelect(){const sel=$('cmpShotPreset');if(!sel)return;
+ sel.innerHTML='<option value="">🎞️ 一键载入同题经典镜头对照…</option>'+SHOT_PRESETS.map(p=>`<option value="${esc(p.id)}">${esc(p.name)}（${p.ids.length} 镜）</option>`).join('');}
+function renderCmpShotDropdown(){const drop=$('cmpShotDrop'),inp=$('cmpShotQ');if(!drop||!inp)return;
+ const q=inp.value.trim().toLowerCase();if(!q){drop.hidden=true;return;}
+ const words=q.split(/\s+/).filter(Boolean),hits=[];
+ for(let i=0;i<R.length&&hits.length<18;i++){const r=R[i];if(words.every(w=>(r.text||'').includes(w)))hits.push(r);}
+ if(!hits.length){drop.hidden=true;return;}
+ drop.innerHTML=hits.map((r,i)=>`<div class="fp-opt" data-csi="${i}"><div><b>《${esc(r.W.t)}》${r.W.y||''} · ${esc(r.size||'')} ${esc(r.time||'')}</b><div class="sub">${esc((r.sc||'').slice(0,68))}</div></div><span style="color:var(--ac);font-size:15px;white-space:nowrap">＋加入精读</span></div>`).join('');
+ drop.hidden=false;
+ drop.querySelectorAll('[data-csi]').forEach(el=>el.onmousedown=ev=>{ev.preventDefault();const r=hits[+el.dataset.csi];if(!CMP.includes(r.id)){CMP.push(r.id);if(CMP.length>CMP_MAX)CMP.shift();CMP_USER_CLEARED=false;saveCmp();renderCmpShots();refreshCmpBtns();}inp.value='';drop.hidden=true;});}
+async function renderCmpShots(){
+ ensureDefaultCompareSeeds();populateShotPresetSelect();
+ const missWs=CMP.filter(id=>!BYID.has(id)).map(resolveWorkFromShotId).filter(Boolean);if(missWs.length)await ensureWorksBatch(missWs,4);
+ const rs=CMP.map(id=>BYID.get(id)).filter(Boolean);await ensureDet(rs);const box=$('cmpShots');if(!box)return;
+ if(!rs.length){box.innerHTML='<p class="empty" style="padding:24px">在上方搜索任意镜头，或选择「🎞️ 一键载入同题经典镜头对照」并排比较景别、光位、色彩与构图差异。</p>';return;}
+ const rows=[['作品',r=>r.W.t+' '+(r.W.y||'')],['导演 / 摄影',r=>r.W.dir+' / '+(r.W.dp||'待核')],['画幅',r=>r.W.ar],['景别',r=>r.size],['机位角度',r=>r.angle],['画面人物',r=>r.frame],['运镜',r=>(r.move||[]).join('、')],['焦段 / 景深',r=>[r.lens_type,r.dof].filter(Boolean).join(' / ')],
+  ['灯光',r=>(r.light||[]).join('、')],['主光方向',r=>r.ld],['时间',r=>r.time],['天气',r=>r.weather],['内外景',r=>r.ie],['地点',r=>(r.loc||[]).join('、')],['色彩',r=>(r.color||[]).join('、')],['构图',r=>(r.comp||[]).join('、')],['主体位置',r=>r.pos],['人物情绪',r=>(r.emo||[]).join('、')],['研究笔记',r=>r.note]];
+ box.innerHTML=`<p class="muted small" style="margin:6px 0 10px">正在并排精读 <b>${rs.length}</b> 个镜头（上限 ${CMP_MAX} 镜） · 琥珀色高亮行为跨镜差异维度，点击画面可打开完整复刻提示词。</p>
+ <div class="cmpgrid" style="grid-template-columns:repeat(${Math.min(rs.length,4)},minmax(280px,1fr))">${rs.map(r=>`<div class="col"><div class="thumb" data-open="${r.id}">${visual(r,640)}</div>${palHTML(r)}<h4>${esc(r.W.t)} <span class="muted small">${r.W.y||''} · ${r.id}</span></h4><p class="small muted" style="margin:0 12px 8px">${esc((r.sc||'').slice(0,58))}</p><div class="acts"><button type="button" data-cmp="${r.id}">移出精读</button></div></div>`).join('')}</div>
+ <div style="overflow-x:auto"><table class="cmp">${rows.map(([n,fn])=>{const vs=rs.map(r=>fn(r)||'');const diff=new Set(vs).size>1&&n!=='研究笔记'&&n!=='作品'&&n!=='导演 / 摄影';return`<tr><th>${n}</th>${vs.map(v=>`<td class="${diff?'diff':''}">${esc(v)}</td>`).join('')}</tr>`;}).join('')}</table></div>`;
+ bindCards(box);}
+async function renderCompare(){
+ populateShotPresetSelect();updateCmpBadges();
+ if(CMP_MODE==='shots'){setCmpMode('shots');await renderCmpShots();}
+ else{setCmpMode('works');renderFP();}}
 /* ---------- 作品库 ---------- */
 let WPAGE=0,WORKS_RENDER_TOKEN=0;const WPS=60;
 function fillSel(id,name,arr){const select=$(id),value=select.value;select.innerHTML=`<option value="">${name}：全部</option>`+arr.map(v=>`<option>${esc(v)}</option>`).join('');if(arr.includes(value))select.value=value;}
 function workShotCount(w){return Math.max((BYW.get(w.i)||[]).length,Number(w.n)||0);}
-function workMosaicSpans(w){const colored=(BYW.get(w.i)||[]).filter(r=>palOf(r).length);
+function workMosaicSpans(w){if(FP_ROWS[w.i]){const dna=unpackHexStrip(FP_ROWS[w.i][2]);if(dna.length)return dna.map(c=>`<span style="background:${c}"></span>`).join('');}
+ const colored=(BYW.get(w.i)||[]).filter(r=>palOf(r).length);
  if(colored.length)return colored.slice(0,30).map((r,idx)=>{const p=palOf(r);return`<span style="background:${p[(idx*2+1)%p.length]}"></span>`;}).join('');
  return fallbackWorkPal(w).map(c=>`<span style="background:${c};opacity:.78"></span>`).join('');}
 function hydrateWorksPage(slice,token){const need=slice.slice(0,24).filter(w=>!WORK_PROMPT_DONE.has(w.source_id||w.wid)&&(BYW.get(w.i)||[]).length<(Number(w.n)||1));
- if(!need.length)return;
+ if(!need.length||FP_ROWS.length)return;
  ensureWorksBatch(need,6).then(did=>{if(!did||token!==WORKS_RENDER_TOKEN||$('tab-works').hidden)return;
   slice.forEach(w=>{const palEl=$('wGrid').querySelector(`[data-wpal="${CSS.escape(w.wid)}"]`);if(palEl)palEl.innerHTML=workMosaicSpans(w);
    const btnEl=$('wGrid').querySelector(`[data-wid="${CSS.escape(w.wid)}"]`);if(btnEl)btnEl.textContent=`看 ${workShotCount(w).toLocaleString()} 个镜头`;});});}
@@ -672,10 +1264,11 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
   return`<div class="wc"><h4>${esc(w.t)} <span class="muted" style="font-size:18px">${enShow?esc(enShow)+' · ':''}${esc(w.y||'')}</span></h4>
  <div class="m">${esc(metaParts)}</div>
  <div class="mosaic" data-wpal="${esc(w.wid)}" style="flex-direction:row;height:22px">${workMosaicSpans(w)}</div><p>${esc(w.look||'')}</p>
- <div class="btns"><button class="pri" data-wid="${esc(w.wid)}">看 ${cnt.toLocaleString()} 个镜头</button><button data-wfp="${esc(w.wid)}">加入风格指纹</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
+ <div class="btns"><button class="pri" data-wid="${esc(w.wid)}">看 ${cnt.toLocaleString()} 个镜头</button><button data-wdeck="${esc(w.wid)}">整片图集</button><button data-wfp="${esc(w.wid)}">加入瞬间对照</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
  $('wGrid').querySelectorAll('[data-wid]').forEach(b=>b.onclick=async()=>{const wid=b.dataset.wid,w=WORK_BY_WID.get(wid)||WORKS.find(x=>x.wid===wid);WID=wid;QP={tags:[],work:null,words:[],rawWords:[]};$('q').value='';showTab('find');apply();
   if(w&&(BYW.get(w.i)||[]).length<(Number(w.n)||1)){$('loadStatus').textContent=` · 正在载入《${w.t}》全部 ${w.n} 个镜头…`;await ensureWorkShots(w);$('loadStatus').textContent='';if(WID===wid)apply();}});
- $('wGrid').querySelectorAll('[data-wfp]').forEach(b=>b.onclick=async()=>{const w=WORK_BY_WID.get(b.dataset.wfp)||WORKS.find(x=>x.wid===b.dataset.wfp);if(!w)return;await ensureWorkShots(w);if(!FP.some(x=>x.key===w.wid)){FP.push({kind:'work',key:w.wid,label:`${w.t}（${w.y}）`});if(FP.length>3)FP.shift();saveCmp();}showTab('compare');});
+ $('wGrid').querySelectorAll('[data-wdeck]').forEach(b=>b.onclick=()=>{DECK_VIEW_ID='film:'+b.dataset.wdeck;SHOWSHARED=false;showTab('decks');});
+ $('wGrid').querySelectorAll('[data-wfp]').forEach(b=>b.onclick=()=>{const w=WORK_BY_WID.get(b.dataset.wfp)||WORKS.find(x=>x.wid===b.dataset.wfp);if(!w)return;addFpItems([{kind:'work',key:w.wid,label:`${w.t}（${w.y||''}）`}],false);CMP_MODE='works';showTab('compare');});
  hydrateWorksPage(slice,token);}
 /* ---------- 对标页 ---------- */
 function renderBench(){const b=BENCH;const nW=WORKS.length,nS=R.length,nF=Object.keys(FR).length;
@@ -695,7 +1288,9 @@ function showTab(t){document.querySelectorAll('[data-tab]').forEach(b=>b.classLi
  if(t==='decks')renderDecks();if(t==='compare')renderCompare();if(t==='works')renderWorks();if(t==='bench')renderBench();window.scrollTo({top:0,behavior:'instant'});}
 document.querySelectorAll('[data-tab]').forEach(b=>b.onclick=()=>showTab(b.dataset.tab));
 if($('facetToggle')&&$('facetDrawer')){$('facetToggle').onclick=()=>{const d=$('facetDrawer');d.open=!d.open;$('facetToggle').setAttribute('aria-expanded',String(d.open));$('facetToggle').classList.toggle('has-on',d.open||Boolean($('nFilter')?.textContent.trim()));};}
-document.addEventListener('click',e=>{const m=$('moreMenu');if(m&&m.open&&!m.contains(e.target))m.open=false;});
+document.addEventListener('click',e=>{const m=$('moreMenu');if(m&&m.open&&!m.contains(e.target))m.open=false;
+ if($('fpDrop')&&!$('fpDrop').hidden&&!e.target.closest('.fp-ac-wrap'))$('fpDrop').hidden=true;
+ if($('cmpShotDrop')&&!$('cmpShotDrop').hidden&&!e.target.closest('.fp-ac-wrap'))$('cmpShotDrop').hidden=true;});
 let qT=null;$('q').oninput=()=>{clearTimeout(qT);qT=setTimeout(()=>{QP=parseQ($('q').value);apply();},250);};
 document.querySelectorAll('.hint code').forEach(c=>c.onclick=()=>{$('q').value=c.textContent;QP=parseQ(c.textContent);apply();});
 $('sort').onchange=()=>apply();$('psize').onchange=()=>{PS=+$('psize').value;apply();};
@@ -714,10 +1309,41 @@ $('dClose').onclick=()=>$('detail').close();$('dPrev').onclick=()=>step(-1);$('d
 $('dAdd').onclick=()=>addToDeck([CUR.id]);$('dCmp').onclick=()=>toggleCmp(CUR.id);
 document.addEventListener('keydown',e=>{if($('detail').open&&!/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)){if(e.key==='ArrowRight')step(1);if(e.key==='ArrowLeft')step(-1);}});
 $('pClose').onclick=()=>$('pick').close();$('pNewBtn').onclick=()=>{newDeck($('pNew').value.trim()||'未命名参考图集');pushPending();};
-$('newDeck').onclick=()=>{const n=prompt('参考图集名称（如：雨夜霓虹·都市孤独）');if(n===null)return;newDeck(n.trim()||'未命名参考图集');SHOWSHARED=false;renderDecks();};
-$('importDeck').onclick=()=>{const u=prompt('粘贴分享链接');if(!u)return;const m=/#deck=([^&\s]+)/.exec(u);if(!m){toast('链接里没有图集内容');return;}location.hash='deck='+m[1];readShared();SHOWSHARED=true;renderDecks();};
-$('fpKind').onchange=fpOptions;$('fpAdd').onclick=fpAdd;$('fpQ').onkeydown=e=>{if(e.key==='Enter')fpAdd();};$('fpClear').onclick=()=>{FP=[];saveCmp();renderFP();};
+$('newDeck').onclick=()=>{const n=prompt('新建参考图集名称（如：雨夜霓虹·都市孤独）');if(n===null)return;const d=newDeck(n.trim()||'未命名参考图集');SHOWSHARED=false;DECK_VIEW_ID=d.id;renderDecks();};
+$('importDeck').onclick=()=>{const u=prompt('粘贴分享链接');if(!u)return;const m=/#deck=([^&\s]+)/.exec(u);if(!m){toast('链接里没有图集内容');return;}location.hash='deck='+m[1];readShared();SHOWSHARED=true;DECK_VIEW_ID='shared';renderDecks();};
+let dqT=null;if($('dq'))$('dq').oninput=()=>{clearTimeout(dqT);dqT=setTimeout(()=>{DPAGE=0;DECK_VIEW_ID=null;renderDecks();},120);};
+['dCat','dSort'].forEach(id=>{if($(id))$(id).onchange=()=>{DPAGE=0;DECK_VIEW_ID=null;renderDecks();};});
+$('btnModeWorks').onclick=()=>setCmpMode('works');$('btnModeShots').onclick=()=>setCmpMode('shots');
+$('fpKind').onchange=()=>{$('fpQ').value='';renderFpDropdown();};
+$('fpQ').oninput=renderFpDropdown;$('fpQ').onfocus=renderFpDropdown;
+$('fpQ').onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();fpAddFromInput();}else if(e.key==='Escape'&&$('fpDrop'))$('fpDrop').hidden=true;};
+$('fpAdd').onclick=fpAddFromInput;
+$('fpPreset').onchange=e=>{if(e.target.value){applyFpPreset(e.target.value);e.target.value='';}};
+$('fpViewMat').onclick=()=>setFpViewMode('matrix');$('fpViewCards').onclick=()=>setFpViewMode('cards');
+$('fpCsv').onclick=exportFpCsv;
+$('fpClear').onclick=()=>{FP=[];FP_USER_CLEARED=true;saveCmp();renderFP();};
+$('cmpShotQ').oninput=renderCmpShotDropdown;$('cmpShotQ').onfocus=renderCmpShotDropdown;
+$('cmpShotPreset').onchange=e=>{const p=SHOT_PRESETS.find(x=>x.id===e.target.value);if(p){CMP=p.ids.slice(0,CMP_MAX);CMP_USER_CLEARED=false;saveCmp();renderCmpShots();refreshCmpBtns();toast('已载入同题对照：'+p.name);e.target.value='';}};
+$('cmpDeckBtn').onclick=()=>{if(!CMP.length){toast('当前没有逐镜对照镜头');return;}addToDeck(CMP.slice());};
+$('cmpClearBtn').onclick=()=>{CMP=[];CMP_USER_CLEARED=true;saveCmp();renderCmpShots();refreshCmpBtns();};
 ['wq','wType','wKind','wRegion','wDecade','wSort'].forEach(i=>$(i)[i==='wq'?'oninput':'onchange']=()=>{WPAGE=0;renderWorks();});
+function ingestAutoBundles(){
+ if(window.__FILM_FINGERPRINTS__&&window.__FILM_FINGERPRINTS__!==FP_DATA){
+  FP_DATA=window.__FILM_FINGERPRINTS__;FP_ROWS=FP_DATA.rows||[];FP_COHORTS=FP_DATA.cohorts||{dirs:[],dps:[],awards:[]};FP_METRICS=FP_DATA.metric_names||[];
+  R.forEach(r=>{if(WORKS[r.w])sanitizeRecPalette(r,WORKS[r.w]);});
+ }
+ if(window.__FILM_AUTO_DECKS__&&window.__FILM_AUTO_DECKS__!==AUTO_DECK_DATA){
+  AUTO_DECK_DATA=window.__FILM_AUTO_DECKS__;
+  SYS_DECKS=(AUTO_DECK_DATA.decks||[]).map(d=>({...d,system:true}));
+  SYS_DECK_MAP.clear();SYS_DECKS.forEach(d=>SYS_DECK_MAP.set(d.id,d));
+  SHOT_PRESETS=AUTO_DECK_DATA.shot_presets||[];
+  (AUTO_DECK_DATA.shot_pool||[]).forEach(cs=>{
+   if(!SEEN_IDS.has(cs.id)&&WORKS[cs.w]){
+    registerRecord({...cs,wh:'',pl:'',ep:'',fk:'',st:'待核',add:'20261105',origin:'legacy',source_work_id:WORKS[cs.w].source_id||WORKS[cs.w].wid,tag_status:'已有标签（待核）'});
+   }
+  });
+  populateDeckCatSelect();populateShotPresetSelect();updateDeckBadge();
+ }}
 function refreshLoaded(sourceSummary,visualLoadFailed){BYID.clear();BYW.clear();
  if(sourceSummary?.version)SOURCE_VERSION=sourceSummary.version;
  R=R.filter(r=>WORKS[r.w]);R.forEach(r=>{bindRecWork(r);BYID.set(r.id,r);if(!BYW.has(r.w))BYW.set(r.w,[]);BYW.get(r.w).push(r);});
@@ -731,7 +1357,8 @@ function refreshLoaded(sourceSummary,visualLoadFailed){BYID.clear();BYW.clear();
  $('sOrigin').textContent=` · 既有笔记 ${legacyShots.toLocaleString()} 条 · 来源静帧分析 ${visualShots.toLocaleString()} 条${visualLoadFailed?'（部分来源分片载入失败，请刷新重试）':''}${VISUAL_ASSOCIATION_FAILED?'（来源分片与作品不一致，请刷新重试）':''}`;
  const last=R.reduce((a,r)=>r.add>a?r.add:a,'');if(last){const n=R.filter(r=>r.add===last).length;$('sNew').innerHTML=` · 最近一批 ${last.slice(0,4)}-${last.slice(4,6)}-${last.slice(6)} 新增 <b>${n}</b> 镜`;}
  fillSel('wType','类型',FK.type.values);fillSel('wKind','片种',FK.kinds.values);fillSel('wRegion','地区',FK.region.values.filter(v=>WORKS.some(w=>w.region===v)));fillSel('wDecade','年代',FK.decade.values.filter(v=>WORKS.some(w=>w.decade===v)));
- fpOptions();apply(true);if(!$('tab-works').hidden)renderWorks();}
+ updateDeckBadge();updateCmpBadges();apply(true);
+ if(!$('tab-works').hidden)renderWorks();if(!$('tab-decks').hidden)renderDecks();if(!$('tab-compare').hidden)renderCompare();}
 function selectRepresentativeShards(idxShards){if(idxShards.length<=32)return idxShards;
  const picked=[],seen=new Set(),add=s=>{if(s&&!seen.has(s.file)){seen.add(s.file);picked.push(s);}};
  const visEnd=Math.min(103,idxShards.length);
@@ -745,7 +1372,7 @@ $('retryLoad').onclick=()=>location.reload();
  for(const s of SHARDS.filter(x=>x.era!=='__detail__'))if(!await loadScript(DATA_DIR+'/'+s.file))visualLoadFailed=true;
  await summaryReady;sourceSummary=window.FILM_SOURCE_SUMMARY;if(sourceSummary){if(sourceSummary.version)SOURCE_VERSION=sourceSummary.version;$('sourceStats').hidden=false;$('sourceStats').innerHTML=`<b>${sourceSummary.catalogue_works.toLocaleString()}</b> 部作品目录 · <b>${sourceSummary.frame_references.toLocaleString()}</b> 条有来源画面参考${sourceSummary.prompt_records?` · <b>${sourceSummary.prompt_records.toLocaleString()}</b> 条镜头提示词（${sourceSummary.prompt_works.toLocaleString()} 部）`:""}${sourceSummary.award_works?` · <b>${sourceSummary.award_works.toLocaleString()}</b> 部获奖 · <b>${sourceSummary.classic_works.toLocaleString()}</b> 部经典榜单`:''} · <a href="sources.html">逐片镜头提示词与来源 →</a>`;}
  saveDecks();saveCmp();readShared();refreshLoaded(sourceSummary,visualLoadFailed);
- $('loadStatus').textContent=' · 正在载入全库作品目录与代表镜头…';
+ $('loadStatus').textContent=' · 正在载入全库作品目录与自动图集…';
  if(!await loadScript('d3/vmanifest.js?v=9e2bdc8c6c7571c3',true))visualLoadFailed=true;
  const visualManifest=window.FILM_VISUAL_MANIFEST;
  if(visualManifest){VISUAL_MANIFEST=Array.isArray(visualManifest)?visualManifest:visualManifest.shards||visualManifest.manifest||[];VISUAL_VERSION=visualManifest.version||sourceSummary?.version||'';
@@ -753,6 +1380,11 @@ $('retryLoad').onclick=()=>location.reload();
   const worksLoaded=!workShard||await loadScript(DATA_DIR+'/'+workShard.file+'?v='+encodeURIComponent(workShard.version||VISUAL_VERSION),true);
   if(!worksLoaded)visualLoadFailed=true;
   else{
+   await Promise.all([
+    loadScript('d3/vfingerprints.js?v=c5dc7341ea22',true),
+    loadScript('d3/vdecks.js?v=c5dc7341ea22',true)
+   ]);
+   ingestAutoBundles();
    refreshLoaded(sourceSummary,visualLoadFailed);
    const sampleShards=selectRepresentativeShards(VISUAL_MANIFEST.filter(x=>x.era==='__visual_index__'));
    for(let i=0;i<sampleShards.length;i+=4){
@@ -764,6 +1396,6 @@ $('retryLoad').onclick=()=>location.reload();
  }
  refreshLoaded(sourceSummary,visualLoadFailed);$('retryLoad').hidden=!(visualLoadFailed||VISUAL_ASSOCIATION_FAILED);
  $('loadStatus').textContent=(visualLoadFailed||VISUAL_ASSOCIATION_FAILED)?' · 部分分片未载入':'';
- if(SHARED){SHOWSHARED=true;showTab('decks');}
+ if(SHARED){SHOWSHARED=true;DECK_VIEW_ID='shared';showTab('decks');}
  }catch(e){$('loadStatus').textContent='镜头描述载入中断，请重试载入。';$('retryLoad').hidden=false;console.error('镜头描述载入中断',e);}})();
 </script></body></html>

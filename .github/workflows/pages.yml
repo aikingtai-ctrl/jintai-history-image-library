@@ -43,7 +43,7 @@ jobs:
           brw_html = git_bytes("show", "HEAD:browser.html").decode("utf-8", errors="ignore")
           d1_active = set(re.findall(r'"(idx_\d+_\d+\.js)"', idx_html))
           d2_active = set(re.findall(r'"(idx_\d+_\d+\.js)"', brw_html))
-          d3_keep = {"00_works.js", "01_idx.js", "vmanifest.js", "vworks.js"}
+          d3_keep = {"00_works.js", "01_idx.js", "vmanifest.js", "vworks.js", "vdecks.js", "vfingerprints.js"}
 
           raw_paths = [p.decode("utf-8") for p in git_bytes("ls-tree", "-r", "-z", "--name-only", "HEAD").split(b"\x00") if p]
           selected = []
