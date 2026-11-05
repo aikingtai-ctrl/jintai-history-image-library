@@ -175,7 +175,7 @@ dialog::backdrop{background:#000c}
 </main>
 <dialog id="detail"><div class="dialog-head"><h2 id="dtitle"></h2><button id="close" type="button">关闭</button></div><p class="muted" id="dinfo"></p><p id="dsource"></p><p class="notice muted">点击“查看来源画面”到源站查看对应静帧。</p><div class="grid" id="frames"></div><div class="pager"><button id="fprev" type="button">上一页</button><span class="page-nums" id="fpage-nums"></span><span id="fpage"></span><button id="fnext" type="button">下一页</button><label class="page-jump">页码 <select id="fpage-select" aria-label="选择来源画面页码"></select></label></div></dialog>
 <dialog id="pdetail" aria-labelledby="ptitle"><div class="dialog-head"><h2 id="ptitle"></h2><button id="pclose" type="button">关闭</button></div><p class="muted" id="pinfo"></p><p id="pcopy-status" class="prompt-status muted" role="status" aria-live="polite"></p><div class="prompt-list" id="prompts"></div><div class="pager"><button id="pprev" type="button">上一页</button><span class="page-nums" id="ppage-nums"></span><span id="ppage"></span><button id="pnext" type="button">下一页</button><label class="page-jump">页码 <select id="ppage-select" aria-label="选择提示词页码"></select></label></div></dialog>
-<script src="d4/summary.js?v=aa6c1be645f7"></script><script src="d4/catalogue.js?v=aa6c1be645f7"></script>
+<script src="d4/summary.js?v=9ee715f841fe"></script><script src="d4/catalogue.js?v=9ee715f841fe"></script>
 <script>
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>{try{const p=new URL(u);return ['http:','https:'].includes(p.protocol)?p.href:'';}catch{return '';}};

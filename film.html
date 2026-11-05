@@ -246,7 +246,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
  <details class="meta-fold">
   <summary>库况统计与收录说明</summary>
   <p id="sourceStats" hidden></p>
-  <p>本机截帧 <b id="sF">0</b> 张 · <span id="sUpdated">更新于 2026-11-05 23:17</span><span id="sOrigin"></span><span id="sNew"></span></p>
+  <p>本机截帧 <b id="sF">0</b> 张 · <span id="sUpdated">更新于 2026-11-05 23:20</span><span id="sOrigin"></span><span id="sNew"></span></p>
   <p id="workGoal"></p>
   <p id="descriptionGoal"></p>
  </details>
@@ -1368,12 +1368,12 @@ function selectRepresentativeShards(idxShards){if(idxShards.length<=32)return id
  return picked;}
 $('retryLoad').onclick=()=>location.reload();
 (async function init(){let sourceSummary,visualLoadFailed=false;try{
- const summaryReady=loadScript('d4/summary.js?v=aa6c1be645f7',true);if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
+ const summaryReady=loadScript('d4/summary.js?v=9ee715f841fe',true);if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
  for(const s of SHARDS.filter(x=>x.era!=='__detail__'))if(!await loadScript(DATA_DIR+'/'+s.file))visualLoadFailed=true;
  await summaryReady;sourceSummary=window.FILM_SOURCE_SUMMARY;if(sourceSummary){if(sourceSummary.version)SOURCE_VERSION=sourceSummary.version;$('sourceStats').hidden=false;$('sourceStats').innerHTML=`<b>${sourceSummary.catalogue_works.toLocaleString()}</b> 部作品目录 · <b>${sourceSummary.frame_references.toLocaleString()}</b> 条有来源画面参考${sourceSummary.prompt_records?` · <b>${sourceSummary.prompt_records.toLocaleString()}</b> 条镜头提示词（${sourceSummary.prompt_works.toLocaleString()} 部）`:""}${sourceSummary.award_works?` · <b>${sourceSummary.award_works.toLocaleString()}</b> 部获奖 · <b>${sourceSummary.classic_works.toLocaleString()}</b> 部经典榜单`:''} · <a href="sources.html">逐片镜头提示词与来源 →</a>`;}
  saveDecks();saveCmp();readShared();refreshLoaded(sourceSummary,visualLoadFailed);
  $('loadStatus').textContent=' · 正在载入全库作品目录与自动图集…';
- if(!await loadScript('d3/vmanifest.js?v=27cfb36ae6016d84',true))visualLoadFailed=true;
+ if(!await loadScript('d3/vmanifest.js?v=25010c8049cb0dab',true))visualLoadFailed=true;
  const visualManifest=window.FILM_VISUAL_MANIFEST;
  if(visualManifest){VISUAL_MANIFEST=Array.isArray(visualManifest)?visualManifest:visualManifest.shards||visualManifest.manifest||[];VISUAL_VERSION=visualManifest.version||sourceSummary?.version||'';
   const workShard=VISUAL_MANIFEST.find(x=>x.era==='__visual_works__');
