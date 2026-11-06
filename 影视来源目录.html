@@ -117,7 +117,7 @@ dialog::backdrop{background:#000c}
    <a class="back-link" href="portal.html">总入口</a>
    <span class="sep">·</span>
    <strong>影视提示词与来源目录</strong>
-   <span class="kpi" id="topKpi"><b>28,700</b> 部 · <b>1,319,475</b> 镜</span>
+   <span class="kpi" id="topKpi"><b>29,200</b> 部 · <b>1,341,412</b> 镜</span>
   </div>
   <nav class="topnav">
    <a href="index.html">历史图库</a>
@@ -126,10 +126,14 @@ dialog::backdrop{background:#000c}
  </div>
  <div class="top-search-wrap">
   <div class="searchbar">
-   <input id="q" type="search" autofocus placeholder="搜片名（中/英）、导演、摄影师、奖项、年份…" aria-label="搜索作品" autocomplete="off">
+   <input id="q" type="search" autofocus placeholder="搜片名（中/英）、导演、摄影师、风格流派、金球奖、烂番茄、奈飞十佳…" aria-label="搜索作品" autocomplete="off">
    <button type="button" class="qbtn on" id="qAll">全部</button>
    <button type="button" class="qbtn" id="cinematography">奥斯卡摄影</button>
    <button type="button" class="qbtn" id="cinematography-all">140大最佳摄影</button>
+   <button type="button" class="qbtn" id="qStyle">风格派</button>
+   <button type="button" class="qbtn" id="qGG">金球奖</button>
+   <button type="button" class="qbtn" id="qRT">烂番茄</button>
+   <button type="button" class="qbtn" id="qNF">奈飞十佳</button>
    <select id="sort" aria-label="排序"><option value="prompts">有提示词优先</option><option value="priority">获奖与经典优先</option><option value="newest">年份从新到旧</option><option value="oldest">年份从旧到新</option><option value="frames">画面最多</option></select>
    <button type="button" id="filterToggle" class="filter-toggle" aria-expanded="false">细分筛选<b id="nSrcFilter"></b> ▾</button>
   </div>
@@ -160,7 +164,7 @@ dialog::backdrop{background:#000c}
  <div class="grid" id="grid"></div>
  <div class="pager"><button id="first" type="button">首页</button><button id="prev" type="button">上一页</button><span class="page-nums" id="page-nums"></span><span id="page"></span><button id="next" type="button">下一页</button><button id="last" type="button">末页</button><label class="page-jump">页码 <select id="page-select" aria-label="选择页码"></select></label><span class="page-jump">跳至 <input id="page-input" type="number" min="1" value="1" aria-label="输入页码"> 页 <button id="page-go" type="button">跳转</button></span></div>
  <details class="meta-fold">
-  <summary>库况统计与数据说明（28,700部作品 · 1,319,475条镜头描述）</summary>
+  <summary>库况统计与数据说明（29,200部作品 · 1,341,412条镜头描述）</summary>
   <div class="stats" id="stats"></div>
   <p id="prompt-coverage"></p>
   <p id="workGoal"></p>
@@ -175,7 +179,7 @@ dialog::backdrop{background:#000c}
 </main>
 <dialog id="detail"><div class="dialog-head"><h2 id="dtitle"></h2><button id="close" type="button">关闭</button></div><p class="muted" id="dinfo"></p><p id="dsource"></p><p class="notice muted">点击“查看来源画面”到源站查看对应静帧。</p><div class="grid" id="frames"></div><div class="pager"><button id="fprev" type="button">上一页</button><span class="page-nums" id="fpage-nums"></span><span id="fpage"></span><button id="fnext" type="button">下一页</button><label class="page-jump">页码 <select id="fpage-select" aria-label="选择来源画面页码"></select></label></div></dialog>
 <dialog id="pdetail" aria-labelledby="ptitle"><div class="dialog-head"><h2 id="ptitle"></h2><button id="pclose" type="button">关闭</button></div><p class="muted" id="pinfo"></p><p id="pcopy-status" class="prompt-status muted" role="status" aria-live="polite"></p><div class="prompt-list" id="prompts"></div><div class="pager"><button id="pprev" type="button">上一页</button><span class="page-nums" id="ppage-nums"></span><span id="ppage"></span><button id="pnext" type="button">下一页</button><label class="page-jump">页码 <select id="ppage-select" aria-label="选择提示词页码"></select></label></div></dialog>
-<script src="d4/summary.js?v=9ee715f841fe"></script><script src="d4/catalogue.js?v=9ee715f841fe"></script>
+<script src="d4/summary.js?v=5fcdae0c0454"></script><script src="d4/catalogue.js?v=5fcdae0c0454"></script>
 <script>
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>{try{const p=new URL(u);return ['http:','https:'].includes(p.protocol)?p.href:'';}catch{return '';}};
@@ -192,7 +196,7 @@ const GENRE_ALIASES={'剧情片':'剧情','劇情片':'剧情','喜剧电影':'�
 const COUNTRIES={'United States':'美国',USA:'美国','United States of America':'美国','United Kingdom':'英国',UK:'英国',France:'法国',Italy:'意大利',Germany:'德国',Japan:'日本','South Korea':'韩国',China:'中国大陆','Hong Kong':'中国香港',Taiwan:'中国台湾',India:'印度',Iran:'伊朗',Canada:'加拿大',Australia:'澳大利亚','New Zealand':'新西兰',Russia:'俄罗斯','Soviet Union':'苏联',Sweden:'瑞典',Denmark:'丹麦',Norway:'挪威',Finland:'芬兰',Spain:'西班牙',Portugal:'葡萄牙',Poland:'波兰',Brazil:'巴西',Mexico:'墨西哥',Argentina:'阿根廷',Turkey:'土耳其',Thailand:'泰国',Netherlands:'荷兰',Belgium:'比利时',Switzerland:'瑞士',Austria:'奥地利',Ireland:'爱尔兰'};
 const genreName=g=>GENRES[g]||GENRE_ALIASES[g]||g,genres=w=>arr(w.genres).length?[...new Set(arr(w.genres).map(genreName))]:['叙事类型待补'],regions=w=>{const values=arr(w.region).flatMap(r=>String(r).split(/[\/、,|·]/)).map(r=>r.trim()).filter(Boolean).map(r=>COUNTRIES[r]||r);return values.length?[...new Set(values)]:['地区待补'];},decade=w=>Number(w.year)>0?String(Math.floor(Number(w.year)/10)*10):'待补';
 let text=new Map();
-function rebuildSearchText(){text=new Map(WORKS.map(w=>[w.id,[w.title,w.title_en,...arr(w.aliases),w.year,...arr(w.source_years),w.director,...regions(w),w.type,...arr(w.genres),...genres(w),...awards(w).flatMap(a=>[a.festival,a.award,a.year,a.recipient]),...arr(w.cinematography_entries).flatMap(c=>[c.festival_label,c.category,c.recipient,c.award_year]),...classics(w).map(c=>c.list)].join(' ').toLowerCase()]));}
+function rebuildSearchText(){text=new Map(WORKS.map(w=>[w.id,[w.title,w.title_en,...arr(w.aliases),w.year,...arr(w.source_years),w.director,w.cinematographer,...regions(w),w.type,...arr(w.genres),...genres(w),...awards(w).flatMap(a=>[a.festival,a.award,a.year,a.recipient]),...arr(w.cinematography_entries).flatMap(c=>[c.festival_label,c.category,c.recipient,c.award_year]),...classics(w).map(c=>c.list)].join(' ').toLowerCase()]));}
 function options(id,values,label,show=v=>v){const old=$(id).value;$(id).innerHTML=`<option value="">${esc(label)}</option>`+[...new Set(values.filter(Boolean))].sort((a,b)=>String(a).localeCompare(String(b),'zh-CN')).map(v=>`<option value="${esc(v)}">${esc(show(v))}</option>`).join('');$(id).value=values.includes(old)?old:'';}
 function oscarCinematography(w){return awards(w).some(a=>a.festival==='奥斯卡'&&a.evidence?.winner===true&&(a.evidence?.cinematography_collection==='academy-cinematography-winners'||a.evidence?.award_subsystem==='Annual Academy Awards'&&/^Cinematography(?:\s*\([^)]*\))?$/.test(a.evidence?.category_original||'')));}
 function cinematographyEntries(w){return arr(w.cinematography_entries).filter(a=>['winner','nominee'].includes(a.status));}
@@ -206,28 +210,36 @@ function syncPager(cur0,max,prefix,onGo){const cur=cur0+1;$(prefix+'page').textC
  const nums=$(prefix+'page-nums');if(nums){const pages=[],start=Math.max(1,Math.min(cur-2,max-6)),end=Math.min(max,Math.max(cur+2,7));if(start>1)pages.push(1);if(start>2)pages.push('…');for(let p=start;p<=end;p++)pages.push(p);if(end<max-1)pages.push('…');if(end<max)pages.push(max);nums.innerHTML=pages.map(p=>p==='…'?'<span class="pdots">…</span>':`<button type="button" class="pnum${p===cur?' on':''}" data-page="${p}"${p===cur?' aria-current="page"':''}>${p}</button>`).join('');nums.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>onGo(Number(b.dataset.page)-1));}
  const sel=$(prefix+'page-select');if(sel){if(sel._max!==max){sel._max=max;sel.innerHTML=Array.from({length:max},(_,i)=>`<option value="${i+1}">第 ${i+1} / ${max} 页</option>`).join('');}sel.value=String(cur);sel.disabled=max<=1;}}
 function honorSummary(w){const ce=cinematographyEntries(w),aw=awards(w),cl=classics(w);const items=[...ce.map(a=>`${a.festival_label||'最佳摄影'}${a.status==='winner'?'获奖':'提名'}`),...aw.map(a=>`${a.festival||''}${a.award||''}`),...cl.map(c=>c.list||'')].filter(Boolean);const uniq=[...new Set(items)];if(!uniq.length)return '';return uniq[0]+(uniq.length>1?` 等 ${uniq.length} 项荣誉`:'');}
+function isRottenTomatoesWork(w){return awards(w).some(a=>String(a.festival||'').includes('烂番茄'))||classics(w).some(c=>String(c.list||'').includes('烂番茄'));}
 function syncSrcFilterUI(){const cov=$('coverage').value,cg=$('cineGuild')?.value||'',fe=$('festival').value,aw=$('award').value,cl=$('classic').value,ge=$('genre').value,re=$('region').value,de=$('decade').value,ty=$('type').value;
- const extraCnt=[cov&&!['oscar-cinematography','oscar-cinematography-all'].includes(cov)?cov:'',ty,cg,fe,aw,cl,ge,re,de].filter(Boolean).length;
+ const isStyleQuick=(cl==='风格派电影十二大视觉流派典藏'),isGGQuick=(fe==='金球奖'&&!aw),isRTQuick=(cov==='rotten-tomatoes-all'),isNFQuick=(cl==='Netflix奈飞近20年年度十佳影片全集（2007–2026）');
+ const extraCnt=[cov&&!['oscar-cinematography','oscar-cinematography-all','rotten-tomatoes-all'].includes(cov)?cov:'',ty,cg,fe&&!isGGQuick?fe:'',aw,cl&&!isStyleQuick&&!isNFQuick?cl:'',ge,re,de].filter(Boolean).length;
  if($('nSrcFilter'))$('nSrcFilter').textContent=extraCnt?' '+extraCnt:'';
  if($('filterToggle'))$('filterToggle').classList.toggle('has-on',extraCnt>0||Boolean($('filterDrawer')?.open));
- if($('qAll'))$('qAll').classList.toggle('on',!cov&&!extraCnt);
+ if($('qAll'))$('qAll').classList.toggle('on',!cov&&!extraCnt&&!isStyleQuick&&!isGGQuick&&!isRTQuick&&!isNFQuick);
  if($('cinematography'))$('cinematography').classList.toggle('on',cov==='oscar-cinematography');
  if($('cinematography-all'))$('cinematography-all').classList.toggle('on',cov==='oscar-cinematography-all');
+ if($('qStyle'))$('qStyle').classList.toggle('on',isStyleQuick);
+ if($('qGG'))$('qGG').classList.toggle('on',isGGQuick);
+ if($('qRT'))$('qRT').classList.toggle('on',isRTQuick);
+ if($('qNF'))$('qNF').classList.toggle('on',isNFQuick);
  const pills=[];[['cineGuild','摄影',cg],['festival','影展',fe],['award','奖项',aw],['classic','榜单',cl],['genre','类型',ge],['region','地区',re],['decade','年代',de],['type','类别',ty]].forEach(([id,lbl,val])=>{if(val)pills.push(`<span class="pill"><i>${lbl}</i>${esc(val)}<button type="button" data-clear="${id}">×</button></span>`);});
  if(cov==='oscar-cinematography')pills.push('<span class="pill q">奥斯卡最佳摄影<button type="button" data-clear="coverage">×</button></span>');
  else if(cov==='oscar-cinematography-all')pills.push('<span class="pill q">140大最佳摄影<button type="button" data-clear="coverage">×</button></span>');
+ else if(cov==='rotten-tomatoes-all')pills.push('<span class="pill q">烂番茄金番茄奖＋100%满分认证<button type="button" data-clear="coverage">×</button></span>');
  else if(cov){const txt=$('coverage').selectedOptions?.[0]?.textContent||cov;pills.push(`<span class="pill"><i>范围</i>${esc(txt)}<button type="button" data-clear="coverage">×</button></span>`);}
  const box=$('activeSrcPills');if(box){box.innerHTML=pills.join('');box.querySelectorAll('[data-clear]').forEach(b=>b.onclick=()=>{const id=b.dataset.clear;$(id).value='';if(id==='festival')awardOptions();filter();});}}
 function render(){const max=Math.max(1,Math.ceil(list.length/PS));page=Math.max(0,Math.min(page,max-1));$('count').innerHTML=`共 <b>${list.length.toLocaleString()}</b> 部作品 · <b>${list.reduce((n,w)=>n+promptCount(w),0).toLocaleString()}</b> 条提示词`;
  syncSrcFilterUI();syncPager(page,max,'',p=>{page=p;render();window.scrollTo({top:0});});
  $('grid').innerHTML=list.slice(page*PS,(page+1)*PS).map(w=>{const pc=promptCount(w),hs=honorSummary(w),ev=evidence(w),enSub=(w.title_en&&w.title_en!==w.title)?w.title_en:'';
   const regClean=regions(w).filter(x=>!x.includes('待补')).slice(0,2).join(' / '),genClean=genres(w).filter(x=>!x.includes('待补')).map(x=>({'romantic drama film':'爱情 / 剧情','drama film':'剧情','comedy-drama':'剧情 / 喜剧'}[String(x).toLowerCase()]||x)).slice(0,3).join(' / ');
-  const metaParts=[w.director?`导演：${w.director}`:'',regClean,genClean].filter(Boolean).join(' · ')||(w.type||'电影');
+  const dpClean=(w.cinematographer&&w.cinematographer!=='待核')?`摄影：${w.cinematographer}`:'';
+  const metaParts=[w.director?`导演：${w.director}`:'',dpClean,regClean,genClean].filter(Boolean).join(' · ')||(w.type||'电影');
   return `<article class="card"><div class="card-top"><h3${pc?` data-prompts="${esc(w.id)}" class="clickable"`:''}>${esc(w.title)} <span class="yr">${esc(w.year||'')}</span></h3><div class="en-sub" title="${esc(enSub)}">${esc(enSub)||'&nbsp;'}</div></div><p class="meta-line">${esc(metaParts)}</p>${hs?`<details class="ev-fold"><summary><span class="honor-pill">🏆 ${esc(hs)}</span><span class="ev-more">明细 ▾</span></summary>${ev}</details>`:`<div class="meta-sub">${esc(w.type||'电影')} · 已收录逐镜提示词</div>`}<div class="card-acts"><button type="button" class="pri" data-prompts="${esc(w.id)}"${pc?'':' disabled'}>${pc?`查看提示词（${pc.toLocaleString()} 镜）`:'提示词待补'}</button>${w.ref_count?`<button type="button" class="ghost" data-open="${esc(w.id)}">来源画面（${w.ref_count}）</button>`:''}</div></article>`;}).join('')||'<p class="empty">没有符合条件的作品。</p>';
  $('grid').querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>openFrames(b.dataset.open));$('grid').querySelectorAll('[data-prompts]').forEach(b=>b.onclick=()=>openPrompts(b.dataset.prompts));}
 function filter(){const words=$('q').value.toLowerCase().trim().split(/\s+/).filter(Boolean),coverage=$('coverage').value,type=$('type').value;
  const cineGuild=$('cineGuild')?$('cineGuild').value:'',festival=$('festival').value,award=$('award').value,classic=$('classic').value,genre=$('genre').value,region=$('region').value,era=$('decade').value;
- list=WORKS.filter(w=>(!type||w.type===type)&&(!cineGuild||cineSystems(w).includes(cineGuild))&&words.every(q=>text.get(w.id).includes(q))&&(!festival&&!award||awards(w).some(a=>(!festival||a.festival===festival)&&(!award||a.award===award)))&&(!classic||classics(w).some(c=>c.list===classic))&&(!genre||genres(w).includes(genre))&&(!region||regions(w).includes(region))&&(!era||decade(w)===era)&&(!coverage||coverage==='oscar-cinematography'&&oscarCinematography(w)||coverage==='oscar-cinematography-all'&&oscarCinematographyAll(w)||coverage==='prompts'&&promptCount(w)>0||coverage==='visualprompts'&&visualPromptCount(w)>0||coverage==='promptpending'&&!promptCount(w)||coverage==='awards'&&awards(w).length>0||coverage==='classics'&&classics(w).length>0||coverage==='frames'&&w.ref_count>0||coverage==='sourced'&&arr(w.sources).length>0||coverage==='description'&&w.description_count>0||coverage==='pending'&&!arr(w.sources).length));
+ list=WORKS.filter(w=>(!type||w.type===type)&&(!cineGuild||cineSystems(w).includes(cineGuild))&&words.every(q=>text.get(w.id).includes(q))&&(!festival&&!award||awards(w).some(a=>(!festival||a.festival===festival)&&(!award||a.award===award)))&&(!classic||classics(w).some(c=>c.list===classic))&&(!genre||genres(w).includes(genre))&&(!region||regions(w).includes(region))&&(!era||decade(w)===era)&&(!coverage||coverage==='oscar-cinematography'&&oscarCinematography(w)||coverage==='oscar-cinematography-all'&&oscarCinematographyAll(w)||coverage==='rotten-tomatoes-all'&&isRottenTomatoesWork(w)||coverage==='prompts'&&promptCount(w)>0||coverage==='visualprompts'&&visualPromptCount(w)>0||coverage==='promptpending'&&!promptCount(w)||coverage==='awards'&&awards(w).length>0||coverage==='classics'&&classics(w).length>0||coverage==='frames'&&w.ref_count>0||coverage==='sourced'&&arr(w.sources).length>0||coverage==='description'&&w.description_count>0||coverage==='pending'&&!arr(w.sources).length));
  const sort=$('sort').value;list.sort((a,b)=>sort==='frames'?(b.ref_count||0)-(a.ref_count||0):sort==='newest'?(Number(b.year)||0)-(Number(a.year)||0):sort==='oldest'?(Number(a.year)||9999)-(Number(b.year)||9999):sort==='prompts'?Number(promptCount(b)>0)-Number(promptCount(a)>0)||priorityRank(b)-priorityRank(a):priorityRank(b)-priorityRank(a));page=0;render();}
 function renderFrames(){const max=Math.max(1,Math.ceil(frames.length/FPS));fpage=Math.max(0,Math.min(fpage,max-1));syncPager(fpage,max,'f',p=>{fpage=p;renderFrames();});
  $('frames').innerHTML=frames.slice(fpage*FPS,(fpage+1)*FPS).map((f,i)=>`<article class="card frame"><div><b>来源画面 ${fpage*FPS+i+1}</b><p>${esc(f[1])}</p><small class="muted">${esc(f[0])}<br>标签待补 · 时间码待核</small></div><div>${link(f[2],'查看来源画面')}${link(f[3],'作品画廊')}</div></article>`).join('');}
@@ -251,9 +263,14 @@ const goPage=()=>{const max=Math.max(1,Math.ceil(list.length/PS)),v=Number($('pa
 $('page-go').onclick=goPage;$('page-input').onkeydown=e=>{if(e.key==='Enter')goPage();};
 $('fprev').onclick=()=>{fpage--;renderFrames();};$('fnext').onclick=()=>{fpage++;renderFrames();};$('fpage-select').onchange=()=>{fpage=Math.max(0,Number($('fpage-select').value)-1);renderFrames();};
 $('pprev').onclick=()=>{ppage--;renderPrompts();$('pdetail').scrollTop=0;};$('pnext').onclick=()=>{ppage++;renderPrompts();$('pdetail').scrollTop=0;};$('ppage-select').onchange=()=>{ppage=Math.max(0,Number($('ppage-select').value)-1);renderPrompts();$('pdetail').scrollTop=0;};
-$('coverage').innerHTML+='<option value="oscar-cinematography">奥斯卡最佳摄影获奖电影</option><option value="oscar-cinematography-all">最佳摄影获奖＋正式提名</option>';
-$('cinematography').onclick=()=>{for(const id of ['q','type','cineGuild','festival','award','classic','genre','region','decade'])if($(id))$(id).value='';$('coverage').value='oscar-cinematography';$('sort').value='oldest';awardOptions();filter();};
-$('cinematography-all').onclick=()=>{for(const id of ['q','type','cineGuild','festival','award','classic','genre','region','decade'])if($(id))$(id).value='';$('coverage').value='oscar-cinematography-all';$('sort').value='oldest';awardOptions();filter();};
+$('coverage').innerHTML+='<option value="oscar-cinematography">奥斯卡最佳摄影获奖电影</option><option value="oscar-cinematography-all">最佳摄影获奖＋正式提名</option><option value="rotten-tomatoes-all">烂番茄金番茄奖＋100%满分认证</option>';
+const clearSrcSelects=()=>{for(const id of ['q','coverage','type','cineGuild','festival','award','classic','genre','region','decade'])if($(id))$(id).value='';};
+$('cinematography').onclick=()=>{clearSrcSelects();$('coverage').value='oscar-cinematography';$('sort').value='oldest';awardOptions();filter();};
+$('cinematography-all').onclick=()=>{clearSrcSelects();$('coverage').value='oscar-cinematography-all';$('sort').value='oldest';awardOptions();filter();};
+if($('qStyle'))$('qStyle').onclick=()=>{clearSrcSelects();$('classic').value='风格派电影十二大视觉流派典藏';$('sort').value='priority';awardOptions();filter();};
+if($('qGG'))$('qGG').onclick=()=>{clearSrcSelects();$('festival').value='金球奖';$('sort').value='newest';awardOptions();filter();};
+if($('qRT'))$('qRT').onclick=()=>{clearSrcSelects();$('coverage').value='rotten-tomatoes-all';$('sort').value='newest';awardOptions();filter();};
+if($('qNF'))$('qNF').onclick=()=>{clearSrcSelects();$('classic').value='Netflix奈飞近20年年度十佳影片全集（2007–2026）';$('sort').value='newest';awardOptions();filter();};
 let timer;$('q').oninput=()=>{clearTimeout(timer);timer=setTimeout(filter,150);};for(const id of ['coverage','type','cineGuild','award','classic','genre','region','decade','sort'])if($(id))$(id).onchange=filter;$('festival').onchange=()=>{awardOptions();filter();};$('reset').onclick=()=>{for(const id of ['q','coverage','type','cineGuild','festival','award','classic','genre','region','decade'])if($(id))$(id).value='';$('sort').value='prompts';awardOptions();filter();};
 if($('qAll'))$('qAll').onclick=()=>{for(const id of ['coverage','type','cineGuild','festival','award','classic','genre','region','decade'])if($(id))$(id).value='';awardOptions();filter();};
 if($('filterToggle')&&$('filterDrawer')){$('filterToggle').onclick=()=>{const d=$('filterDrawer');d.open=!d.open;$('filterToggle').setAttribute('aria-expanded',String(d.open));syncSrcFilterUI();};}
@@ -270,4 +287,4 @@ function initSourcesUI(){
  const priorityWorks=WORKS.filter(w=>awards(w).length||classics(w).length),priorityPromptWorks=S.priority_prompt_works??priorityWorks.filter(w=>promptCount(w)>0).length,priorityPending=S.priority_prompt_pending_works??priorityWorks.filter(w=>!promptCount(w)).length,visualWorks=S.visual_prompt_works??WORKS.filter(w=>visualPromptCount(w)>0).length;$('prompt-coverage').textContent=`获奖／经典影片：${priorityPromptWorks.toLocaleString()} 部已有提示词，${priorityPending.toLocaleString()} 部仍待补。来源观图提示词覆盖 ${visualWorks.toLocaleString()} 部，既有笔记的逐帧来源与核验状态见详情。`;
  if($('cineGuild'))options('cineGuild',WORKS.flatMap(cineSystems),'全部摄影权威体系（140大）');options('festival',WORKS.flatMap(w=>awards(w).map(a=>a.festival)),'全部电影节／大奖');awardOptions();options('classic',WORKS.flatMap(w=>classics(w).map(c=>c.list)),'全部经典榜单');options('genre',WORKS.flatMap(genres),'全部叙事类型');options('region',WORKS.flatMap(regions),'全部地区');options('decade',WORKS.map(decade),'全部年代',v=>v==='待补'?'上映年待补':v+' 年代');$('sort').value='prompts';if(new URLSearchParams(window.location?.search||'').get('prompts')==='1')$('coverage').value='prompts';browse();filter();if(new URLSearchParams(window.location?.search||'').get('cinematography')==='all')$('cinematography-all').onclick();
 }
-if(S&&WORKS.length){initSourcesUI();}else{(async()=>{try{if(!S)S=await loadD4Script('summary.js?v=9ee715f841fe',()=>{if(!window.FILM_SOURCE_SUMMARY)throw new Error('bad');return window.FILM_SOURCE_SUMMARY;},'summary');if(!WORKS.length)WORKS=await loadD4Script('catalogue.js?v=9ee715f841fe',()=>{if(!Array.isArray(window.FILM_SOURCE_WORKS)||!window.FILM_SOURCE_WORKS.length)throw new Error('bad');return window.FILM_SOURCE_WORKS;},'catalogue');initSourcesUI();}catch{$('error').textContent='数据未载入，请确认 '+D4_BASE.replace(/\/$/,'')+' 文件夹完整。';}})();}</script></body></html>
+if(S&&WORKS.length){initSourcesUI();}else{(async()=>{try{if(!S)S=await loadD4Script('summary.js?v=5fcdae0c0454',()=>{if(!window.FILM_SOURCE_SUMMARY)throw new Error('bad');return window.FILM_SOURCE_SUMMARY;},'summary');if(!WORKS.length)WORKS=await loadD4Script('catalogue.js?v=5fcdae0c0454',()=>{if(!Array.isArray(window.FILM_SOURCE_WORKS)||!window.FILM_SOURCE_WORKS.length)throw new Error('bad');return window.FILM_SOURCE_WORKS;},'catalogue');initSourcesUI();}catch{$('error').textContent='数据未载入，请确认 '+D4_BASE.replace(/\/$/,'')+' 文件夹完整。';}})();}</script></body></html>
