@@ -96,7 +96,7 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
 <header class="topbar">
   <div class="brand">
     <strong>中国历史文化图库</strong>
-    <span>68,779 条目</span>
+    <span>69,779 条目</span>
   </div>
   <nav class="topnav">
     <a href="图库总入口.html">专集目录</a>
@@ -133,7 +133,7 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
   <div class="row">
     <b class="lbl">一、主干朝代<br><small style="font-weight:normal;color:#666;font-size:12.5pt">按历史纪年正序</small></b>
     <div class="row-items" id="era-row">
-      <span class="chip on" data-f="era" data-v="">全部朝代 <small>(68,779)</small></span>
+      <span class="chip on" data-f="era" data-v="">全部朝代 <small>(69,779)</small></span>
       <span class="chip" data-f="era" data-v="先秦">① 先秦 <small>(5,576)</small></span>
       <span class="chip" data-f="era" data-v="秦汉">② 秦汉 <small>(6,469)</small></span>
       <span class="chip" data-f="era" data-v="三国两晋南北朝">③ 三国两晋南北朝 <small>(8,273)</small></span>
@@ -279,8 +279,8 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
   <div class="row">
     <b class="lbl">三、资产类型<br><small style="font-weight:normal;color:#666;font-size:12.5pt">点选后展开二级细目</small></b>
     <div class="row-items" id="kind-row">
-      <span class="chip on" data-f="kind" data-v="">全部类型 <small>(68,779)</small></span>
-      <span class="chip star" data-f="kind" data-v="历史名人">★ 历史名人 <small>(19,000)</small></span>
+      <span class="chip on" data-f="kind" data-v="">全部类型 <small>(69,779)</small></span>
+      <span class="chip star" data-f="kind" data-v="历史名人">★ 历史名人 <small>(21,000)</small></span>
       <span class="chip" data-f="kind" data-v="人物">人物·服饰/容貌/甲胄 <small>(15,400)</small></span>
       <span class="chip" data-f="kind" data-v="全部人物">全部人物合计 <small>(34,400)</small></span>
       <span class="chip" data-f="kind" data-v="场景">场景·生活/军旅/地理 <small>(13,288)</small></span>
@@ -355,7 +355,7 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
         </div>
       </div>
       <div class="adv-foot">
-        <span>当前筛选匹配 <strong id="advCount">68,779 条</strong>（下方即时显示卡片）</span>
+        <span>当前筛选匹配 <strong id="advCount">69,779 条</strong>（下方即时显示卡片）</span>
         <button type="button" class="ghost-btn" id="advDoneBtn" style="padding:5px 14px;font-size:13pt">收起筛选看结果 ▴</button>
       </div>
     </div>
@@ -510,7 +510,7 @@ function computeBatchRank(file){
   return dt*1000+parseInt(m[2],10);
 }
 
-const IDX_CHUNKS=["idx_20261107212856_00.js","idx_20261107212856_01.js","idx_20261107212856_02.js","idx_20261107212856_03.js","idx_20261107212856_04.js","idx_20261107212856_05.js","idx_20261107212856_06.js","idx_20261107212856_07.js","idx_20261107212856_08.js","idx_20261107212856_09.js","idx_20261107212856_10.js","idx_20261107212856_11.js"];
+const IDX_CHUNKS=["idx_20261108003956_00.js","idx_20261108003956_01.js","idx_20261108003956_02.js","idx_20261108003956_03.js","idx_20261108003956_04.js","idx_20261108003956_05.js","idx_20261108003956_06.js","idx_20261108003956_07.js","idx_20261108003956_08.js","idx_20261108003956_09.js","idx_20261108003956_10.js","idx_20261108003956_11.js"];
 const CDN_BASES=['https://gcore.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/','https://fastly.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/'];
 const IS_GH_HOST=/github\.io$/i.test(location.hostname||'');
 const byId=new Map(),idxCovered=new Set(),hydratedShards=new Set(),hydratingMap=new Map();
@@ -567,7 +567,7 @@ const SUBCAT_DEFS={
   ],
   '全部人物': [
     ['','全部人物（名人+通用）'],
-    ['hf_all','★ 历代历史名人 (19,000)'],
+    ['hf_all','★ 历代历史名人 (21,000)'],
     ['co_dress','朝代冠服与胡汉衣装'],
     ['fa_face','容貌范型与身份骨相'],
     ['co_armor','甲胄戎装与军旅武备'],
