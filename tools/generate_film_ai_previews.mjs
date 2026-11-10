@@ -6,6 +6,7 @@ const ROOT = process.cwd();
 const IMAGE_DIR = path.join(ROOT, 'film-ai');
 const MANIFEST_PATH = path.join(IMAGE_DIR, 'manifest.js');
 const WORKS_PATH = path.join(ROOT, 'd3', '00_works.js');
+const VISUAL_WORKS_PATH = path.join(ROOT, 'd3', 'vworks.js');
 const PROMPT_DIR = path.join(ROOT, 'd4');
 const MODEL = 'gpt-image-2';
 
@@ -21,6 +22,12 @@ const force = process.argv.includes('--force');
 const dryRun = process.argv.includes('--dry-run');
 
 function parseWorks() {
+  if (fs.existsSync(VISUAL_WORKS_PATH)) {
+    let works = [];
+    const sandbox = { window: { __VISUAL_WORKS__: records => { works = records; } } };
+    vm.runInNewContext(fs.readFileSync(VISUAL_WORKS_PATH, 'utf8'), sandbox, { filename: VISUAL_WORKS_PATH });
+    return works;
+  }
   let works = [];
   const sandbox = { window: { __SHARD__: (_file, kind, records) => { if (kind === '__works__') works = records; } } };
   vm.runInNewContext(fs.readFileSync(WORKS_PATH, 'utf8'), sandbox, { filename: WORKS_PATH });
