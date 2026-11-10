@@ -67,6 +67,8 @@ jobs:
               elif top == "d4":
                   if name not in ("summary.js", "catalogue.js"):
                       continue
+              elif top == "film-ai":
+                  pass
               selected.append(rel)
 
           print(f"Checking out {len(selected)} selected files (d1_active={len(d1_active)}, d2_active={len(d2_active)})...")

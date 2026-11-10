@@ -1,0 +1,60 @@
+name: Generate film AI previews
+
+on:
+  workflow_dispatch:
+    inputs:
+      page:
+        description: "默认排序页码（每页最多 100 部）"
+        required: true
+        default: "1"
+      count:
+        description: "本次生成数量（1-100）"
+        required: true
+        default: "100"
+      force:
+        description: "覆盖已有图片"
+        required: true
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: film-ai-generation
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Generate images
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          args=(--page "${{ inputs.page }}" --count "${{ inputs.count }}")
+          if [ "${{ inputs.force }}" = "true" ]; then args+=(--force); fi
+          node tools/generate_film_ai_previews.mjs "${args[@]}"
+
+      - name: Commit generated images
+        run: |
+          git config user.name "film-ai-generator[bot]"
+          git config user.email "film-ai-generator[bot]@users.noreply.github.com"
+          git add film-ai/manifest.js film-ai/*.webp film-ai/*.jpg
+          if git diff --cached --quiet; then
+            echo "No new images to commit."
+            exit 0
+          fi
+          git commit -m "Generate film AI previews for page ${{ inputs.page }}"
+          git push
