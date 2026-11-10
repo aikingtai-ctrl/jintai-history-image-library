@@ -1,0 +1,256 @@
+{
+  "verified_at": "2026-11-10T16:09:14.526Z",
+  "complete": true,
+  "inputs": {
+    "generation_ledger.jsonl": "e77df808664cffb2a2f7246cd0123186598c52f45461c47efdc9eba4cdefa58d",
+    "history_output/manifest.json": "3438c331932ad0a5a88d2a7c87857567791216a9dc1e4c5c6c0eaf0029a179fc",
+    "history_output/qa/image-audit.json": "c1acdaa872c0dce9dadfb644b01375b0ab813a95cb643de1f9440b8f9e18ca63",
+    "history_output/qa/visual-review.json": "a9f8a87ef05be36c9ed0caafa013ac93c2f2a0b4fc4f19ced0db1fb0bc9e9803",
+    "history_output/history-ai/manifest.js": "acb824ea4d08954bc62659157e7c9e117f6bb9e1b856c916243e3140283bf286"
+  },
+  "checks": [
+    {
+      "name": "Original 1000-item prompt set is unchanged",
+      "pass": true,
+      "details": {
+        "expected": "de9796c329567c79c46f91e50ad41a68302af6e2cd0f2c1cb299ba11054212b6",
+        "actual": "de9796c329567c79c46f91e50ad41a68302af6e2cd0f2c1cb299ba11054212b6"
+      }
+    },
+    {
+      "name": "Exactly 1000 distinct numbered items",
+      "pass": true,
+      "details": {
+        "rows": 1000
+      }
+    },
+    {
+      "name": "Exactly 1000 distinct source IDs",
+      "pass": true,
+      "details": {
+        "ids": 1000
+      }
+    },
+    {
+      "name": "All 1000 items generated",
+      "pass": true,
+      "details": {
+        "done": 1000,
+        "pending": []
+      }
+    },
+    {
+      "name": "Manifest records match the current ledger",
+      "pass": true,
+      "details": {
+        "records": 1000,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "33 pages of 30 and final page of 10",
+      "pass": true,
+      "details": [
+        {
+          "page": 1,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 2,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 3,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 4,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 5,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 6,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 7,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 8,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 9,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 10,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 11,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 12,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 13,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 14,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 15,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 16,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 17,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 18,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 19,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 20,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 21,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 22,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 23,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 24,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 25,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 26,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 27,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 28,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 29,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 30,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 31,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 32,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 33,
+          "expected": 30,
+          "done": 30
+        },
+        {
+          "page": 34,
+          "expected": 10,
+          "done": 10
+        }
+      ]
+    },
+    {
+      "name": "Every completed original decodes and has a valid thumbnail",
+      "pass": true,
+      "details": {
+        "audited": 1000,
+        "errors": []
+      }
+    },
+    {
+      "name": "No duplicated image bytes",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "Every current image visually checked",
+      "pass": true,
+      "details": {
+        "reviewed": 1000,
+        "pending": [],
+        "scope": "Contact-sheet visual checks of subject/category, blank outputs, obvious card mismatches, and unrequested infographic panels; not an academic historical authentication."
+      }
+    },
+    {
+      "name": "1000 card mappings point to their corresponding thumbnails",
+      "pass": true,
+      "details": {
+        "mappings": 1000
+      }
+    }
+  ]
+}
