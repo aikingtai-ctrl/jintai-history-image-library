@@ -110,8 +110,9 @@ let completed = 0;
 const worker = async () => {
   while (cursor < slice.length) {
     const work = slice[cursor++];
+    const existing = manifest[work.wid] ? path.join(ROOT, manifest[work.wid]) : null;
     const target = path.join(IMAGE_DIR, `${work.wid}.webp`);
-    if (!force && manifest[work.wid] && fs.existsSync(target)) { completed++; continue; }
+    if (!force && existing && fs.existsSync(existing)) { completed++; continue; }
     const record = readFirstRecord(work.wid);
     const bytes = await generateWithRetry(promptFor(work, record));
     fs.writeFileSync(target, bytes);

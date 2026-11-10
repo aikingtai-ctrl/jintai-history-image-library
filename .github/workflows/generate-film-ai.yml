@@ -51,7 +51,7 @@ jobs:
         run: |
           git config user.name "film-ai-generator[bot]"
           git config user.email "film-ai-generator[bot]@users.noreply.github.com"
-          git add film-ai/manifest.js film-ai/*.webp
+          git add film-ai/manifest.js film-ai/*.webp film-ai/*.jpg
           if git diff --cached --quiet; then
             echo "No new images to commit."
             exit 0
