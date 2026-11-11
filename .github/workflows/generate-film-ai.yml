@@ -11,6 +11,14 @@ on:
         description: "本次生成数量（1-100）"
         required: true
         default: "100"
+      start_index:
+        description: "批量起始作品序号（留空则按页码）"
+        required: false
+        default: ""
+      end_index:
+        description: "批量结束作品序号（含；每次最多 500 部）"
+        required: false
+        default: ""
       force:
         description: "覆盖已有图片"
         required: true
@@ -19,6 +27,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: film-ai-generation
@@ -42,19 +51,47 @@ jobs:
       - name: Generate images
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          INPUT_PAGE: ${{ inputs.page }}
+          INPUT_COUNT: ${{ inputs.count }}
+          INPUT_START_INDEX: ${{ inputs.start_index }}
+          INPUT_END_INDEX: ${{ inputs.end_index }}
+          INPUT_FORCE: ${{ inputs.force }}
         run: |
-          args=(--page "${{ inputs.page }}" --count "${{ inputs.count }}")
-          if [ "${{ inputs.force }}" = "true" ]; then args+=(--force); fi
+          args=(--page "$INPUT_PAGE" --count "$INPUT_COUNT")
+          if [ -n "$INPUT_START_INDEX" ]; then
+            args=(--start-index "$INPUT_START_INDEX" --end-index "$INPUT_END_INDEX" --concurrency 8)
+          fi
+          if [ "$INPUT_FORCE" = "true" ]; then args+=(--force); fi
           node tools/generate_film_ai_previews.mjs "${args[@]}"
 
       - name: Commit generated images
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_START_INDEX: ${{ inputs.start_index }}
+          INPUT_END_INDEX: ${{ inputs.end_index }}
+          INPUT_PAGE: ${{ inputs.page }}
         run: |
           git config user.name "film-ai-generator[bot]"
           git config user.email "film-ai-generator[bot]@users.noreply.github.com"
-          git add film-ai/manifest.js film-ai/*.webp film-ai/*.jpg
+          git add -A -- film-ai
           if git diff --cached --quiet; then
             echo "No new images to commit."
             exit 0
           fi
-          git commit -m "Generate film AI previews for page ${{ inputs.page }}"
-          git push
+          node - <<'NODE'
+          const fs = require('fs');
+          const file = 'film.html';
+          const source = fs.readFileSync(file, 'utf8');
+          const updated = source.replace(/film-ai\/manifest\.js\?v=[^"']+/, `film-ai/manifest.js?v=run-${process.env.GITHUB_RUN_ID}`);
+          if (updated === source) throw new Error('Manifest script tag not found');
+          fs.writeFileSync(file, updated);
+          NODE
+          git add film.html
+          git commit -m "Generate film AI previews ${INPUT_START_INDEX}-${INPUT_END_INDEX} page ${INPUT_PAGE}"
+          if ! git push origin HEAD:main; then
+            git push origin "HEAD:refs/heads/codex/film-ai-bulk-${GITHUB_RUN_ID}"
+            echo "Main advanced; generated images are preserved on a codex/film-ai-bulk branch."
+            exit 1
+          fi
+          gh workflow run pages.yml --ref main
