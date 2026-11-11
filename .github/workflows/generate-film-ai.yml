@@ -25,7 +25,7 @@ on:
         type: boolean
         default: false
       target_batch:
-        description: "继续固定的 3000 部作品清单"
+        description: "继续当前新增图片清单"
         required: true
         type: boolean
         default: true
@@ -73,7 +73,7 @@ jobs:
         run: |
           args=(--page "$INPUT_PAGE" --count "$INPUT_COUNT")
           if [ -n "$INPUT_START_INDEX" ]; then args=(--start-index "$INPUT_START_INDEX" --end-index "$INPUT_END_INDEX"); fi
-          if [ "$TARGET_BATCH" = "true" ]; then args+=(--target-file film-ai/target-3000.txt); fi
+          if [ "$TARGET_BATCH" = "true" ]; then args+=(--target-file film-ai/target-current.txt); fi
           mapfile -t ids < <(node tools/generate_film_ai_previews.mjs "${args[@]}" --dry-run | tail -n +2 | cut -f1)
           if [ "${#ids[@]}" -eq 0 ]; then echo 'No works selected.'; exit 1; fi
           patterns=(/film.html /film-ai/ /tools/ /d3/vworks.js)
@@ -96,7 +96,7 @@ jobs:
             args=(--start-index "$INPUT_START_INDEX" --end-index "$INPUT_END_INDEX" --concurrency 8)
           fi
           if [ "$TARGET_BATCH" = "true" ]; then
-            args+=(--target-file film-ai/target-3000.txt)
+            args+=(--target-file film-ai/target-current.txt)
           fi
           if [ "$INPUT_FORCE" = "true" ]; then args+=(--force); fi
           node tools/generate_film_ai_previews.mjs "${args[@]}"

@@ -7,7 +7,7 @@ if (!process.env.OPENAI_API_KEY) {
   process.exit(0);
 }
 
-const targets = fs.readFileSync('film-ai/target-3000.txt', 'utf8').trim().split(/\r?\n/);
+const targets = fs.readFileSync('film-ai/target-current.txt', 'utf8').trim().split(/\r?\n/);
 const source = fs.readFileSync('film-ai/manifest.js', 'utf8');
 const manifest = JSON.parse(source.match(/window\.FILM_AI_IMAGES\s*=\s*(\{[\s\S]*\})\s*;?\s*$/)[1]);
 
@@ -29,4 +29,4 @@ if (retryRange) {
 }
 
 fs.appendFileSync(output, 'run=false\n');
-console.log('All 3000 target film images are mapped.');
+console.log(`All ${targets.length} target film images are mapped.`);
