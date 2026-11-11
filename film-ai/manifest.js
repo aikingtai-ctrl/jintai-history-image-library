@@ -491,5 +491,17 @@ window.FILM_AI_IMAGES={
   "src-wd-q134285109": "film-ai/src-wd-q134285109.jpg",
   "src-wd-q120142655": "film-ai/src-wd-q120142655.jpg",
   "src-wd-q131160574": "film-ai/src-wd-q131160574.jpg",
-  "src-wd-q131283460": "film-ai/src-wd-q131283460.jpg"
+  "src-wd-q131283460": "film-ai/src-wd-q131283460.jpg",
+  "src-wd-q135313335": "film-ai/src-wd-q135313335.jpg",
+  "src-wd-q135995699": "film-ai/src-wd-q135995699.jpg",
+  "src-wd-q121295724": "film-ai/src-wd-q121295724.jpg",
+  "src-wd-q130426564": "film-ai/src-wd-q130426564.jpg",
+  "src-wd-q125449414": "film-ai/src-wd-q125449414.jpg",
+  "src-wd-q59395971": "film-ai/src-wd-q59395971.jpg",
+  "src-wd-q118212751": "film-ai/src-wd-q118212751.jpg",
+  "src-wd-q120237363": "film-ai/src-wd-q120237363.jpg",
+  "src-wd-q124707042": "film-ai/src-wd-q124707042.jpg",
+  "src-wd-q65146722": "film-ai/src-wd-q65146722.jpg",
+  "src-wd-q84713105": "film-ai/src-wd-q84713105.jpg",
+  "src-wd-q133525486": "film-ai/src-wd-q133525486.jpg"
 };
