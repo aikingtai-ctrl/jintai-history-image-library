@@ -53,7 +53,7 @@ jobs:
               parts = rel.split("/")
               top = parts[0]
               name = parts[-1]
-              if top in ("d1", "d2"):
+              if top in ("d1", "d2") and rel not in ("d1/compat_selected_2000_20261111.js", "d2/compat_selected_2000_20261111.js"):
                   continue
               if top == "d1_idx":
                   if name not in d1_active:
