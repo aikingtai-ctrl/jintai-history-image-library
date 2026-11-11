@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-11T05:17:42.953Z",
-  "expected": 1996,
-  "decoded": 1996,
+  "updated_at": "2026-11-11T05:35:15.647Z",
+  "expected": 1998,
+  "decoded": 1998,
   "errors": [],
   "duplicate_hash_groups": [],
   "images": [
@@ -14917,6 +14917,19 @@
       "thumbnail_sha256": "dcbfa0eaa6f46429637b52bbd7c981d221a55b097ba9bd7753c0c05d05ecc1cb"
     },
     {
+      "index": 1149,
+      "id": "HL-SHANG-SC-0110",
+      "decoded": true,
+      "width": 1672,
+      "height": 941,
+      "bytes": 3594308,
+      "last_write_ticks": 639299720357094900,
+      "sha256": "0396a4c2b412e272ce461cf82c548c863d1b8300c6224e0b9523d40f15522359",
+      "thumbnail": "history-ai/thumbnails/001149-HL-SHANG-SC-0110-0396a4c2b412.jpg",
+      "thumbnail_bytes": 92735,
+      "thumbnail_sha256": "8379c6c0aea5d2cbdd75dff0e53a1385109cb13a9dd0660e5e89e4a5104bd7b7"
+    },
+    {
       "index": 1150,
       "id": "HL-SHANG-SC-0111",
       "decoded": true,
@@ -22013,6 +22026,19 @@
       "thumbnail": "history-ai/thumbnails/001695-HF-20261023-0035.jpg",
       "thumbnail_bytes": 58552,
       "thumbnail_sha256": "2503b4c69d15d1ed8c260459bc3417479e32c583d82c2df177e4e34ebbd606c5"
+    },
+    {
+      "index": 1696,
+      "id": "HF-20261023-0036",
+      "decoded": true,
+      "width": 1672,
+      "height": 941,
+      "bytes": 3180852,
+      "last_write_ticks": 639299720357094900,
+      "sha256": "54598b90084ad9084717f1cf13da9f1626244db49a89234d763a9b8da45f2395",
+      "thumbnail": "history-ai/thumbnails/001696-HF-20261023-0036-54598b90084a.jpg",
+      "thumbnail_bytes": 87107,
+      "thumbnail_sha256": "9518d5d0c7631543c8a6d1e9ee3bcfe26beb8ea6804d5dc1b30fb5f355ee285f"
     },
     {
       "index": 1697,
