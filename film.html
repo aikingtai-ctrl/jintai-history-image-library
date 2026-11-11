@@ -185,7 +185,29 @@ table.cmp td{padding:7px 10px;border-bottom:1px solid var(--line);vertical-align
 .mosaic{display:flex;flex-direction:row;height:22px;border-radius:8px;overflow:hidden;margin:8px 0}.mosaic span{flex:1}
 .bar{display:grid;grid-template-columns:108px 1fr 44px;gap:8px;align-items:center;font-size:16.5px;margin:3px 0}.bar i{display:block;height:13px;background:var(--ac2);border-radius:4px}.bar em{font-style:normal;color:var(--mu);text-align:right;font-variant-numeric:tabular-nums}
 .fpgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(390px,1fr));gap:16px}.fp .sec{font-size:16.5px;color:var(--ac);margin:10px 0 3px;font-weight:600}
-.wgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(390px,1fr));gap:16px;margin-top:12px}.wc{background:var(--p1);border:1px solid var(--line);border-radius:12px;padding:14px 16px}.wc h4{margin:0;font-size:21px}.wc .m{color:var(--mu);font-size:16.5px}.wc p{font-size:17.5px;margin:6px 0}.film-ai-preview{position:relative;height:220px;margin:8px 0;border-radius:10px;overflow:hidden;background:#090b0d;display:flex;align-items:center;justify-content:center}.film-ai-preview img{display:block;width:100%;height:100%;object-fit:cover}.film-ai-preview.empty{color:var(--mu);font-size:16px}.film-ai-badge{position:absolute;left:8px;top:8px;background:rgba(20,16,8,.82);color:var(--ac);font-size:13px;line-height:1.35;padding:3px 8px;border-radius:6px;border:1px solid rgba(218,169,73,.45)}
+.wgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(390px,1fr));gap:16px;margin-top:12px}.wc{background:var(--p1);border:1px solid var(--line);border-radius:12px;padding:14px 16px}.wc h4{margin:0;font-size:21px}.wc .m{color:var(--mu);font-size:16.5px}.wc p{font-size:17.5px;margin:6px 0}.film-ai-preview{position:relative;height:220px;margin:8px 0;border-radius:10px;overflow:hidden;background:#090b0d;display:flex;align-items:center;justify-content:center}.film-ai-preview:not(.empty){cursor:zoom-in;border:1px solid rgba(255,255,255,.08);transition:border-color .18s,box-shadow .18s}.film-ai-preview:not(.empty):hover{border-color:var(--ac);box-shadow:0 6px 20px rgba(0,0,0,.45)}.film-ai-preview img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .24s ease}.film-ai-preview:not(.empty):hover img{transform:scale(1.025)}.film-ai-preview.empty{color:var(--mu);font-size:16px}.film-ai-badge{position:absolute;left:8px;top:8px;background:rgba(20,16,8,.82);color:var(--ac);font-size:13px;line-height:1.35;padding:3px 8px;border-radius:6px;border:1px solid rgba(218,169,73,.45);pointer-events:none}.film-ai-zoom-hint{position:absolute;right:8px;bottom:8px;background:rgba(12,15,20,.84);color:#f3ead8;font-size:13px;line-height:1.35;padding:3px 9px;border-radius:6px;border:1px solid rgba(255,255,255,.18);pointer-events:none;opacity:.88;transition:opacity .18s,background .18s,color .18s}.film-ai-preview:not(.empty):hover .film-ai-zoom-hint{opacity:1;background:rgba(218,169,73,.94);color:#111;border-color:var(--ac)}
+.dbody .vis{cursor:zoom-in;position:relative}
+dialog.img-lightbox{width:min(1680px,96vw);max-width:96vw;height:min(94vh,1040px);max-height:94vh;padding:0;border:1px solid var(--line);border-radius:14px;background:#0b0d12;color:var(--tx);overflow:hidden;box-shadow:0 24px 80px rgba(0,0,0,.85)}
+dialog.img-lightbox::backdrop{background:rgba(4,6,10,.88);backdrop-filter:blur(4px)}
+.lb-wrap{display:flex;flex-direction:column;width:100%;height:100%}
+.lb-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 18px;background:var(--p2);border-bottom:1px solid var(--line);flex-wrap:wrap}
+.lb-title{font-size:20px;font-weight:700;color:var(--tx);display:flex;align-items:center;gap:10px;flex-wrap:wrap;min-width:0}
+.lb-title .sub{font-size:15.5px;font-weight:400;color:var(--mu)}
+.lb-tools{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.lb-tools button,.lb-tools a.btn-link{padding:6px 12px;font-size:15.5px;border-radius:8px;border:1px solid var(--line);background:var(--p3);color:var(--tx);text-decoration:none;cursor:pointer}
+.lb-tools button:hover,.lb-tools a.btn-link:hover{border-color:var(--ac);color:var(--ac)}
+.lb-stage{position:relative;flex:1;min-height:0;display:flex;align-items:center;justify-content:center;overflow:hidden;background:radial-gradient(circle at center,#141923 0%,#080a0e 100%);user-select:none}
+.lb-stage img{max-width:94%;max-height:92%;object-fit:contain;transform-origin:center center;transition:transform .08s ease-out;cursor:zoom-in;border-radius:6px;box-shadow:0 12px 42px rgba(0,0,0,.65)}
+.lb-stage.is-zoomed img{cursor:grab}
+.lb-stage.is-dragging img{cursor:grabbing;transition:none}
+.lb-stage .lb-svg-box{width:min(1360px,92%);max-height:90%;transform-origin:center center;transition:transform .08s ease-out}
+.lb-stage .lb-svg-box svg{width:100%;height:auto;max-height:84vh;display:block;border-radius:8px;box-shadow:0 12px 42px rgba(0,0,0,.65)}
+.lb-nav-btn{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:48px;height:64px;border-radius:10px;border:1px solid rgba(255,255,255,.18);background:rgba(15,19,26,.76);color:#fff;font-size:24px;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.lb-nav-btn:hover:not(:disabled){border-color:var(--ac);color:var(--ac);background:rgba(15,19,26,.92)}
+.lb-nav-btn:disabled{opacity:.25;cursor:default}
+.lb-nav-btn.prev{left:16px}.lb-nav-btn.next{right:16px}
+.lb-foot{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:10px 18px;background:var(--p2);border-top:1px solid var(--line);font-size:16px;flex-wrap:wrap}
+.lb-foot-desc{color:var(--mu);flex:1;min-width:260px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,table.bench td{border:1px solid var(--line);padding:10px 12px;vertical-align:top;text-align:left}table.bench th{background:var(--p2)}table.bench td b{color:var(--ac)}
 .prose{max-width:1250px;font-size:19.5px;line-height:1.78}.prose h3{margin-top:24px}.prose li{margin:6px 0}
 #toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);background:var(--ac);color:#111;padding:10px 22px;border-radius:12px;font-size:19px;display:none;z-index:99;box-shadow:0 6px 20px #0008}
@@ -359,6 +381,29 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
 </main>
 <dialog id="detail"><div class="dh"><h2 id="dTitle"></h2><div class="nav"><button id="dPrev">← 上一个</button><button id="dNext">下一个 →</button><button id="dAdd" class="pri">＋ 加入图集</button><button id="dCmp">加入对照</button><button id="dClose">关闭</button></div></div><div id="dBody"></div></dialog>
 <dialog id="pick"><div class="dh"><h2>加入哪个参考图集？</h2><button id="pClose">取消</button></div><div style="padding:18px 22px"><div id="pList"></div><div class="btns"><input id="pNew" placeholder="或输入新图集名称" style="flex:1"><button class="pri" id="pNewBtn">新建并加入</button></div></div></dialog>
+<dialog id="imgLightbox" class="img-lightbox" aria-label="高清大图检视器">
+ <div class="lb-wrap">
+  <div class="lb-bar">
+   <div class="lb-title"><span id="lbTitle"></span><span class="sub" id="lbSub"></span></div>
+   <div class="lb-tools">
+    <button type="button" id="lbZoomOut" title="缩小">－</button>
+    <button type="button" id="lbZoomReset" title="重置为 100% 原始比例">100%</button>
+    <button type="button" id="lbZoomIn" title="放大">＋</button>
+    <a id="lbOpenRaw" class="btn-link" href="#" target="_blank" rel="noopener">新窗口原图 ↗</a>
+    <button type="button" id="lbClose" class="pri">关闭 (Esc)</button>
+   </div>
+  </div>
+  <div class="lb-stage" id="lbStage">
+   <button type="button" class="lb-nav-btn prev" id="lbPrev" title="上一张 (←)">‹</button>
+   <div id="lbContent" style="display:flex;align-items:center;justify-content:center;width:100%;height:100%"></div>
+   <button type="button" class="lb-nav-btn next" id="lbNext" title="下一张 (→)">›</button>
+  </div>
+  <div class="lb-foot">
+   <div class="lb-foot-desc" id="lbFootDesc">滚轮或双击画面可无级缩放（100%–400%），放大后按住鼠标拖动查看局部细节，键盘 ← / → 切换上下张</div>
+   <div class="btns" id="lbFootActs" style="margin:0"></div>
+  </div>
+ </div>
+</dialog>
 <div id="toast"></div><div id="printArea"></div>
 <script src="film-ai/manifest.js?v=page3-20261111"></script>
 <script>
@@ -702,8 +747,10 @@ async function openDetail(id){let r=BYID.get(id);if(!r){const rw=resolveWorkFrom
  const P=palOf(r);const same=(BYW.get(r.w)||[]).filter(x=>x.id!==r.id),sim=similar(r,8);
  const camExtra=(w.camera&&w.camera!==w.cam)?' '+esc(w.camera):'',opticChips=(w.optic&&w.optic!==w.lensb)?tags('optic',w.optic):'',lensExtra=(w.lens&&w.lens!==w.lensb&&w.lens!==w.optic)?' '+esc(w.lens):'';
  const noteFailed=(r.note===undefined);
- $('dBody').innerHTML=`<div class="dbody"><div><div class="vis">${visual(r,1100,true)}</div>
+ const workAiSrc=(window.FILM_AI_IMAGES||{})[w.wid];
+ $('dBody').innerHTML=`<div class="dbody"><div><div class="vis" id="dVisZoom" title="点击全屏放大检视">${visual(r,1100,true)}</div>
  <div class="palbig">${P.map(c=>`<div style="background:${c}" data-hex="${c}" title="点击复制色值"><span>${c}</span></div>`).join('')}</div>
+ ${workAiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" title="点击全屏放大查看《${esc(w.t)}》AI 代表图" style="height:240px;margin:10px 0"><img src="${esc(workAiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图 · ${esc(w.t)}</span><span class="film-ai-zoom-hint">🔍 点击放大高清原图</span></div>`:''}
  <p class="muted small">${f?'真实截帧 · 色板为实测（本机内部版）':pending?'依据对应来源静帧撰写画面分析，无本机截帧。摄影标签待标注，色板待测；不能据此确认运镜、器材或精确参数。经典代表性仍待逐片精选。':'示意图：按标签自动绘制（画幅、主光方向、剪影大小与位置、构图线、天气），色板为估色，不是影片原帧。看原片画面用下面的外链。'}</p>
  ${pending?`<p class="muted small">核验状态：${esc(r.verification||'观图待人工核')}</p>`:''}${limits?`<p class="muted small">画面限制：${esc(limits)}</p>`:''}${r.review?`<p class="muted small">复核记录：${esc(r.review)}</p>`:''}
  <h3>这一镜</h3><p class="note">${esc(r.sc)}${r.wh?`<br><span class="muted small">位置：${esc(r.wh)}${r.pl?' · '+esc(r.pl):''}</span>`:r.pl?`<br><span class="muted small">${esc(r.pl)}</span>`:''}</p>
@@ -726,6 +773,8 @@ async function openDetail(id){let r=BYID.get(id);if(!r){const rw=resolveWorkFrom
  ${same.length?`<h3>同片其他镜头</h3><div class="strip">${same.map(x=>`<div class="mini" data-open="${x.id}" title="${esc(x.sc)}">${visual(x,300)}</div>`).join('')}</div>`:''}
  <h3>相似镜头（其他作品）</h3><div class="strip">${sim.map(x=>`<div class="mini" data-open="${x.id}" title="${esc(x.W.t+'：'+x.sc)}">${visual(x,300)}</div>`).join('')}</div></div></div>`;
  const d=$('detail');d.querySelectorAll('.mini[data-open]').forEach(e=>e.onclick=()=>openDetail(e.dataset.open));
+ if($('dVisZoom'))$('dVisZoom').onclick=()=>openShotVisualLightbox(r);
+ d.querySelectorAll('[data-zoom-wid]').forEach(el=>el.onclick=()=>openWorkAiLightbox(el.dataset.zoomWid));
  if($('dRetryOne'))$('dRetryOne').onclick=async()=>{const sid=w.source_id||w.wid;if(sid)WORK_PROMPT_DONE.delete(sid);if(r.detail_file)detDone.delete(r.detail_file);await openDetail(id);};
  d.querySelectorAll('.t[data-k]').forEach(e=>e.onclick=()=>{d.close();showTab('find');toggle(e.dataset.k,e.dataset.v,true);});
  d.querySelectorAll('.palbig div').forEach(e=>e.onclick=()=>copy(e.dataset.hex,'已复制色值 '+e.dataset.hex));
@@ -904,7 +953,7 @@ async function renderDeckStudio(d){const V=$('deckView');
   </div>
   <span class="muted small">${esc(ro?(d.cat||'系统精选图集'):'我的可编辑图集')} · 共 ${(d.items||[]).length} 镜${d.film_cnt>1?` · 跨 ${d.film_cnt} 部影片`:''}</span>
  </div>
- <div class="dkhead">${ro?`<h2 style="margin:0 0 8px;font-size:30px">${esc(d.name)}</h2><p class="note" style="margin:0">${esc(d.desc)||''}</p>`:`<input id="dkName" value="${esc(d.name)}"><textarea id="dkDesc" placeholder="视觉方案说明：这套参考想表达的光、色、构图方向，给导演/摄影/美术/客户看">${esc(d.desc)}</textarea>`}</div>
+ <div class="dkhead">${ro?`<h2 style="margin:0 0 8px;font-size:30px">${esc(d.name)}</h2><p class="note" style="margin:0">${esc(d.desc)||''}</p>`:`<input id="dkName" value="${esc(d.name)}"><textarea id="dkDesc" placeholder="视觉方案说明：这套参考想表达的光、色、构图方向，给导演/摄影/美术/客户看">${esc(d.desc)}</textarea>`}${d.filmDeckWid&&FILM_AI_IMAGES[d.filmDeckWid]?`<div class="film-ai-preview" data-zoom-wid="${esc(d.filmDeckWid)}" title="点击放大查看 AI 代表图" style="max-width:460px;height:230px;margin:12px 0 4px"><img src="${esc(FILM_AI_IMAGES[d.filmDeckWid])}" alt="${esc(d.name)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图</span><span class="film-ai-zoom-hint">🔍 点击放大</span></div>`:''}</div>
  <div class="btns">
   ${ro?`<button class="pri" id="dkForkHere" type="button">＋ 复制为我的可编辑图集（可自由增删改备注）</button>`:''}
   <button class="${ro?'':'pri'}" id="dkShare" type="button">复制分享链接</button>
@@ -921,6 +970,7 @@ async function renderDeckStudio(d){const V=$('deckView');
  <div class="dgrid" id="dkGrid">${(d.items||[]).map((x,i)=>{const r=BYID.get(x.id);if(!r)return'';return`<div class="ditem" draggable="${!ro}" data-i="${i}"><div class="thumb" data-open="${r.id}">${visual(r,520)}</div>${palHTML(r)}<div class="cap"><b>${i+1}. ${esc(r.W.t)}</b> <span class="y">${r.W.y||''} · ${r.id}</span><p>${esc(r.sc)}</p></div>
   ${ro?(x.note?`<p class="note small" style="margin:0 12px 12px;color:var(--mu)">${esc(x.note)}</p>`:''):`<textarea data-note="${i}" placeholder="给这一镜写备注：参考它的什么（光/色/构图/情绪）">${esc(x.note)}</textarea><div class="acts"><button type="button" data-up="${i}">↑</button><button type="button" data-dn="${i}">↓</button><button type="button" data-rm="${i}">移除</button></div>`}</div>`;}).join('')}</div>`;
  bindCards(V);
+ V.querySelectorAll('[data-zoom-wid]').forEach(el=>el.onclick=()=>openWorkAiLightbox(el.dataset.zoomWid));
  $('dkBack').onclick=()=>{DECK_VIEW_ID=null;SHOWSHARED=false;renderDecks();window.scrollTo({top:0,behavior:'instant'});};
  if($('dkPrevDeck'))$('dkPrevDeck').onclick=()=>{DECK_VIEW_ID=allList[curIdx-1].id;renderDecks();window.scrollTo({top:0,behavior:'instant'});};
  if($('dkNextDeck'))$('dkNextDeck').onclick=()=>{DECK_VIEW_ID=allList[curIdx+1].id;renderDecks();window.scrollTo({top:0,behavior:'instant'});};
@@ -1235,6 +1285,7 @@ function renderFP(){
      ${e.nWorks>1?`<button type="button" data-fpexpand="${e.idx}" style="font-size:15px;padding:4px 10px">展开代表片</button>`:''}
      <button type="button" data-fpgo="${e.idx}" style="font-size:15px;padding:4px 10px">看全部镜头</button>
     </div>
+    ${e.w&&FILM_AI_IMAGES[e.w.wid]?`<div class="film-ai-preview" data-zoom-wid="${esc(e.w.wid)}" title="点击放大查看《${esc(e.w.t)}》AI 代表图" style="height:200px;margin:8px 0"><img src="${esc(FILM_AI_IMAGES[e.w.wid])}" alt="${esc(e.w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图</span><span class="film-ai-zoom-hint">🔍 点击放大</span></div>`:''}
     <div class="sec" style="margin-top:6px">全片时序色彩 DNA（片头 → 片尾）</div>
     <div class="dna-strip">${dna.map(c=>`<span style="background:${c}" title="${c}"></span>`).join('')}</div>
     <div class="sec">五大主导色阶（点击色块复制 HEX）</div>
@@ -1252,6 +1303,7 @@ function renderFP(){
 function bindFpActions(root,ents){
  root.querySelectorAll('[data-copyhex]').forEach(el=>el.onclick=()=>copy(el.dataset.copyhex,'已复制色值 '+el.dataset.copyhex));
  root.querySelectorAll('[data-open]').forEach(el=>el.onclick=()=>openDetail(el.dataset.open));
+ root.querySelectorAll('[data-zoom-wid]').forEach(el=>el.onclick=()=>openWorkAiLightbox(el.dataset.zoomWid));
  root.querySelectorAll('[data-fprm]').forEach(b=>b.onclick=()=>{FP.splice(+b.dataset.fprm,1);FP_USER_CLEARED=(FP.length===0);saveCmp();renderFP();});
  root.querySelectorAll('[data-fpgo]').forEach(b=>b.onclick=async()=>{const f=FP[+b.dataset.fpgo];if(!f)return;
   if(f.kind==='work'){WID=f.key;QP={tags:[],work:null,words:[],rawWords:[]};$('q').value='';showTab('find');await ensureWorkShots(f.key);apply();}
@@ -1322,17 +1374,147 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
   const metaParts=[w.type||'电影',kindsStr,(w.region&&w.region!=='待补')?w.region:'',w.dir?'导演 '+w.dir:'',(w.dp&&w.dp!=='待核')?'摄影 '+w.dp:'摄影 待核'].filter(Boolean).join(' · ');
   const enShow=(w.te&&w.te!==w.t)?w.te:'';
   const aiSrc=FILM_AI_IMAGES[w.wid];
-  const aiPreview=aiSrc?`<div class="film-ai-preview"><img src="${esc(aiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图</span></div>`:'<div class="film-ai-preview empty">等待 AI 代表图</div>';
+  const aiPreview=aiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" role="button" tabindex="0" title="点击放大查看《${esc(w.t)}》高清 AI 代表图" aria-label="点击放大查看 ${esc(w.t)} AI 代表图"><img src="${esc(aiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图</span><span class="film-ai-zoom-hint">🔍 点击放大</span></div>`:'<div class="film-ai-preview empty">等待 AI 代表图</div>';
   return`<div class="wc"><h4>${esc(w.t)} <span class="muted" style="font-size:18px">${enShow?esc(enShow)+' · ':''}${esc(w.y||'')}</span></h4>
  <div class="m">${esc(metaParts)}</div>
  ${aiPreview}
  <div class="mosaic" data-wpal="${esc(w.wid)}" style="flex-direction:row;height:22px">${workMosaicSpans(w)}</div><p>${esc(w.look||'')}</p>
  <div class="btns"><button class="pri" data-wid="${esc(w.wid)}">看 ${cnt.toLocaleString()} 个镜头</button><button data-wdeck="${esc(w.wid)}">整片图集</button><button data-wfp="${esc(w.wid)}">加入瞬间对照</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
+ const pageAiWids=ws.filter(w=>FILM_AI_IMAGES[w.wid]).map(w=>w.wid);
+ $('wGrid').querySelectorAll('[data-zoom-wid]').forEach(el=>{
+  const trigger=()=>openWorkAiLightbox(el.dataset.zoomWid,pageAiWids);
+  el.onclick=trigger;
+  el.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();trigger();}};
+ });
  $('wGrid').querySelectorAll('[data-wid]').forEach(b=>b.onclick=async()=>{const wid=b.dataset.wid,w=WORK_BY_WID.get(wid)||WORKS.find(x=>x.wid===wid);WID=wid;QP={tags:[],work:null,words:[],rawWords:[]};$('q').value='';showTab('find');apply();
   if(w&&!workFullyHydrated(w)){$('loadStatus').textContent=` · 正在载入《${w.t}》全部 ${w.n} 个镜头…`;await ensureWorkShots(w);$('loadStatus').textContent='';if(WID===wid)apply();}});
  $('wGrid').querySelectorAll('[data-wdeck]').forEach(b=>b.onclick=()=>{DECK_VIEW_ID='film:'+b.dataset.wdeck;SHOWSHARED=false;showTab('decks');});
  $('wGrid').querySelectorAll('[data-wfp]').forEach(b=>b.onclick=()=>{const w=WORK_BY_WID.get(b.dataset.wfp)||WORKS.find(x=>x.wid===b.dataset.wfp);if(!w)return;addFpItems([{kind:'work',key:w.wid,label:`${w.t}（${w.y||''}）`}],false);CMP_MODE='works';showTab('compare');});
  hydrateWorksPage(slice,token);}
+/* ---------- 高清大图检视器（支持 AI 代表图 / 本机截帧 / 镜头构图卡 无级缩放与拖拽平移） ---------- */
+let LB_STATE={items:[],idx:0,scale:1,tx:0,ty:0,dragging:false,startX:0,startY:0,moved:false};
+function applyLbTransform(){
+ const box=$('lbContent')?.firstElementChild;if(!box)return;
+ box.style.transform=`translate(${LB_STATE.tx}px,${LB_STATE.ty}px) scale(${LB_STATE.scale})`;
+ $('lbStage')?.classList.toggle('is-zoomed',LB_STATE.scale>1.01);
+ if($('lbZoomReset'))$('lbZoomReset').textContent=Math.round(LB_STATE.scale*100)+'%';
+}
+function setLbZoom(nextScale,resetPan=false){
+ LB_STATE.scale=Math.max(1,Math.min(4,Number(nextScale)||1));
+ if(LB_STATE.scale<=1.01||resetPan){LB_STATE.tx=0;LB_STATE.ty=0;}
+ applyLbTransform();
+}
+function renderLightboxItem(){
+ const it=LB_STATE.items[LB_STATE.idx];if(!it)return;
+ LB_STATE.scale=1;LB_STATE.tx=0;LB_STATE.ty=0;
+ $('lbTitle').textContent=it.title||'高清画面检视';
+ $('lbSub').textContent=`${it.sub||''}${LB_STATE.items.length>1?` · 第 ${LB_STATE.idx+1} / ${LB_STATE.items.length} 张`:''}`;
+ $('lbFootDesc').textContent=it.desc||'滚轮或点击画面可放大（100%–400%），放大后按住鼠标拖动查看细节，← / → 切换上下张';
+ const rawLink=$('lbOpenRaw');
+ if(it.src){
+  rawLink.href=it.src;rawLink.hidden=false;
+  $('lbContent').innerHTML=`<img id="lbImg" src="${esc(it.src)}" alt="${esc(it.title||'')}">`;
+ }else if(it.svgHtml){
+  rawLink.href='#';rawLink.hidden=true;
+  $('lbContent').innerHTML=`<div class="lb-svg-box">${it.svgHtml}</div>`;
+ }
+ $('lbPrev').disabled=LB_STATE.items.length<=1;
+ $('lbNext').disabled=LB_STATE.items.length<=1;
+ const acts=$('lbFootActs');
+ if(it.wid){
+  const w=WORK_BY_WID.get(it.wid)||WORKS.find(x=>x.wid===it.wid);
+  const cnt=w?workShotCount(w):0;
+  acts.innerHTML=`<button type="button" class="pri" id="lbActShots">看 ${cnt.toLocaleString()} 个镜头</button><button type="button" id="lbActDeck">整片图集</button><button type="button" id="lbActFp">加入瞬间对照</button>`;
+  $('lbActShots').onclick=async()=>{$('imgLightbox').close();if($('detail').open)$('detail').close();WID=it.wid;QP={tags:[],work:null,words:[],rawWords:[]};$('q').value='';showTab('find');apply();if(w&&!workFullyHydrated(w)){await ensureWorkShots(w);if(WID===it.wid)apply();}};
+  $('lbActDeck').onclick=()=>{$('imgLightbox').close();if($('detail').open)$('detail').close();DECK_VIEW_ID='film:'+it.wid;SHOWSHARED=false;showTab('decks');};
+  $('lbActFp').onclick=()=>{$('imgLightbox').close();if($('detail').open)$('detail').close();if(w){addFpItems([{kind:'work',key:w.wid,label:`${w.t}（${w.y||''}）`}],false);CMP_MODE='works';showTab('compare');}};
+ }else if(it.shotId){
+  acts.innerHTML=`<button type="button" class="pri" id="lbActCopyPr">复制提示词</button><button type="button" id="lbActAddDeck">＋ 加入图集</button>`;
+  $('lbActCopyPr').onclick=()=>{const r=BYID.get(it.shotId);if(r?.pr)copy(r.pr,'已复制复刻提示词');};
+  $('lbActAddDeck').onclick=()=>{addToDeck([it.shotId]);};
+ }else{
+  acts.innerHTML='';
+ }
+ applyLbTransform();
+ const dlg=$('imgLightbox');if(!dlg.open)dlg.showModal();
+}
+function stepLightbox(delta){
+ const n=LB_STATE.items.length;if(n<=1)return;
+ LB_STATE.idx=(LB_STATE.idx+delta+n)%n;
+ renderLightboxItem();
+}
+function openWorkAiLightbox(wid,poolWids){
+ const src=FILM_AI_IMAGES[wid];if(!src)return;
+ const wids=(Array.isArray(poolWids)&&poolWids.length?poolWids:WORKS.filter(w=>FILM_AI_IMAGES[w.wid]).map(w=>w.wid));
+ if(!wids.includes(wid))wids.unshift(wid);
+ LB_STATE.items=wids.map(id=>{
+  const w=WORK_BY_WID.get(id)||WORKS.find(x=>x.wid===id);
+  const s=FILM_AI_IMAGES[id];
+  const enShow=(w&&w.te&&w.te!==w.t)?w.te:'';
+  const meta=w?[w.y,w.region&&w.region!=='待补'?w.region:'',w.dir?'导演 '+w.dir:'',w.dp&&w.dp!=='待核'?'摄影 '+w.dp:''].filter(Boolean).join(' · '):id;
+  return{wid:id,src:s,title:w?`《${w.t}》${enShow?' '+enShow:''}`:id,sub:meta,desc:w?(w.look||`《${w.t}》AI 代表图 · 点击画面或滚轮可放大至 400% 查看细节`):''};
+ });
+ LB_STATE.idx=Math.max(0,wids.indexOf(wid));
+ renderLightboxItem();
+}
+function openShotVisualLightbox(r){
+ if(!r)return;const w=r.W|| WORKS[r.w]||{};const f=frOf(r);
+ const pool=(list&&list.length&&list.some(x=>x.id===r.id))?list.slice(0,120):((BYW.get(r.w)||[r]).slice(0,120));
+ LB_STATE.items=pool.map(x=>{
+  const xw=x.W||WORKS[x.w]||w,xf=frOf(x);
+  return{shotId:x.id,src:xf||'',svgHtml:xf?'':visual(x,1600,true),title:`《${xw.t||''}》${xw.y?'（'+xw.y+'）':''} · ${x.id}`,sub:[x.size,x.angle,x.time,x.ie,...(x.light||[]).slice(0,2)].filter(Boolean).join(' · '),desc:x.sc||''};
+ });
+ LB_STATE.idx=Math.max(0,pool.findIndex(x=>x.id===r.id));
+ renderLightboxItem();
+}
+(function initLightboxEvents(){
+ const dlg=$('imgLightbox'),stage=$('lbStage');if(!dlg||!stage)return;
+ $('lbClose').onclick=()=>dlg.close();
+ $('lbPrev').onclick=e=>{e.stopPropagation();stepLightbox(-1);};
+ $('lbNext').onclick=e=>{e.stopPropagation();stepLightbox(1);};
+ $('lbZoomIn').onclick=()=>setLbZoom(LB_STATE.scale+0.5);
+ $('lbZoomOut').onclick=()=>setLbZoom(LB_STATE.scale-0.5);
+ $('lbZoomReset').onclick=()=>setLbZoom(1,true);
+ stage.addEventListener('wheel',e=>{
+  e.preventDefault();
+  const delta=e.deltaY<0?0.25:-0.25;
+  setLbZoom(LB_STATE.scale+delta);
+ },{passive:false});
+ stage.addEventListener('mousedown',e=>{
+  if(e.target.closest('button'))return;
+  LB_STATE.dragging=true;LB_STATE.moved=false;
+  LB_STATE.startX=e.clientX-LB_STATE.tx;LB_STATE.startY=e.clientY-LB_STATE.ty;
+  if(LB_STATE.scale>1.01)stage.classList.add('is-dragging');
+ });
+ window.addEventListener('mousemove',e=>{
+  if(!LB_STATE.dragging)return;
+  const nx=e.clientX-LB_STATE.startX,ny=e.clientY-LB_STATE.startY;
+  if(Math.abs(nx-LB_STATE.tx)>4||Math.abs(ny-LB_STATE.ty)>4)LB_STATE.moved=true;
+  if(LB_STATE.scale>1.01){LB_STATE.tx=nx;LB_STATE.ty=ny;applyLbTransform();}
+ });
+ window.addEventListener('mouseup',()=>{
+  if(!LB_STATE.dragging)return;
+  LB_STATE.dragging=false;stage.classList.remove('is-dragging');
+ });
+ stage.addEventListener('click',e=>{
+  if(e.target.closest('button'))return;
+  if(LB_STATE.moved){LB_STATE.moved=false;return;}
+  if(e.target===stage||e.target.id==='lbContent'){
+   if(LB_STATE.scale>1.01)setLbZoom(1,true);else dlg.close();
+   return;
+  }
+  setLbZoom(LB_STATE.scale>1.2?1:2,true);
+ });
+ dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close();});
+ document.addEventListener('keydown',e=>{
+  if(!dlg.open)return;
+  if(e.key==='ArrowRight'){e.preventDefault();stepLightbox(1);}
+  else if(e.key==='ArrowLeft'){e.preventDefault();stepLightbox(-1);}
+  else if(e.key==='+'||e.key==='='){e.preventDefault();setLbZoom(LB_STATE.scale+0.5);}
+  else if(e.key==='-'){e.preventDefault();setLbZoom(LB_STATE.scale-0.5);}
+  else if(e.key==='0'){e.preventDefault();setLbZoom(1,true);}
+ });
+})();
 /* ---------- 对标页 ---------- */
 function renderBench(){const b=BENCH;const nW=WORKS.length,nS=R.length,nF=Object.keys(FR).length;
  $('benchView').innerHTML=`<h3 style="margin-top:0">本板块现状</h3><p>${nW} 部作品 · ${nS} 个镜头 · ${nF} 张本机截帧。每天 0:00 自动新增，并刷新下表中能自动核对的公开数字（最近刷新：${esc(b.checked||'')}）。</p>
@@ -1370,7 +1552,7 @@ function kmeans(px,k){let C=[];for(let i=0;i<k;i++)C.push(px[Math.floor((i+.5)*p
 $('addAllDeck').onclick=()=>{if(!list.length)return;if(list.length>60&&!confirm(`当前结果有 ${list.length} 个镜头，全部加入图集？`))return;addToDeck(list.map(r=>r.id));};
 $('dClose').onclick=()=>$('detail').close();$('dPrev').onclick=()=>step(-1);$('dNext').onclick=()=>step(1);
 $('dAdd').onclick=()=>addToDeck([CUR.id]);$('dCmp').onclick=()=>toggleCmp(CUR.id);
-document.addEventListener('keydown',e=>{if($('detail').open&&!/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)){if(e.key==='ArrowRight')step(1);if(e.key==='ArrowLeft')step(-1);}});
+document.addEventListener('keydown',e=>{if($('detail').open&&!$('imgLightbox')?.open&&!/INPUT|TEXTAREA|SELECT/.test(document.activeElement.tagName)){if(e.key==='ArrowRight')step(1);if(e.key==='ArrowLeft')step(-1);}});
 $('pClose').onclick=()=>$('pick').close();$('pNewBtn').onclick=()=>{newDeck($('pNew').value.trim()||'未命名参考图集');pushPending();};
 $('newDeck').onclick=()=>{const n=prompt('新建参考图集名称（如：雨夜霓虹·都市孤独）');if(n===null)return;const d=newDeck(n.trim()||'未命名参考图集');SHOWSHARED=false;DECK_VIEW_ID=d.id;renderDecks();};
 $('importDeck').onclick=()=>{const u=prompt('粘贴分享链接');if(!u)return;const m=/#deck=([^&\s]+)/.exec(u);if(!m){toast('链接里没有图集内容');return;}location.hash='deck='+m[1];readShared();SHOWSHARED=true;DECK_VIEW_ID='shared';renderDecks();};
