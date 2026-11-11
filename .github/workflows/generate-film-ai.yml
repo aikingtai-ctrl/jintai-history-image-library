@@ -24,6 +24,8 @@ on:
         required: true
         type: boolean
         default: false
+  schedule:
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: write
@@ -48,13 +50,21 @@ jobs:
         with:
           node-version: 22
 
+      - name: Select next scheduled range
+        if: github.event_name == 'schedule'
+        id: choose
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node tools/select_next_film_ai_range.mjs
+
       - name: Generate images
+        if: github.event_name != 'schedule' || steps.choose.outputs.run == 'true'
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           INPUT_PAGE: ${{ inputs.page }}
           INPUT_COUNT: ${{ inputs.count }}
-          INPUT_START_INDEX: ${{ inputs.start_index }}
-          INPUT_END_INDEX: ${{ inputs.end_index }}
+          INPUT_START_INDEX: ${{ github.event_name == 'schedule' && steps.choose.outputs.start_index || inputs.start_index }}
+          INPUT_END_INDEX: ${{ github.event_name == 'schedule' && steps.choose.outputs.end_index || inputs.end_index }}
           INPUT_FORCE: ${{ inputs.force }}
         run: |
           args=(--page "$INPUT_PAGE" --count "$INPUT_COUNT")
@@ -65,7 +75,7 @@ jobs:
           node tools/generate_film_ai_previews.mjs "${args[@]}"
 
       - name: Commit generated images
-        if: always()
+        if: always() && (github.event_name != 'schedule' || steps.choose.outputs.run == 'true')
         env:
           GH_TOKEN: ${{ github.token }}
           INPUT_START_INDEX: ${{ inputs.start_index }}
