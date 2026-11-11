@@ -19,12 +19,14 @@ const page = Math.max(1, Number(arg('page', '1')) || 1);
 const count = Math.max(1, Math.min(100, Number(arg('count', '100')) || 100));
 const startIndex = Number(arg('start-index', '0'));
 const endIndex = Number(arg('end-index', '0'));
+const targetFile = arg('target-file', '');
 const concurrency = Math.max(1, Math.min(8, Number(arg('concurrency', '3')) || 3));
 const force = process.argv.includes('--force');
 const dryRun = process.argv.includes('--dry-run');
 if (startIndex && (!Number.isInteger(startIndex) || !Number.isInteger(endIndex) || endIndex < startIndex || endIndex - startIndex >= 500)) {
   throw new Error('Use a valid --start-index/--end-index range of at most 500 works.');
 }
+if (targetFile && !startIndex) throw new Error('--target-file requires --start-index and --end-index.');
 
 function parseWorks() {
   if (fs.existsSync(VISUAL_WORKS_PATH)) {
@@ -71,6 +73,13 @@ function promptFor(work, record) {
   ].join('\n');
 }
 
+function saferPromptFor(work, record) {
+  const shot = (record?.prompt || record?.scene || record?.analysis || work.look || 'cinematic film still')
+    .replace(/\b(naked|nude|topless|blood|bloody|gore|severed|wound|gun|sword|cigar|blackface|minstrel)\b/gi, '')
+    .replace(/裸体|赤裸|全裸|血迹|鲜血|血流|断肢|刺伤|枪|剑|露骨/g, '');
+  return `Create one original safe cinematic reference image in a 16:9 frame. Preserve the setting, composition, lighting, color and mood of this first-shot description: ${shot}. Reimagine named people or characters as anonymous fictional figures. Everyone is fully clothed; show no injury, violence, sexual content, offensive caricature, titles, logos or readable text.`;
+}
+
 function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
 
 async function generate(prompt) {
@@ -106,7 +115,11 @@ if (!dryRun && !process.env.OPENAI_API_KEY) {
 }
 
 const works = parseWorks().slice().sort((a, b) => Number(b.y || 0) - Number(a.y || 0) || Number(b.n || 0) - Number(a.n || 0));
-const slice = startIndex ? works.slice(startIndex - 1, endIndex) : works.slice((page - 1) * 100, (page - 1) * 100 + count);
+const targetIds = targetFile ? fs.readFileSync(targetFile, 'utf8').trim().split(/\r?\n/) : null;
+const byWid = targetIds ? new Map(works.map(work => [work.wid, work])) : null;
+const slice = targetIds
+  ? targetIds.slice(startIndex - 1, endIndex).map(wid => { const work = byWid.get(wid); if (!work) throw new Error(`Missing target work: ${wid}`); return work; })
+  : startIndex ? works.slice(startIndex - 1, endIndex) : works.slice((page - 1) * 100, (page - 1) * 100 + count);
 const manifest = readManifest();
 fs.mkdirSync(IMAGE_DIR, { recursive: true });
 if (!slice.length) throw new Error('No works found for the selected range.');
@@ -123,6 +136,7 @@ if (dryRun) {
 
 let cursor = 0;
 let completed = 0;
+const failures = [];
 const worker = async () => {
   while (cursor < slice.length) {
     const work = slice[cursor++];
@@ -136,13 +150,27 @@ const worker = async () => {
       continue;
     }
     const record = readFirstRecord(work.wid);
-    const bytes = await generateWithRetry(promptFor(work, record));
-    fs.writeFileSync(target, bytes);
-    manifest[work.wid] = `film-ai/${work.wid}.webp`;
-    saveManifest();
-    completed++;
-    console.log(`[${completed}/${slice.length}] ${work.t} -> ${path.basename(target)}`);
+    try {
+      let bytes;
+      try { bytes = await generateWithRetry(promptFor(work, record)); }
+      catch (error) {
+        if (error.status !== 400) throw error;
+        bytes = await generateWithRetry(saferPromptFor(work, record));
+      }
+      fs.writeFileSync(target, bytes);
+      manifest[work.wid] = `film-ai/${work.wid}.webp`;
+      saveManifest();
+      completed++;
+      console.log(`[${completed}/${slice.length}] ${work.t} -> ${path.basename(target)}`);
+    } catch (error) {
+      failures.push(work.wid);
+      console.error(`[failed] ${work.wid}: HTTP ${error.status || 'unknown'}`);
+    }
   }
 };
 await Promise.all(Array.from({ length: Math.min(concurrency, slice.length) }, worker));
 console.log(`Generated/kept ${completed} images. Manifest updated: ${MANIFEST_PATH}`);
+if (failures.length) {
+  console.error(`Unfinished works (${failures.length}): ${failures.join(', ')}`);
+  process.exitCode = 1;
+}

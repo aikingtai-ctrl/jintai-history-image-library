@@ -24,6 +24,11 @@ on:
         required: true
         type: boolean
         default: false
+      target_batch:
+        description: "继续当前新增图片清单"
+        required: true
+        type: boolean
+        default: true
   schedule:
     - cron: "*/15 * * * *"
 
@@ -41,9 +46,9 @@ jobs:
     timeout-minutes: 360
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 1
+        run: |
+          git clone --filter=blob:none --sparse --depth=1 --branch main "https://github.com/${GITHUB_REPOSITORY}.git" .
+          git sparse-checkout set --no-cone /film.html /film-ai/ /tools/ /d3/vworks.js
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -51,60 +56,77 @@ jobs:
           node-version: 22
 
       - name: Select next scheduled range
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || inputs.target_batch == true
         id: choose
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: node tools/select_next_film_ai_range.mjs
+        run: node film-ai/select-next-range.mjs
+
+      - name: Load selected first-shot descriptions
+        if: steps.choose.outputs.run == 'true' || (github.event_name == 'workflow_dispatch' && inputs.target_batch != true)
+        env:
+          INPUT_PAGE: ${{ inputs.page }}
+          INPUT_COUNT: ${{ inputs.count }}
+          INPUT_START_INDEX: ${{ steps.choose.outputs.start_index || inputs.start_index }}
+          INPUT_END_INDEX: ${{ steps.choose.outputs.end_index || inputs.end_index }}
+          TARGET_BATCH: ${{ github.event_name == 'schedule' || inputs.target_batch }}
+        run: |
+          args=(--page "$INPUT_PAGE" --count "$INPUT_COUNT")
+          if [ -n "$INPUT_START_INDEX" ]; then args=(--start-index "$INPUT_START_INDEX" --end-index "$INPUT_END_INDEX"); fi
+          if [ "$TARGET_BATCH" = "true" ]; then args+=(--target-file film-ai/target-current.txt); fi
+          mapfile -t ids < <(node tools/generate_film_ai_previews.mjs "${args[@]}" --dry-run | tail -n +2 | cut -f1)
+          if [ "${#ids[@]}" -eq 0 ]; then echo 'No works selected.'; exit 1; fi
+          patterns=(/film.html /film-ai/ /tools/ /d3/vworks.js)
+          for wid in "${ids[@]}"; do patterns+=("/d4/p_${wid}.js"); done
+          git sparse-checkout set --no-cone "${patterns[@]}"
 
       - name: Generate images
-        if: github.event_name != 'schedule' || steps.choose.outputs.run == 'true'
+        if: steps.choose.outputs.run == 'true' || (github.event_name == 'workflow_dispatch' && inputs.target_batch != true)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           INPUT_PAGE: ${{ inputs.page }}
           INPUT_COUNT: ${{ inputs.count }}
-          INPUT_START_INDEX: ${{ github.event_name == 'schedule' && steps.choose.outputs.start_index || inputs.start_index }}
-          INPUT_END_INDEX: ${{ github.event_name == 'schedule' && steps.choose.outputs.end_index || inputs.end_index }}
+          INPUT_START_INDEX: ${{ steps.choose.outputs.start_index || inputs.start_index }}
+          INPUT_END_INDEX: ${{ steps.choose.outputs.end_index || inputs.end_index }}
           INPUT_FORCE: ${{ inputs.force }}
+          TARGET_BATCH: ${{ github.event_name == 'schedule' || inputs.target_batch }}
         run: |
           args=(--page "$INPUT_PAGE" --count "$INPUT_COUNT")
           if [ -n "$INPUT_START_INDEX" ]; then
             args=(--start-index "$INPUT_START_INDEX" --end-index "$INPUT_END_INDEX" --concurrency 8)
           fi
-          if [ "${{ github.event_name }}" = "schedule" ]; then
-            args+=(--target-file tools/film-ai-target-3000.txt)
+          if [ "$TARGET_BATCH" = "true" ]; then
+            args+=(--target-file film-ai/target-current.txt)
           fi
           if [ "$INPUT_FORCE" = "true" ]; then args+=(--force); fi
           node tools/generate_film_ai_previews.mjs "${args[@]}"
 
       - name: Commit generated images
-        if: always() && (github.event_name != 'schedule' || steps.choose.outputs.run == 'true')
+        if: always() && (steps.choose.outputs.run == 'true' || (github.event_name == 'workflow_dispatch' && inputs.target_batch != true))
         env:
           GH_TOKEN: ${{ github.token }}
           INPUT_START_INDEX: ${{ inputs.start_index }}
           INPUT_END_INDEX: ${{ inputs.end_index }}
           INPUT_PAGE: ${{ inputs.page }}
         run: |
-          git config user.name "film-ai-generator[bot]"
-          git config user.email "film-ai-generator[bot]@users.noreply.github.com"
-          git add -A -- film-ai
-          if git diff --cached --quiet; then
-            echo "No new images to commit."
-            exit 0
-          fi
-          node - <<'NODE'
-          const fs = require('fs');
-          const file = 'film.html';
-          const source = fs.readFileSync(file, 'utf8');
-          const updated = source.replace(/film-ai\/manifest\.js\?v=[^"']+/, `film-ai/manifest.js?v=run-${process.env.GITHUB_RUN_ID}`);
-          if (updated === source) throw new Error('Manifest script tag not found');
-          fs.writeFileSync(file, updated);
-          NODE
-          git add film.html
-          git commit -m "Generate film AI previews ${INPUT_START_INDEX}-${INPUT_END_INDEX} page ${INPUT_PAGE}"
-          if ! git push origin HEAD:main; then
-            git push origin "HEAD:refs/heads/codex/film-ai-bulk-${GITHUB_RUN_ID}"
-            echo "Main advanced; generated images are preserved on a codex/film-ai-bulk branch."
-            exit 1
-          fi
-          gh workflow run pages.yml --ref main
+          gh auth setup-git
+          for attempt in 1 2 3; do
+            publish_dir="$(mktemp -d)"
+            git clone --filter=blob:none --sparse --depth=1 --branch main "https://github.com/${GITHUB_REPOSITORY}.git" "$publish_dir"
+            git -C "$publish_dir" sparse-checkout set --no-cone /film.html /film-ai/
+            node film-ai/publish-generated.mjs "$publish_dir"
+            git -C "$publish_dir" add -- film-ai film.html
+            if git -C "$publish_dir" diff --cached --quiet; then
+              echo "No new images to commit."
+              exit 0
+            fi
+            git -C "$publish_dir" config user.name "film-ai-generator[bot]"
+            git -C "$publish_dir" config user.email "film-ai-generator[bot]@users.noreply.github.com"
+            git -C "$publish_dir" commit -m "Generate film AI previews ${INPUT_START_INDEX}-${INPUT_END_INDEX} page ${INPUT_PAGE}"
+            if git -C "$publish_dir" push origin HEAD:main; then
+              gh workflow run pages.yml --ref main
+              exit 0
+            fi
+            echo "Main advanced during publishing; retrying with latest main ($attempt/3)."
+          done
+          exit 1

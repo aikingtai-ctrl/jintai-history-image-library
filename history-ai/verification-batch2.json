@@ -1,0 +1,182 @@
+{
+  "verified_at": "2026-11-11T05:35:13.886Z",
+  "scope": "Verify all non-deferred image generation and publication assets; deferred projects remain ungenerated and the full 1000-image goal is not certified complete.",
+  "complete": true,
+  "goal_complete": false,
+  "generated": 998,
+  "deferred": [
+    1079,
+    1875
+  ],
+  "catalogue": {
+    "fingerprint": "07d4e97f9525e5a121d9ccfd85d3f4e3c38c279cf3dca3fc4d3ee8171daadf68",
+    "active_chunks": [
+      "idx_20261111122916_00.js",
+      "idx_20261111122916_01.js",
+      "idx_20261111122916_02.js",
+      "idx_20261111122916_03.js",
+      "idx_20261111122916_04.js",
+      "idx_20261111122916_05.js",
+      "idx_20261111122916_06.js",
+      "idx_20261111122916_07.js",
+      "idx_20261111122916_08.js",
+      "idx_20261111122916_09.js",
+      "idx_20261111122916_10.js",
+      "idx_20261111122916_11.js",
+      "idx_20261111122916_12.js",
+      "idx_20261111000000_99.js"
+    ],
+    "directory_rows": 74987,
+    "selected_ids": 2000,
+    "missing": []
+  },
+  "compatibility": {
+    "complete": true,
+    "records": 8,
+    "prompt_matches": 8,
+    "errors": [],
+    "inputFiles": [
+      "film_repo/d1/compat_selected_2000_20261111.js",
+      "film_repo/d2/compat_selected_2000_20261111.js",
+      "film_repo/d1_idx/idx_20261111000000_99.js",
+      "film_repo/d2_idx/idx_20261111000000_99.js",
+      "batch2/compat_restore/records.json"
+    ]
+  },
+  "inputs": {
+    "batch2/deferred.json": "69f19a9cff9fe0b2ba0b775c20165fee8161207a9f5a2ea2ba40f5a4357abfcd",
+    "prompts_1000.jsonl": "de9796c329567c79c46f91e50ad41a68302af6e2cd0f2c1cb299ba11054212b6",
+    "batch2/prompts_1001_2000.jsonl": "2df43b92069f55111bb1bff702f6297edf7a16f1d1956b4f11d0276b686b6971",
+    "batch2/generation_ledger.jsonl": "39c5ccb71365a4d2e772b08214d7cecd6c8f924c7b47513245e7ab7b38cdebb0",
+    "batch2/output/manifest.json": "cac8b9ad48a7d4912b00f69a36bc104f85b5860634272a0c1fd3174f2c3e0526",
+    "batch2/output/qa/image-audit.json": "eb41003d14354cdbe79ff0096950549cbbfb652ae6d28620472143ae11256e44",
+    "batch2/output/qa/visual-review.json": "3b4e37412ea94389916dd824e30349a53c77c80d49625397a877d813a098d6d3",
+    "batch2/output/history-ai/manifest.js": "313695537f230d07dfc5c5be190513da2d5547399ad22914ef2f0f3d999a07d0",
+    "history_output/manifest.json": "3438c331932ad0a5a88d2a7c87857567791216a9dc1e4c5c6c0eaf0029a179fc",
+    "history_output/qa/image-audit.json": "c1acdaa872c0dce9dadfb644b01375b0ab813a95cb643de1f9440b8f9e18ca63",
+    "film_repo/.github/workflows/pages.yml": "0447721ed84b78d77c04e45e38748fb9284cccb0fa3d529227147e634efb22fd",
+    "film_repo/d1_idx/idx_20261111122916_00.js": "01f0c947a44236d0a8f1973b8134d7be098290a9e7e2ade22a800ebb24d07211",
+    "film_repo/d1_idx/idx_20261111122916_01.js": "74bfacf723a6b83e37a6effbc972d49c26b68ac3df5171f8cd87e3bd2ec0023f",
+    "film_repo/d1_idx/idx_20261111122916_02.js": "8c925e8a6bae9fc1c31df2b933a90aa6c8d42c303eae9d447b6c389d6730b41e",
+    "film_repo/d1_idx/idx_20261111122916_03.js": "72fa5139b776c668faaa2c431cef4f77b5b7ae4ef8ce76fe94445d2890d732f9",
+    "film_repo/d1_idx/idx_20261111122916_04.js": "aa2b9f847779413008673fe4dc18a96f72fac4658fb3791945f31563709efabd",
+    "film_repo/d1_idx/idx_20261111122916_05.js": "c5b565af5c82f0bcf32b57025a808166782087765e8c7b6c3c396f7b776ae198",
+    "film_repo/d1_idx/idx_20261111122916_06.js": "954aae927139a2bd91453ac5ec11a1f29b37148d95c5e0daab3c82651d8a1812",
+    "film_repo/d1_idx/idx_20261111122916_07.js": "7ae887021a1f43e6beca686a1cfb3677cb576207e7e8d40e087f355ec4578b15",
+    "film_repo/d1_idx/idx_20261111122916_08.js": "4f7ca7e24fc3505b3a0306bba1bae7e07afc9714f2d9ed671bcff4e66d1a051e",
+    "film_repo/d1_idx/idx_20261111122916_09.js": "f7e19f6eb40457c5549d0d1383307fb45fd06a515c62be30c47af9150e5e4e94",
+    "film_repo/d1_idx/idx_20261111122916_10.js": "ee1f9f2dd719522c56fad5d7ac501064408942af333119b5cdcca5b552c5b940",
+    "film_repo/d1_idx/idx_20261111122916_11.js": "f4f0ce1cbe9842e88b2f2769f49f88523b94cd16cca9f300616d6d763c73ac57",
+    "film_repo/d1_idx/idx_20261111122916_12.js": "0ab50016d213d9b3bb9b13da102bcb5e272bb148c8887c7bbc0e4395910daa16",
+    "film_repo/d1_idx/idx_20261111000000_99.js": "00f5b651eeece737280e0d7ae886dd7eb740dc32f9129f62ac4ba71df5912b72",
+    "film_repo/d1/compat_selected_2000_20261111.js": "919efcf30362a289a6c8b327da14d7705f49d6cfcea0d46cbc892843ca723480",
+    "film_repo/d2/compat_selected_2000_20261111.js": "919efcf30362a289a6c8b327da14d7705f49d6cfcea0d46cbc892843ca723480",
+    "film_repo/d2_idx/idx_20261111000000_99.js": "00f5b651eeece737280e0d7ae886dd7eb740dc32f9129f62ac4ba71df5912b72",
+    "batch2/compat_restore/records.json": "0d5acdc43eeff33303e706d5c9240570ac6510d8d40333d50ce0a050a79ba1e1"
+  },
+  "checks": [
+    {
+      "name": "Immutable source prompts preserved",
+      "pass": true,
+      "details": {
+        "expected": "2df43b92069f55111bb1bff702f6297edf7a16f1d1956b4f11d0276b686b6971"
+      }
+    },
+    {
+      "name": "Original first-batch prompt set preserved",
+      "pass": true,
+      "details": {
+        "expected": "de9796c329567c79c46f91e50ad41a68302af6e2cd0f2c1cb299ba11054212b6"
+      }
+    },
+    {
+      "name": "Exactly indices 1001 through 2000",
+      "pass": true,
+      "details": {
+        "rows": 1000
+      }
+    },
+    {
+      "name": "1000 unique new IDs without old overlaps",
+      "pass": true,
+      "details": {
+        "ids": 1000
+      }
+    },
+    {
+      "name": "All non-deferred items generated",
+      "pass": true,
+      "details": {
+        "done": 998,
+        "expectedImages": 998,
+        "deferred": [
+          1079,
+          1875
+        ]
+      }
+    },
+    {
+      "name": "Manifest agrees with selected ledger",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "34 batch pages, 30 slots each and final 10 with explicit deferrals",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "All generated originals decode and thumbnails match audited bytes",
+      "pass": true,
+      "details": {
+        "audited": 998,
+        "expectedImages": 998,
+        "errors": []
+      }
+    },
+    {
+      "name": "No duplicate bytes within either batch or across batches",
+      "pass": true,
+      "details": []
+    },
+    {
+      "name": "Every selected image visually reviewed",
+      "pass": true,
+      "details": {
+        "passed": 998,
+        "expectedImages": 998,
+        "pending": []
+      }
+    },
+    {
+      "name": "All generated card mappings match and deferred items have none",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "All 2000 selected project IDs exist in the active directory",
+      "pass": true,
+      "details": {
+        "directory_rows": 74987,
+        "missing": []
+      }
+    },
+    {
+      "name": "Eight restored full records and prompts match historical snapshot",
+      "pass": true,
+      "details": {
+        "complete": true,
+        "records": 8,
+        "prompt_matches": 8,
+        "errors": [],
+        "inputFiles": [
+          "film_repo/d1/compat_selected_2000_20261111.js",
+          "film_repo/d2/compat_selected_2000_20261111.js",
+          "film_repo/d1_idx/idx_20261111000000_99.js",
+          "film_repo/d2_idx/idx_20261111000000_99.js",
+          "batch2/compat_restore/records.json"
+        ]
+      }
+    }
+  ]
+}
