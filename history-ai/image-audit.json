@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-11T04:34:43.378Z",
+  "updated_at": "2026-11-11T05:17:42.953Z",
   "expected": 1996,
   "decoded": 1996,
   "errors": [],
@@ -13076,12 +13076,12 @@
       "decoded": true,
       "width": 1312,
       "height": 1199,
-      "bytes": 2509860,
-      "last_write_ticks": 639299575552423300,
-      "sha256": "4c569dbf3b4543e31c6b55d4d9210cdb50f466427cd8a025a299914b572d0fa8",
-      "thumbnail": "history-ai/thumbnails/001006-HL-SHANG-FA-0093.jpg",
-      "thumbnail_bytes": 77455,
-      "thumbnail_sha256": "06e9686b505943fd23b39988357b47e5c0ac0aae354999b3b7fe47ac4ca196f3"
+      "bytes": 2383864,
+      "last_write_ticks": 639299698149754200,
+      "sha256": "b9643f03c0ca35578a2b6a4454eeaf10a5fab3c373ef2b9b23b1b6407e58e568",
+      "thumbnail": "history-ai/thumbnails/001006-HL-SHANG-FA-0093-b9643f03c0ca.jpg",
+      "thumbnail_bytes": 76426,
+      "thumbnail_sha256": "b76910cb3669e1864910f4a34d56d8f889e09f62cf49f1eb0a693eea7c4428c3"
     },
     {
       "index": 1007,
@@ -13089,12 +13089,12 @@
       "decoded": true,
       "width": 1312,
       "height": 1199,
-      "bytes": 2718440,
-      "last_write_ticks": 639299576539964400,
-      "sha256": "da135504b66081fe9d42fedbab720ee280b4f7a74d425b28ba5f1d11c2383993",
-      "thumbnail": "history-ai/thumbnails/001007-HL-SHANG-FA-0094.jpg",
-      "thumbnail_bytes": 85761,
-      "thumbnail_sha256": "a8cc6634d6cf1d54906705d21840069b04925578de0f2fed09539fa8c44eda0f"
+      "bytes": 2604837,
+      "last_write_ticks": 639299698149754200,
+      "sha256": "b0c9e3da5872fd79d11e6430d8b3ad1394bd7a138f12291ca52458c449a0cc81",
+      "thumbnail": "history-ai/thumbnails/001007-HL-SHANG-FA-0094-b0c9e3da5872.jpg",
+      "thumbnail_bytes": 88186,
+      "thumbnail_sha256": "228330838353013de951a640499bd42bef8c69052f71975cdbed922b5d3a4a55"
     },
     {
       "index": 1008,
@@ -13115,12 +13115,12 @@
       "decoded": true,
       "width": 1312,
       "height": 1199,
-      "bytes": 2570903,
-      "last_write_ticks": 639299577628052100,
-      "sha256": "dc6b0782f07c274d87c8ee0369fa9f4b48823a191279cc1641779baf6c2d24ea",
-      "thumbnail": "history-ai/thumbnails/001009-HL-SHANG-FA-0096.jpg",
-      "thumbnail_bytes": 74857,
-      "thumbnail_sha256": "ae814ed7dd03324d519328b5e26984b11724efa5006bcea756f049833f67e431"
+      "bytes": 2486228,
+      "last_write_ticks": 639299701682356600,
+      "sha256": "ec0a1eb29a711e63686cb3864ca1352996aa21d3069f4a7fdcdde993b0a04aee",
+      "thumbnail": "history-ai/thumbnails/001009-HL-SHANG-FA-0096-ec0a1eb29a71.jpg",
+      "thumbnail_bytes": 77222,
+      "thumbnail_sha256": "32c537c789970babcdd9ae2d7e60af0704e6e6cf7e6ae7e3ead79105c8e9674b"
     },
     {
       "index": 1010,
@@ -13128,12 +13128,12 @@
       "decoded": true,
       "width": 1672,
       "height": 941,
-      "bytes": 3172687,
-      "last_write_ticks": 639299579440949100,
-      "sha256": "0ef69070fcbf4aee1aa24f1aef8a371b1db2eb82165feb38aaae5c1628cde9aa",
-      "thumbnail": "history-ai/thumbnails/001010-HT-N20261029-G026.jpg",
-      "thumbnail_bytes": 100117,
-      "thumbnail_sha256": "c4da750ead40e19620a92d9c7e22a7f5ed727e342e853419698da64555343cc6"
+      "bytes": 2703379,
+      "last_write_ticks": 639299702022867000,
+      "sha256": "7ac8e6dfd703853173a0eba79c000f1556f5e08ec38fc0d93d573b9f84b4df0a",
+      "thumbnail": "history-ai/thumbnails/001010-HT-N20261029-G026-7ac8e6dfd703.jpg",
+      "thumbnail_bytes": 93914,
+      "thumbnail_sha256": "7f01175af2461249a8774597bb087a88c22dd2f4e1cc0963ae6fbf0c43f3f865"
     },
     {
       "index": 1011,
@@ -13193,12 +13193,12 @@
       "decoded": true,
       "width": 1672,
       "height": 941,
-      "bytes": 2915033,
-      "last_write_ticks": 639299580343140700,
-      "sha256": "a41337b4d9ce7ab49f8841712408604aa67ad7595ddb0ab2cd94833386451118",
-      "thumbnail": "history-ai/thumbnails/001015-HT-N20261105-G007.jpg",
-      "thumbnail_bytes": 91504,
-      "thumbnail_sha256": "100879d371e8dafc3383a949c80a1f4d937a3753b1d26746f76b37b075d11e18"
+      "bytes": 2540888,
+      "last_write_ticks": 639299701486720800,
+      "sha256": "fabb2e6e08e20a9ac8df0316c09eb334e0cc43136bad6a928a5dcf7fd9ab4f9d",
+      "thumbnail": "history-ai/thumbnails/001015-HT-N20261105-G007-fabb2e6e08e2.jpg",
+      "thumbnail_bytes": 86580,
+      "thumbnail_sha256": "664c3fc9c2770d070430d5f6eb81b9b01cbb252015dd4166474355340d3ae73c"
     },
     {
       "index": 1016,
@@ -13258,12 +13258,12 @@
       "decoded": true,
       "width": 1199,
       "height": 1312,
-      "bytes": 2913016,
-      "last_write_ticks": 639299579440928800,
-      "sha256": "975f6669a285bd7112d89353bf854bfcd16f4da836750bb3db231455c165085c",
-      "thumbnail": "history-ai/thumbnails/001020-HL-SHANG-AC-0014.jpg",
-      "thumbnail_bytes": 98958,
-      "thumbnail_sha256": "1f27b1f8682faae4c173fb63671029a0d872d6833378b2d50dc2d3c4e81c39f3"
+      "bytes": 2708580,
+      "last_write_ticks": 639299702023128800,
+      "sha256": "a5b8f07992c29cbfee78f32efae0d2179f82f0b9a4307bfea558119705124ec5",
+      "thumbnail": "history-ai/thumbnails/001020-HL-SHANG-AC-0014-a5b8f07992c2.jpg",
+      "thumbnail_bytes": 94212,
+      "thumbnail_sha256": "2e99dd0a1b0488f6a86d0d16d4e020465ba4fbeff80d7ddd80e84d0fb8938e68"
     },
     {
       "index": 1021,
@@ -13310,12 +13310,12 @@
       "decoded": true,
       "width": 1024,
       "height": 1536,
-      "bytes": 2150323,
-      "last_write_ticks": 639299582842660200,
-      "sha256": "3082675d6d82073e80350556382fddd5ebf632a0cf8455265a008429144f79a6",
-      "thumbnail": "history-ai/thumbnails/001024-HL-SHANG-CO-0010.jpg",
-      "thumbnail_bytes": 36802,
-      "thumbnail_sha256": "1b55701e4fb86e13c3a37b60bff51cea38496c3a130b626373f82de79bb56f5b"
+      "bytes": 2002105,
+      "last_write_ticks": 639299702026759000,
+      "sha256": "f8468b780c9a30df483d0c725d2926538051762800e0a5d02e34f2fca51b34dd",
+      "thumbnail": "history-ai/thumbnails/001024-HL-SHANG-CO-0010-f8468b780c9a.jpg",
+      "thumbnail_bytes": 36479,
+      "thumbnail_sha256": "adf054aceb8da9dbc0ae17ff6946ca38f74845484b817d0c2d454a85d3f048d3"
     },
     {
       "index": 1025,
@@ -13323,12 +13323,12 @@
       "decoded": true,
       "width": 1024,
       "height": 1536,
-      "bytes": 2314449,
-      "last_write_ticks": 639299583062907400,
-      "sha256": "88d05286fc5a296402f9b296345d78d6bacf62b3e270594509b877887133641a",
-      "thumbnail": "history-ai/thumbnails/001025-HL-SHANG-CO-0011.jpg",
-      "thumbnail_bytes": 40121,
-      "thumbnail_sha256": "51b85a26560c79144a21b252ef65414ebaa2765af97ddd698c7871a7db269b83"
+      "bytes": 2098648,
+      "last_write_ticks": 639299702030471400,
+      "sha256": "7c2157c062b45751a8449be6e1006dceabb4d0481b3f3b208185ee80ca267358",
+      "thumbnail": "history-ai/thumbnails/001025-HL-SHANG-CO-0011-7c2157c062b4.jpg",
+      "thumbnail_bytes": 37720,
+      "thumbnail_sha256": "33897841ea0fad6b03f78672564e74e66ebd8f2ccb9cdadef8066b2cd5b8ab38"
     },
     {
       "index": 1026,
@@ -13505,12 +13505,12 @@
       "decoded": true,
       "width": 1024,
       "height": 1536,
-      "bytes": 2131569,
-      "last_write_ticks": 639299581914304000,
-      "sha256": "9a79049790c17d9c967032d8346fecb7e9e7160c62bd76b5d218909875fd762d",
-      "thumbnail": "history-ai/thumbnails/001039-HL-SHANG-CO-0048.jpg",
-      "thumbnail_bytes": 34739,
-      "thumbnail_sha256": "330070a8860f61ca24cf31505c54620d832bffe434ea14d50ac732675be8b665"
+      "bytes": 1938747,
+      "last_write_ticks": 639299702295533600,
+      "sha256": "35474623e24a256dfae31671e89a415d547c0ca175bb7d3c53a20b39eb573aac",
+      "thumbnail": "history-ai/thumbnails/001039-HL-SHANG-CO-0048-35474623e24a.jpg",
+      "thumbnail_bytes": 33589,
+      "thumbnail_sha256": "840ac67b766b22348902bdb60dae5fa2857ab92f2701559afec4b70881f9678a"
     },
     {
       "index": 1040,
