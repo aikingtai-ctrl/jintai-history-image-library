@@ -17,9 +17,14 @@ function arg(name, fallback) {
 
 const page = Math.max(1, Number(arg('page', '1')) || 1);
 const count = Math.max(1, Math.min(100, Number(arg('count', '100')) || 100));
-const concurrency = Math.max(1, Math.min(5, Number(arg('concurrency', '3')) || 3));
+const startIndex = Number(arg('start-index', '0'));
+const endIndex = Number(arg('end-index', '0'));
+const concurrency = Math.max(1, Math.min(8, Number(arg('concurrency', '3')) || 3));
 const force = process.argv.includes('--force');
 const dryRun = process.argv.includes('--dry-run');
+if (startIndex && (!Number.isInteger(startIndex) || !Number.isInteger(endIndex) || endIndex < startIndex || endIndex - startIndex >= 500)) {
+  throw new Error('Use a valid --start-index/--end-index range of at most 500 works.');
+}
 
 function parseWorks() {
   if (fs.existsSync(VISUAL_WORKS_PATH)) {
@@ -60,7 +65,7 @@ function promptFor(work, record) {
   return [
     'Create one original cinematic reference image in a 16:9 frame based on the first-shot description below.',
     'Preserve the described subject, setting, composition, lighting, color, camera angle, and mood.',
-    'Do not reproduce any existing film frame, actor likeness, logo, title, credits, watermark, or readable text.',
+    'Do not reproduce any existing film frame, actor likeness, logo, title, credits, watermark, or readable text. Film names are metadata, not text to render.',
     `Film: ${work.t || ''} (${work.y || ''})${work.te ? ` / ${work.te}` : ''}`,
     `First-shot description: ${shot}`
   ].join('\n');
@@ -72,7 +77,7 @@ async function generate(prompt) {
   const response = await fetch('https://api.openai.com/v1/images/generations', {
     method: 'POST',
     headers: { 'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ model: MODEL, prompt, size: '1536x1024', quality: 'medium', output_format: 'webp', output_compression: 82, background: 'opaque' })
+    body: JSON.stringify({ model: MODEL, prompt, size: '1536x864', quality: 'medium', output_format: 'webp', output_compression: 72, background: 'opaque' })
   });
   const body = await response.json().catch(() => ({}));
   if (!response.ok) {
@@ -101,12 +106,16 @@ if (!dryRun && !process.env.OPENAI_API_KEY) {
 }
 
 const works = parseWorks().slice().sort((a, b) => Number(b.y || 0) - Number(a.y || 0) || Number(b.n || 0) - Number(a.n || 0));
-const slice = works.slice((page - 1) * count, page * count);
+const slice = startIndex ? works.slice(startIndex - 1, endIndex) : works.slice((page - 1) * 100, (page - 1) * 100 + count);
 const manifest = readManifest();
 fs.mkdirSync(IMAGE_DIR, { recursive: true });
-if (!slice.length) throw new Error(`No works found for page ${page}.`);
+if (!slice.length) throw new Error('No works found for the selected range.');
+const newline = fs.existsSync(MANIFEST_PATH) && fs.readFileSync(MANIFEST_PATH, 'utf8').includes('\r\n') ? '\r\n' : '\n';
+function saveManifest() {
+  fs.writeFileSync(MANIFEST_PATH, `window.FILM_AI_IMAGES=${JSON.stringify(manifest, null, 2).replace(/\n/g, newline)};${newline}`, 'utf8');
+}
 
-console.log(`Selected ${slice.length} works for page ${page}; concurrency=${concurrency}; force=${force}; dryRun=${dryRun}`);
+console.log(`Selected ${slice.length} works for ${startIndex ? `positions ${startIndex}-${endIndex}` : `page ${page}`}; concurrency=${concurrency}; force=${force}; dryRun=${dryRun}`);
 if (dryRun) {
   for (const work of slice) console.log(`${work.wid}\t${work.t}\t${readFirstRecord(work.wid)?.id || 'missing-first-shot'}`);
   process.exit(0);
@@ -120,14 +129,20 @@ const worker = async () => {
     const existing = manifest[work.wid] ? path.join(ROOT, manifest[work.wid]) : null;
     const target = path.join(IMAGE_DIR, `${work.wid}.webp`);
     if (!force && existing && fs.existsSync(existing)) { completed++; continue; }
+    if (!force && fs.existsSync(target)) {
+      manifest[work.wid] = `film-ai/${work.wid}.webp`;
+      saveManifest();
+      completed++;
+      continue;
+    }
     const record = readFirstRecord(work.wid);
     const bytes = await generateWithRetry(promptFor(work, record));
     fs.writeFileSync(target, bytes);
     manifest[work.wid] = `film-ai/${work.wid}.webp`;
+    saveManifest();
     completed++;
     console.log(`[${completed}/${slice.length}] ${work.t} -> ${path.basename(target)}`);
   }
 };
 await Promise.all(Array.from({ length: Math.min(concurrency, slice.length) }, worker));
-fs.writeFileSync(MANIFEST_PATH, `window.FILM_AI_IMAGES=${JSON.stringify(manifest, null, 2)};\n`, 'utf8');
 console.log(`Generated/kept ${completed} images. Manifest updated: ${MANIFEST_PATH}`);
