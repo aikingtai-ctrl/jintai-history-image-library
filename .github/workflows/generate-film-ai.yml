@@ -71,6 +71,9 @@ jobs:
           if [ -n "$INPUT_START_INDEX" ]; then
             args=(--start-index "$INPUT_START_INDEX" --end-index "$INPUT_END_INDEX" --concurrency 8)
           fi
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            args+=(--target-file tools/film-ai-target-3000.txt)
+          fi
           if [ "$INPUT_FORCE" = "true" ]; then args+=(--force); fi
           node tools/generate_film_ai_previews.mjs "${args[@]}"
 

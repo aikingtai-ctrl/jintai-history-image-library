@@ -19,12 +19,14 @@ const page = Math.max(1, Number(arg('page', '1')) || 1);
 const count = Math.max(1, Math.min(100, Number(arg('count', '100')) || 100));
 const startIndex = Number(arg('start-index', '0'));
 const endIndex = Number(arg('end-index', '0'));
+const targetFile = arg('target-file', '');
 const concurrency = Math.max(1, Math.min(8, Number(arg('concurrency', '3')) || 3));
 const force = process.argv.includes('--force');
 const dryRun = process.argv.includes('--dry-run');
 if (startIndex && (!Number.isInteger(startIndex) || !Number.isInteger(endIndex) || endIndex < startIndex || endIndex - startIndex >= 500)) {
   throw new Error('Use a valid --start-index/--end-index range of at most 500 works.');
 }
+if (targetFile && !startIndex) throw new Error('--target-file requires --start-index and --end-index.');
 
 function parseWorks() {
   if (fs.existsSync(VISUAL_WORKS_PATH)) {
@@ -106,7 +108,11 @@ if (!dryRun && !process.env.OPENAI_API_KEY) {
 }
 
 const works = parseWorks().slice().sort((a, b) => Number(b.y || 0) - Number(a.y || 0) || Number(b.n || 0) - Number(a.n || 0));
-const slice = startIndex ? works.slice(startIndex - 1, endIndex) : works.slice((page - 1) * 100, (page - 1) * 100 + count);
+const targetIds = targetFile ? fs.readFileSync(targetFile, 'utf8').trim().split(/\r?\n/) : null;
+const byWid = targetIds ? new Map(works.map(work => [work.wid, work])) : null;
+const slice = targetIds
+  ? targetIds.slice(startIndex - 1, endIndex).map(wid => { const work = byWid.get(wid); if (!work) throw new Error(`Missing target work: ${wid}`); return work; })
+  : startIndex ? works.slice(startIndex - 1, endIndex) : works.slice((page - 1) * 100, (page - 1) * 100 + count);
 const manifest = readManifest();
 fs.mkdirSync(IMAGE_DIR, { recursive: true });
 if (!slice.length) throw new Error('No works found for the selected range.');
