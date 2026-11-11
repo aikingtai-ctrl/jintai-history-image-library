@@ -24,6 +24,11 @@ on:
         required: true
         type: boolean
         default: false
+      target_batch:
+        description: "继续固定的 3000 部作品清单"
+        required: true
+        type: boolean
+        default: true
   schedule:
     - cron: "*/15 * * * *"
 
@@ -51,34 +56,35 @@ jobs:
           node-version: 22
 
       - name: Select next scheduled range
-        if: github.event_name == 'schedule'
+        if: github.event_name == 'schedule' || inputs.target_batch == true
         id: choose
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node tools/select_next_film_ai_range.mjs
 
       - name: Generate images
-        if: github.event_name != 'schedule' || steps.choose.outputs.run == 'true'
+        if: steps.choose.outputs.run == 'true' || (github.event_name == 'workflow_dispatch' && inputs.target_batch != true)
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           INPUT_PAGE: ${{ inputs.page }}
           INPUT_COUNT: ${{ inputs.count }}
-          INPUT_START_INDEX: ${{ github.event_name == 'schedule' && steps.choose.outputs.start_index || inputs.start_index }}
-          INPUT_END_INDEX: ${{ github.event_name == 'schedule' && steps.choose.outputs.end_index || inputs.end_index }}
+          INPUT_START_INDEX: ${{ steps.choose.outputs.start_index || inputs.start_index }}
+          INPUT_END_INDEX: ${{ steps.choose.outputs.end_index || inputs.end_index }}
           INPUT_FORCE: ${{ inputs.force }}
+          TARGET_BATCH: ${{ github.event_name == 'schedule' || inputs.target_batch }}
         run: |
           args=(--page "$INPUT_PAGE" --count "$INPUT_COUNT")
           if [ -n "$INPUT_START_INDEX" ]; then
             args=(--start-index "$INPUT_START_INDEX" --end-index "$INPUT_END_INDEX" --concurrency 8)
           fi
-          if [ "${{ github.event_name }}" = "schedule" ]; then
+          if [ "$TARGET_BATCH" = "true" ]; then
             args+=(--target-file tools/film-ai-target-3000.txt)
           fi
           if [ "$INPUT_FORCE" = "true" ]; then args+=(--force); fi
           node tools/generate_film_ai_previews.mjs "${args[@]}"
 
       - name: Commit generated images
-        if: always() && (github.event_name != 'schedule' || steps.choose.outputs.run == 'true')
+        if: always() && (steps.choose.outputs.run == 'true' || (github.event_name == 'workflow_dispatch' && inputs.target_batch != true))
         env:
           GH_TOKEN: ${{ github.token }}
           INPUT_START_INDEX: ${{ inputs.start_index }}
