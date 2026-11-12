@@ -646,7 +646,7 @@ function schem(r,W0){
  if(C.has('引导线')){const hy=Math.max(H*.1,Math.min(H*.55,topY+fh*.1));s+=`<path d="M0 ${H}L${cx} ${hy}M${W} ${H}L${cx} ${hy}M0 ${H*.1}L${cx} ${hy}M${W} ${H*.1}L${cx} ${hy}" stroke="${light}" stroke-opacity=".25" stroke-width="2" fill="none"/>`;}
  s+=`<text x="${W-10}" y="${H-10}" text-anchor="end" font-size="${Math.max(13,W/34)}" fill="#fff" fill-opacity=".45" font-family="Arial">${esc(r.W.ar||'1.85:1')}</text></svg>`;
  return s;}
-function shotImageSrc(id){const rel=(window.FILM_SHOT_IMAGES||{})[id];if(!rel)return'';const rev=window.FILM_SHOT_ASSET_REV||'main';return /github\.io$/i.test(location.hostname||'')?`https://cdn.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@${rev}/${rel}`:rel;}
+function shotImageSrc(id){const rel=(window.FILM_SHOT_IMAGES||{})[id];if(!rel)return'';const rev=window.FILM_SHOT_ASSET_REV||'main';return /github\.io$/i.test(location.hostname||'')?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/${rev}/${rel}`:rel;}
 function visual(r,W,big){const f=frOf(r);if(f)return`<img loading="lazy" src="${FRAME_DIR}/${esc(big?f.f:f.t)}" alt="${esc(r.W.t)} 截帧">`;const ai=shotImageSrc(r.id);if(ai)return`<img loading="lazy" src="${esc(ai)}" alt="${esc(r.W.t)} · ${esc(r.sc||'')}，AI 原创参考画面">`;return r.origin==='visual'?sourceVisual(r):schem(r,W);}
 function palHTML(r){const p=palOf(r);return p.length?`<div class="pal">${p.map(c=>`<span style="background:${c}"></span>`).join('')}</div>`:'<div class="pal pal-empty" title="色板待测"></div>';}
 /* ---------- 智能搜索 ---------- */
