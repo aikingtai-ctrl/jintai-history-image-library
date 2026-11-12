@@ -3,6 +3,10 @@ name: Deploy GitHub Pages (Lean Shell + Active Index)
 on:
   push:
     branches: ["main"]
+    paths-ignore:
+      - "film-ai/shots/**"
+      - "film-ai/shots-manifest.js"
+      - "film-ai/shots-ledger-26.jsonl"
   workflow_dispatch:
 
 permissions:
