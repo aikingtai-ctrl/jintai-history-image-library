@@ -1,12 +1,15 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import { spawnSync } from 'node:child_process';
 
 const ROOT = process.cwd();
 const TARGETS = path.join(ROOT, 'film-ai', 'shot-targets-20261112.json');
 const OUT = path.join(ROOT, 'film-ai', 'shots');
 const MANIFEST = path.join(ROOT, 'film-ai', 'shots-manifest.js');
 const LEDGER = path.join(ROOT, 'film-ai', 'shots-ledger-26.jsonl');
+const GENERATED = path.join(ROOT, 'film-ai', 'generated-shots-26.json');
+const FAILURES = path.join(ROOT, 'film-ai', 'failed-shots-26.json');
 const MODEL = 'gpt-image-2.6-sunburst';
 
 function argument(name, fallback) {
@@ -28,19 +31,29 @@ const selected = targets.slice(start - 1, start - 1 + count);
 if (selected.length !== count) throw new Error('Requested range extends beyond target list.');
 fs.mkdirSync(OUT, { recursive: true });
 const previous = fs.existsSync(LEDGER) ? fs.readFileSync(LEDGER, 'utf8').split(/\r?\n/).filter(Boolean).map(line => JSON.parse(line)) : [];
-const accepted = new Map(previous.filter(row => row.model === MODEL).map(row => [row.id, row]));
+const standardSizes = new Set(['1024x1024', '1536x1024', '1024x1536']);
+if (!dryRun && count > 1 && !previous.some(row => row.model === MODEL && row.requested_size && !standardSizes.has(row.requested_size) && row.sha256)) {
+  throw new Error('Run a single custom-size GPT Image 2.6 Sunburst smoke image before a multi-image batch.');
+}
+const isAcceptedModel = row => row.model === MODEL || row.model_family === 'Images 2.6';
+const accepted = new Map(previous.filter(isAcceptedModel).map(row => [row.id, row]));
 const sha256 = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const relative = id => `film-ai/shots/${id}.webp`;
 
 function isWebp(bytes) {
   return bytes.length > 2048 && bytes.toString('ascii', 0, 4) === 'RIFF' && bytes.toString('ascii', 8, 12) === 'WEBP';
 }
+function targetRatio(value) {
+  const match = String(value || '').match(/(\d+(?:\.\d+)?)\s*:\s*(\d+(?:\.\d+)?)/);
+  if (match) return Number(match[1]) / Number(match[2]);
+  const numeric = Number(value);
+  return Number.isFinite(numeric) && numeric >= 1 / 3 && numeric <= 3 ? numeric : 16 / 9;
+}
 function imageSize(ratio) {
-  const r = Number.parseFloat(ratio) || 1.7778;
-  if (r < 1.4) return r < 1.35 ? '1280x960' : '1312x960';
-  if (r > 2.2) return '1536x640';
-  if (r > 1.8) return '1488x800';
-  return '1536x864';
+  const r = targetRatio(ratio);
+  const width = r < 1.4 ? 1280 : 1536;
+  const height = Math.max(16, Math.round((width / r) / 16) * 16);
+  return `${width}x${height}`;
 }
 function promptFor(target) {
   return [
@@ -54,7 +67,7 @@ function promptFor(target) {
 }
 function validAccepted(target) {
   const row = accepted.get(target.id);
-  if (!row || row.model !== MODEL) return false;
+  if (!row || !isAcceptedModel(row)) return false;
   const file = path.join(ROOT, relative(target.id));
   if (!fs.existsSync(file)) return false;
   const bytes = fs.readFileSync(file);
@@ -76,6 +89,15 @@ if (dryRun) {
 }
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+function verifyImage(file, ratio) {
+  const code = 'from PIL import Image; import sys; im=Image.open(sys.argv[1]); im.load(); w,h=im.size; assert im.format=="WEBP" and w>100 and h>100; print(w,h)';
+  const result = spawnSync('python3', ['-c', code, file], { encoding: 'utf8' });
+  if (result.status !== 0) throw new Error(`WebP decode failed: ${result.stderr.trim()}`);
+  const [width, height] = result.stdout.trim().split(/\s+/).map(Number);
+  const expected = targetRatio(ratio);
+  if (Math.abs(width / height / expected - 1) > 0.12) throw new Error(`Wrong aspect ratio ${width}x${height}; expected ${ratio || '16:9'}`);
+  return { width, height };
+}
 async function requestImage(target, prompt) {
   const size = imageSize(target.aspect_ratio);
   const body = { model: MODEL, prompt, size, quality: 'medium', complexity: 'medium', output_format: 'webp', output_compression: 78, background: 'opaque', n: 1 };
@@ -108,6 +130,7 @@ async function requestImage(target, prompt) {
 
 let cursor = 0;
 const failures = [];
+const generatedIds = [];
 const worker = async () => {
   while (cursor < selected.length) {
     const localIndex = cursor++;
@@ -123,26 +146,40 @@ const worker = async () => {
       const file = path.join(ROOT, relative(target.id));
       const tmp = `${file}.${process.pid}.tmp`;
       fs.writeFileSync(tmp, generated.bytes);
+      let dimensions;
+      try {
+        dimensions = verifyImage(tmp, target.aspect_ratio);
+      } catch (error) {
+        fs.rmSync(tmp, { force: true });
+        throw error;
+      }
       fs.renameSync(tmp, file);
       const row = {
         id: target.id, position: start + localIndex, title: target.title, model: MODEL,
-        endpoint: '/v1/images/generations', size: generated.size, quality: 'medium', complexity: 'medium',
+        endpoint: '/v1/images/generations', size: generated.size, requested_size: imageSize(target.aspect_ratio),
+        quality: 'medium', complexity: 'medium',
         prompt_sha256: sha256(Buffer.from(prompt)), sha256: sha256(generated.bytes),
-        bytes: generated.bytes.length, request_id: generated.requestId, usage: generated.usage,
+        bytes: generated.bytes.length, width: dimensions.width, height: dimensions.height,
+        request_id: generated.requestId, usage: generated.usage,
         created_at: new Date().toISOString(),
       };
       fs.appendFileSync(LEDGER, `${JSON.stringify(row)}\n`, 'utf8');
       accepted.set(target.id, row);
+      generatedIds.push(target.id);
       const mapped = saveManifest();
       console.log(`[${start + localIndex}/${targets.length}] accepted ${target.id} ${generated.bytes.length} bytes mapped=${mapped}`);
     } catch (error) {
-      failures.push(target.id);
+      failures.push({ id: target.id, position: start + localIndex, error: String(error.message) });
       console.error(`[failed] ${target.id}: ${error.message}`);
     }
   }
 };
 await Promise.all(Array.from({ length: Math.min(concurrency, selected.length) }, worker));
+const positionById = new Map(selected.map((target, index) => [target.id, index]));
+generatedIds.sort((a, b) => positionById.get(a) - positionById.get(b));
+failures.sort((a, b) => a.position - b.position);
+fs.writeFileSync(GENERATED, JSON.stringify(generatedIds) + '\n', 'utf8');
+fs.writeFileSync(FAILURES, JSON.stringify(failures) + '\n', 'utf8');
 if (failures.length) {
-  console.error(`Failed ${failures.length} shot(s): ${failures.join(', ')}`);
-  process.exitCode = 1;
+  console.error(`Failed ${failures.length} shot(s); successful images remain publishable. Retry failed positions from ${FAILURES}.`);
 }
