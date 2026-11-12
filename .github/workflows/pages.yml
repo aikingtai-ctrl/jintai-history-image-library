@@ -88,6 +88,12 @@ jobs:
               total_bytes += src.stat().st_size
               shutil.move(str(src), str(dst))
 
+          shots_manifest = site / "film-ai" / "shots-manifest.js"
+          if shots_manifest.exists():
+              revision = git_bytes("rev-parse", "HEAD").decode("ascii").strip()
+              with shots_manifest.open("a", encoding="utf-8") as handle:
+                  handle.write(f"\nwindow.FILM_SHOT_ASSET_REV='{revision}';\n")
+
           (site / ".nojekyll").write_text("", encoding="utf-8")
           print(f"Staged {len(selected)} files into _site ({total_bytes / (1024*1024):.2f} MiB)")
           PY
