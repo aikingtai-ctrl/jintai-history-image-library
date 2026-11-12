@@ -225,7 +225,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
    <a class="back-link" href="portal.html">← 总入口</a>
    <span class="sep">·</span>
    <strong>影视参考图集</strong>
-   <span class="kpi"><b id="sW">35,000</b> 部 · <b id="sS">1,746,289</b> 镜</span>
+   <span class="kpi"><b id="sW">35,000</b> 部 · <b id="sS">1,746,329</b> 镜</span>
   </div>
   <nav class="tabs">
    <button type="button" data-tab="find" class="on">找画面</button>
@@ -270,7 +270,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
  <details class="meta-fold">
   <summary>库况统计与收录说明</summary>
   <p id="sourceStats" hidden></p>
-  <p>本机截帧 <b id="sF">0</b> 张 · <span id="sUpdated">更新于 2026-11-12 10:02</span><span id="sOrigin"></span><span id="sNew"></span></p>
+  <p>本机截帧 <b id="sF">0</b> 张 · <span id="sUpdated">更新于 2026-11-12 10:57</span><span id="sOrigin"></span><span id="sNew"></span></p>
   <p id="workGoal"></p>
   <p id="descriptionGoal"></p>
  </details>
@@ -1645,12 +1645,12 @@ function selectRepresentativeShards(idxShards){if(idxShards.length<=32)return id
  return picked;}
 $('retryLoad').onclick=()=>location.reload();
 (async function init(){let sourceSummary,visualLoadFailed=false;try{
- const summaryReady=loadScript(D4_DIR+'/summary.js?v=2daa35634add',true);if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
+ const summaryReady=loadScript(D4_DIR+'/summary.js?v=437bd883a487',true);if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
  for(const s of SHARDS.filter(x=>x.era!=='__detail__'))if(!await loadScript(DATA_DIR+'/'+s.file))visualLoadFailed=true;
  await summaryReady;sourceSummary=window.FILM_SOURCE_SUMMARY;if(sourceSummary){if(sourceSummary.version)SOURCE_VERSION=sourceSummary.version;$('sourceStats').hidden=false;$('sourceStats').innerHTML=`<b>${sourceSummary.catalogue_works.toLocaleString()}</b> 部作品目录 · <b>${sourceSummary.frame_references.toLocaleString()}</b> 条有来源画面参考${sourceSummary.prompt_records?` · <b>${sourceSummary.prompt_records.toLocaleString()}</b> 条镜头提示词（${sourceSummary.prompt_works.toLocaleString()} 部）`:""}${sourceSummary.award_works?` · <b>${sourceSummary.award_works.toLocaleString()}</b> 部获奖 · <b>${sourceSummary.classic_works.toLocaleString()}</b> 部经典榜单`:''} · <a href="sources.html">逐片镜头提示词与来源 →</a>`;}
  saveDecks();saveCmp();readShared();refreshLoaded(sourceSummary,visualLoadFailed);
  $('loadStatus').textContent=' · 正在载入全库作品目录与自动图集…';
- if(!await loadScript(DATA_DIR+'/vmanifest.js?v=4150117ff0ff691c',true))visualLoadFailed=true;
+ if(!await loadScript(DATA_DIR+'/vmanifest.js?v=77ce4773ed7c261d',true))visualLoadFailed=true;
  const visualManifest=window.FILM_VISUAL_MANIFEST;
  if(visualManifest){VISUAL_MANIFEST=Array.isArray(visualManifest)?visualManifest:visualManifest.shards||visualManifest.manifest||[];VISUAL_VERSION=visualManifest.version||sourceSummary?.version||'';
   const workShard=VISUAL_MANIFEST.find(x=>x.era==='__visual_works__');
@@ -1659,8 +1659,8 @@ $('retryLoad').onclick=()=>location.reload();
   else{
    refreshLoaded(sourceSummary,visualLoadFailed);
    await Promise.all([
-    loadScript(DATA_DIR+'/vfingerprints.js?v=c0400c735944',true),
-    loadScript(DATA_DIR+'/vdecks.js?v=c0400c735944',true)
+    loadScript(DATA_DIR+'/vfingerprints.js?v=cbefbe037166',true),
+    loadScript(DATA_DIR+'/vdecks.js?v=cbefbe037166',true)
    ]);
    ingestAutoBundles();
    refreshLoaded(sourceSummary,visualLoadFailed);
