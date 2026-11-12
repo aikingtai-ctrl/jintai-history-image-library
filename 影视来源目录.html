@@ -117,7 +117,7 @@ dialog::backdrop{background:#000c}
    <a class="back-link" href="portal.html">总入口</a>
    <span class="sep">·</span>
    <strong>影视提示词与来源目录</strong>
-   <span class="kpi" id="topKpi"><b>37,000</b> 部 · <b>1,860,134</b> 镜</span>
+   <span class="kpi" id="topKpi"><b>37,000</b> 部 · <b>1,860,174</b> 镜</span>
   </div>
   <nav class="topnav">
    <a href="index.html">历史图库</a>
@@ -176,7 +176,7 @@ dialog::backdrop{background:#000c}
  <div class="grid" id="grid"></div>
  <div class="pager"><button id="first" type="button">首页</button><button id="prev" type="button">上一页</button><span class="page-nums" id="page-nums"></span><span id="page"></span><button id="next" type="button">下一页</button><button id="last" type="button">末页</button><label class="page-jump">页码 <select id="page-select" aria-label="选择页码"></select></label><span class="page-jump">跳至 <input id="page-input" type="number" min="1" value="1" aria-label="输入页码"> 页 <button id="page-go" type="button">跳转</button></span></div>
  <details class="meta-fold">
-  <summary>库况统计与数据说明（37,000部作品 · 1,860,134条镜头描述）</summary>
+  <summary>库况统计与数据说明（37,000部作品 · 1,860,174条镜头描述）</summary>
   <div class="stats" id="stats"></div>
   <p id="prompt-coverage"></p>
   <p id="workGoal"></p>
@@ -191,7 +191,7 @@ dialog::backdrop{background:#000c}
 </main>
 <dialog id="detail"><div class="dialog-head"><h2 id="dtitle"></h2><button id="close" type="button">关闭</button></div><p class="muted" id="dinfo"></p><p id="dsource"></p><p class="notice muted">点击“查看来源画面”到源站查看对应静帧。</p><div class="grid" id="frames"></div><div class="pager"><button id="fprev" type="button">上一页</button><span class="page-nums" id="fpage-nums"></span><span id="fpage"></span><button id="fnext" type="button">下一页</button><label class="page-jump">页码 <select id="fpage-select" aria-label="选择来源画面页码"></select></label></div></dialog>
 <dialog id="pdetail" aria-labelledby="ptitle"><div class="dialog-head"><h2 id="ptitle"></h2><button id="pclose" type="button">关闭</button></div><p class="muted" id="pinfo"></p><p id="pcopy-status" class="prompt-status muted" role="status" aria-live="polite"></p><div class="prompt-list" id="prompts"></div><div class="pager"><button id="pprev" type="button">上一页</button><span class="page-nums" id="ppage-nums"></span><span id="ppage"></span><button id="pnext" type="button">下一页</button><label class="page-jump">页码 <select id="ppage-select" aria-label="选择提示词页码"></select></label></div></dialog>
-<script src="影视来源目录_data/summary.js?v=efae6ff4bbe8"></script><script src="影视来源目录_data/catalogue.js?v=efae6ff4bbe8"></script>
+<script src="影视来源目录_data/summary.js?v=3637952ff342"></script><script src="影视来源目录_data/catalogue.js?v=3637952ff342"></script>
 <script>
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>{try{const p=new URL(u);return ['http:','https:'].includes(p.protocol)?p.href:'';}catch{return '';}};
@@ -352,4 +352,4 @@ function initSourcesUI(){
  const priorityWorks=WORKS.filter(w=>awards(w).length||classics(w).length),priorityPromptWorks=S.priority_prompt_works??priorityWorks.filter(w=>promptCount(w)>0).length,priorityPending=S.priority_prompt_pending_works??priorityWorks.filter(w=>!promptCount(w)).length,visualWorks=S.visual_prompt_works??WORKS.filter(w=>visualPromptCount(w)>0).length;$('prompt-coverage').textContent=`获奖／经典影片：${priorityPromptWorks.toLocaleString()} 部已有提示词，${priorityPending.toLocaleString()} 部仍待补。来源观图提示词覆盖 ${visualWorks.toLocaleString()} 部，既有笔记的逐帧来源与核验状态见详情。`;
  if($('cineGuild'))options('cineGuild',WORKS.flatMap(cineSystems),'全部摄影权威体系（140大）');options('festival',WORKS.flatMap(w=>awards(w).map(a=>a.festival)),'全部电影节／大奖');awardOptions();options('classic',WORKS.flatMap(w=>classics(w).map(c=>c.list)),'全部经典榜单');options('genre',WORKS.flatMap(genres),'全部叙事类型');options('region',WORKS.flatMap(regions),'全部地区');options('decade',WORKS.map(decade),'全部年代',v=>v==='待补'?'上映年待补':v+' 年代');$('sort').value='prompts';if(new URLSearchParams(window.location?.search||'').get('prompts')==='1')$('coverage').value='prompts';browse();filter();if(new URLSearchParams(window.location?.search||'').get('cinematography')==='all')$('cinematography-all').onclick();
 }
-if(S&&WORKS.length){initSourcesUI();}else{(async()=>{try{if(!S)S=await loadD4Script('summary.js?v=efae6ff4bbe8',()=>{if(!window.FILM_SOURCE_SUMMARY)throw new Error('bad');return window.FILM_SOURCE_SUMMARY;},'summary');if(!WORKS.length)WORKS=await loadD4Script('catalogue.js?v=efae6ff4bbe8',()=>{if(!Array.isArray(window.FILM_SOURCE_WORKS)||!window.FILM_SOURCE_WORKS.length)throw new Error('bad');return window.FILM_SOURCE_WORKS;},'catalogue');initSourcesUI();}catch{$('error').textContent='数据未载入，请确认 '+D4_BASE.replace(/\/$/,'')+' 文件夹完整。';}})();}</script></body></html>
+if(S&&WORKS.length){initSourcesUI();}else{(async()=>{try{if(!S)S=await loadD4Script('summary.js?v=3637952ff342',()=>{if(!window.FILM_SOURCE_SUMMARY)throw new Error('bad');return window.FILM_SOURCE_SUMMARY;},'summary');if(!WORKS.length)WORKS=await loadD4Script('catalogue.js?v=3637952ff342',()=>{if(!Array.isArray(window.FILM_SOURCE_WORKS)||!window.FILM_SOURCE_WORKS.length)throw new Error('bad');return window.FILM_SOURCE_WORKS;},'catalogue');initSourcesUI();}catch{$('error').textContent='数据未载入，请确认 '+D4_BASE.replace(/\/$/,'')+' 文件夹完整。';}})();}</script></body></html>
