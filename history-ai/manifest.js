@@ -1998,3 +1998,4 @@ window.JINTAI_AI_IMAGES={
   "HL-ZHOU-CO-0093": "history-ai/thumbnails/001999-HL-ZHOU-CO-0093.jpg",
   "HL-ZHOU-CO-0094": "history-ai/thumbnails/002000-HL-ZHOU-CO-0094.jpg"
 };
+if(typeof location!=='undefined'&&/github\.io$/i.test(location.hostname||'')){const _hb='https://gcore.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/';for(const _k of Object.keys(window.JINTAI_AI_IMAGES||{})){const _v=window.JINTAI_AI_IMAGES[_k];if(_v&&!_v.startsWith('http'))window.JINTAI_AI_IMAGES[_k]=_hb+_v;}}

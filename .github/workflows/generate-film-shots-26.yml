@@ -1,0 +1,106 @@
+name: Generate film shot references with GPT Image 2.6
+
+on:
+  workflow_dispatch:
+    inputs:
+      start_index:
+        description: "Position in the fixed shot target list (1-based)"
+        required: true
+        default: "1"
+      count:
+        description: "Number of shots (1-100)"
+        required: true
+        default: "1"
+      concurrency:
+        description: "Concurrent Images API calls (1-4)"
+        required: true
+        default: "1"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: film-shot-image-26
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Sparse checkout shot inputs
+        env:
+          GH_TOKEN: ${{ github.token }}
+          START_INDEX: ${{ inputs.start_index }}
+          COUNT: ${{ inputs.count }}
+        run: |
+          git clone --filter=blob:none --sparse --depth=1 --branch main \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .
+          git sparse-checkout set --no-cone \
+            /tools/generate_film_shot_images_26.mjs \
+            /tools/merge_film_shot_batch_26.py \
+            /film-ai/shot-targets-20261112.json \
+            /film-ai/shots-manifest.js \
+            /film-ai/shots-ledger-26.jsonl
+          mapfile -t ids < <(node -e 'const a=require("./film-ai/shot-targets-20261112.json"); const s=Number(process.env.START_INDEX)-1; const n=Number(process.env.COUNT); for(const x of a.slice(s,s+n)) console.log(x.id)')
+          patterns=(/tools/generate_film_shot_images_26.mjs /tools/merge_film_shot_batch_26.py /film-ai/shot-targets-20261112.json /film-ai/shots-manifest.js /film-ai/shots-ledger-26.jsonl)
+          for id in "${ids[@]}"; do patterns+=("/film-ai/shots/${id}.webp"); done
+          git sparse-checkout set --no-cone "${patterns[@]}"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install WebP decoder
+        run: python3 -m pip install --quiet Pillow
+      - name: Generate verified WebP images in target order
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          START_INDEX: ${{ inputs.start_index }}
+          COUNT: ${{ inputs.count }}
+          CONCURRENCY: ${{ inputs.concurrency }}
+        run: |
+          node tools/generate_film_shot_images_26.mjs \
+            --start-index "$START_INDEX" --count "$COUNT" --concurrency "$CONCURRENCY"
+
+      - name: Publish images and manifest to latest main
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mapfile -t ids < <(node -e 'for(const id of require("./film-ai/generated-shots-26.json")) console.log(id)')
+          if [ "${#ids[@]}" -eq 0 ]; then
+            echo 'No new images to publish in this run.'
+            exit 0
+          fi
+          for attempt in 1 2 3 4; do
+            publish_dir="$(mktemp -d)"
+            git clone --filter=blob:none --sparse --depth=1 --branch main \
+              "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "$publish_dir"
+            patterns=(/film-ai/shots-manifest.js /film-ai/shots-ledger-26.jsonl)
+            for id in "${ids[@]}"; do patterns+=("/film-ai/shots/${id}.webp"); done
+            git -C "$publish_dir" sparse-checkout set --no-cone "${patterns[@]}"
+            python3 tools/merge_film_shot_batch_26.py --source . --dest "$publish_dir"
+            paths=(film-ai/shots-manifest.js film-ai/shots-ledger-26.jsonl)
+            for id in "${ids[@]}"; do
+              paths+=("film-ai/shots/${id}.webp")
+            done
+            git -C "$publish_dir" add -- "${paths[@]}"
+            if git -C "$publish_dir" diff --cached --quiet; then
+              echo 'All selected GPT Image 2.6 images are already on main.'
+              exit 0
+            fi
+            git -C "$publish_dir" config user.name 'film-shot-image-26[bot]'
+            git -C "$publish_dir" config user.email 'film-shot-image-26[bot]@users.noreply.github.com'
+            git -C "$publish_dir" commit -m "Generate ${#ids[@]} film shot references with GPT Image 2.6 Sunburst"
+            if git -C "$publish_dir" push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Main advanced; retrying publish ($attempt/4)."
+          done
+          exit 1
+      - name: Report failed shot IDs after publishing successes
+        if: always()
+        run: |
+          if [ -f film-ai/failed-shots-26.json ]; then
+            node -e 'const a=require("./film-ai/failed-shots-26.json"); if(a.length){console.error(JSON.stringify(a)); process.exit(1)}'
+          fi
