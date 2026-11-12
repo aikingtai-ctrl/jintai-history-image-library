@@ -82,7 +82,7 @@ jobs:
                   if name != "manifest.js":
                       continue
               elif top == "film-ai":
-                  if not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js") or rel.startswith("film-ai/decks/")):
+                  if not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js") or rel.startswith("film-ai/decks/") or name.lower().endswith(".jpg")):
                       continue
               elif top == "history-ai":
                   if name not in ("manifest.js", "source-notes.js"):
