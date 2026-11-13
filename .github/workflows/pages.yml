@@ -62,6 +62,8 @@ jobs:
               parts = rel.split("/")
               top = parts[0] if len(parts) > 1 else "(root)"
               name = parts[-1]
+              if top == "每日更新" and not name.lower().endswith(".html"):
+                  continue
               if top == "(root)" and name.lower().endswith((".xlsx", ".zip", ".7z", ".bak")):
                   continue
               if top in ("d1", "d2") and rel not in ("d1/compat_selected_2000_20261111.js", "d2/compat_selected_2000_20261111.js"):
@@ -82,7 +84,7 @@ jobs:
                   if name != "manifest.js":
                       continue
               elif top == "film-ai":
-                  if not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js") or rel.startswith("film-ai/decks/") or name.lower().endswith(".jpg")):
+                  if not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js") or rel.startswith("film-ai/decks/")):
                       continue
               elif top == "history-ai":
                   if name not in ("manifest.js", "source-notes.js"):
@@ -110,8 +112,8 @@ jobs:
               total_bytes += src.stat().st_size
               shutil.move(str(src), str(dst))
 
-          max_site_bytes = 950 * 1024 * 1024
-          assert total_bytes < max_site_bytes, f"_site exceeded 950 MiB safety threshold: {total_bytes / 1048576:.2f} MiB"
+          max_site_bytes = 850 * 1024 * 1024
+          assert total_bytes < max_site_bytes, f"_site exceeded 850 MiB safety threshold: {total_bytes / 1048576:.2f} MiB"
 
           shots_manifest = site / "film-ai" / "shots-manifest.js"
           if shots_manifest.exists():

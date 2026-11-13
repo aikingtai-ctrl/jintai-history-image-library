@@ -33,6 +33,18 @@ function parseWorks() {
     let works = [];
     const sandbox = { window: { __VISUAL_WORKS__: records => { works = records; } } };
     vm.runInNewContext(fs.readFileSync(VISUAL_WORKS_PATH, 'utf8'), sandbox, { filename: VISUAL_WORKS_PATH });
+    if (sandbox.window.FILM_VWORKS_MANIFEST && Array.isArray(sandbox.window.FILM_VWORKS_MANIFEST.shards)) {
+      const d3Dir = path.dirname(VISUAL_WORKS_PATH);
+      for (const sname of sandbox.window.FILM_VWORKS_MANIFEST.shards) {
+        const sp = path.join(d3Dir, sname);
+        vm.runInNewContext(fs.readFileSync(sp, 'utf8'), sandbox, { filename: sp });
+      }
+      works = [];
+      for (let i = 0; i < sandbox.window.FILM_VWORKS_MANIFEST.shards.length; i++) {
+        const chunk = (sandbox.window.__FILM_VW_CHUNKS__ || [])[i] || [];
+        for (const row of chunk) works.push(row);
+      }
+    }
     return works;
   }
   let works = [];

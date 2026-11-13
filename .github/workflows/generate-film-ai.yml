@@ -48,7 +48,7 @@ jobs:
       - name: Checkout repository
         run: |
           git clone --filter=blob:none --sparse --depth=1 --branch main "https://github.com/${GITHUB_REPOSITORY}.git" .
-          git sparse-checkout set --no-cone /film.html /film-ai/ /tools/ /d3/vworks.js
+          git sparse-checkout set --no-cone /film.html /film-ai/ /tools/ /d3/vworks.js '/d3/vw*.js'
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -76,7 +76,7 @@ jobs:
           if [ "$TARGET_BATCH" = "true" ]; then args+=(--target-file film-ai/target-current.txt); fi
           mapfile -t ids < <(node tools/generate_film_ai_previews.mjs "${args[@]}" --dry-run | tail -n +2 | cut -f1)
           if [ "${#ids[@]}" -eq 0 ]; then echo 'No works selected.'; exit 1; fi
-          patterns=(/film.html /film-ai/ /tools/ /d3/vworks.js)
+          patterns=(/film.html /film-ai/ /tools/ /d3/vworks.js '/d3/vw*.js')
           for wid in "${ids[@]}"; do patterns+=("/d4/p_${wid}.js"); done
           git sparse-checkout set --no-cone "${patterns[@]}"
 
