@@ -688,9 +688,9 @@ async function updateLiveShotManifest(){
  try{
   const url=`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/film-ai/shots-manifest.js?v=${Date.now()}`;
   const response=await fetch(url,{cache:'no-store',signal:ctl.signal});if(!response.ok)return;
-  const body=await response.text(),match=/window\.FILM_SHOT_IMAGES\s*=\s*(\{[^\n]*?\})\s*;/.exec(body);if(!match)return;
-  const remote=JSON.parse(match[1]),current=window.FILM_SHOT_IMAGES||{};
-  if(Object.keys(remote).length>=Object.keys(current).length){window.FILM_SHOT_IMAGES=remote;window.FILM_SHOT_ASSET_REV='main';}
+  const body=await response.text(),match=/window\.(?:FILM_SHOT_IMAGES|__FILM_AI_SHOTS__)\s*=\s*(\{[\s\S]*\})\s*;?\s*$/.exec(body);if(!match)return;
+  const remote=JSON.parse(match[1]),current=window.FILM_SHOT_IMAGES||window.__FILM_AI_SHOTS__||{};
+  if(Object.keys(remote).length>=Object.keys(current).length){window.FILM_SHOT_IMAGES=remote;window.__FILM_AI_SHOTS__=remote;window.FILM_SHOT_ASSET_REV='main';}
  }catch(e){console.warn('在线镜头画面清单暂不可用，使用站点内置版本',e);}finally{clearTimeout(timer);}
 }
 function visual(r,W,big){const f=frOf(r);if(f)return`<img loading="lazy" src="${FRAME_DIR}/${esc(big?f.f:f.t)}" alt="${esc(r.W.t)} 截帧">`;const ai=shotImageSrc(r.id);if(ai)return`<img loading="lazy" src="${esc(ai)}" alt="${esc(r.W.t)} · ${esc(r.sc||'')}，AI 原创参考画面">`;return r.origin==='visual'?sourceVisual(r):schem(r,W);}
