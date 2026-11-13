@@ -67,7 +67,7 @@ jobs:
                       pass
                   elif rel.startswith("每日更新/每日成果/2026101") and name.lower().endswith((".md", ".txt", ".json")):
                       pass
-                  elif rel == "每日更新/runs/film_20261102_2300.json":
+                  elif rel.startswith("每日更新/runs/film_2026110") and name.lower().endswith(".json"):
                       pass
                   else:
                       continue
