@@ -78,11 +78,11 @@ jobs:
               elif top == "d4":
                   if name not in ("summary.js", "catalogue.js"):
                       continue
-              elif top == "figures_data":
+              elif top in ("figures_data", "websearch_data", "dynasty_data"):
                   if name != "manifest.js":
                       continue
               elif top == "film-ai":
-                  if not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js") or rel.startswith("film-ai/decks/") or name.lower().endswith(".jpg")):
+                  if not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js") or rel.startswith("film-ai/decks/")):
                       continue
               elif top == "history-ai":
                   if name not in ("manifest.js", "source-notes.js"):
