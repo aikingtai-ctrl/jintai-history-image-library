@@ -79,8 +79,8 @@ main{max-width:1640px!important;padding:6px 26px 44px!important}
   <option value="chrono">排序：按历史朝代与时期正序（先秦→清 · 推荐）</option>
   <option value="chrono_desc">排序：按历史朝代倒序（清→先秦）</option>
   <option value="cat">排序：按身份类别归类（帝王→名臣→名将→学者）</option>
-  <option value="batch_desc">排序：按最新扩充批次优先（十八期→首期）</option>
-  <option value="seq">排序：按原入库序号（1→23000）</option>
+  <option value="batch_desc">排序：按最新扩充批次优先（第二十六期→首期）</option>
+  <option value="seq">排序：按原入库序号（1→26000）</option>
 </select>
 <button id="reset">重置全部筛选</button>
 <button class="primary" id="exportTxt">导出当前筛选 TXT</button>
@@ -188,7 +188,7 @@ const _MAP_FIG=r=>({seq:r.s,batch:r.b,prompt_id:r.p,name:r.n,courtesy:r.c,years:
 const DATA=[];
 window.__FIG_BATCHES__=window.__FIG_BATCHES__||{};
 window.__FIGURES_SHARD__=function(batch,rows){if(Array.isArray(rows))window.__FIG_BATCHES__[String(batch)]=rows;};
-const FIG_PROGRESSIVE_V2=1,FIG_LOCAL_BASE='figures_data/',FIG_FALLBACK_CDN='https://testingcf.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/figures_data/',FIG_RAW_BASE='https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/figures_data/',IS_GH_FIG=/github\.io$/i.test(location.hostname||'');let ACTIVE_FIG_PREFIX='';
+const FIG_PROGRESSIVE_V2=1,FIG_PROGRESSIVE_V3=1,FIG_LOCAL_BASE='figures_data/',FIG_FALLBACK_CDN='https://testingcf.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/figures_data/',FIG_RAW_BASE='https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/figures_data/',IS_GH_FIG=/github\.io$/i.test(location.hostname||'');let ACTIVE_FIG_PREFIX='';
 function loadFigScript(relName,checkFn,errMsg){return new Promise((resolve,reject)=>{const clean=String(relName).split('?')[0];const tryFetchEval=async()=>{for(const base of [FIG_RAW_BASE,FIG_FALLBACK_CDN]){try{const ctl=new AbortController(),tm=setTimeout(()=>ctl.abort(),20000);const r=await fetch(base+clean,{signal:ctl.signal});clearTimeout(tm);if(!r.ok)continue;const txt=await r.text();(new Function(txt))();resolve(checkFn());return;}catch(e){}}reject(new Error(errMsg));};if(IS_GH_FIG&&clean!=='manifest.js'){tryFetchEval();return;}const cands=IS_GH_FIG?[FIG_LOCAL_BASE]:[...(ACTIVE_FIG_PREFIX?[ACTIVE_FIG_PREFIX]:[]),FIG_LOCAL_BASE];const pairs=[];for(const b of [...new Set(cands)]){pairs.push([b,b+relName]);if(location.protocol==='file:'&&clean!==relName&&!b.startsWith('http'))pairs.push([b,b+clean]);}let idx=0;const fallbackRaw=()=>{if(location.protocol==='file:'){reject(new Error(errMsg));return;}tryFetchEval();};const next=()=>{if(idx>=pairs.length){fallbackRaw();return;}const [pref,u]=pairs[idx++];const tag=document.createElement('script');let done=false;const tm=setTimeout(()=>{if(!done){done=true;tag.remove();next();}},12000);tag.src=u;tag.onload=()=>{if(done)return;done=true;clearTimeout(tm);tag.remove();try{const v=checkFn();ACTIVE_FIG_PREFIX=pref;resolve(v);}catch{next();}};tag.onerror=()=>{if(done)return;done=true;clearTimeout(tm);tag.remove();next();};document.head.appendChild(tag);};next();});}
 async function hydrateAllFigures(){
   if(document.getElementById('jt_gate_css')&&document.documentElement.getAttribute('data-jt-ok')!=='1')return;
@@ -198,6 +198,7 @@ async function hydrateAllFigures(){
     await loadFigScript('manifest.js?v='+Date.now(),()=>{if(!window.FIGURES_MANIFEST)throw new Error('manifest');return window.FIGURES_MANIFEST;},'manifest');
   }
   const mf=window.FIGURES_MANIFEST;
+  window.__FIG_TOTAL_EXPECTED__=(mf&&mf.total_figures)||0;
   const batches=(mf&&Array.isArray(mf.batches))?mf.batches:[];
   if(!batches.length)return;
   const ver=mf&&mf.version?('?v='+mf.version):'';
@@ -374,7 +375,7 @@ function apply(keepPage){
 function render(){
   const n=list.length, pages=Math.max(1,Math.ceil(n/PAGE));
   if(page>=pages) page=pages-1;
-  $('count').textContent=`当前匹配 ${n} 位历史名人（总库 ${DATA.length} 位）`;
+  const _totExpected=window.__FIG_TOTAL_EXPECTED__||DATA.length;$('count').textContent=(!window.__JT_FIGURES_FULL__&&_totExpected>DATA.length)?`当前首屏已就绪 ${n.toLocaleString()} 位（正在后台载入全库 ${_totExpected.toLocaleString()} 位历史名人…）`:`当前匹配 ${n.toLocaleString()} 位历史名人（总库 ${DATA.length.toLocaleString()} 位）`;
   $('pageInfo').textContent=`第 ${page+1} / ${pages} 页`;
   $('pageInfo2').textContent=`第 ${page+1} / ${pages} 页`;
   $('goto').max=pages;$('goto').value=page+1;

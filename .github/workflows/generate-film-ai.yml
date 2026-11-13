@@ -51,7 +51,7 @@ jobs:
           git sparse-checkout set --no-cone /film.html /film-ai/ /tools/ /d3/vworks.js '/d3/vw*.js'
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 22
 
