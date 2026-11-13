@@ -1,0 +1,1 @@
+window.SPEC_ALL_MANIFEST={"page":"epics.html","dir":"epics_data","version":"c4fb9b021516","meta_shard":"ep_meta.js","total_items":25480,"chunk_size":2500,"item_shards":["ep_000.js","ep_001.js","ep_002.js","ep_003.js","ep_004.js","ep_005.js","ep_006.js","ep_007.js","ep_008.js","ep_009.js","ep_010.js"]};
