@@ -1,0 +1,1 @@
+window.SPEC_ALL_MANIFEST={"page":"myth5000.html","dir":"myth_data","version":"6db3efd35c47","meta_shard":null,"total_items":7884,"chunk_size":1500,"item_shards":["m_000.js","m_001.js","m_002.js","m_003.js","m_004.js","m_005.js"]};

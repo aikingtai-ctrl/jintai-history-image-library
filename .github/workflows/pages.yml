@@ -78,7 +78,7 @@ jobs:
               elif top == "d4":
                   if name not in ("summary.js", "catalogue.js"):
                       continue
-              elif top in ("figures_data", "websearch_data", "dynasty_data"):
+              elif top in ("figures_data", "websearch_data", "dynasty_data", "arch_data", "myth_data", "epics_data", "zhiguai_data", "hongloumeng_data", "liaozhai_data"):
                   if name != "manifest.js":
                       continue
               elif top == "film-ai":
