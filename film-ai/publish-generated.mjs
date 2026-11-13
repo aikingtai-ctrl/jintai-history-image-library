@@ -13,6 +13,7 @@ let copied = 0;
 for (const [wid, rel] of Object.entries(generated)) {
   if (before[wid] === rel) continue;
   if (!rel.startsWith('film-ai/') || rel.includes('..')) throw new Error(`Invalid image path for ${wid}`);
+  fs.mkdirSync(path.dirname(path.join(destination, rel)), { recursive: true });
   fs.copyFileSync(rel, path.join(destination, rel));
   latest[wid] = rel;
   copied++;
