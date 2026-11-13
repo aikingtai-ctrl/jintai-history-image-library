@@ -51,7 +51,7 @@ jobs:
           git sparse-checkout set --no-cone /film.html /film-ai/ /tools/ /d3/vworks.js '/d3/vw*.js'
 
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v4
         with:
           node-version: 22
 
@@ -113,9 +113,9 @@ jobs:
           for attempt in 1 2 3; do
             publish_dir="$(mktemp -d)"
             git clone --filter=blob:none --sparse --depth=1 --branch main "https://github.com/${GITHUB_REPOSITORY}.git" "$publish_dir"
-            git -C "$publish_dir" sparse-checkout set --no-cone /film.html /film-ai/manifest.js
+            git -C "$publish_dir" sparse-checkout set --no-cone /film.html /film-ai/
             node film-ai/publish-generated.mjs "$publish_dir"
-            git -C "$publish_dir" add --sparse -- film-ai film.html
+            git -C "$publish_dir" add -- film-ai film.html
             if git -C "$publish_dir" diff --cached --quiet; then
               echo "No new images to commit."
               exit 0

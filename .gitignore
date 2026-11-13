@@ -8,15 +8,11 @@ __pycache__/
 .*.*.lnk
 每日更新/管理/
 每日更新/backups/
-每日更新/runs/*
+每日更新/runs/
 每日更新/staging/
 每日更新/publish_checkout_20261012/
 每日更新/规则与核验/
 每日更新/**/*.json
 每日更新/**/*.txt
 每日更新/*.md
-!每日更新/runs/film_2026110*.json
-!每日更新/每日成果/2026101*/*.json
-!每日更新/每日成果/2026101*/*.txt
-!每日更新/每日成果/2026101*/*.md
 film-ai/decks/generation_*.json

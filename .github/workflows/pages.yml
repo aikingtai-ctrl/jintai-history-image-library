@@ -28,7 +28,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Pages
-        uses: actions/configure-pages@v6
+        uses: actions/configure-pages@v5
 
       - name: Single-pack sparse clone and stage lean _site (<450 MiB)
         env:
@@ -62,15 +62,8 @@ jobs:
               parts = rel.split("/")
               top = parts[0] if len(parts) > 1 else "(root)"
               name = parts[-1]
-              if top == "每日更新":
-                  if name.lower().endswith(".html"):
-                      pass
-                  elif rel.startswith("每日更新/每日成果/2026101") and name.lower().endswith((".md", ".txt", ".json")):
-                      pass
-                  elif rel.startswith("每日更新/runs/film_2026110") and name.lower().endswith(".json"):
-                      pass
-                  else:
-                      continue
+              if top == "每日更新" and not name.lower().endswith(".html"):
+                  continue
               if top == "(root)" and name.lower().endswith((".xlsx", ".zip", ".7z", ".bak")):
                   continue
               if top in ("d1", "d2") and rel not in ("d1/compat_selected_2000_20261111.js", "d2/compat_selected_2000_20261111.js"):
@@ -135,7 +128,7 @@ jobs:
           du -sh _site
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v5
+        uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
@@ -148,4 +141,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@v4
