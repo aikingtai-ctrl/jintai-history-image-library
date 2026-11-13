@@ -1,0 +1,25 @@
+{
+  "day": "20261102",
+  "task": "daily_2300_film_expand",
+  "updated_at": "2026-11-02T23:13:17.075187+08:00",
+  "updated_at_display": "2026-11-02 23:13",
+  "status": "expanded_and_synced",
+  "version": "c9fbb2a97d98",
+  "vmanifest_version": "aa712da39aefafea",
+  "expanded_prompt_works": 0,
+  "new_shot_prompts": 0,
+  "expanded_work_ids": [],
+  "totals": {
+    "catalogue_works": 27900,
+    "award_works": 13658,
+    "award_records": 30682,
+    "prompt_works": 27900,
+    "prompt_records": 1067982,
+    "prompt_works_with_minimum_5": 27900,
+    "visual_prompt_records": 315310,
+    "legacy_prompt_records": 752672,
+    "searchable_shots_in_film_html": 1067982,
+    "pending_prompt_works": 0
+  },
+  "notes": "每日23:00世界殿堂级影视艺术名作扩容：精选10部世界级影史、大师名作与视听标杆名作（《双峰》《鲁邦三世：卡里奥斯特罗城》《近松物语》《彼岸花》《绿鱼》《比海更深》《儿子的大玩偶》《喜剧之王》《黑社会以和为贵》《小城之春》），每部扩充2镜达到7镜标准（新增20条高精度镜头构图光影分析与提示词，全库跃升至1,067,982条），d4(sources.html)与d3(film.html)双端100%同步。"
+}

@@ -62,8 +62,15 @@ jobs:
               parts = rel.split("/")
               top = parts[0] if len(parts) > 1 else "(root)"
               name = parts[-1]
-              if top == "每日更新" and not name.lower().endswith(".html"):
-                  continue
+              if top == "每日更新":
+                  if name.lower().endswith(".html"):
+                      pass
+                  elif rel.startswith("每日更新/每日成果/2026101") and name.lower().endswith((".md", ".txt", ".json")):
+                      pass
+                  elif rel == "每日更新/runs/film_20261102_2300.json":
+                      pass
+                  else:
+                      continue
               if top == "(root)" and name.lower().endswith((".xlsx", ".zip", ".7z", ".bak")):
                   continue
               if top in ("d1", "d2") and rel not in ("d1/compat_selected_2000_20261111.js", "d2/compat_selected_2000_20261111.js"):
