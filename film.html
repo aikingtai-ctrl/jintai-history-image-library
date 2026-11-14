@@ -1792,7 +1792,7 @@ $('retryLoad').onclick=()=>location.reload();
  await summaryReady;await liveShots;sourceSummary=window.FILM_SOURCE_SUMMARY;if(sourceSummary){if(sourceSummary.version)SOURCE_VERSION=sourceSummary.version;$('sourceStats').hidden=false;$('sourceStats').innerHTML=`<b>${sourceSummary.catalogue_works.toLocaleString()}</b> 部作品目录 · <b>${sourceSummary.frame_references.toLocaleString()}</b> 条有来源画面参考${sourceSummary.prompt_records?` · <b>${sourceSummary.prompt_records.toLocaleString()}</b> 条镜头提示词（${sourceSummary.prompt_works.toLocaleString()} 部）`:""}${sourceSummary.award_works?` · <b>${sourceSummary.award_works.toLocaleString()}</b> 部获奖 · <b>${sourceSummary.classic_works.toLocaleString()}</b> 部经典榜单`:''} · <a href="sources.html">逐片镜头提示词与来源 →</a>`;}
  saveDecks();saveCmp();readShared();refreshLoaded(sourceSummary,visualLoadFailed);
  $('loadStatus').textContent=' · 正在载入全库作品目录与自动图集…';
- if(!await loadScript(DATA_DIR+'/vmanifest.js?v=5e77cb7993bd8d00_54000_batch26',true))visualLoadFailed=true;
+ if(!await loadScript(DATA_DIR+'/vmanifest.js?v=053a52563ec41ac7_54000_batch26',true))visualLoadFailed=true;
  const visualManifest=window.FILM_VISUAL_MANIFEST;
  if(visualManifest){VISUAL_MANIFEST=Array.isArray(visualManifest)?visualManifest:visualManifest.shards||visualManifest.manifest||[];VISUAL_VERSION=visualManifest.version||sourceSummary?.version||'';
   const workShard=VISUAL_MANIFEST.find(x=>x.era==='__visual_works__');
@@ -1802,7 +1802,7 @@ $('retryLoad').onclick=()=>location.reload();
    refreshLoaded(sourceSummary,visualLoadFailed);
    await Promise.all([
     loadScript(DATA_DIR+'/vfingerprints.js?v=678bc26006f9',true),
-    loadScript(DATA_DIR+'/vdecks.js?v=065763ebc3a2',true)
+    loadScript(DATA_DIR+'/vdecks.js?v=e98cee4f0630',true)
    ]);
    ingestAutoBundles();
    refreshLoaded(sourceSummary,visualLoadFailed);
