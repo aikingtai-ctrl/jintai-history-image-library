@@ -699,8 +699,9 @@ async function updateLiveShotManifest(){
   const url=`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/film-ai/shots-manifest.js?v=${Date.now()}`;
   const response=await fetch(url,{cache:'no-store',signal:ctl.signal});if(!response.ok)return;
   const body=await response.text(),match=/window\.FILM_SHOT_IMAGES\s*=\s*(\{[^\n]*?\})\s*;/.exec(body);if(!match)return;
+  const workMatch=/window\.FILM_SHOT_WORK_IMAGES\s*=\s*(\{[^\n]*?\})\s*;/.exec(body);
   const remote=JSON.parse(match[1]),current=window.FILM_SHOT_IMAGES||{};
-  if(Object.keys(remote).length>=Object.keys(current).length){window.FILM_SHOT_IMAGES=remote;window.FILM_SHOT_ASSET_REV='main';}
+  if(Object.keys(remote).length>=Object.keys(current).length){window.FILM_SHOT_IMAGES=remote;if(workMatch)window.FILM_SHOT_WORK_IMAGES=JSON.parse(workMatch[1]);window.FILM_SHOT_ASSET_REV='main';}
  }catch(e){console.warn('在线镜头画面清单暂不可用，使用站点内置版本',e);}finally{clearTimeout(timer);}
 }
 function visual(r,W,big){const f=frOf(r);if(f)return`<img loading="lazy" src="${FRAME_DIR}/${esc(big?f.f:f.t)}" alt="${esc(r.W.t)} 截帧">`;const ai=shotImageSrc(r.id);if(ai)return`<img loading="lazy" src="${esc(ai)}" alt="${esc(r.W.t)} · ${esc(r.sc||'')}，AI 原创参考画面">`;return r.origin==='visual'?sourceVisual(r):schem(r,W);}
@@ -1485,6 +1486,8 @@ async function renderCompare(){
 let WPAGE=0,WORKS_RENDER_TOKEN=0,LAST_RENDERED_WORKS_COUNT=0;const WPS=100;const FILM_AI_IMAGES=window.FILM_AI_IMAGES||{};
 function resolveFilmAiAsset(rel){if(!rel)return'';if(/^https?:/i.test(rel)||rel.startsWith('film-ai/decks/'))return rel;return IS_GH_FILM?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/${rel}`:rel;}
 function getFilmAiSrc(wid){
+ const direct=(window.FILM_SHOT_WORK_IMAGES||{})[wid];
+ if(direct)return resolveFilmAiAsset(direct);
  const work=WORK_BY_WID.get(wid),shots=work?(BYW.get(work.i)||[]):[];
  const generated=shots.find(r=>shotImageSrc(r.id));
  if(generated)return shotImageSrc(generated.id);
