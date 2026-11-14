@@ -1484,7 +1484,12 @@ async function renderCompare(){
 /* ---------- 作品库 ---------- */
 let WPAGE=0,WORKS_RENDER_TOKEN=0,LAST_RENDERED_WORKS_COUNT=0;const WPS=100;const FILM_AI_IMAGES=window.FILM_AI_IMAGES||{};
 function resolveFilmAiAsset(rel){if(!rel)return'';if(/^https?:/i.test(rel)||rel.startsWith('film-ai/decks/'))return rel;return IS_GH_FILM?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/${rel}`:rel;}
-function getFilmAiSrc(wid){return resolveFilmAiAsset((window.FILM_AI_IMAGES||FILM_AI_IMAGES||{})[wid]||'');}
+function getFilmAiSrc(wid){
+ const work=WORK_BY_WID.get(wid),shots=work?(BYW.get(work.i)||[]):[];
+ const generated=shots.find(r=>shotImageSrc(r.id));
+ if(generated)return shotImageSrc(generated.id);
+ return resolveFilmAiAsset((window.FILM_AI_IMAGES||FILM_AI_IMAGES||{})[wid]||'');
+}
 function fillSel(id,name,arr){const select=$(id),value=select.value;select.innerHTML=`<option value="">${name}：全部</option>`+arr.map(v=>`<option>${esc(v)}</option>`).join('');if(arr.includes(value))select.value=value;}
 function workShotCount(w){return Math.max((BYW.get(w.i)||[]).length,Number(w.n)||0);}
 function workMosaicSpans(w){if(FP_ROWS[w.i]){const dna=unpackHexStrip(FP_ROWS[w.i][2]);if(dna.length)return dna.map(c=>`<span style="background:${c}"></span>`).join('');}
