@@ -562,7 +562,7 @@ function convertD4Record(p,wIndex,w){const tg=p.tags||{},hasTg=Object.keys(tg).l
   search_text:[p.scene,p.analysis,rawPr,enPr,p.source_note].filter(Boolean).join(' ')};}
 let WORK_SCRIPT_CHAIN=Promise.resolve();
 function parseWorkPromptsText(txt){if(!txt)return null;const eq=txt.indexOf('=');if(eq<0||!txt.slice(0,eq).includes('FILM_WORK_PROMPTS'))return null;try{return JSON.parse(txt.slice(eq+1).trim().replace(/;\s*$/,''));}catch(e){return null;}}
-const WORK_PROMPT_VERSIONS={"src-wd-q869927":"b73d6cd2f3a5","src-wd-q8874808":"c1eccc28afdd","src-wd-q89185877":"bc3ed9ca895c","src-wd-q916078":"28aaf55f69c5","src-wd-q916870":"fb86770aad4d","src-wd-q9189763":"040822a88477","the-marriage-of-maria-braun-1979":"647dc7d98bcf","intimate-confessions-of-a-chinese-courtesan-1972":"e8f8c79e745a","killer-clans-1976":"44e4609aa9e4","too-many-ways-to-be-no-1-1997":"8d674e6acd77","betty-blue-1986":"a6b3770ae14b","force-majeure-2014":"5d0af8c52099","women-on-the-verge-of-a-nervous-breakdown-1988":"33cbfd70f7e0","pixote-1980":"0ed42d91ea9d","the-conformist-1970":"53fb9ffdbaf4","a-chinese-odyssey-part-one-pandoras-box-1995":"7182948893dd","drunken-master-1978":"20be4ae219b1","drunken-master-ii-1994":"f95c2317d5d1","swordsman-ii-1992":"ff6de406e921","the-36th-chamber-of-shaolin-1978":"5349dd87e61b","juliet-of-the-spirits-1965":"33209efe0025","kids-return-1996":"1c6f819fbbb2","late-autumn-1960":"29e35a42cd4b","src-41b9daa1efde3e74":"42900b690481"};
+const WORK_PROMPT_VERSIONS={"src-wd-q869927":"b73d6cd2f3a5","src-wd-q8874808":"c1eccc28afdd","src-wd-q89185877":"bc3ed9ca895c","src-wd-q916078":"28aaf55f69c5","src-wd-q916870":"fb86770aad4d","src-wd-q9189763":"040822a88477","the-marriage-of-maria-braun-1979":"647dc7d98bcf","intimate-confessions-of-a-chinese-courtesan-1972":"e8f8c79e745a","killer-clans-1976":"44e4609aa9e4","too-many-ways-to-be-no-1-1997":"8d674e6acd77","betty-blue-1986":"a6b3770ae14b","force-majeure-2014":"5d0af8c52099","women-on-the-verge-of-a-nervous-breakdown-1988":"33cbfd70f7e0","pixote-1980":"0ed42d91ea9d","the-conformist-1970":"53fb9ffdbaf4","a-chinese-odyssey-part-one-pandoras-box-1995":"7182948893dd","drunken-master-1978":"20be4ae219b1","drunken-master-ii-1994":"f95c2317d5d1","swordsman-ii-1992":"ff6de406e921","the-36th-chamber-of-shaolin-1978":"5349dd87e61b","juliet-of-the-spirits-1965":"33209efe0025","kids-return-1996":"1c6f819fbbb2","late-autumn-1960":"29e35a42cd4b","src-41b9daa1efde3e74":"42900b690481","a-chinese-odyssey-part-two-cinderella-1995":"80d12d196d16"};
 async function fetchWorkPromptsObj(sid){const rawRel='p_'+encodeURIComponent(sid)+'.js',ver=WORK_PROMPT_VERSIONS[sid]||SOURCE_VERSION,rel=rawRel+(ver?'?v='+encodeURIComponent(ver):'');
  const baseUrls=IS_GH_FILM?[FILM_RAW_BASE+'d4/'+rel,FILM_FALLBACK_CDN+'d4/'+rawRel]:[D4_DIR+'/'+rel,ALT_D4_DIR+'/'+rel,'data_film/source_import/d4/'+rel,...(location.protocol==='file:'?[D4_DIR+'/'+rawRel,ALT_D4_DIR+'/'+rawRel,'data_film/source_import/d4/'+rawRel]:[FILM_RAW_BASE+'d4/'+rel,FILM_FALLBACK_CDN+'d4/'+rawRel])];
  const urls=[...new Set(baseUrls)];
@@ -1792,7 +1792,7 @@ $('retryLoad').onclick=()=>location.reload();
  await summaryReady;await liveShots;sourceSummary=window.FILM_SOURCE_SUMMARY;if(sourceSummary){if(sourceSummary.version)SOURCE_VERSION=sourceSummary.version;$('sourceStats').hidden=false;$('sourceStats').innerHTML=`<b>${sourceSummary.catalogue_works.toLocaleString()}</b> 部作品目录 · <b>${sourceSummary.frame_references.toLocaleString()}</b> 条有来源画面参考${sourceSummary.prompt_records?` · <b>${sourceSummary.prompt_records.toLocaleString()}</b> 条镜头提示词（${sourceSummary.prompt_works.toLocaleString()} 部）`:""}${sourceSummary.award_works?` · <b>${sourceSummary.award_works.toLocaleString()}</b> 部获奖 · <b>${sourceSummary.classic_works.toLocaleString()}</b> 部经典榜单`:''} · <a href="sources.html">逐片镜头提示词与来源 →</a>`;}
  saveDecks();saveCmp();readShared();refreshLoaded(sourceSummary,visualLoadFailed);
  $('loadStatus').textContent=' · 正在载入全库作品目录与自动图集…';
- if(!await loadScript(DATA_DIR+'/vmanifest.js?v=53d2d26c87360a53_54000_batch26',true))visualLoadFailed=true;
+ if(!await loadScript(DATA_DIR+'/vmanifest.js?v=5e77cb7993bd8d00_54000_batch26',true))visualLoadFailed=true;
  const visualManifest=window.FILM_VISUAL_MANIFEST;
  if(visualManifest){VISUAL_MANIFEST=Array.isArray(visualManifest)?visualManifest:visualManifest.shards||visualManifest.manifest||[];VISUAL_VERSION=visualManifest.version||sourceSummary?.version||'';
   const workShard=VISUAL_MANIFEST.find(x=>x.era==='__visual_works__');
@@ -1802,7 +1802,7 @@ $('retryLoad').onclick=()=>location.reload();
    refreshLoaded(sourceSummary,visualLoadFailed);
    await Promise.all([
     loadScript(DATA_DIR+'/vfingerprints.js?v=678bc26006f9',true),
-    loadScript(DATA_DIR+'/vdecks.js?v=3808ff7a5694',true)
+    loadScript(DATA_DIR+'/vdecks.js?v=065763ebc3a2',true)
    ]);
    ingestAutoBundles();
    refreshLoaded(sourceSummary,visualLoadFailed);
