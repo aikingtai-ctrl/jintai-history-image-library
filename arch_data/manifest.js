@@ -1,1 +1,1 @@
-window.SPEC_ALL_MANIFEST={"page":"arch5680.html","dir":"arch_data","version":"2189b0eb1d93","meta_shard":null,"total_items":9534,"chunk_size":1500,"item_shards":["a_000.js","a_001.js","a_002.js","a_003.js","a_004.js","a_005.js","a_006.js"]};
+window.SPEC_ALL_MANIFEST={"page":"arch5680.html","dir":"arch_data","version":"e8d0f1b1e6d9","meta_shard":null,"total_items":9554,"chunk_size":1500,"item_shards":["a_000.js","a_001.js","a_002.js","a_003.js","a_004.js","a_005.js","a_006.js"]};
