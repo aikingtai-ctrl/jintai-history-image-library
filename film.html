@@ -562,7 +562,8 @@ function convertD4Record(p,wIndex,w){const tg=p.tags||{},hasTg=Object.keys(tg).l
   search_text:[p.scene,p.analysis,rawPr,enPr,p.source_note].filter(Boolean).join(' ')};}
 let WORK_SCRIPT_CHAIN=Promise.resolve();
 function parseWorkPromptsText(txt){if(!txt)return null;const eq=txt.indexOf('=');if(eq<0||!txt.slice(0,eq).includes('FILM_WORK_PROMPTS'))return null;try{return JSON.parse(txt.slice(eq+1).trim().replace(/;\s*$/,''));}catch(e){return null;}}
-async function fetchWorkPromptsObj(sid){const rawRel='p_'+encodeURIComponent(sid)+'.js',rel=rawRel+(SOURCE_VERSION?'?v='+encodeURIComponent(SOURCE_VERSION):'');
+const WORK_PROMPT_VERSIONS={"src-wd-q869927":"b73d6cd2f3a5","src-wd-q8874808":"c1eccc28afdd"};
+async function fetchWorkPromptsObj(sid){const rawRel='p_'+encodeURIComponent(sid)+'.js',ver=WORK_PROMPT_VERSIONS[sid]||SOURCE_VERSION,rel=rawRel+(ver?'?v='+encodeURIComponent(ver):'');
  const baseUrls=IS_GH_FILM?[FILM_RAW_BASE+'d4/'+rel,FILM_FALLBACK_CDN+'d4/'+rawRel]:[D4_DIR+'/'+rel,ALT_D4_DIR+'/'+rel,'data_film/source_import/d4/'+rel,...(location.protocol==='file:'?[D4_DIR+'/'+rawRel,ALT_D4_DIR+'/'+rawRel,'data_film/source_import/d4/'+rawRel]:[FILM_RAW_BASE+'d4/'+rel,FILM_FALLBACK_CDN+'d4/'+rawRel])];
  const urls=[...new Set(baseUrls)];
  if(location.protocol!=='file:'){for(const u of urls){try{const ctrl=new AbortController(),tm=setTimeout(()=>ctrl.abort(),9000);const r=await fetch(u,{signal:ctrl.signal});clearTimeout(tm);if(!r.ok)continue;const obj=parseWorkPromptsText(await r.text());if(obj&&Array.isArray(obj.records))return obj;}catch(e){}}}
@@ -1791,7 +1792,7 @@ $('retryLoad').onclick=()=>location.reload();
  await summaryReady;await liveShots;sourceSummary=window.FILM_SOURCE_SUMMARY;if(sourceSummary){if(sourceSummary.version)SOURCE_VERSION=sourceSummary.version;$('sourceStats').hidden=false;$('sourceStats').innerHTML=`<b>${sourceSummary.catalogue_works.toLocaleString()}</b> 部作品目录 · <b>${sourceSummary.frame_references.toLocaleString()}</b> 条有来源画面参考${sourceSummary.prompt_records?` · <b>${sourceSummary.prompt_records.toLocaleString()}</b> 条镜头提示词（${sourceSummary.prompt_works.toLocaleString()} 部）`:""}${sourceSummary.award_works?` · <b>${sourceSummary.award_works.toLocaleString()}</b> 部获奖 · <b>${sourceSummary.classic_works.toLocaleString()}</b> 部经典榜单`:''} · <a href="sources.html">逐片镜头提示词与来源 →</a>`;}
  saveDecks();saveCmp();readShared();refreshLoaded(sourceSummary,visualLoadFailed);
  $('loadStatus').textContent=' · 正在载入全库作品目录与自动图集…';
- if(!await loadScript(DATA_DIR+'/vmanifest.js?v=e9ef2dfada70d9ce_54000_batch26',true))visualLoadFailed=true;
+ if(!await loadScript(DATA_DIR+'/vmanifest.js?v=6391b87b0571bd35_54000_batch26',true))visualLoadFailed=true;
  const visualManifest=window.FILM_VISUAL_MANIFEST;
  if(visualManifest){VISUAL_MANIFEST=Array.isArray(visualManifest)?visualManifest:visualManifest.shards||visualManifest.manifest||[];VISUAL_VERSION=visualManifest.version||sourceSummary?.version||'';
   const workShard=VISUAL_MANIFEST.find(x=>x.era==='__visual_works__');
