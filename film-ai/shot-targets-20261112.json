@@ -47451,16 +47451,16 @@
     "id": "YS-20261103-CW112-src-wd-q591036-002",
     "wid": "src-wd-q591036",
     "title": "远大前程",
-    "prompt": "35mm 柯达彩色胶片质感，2.39:1画幅。2011年英国电影《远大前程》（Great Expectations，导演：布莱恩·寇克，摄影指导：弗洛里安·霍夫梅斯特）。主光方向塑形·伦勃朗侧主光人物肖像：近景平视，标准镜头浅景深，固定运镜，侧光/伦勃朗光/低调/高反差照明，三分法构图。\nEnglish Prompt: Cinematic still from Great Expectations (2011), directed by 布莱恩·寇克, cinematography by 弗洛里安·霍夫梅斯特 (2012年美国电影摄影师协会奖·电视电影与限定剧最佳摄影获奖), classic 45-degree Rembrandt key light sculpting facial contours against deep shadow, shot on 35mm 柯达彩色胶片 with Arricam LT/ST & Panavision Millennium XL and Cooke S4/i & ARRI Master Anamorphic (50mm Prime T1.4 Shallow DOF), 2.39:1 aspect ratio --ar 21:9",
-    "aspect_ratio": "2.39:1",
+    "prompt": "原创 AI 参考画面，非原片截图。《远大前程》（2011 BBC剧集）·肯特沼泽教堂旁 Pip 与 Magwitch 相遇（原创 AI 参考图）。少年 Pip 在肯特沼泽教堂墓地握着树枝回望，戴镣铐的成年逃犯 Magwitch 站在后方薄雾中；冷灰色冬暮与湿地。BBC 原始拍摄剧本证实肯特沼泽、教堂与两人的相遇。画面比例 16:9 仅为 AI 创意构图，不能视为原片画幅；未核实的摄影器材及胶片规格不作主张。\nEnglish Prompt: Original AI reference artwork, not an original film frame. 少年 Pip 在肯特沼泽教堂墓地握着树枝回望，戴镣铐的成年逃犯 Magwitch 站在后方薄雾中；冷灰色冬暮与湿地。 AI composition 16:9 only; original production aspect ratio and camera equipment are not asserted.",
+    "aspect_ratio": "16:9",
     "source_file": "d4/p_src-wd-q591036.js"
   },
   {
     "id": "YS-20261103-CW112-src-wd-q61986903-105",
     "wid": "src-wd-q61986903",
-    "title": "...And She Chose Hell",
-    "prompt": "35mm 柯达彩色胶片质感，1.85:1画幅。1957年西班牙电影《...And She Chose Hell》（...And She Chose Hell，导演：塞萨尔·费尔南多·阿达温，摄影指导：Manuel Berenguer）。Ultra Panavision 70毫米1.25倍变形宽银幕2.76:1史诗超宽视界（Ultra Panavision 70mm 5-Perf 1.25x Anamorphic 2.76:1 Epic Widescreen）·极宽地平线与琥珀水平眩光：大远景平视，70mm变形宽银幕镜头深焦，横移轨/缓摇运镜，自然日光/逆光/暖金轮廓光照明，超宽水平延展/三分法/前景压角构图。\nEnglish Prompt: Cinematic still from ...And She Chose Hell (1957), directed by 塞萨尔·费尔南多·阿达温, cinematography by Manuel Berenguer (1958年西班牙电影编剧协会奖最佳摄影获奖), Robert Surtees and Robert Richardson inspired Ultra Panavision 70mm 5-perf 1.25x anamorphic 2.76:1 epic widescreen tableau stretching across vast panoramic horizons with signature golden horizontal flare streaks and tactile 65mm grain, shot on 35mm 柯达彩色胶片 with Panavision Silent Reflex / Mitchell BNC and Panavision C-Series Anamorphic / Cooke Panchro (Mitchell System 65 Camera with Vintage Ultra Panavision 70mm 1.25x Anamorphic Primes on Kodak 65mm 5-Perf Negative), 1.85:1 aspect ratio --ar 16:9",
-    "aspect_ratio": "1.85:1",
+    "title": "…Y eligió el infierno",
+    "prompt": "原创 AI 参考画面，非原片截图。《…Y eligió el infierno》（1957）·雨夜边境哨卡前的难民队伍（原创 AI 参考图）。黑白雨夜，几名成年难民与引导者贴着石墙走向远处灯光和哨卡，前景三人回头观察，潮湿地面映出路灯。档案确认 1957 年西班牙黑白电影；大学放映介绍证实秘密协助难民越境的情节。画面比例 4:3 仅为 AI 创意构图，不能视为原片画幅；未核实的摄影器材及胶片规格不作主张。\nEnglish Prompt: Original AI reference artwork, not an original film frame. 黑白雨夜，几名成年难民与引导者贴着石墙走向远处灯光和哨卡，前景三人回头观察，潮湿地面映出路灯。 AI composition 4:3 only; original production aspect ratio and camera equipment are not asserted.",
+    "aspect_ratio": "4:3",
     "source_file": "d4/p_src-wd-q61986903.js"
   },
   {
@@ -47523,8 +47523,8 @@
     "id": "YS-20261103-CW112-src-wd-q62108850-105",
     "wid": "src-wd-q62108850",
     "title": "El hombre de la isla",
-    "prompt": "35mm 柯达彩色胶片质感，1.85:1画幅。1961年西班牙电影《El hombre de la isla》（El hombre de la isla，导演：Vicente Escrivá，摄影指导：Cecilio Paniagua）。Ultra Panavision 70毫米1.25倍变形宽银幕2.76:1史诗超宽视界（Ultra Panavision 70mm 5-Perf 1.25x Anamorphic 2.76:1 Epic Widescreen）·极宽地平线与琥珀水平眩光：大远景平视，70mm变形宽银幕镜头深焦，横移轨/缓摇运镜，自然日光/逆光/暖金轮廓光照明，超宽水平延展/三分法/前景压角构图。\nEnglish Prompt: Cinematic still from El hombre de la isla (1961), directed by Vicente Escrivá, cinematography by Cecilio Paniagua (1962年西班牙电影编剧协会奖最佳摄影获奖), Robert Surtees and Robert Richardson inspired Ultra Panavision 70mm 5-perf 1.25x anamorphic 2.76:1 epic widescreen tableau stretching across vast panoramic horizons with signature golden horizontal flare streaks and tactile 65mm grain, shot on 35mm 柯达彩色胶片 with Panavision Silent Reflex / Mitchell BNC and Panavision C-Series Anamorphic / Cooke Panchro (Mitchell System 65 Camera with Vintage Ultra Panavision 70mm 1.25x Anamorphic Primes on Kodak 65mm 5-Perf Negative), 1.85:1 aspect ratio --ar 16:9",
-    "aspect_ratio": "1.85:1",
+    "prompt": "原创 AI 参考画面，非原片截图。《El hombre de la isla》（1959）·孤岛渔夫在岩岸收网（原创 AI 参考图）。黑白 AI 画面中，成年渔夫 Lorenzo 在石屋旁岩岸收起渔网，远处一艘载有两名成年人的小渔船驶来，海面起风。西班牙文化部登记和发行页均证实 1959 年；黑白仅为本幅 AI 美学，原片色彩尚未由一手资料核定。画面比例 4:3 仅为 AI 创意构图，不能视为原片画幅；未核实的摄影器材及胶片规格不作主张。\nEnglish Prompt: Original AI reference artwork, not an original film frame. 黑白 AI 画面中，成年渔夫 Lorenzo 在石屋旁岩岸收起渔网，远处一艘载有两名成年人的小渔船驶来，海面起风。 AI composition 4:3 only; original production aspect ratio and camera equipment are not asserted.",
+    "aspect_ratio": "4:3",
     "source_file": "d4/p_src-wd-q62108850.js"
   },
   {
@@ -47586,9 +47586,9 @@
   {
     "id": "YS-20261103-CW112-src-wd-q6683431-105",
     "wid": "src-wd-q6683431",
-    "title": "The Eyes Leave a Trace",
-    "prompt": "35mm 经典黑白银盐胶片质感，1.85:1画幅。1952年西班牙 / 意大利电影《The Eyes Leave a Trace》（The Eyes Leave a Trace，导演：何塞·路易斯·萨恩斯·德·埃雷迪亚，摄影指导：Manuel Berenguer）。Ultra Panavision 70毫米1.25倍变形宽银幕2.76:1史诗超宽视界（Ultra Panavision 70mm 5-Perf 1.25x Anamorphic 2.76:1 Epic Widescreen）·极宽地平线与琥珀水平眩光：大远景平视，70mm变形宽银幕镜头深焦，横移轨/缓摇运镜，自然日光/逆光/暖金轮廓光照明，超宽水平延展/三分法/前景压角构图。\nEnglish Prompt: Cinematic still from The Eyes Leave a Trace (1952), directed by 何塞·路易斯·萨恩斯·德·埃雷迪亚, cinematography by Manuel Berenguer (1953年西班牙电影编剧协会奖最佳摄影获奖), Robert Surtees and Robert Richardson inspired Ultra Panavision 70mm 5-perf 1.25x anamorphic 2.76:1 epic widescreen tableau stretching across vast panoramic horizons with signature golden horizontal flare streaks and tactile 65mm grain, shot on 35mm 经典黑白银盐胶片 with Mitchell BNC Studio Camera and Bausch & Lomb Baltar / Cooke Speed Panchro (Mitchell System 65 Camera with Vintage Ultra Panavision 70mm 1.25x Anamorphic Primes on Kodak 65mm 5-Perf Negative), 1.85:1 aspect ratio --ar 16:9",
-    "aspect_ratio": "1.85:1",
+    "title": "Los ojos dejan huellas",
+    "prompt": "原创 AI 参考画面，非原片截图。《Los ojos dejan huellas》（1952）·香水推销员与遗孀隔桌相望（原创 AI 参考图）。黑白室内，一名成年男子低头沉思，成年女子隔着铺花边布的桌子注视他；桌上有四只香水瓶和一封信，台灯与窗光塑造克制的悬疑气氛。塞万提斯学院片目证实 1952 年西班牙／意大利合制及香水推销员与死者遗孀的情节。画面比例 4:3 仅为 AI 创意构图，不能视为原片画幅；未核实的摄影器材及胶片规格不作主张。\nEnglish Prompt: Original AI reference artwork, not an original film frame. 黑白室内，一名成年男子低头沉思，成年女子隔着铺花边布的桌子注视他；桌上有四只香水瓶和一封信，台灯与窗光塑造克制的悬疑气氛。 AI composition 4:3 only; original production aspect ratio and camera equipment are not asserted.",
+    "aspect_ratio": "4:3",
     "source_file": "d4/p_src-wd-q6683431.js"
   },
   {
@@ -47651,8 +47651,8 @@
     "id": "YS-20261103-CW112-src-wd-q7459830-105",
     "wid": "src-wd-q7459830",
     "title": "Sh'Chur",
-    "prompt": "Eastman EXR 35mm (5248 / 5293)质感，1.85:1画幅。1994年以色列电影《Sh'Chur》（Sh'Chur，导演：Shmuel Hasfari，摄影指导：David Gurfinkel）。Ultra Panavision 70毫米1.25倍变形宽银幕2.76:1史诗超宽视界（Ultra Panavision 70mm 5-Perf 1.25x Anamorphic 2.76:1 Epic Widescreen）·极宽地平线与琥珀水平眩光：大远景平视，70mm变形宽银幕镜头深焦，横移轨/缓摇运镜，自然日光/逆光/暖金轮廓光照明，超宽水平延展/三分法/前景压角构图。\nEnglish Prompt: Cinematic still from Sh'Chur (1994), directed by Shmuel Hasfari, cinematography by David Gurfinkel (1994年以色列奥菲尔奖最佳摄影获奖), Robert Surtees and Robert Richardson inspired Ultra Panavision 70mm 5-perf 1.25x anamorphic 2.76:1 epic widescreen tableau stretching across vast panoramic horizons with signature golden horizontal flare streaks and tactile 65mm grain, shot on Eastman EXR 35mm (5248 / 5293) with Arricam LT/ST & Panavision Millennium XL and Zeiss Super Speed / Panavision Primo Prime (Mitchell System 65 Camera with Vintage Ultra Panavision 70mm 1.25x Anamorphic Primes on Kodak 65mm 5-Perf Negative), 1.85:1 aspect ratio --ar 16:9",
-    "aspect_ratio": "",
+    "prompt": "原创 AI 参考画面，非原片截图。《Sh’chur》（1994）·Rachel 与家人的夏日餐桌（原创 AI 参考图）。彩色夏日下午，13 岁 Rachel 坐在摩洛哥裔家庭餐桌左侧，母亲在右侧与她交谈，父亲、长者及家人围坐，桌上是餐食，窗边花草透入阳光。以色列电影基金会证实 13 岁 Rachel 在传统家庭的最后一个夏天；博物馆片目确认影片为彩色。画面比例 1.85:1 仅为 AI 创意构图，不能视为原片画幅；未核实的摄影器材及胶片规格不作主张。\nEnglish Prompt: Original AI reference artwork, not an original film frame. 彩色夏日下午，13 岁 Rachel 坐在摩洛哥裔家庭餐桌左侧，母亲在右侧与她交谈，父亲、长者及家人围坐，桌上是餐食，窗边花草透入阳光。 AI composition 1.85:1 only; original production aspect ratio and camera equipment are not asserted.",
+    "aspect_ratio": "1.85:1",
     "source_file": "d4/p_src-wd-q7459830.js"
   },
   {
@@ -47715,8 +47715,8 @@
     "id": "YS-20261103-CW112-src-wd-q7635898-105",
     "wid": "src-wd-q7635898",
     "title": "Sukrutham",
-    "prompt": "Eastman EXR 35mm (5248 / 5293)质感，1.85:1画幅。1994年印度电影《Sukrutham》（Sukrutham，导演：导演，摄影指导：本片摄影团队）。Ultra Panavision 70毫米1.25倍变形宽银幕2.76:1史诗超宽视界（Ultra Panavision 70mm 5-Perf 1.25x Anamorphic 2.76:1 Epic Widescreen）·极宽地平线与琥珀水平眩光：大远景平视，70mm变形宽银幕镜头深焦，横移轨/缓摇运镜，自然日光/逆光/暖金轮廓光照明，超宽水平延展/三分法/前景压角构图。\nEnglish Prompt: Cinematic still from Sukrutham (1994), directed by 导演, cinematography by 本片摄影团队 (1994年印度Filmfare奖Filmfare Award for Best Film – Malayalam), Robert Surtees and Robert Richardson inspired Ultra Panavision 70mm 5-perf 1.25x anamorphic 2.76:1 epic widescreen tableau stretching across vast panoramic horizons with signature golden horizontal flare streaks and tactile 65mm grain, shot on Eastman EXR 35mm (5248 / 5293) with Arricam LT/ST & Panavision Millennium XL and Zeiss Super Speed / Panavision Primo Prime (Mitchell System 65 Camera with Vintage Ultra Panavision 70mm 1.25x Anamorphic Primes on Kodak 65mm 5-Perf Negative), 1.85:1 aspect ratio --ar 16:9",
-    "aspect_ratio": "",
+    "prompt": "原创 AI 参考画面，非原片截图。《Sukrutham》（1994）·Ravishankar 与 Durga 在乡村屋檐下对坐（原创 AI 参考图）。彩色雨后，成年记者 Ravishankar 与成年童年故友 Durga 坐在喀拉拉乡村住宅廊下的两把木椅上；两杯茶与一份报纸置于矮桌，后方是椰树与湿润庭院。印度国家电影奖目录确认 1994 年彩色片及导演 Harikumar；发行剧情证实记者回到村庄与旧友 Durga 相处。画面比例 16:9 仅为 AI 创意构图，不能视为原片画幅；未核实的摄影器材及胶片规格不作主张。\nEnglish Prompt: Original AI reference artwork, not an original film frame. 彩色雨后，成年记者 Ravishankar 与成年童年故友 Durga 坐在喀拉拉乡村住宅廊下的两把木椅上；两杯茶与一份报纸置于矮桌，后方是椰树与湿润庭院。 AI composition 16:9 only; original production aspect ratio and camera equipment are not asserted.",
+    "aspect_ratio": "16:9",
     "source_file": "d4/p_src-wd-q7635898.js"
   },
   {
