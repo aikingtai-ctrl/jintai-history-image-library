@@ -506,6 +506,12 @@ function sanitizeRecPalette(r,w){if(!r||!w)return;
   r.pal=synthesizeShotPalJS(r.id,r,w);}}
 function bindRecWork(r){const w=WORKS[r.w];if(!w)return false;r.W=w;sanitizeRecPalette(r,w);r.text=[w.t,w.te,...(w.aliases||[]),w.dir,w.dp,w.pd,w.genre,r.sc,r.pl,r.ep,r.id,r.search_text||'',r.note||''].join(' ').toLowerCase();return true;}
 function mergeRecordFields(ex,r){if(!ex||!r)return ex;
+  if(ex._fromPool&&r.sc){
+   for(const k of ['sc','wh','pl','ep','size','angle','frame','lens_type','dof','move','light','ld','time','weather','ie','loc','color','comp','pos','emo','pal','note','pr','en','source_url','source_page','frame_id','verification','review','search_text']){
+    if(r[k]!==undefined)ex[k]=r[k];
+   }
+   if(Array.isArray(r.observation_limits))ex.observation_limits=r.observation_limits;
+  }
  for(const k of ['note','pr','en','wh','pl','ep','detail_file','source_url','source_page','frame_id','verification','review','original_prompt_id','observed_resolution']){
   if(r[k]!==undefined&&r[k]!==''&&(ex[k]===undefined||ex[k]===''))ex[k]=r[k];
  }
@@ -1751,7 +1757,7 @@ function ingestAutoBundles(){
   SHOT_PRESETS=AUTO_DECK_DATA.shot_presets||[];
   (AUTO_DECK_DATA.shot_pool||[]).forEach(cs=>{
    if(WORKS[cs.w]){
-    registerRecord({wh:'',pl:'',ep:'',fk:'',st:'待核',add:'20261103',origin:'legacy',source_work_id:WORKS[cs.w].source_id||WORKS[cs.w].wid,tag_status:cs.origin==='visual'?'待标注':(cs.st==='已核'?'已有标签（已核）':'已有标签（待核）'),_fromPool:cs.note===undefined,...cs});
+     registerRecord({wh:'',pl:'',ep:'',fk:'',st:'待核',add:'20261103',origin:'legacy',source_work_id:WORKS[cs.w].source_id||WORKS[cs.w].wid,tag_status:cs.origin==='visual'?'待标注':(cs.st==='已核'?'已有标签（已核）':'已有标签（待核）'),...cs,_fromPool:true});
    }
   });
   populateDeckCatSelect();populateShotPresetSelect();updateDeckBadge();
