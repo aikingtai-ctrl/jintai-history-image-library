@@ -285,13 +285,13 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
     <div class="row-items" id="kind-row">
       <span class="chip on" data-f="kind" data-v="">全部类型 <small>(79,979)</small></span>
       <span class="chip star" data-f="kind" data-v="历史名人">★ 历史名人 <small>(28,000)</small></span>
-      <span class="chip" data-f="kind" data-v="人物">人物·服饰/容貌/甲胄 <small>(15,822)</small></span>
-      <span class="chip" data-f="kind" data-v="全部人物">全部人物合计 <small>(43,822)</small></span>
-      <span class="chip" data-f="kind" data-v="场景">场景·生活/军旅/地理 <small>(13,655)</small></span>
-      <span class="chip" data-f="kind" data-v="建筑">建筑·宫殿/寺塔/城池 <small>(9,579)</small></span>
-      <span class="chip" data-f="kind" data-v="器物">器物·礼器/瓷器/兵器 <small>(6,654)</small></span>
+      <span class="chip" data-f="kind" data-v="人物">人物·服饰/容貌/甲胄 <small>(15,827)</small></span>
+      <span class="chip" data-f="kind" data-v="全部人物">全部人物合计 <small>(43,827)</small></span>
+      <span class="chip" data-f="kind" data-v="场景">场景·生活/军旅/地理 <small>(13,652)</small></span>
+      <span class="chip" data-f="kind" data-v="建筑">建筑·宫殿/寺塔/城池 <small>(9,581)</small></span>
+      <span class="chip" data-f="kind" data-v="器物">器物·礼器/瓷器/兵器 <small>(6,652)</small></span>
       <span class="chip" data-f="kind" data-v="事件">事件 HERO <small>(2,272)</small></span>
-      <span class="chip green" data-f="kind" data-v="配套">配套·车船/水工/机械 <small>(2,474)</small></span>
+      <span class="chip green" data-f="kind" data-v="配套">配套·车船/水工/机械 <small>(2,472)</small></span>
       <span class="chip purple" data-f="kind" data-v="神话">神话与志怪设定 <small>(5,903)</small></span>
     </div>
   </div>
@@ -1155,4 +1155,27 @@ $('export').onclick=async()=>{
 };
 $('copy').onclick=async()=>{ const v=(cur.variants||[])[curIdx]; if(!v)return; await cp(v.prompt||''); $('copy').textContent='已复制 ✓'; setTimeout(()=>$('copy').textContent='复制当前提示词',1200); };
 $('copyAll').onclick=async()=>{ const t=(cur.variants||[]).map(v=>`【${v.label||''}${v.ratio?' '+v.ratio:''}】\n${v.prompt||''}`).join('\n\n'); await cp(t); $('copyAll').textContent='已复制全部 ✓'; setTimeout(()=>$('copyAll').textContent='复制全部视角',1200); };
-$('go').onclick=async()=>{ const v=(cur.variants|
+$('go').onclick=async()=>{ const v=(cur.variants||[])[curIdx]; window.open(JIMENG,'_blank','noopener'); if(v) await cp(v.prompt||''); $('go').textContent='已复制 · 已打开 GPT Image 2 ✓'; setTimeout(()=>$('go').textContent='复制并打开 GPT Image 2',1400); };
+$('dl').onclick=()=>{ const t=`${cur.title} (${cur.id})\n${cur.era||''} ${cur.dyn||''} / ${cur._effKind||cur.kind||''} ${cur.cat||''}\n\n`+(cur.variants||[]).map(v=>`【${v.label||''}${v.ratio?' '+v.ratio:''}】\n${v.prompt||''}`).join('\n\n'); dlTxt(`${cur.id}_${cur.title}.txt`,t); };
+$('close').onclick=()=>$('detail').close();
+$('detail').onclick=e=>{ if(e.target===$('detail')) $('detail').close(); };
+
+(function applyQueryParams(){
+  try{
+    const sp=new URLSearchParams(location.search);
+    if(sp.get('spec')) f.spec=sp.get('spec');
+    if(sp.get('era')) f.era=sp.get('era');
+    if(sp.get('sub')) f.subdyn=sp.get('sub');
+    if(sp.get('kind')) f.kind=sp.get('kind');
+    if(sp.get('lib')) f.lib=sp.get('lib');
+    if(sp.get('q')) $('q').value=sp.get('q');
+    if(sp.get('sort')) $('sort').value=sp.get('sort');
+  }catch(_){}
+})();
+updateSubdynVisibility();
+renderSubcats();
+syncChipUI();
+loadAll();
+</script>
+</body>
+</html>
