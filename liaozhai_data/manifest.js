@@ -1,1 +1,1 @@
-window.SPEC_ALL_MANIFEST={"page":"liaozhai.html","dir":"liaozhai_data","version":"2947dd1d81c9","meta_shard":"lz_meta.js","total_items":2000,"chunk_size":1000,"item_shards":["lz_000.js","lz_001.js"]};
+window.SPEC_ALL_MANIFEST={"page":"liaozhai.html","dir":"liaozhai_data","version":"01864b1073df","meta_shard":"lz_meta.js","total_items":2000,"chunk_size":1000,"item_shards":["lz_000.js","lz_001.js"]};
