@@ -423,7 +423,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
 </main>
 <dialog id="detail"><div class="dh"><h2 id="dTitle"></h2><div class="nav"><button id="dPrev">← 上一个</button><button id="dNext">下一个 →</button><button id="dAdd" class="pri">＋ 加入图集</button><button id="dCmp">加入对照</button><button id="dClose">关闭</button></div></div><div id="dBody"></div></dialog>
 <dialog id="pick"><div class="dh"><h2>加入哪个参考图集？</h2><button id="pClose">取消</button></div><div style="padding:18px 22px"><div id="pList"></div><div class="btns"><input id="pNew" placeholder="或输入新图集名称" style="flex:1"><button class="pri" id="pNewBtn">新建并加入</button></div></div></dialog>
-<dialog id="imgLightbox" class="img-lightbox" aria-label="高清大图检视器">
+<dialog id="imgLightbox" class="img-lightbox" aria-label="图片检视器">
  <div class="lb-wrap">
   <div class="lb-bar">
    <div class="lb-title"><span id="lbTitle"></span><span class="sub" id="lbSub"></span></div>
@@ -431,7 +431,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
     <button type="button" id="lbZoomOut" title="缩小">－</button>
     <button type="button" id="lbZoomReset" title="重置为 100% 原始比例">100%</button>
     <button type="button" id="lbZoomIn" title="放大">＋</button>
-    <a id="lbOpenRaw" class="btn-link" href="#" target="_blank" rel="noopener">新窗口原图 ↗</a>
+    <a id="lbOpenRaw" class="btn-link" href="#" target="_blank" rel="noopener">打开图片文件 ↗</a>
     <button type="button" id="lbClose" class="pri">关闭 (Esc)</button>
    </div>
   </div>
@@ -1537,7 +1537,9 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
   const metaParts=[w.type||'电影',kindsStr,(w.region&&w.region!=='待补')?w.region:'',w.dir?'导演 '+w.dir:'',(w.dp&&w.dp!=='待核')?'摄影 '+w.dp:'摄影 待核'].filter(Boolean).join(' · ');
   const enShow=(w.te&&w.te!==w.t)?w.te:'';
   const aiSrc=getFilmAiSrc(w.wid);
-  const aiPreview=aiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" role="button" tabindex="0" title="点击放大查看《${esc(w.t)}》高清 AI 代表图" aria-label="点击放大查看 ${esc(w.t)} AI 代表图"><img src="${esc(aiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图</span><span class="film-ai-zoom-hint">🔍 点击放大</span></div>`:'<div class="film-ai-preview empty">等待 AI 代表图</div>';
+  const aiHires=!!(window.FILM_SHOT_WORK_IMAGES||{})[w.wid]||/\/film-ai\/shots\/[^?#]+\.webp/i.test(aiSrc||'');
+  const aiBadge=aiHires?'高清 AI 参考图':'旧版小图·待替换';
+  const aiPreview=aiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" role="button" tabindex="0" title="点击查看《${esc(w.t)}》图片原文件" aria-label="点击查看 ${esc(w.t)} 图片原文件"><img src="${esc(aiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">${aiBadge}</span><span class="film-ai-zoom-hint">🔍 点击放大</span></div>`:'<div class="film-ai-preview empty">等待 AI 代表图</div>';
   return`<div class="wc"><h4>${esc(w.t)} <span class="muted" style="font-size:18px">${enShow?esc(enShow)+' · ':''}${esc(w.y||'')}</span></h4>
  <div class="m">${esc(metaParts)}</div>
  ${aiPreview}
@@ -1579,6 +1581,15 @@ function renderLightboxItem(){
  if(it.src){
   rawLink.href=it.src;rawLink.hidden=false;
   $('lbContent').innerHTML=`<img id="lbImg" src="${esc(it.src)}" alt="${esc(it.title||'')}">`;
+  const img=$('lbImg'),baseSub=$('lbSub').textContent,baseDesc=$('lbFootDesc').textContent;
+  const showResolution=()=>{
+   if($('lbImg')!==img||!img.naturalWidth)return;
+   const size=`${img.naturalWidth}×${img.naturalHeight}`;
+   const low=img.naturalWidth<1200||img.naturalHeight<675;
+   $('lbSub').textContent=`${baseSub} · ${low?'旧版低分辨率原图':'原图'} ${size}`;
+   if(low)$('lbFootDesc').textContent=`原文件仅 ${size}，网页放大不会增加细节；高清图待生成。${baseDesc}`;
+  };
+  if(img.complete)showResolution();else img.addEventListener('load',showResolution,{once:true});
  }else if(it.svgHtml){
   rawLink.href='#';rawLink.hidden=true;
   $('lbContent').innerHTML=`<div class="lb-svg-box">${it.svgHtml}</div>`;
