@@ -1,7 +1,7 @@
 window.FILM_AI_IMAGES={
   "src-1e06be517deed41f": "film-ai/shots/YS-20261026-src-1e06be517deed41f-01.webp",
   "src-bcea890074e9d8ce": "film-ai/src-bcea890074e9d8ce.jpg",
-  "atlantic-2026": "film-ai/atlantic-2026.jpg",
+  "atlantic-2026": "film-ai/shots/YS-20261030-C48-atlantic-2026-02.webp",
   "fatherland-2026": "film-ai/fatherland-2026.jpg",
   "src-wd-q139568167": "film-ai/src-wd-q139568167.jpg",
   "src-wd-q131340420": "film-ai/src-wd-q131340420.jpg",
