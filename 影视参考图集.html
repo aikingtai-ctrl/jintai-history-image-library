@@ -911,7 +911,7 @@ function getFilteredDecks(){const q=($('dq')?.value||'').trim().toLowerCase(),ca
   res=ws.map(w=>({kind:'filmStub',id:'film:'+w.wid,w,n:workShotCount(w),film_cnt:1,name:`《${w.t}》${w.y?'（'+w.y+'）':''}`}));
  }else{
   const wantCat=cat.startsWith('cat:')?cat.slice(4):'';
-  if(!wantCat){DECKS.list.forEach(d=>{if(matchText((d.name+' '+(d.desc||'')).toLowerCase()))res.push(d);});}
+  if(cat==='all'&&!wantCat){DECKS.list.forEach(d=>{if(matchText((d.name+' '+(d.desc||'')).toLowerCase()))res.push(d);});}
   SYS_DECKS.forEach(d=>{if(wantCat&&d.cat!==wantCat)return;
    const hay=(d._q||(d._q=[d.name,d.cat,d.desc,...(d.films||[])].join(' ').toLowerCase()));
    if(matchText(hay))res.push(d);});
