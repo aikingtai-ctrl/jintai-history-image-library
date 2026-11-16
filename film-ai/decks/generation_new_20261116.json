@@ -1,0 +1,62 @@
+{
+  "tool": "Codex built-in GPT Image (exact backend model ID not exposed)",
+  "scope": "71 missing cross-film curated deck covers on 2026-11-16",
+  "source_commit": "d43db9eed9d3039c4836b3e7a1e453242002649a",
+  "source_inventory_sha256": "5b759c054fed89cf1bd4b3b6004627e756fef494e6a6dbe68b307252563a5770",
+  "items": [
+    {
+      "ordinal": 149,
+      "id": "dk-loc-3c10670b",
+      "title": "图书馆 · 场景空间",
+      "category": "场景与空间",
+      "description": "【地点：图书馆】跨片精选视觉参考图集。典型戏剧空间的美术陈设、建筑结构、实景光源排布与空间纵深参考。",
+      "file": "film-ai/decks/dk-loc-3c10670b.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 215026,
+      "sha256": "3d616335a213998c7973dbad94ff4da03ff5153bf23aa8661a108ef5e428bf13",
+      "png_file": "png/dk-loc-3c10670b.png",
+      "png_sha256": "e6c35b147b3ee59d61cc2ce54eef7705e4bfa2971f5748a9a0a21a17c0384f68",
+      "prompt": "Use case: photorealistic-natural. Asset type: 16:9 cinematic gallery cover for a cross-film visual reference collection named 'Library — Scene and Space'. Create one original, richly detailed wide film still of an architecturally distinctive library interior, not a collage. Deep repeating rows of dark timber bookshelves and reading tables recede to a clear vanishing point; tall side windows cast layered cool daylight and soft reverse light through a little dust; a few warm brass practical task lamps add restrained amber pools; one small human reader gives scale. Carefully composed architectural depth, realistic tactile books, sophisticated green, aged-gold, warm brown and silver-gray grade, natural film grain, subtle tension and contemplative quiet. Avoid copying any recognizable movie frame, celebrity, logo, printed title, watermark, split screen, contact sheet, diagram, or embedded text. Full-bleed landscape image.",
+      "source_deck": {
+        "id": "dk-loc-3c10670b",
+        "cat": "场景与空间",
+        "name": "图书馆 · 场景空间",
+        "desc": "【地点：图书馆】跨片精选视觉参考图集。典型戏剧空间的美术陈设、建筑结构、实景光源排布与空间纵深参考。",
+        "n": 4,
+        "films": [
+          "英雄",
+          "七宗罪",
+          "情书",
+          "金装律师"
+        ],
+        "film_cnt": 4,
+        "pal": [
+          "#6a8a5a",
+          "#8a6a34",
+          "#9a8757",
+          "#9faab5"
+        ],
+        "q": "图书馆",
+        "items": [
+          {
+            "id": "YS-0010-17",
+            "note": "全景 平视 ｜ 布光：窗光·逆光·柔光 ｜ 影调：冷调·绿·棕褐 ｜ 构图：重复图形·纵深调度 ｜ 情绪：紧张·决绝（摄影：杜可风）"
+          },
+          {
+            "id": "YS-0033-03",
+            "note": "全景 平视 ｜ 布光：实景光源·低调·柔光 ｜ 影调：冷暖对比·绿·金 ｜ 构图：重复图形·纵深调度 ｜ 情绪：平静·孤独（摄影：达吕斯·康吉）"
+          },
+          {
+            "id": "YS-0051-21",
+            "note": "中景 平视 ｜ 布光：低调·窗光 ｜ 影调：暖调·黄·低饱和 ｜ 构图：框中框·三分法 ｜ 情绪：暧昧·怀旧（摄影：筱田昇）"
+          },
+          {
+            "id": "YS-20261115-2300-suits-2011-07",
+            "note": "特写 平视 ｜ 布光：荧光灯·顶光·冷光 ｜ 影调：银白·金属灰·深黑 ｜ 构图：引导线构图·中心聚焦 ｜ 情绪：专注·锐利（摄影：帕特里克·卡迪）"
+          }
+        ]
+      }
+    }
+  ]
+}
