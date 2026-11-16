@@ -3,7 +3,7 @@
 <head><script>(function(){var H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3';var k='jt_gate';function getSaved(){try{if(localStorage.getItem(k)===H)return true;}catch(e){}try{if(sessionStorage.getItem(k)===H)return true;}catch(e){}return false;}function saveOk(){try{localStorage.setItem(k,H);}catch(e){}try{sessionStorage.setItem(k,H);}catch(e){}}if(getSaved()){document.documentElement.setAttribute('data-jt-ok','1');return;}var st=document.createElement('style');st.id='jt_gate_css';st.textContent='html:not([data-jt-ok="1"]) body{display:none!important}';document.documentElement.appendChild(st);document.documentElement.style.visibility='hidden';function shaPure(ascii){function rr(v,a){return(v>>>a)|(v<<(32-a));}var bytes=[],i,j;if(typeof TextEncoder!=='undefined'){bytes=Array.from(new TextEncoder().encode(ascii));}else{for(i=0;i<ascii.length;i++){var c=ascii.charCodeAt(i);if(c<128)bytes.push(c);else if(c<2048)bytes.push(192|(c>>6),128|(c&63));else bytes.push(224|(c>>12),128|((c>>6)&63),128|(c&63));}}var bitLen=bytes.length*8;bytes.push(0x80);while((bytes.length%64)!==56)bytes.push(0);var hi=Math.floor(bitLen/4294967296),lo=bitLen>>>0;bytes.push((hi>>>24)&255,(hi>>>16)&255,(hi>>>8)&255,hi&255,(lo>>>24)&255,(lo>>>16)&255,(lo>>>8)&255,lo&255);var K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];var H0=[0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];for(i=0;i<bytes.length;i+=64){var W=new Array(64);for(j=0;j<16;j++)W[j]=((bytes[i+j*4]<<24)|(bytes[i+j*4+1]<<16)|(bytes[i+j*4+2]<<8)|bytes[i+j*4+3])>>>0;for(j=16;j<64;j++){var s0=rr(W[j-15],7)^rr(W[j-15],18)^(W[j-15]>>>3);var s1=rr(W[j-2],17)^rr(W[j-2],19)^(W[j-2]>>>10);W[j]=(W[j-16]+s0+W[j-7]+s1)>>>0;}var a=H0[0],b=H0[1],c=H0[2],d=H0[3],e=H0[4],f=H0[5],g=H0[6],h=H0[7];for(j=0;j<64;j++){var S1=rr(e,6)^rr(e,11)^rr(e,25),ch=(e&f)^((~e)&g),t1=(h+S1+ch+K[j]+W[j])>>>0;var S0=rr(a,2)^rr(a,13)^rr(a,22),maj=(a&b)^(a&c)^(b&c),t2=(S0+maj)>>>0;h=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=b;b=a;a=(t1+t2)>>>0;}H0[0]=(H0[0]+a)>>>0;H0[1]=(H0[1]+b)>>>0;H0[2]=(H0[2]+c)>>>0;H0[3]=(H0[3]+d)>>>0;H0[4]=(H0[4]+e)>>>0;H0[5]=(H0[5]+f)>>>0;H0[6]=(H0[6]+g)>>>0;H0[7]=(H0[7]+h)>>>0;}return H0.map(function(x){return('00000000'+x.toString(16)).slice(-8);}).join('');}async function sha(s){try{if(window.crypto&&crypto.subtle&&typeof TextEncoder!=='undefined'){var b=new TextEncoder().encode(s);var d=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(d)).map(function(x){return x.toString(16).padStart(2,'0');}).join('');}}catch(e){}return shaPure(s);}function lockDom(){window.__SHARD__=window.__IDX_BATCH__=window.__VISUAL_INDEX__=window.__VISUAL_WORKS__=window.apply=window.render=window.loadAll=function(){};document.querySelectorAll('script[src]').forEach(function(s){s.onload=s.onerror=null;if(s.parentNode)s.parentNode.removeChild(s);});if(!document.body){var b=document.createElement('body');document.documentElement.appendChild(b);}document.body.innerHTML='<div id="jt_lock_box" style="font:19pt/1.65 Microsoft YaHei,PingFang SC,sans-serif;padding:36px 24px;color:#1d3338;max-width:680px;margin:42px auto;background:#fff;border:2px solid #284b45;border-radius:14px;text-align:center;box-shadow:0 10px 28px rgba(0,0,0,.08)"><div style="font-size:23pt;font-weight:bold;color:#1d3338;margin-bottom:10px">金泰 AI · 中国历史文化图库</div><div style="font-size:15.5pt;color:#4a5d54;margin-bottom:22px">请输入内部访问口令进入检索系统（手机微信 / 浏览器验证一次即可自动记住）</div><div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;max-width:500px;margin:0 auto"><input id="jt_pw_box" type="password" placeholder="请输入访问口令" autocomplete="current-password" style="flex:1;min-width:210px;font:17pt Microsoft YaHei,sans-serif;padding:11px 14px;border:1.5px solid #6f857b;border-radius:8px;background:#fff;color:#263a40"><button id="jt_pw_btn" type="button" style="font:bold 17pt Microsoft YaHei,sans-serif;padding:11px 26px;background:#284b45;color:#fff;border:none;border-radius:8px;cursor:pointer">验证进入</button></div><div id="jt_pw_err" style="font-size:15pt;color:#8a1c1c;min-height:28px;margin-top:12px"></div></div>';document.documentElement.setAttribute('data-jt-ok','1');document.documentElement.style.visibility='visible';var inp=document.getElementById('jt_pw_box'),btn=document.getElementById('jt_pw_btn'),err=document.getElementById('jt_pw_err');async function tryIn(){var v=(inp.value||'').trim();if(!v){err.textContent='请输入访问口令';return;}var h=await sha(v);if(h===H){saveOk();location.reload();}else{err.textContent='口令不正确，请核对后重试';inp.value='';inp.focus();}}if(btn)btn.onclick=tryIn;if(inp){inp.onkeydown=function(e){if(e.key==='Enter')tryIn();};setTimeout(function(){try{inp.focus();}catch(e){}},60);}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',lockDom,{once:true});}else{lockDom();}})();</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>中国古典文学名著·民国小说·民间传奇与多民族史诗总集（本集 2,600 组 / 25,760 条 · 合璧红楼聊斋全库满 3,000 组）</title>
+<title>中国古典文学名著·民国小说·民间传奇与多民族史诗总集（本集 2,800 组 / 27,760 条 · 合璧红楼聊斋全库满 3,200 组）</title>
 <style>
 html:not([data-jt-ok="1"]) body{display:none!important}
 *{box-sizing:border-box}
@@ -65,7 +65,7 @@ details.chip-fold summary{cursor:pointer;color:#63706a;font-size:13.5pt;padding:
     <div class="brand">
       <a href="index.html">← 全库总检索</a>
       <span>·</span>
-      <strong>文学名著·民国小说与民间传奇总集 · 本集 2,600 组 / 25,760 条（全库满 3,000 组）</strong>
+      <strong>文学名著·民国小说与民间传奇总集 · 本集 2,800 组 / 27,760 条（全库满 3,200 组）</strong>
     </div>
     <nav class="topnav">
       <a href="图库总入口.html">专集目录</a>
@@ -75,8 +75,8 @@ details.chip-fold summary{cursor:pointer;color:#63706a;font-size:13.5pt;padding:
     </nav>
   </div>
   <div class="tabs">
-    <button class="tab on" id="tabWorks" onclick="setTab('works')">一、2,548 部/篇古典文学·民国小说·民间传奇与史诗总表（L001–L2548）</button>
-    <button class="tab" id="tabPrompts" onclick="setTab('prompts')">二、专项新增 25,480 条角色/场景/道具/配套提示词（2,548组×10视角）</button>
+    <button class="tab on" id="tabWorks" onclick="setTab('works')">一、2,748 部/篇古典文学·民国小说·民间传奇与史诗总表（L001–L2748）</button>
+    <button class="tab" id="tabPrompts" onclick="setTab('prompts')">二、专项新增 27,480 条角色/场景/道具/配套提示词（2,748组×10视角）</button>
     <button class="tab" id="tabExisting" onclick="setTab('existing')">三、全库既有 52 组文学名著与民间传说事件 HERO 资产（280条提示词）</button>
   </div>
 </header>
@@ -85,7 +85,8 @@ details.chip-fold summary{cursor:pointer;color:#63706a;font-size:13.5pt;padding:
     <div class="bar">
       <input autofocus type="search" id="qWork" placeholder="支持多关键词空格搜索名著、诗词、戏曲、史诗、角色、场景、器物（如：桃夭、琴挑、剑阁、飞云浦、袖里乾坤、芦雪广、赛马称王、阔克托依、宝木巴、目脑纵歌）…">
       <select id="batchWork">
-        <option value="">全部 13 批（2,548组 · L001–L2548）</option>
+        <option value="">全部 14 批（2,748组 · L001–L2748）</option>
+        <option value="14">★ 第14批民国小说与民间传奇九辑（200组 · L2549–L2748）</option>
         <option value="13">★ 第13批民国小说与民间传奇八辑（200组 · L2349–L2548）</option>
         <option value="12">★ 第12批民国小说与民间传奇七辑（200组 · L2149–L2348）</option>
         <option value="11">★ 第11批民国小说与民间传奇六辑（200组 · L1949–L2148）</option>
@@ -101,15 +102,15 @@ details.chip-fold summary{cursor:pointer;color:#63706a;font-size:13.5pt;padding:
         <option value="1">第1批专集（200组 · L001–L200）</option>
       </select>
       <select id="catWork">
-        <option value="">全部八大门类（2,548组 · 25,480条）</option>
+        <option value="">全部八大门类（2,748组 · 27,480条）</option>
         <option value="先秦诗骚与汉魏六朝乐府">一、先秦诗骚与汉魏六朝乐府（131组 · 1,310条）</option>
         <option value="唐宋诗词名篇与传奇话本">二、唐宋诗词名篇与传奇话本（162组 · 1,620条）</option>
         <option value="宋元南戏与元杂剧四大家">三、宋元南戏与元杂剧四大家（103组 · 1,030条）</option>
         <option value="明清传奇与昆曲折子戏">四、明清传奇与昆曲折子戏（123组 · 1,230条）</option>
         <option value="四大名著与古典章回小说">五、四大名著与古典章回小说（264组 · 2,640条）</option>
         <option value="三大英雄史诗与民族叙事长诗">六、三大英雄史诗与民族叙事长诗（165组 · 1,650条）</option>
-        <option value="民国小说与现代文学经典">七、民国小说与现代文学经典（800组 · 8,000条）</option>
-        <option value="中国民间传奇与百工风物传说">八、中国民间传奇与百工风物传说（800组 · 8,000条）</option>
+        <option value="民国小说与现代文学经典">七、民国小说与现代文学经典（900组 · 9,000条）</option>
+        <option value="中国民间传奇与百工风物传说">八、中国民间传奇与百工风物传说（900组 · 9,000条）</option>
       </select>
       <select id="eraWork">
         <option value="">全部历史时期</option>
@@ -124,8 +125,8 @@ details.chip-fold summary{cursor:pointer;color:#63706a;font-size:13.5pt;padding:
         <option value="民国">⑧ 民国</option>
       </select>
       <select id="sortWork">
-        <option value="code">排序：按文学史与史诗编码正序（L001→L2548 · 推荐）</option>
-        <option value="code_desc">排序：最新第13批优先（L2548→L001）</option>
+        <option value="code">排序：按文学史与史诗编码正序（L001→L2748 · 推荐）</option>
+        <option value="code_desc">排序：最新第14批优先（L2748→L001）</option>
         <option value="era">排序：按历史朝代先后（神话→先秦→清→民国）</option>
         <option value="title">排序：按作品名称拼音（A→Z）</option>
       </select>
@@ -137,7 +138,8 @@ details.chip-fold summary{cursor:pointer;color:#63706a;font-size:13.5pt;padding:
     <div class="bar">
       <input type="search" id="qPrompt" placeholder="支持多关键词空格搜索名著、篇章、人物、场景、器物、编号（如：L401、LE-20261030、琴挑、上方谷、断枷、袖里乾坤、太虚幻境、格萨尔、玛纳斯、江格尔）…">
       <select id="selBatch">
-        <option value="">全部 13 批（25,480条）</option>
+        <option value="">全部 14 批（27,480条）</option>
+        <option value="14">★ 第14批民国小说与民间传奇九辑（2,000条 · L2549–L2748）</option>
         <option value="13">★ 第13批民国小说与民间传奇八辑（2,000条 · L2349–L2548）</option>
         <option value="12">★ 第12批民国小说与民间传奇七辑（2,000条 · L2149–L2348）</option>
         <option value="11">★ 第11批民国小说与民间传奇六辑（2,000条 · L1949–L2148）</option>
@@ -153,7 +155,7 @@ details.chip-fold summary{cursor:pointer;color:#63706a;font-size:13.5pt;padding:
         <option value="1">第1批专集（2,000条 · L001–L200）</option>
       </select>
       <select id="selEra">
-        <option value="">全部历史时期（25,480条）</option>
+        <option value="">全部历史时期（27,480条）</option>
         <option value="神话与传说">⓪ 神话与传说</option>
         <option value="先秦">① 先秦</option>
         <option value="秦汉">② 秦汉</option>
@@ -165,15 +167,15 @@ details.chip-fold summary{cursor:pointer;color:#63706a;font-size:13.5pt;padding:
         <option value="民国">⑧ 民国</option>
       </select>
       <select id="selType">
-        <option value="">全部视角类型（25,480条）</option>
-        <option value="角色">核心角色立像与群像（9,896条 · 每组4角）</option>
-        <option value="场景">经典全景/中景/纯空镜底图（8,088条 · 每组3景）</option>
-        <option value="道具">传世器物与善本古籍（5,096条 · 每组2器）</option>
-        <option value="配套">建筑舞台与舟车配套（2,400条 · 每组1套）</option>
+        <option value="">全部视角类型（27,480条）</option>
+        <option value="角色">核心角色立像与群像（10,696条 · 每组4角）</option>
+        <option value="场景">经典全景/中景/纯空镜底图（8,688条 · 每组3景）</option>
+        <option value="道具">传世器物与善本古籍（5,496条 · 每组2器）</option>
+        <option value="配套">建筑舞台与舟车配套（2,600条 · 每组1套）</option>
       </select>
       <select id="sortPrompt">
-        <option value="seq">排序：按文学史与史诗编码正序（L001→L2548 · 推荐）</option>
-        <option value="seq_desc">排序：最新第13批优先（L2548→L001）</option>
+        <option value="seq">排序：按文学史与史诗编码正序（L001→L2748 · 推荐）</option>
+        <option value="seq_desc">排序：最新第14批优先（L2748→L001）</option>
         <option value="era">排序：按历史朝代先后（神话→先秦→清→民国）</option>
         <option value="type">排序：按视角类型归类（角色→场景→道具→配套）</option>
       </select>
@@ -252,7 +254,7 @@ const _mapEpGroup = g => ({
   gid: g[0], gno: g[1], code: g[2], category: g[3], cat_no: g[4],
   work_name: g[5], sub_genre: g[6], era: g[7], place: g[8], short_title: g[9],
   characters: g[10], scenes: g[11], props: g[12], companion: g[13], basis: g[14],
-  batch: g[1] > 2348 ? '13' : (g[1] > 2148 ? '12' : (g[1] > 1948 ? '11' : (g[1] > 1748 ? '10' : (g[1] > 1548 ? '9' : (g[1] > 1348 ? '8' : (g[1] > 1148 ? '7' : (g[1] > 948 ? '6' : (g[1] > 748 ? '5' : (g[1] > 600 ? '4' : (g[1] > 400 ? '3' : (g[1] > 200 ? '2' : '1')))))))))))
+  batch: g[1] > 2548 ? '14' : (g[1] > 2348 ? '13' : (g[1] > 2148 ? '12' : (g[1] > 1948 ? '11' : (g[1] > 1748 ? '10' : (g[1] > 1548 ? '9' : (g[1] > 1348 ? '8' : (g[1] > 1148 ? '7' : (g[1] > 948 ? '6' : (g[1] > 748 ? '5' : (g[1] > 600 ? '4' : (g[1] > 400 ? '3' : (g[1] > 200 ? '2' : '1'))))))))))))
 });
 const GROUPS = RAW.groups.map(_mapEpGroup);
 const _mapEpItem = x => {
@@ -311,7 +313,7 @@ function renderWorks() {
   list.forEach(g => {
     const d = document.createElement('div');
     d.className = 'card';
-    const bTag = g.batch === '13' ? '★ 第13批民国小说与民间传奇八辑' : (g.batch === '12' ? '★ 第12批民国小说与民间传奇七辑' : (g.batch === '11' ? '★ 第11批民国小说与民间传奇六辑' : (g.batch === '10' ? '★ 第10批民国小说与民间传奇五辑' : (g.batch === '9' ? '★ 第9批民国小说与民间传奇四辑' : (g.batch === '8' ? '★ 第8批民国小说与民间传奇三辑' : (g.batch === '7' ? '★ 第7批民国小说与民间传奇二辑' : (g.batch === '6' ? '★ 第6批民国小说与民间传奇一辑' : (g.batch === '5' ? '★ 第5批经典名著深潜' : (g.batch === '4' ? '第4批跨门类增补' : (g.batch === '3' ? '第3批专集' : (g.batch === '2' ? '第2批专集' : '第1批专集')))))))))));
+    const bTag = g.batch === '14' ? '★ 第14批民国小说与民间传奇九辑' : (g.batch === '13' ? '★ 第13批民国小说与民间传奇八辑' : (g.batch === '12' ? '★ 第12批民国小说与民间传奇七辑' : (g.batch === '11' ? '★ 第11批民国小说与民间传奇六辑' : (g.batch === '10' ? '★ 第10批民国小说与民间传奇五辑' : (g.batch === '9' ? '★ 第9批民国小说与民间传奇四辑' : (g.batch === '8' ? '★ 第8批民国小说与民间传奇三辑' : (g.batch === '7' ? '★ 第7批民国小说与民间传奇二辑' : (g.batch === '6' ? '★ 第6批民国小说与民间传奇一辑' : (g.batch === '5' ? '★ 第5批经典名著深潜' : (g.batch === '4' ? '第4批跨门类增补' : (g.batch === '3' ? '第3批专集' : (g.batch === '2' ? '第2批专集' : '第1批专集'))))))))))));
     d.innerHTML = `
       <h3>${g.code}. ${g.work_name} · ${g.short_title}</h3>
       <div>

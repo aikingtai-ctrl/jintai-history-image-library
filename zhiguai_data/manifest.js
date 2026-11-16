@@ -1,1 +1,1 @@
-window.SPEC_ALL_MANIFEST={"page":"zhiguai31.html","dir":"zhiguai_data","version":"158e8349b50b","meta_shard":"zg_meta.js","total_items":8000,"chunk_size":2000,"item_shards":["zg_000.js","zg_001.js","zg_002.js","zg_003.js"]};
+window.SPEC_ALL_MANIFEST={"page":"zhiguai31.html","dir":"zhiguai_data","version":"2e9821ea6534","meta_shard":"zg_meta.js","total_items":8000,"chunk_size":2000,"item_shards":["zg_000.js","zg_001.js","zg_002.js","zg_003.js"]};
