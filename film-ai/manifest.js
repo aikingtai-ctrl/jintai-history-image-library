@@ -1,5 +1,5 @@
 window.FILM_AI_IMAGES={
-  "src-1e06be517deed41f": "film-ai/src-1e06be517deed41f.jpg",
+  "src-1e06be517deed41f": "film-ai/shots/YS-20261026-src-1e06be517deed41f-01.webp",
   "src-bcea890074e9d8ce": "film-ai/src-bcea890074e9d8ce.jpg",
   "atlantic-2026": "film-ai/atlantic-2026.jpg",
   "fatherland-2026": "film-ai/fatherland-2026.jpg",
