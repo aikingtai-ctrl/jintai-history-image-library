@@ -9017,6 +9017,2246 @@
           }
         ]
       }
+    },
+    {
+      "ordinal": 761,
+      "id": "dk-style-polish-andrzej-wajda-jerzy-lipman-witold-sobocinski-ashes-baroque",
+      "title": "风格派 · 波兰学派安杰伊·瓦伊达与耶日·利普曼索博钦斯基废墟银盐烈焰深焦与浪漫英雄象征美学（Polish School Baroque Chiaroscuro Andrzej Wajda & Jerzy Lipman / Witold Sobociński Deep-Focus Ruins & Torchlight）",
+      "category": "视觉风格流派",
+      "description": "安杰伊·瓦伊达携手波兰摄影大师耶日·利普曼、维托尔德·索博钦斯基与爱德华·克洛辛斯基《灰烬与钻石》《下水道》《应许之地》《大理石人》以极端仰俯角深焦黑白银盐刻画教堂倒悬十字架、伏特加蓝色火焰与工业迷雾中的历史悲剧张力。（收录 80 部流派视觉代表作）",
+      "file": "film-ai/decks/dk-style-polish-andrzej-wajda-jerzy-lipman-witold-sobocinski-ashes-baroque.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 223858,
+      "sha256": "73bfc14c1a95c529d522818eb1d99748cffb6387995fe70d31676fa46324bdab",
+      "png_file": "png/dk-style-polish-andrzej-wajda-jerzy-lipman-witold-sobocinski-ashes-baroque.png",
+      "png_sha256": "ffdc828c57ef231ee45a78892210617581f3bd616fdbccda7e1f11e1f5e5f279",
+      "prompt": "Create one original 16:9 landscape cinematic cover image. A lone civilian crosses a roofless stone workshop after a war, smoke and small torch flames revealing a broken stair and distant church arch. Deep-focus black-and-white silver grain, extreme vertical geometry and side-lit rubble turn ordinary survival into a symbolic image. Keep the subject anonymous and the violence off-screen. Apply side lighting. Translate source palette #d98c3e, #d69531, #d48841, #bd7535 into a grayscale luminance hierarchy, not literal colored accents. One coherent frame, no panels or collage, no typography, letters, logo, watermark, recognizable celebrity, or recreation of an existing movie still.",
+      "source_deck": {
+        "id": "dk-style-polish-andrzej-wajda-jerzy-lipman-witold-sobocinski-ashes-baroque",
+        "cat": "视觉风格流派",
+        "name": "风格派 · 波兰学派安杰伊·瓦伊达与耶日·利普曼索博钦斯基废墟银盐烈焰深焦与浪漫英雄象征美学（Polish School Baroque Chiaroscuro Andrzej Wajda & Jerzy Lipman / Witold Sobociński Deep-Focus Ruins & Torchlight）",
+        "desc": "安杰伊·瓦伊达携手波兰摄影大师耶日·利普曼、维托尔德·索博钦斯基与爱德华·克洛辛斯基《灰烬与钻石》《下水道》《应许之地》《大理石人》以极端仰俯角深焦黑白银盐刻画教堂倒悬十字架、伏特加蓝色火焰与工业迷雾中的历史悲剧张力。（收录 80 部流派视觉代表作）",
+        "n": 28,
+        "films": [
+          "The disciple",
+          "距离天堂300英里",
+          "卡廷惨案",
+          "沃伦大屠杀",
+          "Aniol w Szafie",
+          "Dotknięci"
+        ],
+        "film_cnt": 28,
+        "pal": [
+          "#d98c3e",
+          "#d69531",
+          "#d48841",
+          "#bd7535",
+          "#be7131",
+          "#b6722f",
+          "#b57732",
+          "#949494",
+          "#949494",
+          "#9b9b9b",
+          "#c47e2c",
+          "#ca842c"
+        ],
+        "q": "风格派电影",
+        "items": [
+          {
+            "id": "YS-20261029-AW5-src-2de7c7dec465d15f-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：Michał Sobociński）"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q4634316-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：Krzysztof Ptak）"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q714713-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：Paweł Edelman）"
+          },
+          {
+            "id": "YS-20261102B-CW104-src-wd-q27149954-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Piotr Sobociński jr.）"
+          },
+          {
+            "id": "YS-20261103R2-CW120-src-wd-q9154828-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jerzy Wójcik）"
+          },
+          {
+            "id": "YS-20261103R2-CW120-src-wd-q11694910-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Witold Adamek）"
+          },
+          {
+            "id": "YS-20261103R4-CW136-src-wd-q114095472-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Michał Sobociński）"
+          },
+          {
+            "id": "YS-20261029-AW5-src-f474d822fe007b6f-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：黑白·高反差 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-f9c948c9adb28ccb-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：黑白·高反差 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q129411-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：黑白·高反差 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q2080373-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：帕维乌·埃德尔曼）"
+          },
+          {
+            "id": "YS-20261111B6-M68-src-wd-q2944189-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：耶日·杰林斯基 (Jerzy Zieliński)）"
+          },
+          {
+            "id": "YS-20261111B6-M68-src-wd-q4359256-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：黑白·单色·黑 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Dariusz Kuć / Dariusz Kuc）"
+          },
+          {
+            "id": "YS-20261112B7-M68-src-wd-q325473-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Wit Dąbal）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q1546227-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jacek Petrycki）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q1972779-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Janusz Gauer）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q11800931-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Andrzej Ramlau）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q7314743-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Tomasz Tarasin）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q9371253-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jacek Stachlewski）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q9353062-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jacek Stachlewski）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q113650957-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：祖娜·戴莉斯卡 (Jolanta Dylewska) / Jakub Kijowski）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q9396302-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Krzysztof Tusiewicz）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q11767957-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Zdzisław Najda）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q590614-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Tomasz Tarasin）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q11687831-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Andrzej Ramlau）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q11787816-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Janusz Gauer）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q5264905-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Tomasz Tarasin）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q11753915-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Andrzej Wolf）"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 762,
+      "id": "dk-style-brazilian-glauber-rocha-affonso-beato-cinema-novo-sun-glare",
+      "title": "风格派 · 巴西新电影格劳贝尔·罗查与阿方索·贝亚托塞尔唐荒原刺目烈日过曝与手持仪式狂热美学（Cinema Novo Sun-Scorched Baroque Glauber Rocha & Waldemar Lima / Affonso Beato Sertão Overexposed Glare & Kinetic Ritual）",
+      "category": "视觉风格流派",
+      "description": "格劳贝尔·罗查携手摄影师瓦尔德马尔·利马、阿方索·贝亚托《黑上帝白魔鬼》《苦难的大地》《安东尼奥之死》践行「一部摄影机在手、一个观念在脑」饥饿美学，以巴西东北部塞尔唐旱原无滤镜刺眼白昼过曝与狂飙手持环绕锻造拉美政治神话史诗。（收录 80 部流派视觉代表作）",
+      "file": "film-ai/decks/dk-style-brazilian-glauber-rocha-affonso-beato-cinema-novo-sun-glare.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 403628,
+      "sha256": "c98be296cc00fcf72d7b9b8ad1484bee5691fc6729dade60a2088f62724e7b0f",
+      "png_file": "png/dk-style-brazilian-glauber-rocha-affonso-beato-cinema-novo-sun-glare.png",
+      "png_sha256": "4f8846960cf0ed0f8bcd5dc6bfc8cc46cfa54cc124e843a0faf63a25e60f7196",
+      "prompt": "Create one original 16:9 landscape cinematic cover image. A sun-blasted Brazilian sertao ridge at noon, an old ceramic water vessel beside a dry thorn tree, a small white adobe farmhouse far across the rolling ochre plain. Shoot from low eye level close to the dusty earth, with deliberately overexposed white sunlight and hard backlight making every stone and branch tactile. Energetic 16 mm documentary grain and a wide, empty horizon express Cinema Novo's sun-scorched visual language. Palette accents #cb943b, #ba7939, #b48f65, #dc963a, grounded in natural earth color. One coherent original landscape, no people, no panels, no collage, no readable text, lettering, logo, watermark, or recreation of a movie frame.",
+      "source_deck": {
+        "id": "dk-style-brazilian-glauber-rocha-affonso-beato-cinema-novo-sun-glare",
+        "cat": "视觉风格流派",
+        "name": "风格派 · 巴西新电影格劳贝尔·罗查与阿方索·贝亚托塞尔唐荒原刺目烈日过曝与手持仪式狂热美学（Cinema Novo Sun-Scorched Baroque Glauber Rocha & Waldemar Lima / Affonso Beato Sertão Overexposed Glare & Kinetic Ritual）",
+        "desc": "格劳贝尔·罗查携手摄影师瓦尔德马尔·利马、阿方索·贝亚托《黑上帝白魔鬼》《苦难的大地》《安东尼奥之死》践行「一部摄影机在手、一个观念在脑」饥饿美学，以巴西东北部塞尔唐旱原无滤镜刺眼白昼过曝与狂飙手持环绕锻造拉美政治神话史诗。（收录 80 部流派视觉代表作）",
+        "n": 28,
+        "films": [
+          "幽暗山谷",
+          "The Scary House",
+          "他们不用黑领带",
+          "Red Bells",
+          "The Age of the Earth",
+          "Listen"
+        ],
+        "film_cnt": 28,
+        "pal": [
+          "#cb943b",
+          "#ba7939",
+          "#b48f65",
+          "#dc963a",
+          "#d78f38",
+          "#d18b39",
+          "#d19043",
+          "#bb9356",
+          "#b07138",
+          "#b4732c",
+          "#c18534",
+          "#c77f36"
+        ],
+        "q": "风格派电影",
+        "items": [
+          {
+            "id": "YS-20261029-AW5-src-wd-q15733651-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：Thomas W. Kiennast）"
+          },
+          {
+            "id": "YS-20261030-CW80-src-wd-q98837860-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Matthias Pötsch）"
+          },
+          {
+            "id": "YS-20261028-GP2000-src-359970cf5552d897-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：低饱和·电影感 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-633fac926597c4ce-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-CL10-src-9c0df4f65f4aeb25-004",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-a7ffe86c18f1198b-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-ab58e1d5c6b2329f-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-GP2000-src-ac605bef2a926113-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：低饱和·电影感 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q3528210-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q5967720-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q5692149-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：劳罗·埃斯科雷尔）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q5978212-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：José Tadeu Ribeiro / Murilo Salles）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q1402538-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Teodoro Escamilla）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q3283322-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：劳罗·埃斯科雷尔）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q5148117-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：劳罗·埃斯科雷尔）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q7759820-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Ricardo Aronovich）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q5716827-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Carlos Rocha）"
+          },
+          {
+            "id": "YS-20261112B7-M68-src-wd-q624841-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Juan Carlos Desanzo）"
+          },
+          {
+            "id": "YS-20261112B7-M68-src-wd-q17102883-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Victor Hugo Caula）"
+          },
+          {
+            "id": "YS-20261112B7-M46-src-wd-q20001520-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Aníbal Di Salvo）"
+          },
+          {
+            "id": "YS-20261112B7-M46-src-wd-q20962230-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Aníbal Di Salvo）"
+          },
+          {
+            "id": "YS-20261112B9-M46-src-wd-q16681390-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Dib Lutfi）"
+          },
+          {
+            "id": "YS-20261112B9-M46-src-wd-q20962239-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Alberto Basail）"
+          },
+          {
+            "id": "YS-20261112B9-M46-src-wd-q5183193-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Alberto Basail）"
+          },
+          {
+            "id": "YS-20261112B9-M46-src-wd-q7757937-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Leonardo Rodríguez Solís）"
+          },
+          {
+            "id": "YS-20261112B9-M46-src-wd-q10343678-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Antônio Meliande）"
+          },
+          {
+            "id": "YS-20261112B9-M46-src-wd-q21946870-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：爱德华多·塞拉 (Eduardo Serra)）"
+          },
+          {
+            "id": "YS-20261112B9-M46-src-wd-q20986467-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Aníbal Di Salvo）"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 763,
+      "id": "dk-style-japanese-satoshi-kon-anime-match-cut-reality-shatter",
+      "title": "风格派 · 日本今敏镜像破碎无缝匹配转场与梦境现实高饱和迷幻错位动画美学（Shattered-Mirror Match-Cut Cinema Satoshi Kon Dream-Reality Metamorphosis & Kinetic Anime Montage）",
+      "category": "视觉风格流派",
+      "description": "今敏《未麻的部屋》《千年女优》《红辣椒》《东京教父》以真人电影级分镜密度突破二维动画边界，借玻璃橱窗与化妆镜多重反射、跨时空奔跑无缝匹配剪辑（Match-Cut）及高饱和霓虹游行洪流解构记忆与潜意识迷宫。（收录 80 部流派视觉代表作）",
+      "file": "film-ai/decks/dk-style-japanese-satoshi-kon-anime-match-cut-reality-shatter.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 464250,
+      "sha256": "939dff503220fa4ee10558ae0eeb4ef5280b65e4941275301737d1c0f116ff00",
+      "png_file": "png/dk-style-japanese-satoshi-kon-anime-match-cut-reality-shatter.png",
+      "png_sha256": "4792af2dc5f0bcdaa6d6d561d9e14d5f5b8e34dbc87a4de3b1b0d21124cc930e",
+      "prompt": "Create one original 16:9 landscape cinematic cover image. In an original hand-drawn animated city arcade, one young adult reaches toward a shop mirror while their reflected corridor bends into a different season without a visible seam. The same continuous figure anchors both spatial possibilities; saturated cyan and coral signage reflect in wet tile. Precise match-cut imagination expressed inside one coherent illustrated frame. Apply layered reflection. Palette accents drawn from #6496b4, #ba8032, #6e94b2, #6d8ebd; preserve the scene's natural color logic. One coherent frame, no panels or collage, no typography, letters, logo, watermark, recognizable celebrity, or recreation of an existing movie still.",
+      "source_deck": {
+        "id": "dk-style-japanese-satoshi-kon-anime-match-cut-reality-shatter",
+        "cat": "视觉风格流派",
+        "name": "风格派 · 日本今敏镜像破碎无缝匹配转场与梦境现实高饱和迷幻错位动画美学（Shattered-Mirror Match-Cut Cinema Satoshi Kon Dream-Reality Metamorphosis & Kinetic Anime Montage）",
+        "desc": "今敏《未麻的部屋》《千年女优》《红辣椒》《东京教父》以真人电影级分镜密度突破二维动画边界，借玻璃橱窗与化妆镜多重反射、跨时空奔跑无缝匹配剪辑（Match-Cut）及高饱和霓虹游行洪流解构记忆与潜意识迷宫。（收录 80 部流派视觉代表作）",
+        "n": 28,
+        "films": [
+          "Paprika",
+          "千年女优",
+          "Perfect Blue",
+          "Millenium Actress",
+          "Tokyo Godfathers",
+          "大雄与银河超特急"
+        ],
+        "film_cnt": 28,
+        "pal": [
+          "#6496b4",
+          "#ba8032",
+          "#6e94b2",
+          "#6d8ebd",
+          "#c57027",
+          "#c28a36",
+          "#dc8b27",
+          "#e18c24",
+          "#dc7d21",
+          "#dd8923",
+          "#d68c1a",
+          "#da8519"
+        ],
+        "q": "风格派电影",
+        "items": [
+          {
+            "id": "YS-20261028-AWF-paprika-2006-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Michiya Katou）"
+          },
+          {
+            "id": "YS-20261029-CL20-millennium-actress-2001-19",
+            "note": "全景 平视 ｜ 布光：顶光·实景光源·对称光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：对称·居中 ｜ 情绪：威严·宿命"
+          },
+          {
+            "id": "YS-20261029-FRM-perfect-blue-1997-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Hisao Shirai）"
+          },
+          {
+            "id": "YS-20261029-FRM-src-065e472a36cea284-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Hisao Shirai）"
+          },
+          {
+            "id": "YS-20261028-AWF-src-e225f0cbb195f8fa-006",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密（摄影：Katsutoshi Sugai）"
+          },
+          {
+            "id": "YS-20261110F5-M68-src-wd-q1309556-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Hideko Takahasi）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q112062052-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Soledad Rodríguez）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q117310922-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Henrik Ipsen / Freddy Tornberg）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q117310891-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jeppe M. Jeppesen）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q117311076-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jeppe M. Jeppesen）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q117311106-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jeppe M. Jeppesen）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q117311120-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jeppe M. Jeppesen）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q10672407-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Claus Loof）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q117311112-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Claus Loof）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q117311121-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Poul Gram / Claus Loof）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q106595791-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Maggie Olkuska）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q115693966-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：皮特·罗索洛夫斯基）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q105070710-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Anne Misselwitz）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q105962778-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Börres Weiffenbach / Daniel Andreas Sager）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q110924105-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Anne Misselwitz / Andreas Deinert）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q113044321-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Carla Muresan）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q104883586-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Andrzej Król）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q106582965-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Iván Blanco / Max Eriksson）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q109985742-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Boris Mahlau）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q116998482-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Miro Remo / Ivo Miko）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q116790468-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Reiner Holzemer）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q114958397-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Tilman König）"
+          },
+          {
+            "id": "YS-20261116B30-M68-src-wd-q117310876-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Peter Roos）"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 764,
+      "id": "dk-style-american-bob-fosse-geoffrey-unsworth-giuseppe-rotunno-spotlight-razzle",
+      "title": "风格派 · 美国鲍勃·福斯与安斯沃思罗图诺剧场硬聚光灯烟雾剪影与爵士肢体几何快切美学（Backstage Spotlight Chiaroscuro Bob Fosse & Geoffrey Unsworth / Giuseppe Rotunno / Owen Roizman Smoky Cabaret & Razzle-Dazzle Cut）",
+      "category": "视觉风格流派",
+      "description": "鲍勃·福斯携手奥斯卡级摄影巨匠杰弗里·安斯沃思、朱塞佩·罗图诺、欧文·罗伊兹曼《歌厅》《爵士春秋》《连尼》用漆黑舞台逆向硬聚光灯束穿透烟雾汗水，配合白手套礼帽局部微距快切与眩光镜头展现百老汇浮华背后的死亡狂欢。（收录 80 部流派视觉代表作）",
+      "file": "film-ai/decks/dk-style-american-bob-fosse-geoffrey-unsworth-giuseppe-rotunno-spotlight-razzle.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 125464,
+      "sha256": "dd95d772e3c8296c1d4db94cf77cf90de5df1ba060807856d9d20af004245ad8",
+      "png_file": "png/dk-style-american-bob-fosse-geoffrey-unsworth-giuseppe-rotunno-spotlight-razzle.png",
+      "png_sha256": "0d7686620308a0001b28e30994c2f654afd186a8cbd024f5e393ebf89ecd2ee6",
+      "prompt": "Create one original 16:9 landscape cinematic cover image. From a high backstage gallery, look down at an adult jazz dancer rehearsing alone on a dark theater stage, wearing a tailored long-sleeve black suit, white gloves and dress shoes. Three narrow hard spotlights cut through stage haze and cast precise geometric shadows across floor marks and curtains; warm amber light meets deep cobalt shadows. A single poised dance gesture communicates rhythmic theatrical choreography in one cinematic frame. Palette accents #d0601a, #bd7329, #6498ba, #6599b6. Original stage photography, no panels, collage, readable text, logos, watermark, recognizable celebrity or copied musical frame.",
+      "source_deck": {
+        "id": "dk-style-american-bob-fosse-geoffrey-unsworth-giuseppe-rotunno-spotlight-razzle",
+        "cat": "视觉风格流派",
+        "name": "风格派 · 美国鲍勃·福斯与安斯沃思罗图诺剧场硬聚光灯烟雾剪影与爵士肢体几何快切美学（Backstage Spotlight Chiaroscuro Bob Fosse & Geoffrey Unsworth / Giuseppe Rotunno / Owen Roizman Smoky Cabaret & Razzle-Dazzle Cut）",
+        "desc": "鲍勃·福斯携手奥斯卡级摄影巨匠杰弗里·安斯沃思、朱塞佩·罗图诺、欧文·罗伊兹曼《歌厅》《爵士春秋》《连尼》用漆黑舞台逆向硬聚光灯束穿透烟雾汗水，配合白手套礼帽局部微距快切与眩光镜头展现百老汇浮华背后的死亡狂欢。（收录 80 部流派视觉代表作）",
+        "n": 28,
+        "films": [
+          "银翼杀手",
+          "莫扎特传",
+          "Blood Simple",
+          "Dune",
+          "迈阿密风云",
+          "Splash"
+        ],
+        "film_cnt": 28,
+        "pal": [
+          "#d0601a",
+          "#bd7329",
+          "#6498ba",
+          "#6599b6",
+          "#dd893a",
+          "#d89340",
+          "#689bc1",
+          "#6390be",
+          "#698ec2",
+          "#aa8658",
+          "#6792bf",
+          "#da8e3f"
+        ],
+        "q": "风格派电影",
+        "items": [
+          {
+            "id": "YS-0031-01",
+            "note": "大远景 俯拍 ｜ 布光：火光·实景光源·低调 ｜ 影调：冷暖对比·橙·蓝 ｜ 构图：高地平线·纵深调度 ｜ 情绪：敬畏·窒息（摄影：乔丹·克罗嫩韦思）"
+          },
+          {
+            "id": "YS-20261028-C15-amadeus-1984-06",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密（摄影：Miroslav Ondricek）"
+          },
+          {
+            "id": "YS-20261028-AWF-blood-simple-1984-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Barry Sonnenfeld）"
+          },
+          {
+            "id": "YS-20261028-AWF-dune-1984-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Freddie Francis）"
+          },
+          {
+            "id": "YS-20261029-CAT5-miami-vice-1984-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：Brother's Keeper）"
+          },
+          {
+            "id": "YS-20261029-AW5-src-2c9d0a10585eeba8-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-AWF-src-49dd751c49cc881b-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Ernest Dickerson）"
+          },
+          {
+            "id": "YS-20261028-C15-src-4c76057b155752e2-11",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Donald Peterman）"
+          },
+          {
+            "id": "YS-20261028-AWF-src-843697b9a205933d-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Andrew Laszlo）"
+          },
+          {
+            "id": "YS-20261028-GP2000-src-a47c68601840eb1d-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：低饱和·电影感 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：Roberto Schaefer）"
+          },
+          {
+            "id": "YS-20261028-AWF-src-e49b8afed9e59a07-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Douglas Slocombe）"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q181803-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-CAT5-tales-from-the-loop-2020-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：Jeff Cronenweth）"
+          },
+          {
+            "id": "YS-20261028-C15-the-right-stuff-1983-06",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密（摄影：Caleb Deschanel）"
+          },
+          {
+            "id": "YS-20261028-AWF-the-terminator-1984-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Adam Greenberg）"
+          },
+          {
+            "id": "YS-20261030-CW60-ya-no-estoy-aqui-2019-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：达米安·加西亚 (Damián García)）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q6389583-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Ernie Vincze）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q5912197-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Kenneth MacMillan）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q56195117-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Suzie Lavelle）"
+          },
+          {
+            "id": "YS-20261103R3-CN104-src-wd-q3985371-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：拉尔多·戈西）"
+          },
+          {
+            "id": "YS-20261029-FRM-a-nightmare-on-elm-street-1984-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Jacques Haitkin）"
+          },
+          {
+            "id": "YS-20261113B22-M68-apple-1984-1984-006",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：暖调·高饱和·金 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密"
+          },
+          {
+            "id": "YS-20261113B22-M68-bruce-springsteen-dancing-in-the-dark-1984-006",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：暖调·高饱和·金 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密"
+          },
+          {
+            "id": "YS-20261109F5-M36-burden-of-dreams-1982-006",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：暖调·金·橙 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密"
+          },
+          {
+            "id": "YS-20261029-FRM-first-blood-1982-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Andrew Laszlo）"
+          },
+          {
+            "id": "YS-20261028-AWF-ghostbusters-1984-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：László Kovács）"
+          },
+          {
+            "id": "YS-20261113B22-M68-prince-when-doves-cry-1984-006",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：暖调·高饱和·金 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密"
+          },
+          {
+            "id": "YS-20261028-AWF-rumble-fish-1983-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Stephen H. Burum）"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 765,
+      "id": "dk-style-british-jonathan-glazer-lukasz-zal-dan-landau-void-thermal-monolith",
+      "title": "风格派 · 英国乔纳森·格雷泽与卢卡什·扎尔丹·兰德因纯黑虚空吞噬、多机位冷白定镜与热成像异化美学（Void Monolith & Thermal Detachment Jonathan Glazer & Łukasz Żal / Dan Landin / Harris Savides Pitch-Black Abyss & Multi-Rig Cold Daylight）",
+      "category": "视觉风格流派",
+      "description": "乔纳森·格雷泽携手摄影大师卢卡什·扎尔、丹·兰德因、哈里斯·萨维德斯《皮囊之下》《利益区域》《重生》《性感野兽》以无边液态纯黑虚空空间、无人值守隐藏多机位客观冷白日光定镜及夜间负片热成像光谱构建冷峻哲学凝视。（收录 80 部流派视觉代表作）",
+      "file": "film-ai/decks/dk-style-british-jonathan-glazer-lukasz-zal-dan-landau-void-thermal-monolith.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 152184,
+      "sha256": "ae70b0b394baa747bfcd2d765a4bc3756f8474aa498315e43fc38e7be9e7763b",
+      "png_file": "png/dk-style-british-jonathan-glazer-lukasz-zal-dan-landau-void-thermal-monolith.png",
+      "png_sha256": "345bf274e3efdc7f538b236c68b00571f0e01ca838eeac14845b57eaadcbbac3",
+      "prompt": "Create one original 16:9 landscape cinematic cover image. A remote overhead view of an empty municipal parking structure, one anonymous figure approaching a pool of absolute black where the floor seems to vanish. Cold white daylight from side slots repeats in strict bands; a faint red thermal-like edge around the body hints at estrangement. Objective surveillance distance and severe negative space, no alien design. Apply a high-angle viewpoint. Palette accents drawn from #9a9a9e, #d08c38, #649cbc, #b88a44; preserve the scene's natural color logic. One coherent frame, no panels or collage, no typography, letters, logo, watermark, recognizable celebrity, or recreation of an existing movie still.",
+      "source_deck": {
+        "id": "dk-style-british-jonathan-glazer-lukasz-zal-dan-landau-void-thermal-monolith",
+        "cat": "视觉风格流派",
+        "name": "风格派 · 英国乔纳森·格雷泽与卢卡什·扎尔丹·兰德因纯黑虚空吞噬、多机位冷白定镜与热成像异化美学（Void Monolith & Thermal Detachment Jonathan Glazer & Łukasz Żal / Dan Landin / Harris Savides Pitch-Black Abyss & Multi-Rig Cold Daylight）",
+        "desc": "乔纳森·格雷泽携手摄影大师卢卡什·扎尔、丹·兰德因、哈里斯·萨维德斯《皮囊之下》《利益区域》《重生》《性感野兽》以无边液态纯黑虚空空间、无人值守隐藏多机位客观冷白日光定镜及夜间负片热成像光谱构建冷峻哲学凝视。（收录 80 部流派视觉代表作）",
+        "n": 28,
+        "films": [
+          "秘密会议",
+          "混沌少年时",
+          "The Ugly Stepsister",
+          "哈姆奈特",
+          "肖邦：巴黎奏鸣曲",
+          "更好的我"
+        ],
+        "film_cnt": 28,
+        "pal": [
+          "#9a9a9e",
+          "#d08c38",
+          "#649cbc",
+          "#b88a44",
+          "#b16e2c",
+          "#b6762c",
+          "#b27839",
+          "#bd6c31",
+          "#c17825",
+          "#d18b41",
+          "#dd8c3f",
+          "#b18957"
+        ],
+        "q": "风格派电影",
+        "items": [
+          {
+            "id": "YS-0081-01",
+            "note": "远景 俯拍 ｜ 布光：阴天散射光·柔光·低反差 ｜ 影调：中性·白·红 ｜ 构图：重复图形·引导线 ｜ 情绪：威严·神秘（摄影：斯特凡·方丹）"
+          },
+          {
+            "id": "YS-20261029-CAT5-adolescence-2025-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：Matthew Lewis）"
+          },
+          {
+            "id": "YS-20261028-AWF-src-4918ce92a5a4b8f9-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Marcel Zyskind）"
+          },
+          {
+            "id": "YS-20261026-src-f60d5676a65a98a1-01",
+            "note": "全景 俯拍 ｜ 布光：日光·逆光·柔光 ｜ 影调：冷暖对比·绿·红 ｜ 构图：对角线·框中框 ｜ 情绪：平静·神秘（摄影：卢卡斯·扎尔 (Łukasz Żal)）"
+          },
+          {
+            "id": "YS-20261029-C36-chopin-a-sonata-in-paris-2025-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：米哈乌·索博钦斯基 (Michał Sobociński)）"
+          },
+          {
+            "id": "YS-20261030-CW64-better-man-2024-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：埃里克·威尔逊 (Erik Wilson)）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q117019221-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Rik Zang）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q115789958-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：约翰·馬西森）"
+          },
+          {
+            "id": "YS-20261109F5-M68-baby-reindeer-2024-006",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：暖调·金·橙 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密"
+          },
+          {
+            "id": "YS-20261029-AW5-src-7ce55cd171d761b6-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-a994de9273b25236-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-GP2000-src-ace2346f98af2e6d-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：低饱和·电影感 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-AWF-src-fe334f732b5d0fd4-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Robbie Ryan）"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q135321335-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261030-GP28-sabar-bonda-2025-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：维卡斯·乌尔斯 (Vikas Urs)）"
+          },
+          {
+            "id": "YS-20261106F4-AW36-src-wd-q124608269-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：羅布萊希特·艾瓦爾特）"
+          },
+          {
+            "id": "YS-20261106F4-AW36-src-wd-q116954564-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Nanu Segal）"
+          },
+          {
+            "id": "YS-20261106F4-AW36-src-wd-q130383564-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：瑞米·艾法瑞辛）"
+          },
+          {
+            "id": "YS-20261106F4-AW36-src-wd-q108195601-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Mike Eley）"
+          },
+          {
+            "id": "YS-20261106F4-AW36-src-wd-q112124771-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：艾伦·斯图尔特）"
+          },
+          {
+            "id": "YS-20261109F5-M68-src-wd-q117425181-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Stuart Bentley）"
+          },
+          {
+            "id": "YS-20261109F5-M68-src-wd-q125975336-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Nick Morris）"
+          },
+          {
+            "id": "YS-20261109F5-M68-src-wd-q125217247-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：David J. Thompson）"
+          },
+          {
+            "id": "YS-20261110F5-M68-src-wd-q117848301-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：斯艾瑞·阿博贾斯特）"
+          },
+          {
+            "id": "YS-20261110F5-M68-src-wd-q118904382-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：比尔·珀普）"
+          },
+          {
+            "id": "YS-20261110F5-M46-src-wd-q121295724-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：尼古拉·布吕尔）"
+          },
+          {
+            "id": "YS-20261110B4-M68-src-wd-q61876374-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Fraser Taggart）"
+          },
+          {
+            "id": "YS-20261110B4-M46-src-wd-q107460063-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：喬治·里希蒙德）"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 766,
+      "id": "dk-style-scottish-lynne-ramsay-aleksandar-kostic-tactile-close-fragment",
+      "title": "风格派 · 苏格兰琳恩·拉姆塞与阿尔文·库勒托马斯·汤森德触觉微距织物光斑与猩红感官碎片美学（Scottish Tactile Sensory Cinema Lynne Ramsay & Alwin H. Küchler / Seamus McGarvey / Thomas Townend Macro Curtain Dust & Crimson Trauma）",
+      "category": "视觉风格流派",
+      "description": "琳恩·拉姆塞携手阿尔文·库勒、西穆斯·麦加维、托马斯·汤森德《捕鼠者》《莫文·卡拉》《凯文怎么了》《你从未在此》聚焦薄纱窗帘缠绕微距浮尘、局部指尖发丝触觉特写与高纯度猩红液体心理创伤蒙太奇。（收录 80 部流派视觉代表作）",
+      "file": "film-ai/decks/dk-style-scottish-lynne-ramsay-aleksandar-kostic-tactile-close-fragment.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 144794,
+      "sha256": "65366165d7e6c2149b17d972e90010eb54dee2478ad892c1aa6e9abbe40aafa4",
+      "png_file": "png/dk-style-scottish-lynne-ramsay-aleksandar-kostic-tactile-close-fragment.png",
+      "png_sha256": "154cca011db62406ffa5ed9ed54216fe157a5ab98cbe7c89cf193d1e43fa7c53",
+      "prompt": "Create one original 16:9 landscape cinematic cover image. A child's hand brushes a dusty curtain in a quiet tenement room, fibers and floating particles rendered in intimate macro detail. A sliver of deep crimson appears on a folded cloth, not as blood, while the rest stays warm ochre and dark. Low practical light and tactile shallow focus evoke memory through touch in one continuous fragment. Apply low-key lighting. Palette accents drawn from #c16e25, #af7437, #be7334, #b77038; preserve the scene's natural color logic. One coherent frame, no panels or collage, no typography, letters, logo, watermark, recognizable celebrity, or recreation of an existing movie still.",
+      "source_deck": {
+        "id": "dk-style-scottish-lynne-ramsay-aleksandar-kostic-tactile-close-fragment",
+        "cat": "视觉风格流派",
+        "name": "风格派 · 苏格兰琳恩·拉姆塞与阿尔文·库勒托马斯·汤森德触觉微距织物光斑与猩红感官碎片美学（Scottish Tactile Sensory Cinema Lynne Ramsay & Alwin H. Küchler / Seamus McGarvey / Thomas Townend Macro Curtain Dust & Crimson Trauma）",
+        "desc": "琳恩·拉姆塞携手阿尔文·库勒、西穆斯·麦加维、托马斯·汤森德《捕鼠者》《莫文·卡拉》《凯文怎么了》《你从未在此》聚焦薄纱窗帘缠绕微距浮尘、局部指尖发丝触觉特写与高纯度猩红液体心理创伤蒙太奇。（收录 80 部流派视觉代表作）",
+        "n": 28,
+        "films": [
+          "Die My Love",
+          "九月五日",
+          "成瘾剂量",
+          "1883",
+          "更好的我",
+          "沸点"
+        ],
+        "film_cnt": 28,
+        "pal": [
+          "#c16e25",
+          "#af7437",
+          "#be7334",
+          "#b77038",
+          "#b6762c",
+          "#b66c32",
+          "#af7a29",
+          "#bf6c34",
+          "#bc7b2c",
+          "#b27839",
+          "#bc7439",
+          "#bf6d32"
+        ],
+        "q": "风格派电影",
+        "items": [
+          {
+            "id": "YS-20261028-AWF-src-edd4f3c15349802b-006",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密（摄影：Seamus McGarvey）"
+          },
+          {
+            "id": "YS-20261030-C52-september-5-2024-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：马库斯·福德勒 (Markus Förderer)）"
+          },
+          {
+            "id": "YS-20261030-CW60-dopesick-2021-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：切科·瓦雷泽 (Checco Varese)）"
+          },
+          {
+            "id": "YS-20261030-CN52-1883-2021-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：本·理查森 (Ben Richardson)）"
+          },
+          {
+            "id": "YS-20261030-CW64-better-man-2024-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：埃里克·威尔逊 (Erik Wilson)）"
+          },
+          {
+            "id": "YS-20261030-CW72-boiling-point-2021-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：马修·刘易斯 (Matthew Lewis)）"
+          },
+          {
+            "id": "YS-20261030-CW80-src-wd-q117842597-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Lennert Hillege）"
+          },
+          {
+            "id": "YS-20261102-CW104-src-wd-q124727186-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jody Lee Lipes）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q106362893-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：安东尼·多德·曼妥）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q117019221-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Rik Zang）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q117842630-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：麥克·喬拉基斯）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q114314695-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：朱拉·佩杜斯）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q117074921-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Madeleine Gavin）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q124352878-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Josh Greenbaum）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q115789958-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：约翰·馬西森）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q128031503-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Charles Atkinson）"
+          },
+          {
+            "id": "YS-20261103R3-CN104-src-wd-q116179834-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Eric Branco）"
+          },
+          {
+            "id": "YS-20261103R3-CN104-src-wd-q124485743-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：David Raedeker / Kanamé Onoyama）"
+          },
+          {
+            "id": "YS-20261106F4-AW36-src-wd-q104007933-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：弗兰克·拉姆）"
+          },
+          {
+            "id": "YS-20261109F5-M68-src-wd-q111728347-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Yorick Le Saux / Denis Lenoir）"
+          },
+          {
+            "id": "YS-20261110B4-M46-src-wd-q141250260-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Joel Honeywell）"
+          },
+          {
+            "id": "YS-20261112B7-M46-src-wd-q124853345-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Sebastian Klinger）"
+          },
+          {
+            "id": "YS-20261112B7-M46-src-wd-q111755658-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Robert Nordström）"
+          },
+          {
+            "id": "YS-20261112B8-M46-src-wd-q111270010-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：丹·罗斯特辛 (Dan Laustsen)）"
+          },
+          {
+            "id": "YS-20261112B8-M68-src-wd-q116730348-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Carolina Costa）"
+          },
+          {
+            "id": "YS-20261112B8-M46-src-wd-q118395165-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：詹姆斯·纳莱斯基 (James Naleski)）"
+          },
+          {
+            "id": "YS-20261112B8-M46-src-wd-q112162297-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Vince Knight）"
+          },
+          {
+            "id": "YS-20261112B10-M68-src-wd-q106740037-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Bryan Mason）"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 767,
+      "id": "dk-style-chilean-pablo-larrain-sergio-armstrong-lachman-anamorphic-haze-prism",
+      "title": "风格派 · 智利帕布罗·拉雷恩与阿姆斯特朗拉奇曼复古广角边缘色散眩光与庄园迷雾幽闭肖像美学（Chilean Prism & U-Matic Haze Pablo Larraín & Sergio Armstrong / Edward Lachman / Claire Mathon Vintage Anamorphic Flare & Misty Estate Portrait）",
+      "category": "视觉风格流派",
+      "description": "帕布罗·拉雷恩携手塞尔吉奥·阿姆斯特朗、爱德华·拉奇曼、克莱尔·马松《智利说不》《神父俱乐部》《第一夫人》《斯宾塞》《伯爵》融合1980年代U-matic磁带日光光晕、老式广角镜头边缘柔化散光与阴冷海岸庄园浅景深人物肖像。（收录 80 部流派视觉代表作）",
+      "file": "film-ai/decks/dk-style-chilean-pablo-larrain-sergio-armstrong-lachman-anamorphic-haze-prism.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 136060,
+      "sha256": "1c8ea9ac85072a529d562af10ab5fe56c93ebd7664657c69771db8c0f0be9bc5",
+      "png_file": "png/dk-style-chilean-pablo-larrain-sergio-armstrong-lachman-anamorphic-haze-prism.png",
+      "png_sha256": "9a418b39152b2e2d865dc5089e7386518dbf42d41aee7c824a6d4b5e4fc38277",
+      "prompt": "Create one original 16:9 landscape cinematic cover image. A solitary person in a weathered Chilean seaside estate, framed close through an old wide-angle lens as mist fills the courtyard behind. Soft edge aberration, faint prismatic flare and faded analog-video bloom trouble an otherwise calm portrait. Cool cyan shadow, muted ochre walls and moody side light imply private history without imitating a film frame. Apply side lighting. Palette accents drawn from #a38650, #ad7a5a, #a0834e, #a88854; preserve the scene's natural color logic. One coherent frame, no panels or collage, no typography, letters, logo, watermark, recognizable celebrity, or recreation of an existing movie still.",
+      "source_deck": {
+        "id": "dk-style-chilean-pablo-larrain-sergio-armstrong-lachman-anamorphic-haze-prism",
+        "cat": "视觉风格流派",
+        "name": "风格派 · 智利帕布罗·拉雷恩与阿姆斯特朗拉奇曼复古广角边缘色散眩光与庄园迷雾幽闭肖像美学（Chilean Prism & U-Matic Haze Pablo Larraín & Sergio Armstrong / Edward Lachman / Claire Mathon Vintage Anamorphic Flare & Misty Estate Portrait）",
+        "desc": "帕布罗·拉雷恩携手塞尔吉奥·阿姆斯特朗、爱德华·拉奇曼、克莱尔·马松《智利说不》《神父俱乐部》《第一夫人》《斯宾塞》《伯爵》融合1980年代U-matic磁带日光光晕、老式广角镜头边缘柔化散光与阴冷海岸庄园浅景深人物肖像。（收录 80 部流派视觉代表作）",
+        "n": 28,
+        "films": [
+          "殘酷一瞬",
+          "Zuzana: Music is Life（2019年捷克电影）",
+          "The Go-Go's（2020年美国电影）",
+          "Fils unique（2010年比利时电影）",
+          "松嶺（電影）",
+          "Searching For Bill（2013年丹麦电影）"
+        ],
+        "film_cnt": 28,
+        "pal": [
+          "#a38650",
+          "#ad7a5a",
+          "#a0834e",
+          "#a88854",
+          "#a98759",
+          "#dc8727",
+          "#a88952",
+          "#a28555",
+          "#a08956",
+          "#a78151",
+          "#a17c58",
+          "#a8864c"
+        ],
+        "q": "风格派电影",
+        "items": [
+          {
+            "id": "YS-20261116B31-M68-src-wd-q68407948-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：José Ángel Alayón）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q66826883-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Tony Miller）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q98005150-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Sam Painter）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q3072237-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Virginie Saint-Martin）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q20729364-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：纳迪姆·卡尔森）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q20729448-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：高饱和·红·金 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：纳迪姆·卡尔森）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q3351936-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Virginie Saint-Martin）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q3357078-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Virginie Saint-Martin）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q3472464-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Virginie Saint-Martin）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q16655010-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jean Poisson）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q116795140-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Virginie Saint-Martin）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q3163530-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Aurélien Devaux）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q118215318-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：黑·白·冷调 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Ita Zbroniec-Zajt）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q60738400-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：黑·白·冷调 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Axel Baumann / Michael Dwyer）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q112605677-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Mathieu Gaudet）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q122741027-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：黑·白·冷调 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Simos Sarketzis）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q3135253-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Tim Fleming）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q65055359-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Guillaume Couture）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q14623562-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：路易斯·大卫·桑桑斯）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q58797331-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：路易斯·大卫·桑桑斯）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q65322095-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Pierre Maïllis-Laval）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q123168860-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：黑·白·冷调 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Sebastian Bock）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q110101641-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Javier G. Salmones）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q22039133-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Diego Dussuel / Rita Noriega）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q100227242-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Rita Noriega）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q108329775-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Rita Noriega）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q75823148-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Mkrtich Malkhasyan）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q138002254-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Javier G. Salmones）"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 768,
+      "id": "dk-style-malian-abderrahmane-sissako-sofian-el-fani-sahel-indigo-desert",
+      "title": "风格派 · 西非马里阿卜杜勒拉赫曼·西萨科与索菲安·埃尔·法尼萨赫勒红沙丘靛蓝剪影与诗意人文长镜美学（Sahelian Indigo Humanism Abderrahmane Sissako & Sofian El Fani / Jacques Besse Desert Dune Horizon & Tent Lantern Warmth）",
+      "category": "视觉风格流派",
+      "description": "阿卜杜勒拉赫曼·西萨科携手摄影师索菲安·埃尔·法尼《廷巴克图》《等待幸福》《巴马科》于西非萨赫勒辽阔金赭沙丘天际线、飘扬靛蓝图阿雷格长袍与夜幕低垂的游牧帐篷暖灯之间谱写尊严与诗意挽歌。（收录 80 部流派视觉代表作）",
+      "file": "film-ai/decks/dk-style-malian-abderrahmane-sissako-sofian-el-fani-sahel-indigo-desert.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 207918,
+      "sha256": "39247d56b9ee9060ab49801bd40106dbf2e3d23ef95827079f1be9697148bc79",
+      "png_file": "png/dk-style-malian-abderrahmane-sissako-sofian-el-fani-sahel-indigo-desert.png",
+      "png_sha256": "881826b476f93c94c1d24f3eddd6f9cb8d296ad55a3ba112e9c71b0baba63aae",
+      "prompt": "Create one original 16:9 landscape cinematic cover image. From inside a nomad tent at the edge of the Sahel, the opening frames an indigo-robed traveler crossing vast red-gold dunes at blue hour. A tiny lantern adds amber depth inside while the horizon remains wide and humane. Patient eye-level long take, layered tent fabric and open sky, dignity rather than exotic spectacle. Apply framing within a frame. Palette accents drawn from #c49a6c, #d9a86c, #b16e2c, #bb7738; preserve the scene's natural color logic. One coherent frame, no panels or collage, no typography, letters, logo, watermark, recognizable celebrity, or recreation of an existing movie still.",
+      "source_deck": {
+        "id": "dk-style-malian-abderrahmane-sissako-sofian-el-fani-sahel-indigo-desert",
+        "cat": "视觉风格流派",
+        "name": "风格派 · 西非马里阿卜杜勒拉赫曼·西萨科与索菲安·埃尔·法尼萨赫勒红沙丘靛蓝剪影与诗意人文长镜美学（Sahelian Indigo Humanism Abderrahmane Sissako & Sofian El Fani / Jacques Besse Desert Dune Horizon & Tent Lantern Warmth）",
+        "desc": "阿卜杜勒拉赫曼·西萨科携手摄影师索菲安·埃尔·法尼《廷巴克图》《等待幸福》《巴马科》于西非萨赫勒辽阔金赭沙丘天际线、飘扬靛蓝图阿雷格长袍与夜幕低垂的游牧帐篷暖灯之间谱写尊严与诗意挽歌。（收录 80 部流派视觉代表作）",
+        "n": 28,
+        "films": [
+          "情感的價值",
+          "穿越地獄之門",
+          "肖邦：巴黎奏鸣曲",
+          "狂野时代",
+          "局外人",
+          "銀與血"
+        ],
+        "film_cnt": 28,
+        "pal": [
+          "#c49a6c",
+          "#d9a86c",
+          "#b16e2c",
+          "#bb7738",
+          "#878787",
+          "#b2702e",
+          "#d88743",
+          "#cf893b",
+          "#d18d3d",
+          "#b89162",
+          "#b18957",
+          "#d48836"
+        ],
+        "q": "风格派电影",
+        "items": [
+          {
+            "id": "YS-20261026-src-ad0d00fe34afbc96-01",
+            "note": "全景 平视 ｜ 布光：日光·窗光·侧光 ｜ 影调：暖调·金·棕褐 ｜ 构图：框中框·纵深调度 ｜ 情绪：怀旧·迷惘（摄影：卡斯珀·图克森 (Kasper Tuxen)）"
+          },
+          {
+            "id": "YS-20261026-src-c73af751fe8de506-01",
+            "note": "大远景 平视 ｜ 布光：日光·逆光·硬光 ｜ 影调：暖调·黄·棕褐 ｜ 构图：低地平线·负空间 ｜ 情绪：迷惘·敬畏（摄影：莫罗·赫塞 (Mauro Herce)）"
+          },
+          {
+            "id": "YS-20261029-C36-chopin-a-sonata-in-paris-2025-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：米哈乌·索博钦斯基 (Michał Sobociński)）"
+          },
+          {
+            "id": "YS-20261029-C36-resurrection-bigan-2025-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：董劲松）"
+          },
+          {
+            "id": "YS-20261030-CW60-l-etranger-2025-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：黑白·高反差 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：马努·达科斯 (Manu Dacosse)）"
+          },
+          {
+            "id": "YS-20261102-CW104-src-wd-q111211875-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：克里斯托弗·博卡尔纳）"
+          },
+          {
+            "id": "YS-20261029-AW5-src-09ea09a502949577-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-4759f3cb9a691395-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-CL10-src-6321551dbb0c809d-004",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-GP2000-src-7f6ccca8ec4e21eb-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：低饱和·电影感 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-GP2000-src-ace2346f98af2e6d-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：低饱和·电影感 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q116996035-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q131139556-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q134548431-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q136193302-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-GP2000-src-wd-q140520061-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：低饱和·电影感 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261027-dau-2026-01",
+            "note": "全景 平视 ｜ 布光：阴天散射光·低调·低反差 ｜ 影调：冷调·低饱和·黑 ｜ 构图：引导线·纵深调度 ｜ 情绪：压抑·威严（摄影：尤尔根·尤尔格斯 (Jürgen Jürges)）"
+          },
+          {
+            "id": "YS-20261027-un-bon-petit-soldat-2026-01",
+            "note": "近景 平视 ｜ 布光：阴天散射光·柔光·低反差 ｜ 影调：冷调·低饱和·绿 ｜ 构图：三分法·短边构图 ｜ 情绪：压抑·紧张（摄影：埃里克·杜蒙 (Éric Dumont)）"
+          },
+          {
+            "id": "YS-20261027-15-18-a-place-to-heal-20-01",
+            "note": "近景 平视 ｜ 布光：日光·阴天散射光·高反差 ｜ 影调：冷暖对比·绿·黄 ｜ 构图：三分法·纵深调度 ｜ 情绪：紧张·孤独（摄影：帕特里克·吉兰朱瓦 (Patrick Ghiringhelli)）"
+          },
+          {
+            "id": "YS-20261030-GP34-katanga-2025-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：黑白·高反差 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：让·诺埃尔·巴伊 (Jean-Noël Bah)）"
+          },
+          {
+            "id": "YS-20261109F5-M68-src-wd-q126488898-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Todd Banhazl）"
+          },
+          {
+            "id": "YS-20261111B5-M68-src-wd-q137827464-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·高饱和·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：赛琳·波宗）"
+          },
+          {
+            "id": "YS-20261112B7-M68-src-wd-q129370495-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jonathan Ricquebourg）"
+          },
+          {
+            "id": "YS-20261112B7-M46-src-wd-q139078113-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Paul Guilhaume）"
+          },
+          {
+            "id": "YS-20261113B22-M68-src-wd-q127602909-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Laurent Tangy）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q3072237-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Virginie Saint-Martin）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q3351936-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Virginie Saint-Martin）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q3357078-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Virginie Saint-Martin）"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 769,
+      "id": "dk-style-hongkong-stanley-kwan-christopher-doyle-pao-cheong-mirror-qipao-elegy",
+      "title": "风格派 · 香港关锦鹏与杜可风鲍德熹潘恒生石塘咀镜面框景、黑白史料叠印与旗袍琥珀挽歌美学（Hong Kong Mirror-Framed Qipao Elegy Stanley Kwan & 潘恒生 Poon Hang-Sang / Christopher Doyle / Peter Pau Amber Boudoir & Archival Silver Intercut）",
+      "category": "视觉风格流派",
+      "description": "关锦鹏携手潘恒生、杜可风、鲍德熹《胭脂扣》《阮玲玉》《红玫瑰白玫瑰》《长恨歌》《蓝宇》以梳妆镜与屏风多重框中框构图、三十年代银盐黑白戏中戏交织暖琥珀丝绸旗袍暗部柔光，雕琢华语女性命运哀歌。（收录 80 部流派视觉代表作）",
+      "file": "film-ai/decks/dk-style-hongkong-stanley-kwan-christopher-doyle-pao-cheong-mirror-qipao-elegy.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 138526,
+      "sha256": "46cebc6273018747b26ccba3370228752a05df388ec28264bdce1041d226d162",
+      "png_file": "png/dk-style-hongkong-stanley-kwan-christopher-doyle-pao-cheong-mirror-qipao-elegy.png",
+      "png_sha256": "d9394a2885678efdb451c034a1f7b7a041c957c1e927c0dd75eaac775666063c",
+      "prompt": "Create one original 16:9 landscape cinematic cover image. A fictional 1930s Hong Kong dressing room, an anonymous woman in a simple silk qipao adjusting a lamp while her figure appears in two angled mirrors. Amber light touches fabric against cool silver reflections; a carved screen partially obscures the view. Soft archival-grain melancholy and nested frames evoke memory without copying a celebrity or film still. Apply foreground occlusion. Palette accents drawn from #6a6a3a, #c9d1d8, #a8633a, #d09a3a; preserve the scene's natural color logic. One coherent frame, no panels or collage, no typography, letters, logo, watermark, recognizable celebrity, or recreation of an existing movie still.",
+      "source_deck": {
+        "id": "dk-style-hongkong-stanley-kwan-christopher-doyle-pao-cheong-mirror-qipao-elegy",
+        "cat": "视觉风格流派",
+        "name": "风格派 · 香港关锦鹏与杜可风鲍德熹潘恒生石塘咀镜面框景、黑白史料叠印与旗袍琥珀挽歌美学（Hong Kong Mirror-Framed Qipao Elegy Stanley Kwan & 潘恒生 Poon Hang-Sang / Christopher Doyle / Peter Pau Amber Boudoir & Archival Silver Intercut）",
+        "desc": "关锦鹏携手潘恒生、杜可风、鲍德熹《胭脂扣》《阮玲玉》《红玫瑰白玫瑰》《长恨歌》《蓝宇》以梳妆镜与屏风多重框中框构图、三十年代银盐黑白戏中戏交织暖琥珀丝绸旗袍暗部柔光，雕琢华语女性命运哀歌。（收录 80 部流派视觉代表作）",
+        "n": 28,
+        "films": [
+          "地球最后的夜晚",
+          "我们诞生在中国",
+          "如果国宝会说话 第一季",
+          "航拍中国 第一季",
+          "An Elephant Sitting Still",
+          "江湖儿女"
+        ],
+        "film_cnt": 28,
+        "pal": [
+          "#6a6a3a",
+          "#c9d1d8",
+          "#a8633a",
+          "#d09a3a",
+          "#6e95b4",
+          "#b77234",
+          "#b85d2e",
+          "#c07626",
+          "#d69440",
+          "#cd8e3e",
+          "#d9913e",
+          "#db8637"
+        ],
+        "q": "风格派电影",
+        "items": [
+          {
+            "id": "YS-0017-01",
+            "note": "中景 平视 ｜ 布光：实景光源·侧光·低调 ｜ 影调：冷暖对比·绿·黄 ｜ 构图：前景遮挡·负空间 ｜ 情绪：神秘·暧昧（摄影：姚宏易；董劲松；大卫·齐扎莱）"
+          },
+          {
+            "id": "YS-0107-01",
+            "note": "全景 仰拍 ｜ 布光：侧光·日光·硬光 ｜ 影调：冷调·白·蓝 ｜ 构图：低地平线·三分法 ｜ 情绪：威严·温情（摄影：罗伊·哈特 (Rolf Steinmann), 肖恩·麦克劳德 (Shane Moore)）"
+          },
+          {
+            "id": "YS-0110-01",
+            "note": "特写 平视 ｜ 布光：低调·侧光·柔光 ｜ 影调：暖调·橙·黑 ｜ 构图：居中·负空间 ｜ 情绪：神秘·敬畏（摄影：杨明阳）"
+          },
+          {
+            "id": "YS-0111-01",
+            "note": "大远景 航拍 ｜ 布光：逆光·日光·高反差 ｜ 影调：暖调·金·橙 ｜ 构图：引导线·倒影镜像 ｜ 情绪：敬畏·平静（摄影：中央电视台纪录频道航拍团队）"
+          },
+          {
+            "id": "YS-20261028-AWF-an-elephant-sitting-still-2018-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Chao Fan）"
+          },
+          {
+            "id": "YS-20261028-CL10-ash-is-purest-white-2018-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Éric Gautier）"
+          },
+          {
+            "id": "YS-20261026-crosscurrent-2016-01",
+            "note": "大远景 平视 ｜ 布光：阴天散射光·实景光源·柔光 ｜ 影调：冷调·青·白 ｜ 构图：负空间·纵深调度 ｜ 情绪：神秘·孤独（摄影：李屏宾）"
+          },
+          {
+            "id": "YS-20261028-C15-legend-of-the-demon-cat-2017-06",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密（摄影：曹郁）"
+          },
+          {
+            "id": "YS-20261029-AW5-love-education-2017-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：李屏賓）"
+          },
+          {
+            "id": "YS-20261029-AW5-missing-johnny-2017-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-old-beast-2017-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：Matthias DELVAUX）"
+          },
+          {
+            "id": "YS-20261029-CAT5-on-children-2018-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-GP2000-operation-red-sea-2018-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：低饱和·电影感 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：馮遠文 、 黃永恆）"
+          },
+          {
+            "id": "YS-20261029-AW5-our-time-will-come-2017-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：余力為）"
+          },
+          {
+            "id": "YS-20261028-project-gutenberg-2018-01",
+            "note": "中景 平视 ｜ 布光：自然光·侧光 ｜ 影调：冷暖对比·电影感 ｜ 构图：三分法·纵深调度 ｜ 情绪：孤独·戏剧张力（摄影：关智耀 (Jason Kwan, HKSC)）"
+          },
+          {
+            "id": "YS-20261028-AWF-src-a0fdb137cad3be7f-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Xiaoding Zhao）"
+          },
+          {
+            "id": "YS-20261026-the-great-buddha-2017-01",
+            "note": "中景 平视 ｜ 布光：屏幕光·顺光·高反差 ｜ 影调：黑白·单色·高反差 ｜ 构图：对称·框中框 ｜ 情绪：荒诞·孤独（摄影：中岛长雄（钟孟宏））"
+          },
+          {
+            "id": "YS-20261029-CAT5-the-shadow-play-2018-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：包軒鳴）"
+          },
+          {
+            "id": "YS-20261029-C36-bangzi-melody-2017-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：邵丹）"
+          },
+          {
+            "id": "YS-20261112B16-M68-a-cool-fish-2018-006",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：暖调·金·橙 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密"
+          },
+          {
+            "id": "YS-20261029-AW5-angels-wear-white-2017-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261112-W5-apple-three-minutes--06",
+            "note": "近景 平视 ｜ 布光：路灯·实景光源·逆光 ｜ 影调：冷暖对比·绿·橙 ｜ 构图：三分法·前景遮挡 ｜ 情绪：温情·悲伤（摄影：杜可风）"
+          },
+          {
+            "id": "YS-20261112-W10-ashes-of-love-2018-06",
+            "note": "全景 仰拍 ｜ 布光：月光·实景光源·柔光 ｜ 影调：蓝·紫·金 ｜ 构图：对称·低地平线 ｜ 情绪：浪漫·梦幻（摄影：黄诗阳；黄首会；李永志）"
+          },
+          {
+            "id": "YS-20261111B6-M68-battle-of-memories-2017-006",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：冷暖对比·高饱和·绿 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密"
+          },
+          {
+            "id": "YS-20261029-AW5-big-fish-and-begonia-2016-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261112-W6-bitter-money-2016-06",
+            "note": "全景 平视 ｜ 布光：荧光灯·顶光·硬光 ｜ 影调：冷调·白·红 ｜ 构图：纵深调度·重复图形 ｜ 情绪：压抑·迷惘（摄影：王兵）"
+          },
+          {
+            "id": "YS-20261029-AW5-brotherhood-of-blades-ii-the-infernal-battlefield-2017-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：黑白·高反差 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261112-2300-burning-ice-2017-06",
+            "note": "全景 平视 ｜ 布光：阴天散射光·冷光·雪地反光 ｜ 影调：冷调·灰·白 ｜ 构图：三分法·低地平线 ｜ 情绪：冷峻·孤独（摄影：刘英剑）"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 770,
+      "id": "dk-style-japanese-mamoru-oshii-cybernetic-rain-basset-philosophy",
+      "title": "风格派 · 日本押井守与小仓宏昌赛博雨幕玻璃反光、圣咏城市空镜巡游与机械躯壳存在主义美学（Cybernetic Rain & Gothic Contemplation Mamoru Oshii & Hiromasa Ogura Wet Neon Megacity Reflection & Philosophical Stillness）",
+      "category": "视觉风格流派",
+      "description": "押井守携手美术巨匠小仓宏昌《攻壳机动队》《无罪》《机动警察剧场版2》《天使之卵》将阴冷青灰雨夜摩天楼玻璃水痕、哥特教堂管风琴式超长城市巡游空镜与义体冷白机械肌理凝练为赛博哲学沉思。（收录 80 部流派视觉代表作）",
+      "file": "film-ai/decks/dk-style-japanese-mamoru-oshii-cybernetic-rain-basset-philosophy.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 398238,
+      "sha256": "e2bdb56eee0ccb557a59748d548cc3827b8cddbd924594d8e7a973187b840852",
+      "png_file": "png/dk-style-japanese-mamoru-oshii-cybernetic-rain-basset-philosophy.png",
+      "png_sha256": "41a5d3e76a1cf2558204f803ae155db0fb97641a802c4861d69a521aba240fca",
+      "prompt": "Create one original 16:9 landscape cinematic cover image. High above an original rain-soaked cybernetic city, a tiny maintenance android crosses a glass bridge while neon water trails cover towers below. Pale mechanical shell surfaces catch cyan-green practical light against cavernous gothic architecture. A patient overhead wide view and wet reflections make the city feel philosophical, with no recognizable franchise design. Apply a high-angle viewpoint. Palette accents drawn from #5a8a7a, #c66f22, #d18f3a, #8fa1a6; preserve the scene's natural color logic. One coherent frame, no panels or collage, no typography, letters, logo, watermark, recognizable celebrity, or recreation of an existing movie still.",
+      "source_deck": {
+        "id": "dk-style-japanese-mamoru-oshii-cybernetic-rain-basset-philosophy",
+        "cat": "视觉风格流派",
+        "name": "风格派 · 日本押井守与小仓宏昌赛博雨幕玻璃反光、圣咏城市空镜巡游与机械躯壳存在主义美学（Cybernetic Rain & Gothic Contemplation Mamoru Oshii & Hiromasa Ogura Wet Neon Megacity Reflection & Philosophical Stillness）",
+        "desc": "押井守携手美术巨匠小仓宏昌《攻壳机动队》《无罪》《机动警察剧场版2》《天使之卵》将阴冷青灰雨夜摩天楼玻璃水痕、哥特教堂管风琴式超长城市巡游空镜与义体冷白机械肌理凝练为赛博哲学沉思。（收录 80 部流派视觉代表作）",
+        "n": 28,
+        "films": [
+          "攻壳机动队",
+          "天使之卵",
+          "攻壳机动队2：无罪",
+          "机动警察剧场版2",
+          "阿瓦隆",
+          "大雄与银河超特急"
+        ],
+        "film_cnt": 28,
+        "pal": [
+          "#5a8a7a",
+          "#c66f22",
+          "#d18f3a",
+          "#8fa1a6",
+          "#d10c73",
+          "#c28a36",
+          "#cc7e2b",
+          "#5d90aa",
+          "#658aad",
+          "#608bac",
+          "#5e91ae",
+          "#5e86b6"
+        ],
+        "q": "风格派电影",
+        "items": [
+          {
+            "id": "YS-0117-01",
+            "note": "全景 俯拍 ｜ 布光：低调·实景光源·轮廓光 ｜ 影调：冷调·青·绿 ｜ 构图：高地平线·负空间 ｜ 情绪：疏离·孤独（摄影：白井久男（摄影监督））"
+          },
+          {
+            "id": "YS-20261112B16-M68-angels-egg-1985-006",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：暖调·金·橙 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密"
+          },
+          {
+            "id": "YS-20261028-CL10-ghost-in-the-shell-2-innocence-2004-004",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "FP-patlabor-2-the-movie-1993-23w3-06",
+            "note": "远景 平视 ｜ 布光：阴天散射光·低反差 ｜ 影调：冷调·青·绿 ｜ 构图：纵深调度·三分法 ｜ 情绪：压抑·疏离（摄影：高桥明彦 (Akihiko Takahashi)）"
+          },
+          {
+            "id": "YS-20261106F4-CL68-src-wd-q790112-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·高饱和·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Grzegorz Kędzierski）"
+          },
+          {
+            "id": "YS-20261110F5-M68-src-wd-q1309556-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Hideko Takahasi）"
+          },
+          {
+            "id": "YS-20261110F5-M68-src-wd-q2411962-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Hajime Hasegawa）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q110608946-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Hille Norden）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q105064429-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Daniël Bouquet）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q104624614-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：José García Galisteo）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q108744469-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Valdemar Winge Leisner）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q106595954-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Martin Munch）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q106493139-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：黑白·单色·黑 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jaime Piquer）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q104524694-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jiří Stöhr）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q110403394-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jiří Stöhr）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q112605677-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Mathieu Gaudet）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q10383695-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Russell Parker）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q110249779-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Simos Sarketzis）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q108133935-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：马克·戈麦斯·戴尔·莫拉尔）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q108458240-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：马克·戈麦斯·戴尔·莫拉尔）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q111540647-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Diego Dussuel / 马克·戈麦斯·戴尔·莫拉尔）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q106486726-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Javier G. Salmones）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q110101641-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Javier G. Salmones）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q100227242-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Rita Noriega）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q101579751-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：劳尔·佩雷斯·库伯罗）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q107405067-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Rita Noriega）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q108329775-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷暖对比·青 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Rita Noriega）"
+          },
+          {
+            "id": "YS-20261116B31-M68-src-wd-q112169302-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷调·青·蓝 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：埃雷克·布雷默 / Angelina Zeidler）"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 771,
+      "id": "dk-style-japanese-shinya-tsukamoto-16mm-industrial-cyberpunk-stopmotion",
+      "title": "风格派 · 日本冢本晋也16毫米高反差黑白金属电缆微距、狂暴逐格推进与工业朋克肉体异变美学（16mm Industrial Cyberpunk Stop-Motion Shinya Tsukamoto High-Contrast Scrap-Metal Macro & Kinetic Pixilation）",
+      "category": "视觉风格流派",
+      "description": "冢本晋也自编自导自摄《铁男》《铁男2：血肉横飞》《东京铁拳》《六月之蛇》以16毫米极端高反差黑白银盐胶片、街头真人逐格动画（Pixilation）高速滑行跟拍与生锈齿轮电线刺入血肉的微距奇观引爆日本地下赛博朋克浪潮。（收录 80 部流派视觉代表作）",
+      "file": "film-ai/decks/dk-style-japanese-shinya-tsukamoto-16mm-industrial-cyberpunk-stopmotion.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 235992,
+      "sha256": "95b678a17bdb1a51cd98fc7116acb3d7c8709136ebbf8ad2dd6cd48d70eb2f26",
+      "png_file": "png/dk-style-japanese-shinya-tsukamoto-16mm-industrial-cyberpunk-stopmotion.png",
+      "png_sha256": "17fdd756ff11e49b09c5096c664ad7e53811fcf9e6f230bf11a116600367bb19",
+      "prompt": "Create one original 16:9 landscape cinematic cover image. A narrow Japanese industrial workshop seen in extreme close detail: coiled electrical cables, rough scrap metal, spinning gears and polished machine components on a worn workbench. Hard low-key side lighting cuts through deep shadows, with black-and-white 16 mm grain, tactile metallic macro texture and a slight staccato motion smear from one turning gear. High-contrast industrial cyberpunk energy in an original single frame. Use grayscale luminance shaped by source palette #ba7030, #ae7632, #bc7628, #ba6d30, without literal colored accents. No people, no panels, collage, readable text, logos, watermark or recreation of a movie frame.",
+      "source_deck": {
+        "id": "dk-style-japanese-shinya-tsukamoto-16mm-industrial-cyberpunk-stopmotion",
+        "cat": "视觉风格流派",
+        "name": "风格派 · 日本冢本晋也16毫米高反差黑白金属电缆微距、狂暴逐格推进与工业朋克肉体异变美学（16mm Industrial Cyberpunk Stop-Motion Shinya Tsukamoto High-Contrast Scrap-Metal Macro & Kinetic Pixilation）",
+        "desc": "冢本晋也自编自导自摄《铁男》《铁男2：血肉横飞》《东京铁拳》《六月之蛇》以16毫米极端高反差黑白银盐胶片、街头真人逐格动画（Pixilation）高速滑行跟拍与生锈齿轮电线刺入血肉的微距奇观引爆日本地下赛博朋克浪潮。（收录 80 部流派视觉代表作）",
+        "n": 28,
+        "films": [
+          "夜空总有最大密度的蓝色",
+          "永远的0",
+          "杀无赦（日本版）",
+          "剑岳：点之记",
+          "武士的一分",
+          "一命"
+        ],
+        "film_cnt": 28,
+        "pal": [
+          "#ba7030",
+          "#ae7632",
+          "#bc7628",
+          "#ba6d30",
+          "#b97b35",
+          "#b16f33",
+          "#b4712d",
+          "#b87a32",
+          "#b0702f",
+          "#b77b32",
+          "#949494",
+          "#939393"
+        ],
+        "q": "风格派电影",
+        "items": [
+          {
+            "id": "YS-20261030-C48-tokyo-night-sky-2017-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：鎌苅洋一 (Yōichi Kamakari)）"
+          },
+          {
+            "id": "YS-20261030-C48-the-eternal-zero-2013-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：柴崎幸三 (Kōzō Shibazaki)）"
+          },
+          {
+            "id": "YS-20261030-C48-unforgiven-jp-2013-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：笠松则通 (Norimichi Kasamatsu)）"
+          },
+          {
+            "id": "YS-20261030-C48-mt-tsurugidake-2009-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：木村大作 (Daisaku Kimura)）"
+          },
+          {
+            "id": "YS-20261030-C48-love-and-honor-2006-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：长沼六男 (Mutsuo Naganuma)）"
+          },
+          {
+            "id": "YS-20261030-C48-hara-kiri-death-of-a-samurai-2011-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：北信康 (Nobuyasu Kita)）"
+          },
+          {
+            "id": "YS-20261030-C48-chronicle-of-my-mother-2012-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：芦泽明子 (Akiko Ashizawa)）"
+          },
+          {
+            "id": "YS-20261030-C48-sketches-of-kaitan-city-2010-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：近藤龙人 (Ryūto Kondō)）"
+          },
+          {
+            "id": "YS-20261030-C48-the-backwater-2013-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：今井孝博 (Takahiro Imai)）"
+          },
+          {
+            "id": "YS-20261103R4-CW136-src-wd-q6406211-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Kazuhiro Suzuki）"
+          },
+          {
+            "id": "YS-20261029-AW5-src-5de828523c614927-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：黑白·高反差 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-e3b8afcee710d172-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：黑白·高反差 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261110F5-M68-src-wd-q55540912-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：冢本晋也）"
+          },
+          {
+            "id": "YS-20261111B5-M68-src-wd-q1150898-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：冢本晋也）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q124610897-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：冢本晋也）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q55525324-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：柳島克己）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q65276806-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Natsuyo Nakamura）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q97220798-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Natsuyo Nakamura）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q2084585-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：冢本晋也）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q1538289-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：冢本晋也）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q2278961-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：冢本晋也）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q11395480-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：仙元誠三）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q1145740-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：冢本晋也）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q11079115-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：大澤信吾）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q55526950-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Tokushō Kikumura）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q28068226-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Norimichi Kasamatsu）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q3876787-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：冢本晋也）"
+          },
+          {
+            "id": "YS-20261111B5-M46-src-wd-q141717726-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：柳島克己）"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 772,
+      "id": "dk-style-french-chris-marker-la-jetee-photomontage-essay-memory",
+      "title": "风格派 · 法国左岸派克里斯·马克银盐静态照片消融蒙太奇、电子合成闪烁与跨洲记忆散文美学（Left Bank Photomontage & Essay Memory Chris Marker & Pierre Lhomme Silver-Gelatin Still Dissolve & Video-Synth Archive）",
+      "category": "视觉风格流派",
+      "description": "克里斯·马克《堤》《日月无光》《红在革命蔓延时》《美好的五月》用高颗粒度银盐黑白静态照片叠化节奏、东京电子图像合成器色彩剥离与跨越洲际的私密纪实凝视开创现代散文电影与时间旅行母题。（收录 80 部流派视觉代表作）",
+      "file": "film-ai/decks/dk-style-french-chris-marker-la-jetee-photomontage-essay-memory.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 136474,
+      "sha256": "2cdecae6b2744fde0440b9a18e3c5b6b7218111bb133518350e7be094bd98dae",
+      "png_file": "png/dk-style-french-chris-marker-la-jetee-photomontage-essay-memory.png",
+      "png_sha256": "3d3d50c613f86c250d5ab5fa57e823b691a7217c125feed9b8307da2916c1111",
+      "prompt": "Create one original 16:9 landscape cinematic cover image. A deserted railway platform at dawn in a fictional European city, one traveler holding a plain envelope under a clock with no readable numerals. Silver-gelatin monochrome grain and a trace of analog color bleed at the edge make the image feel like a recovered memory. Static symmetrical composition, restrained practical light, one photograph rather than a photo montage. Apply central symmetry. Translate source palette #cc7225, #d78f3d, #6c8db4, #cc8936 into a grayscale luminance hierarchy, not literal colored accents. One coherent frame, no panels or collage, no typography, letters, logo, watermark, recognizable celebrity, or recreation of an existing movie still.",
+      "source_deck": {
+        "id": "dk-style-french-chris-marker-la-jetee-photomontage-essay-memory",
+        "cat": "视觉风格流派",
+        "name": "风格派 · 法国左岸派克里斯·马克银盐静态照片消融蒙太奇、电子合成闪烁与跨洲记忆散文美学（Left Bank Photomontage & Essay Memory Chris Marker & Pierre Lhomme Silver-Gelatin Still Dissolve & Video-Synth Archive）",
+        "desc": "克里斯·马克《堤》《日月无光》《红在革命蔓延时》《美好的五月》用高颗粒度银盐黑白静态照片叠化节奏、东京电子图像合成器色彩剥离与跨越洲际的私密纪实凝视开创现代散文电影与时间旅行母题。（收录 80 部流派视觉代表作）",
+        "n": 28,
+        "films": [
+          "漫长的婚约",
+          "Lemony Snicket's A Series of Unfortunate Events",
+          "Haute Tension",
+          "Vera Drake",
+          "The Motorcycle Diaries",
+          "Time Of The Wolf"
+        ],
+        "film_cnt": 28,
+        "pal": [
+          "#cc7225",
+          "#d78f3d",
+          "#6c8db4",
+          "#cc8936",
+          "#688db7",
+          "#678eb3",
+          "#aa7f3e",
+          "#dc8c37",
+          "#bd7c29",
+          "#b07029",
+          "#be7923",
+          "#d09534"
+        ],
+        "q": "风格派电影",
+        "items": [
+          {
+            "id": "YS-20261029-AW10-a-very-long-engagement-2004-06",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密（摄影：Bruno Delbonnel）"
+          },
+          {
+            "id": "YS-20261029-AW5-src-5f5dc8dda95f7ea1-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：Emmanuel Lubezki）"
+          },
+          {
+            "id": "YS-20261028-AWF-src-94aaf02556abf5b2-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Maxime Alexandre）"
+          },
+          {
+            "id": "YS-20261028-CL10-src-9b05f6bb02b4d308-004",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：Dick Pope）"
+          },
+          {
+            "id": "YS-20261028-AWF-src-c8dc542024cbfe28-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Eric Gautier）"
+          },
+          {
+            "id": "YS-20261028-AWF-src-fd85e9f5d6fef5ec-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Jürgen Jürges）"
+          },
+          {
+            "id": "YS-20261028-src-wd-q1099384-01",
+            "note": "近景 平视 ｜ 布光：自然光·侧光 ｜ 影调：冷暖对比·电影感 ｜ 构图：三分法·纵深调度 ｜ 情绪：孤独·戏剧张力（摄影：Éric Gautier）"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q7855682-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情（摄影：דוד גורפנקל）"
+          },
+          {
+            "id": "YS-20261103R3-CN104-src-wd-q1229069-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Marcello Montarsi）"
+          },
+          {
+            "id": "YS-20261103R3-CN104-src-wd-q1880691-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Cesare Accetta）"
+          },
+          {
+            "id": "YS-20261113B23-M46-chanel-no5-the-film-2004-006",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：暖调·金·橙 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密"
+          },
+          {
+            "id": "YS-20261028-CL10-darwins-nightmare-2004-004",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-GP2000-src-26b55180689cbe6e-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：低饱和·电影感 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-AWF-src-43cd70c33eab3cf6-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Yorick Le Saux）"
+          },
+          {
+            "id": "YS-20261028-GP2000-src-720e58cd1b751234-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：低饱和·电影感 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-GP2000-src-c763a90280cfd224-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：低饱和·电影感 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-de5b0ee4a60c1e58-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q1106374-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q1432482-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：黑白·高反差 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q1538293-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q1636549-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q2630299-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：黑白·高反差 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW5-src-wd-q348111-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261029-AW10-the-chorus-2004-06",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密"
+          },
+          {
+            "id": "YS-20261106F4-AW36-src-wd-q128927-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Rémy Chevrin）"
+          },
+          {
+            "id": "YS-20261109F5-M36-src-wd-q1405305-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：黑那托·貝赫塔）"
+          },
+          {
+            "id": "YS-20261110F5-M46-src-wd-q162277-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：罗德里戈·普列托）"
+          },
+          {
+            "id": "YS-20261110F5-M46-src-wd-q208988-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：海莲娜·勒瓦）"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 773,
+      "id": "dk-style-czech-vera-chytilova-jaroslav-kucera-daisies-dada-tint-collage",
+      "title": "风格派 · 捷克新浪潮维拉·希蒂洛娃与雅罗斯拉夫·库切拉高饱和红绿滤镜跳色与达达剪刀拼贴美学（Czech New Wave Dada Collage Věra Chytilová & Jaroslav Kučera Solarized Color-Filter Jump-Cut & Banquet Anarchy）",
+      "category": "视觉风格流派",
+      "description": "维拉·希蒂洛娃携手摄影奇才雅罗斯拉夫·库切拉《雏菊》《天堂禁果》肆意切换翠绿、紫红、金黄单色光学滤镜与黑白胶片，结合剪刀裁切画面分裂实验与宴会长桌定格动画引爆东欧先锋女权狂欢。（收录 80 部流派视觉代表作）",
+      "file": "film-ai/decks/dk-style-czech-vera-chytilova-jaroslav-kucera-daisies-dada-tint-collage.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 252172,
+      "sha256": "65a6121df8f9310e7f7cc9d0cccd63bf732a6673273e9b55bad1a0b09812179d",
+      "png_file": "png/dk-style-czech-vera-chytilova-jaroslav-kucera-daisies-dada-tint-collage.png",
+      "png_sha256": "bc29f7b27eeb589ae2f26420580f0f7864eb4b84b438b6427ff7a2742f36f0e0",
+      "prompt": "Create one original 16:9 landscape cinematic cover image. An invented Prague banquet room where two friends face a long table crowded with fruit, paper streamers and empty dishes. Green and magenta optical-filter light crosses the same physical space, while cut-paper shapes cast playful shadows on the wall. Side-lit, irreverent Czech New Wave energy in one continuous staged frame, no collage panels. Apply side lighting. Palette accents drawn from #b9772f, #8d938d, #929292, #808080; preserve the scene's natural color logic. One coherent frame, no panels or collage, no typography, letters, logo, watermark, recognizable celebrity, or recreation of an existing movie still.",
+      "source_deck": {
+        "id": "dk-style-czech-vera-chytilova-jaroslav-kucera-daisies-dada-tint-collage",
+        "cat": "视觉风格流派",
+        "name": "风格派 · 捷克新浪潮维拉·希蒂洛娃与雅罗斯拉夫·库切拉高饱和红绿滤镜跳色与达达剪刀拼贴美学（Czech New Wave Dada Collage Věra Chytilová & Jaroslav Kučera Solarized Color-Filter Jump-Cut & Banquet Anarchy）",
+        "desc": "维拉·希蒂洛娃携手摄影奇才雅罗斯拉夫·库切拉《雏菊》《天堂禁果》肆意切换翠绿、紫红、金黄单色光学滤镜与黑白胶片，结合剪刀裁切画面分裂实验与宴会长桌定格动画引爆东欧先锋女权狂欢。（收录 80 部流派视觉代表作）",
+        "n": 28,
+        "films": [
+          "Baryton",
+          "列夫·托尔斯泰",
+          "留給女兒的日記",
+          "寂靜太陽年",
+          "花的幻想",
+          "雷德尔上校"
+        ],
+        "film_cnt": 28,
+        "pal": [
+          "#b9772f",
+          "#8d938d",
+          "#929292",
+          "#808080",
+          "#878787",
+          "#ae8964",
+          "#88857e",
+          "#908d86",
+          "#d26225",
+          "#c28a2e",
+          "#cf872c",
+          "#cc842a"
+        ],
+        "q": "风格派电影",
+        "items": [
+          {
+            "id": "YS-20261103R2-CW120-src-wd-q1192397-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Witold Adamek）"
+          },
+          {
+            "id": "YS-20261028-GP2000-src-3ce606fbd30b623b-02",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·电影感 ｜ 构图：三分法 ｜ 情绪：沉思·压抑"
+          },
+          {
+            "id": "YS-20261029-AW5-src-47d6c77b2dacb682-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：黑白·高反差 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-GP2000-src-49cef099bdd64efc-03",
+            "note": "全景 平视 ｜ 布光：窗光·侧光·高反差 ｜ 影调：低饱和·电影感 ｜ 构图：纵深调度·前景遮挡 ｜ 情绪：紧张·威严"
+          },
+          {
+            "id": "YS-20261028-GP2000-src-df17393f82095866-03",
+            "note": "全景 平视 ｜ 布光：窗光·侧光·高反差 ｜ 影调：低饱和·电影感 ｜ 构图：纵深调度·前景遮挡 ｜ 情绪：紧张·威严"
+          },
+          {
+            "id": "YS-20261028-GP2000-src-wd-q594649-04",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：低饱和·电影感 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261110F5-M68-src-wd-q7757074-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷调·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Vladimír Malík / Ivan Vít）"
+          },
+          {
+            "id": "YS-20261110F5-M68-src-wd-q26998778-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：低饱和·冷调·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Štěpán Kučera / Matej Cibulka）"
+          },
+          {
+            "id": "YS-20261111B6-M68-src-wd-q1595568-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·高饱和·红 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jaromír Šofr）"
+          },
+          {
+            "id": "YS-20261111B6-M46-src-wd-q11740523-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：里萨德·列克维斯基 (Ryszard Lenczewski)）"
+          },
+          {
+            "id": "YS-20261112B7-M46-src-wd-q104898823-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Štěpán Kučera）"
+          },
+          {
+            "id": "YS-20261112B7-M46-src-wd-q2634496-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Igor Chernykh / Jiří Hošek）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q46078983-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Štěpán Kučera / 彼得·瓦茨拉夫 (Petr Václav)）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q11788548-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Antoni Wójtowicz）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q11770916-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Marek Nowicki）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q11791160-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jerzy Gościk）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q9369564-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Witold Adamek）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q12043906-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Štěpán Kučera）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q19602481-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Štěpán Kučera）"
+          },
+          {
+            "id": "YS-20261112B13-M46-src-wd-q14970982-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Štěpán Kučera）"
+          },
+          {
+            "id": "YS-20261112B14-M46-src-wd-q521082-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Irén Henrik / Árpád Lossonczy）"
+          },
+          {
+            "id": "YS-20261112B14-M46-src-wd-q9128229-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Andrzej Ramlau）"
+          },
+          {
+            "id": "YS-20261112B14-M46-src-wd-q11753122-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Witold Adamek）"
+          },
+          {
+            "id": "YS-20261112B14-M46-src-wd-q11829392-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：耶日·杰林斯基 (Jerzy Zieliński)）"
+          },
+          {
+            "id": "YS-20261112B14-M46-src-wd-q11697995-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Andrzej Barszczyński）"
+          },
+          {
+            "id": "YS-20261112B14-M46-src-wd-q133192559-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Štěpán Kučera / 马丁·斯特巴 (Martin Strba)）"
+          },
+          {
+            "id": "YS-20261112B14-M46-src-wd-q9209081-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：耶日·杰林斯基 (Jerzy Zieliński)）"
+          },
+          {
+            "id": "YS-20261112B14-M46-src-wd-q11766172-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Jacek Stachlewski）"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 774,
+      "id": "dk-style-american-william-friedkin-owen-roizman-gritty-sodium-chase-realism",
+      "title": "风格派 · 新好莱坞威廉·弗里德金与欧文·罗伊兹曼寒夜高架桥车载追逐纪实与雾夜孤灯硬派美学（New Hollywood Gritty Street & Fog Nocturne William Friedkin & Owen Roizman / Robby Müller Elevated-Train Pursuit & Sodium Mist）",
+      "category": "视觉风格流派",
+      "description": "威廉·弗里德金携手欧文·罗伊兹曼、罗比·缪勒《法国贩毒网》《驱魔人》《恐惧的代价》《威龙猛探》将布鲁克林冬日寒街粗粝手持偷拍、高架地铁桥下保险杠第一视角高速追车与乔治城浓雾孤灯剪影推向新好莱坞纪实惊悚巅峰。（收录 80 部流派视觉代表作）",
+      "file": "film-ai/decks/dk-style-american-william-friedkin-owen-roizman-gritty-sodium-chase-realism.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 264750,
+      "sha256": "077e6e576cf929e1f447e7fc7587475b912a36a4cc926184d80ec5e9bf107ee4",
+      "png_file": "png/dk-style-american-william-friedkin-owen-roizman-gritty-sodium-chase-realism.png",
+      "png_sha256": "522167aa63e7c7c7dd81974a073fd68439cf17018b18f124ff116df9cc1ef545",
+      "prompt": "Create one original 16:9 landscape cinematic cover image. A documentary-feeling night street beneath an elevated railway, a small car moving through sodium fog as the train roars overhead. A low bumper-height viewpoint and long shadowed perspective make city grime and winter breath palpable; orange lamps oppose cold blue concrete. Immediate street suspense in one coherent frame, no recognizable chase recreation. Apply a low horizon. Palette accents drawn from #e0761a, #bd7329, #618db3, #679ab9; preserve the scene's natural color logic. One coherent frame, no panels or collage, no typography, letters, logo, watermark, recognizable celebrity, or recreation of an existing movie still.",
+      "source_deck": {
+        "id": "dk-style-american-william-friedkin-owen-roizman-gritty-sodium-chase-realism",
+        "cat": "视觉风格流派",
+        "name": "风格派 · 新好莱坞威廉·弗里德金与欧文·罗伊兹曼寒夜高架桥车载追逐纪实与雾夜孤灯硬派美学（New Hollywood Gritty Street & Fog Nocturne William Friedkin & Owen Roizman / Robby Müller Elevated-Train Pursuit & Sodium Mist）",
+        "desc": "威廉·弗里德金携手欧文·罗伊兹曼、罗比·缪勒《法国贩毒网》《驱魔人》《恐惧的代价》《威龙猛探》将布鲁克林冬日寒街粗粝手持偷拍、高架地铁桥下保险杠第一视角高速追车与乔治城浓雾孤灯剪影推向新好莱坞纪实惊悚巅峰。（收录 80 部流派视觉代表作）",
+        "n": 28,
+        "films": [
+          "现代启示录",
+          "莫扎特传",
+          "Blue Velvet",
+          "Do The Right Thing",
+          "Goodfellas",
+          "克莱默夫妇"
+        ],
+        "film_cnt": 28,
+        "pal": [
+          "#e0761a",
+          "#bd7329",
+          "#618db3",
+          "#679ab9",
+          "#658cb9",
+          "#c57924",
+          "#6992c1",
+          "#c96c24",
+          "#5f92bd",
+          "#b07b2c",
+          "#b47828",
+          "#af6c38"
+        ],
+        "q": "风格派电影",
+        "items": [
+          {
+            "id": "YS-0029-01",
+            "note": "大远景 平视 ｜ 布光：火光·日光·逆光 ｜ 影调：暖调·橙·黄 ｜ 构图：低地平线·负空间 ｜ 情绪：梦幻·危险（摄影：维托里奥·斯托拉罗）"
+          },
+          {
+            "id": "YS-20261028-C15-amadeus-1984-06",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密（摄影：Miroslav Ondricek）"
+          },
+          {
+            "id": "YS-20261028-AWF-blue-velvet-1986-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Frederick Elmes）"
+          },
+          {
+            "id": "YS-20261028-AWF-do-the-right-thing-1989-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Ernest Dickerson）"
+          },
+          {
+            "id": "YS-20261028-AWF-goodfellas-1990-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Michael Ballhaus）"
+          },
+          {
+            "id": "YS-20261028-C15-kramer-vs-kramer-1979-06",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密（摄影：Nestor Almendros）"
+          },
+          {
+            "id": "YS-20261028-C15-platoon-1986-11",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Robert Richardson）"
+          },
+          {
+            "id": "YS-20261028-C15-sophies-choice-1982-06",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密（摄影：Nestor Almendros）"
+          },
+          {
+            "id": "YS-20261028-C15-src-aa6eb000c6f1f0ae-11",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Vittorio Storaro）"
+          },
+          {
+            "id": "YS-20261103R2-CW120-src-wd-q5054468-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Tony Pierce-Roberts, John Else）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q6389583-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Ernie Vincze）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q7737829-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Dennis Lewiston）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q3520417-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Don Burgess）"
+          },
+          {
+            "id": "YS-20261103R2-CN100-src-wd-q833578-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：史蒂文·拉納）"
+          },
+          {
+            "id": "YS-20261103R3-CW128-src-wd-q3783940-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Woody Omens）"
+          },
+          {
+            "id": "YS-20261103R3-CW128-src-wd-q833322-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：John Elsenbach）"
+          },
+          {
+            "id": "YS-20261103R3-CN104-src-wd-q940102-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：John McPherson）"
+          },
+          {
+            "id": "YS-20261103R3-CN104-src-wd-q230506-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：Michael W. Watkins）"
+          },
+          {
+            "id": "YS-20261028-CL10-field-of-dreams-1989-004",
+            "note": "特写 平视 ｜ 布光：柔光·眼神光·侧光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：三分法·短边构图 ｜ 情绪：悲伤·温情"
+          },
+          {
+            "id": "YS-20261028-AWF-scarface-1983-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：John A.Alonzo）"
+          },
+          {
+            "id": "YS-20261029-FRM-src-4589f68a4106292f-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Caleb Deschanel）"
+          },
+          {
+            "id": "YS-20261029-FRM-src-aecf2bf9a4851f82-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：James A. Contner）"
+          },
+          {
+            "id": "YS-20261028-AWF-src-d0ac0f42fad024aa-011",
+            "note": "近景 平视 ｜ 布光：窗光·混合光·柔光 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：倒影镜像·框中框 ｜ 情绪：迷惘·疏离（摄影：Michael Grady）"
+          },
+          {
+            "id": "YS-20261028-AWF-to-live-and-die-in-la-1985-006",
+            "note": "中景 平视 ｜ 布光：实景光源·火光·低调 ｜ 影调：冷暖对比·胶片质感·电影色阶 ｜ 构图：对称·分割画面 ｜ 情绪：暧昧·秘密（摄影：Robby Müller）"
+          },
+          {
+            "id": "YS-20261112B7-M46-src-wd-q462447-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：斯蒂芬·戈德布拉特 (Stephen Goldblatt)）"
+          },
+          {
+            "id": "YS-20261112B8-M46-src-wd-q140073619-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：盖瑞·格雷弗 (Gary Graver)）"
+          },
+          {
+            "id": "YS-20261112B8-M46-src-wd-q211784-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：彼得·海姆斯 (Peter Hyams)）"
+          },
+          {
+            "id": "YS-20261112B8-M46-src-wd-q994248-002",
+            "note": "近景 平视 ｜ 布光：侧光·伦勃朗光·低调 ｜ 影调：暖调·金·棕褐 ｜ 构图：三分法 ｜ 情绪：沉思·压抑（摄影：米洛斯拉夫·昂德利克 (Miroslav Ondříček)）"
+          }
+        ]
+      }
     }
   ]
 }
