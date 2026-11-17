@@ -125435,8 +125435,8 @@
     "id": "YS-20261030-CW60-l-etranger-2025-02",
     "wid": "l-etranger-2025",
     "title": "局外人",
-    "prompt": "35mm B&W Silver Halide Film质感，1.66:1画幅。2025年法国电影《局外人》（The Stranger (L'Étranger)，导演：弗朗索瓦·欧容 (François Ozon)，摄影指导：马努·达科斯 (Manu Dacosse)）。主光方向塑形·伦勃朗侧主光人物肖像：近景平视，标准镜头浅景深，固定运镜，侧光/伦勃朗光/低调/高反差照明，三分法构图。\nEnglish Prompt: Cinematic still from The Stranger (L'Étranger) (2025), directed by 弗朗索瓦·欧容 (François Ozon), cinematography by 马努·达科斯 (Manu Dacosse) (2026年法国卢米埃尔奖最佳摄影获奖), classic 45-degree Rembrandt key light sculpting facial contours against deep shadow, shot on 35mm B&W Silver Halide Film with ARRI Alexa 65 / Alexa Mini LF and Cooke S4/i & ARRI Master Anamorphic (50mm Prime T1.4 Shallow DOF), 1.66:1 aspect ratio --ar 5:3",
-    "aspect_ratio": "1.66:1",
+    "prompt": "Create one original photorealistic black-and-white cinema still for François Ozon's 2025 film L’Étranger / The Stranger, adapted from Albert Camus, using the official premise (Algiers, 1938, Meursault's emotional detachment) and the site's selected shot #02. A single French-Algerian-era clerk in his early thirties, ordinary 1930s short hair and simple pale linen shirt, stands at the RIGHT THIRD of a modest Algiers apartment, looking away with quiet, unreadable fatigue after his mother's funeral. Eye-level close medium shot; a sharp stripe of white Mediterranean daylight enters from camera LEFT through wooden shutters, making nuanced Rembrandt side light on the face, deep but detailed shadows, bright sunlit wall far behind, faint 1930s Algiers rooftops through the window. Strict monochrome silver-gelatin look, luminous silver highlights, deep charcoal blacks, subtle fine film grain, tactile plaster and linen, shallow depth of field, restrained composition with negative space to his left. The emotional atmosphere is detached, tense and sunstruck, visually credible as a live-action 1938 period drama, not an illustration or poster. Wide 16:9 cinematic crop, high resolution. Completely original frame, no recognizable actor likeness, no text, no logos, no watermarks, no decorative border or inset.",
+    "aspect_ratio": "16:9",
     "source_file": "d4/p_l-etranger-2025.js"
   },
   {
@@ -126147,8 +126147,8 @@
     "id": "YS-20261030-CW60-the-studio-2025-02",
     "wid": "the-studio-2025",
     "title": "片场风云",
-    "prompt": "ARRI Alexa Mini LF / Sony Venice 2质感，2.00:1画幅。2025年美国剧集《片场风云》（The Studio，导演：塞斯·罗根 / 埃文·戈德堡 (Seth Rogen & Evan Goldberg)，摄影指导：亚当·纽波特-贝拉 (Adam Newport-Berra)）。主光方向塑形·伦勃朗侧主光人物肖像：近景平视，标准镜头浅景深，固定运镜，侧光/伦勃朗光/低调/高反差照明，三分法构图。\nEnglish Prompt: Cinematic still from The Studio (2025), directed by 塞斯·罗根 / 埃文·戈德堡 (Seth Rogen & Evan Goldberg), cinematography by 亚当·纽波特-贝拉 (Adam Newport-Berra) (2025年艾美奖最佳摄影获奖), classic 45-degree Rembrandt key light sculpting facial contours against deep shadow, shot on ARRI Alexa Mini LF / Sony Venice 2 with ARRI Alexa 65 / Alexa Mini LF and Cooke S4/i & ARRI Master Anamorphic (50mm Prime T1.4 Shallow DOF), 2.00:1 aspect ratio --ar 16:9",
-    "aspect_ratio": "2.00:1",
+    "prompt": "Create one original, photorealistic cinematic still for the 2025 Hollywood workplace satire The Studio, based on the official premise of an anxious new head of a film studio and the site's selected shot #02. In a contemporary Los Angeles movie studio executive office at night, show a single middle-aged male studio chief in a tailored dark suit seated at the RIGHT THIRD of the frame, quietly overwhelmed after a chaotic production day; eye-level medium-close shot, natural human expression, polished but lived-in production office with film reels and call sheets in soft background bokeh. A warm tungsten practical desk lamp from camera LEFT produces a distinct gentle Rembrandt triangle on his face, while distant cool blue window light separates the background; rich navy, amber and restrained teal palette, tactile film grain, shallow depth of field, convincing lens falloff and skin texture. The image should read as a real live-action frame with satirical tension and emotional restraint, composed for a wide 16:9 cinematic crop. Original scene, not an existing publicity still; no recognizable actor likeness, no collage, no typography, no logos, no watermarks, no borders, no embedded captions. High-resolution image.",
+    "aspect_ratio": "16:9",
     "source_file": "d4/p_the-studio-2025.js"
   },
   {
