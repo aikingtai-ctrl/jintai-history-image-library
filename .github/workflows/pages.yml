@@ -84,6 +84,9 @@ jobs:
                   if name != "manifest.js":
                       continue
               elif top == "film-ai":
+                  # Deck WebP files are served from GitHub Raw, not Pages.
+                  if rel.startswith("film-ai/decks/") and name.lower().endswith(".webp"):
+                      continue
                   if not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js") or rel.startswith("film-ai/decks/") or name.lower().endswith(".jpg")):
                       continue
               elif top == "history-ai":
