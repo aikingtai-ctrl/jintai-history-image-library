@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T13:16:32.372250+00:00",
+  "snapshot_time_utc": "2026-11-17T13:57:57.158957+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -7606,6 +7606,48 @@
       "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
     },
     {
+      "id": "film:breaking-the-waves-1996",
+      "wid": "breaking-the-waves-1996",
+      "title": "Breaking The Waves（1996）",
+      "file": "film-ai/decks/film-breaking-the-waves-1996.webp",
+      "sha256": "2f00ef3c2c15a6831f5b289316daa05316a9923be2348a2766cc3de9b13b3dd6",
+      "bytes": 353054,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:breakup-buddies-2014",
+      "wid": "breakup-buddies-2014",
+      "title": "心花路放（2014）",
+      "file": "film-ai/decks/film-breakup-buddies-2014.webp",
+      "sha256": "bc5785b102c694aec5ec0249998bc0f27f978824b8a6248ac906f7f1a81c2884",
+      "bytes": 400740,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:breathless-1960",
+      "wid": "breathless-1960",
+      "title": "精疲力尽",
+      "file": "film-ai/decks/film-breathless-1960.webp",
+      "sha256": "17f9605d5f677c1341ddb872186c57ed437e03c0464dacd406c198318b9631fc",
+      "bytes": 243066,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -8880,20 +8922,6 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:breathless-1960",
-      "wid": "breathless-1960",
-      "title": "精疲力尽",
-      "file": "film-ai/decks/film-breathless-1960.webp",
-      "sha256": "17f9605d5f677c1341ddb872186c57ed437e03c0464dacd406c198318b9631fc",
-      "bytes": 243066,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:bride-of-frankenstein-1935",
       "wid": "bride-of-frankenstein-1935",
       "title": "科学怪人的新娘",
@@ -9544,6 +9572,174 @@
       "file": "film-ai/decks/film-castle-in-the-sky-1986.webp",
       "sha256": "f5b4ce925e64fd209ea16fdca99f15beebea3e77cb3319f0c5cee286b69d6806",
       "bytes": 471866,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cat-people-1942",
+      "wid": "cat-people-1942",
+      "title": "Cat People",
+      "file": "film-ai/decks/film-cat-people-1942.webp",
+      "sha256": "b6567616d8e6b92fcfddb5b968d25505c282377cceaef1b3a044e9f4acb8e9e1",
+      "bytes": 222492,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:catch-me-if-you-can-2002",
+      "wid": "catch-me-if-you-can-2002",
+      "title": "Catch Me If You Can",
+      "file": "film-ai/decks/film-catch-me-if-you-can-2002.webp",
+      "sha256": "945ec447bc6220bcf06055fd1f085faae3dae7787ecb7e4357dc7a9f585210b5",
+      "bytes": 224066,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:caught-by-the-tides-2024",
+      "wid": "caught-by-the-tides-2024",
+      "title": "风流一代",
+      "file": "film-ai/decks/film-caught-by-the-tides-2024.webp",
+      "sha256": "5a9fdb69851ed3453e521d08319f1c68162437fbfa7e51dbcfb4ca2baff35182",
+      "bytes": 230070,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cave-of-forgotten-dreams-2010",
+      "wid": "cave-of-forgotten-dreams-2010",
+      "title": "忘梦洞",
+      "file": "film-ai/decks/film-cave-of-forgotten-dreams-2010.webp",
+      "sha256": "ea8ee95bb214b721e4c3c84f5b458456c73ff4430a60f61d0c9b8881de3de666",
+      "bytes": 315714,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cemetery-of-splendour-2015",
+      "wid": "cemetery-of-splendour-2015",
+      "title": "华丽之墓",
+      "file": "film-ai/decks/film-cemetery-of-splendour-2015.webp",
+      "sha256": "195ec6ffdc1b642492b7dd8dd37d190c2dca90af754b0c144add0833069b5ebf",
+      "bytes": 228530,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:center-stage-1991",
+      "wid": "center-stage-1991",
+      "title": "阮玲玉",
+      "file": "film-ai/decks/film-center-stage-1991.webp",
+      "sha256": "58f7936d406d84e50127683bf07feb7947a14e56da60899f46786257c970a84e",
+      "bytes": 293976,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:central-station-1998",
+      "wid": "central-station-1998",
+      "title": "中央车站",
+      "file": "film-ai/decks/film-central-station-1998.webp",
+      "sha256": "fc24770a2d6f9bd9c1823d53afe30a0ccd8cac8d55c92a01126b11ba7c58da29",
+      "bytes": 297312,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cest-la-vie-mon-cheri-1993",
+      "wid": "cest-la-vie-mon-cheri-1993",
+      "title": "新不了情",
+      "file": "film-ai/decks/film-cest-la-vie-mon-cheri-1993.webp",
+      "sha256": "23fad8fca98cb00712527e9a956a4afe81879f664a7821a46f45c41130d9455f",
+      "bytes": 394036,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:chanel-no5-le-loup-1998",
+      "wid": "chanel-no5-le-loup-1998",
+      "title": "香奈儿5号·狼",
+      "file": "film-ai/decks/film-chanel-no5-le-loup-1998.webp",
+      "sha256": "2d2faf16a0699fd99457db6b157fb20445881661534d44f58b22e3a180d9a0e4",
+      "bytes": 245908,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:chanel-no5-share-the-fantasy-1979",
+      "wid": "chanel-no5-share-the-fantasy-1979",
+      "title": "香奈儿5号·分享幻想",
+      "file": "film-ai/decks/film-chanel-no5-share-the-fantasy-1979.webp",
+      "sha256": "47ed564a7f1710aea8aae3353d89df3d8d6f85fcb1cb5c3fa803b2d09f8275c9",
+      "bytes": 186198,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:chanel-no5-train-de-nuit-2009",
+      "wid": "chanel-no5-train-de-nuit-2009",
+      "title": "香奈儿5号·夜班列车",
+      "file": "film-ai/decks/film-chanel-no5-train-de-nuit-2009.webp",
+      "sha256": "b808384964c138baa0bf99e865285e993d208ce943df5fa8998881629665e6a8",
+      "bytes": 199208,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:chicago-2002",
+      "wid": "chicago-2002",
+      "title": "Chicago",
+      "file": "film-ai/decks/film-chicago-2002.webp",
+      "sha256": "d3dfe3f88937a70d174f9fcb6e5d2486e26fe7731c3c1189b8db51f9e8190bec",
+      "bytes": 253986,
       "size": [
         1672,
         941
