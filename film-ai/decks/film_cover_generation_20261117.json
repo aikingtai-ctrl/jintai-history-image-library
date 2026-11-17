@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T03:15:32.517699+00:00",
+  "snapshot_time_utc": "2026-11-17T03:25:23.983680+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -5590,6 +5590,48 @@
       "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
     },
     {
+      "id": "film:ash-is-purest-white-2018",
+      "wid": "ash-is-purest-white-2018",
+      "title": "江湖儿女",
+      "file": "film-ai/decks/film-ash-is-purest-white-2018.webp",
+      "sha256": "2295ffbc2dafbced63f7c8c4678bc1a675e8e5567307a988054cb1411300b1b6",
+      "bytes": 257244,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:ashes-and-diamonds-1958",
+      "wid": "ashes-and-diamonds-1958",
+      "title": "灰烬与钻石",
+      "file": "film-ai/decks/film-ashes-and-diamonds-1958.webp",
+      "sha256": "6428dd13df1d6a8772722a55d9b73fd86b404f793055a5f6ef960af8f42a000d",
+      "bytes": 127730,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:ashes-of-love-2018",
+      "wid": "ashes-of-love-2018",
+      "title": "香蜜沉沉烬如霜",
+      "file": "film-ai/decks/film-ashes-of-love-2018.webp",
+      "sha256": "b5c8231d3a7063a7fe2f56d21126302a86348395cc919ff7be5b742ce7033cfc",
+      "bytes": 275584,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -5794,6 +5836,90 @@
       "bytes": 196958,
       "size": [
         1671,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:assassination-2015",
+      "wid": "assassination-2015",
+      "title": "暗杀",
+      "file": "film-ai/decks/film-assassination-2015.webp",
+      "sha256": "c100b120eb96cbea2c780ac206e0977e4f8050ae2fe30c5acce39d709cd81094",
+      "bytes": 244082,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:attack-on-titan-s1-2013",
+      "wid": "attack-on-titan-s1-2013",
+      "title": "进击的巨人 第一季",
+      "file": "film-ai/decks/film-attack-on-titan-s1-2013.webp",
+      "sha256": "a5692fad08e0eac51a52f02aa236d54607262f9459b221898cb03fc727a66d01",
+      "bytes": 322482,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:autumn-in-my-heart-2000",
+      "wid": "autumn-in-my-heart-2000",
+      "title": "蓝色生死恋",
+      "file": "film-ai/decks/film-autumn-in-my-heart-2000.webp",
+      "sha256": "f6b4ede0158d7fd9e3e836b7974fcea7b122bb245ecd7e4aaa779331e7b4fffc",
+      "bytes": 136388,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:avengers-endgame-2019",
+      "wid": "avengers-endgame-2019",
+      "title": "复仇者联盟4",
+      "file": "film-ai/decks/film-avengers-endgame-2019.webp",
+      "sha256": "24d184bbf82658d017ad468a0a1501c5dc7770ed1f889e6948a9d9f97bba41d9",
+      "bytes": 247260,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:batman-1989",
+      "wid": "batman-1989",
+      "title": "蝙蝠侠",
+      "file": "film-ai/decks/film-batman-1989.webp",
+      "sha256": "b5928ca77812931678de75e265d03b855199d740d79aba98418e3fab7e36a221",
+      "bytes": 303524,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:batman-returns-1992",
+      "wid": "batman-returns-1992",
+      "title": "蝙蝠侠归来",
+      "file": "film-ai/decks/film-batman-returns-1992.webp",
+      "sha256": "d7fbe21aeb86ee78146318c31ffa4af90e2a14b95cdd841f514582ba11536327",
+      "bytes": 380656,
+      "size": [
+        1672,
         941
       ],
       "generator": "Codex built-in GPT Image image_gen",
