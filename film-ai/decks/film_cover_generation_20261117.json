@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T09:11:49.887070+00:00",
+  "snapshot_time_utc": "2026-11-17T10:07:44.560447+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -6730,6 +6730,76 @@
       "file": "film-ai/decks/film-beyond-the-realm-of-conscience-2009.webp",
       "sha256": "3b4e9201a8e7d7bca6145d9f481c5f86689fb24790a9a3df605d4d3ef4b8acea",
       "bytes": 407910,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:bicycle-thieves-1948",
+      "wid": "bicycle-thieves-1948",
+      "title": "偷自行车的人（1948）",
+      "file": "film-ai/decks/film-bicycle-thieves-1948.webp",
+      "sha256": "f3af0223a437338615a0f1d2c3c2a6bda776c73a557c665eb44c529cc4f5a362",
+      "bytes": 210430,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:big-fish-2003",
+      "wid": "big-fish-2003",
+      "title": "Big Fish（2003）",
+      "file": "film-ai/decks/film-big-fish-2003.webp",
+      "sha256": "f08ff44e32a2dfa46ffc980e0eb3ed373c0f76c2d158dde76c157167d0adc7a8",
+      "bytes": 404426,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:big-fish-and-begonia-2016",
+      "wid": "big-fish-and-begonia-2016",
+      "title": "大鱼海棠（2016）",
+      "file": "film-ai/decks/film-big-fish-and-begonia-2016.webp",
+      "sha256": "a48f30ce38e84c4a2d3ca7f70dc85e977a51d202a3658e02cbe584f74f9a7714",
+      "bytes": 505400,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:big-little-lies-s1-2017",
+      "wid": "big-little-lies-s1-2017",
+      "title": "大小谎言 第一季（2017）",
+      "file": "film-ai/decks/film-big-little-lies-s1-2017.webp",
+      "sha256": "5b8d4556161b779e3ddae84759a7bf6c5b76e80a21a51798fd3c706494b548ba",
+      "bytes": 188576,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:big-shots-funeral-2001",
+      "wid": "big-shots-funeral-2001",
+      "title": "大腕（2001）",
+      "file": "film-ai/decks/film-big-shots-funeral-2001.webp",
+      "sha256": "d434098dc3cb1cd59732cf793c488596cb498141af0a8bd993b6a4fd394ad1b7",
+      "bytes": 381972,
       "size": [
         1672,
         941
