@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T23:24:11.341153+00:00",
+  "snapshot_time_utc": "2026-11-17T23:54:54.546451+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -9538,6 +9538,48 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
+      "id": "film:cyrano-de-bergerac-1990",
+      "wid": "cyrano-de-bergerac-1990",
+      "title": "大鼻子情圣",
+      "file": "film-ai/decks/film-cyrano-de-bergerac-1990.webp",
+      "sha256": "587d4a6cfbfe8245e5313f56a3295ab6fbeb68e427c06e87ad2c4f47b48cdd57",
+      "bytes": 309926,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:da-ran-fang-2003",
+      "wid": "da-ran-fang-2003",
+      "title": "大染坊",
+      "file": "film-ai/decks/film-da-ran-fang-2003.webp",
+      "sha256": "edf2bcbe971a1cda26bf2e0fad8776458a42f926b9ebf837ded8f12e59fdf74b",
+      "bytes": 502688,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:daisies-1966",
+      "wid": "daisies-1966",
+      "title": "雏菊",
+      "file": "film-ai/decks/film-daisies-1966.webp",
+      "sha256": "40b43ce24f7617f140d1d7f07e14ce2fa22a6280ef85466c0e54833f7547921a",
+      "bytes": 623478,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -10804,48 +10846,6 @@
       "file": "film-ai/decks/film-miracle-in-milan-1951.webp",
       "sha256": "15b6449ce1376e68d4e112c1ee4c0b9922896d6914e32cb26f02503fbb57c941",
       "bytes": 355946,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:cyrano-de-bergerac-1990",
-      "wid": "cyrano-de-bergerac-1990",
-      "title": "大鼻子情圣",
-      "file": "film-ai/decks/film-cyrano-de-bergerac-1990.webp",
-      "sha256": "587d4a6cfbfe8245e5313f56a3295ab6fbeb68e427c06e87ad2c4f47b48cdd57",
-      "bytes": 309926,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:da-ran-fang-2003",
-      "wid": "da-ran-fang-2003",
-      "title": "大染坊",
-      "file": "film-ai/decks/film-da-ran-fang-2003.webp",
-      "sha256": "edf2bcbe971a1cda26bf2e0fad8776458a42f926b9ebf837ded8f12e59fdf74b",
-      "bytes": 502688,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:daisies-1966",
-      "wid": "daisies-1966",
-      "title": "雏菊",
-      "file": "film-ai/decks/film-daisies-1966.webp",
-      "sha256": "40b43ce24f7617f140d1d7f07e14ce2fa22a6280ef85466c0e54833f7547921a",
-      "bytes": 623478,
       "size": [
         1672,
         941
@@ -12428,6 +12428,342 @@
       "file": "film-ai/decks/film-coldplay-up-and-up-2016.webp",
       "sha256": "dba689f4bbb47a81bf844f5956ea6fb3c0be378d867b88fcb7e002753079fc7f",
       "bytes": 372486,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dahechang-2019",
+      "wid": "dahechang-2019",
+      "title": "大河唱",
+      "file": "film-ai/decks/film-dahechang-2019.webp",
+      "sha256": "4e5a31ebfa05889c2fc9b3a2005ca515e05b09c014d900338659617f9353523b",
+      "bytes": 292802,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dahufa-2017",
+      "wid": "dahufa-2017",
+      "title": "大护法",
+      "file": "film-ai/decks/film-dahufa-2017.webp",
+      "sha256": "64b41796e3ffabc6f12f0ee967ad51b63a742a3e4f5b3b5f2bf178cd668b64d4",
+      "bytes": 358112,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:daredevil-2015",
+      "wid": "daredevil-2015",
+      "title": "夜魔侠",
+      "file": "film-ai/decks/film-daredevil-2015.webp",
+      "sha256": "f715940d13267499410d1a3140a6389d87f6db8fb2159e6dc7822b161bf23588",
+      "bytes": 217658,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:darwins-nightmare-2004",
+      "wid": "darwins-nightmare-2004",
+      "title": "达尔文的噩梦",
+      "file": "film-ai/decks/film-darwins-nightmare-2004.webp",
+      "sha256": "e992f27d2bdd9e7b6d1113558c1bd9b9c5a746239205901d8ad9bc3fe878be63",
+      "bytes": 449158,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:david-bowie-blackstar-2015",
+      "wid": "david-bowie-blackstar-2015",
+      "title": "Blackstar — David Bowie",
+      "file": "film-ai/decks/film-david-bowie-blackstar-2015.webp",
+      "sha256": "b86849063953997860d92864de0aff90818f9f8bbce877667b9f95c8e7f87bb2",
+      "bytes": 227634,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:david-bowie-lazarus-2016",
+      "wid": "david-bowie-lazarus-2016",
+      "title": "Lazarus — David Bowie",
+      "file": "film-ai/decks/film-david-bowie-lazarus-2016.webp",
+      "sha256": "19c48bed00eec8daa4c11f67506ffb44ca35e405450a5c92f28df9d9d1ced4e8",
+      "bytes": 175794,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dawn-of-the-dead-1978",
+      "wid": "dawn-of-the-dead-1978",
+      "title": "Dawn of the Dead",
+      "file": "film-ai/decks/film-dawn-of-the-dead-1978.webp",
+      "sha256": "a2f7562cd143e09a9e02dcc1df2ec798157b5f0661c0cdab9dcaf3a19f509199",
+      "bytes": 449638,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:day-off-2023",
+      "wid": "day-off-2023",
+      "title": "本日公休",
+      "file": "film-ai/decks/film-day-off-2023.webp",
+      "sha256": "f9d601e33f50099950fbe0ed21faacb05988044a28eeccf12b60d13750de3110",
+      "bytes": 406590,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:death-of-a-cyclist-1955",
+      "wid": "death-of-a-cyclist-1955",
+      "title": "骑自行车者之死",
+      "file": "film-ai/decks/film-death-of-a-cyclist-1955.webp",
+      "sha256": "d76082768fe468f78fd54f7a0ba073ce9eeb48eace11c7885b4cca241352e50c",
+      "bytes": 277606,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:delhi-crime-2019",
+      "wid": "delhi-crime-2019",
+      "title": "德里罪案",
+      "file": "film-ai/decks/film-delhi-crime-2019.webp",
+      "sha256": "61f3d2c60a62768a29f684d27d5f058f8a98f7b79de35be8a298651e0afa17aa",
+      "bytes": 214256,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:demon-slayer-mugen-train-2020",
+      "wid": "demon-slayer-mugen-train-2020",
+      "title": "鬼灭之刃 剧场版 无限列车篇",
+      "file": "film-ai/decks/film-demon-slayer-mugen-train-2020.webp",
+      "sha256": "8abcde976156a8b66a7b7e0e92d952ce1187ba7d84daa3a556b462cd62653a66",
+      "bytes": 371060,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:departures-2008",
+      "wid": "departures-2008",
+      "title": "入殓师",
+      "file": "film-ai/decks/film-departures-2008.webp",
+      "sha256": "db6be90264efd9f8cacf1039d2f6463942c3f6311f9ddc656084cd50cf65139f",
+      "bytes": 226906,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:detective-chinatown-2015",
+      "wid": "detective-chinatown-2015",
+      "title": "Detective Chinatown / 唐人街探案",
+      "file": "film-ai/decks/film-detective-chinatown-2015.webp",
+      "sha256": "0133ed851cace4b405ddb59c5e708df522065301ec4bb0efa39b1927e686babf",
+      "bytes": 504296,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:devilman-crybaby-2018",
+      "wid": "devilman-crybaby-2018",
+      "title": "Devilman Crybaby / デビルマン Crybaby",
+      "file": "film-ai/decks/film-devilman-crybaby-2018.webp",
+      "sha256": "e821baa932df28cd717b682b428c5497505634da0afa9e87439a2bc856a6c179",
+      "bytes": 244558,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:devs-2020",
+      "wid": "devs-2020",
+      "title": "Devs",
+      "file": "film-ai/decks/film-devs-2020.webp",
+      "sha256": "7569231eeac8528dc91ec7a8b75b146f1839e78844e7690fab66329435bd455f",
+      "bytes": 220376,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dexter-2006",
+      "wid": "dexter-2006",
+      "title": "Dexter",
+      "file": "film-ai/decks/film-dexter-2006.webp",
+      "sha256": "ee3dbeb5d6dde5f71a14377c03a697cc6ceaf7f721c341d42774af4c3e6ec2b4",
+      "bytes": 252222,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:diary-of-a-country-priest-1951",
+      "wid": "diary-of-a-country-priest-1951",
+      "title": "Diary of a Country Priest / Journal d'un curé de campagne",
+      "file": "film-ai/decks/film-diary-of-a-country-priest-1951.webp",
+      "sha256": "54a12013f6bec7178e271763e4934e4902c04a4a425d988fc9fed64bfc610b14",
+      "bytes": 241122,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dil-se-1998",
+      "wid": "dil-se-1998",
+      "title": "Dil Se.. / दिल से",
+      "file": "film-ai/decks/film-dil-se-1998.webp",
+      "sha256": "a3ab887fd4b79e1d995ce8e1621744092c41fc6d40787efac233496d0b00cf7c",
+      "bytes": 280470,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dior-jadore-2011",
+      "wid": "dior-jadore-2011",
+      "title": "J'adore de Dior — Galerie des Glaces",
+      "file": "film-ai/decks/film-dior-jadore-2011.webp",
+      "sha256": "8e201a21ff97f1b68b7f26815f7276d012b6be66d8d10ac3b06189e3a82f3301",
+      "bytes": 312918,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dire-straits-money-for-nothing-1985",
+      "wid": "dire-straits-money-for-nothing-1985",
+      "title": "Money for Nothing — Dire Straits",
+      "file": "film-ai/decks/film-dire-straits-money-for-nothing-1985.webp",
+      "sha256": "2c85466f5598eff6ef9cdb4dd58eb52d576248532a037e5ce07e05e31b86d426",
+      "bytes": 222742,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dirty-harry-1971",
+      "wid": "dirty-harry-1971",
+      "title": "Dirty Harry",
+      "file": "film-ai/decks/film-dirty-harry-1971.webp",
+      "sha256": "0ee003d0e1b29bb655f77a7d9dbe26f9f5c3ebacbe4e893ce02ae2581e45f9bc",
+      "bytes": 349790,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:distant-voices-still-lives-1988",
+      "wid": "distant-voices-still-lives-1988",
+      "title": "Distant Voices, Still Lives",
+      "file": "film-ai/decks/film-distant-voices-still-lives-1988.webp",
+      "sha256": "2a3023ecfea13f1267b425f9dde29712259e27053ea07fd5ca8bfb7625b9d7f3",
+      "bytes": 270676,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:diva-1981",
+      "wid": "diva-1981",
+      "title": "Diva",
+      "file": "film-ai/decks/film-diva-1981.webp",
+      "sha256": "51a5b8fbbe701703633f99ca6b35859a55c6712fc626036dceec72466557517d",
+      "bytes": 378726,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:divine-intervention-2002",
+      "wid": "divine-intervention-2002",
+      "title": "Divine Intervention / Yadon Ilaheyya / يد إلهية",
+      "file": "film-ai/decks/film-divine-intervention-2002.webp",
+      "sha256": "2d2c2f38d6d801e38179d29e19aa64e6278026fffdd06bbeb1021feb3b3b5ab6",
+      "bytes": 412318,
       "size": [
         1672,
         941
