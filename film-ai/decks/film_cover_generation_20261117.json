@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T02:54:57.881697+00:00",
+  "snapshot_time_utc": "2026-11-17T03:15:32.517699+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -5548,6 +5548,48 @@
       "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
     },
     {
+      "id": "film:army-of-shadows-1969",
+      "wid": "army-of-shadows-1969",
+      "title": "影子部队",
+      "file": "film-ai/decks/film-army-of-shadows-1969.webp",
+      "sha256": "59643401776d5f611bfbbff696e1b78f47c5f92d3330d538456d6f69fd06805f",
+      "bytes": 215408,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:arrival-2016",
+      "wid": "arrival-2016",
+      "title": "降临",
+      "file": "film-ai/decks/film-arrival-2016.webp",
+      "sha256": "e64ce3345348b503fd819ea540bc9878a1762a1d757f688235c8c1b3e31ecb34",
+      "bytes": 172400,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:as-tears-go-by-1988",
+      "wid": "as-tears-go-by-1988",
+      "title": "旺角卡门",
+      "file": "film-ai/decks/film-as-tears-go-by-1988.webp",
+      "sha256": "931a331be9aa12a2a3a4b6059424ee8236364d6c7fea8779aa68c471917c7f64",
+      "bytes": 193668,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -5654,6 +5696,104 @@
       "bytes": 229784,
       "size": [
         1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:argo-2012",
+      "wid": "argo-2012",
+      "title": "逃离德黑兰",
+      "file": "film-ai/decks/film-argo-2012.webp",
+      "sha256": "5ec0bc81e9eb5782b4ea8eb911c7facb04bceabe4ded934c2ea9286c766d8312",
+      "bytes": 247656,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:asako-i-and-ii-2018",
+      "wid": "asako-i-and-ii-2018",
+      "title": "寝ても覚めても",
+      "file": "film-ai/decks/film-asako-i-and-ii-2018.webp",
+      "sha256": "3f1b4c2aaab948185060cc1211b51d86ca5662eda07249d0ee58850cdec7fe2f",
+      "bytes": 171368,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:autumn-sonata-1978",
+      "wid": "autumn-sonata-1978",
+      "title": "秋日奏鸣曲",
+      "file": "film-ai/decks/film-autumn-sonata-1978.webp",
+      "sha256": "a2741318c574e841c81a4e382815a645a786e500fafbad2569d26b6b19d1423d",
+      "bytes": 238416,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:babylon-berlin-2017",
+      "wid": "babylon-berlin-2017",
+      "title": "巴比伦柏林",
+      "file": "film-ai/decks/film-babylon-berlin-2017.webp",
+      "sha256": "01f31bb0b6f2cd901740331fc86e3f38a160d501c70b5c282530c1b24c5736e0",
+      "bytes": 170822,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:bad-sisters-2022",
+      "wid": "bad-sisters-2022",
+      "title": "坏姐妹",
+      "file": "film-ai/decks/film-bad-sisters-2022.webp",
+      "sha256": "6a9055a5a52e98880e5c510359449651a7f4a413bd0ff2fbaf5bf653c682228e",
+      "bytes": 237186,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:beef-2023",
+      "wid": "beef-2023",
+      "title": "怒呛人生",
+      "file": "film-ai/decks/film-beef-2023.webp",
+      "sha256": "aacdb13c120c19a4667253c12353c252efc142380bb8bcb354decf91ba6b7a0f",
+      "bytes": 296034,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:better-call-saul-2015",
+      "wid": "better-call-saul-2015",
+      "title": "风骚律师",
+      "file": "film-ai/decks/film-better-call-saul-2015.webp",
+      "sha256": "77110ae630998c4f66e5b8ce07d6c4a403e9ccf22b6e6e23c1b71b4f55f0b9de",
+      "bytes": 196958,
+      "size": [
+        1671,
         941
       ],
       "generator": "Codex built-in GPT Image image_gen",
