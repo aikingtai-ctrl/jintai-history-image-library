@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T04:12:06.522584+00:00",
+  "snapshot_time_utc": "2026-11-17T04:55:02.813928+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -5884,6 +5884,132 @@
       "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
     },
     {
+      "id": "film:babettes-feast-1987",
+      "wid": "babettes-feast-1987",
+      "title": "芭贝特之宴",
+      "file": "film-ai/decks/film-babettes-feast-1987.webp",
+      "sha256": "fa9e7db80e9b0d3a670309c0998fe983f801866c46450c66e199dd9ceacf9f1b",
+      "bytes": 201180,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:baby-driver-2017",
+      "wid": "baby-driver-2017",
+      "title": "极盗车神",
+      "file": "film-ai/decks/film-baby-driver-2017.webp",
+      "sha256": "d1e8fb4d08edd72b1a72b23f664d7054cbdf59d8250c9c74e6596ca417aa1e07",
+      "bytes": 117902,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:baby-reindeer-2024",
+      "wid": "baby-reindeer-2024",
+      "title": "驯鹿宝贝",
+      "file": "film-ai/decks/film-baby-reindeer-2024.webp",
+      "sha256": "8e49c2993d644c2d1604ba8dadf39595c0251aed9346814ca62beefae62b0bb3",
+      "bytes": 289522,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:babylon-2022",
+      "wid": "babylon-2022",
+      "title": "巴比伦",
+      "file": "film-ai/decks/film-babylon-2022.webp",
+      "sha256": "c971795d2a914c01b2d04d8546f80b14237d576f72f023a8cae273873b066618",
+      "bytes": 388274,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:back-to-1942-2012",
+      "wid": "back-to-1942-2012",
+      "title": "一九四二",
+      "file": "film-ai/decks/film-back-to-1942-2012.webp",
+      "sha256": "31cb2a9f96fc0c3a0460208a2523ec0a76507685457e08e211722442cdcff412",
+      "bytes": 363004,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:back-to-back-face-to-face-1994",
+      "wid": "back-to-back-face-to-face-1994",
+      "title": "背靠背，脸对脸",
+      "file": "film-ai/decks/film-back-to-back-face-to-face-1994.webp",
+      "sha256": "7287154ed4ba6f5bedcf16cb62fc4c91c420b9a97df5903f5a812c8bb3f735ab",
+      "bytes": 253916,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:back-to-the-future-1985",
+      "wid": "back-to-the-future-1985",
+      "title": "回到未来",
+      "file": "film-ai/decks/film-back-to-the-future-1985.webp",
+      "sha256": "1b13391085ecfcec8b9b1dbef5da30fc2cb33c046b3902300f8324d46e1d3e2e",
+      "bytes": 462318,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:bad-education-2004",
+      "wid": "bad-education-2004",
+      "title": "不良教育",
+      "file": "film-ai/decks/film-bad-education-2004.webp",
+      "sha256": "0f1a51f0bb785bd35801220321893a12ffd2a66278af93c29136b1c167a54743",
+      "bytes": 176668,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:bad-genius-2017",
+      "wid": "bad-genius-2017",
+      "title": "天才枪手",
+      "file": "film-ai/decks/film-bad-genius-2017.webp",
+      "sha256": "68c1cd4b33ed105c374e2339acc42bc44f21752167cf0372960e81028117fe51",
+      "bytes": 113814,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -6394,6 +6520,118 @@
       "file": "film-ai/decks/film-cast-away-2000.webp",
       "sha256": "bebcd16f7339f58b27338c80ba5e3522be036065c34f7e6a0c5071213aab3f8e",
       "bytes": 471610,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cat-on-a-hot-tin-roof-1958",
+      "wid": "cat-on-a-hot-tin-roof-1958",
+      "title": "朱门巧妇",
+      "file": "film-ai/decks/film-cat-on-a-hot-tin-roof-1958.webp",
+      "sha256": "63687ba0ae09734db71852bed387f44b147e86aeecbfa39a5d7a764518542106",
+      "bytes": 260420,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:chariots-of-fire-1981",
+      "wid": "chariots-of-fire-1981",
+      "title": "烈火战车",
+      "file": "film-ai/decks/film-chariots-of-fire-1981.webp",
+      "sha256": "dba2e3451a919494a641ee10bb997a09a15d073b3f34c70c393b4e1f451f2dc4",
+      "bytes": 279082,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:come-and-see-1985",
+      "wid": "come-and-see-1985",
+      "title": "自己去看",
+      "file": "film-ai/decks/film-come-and-see-1985.webp",
+      "sha256": "31cf531fe147f3d50c1dc3c8c48447daad7525294e4cfa2222b46a9cbdd5218d",
+      "bytes": 305196,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dark-2017",
+      "wid": "dark-2017",
+      "title": "暗黑",
+      "file": "film-ai/decks/film-dark-2017.webp",
+      "sha256": "6b67ed42df8bf116c1da2908f9e2e70e10d358213cd04aa1bf7432a88a46f3f3",
+      "bytes": 296740,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:detour-1945",
+      "wid": "detour-1945",
+      "title": "绕道",
+      "file": "film-ai/decks/film-detour-1945.webp",
+      "sha256": "5ccf8e63102bb0b6eddd98891faadb6a6719b75a832e3d509fff15827ad89f0b",
+      "bytes": 224410,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:die-hard-1988",
+      "wid": "die-hard-1988",
+      "title": "虎胆龙威",
+      "file": "film-ai/decks/film-die-hard-1988.webp",
+      "sha256": "2da4ab53463251ee491aae4c8dc6c995431e806a3d7517d8ef15dd188437a5d9",
+      "bytes": 272082,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:double-indemnity-1944",
+      "wid": "double-indemnity-1944",
+      "title": "双重赔偿",
+      "file": "film-ai/decks/film-double-indemnity-1944.webp",
+      "sha256": "7cb3e19ea9798682c3265e69787064b5fd60b6558ed683e2d31e74c73acb8207",
+      "bytes": 120450,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:downton-abbey-2010",
+      "wid": "downton-abbey-2010",
+      "title": "唐顿庄园",
+      "file": "film-ai/decks/film-downton-abbey-2010.webp",
+      "sha256": "3f7d4d2df79be7c9f3ce396e6f2cc2216381618043185ac439136f3bb20c6c42",
+      "bytes": 231086,
       "size": [
         1672,
         941
