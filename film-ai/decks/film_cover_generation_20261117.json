@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T08:47:49.328200+00:00",
+  "snapshot_time_utc": "2026-11-17T09:11:49.887070+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -6646,6 +6646,90 @@
       "file": "film-ai/decks/film-betty-blue-1986.webp",
       "sha256": "bc08b2a7cd087e97de4607bf7337284073690a626bcc5dbccfde140d585bc3ec",
       "bytes": 409434,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:beyonce-formation-2016",
+      "wid": "beyonce-formation-2016",
+      "title": "Formation — 碧昂丝（2016）",
+      "file": "film-ai/decks/film-beyonce-formation-2016.webp",
+      "sha256": "965eb81e4060faa3ccf3540fbb4d933bfc765ce4ef53730a66b8c0848233b626",
+      "bytes": 398704,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:beyonce-hold-up-2016",
+      "wid": "beyonce-hold-up-2016",
+      "title": "Hold Up — 碧昂丝（2016）",
+      "file": "film-ai/decks/film-beyonce-hold-up-2016.webp",
+      "sha256": "342513e5dc969161c790a72b288705e82865abc1c6b85adde0d4d23661994796",
+      "bytes": 398858,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:beyond-beauty-taiwan-from-above-2013",
+      "wid": "beyond-beauty-taiwan-from-above-2013",
+      "title": "看见台湾（2013）",
+      "file": "film-ai/decks/film-beyond-beauty-taiwan-from-above-2013.webp",
+      "sha256": "645e8404f0f2011ea9334bf7a861cc6c6435c3883e03c9e22492d0a5e5bf1e1d",
+      "bytes": 359094,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:beyond-evil-2021",
+      "wid": "beyond-evil-2021",
+      "title": "怪物（2021）",
+      "file": "film-ai/decks/film-beyond-evil-2021.webp",
+      "sha256": "5f7f0384209e01bb487d59cf3b717fc9af30efaa7e049a69492c6031f0dc171b",
+      "bytes": 170070,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:beyond-the-dream-2019",
+      "wid": "beyond-the-dream-2019",
+      "title": "幻爱（2019）",
+      "file": "film-ai/decks/film-beyond-the-dream-2019.webp",
+      "sha256": "8561ac3cc7e3e0261bf58fdab9666bfd423ee69e7dec4c9fca87702f8bda0828",
+      "bytes": 204406,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:beyond-the-realm-of-conscience-2009",
+      "wid": "beyond-the-realm-of-conscience-2009",
+      "title": "宫心计（2009）",
+      "file": "film-ai/decks/film-beyond-the-realm-of-conscience-2009.webp",
+      "sha256": "3b4e9201a8e7d7bca6145d9f481c5f86689fb24790a9a3df605d4d3ef4b8acea",
+      "bytes": 407910,
       "size": [
         1672,
         941
