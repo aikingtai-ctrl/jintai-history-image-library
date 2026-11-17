@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T08:23:49.334705+00:00",
+  "snapshot_time_utc": "2026-11-17T08:47:49.328200+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -6584,6 +6584,76 @@
       "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
     },
     {
+      "id": "film:ben-hur-1959",
+      "wid": "ben-hur-1959",
+      "title": "宾虚（1959）",
+      "file": "film-ai/decks/film-ben-hur-1959.webp",
+      "sha256": "b9248026639a9b86a3a4f3b23d12b92a8073651b06fb0b9e8951355876ee2706",
+      "bytes": 434742,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:berlin-alexanderplatz-1980",
+      "wid": "berlin-alexanderplatz-1980",
+      "title": "柏林亚历山大广场（1980）",
+      "file": "film-ai/decks/film-berlin-alexanderplatz-1980.webp",
+      "sha256": "1d621a7fdcc8ca39f92b55ebcac161abe235d766e6643cb1fb9f09729cec1139",
+      "bytes": 307972,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:berlin-symphony-of-a-metropolis-1927",
+      "wid": "berlin-symphony-of-a-metropolis-1927",
+      "title": "柏林：城市交响曲（1927）",
+      "file": "film-ai/decks/film-berlin-symphony-of-a-metropolis-1927.webp",
+      "sha256": "9d6064d87e9349992b9edaeb0332a47f75a10e33e5c9e80f8b5b0acf1144944b",
+      "bytes": 305512,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:better-days-2019",
+      "wid": "better-days-2019",
+      "title": "少年的你（2019）",
+      "file": "film-ai/decks/film-better-days-2019.webp",
+      "sha256": "865abd6bac9e7571cd7df666b99c9052ee29fc55562174deb8e9bff5cc3746d1",
+      "bytes": 239580,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:betty-blue-1986",
+      "wid": "betty-blue-1986",
+      "title": "巴黎野玫瑰（1986）",
+      "file": "film-ai/decks/film-betty-blue-1986.webp",
+      "sha256": "bc08b2a7cd087e97de4607bf7337284073690a626bcc5dbccfde140d585bc3ec",
+      "bytes": 409434,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -7570,6 +7640,118 @@
       "file": "film-ai/decks/film-living-2022.webp",
       "sha256": "d8fee913e274e98ee2597a752501a919553cb6fa273368fb0234a27d4aee9adc",
       "bytes": 371454,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:children-of-heaven-1997",
+      "wid": "children-of-heaven-1997",
+      "title": "小鞋子",
+      "file": "film-ai/decks/film-children-of-heaven-1997.webp",
+      "sha256": "aee7081ad915b34d52ade6a03aee06cfe0805206a40699fc025c89fce99661ea",
+      "bytes": 386082,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gate-of-hell-1953",
+      "wid": "gate-of-hell-1953",
+      "title": "地狱门",
+      "file": "film-ai/decks/film-gate-of-hell-1953.webp",
+      "sha256": "15195430e758e278f02b4459d18905ba71f57946ef613fa64f84c14bf54d9b01",
+      "bytes": 440276,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dangal-2016",
+      "wid": "dangal-2016",
+      "title": "摔跤吧！爸爸",
+      "file": "film-ai/decks/film-dangal-2016.webp",
+      "sha256": "272dbed04cf7ce0e9aedd8fbd6261b76b819f50cba24e11faaf9c052e8ca9db4",
+      "bytes": 423240,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:boyz-n-the-hood-1991",
+      "wid": "boyz-n-the-hood-1991",
+      "title": "街区男孩",
+      "file": "film-ai/decks/film-boyz-n-the-hood-1991.webp",
+      "sha256": "479c2153df83d671d6821be1c656232b4140ec00fe24fd7ac20971ab44ee596e",
+      "bytes": 462344,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gandhi-1982",
+      "wid": "gandhi-1982",
+      "title": "甘地传",
+      "file": "film-ai/decks/film-gandhi-1982.webp",
+      "sha256": "da8701f90cc93f53e095b0b3c87bd5234fb6deff5c9e3468beb69ed924916827",
+      "bytes": 255830,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:day-of-wrath-1943",
+      "wid": "day-of-wrath-1943",
+      "title": "愤怒之日",
+      "file": "film-ai/decks/film-day-of-wrath-1943.webp",
+      "sha256": "1d5698ea6fcac769cfad2d8d09144566bad47bd57a864479237c74681fc73717",
+      "bytes": 190712,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:field-of-dreams-1989",
+      "wid": "field-of-dreams-1989",
+      "title": "梦幻成真",
+      "file": "film-ai/decks/film-field-of-dreams-1989.webp",
+      "sha256": "b88b7f8fd8c5a8e696c6ce7df86938131ca0e636e092848348515ca7b87bc205",
+      "bytes": 353790,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fist-of-fury-1972",
+      "wid": "fist-of-fury-1972",
+      "title": "精武门",
+      "file": "film-ai/decks/film-fist-of-fury-1972.webp",
+      "sha256": "ad956341c6826a71d8b053f86756230ba1b77b5bf661bc8eae3bebd5d9ad57a4",
+      "bytes": 325988,
       "size": [
         1672,
         941
