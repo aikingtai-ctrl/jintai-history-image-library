@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T08:09:35.199541+00:00",
+  "snapshot_time_utc": "2026-11-17T08:23:49.334705+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -6380,6 +6380,202 @@
       "file": "film-ai/decks/film-beauty-and-the-beast-1991.webp",
       "sha256": "c1ef3db08b67ed43c96b266b2dc5fec61b04b9b3001cb9ff2b1febed60369cea",
       "bytes": 402570,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:beetlejuice-1988",
+      "wid": "beetlejuice-1988",
+      "title": "Beetlejuice（1988）",
+      "file": "film-ai/decks/film-beetlejuice-1988.webp",
+      "sha256": "b3887272027cfe5256261a8e07c47854ce03c661d70fe847abf03a6228de2efb",
+      "bytes": 511020,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:before-dawn-2010",
+      "wid": "before-dawn-2010",
+      "title": "黎明之前（2010）",
+      "file": "film-ai/decks/film-before-dawn-2010.webp",
+      "sha256": "97455104583d944d1d30db0084ca164bd899619418f3388b77c099c7c166381a",
+      "bytes": 127882,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:before-midnight-2013",
+      "wid": "before-midnight-2013",
+      "title": "Before Midnight（2013）",
+      "file": "film-ai/decks/film-before-midnight-2013.webp",
+      "sha256": "4d46fcee27896546fcde927f85b8d8cad875b2ffc672104530e03dc31607e8c4",
+      "bytes": 371212,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:before-sunrise-1995",
+      "wid": "before-sunrise-1995",
+      "title": "Before Sunrise（1995）",
+      "file": "film-ai/decks/film-before-sunrise-1995.webp",
+      "sha256": "0813c97679a236f777b0b3e1a46261f7071d2dc5a804c79a1d8c60e6212f64d3",
+      "bytes": 300592,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:before-sunset-2004",
+      "wid": "before-sunset-2004",
+      "title": "Before Sunset（2004）",
+      "file": "film-ai/decks/film-before-sunset-2004.webp",
+      "sha256": "a2d2584c8624d2e69dcd07cae04879eab5f0692cf8d04ec14cb5de76666449d8",
+      "bytes": 352396,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:before-the-rain-1994",
+      "wid": "before-the-rain-1994",
+      "title": "暴雨将至（1994）",
+      "file": "film-ai/decks/film-before-the-rain-1994.webp",
+      "sha256": "c0b753306fff2e9650829b2af50980a79ec4e5db71c72308bd860585674fc5a5",
+      "bytes": 339124,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:behind-the-sun-2001",
+      "wid": "behind-the-sun-2001",
+      "title": "太阳背后（2001）",
+      "file": "film-ai/decks/film-behind-the-sun-2001.webp",
+      "sha256": "7aaa71b59e92cd882db1dc796cc5ca60696cfbeace01c242efecd84b10aed027",
+      "bytes": 460760,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:beijing-bicycle-2001",
+      "wid": "beijing-bicycle-2001",
+      "title": "十七岁的单车（2001）",
+      "file": "film-ai/decks/film-beijing-bicycle-2001.webp",
+      "sha256": "eb3b7e1bfaa1cc791788ce486b30aec3f53939c34e02fb4cf1e17d85ce735e4f",
+      "bytes": 346124,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:being-john-malkovich-1999",
+      "wid": "being-john-malkovich-1999",
+      "title": "Being John Malkovich（1999）",
+      "file": "film-ai/decks/film-being-john-malkovich-1999.webp",
+      "sha256": "1657e8e0944c9d15c697e9c8f1621ea4092a5d09021d93e9e9ac0a419a37d015",
+      "bytes": 297916,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:being-there-1979",
+      "wid": "being-there-1979",
+      "title": "Being There（1979）",
+      "file": "film-ai/decks/film-being-there-1979.webp",
+      "sha256": "ce300aed187b4f3f92b84bced24b175b149dbb9b59b452c1919528e666d58cda",
+      "bytes": 452080,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:belfast-2021",
+      "wid": "belfast-2021",
+      "title": "贝尔法斯特（2021）",
+      "file": "film-ai/decks/film-belfast-2021.webp",
+      "sha256": "9a052ea3d59110a0fe0b7a59e97b401b3507f9e02e213cdad291fa4f96c1ae8c",
+      "bytes": 214038,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:belladonna-of-sadness-1973",
+      "wid": "belladonna-of-sadness-1973",
+      "title": "Belladonna of Sadness（1973）",
+      "file": "film-ai/decks/film-belladonna-of-sadness-1973.webp",
+      "sha256": "474b3baa4866f374ee80f59ebf3370c2a4a71afbfbd596ca1b3f1fcff336099a",
+      "bytes": 448480,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:belle-de-jour-1967",
+      "wid": "belle-de-jour-1967",
+      "title": "Belle de jour（1967）",
+      "file": "film-ai/decks/film-belle-de-jour-1967.webp",
+      "sha256": "d40355694603d957f6b94b786d06d906f579f699fba8fdfab87eaed40bf45e3a",
+      "bytes": 205918,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:belle-epoque-1992",
+      "wid": "belle-epoque-1992",
+      "title": "四千金的情人（1992）",
+      "file": "film-ai/decks/film-belle-epoque-1992.webp",
+      "sha256": "b0f518524685be31a869f2d316c2f3d01550e8735d297957e737c38009d89e11",
+      "bytes": 397426,
       "size": [
         1672,
         941
