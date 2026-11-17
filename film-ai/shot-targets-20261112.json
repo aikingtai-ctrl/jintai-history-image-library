@@ -145179,8 +145179,8 @@
     "id": "YS-20261029-C36-back-to-the-past-2025-02",
     "wid": "back-to-the-past-2025",
     "title": "寻秦记（电影版）",
-    "prompt": "ARRI Alexa Mini LF / Kodak Vision3 35mm质感，2.39:1画幅。2025年中国香港 / 中国大陆电影《寻秦记（电影版）》（Back to the Past，导演：吴炫辉、黎震龙，摄影指导：谢忠道）。主光方向塑形·伦勃朗侧主光人物肖像：近景平视，标准镜头浅景深，固定运镜，侧光/伦勃朗光/低调/高反差照明，三分法构图。\nEnglish Prompt: Film still from Back to the Past (2025), directed by 吴炫辉、黎震龙, cinematography by 谢忠道 (2026年香港电影金像奖最佳摄影正式提名), classic 45-degree Rembrandt key light sculpting facial contours against deep shadow, shot on ARRI Alexa Mini LF / Kodak Vision3 35mm with ARRI Alexa 65 / Alexa Mini LF and Cooke S4/i & ARRI Master Anamorphic (50mm Prime T1.4 Shallow DOF), 2.39:1 aspect ratio --ar 21:9",
-    "aspect_ratio": "2.39:1",
+    "prompt": "Use case: historical-scene. Asset: one crisp, high-resolution, edge-to-edge 16:9 original concept image for the 2025 Hong Kong film Back to the Past (寻秦记电影版), as distinct from the older TV series. The official 1905 film synopsis features a twenty-first-century traveler in the Warring States Qin era and a tense bond with the Qin king. Depict two entirely fictional adult Chinese men from behind in a vast Warring States royal courtyard at early morning: the traveler wears restrained rugged Qin-era outer clothing with a small subtle modern metallic device partially visible in his hand; across the courtyard, the ruler in period robes stands on the palace steps. Express past meeting future through a very faint cool light on the device, while the architecture, rough timber, earthen walls, bronze vessels, banners and robes remain grounded and believable. Wide cinematic composition, faces not identifiable, layered depth, warm dawn side-light, natural texture, readable midtones, sharp details when viewed full-screen. No actual cast likeness, TV frame, film still, direct reenactment, text, Chinese characters, signs, poster, logos, watermark, split panel, border, or battle violence.",
+    "aspect_ratio": "16:9（本次原创图）",
     "source_file": "d4/p_back-to-the-past-2025.js"
   },
   {
@@ -145299,8 +145299,8 @@
     "id": "YS-20261029-C36-operation-hadal-2025-02",
     "wid": "operation-hadal-2025",
     "title": "蛟龙行动",
-    "prompt": "ARRI Alexa Mini LF / Kodak Vision3 35mm质感，2.39:1画幅。2025年中国大陆 / 中国香港电影《蛟龙行动》（Operation Hadal，导演：林超贤，摄影指导：鲍德熹、蔡文龙、周志辉、叶振）。主光方向塑形·伦勃朗侧主光人物肖像：近景平视，标准镜头浅景深，固定运镜，侧光/伦勃朗光/低调/高反差照明，三分法构图。\nEnglish Prompt: Film still from Operation Hadal (2025), directed by 林超贤, cinematography by 鲍德熹、蔡文龙、周志辉、叶振 (2025年中国电影金鸡奖最佳摄影正式提名), classic 45-degree Rembrandt key light sculpting facial contours against deep shadow, shot on ARRI Alexa Mini LF / Kodak Vision3 35mm with ARRI Alexa 65 / Alexa Mini LF and Cooke S4/i & ARRI Master Anamorphic (50mm Prime T1.4 Shallow DOF), 2.39:1 aspect ratio --ar 21:9",
-    "aspect_ratio": "2.39:1",
+    "prompt": "Use case: photorealistic-natural. Asset: one high-resolution original 16:9 cinematic website reference image for Operation Hadal (蛟龙行动), the 2025 film directed by Dante Lam. Official 1905 film information centers a fictional future deep-sea submarine mission. Make a fictional nonclassified scene, not a frame from the film: inside a spacious near-future Chinese submarine control room, a small team of fictional adult naval personnel seen from side and back carefully study a glowing blue bathymetric display while blue-green water light casts moving caustics across steel bulkheads; through a large observation-style viewport in this fictional cinematic setting, the dark ocean and distant lights are visible. Clear faces without resemblance to the real cast, tactile uniforms and metal surfaces, believable practical lighting, readable midtones and sharp central action, dramatic layered depth. The image fills the whole frame, remains legible in a full-size web lightbox, and contains no readable screen text, numbers, national insignia, logos, movie title, watermark, collage, border, gore, explosions, actual classified instrument details, or real actor likeness.",
+    "aspect_ratio": "16:9（本次原创图）",
     "source_file": "d4/p_operation-hadal-2025.js"
   },
   {
