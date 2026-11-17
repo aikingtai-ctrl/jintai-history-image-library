@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T11:05:44.966004+00:00",
+  "snapshot_time_utc": "2026-11-17T11:39:46.107876+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -7102,6 +7102,132 @@
       "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
     },
     {
+      "id": "film:blancanieves-2012",
+      "wid": "blancanieves-2012",
+      "title": "白雪公主（2012）",
+      "file": "film-ai/decks/film-blancanieves-2012.webp",
+      "sha256": "620a5484ee5f72f97e7831187f06dec18724f2695ca7a43045e5c192f2bbf890",
+      "bytes": 206358,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:bleak-house-2005",
+      "wid": "bleak-house-2005",
+      "title": "荒凉山庄（2005）",
+      "file": "film-ai/decks/film-bleak-house-2005.webp",
+      "sha256": "3663912fa17cbe1a82bb002142adaaefa8ff567b99162c8ab1824a7d77545c75",
+      "bytes": 226322,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:bleu-de-chanel-2010",
+      "wid": "bleu-de-chanel-2010",
+      "title": "香奈儿·蔚蓝（2010）",
+      "file": "film-ai/decks/film-bleu-de-chanel-2010.webp",
+      "sha256": "32254b009e9920edc16ab06800eb68ead1c6a548e56edd21c439516ecee8f304",
+      "bytes": 191608,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:blind-massage-2014",
+      "wid": "blind-massage-2014",
+      "title": "推拿（2014）",
+      "file": "film-ai/decks/film-blind-massage-2014.webp",
+      "sha256": "d896299c731ac7a50eb658cf87577d0d9b95d4291d290d3df329c89253d89132",
+      "bytes": 241018,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:blind-shaft-2003",
+      "wid": "blind-shaft-2003",
+      "title": "盲井（2003）",
+      "file": "film-ai/decks/film-blind-shaft-2003.webp",
+      "sha256": "8088590fae7c2975f41f94a9c466e7a46cc5fb04a2aafba954418d9c3f5d52fb",
+      "bytes": 313122,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:blood-and-black-lace-1964",
+      "wid": "blood-and-black-lace-1964",
+      "title": "血与黑蕾丝（1964）",
+      "file": "film-ai/decks/film-blood-and-black-lace-1964.webp",
+      "sha256": "65fefc2761018d6405c341fcdb79dfb3765fdd108676d50dc785e42b7f88d140",
+      "bytes": 251326,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:blood-simple-1984",
+      "wid": "blood-simple-1984",
+      "title": "Blood Simple（1984）",
+      "file": "film-ai/decks/film-blood-simple-1984.webp",
+      "sha256": "1b3776078697d8b856bb6f06ea390708e6b39b96847ddec2635b500e606259f3",
+      "bytes": 161494,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:blow-out-1981",
+      "wid": "blow-out-1981",
+      "title": "Blow Out（1981）",
+      "file": "film-ai/decks/film-blow-out-1981.webp",
+      "sha256": "ecfad089ed27754e298aad827d77d54cf43ca24987a5c0a15a527e9cf0e09938",
+      "bytes": 176636,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:blow-up-1966",
+      "wid": "blow-up-1966",
+      "title": "放大（1966）",
+      "file": "film-ai/decks/film-blow-up-1966.webp",
+      "sha256": "6d2ceadf29c2e5ff43ee5d661298c1bcabb5b45c999e09004f1d448afc405167",
+      "bytes": 165370,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -8536,6 +8662,174 @@
       "file": "film-ai/decks/film-bruce-springsteen-dancing-in-the-dark-1984.webp",
       "sha256": "bf08e94572bfd1cc2f8c8bee674e8825006bb417aca21c08223b85de334e661a",
       "bytes": 231882,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:bts-blood-sweat-and-tears-2016",
+      "wid": "bts-blood-sweat-and-tears-2016",
+      "title": "血汗泪 — 防弹少年团",
+      "file": "film-ai/decks/film-bts-blood-sweat-and-tears-2016.webp",
+      "sha256": "dbf516ca2a36ea2080eb1c1c4993d554b62fe6ad093b86cd558fa0147321ee4d",
+      "bytes": 313252,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:bts-spring-day-2017",
+      "wid": "bts-spring-day-2017",
+      "title": "春日 — 防弹少年团",
+      "file": "film-ai/decks/film-bts-spring-day-2017.webp",
+      "sha256": "1af4c08e1850cac0c7a3e75308b570449c57990e6b0d14727b2cc48b5ce4e52b",
+      "bytes": 315630,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:buddha-mountain-2010",
+      "wid": "buddha-mountain-2010",
+      "title": "观音山",
+      "file": "film-ai/decks/film-buddha-mountain-2010.webp",
+      "sha256": "b96e93aee2ae32cf6c6211f6827521b151f698c741492180e0142d18edd4fdf8",
+      "bytes": 191052,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:buena-vista-social-club-1999",
+      "wid": "buena-vista-social-club-1999",
+      "title": "乐满哈瓦那",
+      "file": "film-ai/decks/film-buena-vista-social-club-1999.webp",
+      "sha256": "3eb13107eb6903e3ac475d6d91a3d527a3adc7ac33b3f06c71c1b8fe02cfd847",
+      "bytes": 509328,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:buffalo-66-1998",
+      "wid": "buffalo-66-1998",
+      "title": "Buffalo ’66",
+      "file": "film-ai/decks/film-buffalo-66-1998.webp",
+      "sha256": "662ac475faaa980cfb8e09d6d0077ac550d49164b8f6d1442325167e0a983a30",
+      "bytes": 296742,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:bullet-in-the-head-1990",
+      "wid": "bullet-in-the-head-1990",
+      "title": "喋血街头",
+      "file": "film-ai/decks/film-bullet-in-the-head-1990.webp",
+      "sha256": "d252e463021a1395cae7ec843ef2359a1048cbf538faa832fa08dbd2fd78a676",
+      "bytes": 261128,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:bullhead-2011",
+      "wid": "bullhead-2011",
+      "title": "牛头",
+      "file": "film-ai/decks/film-bullhead-2011.webp",
+      "sha256": "cdb1fe3ef33b7923847dc27eafb13732ec7c13949006ff46a004cb7316a2ec43",
+      "bytes": 288630,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:bullitt-1968",
+      "wid": "bullitt-1968",
+      "title": "Bullitt",
+      "file": "film-ai/decks/film-bullitt-1968.webp",
+      "sha256": "5eb55b84f201cf0ed035428338fd9f01e74a8bd7377318bfd520b5467be494ae",
+      "bytes": 219864,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:bumming-in-beijing-1990",
+      "wid": "bumming-in-beijing-1990",
+      "title": "流浪北京",
+      "file": "film-ai/decks/film-bumming-in-beijing-1990.webp",
+      "sha256": "6f9033f65d92a188b6f993847b623d6a959bf21ee25d23fe3c4601454398fbc0",
+      "bytes": 286336,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:burden-of-dreams-1982",
+      "wid": "burden-of-dreams-1982",
+      "title": "梦想的负荷",
+      "file": "film-ai/decks/film-burden-of-dreams-1982.webp",
+      "sha256": "7d3f0fbf4c6f950eb08ab590c90d14f39557d16c1396cad26f05be4808aac530",
+      "bytes": 466522,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:burning-bush-2013",
+      "wid": "burning-bush-2013",
+      "title": "焚烧的灌木",
+      "file": "film-ai/decks/film-burning-bush-2013.webp",
+      "sha256": "befbcef9870a08e05978555d57d6fffc031ad974cc24cf87411dea5b101fb943",
+      "bytes": 220706,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:burning-ice-2017",
+      "wid": "burning-ice-2017",
+      "title": "无证之罪",
+      "file": "film-ai/decks/film-burning-ice-2017.webp",
+      "sha256": "79466d4c30a8691fce81a818feeec9606e4d30103451c9e791357dc39cf273f9",
+      "bytes": 211550,
       "size": [
         1672,
         941
