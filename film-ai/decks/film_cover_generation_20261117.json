@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T17:23:42.490056+00:00",
+  "snapshot_time_utc": "2026-11-17T17:54:25.363647+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -8320,6 +8320,90 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
+      "id": "film:catch-me-if-you-can-2002",
+      "wid": "catch-me-if-you-can-2002",
+      "title": "Catch Me If You Can",
+      "file": "film-ai/decks/film-catch-me-if-you-can-2002.webp",
+      "sha256": "945ec447bc6220bcf06055fd1f085faae3dae7787ecb7e4357dc7a9f585210b5",
+      "bytes": 224066,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:caught-by-the-tides-2024",
+      "wid": "caught-by-the-tides-2024",
+      "title": "风流一代",
+      "file": "film-ai/decks/film-caught-by-the-tides-2024.webp",
+      "sha256": "5a9fdb69851ed3453e521d08319f1c68162437fbfa7e51dbcfb4ca2baff35182",
+      "bytes": 230070,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cave-of-forgotten-dreams-2010",
+      "wid": "cave-of-forgotten-dreams-2010",
+      "title": "忘梦洞",
+      "file": "film-ai/decks/film-cave-of-forgotten-dreams-2010.webp",
+      "sha256": "ea8ee95bb214b721e4c3c84f5b458456c73ff4430a60f61d0c9b8881de3de666",
+      "bytes": 315714,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cemetery-of-splendour-2015",
+      "wid": "cemetery-of-splendour-2015",
+      "title": "华丽之墓",
+      "file": "film-ai/decks/film-cemetery-of-splendour-2015.webp",
+      "sha256": "195ec6ffdc1b642492b7dd8dd37d190c2dca90af754b0c144add0833069b5ebf",
+      "bytes": 228530,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:center-stage-1991",
+      "wid": "center-stage-1991",
+      "title": "阮玲玉",
+      "file": "film-ai/decks/film-center-stage-1991.webp",
+      "sha256": "58f7936d406d84e50127683bf07feb7947a14e56da60899f46786257c970a84e",
+      "bytes": 293976,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:central-station-1998",
+      "wid": "central-station-1998",
+      "title": "中央车站",
+      "file": "film-ai/decks/film-central-station-1998.webp",
+      "sha256": "fc24770a2d6f9bd9c1823d53afe30a0ccd8cac8d55c92a01126b11ba7c58da29",
+      "bytes": 297312,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -9594,90 +9678,6 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:catch-me-if-you-can-2002",
-      "wid": "catch-me-if-you-can-2002",
-      "title": "Catch Me If You Can",
-      "file": "film-ai/decks/film-catch-me-if-you-can-2002.webp",
-      "sha256": "945ec447bc6220bcf06055fd1f085faae3dae7787ecb7e4357dc7a9f585210b5",
-      "bytes": 224066,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:caught-by-the-tides-2024",
-      "wid": "caught-by-the-tides-2024",
-      "title": "风流一代",
-      "file": "film-ai/decks/film-caught-by-the-tides-2024.webp",
-      "sha256": "5a9fdb69851ed3453e521d08319f1c68162437fbfa7e51dbcfb4ca2baff35182",
-      "bytes": 230070,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:cave-of-forgotten-dreams-2010",
-      "wid": "cave-of-forgotten-dreams-2010",
-      "title": "忘梦洞",
-      "file": "film-ai/decks/film-cave-of-forgotten-dreams-2010.webp",
-      "sha256": "ea8ee95bb214b721e4c3c84f5b458456c73ff4430a60f61d0c9b8881de3de666",
-      "bytes": 315714,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:cemetery-of-splendour-2015",
-      "wid": "cemetery-of-splendour-2015",
-      "title": "华丽之墓",
-      "file": "film-ai/decks/film-cemetery-of-splendour-2015.webp",
-      "sha256": "195ec6ffdc1b642492b7dd8dd37d190c2dca90af754b0c144add0833069b5ebf",
-      "bytes": 228530,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:center-stage-1991",
-      "wid": "center-stage-1991",
-      "title": "阮玲玉",
-      "file": "film-ai/decks/film-center-stage-1991.webp",
-      "sha256": "58f7936d406d84e50127683bf07feb7947a14e56da60899f46786257c970a84e",
-      "bytes": 293976,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:central-station-1998",
-      "wid": "central-station-1998",
-      "title": "中央车站",
-      "file": "film-ai/decks/film-central-station-1998.webp",
-      "sha256": "fc24770a2d6f9bd9c1823d53afe30a0ccd8cac8d55c92a01126b11ba7c58da29",
-      "bytes": 297312,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:cest-la-vie-mon-cheri-1993",
       "wid": "cest-la-vie-mon-cheri-1993",
       "title": "新不了情",
@@ -10580,6 +10580,174 @@
       "file": "film-ai/decks/film-creation-of-the-gods-ii-demon-force-2025.webp",
       "sha256": "317feb3a53f8207cdcb31b348f7a0f4f1d5ef8d354f60db329bafb5f088103ef",
       "bytes": 406556,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:creature-from-the-black-lagoon-1954",
+      "wid": "creature-from-the-black-lagoon-1954",
+      "title": "黑湖妖谭",
+      "file": "film-ai/decks/film-creature-from-the-black-lagoon-1954.webp",
+      "sha256": "950704da27e1c4f50677b659978485b51b9e0c3ae3fc14f8e768ad81234f13bd",
+      "bytes": 342240,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:creed-2015",
+      "wid": "creed-2015",
+      "title": "Creed",
+      "file": "film-ai/decks/film-creed-2015.webp",
+      "sha256": "7d27208d60b872e1d0a9c1eda0d96854c11eebe3c115b4b56799c2437f4abe33",
+      "bytes": 347094,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cria-cuervos-1976",
+      "wid": "cria-cuervos-1976",
+      "title": "饲养乌鸦",
+      "file": "film-ai/decks/film-cria-cuervos-1976.webp",
+      "sha256": "e6ad68497ca4278f5bece6eca09a69c0b5ca86cf4f1f234ccdd76b784f938dc7",
+      "bytes": 252468,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cries-and-whispers-1972",
+      "wid": "cries-and-whispers-1972",
+      "title": "呼喊与细语",
+      "file": "film-ai/decks/film-cries-and-whispers-1972.webp",
+      "sha256": "ba0d0737c4fd175880da5fb6126d05b31894394b4819cfd6bd0d5f3f5994c851",
+      "bytes": 190458,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:crime-crackdown-2021",
+      "wid": "crime-crackdown-2021",
+      "title": "扫黑风暴",
+      "file": "film-ai/decks/film-crime-crackdown-2021.webp",
+      "sha256": "f5d3b7e6ed8f0ae01dfddf78380ec92bfb9003a074e878a6be3da307a9c699b8",
+      "bytes": 236046,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cronos-1993",
+      "wid": "cronos-1993",
+      "title": "Cronos",
+      "file": "film-ai/decks/film-cronos-1993.webp",
+      "sha256": "c317a0993b75f8e3b8230fffc1620ee41d04fe408c81aa59145beb969953d224",
+      "bytes": 313148,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:crosscurrent-2016",
+      "wid": "crosscurrent-2016",
+      "title": "长江图",
+      "file": "film-ai/decks/film-crosscurrent-2016.webp",
+      "sha256": "7a1524ef425d485bbbce9f26c1a406ef1dc47b5af7e38f3d66bc6ac1d187144e",
+      "bytes": 276344,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:crossing-the-yalu-river-2020",
+      "wid": "crossing-the-yalu-river-2020",
+      "title": "跨过鸭绿江",
+      "file": "film-ai/decks/film-crossing-the-yalu-river-2020.webp",
+      "sha256": "124d0628ce8523dd981629914735432c49a93438f6bdcfee03e78985869b150c",
+      "bytes": 267834,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cruel-story-of-youth-1960",
+      "wid": "cruel-story-of-youth-1960",
+      "title": "青春残酷物语",
+      "file": "film-ai/decks/film-cruel-story-of-youth-1960.webp",
+      "sha256": "cbc782523ac398c9a1eb0b0f3503b4e4605a8f15a43ba8405a123101c967bc0e",
+      "bytes": 361746,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:crying-out-love-in-the-center-of-the-world-2004",
+      "wid": "crying-out-love-in-the-center-of-the-world-2004",
+      "title": "在世界中心呼唤爱",
+      "file": "film-ai/decks/film-crying-out-love-in-the-center-of-the-world-2004.webp",
+      "sha256": "cacda5f74d0bcdb585ca3d0d2fbfda64f1f20243378223606ed5c7f500ad3a23",
+      "bytes": 206540,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:crystal-boys-2003",
+      "wid": "crystal-boys-2003",
+      "title": "孽子",
+      "file": "film-ai/decks/film-crystal-boys-2003.webp",
+      "sha256": "cae5bde4dea745d6bb3ade9bb920bb1eea5d4e0992a96cb1d00dad58862fe152",
+      "bytes": 431618,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cube-1997",
+      "wid": "cube-1997",
+      "title": "Cube",
+      "file": "film-ai/decks/film-cube-1997.webp",
+      "sha256": "2c1edd0f2eea0c9c895a0d8ca3be7cd10a0b28bc459eef65c5eb346e7997e2d8",
+      "bytes": 168836,
       "size": [
         1672,
         941
