@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T21:49:17.121044+00:00",
+  "snapshot_time_utc": "2026-11-17T22:16:35.681531+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -11756,6 +11756,342 @@
       "file": "film-ai/decks/film-brotherhood-of-blades-2014.webp",
       "sha256": "8dbbfdcb8a7d5fa229ea9d3e27128df1147f6bf98071e5d2d7a498d31c7fb43f",
       "bytes": 431614,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:budweiser-lost-dog-2015",
+      "wid": "budweiser-lost-dog-2015",
+      "title": "百威·迷途小狗",
+      "file": "film-ai/decks/film-budweiser-lost-dog-2015.webp",
+      "sha256": "24ce7949df776b0deae75b20c6e5597a71e7713cd22c0fb3236f8f847e092fd4",
+      "bytes": 319536,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:budweiser-puppy-love-2014",
+      "wid": "budweiser-puppy-love-2014",
+      "title": "百威·小狗之恋",
+      "file": "film-ai/decks/film-budweiser-puppy-love-2014.webp",
+      "sha256": "4aed7ec75761c562babd1c29fb60e08853c696269f566afd8d862f5e6197e96d",
+      "bytes": 297496,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:budweiser-whassup-1999",
+      "wid": "budweiser-whassup-1999",
+      "title": "百威·Whassup",
+      "file": "film-ai/decks/film-budweiser-whassup-1999.webp",
+      "sha256": "d32ebc6babe860a406db0344b12991b701e1f8e2a9f16be370959b74f1e84db9",
+      "bytes": 222686,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:buffy-the-vampire-slayer-1997",
+      "wid": "buffy-the-vampire-slayer-1997",
+      "title": "吸血鬼猎人巴菲",
+      "file": "film-ai/decks/film-buffy-the-vampire-slayer-1997.webp",
+      "sha256": "3382458dc6b38affdc1d6374f8a63e743478e0fd0393415f08a8a642ec7e37d6",
+      "bytes": 229668,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:burberry-the-tale-of-thomas-burberry-2016",
+      "wid": "burberry-the-tale-of-thomas-burberry-2016",
+      "title": "博柏利·托马斯·博柏利的故事",
+      "file": "film-ai/decks/film-burberry-the-tale-of-thomas-burberry-2016.webp",
+      "sha256": "63ab2ed7bd5f57a4d0949dc23bd1d77414d33d3035ceacc00d7e37971ac44a6a",
+      "bytes": 364598,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cadbury-eyebrows-2009",
+      "wid": "cadbury-eyebrows-2009",
+      "title": "吉百利·眉毛",
+      "file": "film-ai/decks/film-cadbury-eyebrows-2009.webp",
+      "sha256": "5d2b23c794ebec613f6070bb73d11a597d2876f00475965e1dbb75d8dee85fd9",
+      "bytes": 276660,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cadbury-gorilla-2007",
+      "wid": "cadbury-gorilla-2007",
+      "title": "吉百利·大猩猩",
+      "file": "film-ai/decks/film-cadbury-gorilla-2007.webp",
+      "sha256": "59d2158690878447cfd48f4fee6863ace1da9d331380427481f3e9a129bbdfae",
+      "bytes": 157072,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:camille-claudel-1988",
+      "wid": "camille-claudel-1988",
+      "title": "罗丹的情人",
+      "file": "film-ai/decks/film-camille-claudel-1988.webp",
+      "sha256": "c8d70344fba843e02e0dfef1867f50a726975d62225885cebabf5d2511159369",
+      "bytes": 330174,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:canal-plus-the-bear-2011",
+      "wid": "canal-plus-the-bear-2011",
+      "title": "Canal+·熊导演",
+      "file": "film-ai/decks/film-canal-plus-the-bear-2011.webp",
+      "sha256": "5b1d2bf765e5b5696e47da85a6cdb3a7c927974c54d4a757fde1f54e927d245c",
+      "bytes": 217226,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:carlitos-way-1993",
+      "wid": "carlitos-way-1993",
+      "title": "Carlito’s Way",
+      "file": "film-ai/decks/film-carlitos-way-1993.webp",
+      "sha256": "7c368b798ace4af206eb28dcd8f9e2044427e00288e170b9de7752ed02ec9620",
+      "bytes": 297562,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:carlton-draught-big-ad-2005",
+      "wid": "carlton-draught-big-ad-2005",
+      "title": "卡尔顿·大广告",
+      "file": "film-ai/decks/film-carlton-draught-big-ad-2005.webp",
+      "sha256": "6d0202c9836f403d22dc6d5ad615bd4188ebf896fc2f73db7f8de2025e8f7366",
+      "bytes": 595820,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:carnivale-2003",
+      "wid": "carnivale-2003",
+      "title": "卡尼沃",
+      "file": "film-ai/decks/film-carnivale-2003.webp",
+      "sha256": "6c9b9383ebdd11f8e9945607baf2005acb06d1168b37800b523733efda7aa11c",
+      "bytes": 276106,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:carrie-1976",
+      "wid": "carrie-1976",
+      "title": "Carrie",
+      "file": "film-ai/decks/film-carrie-1976.webp",
+      "sha256": "444b913ce21b6001f575d21f4d07a205a3a05457d93606890149d465f078173c",
+      "bytes": 253636,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cartier-lodyssee-de-cartier-2012",
+      "wid": "cartier-lodyssee-de-cartier-2012",
+      "title": "卡地亚·卡地亚之旅",
+      "file": "film-ai/decks/film-cartier-lodyssee-de-cartier-2012.webp",
+      "sha256": "570417293e439dca6fbfd663fecae31648b6188ee54b01ebdead563ce9fd5c0a",
+      "bytes": 404782,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cctv-psa-da-bao-2013",
+      "wid": "cctv-psa-da-bao-2013",
+      "title": "央视公益·打包篇",
+      "file": "film-ai/decks/film-cctv-psa-da-bao-2013.webp",
+      "sha256": "6d761b08f9cb25413701d1beaa34e7fb9741d22ff474c21f27d578793f35b0aa",
+      "bytes": 144546,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:celine-and-julie-go-boating-1974",
+      "wid": "celine-and-julie-go-boating-1974",
+      "title": "塞琳和朱莉出航记",
+      "file": "film-ai/decks/film-celine-and-julie-go-boating-1974.webp",
+      "sha256": "0377aa0b94c3f4877c0fc1da60eb76c76a01be99616e6d18e60bc46ac6abee86",
+      "bytes": 408894,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:chanel-coco-mademoiselle-2011",
+      "wid": "chanel-coco-mademoiselle-2011",
+      "title": "香奈儿·可可小姐",
+      "file": "film-ai/decks/film-chanel-coco-mademoiselle-2011.webp",
+      "sha256": "8adc44edb1d08d166202d391dd18d71afc13a667530763875e1be4b56c8d072e",
+      "bytes": 198442,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:chanel-egoiste-1990",
+      "wid": "chanel-egoiste-1990",
+      "title": "香奈儿·自我",
+      "file": "film-ai/decks/film-chanel-egoiste-1990.webp",
+      "sha256": "452d6dc96ca0a491d0cd8dac4ccf80213b1a90737dbfb86a454b0af60ad34d75",
+      "bytes": 167428,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:chanel-no5-the-film-2004",
+      "wid": "chanel-no5-the-film-2004",
+      "title": "香奈儿5号·The Film",
+      "file": "film-ai/decks/film-chanel-no5-the-film-2004.webp",
+      "sha256": "a6f0c14aba0ef25dff0fb9d18779dc6bfa0f04aa5b177ee6488a8a0812d7446b",
+      "bytes": 198772,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:chanel-no5-the-one-that-i-want-2014",
+      "wid": "chanel-no5-the-one-that-i-want-2014",
+      "title": "香奈儿5号·The One That I Want",
+      "file": "film-ai/decks/film-chanel-no5-the-one-that-i-want-2014.webp",
+      "sha256": "644454e3ab7e29eecfc99cb3cf20493b050639fea4d15c755745dcb373432791",
+      "bytes": 262420,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:changeling-2008",
+      "wid": "changeling-2008",
+      "title": "Changeling",
+      "file": "film-ai/decks/film-changeling-2008.webp",
+      "sha256": "079b64d6104e5032f7cf6078bd3695f27f47e1488b01e1b0a364ee6fa78c36c2",
+      "bytes": 209376,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:channel-4-meet-the-superhumans-2012",
+      "wid": "channel-4-meet-the-superhumans-2012",
+      "title": "英国第四频道·见见超人",
+      "file": "film-ai/decks/film-channel-4-meet-the-superhumans-2012.webp",
+      "sha256": "7372fd7a740daaff54df8b4ad780a9219fb2996e5aae6cbb34ae5aec10016f38",
+      "bytes": 193480,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:channel-4-were-the-superhumans-2016",
+      "wid": "channel-4-were-the-superhumans-2016",
+      "title": "英国第四频道·我们是超人",
+      "file": "film-ai/decks/film-channel-4-were-the-superhumans-2016.webp",
+      "sha256": "2fbef471cf6e5e19ae008c4aeafb0e27f74337dfc41bee020b6bd12a5483d533",
+      "bytes": 336708,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:chet-faker-gold-2014",
+      "wid": "chet-faker-gold-2014",
+      "title": "Gold — Chet Faker",
+      "file": "film-ai/decks/film-chet-faker-gold-2014.webp",
+      "sha256": "8f7ed324a88a5f2bfd0614f1b2936f9ce4a2a3be4d97fcd249be3d8a2c98e32b",
+      "bytes": 205398,
       "size": [
         1672,
         941
