@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T03:25:23.983680+00:00",
+  "snapshot_time_utc": "2026-11-17T03:49:39.882377+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -5632,6 +5632,90 @@
       "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
     },
     {
+      "id": "film:ashes-of-time-1994",
+      "wid": "ashes-of-time-1994",
+      "title": "东邪西毒",
+      "file": "film-ai/decks/film-ashes-of-time-1994.webp",
+      "sha256": "5edec1cee62970e7f8c907c1995bbd3c96b757a58db74b8465421d8cb2225236",
+      "bytes": 270022,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:assembly-2007",
+      "wid": "assembly-2007",
+      "title": "集结号",
+      "file": "film-ai/decks/film-assembly-2007.webp",
+      "sha256": "e16c496bd12ac8d593b10324165cd6bff2cd2d1d037dfc82ee236bc125fe0f1a",
+      "bytes": 233870,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:astro-boy-1963",
+      "wid": "astro-boy-1963",
+      "title": "铁臂阿童木",
+      "file": "film-ai/decks/film-astro-boy-1963.webp",
+      "sha256": "f0467e474dd8bbf7c1f04d891078384e86d1d75f461bc452ec2d1918de531740",
+      "bytes": 343408,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:asura-the-city-of-madness-2016",
+      "wid": "asura-the-city-of-madness-2016",
+      "title": "阿修罗：正邪顽杀",
+      "file": "film-ai/decks/film-asura-the-city-of-madness-2016.webp",
+      "sha256": "44c34943232c1362d4ebd9f32dbc216e094b76e05900fbe693b099ecc517383a",
+      "bytes": 195928,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:at-the-threshold-of-an-era-1999",
+      "wid": "at-the-threshold-of-an-era-1999",
+      "title": "创世纪",
+      "file": "film-ai/decks/film-at-the-threshold-of-an-era-1999.webp",
+      "sha256": "c1a97ae7786d9f19cb1f6e1fb99a95121ffab46b4d318f82436e05a4506009d9",
+      "bytes": 298156,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:atanarjuat-the-fast-runner-2001",
+      "wid": "atanarjuat-the-fast-runner-2001",
+      "title": "冰原快跑者",
+      "file": "film-ai/decks/film-atanarjuat-the-fast-runner-2001.webp",
+      "sha256": "edcf4468d377e43e84f56258d15def58be38c3bcf1ec8bd3d25fd2fc2110af87",
+      "bytes": 210322,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -5918,6 +6002,118 @@
       "file": "film-ai/decks/film-batman-returns-1992.webp",
       "sha256": "d7fbe21aeb86ee78146318c31ffa4af90e2a14b95cdd841f514582ba11536327",
       "bytes": 380656,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:atsuhime-2008",
+      "wid": "atsuhime-2008",
+      "title": "笃姬",
+      "file": "film-ai/decks/film-atsuhime-2008.webp",
+      "sha256": "464f978196dc47a7af80e947dfad30a275c9563cf10d06b25fe3c8cbb84815fc",
+      "bytes": 288474,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:awaiting-kirin-2020",
+      "wid": "awaiting-kirin-2020",
+      "title": "麒麟来了",
+      "file": "film-ai/decks/film-awaiting-kirin-2020.webp",
+      "sha256": "beaab1be712e0d621ae654c8e40601ec3bc9ea8098fcfa0302c1b79a686a7b73",
+      "bytes": 490372,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:batman-the-animated-series-1992",
+      "wid": "batman-the-animated-series-1992",
+      "title": "蝙蝠侠：动画版",
+      "file": "film-ai/decks/film-batman-the-animated-series-1992.webp",
+      "sha256": "a1274e7e6e1c4fae6e29941a80967adf7612a54e00a1f9b452e4bf0cb47eaeb2",
+      "bytes": 178422,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:beautiful-life-2000",
+      "wid": "beautiful-life-2000",
+      "title": "美丽人生",
+      "file": "film-ai/decks/film-beautiful-life-2000.webp",
+      "sha256": "7eaa90cc4f0c6cffbc4076500f304e990d1c502a00b306b9bbb626a080b641c4",
+      "bytes": 260730,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:black-mirror-2011",
+      "wid": "black-mirror-2011",
+      "title": "黑镜",
+      "file": "film-ai/decks/film-black-mirror-2011.webp",
+      "sha256": "d2ec8db1db0fa0671a5329e92f64c4dfb8b003e3033cd59044e3e20f44b95acf",
+      "bytes": 186138,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:bob-le-flambeur-1956",
+      "wid": "bob-le-flambeur-1956",
+      "title": "赌徒鲍伯",
+      "file": "film-ai/decks/film-bob-le-flambeur-1956.webp",
+      "sha256": "9d7964510460f78fbfb6c51bf54311ceb0c48e5ae7761d4317a415b06404d439",
+      "bytes": 160748,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:body-and-soul-1947",
+      "wid": "body-and-soul-1947",
+      "title": "灵与肉",
+      "file": "film-ai/decks/film-body-and-soul-1947.webp",
+      "sha256": "4162b80751179692c77695b01a517c0c5ee4d84bce42f9610ead5fe0453fac10",
+      "bytes": 223788,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:bodyguard-2018",
+      "wid": "bodyguard-2018",
+      "title": "贴身保镖",
+      "file": "film-ai/decks/film-bodyguard-2018.webp",
+      "sha256": "fa6940500793e05ce19f2361b2b9373f616ec1567fd386528bc7f56fde2654ba",
+      "bytes": 198384,
       "size": [
         1672,
         941
