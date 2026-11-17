@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T19:45:21.184327+00:00",
+  "snapshot_time_utc": "2026-11-17T20:12:58.870377+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -11252,6 +11252,174 @@
       "file": "film-ai/decks/film-derry-girls-2018.webp",
       "sha256": "c7725d076c73b0851e152e894c882b993c712637dd11fc7b8c855b04067830d4",
       "bytes": 523928,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dersu-uzala-1975",
+      "wid": "dersu-uzala-1975",
+      "title": "Dersu Uzala",
+      "file": "film-ai/decks/film-dersu-uzala-1975.webp",
+      "sha256": "b9ee1a4908b1d13e73f4628e4d8ee5e008921227559bbb4ed376e0dd9180ae55",
+      "bytes": 416866,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:descendants-of-the-sun-2016",
+      "wid": "descendants-of-the-sun-2016",
+      "title": "太阳的后裔",
+      "file": "film-ai/decks/film-descendants-of-the-sun-2016.webp",
+      "sha256": "bf1ddff9ba1d34ad28d2384cdcbb7f824514d08a772d8c9c62d9cce58b75759f",
+      "bytes": 246198,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:desperate-housewives-2004",
+      "wid": "desperate-housewives-2004",
+      "title": "绝望主妇",
+      "file": "film-ai/decks/film-desperate-housewives-2004.webp",
+      "sha256": "33df580e0e67a84c4699b514ebdf7af9963d615fb09194fee08059dc199f0ce5",
+      "bytes": 500032,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:detective-dee-and-the-mystery-of-the-phantom-flame-2010",
+      "wid": "detective-dee-and-the-mystery-of-the-phantom-flame-2010",
+      "title": "狄仁杰之通天帝国",
+      "file": "film-ai/decks/film-detective-dee-and-the-mystery-of-the-phantom-flame-2010.webp",
+      "sha256": "c93c210f056cc4501207e6b1b3e0ab91c94abee00a0feb4a42347f72b5cfa79e",
+      "bytes": 509014,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:detention-2019",
+      "wid": "detention-2019",
+      "title": "返校",
+      "file": "film-ai/decks/film-detention-2019.webp",
+      "sha256": "f4a15ec300afea1728a7290b0783a22befcbcd80320d4607cbc34e463a6d4628",
+      "bytes": 252378,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:deutschland-83-2015",
+      "wid": "deutschland-83-2015",
+      "title": "德国83",
+      "file": "film-ai/decks/film-deutschland-83-2015.webp",
+      "sha256": "87eab5246a91399910531acf048093caa203b1c80f3f715d739d53e69df7c94d",
+      "bytes": 312522,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:devdas-2002",
+      "wid": "devdas-2002",
+      "title": "宝莱坞生死恋",
+      "file": "film-ai/decks/film-devdas-2002.webp",
+      "sha256": "b845893d7ee93a4b9709a134e96548f5284f29b1969364bee827931ca144bd6e",
+      "bytes": 429312,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:devils-on-the-doorstep-2000",
+      "wid": "devils-on-the-doorstep-2000",
+      "title": "鬼子来了",
+      "file": "film-ai/decks/film-devils-on-the-doorstep-2000.webp",
+      "sha256": "73f5560540a75eb62b32df601213f436e2a81ae6b41225697368c989102d5aa7",
+      "bytes": 391152,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dior-lady-blue-shanghai-2010",
+      "wid": "dior-lady-blue-shanghai-2010",
+      "title": "迪奥·蓝色上海",
+      "file": "film-ai/decks/film-dior-lady-blue-shanghai-2010.webp",
+      "sha256": "d120e6b6a085bbc697ebfd4af39ef53a6e3c40bb4cffc8d62f0be2b793548bb1",
+      "bytes": 405538,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dior-midnight-poison-2007",
+      "wid": "dior-midnight-poison-2007",
+      "title": "迪奥·午夜奇葩",
+      "file": "film-ai/decks/film-dior-midnight-poison-2007.webp",
+      "sha256": "70aee6413e1601718d4483d7ffb7fedfc0f28cbbd565643a955a5f44fba94e4e",
+      "bytes": 336444,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:disclaimer-2024",
+      "wid": "disclaimer-2024",
+      "title": "免责声明",
+      "file": "film-ai/decks/film-disclaimer-2024.webp",
+      "sha256": "de827889d4ac4452b8fb7fca0f2c82e3457fe15bd02f18312edadc28f49c78fd",
+      "bytes": 243032,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:distant-2002",
+      "wid": "distant-2002",
+      "title": "Uzak",
+      "file": "film-ai/decks/film-distant-2002.webp",
+      "sha256": "e34d3f41ab207103dbf80ffaa3e8e61f486fbef0db82a58500e20af1d553ef8d",
+      "bytes": 179494,
       "size": [
         1672,
         941
