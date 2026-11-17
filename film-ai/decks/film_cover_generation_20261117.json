@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T16:54:24.923291+00:00",
+  "snapshot_time_utc": "2026-11-17T17:23:42.490056+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -8236,6 +8236,90 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
+      "id": "film:carol-2015",
+      "wid": "carol-2015",
+      "title": "Carol",
+      "file": "film-ai/decks/film-carol-2015.webp",
+      "sha256": "f5f84ca40250bdfeb2873f96642d702019d45262d564169afff2582963964a6f",
+      "bytes": 188560,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:casablanca-1942",
+      "wid": "casablanca-1942",
+      "title": "Casablanca",
+      "file": "film-ai/decks/film-casablanca-1942.webp",
+      "sha256": "ac8d89e8e3fa0e8e0f194ae4f82115d962aa6f51c78ffa98e522f2094e939a43",
+      "bytes": 204560,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:casino-1995",
+      "wid": "casino-1995",
+      "title": "Casino",
+      "file": "film-ai/decks/film-casino-1995.webp",
+      "sha256": "9e0b347843ee5f8ecfd6102e93c4541a3fd2b0f29a8ba7895f482c71846fe86f",
+      "bytes": 376562,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:castaway-on-the-moon-2009",
+      "wid": "castaway-on-the-moon-2009",
+      "title": "金氏漂流记",
+      "file": "film-ai/decks/film-castaway-on-the-moon-2009.webp",
+      "sha256": "aa1b92685e1e0d5c3eacd1ad49a31b116de5fe346691dde6b2e1d9b88c52c447",
+      "bytes": 606858,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:castle-in-the-sky-1986",
+      "wid": "castle-in-the-sky-1986",
+      "title": "Castle in the Sky",
+      "file": "film-ai/decks/film-castle-in-the-sky-1986.webp",
+      "sha256": "f5b4ce925e64fd209ea16fdca99f15beebea3e77cb3319f0c5cee286b69d6806",
+      "bytes": 471866,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cat-people-1942",
+      "wid": "cat-people-1942",
+      "title": "Cat People",
+      "file": "film-ai/decks/film-cat-people-1942.webp",
+      "sha256": "b6567616d8e6b92fcfddb5b968d25505c282377cceaef1b3a044e9f4acb8e9e1",
+      "bytes": 222492,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -9510,90 +9594,6 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:carol-2015",
-      "wid": "carol-2015",
-      "title": "Carol",
-      "file": "film-ai/decks/film-carol-2015.webp",
-      "sha256": "f5f84ca40250bdfeb2873f96642d702019d45262d564169afff2582963964a6f",
-      "bytes": 188560,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:casablanca-1942",
-      "wid": "casablanca-1942",
-      "title": "Casablanca",
-      "file": "film-ai/decks/film-casablanca-1942.webp",
-      "sha256": "ac8d89e8e3fa0e8e0f194ae4f82115d962aa6f51c78ffa98e522f2094e939a43",
-      "bytes": 204560,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:casino-1995",
-      "wid": "casino-1995",
-      "title": "Casino",
-      "file": "film-ai/decks/film-casino-1995.webp",
-      "sha256": "9e0b347843ee5f8ecfd6102e93c4541a3fd2b0f29a8ba7895f482c71846fe86f",
-      "bytes": 376562,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:castaway-on-the-moon-2009",
-      "wid": "castaway-on-the-moon-2009",
-      "title": "金氏漂流记",
-      "file": "film-ai/decks/film-castaway-on-the-moon-2009.webp",
-      "sha256": "aa1b92685e1e0d5c3eacd1ad49a31b116de5fe346691dde6b2e1d9b88c52c447",
-      "bytes": 606858,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:castle-in-the-sky-1986",
-      "wid": "castle-in-the-sky-1986",
-      "title": "Castle in the Sky",
-      "file": "film-ai/decks/film-castle-in-the-sky-1986.webp",
-      "sha256": "f5b4ce925e64fd209ea16fdca99f15beebea3e77cb3319f0c5cee286b69d6806",
-      "bytes": 471866,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:cat-people-1942",
-      "wid": "cat-people-1942",
-      "title": "Cat People",
-      "file": "film-ai/decks/film-cat-people-1942.webp",
-      "sha256": "b6567616d8e6b92fcfddb5b968d25505c282377cceaef1b3a044e9f4acb8e9e1",
-      "bytes": 222492,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:catch-me-if-you-can-2002",
       "wid": "catch-me-if-you-can-2002",
       "title": "Catch Me If You Can",
@@ -10412,6 +10412,174 @@
       "file": "film-ai/decks/film-conflagration-1958.webp",
       "sha256": "14bfeaae170c5dea42807ab851c47fa4052e14c1369bb4bd4f6897ab010f89ce",
       "bytes": 223708,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:conquer-2003",
+      "wid": "conquer-2003",
+      "title": "征服",
+      "file": "film-ai/decks/film-conquer-2003.webp",
+      "sha256": "db1aa85cdfff9fd0de55649ed462f1014ea2af31a3918aca652e183bf805e0a2",
+      "bytes": 192538,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:contempt-1963",
+      "wid": "contempt-1963",
+      "title": "蔑视",
+      "file": "film-ai/decks/film-contempt-1963.webp",
+      "sha256": "e31eaa94d552eece7fa8d56fc254558d8207633a8dfeaa8e4bf218be695da679",
+      "bytes": 307672,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:coraline-2009",
+      "wid": "coraline-2009",
+      "title": "Coraline",
+      "file": "film-ai/decks/film-coraline-2009.webp",
+      "sha256": "e69b556f858a5ff5e8f323c7e9dd5fc099c001fd4bcc68f461ea30924f591bae",
+      "bytes": 304678,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cow-2009",
+      "wid": "cow-2009",
+      "title": "斗牛",
+      "file": "film-ai/decks/film-cow-2009.webp",
+      "sha256": "86a9b81ca9d7a9bffac5039fe98682c7c7605f71d73eee3b4f7fe406a0d12447",
+      "bytes": 387196,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cowboy-bebop-s1-1998",
+      "wid": "cowboy-bebop-s1-1998",
+      "title": "星际牛仔",
+      "file": "film-ai/decks/film-cowboy-bebop-s1-1998.webp",
+      "sha256": "8613ff228ea27986319a2a19e86120d45a101d56a4972fcc26afa8fbbe8bf3bd",
+      "bytes": 422278,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:crash-1996",
+      "wid": "crash-1996",
+      "title": "Crash",
+      "file": "film-ai/decks/film-crash-1996.webp",
+      "sha256": "c3d95ba2a99881a0bd3643ca89c425d68c22a6a6e4200e7be88d6f91c97fd9c1",
+      "bytes": 230432,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:crash-landing-on-you-2019",
+      "wid": "crash-landing-on-you-2019",
+      "title": "爱的迫降",
+      "file": "film-ai/decks/film-crash-landing-on-you-2019.webp",
+      "sha256": "c23adffca8f993f8b7d872d81deb9dfb9220b990dc79b177ae385e991e22c507",
+      "bytes": 338236,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:crazed-fruit-1956",
+      "wid": "crazed-fruit-1956",
+      "title": "疯狂的果实",
+      "file": "film-ai/decks/film-crazed-fruit-1956.webp",
+      "sha256": "b4a4bf3c5cd1e7a54dfab1a021a212bc6f3c76177109b29f504b762d98324b23",
+      "bytes": 188288,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:crazy-racer-2009",
+      "wid": "crazy-racer-2009",
+      "title": "疯狂的赛车",
+      "file": "film-ai/decks/film-crazy-racer-2009.webp",
+      "sha256": "0c094d656d83c269e8baa570e0d11ca5de1cff712b345e5ab45255a8c167d697",
+      "bytes": 538204,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:crazy-stone-2006",
+      "wid": "crazy-stone-2006",
+      "title": "疯狂的石头",
+      "file": "film-ai/decks/film-crazy-stone-2006.webp",
+      "sha256": "bb7a703dd9e4ac0e8bfa10434d5b2520b29e77b17c46d1ea1b6640b54a9facca",
+      "bytes": 422714,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:creation-of-the-gods-i-kingdom-of-storms-2023",
+      "wid": "creation-of-the-gods-i-kingdom-of-storms-2023",
+      "title": "封神第一部：朝歌风云",
+      "file": "film-ai/decks/film-creation-of-the-gods-i-kingdom-of-storms-2023.webp",
+      "sha256": "f5b3a5a9c2030b121db8020ba795b6e6128bf36c6cdff384024f0a1835052f93",
+      "bytes": 412430,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:creation-of-the-gods-ii-demon-force-2025",
+      "wid": "creation-of-the-gods-ii-demon-force-2025",
+      "title": "封神第二部：战火西岐",
+      "file": "film-ai/decks/film-creation-of-the-gods-ii-demon-force-2025.webp",
+      "sha256": "317feb3a53f8207cdcb31b348f7a0f4f1d5ef8d354f60db329bafb5f088103ef",
+      "bytes": 406556,
       "size": [
         1672,
         941
