@@ -700,7 +700,20 @@ function schem(r,W0){
  if(C.has('引导线')){const hy=Math.max(H*.1,Math.min(H*.55,topY+fh*.1));s+=`<path d="M0 ${H}L${cx} ${hy}M${W} ${H}L${cx} ${hy}M0 ${H*.1}L${cx} ${hy}M${W} ${H*.1}L${cx} ${hy}" stroke="${light}" stroke-opacity=".25" stroke-width="2" fill="none"/>`;}
  s+=`<text x="${W-10}" y="${H-10}" text-anchor="end" font-size="${Math.max(13,W/34)}" fill="#fff" fill-opacity=".45" font-family="Arial">${esc(r.W.ar||'1.85:1')}</text></svg>`;
  return s;}
-function shotImageSrc(id){const rel=(window.FILM_SHOT_IMAGES||{})[id];if(!rel)return'';const rev=window.FILM_SHOT_ASSET_REV||'main';return /github\.io$/i.test(location.hostname||'')?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/${rev}/${rel}`:rel;}
+function shotImageSrc(id){
+ let rel=(window.FILM_SHOT_IMAGES||{})[id];
+ if(!rel){
+  const r=BYID.get(id);
+  if(r&&r.origin!=='visual'&&!r.frame_id&&!frOf(r)){
+   const w=r.W||WORKS[r.w];
+   rel=w&&(window.FILM_SHOT_WORK_IMAGES||{})[w.wid];
+  }
+ }
+ if(!rel)return'';
+ const rev=window.FILM_SHOT_ASSET_REV||'main';
+ return /github\.io$/i.test(location.hostname||'')?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/${rev}/${rel}`:rel;
+}
+function isWorkRepresentativeShot(id){return !(window.FILM_SHOT_IMAGES||{})[id]&&!!shotImageSrc(id);}
 window.addEventListener('error',ev=>{const el=ev?.target;if(!el||el.tagName!=='IMG'||!el.src)return;const s=el.src,st=el.dataset.fbStep||'';if(st==='done')return;const mJs=s.match(/^https:\/\/(?:gcore|fastly|cdn)\.jsdelivr\.net\/gh\/([^@]+)@([^/]+)\/(.+)$/),mRaw=s.match(/^https:\/\/raw\.githubusercontent\.com\/([^/]+)\/([^/]+)\/([^/]+)\/(.+)$/);if(mJs&&st!=='raw'){el.dataset.fbStep='raw';el.src=`https://raw.githubusercontent.com/${mJs[1]}/${mJs[2]}/${mJs[3]}`;}else if(mRaw){el.dataset.fbStep='done';el.src=`https://testingcf.jsdelivr.net/gh/${mRaw[1]}/${mRaw[2]}@${mRaw[3]}/${mRaw[4]}`;}},true);
 async function updateLiveFilmAiManifest(){
  if(!IS_GH_FILM)return;
@@ -725,7 +738,7 @@ async function updateLiveShotManifest(){
   if(Object.keys(remote).length>=Object.keys(current).length){window.FILM_SHOT_IMAGES=remote;if(workMatch)window.FILM_SHOT_WORK_IMAGES=JSON.parse(workMatch[1]);window.FILM_SHOT_ASSET_REV='main';}
  }catch(e){console.warn('在线镜头画面清单暂不可用，使用站点内置版本',e);}finally{clearTimeout(timer);}
 }
-function visual(r,W,big){const f=frOf(r);if(f)return`<img loading="lazy" src="${FRAME_DIR}/${esc(big?f.f:f.t)}" alt="${esc(r.W.t)} 截帧">`;const ai=shotImageSrc(r.id);if(ai)return`<img loading="lazy" src="${esc(ai)}" alt="${esc(r.W.t)} · ${esc(r.sc||'')}，AI 原创参考画面">`;return r.origin==='visual'?sourceVisual(r):schem(r,W);}
+function visual(r,W,big){const f=frOf(r);if(f)return`<img loading="lazy" src="${FRAME_DIR}/${esc(big?f.f:f.t)}" alt="${esc(r.W.t)} 截帧">`;const ai=shotImageSrc(r.id);if(ai)return`<img loading="lazy" src="${esc(ai)}" alt="${esc(r.W.t)} · ${isWorkRepresentativeShot(r.id)?'同片代表图，非该镜原帧':esc(r.sc||'')+'，AI 原创参考画面'}">`;return r.origin==='visual'?sourceVisual(r):schem(r,W);}
 function palHTML(r){const p=palOf(r);return p.length?`<div class="pal">${p.map(c=>`<span style="background:${c}"></span>`).join('')}</div>`:'<div class="pal pal-empty" title="色板待测"></div>';}
 /* ---------- 智能搜索 ---------- */
 const TERMS=[],TERM_SET=new Set();(function(){const seen=new Set();const add=(t,tg)=>{const k=t.toLowerCase();TERM_SET.add(k);if(seen.has(k+'>'+tg.join()))return;seen.add(k+'>'+tg.join());TERMS.push([k,tg]);};
@@ -796,7 +809,7 @@ function renderActive(E){let h='';QP.tags.forEach(t=>{const[k,v]=t.split(':');h+
   else if(b.dataset.x==='work')QP.work=null;else if(b.dataset.x==='wid')WID=null;else if(b.dataset.x==='color')COLOR=null;else if(b.dataset.x==='img')IMGPAL=null;apply();});
  const tol=$('tol');if(tol)tol.onchange=()=>{COLOR.tol=+tol.value;apply();};}
 function card(r,opts={}){const w=r.W,f=frOf(r),ai=shotImageSrc(r.id),inD=DECKS.cur&&deckHas(r.id),inC=CMP.includes(r.id);
- return`<div class="card" data-id="${r.id}"><div class="thumb${r.origin==='visual'&&!f&&!ai?' source':''}" data-open="${r.id}" title="${ai?'点击放大并打开原图':'点击查看镜头详情'}">${visual(r,560)}<span class="badge${f?' fr':''}">${f?'截帧 · 实测色':ai?'AI 原创参考画面':r.origin==='visual'?'来源静帧 · 标签待标注':'示意图 · 估色'}</span></div>${palHTML(r)}
+ return`<div class="card" data-id="${r.id}"><div class="thumb${r.origin==='visual'&&!f&&!ai?' source':''}" data-open="${r.id}" title="${ai?'点击放大并打开原图':'点击查看镜头详情'}">${visual(r,560)}<span class="badge${f?' fr':''}">${f?'截帧 · 实测色':ai?(isWorkRepresentativeShot(r.id)?'同片代表图 · 非该镜原帧':'AI 原创参考画面'):r.origin==='visual'?'来源静帧 · 标签待标注':'示意图 · 估色'}</span></div>${palHTML(r)}
  <div class="cap" data-open="${r.id}"><b>${esc(w.t)}</b> <span class="y">${esc(w.y||'年份待核')}${r.ep?' · '+esc(r.ep):''}</span><p>${esc(r.sc)}</p></div>
  <div class="tg">${[r.size,r.time,r.ie,(r.light||[]).slice(0,2).join('·'),(r.color||[]).slice(0,2).join('·'),(r.emo||[])[0]].filter(Boolean).map(esc).join(' · ')||'摄影标签待标注'}</div>
  <div class="acts"><button data-add="${r.id}" class="${inD?'in':''}">${inD?'✓ 已在图集':'＋图集'}</button><button data-cmp="${r.id}" class="${inC?'in':''}">${inC?'✓ 对照中':'对照'}</button></div></div>`;}
@@ -836,7 +849,7 @@ async function openDetail(id){let r=BYID.get(id);if(!r){const rw=resolveWorkFrom
  $('dBody').innerHTML=`<div class="dbody"><div><div class="vis" id="dVisZoom" title="点击全屏放大检视">${visual(r,1100,true)}</div>
  <div class="palbig">${P.map(c=>`<div style="background:${c}" data-hex="${c}" title="点击复制色值"><span>${c}</span></div>`).join('')}</div>
  ${workAiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" title="点击全屏放大查看《${esc(w.t)}》AI 代表图" style="margin:10px 0"><img src="${esc(workAiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图 · ${esc(w.t)}</span><span class="film-ai-zoom-hint">🔍 点击放大高清原图</span></div>`:''}
- <p class="muted small">${f?'真实截帧 · 色板为实测（本机内部版）':shotImageSrc(r.id)?'AI 原创参考画面，依据本镜描述生成；不是影片原帧。色板仍为估色，镜头标签仍待对照原片核验。点击画面可放大或在新窗口打开原图。':pending?'依据对应来源静帧撰写画面分析，无本机截帧。摄影标签待标注，色板待测；不能据此确认运镜、器材或精确参数。经典代表性仍待逐片精选。':'示意图：按标签自动绘制（画幅、主光方向、剪影大小与位置、构图线、天气），色板为估色，不是影片原帧。看原片画面用下面的外链。'}</p>
+ <p class="muted small">${f?'真实截帧 · 色板为实测（本机内部版）':shotImageSrc(r.id)?(isWorkRepresentativeShot(r.id)?'同片高清代表图，用于替换该处 SVG 示意图；不是该镜原帧。镜头标签与色板仍待原片核验。点击画面可放大或在新窗口打开原图。':'AI 原创参考画面，依据本镜描述生成；不是影片原帧。色板仍为估色，镜头标签仍待对照原片核验。点击画面可放大或在新窗口打开原图。'):pending?'依据对应来源静帧撰写画面分析，无本机截帧。摄影标签待标注，色板待测；不能据此确认运镜、器材或精确参数。经典代表性仍待逐片精选。':'示意图：按标签自动绘制（画幅、主光方向、剪影大小与位置、构图线、天气），色板为估色，不是影片原帧。看原片画面用下面的外链。'}</p>
  ${pending?`<p class="muted small">核验状态：${esc(r.verification||'观图待人工核')}</p>`:''}${limits?`<p class="muted small">画面限制：${esc(limits)}</p>`:''}${r.review?`<p class="muted small">复核记录：${esc(r.review)}</p>`:''}
  <h3>这一镜</h3><p class="note">${esc(r.sc)}${r.wh?`<br><span class="muted small">位置：${esc(r.wh)}${r.pl?' · '+esc(r.pl):''}</span>`:r.pl?`<br><span class="muted small">${esc(r.pl)}</span>`:''}</p>
  <h3>研究笔记：光、色、构图如何表达情绪</h3><p class="note">${noteFailed?`正文未成功载入。<button type="button" id="dRetryOne" style="margin-left:10px;padding:3px 10px;font-size:16px">点击立即重新载入</button>`:esc(r.note)}</p>
@@ -1678,7 +1691,7 @@ function openShotVisualLightbox(r){
  LB_STATE.items=pool.map(x=>{
   const xw=x.W||WORKS[x.w]||w,xf=frOf(x);
   const src=xf?`${FRAME_DIR}/${xf.f}`:shotImageSrc(x.id);
-  return{shotId:x.id,src,svgHtml:src?'':visual(x,1600,true),title:`《${xw.t||''}》${xw.y?'（'+xw.y+'）':''} · ${x.id}`,sub:[x.size,x.angle,x.time,x.ie,...(x.light||[]).slice(0,2)].filter(Boolean).join(' · '),desc:x.sc||''};
+  return{shotId:x.id,src,svgHtml:src?'':visual(x,1600,true),title:`《${xw.t||''}》${xw.y?'（'+xw.y+'）':''} · ${x.id}`,sub:[x.size,x.angle,x.time,x.ie,...(x.light||[]).slice(0,2)].filter(Boolean).join(' · '),desc:isWorkRepresentativeShot(x.id)?'同片高清代表图，不是该镜原帧。'+(x.sc||''):(x.sc||'')};
  });
  LB_STATE.idx=Math.max(0,pool.findIndex(x=>x.id===r.id));
  renderLightboxItem();
