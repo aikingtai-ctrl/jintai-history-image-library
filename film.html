@@ -453,7 +453,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
  </div>
 </dialog>
 <div id="toast"></div><div id="printArea"></div>
-<script src="film-ai/manifest.js?v=add8000-6516-20261116"></script>
+<script src="film-ai/manifest.js?v=933b7e4cdfc7a8cc"></script>
 <script src="film-ai/decks/manifest.js?v=20261117-gpt-image-film-554"></script>
 <script src="film-ai/shots-manifest.js?v=1ff92948a9502634"></script>
 <script>
@@ -1567,7 +1567,7 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
   const aiHires=!!(window.FILM_SHOT_WORK_IMAGES||{})[w.wid]||/\/film-ai\/shots\/[^?#]+\.webp/i.test(aiSrc||'');
   const aiDeckCover=/\/film-ai\/decks\/film-[^?#]+\.webp/i.test(aiSrc||'');
   const aiWorkConcept=/\/film-ai\/shots\/WORKCONCEPT-20261117-[^?#]+\.webp/i.test(aiSrc||'');
-  const aiBadge=aiWorkConcept?'原创概念图·高清':aiHires?'高清 AI 参考图':aiDeckCover?'原创概念图·高清':'AI 代表图';
+  const aiBadge=aiWorkConcept?'原创概念图·高清':aiHires?'高清 AI 参考图':aiDeckCover?'原创概念图·高清':'旧版小图·待替换';
   const aiPreview=aiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" role="button" tabindex="0" title="点击查看《${esc(w.t)}》图片原文件" aria-label="点击查看 ${esc(w.t)} 图片原文件"><img src="${esc(aiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">${aiBadge}</span><span class="film-ai-zoom-hint">🔍 点击放大</span></div>`:'<div class="film-ai-preview empty">等待 AI 代表图</div>';
   return`<div class="wc"><h4>${esc(w.t)} <span class="muted" style="font-size:18px">${enShow?esc(enShow)+' · ':''}${esc(w.y||'')}</span></h4>
  <div class="m">${esc(metaParts)}</div>
