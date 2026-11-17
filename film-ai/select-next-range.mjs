@@ -9,7 +9,9 @@ if (!process.env.OPENAI_API_KEY) {
 
 const targets = fs.readFileSync('film-ai/target-current.txt', 'utf8').trim().split(/\r?\n/);
 const source = fs.readFileSync('film-ai/manifest.js', 'utf8');
-const manifest = JSON.parse(source.match(/window\.FILM_AI_IMAGES\s*=\s*(\{[\s\S]*\})\s*;?\s*$/)[1]);
+const imageMatch = source.match(/window\.FILM_AI_IMAGES\s*=\s*(\{[\s\S]*?\})\s*;/);
+if (!imageMatch) throw new Error('FILM_AI_IMAGES manifest not found');
+const manifest = JSON.parse(imageMatch[1]);
 
 let retryRange = null;
 for (let start = 1; start <= targets.length; start += 500) {

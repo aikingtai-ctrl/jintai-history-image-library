@@ -56,8 +56,15 @@ function parseWorks() {
 function readManifest() {
   if (!fs.existsSync(MANIFEST_PATH)) return {};
   const text = fs.readFileSync(MANIFEST_PATH, 'utf8');
-  const match = text.match(/window\.FILM_AI_IMAGES\s*=\s*(\{[\s\S]*\})\s*;?\s*$/);
+  const match = text.match(/window\.FILM_AI_IMAGES\s*=\s*(\{[\s\S]*?\})\s*;/);
   return match ? JSON.parse(match[1]) : {};
+}
+
+function readGeneratedWids() {
+  if (!fs.existsSync(MANIFEST_PATH)) return [];
+  const text = fs.readFileSync(MANIFEST_PATH, 'utf8');
+  const match = text.match(/window\.FILM_AI_GENERATED_WIDS\s*=\s*(\[[\s\S]*?\])\s*;/);
+  return match ? JSON.parse(match[1]) : [];
 }
 
 function readFirstRecord(wid) {
@@ -133,11 +140,19 @@ const slice = targetIds
   ? targetIds.slice(startIndex - 1, endIndex).map(wid => { const work = byWid.get(wid); if (!work) throw new Error(`Missing target work: ${wid}`); return work; })
   : startIndex ? works.slice(startIndex - 1, endIndex) : works.slice((page - 1) * 100, (page - 1) * 100 + count);
 const manifest = readManifest();
+const generatedWids = readGeneratedWids();
+const generatedWidsSet = new Set(generatedWids);
 fs.mkdirSync(IMAGE_DIR, { recursive: true });
 if (!slice.length) throw new Error('No works found for the selected range.');
 const newline = fs.existsSync(MANIFEST_PATH) && fs.readFileSync(MANIFEST_PATH, 'utf8').includes('\r\n') ? '\r\n' : '\n';
 function saveManifest() {
-  fs.writeFileSync(MANIFEST_PATH, `window.FILM_AI_IMAGES=${JSON.stringify(manifest, null, 2).replace(/\n/g, newline)};${newline}`, 'utf8');
+  fs.writeFileSync(MANIFEST_PATH, `window.FILM_AI_IMAGES=${JSON.stringify(manifest, null, 2).replace(/\n/g, newline)};${newline}window.FILM_AI_GENERATED_WIDS=${JSON.stringify(generatedWids)};${newline}`, 'utf8');
+}
+function markGenerated(wid) {
+  if (!generatedWidsSet.has(wid)) {
+    generatedWidsSet.add(wid);
+    generatedWids.push(wid);
+  }
 }
 
 console.log(`Selected ${slice.length} works for ${startIndex ? `positions ${startIndex}-${endIndex}` : `page ${page}`}; concurrency=${concurrency}; force=${force}; dryRun=${dryRun}`);
@@ -157,6 +172,7 @@ const worker = async () => {
     if (!force && existing && fs.existsSync(existing)) { completed++; continue; }
     if (!force && fs.existsSync(target)) {
       manifest[work.wid] = `film-ai/${work.wid}.webp`;
+      markGenerated(work.wid);
       saveManifest();
       completed++;
       continue;
@@ -171,6 +187,7 @@ const worker = async () => {
       }
       fs.writeFileSync(target, bytes);
       manifest[work.wid] = `film-ai/${work.wid}.webp`;
+      markGenerated(work.wid);
       saveManifest();
       completed++;
       console.log(`[${completed}/${slice.length}] ${work.t} -> ${path.basename(target)}`);
