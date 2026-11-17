@@ -168683,8 +168683,8 @@
     "id": "YS-20261028-C15-src-oscar-cine-ff34996fee263e05-06",
     "wid": "src-oscar-cine-ff34996fee263e05",
     "title": "Maria",
-    "prompt": "ARRI Alexa Mini LF / Kodak Vision3 35mm质感，2.39:1画幅。2025年欧美电影《Maria》（Maria，导演：导演，摄影指导：Ed Lachman）。实景光源夜戏·钨丝台灯与烛火暗部宽容度：中景平视，标准镜头浅景深，缓慢推镜运镜，实景光源/火光/低调照明，对称/分割画面构图，展现出2025年奥斯卡最佳摄影正式提名（Cinematography）水准的殿堂级摄影美学。\nEnglish Prompt: Cinematic still from Maria (2025), directed by 导演, cinematography by Ed Lachman (2025年奥斯卡最佳摄影正式提名（Cinematography）), intimate nocturnal interior lit solely by warm practical lamps and flickering candlelight, shot on ARRI Alexa Mini LF / Kodak Vision3 35mm with ARRI Alexa 65 / Alexa Mini LF and Cooke S4/i & ARRI Master Anamorphic (35mm Practical Source Low-Key), 2.39:1 aspect ratio, masterful color grading and atmospheric lighting --ar 21:9",
-    "aspect_ratio": "2.39:1",
+    "prompt": "One original photorealistic high-resolution 16:9 cinematic image inspired by Pablo Larraín's 2024 film Maria. In a warm late-1970s Paris apartment, a fictional middle-aged opera singer with a face unlike any real star stands thoughtfully beside a piano and a window overlooking the city. Elegant period dress, sheet music without readable notes, amber interior light against cool blue-grey evening outside, reflective solitude, crisp face and textures. Newly imagined representative scene, not a movie frame, portrait of Maria Callas, actor likeness or poster. No readable text, logos, watermark, border or collage.",
+    "aspect_ratio": "16:9",
     "source_file": "d4/p_src-oscar-cine-ff34996fee263e05.js"
   },
   {
@@ -168698,9 +168698,9 @@
   {
     "id": "YS-20261028-C15-src-wd-q126086662-06",
     "wid": "src-wd-q126086662",
-    "title": "鐵路夢影",
-    "prompt": "ARRI Alexa Mini LF / Kodak Vision3 35mm质感，2.39:1画幅。2025年美国电影《鐵路夢影》（Train Dreams，导演：导演，摄影指导：Adolpho Veloso）。实景光源夜戏·钨丝台灯与烛火暗部宽容度：中景平视，标准镜头浅景深，缓慢推镜运镜，实景光源/火光/低调照明，对称/分割画面构图，展现出2026年奥斯卡最佳摄影正式提名（Cinematography）、2026年美国独立精神奖獨立精神獎最佳影片獎水准的殿堂级摄影美学。\nEnglish Prompt: Cinematic still from Train Dreams (2025), directed by 导演, cinematography by Adolpho Veloso (2026年奥斯卡最佳摄影正式提名（Cinematography）、2026年美国独立精神奖獨立精神獎最佳影片獎), intimate nocturnal interior lit solely by warm practical lamps and flickering candlelight, shot on ARRI Alexa Mini LF / Kodak Vision3 35mm with ARRI Alexa 65 / Alexa Mini LF and Cooke S4/i & ARRI Master Anamorphic (35mm Practical Source Low-Key), 2.39:1 aspect ratio, masterful color grading and atmospheric lighting --ar 21:9",
-    "aspect_ratio": "2.39:1",
+    "title": "火車大夢",
+    "prompt": "One original photorealistic high-resolution 16:9 cinematic image inspired by Clint Bentley's 2025 film Train Dreams. In the early-20th-century Pacific Northwest, a fictional railroad day laborer in worn period work clothes stands beside an unfinished rail line at the edge of a towering wet pine forest, looking toward the distant mountains at dusk. Tools and timber are nearby, mist hangs between trees, quiet resilience and solitude, crisp face and environmental detail. Newly imagined representative scene, not a real movie frame or actor likeness. No text, logo, watermark, border or collage.",
+    "aspect_ratio": "16:9",
     "source_file": "d4/p_src-wd-q126086662.js"
   },
   {
