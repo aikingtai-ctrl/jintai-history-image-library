@@ -162667,8 +162667,8 @@
     "id": "YS-20261028-AWF-src-4918ce92a5a4b8f9-011",
     "wid": "src-4918ce92a5a4b8f9",
     "title": "The Ugly Stepsister",
-    "prompt": "ARRI Alexa Mini LF / Kodak Vision3 35mm质感，2.39:1画幅。2025年丹麦、挪威、波兰、瑞典电影《The Ugly Stepsister》（The Ugly Stepsister，导演：Emilie Blichfeldt，摄影指导：Marcel Zyskind，源帧：FG-24f05f979901762b）。镜像与玻璃叠印·双重空间心理外化：近景平视，标准镜头浅景深，固定运镜，窗光/混合光/柔光照明，倒影镜像/框中框构图。\nEnglish Prompt: Film still (FG-24f05f979901762b) from The Ugly Stepsister (2025), directed by Emilie Blichfeldt, cinematography by Marcel Zyskind (2025年西班牙锡切斯电影节Sitges Film Festival Best Feature-Length Film award), psychological mirror and window glass reflection superimposing exterior world over the character's face, shot on ARRI Alexa Mini LF / Kodak Vision3 35mm with ARRI Alexa 65 / Alexa Mini LF and Cooke S4/i & ARRI Master Anamorphic (50mm Double Reflection & Glass Overlay), 2.39:1 aspect ratio --ar 21:9",
-    "aspect_ratio": "",
+    "prompt": "Use case: cinematic film reference. Create exactly one entirely original photorealistic 16:9 high-resolution representative still for Emilie Blichfeldt's 2025 dark fairy-tale film THE UGLY STEPSISTER, to replace a small website card and open as a full-size image. Inspired by the verified story of Elvira and her stepsister Agnes competing under impossible beauty expectations: in an ornate but slightly oppressive royal dressing room, adult Elvira with an entirely fictional face sits at an old vanity before a large mirror, surrounded by makeup brushes, ribbons and unfinished dress fabric; in the background through a doorway, her elegant adult stepsister Agnes, also a fictional face, passes softly out of focus. Elvira's gaze in the mirror reveals longing, envy and self-doubt, without any injury or transformation. Warm candles meet pale cool window light, rich period costume textures, worn wood and gilt detail, dark fairy-tale mood with restrained realism. Wide layered composition, expressive face and accurate hands, crisp 1672x941 detail. New imagined scene, not a film frame, actor likeness, or poster. No gore, surgery, disfigurement, blood, violence, readable text, title, logo, watermark, border, collage or split panels.",
+    "aspect_ratio": "16:9",
     "source_file": "d4/p_src-4918ce92a5a4b8f9.js"
   },
   {
@@ -174307,8 +174307,8 @@
     "id": "YS-20261028-src-36c6a0a42f907c6b-01",
     "wid": "src-36c6a0a42f907c6b",
     "title": "猛虎",
-    "prompt": "ARRI Alexa Mini LF质感，2.39:1画幅。西班牙南部浑浊幽暗的深海油轮船体下方，工业潜水员安东尼奥头盔射出的强光束刺破墨绿色海水，水下电焊迸发出诡异的蓝白色电弧。 中远景仰拍，32mm Anamorphic镜头深焦，固定运镜。摄影指导：Pau Esteve Birba（ARRI Alexa Mini LF + Cooke Anamorphic/i）。\nEnglish Prompt: Industrial commercial diver working beneath the hull of a giant oil tanker in dark murky green seawater, helmet beam and underwater welding arc cutting through the abyss, Pau Esteve Birba San Sebastian Best Cinematography --ar 21:9",
-    "aspect_ratio": "2.39:1",
+    "prompt": "Original cinematic 16:9 photograph for the 2025 film Los Tigres by Alberto Rodríguez. A fictional Spanish brother and sister are working commercial divers on a wet steel barge beside an oil tanker at blue dawn. The sister checks the brother's air hose and diving gear before he descends; both faces are clearly fictional. Sea mist, realistic marine equipment, distant port lights, grounded human tension, crisp high-resolution detail, 1672×941. Imagined scene, not an actual film frame or poster. No actors' likenesses, violence, injury, drugs, readable text, logo, watermark, border or collage.",
+    "aspect_ratio": "16:9",
     "source_file": "d4/p_src-36c6a0a42f907c6b.js"
   },
   {
