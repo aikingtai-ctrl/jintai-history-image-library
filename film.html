@@ -706,7 +706,8 @@ async function updateLiveFilmAiManifest(){
  if(!IS_GH_FILM)return;
  const ctl=new AbortController(),timer=setTimeout(()=>ctl.abort(),8000);
  try{
-  const url=`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/film-ai/manifest.js?v=add8000-7956-20261118'no-store',signal:ctl.signal});if(!response.ok)return;
+  const url=`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/film-ai/manifest.js?v=${Date.now()}`;
+  const response=await fetch(url,{cache:'no-store',signal:ctl.signal});if(!response.ok)return;
   const body=await response.text(),match=/window\.FILM_AI_IMAGES\s*=\s*(\{[\s\S]*\})\s*;?\s*$/.exec(body);if(!match)return;
   const remote=JSON.parse(match[1]),current=window.FILM_AI_IMAGES||{};
   if(Object.keys(remote).length>=Object.keys(current).length)window.FILM_AI_IMAGES=remote;
