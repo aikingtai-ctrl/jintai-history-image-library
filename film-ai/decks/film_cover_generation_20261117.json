@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T22:16:35.681531+00:00",
+  "snapshot_time_utc": "2026-11-17T22:50:00.581939+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -9328,6 +9328,90 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
+      "id": "film:creed-2015",
+      "wid": "creed-2015",
+      "title": "Creed",
+      "file": "film-ai/decks/film-creed-2015.webp",
+      "sha256": "7d27208d60b872e1d0a9c1eda0d96854c11eebe3c115b4b56799c2437f4abe33",
+      "bytes": 347094,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cria-cuervos-1976",
+      "wid": "cria-cuervos-1976",
+      "title": "饲养乌鸦",
+      "file": "film-ai/decks/film-cria-cuervos-1976.webp",
+      "sha256": "e6ad68497ca4278f5bece6eca09a69c0b5ca86cf4f1f234ccdd76b784f938dc7",
+      "bytes": 252468,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cries-and-whispers-1972",
+      "wid": "cries-and-whispers-1972",
+      "title": "呼喊与细语",
+      "file": "film-ai/decks/film-cries-and-whispers-1972.webp",
+      "sha256": "ba0d0737c4fd175880da5fb6126d05b31894394b4819cfd6bd0d5f3f5994c851",
+      "bytes": 190458,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:crime-crackdown-2021",
+      "wid": "crime-crackdown-2021",
+      "title": "扫黑风暴",
+      "file": "film-ai/decks/film-crime-crackdown-2021.webp",
+      "sha256": "f5d3b7e6ed8f0ae01dfddf78380ec92bfb9003a074e878a6be3da307a9c699b8",
+      "bytes": 236046,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cronos-1993",
+      "wid": "cronos-1993",
+      "title": "Cronos",
+      "file": "film-ai/decks/film-cronos-1993.webp",
+      "sha256": "c317a0993b75f8e3b8230fffc1620ee41d04fe408c81aa59145beb969953d224",
+      "bytes": 313148,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:crosscurrent-2016",
+      "wid": "crosscurrent-2016",
+      "title": "长江图",
+      "file": "film-ai/decks/film-crosscurrent-2016.webp",
+      "sha256": "7a1524ef425d485bbbce9f26c1a406ef1dc47b5af7e38f3d66bc6ac1d187144e",
+      "bytes": 276344,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -10594,90 +10678,6 @@
       "file": "film-ai/decks/film-miracle-in-milan-1951.webp",
       "sha256": "15b6449ce1376e68d4e112c1ee4c0b9922896d6914e32cb26f02503fbb57c941",
       "bytes": 355946,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:creed-2015",
-      "wid": "creed-2015",
-      "title": "Creed",
-      "file": "film-ai/decks/film-creed-2015.webp",
-      "sha256": "7d27208d60b872e1d0a9c1eda0d96854c11eebe3c115b4b56799c2437f4abe33",
-      "bytes": 347094,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:cria-cuervos-1976",
-      "wid": "cria-cuervos-1976",
-      "title": "饲养乌鸦",
-      "file": "film-ai/decks/film-cria-cuervos-1976.webp",
-      "sha256": "e6ad68497ca4278f5bece6eca09a69c0b5ca86cf4f1f234ccdd76b784f938dc7",
-      "bytes": 252468,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:cries-and-whispers-1972",
-      "wid": "cries-and-whispers-1972",
-      "title": "呼喊与细语",
-      "file": "film-ai/decks/film-cries-and-whispers-1972.webp",
-      "sha256": "ba0d0737c4fd175880da5fb6126d05b31894394b4819cfd6bd0d5f3f5994c851",
-      "bytes": 190458,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:crime-crackdown-2021",
-      "wid": "crime-crackdown-2021",
-      "title": "扫黑风暴",
-      "file": "film-ai/decks/film-crime-crackdown-2021.webp",
-      "sha256": "f5d3b7e6ed8f0ae01dfddf78380ec92bfb9003a074e878a6be3da307a9c699b8",
-      "bytes": 236046,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:cronos-1993",
-      "wid": "cronos-1993",
-      "title": "Cronos",
-      "file": "film-ai/decks/film-cronos-1993.webp",
-      "sha256": "c317a0993b75f8e3b8230fffc1620ee41d04fe408c81aa59145beb969953d224",
-      "bytes": 313148,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:crosscurrent-2016",
-      "wid": "crosscurrent-2016",
-      "title": "长江图",
-      "file": "film-ai/decks/film-crosscurrent-2016.webp",
-      "sha256": "7a1524ef425d485bbbce9f26c1a406ef1dc47b5af7e38f3d66bc6ac1d187144e",
-      "bytes": 276344,
       "size": [
         1672,
         941
@@ -12092,6 +12092,174 @@
       "file": "film-ai/decks/film-chet-faker-gold-2014.webp",
       "sha256": "8f7ed324a88a5f2bfd0614f1b2936f9ce4a2a3be4d97fcd249be3d8a2c98e32b",
       "bytes": 205398,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:coldplay-yellow-2000",
+      "wid": "coldplay-yellow-2000",
+      "title": "Yellow — Coldplay",
+      "file": "film-ai/decks/film-coldplay-yellow-2000.webp",
+      "sha256": "d5c550f32053edf0c6310395c3a4dadf4df538fc9ee042edafe78a135dc9ae9b",
+      "bytes": 380530,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:confessions-2010",
+      "wid": "confessions-2010",
+      "title": "Confessions",
+      "file": "film-ai/decks/film-confessions-2010.webp",
+      "sha256": "4a6cc538ab3f2bb5e9931f46508bb1e5ed4e9db4e443f0b97d54fc9e3bd3291b",
+      "bytes": 131538,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:control-2007",
+      "wid": "control-2007",
+      "title": "Control",
+      "file": "film-ai/decks/film-control-2007.webp",
+      "sha256": "f552baa836a2867a42ad167e0e6121b4a5ce22634cc1a8638e1a730942c56ad8",
+      "bytes": 216802,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cosmos-1980",
+      "wid": "cosmos-1980",
+      "title": "宇宙",
+      "file": "film-ai/decks/film-cosmos-1980.webp",
+      "sha256": "e692ab95fec98008211660210b0f02743707942ca328cccdcac8485d8af9d067",
+      "bytes": 325882,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cotton-2014",
+      "wid": "cotton-2014",
+      "title": "棉花",
+      "file": "film-ai/decks/film-cotton-2014.webp",
+      "sha256": "cdda178e4b9e666c11a359399213afa6c321fd724e1de75bfaaed868a1855e14",
+      "bytes": 397104,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:county-party-committee-compound-2022",
+      "wid": "county-party-committee-compound-2022",
+      "title": "县委大院",
+      "file": "film-ai/decks/film-county-party-committee-compound-2022.webp",
+      "sha256": "5b9e7903d72a0d54df1c8e77edfada199d3e6d4d7bfc3b616e5bd4362d8bda1f",
+      "bytes": 445498,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:court-2014",
+      "wid": "court-2014",
+      "title": "法庭",
+      "file": "film-ai/decks/film-court-2014.webp",
+      "sha256": "8522ba0e8aadf545147cb3b2a227e30bde87ee72cab43b17e347d5764cda5489",
+      "bytes": 325428,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:csi-crime-scene-investigation-2000",
+      "wid": "csi-crime-scene-investigation-2000",
+      "title": "犯罪现场调查",
+      "file": "film-ai/decks/film-csi-crime-scene-investigation-2000.webp",
+      "sha256": "8bb430d78da94ccc8932f7613f48766c477854d593a523af48a67939c65474e1",
+      "bytes": 164548,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dae-jang-geum-2003",
+      "wid": "dae-jang-geum-2003",
+      "title": "大长今",
+      "file": "film-ai/decks/film-dae-jang-geum-2003.webp",
+      "sha256": "1df8e9cd947b0d3c173888e090dafc95a74792c3b52561a8bc5bd21309a0cf83",
+      "bytes": 354114,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:daft-punk-around-the-world-1997",
+      "wid": "daft-punk-around-the-world-1997",
+      "title": "Around the World — Daft Punk",
+      "file": "film-ai/decks/film-daft-punk-around-the-world-1997.webp",
+      "sha256": "c11b97416453fb761676a3b4f7c91b1ba93381e90a4190b2204cea99f4599824",
+      "bytes": 235288,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:daft-punk-da-funk-1997",
+      "wid": "daft-punk-da-funk-1997",
+      "title": "Da Funk — Daft Punk",
+      "file": "film-ai/decks/film-daft-punk-da-funk-1997.webp",
+      "sha256": "2f0fafd2941cfcf123e556abf10896f1a5fd913545f922324d759d7ae7476224",
+      "bytes": 320324,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:daft-punk-one-more-time-2000",
+      "wid": "daft-punk-one-more-time-2000",
+      "title": "One More Time — Daft Punk",
+      "file": "film-ai/decks/film-daft-punk-one-more-time-2000.webp",
+      "sha256": "85de4ea34fc453ec56cf6cb378d602ca7c5640527548311511d62fbe47def9cb",
+      "bytes": 236650,
       "size": [
         1672,
         941
