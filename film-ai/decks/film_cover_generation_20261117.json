@@ -1,0 +1,5383 @@
+{
+  "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
+  "snapshot_time_utc": "2026-11-17T02:25:02.382412+00:00",
+  "scope": "single-film full-film deck covers",
+  "items": [
+    {
+      "id": "film:a-brighter-summer-day-1991",
+      "wid": "a-brighter-summer-day-1991",
+      "title": "牯岭街少年杀人事件",
+      "file": "film-ai/decks/film-a-brighter-summer-day-1991.webp",
+      "sha256": "6f2001490f2ba87e0b2da606bf62ee17e5ad91edce857c8826bcca1b54ca5043",
+      "bytes": 196252,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_pilot_receipts.json"
+    },
+    {
+      "id": "film:yi-yi-2000",
+      "wid": "yi-yi-2000",
+      "title": "一一",
+      "file": "film-ai/decks/film-yi-yi-2000.webp",
+      "sha256": "ec066c3e2cbc16e09ae6a9cf116ab022ae034dd729e29f34c7110bddcefe4d65",
+      "bytes": 228102,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_pilot_receipts.json"
+    },
+    {
+      "id": "film:mushishi-s1-2005",
+      "wid": "mushishi-s1-2005",
+      "title": "虫师 第一季",
+      "file": "film-ai/decks/film-mushishi-s1-2005.webp",
+      "sha256": "e4ed298219ba7834fd2de0c262a752d074ca4019cd8ce8f5a3df1c22842423b5",
+      "bytes": 416340,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_pilot_receipts.json"
+    },
+    {
+      "id": "film:industry-2020",
+      "wid": "industry-2020",
+      "title": "金融业",
+      "file": "film-ai/decks/film-industry-2020.webp",
+      "sha256": "a84c205c8adbdf1fb2d0be1b7b80b932082c3778c4e124e2298e5ece2c59d158",
+      "bytes": 162992,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kommissar-rex-1994",
+      "wid": "kommissar-rex-1994",
+      "title": "探长雷克斯",
+      "file": "film-ai/decks/film-kommissar-rex-1994.webp",
+      "sha256": "ff914bf1304b6d7b9ea5a5de4ed083c91cf31c86fbf23ffbecd27b105170efeb",
+      "bytes": 517082,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kota-factory-2019",
+      "wid": "kota-factory-2019",
+      "title": "科塔工厂",
+      "file": "film-ai/decks/film-kota-factory-2019.webp",
+      "sha256": "a9f32619f7d5c0ce0955d89576a4f4ee9346deefa153d5befcd54f452734ecfe",
+      "bytes": 319036,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:orange-is-the-new-black-2013",
+      "wid": "orange-is-the-new-black-2013",
+      "title": "女子监狱",
+      "file": "film-ai/decks/film-orange-is-the-new-black-2013.webp",
+      "sha256": "9461ba39bac076fe992d05e47601deb8716cf4408873c5351c9e9f6ce87db9d9",
+      "bytes": 346156,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:picnic-at-hanging-rock-2018",
+      "wid": "picnic-at-hanging-rock-2018",
+      "title": "悬崖下的野餐",
+      "file": "film-ai/decks/film-picnic-at-hanging-rock-2018.webp",
+      "sha256": "cb8364acddc00276643cf67e881349e0aa24c0d02eb53aff55807334c072d9ef",
+      "bytes": 388724,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:in-the-mood-for-love-2000",
+      "wid": "in-the-mood-for-love-2000",
+      "title": "花样年华",
+      "file": "film-ai/decks/film-in-the-mood-for-love-2000.webp",
+      "sha256": "4fbaf414b053ef9580b939c86c97e0c2f3f15cbee69e61c77821a002fd0907f9",
+      "bytes": 203458,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:chungking-express-1994",
+      "wid": "chungking-express-1994",
+      "title": "重庆森林",
+      "file": "film-ai/decks/film-chungking-express-1994.webp",
+      "sha256": "4220e5c6cbad0e63f7b6b7ca7b4855ffab53273ea7e3874e8215289624e26dd5",
+      "bytes": 206120,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:days-of-being-wild-1990",
+      "wid": "days-of-being-wild-1990",
+      "title": "阿飞正传",
+      "file": "film-ai/decks/film-days-of-being-wild-1990.webp",
+      "sha256": "0af6d6a85a99a65d2269287ad0057016dcdbd654f5790dd37a7632b969f0137f",
+      "bytes": 110162,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:happy-together-1997",
+      "wid": "happy-together-1997",
+      "title": "春光乍泄",
+      "file": "film-ai/decks/film-happy-together-1997.webp",
+      "sha256": "ccc108d6d0588911052ed5c9d8e69bba63976400ce0dff516353cabbad0fb6db",
+      "bytes": 174062,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:fallen-angels-1995",
+      "wid": "fallen-angels-1995",
+      "title": "堕落天使",
+      "file": "film-ai/decks/film-fallen-angels-1995.webp",
+      "sha256": "59f104bd2eb1ad0e72bdb228a63e53b6e26d40e3babd734f5fe43c870fb06d77",
+      "bytes": 189880,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-grandmaster-2013",
+      "wid": "the-grandmaster-2013",
+      "title": "一代宗师",
+      "file": "film-ai/decks/film-the-grandmaster-2013.webp",
+      "sha256": "09c3488cdc54cf3c45987a880207225fc1026a277336245c6dc78a47d9f7e642",
+      "bytes": 257874,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:farewell-my-concubine-1993",
+      "wid": "farewell-my-concubine-1993",
+      "title": "霸王别姬",
+      "file": "film-ai/decks/film-farewell-my-concubine-1993.webp",
+      "sha256": "c2e3aed34401f40bb5b54bf87babc7347bf394f5c730c1a000bb2ca25908c9bd",
+      "bytes": 294160,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:raise-the-red-lantern-1991",
+      "wid": "raise-the-red-lantern-1991",
+      "title": "大红灯笼高高挂",
+      "file": "film-ai/decks/film-raise-the-red-lantern-1991.webp",
+      "sha256": "7fc6145d747b45656341dc205acd88ce74f41f5fe10b1cca64647ff69a88a890",
+      "bytes": 239770,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:red-sorghum-1987",
+      "wid": "red-sorghum-1987",
+      "title": "红高粱",
+      "file": "film-ai/decks/film-red-sorghum-1987.webp",
+      "sha256": "bfc1da71f3846c5e2a54d54100c6b7c211d0771d64169b38b69652824604bd0b",
+      "bytes": 441204,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:hero-2002",
+      "wid": "hero-2002",
+      "title": "英雄",
+      "file": "film-ai/decks/film-hero-2002.webp",
+      "sha256": "c82905c4d8e992cd3f2e589f8f2b5209c06db1f1dd52a36f9429639a22dfe384",
+      "bytes": 368224,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:crouching-tiger-hidden-dragon-2000",
+      "wid": "crouching-tiger-hidden-dragon-2000",
+      "title": "卧虎藏龙",
+      "file": "film-ai/decks/film-crouching-tiger-hidden-dragon-2000.webp",
+      "sha256": "4a82c3253ecf9ee38e455ad9bde9026494f5925cafe61791c163f78e3316c06b",
+      "bytes": 387784,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-assassin-2015",
+      "wid": "the-assassin-2015",
+      "title": "刺客聂隐娘",
+      "file": "film-ai/decks/film-the-assassin-2015.webp",
+      "sha256": "494968d85bc3e715285b06f6d293a1ffb0e00227d4e52170d395b4d00c7932f1",
+      "bytes": 216326,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kaili-blues-2015",
+      "wid": "kaili-blues-2015",
+      "title": "路边野餐",
+      "file": "film-ai/decks/film-kaili-blues-2015.webp",
+      "sha256": "5bcd21d6862fd0f9c5434d1b52b9d3aaec5ad5be83f7cd71ad5bd6c782347611",
+      "bytes": 172032,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:long-days-journey-into-night-2018",
+      "wid": "long-days-journey-into-night-2018",
+      "title": "地球最后的夜晚",
+      "file": "film-ai/decks/film-long-days-journey-into-night-2018.webp",
+      "sha256": "3b346683d87ac1c94cef3770805e0c970c7bb11afc3c0d8826fe2dc7b9fa1f17",
+      "bytes": 221272,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:black-coal-thin-ice-2014",
+      "wid": "black-coal-thin-ice-2014",
+      "title": "白日焰火",
+      "file": "film-ai/decks/film-black-coal-thin-ice-2014.webp",
+      "sha256": "2986f08b6ddee2c606fd352ef462a8ec9e0ff5efac9a77444b4b8074841d4c10",
+      "bytes": 222880,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:still-life-2006",
+      "wid": "still-life-2006",
+      "title": "三峡好人",
+      "file": "film-ai/decks/film-still-life-2006.webp",
+      "sha256": "225befa89dd8cb01995fda98c760270d8ce40beefb10ae24a81ad09dfcd4f43f",
+      "bytes": 162578,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:spring-in-a-small-town-1948",
+      "wid": "spring-in-a-small-town-1948",
+      "title": "小城之春",
+      "file": "film-ai/decks/film-spring-in-a-small-town-1948.webp",
+      "sha256": "7027149e1a4af3a6e9a7a3b8c907d5f14a503f1ba33402210d9812b0ad8e480e",
+      "bytes": 215882,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:infernal-affairs-2002",
+      "wid": "infernal-affairs-2002",
+      "title": "无间道",
+      "file": "film-ai/decks/film-infernal-affairs-2002.webp",
+      "sha256": "cba70983f48a2421d41d23b8231e0bb44683fa6f1e4c0da4f2ff497190d033e5",
+      "bytes": 197066,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:citizen-kane-1941",
+      "wid": "citizen-kane-1941",
+      "title": "公民凯恩",
+      "file": "film-ai/decks/film-citizen-kane-1941.webp",
+      "sha256": "2cd7e80a963bc5e515fad6d0a5befc615c72068ff4ac381fee3e0aefcf0ffd7a",
+      "bytes": 175904,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:vertigo-1958",
+      "wid": "vertigo-1958",
+      "title": "迷魂记",
+      "file": "film-ai/decks/film-vertigo-1958.webp",
+      "sha256": "0d3ced46eca1b6833f72aac0392ada6e985d1c0b80bfec6ed7ffd05fdfc0eda2",
+      "bytes": 137690,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:lawrence-of-arabia-1962",
+      "wid": "lawrence-of-arabia-1962",
+      "title": "阿拉伯的劳伦斯",
+      "file": "film-ai/decks/film-lawrence-of-arabia-1962.webp",
+      "sha256": "733e40d379db514d46e9fa98cbd8bc9dbf23c245415a1859fb0708284ca02439",
+      "bytes": 67684,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:2001-a-space-odyssey-1968",
+      "wid": "2001-a-space-odyssey-1968",
+      "title": "2001太空漫游",
+      "file": "film-ai/decks/film-2001-a-space-odyssey-1968.webp",
+      "sha256": "8f7145dabc67e6383771303f7bbec236485e8076e6ecf3baa3314238d33d9661",
+      "bytes": 94230,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-godfather-1972",
+      "wid": "the-godfather-1972",
+      "title": "教父",
+      "file": "film-ai/decks/film-the-godfather-1972.webp",
+      "sha256": "4af023b720cafc30f2c79e51cd59b27dcd262d260be3467273d3c9aa4885f9bc",
+      "bytes": 121682,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:taxi-driver-1976",
+      "wid": "taxi-driver-1976",
+      "title": "出租车司机",
+      "file": "film-ai/decks/film-taxi-driver-1976.webp",
+      "sha256": "8d9dc96357d3b0057ab16444649a354c696c1190ca10a444df982e7128d81ed8",
+      "bytes": 256380,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:days-of-heaven-1978",
+      "wid": "days-of-heaven-1978",
+      "title": "天堂之日",
+      "file": "film-ai/decks/film-days-of-heaven-1978.webp",
+      "sha256": "2390ee54411e07b8c77d9c2c299f462c4ce8bb65206945a161b2587a464e79ab",
+      "bytes": 179012,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:apocalypse-now-1979",
+      "wid": "apocalypse-now-1979",
+      "title": "现代启示录",
+      "file": "film-ai/decks/film-apocalypse-now-1979.webp",
+      "sha256": "f4bacf7642f372ddedd8d1abd052fa5d279ede31854c008f2f70952ed5809908",
+      "bytes": 226672,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-shining-1980",
+      "wid": "the-shining-1980",
+      "title": "闪灵",
+      "file": "film-ai/decks/film-the-shining-1980.webp",
+      "sha256": "f60f880bee3fa2c135032d6b2586f0276d5a81ed6fc6e466233c85e817a85db3",
+      "bytes": 196966,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:blade-runner-1982",
+      "wid": "blade-runner-1982",
+      "title": "银翼杀手",
+      "file": "film-ai/decks/film-blade-runner-1982.webp",
+      "sha256": "c7f32129604f4fef4f1fe8efe04e7086c3beb84c14e0ef81139b1bb5d03c65f2",
+      "bytes": 322488,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-silence-of-the-lambs-1991",
+      "wid": "the-silence-of-the-lambs-1991",
+      "title": "沉默的羔羊",
+      "file": "film-ai/decks/film-the-silence-of-the-lambs-1991.webp",
+      "sha256": "4b4c74e980ad165b9993dd80c074c4f5c42a56c1bb1567ac2b1a54e1895d049b",
+      "bytes": 234684,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:se7en-1995",
+      "wid": "se7en-1995",
+      "title": "七宗罪",
+      "file": "film-ai/decks/film-se7en-1995.webp",
+      "sha256": "b34ebf5e0e4b1246d01321284479bd8fa0d50fa08d1d4e99995a7cec7bbe1385",
+      "bytes": 147336,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:fargo-1996",
+      "wid": "fargo-1996",
+      "title": "冰血暴",
+      "file": "film-ai/decks/film-fargo-1996.webp",
+      "sha256": "8eadf11a6a0f2119e3c728aee550e2843258b27dacb9b35efe0bd14a8bd40731",
+      "bytes": 72660,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:fight-club-1999",
+      "wid": "fight-club-1999",
+      "title": "搏击俱乐部",
+      "file": "film-ai/decks/film-fight-club-1999.webp",
+      "sha256": "136709cfa28067c31e07c45688432cf22dc301f8d10cbe90aadcc7f05e44ffaa",
+      "bytes": 126036,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:no-country-for-old-men-2007",
+      "wid": "no-country-for-old-men-2007",
+      "title": "老无所依",
+      "file": "film-ai/decks/film-no-country-for-old-men-2007.webp",
+      "sha256": "d5383b90c23c674d5ac6f1e5707ad5e1ba9fb670e85bbb9cb2437f98750125c8",
+      "bytes": 223096,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:there-will-be-blood-2007",
+      "wid": "there-will-be-blood-2007",
+      "title": "血色将至",
+      "file": "film-ai/decks/film-there-will-be-blood-2007.webp",
+      "sha256": "c5316a6d57b45700657d4319ed95a9ff01bbf609859bde12771c213a55af3f89",
+      "bytes": 224386,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-grand-budapest-hotel-2014",
+      "wid": "the-grand-budapest-hotel-2014",
+      "title": "布达佩斯大饭店",
+      "file": "film-ai/decks/film-the-grand-budapest-hotel-2014.webp",
+      "sha256": "4a99e698c3fe813fbf182bf1e5f9850d911e11ab16032f0cb6172fab68f6c444",
+      "bytes": 513114,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:blade-runner-2049-2017",
+      "wid": "blade-runner-2049-2017",
+      "title": "银翼杀手2049",
+      "file": "film-ai/decks/film-blade-runner-2049-2017.webp",
+      "sha256": "ab897534d177090da2bfe672b26957277a7c58c87a9458965fbf526bde5ac188",
+      "bytes": 180182,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:1917-2019",
+      "wid": "1917-2019",
+      "title": "1917",
+      "file": "film-ai/decks/film-1917-2019.webp",
+      "sha256": "45a918864409cfe64925f43cbf4ac9fed0ac969444ab6563637329be686fbfcb",
+      "bytes": 290340,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:moonlight-2016",
+      "wid": "moonlight-2016",
+      "title": "月光男孩",
+      "file": "film-ai/decks/film-moonlight-2016.webp",
+      "sha256": "a1c24067f07b07870d73ff7b60d930bdb2f52915fb64455be23df738d69c03e2",
+      "bytes": 145954,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:rashomon-1950",
+      "wid": "rashomon-1950",
+      "title": "罗生门",
+      "file": "film-ai/decks/film-rashomon-1950.webp",
+      "sha256": "08411de90e3c2b91fe06455c7ad349fc6be38a086575dc5befe8f67c451ae50a",
+      "bytes": 332642,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:tokyo-story-1953",
+      "wid": "tokyo-story-1953",
+      "title": "东京物语",
+      "file": "film-ai/decks/film-tokyo-story-1953.webp",
+      "sha256": "0eb32f7898c6f5de8406001d0a45dba1d5885bf63b1969018cebbe338db47ed5",
+      "bytes": 268260,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:seven-samurai-1954",
+      "wid": "seven-samurai-1954",
+      "title": "七武士",
+      "file": "film-ai/decks/film-seven-samurai-1954.webp",
+      "sha256": "436862b8b794f903a5bb3f2a2d1cb110f397b19390e04e7e7bc282a2c5f63759",
+      "bytes": 325308,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-seventh-seal-1957",
+      "wid": "the-seventh-seal-1957",
+      "title": "第七封印",
+      "file": "film-ai/decks/film-the-seventh-seal-1957.webp",
+      "sha256": "7c6bd23513681debb797cfffbeb2cb8c42659632dfb21f4eeebce4c5e790fdf2",
+      "bytes": 216908,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:eight-and-a-half-1963",
+      "wid": "eight-and-a-half-1963",
+      "title": "八部半",
+      "file": "film-ai/decks/film-eight-and-a-half-1963.webp",
+      "sha256": "cc0215517fce9c0663e0ff0e6f06858d60bb2df87b48c3de96a6a48c1efe4097",
+      "bytes": 141202,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:persona-1966",
+      "wid": "persona-1966",
+      "title": "假面",
+      "file": "film-ai/decks/film-persona-1966.webp",
+      "sha256": "eda6c1df9e44920ce27dccfc35ef9acfd85edf717c90c220c17eab851759d33f",
+      "bytes": 134370,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:barry-lyndon-1975",
+      "wid": "barry-lyndon-1975",
+      "title": "巴里·林登",
+      "file": "film-ai/decks/film-barry-lyndon-1975.webp",
+      "sha256": "6a54489c16d5cc3176660d7b86a8796882442de0283bc6343f3a4bed7d64aabb",
+      "bytes": 192908,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:stalker-1979",
+      "wid": "stalker-1979",
+      "title": "潜行者",
+      "file": "film-ai/decks/film-stalker-1979.webp",
+      "sha256": "ce97256692300372b936227bb3bb0c8df0970e3d0a915466dc8cd4206b2c5817",
+      "bytes": 108908,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:three-colours-blue-1993",
+      "wid": "three-colours-blue-1993",
+      "title": "蓝白红三部曲之蓝",
+      "file": "film-ai/decks/film-three-colours-blue-1993.webp",
+      "sha256": "802eb8cd5270d38ac4f073f7cfccb92e0ee1f74650e01a953c9f885dec42d4b1",
+      "bytes": 62950,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:love-letter-1995",
+      "wid": "love-letter-1995",
+      "title": "情书",
+      "file": "film-ai/decks/film-love-letter-1995.webp",
+      "sha256": "b1eb3905293be4f0e36723559de58d4bffaadd56d3f629b65613852e352ddb79",
+      "bytes": 103516,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:hana-bi-1997",
+      "wid": "hana-bi-1997",
+      "title": "花火",
+      "file": "film-ai/decks/film-hana-bi-1997.webp",
+      "sha256": "fa6fffc10e3623e81177fc19ca0fb2029544161c199ba929ff1277b0613b59f6",
+      "bytes": 116892,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:taste-of-cherry-1997",
+      "wid": "taste-of-cherry-1997",
+      "title": "樱桃的滋味",
+      "file": "film-ai/decks/film-taste-of-cherry-1997.webp",
+      "sha256": "644b30c265c0bafa6ee6f1c2e64a4c31560176a73fa184cd899f4d53d9455b4d",
+      "bytes": 356108,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:amelie-2001",
+      "wid": "amelie-2001",
+      "title": "天使爱美丽",
+      "file": "film-ai/decks/film-amelie-2001.webp",
+      "sha256": "4d1ec2eba95e166d086a240043087db4a1c28b50e393936c9a201fce0541e96e",
+      "bytes": 112662,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:oldboy-2003",
+      "wid": "oldboy-2003",
+      "title": "老男孩",
+      "file": "film-ai/decks/film-oldboy-2003.webp",
+      "sha256": "3190393eafa172516dbdc7f344b25b81949c1ee6c577eb03a5e0d9d0258fadaf",
+      "bytes": 131008,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-separation-2011",
+      "wid": "a-separation-2011",
+      "title": "一次别离",
+      "file": "film-ai/decks/film-a-separation-2011.webp",
+      "sha256": "bb3cd650522d398bdd1175c4413253cf808c28a621521eda572706a330c48624",
+      "bytes": 99334,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:ida-2013",
+      "wid": "ida-2013",
+      "title": "修女艾达",
+      "file": "film-ai/decks/film-ida-2013.webp",
+      "sha256": "411648eb078714afdf8eea09e39b090eee186a7042eecf105de3857f08b1577c",
+      "bytes": 137306,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:burning-2018",
+      "wid": "burning-2018",
+      "title": "燃烧",
+      "file": "film-ai/decks/film-burning-2018.webp",
+      "sha256": "c77adfae2707f746971de98e0df2fe24b98c4dfa91586cb672e4499bfb1a4b66",
+      "bytes": 104138,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:roma-2018",
+      "wid": "roma-2018",
+      "title": "罗马",
+      "file": "film-ai/decks/film-roma-2018.webp",
+      "sha256": "a9d6014d93d2f4d1c22c3b1f4a8ea3876303a8e76e8b5b570ee55dc90d4ea8cd",
+      "bytes": 324100,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:shoplifters-2018",
+      "wid": "shoplifters-2018",
+      "title": "小偷家族",
+      "file": "film-ai/decks/film-shoplifters-2018.webp",
+      "sha256": "e4bce405d79c723fabe1f19592159936c0b3e5f294ef42c2c791dd161b07710a",
+      "bytes": 235242,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:parasite-2019",
+      "wid": "parasite-2019",
+      "title": "寄生虫",
+      "file": "film-ai/decks/film-parasite-2019.webp",
+      "sha256": "6aa0da0a0198ff7cac3e9ce687584d1cacaa88dd813960722f73f008a6f01409",
+      "bytes": 143264,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:portrait-of-a-lady-on-fire-2019",
+      "wid": "portrait-of-a-lady-on-fire-2019",
+      "title": "燃烧女子的肖像",
+      "file": "film-ai/decks/film-portrait-of-a-lady-on-fire-2019.webp",
+      "sha256": "a98aa5903268b8df79d55145d811e7aebfc672eca60eadb435e35cb2bcb8cfad",
+      "bytes": 133706,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-florida-project-2017",
+      "wid": "the-florida-project-2017",
+      "title": "佛罗里达乐园",
+      "file": "film-ai/decks/film-the-florida-project-2017.webp",
+      "sha256": "61f3d8a16557d1c7496ed06fab3dda74f39de430ea0ca55a7d1cd5b92ea06d85",
+      "bytes": 265050,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-lighthouse-2019",
+      "wid": "the-lighthouse-2019",
+      "title": "灯塔",
+      "file": "film-ai/decks/film-the-lighthouse-2019.webp",
+      "sha256": "dc231b49c77c3e5b44a5c0162f47b10f70c0a67143ada35b2680a3f1b63d50f1",
+      "bytes": 179028,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:everything-everywhere-all-at-once-2022",
+      "wid": "everything-everywhere-all-at-once-2022",
+      "title": "瞬息全宇宙",
+      "file": "film-ai/decks/film-everything-everywhere-all-at-once-2022.webp",
+      "sha256": "0893d8de81c424d4094d733f2632e0dd3f5db31ab410174675ef80a31c6e3590",
+      "bytes": 224914,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:aftersun-2022",
+      "wid": "aftersun-2022",
+      "title": "晒后假日",
+      "file": "film-ai/decks/film-aftersun-2022.webp",
+      "sha256": "170af0ccfd9e390faddf11b3689b41f7dc22223ae0e15c9b9770a0a08654fec5",
+      "bytes": 203056,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:past-lives-2023",
+      "wid": "past-lives-2023",
+      "title": "过往人生",
+      "file": "film-ai/decks/film-past-lives-2023.webp",
+      "sha256": "593207a8866263a241a6b83e6f53f7770bf970c08208dad47f9a10fd1232f9de",
+      "bytes": 99776,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:anatomy-of-a-fall-2023",
+      "wid": "anatomy-of-a-fall-2023",
+      "title": "坠落的审判",
+      "file": "film-ai/decks/film-anatomy-of-a-fall-2023.webp",
+      "sha256": "ea2900bcaaa4e104ad55248a2f22a2b24df7dc61a81691c263b3c3ce117cfb07",
+      "bytes": 138652,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-zone-of-interest-2023",
+      "wid": "the-zone-of-interest-2023",
+      "title": "利益区域",
+      "file": "film-ai/decks/film-the-zone-of-interest-2023.webp",
+      "sha256": "4e13d9e802d971ccc5d5ef4f7de16c2a4e908061f38872d995a5f27087b7a2ec",
+      "bytes": 478302,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:poor-things-2023",
+      "wid": "poor-things-2023",
+      "title": "可怜的东西",
+      "file": "film-ai/decks/film-poor-things-2023.webp",
+      "sha256": "76085ef3a76b754d0c0c0c8fc05eea2b4a2f55b45303a6b0fb0756d0855cdf04",
+      "bytes": 231326,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:perfect-days-2023",
+      "wid": "perfect-days-2023",
+      "title": "完美的日子",
+      "file": "film-ai/decks/film-perfect-days-2023.webp",
+      "sha256": "2a47252c369532ceb809453823ff3b86888cdfc0dfed96b00041d63c3ae3cb60",
+      "bytes": 215194,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:oppenheimer-2023",
+      "wid": "oppenheimer-2023",
+      "title": "奥本海默",
+      "file": "film-ai/decks/film-oppenheimer-2023.webp",
+      "sha256": "4b569925778937363513f9cd2732e9a2de7d2307739ddb35cfcb8e7135286901",
+      "bytes": 163074,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:killers-of-the-flower-moon-2023",
+      "wid": "killers-of-the-flower-moon-2023",
+      "title": "花月杀手",
+      "file": "film-ai/decks/film-killers-of-the-flower-moon-2023.webp",
+      "sha256": "a40710af9e401d11f13675621a1be319da75cd4337f338b44a863b44e6484940",
+      "bytes": 152578,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:only-the-river-flows-2023",
+      "wid": "only-the-river-flows-2023",
+      "title": "河边的错误",
+      "file": "film-ai/decks/film-only-the-river-flows-2023.webp",
+      "sha256": "8c3afd70019748f78e4c9e15b4bd1292b6790614a9f0bd941208e4eebca3d3b5",
+      "bytes": 260772,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-breaking-ice-2023",
+      "wid": "the-breaking-ice-2023",
+      "title": "燃冬",
+      "file": "film-ai/decks/film-the-breaking-ice-2023.webp",
+      "sha256": "b4501e18faf7b83c5689fa2d4e12980d96bcec53ffde84b51eb7ca29fa2cfe91",
+      "bytes": 130570,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-pig-the-snake-and-the-pigeon-2023",
+      "wid": "the-pig-the-snake-and-the-pigeon-2023",
+      "title": "周处除三害",
+      "file": "film-ai/decks/film-the-pig-the-snake-and-the-pigeon-2023.webp",
+      "sha256": "968d8911fb529e801ce94d83cfad21e21a256e5f0fb944cd3bd0e97514f7b06d",
+      "bytes": 146026,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:dune-part-two-2024",
+      "wid": "dune-part-two-2024",
+      "title": "沙丘2",
+      "file": "film-ai/decks/film-dune-part-two-2024.webp",
+      "sha256": "18484a7ef0350227dea41400d2c7a4369706131e1f86208b8c9a6cf43116c8f1",
+      "bytes": 111846,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-brutalist-2024",
+      "wid": "the-brutalist-2024",
+      "title": "粗野派",
+      "file": "film-ai/decks/film-the-brutalist-2024.webp",
+      "sha256": "adc447c58835162004b6e61df27aff6cb2fff4467c9d01f3dbd8ee4cf3513875",
+      "bytes": 220940,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-substance-2024",
+      "wid": "the-substance-2024",
+      "title": "某种物质",
+      "file": "film-ai/decks/film-the-substance-2024.webp",
+      "sha256": "424b311a113f5e4b75d89b906d49146d1e5ac116df4b299bce9663dcb2d9f2ad",
+      "bytes": 149512,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:anora-2024",
+      "wid": "anora-2024",
+      "title": "阿诺拉",
+      "file": "film-ai/decks/film-anora-2024.webp",
+      "sha256": "3117362f479f9ec49159ff91b39135a7446d141a3950753b7cda96ddf336c83c",
+      "bytes": 191674,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:conclave-2024",
+      "wid": "conclave-2024",
+      "title": "秘密会议",
+      "file": "film-ai/decks/film-conclave-2024.webp",
+      "sha256": "c37bea94bed96a4fbd6e459f912c46a3e093bae11778066539f5181867d555ef",
+      "bytes": 340298,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:sinners-2025",
+      "wid": "sinners-2025",
+      "title": "罪人",
+      "file": "film-ai/decks/film-sinners-2025.webp",
+      "sha256": "8bd714bde5446f4780d934446622d4347d5f3a1432666968a61af9ad77379534",
+      "bytes": 223396,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:one-battle-after-another-2025",
+      "wid": "one-battle-after-another-2025",
+      "title": "一战再战",
+      "file": "film-ai/decks/film-one-battle-after-another-2025.webp",
+      "sha256": "4da3f58184e3b66149cb24a2b63f88e20ab401372508132aeca44931454092ac",
+      "bytes": 212606,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:breaking-bad-2008",
+      "wid": "breaking-bad-2008",
+      "title": "绝命毒师",
+      "file": "film-ai/decks/film-breaking-bad-2008.webp",
+      "sha256": "a6550412df470e9012e4a72a1b7a17ebbefcf571c44fa82a10b0a3f65f8f84f4",
+      "bytes": 209578,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:true-detective-s1-2014",
+      "wid": "true-detective-s1-2014",
+      "title": "真探 第一季",
+      "file": "film-ai/decks/film-true-detective-s1-2014.webp",
+      "sha256": "7df815c26e0acc401a73e8a416c2bb709a56f4b25264363d0388353022609258",
+      "bytes": 269414,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:mad-men-2007",
+      "wid": "mad-men-2007",
+      "title": "广告狂人",
+      "file": "film-ai/decks/film-mad-men-2007.webp",
+      "sha256": "772a8b68e39422f96b4eec676b46fd473ded82edc20027244a38c441b46ce2b8",
+      "bytes": 203266,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:game-of-thrones-2011",
+      "wid": "game-of-thrones-2011",
+      "title": "权力的游戏",
+      "file": "film-ai/decks/film-game-of-thrones-2011.webp",
+      "sha256": "d1b9bb217c0ef8cb3c252326fd7932dd525bb69015d934375f8dd4f03c6f3d60",
+      "bytes": 293612,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:sherlock-2010",
+      "wid": "sherlock-2010",
+      "title": "神探夏洛克",
+      "file": "film-ai/decks/film-sherlock-2010.webp",
+      "sha256": "82d382184a676892849f7f2fa00a3ab9c8ac3c65cd34f052af7d2b804de8b3e9",
+      "bytes": 136052,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:peaky-blinders-s1-2013",
+      "wid": "peaky-blinders-s1-2013",
+      "title": "浴血黑帮 第一季",
+      "file": "film-ai/decks/film-peaky-blinders-s1-2013.webp",
+      "sha256": "d84b7abbb9e64b8237c23cd4510f8ef52e02177b4efc381d0f607c22eefe09fa",
+      "bytes": 367828,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-crown-s1-2016",
+      "wid": "the-crown-s1-2016",
+      "title": "王冠 第一季",
+      "file": "film-ai/decks/film-the-crown-s1-2016.webp",
+      "sha256": "df85e085feb5496d8b88833606368cd7d5028f50e9895a89d26a76059f820c65",
+      "bytes": 115882,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:succession-2018",
+      "wid": "succession-2018",
+      "title": "继承之战",
+      "file": "film-ai/decks/film-succession-2018.webp",
+      "sha256": "b5321c982ecffaf1b3b4b16ffdac12e1de44a2e38544711aa4c1e3b002bb007d",
+      "bytes": 166328,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:chernobyl-2019",
+      "wid": "chernobyl-2019",
+      "title": "切尔诺贝利",
+      "file": "film-ai/decks/film-chernobyl-2019.webp",
+      "sha256": "45f2454814ab0d2626a8777c7459f41399fdfefd03351c10beaca549becc0188",
+      "bytes": 118790,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:squid-game-s1-2021",
+      "wid": "squid-game-s1-2021",
+      "title": "鱿鱼游戏 第一季",
+      "file": "film-ai/decks/film-squid-game-s1-2021.webp",
+      "sha256": "e63d9caa930db91b1f7f0b596013a269b81f0b347e82182d34ab75802011e207",
+      "bytes": 241672,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:severance-s1-2022",
+      "wid": "severance-s1-2022",
+      "title": "人生切割术 第一季",
+      "file": "film-ai/decks/film-severance-s1-2022.webp",
+      "sha256": "6dd3d4049da2ea5e1d554b59955b4fb37298c81ad29b2136e584571e2c312316",
+      "bytes": 89082,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-bear-2022",
+      "wid": "the-bear-2022",
+      "title": "熊家餐馆",
+      "file": "film-ai/decks/film-the-bear-2022.webp",
+      "sha256": "52ced6fc58c2f46a30ffce81935172ec55d4fbafa7d2b8b1fae932c7b67a70c8",
+      "bytes": 213958,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-last-of-us-s1-2023",
+      "wid": "the-last-of-us-s1-2023",
+      "title": "最后生还者 第一季",
+      "file": "film-ai/decks/film-the-last-of-us-s1-2023.webp",
+      "sha256": "64d83c14e9d1c0a2f4ea832d0943503a842ebea961c10be33812a3d2c43b1536",
+      "bytes": 94826,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:shogun-s1-2024",
+      "wid": "shogun-s1-2024",
+      "title": "幕府将军 第一季",
+      "file": "film-ai/decks/film-shogun-s1-2024.webp",
+      "sha256": "5a2eaa23f5d084235741f55a5462b302d122713e330f14071444d80da0c78e6c",
+      "bytes": 231286,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:reply-1988-2015",
+      "wid": "reply-1988-2015",
+      "title": "请回答1988",
+      "file": "film-ai/decks/film-reply-1988-2015.webp",
+      "sha256": "f956bb31e37ccc418e8606c0830e2b6ff9b64034e1c314290de27139487cec95",
+      "bytes": 309802,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-longest-day-in-changan-2019",
+      "wid": "the-longest-day-in-changan-2019",
+      "title": "长安十二时辰",
+      "file": "film-ai/decks/film-the-longest-day-in-changan-2019.webp",
+      "sha256": "8fdbe28e95fd752ac096a2e9058defd58b6923f7d643e2c29a3d197b67f8098b",
+      "bytes": 382972,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-bad-kids-2020",
+      "wid": "the-bad-kids-2020",
+      "title": "隐秘的角落",
+      "file": "film-ai/decks/film-the-bad-kids-2020.webp",
+      "sha256": "2eabec50309e06773131a124834f3037d41ac80a5fa6076cb3c1c5f3ea4059a1",
+      "bytes": 177142,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-long-season-2023",
+      "wid": "the-long-season-2023",
+      "title": "漫长的季节",
+      "file": "film-ai/decks/film-the-long-season-2023.webp",
+      "sha256": "c6d39a935d8dbc0c9d48efef990bed8d487dab5373d914b8311f1b51885c0796",
+      "bytes": 323172,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:blossoms-shanghai-2023",
+      "wid": "blossoms-shanghai-2023",
+      "title": "繁花",
+      "file": "film-ai/decks/film-blossoms-shanghai-2023.webp",
+      "sha256": "a9e49e997569d16b557c9f466640c6220958154e739710bbfdac519009db686e",
+      "bytes": 249162,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:to-the-wonder-2024",
+      "wid": "to-the-wonder-2024",
+      "title": "我的阿勒泰",
+      "file": "film-ai/decks/film-to-the-wonder-2024.webp",
+      "sha256": "bc518336a5fbad5b90666db1a6772bc4aab07a1a15be9d4743f6be749af447ec",
+      "bytes": 390336,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:planet-earth-ii-2016",
+      "wid": "planet-earth-ii-2016",
+      "title": "地球脉动 第二季",
+      "file": "film-ai/decks/film-planet-earth-ii-2016.webp",
+      "sha256": "15f73dffcf8b44816555c3431ffe16f6d51123859fb59a52cb935fed0598fd87",
+      "bytes": 255822,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:blue-planet-ii-2017",
+      "wid": "blue-planet-ii-2017",
+      "title": "蓝色星球 第二季",
+      "file": "film-ai/decks/film-blue-planet-ii-2017.webp",
+      "sha256": "6f4073abd375a7e91531e17f17cd4d22a94083ce68a52745d5b9ac9308345e03",
+      "bytes": 306510,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:our-planet-s1-2019",
+      "wid": "our-planet-s1-2019",
+      "title": "我们的星球 第一季",
+      "file": "film-ai/decks/film-our-planet-s1-2019.webp",
+      "sha256": "17d634b0bc7c5467f2b21235e86121eb1114e2ef5792a51152395f32166890f3",
+      "bytes": 310080,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:born-in-china-2016",
+      "wid": "born-in-china-2016",
+      "title": "我们诞生在中国",
+      "file": "film-ai/decks/film-born-in-china-2016.webp",
+      "sha256": "fc7462b8d92644c1ade2048803501119d23450d77cd986ae3c98e0f5a514f3d2",
+      "bytes": 371638,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-bite-of-china-s1-2012",
+      "wid": "a-bite-of-china-s1-2012",
+      "title": "舌尖上的中国 第一季",
+      "file": "film-ai/decks/film-a-bite-of-china-s1-2012.webp",
+      "sha256": "fd371cf93a8c5a756e3b8a91df77267343b2690c1c43863c40fe2bfc2bfb95aa",
+      "bytes": 265536,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-hexi-corridor-2015",
+      "wid": "the-hexi-corridor-2015",
+      "title": "河西走廊",
+      "file": "film-ai/decks/film-the-hexi-corridor-2015.webp",
+      "sha256": "0d0628b77a2599f6883016020a1aee3bcdeca54e79aa52dd0a9ac133478cca92",
+      "bytes": 274826,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:aerial-china-s1-2017",
+      "wid": "aerial-china-s1-2017",
+      "title": "航拍中国 第一季",
+      "file": "film-ai/decks/film-aerial-china-s1-2017.webp",
+      "sha256": "66068d9abea5977e3d830e878b46bc9fac668f146ac4a5dc4f46616048374b9d",
+      "bytes": 203238,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:masters-in-forbidden-city-2016",
+      "wid": "masters-in-forbidden-city-2016",
+      "title": "我在故宫修文物",
+      "file": "film-ai/decks/film-masters-in-forbidden-city-2016.webp",
+      "sha256": "991832439d5861ac4959265935b5edf52b4c615ddf7487f9ff17cd8300a5a8eb",
+      "bytes": 182686,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:chefs-table-s1-2015",
+      "wid": "chefs-table-s1-2015",
+      "title": "主厨的餐桌 第一季",
+      "file": "film-ai/decks/film-chefs-table-s1-2015.webp",
+      "sha256": "2518850e70e7320d80549f348e7d3e5ff583a16913d041ff1aa0b3d4c0172951",
+      "bytes": 282050,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:free-solo-2018",
+      "wid": "free-solo-2018",
+      "title": "徒手攀岩",
+      "file": "film-ai/decks/film-free-solo-2018.webp",
+      "sha256": "83a82334780867f306ea375f4dfcba184f6bfe9ed27385cd867e99bda9da5f35",
+      "bytes": 327938,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:baraka-1992",
+      "wid": "baraka-1992",
+      "title": "天地玄黄",
+      "file": "film-ai/decks/film-baraka-1992.webp",
+      "sha256": "232ef4c24c330ebef48dace59390c75a7e6184fd5e776023e6ee43c09119ccf9",
+      "bytes": 198990,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:ghost-in-the-shell-1995",
+      "wid": "ghost-in-the-shell-1995",
+      "title": "攻壳机动队",
+      "file": "film-ai/decks/film-ghost-in-the-shell-1995.webp",
+      "sha256": "73b7c5af8f1f3d6186f35318d4ca042019f4ac7a0fad5babcbeb37b827f774cd",
+      "bytes": 200746,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:princess-mononoke-1997",
+      "wid": "princess-mononoke-1997",
+      "title": "幽灵公主",
+      "file": "film-ai/decks/film-princess-mononoke-1997.webp",
+      "sha256": "d89c9261cba782a3140cab4dcebbff2ea028c21eb474740383aecd11d2b443f4",
+      "bytes": 301116,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:your-name-2016",
+      "wid": "your-name-2016",
+      "title": "你的名字。",
+      "file": "film-ai/decks/film-your-name-2016.webp",
+      "sha256": "57d7f1e9975786884058fd4a2d3ff7a98ac56163d855eaf80088a8c3588f9b4a",
+      "bytes": 341930,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:havoc-in-heaven-1961",
+      "wid": "havoc-in-heaven-1961",
+      "title": "大闹天宫",
+      "file": "film-ai/decks/film-havoc-in-heaven-1961.webp",
+      "sha256": "3d8cb10a6e6f42cb717646c076dffc4b55ce4ecb73b01a442a7eb6e0763885de",
+      "bytes": 421924,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:spirited-away-2001",
+      "wid": "spirited-away-2001",
+      "title": "千与千寻",
+      "file": "film-ai/decks/film-spirited-away-2001.webp",
+      "sha256": "2a2a7ac9b3561987de6f90b093566354ad275302ce405b274439bcd21f8c53dc",
+      "bytes": 335788,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:arcane-s1-2021",
+      "wid": "arcane-s1-2021",
+      "title": "英雄联盟：双城之战 第一季",
+      "file": "film-ai/decks/film-arcane-s1-2021.webp",
+      "sha256": "79d7cfe5e4b6a56c4a6bbbcecbd0b9af2d1e096e62d73c3c2f6f86e766b6e466",
+      "bytes": 219820,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:chang-an-2023",
+      "wid": "chang-an-2023",
+      "title": "长安三万里",
+      "file": "film-ai/decks/film-chang-an-2023.webp",
+      "sha256": "218c265eaf66276f45fedfd518f3050ede6cc689273d3910b8d4ced3ef75677a",
+      "bytes": 289096,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:spider-man-across-the-spider-verse-2023",
+      "wid": "spider-man-across-the-spider-verse-2023",
+      "title": "蜘蛛侠：纵横宇宙",
+      "file": "film-ai/decks/film-spider-man-across-the-spider-verse-2023.webp",
+      "sha256": "6c5e0c607384d05754569807d5a51fdbb15ff0768714e853f60f671540fcf0a8",
+      "bytes": 675114,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:ne-zha-2-2025",
+      "wid": "ne-zha-2-2025",
+      "title": "哪吒之魔童闹海",
+      "file": "film-ai/decks/film-ne-zha-2-2025.webp",
+      "sha256": "371b30df4fddbf45824a6308a3544b810a7125917ecba8002f00bd0563653f8f",
+      "bytes": 336414,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-beatles-strawberry-fields-forever-1967",
+      "wid": "the-beatles-strawberry-fields-forever-1967",
+      "title": "Strawberry Fields Forever — 披头士",
+      "file": "film-ai/decks/film-the-beatles-strawberry-fields-forever-1967.webp",
+      "sha256": "7c59bad911196b40e72448a6e3efb68b65805706f3151d98d8b70ef8aec5540b",
+      "bytes": 312548,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:david-bowie-life-on-mars-1973",
+      "wid": "david-bowie-life-on-mars-1973",
+      "title": "Life on Mars? — 大卫·鲍伊",
+      "file": "film-ai/decks/film-david-bowie-life-on-mars-1973.webp",
+      "sha256": "ee31edaed80393cb4de37f9f8b0f47ca9445203beccbc68050409aab83a14160",
+      "bytes": 156988,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:every-treasure-tells-a-story-s1-2018",
+      "wid": "every-treasure-tells-a-story-s1-2018",
+      "title": "如果国宝会说话 第一季",
+      "file": "film-ai/decks/film-every-treasure-tells-a-story-s1-2018.webp",
+      "sha256": "6c27c179602b495a235b602472c47f06d4093500a5229a07168cfb2cecd176f3",
+      "bytes": 132694,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:queen-bohemian-rhapsody-1975",
+      "wid": "queen-bohemian-rhapsody-1975",
+      "title": "波西米亚狂想曲 — 皇后乐队",
+      "file": "film-ai/decks/film-queen-bohemian-rhapsody-1975.webp",
+      "sha256": "54b6b22905ce8cbaafe2068452fd394ddbfaf2360633eb12872975b7cdfbe479",
+      "bytes": 138124,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:laborers-love-1922",
+      "wid": "laborers-love-1922",
+      "title": "劳工之爱情",
+      "file": "film-ai/decks/film-laborers-love-1922.webp",
+      "sha256": "08a3a56ed140e8b45ab3b47661f4c165485417dd24a41337bd4173ae1d765018",
+      "bytes": 149648,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:spring-silkworms-1933",
+      "wid": "spring-silkworms-1933",
+      "title": "春蚕",
+      "file": "film-ai/decks/film-spring-silkworms-1933.webp",
+      "sha256": "a317b542c233ef97d4c91899681c133b903fd3373a92a21c42def780b49cc239",
+      "bytes": 201082,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kate-bush-wuthering-heights-1978",
+      "wid": "kate-bush-wuthering-heights-1978",
+      "title": "Wuthering Heights — 凯特·布什",
+      "file": "film-ai/decks/film-kate-bush-wuthering-heights-1978.webp",
+      "sha256": "f0c1a357978f7d20b0977cd0f41ea9a39d11de359fec647d991dc92dc6c64d0b",
+      "bytes": 73580,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-city-of-sadness-1989",
+      "wid": "a-city-of-sadness-1989",
+      "title": "悲情城市",
+      "file": "film-ai/decks/film-a-city-of-sadness-1989.webp",
+      "sha256": "2ae6c49c868c250ef324381214ef75ac5e8fd9284010a5acfadde1c0f308260e",
+      "bytes": 264900,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:twin-sisters-1933",
+      "wid": "twin-sisters-1933",
+      "title": "姊妹花",
+      "file": "film-ai/decks/film-twin-sisters-1933.webp",
+      "sha256": "6b46fa72554d8070f909e0f2c4626d3308f3141ae4769f295a5c91acb4885739",
+      "bytes": 143894,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:song-of-the-fishermen-1934",
+      "wid": "song-of-the-fishermen-1934",
+      "title": "渔光曲",
+      "file": "film-ai/decks/film-song-of-the-fishermen-1934.webp",
+      "sha256": "76b46b82c09dc68b246bbfd31245a190290e9b0df300167fa281dbc60480b84b",
+      "bytes": 187330,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-goddess-1934",
+      "wid": "the-goddess-1934",
+      "title": "神女",
+      "file": "film-ai/decks/film-the-goddess-1934.webp",
+      "sha256": "26e261e8ae23c9259dcf7e3bc8eb56ba87f91108aa88a2e9da619206b4e99763",
+      "bytes": 129488,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-buggles-video-killed-the-radio-star-1979",
+      "wid": "the-buggles-video-killed-the-radio-star-1979",
+      "title": "Video Killed the Radio Star — 巴格尔斯乐队",
+      "file": "film-ai/decks/film-the-buggles-video-killed-the-radio-star-1979.webp",
+      "sha256": "62e62a2b169c1d82c31b9b5a6fa327a163e3a2caa8de4c392094c8d8e603993d",
+      "bytes": 279512,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:david-bowie-ashes-to-ashes-1980",
+      "wid": "david-bowie-ashes-to-ashes-1980",
+      "title": "Ashes to Ashes — 大卫·鲍伊",
+      "file": "film-ai/decks/film-david-bowie-ashes-to-ashes-1980.webp",
+      "sha256": "7cb0fc3db142b6fcd6a3983af52c1c5ac780db717fe243d2e3ff32fa0ae95888",
+      "bytes": 357702,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:talking-heads-once-in-a-lifetime-1981",
+      "wid": "talking-heads-once-in-a-lifetime-1981",
+      "title": "Once in a Lifetime — 传声头像乐队",
+      "file": "film-ai/decks/film-talking-heads-once-in-a-lifetime-1981.webp",
+      "sha256": "5270180b844f5f1c7f5c2c1f11bfb22e38fa4b7523c22414e59187582ac87580",
+      "bytes": 68320,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:duran-duran-hungry-like-the-wolf-1982",
+      "wid": "duran-duran-hungry-like-the-wolf-1982",
+      "title": "Hungry Like the Wolf — 杜兰杜兰乐队",
+      "file": "film-ai/decks/film-duran-duran-hungry-like-the-wolf-1982.webp",
+      "sha256": "6bc76649ba69a6e10dfa3cd766477a9adcebdc6af92666dc2d5a9b6a0c998d48",
+      "bytes": 351818,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:michael-jackson-billie-jean-1983",
+      "wid": "michael-jackson-billie-jean-1983",
+      "title": "Billie Jean — 迈克尔·杰克逊",
+      "file": "film-ai/decks/film-michael-jackson-billie-jean-1983.webp",
+      "sha256": "b53a21fb7002b091d426e1de696e07075426ca4afbf3d9b6fa64bb99236d5eae",
+      "bytes": 259668,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-39-steps-1935",
+      "wid": "the-39-steps-1935",
+      "title": "三十九级台阶",
+      "file": "film-ai/decks/film-the-39-steps-1935.webp",
+      "sha256": "f1bf236053b750d02de8a66d9f02b4a610e13fa1078a5c06a2e3662cc056d406",
+      "bytes": 147088,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-lady-vanishes-1938",
+      "wid": "the-lady-vanishes-1938",
+      "title": "贵妇失踪案",
+      "file": "film-ai/decks/film-the-lady-vanishes-1938.webp",
+      "sha256": "af2484668ed6a2284b607ebb14a9dd57f33e83ce9c88191d827f3164d7356157",
+      "bytes": 258352,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-life-and-death-of-colonel-blimp-1943",
+      "wid": "the-life-and-death-of-colonel-blimp-1943",
+      "title": "百战将军",
+      "file": "film-ai/decks/film-the-life-and-death-of-colonel-blimp-1943.webp",
+      "sha256": "1ae9d3e12fb3eef336d2a52ef1b02676fbac800d9d3efc4cec0a9e23a7a41b4a",
+      "bytes": 206468,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-canterbury-tale-1944",
+      "wid": "a-canterbury-tale-1944",
+      "title": "坎特伯雷故事",
+      "file": "film-ai/decks/film-a-canterbury-tale-1944.webp",
+      "sha256": "628a84820ec14c2a7f7590a0fb2cd31c58d2157a345d8de82d3878e557844a88",
+      "bytes": 162008,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:henry-v-1944",
+      "wid": "henry-v-1944",
+      "title": "亨利五世",
+      "file": "film-ai/decks/film-henry-v-1944.webp",
+      "sha256": "58261d0eb46df078de5f36e0695f097f673624660fdfa304e8cad28c3b39482b",
+      "bytes": 452542,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:michael-jackson-beat-it-1983",
+      "wid": "michael-jackson-beat-it-1983",
+      "title": "Beat It — 迈克尔·杰克逊",
+      "file": "film-ai/decks/film-michael-jackson-beat-it-1983.webp",
+      "sha256": "baf5ff6658d62dd805e845a69303ee679377872bfcf0760593f3a679bcd6f542",
+      "bytes": 341066,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:michael-jackson-thriller-1983",
+      "wid": "michael-jackson-thriller-1983",
+      "title": "Thriller — 迈克尔·杰克逊",
+      "file": "film-ai/decks/film-michael-jackson-thriller-1983.webp",
+      "sha256": "0a8c50cf404d8a0b1a34adf563b9df93faffb9273de71077b7fc77c526df0243",
+      "bytes": 290182,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:long-live-the-missus-1947",
+      "wid": "long-live-the-missus-1947",
+      "title": "太太万岁",
+      "file": "film-ai/decks/film-long-live-the-missus-1947.webp",
+      "sha256": "bc31eb5fbe444c3ca73a25635c5cf8c67f1c9d8c80443ea1f7e5bd1e93632b4a",
+      "bytes": 209960,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-spring-river-flows-east-1947",
+      "wid": "the-spring-river-flows-east-1947",
+      "title": "一江春水向东流",
+      "file": "film-ai/decks/film-the-spring-river-flows-east-1947.webp",
+      "sha256": "1c71a5ec9d28327f3f90a4065668d208cc9f65ab8c5d0fbb860ef275a77b479f",
+      "bytes": 257014,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:myriad-of-lights-1948",
+      "wid": "myriad-of-lights-1948",
+      "title": "万家灯火",
+      "file": "film-ai/decks/film-myriad-of-lights-1948.webp",
+      "sha256": "589bff7309c0f0991060870e483bd8319d5a4987d1cc72bbabc01dc30ba1c696",
+      "bytes": 202712,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:sorrows-of-the-forbidden-city-1948",
+      "wid": "sorrows-of-the-forbidden-city-1948",
+      "title": "清宫秘史",
+      "file": "film-ai/decks/film-sorrows-of-the-forbidden-city-1948.webp",
+      "sha256": "bf093446d02dec02d6c8a0293594b58adb2600bcdf8eac79f51cf81a9598ebf5",
+      "bytes": 195458,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:crows-and-sparrows-1949",
+      "wid": "crows-and-sparrows-1949",
+      "title": "乌鸦与麻雀",
+      "file": "film-ai/decks/film-crows-and-sparrows-1949.webp",
+      "sha256": "d931a644ae9edec7cd1b974c5dc018be193a50b43d5537548964b08b860d5668",
+      "bytes": 347954,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:san-mao-the-little-vagabond-1949",
+      "wid": "san-mao-the-little-vagabond-1949",
+      "title": "三毛流浪记",
+      "file": "film-ai/decks/film-san-mao-the-little-vagabond-1949.webp",
+      "sha256": "b4d26dc397eefb28b03a64a08b0a65c96bf8beb418513c8f6480ececb770603b",
+      "bytes": 245764,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-white-haired-girl-1950",
+      "wid": "the-white-haired-girl-1950",
+      "title": "白毛女",
+      "file": "film-ai/decks/film-the-white-haired-girl-1950.webp",
+      "sha256": "101a030ce4e8f265364247232c3c8d4361d48ade76adadf0a318fcf37f034a2a",
+      "bytes": 241142,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:this-life-of-mine-1950",
+      "wid": "this-life-of-mine-1950",
+      "title": "我这一辈子",
+      "file": "film-ai/decks/film-this-life-of-mine-1950.webp",
+      "sha256": "933fb7fa052abf22ac3d91f6dbebdeec33a7c84b24a94d94b9c259357bb95993",
+      "bytes": 288426,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:in-the-face-of-demolition-1953",
+      "wid": "in-the-face-of-demolition-1953",
+      "title": "危楼春晓",
+      "file": "film-ai/decks/film-in-the-face-of-demolition-1953.webp",
+      "sha256": "9f28c47396e27feebbade0a5510f9bf488a7988be41dabd823106a85e2e9cb7f",
+      "bytes": 223812,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:new-women-1935",
+      "wid": "new-women-1935",
+      "title": "新女性",
+      "file": "film-ai/decks/film-new-women-1935.webp",
+      "sha256": "e1f6898e05a53ed489034ef699965552c23c36cf361e3bac1702aac5a0254642",
+      "bytes": 161314,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:crossroads-1937",
+      "wid": "crossroads-1937",
+      "title": "十字街头",
+      "file": "film-ai/decks/film-crossroads-1937.webp",
+      "sha256": "df8dd086be39ee76bde87ed2dcff9f728fcd80497e8d653c9eec381f7707eb67",
+      "bytes": 187498,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:song-at-midnight-1937",
+      "wid": "song-at-midnight-1937",
+      "title": "夜半歌声",
+      "file": "film-ai/decks/film-song-at-midnight-1937.webp",
+      "sha256": "2b4d6109b42013544a8f7dee6885e52631daee359823050773801573650ca60d",
+      "bytes": 228790,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-page-of-madness-1926",
+      "wid": "a-page-of-madness-1926",
+      "title": "疯狂的一页",
+      "file": "film-ai/decks/film-a-page-of-madness-1926.webp",
+      "sha256": "b2ef551f5bd6572d320cea16e1ecbd261ee98d6d259273085ee65b6199215ff4",
+      "bytes": 162754,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:i-was-born-but-1932",
+      "wid": "i-was-born-but-1932",
+      "title": "我出生了，但……",
+      "file": "film-ai/decks/film-i-was-born-but-1932.webp",
+      "sha256": "cc66a60bb10d7d3a4f08fa65dbb45918e3d230c1552821c46839857af13ab506",
+      "bytes": 269226,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:street-angel-1937",
+      "wid": "street-angel-1937",
+      "title": "马路天使",
+      "file": "film-ai/decks/film-street-angel-1937.webp",
+      "sha256": "f032ea94b0d6c62ffb2a651747a861876737e9f9322451072978c026c1d9b775",
+      "bytes": 269828,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:osaka-elegy-1936",
+      "wid": "osaka-elegy-1936",
+      "title": "浪华悲歌",
+      "file": "film-ai/decks/film-osaka-elegy-1936.webp",
+      "sha256": "4d74dd401f20344b8ec6a9d249c77296835f74a5805736d127026405ae572262",
+      "bytes": 174208,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:humanity-and-paper-balloons-1937",
+      "wid": "humanity-and-paper-balloons-1937",
+      "title": "人情纸风船",
+      "file": "film-ai/decks/film-humanity-and-paper-balloons-1937.webp",
+      "sha256": "a005f95db8e4e000f49e50766964d0e2350ab55d696b02e9cdaab979345447dc",
+      "bytes": 251396,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-story-of-the-last-chrysanthemums-1939",
+      "wid": "the-story-of-the-last-chrysanthemums-1939",
+      "title": "残菊物语",
+      "file": "film-ai/decks/film-the-story-of-the-last-chrysanthemums-1939.webp",
+      "sha256": "a462d874912d987f72b46da0baf87e77e01242b313c34a7d44addc3bf735fa0d",
+      "bytes": 133692,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-47-ronin-1941",
+      "wid": "the-47-ronin-1941",
+      "title": "元禄忠臣藏",
+      "file": "film-ai/decks/film-the-47-ronin-1941.webp",
+      "sha256": "3b716c0794efaa1aa4c7efb60ad0037b64d68e75352ba82f0574bba81a404dfb",
+      "bytes": 234084,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:sisters-of-the-gion-1936",
+      "wid": "sisters-of-the-gion-1936",
+      "title": "祇园姊妹",
+      "file": "film-ai/decks/film-sisters-of-the-gion-1936.webp",
+      "sha256": "7a64905ad9b3217de255dcf9cc452a2152dd05ef6b47e7a088125ac1d0a23d41",
+      "bytes": 132424,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:sanshiro-sugata-1943",
+      "wid": "sanshiro-sugata-1943",
+      "title": "姿三四郎",
+      "file": "film-ai/decks/film-sanshiro-sugata-1943.webp",
+      "sha256": "0f8a1bde6db33a17afc0a88cd07edc43b04f9dea5393ac4fda3f42626d84cad2",
+      "bytes": 261066,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:i-know-where-im-going-1945",
+      "wid": "i-know-where-im-going-1945",
+      "title": "我知道我要去哪里",
+      "file": "film-ai/decks/film-i-know-where-im-going-1945.webp",
+      "sha256": "49e7f49e01460bdc80f256ef03086a0d1ca56ef1ffb1fbfd91864f73bfade12a",
+      "bytes": 155704,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:brief-encounter-1945",
+      "wid": "brief-encounter-1945",
+      "title": "相见恨晚",
+      "file": "film-ai/decks/film-brief-encounter-1945.webp",
+      "sha256": "b68f31a266fea84f6d66e0e161628fdd81a15deb913e81a10dd14bea63731f7d",
+      "bytes": 162318,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-matter-of-life-and-death-1946",
+      "wid": "a-matter-of-life-and-death-1946",
+      "title": "生死攸关",
+      "file": "film-ai/decks/film-a-matter-of-life-and-death-1946.webp",
+      "sha256": "ca99dbeb0c52e5668b3d9ca43e15d1ac459c1a3654c161b9be236e7f6378b1af",
+      "bytes": 173804,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:drunken-angel-1948",
+      "wid": "drunken-angel-1948",
+      "title": "泥醉天使",
+      "file": "film-ai/decks/film-drunken-angel-1948.webp",
+      "sha256": "4067f10b78cd3bf16941def9f6f9ba4cec5dbb0810260754f931768480e2b1ba",
+      "bytes": 197444,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:battle-on-shangganling-mountain-1956",
+      "wid": "battle-on-shangganling-mountain-1956",
+      "title": "上甘岭",
+      "file": "film-ai/decks/film-battle-on-shangganling-mountain-1956.webp",
+      "sha256": "0905fd5f22686da38883184dafcc61c6c9f327454601dbb0faa5f0d56a1be555",
+      "bytes": 300986,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:railway-guerrilla-1956",
+      "wid": "railway-guerrilla-1956",
+      "title": "铁道游击队",
+      "file": "film-ai/decks/film-railway-guerrilla-1956.webp",
+      "sha256": "fdfefe0afae567becec500997fcd8ffd2a8084749cca1d1e302b6673f514aa3b",
+      "bytes": 144622,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:mambo-girl-1957",
+      "wid": "mambo-girl-1957",
+      "title": "曼波女郎",
+      "file": "film-ai/decks/film-mambo-girl-1957.webp",
+      "sha256": "32c17a338f457133157077c34ad1d786b7195835f23513977020d03e16b24991",
+      "bytes": 218786,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-eternal-wave-1958",
+      "wid": "the-eternal-wave-1958",
+      "title": "永不消逝的电波",
+      "file": "film-ai/decks/film-the-eternal-wave-1958.webp",
+      "sha256": "9b0183e98707cba15ae4a00038c16f9de5a371cf8f7020b398ac569adde96196",
+      "bytes": 94234,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:new-years-sacrifice-1956",
+      "wid": "new-years-sacrifice-1956",
+      "title": "祝福",
+      "file": "film-ai/decks/film-new-years-sacrifice-1956.webp",
+      "sha256": "c4ce4d1474bc728dd7e021cc58b382029413c745212aa15683175870b4b112e4",
+      "bytes": 231522,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:11-flowers-2011",
+      "wid": "11-flowers-2011",
+      "title": "我11",
+      "file": "film-ai/decks/film-11-flowers-2011.webp",
+      "sha256": "6fccf2ca9e33a41c5cd597f3874158b955d9c5548601529919333eb76fe7bf48",
+      "bytes": 317378,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:12-12-the-day-2023",
+      "wid": "12-12-the-day-2023",
+      "title": "首尔之春",
+      "file": "film-ai/decks/film-12-12-the-day-2023.webp",
+      "sha256": "2f1d9af6adcccd2b36329c568a3e1a51ccdb7057cb565051485a1c754d5b9091",
+      "bytes": 171668,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:12-angry-men-1957",
+      "wid": "12-angry-men-1957",
+      "title": "12 Angry Men",
+      "file": "film-ai/decks/film-12-angry-men-1957.webp",
+      "sha256": "419cbec94ed3089f88004de3ac50fb6dddd803c7e528e88143d5c0cb38345a3e",
+      "bytes": 220392,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:12-monkeys-1995",
+      "wid": "12-monkeys-1995",
+      "title": "十二猴子",
+      "file": "film-ai/decks/film-12-monkeys-1995.webp",
+      "sha256": "a30120aae127dbb62468e77ed2ebadce897dd1166f1758938f018c559caafc55",
+      "bytes": 317558,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:12-years-a-slave-2013",
+      "wid": "12-years-a-slave-2013",
+      "title": "12 Years A Slave",
+      "file": "film-ai/decks/film-12-years-a-slave-2013.webp",
+      "sha256": "a709fc818fef814eb061dd40f4d7546c80f7813feb81a5e51da9e5c3a61d4a8c",
+      "bytes": 251570,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:13-assassins-2010",
+      "wid": "13-assassins-2010",
+      "title": "十三刺客",
+      "file": "film-ai/decks/film-13-assassins-2010.webp",
+      "sha256": "1f7edf64bbb9d6d4d438369d6c6c975ca9122faf251f862f15001757c1ec0e67",
+      "bytes": 307224,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:1899-2022",
+      "wid": "1899-2022",
+      "title": "1899",
+      "file": "film-ai/decks/film-1899-2022.webp",
+      "sha256": "ee1701c5d1cb48eae48596f04dc7b2ab3ccd6fdbc985f5770fb37d547a8912e8",
+      "bytes": 158040,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:127-hours-2010",
+      "wid": "127-hours-2010",
+      "title": "127 Hours",
+      "file": "film-ai/decks/film-127-hours-2010.webp",
+      "sha256": "4576ff4b0ad6c8dff572c0a159ca27421004c45f7bf2c1c6cf66ac28460c876c",
+      "bytes": 318566,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:1984-1984",
+      "wid": "1984-1984",
+      "title": "一九八四",
+      "file": "film-ai/decks/film-1984-1984.webp",
+      "sha256": "817fbdf62aac8939aeb890ea12ac76a187a8d476c2c9009bf979e6f6b3af3d42",
+      "bytes": 104548,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:2-or-3-things-i-know-about-her-1967",
+      "wid": "2-or-3-things-i-know-about-her-1967",
+      "title": "我略知她一二",
+      "file": "film-ai/decks/film-2-or-3-things-i-know-about-her-1967.webp",
+      "sha256": "018d21479f8209aea4a17e0de0bd9a0c3f5183468e31368c70c96c8f14946d17",
+      "bytes": 320560,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:2046-2004",
+      "wid": "2046-2004",
+      "title": "2046",
+      "file": "film-ai/decks/film-2046-2004.webp",
+      "sha256": "9dc3eff816d5f233a70f2cef373c70f5cf8e57c94c7a27f0f28c116cb527f9a2",
+      "bytes": 207162,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:21-grams-2003",
+      "wid": "21-grams-2003",
+      "title": "21 Grams",
+      "file": "film-ai/decks/film-21-grams-2003.webp",
+      "sha256": "42d883e4bdb3f340884ef5119864e98dc3c5a8ca05ad24c11f3c01376260c1fa",
+      "bytes": 177930,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:25th-hour-2002",
+      "wid": "25th-hour-2002",
+      "title": "25th Hour",
+      "file": "film-ai/decks/film-25th-hour-2002.webp",
+      "sha256": "badc552b6f04b39bc55717c04eba502ee19b607fdc6343fec2620bdeeb52881b",
+      "bytes": 209810,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:28-days-later-2002",
+      "wid": "28-days-later-2002",
+      "title": "28 Days Later",
+      "file": "film-ai/decks/film-28-days-later-2002.webp",
+      "sha256": "0a6110a18b01c1921d9ac96720dc35781f889df6ff959c1ae5a70d69b227d3ed",
+      "bytes": 174298,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:2pac-california-love-1996",
+      "wid": "2pac-california-love-1996",
+      "title": "California Love — 2Pac、Dr. Dre",
+      "file": "film-ai/decks/film-2pac-california-love-1996.webp",
+      "sha256": "b54ffa7fc150af513f30b5d5e4e828fa9993c49ef3c2c1631eca9199ab05c165",
+      "bytes": 327338,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:the-lin-family-shop-1959",
+      "wid": "the-lin-family-shop-1959",
+      "title": "林家铺子",
+      "file": "film-ai/decks/film-the-lin-family-shop-1959.webp",
+      "sha256": "b65e78dc0850811f455aaf8de19631b2d769e9cfabdedfdc5d73688c87b8f08b",
+      "bytes": 474728,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:1900-1976",
+      "wid": "1900-1976",
+      "title": "一九〇〇",
+      "file": "film-ai/decks/film-1900-1976.webp",
+      "sha256": "b1344946d3a6652025c9e0643a2840b3865a4596726f18f9342e8b4a80b32062",
+      "bytes": 340688,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:24-2001",
+      "wid": "24-2001",
+      "title": "反恐24小时",
+      "file": "film-ai/decks/film-24-2001.webp",
+      "sha256": "e0fd99c5af6f8785b5b8b44c847fa4d966eee34273ed2cd2045fafdbd74a6514",
+      "bytes": 233582,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:3-10-to-yuma-2007",
+      "wid": "3-10-to-yuma-2007",
+      "title": "决战犹马镇",
+      "file": "film-ai/decks/film-3-10-to-yuma-2007.webp",
+      "sha256": "1a750a6d2e448b6964d54462f047dfac15235593af2b23085e7b66945e2369e7",
+      "bytes": 232674,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:3-body-problem-2024",
+      "wid": "3-body-problem-2024",
+      "title": "三体（网飞版）",
+      "file": "film-ai/decks/film-3-body-problem-2024.webp",
+      "sha256": "ff7097574cd9d3547440b87d968a49f2c6092118a88b62e6ed8cf3e2ae86b259",
+      "bytes": 204528,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:3-idiots-2009",
+      "wid": "3-idiots-2009",
+      "title": "三傻大闹宝莱坞",
+      "file": "film-ai/decks/film-3-idiots-2009.webp",
+      "sha256": "196d8f77f744684732951d8d44389511b8663ca476b7644907d9f08dbdcc0cd3",
+      "bytes": 268070,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:3-iron-2004",
+      "wid": "3-iron-2004",
+      "title": "3-Iron",
+      "file": "film-ai/decks/film-3-iron-2004.webp",
+      "sha256": "bf3e91788878fe68c6102c7b2dcf07c1106d9bd17d1bdddbb7b4a52136703eac",
+      "bytes": 177058,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:3-women-1977",
+      "wid": "3-women-1977",
+      "title": "3 Women",
+      "file": "film-ai/decks/film-3-women-1977.webp",
+      "sha256": "fe72f02ea5a89df13d3189dde72015599254c98dd73ac41eedcda7bcf593a3e6",
+      "bytes": 125456,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:300-2006",
+      "wid": "300-2006",
+      "title": "300",
+      "file": "film-ai/decks/film-300-2006.webp",
+      "sha256": "a1c2bf5fe645f10f8b2a1c64f1c8741268ff00f243c51151e9b8c7e90fda711c",
+      "bytes": 356766,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:35-shots-of-rum-2008",
+      "wid": "35-shots-of-rum-2008",
+      "title": "35杯朗姆酒",
+      "file": "film-ai/decks/film-35-shots-of-rum-2008.webp",
+      "sha256": "da3fbef772372e63f6a09deaf18d7932f0bae183ef95d8b062c5503a44e095aa",
+      "bytes": 153806,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:4-months-3-weeks-and-2-days-2007",
+      "wid": "4-months-3-weeks-and-2-days-2007",
+      "title": "四月三周两天",
+      "file": "film-ai/decks/film-4-months-3-weeks-and-2-days-2007.webp",
+      "sha256": "45998dab3008d78f39b4e20dcf7afdad928cd1faf37bdc93e6c66b1dff3e7ff0",
+      "bytes": 141852,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:5-centimeters-per-second-2007",
+      "wid": "5-centimeters-per-second-2007",
+      "title": "秒速5厘米",
+      "file": "film-ai/decks/film-5-centimeters-per-second-2007.webp",
+      "sha256": "bac579fa7825dd3097b966850e18943ad1e9778b7c48954aaca9b2928e97993e",
+      "bytes": 248022,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:500-days-of-summer-2009",
+      "wid": "500-days-of-summer-2009",
+      "title": "500 Days of Summer",
+      "file": "film-ai/decks/film-500-days-of-summer-2009.webp",
+      "sha256": "556b3ed36af3afc1a3db3e2244b81a1ca498f45562f9837556bb3216e46354c4",
+      "bytes": 192758,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:71-2014",
+      "wid": "71-2014",
+      "title": "71：困兽之斗",
+      "file": "film-ai/decks/film-71-2014.webp",
+      "sha256": "ce4f477f3f22ad934b67cabe5f004d1c865dddd850159d1ae9ef8fb422cfd285",
+      "bytes": 136234,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-beautiful-mind-2001",
+      "wid": "a-beautiful-mind-2001",
+      "title": "美丽心灵",
+      "file": "film-ai/decks/film-a-beautiful-mind-2001.webp",
+      "sha256": "2b1a374f94ca4cc6cfd44473d3a8898a0f82283a2976c183ecbfbb127fd0d2f5",
+      "bytes": 212020,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-bittersweet-life-2005",
+      "wid": "a-bittersweet-life-2005",
+      "title": "甜蜜人生",
+      "file": "film-ai/decks/film-a-bittersweet-life-2005.webp",
+      "sha256": "541971c55af63315dcf56394453a0307ebb758c8fc544a0279dc5943862bb93f",
+      "bytes": 116842,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-borrowed-life-1994",
+      "wid": "a-borrowed-life-1994",
+      "title": "多桑",
+      "file": "film-ai/decks/film-a-borrowed-life-1994.webp",
+      "sha256": "b8d60638d0b058b7e475354d6b2438d24e7b02a4e2701a300cd2b9703208085a",
+      "bytes": 304120,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:42nd-street-1933",
+      "wid": "42nd-street-1933",
+      "title": "42nd Street",
+      "file": "film-ai/decks/film-42nd-street-1933.webp",
+      "sha256": "5861a0c1cbdf4961ac919dd46555f5a2d00938743bf7e458aaf8aaf4d2229532",
+      "bytes": 203256,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:8-women-2002",
+      "wid": "8-women-2002",
+      "title": "八美图",
+      "file": "film-ai/decks/film-8-women-2002.webp",
+      "sha256": "3c01ebc49049bef010f2cf2fdde5e67f2330aba8cd57a770abc48c0029c85685",
+      "bytes": 380418,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-chinese-ghost-story-1987",
+      "wid": "a-chinese-ghost-story-1987",
+      "title": "倩女幽魂",
+      "file": "film-ai/decks/film-a-chinese-ghost-story-1987.webp",
+      "sha256": "b38e6ff5dced0ef1d8373af6ff55a6436aa04f89c5ceb919499d49e34bfbb950",
+      "bytes": 217208,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:five-golden-flowers-1959",
+      "wid": "five-golden-flowers-1959",
+      "title": "五朵金花",
+      "file": "film-ai/decks/film-five-golden-flowers-1959.webp",
+      "sha256": "6e110f2174c1b6451823d958b46e19cb758878326a2f9a317c5d72e1b960870b",
+      "bytes": 496176,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:1987-when-the-day-comes-2017",
+      "wid": "1987-when-the-day-comes-2017",
+      "title": "1987：黎明到来的那一天",
+      "file": "film-ai/decks/film-1987-when-the-day-comes-2017.webp",
+      "sha256": "3f0e7cf2a88c0eaaa3fa8212ce0551696180f229f8c2594cb8010543755a540c",
+      "bytes": 243564,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-chinese-odyssey-part-one-pandoras-box-1995",
+      "wid": "a-chinese-odyssey-part-one-pandoras-box-1995",
+      "title": "大话西游之月光宝盒",
+      "file": "film-ai/decks/film-a-chinese-odyssey-part-one-pandoras-box-1995.webp",
+      "sha256": "827332139aa0e2958c255ce92ab912e706a134ab810fadae91d9023afb3d0646",
+      "bytes": 240968,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-chinese-odyssey-part-two-cinderella-1995",
+      "wid": "a-chinese-odyssey-part-two-cinderella-1995",
+      "title": "大话西游之大圣娶亲",
+      "file": "film-ai/decks/film-a-chinese-odyssey-part-two-cinderella-1995.webp",
+      "sha256": "3af9a7088180019c25b5d7587f5a3d719e5a903b1d2a95cdc38c557542d8d0ab",
+      "bytes": 198518,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-clockwork-orange-1971",
+      "wid": "a-clockwork-orange-1971",
+      "title": "A Clockwork Orange",
+      "file": "film-ai/decks/film-a-clockwork-orange-1971.webp",
+      "sha256": "84da7fb032989ccef96713e0efa7d50ff03fd31d2d2ea4dab8912b7043aab084",
+      "bytes": 139310,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-complete-unknown-2024",
+      "wid": "a-complete-unknown-2024",
+      "title": "无名小辈",
+      "file": "film-ai/decks/film-a-complete-unknown-2024.webp",
+      "sha256": "f8cd47c03be7706d18671ecd0690b30724adfde53cab908c175a02c1b1d0d2ab",
+      "bytes": 142108,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-cool-fish-2018",
+      "wid": "a-cool-fish-2018",
+      "title": "无名之辈",
+      "file": "film-ai/decks/film-a-cool-fish-2018.webp",
+      "sha256": "c59b975f1c157ac582b925ac0bc8e08e4cccfb3a6a2e37ed08cf20802df7ac09",
+      "bytes": 214960,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-family-in-northern-tibet-1991",
+      "wid": "a-family-in-northern-tibet-1991",
+      "title": "藏北人家",
+      "file": "film-ai/decks/film-a-family-in-northern-tibet-1991.webp",
+      "sha256": "8dd309c1489a18777b0e4b9eb8a77b14218d6499dce673d2239d060fa0c05e9d",
+      "bytes": 361050,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-fantastic-woman-2017",
+      "wid": "a-fantastic-woman-2017",
+      "title": "普通女人",
+      "file": "film-ai/decks/film-a-fantastic-woman-2017.webp",
+      "sha256": "a8b51be56e4e1635acdd0ea93db21960866e5862ffad0d2f118cc65b37ac52f8",
+      "bytes": 138658,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-field-in-england-2013",
+      "wid": "a-field-in-england-2013",
+      "title": "英格兰的田野",
+      "file": "film-ai/decks/film-a-field-in-england-2013.webp",
+      "sha256": "eb2dadacb66eef999e4928ac71c2f81ccb54c784710dad6812df52725fd35f2f",
+      "bytes": 291986,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-fistful-of-dollars-1964",
+      "wid": "a-fistful-of-dollars-1964",
+      "title": "荒野大镖客",
+      "file": "film-ai/decks/film-a-fistful-of-dollars-1964.webp",
+      "sha256": "b7e3548ff64eee949af79a653e1f0f496a2407ab103497c16a0fc75676bad6c7",
+      "bytes": 297146,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-flower-in-the-raining-night-1983",
+      "wid": "a-flower-in-the-raining-night-1983",
+      "title": "看海的日子",
+      "file": "film-ai/decks/film-a-flower-in-the-raining-night-1983.webp",
+      "sha256": "86dba19ed61a1881fd262a38caae4e74f6c207c5d8bea3ec9645d0702384fbcd",
+      "bytes": 232348,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-fool-2014",
+      "wid": "a-fool-2014",
+      "title": "一个勺子",
+      "file": "film-ai/decks/film-a-fool-2014.webp",
+      "sha256": "404cde8ff2f1e48d2f43db59a7577ffdc84a658d5829587aff1cf435a6460aa3",
+      "bytes": 317560,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-ghost-story-2017",
+      "wid": "a-ghost-story-2017",
+      "title": "A Ghost Story",
+      "file": "film-ai/decks/film-a-ghost-story-2017.webp",
+      "sha256": "c33e0d23d28415ae7a96c6ed2f272b45c8ac5f6b86d03ee8b54e5ff9bdef5674",
+      "bytes": 168006,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-girl-at-my-door-2014",
+      "wid": "a-girl-at-my-door-2014",
+      "title": "道熙呀",
+      "file": "film-ai/decks/film-a-girl-at-my-door-2014.webp",
+      "sha256": "5ad3feb6fe944f779c6732421a2d6724f724fcb86ac76970e741c0bbf52f35df",
+      "bytes": 148552,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-good-woman-1985",
+      "wid": "a-good-woman-1985",
+      "title": "良家妇女",
+      "file": "film-ai/decks/film-a-good-woman-1985.webp",
+      "sha256": "e62f41293942ce82e131d25c4735021924b6e7a246e5021f14c71af7f1f7ec44",
+      "bytes": 313572,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-guilty-conscience-2023",
+      "wid": "a-guilty-conscience-2023",
+      "title": "毒舌律师",
+      "file": "film-ai/decks/film-a-guilty-conscience-2023.webp",
+      "sha256": "996cf146f81c06e7fe1db4486d2f3828afb69ed30c825f71a5ce8519bd8eb362",
+      "bytes": 147276,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-ha-take-on-me-1985",
+      "wid": "a-ha-take-on-me-1985",
+      "title": "Take On Me — A-ha乐队",
+      "file": "film-ai/decks/film-a-ha-take-on-me-1985.webp",
+      "sha256": "104671cc4b01d96fd53dbaec00ca2a069b572e8174da3adb859754e844c9e882",
+      "bytes": 317140,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-hard-day-2014",
+      "wid": "a-hard-day-2014",
+      "title": "走到尽头",
+      "file": "film-ai/decks/film-a-hard-day-2014.webp",
+      "sha256": "d12fbb63960e250bda6f495d63536606c1e25fb6592f8760c087a36e565d178d",
+      "bytes": 165954,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-hard-days-night-1964",
+      "wid": "a-hard-days-night-1964",
+      "title": "A Hard Days Night",
+      "file": "film-ai/decks/film-a-hard-days-night-1964.webp",
+      "sha256": "3ad228895dfb9cbc8cedbc82161b62c14d9aac41367f6e1db2f540107c91c484",
+      "bytes": 211632,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-hero-2021",
+      "wid": "a-hero-2021",
+      "title": "一个英雄",
+      "file": "film-ai/decks/film-a-hero-2021.webp",
+      "sha256": "05937bf88a81562d59e6b2fa97bdc1139e16624d0762cc856c3d56f3c93d2e5b",
+      "bytes": 207498,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-hero-never-dies-1998",
+      "wid": "a-hero-never-dies-1998",
+      "title": "真心英雄",
+      "file": "film-ai/decks/film-a-hero-never-dies-1998.webp",
+      "sha256": "d6d2c28c7d2593d92a186e3b6b92560ee3f7bfd94998ad163bcb5ab7766ffd48",
+      "bytes": 164194,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-hidden-life-2019",
+      "wid": "a-hidden-life-2019",
+      "title": "A Hidden Life",
+      "file": "film-ai/decks/film-a-hidden-life-2019.webp",
+      "sha256": "7ab51a5002fb53899b36c9b7502299d222fdccca0218c584c3255ca12b3bebff",
+      "bytes": 217528,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-history-of-violence-2005",
+      "wid": "a-history-of-violence-2005",
+      "title": "A History of Violence",
+      "file": "film-ai/decks/film-a-history-of-violence-2005.webp",
+      "sha256": "1548df52f0386f59c7bb3ffa9d8a9caf9c88a9a56b0e2300aafe57707e5927a7",
+      "bytes": 118110,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-lifelong-journey-2022",
+      "wid": "a-lifelong-journey-2022",
+      "title": "人世间",
+      "file": "film-ai/decks/film-a-lifelong-journey-2022.webp",
+      "sha256": "502a183822afa9c788f1e2e34f94bcb4384d3ca582f73d6c56ab3e8c082b8c27",
+      "bytes": 328846,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-dream-of-splendor-2022",
+      "wid": "a-dream-of-splendor-2022",
+      "title": "梦华录",
+      "file": "film-ai/decks/film-a-dream-of-splendor-2022.webp",
+      "sha256": "d2d06a589c69dab1263e605fa2e1dd3636e6a433585732c07d00ab3e4bf6924b",
+      "bytes": 320592,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-little-reunion-2019",
+      "wid": "a-little-reunion-2019",
+      "title": "小欢喜",
+      "file": "film-ai/decks/film-a-little-reunion-2019.webp",
+      "sha256": "8ed125c3500a52e6904b831d6678150281165cc1440991a7ae8ff6e5ea500fa0",
+      "bytes": 314314,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-man-and-a-woman-1966",
+      "wid": "a-man-and-a-woman-1966",
+      "title": "Un Homme et Une Femme",
+      "file": "film-ai/decks/film-a-man-and-a-woman-1966.webp",
+      "sha256": "8bbc0d3197f55a310a0f67624b59f287ef55b1e4506c9671152961458c77fbb6",
+      "bytes": 149654,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-man-escaped-1956",
+      "wid": "a-man-escaped-1956",
+      "title": "死囚越狱",
+      "file": "film-ai/decks/film-a-man-escaped-1956.webp",
+      "sha256": "a09900d49579fff284d3a18ec22c56f35a23cd7a2a99545836a7e714a9406a71",
+      "bytes": 225362,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-man-for-all-seasons-1966",
+      "wid": "a-man-for-all-seasons-1966",
+      "title": "良相佐国",
+      "file": "film-ai/decks/film-a-man-for-all-seasons-1966.webp",
+      "sha256": "55a1d5ee13c74587e8b8dad7989f792212ed3667dfa5e551f1edf69d09e7dd74",
+      "bytes": 251974,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-moment-of-romance-1990",
+      "wid": "a-moment-of-romance-1990",
+      "title": "天若有情",
+      "file": "film-ai/decks/film-a-moment-of-romance-1990.webp",
+      "sha256": "9bee8305a7162d10420853456263f29609fd60dd49c7630bfeb5de669b693f0a",
+      "bytes": 276034,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-moment-to-remember-2004",
+      "wid": "a-moment-to-remember-2004",
+      "title": "我脑海中的橡皮擦",
+      "file": "film-ai/decks/film-a-moment-to-remember-2004.webp",
+      "sha256": "e625bdc36fe8a4795ba61841b789b1498ee809e7ab21f46fc3584a3fff9eaef8",
+      "bytes": 208718,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-most-violent-year-2014",
+      "wid": "a-most-violent-year-2014",
+      "title": "A Most Violent Year",
+      "file": "film-ai/decks/film-a-most-violent-year-2014.webp",
+      "sha256": "a36f5f939ba08da1ae95d21cc3b6aef5e86ede475b61c642a84484be4a2f81d3",
+      "bytes": 231210,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-native-of-beijing-in-new-york-1993",
+      "wid": "a-native-of-beijing-in-new-york-1993",
+      "title": "北京人在纽约",
+      "file": "film-ai/decks/film-a-native-of-beijing-in-new-york-1993.webp",
+      "sha256": "cd36c188e0a2114515deef12fadc5fbd3284af69a0c6b4e3fa4daeafce95db86",
+      "bytes": 216966,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-nightmare-on-elm-street-1984",
+      "wid": "a-nightmare-on-elm-street-1984",
+      "title": "A Nightmare On Elm Street",
+      "file": "film-ai/decks/film-a-nightmare-on-elm-street-1984.webp",
+      "sha256": "6daea1809a8a64f6f1430ada6437ea99fdbe522062fc7f47260a69fafbfcbee0",
+      "bytes": 174732,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-passage-to-india-1984",
+      "wid": "a-passage-to-india-1984",
+      "title": "印度之行",
+      "file": "film-ai/decks/film-a-passage-to-india-1984.webp",
+      "sha256": "e92c920f41c196cd6a325465ba670e19cde3d87d0e7564a94977e4910640ef0a",
+      "bytes": 282030,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-pigeon-sat-on-a-branch-reflecting-on-existence-2014",
+      "wid": "a-pigeon-sat-on-a-branch-reflecting-on-existence-2014",
+      "title": "寒枝雀静",
+      "file": "film-ai/decks/film-a-pigeon-sat-on-a-branch-reflecting-on-existence-2014.webp",
+      "sha256": "a46847c72dc3f83bef4469df57cbe7c94976a49fb650ddf386f0f47c0fb39220",
+      "bytes": 152032,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-place-in-the-sun-1951",
+      "wid": "a-place-in-the-sun-1951",
+      "title": "郎心如铁",
+      "file": "film-ai/decks/film-a-place-in-the-sun-1951.webp",
+      "sha256": "4f4892bfae4d8cab57cedb4591766da40eed0393c458ac90ddd7495d28de7871",
+      "bytes": 149052,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-prophet-2009",
+      "wid": "a-prophet-2009",
+      "title": "预言者",
+      "file": "film-ai/decks/film-a-prophet-2009.webp",
+      "sha256": "ff831fa5eb0d261da8bece20f8720b3828ebfdd88953f29b77a5ebd069adeb48",
+      "bytes": 126048,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-quiet-place-2018",
+      "wid": "a-quiet-place-2018",
+      "title": "A Quiet Place",
+      "file": "film-ai/decks/film-a-quiet-place-2018.webp",
+      "sha256": "ef8f2ce3489a1318cc2aad6c47ae0f767687d33adf3055d1569a0f5a90a53059",
+      "bytes": 417292,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-r-rahman-vande-mataram-1997",
+      "wid": "a-r-rahman-vande-mataram-1997",
+      "title": "Vande Mataram — A.R.拉赫曼",
+      "file": "film-ai/decks/film-a-r-rahman-vande-mataram-1997.webp",
+      "sha256": "c8aac887357c0daa0ccf59fb5232d49eec1db6edf14caa0a4673390b0f18d6a0",
+      "bytes": 275134,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-river-runs-through-it-1992",
+      "wid": "a-river-runs-through-it-1992",
+      "title": "大河恋",
+      "file": "film-ai/decks/film-a-river-runs-through-it-1992.webp",
+      "sha256": "8892a95d58e6373d33ab7daad4d544b758a6483d62be97484060517a4b1f9b66",
+      "bytes": 363050,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-room-with-a-view-1985",
+      "wid": "a-room-with-a-view-1985",
+      "title": "A Room With A View",
+      "file": "film-ai/decks/film-a-room-with-a-view-1985.webp",
+      "sha256": "a7f27fddcc039fc0cee9757ff8fc15083ebc5b53d09e5ce0690a6dd0101f54cb",
+      "bytes": 277624,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-scene-at-the-sea-1991",
+      "wid": "a-scene-at-the-sea-1991",
+      "title": "A Scene at the Sea",
+      "file": "film-ai/decks/film-a-scene-at-the-sea-1991.webp",
+      "sha256": "4173ed02ae0221ebf72137d8218d79717d1825d88e01a01f36521cb6f7f58e7b",
+      "bytes": 170442,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-serious-man-2009",
+      "wid": "a-serious-man-2009",
+      "title": "A Serious Man",
+      "file": "film-ai/decks/film-a-serious-man-2009.webp",
+      "sha256": "1c72caba0eb9b5bf355bca998ee00f48b41ffe3721b9eb618c228ae4ec2d735f",
+      "bytes": 262104,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-short-film-about-killing-1988",
+      "wid": "a-short-film-about-killing-1988",
+      "title": "杀人短片",
+      "file": "film-ai/decks/film-a-short-film-about-killing-1988.webp",
+      "sha256": "53785e1589f62ff6de85e7f67cd2137fa941b7022555b05dececd5b20c09455b",
+      "bytes": 104512,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-short-film-about-love-1988",
+      "wid": "a-short-film-about-love-1988",
+      "title": "爱情短片",
+      "file": "film-ai/decks/film-a-short-film-about-love-1988.webp",
+      "sha256": "ca4e2275bdf4236dcb8182ab873e243273e8fb1888bc7bb03094a73a89b92080",
+      "bytes": 175570,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-silent-voice-2016",
+      "wid": "a-silent-voice-2016",
+      "title": "声之形",
+      "file": "film-ai/decks/film-a-silent-voice-2016.webp",
+      "sha256": "bfa8e655311f9343be83b3d87b65ea0bfd80701a4e30cbd211b2ff599d6b61ab",
+      "bytes": 222314,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-simple-life-2011",
+      "wid": "a-simple-life-2011",
+      "title": "桃姐",
+      "file": "film-ai/decks/film-a-simple-life-2011.webp",
+      "sha256": "c57ced86ab8ed29698c8bf8f0a84f9d174551238941e8419ef4738cfdc8dd522",
+      "bytes": 211508,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-single-man-2009",
+      "wid": "a-single-man-2009",
+      "title": "A Single Man",
+      "file": "film-ai/decks/film-a-single-man-2009.webp",
+      "sha256": "d4f2d44702d777e6c8386ffa59d29cf9a06fe98edb4396b8155a3e0f187f5521",
+      "bytes": 259720,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-star-is-born-1954",
+      "wid": "a-star-is-born-1954",
+      "title": "星海浮沉录",
+      "file": "film-ai/decks/film-a-star-is-born-1954.webp",
+      "sha256": "29889b4c355784a38894ae00e1366b9fe58aaf966f527945db8b3e52108ade75",
+      "bytes": 244298,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-star-is-born-2018",
+      "wid": "a-star-is-born-2018",
+      "title": "A Star Is Born",
+      "file": "film-ai/decks/film-a-star-is-born-2018.webp",
+      "sha256": "7c27c8ab2f1c46d84bf4cbd37b72fb31ccb8d6308bcd16dfb69295ba635e5d49",
+      "bytes": 242006,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-step-into-the-past-2001",
+      "wid": "a-step-into-the-past-2001",
+      "title": "寻秦记",
+      "file": "film-ai/decks/film-a-step-into-the-past-2001.webp",
+      "sha256": "41c789a0d7a4f35458e2cd90ee7fb52c8b8fc18e9e89b460cb3b046fa3722bbd",
+      "bytes": 334464,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-story-from-chikamatsu-1954",
+      "wid": "a-story-from-chikamatsu-1954",
+      "title": "近松物语",
+      "file": "film-ai/decks/film-a-story-from-chikamatsu-1954.webp",
+      "sha256": "ec5bb5d269b5ae920fbeabb61e060d52f2e9ac6feb9a9ba381f900f115203d68",
+      "bytes": 158276,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-summer-at-grandpas-1984",
+      "wid": "a-summer-at-grandpas-1984",
+      "title": "冬冬的假期",
+      "file": "film-ai/decks/film-a-summer-at-grandpas-1984.webp",
+      "sha256": "33ba7db0a3aa3f20d138badeb248b653a900a1b4f4a17849e45ace1ea7dcb2e8",
+      "bytes": 494234,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-sun-2019",
+      "wid": "a-sun-2019",
+      "title": "阳光普照",
+      "file": "film-ai/decks/film-a-sun-2019.webp",
+      "sha256": "bbba663de3f40751f3f097970e941617b4a674fdee121642336fb2e0a150fe51",
+      "bytes": 172114,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-sunday-in-the-country-1984",
+      "wid": "a-sunday-in-the-country-1984",
+      "title": "乡村的星期天",
+      "file": "film-ai/decks/film-a-sunday-in-the-country-1984.webp",
+      "sha256": "3d7818bb5f8753b833f51a328637dfc8cbf4c772715ff1460bb83553d6fb90a7",
+      "bytes": 367626,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-tale-of-two-sisters-2003",
+      "wid": "a-tale-of-two-sisters-2003",
+      "title": "A Tale of Two Sisters",
+      "file": "film-ai/decks/film-a-tale-of-two-sisters-2003.webp",
+      "sha256": "8a73c906b0284f5db6790d0270bf7c6e04599ca475ba5d47e5da9855ee813c85",
+      "bytes": 136320,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-taxi-driver-2017",
+      "wid": "a-taxi-driver-2017",
+      "title": "出租车司机",
+      "file": "film-ai/decks/film-a-taxi-driver-2017.webp",
+      "sha256": "e1b072ddc45b4f830f5955046eb245b6d5c45022ace3ad665555c2d8f560a8d2",
+      "bytes": 159124,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-time-for-drunken-horses-2000",
+      "wid": "a-time-for-drunken-horses-2000",
+      "title": "醉马时刻",
+      "file": "film-ai/decks/film-a-time-for-drunken-horses-2000.webp",
+      "sha256": "cc3019aea409609fa048917ce5078a0db4b666e72464934409fe512a2b8dc9f1",
+      "bytes": 432142,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-time-to-live-a-time-to-die-1985",
+      "wid": "a-time-to-live-a-time-to-die-1985",
+      "title": "童年往事",
+      "file": "film-ai/decks/film-a-time-to-live-a-time-to-die-1985.webp",
+      "sha256": "f54bf9fb7e91820d2bd95023a50077669bf69b89ac128ca282d99bfc20a42661",
+      "bytes": 284044,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-touch-of-green-2015",
+      "wid": "a-touch-of-green-2015",
+      "title": "一把青",
+      "file": "film-ai/decks/film-a-touch-of-green-2015.webp",
+      "sha256": "f920b988b9195e5886d366f39465a999b1ea416535ac49ba40b402f73c98cf04",
+      "bytes": 325766,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-touch-of-sin-2013",
+      "wid": "a-touch-of-sin-2013",
+      "title": "天注定",
+      "file": "film-ai/decks/film-a-touch-of-sin-2013.webp",
+      "sha256": "44b5be64cdc1b8d017e3dc754c2cb62e15637a040e28705bb4ccd45a0f5ca946",
+      "bytes": 255424,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-trip-to-the-moon-1902",
+      "wid": "a-trip-to-the-moon-1902",
+      "title": "月球旅行记",
+      "file": "film-ai/decks/film-a-trip-to-the-moon-1902.webp",
+      "sha256": "b01a7be212e09e491716ed9126eb9b7c6614b9416586c140ae88dba67a664289",
+      "bytes": 278332,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-very-long-engagement-2004",
+      "wid": "a-very-long-engagement-2004",
+      "title": "漫长的婚约",
+      "file": "film-ai/decks/film-a-very-long-engagement-2004.webp",
+      "sha256": "0ae01de7e71e696f1fc3318e537b729956881a489b7dfb1be2ca24fbdb9dd4ce",
+      "bytes": 287468,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-wenzhou-family-2012",
+      "wid": "a-wenzhou-family-2012",
+      "title": "温州一家人",
+      "file": "film-ai/decks/film-a-wenzhou-family-2012.webp",
+      "sha256": "7c0ac2f892d38b4c6e11d647f0e9ab565684c77c49ab51e11aef839a352315bf",
+      "bytes": 342232,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-woman-under-the-influence-1974",
+      "wid": "a-woman-under-the-influence-1974",
+      "title": "A Woman Under the Influence",
+      "file": "film-ai/decks/film-a-woman-under-the-influence-1974.webp",
+      "sha256": "3954d48982ae006d374fc4906af461ebf5dba88a1eebae8da55ba7627ec1da90",
+      "bytes": 228384,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-world-without-thieves-2004",
+      "wid": "a-world-without-thieves-2004",
+      "title": "天下无贼",
+      "file": "film-ai/decks/film-a-world-without-thieves-2004.webp",
+      "sha256": "1f6ff9edcd9f67f2ad5d95899c0ceb9dfd11de3b241c818fc065234e6c561932",
+      "bytes": 277416,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:a-writers-odyssey-2021",
+      "wid": "a-writers-odyssey-2021",
+      "title": "刺杀小说家",
+      "file": "film-ai/decks/film-a-writers-odyssey-2021.webp",
+      "sha256": "dea3086b8199ed17c6f75603a9f7b2d4c03808efdf088c0ff3f938b76d43d19b",
+      "bytes": 278874,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:about-dry-grasses-2023",
+      "wid": "about-dry-grasses-2023",
+      "title": "枯草",
+      "file": "film-ai/decks/film-about-dry-grasses-2023.webp",
+      "sha256": "5cc59207853a819e0b47b48c4b097a047bd138e54d1727a1f9195ed4edbe07fc",
+      "bytes": 254106,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:about-elly-2009",
+      "wid": "about-elly-2009",
+      "title": "关于伊丽",
+      "file": "film-ai/decks/film-about-elly-2009.webp",
+      "sha256": "ae7d6822c1a0b05988a012a2ccaf46ecaeb4ead3d723d920f2e76fc2f4fed6b9",
+      "bytes": 234580,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:abrahams-valley-1993",
+      "wid": "abrahams-valley-1993",
+      "title": "亚伯拉罕山谷",
+      "file": "film-ai/decks/film-abrahams-valley-1993.webp",
+      "sha256": "fd9ebb8cc43dd089832301674ef6a351b71116d530639274f13f497894370c42",
+      "bytes": 325534,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:accattone-1961",
+      "wid": "accattone-1961",
+      "title": "乞丐",
+      "file": "film-ai/decks/film-accattone-1961.webp",
+      "sha256": "67efb3c380b09e4fd54526f3888654ebb6c8e6018051112c9bc15cc18d1ea45f",
+      "bytes": 434264,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:ace-in-the-hole-1951",
+      "wid": "ace-in-the-hole-1951",
+      "title": "倒扣的王牌",
+      "file": "film-ai/decks/film-ace-in-the-hole-1951.webp",
+      "sha256": "f195f74495ef0063dae699e7f3a84958e2b604f822bc0740ce17fe15b940ed67",
+      "bytes": 304396,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:aces-go-places-1982",
+      "wid": "aces-go-places-1982",
+      "title": "最佳拍档",
+      "file": "film-ai/decks/film-aces-go-places-1982.webp",
+      "sha256": "f862ad9bb9d06d2224e2bf9fa43399929f7a85663c51e1b59cc6e5610b973490",
+      "bytes": 281706,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:across-the-furious-sea-2023",
+      "wid": "across-the-furious-sea-2023",
+      "title": "涉过愤怒的海",
+      "file": "film-ai/decks/film-across-the-furious-sea-2023.webp",
+      "sha256": "ca0ca935c9cba6cabbb8b1e81d1b68624410a8d046eed81c87d4e85de09576d4",
+      "bytes": 227136,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:ad-astra-2019",
+      "wid": "ad-astra-2019",
+      "title": "Ad Astra",
+      "file": "film-ai/decks/film-ad-astra-2019.webp",
+      "sha256": "3c946f06079edb9ea6f177e154647c7b4a31a077e5394578af21b304023b6425",
+      "bytes": 143940,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:adaptation-2002",
+      "wid": "adaptation-2002",
+      "title": "Adaptation",
+      "file": "film-ai/decks/film-adaptation-2002.webp",
+      "sha256": "a2a3d65c85690f580212817de8c1a7b6e1dd364b01372fc6e019734b147c7532",
+      "bytes": 215788,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:adele-hello-2015",
+      "wid": "adele-hello-2015",
+      "title": "Hello — 阿黛尔",
+      "file": "film-ai/decks/film-adele-hello-2015.webp",
+      "sha256": "045b091beee5e2cc953551583044b93a83601c6afd6aaf25b99c9818bdc924be",
+      "bytes": 157310,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:adele-rolling-in-the-deep-2010",
+      "wid": "adele-rolling-in-the-deep-2010",
+      "title": "Rolling in the Deep — 阿黛尔",
+      "file": "film-ai/decks/film-adele-rolling-in-the-deep-2010.webp",
+      "sha256": "5aa288e693b3e236aa3cfd24fa5ab2c376900ff62279f09a914712a5fecfa2c7",
+      "bytes": 179942,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:adidas-hello-tomorrow-2005",
+      "wid": "adidas-hello-tomorrow-2005",
+      "title": "阿迪达斯·你好明天",
+      "file": "film-ai/decks/film-adidas-hello-tomorrow-2005.webp",
+      "sha256": "0b2412a36233da04f4d65abe82bb3e1eb34515e1753c4701d7afc463ccc05adc",
+      "bytes": 224106,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:adolescence-2025",
+      "wid": "adolescence-2025",
+      "title": "混沌少年时",
+      "file": "film-ai/decks/film-adolescence-2025.webp",
+      "sha256": "a508302a6c21d67ad9b0cef4175ded60b7c999087dfdfd9d613bec739e1a75fb",
+      "bytes": 98152,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:after-hours-1985",
+      "wid": "after-hours-1985",
+      "title": "After Hours",
+      "file": "film-ai/decks/film-after-hours-1985.webp",
+      "sha256": "676a33d42f2e186b05c455f9f06003cee7b9961c27317718d585bf5a2c4da3ae",
+      "bytes": 262698,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:after-life-1998",
+      "wid": "after-life-1998",
+      "title": "下一站，天国",
+      "file": "film-ai/decks/film-after-life-1998.webp",
+      "sha256": "59571b8d27277e6ffb23325cd3760829ddac3f33ac9f14defe9e19f36fd4b79e",
+      "bytes": 110828,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:after-the-storm-2016",
+      "wid": "after-the-storm-2016",
+      "title": "比海更深",
+      "file": "film-ai/decks/film-after-the-storm-2016.webp",
+      "sha256": "e9a5db067cac5629a449975f81e8d07a91b115c9791cafdb408be88202215491",
+      "bytes": 320934,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:after-this-our-exile-2006",
+      "wid": "after-this-our-exile-2006",
+      "title": "父子",
+      "file": "film-ai/decks/film-after-this-our-exile-2006.webp",
+      "sha256": "c03602692f6500f900c0f6c4973656add7eeea132d4b1b4bc7d0807eff02db79",
+      "bytes": 308916,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:after-yang-2021",
+      "wid": "after-yang-2021",
+      "title": "After Yang",
+      "file": "film-ai/decks/film-after-yang-2021.webp",
+      "sha256": "4b806ba6e6d676ab5ab1e22da504db046caa398b756a64a2704bbd843b79bb92",
+      "bytes": 166640,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:aftershock-2010",
+      "wid": "aftershock-2010",
+      "title": "唐山大地震",
+      "file": "film-ai/decks/film-aftershock-2010.webp",
+      "sha256": "87a281f57bb161a1f471e8dd6e344f66abe42edbf06f797eff321124525d5680",
+      "bytes": 226944,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:agatha-christies-poirot-1989",
+      "wid": "agatha-christies-poirot-1989",
+      "title": "大侦探波洛",
+      "file": "film-ai/decks/film-agatha-christies-poirot-1989.webp",
+      "sha256": "54d68d67fd1cf1e2720148c960a6764d1d2ac965f051febba9efce0cff7dfe86",
+      "bytes": 346830,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:agora-2009",
+      "wid": "agora-2009",
+      "title": "城市广场",
+      "file": "film-ai/decks/film-agora-2009.webp",
+      "sha256": "7bc858a6480ce06b747335646faaf7f1450780b4fc566626f08538e0aaf5affb",
+      "bytes": 320014,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:aguirre-the-wrath-of-god-1972",
+      "wid": "aguirre-the-wrath-of-god-1972",
+      "title": "阿基尔，上帝的愤怒",
+      "file": "film-ai/decks/film-aguirre-the-wrath-of-god-1972.webp",
+      "sha256": "4306d66353999e0442482aa1cbaf9aa065f000a8934d9a6e206cfb51a1b91a9e",
+      "bytes": 343106,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:ah-fei-1984",
+      "wid": "ah-fei-1984",
+      "title": "油麻菜籽",
+      "file": "film-ai/decks/film-ah-fei-1984.webp",
+      "sha256": "4b92c4b1017d6400705487692f0980e2d4be5ed58a9e409e8e7c0cca16ac5d8d",
+      "bytes": 211704,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:ah-ying-1983",
+      "wid": "ah-ying-1983",
+      "title": "半边人",
+      "file": "film-ai/decks/film-ah-ying-1983.webp",
+      "sha256": "e9476d44274180d36702e25925b4f330113fde601da63a170faa2620511feb56",
+      "bytes": 310244,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:ai-artificial-intelligence-2001",
+      "wid": "ai-artificial-intelligence-2001",
+      "title": "A.I. Artificial Intelligence",
+      "file": "film-ai/decks/film-ai-artificial-intelligence-2001.webp",
+      "sha256": "aa4f4124dc47f8855ca4917102113110acdfc446372efbd6161c09c3343a0705",
+      "bytes": 281928,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:aimless-bullet-1961",
+      "wid": "aimless-bullet-1961",
+      "title": "误发弹",
+      "file": "film-ai/decks/film-aimless-bullet-1961.webp",
+      "sha256": "5ddb50055483579182b51ec9c0477b62c4317ed7687db2c0daa0091fd7eec276",
+      "bytes": 297884,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:akira-1988",
+      "wid": "akira-1988",
+      "title": "Akira",
+      "file": "film-ai/decks/film-akira-1988.webp",
+      "sha256": "7c4163c36e949a115ec948f9112025b81a505ff2f9e5d769b9a71507c9b94845",
+      "bytes": 293104,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:alanis-morissette-ironic-1996",
+      "wid": "alanis-morissette-ironic-1996",
+      "title": "Ironic — 艾拉妮丝·莫莉塞特",
+      "file": "film-ai/decks/film-alanis-morissette-ironic-1996.webp",
+      "sha256": "d307a526ec433381b7d994d5edf00a61d5150037bcb1a39beda240bef66d788f",
+      "bytes": 308084,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:alcarras-2022",
+      "wid": "alcarras-2022",
+      "title": "阿尔卡拉斯",
+      "file": "film-ai/decks/film-alcarras-2022.webp",
+      "sha256": "a1627b08dc44f875ffda5202715f9e00551a95627b6f1c8050694c9a74d67083",
+      "bytes": 417022,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:alexander-nevsky-1938",
+      "wid": "alexander-nevsky-1938",
+      "title": "亚历山大·涅夫斯基",
+      "file": "film-ai/decks/film-alexander-nevsky-1938.webp",
+      "sha256": "eaeb5d891134082c4e8dc8f21c3ad973a8b90824d31a3775cb853d39c2573785",
+      "bytes": 244344,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:alfred-hitchcock-presents-1955",
+      "wid": "alfred-hitchcock-presents-1955",
+      "title": "希区柯克剧场",
+      "file": "film-ai/decks/film-alfred-hitchcock-presents-1955.webp",
+      "sha256": "8cc62ea9d2ab16d370ce3a733b4336d466392a885775ea5eb2a52804d7f64fe2",
+      "bytes": 186910,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:ali-fear-eats-the-soul-1974",
+      "wid": "ali-fear-eats-the-soul-1974",
+      "title": "恐惧吞噬灵魂",
+      "file": "film-ai/decks/film-ali-fear-eats-the-soul-1974.webp",
+      "sha256": "c797d3e05f4b506f2f17f73ca0c8ec5f4fca86e6d9ebb1f4f8f3be2a264c7d1b",
+      "bytes": 176090,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:alias-grace-2017",
+      "wid": "alias-grace-2017",
+      "title": "双面格蕾丝",
+      "file": "film-ai/decks/film-alias-grace-2017.webp",
+      "sha256": "89446bc4339a2a9d9e67056f0e387f5a2cc9d22760199a2edf8f4b75a97bc67a",
+      "bytes": 149308,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:alice-1988",
+      "wid": "alice-1988",
+      "title": "爱丽丝",
+      "file": "film-ai/decks/film-alice-1988.webp",
+      "sha256": "3767355e57e0c8c125459bea92da3f6afa9adcdf5a0a00311edc1a5ed1709cdc",
+      "bytes": 286986,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:alice-in-borderland-2020",
+      "wid": "alice-in-borderland-2020",
+      "title": "弥留之国的爱丽丝",
+      "file": "film-ai/decks/film-alice-in-borderland-2020.webp",
+      "sha256": "27484f1d5dfb1f20f3834e79c11419e941a91750610b25f2289732d4e1dc5c73",
+      "bytes": 342448,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:alice-in-wonderland-1951",
+      "wid": "alice-in-wonderland-1951",
+      "title": "爱丽丝梦游仙境",
+      "file": "film-ai/decks/film-alice-in-wonderland-1951.webp",
+      "sha256": "1307576ac4f9dabb560f390b46b5c79ba3a0592ba237b3eeb664257a6d750f66",
+      "bytes": 351294,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:alien-1979",
+      "wid": "alien-1979",
+      "title": "异形",
+      "file": "film-ai/decks/film-alien-1979.webp",
+      "sha256": "aceaf010c6cc523aeafabccc156fa674382fe235226c61eff821a9136e337a8d",
+      "bytes": 171916,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:aliens-1986",
+      "wid": "aliens-1986",
+      "title": "异形2",
+      "file": "film-ai/decks/film-aliens-1986.webp",
+      "sha256": "33fd3bef720901ea03bd8aaa8bd0eada1c715d8759a2352c1bb6262761ebabc9",
+      "bytes": 304426,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:all-about-ah-long-1989",
+      "wid": "all-about-ah-long-1989",
+      "title": "阿郎的故事",
+      "file": "film-ai/decks/film-all-about-ah-long-1989.webp",
+      "sha256": "0368738ddfe8f83250fc14ea3148ddea21df6fbf419873402d20b08461c67a3f",
+      "bytes": 221882,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:all-about-eve-1950",
+      "wid": "all-about-eve-1950",
+      "title": "彗星美人",
+      "file": "film-ai/decks/film-all-about-eve-1950.webp",
+      "sha256": "8208400c831cfcf625016cfa496de1c64a0c86ef241a0c581b224086f7df0227",
+      "bytes": 162622,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:all-about-lily-chou-chou-2001",
+      "wid": "all-about-lily-chou-chou-2001",
+      "title": "关于莉莉周的一切",
+      "file": "film-ai/decks/film-all-about-lily-chou-chou-2001.webp",
+      "sha256": "f3cc3380e42e2bf4bef6c845cc26f2fdf8e149176a3ad7b3067dc668d43252ae",
+      "bytes": 147608,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:all-about-my-mother-1999",
+      "wid": "all-about-my-mother-1999",
+      "title": "关于我母亲的一切",
+      "file": "film-ai/decks/film-all-about-my-mother-1999.webp",
+      "sha256": "f94f167dc1a366df6e1ae93158ffdc00f64025c1d20caacfb42961df03062bfc",
+      "bytes": 288616,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:all-is-well-2019",
+      "wid": "all-is-well-2019",
+      "title": "都挺好",
+      "file": "film-ai/decks/film-all-is-well-2019.webp",
+      "sha256": "f66c7c9e4ec3399d1d1246b9c1a45be5a3b08e493035999fcb2cd826f155c417",
+      "bytes": 179786,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:all-of-us-are-dead-2022",
+      "wid": "all-of-us-are-dead-2022",
+      "title": "僵尸校园",
+      "file": "film-ai/decks/film-all-of-us-are-dead-2022.webp",
+      "sha256": "dbbffa91c4516223e9db77709fe6841f4b8e248c88da85ef1509cadcf1d9ce99",
+      "bytes": 228178,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:all-quiet-in-peking-2014",
+      "wid": "all-quiet-in-peking-2014",
+      "title": "北平无战事",
+      "file": "film-ai/decks/film-all-quiet-in-peking-2014.webp",
+      "sha256": "567930f7684c444ff8caa3dfaba7118d6d8e48bd3b2010e8f383570d6fdb5fc0",
+      "bytes": 220246,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:all-quiet-on-the-western-front-1930",
+      "wid": "all-quiet-on-the-western-front-1930",
+      "title": "西线无战事",
+      "file": "film-ai/decks/film-all-quiet-on-the-western-front-1930.webp",
+      "sha256": "1e151c6f46793156b667fc6f4a5bcfb5e66e2f408b13e47ca612a42a531a269e",
+      "bytes": 232596,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:all-quiet-on-the-western-front-2022",
+      "wid": "all-quiet-on-the-western-front-2022",
+      "title": "西线无战事",
+      "file": "film-ai/decks/film-all-quiet-on-the-western-front-2022.webp",
+      "sha256": "30ec342f1544e249c6de3cb24f86f5765099ada5944af02b820bb5ca27699fa6",
+      "bytes": 171542,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:all-that-breathes-2022",
+      "wid": "all-that-breathes-2022",
+      "title": "呼吸的万物",
+      "file": "film-ai/decks/film-all-that-breathes-2022.webp",
+      "sha256": "1afdabd8f0dcb8e087d7fd82fef34aeb9bfe5b0c9d45a1f9841548b1eb7ac24f",
+      "bytes": 224902,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:all-that-heaven-allows-1955",
+      "wid": "all-that-heaven-allows-1955",
+      "title": "深锁春光一院愁",
+      "file": "film-ai/decks/film-all-that-heaven-allows-1955.webp",
+      "sha256": "53d1cb9a79e5f53994c4c4ab74a5026f7c4b33ae661339ac96d75d459b6a1bd8",
+      "bytes": 283542,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:all-that-jazz-1979",
+      "wid": "all-that-jazz-1979",
+      "title": "爵士春秋",
+      "file": "film-ai/decks/film-all-that-jazz-1979.webp",
+      "sha256": "c7d79b1aa9b7b8baa34de5241d1622762ebc9a32d80fb0b73abe349bdf2ca751",
+      "bytes": 287756,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:all-the-kings-men-1949",
+      "wid": "all-the-kings-men-1949",
+      "title": "当代奸雄",
+      "file": "film-ai/decks/film-all-the-kings-men-1949.webp",
+      "sha256": "1cd34ae6f86937690a8f9ea8c1889f08869b968366b74bc537fba47e68cd833b",
+      "bytes": 218660,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:all-we-imagine-as-light-2024",
+      "wid": "all-we-imagine-as-light-2024",
+      "title": "所有我们想象的光",
+      "file": "film-ai/decks/film-all-we-imagine-as-light-2024.webp",
+      "sha256": "d09c53ddcccd12a8dca9147f05eb33651e1bde38f8968cdca5f9201993747c02",
+      "bytes": 260428,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:almost-famous-2000",
+      "wid": "almost-famous-2000",
+      "title": "Almost Famous",
+      "file": "film-ai/decks/film-almost-famous-2000.webp",
+      "sha256": "5a31df51224c0cc46556082c6b3294eb86c39b2b9c998ee9d91376ac47402944",
+      "bytes": 350920,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:along-with-the-gods-the-two-worlds-2017",
+      "wid": "along-with-the-gods-the-two-worlds-2017",
+      "title": "与神同行",
+      "file": "film-ai/decks/film-along-with-the-gods-the-two-worlds-2017.webp",
+      "sha256": "1d9eb2d2c4dfcb32f8ecf6e702a1a6acf6cd4be01e356dcac1a1acf1dfba3659",
+      "bytes": 469068,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:alphaville-1965",
+      "wid": "alphaville-1965",
+      "title": "Alphaville",
+      "file": "film-ai/decks/film-alphaville-1965.webp",
+      "sha256": "3c093028f30c401291155592c67b7e04a81c6a7d8da6f127f93a3422f5c2dcbb",
+      "bytes": 233378,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:altered-carbon-2018",
+      "wid": "altered-carbon-2018",
+      "title": "副本",
+      "file": "film-ai/decks/film-altered-carbon-2018.webp",
+      "sha256": "a4f9dcc2a30d988d9c8dd6efd3c3d7a23e917558da0031158e84dae55f82f8f1",
+      "bytes": 285226,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:always-like-a-girl-2014",
+      "wid": "always-like-a-girl-2014",
+      "title": "护舒宝·像个女孩一样",
+      "file": "film-ai/decks/film-always-like-a-girl-2014.webp",
+      "sha256": "85531ada6a340decda16401292d86087cec52380f6d022f15de3a2c870a63a0a",
+      "bytes": 203382,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:always-on-the-move-2024",
+      "wid": "always-on-the-move-2024",
+      "title": "南来北往",
+      "file": "film-ai/decks/film-always-on-the-move-2024.webp",
+      "sha256": "108faff244896af94b69d32a3c6ed7b1e81263cf334606ad2d2bf7a97ae6a762",
+      "bytes": 313540,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:always-sunset-on-third-street-2005",
+      "wid": "always-sunset-on-third-street-2005",
+      "title": "永远的三丁目的夕阳",
+      "file": "film-ai/decks/film-always-sunset-on-third-street-2005.webp",
+      "sha256": "cf03b4d4fb7084d683fc05120a27ddeadb61a73eea11a5dc5d98e885d14d3b75",
+      "bytes": 396912,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:amachan-2013",
+      "wid": "amachan-2013",
+      "title": "海女",
+      "file": "film-ai/decks/film-amachan-2013.webp",
+      "sha256": "b1574cb8ebabd3e0bd542844b9c6225aa032d6649c60bc50cd314605a6f727bb",
+      "bytes": 381668,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:amadeus-1984",
+      "wid": "amadeus-1984",
+      "title": "莫扎特传",
+      "file": "film-ai/decks/film-amadeus-1984.webp",
+      "sha256": "3ce4997c8ac36be9e88aa92a81456968283e8fe8967bd8f88c150a9dd955cb42",
+      "bytes": 302620,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:amazing-detective-di-renjie-2004",
+      "wid": "amazing-detective-di-renjie-2004",
+      "title": "神探狄仁杰",
+      "file": "film-ai/decks/film-amazing-detective-di-renjie-2004.webp",
+      "sha256": "49a4f52c3617d6193e8d2b82be8ca12d63a0036e1548206df6de90be02707ac3",
+      "bytes": 216112,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:american-beauty-1999",
+      "wid": "american-beauty-1999",
+      "title": "American Beauty",
+      "file": "film-ai/decks/film-american-beauty-1999.webp",
+      "sha256": "3e69667f709e9efac82900dde3aecc515cbe40b8da48006b939a876f0ff1a3a3",
+      "bytes": 204674,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:american-dreams-in-china-2013",
+      "wid": "american-dreams-in-china-2013",
+      "title": "中国合伙人",
+      "file": "film-ai/decks/film-american-dreams-in-china-2013.webp",
+      "sha256": "6b2dd89e91ba4cd3559cad5004aa86c74aa25a2ec7b7ce8ce0cc70dfc8b3151f",
+      "bytes": 273490,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:american-factory-2019",
+      "wid": "american-factory-2019",
+      "title": "美国工厂",
+      "file": "film-ai/decks/film-american-factory-2019.webp",
+      "sha256": "c84c5aa174b5b097554f78cf3c2d5b725a3b7168ff272c2c50867149cf95a00a",
+      "bytes": 286498,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:amarcord-1973",
+      "wid": "amarcord-1973",
+      "title": "Amarcord",
+      "file": "film-ai/decks/film-amarcord-1973.webp",
+      "sha256": "6c13d10eed7e97a6f5eddf71967493b84cdccdd3d70e55bd96997b6f7e61422f",
+      "bytes": 466552,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:american-gangster-2007",
+      "wid": "american-gangster-2007",
+      "title": "American Gangster",
+      "file": "film-ai/decks/film-american-gangster-2007.webp",
+      "sha256": "8a7ef0f5753fbefb35b326bf45f184412a56002ab6abfbdbc9f9a1e968c373ba",
+      "bytes": 285058,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:american-girl-2021",
+      "wid": "american-girl-2021",
+      "title": "美国女孩",
+      "file": "film-ai/decks/film-american-girl-2021.webp",
+      "sha256": "0a23286c1ad5cc0fc6b36a2965264fae6e6361b4b3b000bdff143d1a318e90fe",
+      "bytes": 228660,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:american-gods-2017",
+      "wid": "american-gods-2017",
+      "title": "美国众神",
+      "file": "film-ai/decks/film-american-gods-2017.webp",
+      "sha256": "00d08e434dc271edbbbfbdcbf62c8547eee7440764c36ae7930a6d9fa6b8db18",
+      "bytes": 302650,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:american-graffiti-1973",
+      "wid": "american-graffiti-1973",
+      "title": "American Graffiti",
+      "file": "film-ai/decks/film-american-graffiti-1973.webp",
+      "sha256": "6332dceee3090a423f3f9362982238df650b3ede6b280e0328ebcc59d6e7aa2f",
+      "bytes": 249648,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:american-history-x-1998",
+      "wid": "american-history-x-1998",
+      "title": "American History X",
+      "file": "film-ai/decks/film-american-history-x-1998.webp",
+      "sha256": "8a5106a73e7c349df4b8436138ff0103155f41da31483a0de54e3aa052e185ba",
+      "bytes": 163316,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:american-horror-story-murder-house-2011",
+      "wid": "american-horror-story-murder-house-2011",
+      "title": "美国恐怖故事：谋杀屋",
+      "file": "film-ai/decks/film-american-horror-story-murder-house-2011.webp",
+      "sha256": "e75e123d83e255452b651b6170e930434a4b512c2f81b9e63396d31c5dd56112",
+      "bytes": 229164,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:american-hustle-2013",
+      "wid": "american-hustle-2013",
+      "title": "American Hustle",
+      "file": "film-ai/decks/film-american-hustle-2013.webp",
+      "sha256": "de42d6e02d193254dd75117f8c47594cc7d66f40efada3a79bfe62f0af3633f1",
+      "bytes": 267678,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:american-psycho-2000",
+      "wid": "american-psycho-2000",
+      "title": "American Psycho",
+      "file": "film-ai/decks/film-american-psycho-2000.webp",
+      "sha256": "f9f6ab80c6b8968eda6ea848d030e9dd987d2ce057743dcc3670fa1d9f44dce4",
+      "bytes": 142088,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:american-sniper-2014",
+      "wid": "american-sniper-2014",
+      "title": "美国狙击手",
+      "file": "film-ai/decks/film-american-sniper-2014.webp",
+      "sha256": "cc0b4268faf7bcccfa74a089ccfa5a7d84466ffe9f3565cf5db2113a287f04fe",
+      "bytes": 76530,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:amex-my-life-my-card-2006",
+      "wid": "amex-my-life-my-card-2006",
+      "title": "美国运通·My Life. My Card.",
+      "file": "film-ai/decks/film-amex-my-life-my-card-2006.webp",
+      "sha256": "39a7eb26dac996bd1b268104763484285408ac7eb26cb60719edf35a8437de18",
+      "bytes": 267402,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:amour-2012",
+      "wid": "amour-2012",
+      "title": "爱",
+      "file": "film-ai/decks/film-amour-2012.webp",
+      "sha256": "e0b8c0ae097e84d51e7bb950ca830916f2ebe10728bb87cd34e540492ffe51a8",
+      "bytes": 293196,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:amy-2015",
+      "wid": "amy-2015",
+      "title": "艾米",
+      "file": "film-ai/decks/film-amy-2015.webp",
+      "sha256": "deed0ba68cbd4fb1d1be48ab4b59c0b74163f2b67f642870cd65fac535b6c292",
+      "bytes": 239992,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:amy-winehouse-back-to-black-2007",
+      "wid": "amy-winehouse-back-to-black-2007",
+      "title": "Amy Winehouse·Back to Black",
+      "file": "film-ai/decks/film-amy-winehouse-back-to-black-2007.webp",
+      "sha256": "a08d9428e3b6318edbe2fc4ccd09a414d0b9c4be099bacdeb4b2c3dfca3308d0",
+      "bytes": 149870,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:an-actors-revenge-1963",
+      "wid": "an-actors-revenge-1963",
+      "title": "雪之丞变化",
+      "file": "film-ai/decks/film-an-actors-revenge-1963.webp",
+      "sha256": "9ae9088ea38d62773f03e60a67538c214b113e458826b5fedb2b7a91c3816651",
+      "bytes": 229498,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:an-affair-to-remember-1957",
+      "wid": "an-affair-to-remember-1957",
+      "title": "金玉盟",
+      "file": "film-ai/decks/film-an-affair-to-remember-1957.webp",
+      "sha256": "c6e0efc54a9758e2aa51ee3d347d74e81d23b074dba57c4ccfcf8136ca13c0e5",
+      "bytes": 213244,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:an-american-in-paris-1951",
+      "wid": "an-american-in-paris-1951",
+      "title": "一个美国人在巴黎",
+      "file": "film-ai/decks/film-an-american-in-paris-1951.webp",
+      "sha256": "ae03af09fe87a4edd12f49a961c6da257e3a0dd6ac31c762d1195d837dd49b98",
+      "bytes": 378404,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:an-autumn-afternoon-1962",
+      "wid": "an-autumn-afternoon-1962",
+      "title": "秋刀鱼之味",
+      "file": "film-ai/decks/film-an-autumn-afternoon-1962.webp",
+      "sha256": "1d3aa756fd071bac16a0ab5d4bb07f408753b3aca0865ac8c86918ae5b07107d",
+      "bytes": 104158,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:an-autumns-tale-1987",
+      "wid": "an-autumns-tale-1987",
+      "title": "秋天的童话",
+      "file": "film-ai/decks/film-an-autumns-tale-1987.webp",
+      "sha256": "e8e4bc58817b24da940936bb2a1ca448d2edb93f87d7f5e7cf129152c534e7ce",
+      "bytes": 220446,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:an-elephant-sitting-still-2018",
+      "wid": "an-elephant-sitting-still-2018",
+      "title": "大象席地而坐",
+      "file": "film-ai/decks/film-an-elephant-sitting-still-2018.webp",
+      "sha256": "b4cd56981f1ac94a6f7a2d5fd8ba191cf4dcdea80b6574a1ef4e71493123a0b0",
+      "bytes": 193604,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:and-the-spring-comes-2007",
+      "wid": "and-the-spring-comes-2007",
+      "title": "立春",
+      "file": "film-ai/decks/film-and-the-spring-comes-2007.webp",
+      "sha256": "f37c5e57db1e64a71b45a25515bef362c1b803523c689ca243f57f9e8b604feb",
+      "bytes": 181650,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:andor-2022",
+      "wid": "andor-2022",
+      "title": "安多",
+      "file": "film-ai/decks/film-andor-2022.webp",
+      "sha256": "f8465eeb1dfffe886e55cefec77986883732111b12e4cb704efeb862ae785ba1",
+      "bytes": 333918,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:andrei-rublev-1966",
+      "wid": "andrei-rublev-1966",
+      "title": "安德烈·卢布廖夫",
+      "file": "film-ai/decks/film-andrei-rublev-1966.webp",
+      "sha256": "2722aa10e0f396fc0fb42b4d5713a28f5f62b942509fdaa38344b5e4d50870b5",
+      "bytes": 271782,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:angels-egg-1985",
+      "wid": "angels-egg-1985",
+      "title": "天使之卵",
+      "file": "film-ai/decks/film-angels-egg-1985.webp",
+      "sha256": "e6d9e196dd490deddcf3faf04f2ec1887c931a11b6a4d37b61695762f35f5b4a",
+      "bytes": 325830,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:angels-wear-white-2017",
+      "wid": "angels-wear-white-2017",
+      "title": "嘉年华",
+      "file": "film-ai/decks/film-angels-wear-white-2017.webp",
+      "sha256": "e9348a417031ac2a0914d6780a9b375fce1bf27de6841555fba71b840036479b",
+      "bytes": 109108,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:anita-2021",
+      "wid": "anita-2021",
+      "title": "梅艳芳",
+      "file": "film-ai/decks/film-anita-2021.webp",
+      "sha256": "cffbf7728eee90e74e53261b4fa77ccad9a83cf3acd0e53286070af619cb4563",
+      "bytes": 124844,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:anne-with-an-e-2017",
+      "wid": "anne-with-an-e-2017",
+      "title": "绿山墙的安妮",
+      "file": "film-ai/decks/film-anne-with-an-e-2017.webp",
+      "sha256": "8c60d1fa119878a041f3f2bfe4c4aded321ada39a4dd064758d1c8a3333d229a",
+      "bytes": 322540,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:annette-2021",
+      "wid": "annette-2021",
+      "title": "安妮特",
+      "file": "film-ai/decks/film-annette-2021.webp",
+      "sha256": "f2f682353fe2d0d95db03fc9ae427e001bd46ad544ddfa7d195121e480c9a8ce",
+      "bytes": 200536,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:annie-hall-1977",
+      "wid": "annie-hall-1977",
+      "title": "安妮·霍尔",
+      "file": "film-ai/decks/film-annie-hall-1977.webp",
+      "sha256": "f4a0f3aede889bd126b1e7e9e6b6a6ed76ffafb06882a7104e0f1f0be47a894e",
+      "bytes": 207794,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:annihilation-2018",
+      "wid": "annihilation-2018",
+      "title": "湮灭",
+      "file": "film-ai/decks/film-annihilation-2018.webp",
+      "sha256": "165388d42078b29fedb323907d6ea3236b6022eaa05aa3ac8a0b9fd1e2953426",
+      "bytes": 413044,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:anomalisa-2015",
+      "wid": "anomalisa-2015",
+      "title": "失常",
+      "file": "film-ai/decks/film-anomalisa-2015.webp",
+      "sha256": "dba154c9910d0a51e963a12ca34884d4bd5e09631547a822938a5485013ed7a1",
+      "bytes": 202572,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:another-round-2020",
+      "wid": "another-round-2020",
+      "title": "酒精计划",
+      "file": "film-ai/decks/film-another-round-2020.webp",
+      "sha256": "8064647f3e992c98765ca2ed73ce9b28b24ca8bd869b38c68140ee754675220f",
+      "bytes": 188356,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:antichrist-2009",
+      "wid": "antichrist-2009",
+      "title": "反基督者",
+      "file": "film-ai/decks/film-antichrist-2009.webp",
+      "sha256": "bee65b49a47540b4e6939cb684620c756a333b48a759c6488e6043d289775927",
+      "bytes": 375654,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:anna-karenina-2012",
+      "wid": "anna-karenina-2012",
+      "title": "安娜·卡列尼娜",
+      "file": "film-ai/decks/film-anna-karenina-2012.webp",
+      "sha256": "e40be4cda58ff47bfdaa6c4e980937492b45ccbcdb5566109527ef5e8d264244",
+      "bytes": 317142,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    }
+  ]
+}
