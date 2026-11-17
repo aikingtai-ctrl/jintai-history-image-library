@@ -169571,8 +169571,8 @@
     "id": "YS-20261028-CF-one-battle-after-another-2025-026",
     "wid": "one-battle-after-another-2025",
     "title": "一战再战",
-    "prompt": "ARRI Alexa Mini LF / Kodak Vision3 35mm质感，1.50:1画幅。2025年美国电影《一战再战》（One Battle After Another，导演：保罗·托马斯·安德森，摄影指导：迈克尔·鲍曼）。主光方向塑形·伦勃朗侧主光人物肖像：近景平视，标准镜头浅景深，固定运镜，侧光/伦勃朗光/低调/高反差照明，三分法构图。\nEnglish Prompt: Film still from One Battle After Another (2025), directed by 保罗·托马斯·安德森, cinematography by 迈克尔·鲍曼 (2026年奥斯卡最佳摄影正式提名（Cinematography）、2026年奥斯卡最佳影片), classic 45-degree Rembrandt key light sculpting facial contours against deep shadow, shot on ARRI Alexa Mini LF / Kodak Vision3 35mm with Panavision and Panavision 定制原型球面定焦（14–100毫米）等 63 支球面镜头；追车段另用 1000–1200毫米超长焦 (50mm Prime T1.4 Shallow DOF), 1.50:1 aspect ratio --ar 16:9",
-    "aspect_ratio": "1.50:1",
+    "prompt": "为《一战再战》（One Battle After Another，2025）制作一张原创概念参考图，供电影摄影资料库使用。16:9 单幅写实电影摄影。当代美国西部小镇边缘，黄昏的空旷公路旁，一位疲惫的匿名中年父亲与一位完整穿着日常衣服的匿名少女站在旧车旁，父亲看向远处陌生车灯，少女警觉地拉住车门；背景是简陋旅馆、山脊和风吹尘土。手持纪实感、暖黄落日与冷蓝阴影，紧张但不出现武器和暴力。人物面貌独立原创，不模仿演员或剧照。无文字、片名、标志、字幕、水印、边框、拼贴。",
+    "aspect_ratio": "16:9",
     "source_file": "d4/p_one-battle-after-another-2025.js"
   },
   {
@@ -169603,8 +169603,8 @@
     "id": "YS-20261028-CF-sinners-2025-026",
     "wid": "sinners-2025",
     "title": "罪人",
-    "prompt": "65/70毫米胶片质感，可变画幅画幅。2025年美国电影《罪人》（Sinners，导演：瑞恩·库格勒，摄影指导：奥特姆·杜拉尔德·阿卡波）。主光方向塑形·伦勃朗侧主光人物肖像：近景平视，标准镜头浅景深，固定运镜，侧光/伦勃朗光/低调/高反差照明，三分法构图。\nEnglish Prompt: Film still from Sinners (2025), directed by 瑞恩·库格勒, cinematography by 奥特姆·杜拉尔德·阿卡波 (2026年奥斯卡最佳摄影获奖（Cinematography）、2026年奥斯卡奥斯卡最佳原创剧本奖), classic 45-degree Rembrandt key light sculpting facial contours against deep shadow, shot on 65/70毫米胶片 with IMAX and Ultra Panatar 1.3x 变形镜头（主力 50毫米）；Panavision IMAX 50/80毫米定焦；Dan Sasaki 定制 80毫米 Petzval 风格镜头 (50mm Prime T1.4 Shallow DOF), 可变画幅 aspect ratio --ar 16:9",
-    "aspect_ratio": "可变画幅",
+    "prompt": "Use case: historical-scene. Asset: one original high-resolution 16:9 cinematic representative image for Ryan Coogler's 2025 film SINNERS, replacing a small website reference card and opening as a full-size image. Inspired by Warner Bros and Kodak's verified premise, create an entirely new photorealistic concept scene set in the 1930s Mississippi Delta: two adult Black twin brothers with distinct fictional faces, wearing period suits and hats, stand outside a former sawmill being turned into a blues juke joint at dusk. A young adult musician carrying a guitar case approaches its warm open doorway. Weathered timber, Southern rural road, humid twilight, lantern glow within, deep ominous darkness beyond. Convey the brothers' hope and a faint supernatural threat through atmosphere only, without copying actors, movie frames or marketing art. Cinematic 16:9 wide framing, rich period detail, crisp 1672x941 quality with natural film texture. No violence, blood, monsters, weapons, readable signs, text, title, logo, watermark, border, poster design, collage or split panels.",
+    "aspect_ratio": "16:9",
     "source_file": "d4/p_sinners-2025.js"
   },
   {
