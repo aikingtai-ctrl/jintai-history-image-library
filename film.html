@@ -1531,6 +1531,8 @@ function getFilmAiSrc(wid){
  const work=WORK_BY_WID.get(wid),shots=work?(BYW.get(work.i)||[]):[];
  const generated=shots.find(r=>shotImageSrc(r.id));
  if(generated)return shotImageSrc(generated.id);
+ const deckCover=(window.FILM_DECK_COVERS||{})['film:'+wid];
+ if(deckCover)return resolveFilmAiAsset(deckCover);
  return resolveFilmAiAsset((window.FILM_AI_IMAGES||FILM_AI_IMAGES||{})[wid]||'');
 }
 function fillSel(id,name,arr){const select=$(id),value=select.value;select.innerHTML=`<option value="">${name}：全部</option>`+arr.map(v=>`<option>${esc(v)}</option>`).join('');if(arr.includes(value))select.value=value;}
@@ -1563,7 +1565,8 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
   const enShow=(w.te&&w.te!==w.t)?w.te:'';
   const aiSrc=getFilmAiSrc(w.wid);
   const aiHires=!!(window.FILM_SHOT_WORK_IMAGES||{})[w.wid]||/\/film-ai\/shots\/[^?#]+\.webp/i.test(aiSrc||'');
-  const aiBadge=aiHires?'高清 AI 参考图':'旧版小图·待替换';
+  const aiDeckCover=/\/film-ai\/decks\/film-[^?#]+\.webp/i.test(aiSrc||'');
+  const aiBadge=aiHires?'高清 AI 参考图':aiDeckCover?'原创概念图·高清':'旧版小图·待替换';
   const aiPreview=aiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" role="button" tabindex="0" title="点击查看《${esc(w.t)}》图片原文件" aria-label="点击查看 ${esc(w.t)} 图片原文件"><img src="${esc(aiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">${aiBadge}</span><span class="film-ai-zoom-hint">🔍 点击放大</span></div>`:'<div class="film-ai-preview empty">等待 AI 代表图</div>';
   return`<div class="wc"><h4>${esc(w.t)} <span class="muted" style="font-size:18px">${enShow?esc(enShow)+' · ':''}${esc(w.y||'')}</span></h4>
  <div class="m">${esc(metaParts)}</div>
@@ -1663,7 +1666,7 @@ function openWorkAiLightbox(wid,poolWids,fallbackSrc,fallbackTitle){
   const s=getFilmAiSrc(id)||(id===wid?src:'');
   const enShow=(w&&w.te&&w.te!==w.t)?w.te:'';
   const meta=w?[w.y,w.region&&w.region!=='待补'?w.region:'',w.dir?'导演 '+w.dir:'',w.dp&&w.dp!=='待核'?'摄影 '+w.dp:''].filter(Boolean).join(' · '):id;
-  return{wid:id,src:s,title:w?`《${w.t}》${enShow?' '+enShow:''}`:(fallbackTitle||id),sub:meta,desc:w?(w.look||`《${w.t}》AI 代表图 · 点击画面或滚轮可放大至 400% 查看细节`):'点击画面或滚轮可放大至 400% 查看细节'};
+  return{wid:id,src:s,title:w?`《${w.t}》${enShow?' '+enShow:''}`:(fallbackTitle||id),sub:meta,desc:/\/film-ai\/decks\/film-[^?#]+\.webp/i.test(s)?'原创概念参考图，依据作品资料构思；非原片截图或已核实的原片镜头。':w?(w.look||`《${w.t}》AI 代表图 · 点击画面或滚轮可放大至 400% 查看细节`):'点击画面或滚轮可放大至 400% 查看细节'};
  }).filter(x=>x.src);
  LB_STATE.idx=Math.max(0,LB_STATE.items.findIndex(x=>x.wid===wid));
  renderLightboxItem();
