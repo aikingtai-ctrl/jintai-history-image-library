@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T02:25:02.382412+00:00",
+  "snapshot_time_utc": "2026-11-17T02:36:46.667952+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -5378,6 +5378,174 @@
       ],
       "generator": "Codex built-in GPT Image image_gen",
       "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:apart-together-2010",
+      "wid": "apart-together-2010",
+      "title": "团圆",
+      "file": "film-ai/decks/film-apart-together-2010.webp",
+      "sha256": "17ad768c03f895052d280e27c1db6ba2e0214331a4e715c0c2e489e26fe48fab",
+      "bytes": 199926,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:apollo-11-2019",
+      "wid": "apollo-11-2019",
+      "title": "阿波罗11号",
+      "file": "film-ai/decks/film-apollo-11-2019.webp",
+      "sha256": "2dfb5f8f90706894280542c56d12564ea0ab09427274ab968467d4e82a711fde",
+      "bytes": 114496,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:apple-1984-1984",
+      "wid": "apple-1984-1984",
+      "title": "苹果·1984",
+      "file": "film-ai/decks/film-apple-1984-1984.webp",
+      "sha256": "96861b6d1f27daac853da2c96383c7bafb4ce300eb21007b1e78492d583d5335",
+      "bytes": 150184,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:apple-the-bucket-2019",
+      "wid": "apple-the-bucket-2019",
+      "title": "苹果·一个桶",
+      "file": "film-ai/decks/film-apple-the-bucket-2019.webp",
+      "sha256": "d44e3bb51e93cf9eeaca9aa8b5e21cbea8083e448cdad706cb554b738b1bf14e",
+      "bytes": 205432,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:apple-the-greatest-2022",
+      "wid": "apple-the-greatest-2022",
+      "title": "苹果·最伟大",
+      "file": "film-ai/decks/film-apple-the-greatest-2022.webp",
+      "sha256": "4446f4a1bdf5f9a79c946589ef8e9634a3510f37baf0d59614bc3848e4dc2990",
+      "bytes": 321374,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:apple-three-minutes-2018",
+      "wid": "apple-three-minutes-2018",
+      "title": "苹果·三分钟",
+      "file": "film-ai/decks/film-apple-three-minutes-2018.webp",
+      "sha256": "ea9d582e02e0eba3b88e17802b31d3a6e675a914824071b096dc8be949ffafff",
+      "bytes": 171848,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:apple-welcome-home-2018",
+      "wid": "apple-welcome-home-2018",
+      "title": "苹果·欢迎回家",
+      "file": "film-ai/decks/film-apple-welcome-home-2018.webp",
+      "sha256": "bdaf5380b67dbcef53bea5f4564a3683b257ea1fb63e2fa36d59089427df7e77",
+      "bytes": 203612,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:april-rhapsody-2000",
+      "wid": "april-rhapsody-2000",
+      "title": "人间四月天",
+      "file": "film-ai/decks/film-april-rhapsody-2000.webp",
+      "sha256": "54ed2665ef199162d433b53e214ccf4890c5423f28d9bdf5f3316ed8eb8cc243",
+      "bytes": 191748,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:april-story-1998",
+      "wid": "april-story-1998",
+      "title": "四月物语",
+      "file": "film-ai/decks/film-april-story-1998.webp",
+      "sha256": "959f01a254ac03c58791ba16df23b0d21d84f7c0902b44bf9a6d835bf80332ea",
+      "bytes": 205388,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:andhadhun-2018",
+      "wid": "andhadhun-2018",
+      "title": "调音师",
+      "file": "film-ai/decks/film-andhadhun-2018.webp",
+      "sha256": "c6fb3b95d8a2a229dba1774e252dfa3cd8bd39e7bb9857fcd3aed8049b86b108",
+      "bytes": 293114,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:annual-oscar-afi-4246",
+      "wid": "annual-oscar-afi-4246",
+      "title": "Broadway Melody of 1936",
+      "file": "film-ai/decks/film-annual-oscar-afi-4246.webp",
+      "sha256": "52ed08d2fb8b91b090607eea10cdddbd467faa94d2091a7b0db2718317536e3a",
+      "bytes": 169932,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:angels-in-america-2003",
+      "wid": "angels-in-america-2003",
+      "title": "天使在美国",
+      "file": "film-ai/decks/film-angels-in-america-2003.webp",
+      "sha256": "ae5ef9a50f8f2fa826272a229229e74ab201f35e5b5587beda13fabd6f571c6a",
+      "bytes": 153694,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     }
   ]
 }
