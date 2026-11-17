@@ -163731,8 +163731,8 @@
     "id": "YS-20261028-AWF-src-b15819f92cf72840-011",
     "wid": "src-b15819f92cf72840",
     "title": "Nouvelle Vague",
-    "prompt": "ARRI Alexa Mini LF / Kodak Vision3 35mm质感，2.39:1画幅。2025年France电影《Nouvelle Vague》（Nouvelle Vague，导演：Richard Linklater，摄影指导：David Chambille，源帧：FG-e3cf9e5874d55f75）。镜像与玻璃叠印·双重空间心理外化：近景平视，标准镜头浅景深，固定运镜，窗光/混合光/柔光照明，倒影镜像/框中框构图。\nEnglish Prompt: Film still (FG-e3cf9e5874d55f75) from Nouvelle Vague (2025), directed by Richard Linklater, cinematography by David Chambille (TSPDT本世纪1000佳片2026版第697名), psychological mirror and window glass reflection superimposing exterior world over the character's face, shot on ARRI Alexa Mini LF / Kodak Vision3 35mm with ARRI Alexa 65 / Alexa Mini LF and Cooke S4/i & ARRI Master Anamorphic (50mm Double Reflection & Glass Overlay), 2.39:1 aspect ratio --ar 21:9",
-    "aspect_ratio": "",
+    "prompt": "Original photorealistic black-and-white wide 16:9 image: a small fictional film crew shooting on a 1959 Paris street. Vintage car, handheld movie camera, period clothing, cobblestones, crisp high-resolution details, natural film grain. All faces invented. No text, logos, watermark, border, collage, or likeness of a real person.",
+    "aspect_ratio": "16:9",
     "source_file": "d4/p_src-b15819f92cf72840.js"
   },
   {
@@ -175395,8 +175395,8 @@
     "id": "YS-20261026-src-ad0d00fe34afbc96-01",
     "wid": "src-ad0d00fe34afbc96",
     "title": "情感的價值",
-    "prompt": "35毫米胶片质感，1.85:1画幅，柔和温暖颗粒。挪威奥斯陆一栋充满历史痕迹的北欧古典木结构住宅内，一扇扇高大的白色木门框向纵深敞开，一位三十多岁、身穿米色毛衣的棕发女子独自站在洒满秋日阳光的窗边，低头翻阅手中厚厚的电影剧本。中全景平视，标准镜头常规景深，缓慢横移。北欧秋季低角度温暖侧光洒入室内，暖金、原木褐、米白与暗绿。多层门框框中框与纵深调度，怀旧、迷惘而温情。",
-    "aspect_ratio": "1.85:1",
+    "prompt": "Create one original photorealistic 16:9 cinematic still, sharp full-size detail, inspired by the verified story of Joachim Trier's 2025 Norwegian film Sentimental Value. An elderly filmmaker father and his two adult daughters, all with entirely fictional faces, share an uneasy quiet reunion at a table in an old Norwegian home. Screenplay pages without readable writing, soft cool daylight through tall windows, books and family photo frames, emotional distance, natural texture and crisp faces. Newly imagined scene, not a real movie frame, actor likeness or poster. No readable text, logo, watermark, border, split panel or collage.",
+    "aspect_ratio": "16:9",
     "source_file": "d4/p_src-ad0d00fe34afbc96.js"
   },
   {
