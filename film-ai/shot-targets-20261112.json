@@ -145419,8 +145419,8 @@
     "id": "YS-20261029-C36-resurrection-bigan-2025-02",
     "wid": "resurrection-bigan-2025",
     "title": "狂野时代",
-    "prompt": "ARRI Alexa Mini LF / Kodak Vision3 35mm质感，2.39:1画幅。2025年中国大陆 / 法国电影《狂野时代》（Resurrection，导演：毕赣，摄影指导：董劲松）。主光方向塑形·伦勃朗侧主光人物肖像：近景平视，标准镜头浅景深，固定运镜，侧光/伦勃朗光/低调/高反差照明，三分法构图。\nEnglish Prompt: Film still from Resurrection (2025), directed by 毕赣, cinematography by 董劲松 (2026年中国电影金鸡奖最佳摄影正式提名), classic 45-degree Rembrandt key light sculpting facial contours against deep shadow, shot on ARRI Alexa Mini LF / Kodak Vision3 35mm with ARRI Alexa 65 / Alexa Mini LF and Cooke S4/i & ARRI Master Anamorphic (50mm Prime T1.4 Shallow DOF), 2.39:1 aspect ratio --ar 21:9",
-    "aspect_ratio": "2.39:1",
+    "prompt": "Use case: photorealistic-natural. Asset: one original high-resolution landscape movie-reference image, 16:9, for the 2025 film Resurrection (狂野时代) directed by Bi Gan. Based on the official Cannes synopsis: in a world where humans have lost the ability to dream, a woman perceives a strange being's inner dream. Create a new fictional scene, not a film still: a lone adult woman seen from behind at the threshold of a deserted old Chinese cinema; beyond the doorway, a believable rain-wet city street at blue hour begins to dissolve into a luminous surreal dream of floating dust, far receding streetlamps, and an indistinct human silhouette. Make the physical surfaces, clothing and architecture detailed and tactile; readable midtone exposure, sharp focal subject, nuanced deep teal and muted amber, cinematic depth and layered space. Do not depict any real actor's likeness, film poster, brand, readable text, watermark, collage, split panel, or graphic violence. The image should fill the canvas edge to edge and remain clear as an enlarged website image.",
+    "aspect_ratio": "16:9（本次原创图）",
     "source_file": "d4/p_resurrection-bigan-2025.js"
   },
   {
