@@ -107,6 +107,17 @@ jobs:
           )
           subprocess.run(["git", "-C", str(repo), "checkout", "HEAD"], check=True)
 
+          # A malformed cache-version edit has twice truncated an inline film script.
+          # Stop the deployment before a broken page replaces the last good one.
+          for rel in ("film.html", "影视参考图集.html"):
+              html = (repo / rel).read_text(encoding="utf-8")
+              scripts = re.findall(r"<script(?:\s[^>]*)?>([\s\S]*?)</script>", html)
+              assert scripts, f"No inline scripts found in {rel}"
+              for script in scripts:
+                  if script.strip():
+                      subprocess.run(["node", "--check", "-"], input=script.encode("utf-8"), check=True)
+              print(f"Checked inline JavaScript in {rel}")
+
           total_bytes = 0
           for rel in selected:
               src = repo / rel
