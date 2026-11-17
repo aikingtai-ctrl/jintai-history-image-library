@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T15:01:03.733705+00:00",
+  "snapshot_time_utc": "2026-11-17T15:51:00.799096+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -7942,6 +7942,132 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
+      "id": "film:burning-bush-2013",
+      "wid": "burning-bush-2013",
+      "title": "焚烧的灌木",
+      "file": "film-ai/decks/film-burning-bush-2013.webp",
+      "sha256": "befbcef9870a08e05978555d57d6fffc031ad974cc24cf87411dea5b101fb943",
+      "bytes": 220706,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:burning-ice-2017",
+      "wid": "burning-ice-2017",
+      "title": "无证之罪",
+      "file": "film-ai/decks/film-burning-ice-2017.webp",
+      "sha256": "79466d4c30a8691fce81a818feeec9606e4d30103451c9e791357dc39cf273f9",
+      "bytes": 211550,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:burnt-by-the-sun-1994",
+      "wid": "burnt-by-the-sun-1994",
+      "title": "烈日灼人",
+      "file": "film-ai/decks/film-burnt-by-the-sun-1994.webp",
+      "sha256": "2a388ac10f4c8398b1a47c6d7c5c62d213c4cc893d60676044440dd0c0cd6e19",
+      "bytes": 404118,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:butch-cassidy-and-the-sundance-kid-1969",
+      "wid": "butch-cassidy-and-the-sundance-kid-1969",
+      "title": "Butch Cassidy and the Sundance Kid",
+      "file": "film-ai/decks/film-butch-cassidy-and-the-sundance-kid-1969.webp",
+      "sha256": "e82d10fd0cbdd26fa1f3b69cb71e9198263d90e007dfb2cbfb3b82bd298a7818",
+      "bytes": 444470,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cabaret-1972",
+      "wid": "cabaret-1972",
+      "title": "Cabaret",
+      "file": "film-ai/decks/film-cabaret-1972.webp",
+      "sha256": "1cc78b941b497989c3bf5ea3e97574eace1d4b09d7797bd054b510c2f08a888e",
+      "bytes": 270154,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cabiria-1914",
+      "wid": "cabiria-1914",
+      "title": "卡比利亚",
+      "file": "film-ai/decks/film-cabiria-1914.webp",
+      "sha256": "fc7e6987a68332a78bfc91d1744849afc4278666a7ffd3ce30e4fb040f0793d2",
+      "bytes": 329632,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cache-2005",
+      "wid": "cache-2005",
+      "title": "隐藏摄像机",
+      "file": "film-ai/decks/film-cache-2005.webp",
+      "sha256": "63440b57930136539ac4d1f572356565624516339b47d491951eecd0e28a3373",
+      "bytes": 301940,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cairo-station-1958",
+      "wid": "cairo-station-1958",
+      "title": "开罗车站",
+      "file": "film-ai/decks/film-cairo-station-1958.webp",
+      "sha256": "1e70f96208f37bd0854eec97ef65a9e7d59efd799c361d24d6272669e8174ec0",
+      "bytes": 184158,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:calabash-brothers-1986",
+      "wid": "calabash-brothers-1986",
+      "title": "葫芦兄弟",
+      "file": "film-ai/decks/film-calabash-brothers-1986.webp",
+      "sha256": "59274f17a587cc22adcc6e286004a75a6a5a623c9007c20a010d2a79e82dddaf",
+      "bytes": 435092,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -9216,132 +9342,6 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:burning-bush-2013",
-      "wid": "burning-bush-2013",
-      "title": "焚烧的灌木",
-      "file": "film-ai/decks/film-burning-bush-2013.webp",
-      "sha256": "befbcef9870a08e05978555d57d6fffc031ad974cc24cf87411dea5b101fb943",
-      "bytes": 220706,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:burning-ice-2017",
-      "wid": "burning-ice-2017",
-      "title": "无证之罪",
-      "file": "film-ai/decks/film-burning-ice-2017.webp",
-      "sha256": "79466d4c30a8691fce81a818feeec9606e4d30103451c9e791357dc39cf273f9",
-      "bytes": 211550,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:burnt-by-the-sun-1994",
-      "wid": "burnt-by-the-sun-1994",
-      "title": "烈日灼人",
-      "file": "film-ai/decks/film-burnt-by-the-sun-1994.webp",
-      "sha256": "2a388ac10f4c8398b1a47c6d7c5c62d213c4cc893d60676044440dd0c0cd6e19",
-      "bytes": 404118,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:butch-cassidy-and-the-sundance-kid-1969",
-      "wid": "butch-cassidy-and-the-sundance-kid-1969",
-      "title": "Butch Cassidy and the Sundance Kid",
-      "file": "film-ai/decks/film-butch-cassidy-and-the-sundance-kid-1969.webp",
-      "sha256": "e82d10fd0cbdd26fa1f3b69cb71e9198263d90e007dfb2cbfb3b82bd298a7818",
-      "bytes": 444470,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:cabaret-1972",
-      "wid": "cabaret-1972",
-      "title": "Cabaret",
-      "file": "film-ai/decks/film-cabaret-1972.webp",
-      "sha256": "1cc78b941b497989c3bf5ea3e97574eace1d4b09d7797bd054b510c2f08a888e",
-      "bytes": 270154,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:cabiria-1914",
-      "wid": "cabiria-1914",
-      "title": "卡比利亚",
-      "file": "film-ai/decks/film-cabiria-1914.webp",
-      "sha256": "fc7e6987a68332a78bfc91d1744849afc4278666a7ffd3ce30e4fb040f0793d2",
-      "bytes": 329632,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:cache-2005",
-      "wid": "cache-2005",
-      "title": "隐藏摄像机",
-      "file": "film-ai/decks/film-cache-2005.webp",
-      "sha256": "63440b57930136539ac4d1f572356565624516339b47d491951eecd0e28a3373",
-      "bytes": 301940,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:cairo-station-1958",
-      "wid": "cairo-station-1958",
-      "title": "开罗车站",
-      "file": "film-ai/decks/film-cairo-station-1958.webp",
-      "sha256": "1e70f96208f37bd0854eec97ef65a9e7d59efd799c361d24d6272669e8174ec0",
-      "bytes": 184158,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:calabash-brothers-1986",
-      "wid": "calabash-brothers-1986",
-      "title": "葫芦兄弟",
-      "file": "film-ai/decks/film-calabash-brothers-1986.webp",
-      "sha256": "59274f17a587cc22adcc6e286004a75a6a5a623c9007c20a010d2a79e82dddaf",
-      "bytes": 435092,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:call-me-by-your-name-2017",
       "wid": "call-me-by-your-name-2017",
       "title": "Call Me By Your Name",
@@ -10076,6 +10076,174 @@
       "file": "film-ai/decks/film-claires-knee-1970.webp",
       "sha256": "dee8d0d6c2af8faaf1ec7758b363d181285a691115400f276eb6d6151ab8faaf",
       "bytes": 410430,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:classmates-minus-2020",
+      "wid": "classmates-minus-2020",
+      "title": "同学麦娜丝",
+      "file": "film-ai/decks/film-classmates-minus-2020.webp",
+      "sha256": "04df38e2a697e58641481ac531b3fead9017332bf0a470a7b55c57a962ae79c4",
+      "bytes": 425620,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cleo-from-5-to-7-1962",
+      "wid": "cleo-from-5-to-7-1962",
+      "title": "五至七时的克莱奥",
+      "file": "film-ai/decks/film-cleo-from-5-to-7-1962.webp",
+      "sha256": "2f45960ecb0083681fbd9c3931b9389119f73dfa6d40838c5232d10d5e7a6b89",
+      "bytes": 238884,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cleopatra-1963",
+      "wid": "cleopatra-1963",
+      "title": "埃及艳后",
+      "file": "film-ai/decks/film-cleopatra-1963.webp",
+      "sha256": "1387704ba133f164757763e60719d500ebbd951ce4c88b84e2e258d07797ea0e",
+      "bytes": 323922,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cliff-walkers-2021",
+      "wid": "cliff-walkers-2021",
+      "title": "悬崖之上",
+      "file": "film-ai/decks/film-cliff-walkers-2021.webp",
+      "sha256": "d323c1b1e7edb74c2b1713a17e02fc51c5e0f641375d8408192971f6fe4aefe8",
+      "bytes": 238570,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:climates-2006",
+      "wid": "climates-2006",
+      "title": "适合分手的季节",
+      "file": "film-ai/decks/film-climates-2006.webp",
+      "sha256": "cc974415ab8830bbeb386d6ca3d490c81e2ee3ece9cd00cd5d8acf3a1da81fbe",
+      "bytes": 296672,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:climax-2018",
+      "wid": "climax-2018",
+      "title": "高潮",
+      "file": "film-ai/decks/film-climax-2018.webp",
+      "sha256": "e6600a1a34cafa9fda58b1a720f46d0ab9675e8646a557ea928d052d976f7859",
+      "bytes": 224902,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:close-encounters-of-the-third-kind-1977",
+      "wid": "close-encounters-of-the-third-kind-1977",
+      "title": "Close Encounters Of The Third Kind",
+      "file": "film-ai/decks/film-close-encounters-of-the-third-kind-1977.webp",
+      "sha256": "9e067ee96b9a5a8a05e0a8a79d77bc5467cc71d2830966f78628cf3edeb70e02",
+      "bytes": 269282,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:closely-watched-trains-1966",
+      "wid": "closely-watched-trains-1966",
+      "title": "严密监视的列车",
+      "file": "film-ai/decks/film-closely-watched-trains-1966.webp",
+      "sha256": "97eeea7cd0475c175bd1ff837dde8c85062a57c1ca6ba7c33bb90a8c66141d0c",
+      "bytes": 237610,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:clouds-of-sils-maria-2014",
+      "wid": "clouds-of-sils-maria-2014",
+      "title": "Clouds of Sils Maria",
+      "file": "film-ai/decks/film-clouds-of-sils-maria-2014.webp",
+      "sha256": "480a2385e16f00b3c35dca748c5fb1b334db60647901841b1bd9518c2e0a90e8",
+      "bytes": 209884,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cloverfield-2008",
+      "wid": "cloverfield-2008",
+      "title": "科洛弗档案",
+      "file": "film-ai/decks/film-cloverfield-2008.webp",
+      "sha256": "1b48b55b594a0db68f6a2760ac1cc11d663f8ef7845d34df31c2e5a67ae161d8",
+      "bytes": 187120,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:cmb-tomato-scrambled-eggs-2017",
+      "wid": "cmb-tomato-scrambled-eggs-2017",
+      "title": "招商银行·世界再大，大不过一盘番茄炒蛋",
+      "file": "film-ai/decks/film-cmb-tomato-scrambled-eggs-2017.webp",
+      "sha256": "e71ea2e3db0fb9ab71a07263c4e015c76abcaa0eb001c13c0825cf16cb7651c4",
+      "bytes": 197722,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:coca-cola-hey-kid-catch-1979",
+      "wid": "coca-cola-hey-kid-catch-1979",
+      "title": "可口可乐·嘿，孩子，接着",
+      "file": "film-ai/decks/film-coca-cola-hey-kid-catch-1979.webp",
+      "sha256": "cef9ea080414d15d4f9a580469f6ed8654f83207f7bff25e7d4625caeafbbc70",
+      "bytes": 262530,
       "size": [
         1672,
         941
