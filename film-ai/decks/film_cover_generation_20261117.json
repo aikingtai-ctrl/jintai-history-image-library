@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-17T06:53:00.660108+00:00",
+  "snapshot_time_utc": "2026-11-17T07:46:37.393101+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -7150,6 +7150,118 @@
       "file": "film-ai/decks/film-grease-1978.webp",
       "sha256": "ec0d22b8929b3fc4135d1303accb10c3b646386a20d2c299d560550e7dae7e35",
       "bytes": 312102,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:halloween-1978",
+      "wid": "halloween-1978",
+      "title": "Halloween",
+      "file": "film-ai/decks/film-halloween-1978.webp",
+      "sha256": "f52f52d00f63f5bb5a334fae9f0b0210c13b2c00fdf1a90c408e988a46d97066",
+      "bytes": 269576,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hoop-dreams-1994",
+      "wid": "hoop-dreams-1994",
+      "title": "篮球梦",
+      "file": "film-ai/decks/film-hoop-dreams-1994.webp",
+      "sha256": "fe39344344c4395e191518191c766bc0b1acbfeba754d220baead817081f5330",
+      "bytes": 449022,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:how-to-train-your-dragon-2010",
+      "wid": "how-to-train-your-dragon-2010",
+      "title": "驯龙高手",
+      "file": "film-ai/decks/film-how-to-train-your-dragon-2010.webp",
+      "sha256": "37701ed6ddac5a5b963805f6b57ae2828b060616d91460c906d7f2da93629a6b",
+      "bytes": 395488,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:inside-out-2015",
+      "wid": "inside-out-2015",
+      "title": "头脑特工队",
+      "file": "film-ai/decks/film-inside-out-2015.webp",
+      "sha256": "999add1c7d2f7ef9100cfa5ff9976694c2079888ca985bb53e34157c510032ff",
+      "bytes": 231130,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:heat-1995",
+      "wid": "heat-1995",
+      "title": "Heat",
+      "file": "film-ai/decks/film-heat-1995.webp",
+      "sha256": "ca80933a0af017e884f00181e09e7c777939e52a77da780395a9b95cd4400043",
+      "bytes": 221618,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:i-love-lucy-1951",
+      "wid": "i-love-lucy-1951",
+      "title": "我爱露西",
+      "file": "film-ai/decks/film-i-love-lucy-1951.webp",
+      "sha256": "46007b4b33fa0dbeaa347c20e43dee31b709389e360fca56cd1d1e65b136d670",
+      "bytes": 214010,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:in-this-corner-of-the-world-2016",
+      "wid": "in-this-corner-of-the-world-2016",
+      "title": "在这世界的角落",
+      "file": "film-ai/decks/film-in-this-corner-of-the-world-2016.webp",
+      "sha256": "1827eeba0f99037e77c06750ac4865cb2a84d5cc9ce421ea7ad06b95b50929c7",
+      "bytes": 511588,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:jackie-brown-1997",
+      "wid": "jackie-brown-1997",
+      "title": "Jackie Brown",
+      "file": "film-ai/decks/film-jackie-brown-1997.webp",
+      "sha256": "cc88ec77807c0eebeae764ce3efd22007180c88cf99cdab93cacbe3507d4348d",
+      "bytes": 192810,
       "size": [
         1672,
         941
