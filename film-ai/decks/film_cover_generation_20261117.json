@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-18T03:47:38.131401+00:00",
+  "snapshot_time_utc": "2026-11-18T04:10:29.499501+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -10546,6 +10546,48 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
+      "id": "film:drifting-2021",
+      "wid": "drifting-2021",
+      "title": "Drifting / 濁水漂流",
+      "file": "film-ai/decks/film-drifting-2021.webp",
+      "sha256": "9a92e4d94c86e8bc9d7e0911bcf00d29c71dc768476aa97f162737c795447d90",
+      "bytes": 367050,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:drive-2011",
+      "wid": "drive-2011",
+      "title": "Drive",
+      "file": "film-ai/decks/film-drive-2011.webp",
+      "sha256": "6bf65d25c83683bb4b3dab8c285bf480454ee1c1108c7e51e679cc11d883c336",
+      "bytes": 140824,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:drug-war-2012",
+      "wid": "drug-war-2012",
+      "title": "毒战",
+      "file": "film-ai/decks/film-drug-war-2012.webp",
+      "sha256": "9be377e53a5456ef1d6d58e96fe15ed41906eb1273fb6692ff583f4f902c7b89",
+      "bytes": 186954,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -13248,48 +13290,6 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:drifting-2021",
-      "wid": "drifting-2021",
-      "title": "Drifting / 濁水漂流",
-      "file": "film-ai/decks/film-drifting-2021.webp",
-      "sha256": "9a92e4d94c86e8bc9d7e0911bcf00d29c71dc768476aa97f162737c795447d90",
-      "bytes": 367050,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:drive-2011",
-      "wid": "drive-2011",
-      "title": "Drive",
-      "file": "film-ai/decks/film-drive-2011.webp",
-      "sha256": "6bf65d25c83683bb4b3dab8c285bf480454ee1c1108c7e51e679cc11d883c336",
-      "bytes": 140824,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:drug-war-2012",
-      "wid": "drug-war-2012",
-      "title": "毒战",
-      "file": "film-ai/decks/film-drug-war-2012.webp",
-      "sha256": "9be377e53a5456ef1d6d58e96fe15ed41906eb1273fb6692ff583f4f902c7b89",
-      "bytes": 186954,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:drunken-master-1978",
       "wid": "drunken-master-1978",
       "title": "醉拳",
@@ -14612,6 +14612,174 @@
       "file": "film-ai/decks/film-faces-1968.webp",
       "sha256": "aa350df7410e16f0549a38000cce3bea005830e27438b675620f599a9eb01210",
       "bytes": 235364,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fatboy-slim-praise-you-1999",
+      "wid": "fatboy-slim-praise-you-1999",
+      "title": "Praise You — 胖小子",
+      "file": "film-ai/decks/film-fatboy-slim-praise-you-1999.webp",
+      "sha256": "7b712c22686242c151d5fab6b6a6121884358d1e917e06bc890ba3d2d209980c",
+      "bytes": 296742,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fatboy-slim-right-here-right-now-1999",
+      "wid": "fatboy-slim-right-here-right-now-1999",
+      "title": "Right Here, Right Now — 胖小子",
+      "file": "film-ai/decks/film-fatboy-slim-right-here-right-now-1999.webp",
+      "sha256": "8a081a14add5541e7aea7b5808e81697d8a7f50cf7049753064d29c628afc70c",
+      "bytes": 354686,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fatboy-slim-weapon-of-choice-2001",
+      "wid": "fatboy-slim-weapon-of-choice-2001",
+      "title": "Weapon of Choice — 胖小子",
+      "file": "film-ai/decks/film-fatboy-slim-weapon-of-choice-2001.webp",
+      "sha256": "46aedfd725519a1bcc3d664a9e75b028a1bada4428aa0dabaf364638fade036b",
+      "bytes": 240550,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fated-to-love-you-2008",
+      "wid": "fated-to-love-you-2008",
+      "title": "命中注定我爱你",
+      "file": "film-ai/decks/film-fated-to-love-you-2008.webp",
+      "sha256": "9fdaba212c61292f31e56241befc04220f98264012e2c0100a62b3633c21aa20",
+      "bytes": 423200,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:father-and-son-1981",
+      "wid": "father-and-son-1981",
+      "title": "父子情",
+      "file": "film-ai/decks/film-father-and-son-1981.webp",
+      "sha256": "4a933106e0058b61be2067c3e4b74773a4f389c421b00c8eaf284e89231168c5",
+      "bytes": 361958,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fauda-2015",
+      "wid": "fauda-2015",
+      "title": "高压线",
+      "file": "film-ai/decks/film-fauda-2015.webp",
+      "sha256": "cd1aa14014e7723fb5e22a225d9f1dc5a11d9d1c04d33ce923f3718911f8f4c4",
+      "bytes": 520242,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:faust-1926",
+      "wid": "faust-1926",
+      "title": "浮士德",
+      "file": "film-ai/decks/film-faust-1926.webp",
+      "sha256": "b19c4271941d1723b4c0a6552b08884cf48622717a4b75b12d4930f6df67082e",
+      "bytes": 188008,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fear-and-loathing-in-las-vegas-1998",
+      "wid": "fear-and-loathing-in-las-vegas-1998",
+      "title": "Fear and Loathing In Las Vegas",
+      "file": "film-ai/decks/film-fear-and-loathing-in-las-vegas-1998.webp",
+      "sha256": "49d9b697d79557c77631b0e1b3baa5702a486545e7ac8dbd9f4813c4f088ce86",
+      "bytes": 274782,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fearless-2006",
+      "wid": "fearless-2006",
+      "title": "霍元甲",
+      "file": "film-ai/decks/film-fearless-2006.webp",
+      "sha256": "7a6cb17b58f3693eb03fb3074da8646f325bac3870c7ff15172b8785040eea7f",
+      "bytes": 355192,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:feather-flies-to-the-sky-2017",
+      "wid": "feather-flies-to-the-sky-2017",
+      "title": "鸡毛飞上天",
+      "file": "film-ai/decks/film-feather-flies-to-the-sky-2017.webp",
+      "sha256": "d36c0142a034b208cb234f1e78417a3824447c899a946df07e9634ca975fe3c5",
+      "bytes": 450046,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fedex-fast-talker-1981",
+      "wid": "fedex-fast-talker-1981",
+      "title": "联邦快递·快嘴先生",
+      "file": "film-ai/decks/film-fedex-fast-talker-1981.webp",
+      "sha256": "3594995b5eb9e44a1ab8931945053e8c634ef3315c636d856f82b3f68f8e1183",
+      "bytes": 345914,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:feelings-of-mountains-and-waters-1988",
+      "wid": "feelings-of-mountains-and-waters-1988",
+      "title": "山水情",
+      "file": "film-ai/decks/film-feelings-of-mountains-and-waters-1988.webp",
+      "sha256": "983fc2dc4ef81c462f475d4f963f4b622faf2688925935e10478f9b0af2ebd4f",
+      "bytes": 310230,
       "size": [
         1672,
         941
