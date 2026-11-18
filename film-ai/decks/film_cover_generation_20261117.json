@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-18T03:29:55.396910+00:00",
+  "snapshot_time_utc": "2026-11-18T03:47:38.131401+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -10462,6 +10462,90 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
+      "id": "film:double-vision-2002",
+      "wid": "double-vision-2002",
+      "title": "双瞳",
+      "file": "film-ai/decks/film-double-vision-2002.webp",
+      "sha256": "f07f6b3bdf554860e5ca45ed7a97c47b12f7d92f1448f01bb8c23d0d3cacf0fd",
+      "bytes": 299726,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dracula-1931",
+      "wid": "dracula-1931",
+      "title": "Dracula",
+      "file": "film-ai/decks/film-dracula-1931.webp",
+      "sha256": "3e758ee278afe587a957076ab363177166e830acfaa5216268651f05f4fc28e2",
+      "bytes": 167664,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dragon-inn-1967",
+      "wid": "dragon-inn-1967",
+      "title": "Dragon Inn / 龍門客棧",
+      "file": "film-ai/decks/film-dragon-inn-1967.webp",
+      "sha256": "9e73e85a40b63b11279fb11384da3aa3a8a866be5e010b7613270af6fc34c544",
+      "bytes": 310370,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:drawing-sword-2005",
+      "wid": "drawing-sword-2005",
+      "title": "Drawing Sword / 亮剑",
+      "file": "film-ai/decks/film-drawing-sword-2005.webp",
+      "sha256": "681a46dfe8f0b4370aa8da1e36492c3ef447c82298eeebf7917eec86b922ffe4",
+      "bytes": 349276,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dream-of-the-red-chamber-1987",
+      "wid": "dream-of-the-red-chamber-1987",
+      "title": "Dream of the Red Chamber / 红楼梦",
+      "file": "film-ai/decks/film-dream-of-the-red-chamber-1987.webp",
+      "sha256": "6ac74922d3bc684b050129baaa66ab5b666287cc54fdb325d5e7f8ab0690be42",
+      "bytes": 286210,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dreams-1990",
+      "wid": "dreams-1990",
+      "title": "Akira Kurosawa's Dreams / 夢",
+      "file": "film-ai/decks/film-dreams-1990.webp",
+      "sha256": "c76cc7c7dc038f7a1a26b184e40bdbfe8475c0d28d771be3d578922708911845",
+      "bytes": 482602,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -13080,20 +13164,6 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:double-vision-2002",
-      "wid": "double-vision-2002",
-      "title": "双瞳",
-      "file": "film-ai/decks/film-double-vision-2002.webp",
-      "sha256": "f07f6b3bdf554860e5ca45ed7a97c47b12f7d92f1448f01bb8c23d0d3cacf0fd",
-      "bytes": 299726,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:dove-evolution-2006",
       "wid": "dove-evolution-2006",
       "title": "多芬·蜕变",
@@ -13150,82 +13220,12 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:dracula-1931",
-      "wid": "dracula-1931",
-      "title": "Dracula",
-      "file": "film-ai/decks/film-dracula-1931.webp",
-      "sha256": "3e758ee278afe587a957076ab363177166e830acfaa5216268651f05f4fc28e2",
-      "bytes": 167664,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:dragon-inn-1967",
-      "wid": "dragon-inn-1967",
-      "title": "Dragon Inn / 龍門客棧",
-      "file": "film-ai/decks/film-dragon-inn-1967.webp",
-      "sha256": "9e73e85a40b63b11279fb11384da3aa3a8a866be5e010b7613270af6fc34c544",
-      "bytes": 310370,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:drake-hotline-bling-2015",
       "wid": "drake-hotline-bling-2015",
       "title": "Hotline Bling — Drake",
       "file": "film-ai/decks/film-drake-hotline-bling-2015.webp",
       "sha256": "16a5afb7b137412b75d40cd36548213acfb48bdf586199a459b5589fea65914c",
       "bytes": 252896,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:drawing-sword-2005",
-      "wid": "drawing-sword-2005",
-      "title": "Drawing Sword / 亮剑",
-      "file": "film-ai/decks/film-drawing-sword-2005.webp",
-      "sha256": "681a46dfe8f0b4370aa8da1e36492c3ef447c82298eeebf7917eec86b922ffe4",
-      "bytes": 349276,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:dream-of-the-red-chamber-1987",
-      "wid": "dream-of-the-red-chamber-1987",
-      "title": "Dream of the Red Chamber / 红楼梦",
-      "file": "film-ai/decks/film-dream-of-the-red-chamber-1987.webp",
-      "sha256": "6ac74922d3bc684b050129baaa66ab5b666287cc54fdb325d5e7f8ab0690be42",
-      "bytes": 286210,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:dreams-1990",
-      "wid": "dreams-1990",
-      "title": "Akira Kurosawa's Dreams / 夢",
-      "file": "film-ai/decks/film-dreams-1990.webp",
-      "sha256": "c76cc7c7dc038f7a1a26b184e40bdbfe8475c0d28d771be3d578922708911845",
-      "bytes": 482602,
       "size": [
         1672,
         941
@@ -14444,6 +14444,174 @@
       "file": "film-ai/decks/film-fargo-s2-2015.webp",
       "sha256": "2f597e735a8206f3d4db0f11794cc8c8e992c521965d8b24f396e4426823db36",
       "bytes": 335564,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:evening-rain-1980",
+      "wid": "evening-rain-1980",
+      "title": "巴山夜雨",
+      "file": "film-ai/decks/film-evening-rain-1980.webp",
+      "sha256": "e32c56114fc0c5e0cc178a7b5bdcd32358445677e0dd0ad4c398a852641a1734",
+      "bytes": 312458,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:evian-roller-babies-2009",
+      "wid": "evian-roller-babies-2009",
+      "title": "依云·轮滑宝宝",
+      "file": "film-ai/decks/film-evian-roller-babies-2009.webp",
+      "sha256": "b2b31000a9412c8fc01b51b728443fcfdd38c8ef2cc9b6b350425bbaed01a66a",
+      "bytes": 362354,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:ex-machina-2014",
+      "wid": "ex-machina-2014",
+      "title": "机械姬",
+      "file": "film-ai/decks/film-ex-machina-2014.webp",
+      "sha256": "f343ee2b359e9840599489ed716051176d8ef8d63ab825b3a111c7da2efddbb9",
+      "bytes": 264464,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:execution-in-autumn-1972",
+      "wid": "execution-in-autumn-1972",
+      "title": "秋决",
+      "file": "film-ai/decks/film-execution-in-autumn-1972.webp",
+      "sha256": "34470c708d3a9d54c5784db7ce0155dd3ef0b99384f2559f01b265036707a0ba",
+      "bytes": 361784,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:exhuma-2024",
+      "wid": "exhuma-2024",
+      "title": "破墓",
+      "file": "film-ai/decks/film-exhuma-2024.webp",
+      "sha256": "5d94a31c7b2bb21ba61d636d0bc0797ade167437653ee0e956a4de14bb349195",
+      "bytes": 299366,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:exiled-2006",
+      "wid": "exiled-2006",
+      "title": "放逐",
+      "file": "film-ai/decks/film-exiled-2006.webp",
+      "sha256": "0d6dfc5765e4977c535a9079a24ecf69e27b76d6c709a4ebf1c305907cb966d4",
+      "bytes": 326332,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:extraordinary-attorney-woo-2022",
+      "wid": "extraordinary-attorney-woo-2022",
+      "title": "非常律师禹英雨",
+      "file": "film-ai/decks/film-extraordinary-attorney-woo-2022.webp",
+      "sha256": "18f2603c6bc7734116950f1e5539e611e424c6b79a619d01d9a2b59f11544433",
+      "bytes": 322080,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:extremely-inappropriate-2024",
+      "wid": "extremely-inappropriate-2024",
+      "title": "极度不妥！",
+      "file": "film-ai/decks/film-extremely-inappropriate-2024.webp",
+      "sha256": "2e88e6a58d176029b4bcb1ed9d241ff82a8d0499dc6e4e7d7b6de82797964296",
+      "bytes": 515216,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:eyes-wide-shut-1999",
+      "wid": "eyes-wide-shut-1999",
+      "title": "Eyes Wide Shut",
+      "file": "film-ai/decks/film-eyes-wide-shut-1999.webp",
+      "sha256": "be81a3b7110118fa09aeed7913729ff1a715dfb2688d586053979373afcc1c29",
+      "bytes": 283324,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:f1-2025",
+      "wid": "f1-2025",
+      "title": "F1：狂飙飞车",
+      "file": "film-ai/decks/film-f1-2025.webp",
+      "sha256": "1dff0cab501672c9dc129b9d797e347eed38f36cd94fd8ffe26afb2b806090fe",
+      "bytes": 255704,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:face-off-1997",
+      "wid": "face-off-1997",
+      "title": "变脸",
+      "file": "film-ai/decks/film-face-off-1997.webp",
+      "sha256": "dd357d4bc3d6e7b2893bad1868994e96778ea9c2bea2add18c78d9ee734c1738",
+      "bytes": 247218,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:faces-1968",
+      "wid": "faces-1968",
+      "title": "Faces",
+      "file": "film-ai/decks/film-faces-1968.webp",
+      "sha256": "aa350df7410e16f0549a38000cce3bea005830e27438b675620f599a9eb01210",
+      "bytes": 235364,
       "size": [
         1672,
         941
