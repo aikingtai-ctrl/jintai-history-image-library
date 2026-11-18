@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-18T07:00:02.189370+00:00",
+  "snapshot_time_utc": "2026-11-18T07:32:33.722734+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -11218,6 +11218,216 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
+      "id": "film:escape-at-dannemora-2018",
+      "wid": "escape-at-dannemora-2018",
+      "title": "丹尼莫拉监狱大逃亡",
+      "file": "film-ai/decks/film-escape-at-dannemora-2018.webp",
+      "sha256": "ba2457edc535be1e2481e85db85d59735837f66ca488cd37d0d559fae9edc532",
+      "bytes": 301012,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:escape-from-mogadishu-2021",
+      "wid": "escape-from-mogadishu-2021",
+      "title": "摩加迪沙",
+      "file": "film-ai/decks/film-escape-from-mogadishu-2021.webp",
+      "sha256": "61b6d07351190d9076fef16cc82310c9afeb1785203580515d169b06d9a089b3",
+      "bytes": 256878,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:et-the-extra-terrestrial-1982",
+      "wid": "et-the-extra-terrestrial-1982",
+      "title": "E.T. The Extra-Terrestrial",
+      "file": "film-ai/decks/film-et-the-extra-terrestrial-1982.webp",
+      "sha256": "2191c379311e2a72b4e47fa1f2bd4beff83772c3c8b57e055126ed0288603280",
+      "bytes": 320830,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:eternal-love-2017",
+      "wid": "eternal-love-2017",
+      "title": "三生三世十里桃花",
+      "file": "film-ai/decks/film-eternal-love-2017.webp",
+      "sha256": "76f8dbd2cef6799c583ec2ffee2bb17e2e12ea7d55cd816b94a553e24b15f6d1",
+      "bytes": 409606,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:eternal-summer-2006",
+      "wid": "eternal-summer-2006",
+      "title": "盛夏光年",
+      "file": "film-ai/decks/film-eternal-summer-2006.webp",
+      "sha256": "43fb6327d3f1b8919f140b572f43f23d57111dacc1860835afc513499a5342ef",
+      "bytes": 352788,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:eternal-sunshine-of-the-spotless-mind-2004",
+      "wid": "eternal-sunshine-of-the-spotless-mind-2004",
+      "title": "Eternal Sunshine of The Spotless Mind",
+      "file": "film-ai/decks/film-eternal-sunshine-of-the-spotless-mind-2004.webp",
+      "sha256": "83ae1e7ceeefe2511bdd743627eb79b0ccf49935cf6a8e04cb687cbb21d78f11",
+      "bytes": 194246,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:eternity-and-a-day-1998",
+      "wid": "eternity-and-a-day-1998",
+      "title": "永恒和一日",
+      "file": "film-ai/decks/film-eternity-and-a-day-1998.webp",
+      "sha256": "a1d3e8e7700f95f7a403181e17b7dc7d04756e368ad685a07e5e53ca1ea13694",
+      "bytes": 287118,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:euphoria-2019",
+      "wid": "euphoria-2019",
+      "title": "亢奋",
+      "file": "film-ai/decks/film-euphoria-2019.webp",
+      "sha256": "804419e8fa380c00de9d2745113d6e91972f4e4fc99c25a8da935981ee8c8f62",
+      "bytes": 252040,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:evening-bell-1988",
+      "wid": "evening-bell-1988",
+      "title": "晚钟",
+      "file": "film-ai/decks/film-evening-bell-1988.webp",
+      "sha256": "04c482b4ce3a4e185f9efd6958e25edb70d88f54cdd98aa42cba71309357c31b",
+      "bytes": 310142,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:evening-rain-1980",
+      "wid": "evening-rain-1980",
+      "title": "巴山夜雨",
+      "file": "film-ai/decks/film-evening-rain-1980.webp",
+      "sha256": "e32c56114fc0c5e0cc178a7b5bdcd32358445677e0dd0ad4c398a852641a1734",
+      "bytes": 312458,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:ex-machina-2014",
+      "wid": "ex-machina-2014",
+      "title": "机械姬",
+      "file": "film-ai/decks/film-ex-machina-2014.webp",
+      "sha256": "f343ee2b359e9840599489ed716051176d8ef8d63ab825b3a111c7da2efddbb9",
+      "bytes": 264464,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:execution-in-autumn-1972",
+      "wid": "execution-in-autumn-1972",
+      "title": "秋决",
+      "file": "film-ai/decks/film-execution-in-autumn-1972.webp",
+      "sha256": "34470c708d3a9d54c5784db7ce0155dd3ef0b99384f2559f01b265036707a0ba",
+      "bytes": 361784,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:exhuma-2024",
+      "wid": "exhuma-2024",
+      "title": "破墓",
+      "file": "film-ai/decks/film-exhuma-2024.webp",
+      "sha256": "5d94a31c7b2bb21ba61d636d0bc0797ade167437653ee0e956a4de14bb349195",
+      "bytes": 299366,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:exiled-2006",
+      "wid": "exiled-2006",
+      "title": "放逐",
+      "file": "film-ai/decks/film-exiled-2006.webp",
+      "sha256": "0d6dfc5765e4977c535a9079a24ecf69e27b76d6c709a4ebf1c305907cb966d4",
+      "bytes": 326332,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:extraordinary-attorney-woo-2022",
+      "wid": "extraordinary-attorney-woo-2022",
+      "title": "非常律师禹英雨",
+      "file": "film-ai/decks/film-extraordinary-attorney-woo-2022.webp",
+      "sha256": "18f2603c6bc7734116950f1e5539e611e424c6b79a619d01d9a2b59f11544433",
+      "bytes": 322080,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -14116,124 +14326,12 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:escape-at-dannemora-2018",
-      "wid": "escape-at-dannemora-2018",
-      "title": "丹尼莫拉监狱大逃亡",
-      "file": "film-ai/decks/film-escape-at-dannemora-2018.webp",
-      "sha256": "ba2457edc535be1e2481e85db85d59735837f66ca488cd37d0d559fae9edc532",
-      "bytes": 301012,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:escape-from-mogadishu-2021",
-      "wid": "escape-from-mogadishu-2021",
-      "title": "摩加迪沙",
-      "file": "film-ai/decks/film-escape-from-mogadishu-2021.webp",
-      "sha256": "61b6d07351190d9076fef16cc82310c9afeb1785203580515d169b06d9a089b3",
-      "bytes": 256878,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:et-the-extra-terrestrial-1982",
-      "wid": "et-the-extra-terrestrial-1982",
-      "title": "E.T. The Extra-Terrestrial",
-      "file": "film-ai/decks/film-et-the-extra-terrestrial-1982.webp",
-      "sha256": "2191c379311e2a72b4e47fa1f2bd4beff83772c3c8b57e055126ed0288603280",
-      "bytes": 320830,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:eternal-love-2017",
-      "wid": "eternal-love-2017",
-      "title": "三生三世十里桃花",
-      "file": "film-ai/decks/film-eternal-love-2017.webp",
-      "sha256": "76f8dbd2cef6799c583ec2ffee2bb17e2e12ea7d55cd816b94a553e24b15f6d1",
-      "bytes": 409606,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:eternal-summer-2006",
-      "wid": "eternal-summer-2006",
-      "title": "盛夏光年",
-      "file": "film-ai/decks/film-eternal-summer-2006.webp",
-      "sha256": "43fb6327d3f1b8919f140b572f43f23d57111dacc1860835afc513499a5342ef",
-      "bytes": 352788,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:eternal-sunshine-of-the-spotless-mind-2004",
-      "wid": "eternal-sunshine-of-the-spotless-mind-2004",
-      "title": "Eternal Sunshine of The Spotless Mind",
-      "file": "film-ai/decks/film-eternal-sunshine-of-the-spotless-mind-2004.webp",
-      "sha256": "83ae1e7ceeefe2511bdd743627eb79b0ccf49935cf6a8e04cb687cbb21d78f11",
-      "bytes": 194246,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:eternity-and-a-day-1998",
-      "wid": "eternity-and-a-day-1998",
-      "title": "永恒和一日",
-      "file": "film-ai/decks/film-eternity-and-a-day-1998.webp",
-      "sha256": "a1d3e8e7700f95f7a403181e17b7dc7d04756e368ad685a07e5e53ca1ea13694",
-      "bytes": 287118,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:etre-et-avoir-2002",
       "wid": "etre-et-avoir-2002",
       "title": "山村犹有读书声",
       "file": "film-ai/decks/film-etre-et-avoir-2002.webp",
       "sha256": "70ca6ca635eee7714666b008cc56e58541f59bc4ac034d25783aa57cd8f5ea4d",
       "bytes": 323536,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:euphoria-2019",
-      "wid": "euphoria-2019",
-      "title": "亢奋",
-      "file": "film-ai/decks/film-euphoria-2019.webp",
-      "sha256": "804419e8fa380c00de9d2745113d6e91972f4e4fc99c25a8da935981ee8c8f62",
-      "bytes": 252040,
       "size": [
         1672,
         941
@@ -14262,20 +14360,6 @@
       "file": "film-ai/decks/film-eurythmics-sweet-dreams-1983.webp",
       "sha256": "27da03fc91943fb78923ad39a9034aeffdb08519472dcf42174fbf3b4ad17f83",
       "bytes": 232214,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:evening-bell-1988",
-      "wid": "evening-bell-1988",
-      "title": "晚钟",
-      "file": "film-ai/decks/film-evening-bell-1988.webp",
-      "sha256": "04c482b4ce3a4e185f9efd6958e25edb70d88f54cdd98aa42cba71309357c31b",
-      "bytes": 310142,
       "size": [
         1672,
         941
@@ -14452,96 +14536,12 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:evening-rain-1980",
-      "wid": "evening-rain-1980",
-      "title": "巴山夜雨",
-      "file": "film-ai/decks/film-evening-rain-1980.webp",
-      "sha256": "e32c56114fc0c5e0cc178a7b5bdcd32358445677e0dd0ad4c398a852641a1734",
-      "bytes": 312458,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:evian-roller-babies-2009",
       "wid": "evian-roller-babies-2009",
       "title": "依云·轮滑宝宝",
       "file": "film-ai/decks/film-evian-roller-babies-2009.webp",
       "sha256": "b2b31000a9412c8fc01b51b728443fcfdd38c8ef2cc9b6b350425bbaed01a66a",
       "bytes": 362354,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:ex-machina-2014",
-      "wid": "ex-machina-2014",
-      "title": "机械姬",
-      "file": "film-ai/decks/film-ex-machina-2014.webp",
-      "sha256": "f343ee2b359e9840599489ed716051176d8ef8d63ab825b3a111c7da2efddbb9",
-      "bytes": 264464,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:execution-in-autumn-1972",
-      "wid": "execution-in-autumn-1972",
-      "title": "秋决",
-      "file": "film-ai/decks/film-execution-in-autumn-1972.webp",
-      "sha256": "34470c708d3a9d54c5784db7ce0155dd3ef0b99384f2559f01b265036707a0ba",
-      "bytes": 361784,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:exhuma-2024",
-      "wid": "exhuma-2024",
-      "title": "破墓",
-      "file": "film-ai/decks/film-exhuma-2024.webp",
-      "sha256": "5d94a31c7b2bb21ba61d636d0bc0797ade167437653ee0e956a4de14bb349195",
-      "bytes": 299366,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:exiled-2006",
-      "wid": "exiled-2006",
-      "title": "放逐",
-      "file": "film-ai/decks/film-exiled-2006.webp",
-      "sha256": "0d6dfc5765e4977c535a9079a24ecf69e27b76d6c709a4ebf1c305907cb966d4",
-      "bytes": 326332,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:extraordinary-attorney-woo-2022",
-      "wid": "extraordinary-attorney-woo-2022",
-      "title": "非常律师禹英雨",
-      "file": "film-ai/decks/film-extraordinary-attorney-woo-2022.webp",
-      "sha256": "18f2603c6bc7734116950f1e5539e611e424c6b79a619d01d9a2b59f11544433",
-      "bytes": 322080,
       "size": [
         1672,
         941
@@ -15116,6 +15116,174 @@
       "file": "film-ai/decks/film-floating-weeds-1959.webp",
       "sha256": "989a482788a1826c1f2a977c491255074d58eeaf155b864a6db94d64d6a92107",
       "bytes": 316600,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:flow-2024",
+      "wid": "flow-2024",
+      "title": "Flow / Straume / 猫猫的奇幻漂流",
+      "file": "film-ai/decks/film-flow-2024.webp",
+      "sha256": "12bf035a568687470ab2d5b4ae9d4b0fb5c6d00564d2635a640b176a42de6316",
+      "bytes": 162320,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fly-with-the-crane-2012",
+      "wid": "fly-with-the-crane-2012",
+      "title": "Fly with the Crane / 告诉他们，我乘白鹤去了",
+      "file": "film-ai/decks/film-fly-with-the-crane-2012.webp",
+      "sha256": "33a732909740eb93cde6e1ac497b0f6abf2517ad0acd3fad2740ce8caeae49ee",
+      "bytes": 387304,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:flying-swords-of-dragon-gate-2011",
+      "wid": "flying-swords-of-dragon-gate-2011",
+      "title": "Flying Swords of Dragon Gate / 龙门飞甲",
+      "file": "film-ai/decks/film-flying-swords-of-dragon-gate-2011.webp",
+      "sha256": "7f0aeaf470d44f8895d0e684e4272cb9232fd6d481960eb914b4c0fb9654621e",
+      "bytes": 308922,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fog-hill-of-five-elements-2020",
+      "wid": "fog-hill-of-five-elements-2020",
+      "title": "Fog Hill of Five Elements / 雾山五行",
+      "file": "film-ai/decks/film-fog-hill-of-five-elements-2020.webp",
+      "sha256": "9092a8e0e78fc1a29abae5c32ce07f1a434d18d375f3982391050ddaf8683f03",
+      "bytes": 547330,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:following-1998",
+      "wid": "following-1998",
+      "title": "Following",
+      "file": "film-ai/decks/film-following-1998.webp",
+      "sha256": "44bcc9790e50cccff2cc12aa97f4b2dc9d367e54b122a1371e2e057e29e05180",
+      "bytes": 315010,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:for-a-few-dollars-more-1965",
+      "wid": "for-a-few-dollars-more-1965",
+      "title": "For a Few Dollars More / 黄昏双镖客",
+      "file": "film-ai/decks/film-for-a-few-dollars-more-1965.webp",
+      "sha256": "e8fa1570130671e2e42a0938fc72ccb0c01311780c0e954d1376e6cb6cd48126",
+      "bytes": 451578,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:forbidden-games-1952",
+      "wid": "forbidden-games-1952",
+      "title": "Forbidden Games / Jeux interdits / 禁止的游戏",
+      "file": "film-ai/decks/film-forbidden-games-1952.webp",
+      "sha256": "e592cde25911e00e9dc5abf59316aeacefbdf1da981f628124da84c0c44f479a",
+      "bytes": 302508,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:forbidden-planet-1956",
+      "wid": "forbidden-planet-1956",
+      "title": "Forbidden Planet / 禁忌星球",
+      "file": "film-ai/decks/film-forbidden-planet-1956.webp",
+      "sha256": "30bb8f6591843ddb58594e443fab9e20cff5b1ac2bf5bb2177ad0d17032d5285",
+      "bytes": 371610,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:force-majeure-2014",
+      "wid": "force-majeure-2014",
+      "title": "Force Majeure / Turist / 游客",
+      "file": "film-ai/decks/film-force-majeure-2014.webp",
+      "sha256": "fb4884d722f0d6fbf2bbf83035c615e9c8637397ebf893af9562d939ed835f58",
+      "bytes": 166810,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:forensic-heroes-2006",
+      "wid": "forensic-heroes-2006",
+      "title": "Forensic Heroes / 法证先锋",
+      "file": "film-ai/decks/film-forensic-heroes-2006.webp",
+      "sha256": "e17da9a34813a0db00204abd642ad1c705fb60fa0eb7990fef2802f834bfa99d",
+      "bytes": 169246,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:forever-enthralled-2008",
+      "wid": "forever-enthralled-2008",
+      "title": "Forever Enthralled / 梅兰芳",
+      "file": "film-ai/decks/film-forever-enthralled-2008.webp",
+      "sha256": "88250049a7043ec21a3af41954db0bfbfded8dbeaa87f3148df1673c70f91465",
+      "bytes": 320952,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:forever-young-2018",
+      "wid": "forever-young-2018",
+      "title": "Forever Young / 无问西东",
+      "file": "film-ai/decks/film-forever-young-2018.webp",
+      "sha256": "8a690348f0f03e8ffba833c3c93fdac2cf9a45633c95c2eae3f38d1c10c361d7",
+      "bytes": 309646,
       "size": [
         1672,
         941
