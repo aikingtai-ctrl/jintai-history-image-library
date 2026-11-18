@@ -38,7 +38,7 @@ jobs:
             "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" repo
 
           python3 - <<'PY'
-          import pathlib, re, shutil, subprocess
+          import hashlib, pathlib, re, shutil, subprocess
 
           repo = pathlib.Path("repo")
           site = pathlib.Path("_site")
@@ -136,9 +136,27 @@ jobs:
 
           shots_manifest = site / "film-ai" / "shots-manifest.js"
           if shots_manifest.exists():
+              # The source HTML pin may drift when independent image batches land.
+              # Pin the staged pages to the exact staged manifest before the
+              # deployment-only revision marker is appended.
+              source_pin = hashlib.sha256(shots_manifest.read_bytes()).hexdigest()[:16]
+              shot_pin_re = re.compile(
+                  r'(<script src="film-ai/shots-manifest\.js\?v=)([0-9a-f]{8,64})("></script>)'
+              )
+              for rel in ("film.html", "影视参考图集.html"):
+                  page = site / rel
+                  html = page.read_text(encoding="utf-8")
+                  pinned, count = shot_pin_re.subn(
+                      lambda match: match.group(1) + source_pin + match.group(3),
+                      html,
+                  )
+                  assert count == 1, f"Expected one film shot manifest pin in {rel}"
+                  if pinned != html:
+                      page.write_text(pinned, encoding="utf-8", newline="\n")
               revision = git_bytes("rev-parse", "HEAD").decode("ascii").strip()
               with shots_manifest.open("a", encoding="utf-8") as handle:
                   handle.write(f"\nwindow.FILM_SHOT_ASSET_REV='{revision}';\n")
+              print(f"Pinned staged film pages to shot manifest {source_pin}")
 
           # Filter only the Pages copy. Source mappings remain available for
           # later high-resolution replacement and the deployment still runs.
@@ -150,6 +168,12 @@ jobs:
               check=True,
           )
           gate.unlink()
+
+          # Check final staged HTML after the JPG gate has edited its own pin.
+          if shots_manifest.exists():
+              for rel in ("film.html", "影视参考图集.html"):
+                  pins = shot_pin_re.findall((site / rel).read_text(encoding="utf-8"))
+                  assert len(pins) == 1 and pins[0][1] == source_pin, rel
 
           (site / ".nojekyll").write_text("", encoding="utf-8")
           print(f"Staged {len(selected)} files into _site ({total_bytes / (1024*1024):.2f} MiB)")
