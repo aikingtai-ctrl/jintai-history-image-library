@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-18T12:18:23.725528+00:00",
+  "snapshot_time_utc": "2026-11-18T12:37:49.503702+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -16544,6 +16544,174 @@
       "file": "film-ai/decks/film-gnarls-barkley-crazy-2006.webp",
       "sha256": "7e6be4b515594e22999380315b7752ffb8457ef0ff6b02bd27f2510e0247ae5e",
       "bytes": 354722,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:go-grandriders-2012",
+      "wid": "go-grandriders-2012",
+      "title": "Go Grandriders / 不老骑士",
+      "file": "film-ai/decks/film-go-grandriders-2012.webp",
+      "sha256": "83a184009792ed01b14ea024981f49759771927a347d0ee3ef8dd9ec35b6d949",
+      "bytes": 336378,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:goblin-2016",
+      "wid": "goblin-2016",
+      "title": "Guardian: The Lonely and Great God / 鬼怪",
+      "file": "film-ai/decks/film-goblin-2016.webp",
+      "sha256": "37aa5e66996a34635fa5056036629c114b3f6eac5b95f68f75c9875cb009bfc6",
+      "bytes": 395260,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:god-of-gamblers-1989",
+      "wid": "god-of-gamblers-1989",
+      "title": "God of Gamblers / 赌神",
+      "file": "film-ai/decks/film-god-of-gamblers-1989.webp",
+      "sha256": "ee89ac2b1c3086e5baa1428bef09e8a2cbe31b196447a57a08eb9bf42391c2d9",
+      "bytes": 231534,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:godland-2022",
+      "wid": "godland-2022",
+      "title": "Godland / Vanskabte Land / 上帝之地",
+      "file": "film-ai/decks/film-godland-2022.webp",
+      "sha256": "5e08231e6feeb2b0616b0a476ff5dd84952bec1f17be99946f394d2ebbc7f8d3",
+      "bytes": 322596,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:godless-2017",
+      "wid": "godless-2017",
+      "title": "Godless / 无神",
+      "file": "film-ai/decks/film-godless-2017.webp",
+      "sha256": "7475ac56930086fe8596620723a8b97e52334669b000fdfd4b5bd71ee1568888",
+      "bytes": 424916,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gods-own-country-2017",
+      "wid": "gods-own-country-2017",
+      "title": "God's Own Country",
+      "file": "film-ai/decks/film-gods-own-country-2017.webp",
+      "sha256": "4dfc3e9e689d8878eabdc4bcd48b9a27cea7834e42df66f65d479e2685d401ac",
+      "bytes": 325520,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:godzilla-1954",
+      "wid": "godzilla-1954",
+      "title": "Godzilla",
+      "file": "film-ai/decks/film-godzilla-1954.webp",
+      "sha256": "441b262b7d2fba6467724082cde0c18da1c1977b259c9e151d57be6c52d37c5a",
+      "bytes": 342646,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gohatto-1999",
+      "wid": "gohatto-1999",
+      "title": "Gohatto / Taboo / 御法度",
+      "file": "film-ai/decks/film-gohatto-1999.webp",
+      "sha256": "85e4c279ca6d8c4485df6870b423f6e8aa0a7c6f3513a59c94e5122c5ef735cd",
+      "bytes": 168476,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gold-leaf-2021",
+      "wid": "gold-leaf-2021",
+      "title": "Gold Leaf / 茶金",
+      "file": "film-ai/decks/film-gold-leaf-2021.webp",
+      "sha256": "5db0a6cb66c35550252222ab95c159822cf233a6d38116fade72ab0b7e412bb4",
+      "bytes": 396546,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:golden-marriage-2007",
+      "wid": "golden-marriage-2007",
+      "title": "Golden Marriage / 金婚",
+      "file": "film-ai/decks/film-golden-marriage-2007.webp",
+      "sha256": "93f249c029185d345c7349711de5a80145148d29087753901822492e92ee2af3",
+      "bytes": 317752,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gomorrah-2008",
+      "wid": "gomorrah-2008",
+      "title": "Gomorra / Gomorrah / 格莫拉",
+      "file": "film-ai/decks/film-gomorrah-2008.webp",
+      "sha256": "f71b4cba3983d25594e19bc32591964e4c52ef6f99833b1cda06c54ce58b2316",
+      "bytes": 426364,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gomorrah-2014",
+      "wid": "gomorrah-2014",
+      "title": "Gomorra – La serie / Gomorrah / 格莫拉",
+      "file": "film-ai/decks/film-gomorrah-2014.webp",
+      "sha256": "1bce51536cb84e8fd095fe290401dede3c5b702c75c80a09ce2d17b60e8a3be8",
+      "bytes": 319706,
       "size": [
         1672,
         941
