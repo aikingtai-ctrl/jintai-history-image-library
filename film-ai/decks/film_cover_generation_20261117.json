@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-18T10:45:03.878783+00:00",
+  "snapshot_time_utc": "2026-11-18T12:18:23.725528+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -12688,6 +12688,426 @@
       "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
     },
     {
+      "id": "film:frankenstein-1931",
+      "wid": "frankenstein-1931",
+      "title": "Frankenstein",
+      "file": "film-ai/decks/film-frankenstein-1931.webp",
+      "sha256": "7a92c42a9b948923426185c0680cb4c7b6501b1b2ae2688a801f473f261f3f7f",
+      "bytes": 239490,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:frantz-2016",
+      "wid": "frantz-2016",
+      "title": "Frantz",
+      "file": "film-ai/decks/film-frantz-2016.webp",
+      "sha256": "117de4c04e58326e0964f9e8f6cfdbe067c8a37761ce34ad1853cbf354eeda90",
+      "bytes": 242258,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:freaks-1932",
+      "wid": "freaks-1932",
+      "title": "Freaks",
+      "file": "film-ai/decks/film-freaks-1932.webp",
+      "sha256": "f48115f0775754077d7a854d596ebbd8b8d6c6a7dd03e20176861ec8eb574f87",
+      "bytes": 180386,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:freixenet-the-key-to-reserva-2007",
+      "wid": "freixenet-the-key-to-reserva-2007",
+      "title": "Freixenet — The Key to Reserva",
+      "file": "film-ai/decks/film-freixenet-the-key-to-reserva-2007.webp",
+      "sha256": "9b2217b26f728cd48a3dd1389b37ee4bec330909ddb2c04cd3529ccc8af49cd7",
+      "bytes": 223578,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:frida-2002",
+      "wid": "frida-2002",
+      "title": "Frida",
+      "file": "film-ai/decks/film-frida-2002.webp",
+      "sha256": "bd0971823616f07923a18b115e0f8b189edf7a000107f18d57e184b3bbe7257c",
+      "bytes": 431196,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:friends-1994",
+      "wid": "friends-1994",
+      "title": "Friends / 老友记",
+      "file": "film-ai/decks/film-friends-1994.webp",
+      "sha256": "9eac553661d7eaeed9a175ee15acb33d70e583a1471e1088d76999fc413799a0",
+      "bytes": 438164,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:frieren-beyond-journeys-end-s1-2023",
+      "wid": "frieren-beyond-journeys-end-s1-2023",
+      "title": "Frieren: Beyond Journey's End / 葬送的芙莉莲 第一季",
+      "file": "film-ai/decks/film-frieren-beyond-journeys-end-s1-2023.webp",
+      "sha256": "ff5468b7a3dd7fffe07d629fa7c79824be2a5aa7778c1a0d8cf540ffce7b50d6",
+      "bytes": 435292,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:from-here-to-eternity-1953",
+      "wid": "from-here-to-eternity-1953",
+      "title": "From Here to Eternity / 乱世忠魂",
+      "file": "film-ai/decks/film-from-here-to-eternity-1953.webp",
+      "sha256": "cc97ee35c17d252f04731c74926250092a5a4597726588b318f6b6b635f12bc4",
+      "bytes": 180024,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:from-the-north-1981",
+      "wid": "from-the-north-1981",
+      "title": "From the North / 北の国から / 来自北国",
+      "file": "film-ai/decks/film-from-the-north-1981.webp",
+      "sha256": "7670f558fc5b8993f6fabff5766933c666521025a349cf082d3d3b99082a2e89",
+      "bytes": 292806,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:frozen-2013",
+      "wid": "frozen-2013",
+      "title": "Frozen / 冰雪奇缘",
+      "file": "film-ai/decks/film-frozen-2013.webp",
+      "sha256": "4940c4ea8fce43e2b893dc282986ac008c38134405e35ec513875c29974d1376",
+      "bytes": 341952,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:frozen-planet-2011",
+      "wid": "frozen-planet-2011",
+      "title": "Frozen Planet / 冰冻星球",
+      "file": "film-ai/decks/film-frozen-planet-2011.webp",
+      "sha256": "28f320636b11e2b72b001bfa7cc65e47bbd1bdbcc0cae79a3066050dbe5cbb0b",
+      "bytes": 204802,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:full-metal-jacket-1987",
+      "wid": "full-metal-jacket-1987",
+      "title": "Full Metal Jacket",
+      "file": "film-ai/decks/film-full-metal-jacket-1987.webp",
+      "sha256": "ee6b213eb71a85aa7b0106a4055895b21768eb6bc95452bcaaf212cc67b2d3ab",
+      "bytes": 209748,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:funeral-parade-of-roses-1969",
+      "wid": "funeral-parade-of-roses-1969",
+      "title": "Funeral Parade of Roses",
+      "file": "film-ai/decks/film-funeral-parade-of-roses-1969.webp",
+      "sha256": "59d8a283f2dbbe00b7a948de7094c52bfb3e6525069371d358d86525ea45efe6",
+      "bytes": 243500,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:funny-face-1957",
+      "wid": "funny-face-1957",
+      "title": "甜姐儿",
+      "file": "film-ai/decks/film-funny-face-1957.webp",
+      "sha256": "6421bb2ad5bfc6ae29cdcf49979a2f8d5bb33193b3b7dfe6019bf5f59340ebfa",
+      "bytes": 456064,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:funny-games-1997",
+      "wid": "funny-games-1997",
+      "title": "Funny Games",
+      "file": "film-ai/decks/film-funny-games-1997.webp",
+      "sha256": "3176480c070f2292e0fa9c1b11b29a40c5488cc87e1891e9bc805416d33ddfb8",
+      "bytes": 274640,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gallants-2010",
+      "wid": "gallants-2010",
+      "title": "打擂台",
+      "file": "film-ai/decks/film-gallants-2010.webp",
+      "sha256": "2a93e9a1871cdf7bc9e22de822a1e770436119f7c6c88add9f35d14ffda913b9",
+      "bytes": 395354,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gallipoli-1981",
+      "wid": "gallipoli-1981",
+      "title": "加里波利",
+      "file": "film-ai/decks/film-gallipoli-1981.webp",
+      "sha256": "e48b1cc5c590b357c4fb7d086b7cc43a95743ff6bb26eded6ef7c12a0dc8ae81",
+      "bytes": 417834,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gangs-of-london-2020",
+      "wid": "gangs-of-london-2020",
+      "title": "伦敦黑帮",
+      "file": "film-ai/decks/film-gangs-of-london-2020.webp",
+      "sha256": "c6f0996e2e164c66b760807b61d9b49c97684b9d0bf57d564744fa444e46acfe",
+      "bytes": 381970,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gangs-of-new-york-2002",
+      "wid": "gangs-of-new-york-2002",
+      "title": "Gangs of New York",
+      "file": "film-ai/decks/film-gangs-of-new-york-2002.webp",
+      "sha256": "b733d29370c2dd744f3ad561e78214e5b7b1472e8bf5939912ba6b6b8758394b",
+      "bytes": 511412,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gangs-of-wasseypur-2012",
+      "wid": "gangs-of-wasseypur-2012",
+      "title": "Gangs of Wasseypur / 瓦塞浦黑帮",
+      "file": "film-ai/decks/film-gangs-of-wasseypur-2012.webp",
+      "sha256": "a24a037c9d0ff9794feb4a23ee56055d9e4cd40be761ef3cb9ba81364ae09c22",
+      "bytes": 369564,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gate-of-flesh-1964",
+      "wid": "gate-of-flesh-1964",
+      "title": "Gate of Flesh",
+      "file": "film-ai/decks/film-gate-of-flesh-1964.webp",
+      "sha256": "86c7ea7ef70d7fda0d1ad62bb36eeb399a99b983ac1a9246a08fb43014fbaad1",
+      "bytes": 515766,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gattaca-1997",
+      "wid": "gattaca-1997",
+      "title": "Gattaca",
+      "file": "film-ai/decks/film-gattaca-1997.webp",
+      "sha256": "16a819bd9dbf970d680ef044cb93f04c5ec8f6cbde91aaae444da98954fc5a5b",
+      "bytes": 181450,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:genghis-khan-2004",
+      "wid": "genghis-khan-2004",
+      "title": "Genghis Khan / 成吉思汗",
+      "file": "film-ai/decks/film-genghis-khan-2004.webp",
+      "sha256": "e974c2faa2fe29f4e01d610572e4d246ea2b26d7e70656727beeab860be88f8f",
+      "bytes": 373236,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gentlemen-prefer-blondes-1953",
+      "wid": "gentlemen-prefer-blondes-1953",
+      "title": "Gentlemen Prefer Blondes",
+      "file": "film-ai/decks/film-gentlemen-prefer-blondes-1953.webp",
+      "sha256": "1344af8d80cca1fde7dc15cb00223e288a8c069dc339786a5cf9fd5b0af02e94",
+      "bytes": 361388,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:george-michael-freedom-90-1990",
+      "wid": "george-michael-freedom-90-1990",
+      "title": "Freedom! '90 — George Michael",
+      "file": "film-ai/decks/film-george-michael-freedom-90-1990.webp",
+      "sha256": "35deaacbe91cb804e4f881e878c2a1b10cccc9453c74999ab0ced9c367887d02",
+      "bytes": 339324,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:germany-year-zero-1948",
+      "wid": "germany-year-zero-1948",
+      "title": "Germany Year Zero / Germania anno zero",
+      "file": "film-ai/decks/film-germany-year-zero-1948.webp",
+      "sha256": "a5acd0042a8e69c0a695febaae5a2cd07944520bf3ae42f7d1cdace691fbf4f7",
+      "bytes": 308802,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gerry-2002",
+      "wid": "gerry-2002",
+      "title": "Gerry",
+      "file": "film-ai/decks/film-gerry-2002.webp",
+      "sha256": "0d65d87cd6d90c365082138faa8770afe3f4a91323547ccdd86133506eced331",
+      "bytes": 234656,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:get-out-2017",
+      "wid": "get-out-2017",
+      "title": "Get Out",
+      "file": "film-ai/decks/film-get-out-2017.webp",
+      "sha256": "eaadf3dbcf26a1679be0bc9fa32535a63daac53e1699e268c4c08e621aadf3c3",
+      "bytes": 447842,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gf-bf-2012",
+      "wid": "gf-bf-2012",
+      "title": "GF*BF / 女朋友。男朋友",
+      "file": "film-ai/decks/film-gf-bf-2012.webp",
+      "sha256": "814edcd93ef0373189ca41bc9058133f46decf629a37da90cc73d3d768da06f3",
+      "bytes": 346558,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:ghost-1990",
+      "wid": "ghost-1990",
+      "title": "Ghost / 人鬼情未了",
+      "file": "film-ai/decks/film-ghost-1990.webp",
+      "sha256": "506399c72a81ff74a64b47d38914df90e8e198039122be5e65e3625f72181693",
+      "bytes": 184466,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -15838,82 +16258,12 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:frankenstein-1931",
-      "wid": "frankenstein-1931",
-      "title": "Frankenstein",
-      "file": "film-ai/decks/film-frankenstein-1931.webp",
-      "sha256": "7a92c42a9b948923426185c0680cb4c7b6501b1b2ae2688a801f473f261f3f7f",
-      "bytes": 239490,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:frantz-2016",
-      "wid": "frantz-2016",
-      "title": "Frantz",
-      "file": "film-ai/decks/film-frantz-2016.webp",
-      "sha256": "117de4c04e58326e0964f9e8f6cfdbe067c8a37761ce34ad1853cbf354eeda90",
-      "bytes": 242258,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:franz-ferdinand-take-me-out-2004",
       "wid": "franz-ferdinand-take-me-out-2004",
       "title": "Franz Ferdinand — Take Me Out",
       "file": "film-ai/decks/film-franz-ferdinand-take-me-out-2004.webp",
       "sha256": "befaa1c16beac9a37865fdda6c759e5d865fe018318aafbafd59790000069a5b",
       "bytes": 443702,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:freaks-1932",
-      "wid": "freaks-1932",
-      "title": "Freaks",
-      "file": "film-ai/decks/film-freaks-1932.webp",
-      "sha256": "f48115f0775754077d7a854d596ebbd8b8d6c6a7dd03e20176861ec8eb574f87",
-      "bytes": 180386,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:freixenet-the-key-to-reserva-2007",
-      "wid": "freixenet-the-key-to-reserva-2007",
-      "title": "Freixenet — The Key to Reserva",
-      "file": "film-ai/decks/film-freixenet-the-key-to-reserva-2007.webp",
-      "sha256": "9b2217b26f728cd48a3dd1389b37ee4bec330909ddb2c04cd3529ccc8af49cd7",
-      "bytes": 223578,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:frida-2002",
-      "wid": "frida-2002",
-      "title": "Frida",
-      "file": "film-ai/decks/film-frida-2002.webp",
-      "sha256": "bd0971823616f07923a18b115e0f8b189edf7a000107f18d57e184b3bbe7257c",
-      "bytes": 431196,
       "size": [
         1672,
         941
@@ -15950,34 +16300,6 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:friends-1994",
-      "wid": "friends-1994",
-      "title": "Friends / 老友记",
-      "file": "film-ai/decks/film-friends-1994.webp",
-      "sha256": "9eac553661d7eaeed9a175ee15acb33d70e583a1471e1088d76999fc413799a0",
-      "bytes": 438164,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:frieren-beyond-journeys-end-s1-2023",
-      "wid": "frieren-beyond-journeys-end-s1-2023",
-      "title": "Frieren: Beyond Journey's End / 葬送的芙莉莲 第一季",
-      "file": "film-ai/decks/film-frieren-beyond-journeys-end-s1-2023.webp",
-      "sha256": "ff5468b7a3dd7fffe07d629fa7c79824be2a5aa7778c1a0d8cf540ffce7b50d6",
-      "bytes": 435292,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:from-beijing-with-love-1994",
       "wid": "from-beijing-with-love-1994",
       "title": "From Beijing with Love / 国产凌凌漆",
@@ -15992,124 +16314,12 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:from-here-to-eternity-1953",
-      "wid": "from-here-to-eternity-1953",
-      "title": "From Here to Eternity / 乱世忠魂",
-      "file": "film-ai/decks/film-from-here-to-eternity-1953.webp",
-      "sha256": "cc97ee35c17d252f04731c74926250092a5a4597726588b318f6b6b635f12bc4",
-      "bytes": 180024,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:from-the-north-1981",
-      "wid": "from-the-north-1981",
-      "title": "From the North / 北の国から / 来自北国",
-      "file": "film-ai/decks/film-from-the-north-1981.webp",
-      "sha256": "7670f558fc5b8993f6fabff5766933c666521025a349cf082d3d3b99082a2e89",
-      "bytes": 292806,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:frozen-2013",
-      "wid": "frozen-2013",
-      "title": "Frozen / 冰雪奇缘",
-      "file": "film-ai/decks/film-frozen-2013.webp",
-      "sha256": "4940c4ea8fce43e2b893dc282986ac008c38134405e35ec513875c29974d1376",
-      "bytes": 341952,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:frozen-planet-2011",
-      "wid": "frozen-planet-2011",
-      "title": "Frozen Planet / 冰冻星球",
-      "file": "film-ai/decks/film-frozen-planet-2011.webp",
-      "sha256": "28f320636b11e2b72b001bfa7cc65e47bbd1bdbcc0cae79a3066050dbe5cbb0b",
-      "bytes": 204802,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:fruitvale-station-2013",
       "wid": "fruitvale-station-2013",
       "title": "Fruitvale Station",
       "file": "film-ai/decks/film-fruitvale-station-2013.webp",
       "sha256": "815d4651faa38cf8d27eeba40581df8fa1a16cc4e61bea4f5ff645d011cde929",
       "bytes": 335090,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:full-metal-jacket-1987",
-      "wid": "full-metal-jacket-1987",
-      "title": "Full Metal Jacket",
-      "file": "film-ai/decks/film-full-metal-jacket-1987.webp",
-      "sha256": "ee6b213eb71a85aa7b0106a4055895b21768eb6bc95452bcaaf212cc67b2d3ab",
-      "bytes": 209748,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:funeral-parade-of-roses-1969",
-      "wid": "funeral-parade-of-roses-1969",
-      "title": "Funeral Parade of Roses",
-      "file": "film-ai/decks/film-funeral-parade-of-roses-1969.webp",
-      "sha256": "59d8a283f2dbbe00b7a948de7094c52bfb3e6525069371d358d86525ea45efe6",
-      "bytes": 243500,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:funny-face-1957",
-      "wid": "funny-face-1957",
-      "title": "甜姐儿",
-      "file": "film-ai/decks/film-funny-face-1957.webp",
-      "sha256": "6421bb2ad5bfc6ae29cdcf49979a2f8d5bb33193b3b7dfe6019bf5f59340ebfa",
-      "bytes": 456064,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:funny-games-1997",
-      "wid": "funny-games-1997",
-      "title": "Funny Games",
-      "file": "film-ai/decks/film-funny-games-1997.webp",
-      "sha256": "3176480c070f2292e0fa9c1b11b29a40c5488cc87e1891e9bc805416d33ddfb8",
-      "bytes": 274640,
       "size": [
         1672,
         941
@@ -16160,194 +16370,12 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:gallants-2010",
-      "wid": "gallants-2010",
-      "title": "打擂台",
-      "file": "film-ai/decks/film-gallants-2010.webp",
-      "sha256": "2a93e9a1871cdf7bc9e22de822a1e770436119f7c6c88add9f35d14ffda913b9",
-      "bytes": 395354,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:gallipoli-1981",
-      "wid": "gallipoli-1981",
-      "title": "加里波利",
-      "file": "film-ai/decks/film-gallipoli-1981.webp",
-      "sha256": "e48b1cc5c590b357c4fb7d086b7cc43a95743ff6bb26eded6ef7c12a0dc8ae81",
-      "bytes": 417834,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:gangs-of-london-2020",
-      "wid": "gangs-of-london-2020",
-      "title": "伦敦黑帮",
-      "file": "film-ai/decks/film-gangs-of-london-2020.webp",
-      "sha256": "c6f0996e2e164c66b760807b61d9b49c97684b9d0bf57d564744fa444e46acfe",
-      "bytes": 381970,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:gangs-of-new-york-2002",
-      "wid": "gangs-of-new-york-2002",
-      "title": "Gangs of New York",
-      "file": "film-ai/decks/film-gangs-of-new-york-2002.webp",
-      "sha256": "b733d29370c2dd744f3ad561e78214e5b7b1472e8bf5939912ba6b6b8758394b",
-      "bytes": 511412,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:gangs-of-wasseypur-2012",
-      "wid": "gangs-of-wasseypur-2012",
-      "title": "Gangs of Wasseypur / 瓦塞浦黑帮",
-      "file": "film-ai/decks/film-gangs-of-wasseypur-2012.webp",
-      "sha256": "a24a037c9d0ff9794feb4a23ee56055d9e4cd40be761ef3cb9ba81364ae09c22",
-      "bytes": 369564,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:gate-of-flesh-1964",
-      "wid": "gate-of-flesh-1964",
-      "title": "Gate of Flesh",
-      "file": "film-ai/decks/film-gate-of-flesh-1964.webp",
-      "sha256": "86c7ea7ef70d7fda0d1ad62bb36eeb399a99b983ac1a9246a08fb43014fbaad1",
-      "bytes": 515766,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:gattaca-1997",
-      "wid": "gattaca-1997",
-      "title": "Gattaca",
-      "file": "film-ai/decks/film-gattaca-1997.webp",
-      "sha256": "16a819bd9dbf970d680ef044cb93f04c5ec8f6cbde91aaae444da98954fc5a5b",
-      "bytes": 181450,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:generation-kill-2008",
       "wid": "generation-kill-2008",
       "title": "Generation Kill",
       "file": "film-ai/decks/film-generation-kill-2008.webp",
       "sha256": "76c7002b9ffb356a5c74850251db3fad6d7ac6ab33daa4182b6249b6ec5b6b18",
       "bytes": 331670,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:genghis-khan-2004",
-      "wid": "genghis-khan-2004",
-      "title": "Genghis Khan / 成吉思汗",
-      "file": "film-ai/decks/film-genghis-khan-2004.webp",
-      "sha256": "e974c2faa2fe29f4e01d610572e4d246ea2b26d7e70656727beeab860be88f8f",
-      "bytes": 373236,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:gentlemen-prefer-blondes-1953",
-      "wid": "gentlemen-prefer-blondes-1953",
-      "title": "Gentlemen Prefer Blondes",
-      "file": "film-ai/decks/film-gentlemen-prefer-blondes-1953.webp",
-      "sha256": "1344af8d80cca1fde7dc15cb00223e288a8c069dc339786a5cf9fd5b0af02e94",
-      "bytes": 361388,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:george-michael-freedom-90-1990",
-      "wid": "george-michael-freedom-90-1990",
-      "title": "Freedom! '90 — George Michael",
-      "file": "film-ai/decks/film-george-michael-freedom-90-1990.webp",
-      "sha256": "35deaacbe91cb804e4f881e878c2a1b10cccc9453c74999ab0ced9c367887d02",
-      "bytes": 339324,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:germany-year-zero-1948",
-      "wid": "germany-year-zero-1948",
-      "title": "Germany Year Zero / Germania anno zero",
-      "file": "film-ai/decks/film-germany-year-zero-1948.webp",
-      "sha256": "a5acd0042a8e69c0a695febaae5a2cd07944520bf3ae42f7d1cdace691fbf4f7",
-      "bytes": 308802,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:gerry-2002",
-      "wid": "gerry-2002",
-      "title": "Gerry",
-      "file": "film-ai/decks/film-gerry-2002.webp",
-      "sha256": "0d65d87cd6d90c365082138faa8770afe3f4a91323547ccdd86133506eced331",
-      "bytes": 234656,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:get-out-2017",
-      "wid": "get-out-2017",
-      "title": "Get Out",
-      "file": "film-ai/decks/film-get-out-2017.webp",
-      "sha256": "eaadf3dbcf26a1679be0bc9fa32535a63daac53e1699e268c4c08e621aadf3c3",
-      "bytes": 447842,
       "size": [
         1672,
         941
@@ -16370,12 +16398,152 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:gf-bf-2012",
-      "wid": "gf-bf-2012",
-      "title": "GF*BF / 女朋友。男朋友",
-      "file": "film-ai/decks/film-gf-bf-2012.webp",
-      "sha256": "814edcd93ef0373189ca41bc9058133f46decf629a37da90cc73d3d768da06f3",
-      "bytes": 346558,
+      "id": "film:ghost-dog-the-way-of-the-samurai-1999",
+      "wid": "ghost-dog-the-way-of-the-samurai-1999",
+      "title": "Ghost Dog: The Way of the Samurai",
+      "file": "film-ai/decks/film-ghost-dog-the-way-of-the-samurai-1999.webp",
+      "sha256": "7758c0925d0d1939301774a15a5af9a5161c3a9394351ade7372e5bb50d4e272",
+      "bytes": 198658,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:ghost-in-the-shell-2-innocence-2004",
+      "wid": "ghost-in-the-shell-2-innocence-2004",
+      "title": "Ghost in the Shell 2: Innocence / 攻壳机动队2：无罪",
+      "file": "film-ai/decks/film-ghost-in-the-shell-2-innocence-2004.webp",
+      "sha256": "f623dfc50d1c034b47cd771f32b8948039eecc438ce3d08c8a6d39b283e7fe50",
+      "bytes": 290550,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:ghostbusters-1984",
+      "wid": "ghostbusters-1984",
+      "title": "Ghostbusters",
+      "file": "film-ai/decks/film-ghostbusters-1984.webp",
+      "sha256": "5147a39dd6f5229ea4aea0292cc34854153f890de265cf1a8321acf01d6786ea",
+      "bytes": 356470,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gimme-shelter-1970",
+      "wid": "gimme-shelter-1970",
+      "title": "Gimme Shelter / 给我庇护",
+      "file": "film-ai/decks/film-gimme-shelter-1970.webp",
+      "sha256": "57d0c8b58b876cdbdd970764532bf4d157482eea97375fdb31e88abc540c5821",
+      "bytes": 327410,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:giri-haji-2019",
+      "wid": "giri-haji-2019",
+      "title": "Giri/Haji / 义理/耻辱",
+      "file": "film-ai/decks/film-giri-haji-2019.webp",
+      "sha256": "22d04ed8bfa99c05d2362c323ccaed8e93165f007bdcddf5c40156084fee12ce",
+      "bytes": 411144,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:girl-from-hunan-1986",
+      "wid": "girl-from-hunan-1986",
+      "title": "Girl from Hunan / 湘女萧萧",
+      "file": "film-ai/decks/film-girl-from-hunan-1986.webp",
+      "sha256": "1e581821883e422f0eba73638e506f384bf2c19b5636378e573f7c873d28da38",
+      "bytes": 446430,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:girl-with-a-pearl-earring-2003",
+      "wid": "girl-with-a-pearl-earring-2003",
+      "title": "Girl with a Pearl Earring",
+      "file": "film-ai/decks/film-girl-with-a-pearl-earring-2003.webp",
+      "sha256": "252a4a8143263ac91ef62080af40095834204bf3c3f58f1965bdfd450cdaa369",
+      "bytes": 257816,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:girlhood-2014",
+      "wid": "girlhood-2014",
+      "title": "Girlhood / Bande de filles / 少女时代",
+      "file": "film-ai/decks/film-girlhood-2014.webp",
+      "sha256": "a79c1d2fe85075ea29be3f285de0c17520d9c0af9a5bf2c51d093cb522c49e2b",
+      "bytes": 328982,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gladiator-2000",
+      "wid": "gladiator-2000",
+      "title": "Gladiator",
+      "file": "film-ai/decks/film-gladiator-2000.webp",
+      "sha256": "a2f06599e4af9b3990b4d709cad096e10e256e5c4cf5b0908cc46491420c7173",
+      "bytes": 381322,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:glory-1989",
+      "wid": "glory-1989",
+      "title": "Glory / 光荣",
+      "file": "film-ai/decks/film-glory-1989.webp",
+      "sha256": "1298a0fdd70ace027d0dfefd23669f3ab9fd47818d91f8f4c94a64c7de928fe5",
+      "bytes": 440058,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gnarls-barkley-crazy-2006",
+      "wid": "gnarls-barkley-crazy-2006",
+      "title": "Crazy — Gnarls Barkley",
+      "file": "film-ai/decks/film-gnarls-barkley-crazy-2006.webp",
+      "sha256": "7e6be4b515594e22999380315b7752ffb8457ef0ff6b02bd27f2510e0247ae5e",
+      "bytes": 354722,
       "size": [
         1672,
         941
