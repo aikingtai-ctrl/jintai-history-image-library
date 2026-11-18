@@ -1534,7 +1534,7 @@ async function renderCompare(){
  if(CMP_MODE==='shots'){setCmpMode('shots');await renderCmpShots();}
  else{setCmpMode('works');renderFP();}}
 /* ---------- 作品库 ---------- */
-let WPAGE=0,WORKS_RENDER_TOKEN=0,LAST_RENDERED_WORKS_COUNT=0;const WPS=100;const FILM_AI_IMAGES=window.FILM_AI_IMAGES||{};
+let WPAGE=0,WORKS_RENDER_TOKEN=0,LAST_RENDERED_WORKS_COUNT=0;const WPS=100;const FILM_AI_IMAGES=window.FILM_AI_IMAGES||{},FILM_AI_GENERATED_WIDS=new Set(window.FILM_AI_GENERATED_WIDS||[]);
 let WORKS_VIEW_MODE=(()=>{const u=new URLSearchParams(location.search).get('wview');if(u==='large'||u==='2col'||u==='grid')return u;try{const s=localStorage.getItem('jt_works_view_v2');if(s==='large'||s==='2col'||s==='grid')return s;}catch(e){}return'grid';})();
 function resolveFilmAiAsset(rel){if(!rel)return'';if(/^https?:/i.test(rel))return rel;return IS_GH_FILM?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/${rel}`:rel;}
 function resolveFilmAiLegacyAsset(rel){if(!rel)return'';if(/^https?:/i.test(rel))return rel;return /\.jpe?g(?:[?#]|$)/i.test(rel)?rel:resolveFilmAiAsset(rel);}
@@ -1577,10 +1577,12 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
   const metaParts=[w.type||'电影',kindsStr,(w.region&&w.region!=='待补')?w.region:'',w.dir?'导演 '+w.dir:'',(w.dp&&w.dp!=='待核')?'摄影 '+w.dp:'摄影 待核'].filter(Boolean).join(' · ');
   const enShow=(w.te&&w.te!==w.t)?w.te:'';
   const aiSrc=getFilmAiSrc(w.wid);
-  const aiHires=!!(window.FILM_SHOT_WORK_IMAGES||{})[w.wid]||/\/film-ai\/shots\/[^?#]+\.webp/i.test(aiSrc||'');
-  const aiDeckCover=/\/film-ai\/decks\/film-[^?#]+\.webp/i.test(aiSrc||'');
-  const aiWorkConcept=/\/film-ai\/shots\/WORKCONCEPT-20261117-[^?#]+\.webp/i.test(aiSrc||'');
-  const aiBadge=aiWorkConcept?'原创概念图·高清':aiHires?'高清 AI 参考图':aiDeckCover?'原创概念图·高清':'旧版小图·待替换';
+  const aiHires=!!(window.FILM_SHOT_WORK_IMAGES||{})[w.wid]||/(?:^|\/)film-ai\/shots\/[^?#]+\.webp(?:[?#]|$)/i.test(aiSrc||'');
+  const aiDeckCover=/(?:^|\/)film-ai\/decks\/film-[^?#]+\.webp(?:[?#]|$)/i.test(aiSrc||'');
+  const aiWorkConcept=/(?:^|\/)film-ai\/shots\/WORKCONCEPT-\d{8}-[^?#]+\.webp(?:[?#]|$)/i.test(aiSrc||'');
+  const aiGeneratedJpg=FILM_AI_GENERATED_WIDS.has(w.wid)&&/(?:^|\/)film-ai\/[^/?#]+\.jpe?g(?:[?#]|$)/i.test(aiSrc||'');
+  const aiGeneratedWebp=FILM_AI_GENERATED_WIDS.has(w.wid)&&/(?:^|\/)film-ai\/src-[^/?#]+\.webp(?:[?#]|$)/i.test(aiSrc||'');
+  const aiBadge=aiGeneratedJpg?'AI 小图·待升级':aiGeneratedWebp?'AI 代表图':aiWorkConcept?'原创概念图·高清':aiHires?'高清 AI 参考图':aiDeckCover?'原创概念图·高清':'旧版小图·待替换';
   const aiPreview=aiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" role="button" tabindex="0" title="点击查看《${esc(w.t)}》图片原文件" aria-label="点击查看 ${esc(w.t)} 图片原文件"><img src="${esc(aiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">${aiBadge}</span><span class="film-ai-zoom-hint">🔍 点击放大</span></div>`:'<div class="film-ai-preview empty">等待 AI 代表图</div>';
   return`<div class="wc"><h4>${esc(w.t)} <span class="muted" style="font-size:18px">${enShow?esc(enShow)+' · ':''}${esc(w.y||'')}</span></h4>
  <div class="m">${esc(metaParts)}</div>
