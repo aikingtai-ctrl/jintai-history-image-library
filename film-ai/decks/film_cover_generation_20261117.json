@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-18T04:10:29.499501+00:00",
+  "snapshot_time_utc": "2026-11-18T05:55:26.879511+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -10588,6 +10588,426 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
+      "id": "film:drunken-master-1978",
+      "wid": "drunken-master-1978",
+      "title": "醉拳",
+      "file": "film-ai/decks/film-drunken-master-1978.webp",
+      "sha256": "ec611636496166706672255be203ea92a618d52b4ee5f3d18c20b5a7515a8969",
+      "bytes": 570040,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:drunken-master-ii-1994",
+      "wid": "drunken-master-ii-1994",
+      "title": "醉拳二",
+      "file": "film-ai/decks/film-drunken-master-ii-1994.webp",
+      "sha256": "a461890ef8bfcc805cd2dab7360959565d6efaf5013c308ccd8a3aa0751db7ff",
+      "bytes": 369078,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:duck-soup-1933",
+      "wid": "duck-soup-1933",
+      "title": "鸭羹",
+      "file": "film-ai/decks/film-duck-soup-1933.webp",
+      "sha256": "500ea4b17e88411bc15446a2ce5c5c51ac7112e02db671acd12ef38fb2e03b70",
+      "bytes": 225494,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dune-1984",
+      "wid": "dune-1984",
+      "title": "Dune",
+      "file": "film-ai/decks/film-dune-1984.webp",
+      "sha256": "733a073c3c7f4ea5e6cd610e89de615c8dfe0f88813f544d1cb4da0fa0130e55",
+      "bytes": 256728,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dune-2021",
+      "wid": "dune-2021",
+      "title": "Dune",
+      "file": "film-ai/decks/film-dune-2021.webp",
+      "sha256": "f26d9010820307bbf9bb1bd4e7174a608c0f508b936c2a8b2417d4c3741fa3e6",
+      "bytes": 126568,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:durian-durian-2000",
+      "wid": "durian-durian-2000",
+      "title": "榴莲飘飘",
+      "file": "film-ai/decks/film-durian-durian-2000.webp",
+      "sha256": "b899c061e7d1d476b191f80ad55afc7b7283888e1412122ab1111643e59df736",
+      "bytes": 364336,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:dust-in-the-wind-1986",
+      "wid": "dust-in-the-wind-1986",
+      "title": "恋恋风尘",
+      "file": "film-ai/decks/film-dust-in-the-wind-1986.webp",
+      "sha256": "dfc3263b4caa1def30bc5f5d37bcf430a631c41b358f44ef909a78d3f58977f2",
+      "bytes": 512816,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:early-summer-1951",
+      "wid": "early-summer-1951",
+      "title": "麦秋",
+      "file": "film-ai/decks/film-early-summer-1951.webp",
+      "sha256": "c6340d0d25ec21f08bd9d1d00fc18d1b58f09b23a370fc28efce94dcac766c52",
+      "bytes": 243408,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:east-of-eden-1955",
+      "wid": "east-of-eden-1955",
+      "title": "伊甸园之东",
+      "file": "film-ai/decks/film-east-of-eden-1955.webp",
+      "sha256": "cfa763557930255e249550617658a2354f31c1858e027ba533eeae213b188da7",
+      "bytes": 418002,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:east-palace-west-palace-1997",
+      "wid": "east-palace-west-palace-1997",
+      "title": "东宫西宫",
+      "file": "film-ai/decks/film-east-palace-west-palace-1997.webp",
+      "sha256": "4abfb3103b17d89b6db3ace67939a3c0fcb5367c020bbe5b8b64c836df17491e",
+      "bytes": 267614,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:eastern-promises-2007",
+      "wid": "eastern-promises-2007",
+      "title": "Eastern Promises",
+      "file": "film-ai/decks/film-eastern-promises-2007.webp",
+      "sha256": "2670ed5e6e161d9dedd33f6f6d1550dbb9c2010a60a0ddd54a405af2d7632002",
+      "bytes": 444210,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:easy-rider-1969",
+      "wid": "easy-rider-1969",
+      "title": "Easy Rider",
+      "file": "film-ai/decks/film-easy-rider-1969.webp",
+      "sha256": "a6f70ee27fd0e3c97cbee8ca3ec06427cee4d4ff57aa302e45623fee3dd7d593",
+      "bytes": 420576,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:eat-drink-man-woman-1994",
+      "wid": "eat-drink-man-woman-1994",
+      "title": "饮食男女",
+      "file": "film-ai/decks/film-eat-drink-man-woman-1994.webp",
+      "sha256": "16bc754274323a4dd0399d0e3c5bbb4956381105602d2c0a7e7e077a89ba86cc",
+      "bytes": 324898,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:echoes-of-the-rainbow-2010",
+      "wid": "echoes-of-the-rainbow-2010",
+      "title": "岁月神偷",
+      "file": "film-ai/decks/film-echoes-of-the-rainbow-2010.webp",
+      "sha256": "b00ff191938b742ed707a43ba0a3928f35ced2b45694992a06e5f69f1549701a",
+      "bytes": 386652,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:edward-scissorhands-1990",
+      "wid": "edward-scissorhands-1990",
+      "title": "Edward Scissorhands",
+      "file": "film-ai/decks/film-edward-scissorhands-1990.webp",
+      "sha256": "c295b50e9279b58da465af3467fa0744c5155abdc6fefb30b450a91d0943e84c",
+      "bytes": 570874,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:eight-taels-of-gold-1989",
+      "wid": "eight-taels-of-gold-1989",
+      "title": "八两金",
+      "file": "film-ai/decks/film-eight-taels-of-gold-1989.webp",
+      "sha256": "05c6667579d7c21d64a9f80c41a700df256082c2c1fab2b50ff960b072248416",
+      "bytes": 426408,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:eighteen-springs-1997",
+      "wid": "eighteen-springs-1997",
+      "title": "半生缘",
+      "file": "film-ai/decks/film-eighteen-springs-1997.webp",
+      "sha256": "e79d487ca403e2a6725a37cddbd68664eda79333feb63637a00b0d229eb13f93",
+      "bytes": 332300,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:eighteen-years-in-the-enemy-camp-1981",
+      "wid": "eighteen-years-in-the-enemy-camp-1981",
+      "title": "敌营十八年",
+      "file": "film-ai/decks/film-eighteen-years-in-the-enemy-camp-1981.webp",
+      "sha256": "18126eb68da1ea7c799128dd545b7c7a1e18f7c74e439d14a4b4f1f9298d978e",
+      "bytes": 278360,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:el-sur-1983",
+      "wid": "el-sur-1983",
+      "title": "南方",
+      "file": "film-ai/decks/film-el-sur-1983.webp",
+      "sha256": "9b3e533c72d2f7f7b47ceef589982702486e2733da46874e55af617d10a04832",
+      "bytes": 269470,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:el-topo-1970",
+      "wid": "el-topo-1970",
+      "title": "El Topo",
+      "file": "film-ai/decks/film-el-topo-1970.webp",
+      "sha256": "e0a6673273b53bb8b2d27466ee9b6110cdb7efe31c3f22f8f3aaeff9301aea81",
+      "bytes": 349530,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:el-verdugo-1963",
+      "wid": "el-verdugo-1963",
+      "title": "刽子手",
+      "file": "film-ai/decks/film-el-verdugo-1963.webp",
+      "sha256": "3ddbf2d763f54df15f43fdca091996ff1b13374e531e84f3b3064a7b07467f89",
+      "bytes": 207626,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:election-2-2006",
+      "wid": "election-2-2006",
+      "title": "黑社会以和为贵",
+      "file": "film-ai/decks/film-election-2-2006.webp",
+      "sha256": "5b0c87c3acfd3fe1e8f8472270b79942a89d937e27bafad0a3cdcc987f399b14",
+      "bytes": 205418,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:election-2005",
+      "wid": "election-2005",
+      "title": "黑社会",
+      "file": "film-ai/decks/film-election-2005.webp",
+      "sha256": "95819d23d44536145b31be6075fae919f645cbb66659b1a6af683bfa94925ab9",
+      "bytes": 275592,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:elephant-2003",
+      "wid": "elephant-2003",
+      "title": "Elephant",
+      "file": "film-ai/decks/film-elephant-2003.webp",
+      "sha256": "f0cd9d978df109f45c2c5f97ffde12be8292035724d45eb0d398b0f56feb14f5",
+      "bytes": 345824,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:elevator-to-the-gallows-1958",
+      "wid": "elevator-to-the-gallows-1958",
+      "title": "通往绞刑架的电梯",
+      "file": "film-ai/decks/film-elevator-to-the-gallows-1958.webp",
+      "sha256": "5246f114e5854efacce28b845db331f137b95ae7205648a9fa0f1b9261730a0e",
+      "bytes": 281674,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:elite-squad-2007",
+      "wid": "elite-squad-2007",
+      "title": "精英部队",
+      "file": "film-ai/decks/film-elite-squad-2007.webp",
+      "sha256": "1025f336c38d045b5aa3acf93796df5b6a330f1b0fa198ed798933712af1111e",
+      "bytes": 264394,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:elizabeth-1998",
+      "wid": "elizabeth-1998",
+      "title": "伊丽莎白",
+      "file": "film-ai/decks/film-elizabeth-1998.webp",
+      "sha256": "af50bb1632398d8613437d9c5fef4dc95c0f0410902b63df3e810f97ec70f2b0",
+      "bytes": 393876,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:embrace-of-the-serpent-2015",
+      "wid": "embrace-of-the-serpent-2015",
+      "title": "蛇之拥抱",
+      "file": "film-ai/decks/film-embrace-of-the-serpent-2015.webp",
+      "sha256": "180ea3e253034f07fe691564b554be0fafb8857e2634f7095a7ccecf055384f2",
+      "bytes": 335870,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:emperor-minghuang-of-tang-1990",
+      "wid": "emperor-minghuang-of-tang-1990",
+      "title": "唐明皇",
+      "file": "film-ai/decks/film-emperor-minghuang-of-tang-1990.webp",
+      "sha256": "a9e5c5e0ddacbfe33811733cf3772ae3ea373c123eae02f1694f8a0dc9b32875",
+      "bytes": 326852,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:empire-of-light-2022",
+      "wid": "empire-of-light-2022",
+      "title": "Empire of Light",
+      "file": "film-ai/decks/film-empire-of-light-2022.webp",
+      "sha256": "f30c68164ef60e7842c3376bc9a31fcd93f6a3c7163afdacd2ff1b4d5343d5af",
+      "bytes": 229146,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -13290,48 +13710,6 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:drunken-master-1978",
-      "wid": "drunken-master-1978",
-      "title": "醉拳",
-      "file": "film-ai/decks/film-drunken-master-1978.webp",
-      "sha256": "ec611636496166706672255be203ea92a618d52b4ee5f3d18c20b5a7515a8969",
-      "bytes": 570040,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:drunken-master-ii-1994",
-      "wid": "drunken-master-ii-1994",
-      "title": "醉拳二",
-      "file": "film-ai/decks/film-drunken-master-ii-1994.webp",
-      "sha256": "a461890ef8bfcc805cd2dab7360959565d6efaf5013c308ccd8a3aa0751db7ff",
-      "bytes": 369078,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:duck-soup-1933",
-      "wid": "duck-soup-1933",
-      "title": "鸭羹",
-      "file": "film-ai/decks/film-duck-soup-1933.webp",
-      "sha256": "500ea4b17e88411bc15446a2ce5c5c51ac7112e02db671acd12ef38fb2e03b70",
-      "bytes": 225494,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:duelist-2005",
       "wid": "duelist-2005",
       "title": "刑事",
@@ -13352,62 +13730,6 @@
       "file": "film-ai/decks/film-dumb-ways-to-die-2012.webp",
       "sha256": "b4ae3b04276d8faeb9206f18bffd695c665f28a644ae1b911b2558c26958bb03",
       "bytes": 324244,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:dune-1984",
-      "wid": "dune-1984",
-      "title": "Dune",
-      "file": "film-ai/decks/film-dune-1984.webp",
-      "sha256": "733a073c3c7f4ea5e6cd610e89de615c8dfe0f88813f544d1cb4da0fa0130e55",
-      "bytes": 256728,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:dune-2021",
-      "wid": "dune-2021",
-      "title": "Dune",
-      "file": "film-ai/decks/film-dune-2021.webp",
-      "sha256": "f26d9010820307bbf9bb1bd4e7174a608c0f508b936c2a8b2417d4c3741fa3e6",
-      "bytes": 126568,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:durian-durian-2000",
-      "wid": "durian-durian-2000",
-      "title": "榴莲飘飘",
-      "file": "film-ai/decks/film-durian-durian-2000.webp",
-      "sha256": "b899c061e7d1d476b191f80ad55afc7b7283888e1412122ab1111643e59df736",
-      "bytes": 364336,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:dust-in-the-wind-1986",
-      "wid": "dust-in-the-wind-1986",
-      "title": "恋恋风尘",
-      "file": "film-ai/decks/film-dust-in-the-wind-1986.webp",
-      "sha256": "dfc3263b4caa1def30bc5f5d37bcf430a631c41b358f44ef909a78d3f58977f2",
-      "bytes": 512816,
       "size": [
         1672,
         941
@@ -13486,110 +13808,12 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:early-summer-1951",
-      "wid": "early-summer-1951",
-      "title": "麦秋",
-      "file": "film-ai/decks/film-early-summer-1951.webp",
-      "sha256": "c6340d0d25ec21f08bd9d1d00fc18d1b58f09b23a370fc28efce94dcac766c52",
-      "bytes": 243408,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:earth-1930",
       "wid": "earth-1930",
       "title": "土地",
       "file": "film-ai/decks/film-earth-1930.webp",
       "sha256": "7d73883339621eace029ca37527578e1a405f7fabcaf85ba196978bdbfdc7275",
       "bytes": 385298,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:east-of-eden-1955",
-      "wid": "east-of-eden-1955",
-      "title": "伊甸园之东",
-      "file": "film-ai/decks/film-east-of-eden-1955.webp",
-      "sha256": "cfa763557930255e249550617658a2354f31c1858e027ba533eeae213b188da7",
-      "bytes": 418002,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:east-palace-west-palace-1997",
-      "wid": "east-palace-west-palace-1997",
-      "title": "东宫西宫",
-      "file": "film-ai/decks/film-east-palace-west-palace-1997.webp",
-      "sha256": "4abfb3103b17d89b6db3ace67939a3c0fcb5367c020bbe5b8b64c836df17491e",
-      "bytes": 267614,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:eastern-promises-2007",
-      "wid": "eastern-promises-2007",
-      "title": "Eastern Promises",
-      "file": "film-ai/decks/film-eastern-promises-2007.webp",
-      "sha256": "2670ed5e6e161d9dedd33f6f6d1550dbb9c2010a60a0ddd54a405af2d7632002",
-      "bytes": 444210,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:easy-rider-1969",
-      "wid": "easy-rider-1969",
-      "title": "Easy Rider",
-      "file": "film-ai/decks/film-easy-rider-1969.webp",
-      "sha256": "a6f70ee27fd0e3c97cbee8ca3ec06427cee4d4ff57aa302e45623fee3dd7d593",
-      "bytes": 420576,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:eat-drink-man-woman-1994",
-      "wid": "eat-drink-man-woman-1994",
-      "title": "饮食男女",
-      "file": "film-ai/decks/film-eat-drink-man-woman-1994.webp",
-      "sha256": "16bc754274323a4dd0399d0e3c5bbb4956381105602d2c0a7e7e077a89ba86cc",
-      "bytes": 324898,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:echoes-of-the-rainbow-2010",
-      "wid": "echoes-of-the-rainbow-2010",
-      "title": "岁月神偷",
-      "file": "film-ai/decks/film-echoes-of-the-rainbow-2010.webp",
-      "sha256": "b00ff191938b742ed707a43ba0a3928f35ced2b45694992a06e5f69f1549701a",
-      "bytes": 386652,
       "size": [
         1672,
         941
@@ -13626,62 +13850,6 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:edward-scissorhands-1990",
-      "wid": "edward-scissorhands-1990",
-      "title": "Edward Scissorhands",
-      "file": "film-ai/decks/film-edward-scissorhands-1990.webp",
-      "sha256": "c295b50e9279b58da465af3467fa0744c5155abdc6fefb30b450a91d0943e84c",
-      "bytes": 570874,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:eight-taels-of-gold-1989",
-      "wid": "eight-taels-of-gold-1989",
-      "title": "八两金",
-      "file": "film-ai/decks/film-eight-taels-of-gold-1989.webp",
-      "sha256": "05c6667579d7c21d64a9f80c41a700df256082c2c1fab2b50ff960b072248416",
-      "bytes": 426408,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:eighteen-springs-1997",
-      "wid": "eighteen-springs-1997",
-      "title": "半生缘",
-      "file": "film-ai/decks/film-eighteen-springs-1997.webp",
-      "sha256": "e79d487ca403e2a6725a37cddbd68664eda79333feb63637a00b0d229eb13f93",
-      "bytes": 332300,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:eighteen-years-in-the-enemy-camp-1981",
-      "wid": "eighteen-years-in-the-enemy-camp-1981",
-      "title": "敌营十八年",
-      "file": "film-ai/decks/film-eighteen-years-in-the-enemy-camp-1981.webp",
-      "sha256": "18126eb68da1ea7c799128dd545b7c7a1e18f7c74e439d14a4b4f1f9298d978e",
-      "bytes": 278360,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:el-sol-del-membrillo-1992",
       "wid": "el-sol-del-membrillo-1992",
       "title": "榅桲树阳光",
@@ -13696,180 +13864,12 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:el-sur-1983",
-      "wid": "el-sur-1983",
-      "title": "南方",
-      "file": "film-ai/decks/film-el-sur-1983.webp",
-      "sha256": "9b3e533c72d2f7f7b47ceef589982702486e2733da46874e55af617d10a04832",
-      "bytes": 269470,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:el-topo-1970",
-      "wid": "el-topo-1970",
-      "title": "El Topo",
-      "file": "film-ai/decks/film-el-topo-1970.webp",
-      "sha256": "e0a6673273b53bb8b2d27466ee9b6110cdb7efe31c3f22f8f3aaeff9301aea81",
-      "bytes": 349530,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:el-verdugo-1963",
-      "wid": "el-verdugo-1963",
-      "title": "刽子手",
-      "file": "film-ai/decks/film-el-verdugo-1963.webp",
-      "sha256": "3ddbf2d763f54df15f43fdca091996ff1b13374e531e84f3b3064a7b07467f89",
-      "bytes": 207626,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:election-2-2006",
-      "wid": "election-2-2006",
-      "title": "黑社会以和为贵",
-      "file": "film-ai/decks/film-election-2-2006.webp",
-      "sha256": "5b0c87c3acfd3fe1e8f8472270b79942a89d937e27bafad0a3cdcc987f399b14",
-      "bytes": 205418,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:election-2005",
-      "wid": "election-2005",
-      "title": "黑社会",
-      "file": "film-ai/decks/film-election-2005.webp",
-      "sha256": "95819d23d44536145b31be6075fae919f645cbb66659b1a6af683bfa94925ab9",
-      "bytes": 275592,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:elephant-2003",
-      "wid": "elephant-2003",
-      "title": "Elephant",
-      "file": "film-ai/decks/film-elephant-2003.webp",
-      "sha256": "f0cd9d978df109f45c2c5f97ffde12be8292035724d45eb0d398b0f56feb14f5",
-      "bytes": 345824,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:elevator-to-the-gallows-1958",
-      "wid": "elevator-to-the-gallows-1958",
-      "title": "通往绞刑架的电梯",
-      "file": "film-ai/decks/film-elevator-to-the-gallows-1958.webp",
-      "sha256": "5246f114e5854efacce28b845db331f137b95ae7205648a9fa0f1b9261730a0e",
-      "bytes": 281674,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:elite-squad-2007",
-      "wid": "elite-squad-2007",
-      "title": "精英部队",
-      "file": "film-ai/decks/film-elite-squad-2007.webp",
-      "sha256": "1025f336c38d045b5aa3acf93796df5b6a330f1b0fa198ed798933712af1111e",
-      "bytes": 264394,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:elizabeth-1998",
-      "wid": "elizabeth-1998",
-      "title": "伊丽莎白",
-      "file": "film-ai/decks/film-elizabeth-1998.webp",
-      "sha256": "af50bb1632398d8613437d9c5fef4dc95c0f0410902b63df3e810f97ec70f2b0",
-      "bytes": 393876,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:embrace-life-2010",
       "wid": "embrace-life-2010",
       "title": "苏塞克斯道路安全·拥抱生命",
       "file": "film-ai/decks/film-embrace-life-2010.webp",
       "sha256": "07c4a610cadcc65152400704e5d2394ff6627e314de0167fadde3fc2b9fda8a9",
       "bytes": 166874,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:embrace-of-the-serpent-2015",
-      "wid": "embrace-of-the-serpent-2015",
-      "title": "蛇之拥抱",
-      "file": "film-ai/decks/film-embrace-of-the-serpent-2015.webp",
-      "sha256": "180ea3e253034f07fe691564b554be0fafb8857e2634f7095a7ccecf055384f2",
-      "bytes": 335870,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:emperor-minghuang-of-tang-1990",
-      "wid": "emperor-minghuang-of-tang-1990",
-      "title": "唐明皇",
-      "file": "film-ai/decks/film-emperor-minghuang-of-tang-1990.webp",
-      "sha256": "a9e5c5e0ddacbfe33811733cf3772ae3ea373c123eae02f1694f8a0dc9b32875",
-      "bytes": 326852,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:empire-of-light-2022",
-      "wid": "empire-of-light-2022",
-      "title": "Empire of Light",
-      "file": "film-ai/decks/film-empire-of-light-2022.webp",
-      "sha256": "f30c68164ef60e7842c3376bc9a31fcd93f6a3c7163afdacd2ff1b4d5343d5af",
-      "bytes": 229146,
       "size": [
         1672,
         941
@@ -14780,6 +14780,174 @@
       "file": "film-ai/decks/film-feelings-of-mountains-and-waters-1988.webp",
       "sha256": "983fc2dc4ef81c462f475d4f963f4b622faf2688925935e10478f9b0af2ebd4f",
       "bytes": 310230,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:feist-1234-2007",
+      "wid": "feist-1234-2007",
+      "title": "1234 (Feist music video)",
+      "file": "film-ai/decks/film-feist-1234-2007.webp",
+      "sha256": "e8f9abdc6924b601c0b5c9006fe761abe89d0f32e88de1ccb106d2b980a0d404",
+      "bytes": 228146,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fellini-satyricon-1969",
+      "wid": "fellini-satyricon-1969",
+      "title": "Fellini Satyricon",
+      "file": "film-ai/decks/film-fellini-satyricon-1969.webp",
+      "sha256": "f81589b60d44518541bc9be9a2b9116fe6764712d4688b33f11a2d77effebdfc",
+      "bytes": 625230,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fengming-a-chinese-memoir-2007",
+      "wid": "fengming-a-chinese-memoir-2007",
+      "title": "Fengming: A Chinese Memoir",
+      "file": "film-ai/decks/film-fengming-a-chinese-memoir-2007.webp",
+      "sha256": "36634af2b90e36a01cedfd4a90d50ac83ee013bc0cab8e75fbcf31b7647fa68b",
+      "bytes": 153476,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:finding-mr-right-2013",
+      "wid": "finding-mr-right-2013",
+      "title": "Finding Mr. Right",
+      "file": "film-ai/decks/film-finding-mr-right-2013.webp",
+      "sha256": "f20ad9dcdfc08d4d6368d3aa2625b321d6a95a465b12fa34389ac1a845dc9d33",
+      "bytes": 274754,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fire-at-sea-2016",
+      "wid": "fire-at-sea-2016",
+      "title": "Fire at Sea (Fuocoammare)",
+      "file": "film-ai/decks/film-fire-at-sea-2016.webp",
+      "sha256": "14d2795fee571c0ae39407fb75a9b6566abd78fec123a6eccddce097bba484f9",
+      "bytes": 273728,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fire-of-love-2022",
+      "wid": "fire-of-love-2022",
+      "title": "Fire of Love",
+      "file": "film-ai/decks/film-fire-of-love-2022.webp",
+      "sha256": "28bdccbaffc67216be02df90a9cf9d03a7d035f01333b263f15db9068cda0268",
+      "bytes": 267058,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:firefly-2002",
+      "wid": "firefly-2002",
+      "title": "Firefly",
+      "file": "film-ai/decks/film-firefly-2002.webp",
+      "sha256": "761bbbce4c21a6d66e6ef5c563047b09d5a1ef0732e034733614c4a14476ed63",
+      "bytes": 365012,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:fires-on-the-plain-1959",
+      "wid": "fires-on-the-plain-1959",
+      "title": "Fires on the Plain",
+      "file": "film-ai/decks/film-fires-on-the-plain-1959.webp",
+      "sha256": "69ed40b675157993ece4cb95db7cd03b8628631d4d905d127a49c967c301ab4d",
+      "bytes": 482512,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:first-blood-1982",
+      "wid": "first-blood-1982",
+      "title": "First Blood",
+      "file": "film-ai/decks/film-first-blood-1982.webp",
+      "sha256": "616c601deb5443c4989a1b36792a04e5cc2e71eae347037b660b0365555863b4",
+      "bytes": 283174,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:first-cow-2019",
+      "wid": "first-cow-2019",
+      "title": "First Cow",
+      "file": "film-ai/decks/film-first-cow-2019.webp",
+      "sha256": "21917bcd348eed650ae13e96dbbd5ad6ceadd5e05751c2aa475fef512998ff85",
+      "bytes": 443522,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:first-love-2022",
+      "wid": "first-love-2022",
+      "title": "First Love (Hatsukoi)",
+      "file": "film-ai/decks/film-first-love-2022.webp",
+      "sha256": "eeca469be059d72f85ec85677c9b830747b0eaf9b9a76654509d116ad5b95cc6",
+      "bytes": 329344,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:first-man-2018",
+      "wid": "first-man-2018",
+      "title": "First Man",
+      "file": "film-ai/decks/film-first-man-2018.webp",
+      "sha256": "ef37c2d862dcb34567888db03a9eb86407b0c4d6699fab78a044c7e0362f0d7d",
+      "bytes": 134052,
       "size": [
         1672,
         941
