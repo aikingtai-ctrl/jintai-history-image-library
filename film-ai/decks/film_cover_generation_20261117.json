@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-18T09:39:26.577290+00:00",
+  "snapshot_time_utc": "2026-11-18T10:45:03.878783+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -12268,6 +12268,426 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
+      "id": "film:john-adams-2008",
+      "wid": "john-adams-2008",
+      "title": "约翰·亚当斯",
+      "file": "film-ai/decks/film-john-adams-2008.webp",
+      "sha256": "933d68a582c3fbf5666d0859307b1bbc44d4ac4a290737d23646b6155f454190",
+      "bytes": 192362,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:johnny-guitar-1954",
+      "wid": "johnny-guitar-1954",
+      "title": "Johnny Guitar",
+      "file": "film-ai/decks/film-johnny-guitar-1954.webp",
+      "sha256": "006b24f26cfc2594c9d69ffe7ffa52dbd7e9037c5b7d5833ed1b28efa54d13af",
+      "bytes": 315478,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:joker-2019",
+      "wid": "joker-2019",
+      "title": "Joker",
+      "file": "film-ai/decks/film-joker-2019.webp",
+      "sha256": "02fa58f0b63de73db324814f0c52bc250fbdd58e98140dda937cf4805639d82f",
+      "bytes": 237812,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:journey-to-italy-1954",
+      "wid": "journey-to-italy-1954",
+      "title": "意大利之旅",
+      "file": "film-ai/decks/film-journey-to-italy-1954.webp",
+      "sha256": "e4f7983b9525f86bdc382328c0de466cfa06929158d1172e1fce38feaeea3233",
+      "bytes": 170908,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:joy-of-life-2019",
+      "wid": "joy-of-life-2019",
+      "title": "庆余年",
+      "file": "film-ai/decks/film-joy-of-life-2019.webp",
+      "sha256": "4ad9e41891dc8c0675635c1be4dbced8f3e8ab7438f9ed77f555f537446ee1c2",
+      "bytes": 284280,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:ju-dou-1990",
+      "wid": "ju-dou-1990",
+      "title": "菊豆",
+      "file": "film-ai/decks/film-ju-dou-1990.webp",
+      "sha256": "9d31500db59f949fd6d780ae339eca66e50561fdce4716580528afd796a3eaf0",
+      "bytes": 270096,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:ju-on-the-grudge-2002",
+      "wid": "ju-on-the-grudge-2002",
+      "title": "咒怨",
+      "file": "film-ai/decks/film-ju-on-the-grudge-2002.webp",
+      "sha256": "a5a2f2c6d7bed8ac9f83a24687a130c8df1f328d0dc63549810d8d451ad3a3ba",
+      "bytes": 150612,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:judas-and-the-black-messiah-2021",
+      "wid": "judas-and-the-black-messiah-2021",
+      "title": "Judas and the Black Messiah",
+      "file": "film-ai/decks/film-judas-and-the-black-messiah-2021.webp",
+      "sha256": "c1c50e15a89b3b6a0f99f9a24fc37992b4bcd6bb6a9233e8c8004cd1a50b79de",
+      "bytes": 171586,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:jules-and-jim-1962",
+      "wid": "jules-and-jim-1962",
+      "title": "Jules et Jim",
+      "file": "film-ai/decks/film-jules-and-jim-1962.webp",
+      "sha256": "0f827f0f94e663446af598ee67f4932b1f8dc88126d142aa938ac3e840251d32",
+      "bytes": 245752,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:juliet-of-the-spirits-1965",
+      "wid": "juliet-of-the-spirits-1965",
+      "title": "朱丽叶与魔鬼",
+      "file": "film-ai/decks/film-juliet-of-the-spirits-1965.webp",
+      "sha256": "5dad7628294b0e80bffb1336e2d4ab449effd317175db8393328e8c382af1f68",
+      "bytes": 387388,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kaagaz-ke-phool-1959",
+      "wid": "kaagaz-ke-phool-1959",
+      "title": "纸花",
+      "file": "film-ai/decks/film-kaagaz-ke-phool-1959.webp",
+      "sha256": "dd3b74ffdacf28ff5ce45c2fb99bbf2983128f2d0f1c6ade97d672b2d6117269",
+      "bytes": 113970,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kagemusha-1980",
+      "wid": "kagemusha-1980",
+      "title": "Kagemusha",
+      "file": "film-ai/decks/film-kagemusha-1980.webp",
+      "sha256": "11246f473546799ca8480ace543d66d92d67a80deea569a1c9030dee2355b7ed",
+      "bytes": 208154,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kanal-1957",
+      "wid": "kanal-1957",
+      "title": "下水道",
+      "file": "film-ai/decks/film-kanal-1957.webp",
+      "sha256": "10b5dbf1bde267fb7392f14dce00aa25446229dd7b25dbc990ffea61d93cc3ef",
+      "bytes": 169846,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kandahar-2001",
+      "wid": "kandahar-2001",
+      "title": "坎大哈",
+      "file": "film-ai/decks/film-kandahar-2001.webp",
+      "sha256": "9dd3f9ba5f4dff69dfc19ae5e1d2e564bf8a8d170f8e46afa3fed28d62ba7409",
+      "bytes": 165104,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kangxi-dynasty-2001",
+      "wid": "kangxi-dynasty-2001",
+      "title": "康熙王朝",
+      "file": "film-ai/decks/film-kangxi-dynasty-2001.webp",
+      "sha256": "1df1eb3cf4318cde2e47111f0652d70c96a0115ec86e70e998a3d2480f1ad36e",
+      "bytes": 215936,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kaseifu-no-mita-2011",
+      "wid": "kaseifu-no-mita-2011",
+      "title": "家政妇三田",
+      "file": "film-ai/decks/film-kaseifu-no-mita-2011.webp",
+      "sha256": "02c0e0835a0f1bd3461a0912291d731ce501c0610c211b0564ea3709c7c05bb0",
+      "bytes": 226464,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kedi-2016",
+      "wid": "kedi-2016",
+      "title": "爱猫之城",
+      "file": "film-ai/decks/film-kedi-2016.webp",
+      "sha256": "482266f9f9b45cb2b9096554a9fecf9bb044fc26765b94626bef8c95e6c6492a",
+      "bytes": 297834,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:keep-cool-1997",
+      "wid": "keep-cool-1997",
+      "title": "有话好好说",
+      "file": "film-ai/decks/film-keep-cool-1997.webp",
+      "sha256": "73500531090545f5b5c9b03a5d77f36c2fb0ef13898cf7d092e1519f7b87136c",
+      "bytes": 255960,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:keep-rolling-2020",
+      "wid": "keep-rolling-2020",
+      "title": "好好拍电影",
+      "file": "film-ai/decks/film-keep-rolling-2020.webp",
+      "sha256": "9c364bcbdefb7eb9b87b674aedc78a16c0a7e8c91d336fc2cff54611f2e955e5",
+      "bytes": 170208,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kekexili-mountain-patrol-2004",
+      "wid": "kekexili-mountain-patrol-2004",
+      "title": "可可西里",
+      "file": "film-ai/decks/film-kekexili-mountain-patrol-2004.webp",
+      "sha256": "e445ffa095cfe0a3526f36373cf5e7b425f8fd77df90d78238b13a74b63c4117",
+      "bytes": 227410,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kendrick-lamar-humble-2017",
+      "wid": "kendrick-lamar-humble-2017",
+      "title": "HUMBLE. — 肯德里克·拉马尔",
+      "file": "film-ai/decks/film-kendrick-lamar-humble-2017.webp",
+      "sha256": "58e39231fe42863f7a331b87fb4fe87efbc1f9a0560e3db1ba9c137b091acda5",
+      "bytes": 113572,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kes-1969",
+      "wid": "kes-1969",
+      "title": "小孩与鹰",
+      "file": "film-ai/decks/film-kes-1969.webp",
+      "sha256": "98161b5478364b5bdaef6a0f179c9f97da250c8226c659283a5a4f4e2ac5da68",
+      "bytes": 193966,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kids-return-1996",
+      "wid": "kids-return-1996",
+      "title": "坏孩子的天空",
+      "file": "film-ai/decks/film-kids-return-1996.webp",
+      "sha256": "4e731c750536204073f11e22340e95fdfac49768f68cb414a11d9577b79b659f",
+      "bytes": 289194,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kikis-delivery-service-1989",
+      "wid": "kikis-delivery-service-1989",
+      "title": "Kiki’s Delivery Service",
+      "file": "film-ai/decks/film-kikis-delivery-service-1989.webp",
+      "sha256": "9c1cf9b0ca8a846d22adaed0da929b6b40eb4568c6f8356a4943bf78790f95ba",
+      "bytes": 309150,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kill-bill-vol-1-2003",
+      "wid": "kill-bill-vol-1-2003",
+      "title": "杀死比尔",
+      "file": "film-ai/decks/film-kill-bill-vol-1-2003.webp",
+      "sha256": "a862af3b9bbc4526b12efdc1e520f435f0138b05985a8bd5ee86ed7b8c9dc3be",
+      "bytes": 187786,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kill-bill-vol-2-2004",
+      "wid": "kill-bill-vol-2-2004",
+      "title": "Kill Bill Vol. 2",
+      "file": "film-ai/decks/film-kill-bill-vol-2-2004.webp",
+      "sha256": "a8fe79b3e5a9ad1a1a7366c0686d69d59e3164458bb10e2c98afb31257a44364",
+      "bytes": 306626,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:killer-clans-1976",
+      "wid": "killer-clans-1976",
+      "title": "流星蝴蝶剑",
+      "file": "film-ai/decks/film-killer-clans-1976.webp",
+      "sha256": "b342910321202069dc22dea674c37bef18959a11955b2fc2a2a76ba7844c65ea",
+      "bytes": 197036,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:killer-of-sheep-1978",
+      "wid": "killer-of-sheep-1978",
+      "title": "杀羊人",
+      "file": "film-ai/decks/film-killer-of-sheep-1978.webp",
+      "sha256": "351c8e70d3686192358703cbb6936082d32464d2a7e9b101c33d8a2c27abd691",
+      "bytes": 275936,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:kind-hearts-and-coronets-1949",
+      "wid": "kind-hearts-and-coronets-1949",
+      "title": "仁心与冠冕",
+      "file": "film-ai/decks/film-kind-hearts-and-coronets-1949.webp",
+      "sha256": "ab54b6949cca101b69eef11ec8f663cf3d7f718e374f7b28de331acaf2621e05",
+      "bytes": 238758,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:king-kong-1933",
+      "wid": "king-kong-1933",
+      "title": "King Kong",
+      "file": "film-ai/decks/film-king-kong-1933.webp",
+      "sha256": "f771accc1ddbf2c3cb1e7e4faa111c3e79924de3a64d0176c53ce6e7c2b09713",
+      "bytes": 184498,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -15788,6 +16208,174 @@
       "file": "film-ai/decks/film-gangs-of-new-york-2002.webp",
       "sha256": "b733d29370c2dd744f3ad561e78214e5b7b1472e8bf5939912ba6b6b8758394b",
       "bytes": 511412,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gangs-of-wasseypur-2012",
+      "wid": "gangs-of-wasseypur-2012",
+      "title": "Gangs of Wasseypur / 瓦塞浦黑帮",
+      "file": "film-ai/decks/film-gangs-of-wasseypur-2012.webp",
+      "sha256": "a24a037c9d0ff9794feb4a23ee56055d9e4cd40be761ef3cb9ba81364ae09c22",
+      "bytes": 369564,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gate-of-flesh-1964",
+      "wid": "gate-of-flesh-1964",
+      "title": "Gate of Flesh",
+      "file": "film-ai/decks/film-gate-of-flesh-1964.webp",
+      "sha256": "86c7ea7ef70d7fda0d1ad62bb36eeb399a99b983ac1a9246a08fb43014fbaad1",
+      "bytes": 515766,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gattaca-1997",
+      "wid": "gattaca-1997",
+      "title": "Gattaca",
+      "file": "film-ai/decks/film-gattaca-1997.webp",
+      "sha256": "16a819bd9dbf970d680ef044cb93f04c5ec8f6cbde91aaae444da98954fc5a5b",
+      "bytes": 181450,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:generation-kill-2008",
+      "wid": "generation-kill-2008",
+      "title": "Generation Kill",
+      "file": "film-ai/decks/film-generation-kill-2008.webp",
+      "sha256": "76c7002b9ffb356a5c74850251db3fad6d7ac6ab33daa4182b6249b6ec5b6b18",
+      "bytes": 331670,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:genghis-khan-2004",
+      "wid": "genghis-khan-2004",
+      "title": "Genghis Khan / 成吉思汗",
+      "file": "film-ai/decks/film-genghis-khan-2004.webp",
+      "sha256": "e974c2faa2fe29f4e01d610572e4d246ea2b26d7e70656727beeab860be88f8f",
+      "bytes": 373236,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gentlemen-prefer-blondes-1953",
+      "wid": "gentlemen-prefer-blondes-1953",
+      "title": "Gentlemen Prefer Blondes",
+      "file": "film-ai/decks/film-gentlemen-prefer-blondes-1953.webp",
+      "sha256": "1344af8d80cca1fde7dc15cb00223e288a8c069dc339786a5cf9fd5b0af02e94",
+      "bytes": 361388,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:george-michael-freedom-90-1990",
+      "wid": "george-michael-freedom-90-1990",
+      "title": "Freedom! '90 — George Michael",
+      "file": "film-ai/decks/film-george-michael-freedom-90-1990.webp",
+      "sha256": "35deaacbe91cb804e4f881e878c2a1b10cccc9453c74999ab0ced9c367887d02",
+      "bytes": 339324,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:germany-year-zero-1948",
+      "wid": "germany-year-zero-1948",
+      "title": "Germany Year Zero / Germania anno zero",
+      "file": "film-ai/decks/film-germany-year-zero-1948.webp",
+      "sha256": "a5acd0042a8e69c0a695febaae5a2cd07944520bf3ae42f7d1cdace691fbf4f7",
+      "bytes": 308802,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gerry-2002",
+      "wid": "gerry-2002",
+      "title": "Gerry",
+      "file": "film-ai/decks/film-gerry-2002.webp",
+      "sha256": "0d65d87cd6d90c365082138faa8770afe3f4a91323547ccdd86133506eced331",
+      "bytes": 234656,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:get-out-2017",
+      "wid": "get-out-2017",
+      "title": "Get Out",
+      "file": "film-ai/decks/film-get-out-2017.webp",
+      "sha256": "eaadf3dbcf26a1679be0bc9fa32535a63daac53e1699e268c4c08e621aadf3c3",
+      "bytes": 447842,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:getting-home-2007",
+      "wid": "getting-home-2007",
+      "title": "Getting Home / 落叶归根",
+      "file": "film-ai/decks/film-getting-home-2007.webp",
+      "sha256": "75dd82a0182f4076779de8d3c32ea33ebaad30df8c29d281483f7b2bbafaf310",
+      "bytes": 359986,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:gf-bf-2012",
+      "wid": "gf-bf-2012",
+      "title": "GF*BF / 女朋友。男朋友",
+      "file": "film-ai/decks/film-gf-bf-2012.webp",
+      "sha256": "814edcd93ef0373189ca41bc9058133f46decf629a37da90cc73d3d768da06f3",
+      "bytes": 346558,
       "size": [
         1672,
         941
