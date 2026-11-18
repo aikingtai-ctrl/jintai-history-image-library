@@ -11,7 +11,6 @@ on:
       - "film-ai/*.png"
       - "film-ai/*.webp"
       - "film-ai/restored/**"
-      - "history-ai/thumbnails/**"
   workflow_dispatch:
 
 permissions:
@@ -30,7 +29,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Single-pack sparse clone and stage lean _site (<450 MiB)
+      - name: Single-pack sparse clone and stage lean _site
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -90,7 +89,13 @@ jobs:
                   if not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js") or rel.startswith("film-ai/decks/") or name.lower().endswith(".jpg")):
                       continue
               elif top == "history-ai":
-                  if name not in ("manifest.js", "source-notes.js"):
+                  history_files = {
+                      "manifest.js", "source-notes.js",
+                      "gallery-data.js", "gallery-data-batch2.js",
+                      "batch-manifest.json", "batch2-manifest.json",
+                      "image-audit.json", "verification.json", "verification-batch2.json",
+                  }
+                  if name not in history_files and not rel.startswith("history-ai/thumbnails/"):
                       continue
               selected.append(rel)
 
