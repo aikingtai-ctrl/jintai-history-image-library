@@ -135,6 +135,17 @@ jobs:
               with shots_manifest.open("a", encoding="utf-8") as handle:
                   handle.write(f"\nwindow.FILM_SHOT_ASSET_REV='{revision}';\n")
 
+          # Filter only the Pages copy. Source mappings remain available for
+          # later high-resolution replacement and the deployment still runs.
+          gate = pathlib.Path("film_work_card_jpg_gate.py")
+          gate.write_bytes(git_bytes("show", "HEAD:tools/filter_film_ai_manifest.py"))
+          subprocess.run(
+              ["python3", str(gate), "filter", "--repo", str(repo), "--site", str(site),
+               "--report", str(site / "film-ai" / "work-card-jpg-gate-report.json")],
+              check=True,
+          )
+          gate.unlink()
+
           (site / ".nojekyll").write_text("", encoding="utf-8")
           print(f"Staged {len(selected)} files into _site ({total_bytes / (1024*1024):.2f} MiB)")
           PY
