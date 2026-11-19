@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-18T15:19:31.285187+00:00",
+  "snapshot_time_utc": "2026-11-19T01:36:12.772534+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -17524,6 +17524,174 @@
       "file": "film-ai/decks/film-guo-ba-yin-1994.webp",
       "sha256": "4d26a81df0ff3e4fbed6bd68199178a9d80991bfc35a3436b47037d3f703c3e4",
       "bytes": 176010,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hagetaka-2007",
+      "wid": "hagetaka-2007",
+      "title": "Hagetaka",
+      "file": "film-ai/decks/film-hagetaka-2007.webp",
+      "sha256": "91fdca6dec7343dd801d77e0e18c3cfb9b14636fd03a77c4d87e7d46714c62ee",
+      "bytes": 170294,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:half-a-lifelong-romance-2003",
+      "wid": "half-a-lifelong-romance-2003",
+      "title": "Half a Lifelong Romance",
+      "file": "film-ai/decks/film-half-a-lifelong-romance-2003.webp",
+      "sha256": "8603845af27c548f1901ba82fe5809b9c82894695bb28f9c3672ec7a01557173",
+      "bytes": 239672,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:halo-3-believe-2007",
+      "wid": "halo-3-believe-2007",
+      "title": "Halo 3 — Believe (Diorama)",
+      "file": "film-ai/decks/film-halo-3-believe-2007.webp",
+      "sha256": "a654b3f7b2624a606e154ff9705c79d796fc729a38c742e72f2fd99f6861b003",
+      "bytes": 208842,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hannibal-2013",
+      "wid": "hannibal-2013",
+      "title": "Hannibal",
+      "file": "film-ai/decks/film-hannibal-2013.webp",
+      "sha256": "78a5d13e0a740da66f0bb308371d7390f4a6439041f69b8c78ac13367f455ef7",
+      "bytes": 170196,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hanzawa-naoki-2013",
+      "wid": "hanzawa-naoki-2013",
+      "title": "Hanzawa Naoki",
+      "file": "film-ai/decks/film-hanzawa-naoki-2013.webp",
+      "sha256": "5f2d6491b23c65cdad44c696b46f89db14e03a373ffcaf4e5e41da048a2b5228",
+      "bytes": 239386,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:harold-and-maude-1971",
+      "wid": "harold-and-maude-1971",
+      "title": "Harold and Maude",
+      "file": "film-ai/decks/film-harold-and-maude-1971.webp",
+      "sha256": "144ff8d9a7861c7f20a0dd942069bff6e37da822761d27b6ace99aac1a299243",
+      "bytes": 628050,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:have-a-nice-day-2017",
+      "wid": "have-a-nice-day-2017",
+      "title": "Have a Nice Day",
+      "file": "film-ai/decks/film-have-a-nice-day-2017.webp",
+      "sha256": "1fd75071953003748979e2dfe9dc1f6df23c85afd86548b46992dca6058da2f6",
+      "bytes": 242320,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hedgehog-in-the-fog-1975",
+      "wid": "hedgehog-in-the-fog-1975",
+      "title": "Hedgehog in the Fog",
+      "file": "film-ai/decks/film-hedgehog-in-the-fog-1975.webp",
+      "sha256": "4947e699ce29327af2bfb315d4a8ab196f1f6978100bbde3224f3da1e91d7ed1",
+      "bytes": 415786,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:heineken-the-entrance-2011",
+      "wid": "heineken-the-entrance-2011",
+      "title": "Heineken — The Entrance",
+      "file": "film-ai/decks/film-heineken-the-entrance-2011.webp",
+      "sha256": "3fe86e2e66ccb7c4027bf5d58c62c9efb1c01e66a7e051afb97265b4f8189e16",
+      "bytes": 398652,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hellbound-2021",
+      "wid": "hellbound-2021",
+      "title": "Hellbound",
+      "file": "film-ai/decks/film-hellbound-2021.webp",
+      "sha256": "8306c49e38d7b4da857a786c2898587b4501440849e4d86a544e8a4d956d7914",
+      "bytes": 238140,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:her-2013",
+      "wid": "her-2013",
+      "title": "Her",
+      "file": "film-ai/decks/film-her-2013.webp",
+      "sha256": "3f7ed46a14418d66fd0bcfece2abcb28656c8a8392b3f4be2f4cd394c49e0a99",
+      "bytes": 239958,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:her-story-2024",
+      "wid": "her-story-2024",
+      "title": "Her Story",
+      "file": "film-ai/decks/film-her-story-2024.webp",
+      "sha256": "03b5c3c819a459036dc62b4e369b212c1bc8b553a0bba33f607d10a302f27748",
+      "bytes": 302650,
       "size": [
         1672,
         941
