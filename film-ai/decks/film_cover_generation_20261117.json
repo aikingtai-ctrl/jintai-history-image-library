@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-19T01:36:12.772534+00:00",
+  "snapshot_time_utc": "2026-11-19T01:56:04.744290+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -13948,6 +13948,426 @@
       "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
     },
     {
+      "id": "film:hellbound-2021",
+      "wid": "hellbound-2021",
+      "title": "Hellbound",
+      "file": "film-ai/decks/film-hellbound-2021.webp",
+      "sha256": "8306c49e38d7b4da857a786c2898587b4501440849e4d86a544e8a4d956d7914",
+      "bytes": 238140,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:her-2013",
+      "wid": "her-2013",
+      "title": "Her",
+      "file": "film-ai/decks/film-her-2013.webp",
+      "sha256": "3f7ed46a14418d66fd0bcfece2abcb28656c8a8392b3f4be2f4cd394c49e0a99",
+      "bytes": 239958,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hereditary-2018",
+      "wid": "hereditary-2018",
+      "title": "Hereditary",
+      "file": "film-ai/decks/film-hereditary-2018.webp",
+      "sha256": "698519f56fd0368a3c44fca297cde10eddb93892de5ac599643cc97e642e4bbf",
+      "bytes": 99662,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:heroic-sons-and-daughters-1964",
+      "wid": "heroic-sons-and-daughters-1964",
+      "title": "Heroic Sons and Daughters",
+      "file": "film-ai/decks/film-heroic-sons-and-daughters-1964.webp",
+      "sha256": "042f12107a503c3a0fe7b125e9d8f4bb843f980e6f5d34f802e83d9a2331c2c5",
+      "bytes": 298460,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hibiscus-town-1987",
+      "wid": "hibiscus-town-1987",
+      "title": "Hibiscus Town",
+      "file": "film-ai/decks/film-hibiscus-town-1987.webp",
+      "sha256": "9c2ae8c3f8cccd1fdae438d24fbd05db79264b73df9e661673c42c78e30a5d5b",
+      "bytes": 422838,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hidden-blade-2023",
+      "wid": "hidden-blade-2023",
+      "title": "Hidden Blade",
+      "file": "film-ai/decks/film-hidden-blade-2023.webp",
+      "sha256": "9516e178a814fdceb8a65d1e0755fb0921421ba472322b5944926a11f9942e71",
+      "bytes": 287662,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:high-and-low-1963",
+      "wid": "high-and-low-1963",
+      "title": "High and Low",
+      "file": "film-ai/decks/film-high-and-low-1963.webp",
+      "sha256": "b7f2e136ac7767d3385ade495b8c8aa4eb073f0bfc6d0019b2246e367f55c349",
+      "bytes": 206798,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:high-rise-2015",
+      "wid": "high-rise-2015",
+      "title": "High-Rise",
+      "file": "film-ai/decks/film-high-rise-2015.webp",
+      "sha256": "d2ad46741f4ed130704d791584312024e9cc6eb0f9a1e044e9bf92abcdecdcc1",
+      "bytes": 227752,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hill-of-no-return-1992",
+      "wid": "hill-of-no-return-1992",
+      "title": "Hill of No Return",
+      "file": "film-ai/decks/film-hill-of-no-return-1992.webp",
+      "sha256": "6b016500418ab0549769499b6cd019c0ecd50088705fb104dd786188093dcdfb",
+      "bytes": 399780,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hill-street-blues-1981",
+      "wid": "hill-street-blues-1981",
+      "title": "山街蓝调",
+      "file": "film-ai/decks/film-hill-street-blues-1981.webp",
+      "sha256": "77ba07c31631aa404cab5f7e83c6a9f88d1b13a02b8ee49169b41934a6433099",
+      "bytes": 272564,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:his-girl-friday-1940",
+      "wid": "his-girl-friday-1940",
+      "title": "女友礼拜五",
+      "file": "film-ai/decks/film-his-girl-friday-1940.webp",
+      "sha256": "36c6a54eb9127f62b04c340848d25ba408bf33894d948089d9bf1da20c8ce70d",
+      "bytes": 165658,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:holding-hands-1999",
+      "wid": "holding-hands-1999",
+      "title": "牵手",
+      "file": "film-ai/decks/film-holding-hands-1999.webp",
+      "sha256": "3afb9b23b68e492f126d0381e34dec0ccc84e86bc0511c641c94566087bbedad",
+      "bytes": 229246,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:holy-motors-2012",
+      "wid": "holy-motors-2012",
+      "title": "Holy Motors",
+      "file": "film-ai/decks/film-holy-motors-2012.webp",
+      "sha256": "ccdc8f0179021ee603b65bf065054ce29bf856e4ac3aa7589229a009c6046f19",
+      "bytes": 264116,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:home-2009",
+      "wid": "home-2009",
+      "title": "家园",
+      "file": "film-ai/decks/film-home-2009.webp",
+      "sha256": "e9bf257bbd4bc1c76741ef6575748c9e659b2dd998b92ef35b31b286f0947065",
+      "bytes": 358768,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:home-coming-2022",
+      "wid": "home-coming-2022",
+      "title": "万里归途",
+      "file": "film-ai/decks/film-home-coming-2022.webp",
+      "sha256": "49886e33ed5d1f914ecd4fb9a71380b6d11db83b6d0341e395d8bb79d138d84a",
+      "bytes": 267156,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:homecoming-1984",
+      "wid": "homecoming-1984",
+      "title": "似水流年",
+      "file": "film-ai/decks/film-homecoming-1984.webp",
+      "sha256": "bd51c3dca5b7e9aa1d2ed4f65dde1de4fb29b2acceb4b076fc1280429098ba9d",
+      "bytes": 319936,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:homecoming-2018",
+      "wid": "homecoming-2018",
+      "title": "归乡",
+      "file": "film-ai/decks/film-homecoming-2018.webp",
+      "sha256": "92d351f931dfc0f2d985f47f899c91520a525566841748b6ba38635193455f06",
+      "bytes": 223232,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:hometown-cha-cha-cha-2021",
+      "wid": "hometown-cha-cha-cha-2021",
+      "title": "海岸村恰恰恰",
+      "file": "film-ai/decks/film-hometown-cha-cha-cha-2021.webp",
+      "sha256": "fd3f40e2e3160ebe0fe07d3c4daeb13fa782873608510d5b117e01b1443c566b",
+      "bytes": 502986,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:honda-impossible-dream-2005",
+      "wid": "honda-impossible-dream-2005",
+      "title": "本田·不可能的梦",
+      "file": "film-ai/decks/film-honda-impossible-dream-2005.webp",
+      "sha256": "74847e944c93b500e1fdeb0d661ea04a38506b500b3c5b72b6e4a2af1ed5a1d2",
+      "bytes": 231112,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:honey-2010",
+      "wid": "honey-2010",
+      "title": "蜂蜜",
+      "file": "film-ai/decks/film-honey-2010.webp",
+      "sha256": "10d5096353d649a88b5406ba3e008ed1571b86621fe742d5582db2d87bdf676d",
+      "bytes": 444338,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:honeyland-2019",
+      "wid": "honeyland-2019",
+      "title": "蜂蜜之地",
+      "file": "film-ai/decks/film-honeyland-2019.webp",
+      "sha256": "d9f24387254a14752ba1f6d70d95cd6e9804eb84fa280f373f7192ec91a0b29d",
+      "bytes": 492360,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:hope-and-glory-1987",
+      "wid": "hope-and-glory-1987",
+      "title": "希望与荣耀",
+      "file": "film-ai/decks/film-hope-and-glory-1987.webp",
+      "sha256": "63af2256e40201d11b139c33954ee41e16c6816952a0b063cdddcb31e8a23bb0",
+      "bytes": 309708,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:hormones-2013",
+      "wid": "hormones-2013",
+      "title": "荷尔蒙",
+      "file": "film-ai/decks/film-hormones-2013.webp",
+      "sha256": "bd11a09ea71f550b5367b08694a8b56bccc84495c4225565fa05a657d92cef7b",
+      "bytes": 238094,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:hospital-playlist-2020",
+      "wid": "hospital-playlist-2020",
+      "title": "机智的医生生活",
+      "file": "film-ai/decks/film-hospital-playlist-2020.webp",
+      "sha256": "b38518f0d132a97c61bdfdd9e796524f653ef691693c9a446a99c100aab0dbb5",
+      "bytes": 120292,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:hotel-del-luna-2019",
+      "wid": "hotel-del-luna-2019",
+      "title": "德鲁纳酒店",
+      "file": "film-ai/decks/film-hotel-del-luna-2019.webp",
+      "sha256": "3176eb14a633acfa096c8e1b436d79ce174e5d64f54e806eba6ce6a7a9d4bb53",
+      "bytes": 354490,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:house-1977",
+      "wid": "house-1977",
+      "title": "鬼怪屋",
+      "file": "film-ai/decks/film-house-1977.webp",
+      "sha256": "bbc622f1776baed1f6a3c887ee1acc9c42c7935a7e6ecd4e61092f80cfe8aad9",
+      "bytes": 255530,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:house-md-2004",
+      "wid": "house-md-2004",
+      "title": "豪斯医生",
+      "file": "film-ai/decks/film-house-md-2004.webp",
+      "sha256": "2540815b03740c77b2908103519c9c7a528289e368f1ff0ab59fb4f0976f7eea",
+      "bytes": 145082,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:house-of-cards-2013",
+      "wid": "house-of-cards-2013",
+      "title": "纸牌屋",
+      "file": "film-ai/decks/film-house-of-cards-2013.webp",
+      "sha256": "90e4f4618ba5d67092fa4b17a5f0d0141fb8407d98f6c490a68c6e65d5072c0d",
+      "bytes": 99896,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:house-of-flying-daggers-2004",
+      "wid": "house-of-flying-daggers-2004",
+      "title": "House of Flying Daggers",
+      "file": "film-ai/decks/film-house-of-flying-daggers-2004.webp",
+      "sha256": "0417bf6cba2951a8cd488721c00a0f62c3db0efbcf15bd76c97da293207ef236",
+      "bytes": 365672,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
+      "id": "film:house-of-hummingbird-2018",
+      "wid": "house-of-hummingbird-2018",
+      "title": "蜂鸟",
+      "file": "film-ai/decks/film-house-of-hummingbird-2018.webp",
+      "sha256": "4df84ed6e01b54889cf0b6a50d8f73a70daf414025b5b7ec40a82c92de92c6d1",
+      "bytes": 204158,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261116_8878部代表图/gpt_image_followup_receipts.json"
+    },
+    {
       "id": "film:andhadhun-2018",
       "wid": "andhadhun-2018",
       "title": "调音师",
@@ -17658,40 +18078,82 @@
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
     },
     {
-      "id": "film:hellbound-2021",
-      "wid": "hellbound-2021",
-      "title": "Hellbound",
-      "file": "film-ai/decks/film-hellbound-2021.webp",
-      "sha256": "8306c49e38d7b4da857a786c2898587b4501440849e4d86a544e8a4d956d7914",
-      "bytes": 238140,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
-      "id": "film:her-2013",
-      "wid": "her-2013",
-      "title": "Her",
-      "file": "film-ai/decks/film-her-2013.webp",
-      "sha256": "3f7ed46a14418d66fd0bcfece2abcb28656c8a8392b3f4be2f4cd394c49e0a99",
-      "bytes": 239958,
-      "size": [
-        1672,
-        941
-      ],
-      "generator": "Codex built-in GPT Image image_gen",
-      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
-    },
-    {
       "id": "film:her-story-2024",
       "wid": "her-story-2024",
       "title": "Her Story",
       "file": "film-ai/decks/film-her-story-2024.webp",
       "sha256": "03b5c3c819a459036dc62b4e369b212c1bc8b553a0bba33f607d10a302f27748",
       "bytes": 302650,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hero-2001",
+      "wid": "hero-2001",
+      "title": "HERO",
+      "file": "film-ai/decks/film-hero-2001.webp",
+      "sha256": "c53e2877df4efe0d5d47a532b70616599194710c989efcddc2120836ba7f98bc",
+      "bytes": 187002,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hes-a-woman-shes-a-man-1994",
+      "wid": "hes-a-woman-shes-a-man-1994",
+      "title": "He's a Woman, She's a Man",
+      "file": "film-ai/decks/film-hes-a-woman-shes-a-man-1994.webp",
+      "sha256": "4ffd12139aa4fa94c0b9d8961cce131c4c241a5c7926c351fb70cb4e896cad50",
+      "bytes": 237514,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hi-mom-2021",
+      "wid": "hi-mom-2021",
+      "title": "Hi, Mom",
+      "file": "film-ai/decks/film-hi-mom-2021.webp",
+      "sha256": "d51d67999b02f0c42246f98b09ad3d54ff43506109c7d4c17600cae30c9b3c60",
+      "bytes": 313370,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hidden-man-2018",
+      "wid": "hidden-man-2018",
+      "title": "Hidden Man",
+      "file": "film-ai/decks/film-hidden-man-2018.webp",
+      "sha256": "897c7df0152ff9922f4b259f960c3fed6aead68ec1aa7b3904913699d9815b43",
+      "bytes": 392468,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:hikaru-utada-traveling-2001",
+      "wid": "hikaru-utada-traveling-2001",
+      "title": "traveling — Hikaru Utada",
+      "file": "film-ai/decks/film-hikaru-utada-traveling-2001.webp",
+      "sha256": "48971df72afc793b391e526a4a0cab3aa34487e90fb83b36901eb856ff54f336",
+      "bytes": 216456,
       "size": [
         1672,
         941
