@@ -454,7 +454,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
  </div>
 </dialog>
 <div id="toast"></div><div id="printArea"></div>
-<script src="film-ai/manifest.js?v=imagegen1000-437-20261120"></script>
+<script src="film-ai/manifest.js?v=imagegen1000-923-20261120"></script>
 <script src="film-ai/decks/manifest.js?v=20261117-gpt-image-film-1297"></script>
 <script src="film-ai/shots-manifest.js?v=b3984f33b3e9bb19"></script>
 <script>
@@ -1541,8 +1541,10 @@ async function renderCompare(){
 let WPAGE=0,WORKS_RENDER_TOKEN=0,LAST_RENDERED_WORKS_COUNT=0;const WPS=100;const FILM_AI_IMAGES=window.FILM_AI_IMAGES||{},FILM_AI_GENERATED_WIDS=new Set(window.FILM_AI_GENERATED_WIDS||[]);
 let WORKS_VIEW_MODE=(()=>{const u=new URLSearchParams(location.search).get('wview');if(u==='large'||u==='2col'||u==='grid')return u;try{const s=localStorage.getItem('jt_works_view_v2');if(s==='large'||s==='2col'||s==='grid')return s;}catch(e){}return'grid';})();
 function resolveFilmAiAsset(rel){if(!rel)return'';if(/^https?:/i.test(rel))return rel;return IS_GH_FILM?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/${rel}`:rel;}
-function resolveFilmAiLegacyAsset(rel){if(!rel)return'';if(/^https?:/i.test(rel))return rel;return /\.jpe?g(?:[?#]|$)/i.test(rel)?rel:resolveFilmAiAsset(rel);}
+function resolveFilmAiLegacyAsset(rel){return resolveFilmAiAsset(rel);}
 function getFilmAiSrc(wid){
+ const representative=(window.FILM_AI_IMAGES||FILM_AI_IMAGES||{})[wid];
+ if(FILM_AI_GENERATED_WIDS.has(wid)&&representative)return resolveFilmAiAsset(representative);
  const direct=(window.FILM_SHOT_WORK_IMAGES||{})[wid];
  if(direct)return resolveFilmAiAsset(direct);
  const work=WORK_BY_WID.get(wid),shots=work?(BYW.get(work.i)||[]):[];
