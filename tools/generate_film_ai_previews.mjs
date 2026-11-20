@@ -105,7 +105,7 @@ async function generate(prompt) {
   const response = await fetch('https://api.openai.com/v1/images/generations', {
     method: 'POST',
     headers: { 'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({ model: MODEL, prompt, size: '1536x864', quality: 'medium', output_format: 'webp', output_compression: 72, background: 'opaque' })
+    body: JSON.stringify({ model: MODEL, prompt, size: '1536x864', quality: 'high', output_format: 'webp', output_compression: 88, background: 'opaque' })
   });
   const body = await response.json().catch(() => ({}));
   if (!response.ok) {

@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-20T08:03:45.913464+00:00",
+  "snapshot_time_utc": "2026-11-20T08:31:01.183795+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -18297,6 +18297,76 @@
       "size": [
         1672,
         941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-a79fe9e4b9af6f1c",
+      "wid": "src-a79fe9e4b9af6f1c",
+      "title": "The Old Dark House",
+      "file": "film-ai/decks/film-src-a79fe9e4b9af6f1c.webp",
+      "sha256": "4247b2b418562dbe8c78b0285e4f3ee4c872eb0e8bfa8959e5c0b7777f6ec3c5",
+      "bytes": 191198,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-641ef0fc07811c2b",
+      "wid": "src-641ef0fc07811c2b",
+      "title": "Doctor X",
+      "file": "film-ai/decks/film-src-641ef0fc07811c2b.webp",
+      "sha256": "66e2ce45528f7241038672904b755ab43bc85ff7c46fd1e4146cb09409aeb020",
+      "bytes": 220234,
+      "size": [
+        1774,
+        887
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-50a57bb01ee0536b",
+      "wid": "src-50a57bb01ee0536b",
+      "title": "The Thin Man",
+      "file": "film-ai/decks/film-src-50a57bb01ee0536b.webp",
+      "sha256": "bf78a365951832b2219d4df235410d671e1b0a619d52893c1b91ac6326cac7e8",
+      "bytes": 158494,
+      "size": [
+        1752,
+        897
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-b00ebbe2757514d1",
+      "wid": "src-b00ebbe2757514d1",
+      "title": "Mark of the Vampire",
+      "file": "film-ai/decks/film-src-b00ebbe2757514d1.webp",
+      "sha256": "067142bb2c86f24c1d329b76be5acf0cad2c6bf71453024da24251cc10bd6175",
+      "bytes": 192852,
+      "size": [
+        1774,
+        887
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-127196adda0f09f9",
+      "wid": "src-127196adda0f09f9",
+      "title": "A Day At The Races",
+      "file": "film-ai/decks/film-src-127196adda0f09f9.webp",
+      "sha256": "18ea2e93ca7a605f1dd43c9e1fc8489de66be3399c66a137deb4984beabfa390",
+      "bytes": 226324,
+      "size": [
+        1774,
+        887
       ],
       "generator": "Codex built-in GPT Image image_gen",
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
