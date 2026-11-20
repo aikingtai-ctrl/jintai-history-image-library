@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-20T09:26:41.453460+00:00",
+  "snapshot_time_utc": "2026-11-20T10:28:21.341495+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -18507,6 +18507,90 @@
       "size": [
         1726,
         911
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-5027ae792cf887cc",
+      "wid": "src-5027ae792cf887cc",
+      "title": "Phantom of the Opera",
+      "file": "film-ai/decks/film-src-5027ae792cf887cc.webp",
+      "sha256": "3fc54eddb1aa9529083a6902c2cf9f9a0eb71ebfe6b86a78c3aaedeeb5ccb815",
+      "bytes": 275418,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-fd124fb85d975be5",
+      "wid": "src-fd124fb85d975be5",
+      "title": "The Uninvited",
+      "file": "film-ai/decks/film-src-fd124fb85d975be5.webp",
+      "sha256": "200406443ffcd5f181bc0ef433053bc859ba92c2749a8c1ad4b3d36e38ce735d",
+      "bytes": 154812,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-9a1ee95df0256c9f",
+      "wid": "src-9a1ee95df0256c9f",
+      "title": "The Ox-Bow Incident",
+      "file": "film-ai/decks/film-src-9a1ee95df0256c9f.webp",
+      "sha256": "1e3bd7c4aca941421f9f37631e720b5c78ae2126bb58688d20954c7d18b46758",
+      "bytes": 171308,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-ff4cd9c743982dd5",
+      "wid": "src-ff4cd9c743982dd5",
+      "title": "A Tree Grows in Brooklyn",
+      "file": "film-ai/decks/film-src-ff4cd9c743982dd5.webp",
+      "sha256": "9c3833d8e66b25ec90e3a1a338d30cfd9e20373495aefb0bb8d99264bf28f871",
+      "bytes": 276706,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-02229e65b8309e0a",
+      "wid": "src-02229e65b8309e0a",
+      "title": "Les Enfants du paradis",
+      "file": "film-ai/decks/film-src-02229e65b8309e0a.webp",
+      "sha256": "1000d655feb73921655ba75d5fdf32fd1f4df0688424967f9cd7633e0371ffca",
+      "bytes": 161754,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-23f2d100258871e3",
+      "wid": "src-23f2d100258871e3",
+      "title": "Meet Me In St. Louis",
+      "file": "film-ai/decks/film-src-23f2d100258871e3.webp",
+      "sha256": "99505e6d4f26ded95c87f90dc70044d544a28c0116913ddf7b88969adde69063",
+      "bytes": 474046,
+      "size": [
+        1672,
+        941
       ],
       "generator": "Codex built-in GPT Image image_gen",
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
