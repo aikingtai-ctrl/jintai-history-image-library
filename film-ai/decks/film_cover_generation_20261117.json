@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-20T10:17:25.119922+00:00",
+  "snapshot_time_utc": "2026-11-20T10:21:51.768888+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -18560,6 +18560,20 @@
       "file": "film-ai/decks/film-src-ff4cd9c743982dd5.webp",
       "sha256": "9c3833d8e66b25ec90e3a1a338d30cfd9e20373495aefb0bb8d99264bf28f871",
       "bytes": 276706,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-02229e65b8309e0a",
+      "wid": "src-02229e65b8309e0a",
+      "title": "Les Enfants du paradis",
+      "file": "film-ai/decks/film-src-02229e65b8309e0a.webp",
+      "sha256": "1000d655feb73921655ba75d5fdf32fd1f4df0688424967f9cd7633e0371ffca",
+      "bytes": 161754,
       "size": [
         1672,
         941
