@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-20T09:55:50.797677+00:00",
+  "snapshot_time_utc": "2026-11-20T10:13:05.727935+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -18532,6 +18532,20 @@
       "file": "film-ai/decks/film-src-fd124fb85d975be5.webp",
       "sha256": "200406443ffcd5f181bc0ef433053bc859ba92c2749a8c1ad4b3d36e38ce735d",
       "bytes": 154812,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-9a1ee95df0256c9f",
+      "wid": "src-9a1ee95df0256c9f",
+      "title": "The Ox-Bow Incident",
+      "file": "film-ai/decks/film-src-9a1ee95df0256c9f.webp",
+      "sha256": "1e3bd7c4aca941421f9f37631e720b5c78ae2126bb58688d20954c7d18b46758",
+      "bytes": 171308,
       "size": [
         1672,
         941
