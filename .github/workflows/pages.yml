@@ -11,6 +11,7 @@ on:
       - "film-ai/*.png"
       - "film-ai/*.webp"
       - "film-ai/restored/**"
+      - "history-ai/thumbnails/**"
   workflow_dispatch:
 
 permissions:
@@ -38,7 +39,7 @@ jobs:
             "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" repo
 
           python3 - <<'PY'
-          import hashlib, pathlib, re, shutil, subprocess
+          import hashlib, json, pathlib, re, shutil, subprocess
 
           repo = pathlib.Path("repo")
           site = pathlib.Path("_site")
@@ -53,6 +54,9 @@ jobs:
           d2_active = set(re.findall(r'"(idx_\d+_\d+\.js)"', brw_html))
           d3_keep = {"00_works.js", "01_idx.js", "vmanifest.js", "vworks.js", "vdecks.js", "vfingerprints.js"}
 
+          film_ai_mf = git_bytes("show", "HEAD:film-ai/manifest.js").decode("utf-8", errors="ignore")
+          m_ai = re.search(r"window\.FILM_AI_IMAGES\s*=\s*(\{.*?\})\s*;", film_ai_mf, re.S)
+          film_ai_jpg_keep = {v for v in (json.loads(m_ai.group(1)).values() if m_ai else []) if isinstance(v, str) and v.lower().endswith((".jpg", ".jpeg"))}
           raw_paths = [p.decode("utf-8") for p in git_bytes("ls-tree", "-r", "-z", "--name-only", "HEAD").split(b"\x00") if p]
           selected = []
           for rel in raw_paths:
@@ -83,10 +87,13 @@ jobs:
                   if name != "manifest.js":
                       continue
               elif top == "film-ai":
-                  # Deck WebP files are served from GitHub Raw, not Pages.
-                  if rel.startswith("film-ai/decks/") and name.lower().endswith(".webp"):
+                  # Deck WebP files, restored archives, and unreferenced JPGs stay outside Pages.
+                  if (rel.startswith("film-ai/decks/") and name.lower().endswith(".webp")) or rel.startswith("film-ai/restored/"):
                       continue
-                  if not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js") or rel.startswith("film-ai/decks/") or name.lower().endswith(".jpg")):
+                  if name.lower().endswith((".jpg", ".jpeg")):
+                      if rel not in film_ai_jpg_keep:
+                          continue
+                  elif not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js") or rel.startswith("film-ai/decks/")):
                       continue
               elif top == "history-ai":
                   history_files = {
@@ -95,7 +102,8 @@ jobs:
                       "batch-manifest.json", "batch2-manifest.json",
                       "image-audit.json", "verification.json", "verification-batch2.json",
                   }
-                  if name not in history_files and not rel.startswith("history-ai/thumbnails/"):
+                  # History thumbnails are served from GitHub Raw (+ testingcf fallback), not Pages.
+                  if name not in history_files:
                       continue
               selected.append(rel)
 
