@@ -196,26 +196,30 @@ dialog::backdrop{background:#000c}
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>{try{const p=new URL(u);return ['http:','https:'].includes(p.protocol)?p.href:'';}catch{return '';}};
 const link=(u,label)=>safe(u)?`<a class="button" href="${esc(safe(u))}" target="_blank" rel="noopener noreferrer">${esc(label)}</a>`:'';
-const D4_BASE='d4/',D4_ALT='影视来源目录_data/',D4_PROJ='data_film/source_import/d4/',RAW_D4_BASE='https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/d4/',FALLBACK_D4_CDN='https://testingcf.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/d4/',SRC_CDNS=[FALLBACK_D4_CDN,RAW_D4_BASE],IS_GH_SRC=/github\.io$/i.test(location.hostname||'');let ACTIVE_D4_PREFIX='';
+const D4_BASE='d4/',D4_ALT='影视来源目录_data/',D4_PROJ='data_film/source_import/d4/',RAW_D4_BASE='https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/d4/',FALLBACK_D4_CDN='https://testingcf.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/d4/',PACKED_D4_CDN='https://testingcf.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/d4/',SRC_CDNS=[FALLBACK_D4_CDN,RAW_D4_BASE],IS_GH_SRC=/github\.io$/i.test(location.hostname||'');let ACTIVE_D4_PREFIX='';
 function loadD4Script(relName,checkFn,errMsg){return new Promise((resolve,reject)=>{
- const clean=String(relName).split('?')[0],isSiteJs=/^(?:summary|catalogue)\.js$/i.test(clean),isCatShard=/^c\d+\.js$/i.test(clean);
- const loadCompressed=async()=>{
+ const clean=String(relName).split('?')[0],suffix=String(relName).includes('?')?'?'+String(relName).split('?').slice(1).join('?'):'',isSiteJs=/^(?:summary|catalogue)\.js$/i.test(clean),isCatShard=/^c\d+\.js$/i.test(clean);
+ const loadCompressed=async(url,ms)=>{
   if(!IS_GH_SRC||!isCatShard||typeof DecompressionStream==='undefined')return false;
-  const ctl=new AbortController(),tm=setTimeout(()=>ctl.abort(),30000);
+  const ctl=new AbortController(),tm=setTimeout(()=>ctl.abort(),ms);
   try{
-   const suffix=String(relName).includes('?')?'?'+String(relName).split('?').slice(1).join('?'):'';
-   const r=await fetch('d4/'+clean+'.gz'+suffix,{signal:ctl.signal});if(!r.ok||!r.body)return false;
-   const js=await new Response(r.body.pipeThrough(new DecompressionStream('gzip'))).text();(new Function(js))();resolve(checkFn());return true;
+   const r=await fetch(url,{signal:ctl.signal});if(!r.ok)return false;
+   const bytes=new Uint8Array(await r.arrayBuffer());if(!bytes.length)return false;
+   const js=bytes[0]===31&&bytes[1]===139?await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text():new TextDecoder().decode(bytes);
+   (new Function(js))();resolve(checkFn());return true;
   }catch(e){return false;}finally{clearTimeout(tm);}
+ };
+ const loadPlain=async(base,ms)=>{
+  const ctl=new AbortController(),tm=setTimeout(()=>ctl.abort(),ms);
+  try{const r=await fetch(base+relName,{signal:ctl.signal});if(!r.ok)return false;const js=await r.text();(new Function(js))();resolve(checkFn());return true;}
+  catch(e){return false;}finally{clearTimeout(tm);}
  };
  const fetchFallback=async()=>{
   if(location.protocol==='file:'){reject(new Error(errMsg));return;}
-  if(await loadCompressed())return;
-  for(const base of [FALLBACK_D4_CDN,RAW_D4_BASE]){
-   const ctl=new AbortController(),tm=setTimeout(()=>ctl.abort(),30000);
-   try{const r=await fetch(base+relName,{signal:ctl.signal});if(!r.ok)continue;const js=await r.text();(new Function(js))();resolve(checkFn());return;}
-   catch(e){}finally{clearTimeout(tm);}
-  }
+  if(await loadCompressed(PACKED_D4_CDN+clean+'.gz'+suffix,18000))return;
+  if(await loadPlain(FALLBACK_D4_CDN,25000))return;
+  if(await loadCompressed('d4/'+clean+'.gz'+suffix,25000))return;
+  if(await loadPlain(RAW_D4_BASE,25000))return;
   reject(new Error(errMsg));
  };
  if(IS_GH_SRC&&!isSiteJs){fetchFallback();return;}
