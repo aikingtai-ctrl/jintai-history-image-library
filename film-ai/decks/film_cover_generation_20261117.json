@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-19T01:56:04.744290+00:00",
+  "snapshot_time_utc": "2026-11-20T08:03:45.913464+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -18154,6 +18154,146 @@
       "file": "film-ai/decks/film-hikaru-utada-traveling-2001.webp",
       "sha256": "48971df72afc793b391e526a4a0cab3aa34487e90fb83b36901eb856ff54f336",
       "bytes": 216456,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-635fd784627e3515",
+      "wid": "src-635fd784627e3515",
+      "title": "The Golem",
+      "file": "film-ai/decks/film-src-635fd784627e3515.webp",
+      "sha256": "04a4aaf10ef3abc8a5b592168f150da76962c4ffa8d924ded2e1bcea2eeb9654",
+      "bytes": 225448,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-58c6171677a586e6",
+      "wid": "src-58c6171677a586e6",
+      "title": "The Phantom Carriage",
+      "file": "film-ai/decks/film-src-58c6171677a586e6.webp",
+      "sha256": "86756175f137fc59965af6c3887d839848a57004111395460b33ce1bc3b93248",
+      "bytes": 206188,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-9e8f862b882c7723",
+      "wid": "src-9e8f862b882c7723",
+      "title": "Safety Last!",
+      "file": "film-ai/decks/film-src-9e8f862b882c7723.webp",
+      "sha256": "ef66218e5eda7976099ce58e0b2dd34176057d74138319690f6a3d89d92d44fc",
+      "bytes": 223578,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-d56b3a132ad5f785",
+      "wid": "src-d56b3a132ad5f785",
+      "title": "The Hunchback of Notre Dame",
+      "file": "film-ai/decks/film-src-d56b3a132ad5f785.webp",
+      "sha256": "ebf9d4dade191e5d8660ac30921056d3b5a7bf5dd8f5cb3b03a9bbb28178f85e",
+      "bytes": 201120,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:sherlock-jr-1924",
+      "wid": "sherlock-jr-1924",
+      "title": "Sherlock Jr.",
+      "file": "film-ai/decks/film-sherlock-jr-1924.webp",
+      "sha256": "07543c862b9c76846ae14c65d10582b84605d282cb2e5c8c2b78a49a08dd7d25",
+      "bytes": 174096,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-be8e7c8aa1aca056",
+      "wid": "src-be8e7c8aa1aca056",
+      "title": "The Hands of Orlac",
+      "file": "film-ai/decks/film-src-be8e7c8aa1aca056.webp",
+      "sha256": "22cf5f5356bc4766c506ba0b73a185be4a5d94af02f7cf65a3698ac39a9faadd",
+      "bytes": 141832,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-82e678fd4a1506db",
+      "wid": "src-82e678fd4a1506db",
+      "title": "Master of the House",
+      "file": "film-ai/decks/film-src-82e678fd4a1506db.webp",
+      "sha256": "57c4987095b6ff67a57bc2f03f088a9964851d9ab33e9a8187b653df36cae852",
+      "bytes": 184348,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-60a035998660c7b5",
+      "wid": "src-60a035998660c7b5",
+      "title": "Napoleon",
+      "file": "film-ai/decks/film-src-60a035998660c7b5.webp",
+      "sha256": "03e93ee44d66fcdf5833880644c87cd29044f7eeba6848c43a16c7359e799858",
+      "bytes": 268510,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-5376fb791818cac7",
+      "wid": "src-5376fb791818cac7",
+      "title": "The Lodger",
+      "file": "film-ai/decks/film-src-5376fb791818cac7.webp",
+      "sha256": "9c4079d82bdc9ae88aa3e8f20357c9f845933e3f7f0ded385aa2149f6bf7960e",
+      "bytes": 170060,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-aee43e4f31f61bbd",
+      "wid": "src-aee43e4f31f61bbd",
+      "title": "The Threepenny Opera",
+      "file": "film-ai/decks/film-src-aee43e4f31f61bbd.webp",
+      "sha256": "0d1e109a4c4471ca8720cdaa2e53f11883d5d25ac206b19f0b7cf1401007ab01",
+      "bytes": 245146,
       "size": [
         1672,
         941

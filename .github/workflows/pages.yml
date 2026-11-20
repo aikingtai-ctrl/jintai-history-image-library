@@ -39,7 +39,7 @@ jobs:
             "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" repo
 
           python3 - <<'PY'
-          import hashlib, json, pathlib, re, shutil, subprocess
+          import gzip, hashlib, json, pathlib, re, shutil, subprocess
 
           repo = pathlib.Path("repo")
           site = pathlib.Path("_site")
@@ -53,6 +53,9 @@ jobs:
           d1_active = set(re.findall(r'"(idx_\d+_\d+\.js)"', idx_html))
           d2_active = set(re.findall(r'"(idx_\d+_\d+\.js)"', brw_html))
           d3_keep = {"00_works.js", "01_idx.js", "vmanifest.js", "vworks.js", "vdecks.js", "vfingerprints.js"}
+          d4_catalogue = git_bytes("show", "HEAD:d4/catalogue.js").decode("utf-8")
+          d4_shards = re.findall(r'"(c\d{2,}\.js)"', d4_catalogue)
+          assert d4_shards and len(d4_shards) == len(set(d4_shards)), "Invalid d4 catalogue shards"
 
           film_ai_mf = git_bytes("show", "HEAD:film-ai/manifest.js").decode("utf-8", errors="ignore")
           m_ai = re.search(r"window\.FILM_AI_IMAGES\s*=\s*(\{.*?\})\s*;", film_ai_mf, re.S)
@@ -111,7 +114,7 @@ jobs:
           def escape_sparse_pattern(p: str) -> str:
               return "/" + re.sub(r"([*?\[\\!#])", r"\\\1", p)
 
-          patterns = "\n".join(escape_sparse_pattern(p) for p in selected) + "\n"
+          patterns = "\n".join(escape_sparse_pattern(p) for p in selected + ["d4/" + s for s in d4_shards]) + "\n"
           subprocess.run(["git", "-C", str(repo), "sparse-checkout", "init", "--no-cone"], check=True)
           subprocess.run(
               ["git", "-C", str(repo), "sparse-checkout", "set", "--no-cone", "--stdin"],
@@ -122,7 +125,7 @@ jobs:
 
           # A malformed cache-version edit has twice truncated an inline film script.
           # Stop the deployment before a broken page replaces the last good one.
-          for rel in ("film.html", "影视参考图集.html"):
+          for rel in ("film.html", "影视参考图集.html", "sources.html", "影视来源目录.html"):
               html = (repo / rel).read_text(encoding="utf-8")
               scripts = re.findall(r"<script(?:\s[^>]*)?>([\s\S]*?)</script>", html)
               assert scripts, f"No inline scripts found in {rel}"
@@ -138,6 +141,15 @@ jobs:
               dst.parent.mkdir(parents=True, exist_ok=True)
               total_bytes += src.stat().st_size
               shutil.move(str(src), str(dst))
+
+          for name in d4_shards:
+              source = (repo / "d4" / name).read_bytes()
+              packed = gzip.compress(source, compresslevel=1, mtime=0)
+              assert gzip.decompress(packed) == source, f"Corrupt d4 shard: {name}"
+              target = site / "d4" / (name + ".gz")
+              target.write_bytes(packed)
+              total_bytes += len(packed)
+          print(f"Staged {len(d4_shards)} compressed d4 catalogue shards")
 
           shots_manifest = site / "film-ai" / "shots-manifest.js"
           if shots_manifest.exists():
