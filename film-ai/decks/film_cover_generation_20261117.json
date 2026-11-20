@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-20T11:21:59.995679+00:00",
+  "snapshot_time_utc": "2026-11-20T11:26:12.942747+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -18731,6 +18731,20 @@
       "size": [
         1672,
         941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-2708e868383ad82a",
+      "wid": "src-2708e868383ad82a",
+      "title": "Kiss of Death",
+      "file": "film-ai/decks/film-src-2708e868383ad82a.webp",
+      "sha256": "df9dd7ba4764f0f375f976f247f2105ac9f7d7b5742123e302e39d19914d34da",
+      "bytes": 209286,
+      "size": [
+        1774,
+        887
       ],
       "generator": "Codex built-in GPT Image image_gen",
       "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
