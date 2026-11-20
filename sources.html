@@ -62,6 +62,12 @@ details.filter-drawer:not([open]){display:none}
 .pill button{border:0;background:none;padding:0 2px;font-size:18px;color:var(--mu)}
 #error:empty{display:none}#error{color:#ffb7aa;margin:8px 0}
 
+/* GPT Image covers on source work cards, v1 */
+.card .work-cover{position:relative;display:block;margin:-18px -20px 8px;background:#101215;border-bottom:1px solid var(--line);overflow:hidden}
+.card .work-cover img{display:block;width:100%;aspect-ratio:16/9;object-fit:contain}
+.card .work-cover span{position:absolute;left:10px;bottom:10px;padding:4px 9px;border-radius:6px;background:rgba(13,15,18,.88);color:#fff;font-size:14px;font-weight:700}
+.card .work-cover:focus-visible{outline:3px solid var(--ac);outline-offset:2px}
+
 /* === Uniform, Crisp Film Cards === */
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(390px,1fr));gap:16px}
 .card{background:var(--p1);border:1px solid var(--line);border-radius:13px;padding:18px 20px;display:flex;flex-direction:column;gap:8px;overflow-wrap:anywhere;transition:border-color .14s,transform .14s}
@@ -310,13 +316,19 @@ function syncSrcFilterUI(){const cov=$('coverage').value,cg=$('cineGuild')?.valu
  else if(cov==='emmy-prestige-tv')pills.push('<span class="pill q">黄金时段艾美奖与殿堂级电影感神剧<button type="button" data-clear="coverage">×</button></span>');
  else if(cov){const txt=$('coverage').selectedOptions?.[0]?.textContent||cov;pills.push(`<span class="pill"><i>范围</i>${esc(txt)}<button type="button" data-clear="coverage">×</button></span>`);}
  const box=$('activeSrcPills');if(box){box.innerHTML=pills.join('');box.querySelectorAll('[data-clear]').forEach(b=>b.onclick=()=>{const id=b.dataset.clear;$(id).value='';if(id==='festival')awardOptions();filter();});}}
+// Keep the open source catalogue in sync as new audited covers are published.
+let sourceCoverCount=-1;
+function sourceCoverPath(w){const path=window.FILM_DECK_COVERS?.['film:'+w.id];return typeof path==='string'&&/^film-ai\/decks\/film-[a-z0-9-]+\.webp$/.test(path)?path:'';}
+function refreshSourceCovers(){const tag=document.createElement('script');tag.src='film-ai/decks/manifest.js?source-covers='+Date.now();tag.onload=()=>{tag.remove();const count=Object.keys(window.FILM_DECK_COVERS||{}).length;if(count!==sourceCoverCount){sourceCoverCount=count;render();}};tag.onerror=()=>tag.remove();document.head.appendChild(tag);}
+refreshSourceCovers();setInterval(refreshSourceCovers,60000);
 function render(){const max=Math.max(1,Math.ceil(list.length/PS));page=Math.max(0,Math.min(page,max-1));$('count').innerHTML=`共 <b>${list.length.toLocaleString()}</b> 部作品 · <b>${list.reduce((n,w)=>n+promptCount(w),0).toLocaleString()}</b> 条提示词${window.__JT_SOURCES_FULL__?'':' · 目录仍在载入，结果暂不完整'}`;
  syncSrcFilterUI();syncPager(page,max,'',p=>{page=p;render();window.scrollTo({top:0});});
  $('grid').innerHTML=list.slice(page*PS,(page+1)*PS).map(w=>{const pc=promptCount(w),hs=honorSummary(w),ev=evidence(w),enSub=(w.title_en&&w.title_en!==w.title)?w.title_en:'';
   const regClean=regions(w).filter(x=>!x.includes('待补')).slice(0,2).join(' / '),genClean=genres(w).filter(x=>!x.includes('待补')).map(x=>({'romantic drama film':'爱情 / 剧情','drama film':'剧情','comedy-drama':'剧情 / 喜剧'}[String(x).toLowerCase()]||x)).slice(0,3).join(' / ');
   const dpClean=(w.cinematographer&&w.cinematographer!=='待核')?`摄影：${w.cinematographer}`:'';
   const metaParts=[w.director?`导演：${w.director}`:'',dpClean,regClean,genClean].filter(Boolean).join(' · ')||(w.type||'电影');
-  return `<article class="card"><div class="card-top"><h3${pc?` data-prompts="${esc(w.id)}" class="clickable"`:''}>${esc(w.title)} <span class="yr">${esc(w.year||'')}</span></h3><div class="en-sub" title="${esc(enSub)}">${esc(enSub)||'&nbsp;'}</div></div><p class="meta-line">${esc(metaParts)}</p>${hs?`<details class="ev-fold"><summary><span class="honor-pill">🏆 ${esc(hs)}</span><span class="ev-more">明细 ▾</span></summary>${ev}</details>`:`<div class="meta-sub">${esc(w.type||'电影')} · 已收录逐镜提示词</div>`}<div class="card-acts"><button type="button" class="pri" data-prompts="${esc(w.id)}"${pc?'':' disabled'}>${pc?`查看提示词（${pc.toLocaleString()} 镜）`:'提示词待补'}</button>${w.ref_count&&!CROSSFILM_WIDS.has(w.id)?`<button type="button" class="ghost" data-open="${esc(w.id)}">来源画面（${w.ref_count}）</button>`:''}</div></article>`;}).join('')||(window.__JT_SOURCES_FULL__?'<p class="empty">没有符合条件的作品。</p>':'<p class="empty">目录仍在载入，此筛选的结果尚不完整。</p>');
+  const cover=sourceCoverPath(w);
+  return `<article class="card">${cover?`<a class="work-cover" href="${esc(cover)}" target="_blank" rel="noopener noreferrer" aria-label="查看 ${esc(w.title)} 原创 AI 参考图"><img src="${esc(cover)}" alt="${esc(w.title)} 原创 AI 概念图，非影片真实截图" loading="lazy" decoding="async"><span>原创 AI 参考图</span></a>`:''}<div class="card-top"><h3${pc?` data-prompts="${esc(w.id)}" class="clickable"`:''}>${esc(w.title)} <span class="yr">${esc(w.year||'')}</span></h3><div class="en-sub" title="${esc(enSub)}">${esc(enSub)||'&nbsp;'}</div></div><p class="meta-line">${esc(metaParts)}</p>${hs?`<details class="ev-fold"><summary><span class="honor-pill">🏆 ${esc(hs)}</span><span class="ev-more">明细 ▾</span></summary>${ev}</details>`:`<div class="meta-sub">${esc(w.type||'电影')} · 已收录逐镜提示词</div>`}<div class="card-acts"><button type="button" class="pri" data-prompts="${esc(w.id)}"${pc?'':' disabled'}>${pc?`查看提示词（${pc.toLocaleString()} 镜）`:'提示词待补'}</button>${w.ref_count&&!CROSSFILM_WIDS.has(w.id)?`<button type="button" class="ghost" data-open="${esc(w.id)}">来源画面（${w.ref_count}）</button>`:''}</div></article>`;}).join('')||(window.__JT_SOURCES_FULL__?'<p class="empty">没有符合条件的作品。</p>':'<p class="empty">目录仍在载入，此筛选的结果尚不完整。</p>');
  $('grid').querySelectorAll('[data-open]').forEach(b=>b.onclick=()=>openFrames(b.dataset.open));$('grid').querySelectorAll('[data-prompts]').forEach(b=>b.onclick=()=>openPrompts(b.dataset.prompts));}
 function filter(keepPage){const words=$('q').value.toLowerCase().trim().split(/\s+/).filter(Boolean),coverage=$('coverage').value,type=$('type').value;
  const cineGuild=$('cineGuild')?$('cineGuild').value:'',festival=$('festival').value,award=$('award').value,classic=$('classic').value,genre=$('genre').value,region=$('region').value,era=$('decade').value;
