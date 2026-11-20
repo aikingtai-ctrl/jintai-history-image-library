@@ -38,10 +38,13 @@ for (const [wid, rel] of Object.entries(generated)) {
 
 if (copied) {
   fs.writeFileSync(destManifest, `window.FILM_AI_IMAGES=${JSON.stringify(latest, null, 2)};\nwindow.FILM_AI_GENERATED_WIDS=${JSON.stringify(latestGeneratedWids)};\n`);
-  const htmlFile = path.join(destination, 'film.html');
-  const html = fs.readFileSync(htmlFile, 'utf8');
-  if (!/film-ai\/manifest\.js\?v=/.test(html)) throw new Error('Manifest script tag not found');
-  const updated = html.replace(/film-ai\/manifest\.js\?v=[^"']+/, `film-ai/manifest.js?v=run-${process.env.GITHUB_RUN_ID}`);
-  fs.writeFileSync(htmlFile, updated);
+  for (const pageName of ['film.html', '影视参考图集.html']) {
+    const htmlFile = path.join(destination, pageName);
+    if (!fs.existsSync(htmlFile)) continue;
+    const html = fs.readFileSync(htmlFile, 'utf8');
+    if (!/film-ai\/manifest\.js\?v=/.test(html)) throw new Error(`Manifest script tag not found in ${pageName}`);
+    const updated = html.replace(/film-ai\/manifest\.js\?v=[^"']+/, `film-ai/manifest.js?v=run-${process.env.GITHUB_RUN_ID}`);
+    fs.writeFileSync(htmlFile, updated);
+  }
 }
 console.log(`Published image mappings prepared: ${copied}`);

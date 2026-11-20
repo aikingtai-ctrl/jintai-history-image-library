@@ -716,7 +716,7 @@ function shotImageSrc(id){
  return /github\.io$/i.test(location.hostname||'')?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/${rev}/${rel}`:rel;
 }
 function isWorkRepresentativeShot(id){return !(window.FILM_SHOT_IMAGES||{})[id]&&!!shotImageSrc(id);}
-window.addEventListener('error',ev=>{const el=ev?.target;if(!el||el.tagName!=='IMG'||!el.src)return;const s=el.src,st=el.dataset.fbStep||'';if(st==='done')return;const mJs=s.match(/^https:\/\/(?:gcore|fastly|cdn)\.jsdelivr\.net\/gh\/([^@]+)@([^/]+)\/(.+)$/),mRaw=s.match(/^https:\/\/raw\.githubusercontent\.com\/([^/]+)\/([^/]+)\/([^/]+)\/(.+)$/);if(mJs&&st!=='raw'){el.dataset.fbStep='raw';el.src=`https://raw.githubusercontent.com/${mJs[1]}/${mJs[2]}/${mJs[3]}`;}else if(mRaw){el.dataset.fbStep='done';el.src=`https://testingcf.jsdelivr.net/gh/${mRaw[1]}/${mRaw[2]}@${mRaw[3]}/${mRaw[4]}`;}},true);
+window.addEventListener('error',ev=>{const el=ev?.target;if(!el||el.tagName!=='IMG'||!el.src)return;const s=el.src,st=el.dataset.fbStep||'';if(st==='done')return;const mJs=s.match(/^https:\/\/(?:gcore|fastly|cdn)\.jsdelivr\.net\/gh\/([^@]+)@([^/]+)\/(.+)$/),mRaw=s.match(/^https:\/\/raw\.githubusercontent\.com\/([^/]+)\/([^/]+)\/([^/]+)\/(.+)$/),mLoc=!IS_GH_FILM&&!mJs&&!mRaw?s.match(/\/((?:film-ai|history-ai)\/[^?#]+)(?:[?#].*)?$/i):null;if(mLoc&&!st){el.dataset.fbStep='raw';el.src=`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/${mLoc[1]}`;}else if(mJs&&st!=='raw'){el.dataset.fbStep='raw';el.src=`https://raw.githubusercontent.com/${mJs[1]}/${mJs[2]}/${mJs[3]}`;}else if(mRaw){el.dataset.fbStep='done';el.src=`https://testingcf.jsdelivr.net/gh/${mRaw[1]}/${mRaw[2]}@${mRaw[3]}/${mRaw[4]}`;}},true);
 async function updateLiveFilmAiManifest(){
  if(!IS_GH_FILM)return;
  const ctl=new AbortController(),timer=setTimeout(()=>ctl.abort(),8000);
@@ -1232,7 +1232,7 @@ function findVisualTwins(targetEnt,topK=12){
  }
  scored.sort((a,b)=>b[0]-a[0]);
  return scored.slice(0,topK).map(([sim,wi])=>{const w=WORKS[wi];return{kind:'work',key:w.wid,label:`${w.t}（${w.y||''}）`,sim:Math.round(Math.max(0,Math.min(0.99,sim))*100)};});}
-function applyFpPreset(code){if(!code)return;let items=[];
+function applyFpPreset(code){if(!code)return;if(!FP_ROWS.length){if($('cmpPerfBadge'))$('cmpPerfBadge').textContent='⏳ 按需载入 60,000 部 29 维视觉指纹引擎…';ensureFingerprintsLoaded().then(ok=>{if(ok)applyFpPreset(code);});return;}let items=[];
  if(code==='styles320'||code==='styles310'||code==='styles300'||code==='styles290'||code==='styles280'||code==='styles270'||code==='styles260'||code==='styles250'||code==='styles240'||code==='styles230'||code==='styles220'||code==='styles210'||code==='styles200'||code==='styles190'||code==='styles180'||code==='styles170'||code==='styles160'||code==='styles150'||code==='styles140'||code==='styles130'||code==='styles120'||code==='styles110'||code==='styles100'||code==='styles90'||code==='styles80'||code==='styles70'||code==='styles60'||code==='styles50'||code==='styles40'||code==='styles30'||code==='styles20'||code==='styles12'){
   items=(FP_COHORTS.styles||[]).map(c=>({kind:'style',key:c.id,label:c.zh}));
  }else if(code==='asian26_euro26_critics27_cine25'){
@@ -1405,6 +1405,7 @@ function heatCellStyle(val,isPeak){
  const alpha=Math.min(0.42,(val/100)*0.44);
  return`background:rgba(216,162,74,${alpha.toFixed(3)})${isPeak?';box-shadow:inset 0 0 0 1px rgba(242,199,119,.65)':''}`;}
 function renderFP(){
+ if(!FP_ROWS.length){if($('cmpPerfBadge'))$('cmpPerfBadge').textContent='⏳ 按需载入 60,000 部 29 维视觉指纹引擎…';ensureFingerprintsLoaded().then(ok=>{if(ok&&!$('tab-compare').hidden&&CMP_MODE==='works')renderFP();});return;}
  ensureDefaultCompareSeeds();
  const t0=performance.now();
  const matWrap=$('fpMatrixWrap'),cardWrap=$('fpView'),sumBar=$('fpSummaryBar'),perfBadge=$('cmpPerfBadge');
@@ -1535,6 +1536,7 @@ async function renderCmpShots(){
  <div style="overflow-x:auto"><table class="cmp">${rows.map(([n,fn])=>{const vs=rs.map(r=>fn(r)||'');const diff=new Set(vs).size>1&&n!=='研究笔记'&&n!=='作品'&&n!=='导演 / 摄影';return`<tr><th>${n}</th>${vs.map(v=>`<td class="${diff?'diff':''}">${esc(v)}</td>`).join('')}</tr>`;}).join('')}</table></div>`;
  bindCards(box);}
 async function renderCompare(){
+ if(!FP_ROWS.length){if($('cmpPerfBadge'))$('cmpPerfBadge').textContent='⏳ 按需载入 60,000 部 29 维视觉指纹引擎…';await ensureFingerprintsLoaded();}
  populateShotPresetSelect();updateCmpBadges();
  if(CMP_MODE==='shots'){setCmpMode('shots');await renderCmpShots();}
  else{setCmpMode('works');renderFP();}}
@@ -1823,6 +1825,17 @@ $('cmpShotPreset').onchange=e=>{const p=SHOT_PRESETS.find(x=>x.id===e.target.val
 $('cmpDeckBtn').onclick=()=>{if(!CMP.length){toast('当前没有逐镜对照镜头');return;}addToDeck(CMP.slice());};
 $('cmpClearBtn').onclick=()=>{CMP=[];CMP_USER_CLEARED=true;saveCmp();renderCmpShots();refreshCmpBtns();};
 ['wq','wType','wKind','wRegion','wDecade','wSort'].forEach(i=>$(i)[i==='wq'?'oninput':'onchange']=()=>{WPAGE=0;renderWorks();});
+let _fpLoadPromise=null;
+async function ensureFingerprintsLoaded(){
+ if(FP_ROWS.length)return true;
+ if(window.__FILM_FINGERPRINTS__){ingestAutoBundles();return FP_ROWS.length>0;}
+ if(!_fpLoadPromise)_fpLoadPromise=loadScript(DATA_DIR+'/vfingerprints.js?v=e14db70357d9',true).then(ok=>{
+  if(ok){ingestAutoBundles();if(!$('tab-works').hidden)updateWorksCardsInPlace();if(!$('tab-decks').hidden)renderDecks();}
+  else _fpLoadPromise=null;
+  return ok;
+ });
+ return _fpLoadPromise;
+}
 function ingestAutoBundles(){
  if(window.__FILM_FINGERPRINTS__&&window.__FILM_FINGERPRINTS__!==FP_DATA){
   FP_DATA=window.__FILM_FINGERPRINTS__;FP_ROWS=FP_DATA.rows||[];FP_COHORTS=FP_DATA.cohorts||{dirs:[],dps:[],awards:[],styles:[],netflix:[]};FP_METRICS=FP_DATA.metric_names||[];
@@ -1879,10 +1892,7 @@ $('retryLoad').onclick=()=>location.reload();
   if(!worksLoaded)visualLoadFailed=true;
   else{
    refreshLoaded(sourceSummary,visualLoadFailed);
-   await Promise.all([
-    loadScript(DATA_DIR+'/vfingerprints.js?v=e14db70357d9',true),
-    loadScript(DATA_DIR+'/vdecks.js?v=e14db70357d9',true)
-   ]);
+   if(!await loadScript(DATA_DIR+'/vdecks.js?v=e14db70357d9',true))visualLoadFailed=true;
    ingestAutoBundles();
    refreshLoaded(sourceSummary,visualLoadFailed);
    const sampleShards=selectRepresentativeShards(VISUAL_MANIFEST.filter(x=>x.era==='__visual_index__'));
