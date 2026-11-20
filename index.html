@@ -65,6 +65,13 @@ main{max-width:1640px;margin:0 auto;padding:8px 26px 44px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(440px,1fr));gap:14px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:16px 18px;cursor:pointer;transition:border-color .14s,transform .14s,box-shadow .14s;display:flex;flex-direction:column;gap:8px}
 .card:hover{border-color:#9ab8ac;transform:translateY(-1px);box-shadow:0 6px 18px rgba(24,42,35,.06)}
+.history-preview-button{position:relative;display:block;width:100%;padding:0;border:0;border-radius:6px;background:transparent;overflow:hidden;cursor:zoom-in}
+.history-preview-button:focus-visible,.history-detail-preview-button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.history-preview-button .history-card-preview{margin:0}
+.history-preview-zoom{position:absolute;right:10px;bottom:10px;padding:5px 11px;border-radius:7px;background:rgba(12,25,21,.82);color:#fff;font:600 12.5pt/1.3 "Microsoft YaHei",sans-serif;pointer-events:none}
+.history-detail-preview-button{display:block;max-width:100%;padding:0;margin:12px auto;border:0;background:transparent;cursor:zoom-in}
+.history-detail-preview-button .history-detail-preview{margin:0}
+.hlb-stage #hlbImg{width:94%;height:92%}
 .card h3{margin:0;font-size:17.5pt;line-height:1.35;color:var(--ink);font-weight:700;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
 .card .summary{color:#4e5c56;font-size:14.5pt;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.9em}
 .card-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;padding-top:6px;border-top:1px solid #f0ede6;color:var(--muted);font-size:12.5pt}
@@ -406,7 +413,7 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
     <button id="close" class="secondary">关闭</button>
   </div>
 </dialog>
-<dialog id="histLightbox" aria-label="高清大图检视器">
+<dialog id="histLightbox" aria-label="图片放大查看">
   <div class="hlb-wrap">
     <div class="hlb-bar">
       <div class="hlb-title"><span id="hlbTitle"></span><small id="hlbSub"></small></div>
@@ -414,7 +421,7 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
         <button type="button" id="hlbZoomOut">－</button>
         <button type="button" id="hlbZoomReset">100%</button>
         <button type="button" id="hlbZoomIn">＋</button>
-        <a id="hlbRaw" href="#" target="_blank" rel="noopener">新窗口原图 ↗</a>
+        <a id="hlbRaw" href="#" target="_blank" rel="noopener">新窗口查看图片 ↗</a>
         <button type="button" id="hlbOpenDetail">查看提示词详情</button>
         <button type="button" id="hlbClose" style="background:#284b45;border-color:#3a6b63">关闭 (Esc)</button>
       </div>
@@ -1009,11 +1016,11 @@ function render(){
     const kindTxt=(r.cat && r.cat!==kBase) ? `${kBase} · ${r.cat}` : kBase;
     const views=r.n || (r.variants?r.variants.length:1);
     const historyPreview=window.JINTAI_AI_IMAGES?.[r.id];
-    d.innerHTML=`${historyPreview ? `<img class="history-card-preview" loading="lazy" src="${esc(historyPreview)}" alt="${esc(r.title)} AI生成图片" title="点击放大查看高清大图">` : ''}<h3>${esc(r.title)}</h3>${window.JINTAI_AI_NOTES?.[r.id] ? `<p>${esc(window.JINTAI_AI_NOTES[r.id])}</p>` : ''}
+    d.innerHTML=`${historyPreview ? `<button type="button" class="history-preview-button" aria-label="放大查看图片：${esc(r.title)}" title="放大查看图片"><img class="history-card-preview" loading="lazy" src="${esc(historyPreview)}" alt=""><span class="history-preview-zoom" aria-hidden="true">⛶ 放大</span></button>` : ''}<h3>${esc(r.title)}</h3>${window.JINTAI_AI_NOTES?.[r.id] ? `<p>${esc(window.JINTAI_AI_NOTES[r.id])}</p>` : ''}
       <div class="summary">${esc(r.brief||'')}</div>
       <div class="card-foot"><span>${esc(eraTxt)} ｜ ${esc(kindTxt)}</span><span class="views">${views} 视角</span></div>`;
-    const imgEl=d.querySelector('.history-card-preview');
-    if(imgEl){imgEl.onclick=ev=>{ev.stopPropagation();openHistLightbox(r);};}
+    const previewButton=d.querySelector('.history-preview-button');
+    if(previewButton){previewButton.onclick=ev=>{ev.stopPropagation();openHistLightbox(r);};}
     d.onclick=()=>openCard(r);
     g.appendChild(d);
   }
@@ -1036,8 +1043,11 @@ function renderHlb(){
   const src=window.JINTAI_AI_IMAGES?.[r.id];if(!src)return;
   HLB.scale=1;HLB.tx=0;HLB.ty=0;
   $('hlbTitle').textContent=r.title||'';
-  $('hlbSub').textContent=`#${r.id} · ${r.era||''}${r.dyn?' · '+r.dyn:''} · 第 ${HLB.idx+1} / ${HLB.pool.length} 张`;
-  $('hlbImg').src=src;$('hlbImg').alt=r.title||'';
+  const subtitle=`#${r.id} · ${r.era||''}${r.dyn?' · '+r.dyn:''} · 第 ${HLB.idx+1} / ${HLB.pool.length} 张`;
+  $('hlbSub').textContent=subtitle;
+  const image=$('hlbImg');
+  image.onload=()=>{$('hlbSub').textContent=subtitle+` · ${image.naturalWidth}×${image.naturalHeight} px`;};
+  image.src=src;image.alt=r.title||'';
   $('hlbRaw').href=src;
   $('hlbNote').textContent=window.JINTAI_AI_NOTES?.[r.id]||r.brief||'滚轮或点击画面可放大（100%–400%），放大后拖动查看细节';
   $('hlbOpenDetail').onclick=()=>{$('histLightbox').close();openCard(r);};
@@ -1084,11 +1094,11 @@ async function openCard(r){
       <span>#${esc(r.id)}</span>
     </div>
     <h2>${esc(r.title)}</h2>
-    ${window.JINTAI_AI_IMAGES?.[r.id] ? `<img class="history-detail-preview" id="dHistImg" src="${esc(window.JINTAI_AI_IMAGES[r.id])}" alt="${esc(r.title)} AI生成图片" title="点击全屏放大检视">` : ''}
+    ${window.JINTAI_AI_IMAGES?.[r.id] ? `<button type="button" class="history-detail-preview-button" id="dHistZoom" aria-label="放大查看图片：${esc(r.title)}"><img class="history-detail-preview" src="${esc(window.JINTAI_AI_IMAGES[r.id])}" alt=""></button>` : ''}
     ${r.story?`<div style="color:#63706a;font-size:14pt;margin-bottom:4px">典籍/题材：${esc(r.story)}</div>`:''}
     ${r.src?`<div style="color:#63706a;font-size:13.5pt;margin-bottom:4px">考证出处：${esc(r.src)}${r.hold?'（'+esc(r.hold)+'）':''}</div>`:''}
     <p style="color:#45534d;margin:6px 0 10px;line-height:1.6">${esc(r.brief||'')}</p>`;
-  if($('dHistImg'))$('dHistImg').onclick=()=>openHistLightbox(r);
+  if($('dHistZoom'))$('dHistZoom').onclick=()=>openHistLightbox(r);
   const t=$('dtabs'); t.innerHTML='';
   (r.variants||[]).forEach((v,i)=>{
     const b=document.createElement('button');
@@ -1098,7 +1108,7 @@ async function openCard(r){
     t.appendChild(b);
   });
   show();
-  $('detail').showModal();
+  if(!$('detail').open)$('detail').showModal();
 }
 function show(){ const v=(cur.variants||[])[curIdx]; $('dprompt').textContent=v?(v.prompt||''):'（无提示词正文）'; }
 async function cp(t){ try{await navigator.clipboard.writeText(t);}catch{const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();} }
