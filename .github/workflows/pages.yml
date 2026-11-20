@@ -12,6 +12,7 @@ on:
       - "film-ai/*.webp"
       - "film-ai/restored/**"
       - "history-ai/thumbnails/**"
+      - "history-ai/regenerated-previews/**"
   workflow_dispatch:
 
 permissions:
@@ -100,7 +101,7 @@ jobs:
                       continue
               elif top == "history-ai":
                   history_files = {
-                      "manifest.js", "source-notes.js",
+                      "manifest.js", "source-notes.js", "regenerated-manifest.js",
                       "gallery-data.js", "gallery-data-batch2.js",
                       "batch-manifest.json", "batch2-manifest.json",
                       "image-audit.json", "verification.json", "verification-batch2.json",
