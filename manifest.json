@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "38-bca1e5394551",
+  "revision": "39-65322f7f029e",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -307,6 +307,14 @@
       "width": 1536,
       "height": 1024,
       "sha256": "bca1e53945515a1f3dabb4be9bbd54c6591b399be1b09568ca5e41613ac82494"
+    },
+    "HL-BSONG-SC-0006": {
+      "title": "北宋贡院省试",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0006.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0006.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "65322f7f029ee575cad63f8fe3e345139b337661b4e7ce13aea16fb86072dad2"
     }
   }
 }
