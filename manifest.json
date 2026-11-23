@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "93-479715d52478",
+  "revision": "94-3a95e69cfb29",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -747,6 +747,14 @@
       "width": 1536,
       "height": 1024,
       "sha256": "479715d5247848e6eb93b0ddd4c89e7af8781c13aad636bd41ffac43bef2c188"
+    },
+    "HL-LIAO-AR-0002": {
+      "title": "辽代应县木塔",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-AR-0002.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-AR-0002.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "3a95e69cfb29958b3943023dbfc7dab6913436ef7788a5f3e7e0349bbd3a9168"
     }
   }
 }
