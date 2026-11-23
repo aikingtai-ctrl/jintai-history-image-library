@@ -996,7 +996,7 @@ function syncChipUI(){
 }
 
 
-function histPreview(id){return window.JINTAI_AI_IMAGES?.[id]||'';}
+function histPreview(id){return window.JINTAI_SONG_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
 function render(){
   const total=list.length, tp=Math.max(1,Math.ceil(total/PAGE));
   if(page>=tp) page=tp-1;
@@ -1045,6 +1045,7 @@ function setHlbZoom(s,reset=false){
 function renderHlb(){
   const r=HLB.pool[HLB.idx];if(!r)return;
   const src=histPreview(r.id);if(!src)return;
+  const original=window.JINTAI_SONG_IMAGES?.[r.id]?.original;let originalFailed=false;
   HLB.scale=1;HLB.tx=0;HLB.ty=0;
   $('hlbTitle').textContent=r.title||'';
   const subtitle=`#${r.id} · ${r.era||''}${r.dyn?' · '+r.dyn:''} · 第 ${HLB.idx+1} / ${HLB.pool.length} 张`;
@@ -1052,11 +1053,12 @@ function renderHlb(){
   const im=$('hlbImg'),raw=$('hlbRaw');
   im.onload=()=>{
     $('hlbSub').textContent=subtitle+` · ${im.naturalWidth}×${im.naturalHeight} px`;
-    $('hlbNote').textContent=`当前保存版本为 ${im.naturalWidth}×${im.naturalHeight} JPEG；卡片和放大页显示同一张图。`;
+    $('hlbNote').textContent=original&&!originalFailed?`原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`:originalFailed?'原始 PNG 暂不可用，当前显示预览图。':`当前保存版本为 ${im.naturalWidth}×${im.naturalHeight} JPEG；卡片和放大页显示同一张图。`;
   };
-  $('hlbNote').textContent='正在加载当前保存的图片…';
-  im.src=src;im.alt=r.title||'';
-  raw.href=src;raw.textContent='新窗口查看此图 ↗';
+  im.onerror=()=>{if(!original)return;originalFailed=true;im.onerror=null;im.src=src;raw.href=src;raw.textContent='新窗口查看预览图 ↗';};
+  $('hlbNote').textContent=original?'正在加载原始 PNG…':'正在加载当前保存的图片…';
+  im.src=original||src;im.alt=r.title||'';
+  raw.href=original||src;raw.textContent=original?'新窗口查看原始 PNG ↗':'新窗口查看此图 ↗';
   $('hlbOpenDetail').onclick=()=>{$('histLightbox').close();openCard(r);};
   applyHlbTransform();
   const dlg=$('histLightbox');if(!dlg.open)dlg.showModal();
@@ -1206,6 +1208,36 @@ document.addEventListener('keydown',e=>{
   else if(e.key==='['||e.key==='PageUp'){if(page>0)$('prev').click();}
   else if(e.key===']'||e.key==='PageDown'){if((page+1)*PAGE<list.length)$('next').click();}
 });
+</script>
+<script>
+(() => {
+  const base='https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/';
+  let revision='',loading=false;
+  window.JINTAI_SONG_IMAGES={};
+  async function syncSongImages(){
+    if(loading)return;
+    loading=true;
+    try{
+      const v=await fetch(base+'version.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('version');return r.json()});
+      if(v.revision===revision)return;
+      const data=await fetch(base+'manifest.json?v='+encodeURIComponent(v.revision)+'&t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('manifest');return r.json()});
+      if(data.era!=='宋辽金西夏'||data.target!==11163||data.revision!==v.revision||!data.images)throw Error('invalid manifest');
+      const images=Object.create(null);
+      for(const [id,item] of Object.entries(data.images)){
+        if(!/^[A-Z0-9-]+$/.test(id)||!item.preview?.startsWith(base+'previews/')||!item.original?.startsWith(base+'images/'))continue;
+        images[id]=item;
+      }
+      if(Object.keys(images).length!==v.count)throw Error('count mismatch');
+      window.JINTAI_SONG_IMAGES=images;
+      revision=v.revision;
+      if(typeof render==='function'&&window.DATA?.length)render();
+    }catch(e){console.warn('宋辽金西夏图片清单暂不可用',e)}
+    finally{loading=false}
+  }
+  syncSongImages();
+  setInterval(syncSongImages,30000);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)syncSongImages()});
+})();
 </script>
 </body>
 </html>
