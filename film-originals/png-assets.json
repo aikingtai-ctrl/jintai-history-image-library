@@ -59863,6 +59863,56 @@
       "sha256": "445b9db0c107d0a7cf44c6d18663d3b56bf6d479f8189ccddbf35eac13becd47",
       "scene": null,
       "prompt": null
+    },
+    "mr-six-2015": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/mr-six-2015-c26888b5b002.png",
+      "filename": "mr-six-2015-c26888b5b002.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2035257,
+      "sha256": "c26888b5b002d5f5059e426aab24262613acec662f8842d60b7574532ecb3fe0",
+      "scene": null,
+      "prompt": null
+    },
+    "mr-smith-goes-to-washington-1939": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/mr-smith-goes-to-washington-1939-5531cf366797.png",
+      "filename": "mr-smith-goes-to-washington-1939-5531cf366797.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1918178,
+      "sha256": "5531cf366797a28a34357108d64530c3bdc8b95514721c14c4f85ae90ae4c1eb",
+      "scene": null,
+      "prompt": null
+    },
+    "mr-sunshine-2018": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/mr-sunshine-2018-445e17f420b0.png",
+      "filename": "mr-sunshine-2018-445e17f420b0.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2366020,
+      "sha256": "445e17f420b05541ff1657114072f4290c7dbab9885b1e961fd36bee2003d329",
+      "scene": null,
+      "prompt": null
+    },
+    "mr-turner-2014": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/mr-turner-2014-6128d5691e77.png",
+      "filename": "mr-turner-2014-6128d5691e77.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1904897,
+      "sha256": "6128d5691e778d5f9fd3fcf43880cf83710517b40065bdaa18db2be97bd233cc",
+      "scene": null,
+      "prompt": null
+    },
+    "mr-vampire-1985": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/mr-vampire-1985-b219824b878d.png",
+      "filename": "mr-vampire-1985-b219824b878d.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2326111,
+      "sha256": "b219824b878dfcb6718555cfd10ee1339958d798372755e84021692122746b3b",
+      "scene": null,
+      "prompt": null
     }
   }
 }
