@@ -714,6 +714,7 @@ function shotImageSrc(id){
   }
  }
  if(!rel)return'';
+ if(/^https?:/i.test(rel))return rel;
  const rev=window.FILM_SHOT_ASSET_REV||'main';
  return /github\.io$/i.test(location.hostname||'')?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/${rev}/${rel}`:rel;
 }
