@@ -1212,30 +1212,34 @@ document.addEventListener('keydown',e=>{
 <script>
 (() => {
   const base='https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/';
-  let revision='',loading=false;
+  const ref='https://api.github.com/repos/aikingtai-ctrl/jintai-history-image-library/git/ref/heads/codex/song-originals-png-20261123';
+  let revision='',loading=false,lastCheck=0;
   window.JINTAI_SONG_IMAGES={};
   async function syncSongImages(){
-    if(loading)return;
-    loading=true;
+    if(loading||Date.now()-lastCheck<60000)return;
+    loading=true;lastCheck=Date.now();
     try{
-      const v=await fetch(base+'version.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('version');return r.json()});
-      if(v.revision===revision)return;
-      const data=await fetch(base+'manifest.json?v='+encodeURIComponent(v.revision)+'&t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('manifest');return r.json()});
-      if(data.era!=='宋辽金西夏'||data.target!==11163||data.revision!==v.revision||!data.images)throw Error('invalid manifest');
+      const head=await fetch(ref+'?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('ref');return r.json()});
+      const sha=head.object?.sha;
+      if(!/^[a-f0-9]{40}$/.test(sha))throw Error('invalid ref');
+      if(sha===revision)return;
+      const pinned='https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/'+sha+'/';
+      const data=await fetch(pinned+'manifest.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('manifest');return r.json()});
+      if(data.era!=='宋辽金西夏'||data.target!==11163||!data.images)throw Error('invalid manifest');
       const images=Object.create(null);
       for(const [id,item] of Object.entries(data.images)){
-        if(!/^[A-Z0-9-]+$/.test(id)||!item.preview?.startsWith(base+'previews/')||!item.original?.startsWith(base+'images/'))continue;
-        images[id]=item;
+        if(!/^[A-Z0-9-]+$/.test(id)||item.preview!==base+'previews/'+id+'.jpg'||item.original!==base+'images/'+id+'.png')continue;
+        images[id]={...item,preview:pinned+'previews/'+id+'.jpg',original:pinned+'images/'+id+'.png'};
       }
-      if(Object.keys(images).length!==v.count)throw Error('count mismatch');
+      if(Object.keys(images).length!==Object.keys(data.images).length)throw Error('count mismatch');
       window.JINTAI_SONG_IMAGES=images;
-      revision=v.revision;
+      revision=sha;
       if(typeof render==='function'&&list.length)render();
     }catch(e){console.warn('宋辽金西夏图片清单暂不可用',e)}
     finally{loading=false}
   }
   syncSongImages();
-  setInterval(syncSongImages,30000);
+  setInterval(syncSongImages,90000);
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)syncSongImages()});
 })();
 </script>
