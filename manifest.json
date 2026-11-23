@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "96-b1e8451b775d",
+  "revision": "97-13859bc02a54",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -771,6 +771,14 @@
       "width": 1672,
       "height": 941,
       "sha256": "b1e8451b775d93880a664826174fa711cfbf0fc5776fda3f5dde0544a79b27f5"
+    },
+    "HL-JINGUO-PR-0001": {
+      "title": "金代磁州窑与红绿彩",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-PR-0001.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-PR-0001.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "13859bc02a54b0183cdd80ca7db60b8559413ad249fe4125d5ffba21e22d9ff5"
     }
   }
 }
