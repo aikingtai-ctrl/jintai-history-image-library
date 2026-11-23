@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "6-70257b513fc0",
+  "revision": "7-6cd9f414075e",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -51,6 +51,14 @@
       "width": 1024,
       "height": 1536,
       "sha256": "70257b513fc0af705744e1ef290d00def28260645c0b4caab728c0a4d5816cd7"
+    },
+    "HL-BSONG-AR-0001": {
+      "title": "北宋汴京彩楼欢门酒楼",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-AR-0001.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-AR-0001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6cd9f414075e1d143b9e408f6151c58b22e7a92dfa9c74df5ee91978e652fe98"
     }
   }
 }
