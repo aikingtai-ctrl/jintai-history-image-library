@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-23T12:44:24.065632+00:00",
+  "snapshot_time_utc": "2026-11-23T12:52:23.537260+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -19694,6 +19694,20 @@
       "file": "film-ai/decks/film-src-317f384a7bbeb5dd.webp",
       "sha256": "56ea41a02bd94323c1fde0c919af9284d83af080b77a78416f152c2df6fec222",
       "bytes": 377848,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-6c84d0da3c28a016",
+      "wid": "src-6c84d0da3c28a016",
+      "title": "Mon Oncle",
+      "file": "film-ai/decks/film-src-6c84d0da3c28a016.webp",
+      "sha256": "85d178efb8c9e09a59c7e49e87c56bb1799d1d48f15a9b7e6ff9edd586e422e5",
+      "bytes": 415052,
       "size": [
         1672,
         941
