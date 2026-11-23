@@ -60753,6 +60753,66 @@
       "sha256": "34282012f4eece37799c7815c890aef57e99fa5565b47c5e77d31a359ab5b116",
       "scene": null,
       "prompt": null
+    },
+    "ocean-heaven-2010": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/ocean-heaven-2010-c3992beb0865.png",
+      "filename": "ocean-heaven-2010-c3992beb0865.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2188851,
+      "sha256": "c3992beb0865763b08ca9c522a6189997b77e141060b324fd76f60d0fd6a8aa8",
+      "scene": null,
+      "prompt": null
+    },
+    "oblivion-2013": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/oblivion-2013-3673c3fff2ba.png",
+      "filename": "oblivion-2013-3673c3fff2ba.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1830320,
+      "sha256": "3673c3fff2bae2fe87fcf45ccd5f732345ae929808d3b273066fa2f37d4ba092",
+      "scene": null,
+      "prompt": null
+    },
+    "oasis-2002": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/oasis-2002-34660a3a4452.png",
+      "filename": "oasis-2002-34660a3a4452.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2340609,
+      "sha256": "34660a3a44528cf762a032d60ad13530b077c394ea7d4ea4bf9e474a9beca81d",
+      "scene": null,
+      "prompt": null
+    },
+    "oceans-2009": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/oceans-2009-074c2291738d.png",
+      "filename": "oceans-2009-074c2291738d.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2629383,
+      "sha256": "074c2291738d326ba63787fb56f014023b17763a3831bfc3480b256b5bada39a",
+      "scene": null,
+      "prompt": null
+    },
+    "oceans-eleven-2001": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/oceans-eleven-2001-18ea6be28ffa.png",
+      "filename": "oceans-eleven-2001-18ea6be28ffa.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1764663,
+      "sha256": "18ea6be28ffa25e2562c5b95c6852b60d2fea73f5fc61b3e7d11c9c6a7f60a39",
+      "scene": null,
+      "prompt": null
+    },
+    "ode-to-joy-2016": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/ode-to-joy-2016-b8b75f93ac8c.png",
+      "filename": "ode-to-joy-2016-b8b75f93ac8c.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1896132,
+      "sha256": "b8b75f93ac8c135cbac315382a0366515c01cc35c5d9f94dd5ec3bcf195de0cb",
+      "scene": null,
+      "prompt": null
     }
   }
 }
