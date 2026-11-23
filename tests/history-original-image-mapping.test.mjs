@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.ok(Object.keys(gpt).length >= 132);
+assert.ok(Object.keys(gpt).length >= 152);
 for (const id of ['HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) assert.ok(gpt[id], id);
 for (const item of Object.values(gpt)) {
   assert.equal(item.model, 'GPT Image');
@@ -85,6 +85,22 @@ for (const [i, id] of batch111to130.entries()) {
   assert.equal(image.method, 'reference_edit', id);
   const expected = i < 13 ? [1315, 1196] : i < 18 ? [1672, 941] : [1254, 1254];
   assert.deepEqual([image.width, image.height], expected, `native PNG dimensions: ${id}`);
+}
+const batch131to150 = [
+  'HL-XIA-CO-0001', 'HL-XIA-CO-0002', 'HL-XIA-CO-0003',
+  'HL-XIA-CO-0004', 'HL-XIA-CO-0005', 'HL-XIA-CO-0008',
+  'HL-XIA-CO-0009', 'HL-XIA-CO-0015', 'HL-XIA-CO-0017',
+  'HL-XIA-CO-0021', 'HL-XIA-CO-0022', 'HL-XIA-CO-0024',
+  'HL-XIA-CO-0027', 'HL-XIA-CO-0028', 'HL-XIA-CO-0029',
+  'HL-XIA-CO-0030', 'HL-XIA-CO-0031', 'HL-XIA-CO-0032',
+  'HL-XIA-CO-0033', 'HL-XIA-CO-0034',
+];
+assert.equal(batch131to150.length, 20);
+for (const id of batch131to150) {
+  const image = gpt[id];
+  assert.ok(originals[id] && image, `saved JPEG and accepted GPT image: ${id}`);
+  assert.equal(image.method, 'reference_edit', id);
+  assert.deepEqual([image.width, image.height], [1024, 1536], `full-body native PNG: ${id}`);
 }
 assert.ok(originals['HF-20261015-0101'] && gpt['HF-20261015-0101']);
 const gptAndJpg = 'HF-20261015-0101';
@@ -165,6 +181,11 @@ for (const [file, dataFile] of [
     const oldSize = i < 13 ? [720, 658] : i < 18 ? [720, 405] : [658, 720];
     assert.equal(imageQualityLabel(image.width, image.height, image), 'GPT Image PNG', id);
     assert.equal(imageQualityLabel(...oldSize, image), 'GPT Image 预览', id);
+  }
+  for (const id of batch131to150) {
+    const image = gpt[id];
+    assert.equal(imageQualityLabel(image.width, image.height, image), 'GPT Image PNG', id);
+    assert.equal(imageQualityLabel(480, 720, image), 'GPT Image 预览', id);
   }
   const gptCode = html.match(/^function gpt\(r\)\{[^\n]+/m)?.[0];
   const previewSrcCode = html.match(/^function previewSrc\(r\)\{[^\n]+/m)?.[0];
