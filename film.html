@@ -456,7 +456,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
  </div>
 </dialog>
 <div id="toast"></div><div id="printArea"></div>
-<script src="film-ai/manifest.js?v=imagegen5000-4364-20261120"></script>
+<script src="film-ai/manifest.js?v=goal9438-10-20261123"></script>
 <script src="film-ai/decks/manifest.js?v=20261117-gpt-image-film-1360"></script>
 <script src="film-ai/shots-manifest.js?v=fc12ef575e10b9f6"></script>
 <script>
@@ -707,9 +707,10 @@ function shotImageSrc(id){
  let rel=(window.FILM_SHOT_IMAGES||{})[id];
  if(!rel){
   const r=BYID.get(id);
-  if(r&&r.origin!=='visual'&&!r.frame_id&&!frOf(r)){
+  if(r&&!frOf(r)){
    const w=r.W||WORKS[r.w];
-   rel=w&&(window.FILM_SHOT_WORK_IMAGES||{})[w.wid];
+   if(r.origin!=='visual'&&!r.frame_id)rel=w&&(window.FILM_SHOT_WORK_IMAGES||{})[w.wid];
+   if(!rel&&w)rel=(window.FILM_SHOT_WORK_IMAGES||{})[w.wid]||(window.FILM_AI_IMAGES||{})[w.wid];
   }
  }
  if(!rel)return'';
@@ -1550,7 +1551,7 @@ function getFilmAiSrc(wid){
  const direct=(window.FILM_SHOT_WORK_IMAGES||{})[wid];
  if(direct)return resolveFilmAiAsset(direct);
  const work=WORK_BY_WID.get(wid),shots=work?(BYW.get(work.i)||[]):[];
- const generated=shots.find(r=>shotImageSrc(r.id));
+ const generated=shots.find(r=>(window.FILM_SHOT_IMAGES||{})[r.id]);
  if(generated)return shotImageSrc(generated.id);
  const deckCover=(window.FILM_DECK_COVERS||{})['film:'+wid];
  if(deckCover)return resolveFilmAiAsset(deckCover);
@@ -1591,7 +1592,8 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
   const aiWorkConcept=/(?:^|\/)film-ai\/shots\/WORKCONCEPT-\d{8}-[^?#]+\.webp(?:[?#]|$)/i.test(aiSrc||'');
   const aiGeneratedJpg=FILM_AI_GENERATED_WIDS.has(w.wid)&&/(?:^|\/)film-ai\/[^/?#]+\.jpe?g(?:[?#]|$)/i.test(aiSrc||'');
   const aiGeneratedWebp=FILM_AI_GENERATED_WIDS.has(w.wid)&&/(?:^|\/)film-ai\/src-[^/?#]+\.webp(?:[?#]|$)/i.test(aiSrc||'');
-  const aiBadge=aiGeneratedJpg?'AI 小图·待升级':aiGeneratedWebp?'AI 代表图':aiWorkConcept?'原创概念图·高清':aiHires?'高清 AI 参考图':aiDeckCover?'原创概念图·高清':'旧版小图·待替换';
+  const aiGoal9438=/(?:^|\/)film-ai\/goal9438\/[^/?#]+\.jpg(?:[?#]|$)/i.test(aiSrc||'');
+  const aiBadge=aiGoal9438?'AI 代表图':aiGeneratedJpg?'AI 小图·待升级':aiGeneratedWebp?'AI 代表图':aiWorkConcept?'原创概念图·高清':aiHires?'高清 AI 参考图':aiDeckCover?'原创概念图·高清':'旧版小图·待替换';
   const aiPreview=aiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" role="button" tabindex="0" title="点击查看《${esc(w.t)}》图片原文件" aria-label="点击查看 ${esc(w.t)} 图片原文件"><img src="${esc(aiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">${aiBadge}</span><span class="film-ai-zoom-hint">🔍 点击放大</span></div>`:'<div class="film-ai-preview empty">等待 AI 代表图</div>';
   return`<div class="wc"><h4>${esc(w.t)} <span class="muted" style="font-size:18px">${enShow?esc(enShow)+' · ':''}${esc(w.y||'')}${w.year_status==='待核'?'（年份待核）':''}</span></h4>
  <div class="m">${esc(metaParts)}</div>
