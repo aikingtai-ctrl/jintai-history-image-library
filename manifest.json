@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "63-a545ca163e62",
+  "revision": "64-9541542c40b4",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -507,6 +507,14 @@
       "width": 1536,
       "height": 1024,
       "sha256": "a545ca163e622f3154e18179a95177672e69659f772d3a562a27a039b1947aa3"
+    },
+    "HL-NSONG-AC-0001": {
+      "title": "南宋女子高冠与簪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-AC-0001.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-AC-0001.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "9541542c40b444b0cafb719f9143234877f4b99228beb557b5a8fd4ee15c4973"
     }
   }
 }
