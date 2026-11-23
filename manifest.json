@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "122-8f23684d8c6e",
+  "revision": "123-15df9be57415",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -979,6 +979,14 @@
       "width": 1024,
       "height": 1536,
       "sha256": "8f23684d8c6ecf31f9703a388b2de2a99fbc378df4785f171c004ab26720d4e0"
+    },
+    "HL-LIAO-CO-0007": {
+      "title": "辽代中期契丹公主",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0007.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0007.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "15df9be57415e245bc21fbd706e8d5da3d066def08e2b822d19f03444ee00884"
     }
   }
 }
