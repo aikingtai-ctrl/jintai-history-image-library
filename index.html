@@ -1009,7 +1009,9 @@ function historyGalleryBase(){
   return historyTunnelPromise;
 }
 async function historyOriginalUrl(info){
-  return (await historyGalleryBase())+'/original-pngs/'+encodeURIComponent(info.original_dir||'history_1996_regenerated')+'/'+encodeURIComponent(info.filename);
+  const base=await historyGalleryBase();
+  if(!info.original_dir)return base+'/original-pngs/history_1996_regenerated/'+encodeURIComponent(info.filename);
+  return base+'/original-pngs/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.filename);
 }
 (function loadYuanMingImages(){
   historyGalleryBase().then(base=>{
