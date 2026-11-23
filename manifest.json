@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "138-7863b2d08186",
+  "revision": "139-4132c58ab288",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -1107,6 +1107,14 @@
       "width": 1536,
       "height": 1024,
       "sha256": "7863b2d081865835d9138dbc3696df600f37c11304282b138c2c95ac0a795818"
+    },
+    "HL-NSONG-PR-0004": {
+      "title": "南宋·兵器与防具",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-PR-0004.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-PR-0004.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4132c58ab288c94b0909d0bd4d241bb9b0f1bb87bc788788b711727b153dbf90"
     }
   }
 }
