@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "150-7c2ff36073ac",
+  "revision": "151-f33b437e1df6",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -1203,6 +1203,14 @@
       "width": 1024,
       "height": 1536,
       "sha256": "7c2ff36073acd622d5a855ce3bc2ceef64db893312ba43ff5a8c642487dea868"
+    },
+    "HL-NSONG-CO-0015": {
+      "title": "南宋·货栈经营者",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-CO-0015.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-CO-0015.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "f33b437e1df6b281b84de4fa0dba6d0c4b8a6233c3e6ec5bb751c26440f01f81"
     }
   }
 }
