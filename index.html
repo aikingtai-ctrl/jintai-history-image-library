@@ -383,6 +383,7 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
     <div class="result-left">
       <span id="count">加载中…</span>
       <span id="loadmsg"></span>
+      <span id="yuanmingProgress"></span>
       <div class="crumbs" id="crumbs"></div>
     </div>
     <div class="pager">
@@ -1019,7 +1020,9 @@ async function historyOriginalUrl(info){
     s.src=base+'/jintai-history-image-library/history-ai/yuanming-manifest.js?t='+Date.now();
     s.onload=()=>{
       const images=window.JINTAI_YUANMING_IMAGES||{};
-      for(const info of Object.values(images))info.preview=base+'/gallery-previews/history_yuanming_7358_minimax_h3_20261123/'+encodeURIComponent(info.preview_filename);
+      for(const info of Object.values(images))info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+      const imageCount=Object.keys(images).length;
+      $('yuanmingProgress').textContent='元明 16MP 原图 '+imageCount.toLocaleString()+' / 7,358 张'+(imageCount===7358?'已完成':' · 持续生成中');
       if(typeof render==='function'&&R.length)render();
     };
     document.head.appendChild(s);
