@@ -1025,7 +1025,7 @@ async function historyOriginalUrl(info){
         if(info.thumbnail_filename)info.thumb=base+'/gallery-thumbnails/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.thumbnail_filename);
       }
       const imageCount=Object.keys(images).length;
-      $('yuanmingProgress').textContent='元明已接图 '+imageCount.toLocaleString()+' / 7,358 张'+(imageCount===7358?' · 已完成':' · 已暂停');
+      $('yuanmingProgress').textContent='元明已接图 '+imageCount.toLocaleString()+' / 7,358 张'+(imageCount===7358?' · 已完成':'');
       if(typeof render==='function'&&R.length)render();
     };
     document.head.appendChild(s);
