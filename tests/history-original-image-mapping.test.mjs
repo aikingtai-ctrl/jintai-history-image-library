@@ -52,6 +52,22 @@ for (const id of ['HL-XIA-FA-0020', 'HL-XIA-FA-0021', 'HL-XIA-FA-0024', 'HL-XIA-
   assert.equal(gpt[id]?.width, 1312, 'near-square original width: ' + id);
   assert.equal(gpt[id]?.height, 1199, 'near-square original height: ' + id);
 }
+const batch91to110 = [
+  'HL-XIA-FA-0026', 'HL-XIA-FA-0027', 'HL-XIA-FA-0028', 'HL-XIA-FA-0030',
+  'HL-XIA-FA-0032', 'HL-XIA-FA-0033', 'HL-XIA-FA-0034', 'HL-XIA-FA-0037',
+  'HL-XIA-FA-0039', 'HL-XIA-FA-0040', 'HL-XIA-FA-0052', 'HL-XIA-FA-0053',
+  'HL-XIA-FA-0054', 'HL-XIA-FA-0056', 'HL-XIA-FA-0057', 'HL-XIA-FA-0058',
+  'HL-XIA-FA-0059', 'HL-XIA-FA-0060', 'HL-XIA-FA-0061', 'HL-XIA-FA-0062',
+];
+assert.equal(batch91to110.length, 20);
+for (const id of batch91to110) {
+  const image = gpt[id];
+  assert.ok(originals[id] && image, `saved JPEG and accepted GPT image: ${id}`);
+  assert.equal(image.method, 'reference_edit', id);
+  assert.ok(image.width >= 1200 && image.height >= 1100, `native PNG dimensions: ${id}`);
+  assert.ok(Math.abs(image.width / image.height - 720 / 658) < 0.05,
+    `near-square original framing: ${id}`);
+}
 assert.ok(originals['HF-20261015-0101'] && gpt['HF-20261015-0101']);
 const gptAndJpg = 'HF-20261015-0101';
 const jpgOnly = ids.find(id => !gpt[id]);
@@ -121,6 +137,11 @@ for (const [file, dataFile] of [
   const nearSquare = gpt['HL-XIA-FA-0020'];
   assert.equal(imageQualityLabel(nearSquare.width, nearSquare.height, nearSquare), 'GPT Image PNG');
   assert.equal(imageQualityLabel(720, 658, nearSquare), 'GPT Image 预览');
+  for (const id of batch91to110) {
+    const image = gpt[id];
+    assert.equal(imageQualityLabel(image.width, image.height, image), 'GPT Image PNG', id);
+    assert.equal(imageQualityLabel(720, 658, image), 'GPT Image 预览', id);
+  }
   const gptCode = html.match(/^function gpt\(r\)\{[^\n]+/m)?.[0];
   const previewSrcCode = html.match(/^function previewSrc\(r\)\{[^\n]+/m)?.[0];
   assert.ok(gptCode && previewSrcCode, file);
