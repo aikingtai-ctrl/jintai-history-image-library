@@ -1118,8 +1118,8 @@ function renderHlb(){
   if(native){
     historyOriginalUrl(native).then(url=>{
       if(HLB.request!==request)return;
-      originalSrc=url;raw.href=url;raw.textContent='新窗口查看原始 PNG ↗';
-      download.href=url+'?download=1';download.hidden=false;
+      originalSrc=url;raw.href=url;raw.textContent=gpt?'新窗口查看 GPT Image PNG ↗':'新窗口查看原始 PNG ↗';
+      download.href=url+'?download=1';download.textContent=gpt?'下载 GPT Image PNG':'下载原始 PNG';download.hidden=false;
       $('hlbNote').textContent='高清预览已显示，原始 PNG 正在后台加载…';
       const full=new Image();
       full.onload=()=>{if(HLB.request===request)im.src=url;};
