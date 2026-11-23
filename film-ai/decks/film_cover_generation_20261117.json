@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-23T16:24:00.807627+00:00",
+  "snapshot_time_utc": "2026-11-23T16:29:09.076896+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -19988,6 +19988,20 @@
       "file": "film-ai/decks/film-src-da586ab0da40251a.webp",
       "sha256": "ad8dd6134bc61b30885941519038f734d657d49c6d1438285178d8b92b1bdbad",
       "bytes": 217016,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-13376e15931edc53",
+      "wid": "src-13376e15931edc53",
+      "title": "El Cid",
+      "file": "film-ai/decks/film-src-13376e15931edc53.webp",
+      "sha256": "efb2b34f258f85098bc24a9a514ea44e6711866517fd98c1ec0cded3680fd516",
+      "bytes": 437044,
       "size": [
         1672,
         941
