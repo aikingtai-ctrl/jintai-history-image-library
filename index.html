@@ -1216,7 +1216,7 @@ document.addEventListener('keydown',e=>{
   let revision='',loading=false,lastCheck=0;
   window.JINTAI_SONG_IMAGES={};
   async function syncSongImages(){
-    if(loading||Date.now()-lastCheck<60000)return;
+    if(document.hidden||loading||Date.now()-lastCheck<60000)return;
     loading=true;lastCheck=Date.now();
     try{
       const head=await fetch(ref+'?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('ref');return r.json()});
