@@ -14,10 +14,15 @@ const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 
 const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+assert.doesNotMatch(index, /JINTAI_REGENERATED_IMAGES|regenerated-manifest\.js/);
 const histPreviewCode = index.match(/^function histPreview\(id\)\{[^\n]+/m)?.[0];
 assert.ok(histPreviewCode);
 const histPreview = vm.runInNewContext(`${histPreviewCode}; histPreview`, { window: manifest });
 for (const id of ids) assert.equal(histPreview(id), originals[id], `homepage: ${id}`);
+const histThumbCode = index.match(/^function histThumb\(id\)\{[^\n]+/m)?.[0];
+assert.ok(histThumbCode);
+const histThumb = vm.runInNewContext(`${histPreviewCode}; ${histThumbCode}; histThumb`, { window: manifest });
+for (const id of ids) assert.equal(histThumb(id), originals[id], `homepage thumb: ${id}`);
 
 const checkedIds = new Set();
 for (const [file, dataFile] of [
@@ -25,6 +30,7 @@ for (const [file, dataFile] of [
   ['history-batch-1001-2000.html', 'history-ai/gallery-data-batch2.js'],
 ]) {
   const html = fs.readFileSync(path.join(root, file), 'utf8');
+  assert.doesNotMatch(html, /JINTAI_REGENERATED_IMAGES|regenerated-manifest\.js/, file);
   const data = {};
   vm.runInNewContext(fs.readFileSync(path.join(root, dataFile), 'utf8'), { window: data });
   const previewSrcCode = html.match(/^function previewSrc\(r\)\{[^\n]+/m)?.[0];
