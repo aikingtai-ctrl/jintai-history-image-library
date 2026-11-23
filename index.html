@@ -999,6 +999,7 @@ function syncChipUI(){
 
 
 function histPreview(id){return window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_REGENERATED_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
+function histThumb(id){return window.JINTAI_YUANMING_IMAGES?.[id]?.thumb||histPreview(id);}
 let historyTunnelPromise;
 function historyGalleryBase(){
   if(location.hostname.endsWith('.trycloudflare.com') || (location.port==='18890' && ['127.0.0.1','localhost','172.16.0.32'].includes(location.hostname)))return Promise.resolve(location.origin);
@@ -1020,7 +1021,10 @@ async function historyOriginalUrl(info){
     s.src=base+'/jintai-history-image-library/history-ai/yuanming-manifest.js?t='+Date.now();
     s.onload=()=>{
       const images=window.JINTAI_YUANMING_IMAGES||{};
-      for(const info of Object.values(images))info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+      for(const info of Object.values(images)){
+        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        if(info.thumbnail_filename)info.thumb=base+'/gallery-thumbnails/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.thumbnail_filename);
+      }
       const imageCount=Object.keys(images).length;
       $('yuanmingProgress').textContent='元明 16MP 原图 '+imageCount.toLocaleString()+' / 7,358 张'+(imageCount===7358?'已完成':' · 持续生成中');
       if(typeof render==='function'&&R.length)render();
@@ -1050,7 +1054,7 @@ function render(){
     const kBase=r._effKind||r.kind||'条目';
     const kindTxt=(r.cat && r.cat!==kBase) ? `${kBase} · ${r.cat}` : kBase;
     const views=r.n || (r.variants?r.variants.length:1);
-    const historyPreview=histPreview(r.id);
+    const historyPreview=histThumb(r.id);
     d.innerHTML=`${historyPreview ? `<button type="button" class="history-preview-button" aria-label="放大查看图片：${esc(r.title)}" title="放大查看图片"><img class="history-card-preview" loading="lazy" src="${esc(historyPreview)}" alt=""><span class="history-preview-zoom" aria-hidden="true">${window.JINTAI_YUANMING_IMAGES?.[r.id]||window.JINTAI_REGENERATED_IMAGES?.[r.id]||window.JINTAI_SONG_IMAGES?.[r.id]?.original?'⛶ 查看原图':'⛶ 查看此图'}</span></button>` : ''}<h3>${esc(r.title)}</h3>${window.JINTAI_AI_NOTES?.[r.id] ? `<p>${esc(window.JINTAI_AI_NOTES[r.id])}</p>` : ''}
       <div class="summary">${esc(r.brief||'')}</div>
       <div class="card-foot"><span>${esc(eraTxt)} ｜ ${esc(kindTxt)}</span><span class="views">${views} 视角</span></div>`;
