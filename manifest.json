@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "91-efb345e1810d",
+  "revision": "92-98c669a5d73d",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -731,6 +731,14 @@
       "width": 1672,
       "height": 941,
       "sha256": "efb345e1810d3fe1d0df9dbb9e139c21e59e1c8adbd8181245e6fd1b1867eaba"
+    },
+    "HL-LIAO-PR-0002": {
+      "title": "辽代鎏金银冠与面具",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-PR-0002.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-PR-0002.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "98c669a5d73ded918c5154b27c96b31e0f8b6001929dd8879b98f83b8d84a752"
     }
   }
 }
