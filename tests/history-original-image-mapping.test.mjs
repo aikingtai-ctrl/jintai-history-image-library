@@ -43,8 +43,14 @@ for (const id of [
   'HL-XIA-CO-0077', 'HL-XIA-CO-0080',
   'HL-XIA-CO-0081', 'HL-XIA-CO-0082', 'HL-XIA-CO-0083',
   'HL-XIA-CO-0084', 'HL-XIA-CO-0086',
+  'HL-XIA-CO-0088', 'HL-XIA-CO-0089', 'HL-XIA-CO-0090',
+  'HL-XIA-CO-0093', 'HL-XIA-CO-0095', 'HL-XIA-CO-0096',
 ]) {
   assert.ok(gpt[id] && gpt[id].height > gpt[id].width, `portrait original: ${id}`);
+}
+for (const id of ['HL-XIA-FA-0020', 'HL-XIA-FA-0021', 'HL-XIA-FA-0024', 'HL-XIA-FA-0025']) {
+  assert.equal(gpt[id]?.width, 1312, 'near-square original width: ' + id);
+  assert.equal(gpt[id]?.height, 1199, 'near-square original height: ' + id);
 }
 assert.ok(originals['HF-20261015-0101'] && gpt['HF-20261015-0101']);
 const gptAndJpg = 'HF-20261015-0101';
@@ -112,6 +118,9 @@ for (const [file, dataFile] of [
   const fullBody = gpt['HL-XIA-CO-0006'];
   assert.equal(imageQualityLabel(fullBody.width, fullBody.height, fullBody), 'GPT Image PNG');
   assert.equal(imageQualityLabel(480, 720, fullBody), 'GPT Image 预览');
+  const nearSquare = gpt['HL-XIA-FA-0020'];
+  assert.equal(imageQualityLabel(nearSquare.width, nearSquare.height, nearSquare), 'GPT Image PNG');
+  assert.equal(imageQualityLabel(720, 658, nearSquare), 'GPT Image 预览');
   const gptCode = html.match(/^function gpt\(r\)\{[^\n]+/m)?.[0];
   const previewSrcCode = html.match(/^function previewSrc\(r\)\{[^\n]+/m)?.[0];
   assert.ok(gptCode && previewSrcCode, file);
