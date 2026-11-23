@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "87-2d0b9f447d44",
+  "revision": "88-3494e5027f45",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -699,6 +699,14 @@
       "width": 1536,
       "height": 1024,
       "sha256": "2d0b9f447d448ef0bfd450b90ebab1998afde1e2e675b6b0e52b596835fe1f3a"
+    },
+    "HL-NSONG-AR-0001": {
+      "title": "南宋临安园林",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-AR-0001.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-AR-0001.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "3494e5027f4554c0987c8a3fe545daeb8e2e1a84dc11022b7af5169e7e7479fb"
     }
   }
 }
