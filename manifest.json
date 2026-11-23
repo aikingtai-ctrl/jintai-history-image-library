@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "179-c575be0eabd0",
+  "revision": "194-c02dde8a2142",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -1435,6 +1435,126 @@
       "width": 1536,
       "height": 1024,
       "sha256": "c575be0eabd0b1f20fb8a5dbab7d613ff5b4b9af3e6b6dc76406ff2fd353f23a"
+    },
+    "HL-BSONG-SC-0022": {
+      "title": "北宋·道路停歇",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0022.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0022.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a09b1a086b55dfc4908a8a940f46ce196aa7f463b15377bb334b952c682e06b0"
+    },
+    "HL-NSONG-SC-0015": {
+      "title": "南宋·旅舍入住",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0015.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0015.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "260fcc5aae0231582a5964477a5f096941f6514dc60708985e80ad2d9f0ddd50"
+    },
+    "HL-BSONG-SC-0023": {
+      "title": "北宋·渡口候船",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0023.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0023.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "10650bf277322042ff505363d04fb7c1d4b75f7b85c8ee1a5d5f54290f608b05"
+    },
+    "HL-NSONG-SC-0016": {
+      "title": "南宋·船舱行旅",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0016.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0016.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c68117961a0effa441af7417247915fc4ba5262efa5ec8fb1e992eaee73eba48"
+    },
+    "HL-BSONG-SC-0024": {
+      "title": "北宋·文书工作间",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0024.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0024.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ce88f53c8d4eb407401c9911c07ed72d3385b293d761ac19099e802211d857fc"
+    },
+    "HL-NSONG-SC-0017": {
+      "title": "南宋·贵族书房",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0017.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0017.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c0985eb27b1bc88e9e94fa1d83ee38020bd76cd087a3a5b998ed867090c58a2e"
+    },
+    "HL-NSONG-SC-0019": {
+      "title": "南宋·战前集结",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0019.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0019.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8ce685641fec3a438e2893c99972ad1c7a0707e80a106f636beb1be73ca705b6"
+    },
+    "HL-BSONG-SC-0025": {
+      "title": "北宋·学舍自习",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0025.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0025.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "101580d5087c969d53ae44eda73d5c913cbceb37940e08bdc1124310c29b3c60"
+    },
+    "HL-NSONG-SC-0020": {
+      "title": "南宋·书院讲习",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0020.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0020.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8130f44f55f1c097e27d38c60c14c4323134d0db76a18909a784e66478b4adde"
+    },
+    "HL-NSONG-SC-0021": {
+      "title": "南宋·刻书校对",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0021.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0021.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "cfe6fc419898952d3e514687091eb98858b5ccf6fa5beef3dad274c2738866cd"
+    },
+    "HL-BSONG-SC-0026": {
+      "title": "北宋·问诊室内",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0026.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0026.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "64200605f9467cafbc4e9314fd4ab0e0232f4fdf5d1b1fbaad3e240f27102c05"
+    },
+    "HL-NSONG-SC-0022": {
+      "title": "南宋·道观庭院",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0022.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0022.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "012af1bb65cf058ee1b6f234fa325341d795811786058b03d28fd6f572fcb918"
+    },
+    "HL-BSONG-SC-0027": {
+      "title": "北宋·婚礼迎接",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0027.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0027.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7b4426c3eadf18bf43ed38874fb1c834ad0a2c08bf04e841c0bced9e4a8597b3"
+    },
+    "HL-BSONG-SC-0028": {
+      "title": "北宋·节日街巷",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0028.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0028.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d09249eb5a912afbabfde26bcc976a6883f3924c696f5e9523b1c079f7b84415"
+    },
+    "HL-NSONG-SC-0023": {
+      "title": "南宋·说唱书场",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0023.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0023.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c02dde8a2142e813cca963d66164e67de585b466ae3f177a14384eee59445cfe"
     }
   }
 }
