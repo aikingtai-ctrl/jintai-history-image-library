@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-23T20:05:47.891507+00:00",
+  "snapshot_time_utc": "2026-11-23T20:12:18.700054+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -20352,6 +20352,20 @@
       "file": "film-ai/decks/film-src-48ebdb1bc6832343.webp",
       "sha256": "e5e67949e84a945ab4d268723c748475f54bcf69a7aca892b2f56a4722c3c1f0",
       "bytes": 474838,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-b055402fbc3a1580",
+      "wid": "src-b055402fbc3a1580",
+      "title": "Charulata",
+      "file": "film-ai/decks/film-src-b055402fbc3a1580.webp",
+      "sha256": "ee47fa39480b4cea39509d723501f59beaf5add3810da6bb2ad6052cd66de8d8",
+      "bytes": 225900,
       "size": [
         1672,
         941
