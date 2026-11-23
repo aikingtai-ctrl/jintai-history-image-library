@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "314-1a7707cfc5c6",
+  "revision": "346-dbf5517613fd",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -2515,6 +2515,262 @@
       "width": 1024,
       "height": 1536,
       "sha256": "1a7707cfc5c6deca5ef24f14c0f826a8d6bff0b66490636c49927d43a9b6ff6f"
+    },
+    "HL-XIXIA-CO-0017": {
+      "title": "西夏山地步兵步跋子",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0017.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0017.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "eb6e435ac9db1596a6d0d1bbb868c9f65e423ea7192033103a6db3668509c261"
+    },
+    "HL-XIXIA-CO-0018": {
+      "title": "西夏汉人文官",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0018.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0018.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "9f1862d292fa817f10881039fba2d0ed9d6adeb5bbfa6f7e0801c66ee4657583"
+    },
+    "HL-XIXIA-CO-0019": {
+      "title": "西夏帝师国师",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0019.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0019.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "2f4bd6f2376581dfba30a497e88e1fd55b59bd2f2a8da2c29fab2d1acb543635"
+    },
+    "HL-XIXIA-CO-0020": {
+      "title": "西夏比丘尼",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0020.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0020.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "4e8961a89232e8e7f33299e36892c1687002bbd2b9e0bca6676ec80418ae6ab4"
+    },
+    "HL-XIXIA-CO-0021": {
+      "title": "西夏灌区农夫",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0021.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0021.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "e10f02d117f08c9309483da5f37ee3b2d3349edd5b33362cdec08c57ae5faf46"
+    },
+    "HL-XIXIA-CO-0022": {
+      "title": "西夏织毛妇女",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0022.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0022.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "83509dd08271841d017c30888c71b8a4ed39ac18c025e3f43ea795de6e7d2126"
+    },
+    "HL-XIXIA-CO-0023": {
+      "title": "西夏乐工",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0023.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0023.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "f61af3b63962a87a53f973e56dbe4304e6f0c803cf0a68717229efef152dd646"
+    },
+    "HL-XIXIA-CO-0024": {
+      "title": "西夏舞伎",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0024.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0024.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "51cc05be5ed0f12b6a6f617a71ddb6eb4a16b12667a4e9815a66a10aeee5ecd1"
+    },
+    "HL-XIXIA-CO-0025": {
+      "title": "西夏驿使",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0025.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0025.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "df6a5c0e33bf554dfea6062d1aa5c8ecae2e72e3ca14290891d9ec67d8e5f531"
+    },
+    "HL-XIXIA-CO-0026": {
+      "title": "西夏党项老人",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0026.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0026.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "6af764640a7237c7ccf866016a2acd4243da889c848b1a7ba12e0ea452fd556d"
+    },
+    "HL-XIXIA-CO-0027": {
+      "title": "西夏党项女童",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0027.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0027.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "34568a1b520880ebbd40102c29cc99b4be47af4ee41a57a7c5cc07f37fbbb6e5"
+    },
+    "HL-XIXIA-CO-0028": {
+      "title": "西夏贺兰山猎户",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0028.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0028.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "5943fe99d4b62ce3ed3c21fcad7cb4d1cad68b0ab4c81c6c4754c3c65fe6a126"
+    },
+    "HL-XIXIA-CO-0029": {
+      "title": "西夏医者",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0029.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0029.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "7d03d719e09a69e77ab66a9de389cef09e76c0f1ed4ad68c7741ad42cdcbc0bc"
+    },
+    "HL-XIXIA-AC-0004": {
+      "title": "西夏党项男子毡冠",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-AC-0004.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-AC-0004.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "2f07ded2807d5d25d999256b78f1a3154e7f0c3773d3dadedcf6af7077544b4c"
+    },
+    "HL-XIXIA-AC-0005": {
+      "title": "西夏党项女子耳饰与项链",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-AC-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-AC-0005.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "7958369d578ec785fdd61a96bcf55651bb511705d93258b30220052cb5bdecac"
+    },
+    "HL-XIXIA-AC-0006": {
+      "title": "西夏僧人红帽",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-AC-0006.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-AC-0006.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "7fd79d34383cb6d81dc4a969081add7c76f30d1fccbe0afb5a79b8aa876a9c7e"
+    },
+    "HL-XIXIA-FA-0005": {
+      "title": "西夏党项武士容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0005.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "bff0bc7d19d41d1486531894948de188aa584c97a4828640c081709917397b69"
+    },
+    "HL-XIXIA-FA-0006": {
+      "title": "西夏党项老人容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0006.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0006.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "c76de6954e44343a7b3c2e10f513e97e5775a3f7498da57ba4fe847176b68246"
+    },
+    "HL-XIXIA-SC-0010": {
+      "title": "西夏皇宫朝会",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0010.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0010.png",
+      "width": 1678,
+      "height": 937,
+      "sha256": "fac77301c81b5c2169bb51af4426333c373fd8bd8bf933c4e638e88235c918ed"
+    },
+    "HL-XIXIA-SC-0011": {
+      "title": "西夏番学考试",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0011.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0011.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f11f892ce048611c38ec06dd86016f1c344756755b85f8eb9fb18791219efe63"
+    },
+    "HL-XIXIA-SC-0012": {
+      "title": "西夏党项婚礼",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0012.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0012.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c94631bfecce0cb42fd4df8ea9c57597c9eee78ec233a9057713079f3f1b3263"
+    },
+    "HL-XIXIA-SC-0013": {
+      "title": "西夏党项贵族葬礼",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0013.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0013.png",
+      "width": 1671,
+      "height": 941,
+      "sha256": "0addb24c4e9493d27f735c5605d7aa6b4303f3586e49c55872f98333362571c0"
+    },
+    "HL-XIXIA-SC-0014": {
+      "title": "西夏毛织作坊",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0014.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0014.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d75dd719599fce169b7a22c25a4047e4a30a4e7b81cf4f54e40ebe430087a471"
+    },
+    "HL-XIXIA-SC-0015": {
+      "title": "西夏青盐盐池",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0015.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0015.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "097cc6ff577124e6c6839906c21771551c5db5f99a601a61713f6d18312775df"
+    },
+    "HL-XIXIA-SC-0016": {
+      "title": "西夏宋夏边境马市",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0016.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0016.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4670625e5f161db3477171ad383d0c5f392165f3739a5257e99886fbca03bd46"
+    },
+    "HL-XIXIA-SC-0017": {
+      "title": "西夏榆林窟绘壁画",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0017.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0017.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "964c376bce7b4243d9c881d8ab3e8a23881eb42bffd43e7f2773e592f50e676c"
+    },
+    "HL-XIXIA-SC-0018": {
+      "title": "西夏贺兰山围猎",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0018.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0018.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "57c94e9e84da38b18ca5717d63dd0a522a764a62d2a129d25b9c6c5e45fd47fd"
+    },
+    "HL-XIXIA-SC-0019": {
+      "title": "西夏正月节庆",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0019.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0019.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "71806f3e47a4d24be6f65add1ae59bd6ceb167e3910d54c3255c63b77e3afbda"
+    },
+    "HL-XIXIA-SC-0020": {
+      "title": "西夏边境戍堡",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0020.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0020.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a567f600f21684a171e0eb5c25e8a3d68a0c19ffe38b8472790e2c02330448c4"
+    },
+    "HL-XIXIA-PR-0004": {
+      "title": "西夏文与汉文钱币",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-PR-0004.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-PR-0004.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "a5b19f18cb6cdc7c7f204c09f0e3b552bd537dc6cdd744f1b6b7adc701baafdf"
+    },
+    "HL-XIXIA-PR-0005": {
+      "title": "西夏剑与甲片",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-PR-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-PR-0005.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "6c7008b22fcdba4bf3aa0d4016f9ecef630fa9f7bbfbba03e989cdc3d8142413"
+    },
+    "HL-XIXIA-PR-0006": {
+      "title": "西夏绢本唐卡",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-PR-0006.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-PR-0006.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "dbf5517613fd707b7cab5de159f03e19d99493f46ef4a40ecf9a5fe1feeaa119"
     }
   }
 }
