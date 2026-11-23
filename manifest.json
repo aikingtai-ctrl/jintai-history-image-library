@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "114-42e853a1fc98",
+  "revision": "115-10d1d9353534",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -915,6 +915,14 @@
       "width": 1671,
       "height": 941,
       "sha256": "42e853a1fc98773123c58a57388ae30e1c01c69123ea89a71e47c0a019e4694a"
+    },
+    "HL-NSONG-CO-0008": {
+      "title": "南宋前期抗金将士",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-CO-0008.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-CO-0008.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "10d1d9353534212b79402876c803c7ef214c27089b7396e4bd4ab423abea129e"
     }
   }
 }
