@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "77-bc355b991d7b",
+  "revision": "78-3a73b5081070",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -619,6 +619,14 @@
       "width": 1536,
       "height": 1024,
       "sha256": "bc355b991d7b69c9a8d881ca0cfce25632878df3dbb3e229dab66c972d03fbd9"
+    },
+    "HL-BSONG-PR-0008": {
+      "title": "北宋太平车与串车",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-PR-0008.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-PR-0008.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "3a73b5081070a69e4710cae53063e2289b6385de62d4960bb0f0404a229f6461"
     }
   }
 }
