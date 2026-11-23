@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "5-36480599ee8f",
+  "revision": "6-70257b513fc0",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -43,6 +43,14 @@
       "width": 1254,
       "height": 1254,
       "sha256": "36480599ee8f9acb92dfc5c845fdd4b123f4066ea677d9951603bba6a42c7de1"
+    },
+    "HF-20261015-0065": {
+      "title": "【历史名人】范仲淹（北宋·北宋参知政事、陕西经略安抚招讨副使、文正公）",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HF-20261015-0065.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HF-20261015-0065.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "70257b513fc0af705744e1ef290d00def28260645c0b4caab728c0a4d5816cd7"
     }
   }
 }
