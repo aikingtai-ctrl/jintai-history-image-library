@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "101-282604944fac",
+  "revision": "102-e6bb6de6af5b",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -811,6 +811,14 @@
       "width": 1774,
       "height": 887,
       "sha256": "282604944fac5ed144c4251c9d62c689146a64f57ddf7808d0119c702769014f"
+    },
+    "HL-XIXIA-LS-0001": {
+      "title": "西夏贺兰山与兴庆府",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-LS-0001.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-LS-0001.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "e6bb6de6af5b8eacd1f6206670a1ca8dfa0ee4d71ae48b96f04ee03f622f692c"
     }
   }
 }
