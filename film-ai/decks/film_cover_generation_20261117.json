@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-23T20:12:18.700054+00:00",
+  "snapshot_time_utc": "2026-11-23T20:20:57.820960+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -20366,6 +20366,20 @@
       "file": "film-ai/decks/film-src-b055402fbc3a1580.webp",
       "sha256": "ee47fa39480b4cea39509d723501f59beaf5add3810da6bb2ad6052cd66de8d8",
       "bytes": 225900,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-8e6fbdcd65e72c06",
+      "wid": "src-8e6fbdcd65e72c06",
+      "title": "The Naked Kiss",
+      "file": "film-ai/decks/film-src-8e6fbdcd65e72c06.webp",
+      "sha256": "0f6448604ba6af38143fa97cf398fb3605971f79945d3112ebe20369646efe82",
+      "bytes": 232460,
       "size": [
         1672,
         941
