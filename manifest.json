@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "57-fdbb94e95899",
+  "revision": "58-6e27f25d1781",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -459,6 +459,14 @@
       "width": 1024,
       "height": 1536,
       "sha256": "fdbb94e95899f63b0b3da07d7c73bc008bef6887de111ded6cf859ee520636fe"
+    },
+    "HL-LIAO-CO-0004": {
+      "title": "辽代契丹牧民",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0004.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0004.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "6e27f25d1781407d8970fefe843c8f876bca3c71b4e7fc72bfe2d8444d80a27c"
     }
   }
 }
