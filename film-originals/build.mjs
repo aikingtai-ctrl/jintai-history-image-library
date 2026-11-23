@@ -5,7 +5,7 @@ import { execFileSync } from 'node:child_process';
 const root = new URL('../', import.meta.url);
 const target = 20000;
 const read = file => fs.readFileSync(new URL(file, root), 'utf8');
-const first = JSON.parse(read('film-originals/data.json')).images.slice(0, 1000);
+const first = JSON.parse(read('film-originals/data.json')).images;
 const extra = JSON.parse(read('film-originals/png-assets.json')).assets;
 const context = { window: {} };
 vm.runInNewContext(read('film-ai/manifest.js'), context);
@@ -22,12 +22,27 @@ const raw = `https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-ima
 const used = new Set(first.map(row => row.wid));
 const attached = new Set();
 for (const row of first) {
-  if (!row.png?.url || !row.thumbnail || !byWid.has(row.wid)) throw new Error(`Invalid existing original: ${row.wid}`);
+  if (!row.thumbnail || !byWid.has(row.wid)) throw new Error(`Invalid existing work: ${row.wid}`);
   const work = byWid.get(row.wid);
+  const asset = extra[row.wid];
+  if (asset) {
+    if (!/^https:\/\/raw\.githubusercontent\.com\/aikingtai-ctrl\/jintai-history-image-library\/[0-9a-f]{40}\/originals\/part-\d+\/[A-Za-z0-9_-]+-[0-9a-f]{12}\.png$/.test(asset.url) && !/^https:\/\/github\.com\/aikingtai-ctrl\/jintai-history-image-library\/releases\/download\/[A-Za-z0-9._-]+\/[A-Za-z0-9_-]+-[0-9a-f]{12}\.png$/.test(asset.url)) throw new Error(`Unexpected original URL: ${row.wid}`);
+    if (asset.thumbnail && !/^https:\/\/raw\.githubusercontent\.com\/aikingtai-ctrl\/jintai-history-image-library\/[0-9a-f]{40}\/thumbnails\/part-\d+\/[A-Za-z0-9_-]+-[0-9a-f]{12}\.jpg$/.test(asset.thumbnail)) throw new Error(`Unexpected thumbnail URL: ${row.wid}`);
+    row.scene = asset.scene || null;
+    row.prompt = asset.prompt || null;
+    row.thumbnail = asset.thumbnail || (row.ordinal > 1000 ? raw + images[row.wid] : row.thumbnail);
+    row.png = { url: asset.url, filename: asset.filename, width: asset.width, height: asset.height, bytes: asset.bytes, sha256: asset.sha256 };
+    attached.add(row.wid);
+  } else if (row.ordinal > 1000) {
+    const image = images[row.wid];
+    if (!image || !tracked.has(image)) throw new Error(`Missing reference image: ${row.wid}`);
+    row.thumbnail = raw + image;
+  }
   row.alternateTitle = work.te && work.te !== row.title ? work.te : '';
 }
 const additions = [];
 for (const work of works) {
+  if (first.length + additions.length === target) break;
   const image = images[work.wid];
   if (used.has(work.wid) || !image || !tracked.has(image)) continue;
   if (!/^film-ai\/[a-zA-Z0-9_./-]+\.(?:jpe?g|webp|png)$/i.test(image)) throw new Error(`Unexpected image path: ${image}`);
