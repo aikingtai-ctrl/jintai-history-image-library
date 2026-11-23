@@ -123,7 +123,7 @@ dialog::backdrop{background:#000c}
    <a class="back-link" href="portal.html">总入口</a>
    <span class="sep">·</span>
    <strong>影视提示词与来源目录</strong>
-   <span class="kpi" id="topKpi"><b>62,000</b> 部 · <b>3,323,966</b> 镜</span>
+   <span class="kpi" id="topKpi"><b>63,000</b> 部 · <b>3,384,279</b> 镜</span>
   </div>
   <nav class="topnav">
    <a href="index.html">历史图库</a>
@@ -132,13 +132,13 @@ dialog::backdrop{background:#000c}
  </div>
  <div class="top-search-wrap">
   <div class="searchbar">
-   <input id="q" type="search" autofocus placeholder="搜片名（中/英）、导演、摄影师、340大风格流派、百花·华表·金爵·天坛·金像·东京·釜山·日本学院、欧洲·波兰鹰·捷克狮·马格利特·金牛犊·奥·瑞、CriticsChoice·NSFC·NYFCC·LAFCA·CFCA·BSFC·SFBAFCC、ASC·BSC·Camerimage·凯撒·大卫·戈雅·独立精神…" aria-label="搜索作品" autocomplete="off">
+   <input id="q" type="search" autofocus placeholder="搜片名（中/英）、导演、摄影师、350大风格流派、百花·华表·金爵·天坛·金像·东京·釜山·日本学院、欧洲·波兰鹰·捷克狮·马格利特·金牛犊·奥·瑞、CriticsChoice·NSFC·NYFCC·LAFCA·CFCA·BSFC·SFBAFCC、ASC·BSC·Camerimage·凯撒·大卫·戈雅·独立精神…" aria-label="搜索作品" autocomplete="off">
    <button type="button" class="qbtn on" id="qAll">全部</button>
    <button type="button" class="qbtn" id="cinematography">奥斯卡摄影</button>
    <button type="button" class="qbtn" id="cinematography-all">140大最佳摄影</button>
    <button type="button" class="qbtn" id="qTop250">豆瓣/IMDb 250</button>
    <button type="button" class="qbtn" id="qStudio">A24/NEON/CC</button>
-   <button type="button" class="qbtn" id="qStyle">340大风格派</button>
+   <button type="button" class="qbtn" id="qStyle">350大风格派</button>
    <button type="button" class="qbtn" id="qStream">五大流媒体</button>
    <button type="button" class="qbtn" id="qAnim">全球动画</button>
    <button type="button" class="qbtn" id="qAsia">亚洲/华语百大</button>
@@ -184,7 +184,7 @@ dialog::backdrop{background:#000c}
  <div class="grid" id="grid"></div>
  <div class="pager"><button id="first" type="button">首页</button><button id="prev" type="button">上一页</button><span class="page-nums" id="page-nums"></span><span id="page"></span><button id="next" type="button">下一页</button><button id="last" type="button">末页</button><label class="page-jump">页码 <select id="page-select" aria-label="选择页码"></select></label><span class="page-jump">跳至 <input id="page-input" type="number" min="1" value="1" aria-label="输入页码"> 页 <button id="page-go" type="button">跳转</button></span></div>
  <details class="meta-fold">
-  <summary>库况统计与数据说明（62,000部作品 · 3,323,966条镜头描述）</summary>
+  <summary>库况统计与数据说明（63,000部作品 · 3,384,279条镜头描述）</summary>
   <div class="stats" id="stats"></div>
   <p id="prompt-coverage"></p>
   <p id="workGoal"></p>
@@ -199,7 +199,7 @@ dialog::backdrop{background:#000c}
 </main>
 <dialog id="detail"><div class="dialog-head"><h2 id="dtitle"></h2><button id="close" type="button">关闭</button></div><p class="muted" id="dinfo"></p><p id="dsource"></p><p class="notice muted">点击“查看来源画面”到源站查看对应静帧。</p><div class="grid" id="frames"></div><div class="pager"><button id="fprev" type="button">上一页</button><span class="page-nums" id="fpage-nums"></span><span id="fpage"></span><button id="fnext" type="button">下一页</button><label class="page-jump">页码 <select id="fpage-select" aria-label="选择来源画面页码"></select></label></div></dialog>
 <dialog id="pdetail" aria-labelledby="ptitle"><div class="dialog-head"><h2 id="ptitle"></h2><button id="pclose" type="button">关闭</button></div><p class="muted" id="pinfo"></p><p id="pcopy-status" class="prompt-status muted" role="status" aria-live="polite"></p><div class="prompt-list" id="prompts"></div><div class="pager"><button id="pprev" type="button">上一页</button><span class="page-nums" id="ppage-nums"></span><span id="ppage"></span><button id="pnext" type="button">下一页</button><label class="page-jump">页码 <select id="ppage-select" aria-label="选择提示词页码"></select></label></div></dialog>
-<script src="d4/summary.js?v=122654e3f723"></script><script src="d4/catalogue.js?v=44126d09b839"></script>
+<script src="d4/summary.js?v=b9dbbde27a6c"></script><script src="d4/catalogue.js?v=796343a861c9"></script>
 <script>
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>{try{const p=new URL(u);return ['http:','https:'].includes(p.protocol)?p.href:'';}catch{return '';}};
@@ -275,7 +275,7 @@ function isCriticsSpiritWork(w){return awards(w).some(a=>['美国国家影评人
 function isAllGuildsWork(w){return awards(w).some(a=>['美国导演工会奖','美国制片人工会奖','美国演员工会奖','美国编剧工会奖','美国艺术指导工会奖','美国视觉效果协会奖','美国电影剪辑师工会奖','美国服装设计工会奖','美国电影摄影师协会奖','美国摄影机操作员协会奖','好莱坞化妆师与发型师工会奖','美国电影音响协会奖','美国音效剪辑师协会金卷轴奖','美国选角协会阿蒂奥斯奖'].includes(a.festival))||classics(w).some(c=>['好莱坞大师级美术指导（ADG）与视觉特效（VES）殿堂代表作典藏','好莱坞服装设计工会（CDG）与奥斯卡·BAFTA殿堂级视觉造型与特效代表作典藏','好莱坞十全工艺大满贯（SOC移动摄影 / MUAHS妆发造型 / 奥斯卡与BAFTA最佳妆发与剧作）视觉造型殿堂','好莱坞声音·配乐·选角工艺大满贯（CAS混音 / MPSE金卷轴音效 / CSA选角 / 奥斯卡与BAFTA最佳音响与配乐）视听通感殿堂'].includes(c.list));}
 function isGenreCultWork(w){return awards(w).some(a=>['雨果奖','美国土星奖','西班牙锡切斯国际奇幻电影节'].includes(a.festival))||classics(w).some(c=>c.list==='全球午夜邪典（Midnight Movies）与奇幻科幻视觉类型片殿堂');}
 function syncSrcFilterUI(){const cov=$('coverage').value,cg=$('cineGuild')?.value||'',fe=$('festival').value,aw=$('award').value,cl=$('classic').value,ge=$('genre').value,re=$('region').value,de=$('decade').value,ty=$('type').value;
- const isTop250Quick=(cov==='top250-consensus'),isStudioQuick=(cov==='vanguard-cc'),isStyleQuick=(cov==='stylized-canon'||cl==='风格派电影三百四十大视觉流派典藏'||cl==='风格派电影三百三十大视觉流派典藏'||cl==='风格派电影三百二十大视觉流派典藏'||cl==='风格派电影三百一十大视觉流派典藏'||cl==='风格派电影三百大视觉流派典藏'||cl==='风格派电影二百九十大视觉流派典藏'||cl==='风格派电影二百八十大视觉流派典藏'||cl==='风格派电影二百七十大视觉流派典藏'||cl==='风格派电影二百六十大视觉流派典藏'||cl==='风格派电影二百五十大视觉流派典藏'||cl==='风格派电影二百四十大视觉流派典藏'||cl==='风格派电影二百三十大视觉流派典藏'||cl==='风格派电影二百二十大视觉流派典藏'||cl==='风格派电影二百一十大视觉流派典藏'||cl==='风格派电影二百大视觉流派典藏'||cl==='风格派电影百九十大视觉流派典藏'||cl==='风格派电影百八十大视觉流派典藏'||cl==='风格派电影百七十大视觉流派典藏'||cl==='风格派电影百六十大视觉流派典藏'||cl==='风格派电影百五十大视觉流派典藏'||cl==='风格派电影百四十大视觉流派典藏'||cl==='风格派电影百三十大视觉流派典藏'||cl==='风格派电影百二十大视觉流派典藏'||cl==='风格派电影百一十大视觉流派典藏'||cl==='风格派电影百大视觉流派典藏'||cl==='风格派电影九十大视觉流派典藏'||cl==='风格派电影八十大视觉流派典藏'||cl==='风格派电影七十大视觉流派典藏'||cl==='风格派电影六十大视觉流派典藏'||cl==='风格派电影五十大视觉流派典藏'||cl==='风格派电影四十大视觉流派典藏'||cl==='风格派电影三十大视觉流派典藏'||cl==='风格派电影二十大视觉流派典藏'),isEuroQuick=(cov==='euro-academies'),isGlobalAcadQuick=(cov==='global-academies'),isCriticsQuick=(cov==='critics-spirit'),isStreamQuick=(cov==='streaming-titans'),isAnimQuick=(cov==='animation-canon'),isAsiaQuick=(cov==='asia-chinese-canon'),isDocQuick=(cov==='doc-canon'),isGuildQuick=(cov==='all-guilds'),isCultQuick=(cov==='genre-cult'),isGGQuick=(fe==='金球奖'&&!aw),isRTQuick=(cov==='rotten-tomatoes-all'),isEmmyQuick=(cov==='emmy-prestige-tv'),isNFQuick=(cl==='Netflix奈飞近20年年度十佳影片全集（2007–2026）');
+ const isTop250Quick=(cov==='top250-consensus'),isStudioQuick=(cov==='vanguard-cc'),isStyleQuick=(cov==='stylized-canon'||cl==='风格派电影三百五十大视觉流派典藏'||cl==='风格派电影三百四十大视觉流派典藏'||cl==='风格派电影三百三十大视觉流派典藏'||cl==='风格派电影三百二十大视觉流派典藏'||cl==='风格派电影三百一十大视觉流派典藏'||cl==='风格派电影三百大视觉流派典藏'||cl==='风格派电影二百九十大视觉流派典藏'||cl==='风格派电影二百八十大视觉流派典藏'||cl==='风格派电影二百七十大视觉流派典藏'||cl==='风格派电影二百六十大视觉流派典藏'||cl==='风格派电影二百五十大视觉流派典藏'||cl==='风格派电影二百四十大视觉流派典藏'||cl==='风格派电影二百三十大视觉流派典藏'||cl==='风格派电影二百二十大视觉流派典藏'||cl==='风格派电影二百一十大视觉流派典藏'||cl==='风格派电影二百大视觉流派典藏'||cl==='风格派电影百九十大视觉流派典藏'||cl==='风格派电影百八十大视觉流派典藏'||cl==='风格派电影百七十大视觉流派典藏'||cl==='风格派电影百六十大视觉流派典藏'||cl==='风格派电影百五十大视觉流派典藏'||cl==='风格派电影百四十大视觉流派典藏'||cl==='风格派电影百三十大视觉流派典藏'||cl==='风格派电影百二十大视觉流派典藏'||cl==='风格派电影百一十大视觉流派典藏'||cl==='风格派电影百大视觉流派典藏'||cl==='风格派电影九十大视觉流派典藏'||cl==='风格派电影八十大视觉流派典藏'||cl==='风格派电影七十大视觉流派典藏'||cl==='风格派电影六十大视觉流派典藏'||cl==='风格派电影五十大视觉流派典藏'||cl==='风格派电影四十大视觉流派典藏'||cl==='风格派电影三十大视觉流派典藏'||cl==='风格派电影二十大视觉流派典藏'),isEuroQuick=(cov==='euro-academies'),isGlobalAcadQuick=(cov==='global-academies'),isCriticsQuick=(cov==='critics-spirit'),isStreamQuick=(cov==='streaming-titans'),isAnimQuick=(cov==='animation-canon'),isAsiaQuick=(cov==='asia-chinese-canon'),isDocQuick=(cov==='doc-canon'),isGuildQuick=(cov==='all-guilds'),isCultQuick=(cov==='genre-cult'),isGGQuick=(fe==='金球奖'&&!aw),isRTQuick=(cov==='rotten-tomatoes-all'),isEmmyQuick=(cov==='emmy-prestige-tv'),isNFQuick=(cl==='Netflix奈飞近20年年度十佳影片全集（2007–2026）');
  const quickCovs=['oscar-cinematography','oscar-cinematography-all','rotten-tomatoes-all','top250-consensus','vanguard-cc','emmy-prestige-tv','stylized-canon','streaming-titans','animation-canon','asia-chinese-canon','doc-canon','euro-academies','global-academies','critics-spirit','all-guilds','genre-cult'];
  const extraCnt=[cov&&!quickCovs.includes(cov)?cov:'',ty,cg,fe&&!isGGQuick?fe:'',aw,cl&&!isStyleQuick&&!isNFQuick?cl:'',ge,re,de].filter(Boolean).length;
  if($('nSrcFilter'))$('nSrcFilter').textContent=extraCnt?' '+extraCnt:'';
@@ -305,7 +305,7 @@ function syncSrcFilterUI(){const cov=$('coverage').value,cg=$('cineGuild')?.valu
  else if(cov==='oscar-cinematography-all')pills.push('<span class="pill q">140大最佳摄影<button type="button" data-clear="coverage">×</button></span>');
  else if(cov==='top250-consensus')pills.push('<span class="pill q">豆瓣 / IMDb / Letterboxd Top 250 与 Metacritic 必看<button type="button" data-clear="coverage">×</button></span>');
  else if(cov==='vanguard-cc')pills.push('<span class="pill q">A24 / NEON 先锋厂牌与 CC 标准收藏殿堂<button type="button" data-clear="coverage">×</button></span>');
- else if(cov==='stylized-canon')pills.push('<span class="pill q">风格派电影三百四十大视觉流派典藏<button type="button" data-clear="coverage">×</button></span>');
+ else if(cov==='stylized-canon')pills.push('<span class="pill q">风格派电影三百五十大视觉流派典藏<button type="button" data-clear="coverage">×</button></span>');
  else if(cov==='global-academies')pills.push('<span class="pill q">全球五大洲国家级最高电影学院奖（澳洲AACTA·加拿大银幕奖·墨西哥阿里尔奖·北欧金甲虫与博迪尔·波兰鹰奖·捷克狮奖）<button type="button" data-clear="coverage">×</button></span>');
  else if(cov==='euro-academies')pills.push('<span class="pill q">欧洲五大电影学院奖与欧洲电影奖最高殿堂（凯撒·大卫·戈雅·萝拉·BIFA·EFA）<button type="button" data-clear="coverage">×</button></span>');
  else if(cov==='critics-spirit')pills.push('<span class="pill q">北美五大权威影评人协会与美国独立精神奖·哥谭奖最高荣誉<button type="button" data-clear="coverage">×</button></span>');
@@ -403,7 +403,7 @@ function initSourcesUI(preserveState){
  if($('cineGuild'))options('cineGuild',WORKS.flatMap(cineSystems),'全部摄影权威体系（140大）');options('festival',WORKS.flatMap(w=>awards(w).map(a=>a.festival)),'全部电影节／大奖');awardOptions();options('classic',WORKS.flatMap(w=>classics(w).map(c=>c.list)),'全部经典榜单');options('genre',WORKS.flatMap(genres),'全部叙事类型');options('region',WORKS.flatMap(regions),'全部地区');options('decade',WORKS.map(decade),'全部年代',v=>v==='待补'?'上映年待补':v+' 年代');if(preserveState!==true){$('sort').value='prompts';if(new URLSearchParams(window.location?.search||'').get('prompts')==='1')$('coverage').value='prompts';}browse();filter(preserveState===true);if(preserveState!==true&&new URLSearchParams(window.location?.search||'').get('cinematography')==='all')$('cinematography-all').onclick();
 }
 async function ensureCatalogueLoaded(onFirstShard){
- if(!S)S=await loadD4Script('summary.js?v=122654e3f723',()=>{if(!window.FILM_SOURCE_SUMMARY)throw new Error('bad');return window.FILM_SOURCE_SUMMARY;},'summary');
+ if(!S)S=await loadD4Script('summary.js?v=b9dbbde27a6c',()=>{if(!window.FILM_SOURCE_SUMMARY)throw new Error('bad');return window.FILM_SOURCE_SUMMARY;},'summary');
  if(Array.isArray(window.FILM_SOURCE_WORKS)&&window.FILM_SOURCE_WORKS.length&&(!window.FILM_CATALOGUE_MANIFEST||window.FILM_SOURCE_WORKS.length>=window.FILM_CATALOGUE_MANIFEST.total_works)){WORKS=window.FILM_SOURCE_WORKS;return false;}
  if(!window.FILM_CATALOGUE_MANIFEST){
   await loadD4Script('catalogue.js?v=f7906591396c',()=>{if(!window.FILM_CATALOGUE_MANIFEST&&!(Array.isArray(window.FILM_SOURCE_WORKS)&&window.FILM_SOURCE_WORKS.length))throw new Error('bad');return true;},'catalogue');
