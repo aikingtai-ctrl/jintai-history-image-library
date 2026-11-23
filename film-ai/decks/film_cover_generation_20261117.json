@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-23T18:43:29.438437+00:00",
+  "snapshot_time_utc": "2026-11-23T19:04:44.728714+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -20254,6 +20254,20 @@
       "file": "film-ai/decks/film-src-4ea93a6c1fa11ab0.webp",
       "sha256": "4cc83e03c70fc6d6f592076f6e6c55aaba27504d1cd6b6e1faec4e709e7f5943",
       "bytes": 372206,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-16454c0883d4ca44",
+      "wid": "src-16454c0883d4ca44",
+      "title": "Ikarie XB 1",
+      "file": "film-ai/decks/film-src-16454c0883d4ca44.webp",
+      "sha256": "a2d4dec2a49fa2f637376c7c35ac6676b30325da2c4b85a128346060f43a9380",
+      "bytes": 257654,
       "size": [
         1672,
         941
