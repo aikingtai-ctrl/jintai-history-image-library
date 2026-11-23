@@ -21,6 +21,9 @@ for (const item of Object.values(gpt)) {
   assert.ok(item.preview.includes('/gpt-image-previews/'));
 }
 assert.ok(originals['HF-20261015-0101'] && gpt['HF-20261015-0101']);
+const gptAndJpg = 'HF-20261015-0101';
+const jpgOnly = ids.find(id => !gpt[id]);
+assert.ok(jpgOnly, 'Need a saved JPEG without an accepted GPT Image');
 
 const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 assert.doesNotMatch(index, /JINTAI_REGENERATED_IMAGES|regenerated-manifest\.js/);
@@ -28,15 +31,28 @@ const histPreviewCode = index.match(/^function histPreview\(id\)\{[^\n]+/m)?.[0]
 assert.ok(histPreviewCode);
 const histPreview = vm.runInNewContext(`${histPreviewCode}; histPreview`, { window: manifest });
 for (const id of [...ids, 'HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) {
-  assert.equal(histPreview(id), originals[id] || gpt[id]?.preview, `homepage: ${id}`);
+  assert.equal(histPreview(id), gpt[id]?.preview || originals[id], `homepage: ${id}`);
 }
 const histThumbCode = index.match(/^function histThumb\(id\)\{[^\n]+/m)?.[0];
 assert.ok(histThumbCode);
 const histThumb = vm.runInNewContext(`${histPreviewCode}; ${histThumbCode}; histThumb`, { window: manifest });
 for (const id of [...ids, 'HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) {
-  assert.equal(histThumb(id), originals[id] || gpt[id]?.preview, `homepage thumb: ${id}`);
+  assert.equal(histThumb(id), gpt[id]?.preview || originals[id], `homepage thumb: ${id}`);
 }
-assert.match(index, /const gpt=window\.JINTAI_AI_IMAGES\?\.\[r\.id\]\?null:window\.JINTAI_GPT_IMAGES\?\.\[r\.id\]/);
+const lightboxSelect = index.match(/^\s*const gpt=window\.JINTAI_GPT_IMAGES\?\.\[r\.id\];/m)?.[0];
+assert.ok(lightboxSelect, 'Homepage lightbox must select accepted GPT Image');
+const lightboxGpt = vm.runInNewContext(`(r)=>{${lightboxSelect}return gpt;}`, { window: manifest });
+assert.equal(lightboxGpt({ id: gptAndJpg }), gpt[gptAndJpg]);
+assert.equal(lightboxGpt({ id: jpgOnly }), undefined);
+const originalCode = index.match(/^async function historyOriginalUrl\(info\)\{[\s\S]*?^\}/m)?.[0];
+assert.ok(originalCode, 'Homepage original PNG route missing');
+const originalUrl = vm.runInNewContext(`${originalCode};historyOriginalUrl`, {
+  historyGalleryBase: () => Promise.resolve('https://test.trycloudflare.com'), encodeURIComponent,
+});
+assert.equal(await originalUrl(lightboxGpt({ id: gptAndJpg })),
+  `https://test.trycloudflare.com/original-pngs/${gpt[gptAndJpg].original_dir}/${gpt[gptAndJpg].filename}`);
+assert.match(index, /download\.href=url\+'\?download=1'/);
+assert.match(index, /saved\.hidden=!\(gpt&&window\.JINTAI_AI_IMAGES\?\.\[r\.id\]\)/);
 
 const checkedIds = new Set();
 for (const [file, dataFile] of [
@@ -52,15 +68,32 @@ for (const [file, dataFile] of [
   const gptCode = html.match(/^function gpt\(r\)\{[^\n]+/m)?.[0];
   const previewSrcCode = html.match(/^function previewSrc\(r\)\{[^\n]+/m)?.[0];
   assert.ok(gptCode && previewSrcCode, file);
+  const selectGpt = vm.runInNewContext(`${gptCode};gpt`, { window: manifest });
+  assert.equal(selectGpt({ id: gptAndJpg }), gpt[gptAndJpg], `${file}: GPT with saved JPG`);
+  assert.equal(selectGpt({ id: jpgOnly }), undefined, `${file}: saved JPG without GPT`);
   const previewSrc = vm.runInNewContext(`${gptCode}; ${previewSrcCode}; previewSrc`, {
     window: manifest,
     histImgSrc: p => `https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/${p}`,
   });
   for (const row of data.HISTORY_BATCH.filter(row => row.status === 'done' || gpt[row.id])) {
     if (row.status === 'done') assert.equal(row.original, row.thumbnail, `${file}: stored original ${row.id}`);
-    assert.equal(previewSrc(row), originals[row.id] || gpt[row.id]?.preview, `${file}: ${row.id}`);
+    assert.equal(previewSrc(row), gpt[row.id]?.preview || originals[row.id], `${file}: ${row.id}`);
     checkedIds.add(row.id);
   }
+  assert.equal(previewSrc({ id: gptAndJpg, thumbnail: `history-ai/thumbnails/000001-HF-20261015-0101.jpg` }),
+    gpt[gptAndJpg].preview, `${file}: accepted GPT preview takes priority`);
+  assert.equal(previewSrc({ id: jpgOnly, thumbnail: originals[jpgOnly].split('/main/').at(-1) }),
+    originals[jpgOnly], `${file}: unaccepted entry keeps saved JPEG`);
+  const batchUrlCode = html.match(/^async function gptOriginalUrl\(info\)\{[\s\S]*?^\}/m)?.[0];
+  assert.ok(batchUrlCode, `${file}: original PNG route missing`);
+  const batchOriginalUrl = vm.runInNewContext(`${batchUrlCode};gptOriginalUrl`, {
+    location: { origin: 'https://test.trycloudflare.com', hostname: 'test.trycloudflare.com', port: '' },
+    encodeURIComponent,
+  });
+  assert.equal(await batchOriginalUrl(selectGpt({ id: gptAndJpg })),
+    `https://test.trycloudflare.com/original-pngs/${gpt[gptAndJpg].original_dir}/${gpt[gptAndJpg].filename}`);
+  assert.match(html, /q\('downloadPng'\)\.href=url\+'\?download=1'/);
+  assert.match(html, /q\('savedJpg'\)\.hidden=!\(info&&oldJpg\)/);
 }
 assert.equal(checkedIds.size, 2000);
 console.log(`Verified ${ids.length} saved JPEGs and ${Object.keys(gpt).length} GPT Image PNGs across three pages.`);
