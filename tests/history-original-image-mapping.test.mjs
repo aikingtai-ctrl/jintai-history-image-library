@@ -20,6 +20,9 @@ for (const item of Object.values(gpt)) {
   assert.equal(item.original_dir, 'history_2000_gpt_image');
   assert.ok(item.preview.includes('/gpt-image-previews/'));
 }
+for (const id of ['JT-HF-XIANQIN-OFF-22003', 'HL-XIA-AC-0001', 'HL-XIA-AC-0002', 'HL-XIA-AC-0003']) {
+  assert.ok(gpt[id] && gpt[id].height > gpt[id].width, `portrait original: ${id}`);
+}
 assert.ok(originals['HF-20261015-0101'] && gpt['HF-20261015-0101']);
 const gptAndJpg = 'HF-20261015-0101';
 const jpgOnly = ids.find(id => !gpt[id]);
@@ -65,6 +68,7 @@ for (const [file, dataFile] of [
   vm.runInNewContext(fs.readFileSync(path.join(root, dataFile), 'utf8'), { window: data });
   assert.match(html, /gpt-image-manifest\.js/);
   assert.match(html, /download=1/);
+  assert.match(html, /\.stage #full\{[^}]*object-fit:contain/, `${file}: keep portrait aspect ratio`);
   const gptCode = html.match(/^function gpt\(r\)\{[^\n]+/m)?.[0];
   const previewSrcCode = html.match(/^function previewSrc\(r\)\{[^\n]+/m)?.[0];
   assert.ok(gptCode && previewSrcCode, file);
