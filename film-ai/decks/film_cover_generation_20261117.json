@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-23T13:14:50.573685+00:00",
+  "snapshot_time_utc": "2026-11-23T13:20:12.965429+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -19764,6 +19764,20 @@
       "file": "film-ai/decks/film-src-a113d1b0e88b77f3.webp",
       "sha256": "d39b2342ce7ba18e1471aff52131f8d4dee16198dd63f0ef85d7379781098ef0",
       "bytes": 627166,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-5610e1ec65bb44fa",
+      "wid": "src-5610e1ec65bb44fa",
+      "title": "Anatomy of a Murder",
+      "file": "film-ai/decks/film-src-5610e1ec65bb44fa.webp",
+      "sha256": "782cb4c45e3cddfc1b7590539c5b83e6a1d09ae8616ac46aafc634daffd0531b",
+      "bytes": 207344,
       "size": [
         1672,
         941
