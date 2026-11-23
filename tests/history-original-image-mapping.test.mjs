@@ -20,7 +20,14 @@ for (const item of Object.values(gpt)) {
   assert.equal(item.original_dir, 'history_2000_gpt_image');
   assert.ok(item.preview.includes('/gpt-image-previews/'));
 }
-for (const id of ['JT-HF-XIANQIN-OFF-22003', 'HL-XIA-AC-0001', 'HL-XIA-AC-0002', 'HL-XIA-AC-0003', 'HL-XIA-AC-0004', 'HL-XIA-AC-0005']) {
+for (const id of [
+  'JT-HF-XIANQIN-OFF-22003', 'HL-XIA-AC-0001', 'HL-XIA-AC-0002',
+  'HL-XIA-AC-0003', 'HL-XIA-AC-0004', 'HL-XIA-AC-0005',
+  'HL-XIA-AC-0011', 'HL-XIA-AC-0006', 'HL-XIA-AC-0008',
+  'HL-XIA-AC-0009', 'HL-XIA-AC-0010',
+  'HL-XIA-CO-0006', 'HL-XIA-CO-0007', 'HL-XIA-CO-0010',
+  'HL-XIA-CO-0011', 'HL-XIA-CO-0012',
+]) {
   assert.ok(gpt[id] && gpt[id].height > gpt[id].width, `portrait original: ${id}`);
 }
 assert.ok(originals['HF-20261015-0101'] && gpt['HF-20261015-0101']);
@@ -86,6 +93,9 @@ for (const [file, dataFile] of [
   const portrait = gpt['HL-XIA-AC-0001'];
   assert.equal(imageQualityLabel(portrait.width, portrait.height, portrait), 'GPT Image PNG');
   assert.equal(imageQualityLabel(658, 720, portrait), 'GPT Image 预览');
+  const fullBody = gpt['HL-XIA-CO-0006'];
+  assert.equal(imageQualityLabel(fullBody.width, fullBody.height, fullBody), 'GPT Image PNG');
+  assert.equal(imageQualityLabel(480, 720, fullBody), 'GPT Image 预览');
   const gptCode = html.match(/^function gpt\(r\)\{[^\n]+/m)?.[0];
   const previewSrcCode = html.match(/^function previewSrc\(r\)\{[^\n]+/m)?.[0];
   assert.ok(gptCode && previewSrcCode, file);
