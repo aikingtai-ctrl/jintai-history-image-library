@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "4-cdbe52d04b0d",
+  "revision": "5-36480599ee8f",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -35,6 +35,14 @@
       "width": 1536,
       "height": 1024,
       "sha256": "cdbe52d04b0d329f2b66ee0db64055bde5cc4eb4d338a87ebfcfc2d1245045be"
+    },
+    "HF-20261015-0064": {
+      "title": "【历史名人】包拯（北宋·北宋枢密副使、龙图阁直学士、权知开封府（包青天））",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HF-20261015-0064.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HF-20261015-0064.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "36480599ee8f9acb92dfc5c845fdd4b123f4066ea677d9951603bba6a42c7de1"
     }
   }
 }
