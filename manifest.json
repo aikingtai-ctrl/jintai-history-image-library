@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "12-01ef682b2985",
+  "revision": "13-e749b1a19331",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -99,6 +99,14 @@
       "width": 1024,
       "height": 1536,
       "sha256": "01ef682b2985cd93b37ab4f184bc2a83eb14bbea4c29d09610de4657d141bf9c"
+    },
+    "HL-BSONG-CO-0002": {
+      "title": "北宋士人东坡巾襕衫",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-CO-0002.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-CO-0002.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "e749b1a193310f35d73e47d3bdd5a14748addceca9eb233a69338d19cf94fa50"
     }
   }
 }
