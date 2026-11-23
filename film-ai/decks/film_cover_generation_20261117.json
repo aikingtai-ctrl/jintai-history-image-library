@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-23T17:55:43.180286+00:00",
+  "snapshot_time_utc": "2026-11-23T17:59:41.028934+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -20156,6 +20156,20 @@
       "file": "film-ai/decks/film-src-86e31fc584df1d72.webp",
       "sha256": "b1484602e88b0f29ed2c93a746e4c33c42a05ac6db6278789c31ff6c8ec3b90f",
       "bytes": 214534,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-39c0aa8566b30f45",
+      "wid": "src-39c0aa8566b30f45",
+      "title": "Le Doulos",
+      "file": "film-ai/decks/film-src-39c0aa8566b30f45.webp",
+      "sha256": "7138f2e7b06bf54b5d10ebe239d317b09e639a913a9ac3e5cb97bcadd785f7f3",
+      "bytes": 248198,
       "size": [
         1672,
         941
