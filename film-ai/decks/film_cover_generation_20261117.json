@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-23T06:29:39.813364+00:00",
+  "snapshot_time_utc": "2026-11-23T06:51:06.795605+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -19148,6 +19148,20 @@
       "file": "film-ai/decks/film-src-0b38dde8e0955def.webp",
       "sha256": "2f773df550f652770750154d74aa41ccee3fb0647edc0a7caf5d59cc38afddd8",
       "bytes": 434934,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-16edf9da36d556b7",
+      "wid": "src-16edf9da36d556b7",
+      "title": "High Noon",
+      "file": "film-ai/decks/film-src-16edf9da36d556b7.webp",
+      "sha256": "dc3bb03bc62c455f5a798e129dc9fbab820b88d86b300a8658532afaa25ebf55",
+      "bytes": 412272,
       "size": [
         1672,
         941
