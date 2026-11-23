@@ -997,17 +997,32 @@ function syncChipUI(){
 }
 
 
-function histPreview(id){return window.JINTAI_REGENERATED_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
+function histPreview(id){return window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_REGENERATED_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
 let historyTunnelPromise;
-async function historyOriginalUrl(info){
-  if(location.hostname.endsWith('.trycloudflare.com') || (location.port==='18890' && ['127.0.0.1','localhost','172.16.0.32'].includes(location.hostname)))return location.origin+'/original-pngs/history_1996_regenerated/'+encodeURIComponent(info.filename);
+function historyGalleryBase(){
+  if(location.hostname.endsWith('.trycloudflare.com') || (location.port==='18890' && ['127.0.0.1','localhost','172.16.0.32'].includes(location.hostname)))return Promise.resolve(location.origin);
   if(!historyTunnelPromise){
     historyTunnelPromise=fetch('https://aikingtai-ctrl.github.io/jintai-domestic-portal/tunnel.json?t='+Date.now(),{cache:'no-store'})
       .then(r=>{if(!r.ok)throw new Error('原图入口不可用');return r.json();})
       .then(data=>{if(!/^https:\/\/[a-z0-9-]+\.trycloudflare\.com$/i.test(data.tunnel_url||''))throw new Error('原图入口无效');return data.tunnel_url;});
   }
-  return (await historyTunnelPromise)+'/original-pngs/history_1996_regenerated/'+encodeURIComponent(info.filename);
+  return historyTunnelPromise;
 }
+async function historyOriginalUrl(info){
+  return (await historyGalleryBase())+'/original-pngs/'+encodeURIComponent(info.original_dir||'history_1996_regenerated')+'/'+encodeURIComponent(info.filename);
+}
+(function loadYuanMingImages(){
+  historyGalleryBase().then(base=>{
+    const s=document.createElement('script');
+    s.src=base+'/jintai-history-image-library/history-ai/yuanming-manifest.js?t='+Date.now();
+    s.onload=()=>{
+      const images=window.JINTAI_YUANMING_IMAGES||{};
+      for(const info of Object.values(images))info.preview=base+'/gallery-previews/history_yuanming_7358_minimax_h3_20261123/'+encodeURIComponent(info.preview_filename);
+      if(typeof render==='function'&&R.length)render();
+    };
+    document.head.appendChild(s);
+  }).catch(()=>{});
+})();
 function render(){
   const total=list.length, tp=Math.max(1,Math.ceil(total/PAGE));
   if(page>=tp) page=tp-1;
@@ -1031,7 +1046,7 @@ function render(){
     const kindTxt=(r.cat && r.cat!==kBase) ? `${kBase} · ${r.cat}` : kBase;
     const views=r.n || (r.variants?r.variants.length:1);
     const historyPreview=histPreview(r.id);
-    d.innerHTML=`${historyPreview ? `<button type="button" class="history-preview-button" aria-label="放大查看图片：${esc(r.title)}" title="放大查看图片"><img class="history-card-preview" loading="lazy" src="${esc(historyPreview)}" alt=""><span class="history-preview-zoom" aria-hidden="true">${window.JINTAI_REGENERATED_IMAGES?.[r.id]||window.JINTAI_SONG_IMAGES?.[r.id]?.original?'⛶ 查看原图':'⛶ 查看此图'}</span></button>` : ''}<h3>${esc(r.title)}</h3>${window.JINTAI_AI_NOTES?.[r.id] ? `<p>${esc(window.JINTAI_AI_NOTES[r.id])}</p>` : ''}
+    d.innerHTML=`${historyPreview ? `<button type="button" class="history-preview-button" aria-label="放大查看图片：${esc(r.title)}" title="放大查看图片"><img class="history-card-preview" loading="lazy" src="${esc(historyPreview)}" alt=""><span class="history-preview-zoom" aria-hidden="true">${window.JINTAI_YUANMING_IMAGES?.[r.id]||window.JINTAI_REGENERATED_IMAGES?.[r.id]||window.JINTAI_SONG_IMAGES?.[r.id]?.original?'⛶ 查看原图':'⛶ 查看此图'}</span></button>` : ''}<h3>${esc(r.title)}</h3>${window.JINTAI_AI_NOTES?.[r.id] ? `<p>${esc(window.JINTAI_AI_NOTES[r.id])}</p>` : ''}
       <div class="summary">${esc(r.brief||'')}</div>
       <div class="card-foot"><span>${esc(eraTxt)} ｜ ${esc(kindTxt)}</span><span class="views">${views} 视角</span></div>`;
     const previewButton=d.querySelector('.history-preview-button');
@@ -1056,7 +1071,7 @@ function setHlbZoom(s,reset=false){
 function renderHlb(){
   const r=HLB.pool[HLB.idx];if(!r)return;
   const preview=histPreview(r.id);if(!preview)return;
-  const regen=window.JINTAI_REGENERATED_IMAGES?.[r.id];
+  const regen=window.JINTAI_YUANMING_IMAGES?.[r.id]||window.JINTAI_REGENERATED_IMAGES?.[r.id];
   const songOriginal=window.JINTAI_SONG_IMAGES?.[r.id]?.original;
   HLB.scale=1;HLB.tx=0;HLB.ty=0;
   HLB.request=(HLB.request||0)+1;const request=HLB.request;
@@ -1069,7 +1084,7 @@ function renderHlb(){
     if(HLB.request!==request)return;
     $('hlbSub').textContent=subtitle+` · ${im.naturalWidth}×${im.naturalHeight} px`;
     if(originalSrc&&im.currentSrc===originalSrc){
-      $('hlbNote').textContent=regen?`重新生成的原始 PNG ${im.naturalWidth}×${im.naturalHeight}；按保存的条目描述生成。`:`原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`;
+      $('hlbNote').textContent=regen?`原创 PNG ${im.naturalWidth}×${im.naturalHeight}；按保存的条目描述生成。`:`原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`;
     }else if(originalFailed){
       $('hlbNote').textContent='原始 PNG 暂不可用，当前显示预览图。';
     }else if(regen||songOriginal){
