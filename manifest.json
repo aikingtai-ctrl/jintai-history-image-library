@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "128-90a7cd8bb29f",
+  "revision": "129-1006fd610baf",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -1027,6 +1027,14 @@
       "width": 1672,
       "height": 941,
       "sha256": "90a7cd8bb29fd3934f63d9b1bd4f6587699acda35c164fa6df95652056e69e9a"
+    },
+    "HL-XIXIA-CO-0005": {
+      "title": "西夏前期党项铁鹞子骑兵",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0005.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "1006fd610baf5f00c0919a36a3a3caddeb01ae0bce400e02d3c22248a2974f43"
     }
   }
 }
