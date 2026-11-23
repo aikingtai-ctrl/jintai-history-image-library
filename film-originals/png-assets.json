@@ -48257,6 +48257,694 @@
       "sha256": "d5992256093ee9b815937089e36bbc90d11aac82a120af87eec678da5c02a225",
       "scene": "原创 AI 代表画面，非原片截图。台北城市雨後的小巷，一隻蝴蝶、一隻草蜢和一隻小蜘蛛在排水口旁避開掃地機器人；遠處可見水塔。原創動畫代表畫面，非原片截圖。 保留本片前三條真實來源影格和來源登記。",
       "prompt": "Create a wholly original 16:9 colorful animation reference image for a fictional Taipei insect adventure: in a narrow city lane after rain, a newly designed butterfly, grasshopper and small spider hurry away from a round unbranded cleaning robot near a storm drain, a rooftop water tank in the distance, handcrafted original creature designs, no existing character likeness, no exact film frame, no readable text, logos or watermark."
+    },
+    "ashes-of-time-1994": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/ashes-of-time-1994-1af8cdfbb372.png",
+      "filename": "ashes-of-time-1994-1af8cdfbb372.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2223504,
+      "sha256": "1af8cdfbb372add2a543858fd886bd14ca545bdef9dfbeb8750e2206f192d975",
+      "scene": null,
+      "prompt": null
+    },
+    "assassination-2015": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/assassination-2015-133ef220d339.png",
+      "filename": "assassination-2015-133ef220d339.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2206623,
+      "sha256": "133ef220d339f83eee1e88f7c0a21757ba54e570a61296847f0c8205774813dc",
+      "scene": null,
+      "prompt": null
+    },
+    "ashes-of-love-2018": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/ashes-of-love-2018-39cfb182203c.png",
+      "filename": "ashes-of-love-2018-39cfb182203c.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2403341,
+      "sha256": "39cfb182203cf40cfb6bfc76213ed13085e010d9f952e53273d34cacfcda2f52",
+      "scene": null,
+      "prompt": null
+    },
+    "astro-boy-1963": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/astro-boy-1963-8feb80f69e87.png",
+      "filename": "astro-boy-1963-8feb80f69e87.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2333457,
+      "sha256": "8feb80f69e87f32c0f8264abc4e0b7e745923dc9c09dec13e1a6362f406a0fb7",
+      "scene": null,
+      "prompt": null
+    },
+    "assembly-2007": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/assembly-2007-cea9edb893e8.png",
+      "filename": "assembly-2007-cea9edb893e8.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2274706,
+      "sha256": "cea9edb893e86d4311d3cee8903f5c31901dc7f58bba011a5841198b91780ea9",
+      "scene": null,
+      "prompt": null
+    },
+    "asura-the-city-of-madness-2016": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/asura-the-city-of-madness-2016-ead997cc7a98.png",
+      "filename": "asura-the-city-of-madness-2016-ead997cc7a98.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1863683,
+      "sha256": "ead997cc7a9852fcf80d512f90a5a7add919f543670e716263e766454551fb84",
+      "scene": null,
+      "prompt": null
+    },
+    "at-the-threshold-of-an-era-1999": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/at-the-threshold-of-an-era-1999-f27ca3cc1c56.png",
+      "filename": "at-the-threshold-of-an-era-1999-f27ca3cc1c56.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2596740,
+      "sha256": "f27ca3cc1c566cb499d16286c3c411c988006aee25964a34da929ac27412b710",
+      "scene": null,
+      "prompt": null
+    },
+    "atanarjuat-the-fast-runner-2001": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/atanarjuat-the-fast-runner-2001-dc88e77a643d.png",
+      "filename": "atanarjuat-the-fast-runner-2001-dc88e77a643d.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2606190,
+      "sha256": "dc88e77a643d4d478c03db874e9e08bae60c557948c0bb2c90a19481e40c85c5",
+      "scene": null,
+      "prompt": null
+    },
+    "atlanta-2016": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/atlanta-2016-707fd35c3aa6.png",
+      "filename": "atlanta-2016-707fd35c3aa6.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2194157,
+      "sha256": "707fd35c3aa6dc56f85655641000733a67c98b7a40bd9984b6b5804103393ef2",
+      "scene": null,
+      "prompt": null
+    },
+    "atlantics-2019": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/atlantics-2019-f15cac1e3ba0.png",
+      "filename": "atlantics-2019-f15cac1e3ba0.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1921891,
+      "sha256": "f15cac1e3ba0decfa048e2cdfb09febb59f9764cd426c155ee21691b42b49a00",
+      "scene": null,
+      "prompt": null
+    },
+    "atonement-2007": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/atonement-2007-419fc7bd0995.png",
+      "filename": "atonement-2007-419fc7bd0995.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2460467,
+      "sha256": "419fc7bd099593bc3bbf993bf238ef50d1b5a8910780dae1e2d33c97083e87a1",
+      "scene": null,
+      "prompt": null
+    },
+    "atsuhime-2008": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/atsuhime-2008-5111e31e0bd2.png",
+      "filename": "atsuhime-2008-5111e31e0bd2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2360418,
+      "sha256": "5111e31e0bd290f066368e02bf157a59ecbdcfe4dbccf067ae32a2beba1ff9f2",
+      "scene": null,
+      "prompt": null
+    },
+    "attack-on-titan-s1-2013": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/attack-on-titan-s1-2013-3e49c62cb98c.png",
+      "filename": "attack-on-titan-s1-2013-3e49c62cb98c.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2112115,
+      "sha256": "3e49c62cb98c1b3894d73c6555381a74e10fc7e45e1533e99a44c3ffef8b72e5",
+      "scene": null,
+      "prompt": null
+    },
+    "au-revoir-les-enfants-1987": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/au-revoir-les-enfants-1987-cb61abc9c941.png",
+      "filename": "au-revoir-les-enfants-1987-cb61abc9c941.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1689615,
+      "sha256": "cb61abc9c9410367f0641b8b64fb889c5f57fab48a4f7e36ebeb8a71de780ef1",
+      "scene": null,
+      "prompt": null
+    },
+    "au-hasard-balthazar-1966": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/au-hasard-balthazar-1966-d109188570d1.png",
+      "filename": "au-hasard-balthazar-1966-d109188570d1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2566792,
+      "sha256": "d109188570d1cf9e544d242a626a0f3779103b5abbe92e4df73236973b9ff107",
+      "scene": null,
+      "prompt": null
+    },
+    "au-revoir-taipei-2010": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/au-revoir-taipei-2010-8d40304e60bf.png",
+      "filename": "au-revoir-taipei-2010-8d40304e60bf.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2527891,
+      "sha256": "8d40304e60bfaf06e542998a72f35ca9d7282c39ae092cad7076593a745aadbf",
+      "scene": null,
+      "prompt": null
+    },
+    "audition-1999": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/audition-1999-dd71a73ad215.png",
+      "filename": "audition-1999-dd71a73ad215.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2112096,
+      "sha256": "dd71a73ad215c272e55851535cafc10f269ee0bda625d9f013318d447962eafa",
+      "scene": null,
+      "prompt": null
+    },
+    "autumn-in-my-heart-2000": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/autumn-in-my-heart-2000-883e9da51693.png",
+      "filename": "autumn-in-my-heart-2000-883e9da51693.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2115042,
+      "sha256": "883e9da51693183ce60091d383d843a3db0c1db29d62631720671a2aaee356da",
+      "scene": null,
+      "prompt": null
+    },
+    "avatar-2009": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/avatar-2009-87e5db0f88d7.png",
+      "filename": "avatar-2009-87e5db0f88d7.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2273318,
+      "sha256": "87e5db0f88d79334b4b97acf60cb366a9015d6e26b9b4ee6e24ccd8292092eab",
+      "scene": null,
+      "prompt": null
+    },
+    "autumn-sonata-1978": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/autumn-sonata-1978-8649730ae4d7.png",
+      "filename": "autumn-sonata-1978-8649730ae4d7.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2219698,
+      "sha256": "8649730ae4d742fe3d0fcfe98fb816aea07f76d853b6493bc90c00348f276acf",
+      "scene": null,
+      "prompt": null
+    },
+    "avatar-the-last-airbender-s1-2005": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/avatar-the-last-airbender-s1-2005-c9e398be910c.png",
+      "filename": "avatar-the-last-airbender-s1-2005-c9e398be910c.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1773177,
+      "sha256": "c9e398be910c5bb01c436c67f06b5fcee0a8748e85d46e04fd8a08732882924c",
+      "scene": null,
+      "prompt": null
+    },
+    "avengers-endgame-2019": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/avengers-endgame-2019-19de44b4c30f.png",
+      "filename": "avengers-endgame-2019-19de44b4c30f.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1726929,
+      "sha256": "19de44b4c30f47074709460543343a2f7eb1e723bfea0fd3a8c7e5802c2df3cd",
+      "scene": null,
+      "prompt": null
+    },
+    "awaara-1951": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/awaara-1951-cab801426874.png",
+      "filename": "awaara-1951-cab801426874.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2091905,
+      "sha256": "cab8014268741d8e74b304d921a04a2768cc42b0f68a80397619f669cd66d6d8",
+      "scene": null,
+      "prompt": null
+    },
+    "baahubali-the-beginning-2015": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/baahubali-the-beginning-2015-c665e73c4617.png",
+      "filename": "baahubali-the-beginning-2015-c665e73c4617.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2149354,
+      "sha256": "c665e73c4617cfdacf8d1114bb9fd8666faa0df92a2befc894593767e5bc0c41",
+      "scene": null,
+      "prompt": null
+    },
+    "baby-driver-2017": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/baby-driver-2017-492a18bd8616.png",
+      "filename": "baby-driver-2017-492a18bd8616.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2205402,
+      "sha256": "492a18bd86166d5bfc4a98fcc89beb07f485ce8f132878411deffdebd4a11229",
+      "scene": null,
+      "prompt": null
+    },
+    "baby-reindeer-2024": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/baby-reindeer-2024-19be7a6a1105.png",
+      "filename": "baby-reindeer-2024-19be7a6a1105.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2418957,
+      "sha256": "19be7a6a11058ca355c2ad852c63314934dedcd3b72567d160d9375c648acd46",
+      "scene": null,
+      "prompt": null
+    },
+    "babettes-feast-1987": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/babettes-feast-1987-0276cc7388f8.png",
+      "filename": "babettes-feast-1987-0276cc7388f8.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2249727,
+      "sha256": "0276cc7388f812108bceb44b9c7e19fffdfeed3ce724d59e3ad40c99bfe763bd",
+      "scene": null,
+      "prompt": null
+    },
+    "babylon-berlin-2017": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/babylon-berlin-2017-2fefc83ee6b5.png",
+      "filename": "babylon-berlin-2017-2fefc83ee6b5.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2463625,
+      "sha256": "2fefc83ee6b507252289d41bf3a1895fd6cea75a875dae72e790c27cd5b298f3",
+      "scene": null,
+      "prompt": null
+    },
+    "back-to-1942-2012": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/back-to-1942-2012-0977b1ddc053.png",
+      "filename": "back-to-1942-2012-0977b1ddc053.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2953424,
+      "sha256": "0977b1ddc053030c2b34d8e7ea378a966d65cbf051466b1f0f49cd78e2eeea5b",
+      "scene": null,
+      "prompt": null
+    },
+    "back-to-back-face-to-face-1994": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/back-to-back-face-to-face-1994-f94e3f4c7845.png",
+      "filename": "back-to-back-face-to-face-1994-f94e3f4c7845.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2724124,
+      "sha256": "f94e3f4c7845d0c6e33d4a022718217752e0211656daa20eb43b1e3c2c93e29d",
+      "scene": null,
+      "prompt": null
+    },
+    "back-to-the-future-1985": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/back-to-the-future-1985-28fa126c0609.png",
+      "filename": "back-to-the-future-1985-28fa126c0609.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2264883,
+      "sha256": "28fa126c0609c58ce6d31e4b9f4e689139c4ec277aebb8986d6c0389d7bb59c4",
+      "scene": null,
+      "prompt": null
+    },
+    "bad-education-2004": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/bad-education-2004-d2c1dd16f91d.png",
+      "filename": "bad-education-2004-d2c1dd16f91d.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2098209,
+      "sha256": "d2c1dd16f91d653940edc484bafd32f7c4fc1158716a3c8a213d679626f123b2",
+      "scene": null,
+      "prompt": null
+    },
+    "bad-genius-2017": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/bad-genius-2017-c2c8c7ebd81d.png",
+      "filename": "bad-genius-2017-c2c8c7ebd81d.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2047369,
+      "sha256": "c2c8c7ebd81da1eccaf98a3d99c1c6fcb8dc3231f5eb1ece1709f5e97dde274f",
+      "scene": null,
+      "prompt": null
+    },
+    "badlands-1973": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/badlands-1973-1934b70403e0.png",
+      "filename": "badlands-1973-1934b70403e0.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2703963,
+      "sha256": "1934b70403e08d47e3160f96cbf711da218aaa1368f1dbd36f11159d8f06f74d",
+      "scene": null,
+      "prompt": null
+    },
+    "bambi-1942": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/bambi-1942-d834c83d6e76.png",
+      "filename": "bambi-1942-d834c83d6e76.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2653193,
+      "sha256": "d834c83d6e76cc45848386180aa541b353a714343cc9f2f40d13e2026ea23015",
+      "scene": null,
+      "prompt": null
+    },
+    "ballad-of-a-soldier-1959": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/ballad-of-a-soldier-1959-eff23492a255.png",
+      "filename": "ballad-of-a-soldier-1959-eff23492a255.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2545933,
+      "sha256": "eff23492a255ca71dfd5ef01c3bef02f96b33a07c1008d90971605d0c539ec81",
+      "scene": null,
+      "prompt": null
+    },
+    "band-of-brothers-2001": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/band-of-brothers-2001-702fb86fcbab.png",
+      "filename": "band-of-brothers-2001-702fb86fcbab.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2352444,
+      "sha256": "702fb86fcbab50c94c634c2dbec293391da8533e5bb9ff501cdcd65f83646ec8",
+      "scene": null,
+      "prompt": null
+    },
+    "banana-paradise-1989": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/banana-paradise-1989-8d9f387a2f44.png",
+      "filename": "banana-paradise-1989-8d9f387a2f44.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2915405,
+      "sha256": "8d9f387a2f44531c4954fd10b4812e7bc9bddf43d45bfc3ee3cb97d3089680d0",
+      "scene": null,
+      "prompt": null
+    },
+    "band-of-outsiders-1964": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/band-of-outsiders-1964-a827b2c300ec.png",
+      "filename": "band-of-outsiders-1964-a827b2c300ec.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2150554,
+      "sha256": "a827b2c300ec2dbdfca7c1f4bf9856eba3a9c56184e51eee42ae4d73b90469ff",
+      "scene": null,
+      "prompt": null
+    },
+    "baran-2001": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/baran-2001-2ab0f3d76209.png",
+      "filename": "baran-2001-2ab0f3d76209.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2239866,
+      "sha256": "2ab0f3d762092fabbdf05fe2546908b9e3f977bead0023f4bb26db14f83088c9",
+      "scene": null,
+      "prompt": null
+    },
+    "barton-fink-1991": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/barton-fink-1991-a76fe193db72.png",
+      "filename": "barton-fink-1991-a76fe193db72.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1738929,
+      "sha256": "a76fe193db72a80baf51c01b1ef5f09dfb381d45a30a44adec0165aa37d4bad0",
+      "scene": null,
+      "prompt": null
+    },
+    "barry-2018": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/barry-2018-6601445fbb81.png",
+      "filename": "barry-2018-6601445fbb81.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2087146,
+      "sha256": "6601445fbb8113389745964963f7169304f162f685433ae8f9574cf6cc6cda0a",
+      "scene": null,
+      "prompt": null
+    },
+    "batman-begins-2005": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/batman-begins-2005-aab98427f828.png",
+      "filename": "batman-begins-2005-aab98427f828.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2540067,
+      "sha256": "aab98427f828c074592c157f826fbc2cc6377b1630639b71debaf4cff57acae7",
+      "scene": null,
+      "prompt": null
+    },
+    "batman-1989": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/batman-1989-3f8238fffa31.png",
+      "filename": "batman-1989-3f8238fffa31.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1875471,
+      "sha256": "3f8238fffa31b6959c695e082280634f1d28ccf3199c889dd54066340502f81d",
+      "scene": null,
+      "prompt": null
+    },
+    "basic-instinct-1992": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/basic-instinct-1992-add03effb266.png",
+      "filename": "basic-instinct-1992-add03effb266.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1922340,
+      "sha256": "add03effb2662b4be380a3ebf7f3664968e9bd48b0496df44d148570c1d1ae92",
+      "scene": null,
+      "prompt": null
+    },
+    "battle-of-changsha-2014": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/battle-of-changsha-2014-bdd3d04b9740.png",
+      "filename": "battle-of-changsha-2014-bdd3d04b9740.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2193671,
+      "sha256": "bdd3d04b974062c2763da1234f7ff853895b34855ef1384c8a7c86513a653561",
+      "scene": null,
+      "prompt": null
+    },
+    "batman-returns-1992": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/batman-returns-1992-b54f1d8110e4.png",
+      "filename": "batman-returns-1992-b54f1d8110e4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1962704,
+      "sha256": "b54f1d8110e486f56bfa6538c4e01036157502f7d4093dd9e0efb8b39b1331e4",
+      "scene": null,
+      "prompt": null
+    },
+    "battle-of-memories-2017": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/battle-of-memories-2017-c31549a941b2.png",
+      "filename": "battle-of-memories-2017-c31549a941b2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1762051,
+      "sha256": "c31549a941b2f34af94597692035a95b9a7e8e318bc5304f71c4cbff5e5902c5",
+      "scene": null,
+      "prompt": null
+    },
+    "battles-without-honor-and-humanity-1973": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/battles-without-honor-and-humanity-1973-06975e6c9d15.png",
+      "filename": "battles-without-honor-and-humanity-1973-06975e6c9d15.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2085684,
+      "sha256": "06975e6c9d1560c93dd0f25beefc5c50dfc3995803e631417da489e5a51c7eea",
+      "scene": null,
+      "prompt": null
+    },
+    "battle-royale-2000": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/battle-royale-2000-eae3da2ad5cb.png",
+      "filename": "battle-royale-2000-eae3da2ad5cb.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1925520,
+      "sha256": "eae3da2ad5cbd11b47ce175a65c02ce5a26f4bd4589eb6b163469807e8714875",
+      "scene": null,
+      "prompt": null
+    },
+    "battlestar-galactica-2004": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/battlestar-galactica-2004-e8e24ed0fbb7.png",
+      "filename": "battlestar-galactica-2004-e8e24ed0fbb7.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1933136,
+      "sha256": "e8e24ed0fbb71cf3d8db353f48dce8248333323088c91db3548c98841724f933",
+      "scene": null,
+      "prompt": null
+    },
+    "be-there-or-be-square-1998": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/be-there-or-be-square-1998-dbcebdeabe2b.png",
+      "filename": "be-there-or-be-square-1998-dbcebdeabe2b.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2295527,
+      "sha256": "dbcebdeabe2b020543772f3a1888e0af2efb934ec68af5996daf9f29b6502601",
+      "scene": null,
+      "prompt": null
+    },
+    "bayside-shakedown-1997": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/bayside-shakedown-1997-b08e6f34d448.png",
+      "filename": "bayside-shakedown-1997-b08e6f34d448.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2568443,
+      "sha256": "b08e6f34d4488f17a130049842b7b3d74102da722cf025d6d74f6b633b96018c",
+      "scene": null,
+      "prompt": null
+    },
+    "beanpole-2019": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/beanpole-2019-048648101ecb.png",
+      "filename": "beanpole-2019-048648101ecb.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2067578,
+      "sha256": "048648101ecbe36a5477eb0076ab8de426f7265b956b8c06f2f5ff6cda0163c6",
+      "scene": null,
+      "prompt": null
+    },
+    "beastie-boys-sabotage-1994": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/beastie-boys-sabotage-1994-b78820d0e5a1.png",
+      "filename": "beastie-boys-sabotage-1994-b78820d0e5a1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2099133,
+      "sha256": "b78820d0e5a170586723264387ff5d1556dfe801a51e8e2110715b0d10304052",
+      "scene": null,
+      "prompt": null
+    },
+    "beast-cops-1998": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/beast-cops-1998-6b5974936a4b.png",
+      "filename": "beast-cops-1998-6b5974936a4b.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2175318,
+      "sha256": "6b5974936a4b2a45f781a0d7b4960c4f92f76a5d2533e86cf65aae2663da6122",
+      "scene": null,
+      "prompt": null
+    },
+    "beasts-of-the-southern-wild-2012": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/beasts-of-the-southern-wild-2012-c843f2910136.png",
+      "filename": "beasts-of-the-southern-wild-2012-c843f2910136.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2615894,
+      "sha256": "c843f2910136abe179423f8d60950d226c7204e4c04dd6c84c16c9ddcfb65dad",
+      "scene": null,
+      "prompt": null
+    },
+    "beau-travail-1999": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/beau-travail-1999-d69502172da6.png",
+      "filename": "beau-travail-1999-d69502172da6.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1694769,
+      "sha256": "d69502172da6d79eda35ad12d4b8f68c8e1a99e010ca4bdae7ce659bad682ba2",
+      "scene": null,
+      "prompt": null
+    },
+    "beautiful-duckling-1965": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/beautiful-duckling-1965-77740dad3045.png",
+      "filename": "beautiful-duckling-1965-77740dad3045.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2711003,
+      "sha256": "77740dad3045e32d96c56252e1485be9655552b182beba32906b3ef11b80bb44",
+      "scene": null,
+      "prompt": null
+    },
+    "beautiful-life-2000": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p04/beautiful-life-2000-fdba6939c310.png",
+      "filename": "beautiful-life-2000-fdba6939c310.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2164693,
+      "sha256": "fdba6939c310d3f148f90c188a9d17c4c11057fef514aeb834a9c9439ccd3975",
+      "scene": null,
+      "prompt": null
+    },
+    "src-a0b4c9dfb7485996": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/originals/part-04/src-a0b4c9dfb7485996-61f59a0d41f1.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/thumbnails/part-04/src-a0b4c9dfb7485996-61f59a0d41f1.jpg",
+      "filename": "src-a0b4c9dfb7485996-61f59a0d41f1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2558801,
+      "sha256": "61f59a0d41f13f474d1cbc345c965a684286ca2ae1517e77d841ad1322771ede",
+      "scene": "原创 AI 参考画面：1993 年拉各斯热闹街头，虚构的尼日利亚父亲陪伴两名年幼儿子穿过市场，黄色公交车停在旁边；父亲神情关切，孩子好奇地望向城市。原片具体镜头与器材未由该参考图核实。",
+      "prompt": "Create a wholly original 16:9 cinematic reference photograph for a fictional 1993 Lagos family drama: an anonymous Nigerian father guides his two fully clothed young sons through a busy outdoor market, a period yellow bus parked nearby, concern and childhood curiosity in their body language, invented people, no exact film frame, no readable text, logos or watermark."
+    },
+    "src-a0d54a860ea081ec": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/originals/part-04/src-a0d54a860ea081ec-8dd4da0f5f88.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/thumbnails/part-04/src-a0d54a860ea081ec-8dd4da0f5f88.jpg",
+      "filename": "src-a0d54a860ea081ec-8dd4da0f5f88.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1951320,
+      "sha256": "8dd4da0f5f8803cc6c0ef35c6c48f2f4250ca8da94ef2f54ebf842ecbb763430",
+      "scene": "原创 AI 代表画面，非原片截图。黑白夜景，虚构青年在香港公寓窗边抱着外套沉思，玻璃与镜面映出他的身影；原创代表画面，非原片截图。 保留本片前3條真實來源影格和來源登記。",
+      "prompt": "Create a wholly original black-and-white 16:9 cinematic reference photograph for a fictional Hong Kong urban drama: at night an anonymous adult man stands by an apartment window holding his coat and thinking quietly, layered reflections of his invented face in glass and mirror, city lights beyond, no exact film frame, no readable text, logos or watermark."
+    },
+    "src-a18f2ea0b7cb7151": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/originals/part-04/src-a18f2ea0b7cb7151-960be9eda517.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/thumbnails/part-04/src-a18f2ea0b7cb7151-960be9eda517.jpg",
+      "filename": "src-a18f2ea0b7cb7151-960be9eda517.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2309105,
+      "sha256": "960be9eda517d4bae60b218ecb43d94805e2dd28557dea5cde12103a4276fd6e",
+      "scene": "原创 AI 参考画面：当代西班牙修院礼拜堂，虚构的十七岁女孩站在室内门边沉思；远处门外，虚构父亲与姑母等候，午后暖光照入石墙与木长椅。原片具体镜头与器材未由该参考图核实。",
+      "prompt": "Create a wholly original 16:9 cinematic reference photograph for a fictional contemporary Spanish family drama: a fully clothed fictional seventeen-year-old girl pauses thoughtfully by the doorway inside a monastery chapel while her father and aunt wait outside in the distance, afternoon sunlight on stone walls and wooden pews, respectful nonviolent mood, invented people, no exact film frame, no readable text, logos or watermark."
+    },
+    "src-a3cf7dbaf28f073d": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/originals/part-04/src-a3cf7dbaf28f073d-5e5946414e17.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/thumbnails/part-04/src-a3cf7dbaf28f073d-5e5946414e17.jpg",
+      "filename": "src-a3cf7dbaf28f073d-5e5946414e17.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1968937,
+      "sha256": "5e5946414e176d35c1b0afa0aefbf6493c6574d0692a26e947e16d2e7ee6142b",
+      "scene": "原创 AI 代表画面，非原片截图。当代伦敦夜晚，六名虚构成年人与一名男主人围坐烛光餐桌，彼此审视；远窗可见城市灯光。原创代表画面，非原片截图。 保留本片前65條真實來源影格和來源登記。",
+      "prompt": "Create a wholly original 16:9 cinematic reference photograph for a fictional London espionage dinner drama: seven anonymous fully clothed adults sit around a candlelit dining table at night, studying each other's faces with subtle suspicion, city lights through a distant window, invented performers, no exact film frame, no readable text, logos or watermark."
+    },
+    "src-a82324d6367ace0a": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/originals/part-04/src-a82324d6367ace0a-4c0cfb94e01f.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/thumbnails/part-04/src-a82324d6367ace0a-4c0cfb94e01f.jpg",
+      "filename": "src-a82324d6367ace0a-4c0cfb94e01f.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2321873,
+      "sha256": "4c0cfb94e01f9f2048d47e638630cc83f05eb8f1a8cb6f5dc13ce5ea597a912d",
+      "scene": "原创 AI 参考画面：当代纽约曼哈顿华埠雨后蓝色暮光中，一位虚构的台湾移民外卖员父亲停在旧电动自行车旁，保温送餐袋靠着车，街铺暖灯与路人从身后掠过。原片具体镜头及器材未由本图核实。",
+      "prompt": "Create a wholly original 16:9 cinematic reference photograph for a fictional immigrant family drama: in Manhattan Chinatown after rain at blue dusk, an anonymous adult Taiwanese delivery rider father pauses beside an old unbranded electric bicycle, insulated food bag resting against it, warm shop windows and passersby behind him, dignified everyday realism, invented performer, no exact film frame, no readable text, logos or watermark."
+    },
+    "src-a994de9273b25236": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/originals/part-04/src-a994de9273b25236-b4e6e1540d74.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/thumbnails/part-04/src-a994de9273b25236-b4e6e1540d74.jpg",
+      "filename": "src-a994de9273b25236-b4e6e1540d74.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1989652,
+      "sha256": "b4e6e1540d74267e0ccad949b4d537f0ee9801026c9a1a3ac1926690be992ddf",
+      "scene": "原创 AI 代表画面，非原片截图。波兰表演学院排练室，虚构年轻女学生在镜墙前向坐着的教师表演，另两名学生在旁观察；原创代表画面，非原片截图。 保留本片前3條真實來源影格和來源登記。",
+      "prompt": "Create a wholly original 16:9 cinematic reference photograph for a fictional Polish performing-arts school drama: an anonymous young adult female student performs before a seated teacher in a rehearsal room with mirrored walls while two other adult students watch, ordinary practice clothes, natural emotion, invented performers, no exact film frame, no readable text, logos or watermark."
+    },
+    "src-ab05cad64170a0ff": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/originals/part-04/src-ab05cad64170a0ff-1b1a7aba4741.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/thumbnails/part-04/src-ab05cad64170a0ff-1b1a7aba4741.jpg",
+      "filename": "src-ab05cad64170a0ff-1b1a7aba4741.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2512446,
+      "sha256": "1b1a7aba4741c1cb90ab7c805d06ddebf9848f941850b5094e4b42ee727f9d58",
+      "scene": "原创 AI 参考画面：原创 2D 动画概念画面：抽象柔彩空间中，一位成年女性因孤独而呈轻盈气球轮廓，另一位因疲惫像叶片般漂浮，第三位在巨大的透明水滴旁伸手扶助。气球、叶片、水滴与互助均来自官方梗概；三人同框和造型为原创设计，并非声称原片镜头。原片镜头、画幅与摄影器材未核实。",
+      "prompt": "Create a wholly original 16:9 hand-drawn two-dimensional animated reference image in a soft abstract pastel space: three newly designed adult women embody loneliness, fatigue and mutual care through gentle balloon, floating-leaf and large transparent raindrop shapes, one extending a hand toward another, poetic nonsexual imagery and original character designs, no exact film frame, no readable text, logos or watermark."
+    },
+    "src-abb48a4ebcf27004": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/originals/part-04/src-abb48a4ebcf27004-d7cd0bd3b0c1.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/684e23b7a3a61b934bce25b4cca6989b3fc0e3eb/thumbnails/part-04/src-abb48a4ebcf27004-d7cd0bd3b0c1.jpg",
+      "filename": "src-abb48a4ebcf27004-d7cd0bd3b0c1.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2054600,
+      "sha256": "d7cd0bd3b0c1d2b7a9b435c004070ca708895e89c9375d9c785bd5e4cd18ef3e",
+      "scene": "原创 AI 代表画面，非原片截图。虚构的年迈意大利总统坐在华丽办公室桌前，手持旧家庭照片沉思；成年女儿从走廊门口望向他。原创代表画面，非原片截图。 保留本片前3條真實來源影格和來源登記。",
+      "prompt": "Create a wholly original 16:9 cinematic reference photograph for a fictional Italian family-and-state drama: an anonymous elderly head of state sits alone at a richly furnished office desk studying an invented old family photograph while his adult daughter stands in a corridor doorway looking toward him, warm restrained light, no likeness to a real politician, no exact film frame, no readable text, logos or watermark."
     }
   }
 }
