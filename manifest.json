@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "135-54fb75ee4ffe",
+  "revision": "136-947d7eee540c",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -1083,6 +1083,14 @@
       "width": 1312,
       "height": 1199,
       "sha256": "54fb75ee4ffe1e92be5dd71182a6daa842eac7ad885b26219543a7b4da1fb2cb"
+    },
+    "HL-NSONG-AC-0002": {
+      "title": "南宋女子簪花",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-AC-0002.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-AC-0002.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "947d7eee540c94ecda15ea947db8df3dd45040154c5f5511f3392282f610b990"
     }
   }
 }
