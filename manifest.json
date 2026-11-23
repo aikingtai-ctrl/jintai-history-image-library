@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "83-a45a162f4600",
+  "revision": "84-f559634525a1",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -667,6 +667,14 @@
       "width": 1680,
       "height": 936,
       "sha256": "a45a162f460020b8f52385b7b7e2c934ccafefbe5da1b1f5359df5080fb942bf"
+    },
+    "HL-BSONG-LS-0003": {
+      "title": "北宋华北冬日雪原",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-LS-0003.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-LS-0003.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f559634525a138c33e0ef1f7697fd38f6a573553b1e2d4cc9ffd0a622fe17270"
     }
   }
 }
