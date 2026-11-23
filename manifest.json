@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "154-e32e4fc78ecf",
+  "revision": "155-a53d7cd87e0e",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -1235,6 +1235,14 @@
       "width": 1024,
       "height": 1536,
       "sha256": "e32e4fc78ecfa1c9f3c52ee08575808ff0724fc623d4b4d31bf6b4b27623b028"
+    },
+    "HL-NSONG-CO-0017": {
+      "title": "南宋·清扫杂役",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-CO-0017.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-CO-0017.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "a53d7cd87e0e2e0f169166a8fc2f65d6e8d22c16d94ee91c9e0a918bb6c0dc16"
     }
   }
 }
