@@ -42692,6 +42692,506 @@
       "sha256": "5bc468e646ff64cf3e085fb1141b7d2eba4c4eff820e2b6b6b3bdac18f96052f",
       "scene": "原创 AI 参考画面：原创写实概念画面：香港一间紧凑而有人居痕迹的公寓里，患脑性麻痺、使用轮椅的成年阿妹在窗边画架前专注绘画；义工 Ken 坐在画架另一侧，平视并安静倾听她说话。两人保持平等、自然的距离，窗外城市楼宇与画布上的彩色城市画形成层次。这是基于官方人物与职业设定的原创重构，不声称为影片原镜头；画布题材与具体公寓陈设属于画面创作。原片镜头、画幅与摄影器材未核实。",
       "prompt": "Create one wholly original 16:9 humane Hong Kong relationship-drama reference photograph: an anonymous adult East Asian woman who uses a wheelchair paints at an easel beside a window in a lived-in compact apartment while an anonymous adult East Asian male volunteer sits at her eye level and listens with respect, city buildings beyond the glass, natural equal relationship, invented performers, no exact movie frame, no readable text, logos or watermark."
+    },
+    "src-c89eee5440a24125": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c89eee5440a24125-86ce53ca7730.png",
+      "filename": "src-c89eee5440a24125-86ce53ca7730.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2040639,
+      "sha256": "86ce53ca7730ecf86ff3bb194acdebf9ad58dac07d9539def6dd6e3de93c6d09",
+      "scene": "竖幅首映礼活动现场戴着黑框眼镜身穿深色西装配白衬衫的老牌喜剧泰斗面带慈祥微笑",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: Vertical close-up event portrait against a dark background, veteran comedian Steve Allen wearing glasses, a dark suit, and a white shirt smiling warmly at the camera.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c89a19e92a2ea4a1": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c89a19e92a2ea4a1-ea2b986a5a3e.png",
+      "filename": "src-c89a19e92a2ea4a1-ea2b986a5a3e.png",
+      "width": 1754,
+      "height": 897,
+      "bytes": 2177611,
+      "sha256": "ea2b986a5a3e32e918c125a14c5b04002cc1f61e9d1d39bfce5daaa06d09e58b",
+      "scene": "温暖阁楼内身穿背带裤的父亲与失明少女并肩低头触摸桌面木制城市模型",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: 温暖阁楼内身穿背带裤的父亲与失明成年虚构人物并肩低头触摸桌面木制城市模型. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c899f297709a5774": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c899f297709a5774-bd492485de8d.png",
+      "filename": "src-c899f297709a5774-bd492485de8d.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 2600054,
+      "sha256": "bd492485de8d26faa36a3e7b12cd829972c46f4622816074cf0628b009ea0bc3",
+      "scene": "竖幅黑白摄影画面中，身材魁梧、留着八字胡并身穿牛仔背带裤配深色衬衫的年长农场主双手紧握重物怒视前方。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: Vertical black-and-white medium close-up, a burly mustachioed farmer wearing denim overalls over a dark shirt stands holding a heavy tool.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c8a0ea661538fce6": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8a0ea661538fce6-69ee32c48f06.png",
+      "filename": "src-c8a0ea661538fce6-69ee32c48f06.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2288917,
+      "sha256": "69ee32c48f068ab2c1aafb5bec9cf37796668494030f418e36b5b7a758c324fc",
+      "scene": "十九世纪乡村学堂地球仪旁，扎麻花辫的少女莉莲·吉什与青梅竹马的少年并肩站在黑板前",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: 十九世纪乡村学堂地球仪旁，扎麻花辫的成年虚构人物莉莲·吉什与青梅竹马的成年虚构人物并肩站在黑板前. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c8a4bdbe0ae2e2fe": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8a4bdbe0ae2e2fe-a999fbf492eb.png",
+      "filename": "src-c8a4bdbe0ae2e2fe-a999fbf492eb.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2551167,
+      "sha256": "a999fbf492ebaca2c6130c1003b9d07f596286b1603211ef27f16b9729cd90a9",
+      "scene": "惊涛骇浪的二维手绘动画远景，一头巨大的青绿色海龙王正从翻涌的深海巨浪中昂首腾起，与渺小的木船对峙，气势恢宏。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: 2D animated mythical seascape wide shot, a giant green sea dragon rising amidst foaming ocean waves, realistic period film still, natural lighting and shadow detail, 35mm cinema lens texture and balanced composition.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c8a4b30a7979f619": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8a4b30a7979f619-f09999c70857.png",
+      "filename": "src-c8a4b30a7979f619-f09999c70857.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1983816,
+      "sha256": "f09999c708579f944a0035320850b7a35866c2d71209bd9d3bfe67846b303895",
+      "scene": "统营小旅馆温暖的韩式地铺上刘俊相身穿白衬衫斜倚在红色棉被卷上面露微笑",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: High-angle medium close-up of Korean actor Yoo Joon-sang in a white button-down shirt reclining against a stack of bright red patterned floor bedding, smiling warmly toward the right, Hong Sang-soo style, 50mm lens.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c8a8855ad4ebd71a": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8a8855ad4ebd71a-02a6608604d3.png",
+      "filename": "src-c8a8855ad4ebd71a-02a6608604d3.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2367790,
+      "sha256": "02a6608604d39ad4b5e1fa2a3b559b709b4b7886d86a520db6cceb562a984253",
+      "scene": "罗伯特·德尼罗与格蕾丝·海托华在首映礼黑色背景板前并肩微笑合影",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: Medium close-up vertical portrait of Robert De Niro in a dark blazer over a black polo shirt with white collar trim standing beside Grace Hightower in a sleeveless black-and-white dress against a dark premiere backdrop, soft even flash lighting, natural warm skin tones, crisp focus, 50mm lens.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c8bf8030b8e0ad0c": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8bf8030b8e0ad0c-210014ec1ce0.png",
+      "filename": "src-c8bf8030b8e0ad0c-210014ec1ce0.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2500041,
+      "sha256": "210014ec1ce069aeb69f2df7e41148ed32cb19a8744b23c992a842a32845b390",
+      "scene": "黑白剧照的客厅壁炉旁，马奇太太坐在扶手椅上，乔、艾米、梅格与贝丝四姐妹亲密地围拢在母亲身边。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: Black-and-white medium wide group shot in Little Women (1933), the four March sisters (Katharine Hepburn, Joan Bennett, Frances Dee, Jean Parker) gathered lovingly around their mother Marmee (Spring Byington).. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c8c0cf1895b32ee7": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8c0cf1895b32ee7-38c92ba9f8a4.png",
+      "filename": "src-c8c0cf1895b32ee7-38c92ba9f8a4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3432249,
+      "sha256": "38c92ba9f8a48f2b6c121ad993f51877e258a9540ee81b1f1980ce45f07855e2",
+      "scene": "两名骑行者背对镜头沿柏油路前行，左侧人物穿蓝衣背双肩包，右侧人物穿粉衣背深色包。道路两侧是秋季树木与落叶，背景可见房屋建筑。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: 两名骑行者背对镜头沿柏油路前行，左侧人物穿蓝色上衣背双肩包，右侧人物穿粉色上衣背深色背包，两人均骑单车。道路两侧是秋季树木，树叶呈黄绿相间色调，地面散落枯叶。背景可见白色房屋建筑与灌木丛。画面采用平视视角，人物位于中下部，环境占据大部分画面，光线柔和自然，整体呈现宁静的秋日骑行场景。. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c8ad50eddf3ae6e8": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8ad50eddf3ae6e8-c3215618f7a6.png",
+      "filename": "src-c8ad50eddf3ae6e8-c3215618f7a6.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2319995,
+      "sha256": "c3215618f7a67a6e7e7a99d33d12ac0d47dcd47300f2456b15d9f116c669923a",
+      "scene": "淋浴间内，一名长发人物站立在淋浴帘后，身体被水雾和帘子遮挡，背景是米黄色瓷砖墙面，右侧壁龛内放置着洗浴用品。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: 淋浴间场景，透过半透明塑料淋浴帘拍摄，帘子呈现垂直条纹纹理并带有水珠。画面中央站立一名长发人物，头发湿透呈深色，面部和上半身轮廓透过帘子隐约可见。背景是米黄色方形瓷砖墙面，左上角有一块蓝绿色花纹装饰瓷砖。右侧墙壁设有内嵌式壁龛，里面放置着两瓶白色和透明的洗浴用品瓶。左下角可见金属淋浴喷头和部分粉红色织物。整体色调偏冷绿，光线柔和，画面带有水雾朦胧感，营造出潮湿私密的浴室氛围。. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c8b824a61b3ea6a2": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8b824a61b3ea6a2-a01eea54c508.png",
+      "filename": "src-c8b824a61b3ea6a2-a01eea54c508.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2704403,
+      "sha256": "a01eea54c5081b1d63298b352d820a34fac6355c3ef9ba7b867f1d7d6fdedfb1",
+      "scene": "怪石嶙峋的地下溶洞内，身穿白衬衫与深色长裙的少女独自站在陡峭粗糙的岩壁旁。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: Full vertical shot inside a rugged underground cavern showing a young woman in a white blouse and dark skirt standing beside jagged rock walls, 1980s fantasy adventure.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c8cd4cd01b975090": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8cd4cd01b975090-9f352e2604c6.png",
+      "filename": "src-c8cd4cd01b975090-9f352e2604c6.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2115539,
+      "sha256": "9f352e2604c6178093e3981d313659937937c33f3205c9bda5418e953a1c4824",
+      "scene": "赌场扑克锦标赛桌旁头戴牛仔帽穿花纹西部衬衫的男子仰靠椅背",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: 赌场扑克锦标赛桌旁头戴牛仔帽穿花纹西部衬衫的男子仰靠椅背. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c8d2cdffffc24dbe": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8d2cdffffc24dbe-9d63c24a6eba.png",
+      "filename": "src-c8d2cdffffc24dbe-9d63c24a6eba.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2019177,
+      "sha256": "9d63c24a6ebaa84751fdb77521bcc54c343ba50002d6dd143b635adc0627afbd",
+      "scene": "室内走廊，一名穿深色西装的男子站在右侧柜台前，左侧前景是一名背对镜头的短发人物，背景可见吊灯和植物。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: 室内场景，左侧前景是一名留着棕色短发的人物，身穿浅灰色长袖衬衫，背对镜头站立。右侧中景处，一名身穿深褐色西装、白衬衫和深色领带的男子站在白色瓷砖柜台前，双手正在操作台面上的玻璃器皿。背景是宽敞的走廊，地面铺设黑白格纹地砖，远处可见红色沙发、绿色盆栽和悬挂的水晶吊灯。顶部有一盏圆形吸顶灯发出暖光，右侧墙面挂有黑色电话听筒。整体色调偏冷，光线柔和，具有复古室内氛围。. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c8cf85ca333cac79": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8cf85ca333cac79-04a0cac1a50d.png",
+      "filename": "src-c8cf85ca333cac79-04a0cac1a50d.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1490512,
+      "sha256": "04a0cac1a50defe0831a3eaafa98c148b0a3a1312cbe60942230aa2adbfc5a98",
+      "scene": "纯黑背景的高反差黑白肖像中头戴黑色棒球帽与黑框眼镜的导演巴瑞·莱文森凝视镜头",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create a high-contrast black-and-white close-up portrait of an anonymous middle-aged film director wearing a dark cap and eyeglasses against a deep black background. Natural facial features, simple dramatic portrait lighting."
+    },
+    "src-c8d664e448f1c224": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8d664e448f1c224-d636c6a429a5.png",
+      "filename": "src-c8d664e448f1c224-d636c6a429a5.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2809994,
+      "sha256": "d636c6a429a58e56b1e8c7d5737d21f3d86379c3b4765565e1e81fda5410eb82",
+      "scene": "阳光明媚的郊区住宅车道上，身穿格纹外套的建筑师查理与妻子珍妮及一双儿女并肩站立，微笑着挥手道别",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: Medium group shot on a sunny suburban street of architect Charlie Wilcox played by Christopher Lloyd, wife Jenny played by Shelley Duvall, and their two young adult waving goodbye together, 1990s family comedy, 35mm grain.. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c8d555c98ca74a0f": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8d555c98ca74a0f-3a371dbfcc73.png",
+      "filename": "src-c8d555c98ca74a0f-3a371dbfcc73.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2269705,
+      "sha256": "3a371dbfcc73d516819eb2a25919a6353730f350ce867c6369207cc700602af3",
+      "scene": "90年代复古轿车或列车车厢内，留着胡茬、神情阴郁的德国医生门格勒与身旁戴毛线帽的小女孩低头对视",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: 拉美历史悬疑剧情片车厢内景双人近景，20世纪60年代复古列车或老式汽车米色车厢内，左侧留着修剪整齐胡茬、身穿深色毛呢大衣配白衬衫的中年德国男子微微低头，正用深不可测的温和眼神注视着右侧头戴深色毛线帽、身穿厚毛衣的金发小女孩，柔和的窗外自然光照明，细腻冷峻的35毫米胶片色调。. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c8dc542024cbfe28": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8dc542024cbfe28-a1cda0e8a517.png",
+      "filename": "src-c8dc542024cbfe28-a1cda0e8a517.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2038475,
+      "sha256": "a1cda0e8a517ac226841b33912bff653267ed46e5ceabc8ee10e286e4096bbb3",
+      "scene": "一位深色长发女子坐在昏暗的室内，身穿白色无袖上衣，右手举着一只透明高脚酒杯，背景是模糊的暖色灯光和深色家具轮廓。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: 一位深色长卷发女子坐在昏暗的室内，身穿白色无袖上衣，右手举着一只透明高脚酒杯，杯中盛有透明液体。人物面部清晰，神情平静，目光直视前方。背景虚化，可见模糊的暖色灯光和深色家具轮廓，营造出一种静谧、复古的氛围。光线柔和，呈暖黄色调，从侧前方照亮人物面部与手臂，形成柔和的明暗过渡。画面具有胶片质感，色彩浓郁，景深较浅，焦点集中在人物面部与手部动作上。. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c8d7e0ab3972fc2a": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8d7e0ab3972fc2a-d3b2e4c6cb8f.png",
+      "filename": "src-c8d7e0ab3972fc2a-d3b2e4c6cb8f.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1938653,
+      "sha256": "d3b2e4c6cb8fe300474e82bd6734ac6d47deac0c9730ff41313e436efc5440bf",
+      "scene": "温暖木质马厩内三维动画小绵羊犹大上下颠倒、睁着翠绿大眼睛惊奇张望的特写",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: 3D animated close-up from The Lion of Judah , the heroic lamb Judah upside-down with wide green eyes inside a warm brown stable.. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c8e5c8769cf0c508": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8e5c8769cf0c508-4305186c17b4.png",
+      "filename": "src-c8e5c8769cf0c508-4305186c17b4.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2248082,
+      "sha256": "4305186c17b4f14cff3ef8763d2ef3cb6774f60c2a83c4502ce8e6508793e7de",
+      "scene": "复古绿轿车内，特效化妆扮演希区柯克的安东尼·霍普金斯与金发斯嘉丽·约翰逊开心大笑",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: 传记电影《希区柯克》（Hitchcock, 2012，萨沙·杰瓦西执导）复古轿车双人近景剧照，浅绿色老式敞篷车内，左侧安东尼·霍普金斯（Anthony Hopkins）特效化妆扮演肥胖幽默的导演希区柯克，右侧斯嘉丽·约翰逊（Scarlett Johansson）留着金发复古卷发、身穿白色衣裙饰演女星珍妮特·利，两人开怀交谈，精致还原1960年好莱坞黄金时代风貌。. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c8e78fa4801a2292": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8e78fa4801a2292-111503e3b9de.png",
+      "filename": "src-c8e78fa4801a2292-111503e3b9de.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1863105,
+      "sha256": "111503e3b9de7f9e70a2cf1e52e512a4b4879cb0de9fa2cc8eb066dcd104f079",
+      "scene": "阴暗冷峻的现代化高安全度监狱玻璃牢房旁，身穿深色囚服衬衫的硬汉雷·布雷斯林右手持一把黑色手枪指向右侧，正侧身警惕地注视左前方。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: 现代越狱动作片室内中近景，在光线幽暗、由钢铁支架与透明玻璃牢房构成的地下秘密监狱内，身材魁梧健硕、留着短发的老年硬汉男主角雷·布雷斯林身穿深蓝灰色囚服衬衫站在画面偏左处；他右手稳稳握住一把黑色半自动手指向画面右下方，正转过头用一双冷酷锐利的眼睛警惕地盯视着左前方。. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c8ee05f301b06336": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8ee05f301b06336-0074e85462d4.png",
+      "filename": "src-c8ee05f301b06336-0074e85462d4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1996019,
+      "sha256": "0074e85462d48e763b0bdddb09c9cef7b7da238112f83b4eb3e63cdd229fc798",
+      "scene": "昏暗暖光卧室俯拍画面中赤裸的青年与成熟女子相互交缠仰卧在床榻之上",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: High-angle medium shot inside a dimly lit bedroom, a young man and a mature woman lying intertwined on a bed in warm low-key interior lighting, intimate Scandinavian drama cinematography.. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c8f3dbd468e63dc4": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8f3dbd468e63dc4-97360398d6e4.png",
+      "filename": "src-c8f3dbd468e63dc4-97360398d6e4.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2241882,
+      "sha256": "97360398d6e46036dacf8de757edd5b02dd64777de93d43bd30007c02871a018",
+      "scene": "刺眼晴空下三名里约贫民窟黑人少年并立且左侧白帽少年平举手枪中景",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create a sunlit outdoor medium three-shot of three fictional adult young men standing on a hillside under a bright sky, casual clothing, serious thoughtful expressions, arms resting naturally at their sides. Low camera angle, candid drama composition."
+    },
+    "src-c8eb29e39bc6fa6f": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8eb29e39bc6fa6f-e5c236c00b21.png",
+      "filename": "src-c8eb29e39bc6fa6f-e5c236c00b21.png",
+      "width": 1672,
+      "height": 940,
+      "bytes": 2061109,
+      "sha256": "e5c236c00b215b2c4ac79b2dd60b3c1eb8473cb9d24677d41d1eeb97517d2600",
+      "scene": "户外阳光下穿明黄无袖背心的胡须男子右手夹着一根冒烟雪茄凑近嘴边的近景",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: Outdoor medium close-up from Buddy Games , Zane  wearing a yellow tank top holding a smoking cigar between his fingers.. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c8f45a701d3c3f4f": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8f45a701d3c3f4f-3e386c032fd2.png",
+      "filename": "src-c8f45a701d3c3f4f-3e386c032fd2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1634755,
+      "sha256": "3e386c032fd2ce00e8b4f90409962961fa1e2bea2e663f37f64cfb879f2006d1",
+      "scene": "昏暗室内，一名男子半躺靠在床头，双手持书阅读，上方悬挂一盏亮着的灯泡，左侧大面积黑暗。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: 昏暗的室内卧室场景，一名卷发男子身穿浅色T恤和短裤，半躺靠在米色大靠枕上，双手持一本打开的书正在阅读。他的双腿向前伸展，赤脚，身体姿态放松。头顶上方悬挂着一盏发出明亮白光的灯泡，是画面主要光源，照亮了男子的面部和手中的书本。画面左侧是大面积的黑暗阴影，右侧边缘有模糊的垂直遮挡物，整体色调偏暗，光影对比强烈，营造出深夜静谧的阅读氛围。. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c8f61bdd03cd86f4": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8f61bdd03cd86f4-be182ad256fc.png",
+      "filename": "src-c8f61bdd03cd86f4-be182ad256fc.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2340282,
+      "sha256": "be182ad256fc944b3ab0ca04eca205963cbc1dab98d56e99d521ff50cdfc546e",
+      "scene": "竖版英文海报中头戴礼帽穿皮草的让娜·莫罗与年轻护工并肩走在巴黎街头",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: Vertical English theatrical poster for A Lady in Paris, showing Jeanne Moreau in a fur coat and hat walking beside Laine Magi along a bright Parisian street with soft title typography.. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c8f97ea3e4cfa9c3": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8f97ea3e4cfa9c3-d2c2ce05fd92.png",
+      "filename": "src-c8f97ea3e4cfa9c3-d2c2ce05fd92.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2000278,
+      "sha256": "d2c2ce05fd926ac002b5e5ac7b1bac7e318c5722552336876e46c0b8c8cd07a3",
+      "scene": "红蓝警灯闪烁的暗夜街头一名披散长发的拉丁裔女子站在轿车旁满脸惊恐地望向前方",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: Medium close-up night shot beside a parked car, a dark-haired woman looking ahead in sheer terror while red and blue police lights flash in the dark blurred background, high-contrast moody horror cinematography.. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c8fb085dc2f03a37": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8fb085dc2f03a37-c63b36a141cf.png",
+      "filename": "src-c8fb085dc2f03a37-c63b36a141cf.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2179127,
+      "sha256": "c63b36a141cfa672dc6e6572523d992e75ba5cb015cd6c637a72e67468b2d501",
+      "scene": "阴森的魔法地牢刑架上，容貌绝美的阿丽娜公主（亚历山德拉·马提尼斯）被铁链锁住双臂，仰面躺在红绸软垫上",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: Dungeon torture rack medium close-up showing beautiful Princess Alina lying back in chains against red velvet padding indoors.. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c8f8ab4236e3cf52": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8f8ab4236e3cf52-1abe3bb6a10a.png",
+      "filename": "src-c8f8ab4236e3cf52-1abe3bb6a10a.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2245608,
+      "sha256": "1abe3bb6a10a34eb270608724a33b3772f8b575db02bb84f995ccbf58082ade7",
+      "scene": "机场通道双人近景中，身穿米色风衣的年轻波兰指挥家亚当与戴着眼镜的小提琴手妻子玛尔塔并立守候。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: 1980 Andrzej Wajda Polish drama The Orchestra Conductor  medium close-up two-shot, Andrzej Seweryn in a trench coat and suit standing beside bespectacled Krystyna Janda.. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c9045eb55cf48476": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c9045eb55cf48476-799e49ae8b3e.png",
+      "filename": "src-c9045eb55cf48476-799e49ae8b3e.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2009350,
+      "sha256": "799e49ae8b3e6a89aee814d55cda0c0242a571ec3c4932a74896f6799476ee67",
+      "scene": "演播室近景中留着齐刘海短发的俄罗斯女演员身穿紫衫系花丝巾在镜头前娓娓道来",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: A bright television studio medium close-up from the Russian talk show Secret for a Million showing actress Elena Tsyplakova in a purple blouse gesturing while speaking.. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c8ff02331f49b04f": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c8ff02331f49b04f-667d54c521a3.png",
+      "filename": "src-c8ff02331f49b04f-667d54c521a3.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2737642,
+      "sha256": "667d54c521a31436265657bd616b57d86c88d0c489cd6a08b2f7de6713b87872",
+      "scene": "阳光斑驳的翠绿树林里，身穿白色吊带背心与牛仔短裤的金发女子抱臂站在三脚架摄像机旁",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: Medium-wide shot in a sunlit green forest showing a blonde woman in a white tank top and denim shorts standing beside a camera on a tripod.. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c90c3588beaae10f": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c90c3588beaae10f-6fbe7527aef2.png",
+      "filename": "src-c90c3588beaae10f-6fbe7527aef2.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1811572,
+      "sha256": "6fbe7527aef2b0c5f879545491f78f85a60911ad63c7e5344a9fa1a36d82e830",
+      "scene": "幽暗阴森的纳粹幽灵船船舱内，留着棕色卷发的海难幸存女子维多利亚·布尔戈因与身穿黑毛衣的尼克·曼库索面对面站立，神色警惕",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: Low-key medium two-shot inside a dark ship cabin from Death Ship, Victoria Burgoyne and Nick Mancuso standing face to face.. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c90e773aa9126336": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c90e773aa9126336-b09f9252c85f.png",
+      "filename": "src-c90e773aa9126336-b09f9252c85f.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2950382,
+      "sha256": "b09f9252c85f9f0933fc2041603a423f951a93ecbd393cfe4700516b2562b920",
+      "scene": "复古彩绘海报中两名头戴繁复花冠、身穿传统纱笼的东南亚女子并肩而坐",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: Vintage 1950s German illustrated film poster titled Der verlorene Kontinent depicting two Southeast Asian women wearing ornate floral headdresses and traditional sarongs against a pale sky.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c90dae07262c6684": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c90dae07262c6684-7f1ea7a5e27e.png",
+      "filename": "src-c90dae07262c6684-7f1ea7a5e27e.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2587695,
+      "sha256": "7f1ea7a5e27ef22b9f6229c4e45f4ae86d069d6e7eda50613f6acafaf775b577",
+      "scene": "纯黑背景的苏联先锋派风格海报，一道倾斜的白色条块被鲜红的叉号划破，上面印有正反双向排列的黑色俄文片名切尔诺夫。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: Constructivist-style Soviet poster on a pitch-black background featuring a diagonal white band crossed with red lines and Cyrillic text.. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-c91536063f37a4ed": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c91536063f37a4ed-7568c7a5d3a8.png",
+      "filename": "src-c91536063f37a4ed-7568c7a5d3a8.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1816309,
+      "sha256": "7568c7a5d3a81bdee86af99c050b1e5224ff5adc7fc655722c32d8847a536d8b",
+      "scene": "一名身穿深橄榄绿军装的男子坐在室内，神情严肃地望向侧方。背景是带有玻璃展柜的走廊，柜内陈列着模糊的深色物体，整体环境显得庄重且光线偏冷。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: 一名深色短发的男子身穿深橄榄绿军装，胸前佩戴名牌，系着浅色领带，坐在室内。他身体微侧，双手交叠，神情凝重地望向画面左侧。背景是模糊的室内走廊，左侧有高大的玻璃展柜，柜内隐约可见深色的陈列物。环境光线柔和偏冷，侧光打在人物面部，勾勒出清晰的轮廓，整体色调沉稳，具有电影质感。. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c918dd6845b67516": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c918dd6845b67516-f1946848a333.png",
+      "filename": "src-c918dd6845b67516-f1946848a333.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2119124,
+      "sha256": "f1946848a33394a3a13be30e619ae2cc717d5b39b009080fcf738d1cb9cf5742",
+      "scene": "透过六十年代敞篷老爷车的前挡风玻璃，可见戴着墨镜的俱乐部大亨菲尔与青年杰弗里并排坐着。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: Medium frontal two-shot through a vintage 1960s convertible windshield showing an older man and a young man both wearing sunglasses.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c9174a018dc9631b": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c9174a018dc9631b-1edcbb4220a6.png",
+      "filename": "src-c9174a018dc9631b-1edcbb4220a6.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2147376,
+      "sha256": "1edcbb4220a607d15c63f8beb96077da2a4ba4fe1dc210605d0b1ede48335384",
+      "scene": "哥特内景中景，梳着高耸黑发、身穿黑色深V礼服的艾尔维拉站在铁艺屏风与红沙发旁",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create a gothic comedy interior still featuring a fictional woman with a tall black beehive hairstyle wearing an elegant high-neck black vintage dress, standing beside a wrought-iron screen and a red sofa. Warm theatrical lighting, medium shot."
+    },
+    "src-c91a647bee4b5d87": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c91a647bee4b5d87-15edeaf6abfa.png",
+      "filename": "src-c91a647bee4b5d87-15edeaf6abfa.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 2037904,
+      "sha256": "15edeaf6abfa8d75c04987f77e3e5a723126dc70e9530132ae00425824fb1d95",
+      "scene": "室内满头白发与胡须的虔诚老牧师普里菲（奥西·戴维斯饰）身穿条纹西装神情严厉的黑白竖幅特写",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: 电影感斯派克·李种族家庭剧情片室内黑白竖幅特写，1991年《丛林热》（Jungle Fever）剧照，光线柔和的室内，传奇黑人演员奥西·戴维斯饰演的严厉老父亲普里菲牧师半身特写，他留着花白短发与浓密八字胡，身穿深色竖条纹西装与白衬衫领带，正眉头紧锁、神情严肃威严地望向画面左前方。. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c91d246dd3266d20": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c91d246dd3266d20-4fa3d6ee441a.png",
+      "filename": "src-c91d246dd3266d20-4fa3d6ee441a.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2470232,
+      "sha256": "4fa3d6ee441a746d6d028a58bf5cf62cb6370052182ae08506116cf6ed612a37",
+      "scene": "德克萨斯州阳光下的木质围栏旁头戴棒球帽且身穿工装围裙的退伍士兵与战友并肩站在畜栏边交谈",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: 美国独立反战剧情片户外农场双人中近景镜头，阳光刺眼的德克萨斯州乡村木质畜栏旁，两名年轻白人男子并排站立，左侧男子（瑞恩·奥南饰）头戴深色棒球帽、留着络腮胡，身穿红蓝格子衬衫与沾有污渍的白色工装围裙，正低垂着头神情落寞，右侧留着棕色短发的战友（杰森·里特饰）身穿深色T恤正转头关切地看着他。. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c921c09659e302d6": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c921c09659e302d6-42c9b484449a.png",
+      "filename": "src-c921c09659e302d6-42c9b484449a.png",
+      "width": 1754,
+      "height": 896,
+      "bytes": 2421241,
+      "sha256": "42c9b484449aebda9c139bea846e10103ab6e6a10b1ff52ca7e21e47674928a4",
+      "scene": "四名身穿深色西装打领带的年轻好友围坐在餐厅白色餐桌旁闲聊。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: A medium group shot of young men in late-1950s suits including Mickey Rourke, Kevin Bacon, and Daniel Stern sitting around a restaurant table conversing, 1982 comedy drama, 35mm grain.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c9256f915f36fe5e": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c9256f915f36fe5e-61b185f47d81.png",
+      "filename": "src-c9256f915f36fe5e-61b185f47d81.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2179694,
+      "sha256": "61b185f47d8134fea97e9418320bf2b2fff32ab4ab703c7f10a3db0ee816162e",
+      "scene": "冷蓝光影怪物近景，一只通体褐黑色、长着硕大凸眼与森白尖牙的粘液变异怪物在暗处狰狞咆哮。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: Low-key medium close-up in eerie blue light, a grotesque slimy brown mutant creature with bulging eyes and sharp teeth snarling in a dark corridor, 1987 sci-fi horror practical effects, 35mm film grain.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c92aff17dca324be": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c92aff17dca324be-63036383d0ab.png",
+      "filename": "src-c92aff17dca324be-63036383d0ab.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2268756,
+      "sha256": "63036383d0ab4730493b022ca53e49d8985ac0f0e28e3abe1c0767d3680c2545",
+      "scene": "家庭内景中景，身穿白衬衫配深色马甲的凯瑟琳·劳埃德在厨房餐厅与年长女子交谈",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: Interior medium two-shot of Kathleen Lloyd in a white blouse and dark vest speaking with an older woman in a suburban kitchen and dining room.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c929b359600427c7": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c929b359600427c7-65a6812f7599.png",
+      "filename": "src-c929b359600427c7-65a6812f7599.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1664470,
+      "sha256": "65a6812f7599f4ab48d5172780679f662bce21b60b6bb4d424f79bf744601ae2",
+      "scene": "幽暗的房间低角度镜头下，戴手套的杀手高举一把寒光闪闪的尖刀刺向床上的受害者",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: 幽暗的房间低角度镜头下，戴手套的杀手高举一把寒光闪闪的尖刀刺向床上的受害者. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c93a8315b23fbcff": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c93a8315b23fbcff-eb10ce039814.png",
+      "filename": "src-c93a8315b23fbcff-eb10ce039814.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 1596420,
+      "sha256": "eb10ce039814453d4b370ece03670b099ed69294aca4125e94ee4346c312db88",
+      "scene": "夜晚水边，两人并排坐于岩石上，女子手持棕色文件夹，男子侧身指向文件夹，背景为远处城市灯光。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: 夜晚水边岩石上，两人并排而坐，女子长发，手持棕色文件夹，男子卷发，侧身指向文件夹。背景远处城市灯光形成模糊光斑，水面平静反射微光。画面整体极暗，仅靠微弱火光或反射光勾勒人物轮廓，色调偏冷暗，人物面部及衣物细节隐没在阴影中，仅能辨识大致形态。. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c948fa2433d17a67": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c948fa2433d17a67-d2a5111a5c4d.png",
+      "filename": "src-c948fa2433d17a67-d2a5111a5c4d.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2420878,
+      "sha256": "d2a5111a5c4df0e9f1e72b3500369596cb53b860db767fea4afff1d2e43b94bb",
+      "scene": "新德里婚礼筹备房间内几名身穿白色与金色传统印度纱丽的女性亲属围站交谈",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: Indoor medium group shot, Indian women including Vasundhara Das and Shefali Shah dressed in white and gold saris, cinematic film still with rich lighting, atmospheric depth, and detailed composition.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c9440d6d445340ca": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c9440d6d445340ca-4277b86ccf75.png",
+      "filename": "src-c9440d6d445340ca-4277b86ccf75.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2560436,
+      "sha256": "4277b86ccf75ddb2c657b32e350efa234f45e3a1493723d29d48a440fd954156",
+      "scene": "蔚蓝天空下的二维动画特写展现脸上带刀疤的紫发古代武将神色冷峻",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: Close-up Japanese anime frame against a bright blue sky, a scarred ancient warrior with long purple hair staring ahead with fierce determination.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c950f9b4bf32d3b0": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c950f9b4bf32d3b0-fc4fc104fbc2.png",
+      "filename": "src-c950f9b4bf32d3b0-fc4fc104fbc2.png",
+      "width": 1752,
+      "height": 897,
+      "bytes": 2011855,
+      "sha256": "fc4fc104fbc21a8b35dd7af9d056721240caaf752bf4087d5a96ebda84c6a9cc",
+      "scene": "鲜艳的翠绿色背景幕布前，两名身穿深色西装外套内搭敞领衬衫的男子并排而立，脸上带着冷面滑稽的喜剧表情。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: Medium close-up two-shot against a bright green background, two men in dark blazers and collared shirts look ahead with deadpan comic expressions.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c964c2850ee6cd93": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c964c2850ee6cd93-a3f5a29bb51f.png",
+      "filename": "src-c964c2850ee6cd93-a3f5a29bb51f.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1882731,
+      "sha256": "a3f5a29bb51f189adb346d8b8ed52761276e8f344f2c70fecec22c3a7c5f49e4",
+      "scene": "黑白昏暗的布鲁克林街头车窗旁，身穿皮衣的叛逆不良少年多米尼克（彼得·多布森）正歪头露出桀骜不驯的坏笑",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: Black-and-white nighttime street medium close-up of rebellious youth Dominic sitting inside a car and smirking through the window.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c9576944eb60223a": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c9576944eb60223a-6b0ef560c6e8.png",
+      "filename": "src-c9576944eb60223a-6b0ef560c6e8.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2082354,
+      "sha256": "6b0ef560c6e8c62549cef33a64bf6d5e8dc4b9a6c5d9a697cfcd79cc168166ec",
+      "scene": "柔和户外自然光下头戴绿色宽檐软帽并系着格纹围巾的英国贵族少妇温婉微笑",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: Soft-focus outdoor close-up, Judi Bowker in an Edwardian green hat and plaid scarf smiling gently in an English country estate.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "src-c96c072b90720ca3": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c96c072b90720ca3-53ae079e138b.png",
+      "filename": "src-c96c072b90720ca3-53ae079e138b.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2040760,
+      "sha256": "53ae079e138bfc5df6eba48a71cbed633c7ebf58a20a3f74a858e3d77c3098b4",
+      "scene": "一名金发女性面部占据画面主体，额头至鼻梁处有红色液体流下，双眼圆睁，背景为模糊的灰绿色门框结构。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create an extreme close-up of a fictional blonde woman with fine braids, wide startled eyes and lips slightly parted. Cool grey-green blurred doorway background, soft lighting, restrained psychological drama mood."
+    },
+    "src-c971d5e8f9095685": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c971d5e8f9095685-4c81366f6f93.png",
+      "filename": "src-c971d5e8f9095685-4c81366f6f93.png",
+      "width": 1774,
+      "height": 887,
+      "bytes": 2364847,
+      "sha256": "4c81366f6f93c6a2cf6deb140cded75e6041bfd8304f38be3f7a4cb885c7329c",
+      "scene": "音乐学院教学楼走廊窗前，双胞胎姐妹朱丽叶与薇薇安面对面冷淡对视，气氛微妙紧绷。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create an original scene based on this first-shot description: A tense backlit medium close-up two-shot in front of bright school windows, showing blonde twin sisters Sydney Sweeney and Madison Iseman facing each other.. Preserve the composition, setting, visible subject and objects, camera angle, lighting, palette and mood. Represent people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
     }
   }
 }
