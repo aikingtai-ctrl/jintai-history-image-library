@@ -1110,8 +1110,13 @@ function renderHlb(){
   if(regen){
     historyOriginalUrl(regen).then(url=>{
       if(HLB.request!==request)return;
-      originalSrc=url;im.src=url;raw.href=url;raw.textContent='新窗口查看原始 PNG ↗';
+      originalSrc=url;raw.href=url;raw.textContent='新窗口查看原始 PNG ↗';
       download.href=url+'?download=1';download.hidden=false;
+      $('hlbNote').textContent='高清预览已显示，原始 PNG 正在后台加载…';
+      const full=new Image();
+      full.onload=()=>{if(HLB.request===request)im.src=url;};
+      full.onerror=()=>{if(HLB.request===request){originalFailed=true;originalSrc='';$('hlbNote').textContent='原始 PNG 暂不可用，当前显示预览图。';}};
+      full.src=url;
     }).catch(()=>{if(HLB.request===request)$('hlbNote').textContent='原始 PNG 暂不可用，当前显示预览图。';});
   }else if(songOriginal){
     originalSrc=songOriginal;im.src=songOriginal;raw.href=songOriginal;raw.textContent='新窗口查看原始 PNG ↗';
