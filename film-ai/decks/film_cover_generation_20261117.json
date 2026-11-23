@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-23T09:25:28.597068+00:00",
+  "snapshot_time_utc": "2026-11-23T09:29:27.807251+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -19330,6 +19330,20 @@
       "file": "film-ai/decks/film-src-798d7bcceb2d9614.webp",
       "sha256": "7996641eff454bffcbb6c2b987ea219e9ff85b00dd9abb2f62927f1e4a9ed2dc",
       "bytes": 407390,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-5d68d2c97f3ce9b5",
+      "wid": "src-5d68d2c97f3ce9b5",
+      "title": "The Sleeping Tiger",
+      "file": "film-ai/decks/film-src-5d68d2c97f3ce9b5.webp",
+      "sha256": "751cadc18748d8ef91870c41a407c715b7abc9bb1ae96c9d668c02e8529f3815",
+      "bytes": 141784,
       "size": [
         1672,
         941
