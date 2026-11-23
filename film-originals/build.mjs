@@ -1,0 +1,72 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import { execFileSync } from 'node:child_process';
+
+const root = new URL('../', import.meta.url);
+const read = file => fs.readFileSync(new URL(file, root), 'utf8');
+const first = JSON.parse(read('film-originals/data.json')).images.slice(0, 1000);
+const context = { window: {} };
+vm.runInNewContext(read('film-ai/manifest.js'), context);
+const images = context.window.FILM_AI_IMAGES;
+const works = [];
+context.window.__FILM_VW_SHARD__ = (_index, rows) => works.push(...rows);
+for (const name of fs.readdirSync(new URL('d3/', root)).filter(name => /^vw\d\d\.js$/.test(name)).sort()) {
+  vm.runInNewContext(read(`d3/${name}`), context);
+}
+const byWid = new Map(works.map(work => [work.wid, work]));
+const tracked = new Set(execFileSync('git', ['ls-tree', '-r', '--name-only', 'HEAD', 'film-ai'], { cwd: root, encoding: 'utf8', maxBuffer: 50 * 1024 * 1024 }).trim().split('\n'));
+const revision = execFileSync('git', ['rev-parse', 'HEAD'], { cwd: root, encoding: 'utf8' }).trim();
+const raw = `https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/${revision}/`;
+const used = new Set(first.map(row => row.wid));
+for (const row of first) {
+  if (!row.png?.url || !row.thumbnail || !byWid.has(row.wid)) throw new Error(`Invalid existing original: ${row.wid}`);
+  const work = byWid.get(row.wid);
+  row.alternateTitle = work.te && work.te !== row.title ? work.te : '';
+}
+const additions = [];
+for (const work of works) {
+  const image = images[work.wid];
+  if (used.has(work.wid) || !image || !tracked.has(image)) continue;
+  if (!/^film-ai\/[a-zA-Z0-9_./-]+\.(?:jpe?g|webp|png)$/i.test(image)) throw new Error(`Unexpected image path: ${image}`);
+  used.add(work.wid);
+  additions.push({
+    ordinal: first.length + additions.length + 1,
+    wid: work.wid,
+    title: work.t || work.te,
+    alternateTitle: work.te && work.te !== work.t ? work.te : '',
+    year: work.y || null,
+    scene: null,
+    prompt: null,
+    thumbnail: raw + image,
+    png: null
+  });
+  if (first.length + additions.length === 10000) break;
+}
+const rows = first.concat(additions);
+if (rows.length !== 10000 || used.size !== 10000) throw new Error('Insufficient unique works');
+const published = rows.filter(row => row.png?.url).length;
+const data = JSON.stringify({ collected: rows.length, published, target: 10000, generationMethod: '内置 imagegen（已公开 PNG）', sourceRevision: revision, images: rows }, null, 2);
+if (/C:[\\/]+Users[\\/]+KingT|172\.16\.0\.10|generated_images|\.codex[\\/]|\b(?:sk-[A-Za-z0-9]{20,}|ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,})/i.test(data)) throw new Error('Private information in public catalogue');
+fs.writeFileSync(new URL('film-originals/data.json', root), data);
+const csv = value => '"' + String(value ?? '').replace(/"/g, '""') + '"';
+fs.writeFileSync(new URL('film-originals/movies.csv', root), '\uFEFF' + [
+  ['序号', '电影', '别名', '年份', 'WID', 'PNG状态', 'PNG原图', '参考图', '宽', '高', '字节数', 'SHA-256', '首镜描述', '实际生图提示词'],
+  ...rows.map(row => [row.ordinal, row.title, row.alternateTitle, row.year, row.wid, row.png ? '已公开' : '暂无公开原图', row.png?.url, row.thumbnail, row.png?.width, row.png?.height, row.png?.bytes, row.png?.sha256, row.scene, row.prompt])
+].map(row => row.map(csv).join(',')).join('\r\n'));
+
+const html = String.raw`<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>电影 AI 原图总览</title><style>
+*{box-sizing:border-box}body{margin:0;background:#12151a;color:#edf0f3;font:16px/1.5 system-ui,"Microsoft YaHei",sans-serif}header{padding:26px max(24px,4vw) 18px;border-bottom:1px solid #303743;background:#191e26}h1{font-size:26px;margin:0 0 8px}header p{margin:6px 0;color:#b7c1cd}a{color:#e4b964}form{position:sticky;top:0;z-index:2;background:#191e26;padding:14px max(24px,4vw);display:flex;align-items:center;gap:12px;flex-wrap:wrap;border-bottom:1px solid #303743}input{width:min(520px,100%);border:1px solid #536174;background:#0e1116;color:white;border-radius:7px;padding:10px;font-size:16px}button{border:1px solid #536174;background:#242d3b;color:#edf0f3;padding:10px 16px;border-radius:7px;cursor:pointer}button:disabled{opacity:.45;cursor:default}main{padding:24px max(24px,4vw);display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px}article{overflow:hidden;border:1px solid #343e4b;border-radius:10px;background:#1c222c;min-width:0}.photo{display:flex;align-items:center;justify-content:center;aspect-ratio:16/9;background:#080a0d}.photo img{max-width:100%;max-height:100%;width:100%;height:100%;object-fit:contain}.details{padding:16px}h2{font-size:19px;margin:3px 0 8px}.number,.wid,.alias{font-size:13px;color:#b6c2d0}.wid{overflow-wrap:anywhere}nav{display:flex;gap:18px;margin:14px 0;flex-wrap:wrap}.muted{color:#9daab9}summary{cursor:pointer;color:#b6c2d0}details p{font-size:14px}footer{padding:16px max(24px,4vw) 40px;color:#9daab9}#count{color:#c4ced9}.pager{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:0 max(24px,4vw) 22px}dialog{width:min(96vw,1500px);max-height:96vh;padding:18px;border:1px solid #536174;border-radius:10px;background:#151a22;color:#edf0f3}dialog::backdrop{background:#000c}.original-scroll{overflow:auto;max-height:76vh;text-align:center}.original-scroll img{max-width:100%;max-height:74vh;width:auto;height:auto}.original-scroll.zoom img{max-width:none;max-height:none}#original-caption{margin:10px 0}#original-close{float:right}#original-download{display:inline-block;margin:12px 20px 0 0}
+</style></head><body><header><h1>电影 AI 原图总览</h1><p>已收录 10000 部作品，PNG 原图已公开 ${published} / 10000 张。</p><p>按片名、年份或 WID 搜索；已公开的原图支持原始尺寸查看与下载。其余作品可查看电影库现有参考图。</p><p><a href="film.html">返回电影库</a> · <a href="film-originals/movies.csv" download="电影原图对照表.csv">电影与原图对照表 CSV</a> · <a href="film-originals/data.json">作品与原图 JSON</a></p></header><form onsubmit="return false"><input id="search" type="search" placeholder="搜索电影名称、年份、WID 或序号" aria-label="搜索电影"><button id="reset" type="button">清空搜索</button><button type="button" onclick="location.reload()">刷新总览</button><span id="count" aria-live="polite">加载中…</span></form><main id="gallery"></main><div class="pager"><button class="previous" type="button">上一页</button><span class="page-info"></span><button class="next" type="button">下一页</button></div><footer>已公开 PNG 原图由内置 imagegen 生成，原始尺寸与作品对应关系见对照表。新增作品使用电影库已有参考图。</footer><dialog id="original-viewer"><button id="original-close" type="button" autofocus>关闭 ✕</button><p id="original-caption"></p><div id="original-scroll" class="original-scroll"><img id="original-image" alt="PNG 原图"></div><a id="original-download" href="#" data-download>下载 PNG 原图</a><button id="original-size" type="button">原始尺寸 / 适合屏幕</button><p id="original-status" aria-live="polite"></p></dialog><script>
+const gallery=document.getElementById('gallery'),count=document.getElementById('count'),search=document.getElementById('search'),pageInfo=document.querySelector('.page-info'),previous=document.querySelector('.previous'),next=document.querySelector('.next');
+const viewer=document.getElementById('original-viewer'),originalImage=document.getElementById('original-image'),originalCaption=document.getElementById('original-caption'),originalDownload=document.getElementById('original-download'),originalScroll=document.getElementById('original-scroll'),originalStatus=document.getElementById('original-status');
+const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
+const pageSize=60;let all=[],filtered=[],page=0;
+function render(){const start=page*pageSize;gallery.innerHTML=filtered.slice(start,start+pageSize).map(row=>{const filename=(row.title+'-'+(row.year||'')+'-'+row.wid+'.png').replace(/[<>:"/\\|?*\x00-\x1f]/g,'_');const caption=row.title+' · '+(row.year||'')+(row.png?' · PNG '+row.png.width+' × '+row.png.height:'');const photo=row.png?'<a class="photo" href="'+esc(row.png.url)+'" data-view data-caption="'+esc(caption)+'" data-filename="'+esc(filename)+'"><img src="'+esc(row.thumbnail)+'" alt="'+esc(row.title)+'" loading="lazy"></a>':'<a class="photo" href="'+esc(row.thumbnail)+'" target="_blank" rel="noopener"><img src="'+esc(row.thumbnail)+'" alt="'+esc(row.title)+'" loading="lazy"></a>';const actions=row.png?'<a href="'+esc(row.png.url)+'" data-view data-caption="'+esc(caption)+'" data-filename="'+esc(filename)+'">打开 PNG 原图 ↗</a><a href="'+esc(row.png.url)+'" data-download data-filename="'+esc(filename)+'">下载原图</a>':'<a href="'+esc(row.thumbnail)+'" target="_blank" rel="noopener">打开参考图 ↗</a><span class="muted">PNG 原图未公开</span>';return '<article>'+photo+'<div class="details"><div class="number">'+row.ordinal+' · '+esc(row.year||'年份未标注')+(row.png?' · PNG '+row.png.width+' × '+row.png.height:'')+'</div><h2>'+esc(row.title)+'</h2>'+(row.alternateTitle?'<div class="alias">'+esc(row.alternateTitle)+'</div>':'')+'<div class="wid">'+esc(row.wid)+'</div><nav>'+actions+'</nav>'+(row.scene?'<details><summary>首镜头描述</summary><p>'+esc(row.scene)+'</p></details>':'')+'</div></article>';}).join('');count.textContent='显示 '+(filtered.length?start+1:0)+'–'+Math.min(start+pageSize,filtered.length)+' / '+filtered.length+' 部（总计 '+all.length+' 部）';pageInfo.textContent='第 '+(filtered.length?page+1:0)+' / '+Math.ceil(filtered.length/pageSize)+' 页';previous.disabled=page===0;next.disabled=start+pageSize>=filtered.length;}
+function filter(){const term=search.value.trim().toLocaleLowerCase();filtered=term?all.filter(row=>(row.ordinal+' '+row.title+' '+(row.alternateTitle||'')+' '+(row.year||'')+' '+row.wid).toLocaleLowerCase().includes(term)):all;page=0;render();}
+search.addEventListener('input',filter);document.getElementById('reset').onclick=()=>{search.value='';filter();search.focus();};previous.onclick=()=>{if(page>0){page--;render();scrollTo(0,0);}};next.onclick=()=>{if((page+1)*pageSize<filtered.length){page++;render();scrollTo(0,0);}};
+document.addEventListener('click',async event=>{const link=event.target.closest('a[data-view],a[data-download]');if(!link)return;if(link.hasAttribute('data-view')){event.preventDefault();originalCaption.textContent=link.dataset.caption;originalDownload.href=link.href;originalDownload.dataset.filename=link.dataset.filename;originalScroll.classList.remove('zoom');originalStatus.textContent='正在加载 PNG 原图…';originalImage.src=link.href;viewer.showModal();return;}event.preventDefault();const label=link.textContent;link.textContent='正在准备下载…';try{const response=await fetch(link.href);if(!response.ok)throw new Error();const url=URL.createObjectURL(await response.blob()),anchor=document.createElement('a');anchor.href=url;anchor.download=link.dataset.filename||'original.png';anchor.click();setTimeout(()=>URL.revokeObjectURL(url),60000);}catch{window.open(link.href,'_blank','noopener');}finally{link.textContent=label;}});
+document.getElementById('original-close').onclick=()=>viewer.close();document.getElementById('original-size').onclick=()=>originalScroll.classList.toggle('zoom');originalImage.onload=()=>{originalStatus.textContent='PNG '+originalImage.naturalWidth+' × '+originalImage.naturalHeight;};originalImage.onerror=()=>{originalStatus.textContent='原图加载失败，可点击下载后查看。';};
+fetch('film-originals/data.json').then(response=>{if(!response.ok)throw new Error();return response.json();}).then(data=>{all=data.images;filter();}).catch(()=>{count.textContent='目录加载失败，请刷新重试';});
+</script></body></html>`;
+fs.writeFileSync(new URL('film-originals.html', root), html);
+console.log(JSON.stringify({ collected: rows.length, published, added: additions.length, sourceRevision: revision }));
