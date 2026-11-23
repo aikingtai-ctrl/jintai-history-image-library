@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "113-f26ecb242422",
+  "revision": "114-42e853a1fc98",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -907,6 +907,14 @@
       "width": 1672,
       "height": 941,
       "sha256": "f26ecb242422e9bf2a65296555f9140dff5a8c80617620cd44607b799b122e58"
+    },
+    "HL-BSONG-SC-0015": {
+      "title": "北宋末东京围城",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0015.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0015.png",
+      "width": 1671,
+      "height": 941,
+      "sha256": "42e853a1fc98773123c58a57388ae30e1c01c69123ea89a71e47c0a019e4694a"
     }
   }
 }
