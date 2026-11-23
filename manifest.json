@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "26-2e12c5e49af6",
+  "revision": "27-79ff5644e81a",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -211,6 +211,14 @@
       "width": 1942,
       "height": 809,
       "sha256": "2e12c5e49af67637d56b3b32a9fd003cdd7bc99b744241cb6876e22b59e26c19"
+    },
+    "HL-LIAO-AR-0001": {
+      "title": "辽代八角楼阁式木塔",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-AR-0001.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-AR-0001.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "79ff5644e81a4854fd900ee18c60005f53e8c233747357e019ffd6f5bb8ffb5e"
     }
   }
 }
