@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-23T04:51:38.160862+00:00",
+  "snapshot_time_utc": "2026-11-23T11:36:48.400540+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -19036,6 +19036,566 @@
       "file": "film-ai/decks/film-src-bc5d6201beb3a687.webp",
       "sha256": "0356fa237cac33d554542b21284c581604f99899c26fa65a5a56a8ca9e29c848",
       "bytes": 307386,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-f1fae71bfa458a55",
+      "wid": "src-f1fae71bfa458a55",
+      "title": "The Reckless Moment",
+      "file": "film-ai/decks/film-src-f1fae71bfa458a55.webp",
+      "sha256": "333fe566b7b56a59e38bfed71b734275cd09424eafbb21ca1889b217fc8ee2be",
+      "bytes": 240366,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-518b936f3f3cbf13",
+      "wid": "src-518b936f3f3cbf13",
+      "title": "D.O.A.",
+      "file": "film-ai/decks/film-src-518b936f3f3cbf13.webp",
+      "sha256": "9252c4f20444da41a671d3551433156418bf6f434cdeba62b2bfe168644830e5",
+      "bytes": 177438,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-5d22b1cb6632819b",
+      "wid": "src-5d22b1cb6632819b",
+      "title": "Madame Bovary",
+      "file": "film-ai/decks/film-src-5d22b1cb6632819b.webp",
+      "sha256": "3e188ec30cd2ed710c8db8b3ba5a00227d18c0d72272489923ed265fd88dd1fb",
+      "bytes": 217198,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-61984feff10c549e",
+      "wid": "src-61984feff10c549e",
+      "title": "House By The River",
+      "file": "film-ai/decks/film-src-61984feff10c549e.webp",
+      "sha256": "56376a496672d11d3f53641922dbaedd8e7242804f21a354c7dcb7f22a6c8af9",
+      "bytes": 256894,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-1d5e340b506cd282",
+      "wid": "src-1d5e340b506cd282",
+      "title": "M",
+      "file": "film-ai/decks/film-src-1d5e340b506cd282.webp",
+      "sha256": "7aa9442fbafe2af53782542ddf3259a183a721b1a034832339479bdc59ba32ed",
+      "bytes": 359016,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-e0c556a24de05676",
+      "wid": "src-e0c556a24de05676",
+      "title": "The Big Night",
+      "file": "film-ai/decks/film-src-e0c556a24de05676.webp",
+      "sha256": "a1fb43e5dfca911177cff08ead5603b7a87047f362be646d0ac80073a6403177",
+      "bytes": 144176,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-eab18c150ec2eb6d",
+      "wid": "src-eab18c150ec2eb6d",
+      "title": "Angel Face",
+      "file": "film-ai/decks/film-src-eab18c150ec2eb6d.webp",
+      "sha256": "4e8abe6d7006e5b9275a75a1f4b4904870dee1c82dc6d48c363dc91a48a6c960",
+      "bytes": 130010,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-0b38dde8e0955def",
+      "wid": "src-0b38dde8e0955def",
+      "title": "Bend of the River",
+      "file": "film-ai/decks/film-src-0b38dde8e0955def.webp",
+      "sha256": "2f773df550f652770750154d74aa41ccee3fb0647edc0a7caf5d59cc38afddd8",
+      "bytes": 434934,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-16edf9da36d556b7",
+      "wid": "src-16edf9da36d556b7",
+      "title": "High Noon",
+      "file": "film-ai/decks/film-src-16edf9da36d556b7.webp",
+      "sha256": "dc3bb03bc62c455f5a798e129dc9fbab820b88d86b300a8658532afaa25ebf55",
+      "bytes": 412272,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:the-bad-and-the-beautiful-1952",
+      "wid": "the-bad-and-the-beautiful-1952",
+      "title": "The Bad and the Beautiful",
+      "file": "film-ai/decks/film-the-bad-and-the-beautiful-1952.webp",
+      "sha256": "b51b4a5337fd302773c6a65af345a08e0418137897258c577331204681ef079d",
+      "bytes": 226554,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-5b1f7ba69b62b051",
+      "wid": "src-5b1f7ba69b62b051",
+      "title": "Forbidden Games",
+      "file": "film-ai/decks/film-src-5b1f7ba69b62b051.webp",
+      "sha256": "1026d4048c917df539d54f05bf19af65b09601fad14d2e9126bec40ed1d288a7",
+      "bytes": 268816,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-440b9e238e873fe1",
+      "wid": "src-440b9e238e873fe1",
+      "title": "The Big Heat",
+      "file": "film-ai/decks/film-src-440b9e238e873fe1.webp",
+      "sha256": "703a85aa00dfba4e1156f16b893c7bc7863370159e7d0cf27fb01087f73df1e8",
+      "bytes": 206266,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-3758ed9c2e2242e8",
+      "wid": "src-3758ed9c2e2242e8",
+      "title": "Monsieur Hulot's Holiday",
+      "file": "film-ai/decks/film-src-3758ed9c2e2242e8.webp",
+      "sha256": "4d8bdf98a168eee96379add3078100fa42680d22ad8cedac5ee936aee016a259",
+      "bytes": 355742,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-2596bd0f8096a3c8",
+      "wid": "src-2596bd0f8096a3c8",
+      "title": "The Wages of Fear",
+      "file": "film-ai/decks/film-src-2596bd0f8096a3c8.webp",
+      "sha256": "31347667cb96d8bef3b85bfa38eac54ebd19a3c6933c8ca28456155e4526f319",
+      "bytes": 380404,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-691361bd3110d1af",
+      "wid": "src-691361bd3110d1af",
+      "title": "The War of the Worlds",
+      "file": "film-ai/decks/film-src-691361bd3110d1af.webp",
+      "sha256": "7d347747bf02d5e88807aa0bc173d03e569966954a6a31b4a45606ed226ae53f",
+      "bytes": 346920,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-ec6f368e2b2b6999",
+      "wid": "src-ec6f368e2b2b6999",
+      "title": "Shane",
+      "file": "film-ai/decks/film-src-ec6f368e2b2b6999.webp",
+      "sha256": "a4c06948489596ae88c25ddc2b1d146afbec9abf177e9ee37428102287259cc7",
+      "bytes": 421052,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:ugetsu-1953",
+      "wid": "ugetsu-1953",
+      "title": "Ugetsu",
+      "file": "film-ai/decks/film-ugetsu-1953.webp",
+      "sha256": "4105f1096694a4a9cc513619b5e20d24853096d7a31c4aa806818ec6ef9fa45c",
+      "bytes": 190364,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-ccd28c6f902f3e1a",
+      "wid": "src-ccd28c6f902f3e1a",
+      "title": "The Band Wagon",
+      "file": "film-ai/decks/film-src-ccd28c6f902f3e1a.webp",
+      "sha256": "25050c09c32831b4c512bb34df6fcbd9f01453e8006bd61eefa45a8f63df6e8f",
+      "bytes": 372594,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:pickup-on-south-street-1953",
+      "wid": "pickup-on-south-street-1953",
+      "title": "Pickup on South Street",
+      "file": "film-ai/decks/film-pickup-on-south-street-1953.webp",
+      "sha256": "d2e50be10f64aab1a3a396b711f8a959e991d7946c6151ffe4764b14f5781bbf",
+      "bytes": 182444,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-1236649ecfd3001f",
+      "wid": "src-1236649ecfd3001f",
+      "title": "Them!",
+      "file": "film-ai/decks/film-src-1236649ecfd3001f.webp",
+      "sha256": "23ccd9e4aa74f549bb1d78f228d73cd8b268a5128b722558ae74f7c62161deef",
+      "bytes": 467546,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-798d7bcceb2d9614",
+      "wid": "src-798d7bcceb2d9614",
+      "title": "The Purple Plain",
+      "file": "film-ai/decks/film-src-798d7bcceb2d9614.webp",
+      "sha256": "7996641eff454bffcbb6c2b987ea219e9ff85b00dd9abb2f62927f1e4a9ed2dc",
+      "bytes": 407390,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-5d68d2c97f3ce9b5",
+      "wid": "src-5d68d2c97f3ce9b5",
+      "title": "The Sleeping Tiger",
+      "file": "film-ai/decks/film-src-5d68d2c97f3ce9b5.webp",
+      "sha256": "751cadc18748d8ef91870c41a407c715b7abc9bb1ae96c9d668c02e8529f3815",
+      "bytes": 141784,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-e4276481c2635cee",
+      "wid": "src-e4276481c2635cee",
+      "title": "White Christmas",
+      "file": "film-ai/decks/film-src-e4276481c2635cee.webp",
+      "sha256": "c712ff5e5aa4398b6e9027c2f82a809c165bf7aa364cb8923b990c3cee32a120",
+      "bytes": 338026,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-ab925b2016fef8c8",
+      "wid": "src-ab925b2016fef8c8",
+      "title": "A Generation",
+      "file": "film-ai/decks/film-src-ab925b2016fef8c8.webp",
+      "sha256": "dfae53fa6897491e59ceb15be78e0c9eb7c040da2da175cc7c037a8c61a9c215",
+      "bytes": 180556,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-24be4459327a83fe",
+      "wid": "src-24be4459327a83fe",
+      "title": "Bad Day At Black Rock",
+      "file": "film-ai/decks/film-src-24be4459327a83fe.webp",
+      "sha256": "18bb80f0325f55ba2b4c2061dcbd9f4fc4eced75107f98a6bd003b5c3de4cfcc",
+      "bytes": 371768,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-425bbd8045476070",
+      "wid": "src-425bbd8045476070",
+      "title": "A Journey to the Beginning of Time",
+      "file": "film-ai/decks/film-src-425bbd8045476070.webp",
+      "sha256": "8f3f47d08e69792875451cfa43b5e5ff4406700471f63ef1158534069ec20578",
+      "bytes": 392114,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-721d6b39e53e1286",
+      "wid": "src-721d6b39e53e1286",
+      "title": "Diabolique",
+      "file": "film-ai/decks/film-src-721d6b39e53e1286.webp",
+      "sha256": "4c8ec026e0d74b98364ed250f82890be48b19ace2921e9f86c603b4fd090e712",
+      "bytes": 240216,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-40cab04bb69d6073",
+      "wid": "src-40cab04bb69d6073",
+      "title": "Pather Panchali",
+      "file": "film-ai/decks/film-src-40cab04bb69d6073.webp",
+      "sha256": "01ac64ee1ed262bf510444cdfed48b7a6b10c7bbd8ad5a8070c131c46192cb63",
+      "bytes": 320214,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-90abc86f49f17a46",
+      "wid": "src-90abc86f49f17a46",
+      "title": "The Seven Year Itch",
+      "file": "film-ai/decks/film-src-90abc86f49f17a46.webp",
+      "sha256": "da06ebd26c6e42816dfb03a62655caf4dbdb0abe1a1d8b2b464f428787088642",
+      "bytes": 346210,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-f99c65796e58b4a7",
+      "wid": "src-f99c65796e58b4a7",
+      "title": "Godzilla Raids Again",
+      "file": "film-ai/decks/film-src-f99c65796e58b4a7.webp",
+      "sha256": "1c3f3a28042c60f81231fba22f4fc9e59ac510b9211ee1263f07e194e2dba582",
+      "bytes": 223018,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-8459f1ff316131a9",
+      "wid": "src-8459f1ff316131a9",
+      "title": "The Mountain",
+      "file": "film-ai/decks/film-src-8459f1ff316131a9.webp",
+      "sha256": "6e66aff89f63dbb9d1f0d62c01f374ed594eb108abe99ac8a37014048d2043d7",
+      "bytes": 436880,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:invasion-of-the-body-snatchers-1956",
+      "wid": "invasion-of-the-body-snatchers-1956",
+      "title": "Invasion of the Body Snatchers",
+      "file": "film-ai/decks/film-invasion-of-the-body-snatchers-1956.webp",
+      "sha256": "9c3ed943ce2038bc2802aacf37a68d652e7947b746eecef0bdbe83235154d304",
+      "bytes": 277718,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-0334775429d28c83",
+      "wid": "src-0334775429d28c83",
+      "title": "A Man Escaped",
+      "file": "film-ai/decks/film-src-0334775429d28c83.webp",
+      "sha256": "53a1871051d5bcf2e3d26d7d194c44dce877b75528e1ecc797bb357e9397c192",
+      "bytes": 194706,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-2b53db9f05898f12",
+      "wid": "src-2b53db9f05898f12",
+      "title": "The Red Balloon",
+      "file": "film-ai/decks/film-src-2b53db9f05898f12.webp",
+      "sha256": "3aaf37d0fd5e099b210ed8024cbd0cbb8143efaed345214a2d38f0df19bba688",
+      "bytes": 328454,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-e17e3bd585f4b50f",
+      "wid": "src-e17e3bd585f4b50f",
+      "title": "Aparajito",
+      "file": "film-ai/decks/film-src-e17e3bd585f4b50f.webp",
+      "sha256": "889af9dc1261ed2a120d88df52406abc0cc36382d29910c4d53a327409277be1",
+      "bytes": 303340,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-418223bdb8ea4235",
+      "wid": "src-418223bdb8ea4235",
+      "title": "Giant",
+      "file": "film-ai/decks/film-src-418223bdb8ea4235.webp",
+      "sha256": "706537183c2e835a2afef4e43074ee52558c50888a89e4b7f5b516556862fca8",
+      "bytes": 367292,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-ab8ef4a398ebdc34",
+      "wid": "src-ab8ef4a398ebdc34",
+      "title": "Bigger Than Life",
+      "file": "film-ai/decks/film-src-ab8ef4a398ebdc34.webp",
+      "sha256": "966f4c23f7d4a1f6d24a9817be7c484c07154894214cc2caad9f1f72a7ec32f9",
+      "bytes": 222192,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-de8adbfcede4a5b9",
+      "wid": "src-de8adbfcede4a5b9",
+      "title": "And God Created Woman",
+      "file": "film-ai/decks/film-src-de8adbfcede4a5b9.webp",
+      "sha256": "1d5ea63851dfcd4da520a5d031f1becbe76283c05264863b053f2a32e997365c",
+      "bytes": 234520,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-9fb044771e8feab9",
+      "wid": "src-9fb044771e8feab9",
+      "title": "The Wormwood Star",
+      "file": "film-ai/decks/film-src-9fb044771e8feab9.webp",
+      "sha256": "e96a70ce059afabca79b7b1456571c3cb20f66c4a6d9eed91d3a128ceddc0e33",
+      "bytes": 310374,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-7d52e8be774a2d8d",
+      "wid": "src-7d52e8be774a2d8d",
+      "title": "Bus Stop",
+      "file": "film-ai/decks/film-src-7d52e8be774a2d8d.webp",
+      "sha256": "99ce30ce8b4fefe9d342a5d7b891309bf3bbe247c2f9f34e4aedc1c063d46f18",
+      "bytes": 313666,
       "size": [
         1672,
         941
