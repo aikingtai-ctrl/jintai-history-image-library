@@ -73113,6 +73113,56 @@
       "sha256": "47f09bbde6514b507adec44173ccef5a7b482c6763e802e60c74d94584f5b73d",
       "scene": null,
       "prompt": null
+    },
+    "src-0e17044f85da12fb": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p06/src-0e17044f85da12fb-53d8e77f5444.png",
+      "filename": "src-0e17044f85da12fb-53d8e77f5444.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2055140,
+      "sha256": "53d8e77f5444599579ce06424af26f2237ef258c81ccf401e9412f77cfd51ce6",
+      "scene": null,
+      "prompt": null
+    },
+    "src-0e13cab4723ae1d0": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p06/src-0e13cab4723ae1d0-25229131ed0c.png",
+      "filename": "src-0e13cab4723ae1d0-25229131ed0c.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2145655,
+      "sha256": "25229131ed0c87a7864db9c91b125f5b99ed82ccb3a6ea1487feb25eb1659179",
+      "scene": null,
+      "prompt": null
+    },
+    "src-0e13e1911bef2b6c": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p06/src-0e13e1911bef2b6c-1836761de9c4.png",
+      "filename": "src-0e13e1911bef2b6c-1836761de9c4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2746416,
+      "sha256": "1836761de9c4cb9f0af5a7061f8598203403bb5f4b953800e15214ca021c24d2",
+      "scene": null,
+      "prompt": null
+    },
+    "src-0e175326721db902": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p06/src-0e175326721db902-5d15a084021c.png",
+      "filename": "src-0e175326721db902-5d15a084021c.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1787595,
+      "sha256": "5d15a084021c6bbdd6ad1643c58a35fe37003224dd4dfe9183c79d6db8344596",
+      "scene": null,
+      "prompt": null
+    },
+    "src-0e1eda75be6d996a": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p06/src-0e1eda75be6d996a-acd93a82825b.png",
+      "filename": "src-0e1eda75be6d996a-acd93a82825b.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2258537,
+      "sha256": "acd93a82825b9972842446cbc6c9d20026a1f3b9d967284d7a8ffbb5441e9869",
+      "scene": null,
+      "prompt": null
     }
   }
 }
