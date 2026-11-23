@@ -27,6 +27,10 @@ for (const id of [
   'HL-XIA-AC-0009', 'HL-XIA-AC-0010',
   'HL-XIA-CO-0006', 'HL-XIA-CO-0007', 'HL-XIA-CO-0010',
   'HL-XIA-CO-0011', 'HL-XIA-CO-0012',
+  'HL-XIA-CO-0013', 'HL-XIA-CO-0014', 'HL-XIA-CO-0016',
+  'HL-XIA-CO-0018', 'HL-XIA-CO-0019',
+  'HL-XIA-CO-0020', 'HL-XIA-CO-0023', 'HL-XIA-CO-0025',
+  'HL-XIA-CO-0026', 'HL-XIA-CO-0038',
 ]) {
   assert.ok(gpt[id] && gpt[id].height > gpt[id].width, `portrait original: ${id}`);
 }
