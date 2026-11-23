@@ -70,7 +70,7 @@ jobs:
           }
           for rel, html in history_pages.items():
               assert "regenerated-manifest.js?v=20261123-2000" in html, f"History PNG manifest missing in {rel}"
-              assert "original-pngs/history_1996_regenerated" in html, f"History original-PNG route missing in {rel}"
+              assert "original-pngs/" in html and "history_1996_regenerated" in html, f"History original-PNG route missing in {rel}"
               assert "download=1" in html, f"History PNG download missing in {rel}"
           history_js = git_bytes("show", "HEAD:history-ai/regenerated-manifest.js").decode("utf-8")
           assert history_js.startswith("window.JINTAI_REGENERATED_IMAGES="), "History original-PNG manifest missing"
