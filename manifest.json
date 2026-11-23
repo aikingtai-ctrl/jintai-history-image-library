@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "67-449515002ee3",
+  "revision": "68-80f2795a9202",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -539,6 +539,14 @@
       "width": 1672,
       "height": 941,
       "sha256": "449515002ee31ef9ce57406a20c294fd7eb40a0acf7a717e69c8337c7ae6e7a5"
+    },
+    "HL-BSONG-SC-0010": {
+      "title": "北宋药铺",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0010.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0010.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "80f2795a920261e8b035202fface38a9fb8024874b90ccfbb7c6f158ff586964"
     }
   }
 }
