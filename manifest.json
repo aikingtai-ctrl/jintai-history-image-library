@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "9-f1880a7d993b",
+  "revision": "10-459cf9fb7938",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -75,6 +75,14 @@
       "width": 1024,
       "height": 1536,
       "sha256": "f1880a7d993b5e50e4541647349f17c60aee2d448128a71496208d7e34fe0f18"
+    },
+    "HL-LIAO-CO-0001": {
+      "title": "辽代契丹男子髡发长袍",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0001.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0001.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "459cf9fb7938af0adcb3a662dfcda6734592cc17a93127ed013547fc382b4ef2"
     }
   }
 }
