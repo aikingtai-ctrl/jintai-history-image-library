@@ -69,6 +69,23 @@ for (const [file, dataFile] of [
   assert.match(html, /gpt-image-manifest\.js/);
   assert.match(html, /download=1/);
   assert.match(html, /\.stage #full\{[^}]*object-fit:contain/, `${file}: keep portrait aspect ratio`);
+  const promotionCode = html.match(/^for\(const row of rows\)\{if\(row\.status==='deferred'[^\n]+/m)?.[0];
+  assert.ok(promotionCode, `${file}: missing GPT upgrade for deferred entries`);
+  const deferredRows = [
+    { id: 'HL-SHANG-FA-0008', status: 'deferred' },
+    { id: 'HL-ZHOU-CO-0023', status: 'deferred' },
+    { id: jpgOnly, status: 'deferred' },
+  ];
+  vm.runInNewContext(promotionCode, { rows: deferredRows, window: manifest });
+  assert.deepEqual(deferredRows.map(row => row.status), ['done', 'done', 'deferred'],
+    `${file}: accepted GPT images must be clickable even when the old JPEG was deferred`);
+  const sizeLabelCode = html.match(/^function imageQualityLabel\(w,h,info\)\{[^\n]+/m)?.[0];
+  assert.ok(sizeLabelCode, `${file}: missing resolution label`);
+  assert.match(html, /img\.onload=[^\n]+imageQualityLabel\(w,h,info\)/);
+  const imageQualityLabel = vm.runInNewContext(`${sizeLabelCode};imageQualityLabel`, {});
+  const portrait = gpt['HL-XIA-AC-0001'];
+  assert.equal(imageQualityLabel(portrait.width, portrait.height, portrait), 'GPT Image PNG');
+  assert.equal(imageQualityLabel(658, 720, portrait), 'GPT Image 预览');
   const gptCode = html.match(/^function gpt\(r\)\{[^\n]+/m)?.[0];
   const previewSrcCode = html.match(/^function previewSrc\(r\)\{[^\n]+/m)?.[0];
   assert.ok(gptCode && previewSrcCode, file);

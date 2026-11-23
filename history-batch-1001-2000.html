@@ -16,6 +16,7 @@ function histImgSrc(p){return(!p||/^https?:/i.test(p))?p||'':(IS_GH_HIST?HIST_RA
 window.addEventListener('error',function(ev){const el=ev&&ev.target;if(!el||el.tagName!=='IMG'||!el.src||el.dataset.jtHistFb)return;const m=el.src.match(/^https:\/\/raw\.githubusercontent\.com\/([^/]+)\/([^/]+)\/([^/]+)\/(.+)$/);if(m){el.dataset.jtHistFb='1';el.src='https://testingcf.jsdelivr.net/gh/'+m[1]+'/'+m[2]+'@'+m[3]+'/'+m[4];}},true);
 function gpt(r){return window.JINTAI_GPT_IMAGES?.[r.id];}
 function previewSrc(r){return gpt(r)?.preview||histImgSrc(r.thumbnail);}
+function imageQualityLabel(w,h,info){return info&&w===info.width&&h===info.height?'GPT Image PNG':info?'GPT Image 预览':'原有 JPEG';}
 let gptTunnelPromise;
 async function gptOriginalUrl(info){
   let base=location.origin;
@@ -30,7 +31,7 @@ async function show(r){
   const src=previewSrc(r),info=gpt(r),oldJpg=histImgSrc(r.thumbnail),img=q('full');
   q('detail-title').textContent=r.index+' · '+r.title;
   if(q('imgDimBadge'))q('imgDimBadge').textContent='读取尺寸…';
-  img.onload=()=>{const w=img.naturalWidth||0,h=img.naturalHeight||0;if(q('imgDimBadge')&&w&&h)q('imgDimBadge').textContent=w+'×'+h+' px · '+(info&&w>=1536?'GPT Image PNG':info?'GPT Image 预览':'原有 JPEG');};
+  img.onload=()=>{const w=img.naturalWidth||0,h=img.naturalHeight||0;if(q('imgDimBadge')&&w&&h)q('imgDimBadge').textContent=w+'×'+h+' px · '+imageQualityLabel(w,h,info);};
   img.onerror=null;img.src=src;img.alt=r.title;
   q('rawLink').href=src;q('rawLink').textContent='新窗口查看此图 ↗';
   q('downloadPng').hidden=true;
