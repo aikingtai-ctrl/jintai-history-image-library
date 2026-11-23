@@ -21710,6 +21710,94 @@
       "sha256": "242fd6f48f83e3cded85057c9605138cb59119f39a4f0ef4a9d016d485f6b39d",
       "scene": "充满五十年代美式复古风情的外星小镇花园里，身穿纯白宇航服并戴着头盔的人类宇航员查克正笨拙地躲在低矮的圆形石墙后方",
       "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for one film card. Create one original scene based on this first-shot description: Wide 3D animated comedy shot in an alien suburb from Planet 51, a white-suited human astronaut crouching behind a low stone wall.. Preserve its framing, composition, setting, visible people and objects, camera angle, lighting, palette and mood. Represent all people as anonymous fictional adults in modest clothing. Keep the scene calm and non-violent. No sexual content, weapons, injury, film frames, actor likeness, titles, logos, watermark or readable text."
+    },
+    "blade-runner-2049-2017": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/originals/part-04/blade-runner-2049-2017-822bbd31aab5.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/thumbnails/part-04/blade-runner-2049-2017-822bbd31aab5.jpg",
+      "filename": "blade-runner-2049-2017-822bbd31aab5.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2472396,
+      "sha256": "822bbd31aab5f5606233e6575446a76aeff013c55a9d9e7cd4e31c366dc4b8e5",
+      "scene": "虚构未来城市外的废弃太阳能田，一位成年档案员穿过橙色暮霭中的破损镜面装置。",
+      "prompt": "Create one ORIGINAL wide 16:9 cinematic reference image for a fictional far-future neo-noir drama. A solitary adult archivist in a dusty overcoat walks through an enormous abandoned solar farm at sunset, with rows of broken mirrored panels and a distant monumental city barely visible through orange haze. Muted amber, rust and deep violet, vast architectural scale, contemplative quiet, realistic anatomy, intricate original world design and fine cinematic film texture. Invent an anonymous fictional person and a new scene, no existing movie frame or recognizable actor. No weapons, violence, title, credits, logos, watermarks, typography or readable text."
+    },
+    "1917-2019": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/originals/part-04/1917-2019-de9225711c9a.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/thumbnails/part-04/1917-2019-de9225711c9a.jpg",
+      "filename": "1917-2019-de9225711c9a.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2593067,
+      "sha256": "de9225711c9a5d345b5ea8c3fa48d6bf58674983f102ed336582f8ba7c3630de",
+      "scene": "一战时期清晨，两位成年信使沿泥泞小路走过破损农舍，远处是薄雾中的田野。",
+      "prompt": "Create one ORIGINAL wide 16:9 cinematic reference image for a fictional World War I journey drama. Two adult messengers in historically plausible plain uniforms walk along a quiet muddy lane beside a ruined farmhouse at early morning, with a pale sky and distant green fields; they carry sealed satchels and no visible weapons. Continuous naturalistic perspective, human resilience, subdued earth and mist palette, authentic fabric and landscape details, subtle 35mm cinematic texture. Invent anonymous fictional people and new staging, no existing movie frame or recognizable actor. No combat, injury, blood, title, credits, logos, watermarks, typography or readable text."
+    },
+    "rashomon-1950": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/originals/part-04/rashomon-1950-23c993145053.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/thumbnails/part-04/rashomon-1950-23c993145053.jpg",
+      "filename": "rashomon-1950-23c993145053.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 3209160,
+      "sha256": "23c993145053950b93ecef55166068e8ba784d877680e96615991ff868dd8cdb",
+      "scene": "中世纪日本暴雨中，三位成年旅人在旧木城门下分坐沉思，门外是被雨洗过的林道。",
+      "prompt": "Create one ORIGINAL wide 16:9 black-and-white cinematic reference image for a fictional medieval Japanese mystery drama. Under the shelter of a weathered wooden city gate during heavy rain, three adult travelers sit apart in thought while a sunlit forest path is barely visible beyond the gate. Human uncertainty and layered perspective, historically plausible simple robes, expressive rain and timber textures, high-contrast silver-gelatin 35mm grain. Invent anonymous fictional characters and new composition, no existing movie frame or recognizable actor. No violence, weapons, title, credits, logos, watermarks, typography or readable text."
+    },
+    "tokyo-story-1953": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/originals/part-04/tokyo-story-1953-bc1575d218f4.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/thumbnails/part-04/tokyo-story-1953-bc1575d218f4.jpg",
+      "filename": "tokyo-story-1953-bc1575d218f4.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2701431,
+      "sha256": "bc1575d218f44e3ee4c87686a94c22afba731e5cbeb4726364349172c929a4ee",
+      "scene": "20世纪50年代东京家中，年长夫妇坐在矮桌旁，成年女儿在障子门边准备茶。",
+      "prompt": "Create one ORIGINAL wide 16:9 black-and-white cinematic reference image for a fictional 1950s Japanese family drama. An older adult couple sit together at a low table in a modest Tokyo home at late afternoon while an adult daughter quietly arranges tea near a shoji screen; a small garden is visible beyond. Warm human stillness, authentic period everyday details, low seated camera height, gentle deep-focus composition and fine monochrome 35mm grain. Invent anonymous fictional people and new staging, no existing movie frame or recognizable actor. No title, credits, logos, watermarks, typography or readable text."
+    },
+    "seven-samurai-1954": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/originals/part-04/seven-samurai-1954-97a3dc6e92bc.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/thumbnails/part-04/seven-samurai-1954-97a3dc6e92bc.jpg",
+      "filename": "seven-samurai-1954-97a3dc6e92bc.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2562214,
+      "sha256": "97a3dc6e92bc168ff13e975e64f9e84c236570f7a7cf7dd1f1786c437089a674",
+      "scene": "中世纪日本村庄，七位成年村民与旅行守护者在茅屋矮桌旁商量计划。",
+      "prompt": "Create one ORIGINAL wide 16:9 black-and-white cinematic reference image for a fictional medieval Japanese village ensemble drama. Seven adult villagers and traveling guardians gather around a low table inside a thatched farmhouse at dawn, studying a simple hand-drawn plan while soft light enters through an open wall toward rice fields. Cooperation and resolve without battle, distinct anonymous figures, historically plausible plain garments, deep-focus layered blocking and rich silver-gelatin 35mm grain. Invent all characters and new staging, no existing movie frame or recognizable actor. No weapons, violence, title, credits, logos, watermarks, typography or readable text."
+    },
+    "the-seventh-seal-1957": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/originals/part-04/the-seventh-seal-1957-2834eaa7ea7b.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/thumbnails/part-04/the-seventh-seal-1957-2834eaa7ea7b.jpg",
+      "filename": "the-seventh-seal-1957-2834eaa7ea7b.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2993570,
+      "sha256": "2834eaa7ea7bb3fd28991cd760834ae723ef203f16b622b079e06163b513c307",
+      "scene": "中世纪欧洲石岸上，一位成年旅人望向海边的小木船，远处同伴站在马旁。",
+      "prompt": "Create one ORIGINAL wide 16:9 black-and-white cinematic reference image for a fictional medieval European philosophical allegory. An adult traveler in a weathered cloak stands at the edge of a quiet stony beach beneath a cloud-filled sky, contemplating a small driftwood boat while a distant companion waits beside a horse; the sea is calm. Reflective existential mood, stark horizon and deep tonal contrast, authentic rough fabric, fine 35mm monochrome grain. Invent new anonymous fictional people and composition, no existing movie frame or recognizable actor. No chessboard, title, credits, logos, watermarks, typography or readable text."
+    },
+    "eight-and-a-half-1963": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/originals/part-04/eight-and-a-half-1963-146d8f650743.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/thumbnails/part-04/eight-and-a-half-1963-146d8f650743.jpg",
+      "filename": "eight-and-a-half-1963-146d8f650743.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2572265,
+      "sha256": "146d8f650743fadb008b4fca7e429f346e7da213ab8af9d3d42b46d50a811917",
+      "scene": "20世纪60年代意大利虚构摄影棚内，一位成年导演独自站在未完成布景与圆形聚光灯之间。",
+      "prompt": "Create one ORIGINAL wide 16:9 black-and-white cinematic reference image for a fictional 1960s Italian filmmaker's dreamlike self-reflection. An adult director stands alone on an empty soundstage among unfinished set walls, with a few empty folding chairs and a large circular spotlight casting an unexpected pool of light; distant crew silhouettes appear through translucent curtains. Elegant surreal uncertainty, realistic anatomy, expressive deep focus, high-contrast silver-gelatin 35mm grain. Invent a new anonymous fictional character and staging, no existing movie frame or recognizable actor. No title, credits, logos, watermarks, typography or readable text."
+    },
+    "persona-1966": {
+      "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/originals/part-04/persona-1966-7381dc4eeae8.png",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7e2ae11a15597b31217bc187c1e1ff52a547629b/thumbnails/part-04/persona-1966-7381dc4eeae8.jpg",
+      "filename": "persona-1966-7381dc4eeae8.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2561395,
+      "sha256": "7381dc4eeae88db5c12bd82007928937efe348155dcc0ca4679de6543937f435",
+      "scene": "北欧海边小屋里，两位成年女子隔着木桌静坐，玻璃窗上映出交叠的倒影。",
+      "prompt": "Create one ORIGINAL wide 16:9 black-and-white cinematic reference image for a fictional Swedish psychological chamber drama. Two adult women sit at opposite ends of a simple wooden table in a quiet seaside cottage, one looking toward a bright window and the other studying a small bowl of water; their reflections overlap faintly in the glass. Intimate emotional ambiguity, austere Nordic interior, soft natural light against deep blacks, precise faces and tactile 35mm monochrome texture. Invent anonymous fictional people and a new composition, no existing movie frame or recognizable actor. No title, credits, logos, watermarks, typography or readable text."
     }
   }
 }
