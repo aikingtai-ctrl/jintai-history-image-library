@@ -60813,6 +60813,46 @@
       "sha256": "b8b75f93ac8c135cbac315382a0366515c01cc35c5d9f94dd5ec3bcf195de0cb",
       "scene": null,
       "prompt": null
+    },
+    "ode-to-my-father-2014": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/ode-to-my-father-2014-da44b8cc0c90.png",
+      "filename": "ode-to-my-father-2014-da44b8cc0c90.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2157782,
+      "sha256": "da44b8cc0c90bd6596ab28e7d6691f485ed35307cd4673de889d071f8aeb11c0",
+      "scene": null,
+      "prompt": null
+    },
+    "ok-go-here-it-goes-again-2006": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/ok-go-here-it-goes-again-2006-d4914e236cc0.png",
+      "filename": "ok-go-here-it-goes-again-2006-d4914e236cc0.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2567530,
+      "sha256": "d4914e236cc0a0ea046abd091e4ddbd32bcfd12ba5e93e559ac5f79e8cfd580a",
+      "scene": null,
+      "prompt": null
+    },
+    "of-gods-and-men-2010": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/of-gods-and-men-2010-71cca6061604.png",
+      "filename": "of-gods-and-men-2010-71cca6061604.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1904213,
+      "sha256": "71cca60616044110638e1e72e3e635aa27be9d219b3dbeed757c4fdb8576de55",
+      "scene": null,
+      "prompt": null
+    },
+    "ok-go-this-too-shall-pass-2010": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/ok-go-this-too-shall-pass-2010-87213bdf3fd2.png",
+      "filename": "ok-go-this-too-shall-pass-2010-87213bdf3fd2.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2993833,
+      "sha256": "87213bdf3fd272886e02754cd63e680f2b133ea02b2cc3fc689a393a60a5059b",
+      "scene": null,
+      "prompt": null
     }
   }
 }
