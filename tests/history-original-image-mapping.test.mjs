@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.ok(Object.keys(gpt).length >= 202);
+assert.ok(Object.keys(gpt).length >= 225);
 for (const id of ['HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) assert.ok(gpt[id], id);
 for (const item of Object.values(gpt)) {
   assert.equal(item.model, 'GPT Image');
@@ -146,6 +146,27 @@ const batch177to200 = [
 ];
 assert.equal(batch177to200.length, 24);
 for (const [id, width, height] of batch177to200) {
+  const image = gpt[id];
+  assert.ok(originals[id] && image, `saved JPEG and accepted GPT image: ${id}`);
+  assert.equal(image.method, 'reference_edit', id);
+  assert.deepEqual([image.width, image.height], [width, height], `native near-square PNG: ${id}`);
+}
+const batch201to223 = [
+  ['HL-XIA-FA-0036', 1312, 1199], ['HL-XIA-FA-0038', 1305, 1206],
+  ['HL-XIA-FA-0041', 1305, 1206], ['HL-XIA-FA-0042', 1254, 1254],
+  ['HL-XIA-FA-0043', 1305, 1205], ['HL-XIA-FA-0044', 1254, 1254],
+  ['HL-XIA-FA-0045', 1293, 1217], ['HL-XIA-FA-0046', 1287, 1222],
+  ['HL-XIA-FA-0047', 1312, 1199], ['HL-XIA-FA-0048', 1254, 1254],
+  ['HL-XIA-FA-0049', 1312, 1199], ['HL-XIA-FA-0050', 1312, 1199],
+  ['HL-XIA-FA-0051', 1283, 1226], ['HL-XIA-FA-0055', 1295, 1214],
+  ['HL-XIA-FA-0064', 1312, 1199], ['HL-XIA-FA-0067', 1290, 1219],
+  ['HL-XIA-FA-0068', 1312, 1199], ['HL-XIA-FA-0075', 1292, 1218],
+  ['HL-XIA-FA-0076', 1312, 1199], ['HL-XIA-FA-0079', 1312, 1199],
+  ['HL-XIA-FA-0080', 1312, 1199], ['HL-XIA-FA-0083', 1312, 1199],
+  ['HL-XIA-FA-0084', 1313, 1198],
+];
+assert.equal(batch201to223.length, 23);
+for (const [id, width, height] of batch201to223) {
   const image = gpt[id];
   assert.ok(originals[id] && image, `saved JPEG and accepted GPT image: ${id}`);
   assert.equal(image.method, 'reference_edit', id);
