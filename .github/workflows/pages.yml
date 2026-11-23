@@ -62,24 +62,24 @@ jobs:
           m_ai = re.search(r"window\.FILM_AI_IMAGES\s*=\s*(\{.*?\})\s*;", film_ai_mf, re.S)
           film_ai_jpg_keep = {v for v in (json.loads(m_ai.group(1)).values() if m_ai else []) if isinstance(v, str) and v.lower().endswith((".jpg", ".jpeg"))}
           raw_paths = [p.decode("utf-8") for p in git_bytes("ls-tree", "-r", "-z", "--name-only", "HEAD").split(b"\x00") if p]
-          # Do not replace the last working Pages build with an older thumbnail-only gallery.
+          # Keep the historical cards mapped to the saved images of the same scenes.
           history_pages = {
               "index.html": idx_html,
               "history-batch.html": git_bytes("show", "HEAD:history-batch.html").decode("utf-8"),
               "history-batch-1001-2000.html": git_bytes("show", "HEAD:history-batch-1001-2000.html").decode("utf-8"),
           }
           for rel, html in history_pages.items():
-              assert "regenerated-manifest.js?v=20261123-2000" in html, f"History PNG manifest missing in {rel}"
-              assert "original-pngs/" in html and "history_1996_regenerated" in html, f"History original-PNG route missing in {rel}"
-              assert "download=1" in html, f"History PNG download missing in {rel}"
-          history_js = git_bytes("show", "HEAD:history-ai/regenerated-manifest.js").decode("utf-8")
-          assert history_js.startswith("window.JINTAI_REGENERATED_IMAGES="), "History original-PNG manifest missing"
-          regenerated = json.loads(history_js.split("=", 1)[1].rstrip(";\n"))
-          assert len(regenerated) >= 2000, f"History PNGs regressed to {len(regenerated)} entries"
-          assert {"HL-SHANG-FA-0008", "HL-ZHOU-CO-0023"} <= regenerated.keys(), "Resolved history images missing"
-          expected_previews = {"history-ai/regenerated-previews/" + item["preview"].rsplit("/", 1)[-1] for item in regenerated.values()}
-          assert expected_previews <= set(raw_paths), "History original-PNG previews missing from repository"
-          print(f"History original-PNG gate passed: {len(regenerated)} mapped images")
+              assert "regenerated-manifest.js" not in html and "JINTAI_REGENERATED_IMAGES" not in html, f"Redrawn image mapping returned in {rel}"
+          assert "history-ai/manifest.js" in idx_html and "function histPreview(id){return window.JINTAI_AI_IMAGES?.[id]||" in idx_html, "Homepage saved-image mapping missing"
+          for rel in ("history-batch.html", "history-batch-1001-2000.html"):
+              assert "function previewSrc(r){return histImgSrc(r.thumbnail);}" in history_pages[rel], f"Saved image mapping missing in {rel}"
+          history_js = git_bytes("show", "HEAD:history-ai/manifest.js").decode("utf-8")
+          m_history = re.search(r"window\.JINTAI_AI_IMAGES\s*=\s*(\{.*?\})\s*;", history_js, re.S)
+          assert m_history, "Saved history image manifest missing"
+          originals = json.loads(m_history.group(1))
+          assert len(originals) == 1998, f"Saved history image count changed: {len(originals)}"
+          assert all("/history-ai/thumbnails/" in url and url.endswith(".jpg") for url in originals.values()), "Saved history image paths invalid"
+          print(f"Saved history image gate passed: {len(originals)} mapped images")
           selected = []
           for rel in raw_paths:
               if rel.startswith((".github/", "tools/", "每日更新/管理/")):
