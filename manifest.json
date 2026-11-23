@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "250-ff8966d801ef",
+  "revision": "282-fbc383f922f0",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -2003,6 +2003,262 @@
       "width": 1672,
       "height": 941,
       "sha256": "ff8966d801efb9a48af8ff6f61fd648b64658bae103e8b025a1a86bdb4a20d1c"
+    },
+    "HL-BSONG-SC-0034": {
+      "title": "北宋太学斋舍",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0034.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0034.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a39415b3ed48b818aff19a886a6eab1c9b504159b034a13a8d28d6a57373d456"
+    },
+    "HL-BSONG-SC-0035": {
+      "title": "北宋官营水磨",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0035.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0035.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f10f6a80a6ddb2b8dfadcfbd6ebeef0032cd6d1d6cf767476b052ba2a55c5af3"
+    },
+    "HL-BSONG-PR-0011": {
+      "title": "北宋定窑白瓷",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-PR-0011.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-PR-0011.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "78771000a9dc75ea4d87d5ccba92b4138848cdd8e8aaa1c309fca6ee4afdd291"
+    },
+    "HL-NSONG-CO-0022": {
+      "title": "南宋太学生",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-CO-0022.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-CO-0022.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "7ab5d778af85e4897063dfca13dce5f266c3c623148f865de18d19859b4b243d"
+    },
+    "HL-NSONG-CO-0023": {
+      "title": "南宋泉州海商",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-CO-0023.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-CO-0023.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "72860c26cad0de3da3b9429c863ed3639f52900b06e46f0fed1d9c6b4abb1b3c"
+    },
+    "HL-NSONG-CO-0024": {
+      "title": "南宋厨娘",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-CO-0024.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-CO-0024.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "21d7a4af7b82448aa4fc1da12feb05e9f97f7970f63cefbee63209dd2fe87770"
+    },
+    "HL-NSONG-SC-0027": {
+      "title": "南宋临安瓦子",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0027.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0027.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4d64635b551f10f697a748ad378251d25792f03a47bafaab2f23a2e495f87c75"
+    },
+    "HL-NSONG-SC-0028": {
+      "title": "南宋临安茶坊",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0028.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0028.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c9629c9c0a02eada309831a9f5bf007c8ab28bb067532aa9fe7354b9a56d8193"
+    },
+    "HL-NSONG-FA-0001": {
+      "title": "南宋士大夫容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0001.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0001.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "c89ecd66409ef6a7089c0705e235934236da96739deeee9acf78977d0d5c13c0"
+    },
+    "HL-NSONG-FA-0002": {
+      "title": "南宋贵妇容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0002.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0002.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "aa40d778b62909348bb85a1b2668aa54cfc840f5f8263bfecf1241bb5b2a7b12"
+    },
+    "HL-LIAO-CO-0011": {
+      "title": "辽代契丹文官",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0011.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0011.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "599251b8fd5a38f1f073f3db00f10b86a78c439661c69fe782df2ad5fc318881"
+    },
+    "HL-LIAO-CO-0012": {
+      "title": "辽代契丹侍女",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0012.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0012.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "05f449df70568db07409a3cbb249fe39b7d5a2f3853b6259316beaa71308e9c2"
+    },
+    "HL-LIAO-SC-0007": {
+      "title": "辽代契丹贵族葬礼",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-SC-0007.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-SC-0007.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "332201ed20a016821b8651d4546f21245050129c1248f8b6fe61e9062ab6cce1"
+    },
+    "HL-LIAO-FA-0003": {
+      "title": "辽代契丹女子容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-FA-0003.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-FA-0003.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "53a9394b7ca746b800ced37e276524b05d6f87a686c0ce5661f02e442e3755a2"
+    },
+    "HL-JINGUO-CO-0012": {
+      "title": "金代汉制文官",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0012.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0012.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "5a5da912195e1ef4165e6b63d3bf965258e39ffcf60621579c9d1b73b3901ec5"
+    },
+    "HL-JINGUO-CO-0013": {
+      "title": "金代女真儿童",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0013.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0013.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "b4597c8789dc2347275f6b1cae6c9fe419a0ec402cc14f53e1723e96ca3ec8b5"
+    },
+    "HL-JINGUO-SC-0008": {
+      "title": "金代院本演出",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-SC-0008.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-SC-0008.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e746d43527e27e65a9d42c9794a97cb356c92215bca9d755e7103f6dca57bf98"
+    },
+    "HL-JINGUO-FA-0001": {
+      "title": "金代女真贵族容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0001.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0001.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "84c46eb8489a0717cfe331d853cbeefc85ca1c683e4f1ddea9759bf6538a5146"
+    },
+    "HL-JINGUO-AC-0003": {
+      "title": "金代女子花珠冠",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-AC-0003.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-AC-0003.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "f85c2658948c717d3b49d944221e1c665b8033ae9ad3d035221e9e7bdefbba8a"
+    },
+    "HL-XIXIA-CO-0010": {
+      "title": "西夏党项命妇",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0010.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0010.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "1f1268018766cee6626d6d47f693a025cd18ef1acff13f17fb31b87b8149b3f1"
+    },
+    "HL-XIXIA-CO-0011": {
+      "title": "西夏党项儿童",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-CO-0011.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-CO-0011.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "a3a27c5817b54734472e8eaceb4b9e12941b9444ac967299aa66ccfcd5cbd421"
+    },
+    "HL-XIXIA-SC-0008": {
+      "title": "西夏印经院",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0008.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0008.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4367aba36eb1a53c2bd25bcdcb14cc31ebf2067deca51d828eba18a91b4395a7"
+    },
+    "HL-XIXIA-FA-0001": {
+      "title": "西夏党项贵族容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0001.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0001.png",
+      "width": 1278,
+      "height": 1230,
+      "sha256": "41aeb7fb76d9e42a587e6a1c113d16278e41a58dea3cb87ce5671133b25c43db"
+    },
+    "HL-XIXIA-AC-0003": {
+      "title": "西夏女子桃形金冠",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-AC-0003.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-AC-0003.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "7c99c965d44667c01668a15243183da9424aac500586e4e8b96063551ed72d7b"
+    },
+    "HL-BSONG-AR-0008": {
+      "title": "北宋瓦舍勾栏建筑",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-AR-0008.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-AR-0008.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "de49aa7402b0b57eb54d72df8d00c5aea9508f3b63851aaf01958eeac8f910e8"
+    },
+    "HL-LIAO-PR-0004": {
+      "title": "辽代鎏金马具",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-PR-0004.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-PR-0004.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9e9b6b2cfd9a8a0e86fb7244c0a2c4d0507042e9dd9ed0d7909a3a12cf49defe"
+    },
+    "HL-BSONG-AC-0004": {
+      "title": "北宋女子珍珠面靥",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-AC-0004.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-AC-0004.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "a11618bf59673755152cf6c64d1844400da070bf1ff84607cf10eff385918482"
+    },
+    "HL-BSONG-AC-0005": {
+      "title": "北宋官员鱼袋与金带",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-AC-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-AC-0005.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "cf46715aea9944d3595d38a35e5207167dd4bb9833b28fcbe9ebbf1bf0426c42"
+    },
+    "HL-BSONG-AC-0006": {
+      "title": "北宋女子白角冠梳",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-AC-0006.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-AC-0006.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "9d3f6915b501c79c8fb160b380cf81a6b57227e449db10169582e68c6d092ce2"
+    },
+    "HL-JINGUO-FA-0002": {
+      "title": "金代女真萨满容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0002.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0002.png",
+      "width": 1263,
+      "height": 1246,
+      "sha256": "cf6118ce7a3d400b68dae982b361e3838f7afd4d0950562d169f9fb6811df0fb"
+    },
+    "HL-JINGUO-FA-0003": {
+      "title": "金代契丹遗民容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0003.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0003.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "560ff83559f64ef32355c8501cc1d888370469954f780f6740b3022e51f2b653"
+    },
+    "HL-JINGUO-FA-0004": {
+      "title": "金代女真平民女子容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0004.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0004.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "fbc383f922f06a70de99960270b0240d965f6017d81cec6fb006fd33c4e9bf4c"
     }
   }
 }
