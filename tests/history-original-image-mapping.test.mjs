@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.ok(Object.keys(gpt).length >= 225);
+assert.ok(Object.keys(gpt).length >= 252);
 for (const id of ['HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) assert.ok(gpt[id], id);
 for (const item of Object.values(gpt)) {
   assert.equal(item.model, 'GPT Image');
@@ -171,6 +171,33 @@ for (const [id, width, height] of batch201to223) {
   assert.ok(originals[id] && image, `saved JPEG and accepted GPT image: ${id}`);
   assert.equal(image.method, 'reference_edit', id);
   assert.deepEqual([image.width, image.height], [width, height], `native near-square PNG: ${id}`);
+}
+const batch224to250 = [
+  'HL-XIA-SC-0001', 'HL-XIA-SC-0006', 'HL-XIA-SC-0025',
+  'HL-XIA-SC-0026', 'HL-XIA-SC-0027', 'HL-XIA-SC-0028',
+  'HL-XIA-SC-0045', 'HL-XIA-SC-0046', 'HL-XIA-SC-0047',
+  'HL-XIA-SC-0048', 'HL-XIA-LS-0001', 'HL-XIA-LS-0002',
+  'HL-XIA-LS-0009', 'HL-XIA-LS-0010', 'HL-XIA-LS-0011',
+  'HL-XIA-LS-0012', 'HL-XIA-LS-0013', 'HL-XIA-LS-0014',
+  'HL-XIA-LS-0015', 'HL-XIA-LS-0016',
+];
+assert.equal(batch224to250.length, 20);
+for (const id of batch224to250) {
+  const image = gpt[id];
+  assert.ok(originals[id] && image, `saved JPEG and accepted GPT image: ${id}`);
+  assert.equal(image.method, 'reference_edit', id);
+  assert.deepEqual([image.width, image.height], [1672, 941], `native widescreen PNG: ${id}`);
+}
+for (const [id, width, height] of [
+  ['HL-XIA-SC-0002', 1774, 887], ['HL-XIA-SC-0003', 1679, 937],
+  ['HL-XIA-SC-0004', 1774, 887], ['HL-XIA-SC-0005', 1672, 941],
+  ['HL-XIA-SC-0007', 1774, 887], ['HL-XIA-SC-0008', 1774, 887],
+  ['HL-XIA-SC-0009', 1774, 887],
+]) {
+  const image = gpt[id];
+  assert.ok(originals[id] && image, `saved JPEG and accepted GPT image: ${id}`);
+  assert.equal(image.method, 'reference_edit', id);
+  assert.deepEqual([image.width, image.height], [width, height], `native landscape PNG: ${id}`);
 }
 assert.ok(originals['HF-20261015-0101'] && gpt['HF-20261015-0101']);
 const gptAndJpg = 'HF-20261015-0101';
