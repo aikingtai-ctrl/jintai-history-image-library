@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.ok(Object.keys(gpt).length >= 172);
+assert.ok(Object.keys(gpt).length >= 178);
 for (const id of ['HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) assert.ok(gpt[id], id);
 for (const item of Object.values(gpt)) {
   assert.equal(item.model, 'GPT Image');
@@ -119,6 +119,17 @@ for (const id of batch151to170) {
   const expected = id === 'HL-XIA-CO-0062' ? [1254, 1254] : [1024, 1536];
   assert.deepEqual([image.width, image.height], expected, `native PNG framing: ${id}`);
 }
+const batch171to176 = [
+  'HL-XIA-CO-0085', 'HL-XIA-CO-0087', 'HL-XIA-CO-0091',
+  'HL-XIA-CO-0092', 'HL-XIA-CO-0094', 'HL-XIA-CO-0097',
+];
+assert.equal(batch171to176.length, 6);
+for (const id of batch171to176) {
+  const image = gpt[id];
+  assert.ok(originals[id] && image, `saved JPEG and accepted GPT image: ${id}`);
+  assert.equal(image.method, 'reference_edit', id);
+  assert.deepEqual([image.width, image.height], [1024, 1536], `winter portrait native PNG: ${id}`);
+}
 assert.ok(originals['HF-20261015-0101'] && gpt['HF-20261015-0101']);
 const gptAndJpg = 'HF-20261015-0101';
 const jpgOnly = ids.find(id => !gpt[id]);
@@ -209,6 +220,11 @@ for (const [file, dataFile] of [
     const oldSize = id === 'HL-XIA-CO-0062' ? [720, 658] : [480, 720];
     assert.equal(imageQualityLabel(image.width, image.height, image), 'GPT Image PNG', id);
     assert.equal(imageQualityLabel(...oldSize, image), 'GPT Image 预览', id);
+  }
+  for (const id of batch171to176) {
+    const image = gpt[id];
+    assert.equal(imageQualityLabel(image.width, image.height, image), 'GPT Image PNG', id);
+    assert.equal(imageQualityLabel(480, 720, image), 'GPT Image 预览', id);
   }
   const gptCode = html.match(/^function gpt\(r\)\{[^\n]+/m)?.[0];
   const previewSrcCode = html.match(/^function previewSrc\(r\)\{[^\n]+/m)?.[0];
