@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-23T22:44:27.987557+00:00",
+  "snapshot_time_utc": "2026-11-23T22:48:45.114806+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -20618,6 +20618,20 @@
       "file": "film-ai/decks/film-src-c6a907ed774a43cb.webp",
       "sha256": "70869cdbb73147a21fcc2e2190eebbe07636bf489842ce652fe7d1cb5f993cb1",
       "bytes": 399898,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-d70a212dac05068f",
+      "wid": "src-d70a212dac05068f",
+      "title": "Invasion of Astro-Monster",
+      "file": "film-ai/decks/film-src-d70a212dac05068f.webp",
+      "sha256": "3a3363fa042a9fc0e5ab2b5945a64c733bd714c6463b2e44ca93d7f1d40f67e1",
+      "bytes": 279358,
       "size": [
         1672,
         941
