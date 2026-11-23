@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "2-0661dcee998b",
+  "revision": "3-3aba2840bba0",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -19,6 +19,14 @@
       "width": 1448,
       "height": 1086,
       "sha256": "0661dcee998bb76257266f2057a84299caa9823c5130f0fe97fc1c2ad3deb07a"
+    },
+    "HL-JINGUO-SC-0001": {
+      "title": "金代女真贵族宴饮",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-SC-0001.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-SC-0001.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3aba2840bba0e041594a80c7b32a6a1c91768ae27035671c48d1af75b765406a"
     }
   }
 }
