@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "143-830672760d26",
+  "revision": "144-bba120ff1ed7",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -1147,6 +1147,14 @@
       "width": 1024,
       "height": 1536,
       "sha256": "830672760d26f11cefb8069d9da97b3315fa45775b569cb0ba6cbaaedfc9d785"
+    },
+    "HL-NSONG-CO-0011": {
+      "title": "南宋·弓弩手",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-CO-0011.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-CO-0011.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "bba120ff1ed7f86400d9856374dcbedb3c8dba6985a5fcc2ea731c55ffa7662e"
     }
   }
 }
