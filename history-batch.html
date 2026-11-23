@@ -16,7 +16,7 @@ function regen(r){return window.JINTAI_REGENERATED_IMAGES?.[r.id];}
 function previewSrc(r){return regen(r)?.preview||histImgSrc(r.thumbnail);}
 let tunnelPromise;
 async function originalUrl(info){
-  if(location.hostname.endsWith('.trycloudflare.com'))return location.origin+'/original-pngs/history_1996_regenerated/'+encodeURIComponent(info.filename);
+  if(location.hostname.endsWith('.trycloudflare.com') || (location.port==='18890' && ['127.0.0.1','localhost','172.16.0.32'].includes(location.hostname)))return location.origin+'/original-pngs/history_1996_regenerated/'+encodeURIComponent(info.filename);
   if(!tunnelPromise)tunnelPromise=fetch('https://aikingtai-ctrl.github.io/jintai-domestic-portal/tunnel.json?t='+Date.now(),{cache:'no-store'}).then(r=>r.json()).then(x=>x.tunnel_url);
   const base=await tunnelPromise;if(!/^https:\/\/[a-z0-9-]+\.trycloudflare\.com$/i.test(base||''))throw Error('原图入口无效');
   return base+'/original-pngs/history_1996_regenerated/'+encodeURIComponent(info.filename);
