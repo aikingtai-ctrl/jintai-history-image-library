@@ -1230,7 +1230,7 @@ document.addEventListener('keydown',e=>{
       if(Object.keys(images).length!==v.count)throw Error('count mismatch');
       window.JINTAI_SONG_IMAGES=images;
       revision=v.revision;
-      if(typeof render==='function'&&window.DATA?.length)render();
+      if(typeof render==='function'&&list.length)render();
     }catch(e){console.warn('宋辽金西夏图片清单暂不可用',e)}
     finally{loading=false}
   }
