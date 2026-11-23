@@ -20,6 +20,7 @@ for (const item of Object.values(gpt)) {
   assert.equal(item.original_dir, 'history_2000_gpt_image');
   assert.ok(item.preview.includes('/gpt-image-previews/'));
 }
+assert.ok(originals['HF-20261015-0101'] && gpt['HF-20261015-0101']);
 
 const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 assert.doesNotMatch(index, /JINTAI_REGENERATED_IMAGES|regenerated-manifest\.js/);
@@ -27,14 +28,15 @@ const histPreviewCode = index.match(/^function histPreview\(id\)\{[^\n]+/m)?.[0]
 assert.ok(histPreviewCode);
 const histPreview = vm.runInNewContext(`${histPreviewCode}; histPreview`, { window: manifest });
 for (const id of [...ids, 'HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) {
-  assert.equal(histPreview(id), gpt[id]?.preview || originals[id], `homepage: ${id}`);
+  assert.equal(histPreview(id), originals[id] || gpt[id]?.preview, `homepage: ${id}`);
 }
 const histThumbCode = index.match(/^function histThumb\(id\)\{[^\n]+/m)?.[0];
 assert.ok(histThumbCode);
 const histThumb = vm.runInNewContext(`${histPreviewCode}; ${histThumbCode}; histThumb`, { window: manifest });
 for (const id of [...ids, 'HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) {
-  assert.equal(histThumb(id), gpt[id]?.preview || originals[id], `homepage thumb: ${id}`);
+  assert.equal(histThumb(id), originals[id] || gpt[id]?.preview, `homepage thumb: ${id}`);
 }
+assert.match(index, /const gpt=window\.JINTAI_AI_IMAGES\?\.\[r\.id\]\?null:window\.JINTAI_GPT_IMAGES\?\.\[r\.id\]/);
 
 const checkedIds = new Set();
 for (const [file, dataFile] of [
@@ -56,7 +58,7 @@ for (const [file, dataFile] of [
   });
   for (const row of data.HISTORY_BATCH.filter(row => row.status === 'done' || gpt[row.id])) {
     if (row.status === 'done') assert.equal(row.original, row.thumbnail, `${file}: stored original ${row.id}`);
-    assert.equal(previewSrc(row), gpt[row.id]?.preview || originals[row.id], `${file}: ${row.id}`);
+    assert.equal(previewSrc(row), originals[row.id] || gpt[row.id]?.preview, `${file}: ${row.id}`);
     checkedIds.add(row.id);
   }
 }

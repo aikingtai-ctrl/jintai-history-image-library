@@ -73,9 +73,10 @@ jobs:
               assert "gpt-image-manifest.js" in html, f"GPT Image manifest missing in {rel}"
               assert "original-pngs/" in html and "download=1" in html, f"GPT Image original download missing in {rel}"
               assert "regenerated-manifest.js" not in html and "JINTAI_REGENERATED_IMAGES" not in html, f"Old Qwen redrawn image mapping returned in {rel}"
-          assert "history-ai/manifest.js" in idx_html and "function histPreview(id){return window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||" in idx_html, "Saved/GPT preview priority missing"
+          assert "history-ai/manifest.js" in idx_html and "function histPreview(id){return window.JINTAI_AI_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]?.preview||" in idx_html, "Saved image preview priority missing"
           for rel in ("history-batch.html", "history-batch-1001-2000.html"):
-              assert "function previewSrc(r){return gpt(r)?.preview||histImgSrc(r.thumbnail);}" in history_pages[rel], f"Saved/GPT batch preview missing in {rel}"
+              assert "function gpt(r){return window.JINTAI_AI_IMAGES?.[r.id]?null:window.JINTAI_GPT_IMAGES?.[r.id];}" in history_pages[rel], f"Saved image priority missing in {rel}"
+              assert "function previewSrc(r){return gpt(r)?.preview||histImgSrc(r.thumbnail);}" in history_pages[rel], f"Batch preview missing in {rel}"
           history_js = git_bytes("show", "HEAD:history-ai/manifest.js").decode("utf-8")
           m_history = re.search(r"window\.JINTAI_AI_IMAGES\s*=\s*(\{.*?\})\s*;", history_js, re.S)
           assert m_history, "Saved history image manifest missing"
