@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "442-29f1fb9edb3f",
+  "revision": "474-110fd66a820a",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -3539,6 +3539,262 @@
       "width": 1672,
       "height": 941,
       "sha256": "29f1fb9edb3f09184208231a5d48a6a5bf1bad897502cbcf002b807ab2b0f832"
+    },
+    "HL-LIAO-SC-0015": {
+      "title": "辽代驿路契丹使者",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-SC-0015.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-SC-0015.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a0abebeabc43f24909bd2e7347197c0974c2ff52c86c7d568dc597127f34c47c"
+    },
+    "HL-LIAO-SC-0016": {
+      "title": "辽代缸瓦窑烧造",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-SC-0016.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-SC-0016.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4c5fc89547efe11ef5dbea58194f786529d6cf39ec6baa6c2bdac38a575ca429"
+    },
+    "HL-LIAO-SC-0017": {
+      "title": "辽代祭木叶山",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-SC-0017.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-SC-0017.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "da14f7467c79ec6486630352fea82897cd47dbc0ee10af729cc684c8e7b96542"
+    },
+    "HL-LIAO-SC-0018": {
+      "title": "辽代燕京街市",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-SC-0018.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-SC-0018.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "69699c4f529ba53f5d7d94457dcccf926b498a741c2c45e93b19bfb70ff5f2e7"
+    },
+    "HL-LIAO-PR-0005": {
+      "title": "辽代鎏金银器",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-PR-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-PR-0005.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "64ddc56d24a2fd88314d5523889dd819ff34c32ebd054c320c19a9de5b367fa8"
+    },
+    "HL-LIAO-PR-0006": {
+      "title": "辽代玉器与琥珀",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-PR-0006.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-PR-0006.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "e001122c5782f9f7f2004ce819dcdb592811dabcddd7db437cac10c14e490771"
+    },
+    "HL-LIAO-PR-0007": {
+      "title": "辽代车轮与车具",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-PR-0007.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-PR-0007.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "e0fe4ba2d715323e5cd61c14ec1e5c61b2ca915a4141ebfe393fcd21ae6c1d68"
+    },
+    "HL-LIAO-PR-0008": {
+      "title": "辽代刻经与佛经函",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-PR-0008.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-PR-0008.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "743f8da97ef45a18d3c0ecfb36e53f92bdee9a4aa94e0ae330c2af02bba6daaa"
+    },
+    "HL-LIAO-AR-0004": {
+      "title": "辽代奉国寺大雄殿",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-AR-0004.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-AR-0004.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "65931616dfcb217e85bb5d85e584573b637bd4be21e3a73232a20c328eaa2b7e"
+    },
+    "HL-LIAO-AR-0005": {
+      "title": "辽代庆州白塔",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-AR-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-AR-0005.png",
+      "width": 1217,
+      "height": 1292,
+      "sha256": "e78d040972ef803a901c0bc0fcdd1aced04a4da019217d51c80f8f15ddba6916"
+    },
+    "HL-LIAO-AR-0006": {
+      "title": "辽上京皇城",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-AR-0006.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-AR-0006.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "c866c9cd8e7a14a0176530f67bac91c07f88d960298cebc4ba29ae904948500d"
+    },
+    "HL-LIAO-LS-0003": {
+      "title": "辽代木叶山与潢河",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-LS-0003.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-LS-0003.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0f0fca6d6ee982254427ce7b2da67e6a7caa5ae2fdabd70a670d0718aaf2a633"
+    },
+    "HL-LIAO-LS-0004": {
+      "title": "辽代燕京城",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-LS-0004.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-LS-0004.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "209a084c6f6dce8675168f705123a4b3cf4b78bbdb328a8164a7ac87b09f9a10"
+    },
+    "HL-LIAO-LS-0005": {
+      "title": "辽代大兴安岭林海",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-LS-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-LS-0005.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "693ae39b4ab90dafbe45373109a11dcd40b22acf431c0ec9802f2b6c0aa6f47d"
+    },
+    "HL-LIAO-CO-0030": {
+      "title": "辽代皇太子",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0030.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0030.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "ad6bb44148668d7b9a3914361a2046c4f0e82aa1f67b65457fcbcc05b26453fe"
+    },
+    "HL-LIAO-CO-0031": {
+      "title": "辽代公主日常装",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0031.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0031.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "c75002ee62e780170fc133f7f3b0518b1eead0be8e66ebe43af6904138d5eafc"
+    },
+    "HL-LIAO-CO-0032": {
+      "title": "辽代宫女",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0032.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0032.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "d2f7ee61d527f84ab2cfcbab716f697442d046e7f468bcda253023d71066e8c2"
+    },
+    "HL-LIAO-CO-0033": {
+      "title": "辽代宫廷卫士",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0033.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0033.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "da45f3bbdece82521bb51cb590f35ebb1fe402f0e4a6022b11649fe7e08392f9"
+    },
+    "HL-LIAO-CO-0034": {
+      "title": "辽代契丹弓箭手",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0034.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0034.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "a3ec47a6d3362225c46e3b58135161640dd3c8ee579f1c388fcc6f46b665e8fa"
+    },
+    "HL-LIAO-CO-0035": {
+      "title": "辽代契丹猎户",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0035.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0035.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "b183a2958cf2f97977a553daf8f30ffc4f78595d195b8bb1b4e12e73ad28b31e"
+    },
+    "HL-LIAO-CO-0036": {
+      "title": "辽代契丹马夫",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0036.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0036.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "930acd472bc01d6f63ef3c0084f25892dadad3dee4930130cbda0dbf63bfe6a2"
+    },
+    "HL-LIAO-CO-0037": {
+      "title": "辽代契丹牧童",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0037.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0037.png",
+      "width": 1275,
+      "height": 1234,
+      "sha256": "c6b783d7120549302c838729236dceb3f8b66d0b3f5fdcf22a29f913dfc55767"
+    },
+    "HL-LIAO-CO-0038": {
+      "title": "辽代契丹牧民妇女",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0038.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0038.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "4e073551498f27e32be34a430fd8aaddae8b626418580c9dee077e9df443cace"
+    },
+    "HL-LIAO-CO-0039": {
+      "title": "辽代契丹老翁",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0039.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0039.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "b1f5cc52873720d809fb98e899dffdd53ee2f0c89e04f7184ddb42db774b8d34"
+    },
+    "HL-LIAO-CO-0040": {
+      "title": "辽代汉人农夫",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0040.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0040.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "ef80a51c93fb5659f495a94c59b7cb456a5715fe37cfadce705fb208911212e6"
+    },
+    "HL-LIAO-CO-0041": {
+      "title": "辽代汉人商人",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0041.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0041.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "18439c7e08a8d01745d5ae03a4f3910fcf04f38f363c50c782e2827cca2ab39e"
+    },
+    "HL-LIAO-CO-0042": {
+      "title": "辽代汉人乐伎",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0042.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0042.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "8f3c8ed222378cc3af315d838b3de5de6ce3597e0319fd18e1f9418d04594228"
+    },
+    "HL-LIAO-CO-0043": {
+      "title": "辽代厨役",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0043.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0043.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "4ff150ddde86fe4b03a8640aa822eb825fda6e402f70c070e930a61586d7a2c8"
+    },
+    "HL-LIAO-CO-0044": {
+      "title": "辽代渤海妇女",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0044.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0044.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "712190eb807027ea22b76b988bca4c350d19e8007fc0d2204522e507f1018e79"
+    },
+    "HL-LIAO-CO-0045": {
+      "title": "辽代奚族牧民",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0045.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0045.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "8e8e872538dd1e805cffe67523e9ec82e8815f38b6e989a5d3277e4fd702e32a"
+    },
+    "HL-LIAO-CO-0046": {
+      "title": "辽代生女真部落人",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0046.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0046.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "9807124d7a9bd715bd76001b90703c5d0e76d16a520b541b882046452387c149"
+    },
+    "HL-LIAO-CO-0047": {
+      "title": "辽代画工",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-CO-0047.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-CO-0047.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "110fd66a820a08340cb9af5fdec602b3cb8cdce6a5ce04038a5924f101e6fae1"
     }
   }
 }
