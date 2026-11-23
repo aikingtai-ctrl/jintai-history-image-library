@@ -6,6 +6,7 @@ const root = new URL('../', import.meta.url);
 const target = 20000;
 const read = file => fs.readFileSync(new URL(file, root), 'utf8');
 const first = JSON.parse(read('film-originals/data.json')).images.slice(0, 1000);
+const extra = JSON.parse(read('film-originals/png-assets.json')).assets;
 const context = { window: {} };
 vm.runInNewContext(read('film-ai/manifest.js'), context);
 const images = context.window.FILM_AI_IMAGES;
@@ -19,6 +20,7 @@ const tracked = new Set(execFileSync('git', ['ls-tree', '-r', '--name-only', 'HE
 const revision = execFileSync('git', ['rev-parse', 'HEAD'], { cwd: root, encoding: 'utf8' }).trim();
 const raw = `https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/${revision}/`;
 const used = new Set(first.map(row => row.wid));
+const attached = new Set();
 for (const row of first) {
   if (!row.png?.url || !row.thumbnail || !byWid.has(row.wid)) throw new Error(`Invalid existing original: ${row.wid}`);
   const work = byWid.get(row.wid);
@@ -29,6 +31,11 @@ for (const work of works) {
   const image = images[work.wid];
   if (used.has(work.wid) || !image || !tracked.has(image)) continue;
   if (!/^film-ai\/[a-zA-Z0-9_./-]+\.(?:jpe?g|webp|png)$/i.test(image)) throw new Error(`Unexpected image path: ${image}`);
+  const asset = extra[work.wid];
+  if (asset) {
+    if (!/^https:\/\/raw\.githubusercontent\.com\/aikingtai-ctrl\/jintai-history-image-library\/[0-9a-f]{40}\/originals\/part-\d+\/[A-Za-z0-9_-]+-[0-9a-f]{12}\.png$/.test(asset.url)) throw new Error(`Unexpected original URL: ${work.wid}`);
+    attached.add(work.wid);
+  }
   used.add(work.wid);
   additions.push({
     ordinal: first.length + additions.length + 1,
@@ -36,15 +43,15 @@ for (const work of works) {
     title: work.t || work.te,
     alternateTitle: work.te && work.te !== work.t ? work.te : '',
     year: work.y || null,
-    scene: null,
-    prompt: null,
+    scene: asset?.scene || null,
+    prompt: asset?.prompt || null,
     thumbnail: raw + image,
-    png: null
+    png: asset ? { url: asset.url, filename: asset.filename, width: asset.width, height: asset.height, bytes: asset.bytes, sha256: asset.sha256 } : null
   });
   if (first.length + additions.length === target) break;
 }
 const rows = first.concat(additions);
-if (rows.length !== target || used.size !== target) throw new Error('Insufficient unique works');
+if (rows.length !== target || used.size !== target || attached.size !== Object.keys(extra).length) throw new Error('Insufficient unique works or unmatched originals');
 const published = rows.filter(row => row.png?.url).length;
 const data = JSON.stringify({ collected: rows.length, published, target, generationMethod: '内置 imagegen（已公开 PNG）', sourceRevision: revision, images: rows }, null, 2);
 if (/C:[\\/]+Users[\\/]+KingT|172\.16\.0\.10|generated_images|\.codex[\\/]|\b(?:sk-[A-Za-z0-9]{20,}|ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,})/i.test(data)) throw new Error('Private information in public catalogue');
