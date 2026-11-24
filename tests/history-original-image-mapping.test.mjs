@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 415);
+assert.equal(Object.keys(gpt).length, 417);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
   assert.ok(html.includes(`gpt-image-${Object.keys(gpt).length}`),
@@ -106,6 +106,8 @@ for (const [id, width, height] of [
   ['AR-20261020-0792', 1774, 887],
   ['AR-20261020-0793', 1774, 887],
   ['AR-20261020-0794', 2172, 724],
+  ['AR-20261020-0795', 1672, 941],
+  ['AR-20261020-0796', 1774, 887],
 ]) {
   assert.ok(originals[id] && gpt[id], `saved Erlitou JPEG and accepted redraw: ${id}`);
   assert.equal(gpt[id].method, 'reference_edit');
@@ -123,6 +125,7 @@ const ultraWideCeremony = gpt['AR-20261020-0794'];
 assert.equal(ultraWideCeremony.width / ultraWideCeremony.height, 3);
 assert.ok(ultraWideCeremony.width * ultraWideCeremony.height >= 1_500_000);
 assert.ok(ultraWideCeremony.height >= 700);
+assert.match(gpt['AR-20261020-0796'].source_deviation_note, /台基遗迹.*完整圆形瓦顶建筑/);
 assert.ok(!gpt['AR-20261020-0779'], 'unaccepted #425 remains outside the manifest');
 const qing = manifest.JINTAI_QING_IMAGES;
 assert.ok(Object.keys(qing).length >= 1 && Object.keys(qing).length <= 4573);
