@@ -67,6 +67,14 @@ dialog.zg-lightbox::backdrop{background:rgba(0,0,0,.85)}
 .zg-lightbox-inner{display:flex;flex-direction:column;align-items:center;gap:9px}
 .zg-lightbox-inner img{max-width:92vw;max-height:78vh;object-fit:contain}
 .zg-lightbox-inner a,.zg-lightbox-inner button{color:#fff;font-size:15pt}
+
+.zg-home{background:#fff;border:1px solid #d8dfd8;border-radius:12px;padding:14px 16px;margin:8px 0 18px}
+.zg-home-title{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;color:#1f5c48;font-size:17pt}
+.zg-home-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px;margin-top:12px}
+.zg-home-item{border:1px solid #e0e0db;border-radius:9px;padding:8px;display:flex;flex-direction:column;gap:6px;background:#f9faf8}
+.zg-home-item img{width:100%;height:190px;object-fit:contain;background:#ebeae5;border-radius:6px}
+.zg-home-item button{padding:0;background:transparent;border:0;text-align:left;color:#1f5c48;font-size:13pt}
+.zg-home-item a{font-size:13pt;color:#1f5c48}
 </style>
 </head>
 <body>
@@ -92,6 +100,7 @@ dialog.zg-lightbox::backdrop{background:rgba(0,0,0,.85)}
 </header>
 <main>
   <section id="secBooks">
+    <div class="zg-home" id="zgHomeGallery"><div class="zg-home-title"><b>已生成原图</b><span id="zgHomeCount">正在读取原图目录…</span></div><div class="zg-home-grid" id="zgHomeGrid"></div></div>
     <div class="bar">
       <input autofocus type="search" id="qBook" placeholder="支持多关键词空格搜索57部书名、作者、朝代、角色、法宝（如：观世音、西王母、赤松子、麻姑、红线女、聂小倩、吕洞宾）…">
       <select id="catBook">
@@ -196,6 +205,7 @@ async function hydrateSpecialistPage(){
   renderBooks();
   applyPrompts();
   renderExisting();
+  zgRenderHomeGallery();
 }
 /*__SPEC_ALL_SHARD_END__*/
 const JIMENG = 'https://chatgpt.com/';
@@ -396,10 +406,32 @@ async function loadZgImages(){
     }
     $('zgImageProgress').textContent='已接原图 '+Object.keys(ZG_IMAGES).length.toLocaleString()+' / 8,000 张';
     if(ITEMS.length) renderPrompts();
+    zgRenderHomeGallery();
   }catch(e){
     $('zgImageProgress').textContent='原图目录暂不可达，提示词仍可浏览';
   }
 }
+
+function zgRenderHomeGallery(){
+  const grid=$('zgHomeGrid');if(!grid)return;
+  const ids=Object.keys(ZG_IMAGES).sort((a,b)=>Number(b.slice(-4))-Number(a.slice(-4)));
+  $('zgHomeCount').textContent=ids.length.toLocaleString()+' / 8,000 张已接入 · 下方显示最新 '+Math.min(12,ids.length)+' 张';
+  grid.replaceChildren();
+  if(!ids.length){grid.textContent='正在生成，已验收的原图会自动出现在这里。';return;}
+  for(const id of ids.slice(0,12)){
+    const info=ZG_IMAGES[id],record=ITEMS.find(r=>r.id===id)||{id,title:id};
+    const card=document.createElement('div');card.className='zg-home-item';
+    const open=document.createElement('button');open.type='button';open.title='打开无损原图';
+    const img=document.createElement('img');img.loading='lazy';img.src=info.preview_url;img.alt=id+' 原图预览';
+    const label=document.createElement('strong');label.textContent=id;
+    open.append(img,label);open.onclick=()=>zgOpenOriginal(record,info);
+    const download=document.createElement('a');download.href=info.original_url+'?download=1';download.target='_blank';download.rel='noopener';download.textContent='下载无损原图 · '+info.width+'×'+info.height;
+    const locate=document.createElement('button');locate.type='button';locate.textContent='查看对应提示词';
+    locate.onclick=()=>{if(!ITEMS.length)return;$('qPrompt').value=id;page=0;applyPrompts();setTab('prompts');$('secPrompts').scrollIntoView({behavior:'smooth'});};
+    card.append(open,download,locate);grid.appendChild(card);
+  }
+}
+
 function zgRenderImageCard(card,record){
   const info=ZG_IMAGES[record.id];
   if(!info) return;
