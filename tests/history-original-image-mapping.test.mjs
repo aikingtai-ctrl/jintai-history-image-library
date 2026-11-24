@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 440);
+assert.equal(Object.keys(gpt).length, 451);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
   assert.ok(html.includes(`gpt-image-${Object.keys(gpt).length}`),
@@ -131,6 +131,17 @@ for (const [id, width, height] of [
   ['AR-20261021-0064', 1774, 887],
   ['AR-20261021-0065', 1536, 1024],
   ['AR-20261021-0066', 1672, 941],
+  ['AR-20261021-0067', 1536, 1024],
+  ['AR-20261021-0068', 1672, 941],
+  ['AR-20261021-0069', 1672, 941],
+  ['HL-XIA-AR-0006', 1774, 887],
+  ['HL-XIA-AR-0007', 1774, 887],
+  ['HL-XIA-AR-0008', 1774, 887],
+  ['HL-XIA-AR-0009', 1774, 887],
+  ['HL-XIA-AR-0015', 1774, 887],
+  ['HL-XIA-AR-0016', 2172, 724],
+  ['HL-XIA-AR-0017', 1774, 887],
+  ['HL-XIA-AR-0018', 1774, 887],
 ]) {
   assert.ok(originals[id] && gpt[id], `saved Erlitou JPEG and accepted redraw: ${id}`);
   assert.equal(gpt[id].method, 'reference_edit');
@@ -162,7 +173,14 @@ for (const id of ['AR-20261020-0801', 'AR-20261020-0802', 'AR-20261020-0803']) {
 assert.match(gpt['AR-20261020-0804'].source_deviation_note, /数十座圆形基址.*四座圆形院/);
 assert.match(gpt['AR-20261021-0058'].source_deviation_note, /石牌有可读.*不写文字/);
 assert.match(gpt['AR-20261021-0066'].source_deviation_note, /匾额可读为“大师姑城”.*无字纹饰/);
+for (const id of ['AR-20261021-0067', 'AR-20261021-0069']) {
+  assert.match(gpt[id].source_deviation_note, /匾额可读为“大师姑城”.*不写字/);
+}
+assert.match(gpt['AR-20261021-0068'].source_deviation_note, /门额与旗帜图案.*未逐字逐形复现/);
+assert.equal(gpt['HL-XIA-AR-0016'].width / gpt['HL-XIA-AR-0016'].height, 3);
+assert.match(gpt['HL-XIA-AR-0018'].source_deviation_note, /成排圆形夯土基址.*完整的圆形茅顶屋群/);
 assert.ok(!gpt['AR-20261021-0054'], 'three failed #454 generations must not be published');
+assert.ok(!gpt['AR-20261021-0070'], 'three failed #470 generations must not be published');
 assert.ok(!gpt['AR-20261020-0779'], 'unaccepted #425 remains outside the manifest');
 const qing = manifest.JINTAI_QING_IMAGES;
 assert.ok(Object.keys(qing).length >= 1 && Object.keys(qing).length <= 4573);
