@@ -9,6 +9,7 @@ assert.ok(start >= 0 && end > start);
 
 const opened = [];
 const window = {
+  JINTAI_PAGE20_IMAGES: { page20: { original: 'https://example.test/page20.png', preview: 'https://example.test/page20.jpg' } },
   JINTAI_PAGE19_IMAGES: { page19: { original: 'https://example.test/page19.png', preview: 'https://example.test/page19.jpg' } },
   JINTAI_QING_IMAGES: { qing: { filename: 'qing.png', preview: 'https://example.test/qing.jpg' } },
   JINTAI_GPT_IMAGES: { gpt: { filename: 'gpt.png', preview: 'https://example.test/gpt.jpg' } },
@@ -23,10 +24,10 @@ const window = {
 };
 const context = { window, historyOriginalUrl: async info => `https://example.test/${info.filename}` };
 vm.runInNewContext(html.slice(start, end) + '\nthis.openHistOriginal=openHistOriginal;', context);
-for (const id of ['page19', 'qing', 'gpt', 'yuanming', 'song', 'saved']) context.openHistOriginal({ id });
+for (const id of ['page20', 'page19', 'qing', 'gpt', 'yuanming', 'song', 'saved']) context.openHistOriginal({ id });
 await new Promise(resolve => setImmediate(resolve));
 assert.deepEqual(opened.map(x => x.tab.url || x.url), [
-  'https://example.test/page19.png', 'https://example.test/qing.png',
+  'https://example.test/page20.png', 'https://example.test/page19.png', 'https://example.test/qing.png',
   'https://example.test/gpt.png', 'https://example.test/yuanming.png',
   'https://example.test/song.png', 'https://example.test/saved.jpg'
 ]);
