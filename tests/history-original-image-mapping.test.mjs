@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 459);
+assert.equal(Object.keys(gpt).length, 467);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
   assert.ok(html.includes(`gpt-image-${Object.keys(gpt).length}`),
@@ -150,6 +150,14 @@ for (const [id, width, height] of [
   ['AR-20261020-0513', 1774, 887],
   ['AR-20261020-0514', 1774, 887],
   ['AR-20261020-0515', 1774, 887],
+  ['AR-20261020-0516', 1774, 887],
+  ['AR-20261020-0571', 1922, 818],
+  ['AR-20261020-0572', 1774, 887],
+  ['AR-20261020-0573', 1774, 887],
+  ['AR-20261020-0574', 1774, 887],
+  ['AR-20261020-0575', 1774, 887],
+  ['AR-20261020-0576', 1774, 887],
+  ['AR-20261020-0577', 1774, 887],
 ]) {
   assert.ok(originals[id] && gpt[id], `saved Erlitou JPEG and accepted redraw: ${id}`);
   assert.equal(gpt[id].method, 'reference_edit');
@@ -192,6 +200,9 @@ assert.equal(gpt['AR-20261020-0509'].sha256,
 assert.match(gpt['AR-20261020-0509'].source_deviation_note, /亮色下落碎屑.*清除了不合理的发光喷射/);
 assert.match(gpt['AR-20261020-0510'].source_deviation_note, /标题称“内景”.*殿外正视/);
 assert.ok(Math.abs(gpt['AR-20261020-0512'].width / gpt['AR-20261020-0512'].height - 720 / 307) < 0.01);
+assert.ok(Math.abs(gpt['AR-20261020-0571'].width / gpt['AR-20261020-0571'].height - 720 / 307) < 0.01);
+assert.match(gpt['AR-20261020-0573'].source_deviation_note, /标题称“内景”.*外部高视角院落/);
+assert.match(gpt['AR-20261020-0575'].source_deviation_note, /左下角有可读中文.*不写字/);
 assert.ok(!gpt['AR-20261021-0054'], 'three failed #454 generations must not be published');
 assert.ok(!gpt['AR-20261021-0070'], 'three failed #470 generations must not be published');
 assert.ok(!gpt['AR-20261020-0779'], 'unaccepted #425 remains outside the manifest');
