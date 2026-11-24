@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-24T13:03:02.929065+00:00",
+  "snapshot_time_utc": "2026-11-24T13:11:33.790914+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -21738,6 +21738,20 @@
       "file": "film-ai/decks/film-src-db1ce53452377639.webp",
       "sha256": "3b45aadfa50943f3ab378d53f32555f893a506cecd116e382286f6702a976a48",
       "bytes": 445840,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-40d1014ee7bbf896",
+      "wid": "src-40d1014ee7bbf896",
+      "title": "Dr. Jekyll and Sister Hyde",
+      "file": "film-ai/decks/film-src-40d1014ee7bbf896.webp",
+      "sha256": "330bcecb64b16b89ade7205473b8b1a626fbacbd74c0d6fd81eb20c9dd6a6798",
+      "bytes": 166436,
       "size": [
         1672,
         941
