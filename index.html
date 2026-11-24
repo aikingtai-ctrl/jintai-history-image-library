@@ -1001,8 +1001,8 @@ function syncChipUI(){
 }
 
 
-function histPreview(id){return window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||'';}
-function histThumb(id){return window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]?.thumb||histPreview(id);}
+function histPreview(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||'';}
+function histThumb(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]?.thumb||histPreview(id);}
 let historyTunnelPromise;
 function historyGalleryBase(){
   if(location.hostname.endsWith('.trycloudflare.com') || (location.port==='18890' && ['127.0.0.1','localhost','172.16.0.32'].includes(location.hostname)))return Promise.resolve(location.origin);
@@ -1014,6 +1014,7 @@ function historyGalleryBase(){
   return historyTunnelPromise;
 }
 async function historyOriginalUrl(info){
+  if(info.original)return info.original;
   const base=await historyGalleryBase();
   return base+'/original-pngs/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.filename);
 }
@@ -1057,7 +1058,7 @@ function render(){
     const kindTxt=(r.cat && r.cat!==kBase) ? `${kBase} · ${r.cat}` : kBase;
     const views=r.n || (r.variants?r.variants.length:1);
     const historyPreview=histThumb(r.id);
-    d.innerHTML=`${historyPreview ? `<button type="button" class="history-preview-button" aria-label="放大查看图片：${esc(r.title)}" title="放大查看图片"><img class="history-card-preview" loading="lazy" src="${esc(historyPreview)}" alt=""><span class="history-preview-zoom" aria-hidden="true">${window.JINTAI_GPT_IMAGES?.[r.id]?'⛶ GPT Image 新生成':!window.JINTAI_AI_IMAGES?.[r.id]&&(window.JINTAI_YUANMING_IMAGES?.[r.id]||window.JINTAI_SONG_IMAGES?.[r.id]?.original)?'⛶ 查看原图':'⛶ 查看此图'}</span></button>` : ''}<h3>${esc(r.title)}</h3>${window.JINTAI_AI_NOTES?.[r.id] ? `<p>${esc(window.JINTAI_AI_NOTES[r.id])}</p>` : ''}
+    d.innerHTML=`${historyPreview ? `<button type="button" class="history-preview-button" aria-label="放大查看图片：${esc(r.title)}" title="放大查看图片"><img class="history-card-preview" loading="lazy" src="${esc(historyPreview)}" alt=""><span class="history-preview-zoom" aria-hidden="true">${(window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id])?'⛶ GPT Image 新生成':!window.JINTAI_AI_IMAGES?.[r.id]&&(window.JINTAI_YUANMING_IMAGES?.[r.id]||window.JINTAI_SONG_IMAGES?.[r.id]?.original)?'⛶ 查看原图':'⛶ 查看此图'}</span></button>` : ''}<h3>${esc(r.title)}</h3>${window.JINTAI_AI_NOTES?.[r.id] ? `<p>${esc(window.JINTAI_AI_NOTES[r.id])}</p>` : ''}
       <div class="summary">${esc(r.brief||'')}</div>
       <div class="card-foot"><span>${esc(eraTxt)} ｜ ${esc(kindTxt)}</span><span class="views">${views} 视角</span></div>`;
     const previewButton=d.querySelector('.history-preview-button');
@@ -1082,7 +1083,7 @@ function setHlbZoom(s,reset=false){
 function renderHlb(){
   const r=HLB.pool[HLB.idx];if(!r)return;
   const preview=histPreview(r.id);if(!preview)return;
-  const gpt=window.JINTAI_GPT_IMAGES?.[r.id];
+  const gpt=window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id];
   const yuanming=!gpt&&!window.JINTAI_AI_IMAGES?.[r.id]&&window.JINTAI_YUANMING_IMAGES?.[r.id];
   const native=gpt||yuanming;
   const songOriginal=window.JINTAI_SONG_IMAGES?.[r.id]?.original;
@@ -1318,5 +1319,6 @@ document.addEventListener('keydown',e=>{
   document.addEventListener('visibilitychange',()=>{if(!document.hidden)syncSongImages()});
 })();
 </script>
+<script src="history-ai/page19-originals-manifest.js?v=20261124-page19-4" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 </body>
 </html>
