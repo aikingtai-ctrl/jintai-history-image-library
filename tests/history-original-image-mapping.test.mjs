@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.ok(Object.keys(gpt).length >= 282);
+assert.ok(Object.keys(gpt).length >= 302);
 for (const id of ['HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) assert.ok(gpt[id], id);
 for (const item of Object.values(gpt)) {
   assert.equal(item.model, 'GPT Image');
@@ -221,6 +221,31 @@ for (const id of batch251to280) {
   assert.ok(image.width / image.height > 1.7 && image.width / image.height < 2.2,
     `landscape source framing: ${id}`);
 }
+const batch281to300 = [
+  'HL-XIA-SC-0054', 'HL-XIA-SC-0055', 'HL-XIA-SC-0056',
+  'HL-XIA-SC-0057', 'HL-XIA-SC-0058', 'HL-XIA-SC-0059',
+  'HL-XIA-SC-0060', 'HL-XIA-SC-0061', 'HL-XIA-SC-0062',
+  'HL-XIA-SC-0063', 'HL-XIA-SC-0064', 'HL-XIA-SC-0069',
+  'HL-XIA-SC-0070', 'HL-XIA-SC-0071', 'HL-XIA-SC-0072',
+  'HL-XIA-SC-0073', 'HL-XIA-SC-0074', 'HL-XIA-SC-0075',
+  'HL-XIA-SC-0076', 'HL-XIA-SC-0077',
+];
+assert.equal(batch281to300.length, 20);
+for (const id of batch281to300) {
+  const image = gpt[id];
+  assert.ok(originals[id] && image, `saved JPEG and accepted GPT image: ${id}`);
+  assert.equal(image.method, 'reference_edit', id);
+  assert.ok(image.width * image.height >= 1_500_000 && image.height >= 850,
+    `native PNG dimensions: ${id}`);
+}
+for (const id of ['HL-XIA-SC-0063', 'HL-XIA-SC-0072']) {
+  assert.deepEqual([gpt[id].width, gpt[id].height], [1672, 941],
+    `corrected 16:9 source framing: ${id}`);
+}
+for (const id of ['HL-XIA-SC-0058', 'HL-XIA-SC-0059', 'HL-XIA-SC-0060']) {
+  assert.match(gpt[id].source_deviation_note, /原有小图可见遗体.*合棺葬仪.*画面与原小图不同/,
+    `public visual deviation disclosure: ${id}`);
+}
 assert.ok(originals['HF-20261015-0101'] && gpt['HF-20261015-0101']);
 const gptAndJpg = 'HF-20261015-0101';
 const jpgOnly = ids.find(id => !gpt[id]);
@@ -228,6 +253,7 @@ assert.ok(jpgOnly, 'Need a saved JPEG without an accepted GPT Image');
 
 const index = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 assert.doesNotMatch(index, /JINTAI_REGENERATED_IMAGES|regenerated-manifest\.js/);
+assert.match(index, /gpt\.source_deviation_note/, 'homepage must disclose changed visual content');
 const histPreviewCode = index.match(/^function histPreview\(id\)\{[^\n]+/m)?.[0];
 assert.ok(histPreviewCode);
 const histPreview = vm.runInNewContext(`${histPreviewCode}; histPreview`, { window: manifest });
@@ -265,6 +291,7 @@ for (const [file, dataFile] of [
   const data = {};
   vm.runInNewContext(fs.readFileSync(path.join(root, dataFile), 'utf8'), { window: data });
   assert.match(html, /gpt-image-manifest\.js/);
+  assert.match(html, /info\.source_deviation_note/, `${file}: disclose changed visual content`);
   assert.match(html, /download=1/);
   assert.match(html, /\.stage #full\{[^}]*object-fit:contain/, `${file}: keep portrait aspect ratio`);
   const promotionCode = html.match(/^for\(const row of rows\)\{if\(row\.status==='deferred'[^\n]+/m)?.[0];
