@@ -650,6 +650,10 @@ jobs:
                   pins = shot_pin_re.findall((site / rel).read_text(encoding="utf-8"))
                   assert len(pins) == 1 and pins[0][1] == source_pin, rel
 
+          film_page = (site / "film.html").read_text(encoding="utf-8")
+          assert "function resolveFilmAiOriginal(src)" in film_page and "filmPreviewHref(resolveFilmAiOriginal(src))" in film_page and ".thumb,.mini,.vis,.dk-cover,.qcell" in film_page, "Film preview direct-open behavior missing"
+          shutil.copy2(site / "film.html", site / "影视参考图集.html")
+
           (site / ".nojekyll").write_text("", encoding="utf-8")
           print(f"Staged {len(selected)} files into _site ({total_bytes / (1024*1024):.2f} MiB)")
           PY
