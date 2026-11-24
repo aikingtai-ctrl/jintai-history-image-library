@@ -1,0 +1,44 @@
+{
+  "reviewedOn": "2026-11-24",
+  "reviewedRange": [
+    1080,
+    1439
+  ],
+  "decisions": [
+    {
+      "wid": "ip-man-2008",
+      "previous": "film-ai/shots/WORKCONCEPT-20261123-ip-man-2008.webp",
+      "replacement": "film-ai/ip-man-2008.jpg",
+      "reason": "Empty courtyard omits the title character",
+      "provenance": "Existing gallery representative JPEG; provenance not independently verified"
+    },
+    {
+      "wid": "kung-fu-hustle-2004",
+      "previous": "film-ai/shots/WORKCONCEPT-20261123-kung-fu-hustle-2004.webp",
+      "replacement": "film-ai/kung-fu-hustle-2004.jpg",
+      "reason": "Empty tenement omits the comedy ensemble",
+      "provenance": "Existing gallery representative JPEG; provenance not independently verified"
+    },
+    {
+      "wid": "jaws-1975",
+      "previous": "film-ai/shots/WORKCONCEPT-20261123-jaws-1975.webp",
+      "replacement": "film-ai/quality-reviewed/jaws-1975.png",
+      "reason": "Empty beach omits the shark and fishing boat",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "metropolis-1927",
+      "previous": "film-ai/metropolis-1927.jpg",
+      "replacement": "film-ai/quality-reviewed/metropolis-1927.png",
+      "reason": "Existing modern runners are unrelated to the 1927 silent film",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "night-of-the-living-dead-1968",
+      "previous": "film-ai/night-of-the-living-dead-1968.jpg",
+      "replacement": "film-ai/quality-reviewed/night-of-the-living-dead-1968.png",
+      "reason": "Existing modern portrait is unrelated to the 1968 horror film",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
