@@ -385,6 +385,7 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
       <span id="count">加载中…</span>
       <span id="loadmsg"></span>
       <span id="yuanmingProgress"></span>
+      <span id="qingProgress"></span>
       <div class="crumbs" id="crumbs"></div>
     </div>
     <div class="pager">
@@ -1001,8 +1002,8 @@ function syncChipUI(){
 }
 
 
-function histPreview(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||'';}
-function histThumb(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]?.thumb||histPreview(id);}
+function histPreview(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||'';}
+function histThumb(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]?.thumb||histPreview(id);}
 let historyTunnelPromise;
 function historyGalleryBase(){
   if(location.hostname.endsWith('.trycloudflare.com') || (location.port==='18890' && ['127.0.0.1','localhost','172.16.0.32'].includes(location.hostname)))return Promise.resolve(location.origin);
@@ -1035,6 +1036,22 @@ async function historyOriginalUrl(info){
     document.head.appendChild(s);
   }).catch(()=>{});
 })();
+(function loadQingImages(){
+  historyGalleryBase().then(base=>{
+    const s=document.createElement('script');
+    s.src=base+'/jintai-history-image-library/history-ai/qing-manifest.js?t='+Date.now();
+    s.onload=()=>{
+      const images=window.JINTAI_QING_IMAGES||{};
+      for(const info of Object.values(images)){
+        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+      }
+      const count=Object.keys(images).length;
+      $('qingProgress').textContent='清代已接图 '+count.toLocaleString()+' / 4,573 张'+(count===4573?' · 已完成':'');
+      if(typeof render==='function'&&R.length)render();
+    };
+    document.head.appendChild(s);
+  }).catch(()=>{});
+})();
 function render(){
   const total=list.length, tp=Math.max(1,Math.ceil(total/PAGE));
   if(page>=tp) page=tp-1;
@@ -1058,7 +1075,7 @@ function render(){
     const kindTxt=(r.cat && r.cat!==kBase) ? `${kBase} · ${r.cat}` : kBase;
     const views=r.n || (r.variants?r.variants.length:1);
     const historyPreview=histThumb(r.id);
-    d.innerHTML=`${historyPreview ? `<button type="button" class="history-preview-button" aria-label="放大查看图片：${esc(r.title)}" title="放大查看图片"><img class="history-card-preview" loading="lazy" src="${esc(historyPreview)}" alt=""><span class="history-preview-zoom" aria-hidden="true">${(window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id])?'⛶ GPT Image 新生成':!window.JINTAI_AI_IMAGES?.[r.id]&&(window.JINTAI_YUANMING_IMAGES?.[r.id]||window.JINTAI_SONG_IMAGES?.[r.id]?.original)?'⛶ 查看原图':'⛶ 查看此图'}</span></button>` : ''}<h3>${esc(r.title)}</h3>${window.JINTAI_AI_NOTES?.[r.id] ? `<p>${esc(window.JINTAI_AI_NOTES[r.id])}</p>` : ''}
+    d.innerHTML=`${historyPreview ? `<button type="button" class="history-preview-button" aria-label="放大查看图片：${esc(r.title)}" title="放大查看图片"><img class="history-card-preview" loading="lazy" src="${esc(historyPreview)}" alt=""><span class="history-preview-zoom" aria-hidden="true">${(window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_QING_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id])?'⛶ GPT Image 新生成':!window.JINTAI_AI_IMAGES?.[r.id]&&(window.JINTAI_YUANMING_IMAGES?.[r.id]||window.JINTAI_SONG_IMAGES?.[r.id]?.original)?'⛶ 查看原图':'⛶ 查看此图'}</span></button>` : ''}<h3>${esc(r.title)}</h3>${window.JINTAI_AI_NOTES?.[r.id] ? `<p>${esc(window.JINTAI_AI_NOTES[r.id])}</p>` : ''}
       <div class="summary">${esc(r.brief||'')}</div>
       <div class="card-foot"><span>${esc(eraTxt)} ｜ ${esc(kindTxt)}</span><span class="views">${views} 视角</span></div>`;
     const previewButton=d.querySelector('.history-preview-button');
@@ -1083,7 +1100,7 @@ function setHlbZoom(s,reset=false){
 function renderHlb(){
   const r=HLB.pool[HLB.idx];if(!r)return;
   const preview=histPreview(r.id);if(!preview)return;
-  const gpt=window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id];
+  const gpt=window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_QING_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id];
   const yuanming=!gpt&&!window.JINTAI_AI_IMAGES?.[r.id]&&window.JINTAI_YUANMING_IMAGES?.[r.id];
   const native=gpt||yuanming;
   const songOriginal=window.JINTAI_SONG_IMAGES?.[r.id]?.original;
@@ -1100,7 +1117,7 @@ function renderHlb(){
     if(HLB.request!==request)return;
     $('hlbSub').textContent=subtitle+` · ${im.naturalWidth}×${im.naturalHeight} px`;
     if(originalSrc&&im.currentSrc===originalSrc){
-      $('hlbNote').textContent=gpt?`GPT Image 重新生成的 ${im.naturalWidth}×${im.naturalHeight} PNG；${gpt.method==='reference_edit'?'依据原有小图重绘':'依据保存的文字描述生成'}，历史细节仍需核验。${gpt.source_deviation_note?' 画面差异：'+gpt.source_deviation_note:''}`:yuanming?`原创 PNG ${im.naturalWidth}×${im.naturalHeight}；按保存的条目描述生成。`:`原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`;
+      $('hlbNote').textContent=gpt?`GPT Image 生成的 ${im.naturalWidth}×${im.naturalHeight} PNG；${gpt.method==='reference_edit'?'依据原有小图重绘':'依据保存的文字描述生成'}，历史细节仍需核验。${gpt.source_deviation_note?' 画面差异：'+gpt.source_deviation_note:''}`:yuanming?`原创 PNG ${im.naturalWidth}×${im.naturalHeight}；按保存的条目描述生成。`:`原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`;
     }else if(originalFailed){
       $('hlbNote').textContent='原始 PNG 暂不可用，当前显示预览图。';
     }else if(native||songOriginal){
