@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-24T15:52:49.392843+00:00",
+  "snapshot_time_utc": "2026-11-24T16:01:33.474526+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -21990,6 +21990,20 @@
       "file": "film-ai/decks/film-src-dd4f7cdf48923a54.webp",
       "sha256": "5e8bb66d8d5702c83fd74064d48d392b4b3387812af3fc9c07af034bf7da9621",
       "bytes": 534646,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-8422334f8d6a8edf",
+      "wid": "src-8422334f8d6a8edf",
+      "title": "What’s Up, Doc?",
+      "file": "film-ai/decks/film-src-8422334f8d6a8edf.webp",
+      "sha256": "3dd3dded0e391e6af3ebc4e6a805a4c2d1a594a612081162190ba14b27c2e582",
+      "bytes": 420672,
       "size": [
         1672,
         941
