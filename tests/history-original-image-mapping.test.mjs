@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 374);
+assert.equal(Object.keys(gpt).length, 378);
 const taosiPanorama = gpt['AR-20261020-0025'];
 assert.ok(originals['AR-20261020-0025'] && taosiPanorama,
   'saved Taosi JPEG and accepted GPT Image panorama both remain mapped');
@@ -22,6 +22,20 @@ assert.deepEqual([taosiPanorama.width, taosiPanorama.height], [1921, 819]);
 assert.ok(taosiPanorama.width * taosiPanorama.height >= 1_500_000);
 assert.ok(Math.min(taosiPanorama.width, taosiPanorama.height) >= 800);
 assert.ok(Math.abs(taosiPanorama.width / taosiPanorama.height - 720 / 307) < 0.06);
+const taosiInterior = gpt['AR-20261020-0027'];
+assert.ok(originals['AR-20261020-0027'] && taosiInterior,
+  'saved Taosi interior JPEG and accepted GPT Image both remain mapped');
+assert.equal(taosiInterior.method, 'reference_edit');
+assert.deepEqual([taosiInterior.width, taosiInterior.height], [1672, 941]);
+for (const [id, width, height] of [
+  ['AR-20261020-0028', 1774, 887],
+  ['AR-20261020-0029', 1774, 887],
+  ['AR-20261020-0030', 1752, 897],
+]) {
+  assert.ok(originals[id] && gpt[id], `saved Taosi JPEG and accepted redraw: ${id}`);
+  assert.equal(gpt[id].method, 'reference_edit');
+  assert.deepEqual([gpt[id].width, gpt[id].height], [width, height]);
+}
 const qing = manifest.JINTAI_QING_IMAGES;
 assert.ok(Object.keys(qing).length >= 1 && Object.keys(qing).length <= 4573);
 for (const id of ['HF-20261015-0093', 'HF-20261015-0094', 'HF-20261015-0095']) {
