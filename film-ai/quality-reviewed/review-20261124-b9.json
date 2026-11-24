@@ -1,0 +1,37 @@
+{
+  "reviewedOn": "2026-11-24",
+  "reviewedRange": [
+    1440,
+    1799
+  ],
+  "decisions": [
+    {
+      "wid": "psycho-1960",
+      "previous": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/psycho-1960-5ed20278160c.png",
+      "replacement": "film-ai/quality-reviewed/psycho-1960.png",
+      "reason": "Police portrait omits the Bates Motel setting",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "requiem-for-a-dream-2000",
+      "previous": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/requiem-for-a-dream-2000-83a7d6c99cbc.png",
+      "replacement": "film-ai/quality-reviewed/requiem-for-a-dream-2000.png",
+      "reason": "Abstract planet does not represent the Brooklyn character drama",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "sinead-oconnor-nothing-compares-2-u-1990",
+      "previous": "film-ai/sinead-oconnor-nothing-compares-2-u-1990.jpg",
+      "replacement": "film-ai/quality-reviewed/sinead-oconnor-nothing-compares-2-u-1990.png",
+      "reason": "Unrelated group of men replaces the defining singer portrait",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "soundgarden-black-hole-sun-1994",
+      "previous": "film-ai/soundgarden-black-hole-sun-1994.jpg",
+      "replacement": "film-ai/quality-reviewed/soundgarden-black-hole-sun-1994.png",
+      "reason": "Unrelated poster replaces the surreal suburb music-video imagery",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
