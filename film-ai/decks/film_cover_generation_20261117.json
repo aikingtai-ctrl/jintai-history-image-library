@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-24T18:36:25.167467+00:00",
+  "snapshot_time_utc": "2026-11-24T18:44:16.240969+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -22256,6 +22256,20 @@
       "file": "film-ai/decks/film-src-c1adc1c51c0d95c7.webp",
       "sha256": "628fa53d23ae841dd0b75ff3e984652f3a555c59a0a228376e39f1d160189322",
       "bytes": 240998,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-a496e1f19119a585",
+      "wid": "src-a496e1f19119a585",
+      "title": "Charley Varrick",
+      "file": "film-ai/decks/film-src-a496e1f19119a585.webp",
+      "sha256": "b5d9b533ead245e1d4dc57e64092697cdd8dd03e6344ddcd76ce48b8d50082ab",
+      "bytes": 295902,
       "size": [
         1672,
         941
