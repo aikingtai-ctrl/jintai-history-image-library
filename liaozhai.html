@@ -171,23 +171,33 @@ async function loadSpecAllRes(relName,isManifest,checkFn){
 async function hydrateSpecialistPage(){
   if(document.getElementById('jt_gate_css')&&document.documentElement.getAttribute('data-jt-ok')!=='1')return;
   const stEl=document.getElementById('infoG');
-  if(stEl)stEl.textContent='正在并行载入考证专集数据分片…';
+  if(stEl)stEl.textContent='正在载入考证专集首屏数据…';
   window.SPEC_ALL_MANIFEST=null;
   await loadSpecAllRes('manifest.js?v='+Date.now(),true,()=>{if(!window.SPEC_ALL_MANIFEST)throw new Error('mf');});
   const mf=window.SPEC_ALL_MANIFEST,shards=(mf&&Array.isArray(mf.item_shards))?mf.item_shards:[],ver=mf&&mf.version?('?v='+mf.version):'';
-  const queue=(mf&&mf.meta_shard)?[mf.meta_shard,...shards]:[...shards];
-  let nextIdx=0,doneCnt=0;
-  const workers=Array.from({length:Math.min(6,queue.length||1)},async()=>{while(nextIdx<queue.length){const sh=queue[nextIdx++];await loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');});doneCnt++;if(stEl)stEl.textContent=`正在并行解压专集分片（${doneCnt} / ${queue.length}）…`;}});
-  await Promise.all(workers);
+  const boot=(mf&&mf.meta_shard)?(shards.length?[mf.meta_shard,shards[0]]:[mf.meta_shard]):(shards.length?[shards[0]]:[]);
+  await Promise.all(boot.map(sh=>loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');})));
   const meta=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[mf.meta_shard]);delete window.__SPEC_ALL_CHUNKS__[mf.meta_shard];
   GROUPS.length=0;
   const mg=meta.groups||[];for(let i=0;i<mg.length;i++)GROUPS.push(mg[i]);
   LEGACY.length=0;
   const ml=meta.legacy||[];for(let i=0;i<ml.length;i++)LEGACY.push(ml[i]);
   ITEMS.length=0;
-  for(let i=0;i<shards.length;i++){const rows=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[shards[i]]);for(let j=0;j<rows.length;j++)ITEMS.push(rows[j]);delete window.__SPEC_ALL_CHUNKS__[shards[i]];}
+  if(shards.length){const rows=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[shards[0]]);for(let j=0;j<rows.length;j++)ITEMS.push(rows[j]);delete window.__SPEC_ALL_CHUNKS__[shards[0]];}
   fGroups=GROUPS;fItems=ITEMS;
   if(curTab==='grp')renderG();else if(curTab==='prm')renderP();else renderL();
+  window.__JT_SPEC_FIRST_READY__=true;
+  if(shards.length>1){
+    await new Promise(r=>setTimeout(r,24));
+    for(let w=1;w<shards.length;w+=3){
+      const batch=shards.slice(w,w+3);
+      await Promise.all(batch.map(sh=>loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');})));
+      for(const sh of batch){const rows=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[sh]);for(let j=0;j<rows.length;j++)ITEMS.push(rows[j]);delete window.__SPEC_ALL_CHUNKS__[sh];}
+      await new Promise(r=>setTimeout(r,16));
+    }
+    if(curTab==='prm'){const _pp=pP;filterP();if(_pp>1){pP=_pp;renderP();}}else if(fItems===ITEMS)fItems=ITEMS;
+  }
+  window.__JT_SPEC_ALL_READY__=true;
 }
 /*__SPEC_ALL_SHARD_END__*/
 const PAGE_G=20, PAGE_P=20;

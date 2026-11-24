@@ -136,19 +136,32 @@ async function loadSpecAllRes(relName,isManifest,checkFn){
 async function hydrateSpecialistPage(){
   if(document.getElementById('jt_gate_css')&&document.documentElement.getAttribute('data-jt-ok')!=='1')return;
   const stEl=document.getElementById('count');
-  if(stEl)stEl.textContent='正在并行载入考证专集数据分片…';
+  if(stEl)stEl.textContent='正在载入考证专集首屏数据…';
   window.SPEC_ALL_MANIFEST=null;
   await loadSpecAllRes('manifest.js?v='+Date.now(),true,()=>{if(!window.SPEC_ALL_MANIFEST)throw new Error('mf');});
   const mf=window.SPEC_ALL_MANIFEST,shards=(mf&&Array.isArray(mf.item_shards))?mf.item_shards:[],ver=mf&&mf.version?('?v='+mf.version):'';
-  const queue=(mf&&mf.meta_shard)?[mf.meta_shard,...shards]:[...shards];
-  let nextIdx=0,doneCnt=0;
-  const workers=Array.from({length:Math.min(6,queue.length||1)},async()=>{while(nextIdx<queue.length){const sh=queue[nextIdx++];await loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');});doneCnt++;if(stEl)stEl.textContent=`正在并行解压专集分片（${doneCnt} / ${queue.length}）…`;}});
-  await Promise.all(workers);
   DATA.length=0;
-  for(let i=0;i<shards.length;i++){const rows=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[shards[i]]);for(let j=0;j<rows.length;j++)DATA.push(rows[j]);delete window.__SPEC_ALL_CHUNKS__[shards[i]];}
-  list=DATA;
-  initFilters();
-  apply();
+  if(!shards.length){list=DATA;initFilters();apply();window.__JT_SPEC_FIRST_READY__=true;window.__JT_SPEC_ALL_READY__=true;return;}
+  await loadSpecAllRes(shards[0]+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[shards[0]])throw new Error('chunk');});
+  {const rows=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[shards[0]]);for(let j=0;j<rows.length;j++)DATA.push(rows[j]);delete window.__SPEC_ALL_CHUNKS__[shards[0]];}
+  list=DATA;initFilters();apply();window.__JT_SPEC_FIRST_READY__=true;
+  if(shards.length>1){
+    await new Promise(r=>setTimeout(r,24));
+    for(let w=1;w<shards.length;w+=3){
+      const batch=shards.slice(w,w+3);
+      await Promise.all(batch.map(sh=>loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');})));
+      for(const sh of batch){const rows=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[sh]);for(let j=0;j<rows.length;j++)DATA.push(rows[j]);delete window.__SPEC_ALL_CHUNKS__[sh];}
+      await new Promise(r=>setTimeout(r,16));
+    }
+    const prevScroll=window.scrollY,prevPage=page;
+    list=DATA;initFilters();
+    if(typeof fSub==='string'&&document.getElementById('subRow'))document.querySelectorAll('#subRow .chip').forEach(x=>x.classList.toggle('on',x.dataset.sub===fSub));
+    if(typeof fState==='string'&&document.getElementById('stateRow'))document.querySelectorAll('#stateRow .chip').forEach(x=>x.classList.toggle('on',x.dataset.state===fState));
+    apply();
+    if(prevPage>0){page=prevPage;render();}
+    window.scrollTo(0,prevScroll);
+  }
+  window.__JT_SPEC_ALL_READY__=true;
 }
 /*__SPEC_ALL_SHARD_END__*/
 let fGrp='',fState='',page=0,PAGE=24,list=DATA;
