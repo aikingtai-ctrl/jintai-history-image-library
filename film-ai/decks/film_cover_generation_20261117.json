@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-24T13:28:01.124763+00:00",
+  "snapshot_time_utc": "2026-11-24T13:34:27.811759+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -21780,6 +21780,20 @@
       "file": "film-ai/decks/film-src-57e9d90eb814de6f.webp",
       "sha256": "967ac8fd793410bf3c7ff3378cdfe8c529d509c8e7c1b1cec35dbc18afaf5b5e",
       "bytes": 261740,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-9350afa71b29071b",
+      "wid": "src-9350afa71b29071b",
+      "title": "Emperor Tomato Ketchup",
+      "file": "film-ai/decks/film-src-9350afa71b29071b.webp",
+      "sha256": "311302fdc2258fa3ef8e7216b6318a013b569a26f90659d74a83ae4f86661548",
+      "bytes": 272242,
       "size": [
         1672,
         941
