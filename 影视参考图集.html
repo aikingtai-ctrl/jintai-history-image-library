@@ -467,7 +467,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
  </div>
 </dialog>
 <div id="toast"></div><div id="printArea"></div>
-<script src="film-ai/manifest.js?v=imagegen5000-4804-20261120-53f0d77c"></script>
+<script src="film-ai/manifest.js?v=imagegen5000-5000-20261120-a7b90e44"></script>
 <script src="film-ai/decks/manifest.js?v=20261117-gpt-image-film-1533"></script>
 <script src="film-ai/shots-manifest.js?v=b933ad2253d8f418"></script>
 <script>
@@ -1559,6 +1559,9 @@ let WORKS_VIEW_MODE=(()=>{const u=new URLSearchParams(location.search).get('wvie
 function resolveFilmAiAsset(rel){if(!rel)return'';if(/^https?:/i.test(rel))return rel;return IS_GH_FILM?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/${rel}`:rel;}
 function resolveFilmAiLegacyAsset(rel){return resolveFilmAiAsset(rel);}
 function getFilmAiSrc(wid){
+ const representative=(window.FILM_AI_IMAGES||FILM_AI_IMAGES||{})[wid];
+ if((window.FILM_AI_FIRST_SHOT_GOAL_WIDS||{})[wid]&&representative)return resolveFilmAiAsset(representative);
+
  const direct=(window.FILM_SHOT_WORK_IMAGES||{})[wid];
  if(direct)return resolveFilmAiAsset(direct);
  const work=WORK_BY_WID.get(wid),shots=work?(BYW.get(work.i)||[]):[];
@@ -1566,7 +1569,6 @@ function getFilmAiSrc(wid){
  if(generated)return shotImageSrc(generated.id);
  const deckCover=(window.FILM_DECK_COVERS||{})['film:'+wid];
  if(deckCover)return resolveFilmAiAsset(deckCover);
- const representative=(window.FILM_AI_IMAGES||FILM_AI_IMAGES||{})[wid];
  return resolveFilmAiLegacyAsset(representative||'');
 }
 function fillSel(id,name,arr){const select=$(id),value=select.value;select.innerHTML=`<option value="">${name}：全部</option>`+arr.map(v=>`<option>${esc(v)}</option>`).join('');if(arr.includes(value))select.value=value;}
@@ -1605,7 +1607,7 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
   const aiGeneratedJpg=FILM_AI_GENERATED_WIDS.has(w.wid)&&/(?:^|\/)film-ai\/[^/?#]+\.jpe?g(?:[?#]|$)/i.test(aiSrc||'');
   const aiGeneratedWebp=FILM_AI_GENERATED_WIDS.has(w.wid)&&/(?:^|\/)film-ai\/src-[^/?#]+\.webp(?:[?#]|$)/i.test(aiSrc||'');
   const aiGoal3377=/(?:^|\/)film-ai\/goal3377\/[^?#]+\.jpe?g(?:[?#]|$)/i.test(aiSrc||'');
-  const aiBadge=(window.FILM_SHOT_WORK_ROLES||{})[w.wid]||(aiReviewed||aiGoal3377?'原创概念图·高清':aiGeneratedJpg?'AI 小图·待升级':aiGeneratedWebp?'AI 代表图':aiWorkConcept?'原创概念图·高清':aiHires?'高清 AI 参考图':aiDeckCover?'原创概念图·高清':'旧版小图·待替换');
+  const aiBadge=(window.FILM_AI_FIRST_SHOT_GOAL_WIDS||{})[w.wid]?'首镜头 AI 参考图':(window.FILM_SHOT_WORK_ROLES||{})[w.wid]||(aiReviewed||aiGoal3377?'原创概念图·高清':aiGeneratedJpg?'AI 小图·待升级':aiGeneratedWebp?'AI 代表图':aiWorkConcept?'原创概念图·高清':aiHires?'高清 AI 参考图':aiDeckCover?'原创概念图·高清':'旧版小图·待替换');
   const aiPreview=aiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" role="button" tabindex="0" title="点击查看《${esc(w.t)}》图片原文件" aria-label="点击查看 ${esc(w.t)} 图片原文件"><img src="${esc(aiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">${aiBadge}</span><span class="film-ai-zoom-hint">🔍 点击放大</span></div>`:'<div class="film-ai-preview empty">等待 AI 代表图</div>';
   return`<div class="wc"><h4>${esc(w.t)} <span class="muted" style="font-size:18px">${enShow?esc(enShow)+' · ':''}${esc(w.y||'')}${w.year_status==='待核'?'（年份待核）':''}</span></h4>
  <div class="m">${esc(metaParts)}</div>
