@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 383);
+assert.equal(Object.keys(gpt).length, 391);
 const taosiPanorama = gpt['AR-20261020-0025'];
 assert.ok(originals['AR-20261020-0025'] && taosiPanorama,
   'saved Taosi JPEG and accepted GPT Image panorama both remain mapped');
@@ -50,6 +50,23 @@ for (const [id, width, height] of [
 for (const id of ['AR-20261020-0031', 'AR-20261020-0033', 'AR-20261020-0035']) {
   assert.ok(gpt[id].source_deviation_note, `reference/prompt difference disclosed: ${id}`);
 }
+for (const [id, width, height] of [
+  ['AR-20261020-0036', 1672, 941],
+  ['AR-20261020-0037', 1672, 941],
+  ['AR-20261020-0038', 1672, 941],
+  ['AR-20261020-0039', 1774, 887],
+  ['AR-20261020-0040', 1672, 941],
+  ['AR-20261020-0041', 1672, 941],
+  ['AR-20261020-0042', 1672, 941],
+  ['AR-20261020-0044', 1672, 941],
+]) {
+  assert.ok(originals[id] && gpt[id], `saved Xinzhai JPEG and accepted redraw: ${id}`);
+  assert.equal(gpt[id].method, 'reference_edit');
+  assert.deepEqual([gpt[id].width, gpt[id].height], [width, height]);
+}
+assert.ok(gpt['AR-20261020-0040'].source_deviation_note,
+  'oblique JPEG versus frontal text difference disclosed');
+assert.ok(!gpt['AR-20261020-0043'], 'unaccepted #413 does not enter the manifest');
 const qing = manifest.JINTAI_QING_IMAGES;
 assert.ok(Object.keys(qing).length >= 1 && Object.keys(qing).length <= 4573);
 for (const id of ['HF-20261015-0093', 'HF-20261015-0094', 'HF-20261015-0095']) {
