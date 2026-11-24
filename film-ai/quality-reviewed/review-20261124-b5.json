@@ -1,0 +1,22 @@
+{
+  "reviewedOn": "2026-11-24",
+  "reviewedRange": [
+    0,
+    359
+  ],
+  "decisions": [
+    {
+      "wid": "all-quiet-on-the-western-front-2022",
+      "title": "西线无战事 / Im Westen nichts Neues (2022)",
+      "previous": "film-ai/shots/YS-20261028-C15-all-quiet-on-the-western-front-2022-06.webp",
+      "replacement": "film-ai/quality-reviewed/all-quiet-on-the-western-front-2022.png",
+      "reason": "Existing preview is an almost empty dark horizon, unreadable as a work image at thumbnail size",
+      "provenance": "New AI concept image, not a frame from the film",
+      "originalFormat": "PNG",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ]
+}
