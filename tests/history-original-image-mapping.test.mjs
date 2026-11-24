@@ -6,7 +6,7 @@ import vm from 'node:vm';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const manifest = {};
-for (const file of ['history-ai/manifest.js', 'history-ai/gpt-image-manifest.js']) {
+for (const file of ['history-ai/manifest.js', 'history-ai/gpt-image-manifest.js', 'history-ai/qing-manifest.js']) {
   vm.runInNewContext(fs.readFileSync(path.join(root, file), 'utf8'), { window: manifest });
 }
 const originals = manifest.JINTAI_AI_IMAGES;
@@ -14,6 +14,16 @@ const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
 assert.equal(Object.keys(gpt).length, 360);
+const qing = manifest.JINTAI_QING_IMAGES;
+assert.ok(Object.keys(qing).length >= 1 && Object.keys(qing).length <= 4573);
+for (const id of ['HF-20261015-0093', 'HF-20261015-0094', 'HF-20261015-0095']) {
+  assert.ok(qing[id], `Qing first-page image must map by source ID: ${id}`);
+}
+for (const item of Object.values(qing)) {
+  assert.equal(item.source, 'Codex GPT Image original PNG');
+  assert.equal(item.original_dir, 'history_qing_4573_codex_gpt_image_20261124');
+  item.preview = `https://test.trycloudflare.com/gallery-previews/${item.original_dir}/${item.preview_filename}`;
+}
 for (const id of ['HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) assert.ok(gpt[id], id);
 for (const item of Object.values(gpt)) {
   assert.equal(item.model, 'GPT Image');
@@ -296,16 +306,25 @@ const histPreview = vm.runInNewContext(`${histPreviewCode}; histPreview`, { wind
 for (const id of [...ids, 'HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) {
   assert.equal(histPreview(id), gpt[id]?.preview || originals[id], `homepage: ${id}`);
 }
+for (const id of ['HF-20261015-0093', 'HF-20261015-0094', 'HF-20261015-0095']) {
+  assert.equal(histPreview(id), qing[id].preview, `Qing homepage: ${id}`);
+}
 const histThumbCode = index.match(/^function histThumb\(id\)\{[^\n]+/m)?.[0];
 assert.ok(histThumbCode);
 const histThumb = vm.runInNewContext(`${histPreviewCode}; ${histThumbCode}; histThumb`, { window: manifest });
 for (const id of [...ids, 'HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) {
   assert.equal(histThumb(id), gpt[id]?.preview || originals[id], `homepage thumb: ${id}`);
 }
-const lightboxSelect = index.match(/^\s*const gpt=window\.JINTAI_PAGE19_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_GPT_IMAGES\?\.\[r\.id\];/m)?.[0];
+for (const id of ['HF-20261015-0093', 'HF-20261015-0094', 'HF-20261015-0095']) {
+  assert.equal(histThumb(id), qing[id].preview, `Qing homepage thumb: ${id}`);
+}
+const lightboxSelect = index.match(/^\s*const gpt=window\.JINTAI_PAGE19_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_QING_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_GPT_IMAGES\?\.\[r\.id\];/m)?.[0];
 assert.ok(lightboxSelect, 'Homepage lightbox must select accepted GPT Image');
 const lightboxGpt = vm.runInNewContext(`(r)=>{${lightboxSelect}return gpt;}`, { window: manifest });
 assert.equal(lightboxGpt({ id: gptAndJpg }), gpt[gptAndJpg]);
+for (const id of ['HF-20261015-0093', 'HF-20261015-0094', 'HF-20261015-0095']) {
+  assert.equal(lightboxGpt({ id }), qing[id]);
+}
 assert.equal(lightboxGpt({ id: jpgOnly }), undefined);
 const originalCode = index.match(/^async function historyOriginalUrl\(info\)\{[\s\S]*?^\}/m)?.[0];
 assert.ok(originalCode, 'Homepage original PNG route missing');
@@ -314,6 +333,8 @@ const originalUrl = vm.runInNewContext(`${originalCode};historyOriginalUrl`, {
 });
 assert.equal(await originalUrl(lightboxGpt({ id: gptAndJpg })),
   `https://test.trycloudflare.com/original-pngs/${gpt[gptAndJpg].original_dir}/${gpt[gptAndJpg].filename}`);
+assert.equal(await originalUrl(lightboxGpt({ id: 'HF-20261015-0093' })),
+  `https://test.trycloudflare.com/original-pngs/${qing['HF-20261015-0093'].original_dir}/${qing['HF-20261015-0093'].filename}`);
 assert.match(index, /download\.href=url\+'\?download=1'/);
 assert.match(index, /saved\.hidden=!\(gpt&&window\.JINTAI_AI_IMAGES\?\.\[r\.id\]\)/);
 
@@ -416,4 +437,4 @@ for (const [file, dataFile] of [
   assert.match(html, /q\('savedJpg'\)\.hidden=!\(info&&oldJpg\)/);
 }
 assert.equal(checkedIds.size, 2000);
-console.log(`Verified ${ids.length} saved JPEGs and ${Object.keys(gpt).length} GPT Image PNGs across three pages.`);
+console.log(`Verified ${ids.length} saved JPEGs, ${Object.keys(gpt).length} existing GPT Image PNGs, and ${Object.keys(qing).length} Qing GPT Image mappings.`);

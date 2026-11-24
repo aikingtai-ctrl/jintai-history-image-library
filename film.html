@@ -715,9 +715,9 @@ function shotImageSrc(id){
  let rel=(window.FILM_SHOT_IMAGES||{})[id];
  if(!rel){
   const r=BYID.get(id);
-  if(r&&r.origin!=='visual'&&!r.frame_id&&!frOf(r)){
+  if(r&&!frOf(r)){
    const w=r.W||WORKS[r.w];
-   rel=w&&(window.FILM_SHOT_WORK_IMAGES||{})[w.wid];
+   rel=w&&((window.FILM_SHOT_WORK_IMAGES||{})[w.wid]||(window.FILM_DECK_COVERS||{})['film:'+w.wid]||(window.FILM_AI_IMAGES||{})[w.wid]);
   }
  }
  if(!rel)return'';
