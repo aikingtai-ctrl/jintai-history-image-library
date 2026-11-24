@@ -50,6 +50,15 @@ for (const file of ['film.html', '影视参考图集.html']) {
     assert.equal(context.getFilmAiSrc(wid), expectedJpg);
     assert.equal(context.resolveFilmAiLegacyAsset('https://example.com/image.jpg'), 'https://example.com/image.jpg');
     assert.equal(context.resolveFilmAiLegacyAsset(''), '');
+
+    // This goal's reviewed first shot stays on the card when every other source exists.
+    context.window.FILM_AI_FIRST_SHOT_GOAL_WIDS = { [wid]: true };
+    context.window.FILM_SHOT_WORK_IMAGES[wid] = relativeShot;
+    context.window.FILM_DECK_COVERS[`film:${wid}`] = relativeDeck;
+    context.BYW.set(0, [{ id: 's1' }]);
+    assert.equal(context.getFilmAiSrc(wid), expectedJpg);
+    delete context.window.FILM_AI_FIRST_SHOT_GOAL_WIDS[wid];
+    assert.equal(context.getFilmAiSrc(wid), context.resolveFilmAiAsset(relativeShot));
   }
-  console.log(file + ': inline syntax and 4-tier HD representative image cascade passed');
+  console.log(file + ': inline syntax, reviewed first-shot priority and existing image cascade passed');
 }
