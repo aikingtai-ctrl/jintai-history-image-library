@@ -650,8 +650,11 @@ jobs:
                   pins = shot_pin_re.findall((site / rel).read_text(encoding="utf-8"))
                   assert len(pins) == 1 and pins[0][1] == source_pin, rel
 
+          film_preview_js = git_bytes("show", "HEAD:film-preview-originals.js").decode("utf-8")
+          subprocess.run(["node", "--check", "-"], input=film_preview_js.encode("utf-8"), check=True)
           film_page = (site / "film.html").read_text(encoding="utf-8")
-          assert "function resolveFilmAiOriginal(src)" in film_page and "filmPreviewHref(resolveFilmAiOriginal(src))" in film_page and ".thumb,.mini,.vis,.dk-cover,.qcell" in film_page, "Film preview direct-open behavior missing"
+          assert film_page.count("</head>") == 1, "Film page head missing"
+          (site / "film.html").write_text(film_page.replace("</head>", "<script>" + film_preview_js + "</script></head>", 1), encoding="utf-8")
           shutil.copy2(site / "film.html", site / "影视参考图集.html")
 
           (site / ".nojekyll").write_text("", encoding="utf-8")
