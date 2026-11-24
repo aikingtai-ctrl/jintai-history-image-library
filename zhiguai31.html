@@ -407,7 +407,8 @@ const ZG_IMAGES = {};
 let zgGalleryOrigin = '';
 let zgOpenedOriginalsFromUrl = false;
 function zgOpenOriginalsFromUrl(){
-  if(zgOpenedOriginalsFromUrl || new URLSearchParams(location.search).get('view')!=='originals' ||
+  const requestedView=new URLSearchParams(location.search).get('view');
+  if(zgOpenedOriginalsFromUrl || (requestedView && requestedView!=='originals') ||
      !window.__JT_SPEC_ALL_READY__ || !Object.keys(ZG_IMAGES).length) return;
   zgOpenedOriginalsFromUrl=true;
   zgShowAllImages();
