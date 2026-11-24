@@ -1,0 +1,58 @@
+{
+  "reviewedOn": "2026-11-24",
+  "reviewedRange": [
+    720,
+    1079
+  ],
+  "decisions": [
+    {
+      "wid": "duck-soup-1933",
+      "previous": "film-ai/decks/film-duck-soup-1933.webp",
+      "replacement": "film-ai/duck-soup-1933.jpg",
+      "reason": "Empty office omits the Marx Brothers comedy cast",
+      "provenance": "Existing gallery representative JPEG; provenance not independently verified"
+    },
+    {
+      "wid": "dune-2021",
+      "previous": "film-ai/shots/YS-20261028-C15-dune-2021-11.webp",
+      "replacement": "film-ai/dune-2021.jpg",
+      "reason": "Featureless dunes omit the film character and costume",
+      "provenance": "Existing gallery representative JPEG; provenance not independently verified"
+    },
+    {
+      "wid": "erin-brockovich-2000",
+      "previous": "film-ai/decks/film-erin-brockovich-2000.webp",
+      "replacement": "film-ai/erin-brockovich-2000.jpg",
+      "reason": "Empty legal desk omits the title character",
+      "provenance": "Existing gallery representative JPEG; provenance not independently verified"
+    },
+    {
+      "wid": "fatboy-slim-praise-you-1999",
+      "previous": "film-ai/decks/film-fatboy-slim-praise-you-1999.webp",
+      "replacement": "film-ai/fatboy-slim-praise-you-1999.jpg",
+      "reason": "Empty outdoor speaker omits the defining public dance group",
+      "provenance": "Existing gallery representative JPEG; provenance not independently verified"
+    },
+    {
+      "wid": "foxcatcher-2014",
+      "previous": "film-ai/decks/film-foxcatcher-2014.webp",
+      "replacement": "film-ai/foxcatcher-2014.jpg",
+      "reason": "Empty wrestling mat omits the wrestler and emotional premise",
+      "provenance": "Existing gallery representative JPEG; provenance not independently verified"
+    },
+    {
+      "wid": "frances-ha-2012",
+      "previous": "film-ai/decks/film-frances-ha-2012.webp",
+      "replacement": "film-ai/frances-ha-2012.jpg",
+      "reason": "Empty loft omits the central characters",
+      "provenance": "Existing gallery representative JPEG; provenance not independently verified"
+    },
+    {
+      "wid": "george-michael-freedom-90-1990",
+      "previous": "film-ai/decks/film-george-michael-freedom-90-1990.webp",
+      "replacement": "film-ai/george-michael-freedom-90-1990.jpg",
+      "reason": "Empty stage omits the fashion-model imagery",
+      "provenance": "Existing gallery representative JPEG; provenance not independently verified"
+    }
+  ]
+}
