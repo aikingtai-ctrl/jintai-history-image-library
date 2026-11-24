@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-24T23:15:52.731516+00:00",
+  "snapshot_time_utc": "2026-11-24T23:39:05.623710+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -22830,6 +22830,76 @@
       "file": "film-ai/decks/film-src-fcb783ee67284899.webp",
       "sha256": "9ed4883db67823f4fcc5ec5cc4b531f792cd1d0d2d5dd635165f24c699f4b053",
       "bytes": 296320,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-4a1ae0a64f03cb96",
+      "wid": "src-4a1ae0a64f03cb96",
+      "title": "In The Realm of the Senses",
+      "file": "film-ai/decks/film-src-4a1ae0a64f03cb96.webp",
+      "sha256": "139cfa669bcfb35c155256ee6d91530fcee11016e6ad0f422950619bd0d4c168",
+      "bytes": 260540,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-d95fa098b48f1a6e",
+      "wid": "src-d95fa098b48f1a6e",
+      "title": "The Margin",
+      "file": "film-ai/decks/film-src-d95fa098b48f1a6e.webp",
+      "sha256": "3be6e1a175f52ddc11f829bdc4046076f444d300fcd2f56f856e7542861ebaa7",
+      "bytes": 255630,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-195a730e6e4d8980",
+      "wid": "src-195a730e6e4d8980",
+      "title": "The Killing of a Chinese Bookie",
+      "file": "film-ai/decks/film-src-195a730e6e4d8980.webp",
+      "sha256": "f89114becda89d7a4666d02511c041f3ac6ca63d5e9f4639cb61f5860780bb9d",
+      "bytes": 175640,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-28091e54c0dfdf71",
+      "wid": "src-28091e54c0dfdf71",
+      "title": "All The President’s Men",
+      "file": "film-ai/decks/film-src-28091e54c0dfdf71.webp",
+      "sha256": "7b8878d43acb5dd92167156d3af1c672bf5b4a39a053a81a7dd44e3000e6d1dc",
+      "bytes": 210570,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-22fbe34a701f594e",
+      "wid": "src-22fbe34a701f594e",
+      "title": "A Star Is Born",
+      "file": "film-ai/decks/film-src-22fbe34a701f594e.webp",
+      "sha256": "ff9ac5d473245fa63ba98fb19448ee248db1911c27794d4f00f71ea985a2a274",
+      "bytes": 154426,
       "size": [
         1672,
         941
