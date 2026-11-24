@@ -1,0 +1,110 @@
+{
+  "reviewedOn": "2026-11-24",
+  "scope": "13 confirmed poor displayed work images; originals preserved",
+  "decisions": [
+    {
+      "wid": "src-19b99208205e0a04",
+      "title": "Bolero",
+      "previous": "film-ai/src-19b99208205e0a04.jpg",
+      "replacement": "film-ai/quality-reviewed/src-19b99208205e0a04.jpg",
+      "reason": "title and credits card",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-20bfbdd2c9a69b9e",
+      "title": "Bi anai / Bi anai (Two Brothers)",
+      "previous": "film-ai/src-20bfbdd2c9a69b9e.jpg",
+      "replacement": "film-ai/quality-reviewed/src-20bfbdd2c9a69b9e.jpg",
+      "reason": "tiny portrait in mostly blank vertical poster",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-281d0b6f71385a51",
+      "title": "Waldheims Walzer",
+      "previous": "film-ai/src-281d0b6f71385a51.jpg",
+      "replacement": "film-ai/quality-reviewed/src-281d0b6f71385a51.jpg",
+      "reason": "narrow vertical poster",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-3b826f5bdea41624",
+      "title": "Another Woman",
+      "previous": "film-ai/src-3b826f5bdea41624.jpg",
+      "replacement": "film-ai/quality-reviewed/src-3b826f5bdea41624.jpg",
+      "reason": "title card",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-3bbc54dfd292a6c5",
+      "title": "Sud Express",
+      "previous": "film-ai/src-3bbc54dfd292a6c5.jpg",
+      "replacement": "film-ai/quality-reviewed/src-3bbc54dfd292a6c5.jpg",
+      "reason": "narrow vertical poster with black margins",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-3c8222e2104e5961",
+      "title": "Starcrash",
+      "previous": "film-ai/src-3c8222e2104e5961.jpg",
+      "replacement": "film-ai/quality-reviewed/src-3c8222e2104e5961.jpg",
+      "reason": "title card",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-541a856b76ff2ec1",
+      "title": "自己的歷程",
+      "previous": "film-ai/src-541a856b76ff2ec1.jpg",
+      "replacement": "film-ai/quality-reviewed/src-541a856b76ff2ec1.jpg",
+      "reason": "book cover instead of documentary image",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-693a2b3f27014b19",
+      "title": "Le mystère de l'atelier Quinze",
+      "previous": "film-ai/src-693a2b3f27014b19.jpg",
+      "replacement": "film-ai/quality-reviewed/src-693a2b3f27014b19.jpg",
+      "reason": "title card",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-6fc461a1bf09fe6d",
+      "title": "I basilischi",
+      "previous": "film-ai/src-6fc461a1bf09fe6d.jpg",
+      "replacement": "film-ai/quality-reviewed/src-6fc461a1bf09fe6d.jpg",
+      "reason": "credits card",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-9a8f1c84cabe2ed3",
+      "title": "Question 7",
+      "previous": "film-ai/src-9a8f1c84cabe2ed3.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9a8f1c84cabe2ed3.jpg",
+      "reason": "generic title/logo image",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-be60c5e03d7481f3",
+      "title": "Il toro",
+      "previous": "film-ai/src-be60c5e03d7481f3.jpg",
+      "replacement": "film-ai/quality-reviewed/src-be60c5e03d7481f3.jpg",
+      "reason": "director portrait instead of film image",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-e27cc8cc93eb1bcb",
+      "title": "Loutka, pritel cloveka",
+      "previous": "film-ai/src-e27cc8cc93eb1bcb.jpg",
+      "replacement": "film-ai/quality-reviewed/src-e27cc8cc93eb1bcb.jpg",
+      "reason": "title card",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-wd-q4673955",
+      "title": "Achuvinte Amma",
+      "previous": "film-ai/src-wd-q4673955.jpg",
+      "replacement": "film-ai/quality-reviewed/src-wd-q4673955.jpg",
+      "reason": "vertical text-heavy image unrelated to film subject",
+      "provenance": "new AI concept image; not an original film frame"
+    }
+  ]
+}
