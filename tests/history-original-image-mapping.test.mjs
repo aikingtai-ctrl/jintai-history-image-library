@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 425);
+assert.equal(Object.keys(gpt).length, 440);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
   assert.ok(html.includes(`gpt-image-${Object.keys(gpt).length}`),
@@ -116,6 +116,21 @@ for (const [id, width, height] of [
   ['AR-20261020-0802', 1672, 941],
   ['AR-20261020-0803', 1672, 941],
   ['AR-20261020-0804', 1672, 941],
+  ['AR-20261021-0051', 1672, 941],
+  ['AR-20261021-0052', 1672, 941],
+  ['AR-20261021-0053', 1672, 941],
+  ['AR-20261021-0055', 1672, 941],
+  ['AR-20261021-0056', 1672, 941],
+  ['AR-20261021-0057', 1672, 941],
+  ['AR-20261021-0058', 1672, 941],
+  ['AR-20261021-0059', 1672, 941],
+  ['AR-20261021-0060', 1672, 941],
+  ['AR-20261021-0061', 1774, 887],
+  ['AR-20261021-0062', 1672, 941],
+  ['AR-20261021-0063', 1672, 941],
+  ['AR-20261021-0064', 1774, 887],
+  ['AR-20261021-0065', 1536, 1024],
+  ['AR-20261021-0066', 1672, 941],
 ]) {
   assert.ok(originals[id] && gpt[id], `saved Erlitou JPEG and accepted redraw: ${id}`);
   assert.equal(gpt[id].method, 'reference_edit');
@@ -145,6 +160,9 @@ for (const id of ['AR-20261020-0801', 'AR-20261020-0802', 'AR-20261020-0803']) {
   assert.match(gpt[id].source_deviation_note, /成排圆形夯土基址.*完整/);
 }
 assert.match(gpt['AR-20261020-0804'].source_deviation_note, /数十座圆形基址.*四座圆形院/);
+assert.match(gpt['AR-20261021-0058'].source_deviation_note, /石牌有可读.*不写文字/);
+assert.match(gpt['AR-20261021-0066'].source_deviation_note, /匾额可读为“大师姑城”.*无字纹饰/);
+assert.ok(!gpt['AR-20261021-0054'], 'three failed #454 generations must not be published');
 assert.ok(!gpt['AR-20261020-0779'], 'unaccepted #425 remains outside the manifest');
 const qing = manifest.JINTAI_QING_IMAGES;
 assert.ok(Object.keys(qing).length >= 1 && Object.keys(qing).length <= 4573);
