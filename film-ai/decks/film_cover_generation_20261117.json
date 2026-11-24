@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-24T23:39:05.623710+00:00",
+  "snapshot_time_utc": "2026-11-24T23:54:33.685538+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -22900,6 +22900,76 @@
       "file": "film-ai/decks/film-src-22fbe34a701f594e.webp",
       "sha256": "ff9ac5d473245fa63ba98fb19448ee248db1911c27794d4f00f71ea985a2a274",
       "bytes": 154426,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-461362e4db8fb36b",
+      "wid": "src-461362e4db8fb36b",
+      "title": "Man on the Roof",
+      "file": "film-ai/decks/film-src-461362e4db8fb36b.webp",
+      "sha256": "42b1ee37617708621ce090e9b378e948b85057c8aa20f3d263ec89eb0be184a6",
+      "bytes": 484000,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-3c6d04233f254cf0",
+      "wid": "src-3c6d04233f254cf0",
+      "title": "To The Devil a Daughter",
+      "file": "film-ai/decks/film-src-3c6d04233f254cf0.webp",
+      "sha256": "816609086760a4bd26176f483c20a98ddc1137ddbc5af31eaa37f84bfa57494c",
+      "bytes": 215152,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-b17f14c1e0ec882a",
+      "wid": "src-b17f14c1e0ec882a",
+      "title": "Family Plot",
+      "file": "film-ai/decks/film-src-b17f14c1e0ec882a.webp",
+      "sha256": "bb6b0616b778a0f3f2d6aff9f40ffb4eb988a079e89d7da9ab3a8686f9ec6976",
+      "bytes": 234662,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-759c38310746e5e6",
+      "wid": "src-759c38310746e5e6",
+      "title": "The Devil, Probably",
+      "file": "film-ai/decks/film-src-759c38310746e5e6.webp",
+      "sha256": "fc3334e7d391bb43955f630dd38a6d0098a50e9a4619cf02812dc2482f084d5e",
+      "bytes": 178786,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-2c425d59ce28ede9",
+      "wid": "src-2c425d59ce28ede9",
+      "title": "Father",
+      "file": "film-ai/decks/film-src-2c425d59ce28ede9.webp",
+      "sha256": "04fd60166dfd6084cc92eb7170e341872dad7d78b2f6bd97d968b3951439bcc9",
+      "bytes": 109808,
       "size": [
         1672,
         941
