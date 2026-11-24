@@ -422,7 +422,7 @@ function zgRenderHomeGallery(){
     const info=ZG_IMAGES[id],record=ITEMS.find(r=>r.id===id)||{id,title:id};
     const card=document.createElement('div');card.className='zg-home-item';
     const open=document.createElement('button');open.type='button';open.title='打开无损原图';
-    const img=document.createElement('img');img.loading='lazy';img.src=info.preview_url;img.alt=id+' 原图预览';
+    const img=document.createElement('img');img.loading='eager';img.decoding='sync';img.src=info.preview_url;img.alt=id+' 原图预览';
     const label=document.createElement('strong');label.textContent=id;
     open.append(img,label);open.onclick=()=>zgOpenOriginal(record,info);
     const download=document.createElement('a');download.href=info.original_url+'?download=1';download.target='_blank';download.rel='noopener';download.textContent='下载无损原图 · '+info.width+'×'+info.height;
