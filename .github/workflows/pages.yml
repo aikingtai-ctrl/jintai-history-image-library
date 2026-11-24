@@ -524,6 +524,56 @@ jobs:
                   total_bytes += len(packed)
           print(f"Staged {len(d4_shards)} compressed d4 catalogue shards (reused_precompressed={reused_gz})")
 
+          # Prioritize same-origin compressed d4 shards & GitHub Raw before jsDelivr (>50MB repo 403) in staged sources pages, plus yield after shard-0 for instant first paint.
+          src_fb_re = re.compile(
+              r"const fetchFallback=async\(\)=>\{\s*"
+              r"if\(location\.protocol==='file:'\)\{reject\(new Error\(errMsg\)\);return;\}\s*"
+              r"[\s\S]*?"
+              r"reject\(new Error\(errMsg\)\);\s*\};"
+          )
+          src_fb_new = (
+              "const fetchFallback=async()=>{\n"
+              "  if(location.protocol==='file:'){reject(new Error(errMsg));return;}\n"
+              "  if(isCatShard&&await loadCompressed('d4/'+clean+'.gz'+suffix,18000))return;\n"
+              "  if(isCatShard&&await loadCompressed(RAW_D4_BASE+clean+'.gz'+suffix,22000))return;\n"
+              "  if(await loadPlain(RAW_D4_BASE,25000))return;\n"
+              "  if(isCatShard&&await loadCompressed(PACKED_D4_CDN+clean+'.gz'+suffix,15000))return;\n"
+              "  if(await loadPlain(FALLBACK_D4_CDN,18000))return;\n"
+              "  reject(new Error(errMsg));\n"
+              " };"
+          )
+          src_wave_re = re.compile(
+              r"if\(mf\.shards\.length>1&&typeof onFirstShard==='function'\)\{[\s\S]*?"
+              r"for\(let w=1;w<mf\.shards\.length;w\+=\d+\)\{[\s\S]*?\}\s*"
+              r"(?=const merged=\[\];)"
+          )
+          src_wave_new = (
+              "if(mf.shards.length>1&&typeof onFirstShard==='function'){\n"
+              "  WORKS=window.__FILM_CAT_CHUNKS__[0].slice();window.FILM_SOURCE_WORKS=WORKS;didFirst=true;onFirstShard();\n"
+              "  await new Promise(r=>setTimeout(r,24));\n"
+              " }\n"
+              " for(let w=1;w<mf.shards.length;w+=6){\n"
+              "  const slice=mf.shards.slice(w,w+6);\n"
+              "  await Promise.all(slice.map((sh,off)=>{const idx=w+off;return loadD4Script(sh+ver,()=>{if(!Array.isArray(window.__FILM_CAT_CHUNKS__[idx]))throw new Error('shard');doneCnt++;return true;},'shard-'+idx);}));\n"
+              "  await new Promise(r=>setTimeout(r,12));\n"
+              " }\n "
+          )
+          for src_rel in ("sources.html", "影视来源目录.html"):
+              sp_src = site / src_rel
+              if sp_src.is_file():
+                  sh_s = sp_src.read_text(encoding="utf-8")
+                  old_sz = sp_src.stat().st_size
+                  sh_s2, c_fb = src_fb_re.subn(lambda _: src_fb_new, sh_s, count=1)
+                  assert c_fb == 1, f"Expected 1 fetchFallback block in {src_rel}, got {c_fb}"
+                  sh_s3, c_wv = src_wave_re.subn(lambda _: src_wave_new, sh_s2, count=1)
+                  assert c_wv == 1, f"Expected 1 ensureCatalogueLoaded wave block in {src_rel}, got {c_wv}"
+                  sp_src.write_text(sh_s3, encoding="utf-8", newline="\n")
+                  total_bytes += sp_src.stat().st_size - old_sz
+                  for st_attrs, sc in re.findall(r"<script([^>]*)>([\s\S]*?)</script>", sh_s3, re.I):
+                      if not re.search(r"\bsrc\s*=", st_attrs, re.I) and sc.strip():
+                          subprocess.run(["node", "--check", "-"], input=sc.encode("utf-8"), check=True)
+          print("Upgraded staged sources.html & 影视来源目录.html to same-origin .gz + 0-403 polite wave loader")
+
           shots_manifest = site / "film-ai" / "shots-manifest.js"
           if shots_manifest.exists():
               source_pin = hashlib.sha256(shots_manifest.read_bytes()).hexdigest()[:16]
