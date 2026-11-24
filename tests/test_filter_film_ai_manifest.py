@@ -147,6 +147,38 @@ class FilmWorkCardJpegGateTests(unittest.TestCase):
         self.assertEqual(report["deployed_manifest_pin"],
                          hashlib.sha256(self.manifest.read_bytes()).hexdigest()[:16])
 
+    def test_verified_hd_cache_accepts_matching_oid_and_records_new_hd(self) -> None:
+        self.put_jpeg("fresh_hd.jpg", 1536, 864)
+        self.put_manifest({
+            "cached_hd": "film-ai/cached_hd.jpg",
+            "stale_oid": "film-ai/stale_oid.jpg",
+            "fresh_hd": "film-ai/fresh_hd.jpg",
+        })
+        hd_cache = {
+            "film-ai/cached_hd.jpg": ["a" * 40, 1600, 900],
+            "film-ai/stale_oid.jpg": ["b" * 40, 1600, 900],
+        }
+        report = filter_site_manifest(
+            self.site,
+            {"schema": 1, "source_revision": BASE_REVISION, "mapping_count": 0, "mappings": {}},
+            {
+                "film-ai/cached_hd.jpg": "a" * 40,
+                "film-ai/stale_oid.jpg": "c" * 40,
+                "film-ai/fresh_hd.jpg": "d" * 40,
+            },
+            CURRENT_REVISION,
+            self.report_path,
+            verified_hd_cache=hd_cache,
+        )
+        mapping = self.read_mapping()
+        self.assertEqual(mapping["cached_hd"], "film-ai/cached_hd.jpg")
+        self.assertEqual(mapping["fresh_hd"], "film-ai/fresh_hd.jpg")
+        self.assertNotIn("stale_oid", mapping)
+        self.assertEqual(report["accepted_changed_jpg"], 2)
+        self.assertEqual(report["verified_from_cache_jpg"], 1)
+        self.assertEqual(report["rejected_count"], 1)
+        self.assertEqual(hd_cache["film-ai/fresh_hd.jpg"], ["d" * 40, 1536, 864])
+
 
 if __name__ == "__main__":
     unittest.main()

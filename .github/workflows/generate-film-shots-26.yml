@@ -47,7 +47,7 @@ jobs:
           patterns=(/tools/generate_film_shot_images_26.mjs /tools/merge_film_shot_batch_26.py /film-ai/shot-targets-20261112.json /film-ai/shots-manifest.js /film-ai/shots-ledger-26.jsonl)
           for id in "${ids[@]}"; do patterns+=("/film-ai/shots/${id}.webp"); done
           git sparse-checkout set --no-cone "${patterns[@]}"
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
       - name: Install WebP decoder

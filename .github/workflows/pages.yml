@@ -30,7 +30,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
+
+      - name: Cache verified film HD JPEG blob OIDs
+        uses: actions/cache@v5
+        with:
+          path: .cache/verified-film-hd-jpgs.json
+          key: film-hd-jpg-oids-${{ github.sha }}-${{ github.run_id }}
+          restore-keys: |
+            film-hd-jpg-oids-
 
       - name: Single-pack sparse clone and stage lean _site
         env:
@@ -46,6 +54,7 @@ jobs:
           repo = pathlib.Path("repo")
           site = pathlib.Path("_site")
           site.mkdir(parents=True, exist_ok=True)
+          hd_cache_path = pathlib.Path(".cache/verified-film-hd-jpgs.json")
 
           def git_bytes(*args):
               return subprocess.check_output(["git", "-C", str(repo), *args])
@@ -62,7 +71,63 @@ jobs:
           film_ai_mf = git_bytes("show", "HEAD:film-ai/manifest.js").decode("utf-8", errors="ignore")
           m_ai = re.search(r"window\.FILM_AI_IMAGES\s*=\s*(\{.*?\})\s*;", film_ai_mf, re.S)
           film_ai_jpg_keep = {v for v in (json.loads(m_ai.group(1)).values() if m_ai else []) if isinstance(v, str) and v.lower().endswith((".jpg", ".jpeg"))}
+
+          # Skip downloading JPEGs whose blob OID matches immutable baseline or verified HD OID cache.
+          baseline_obj = json.loads(git_bytes("show", "HEAD:film-ai/work-card-image-baseline.json").decode("utf-8"))
+          grandfathered_pairs = {
+              (entry[0], entry[1])
+              for entry in (baseline_obj.get("mappings") or {}).values()
+              if isinstance(entry, list) and len(entry) == 2
+          }
+          film_blobs = {}
+          for row in git_bytes("ls-tree", "-r", "-z", "HEAD", "--", "film-ai").split(b"\x00"):
+              if not row:
+                  continue
+              meta, sep, bpath = row.partition(b"\t")
+              if sep:
+                  cols = meta.decode("ascii").split()
+                  if len(cols) >= 3 and cols[1] == "blob":
+                      film_blobs[bpath.decode("utf-8")] = cols[2]
+          verified_hd = {}
+          if hd_cache_path.is_file():
+              try:
+                  loaded_hd = json.loads(hd_cache_path.read_text(encoding="utf-8"))
+                  if isinstance(loaded_hd, dict):
+                      verified_hd = loaded_hd
+              except Exception:
+                  verified_hd = {}
+          film_ai_jpg_need_fetch = set()
+          skipped_grandfathered = 0
+          skipped_cached_hd = 0
+          for rel_jpg in film_ai_jpg_keep:
+              oid = film_blobs.get(rel_jpg)
+              if not oid:
+                  continue
+              if (rel_jpg, oid) in grandfathered_pairs:
+                  skipped_grandfathered += 1
+                  continue
+              c_item = verified_hd.get(rel_jpg)
+              if (
+                  isinstance(c_item, list)
+                  and len(c_item) == 3
+                  and c_item[0] == oid
+                  and isinstance(c_item[1], int)
+                  and isinstance(c_item[2], int)
+                  and c_item[1] >= 1280
+                  and c_item[2] >= 720
+              ):
+                  skipped_cached_hd += 1
+                  continue
+              film_ai_jpg_need_fetch.add(rel_jpg)
+          print(
+              f"Film JPEG pre-filter: total={len(film_ai_jpg_keep)}, "
+              f"skip_grandfathered={skipped_grandfathered}, "
+              f"skip_cached_hd={skipped_cached_hd}, "
+              f"need_fetch={len(film_ai_jpg_need_fetch)}"
+          )
+
           raw_paths = [p.decode("utf-8") for p in git_bytes("ls-tree", "-r", "-z", "--name-only", "HEAD").split(b"\x00") if p]
+          raw_paths_set = set(raw_paths)
           # Keep saved JPEG evidence and expose only accepted GPT Image PNGs.
           history_pages = {
               "index.html": idx_html,
@@ -93,17 +158,23 @@ jobs:
           assert {"HL-SHANG-FA-0008", "HL-ZHOU-CO-0023"} <= gpt_images.keys(), "GPT Image missing resolved entries"
           assert all(item["model"] == "GPT Image" and item["original_dir"] == "history_2000_gpt_image" for item in gpt_images.values()), "GPT Image source mismatch"
           expected_previews = {"history-ai/gpt-image-previews/" + item["preview"].rsplit("/", 1)[-1] for item in gpt_images.values()}
-          assert expected_previews <= set(raw_paths), "GPT Image previews missing from repository"
+          assert expected_previews <= raw_paths_set, "GPT Image previews missing from repository"
           print(f"Saved JPEG gate passed: {len(originals)}; GPT Image gate passed: {len(gpt_images)}")
           selected = []
           for rel in raw_paths:
-              if rel.startswith((".github/", "tools/", "每日更新/管理/")):
+              if rel.startswith((".github/", "tools/", "tests/", "每日更新/管理/")):
                   continue
               parts = rel.split("/")
               top = parts[0] if len(parts) > 1 else "(root)"
               name = parts[-1]
-              if top == "每日更新" and not name.lower().endswith(".html"):
-                  continue
+              if top == "每日更新":
+                  low_name = name.lower()
+                  if not (
+                      low_name.endswith(".html")
+                      or (rel.startswith("每日更新/runs/") and low_name.endswith(".json"))
+                      or (rel.startswith("每日更新/每日成果/2026101") and low_name.endswith((".md", ".txt", ".json")))
+                  ):
+                      continue
               if top == "(root)" and name.lower().endswith((".xlsx", ".zip", ".7z", ".bak")):
                   continue
               if top in ("d1", "d2") and rel not in ("d1/compat_selected_2000_20261111.js", "d2/compat_selected_2000_20261111.js"):
@@ -124,11 +195,11 @@ jobs:
                   if name != "manifest.js":
                       continue
               elif top == "film-ai":
-                  # Deck WebP files, restored archives, and unreferenced JPGs stay outside Pages.
+                  # Deck WebP files, restored archives, and unreferenced/already-verified JPGs stay outside Pages.
                   if (rel.startswith("film-ai/decks/") and name.lower().endswith(".webp")) or rel.startswith("film-ai/restored/"):
                       continue
                   if name.lower().endswith((".jpg", ".jpeg")):
-                      if rel not in film_ai_jpg_keep:
+                      if rel not in film_ai_jpg_need_fetch:
                           continue
                   elif not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js") or rel.startswith("film-ai/decks/")):
                       continue
@@ -144,11 +215,15 @@ jobs:
                       continue
               selected.append(rel)
 
-          print(f"Batch sparse-fetching {len(selected)} selected files (d1_active={len(d1_active)}, d2_active={len(d2_active)})...")
+          d4_fetch = [
+              f"d4/{s}.gz" if f"d4/{s}.gz" in raw_paths_set else f"d4/{s}"
+              for s in d4_shards
+          ]
+          print(f"Batch sparse-fetching {len(selected)} selected files + {len(d4_fetch)} d4 shards (d1_active={len(d1_active)}, d2_active={len(d2_active)})...")
           def escape_sparse_pattern(p: str) -> str:
               return "/" + re.sub(r"([*?\[\\!#])", r"\\\1", p)
 
-          patterns = "\n".join(escape_sparse_pattern(p) for p in selected + ["d4/" + s for s in d4_shards]) + "\n"
+          patterns = "\n".join(escape_sparse_pattern(p) for p in selected + d4_fetch) + "\n"
           subprocess.run(["git", "-C", str(repo), "sparse-checkout", "init", "--no-cone"], check=True)
           subprocess.run(
               ["git", "-C", str(repo), "sparse-checkout", "set", "--no-cone", "--stdin"],
@@ -157,8 +232,7 @@ jobs:
           )
           subprocess.run(["git", "-C", str(repo), "checkout", "HEAD"], check=True)
 
-          # A malformed cache-version edit has twice truncated an inline film script.
-          # Stop the deployment before a broken page replaces the last good one.
+          # Stop deployment if any inline script in core film pages has syntax errors.
           for rel in ("film.html", "影视参考图集.html", "sources.html", "影视来源目录.html"):
               html = (repo / rel).read_text(encoding="utf-8")
               scripts = re.findall(r"<script(?:\s[^>]*)?>([\s\S]*?)</script>", html)
@@ -176,20 +250,28 @@ jobs:
               total_bytes += src.stat().st_size
               shutil.move(str(src), str(dst))
 
+          reused_gz = 0
           for name in d4_shards:
-              source = (repo / "d4" / name).read_bytes()
-              packed = gzip.compress(source, compresslevel=1, mtime=0)
-              assert gzip.decompress(packed) == source, f"Corrupt d4 shard: {name}"
+              gz_src = repo / "d4" / (name + ".gz")
               target = site / "d4" / (name + ".gz")
-              target.write_bytes(packed)
-              total_bytes += len(packed)
-          print(f"Staged {len(d4_shards)} compressed d4 catalogue shards")
+              target.parent.mkdir(parents=True, exist_ok=True)
+              if gz_src.is_file():
+                  with gzip.open(gz_src, "rb") as gf:
+                      while gf.read(1 << 20):
+                          pass
+                  total_bytes += gz_src.stat().st_size
+                  shutil.move(str(gz_src), str(target))
+                  reused_gz += 1
+              else:
+                  source = (repo / "d4" / name).read_bytes()
+                  packed = gzip.compress(source, compresslevel=1, mtime=0)
+                  assert gzip.decompress(packed) == source, f"Corrupt d4 shard: {name}"
+                  target.write_bytes(packed)
+                  total_bytes += len(packed)
+          print(f"Staged {len(d4_shards)} compressed d4 catalogue shards (reused_precompressed={reused_gz})")
 
           shots_manifest = site / "film-ai" / "shots-manifest.js"
           if shots_manifest.exists():
-              # The source HTML pin may drift when independent image batches land.
-              # Pin the staged pages to the exact staged manifest before the
-              # deployment-only revision marker is appended.
               source_pin = hashlib.sha256(shots_manifest.read_bytes()).hexdigest()[:16]
               shot_pin_re = re.compile(
                   r'(<script src="film-ai/shots-manifest\.js\?v=)([0-9a-f]{8,64})("></script>)'
@@ -209,29 +291,31 @@ jobs:
                   handle.write(f"\nwindow.FILM_SHOT_ASSET_REV='{revision}';\n")
               print(f"Pinned staged film pages to shot manifest {source_pin}")
 
-          # Filter only the Pages copy. Source mappings remain available for
-          # later high-resolution replacement and the deployment still runs.
+          # Filter only the Pages copy using immutable baseline + verified HD OID cache.
           gate = pathlib.Path("film_work_card_jpg_gate.py")
           gate.write_bytes(git_bytes("show", "HEAD:tools/filter_film_ai_manifest.py"))
           subprocess.run(
-              ["python3", str(gate), "filter", "--repo", str(repo), "--site", str(site),
-               "--report", str(site / "film-ai" / "work-card-jpg-gate-report.json")],
+              [
+                  "python3", str(gate), "filter",
+                  "--repo", str(repo),
+                  "--site", str(site),
+                  "--report", str(site / "film-ai" / "work-card-jpg-gate-report.json"),
+                  "--verified-hd-cache", str(hd_cache_path),
+              ],
               check=True,
           )
           gate.unlink()
 
-          # Film cards load JPGs from GitHub Raw. Validate them above, then
-          # omit this duplicate media copy from the Pages artifact.
+          # Film cards load JPGs from GitHub Raw. Omit any newly validated JPEGs from Pages artifact.
           film_jpgs = list((site / "film-ai").rglob("*.jpg"))
           film_jpg_bytes = sum(image.stat().st_size for image in film_jpgs)
           for image in film_jpgs:
               image.unlink()
           total_bytes -= film_jpg_bytes
-          print(f"Serving {len(film_jpgs)} film JPGs from GitHub Raw; omitted {film_jpg_bytes / 1048576:.2f} MiB from Pages")
+          print(f"Validated {len(film_jpgs)} uncached film JPGs ({film_jpg_bytes / 1048576:.2f} MiB); serving all film JPGs from GitHub Raw")
           max_site_bytes = 950 * 1024 * 1024
           assert total_bytes < max_site_bytes, f"_site exceeded 950 MiB safety threshold: {total_bytes / 1048576:.2f} MiB"
 
-          # Check final staged HTML after the JPG gate has edited its own pin.
           if shots_manifest.exists():
               for rel in ("film.html", "影视参考图集.html"):
                   pins = shot_pin_re.findall((site / rel).read_text(encoding="utf-8"))
@@ -244,7 +328,7 @@ jobs:
           du -sh _site
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: _site
 
@@ -257,4 +341,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

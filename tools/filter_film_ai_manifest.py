@@ -141,7 +141,8 @@ def is_safe_local_jpeg(reference: str) -> bool:
 
 
 def filter_site_manifest(site: Path, baseline: dict, current_blobs: dict[str, str],
-                         source_revision: str, report_path: Path) -> dict:
+                         source_revision: str, report_path: Path,
+                         verified_hd_cache: dict[str, list] | None = None) -> dict:
     if baseline.get("schema") != 1 or not re.fullmatch(r"[0-9a-f]{40}", baseline.get("source_revision", "")):
         raise ValueError("Invalid fixed baseline metadata")
     original = baseline.get("mappings")
@@ -162,6 +163,7 @@ def filter_site_manifest(site: Path, baseline: dict, current_blobs: dict[str, st
         "minimum_jpeg_dimensions": [MIN_WIDTH, MIN_HEIGHT],
         "grandfathered_jpg": 0,
         "accepted_changed_jpg": 0,
+        "verified_from_cache_jpg": 0,
         "rejected_count": 0,
         "rejected": [],
     }
@@ -173,6 +175,15 @@ def filter_site_manifest(site: Path, baseline: dict, current_blobs: dict[str, st
         if prior == [reference, oid]:
             report["grandfathered_jpg"] += 1
             continue
+
+        if verified_hd_cache is not None and is_safe_local_jpeg(reference) and oid:
+            cached = verified_hd_cache.get(reference)
+            if (isinstance(cached, list) and len(cached) == 3 and cached[0] == oid
+                    and isinstance(cached[1], int) and isinstance(cached[2], int)
+                    and cached[1] >= MIN_WIDTH and cached[2] >= MIN_HEIGHT):
+                report["accepted_changed_jpg"] += 1
+                report["verified_from_cache_jpg"] += 1
+                continue
 
         dimensions = None
         if not is_safe_local_jpeg(reference):
@@ -187,6 +198,8 @@ def filter_site_manifest(site: Path, baseline: dict, current_blobs: dict[str, st
                 reason = "invalid_jpeg"
         if reason is None:
             report["accepted_changed_jpg"] += 1
+            if verified_hd_cache is not None and oid and dimensions is not None:
+                verified_hd_cache[reference] = [oid, dimensions[0], dimensions[1]]
             continue
 
         if prior:
@@ -251,6 +264,7 @@ def main() -> None:
     deployment.add_argument("--repo", required=True, type=Path)
     deployment.add_argument("--site", required=True, type=Path)
     deployment.add_argument("--report", required=True, type=Path)
+    deployment.add_argument("--verified-hd-cache", required=False, type=Path, default=None)
     args = parser.parse_args()
     if args.command == "snapshot":
         baseline = write_baseline(args.repo, args.revision, args.output)
@@ -258,8 +272,28 @@ def main() -> None:
     else:
         baseline = json.loads(git_bytes(args.repo, "show", f"HEAD:{BASELINE_REL}"))
         source_revision = git_bytes(args.repo, "rev-parse", "HEAD").decode("ascii").strip()
+        hd_cache: dict[str, list] | None = None
+        if args.verified_hd_cache is not None:
+            hd_cache = {}
+            if args.verified_hd_cache.is_file():
+                try:
+                    loaded = json.loads(args.verified_hd_cache.read_text(encoding="utf-8"))
+                    if isinstance(loaded, dict):
+                        hd_cache = loaded
+                except (OSError, ValueError):
+                    hd_cache = {}
+        before_size = len(hd_cache) if hd_cache is not None else 0
         filter_site_manifest(args.site, baseline, git_blobs(args.repo, "HEAD"),
-                             source_revision, args.report)
+                             source_revision, args.report, verified_hd_cache=hd_cache)
+        if args.verified_hd_cache is not None and hd_cache is not None and (
+            not args.verified_hd_cache.is_file() or len(hd_cache) != before_size
+        ):
+            args.verified_hd_cache.parent.mkdir(parents=True, exist_ok=True)
+            args.verified_hd_cache.write_text(
+                json.dumps(hd_cache, ensure_ascii=False, sort_keys=True) + "\n",
+                encoding="utf-8",
+                newline="\n",
+            )
 
 
 if __name__ == "__main__":
