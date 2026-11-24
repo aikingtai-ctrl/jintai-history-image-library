@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-24T17:32:30.940345+00:00",
+  "snapshot_time_utc": "2026-11-24T17:49:05.531796+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -22158,6 +22158,20 @@
       "file": "film-ai/decks/film-src-c1e64862810ac18a.webp",
       "sha256": "c020f99e65d60ac8740da88e93702f054dd030cbf76157e062ddd4d7c16e9a97",
       "bytes": 229182,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-8e1868763c003594",
+      "wid": "src-8e1868763c003594",
+      "title": "Westworld",
+      "file": "film-ai/decks/film-src-8e1868763c003594.webp",
+      "sha256": "be79ec7e52525b6de051cbe9be4332e27ed56d0733be8a77681fb9e941d426b5",
+      "bytes": 348608,
       "size": [
         1672,
         941
