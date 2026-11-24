@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-24T15:47:18.456828+00:00",
+  "snapshot_time_utc": "2026-11-24T15:52:49.392843+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -21976,6 +21976,20 @@
       "file": "film-ai/decks/film-src-6e5c885224cd95cf.webp",
       "sha256": "af93a2cb56fc306b0db10c90fea8c66e1ca0180d9aa198a8cdec85b1343f9c49",
       "bytes": 451766,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-dd4f7cdf48923a54",
+      "wid": "src-dd4f7cdf48923a54",
+      "title": "The Canterbury Tales",
+      "file": "film-ai/decks/film-src-dd4f7cdf48923a54.webp",
+      "sha256": "5e8bb66d8d5702c83fd74064d48d392b4b3387812af3fc9c07af034bf7da9621",
+      "bytes": 534646,
       "size": [
         1672,
         941
