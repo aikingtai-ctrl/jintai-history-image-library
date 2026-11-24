@@ -56,6 +56,17 @@ main{max-width:1640px!important;padding:10px 26px 44px!important}
 .toolbar input[type="search"],.toolbar input[id^="q"],.bar input[type="search"],.bar input[id^="q"]{font-size:16.5pt!important;padding:9px 14px!important;border:1.5px solid #c9c4b8!important;border-radius:9px!important}
 details.chip-fold{margin-top:8px;width:100%}
 details.chip-fold summary{cursor:pointer;color:#63706a;font-size:13.5pt;padding:4px 0;user-select:none}
+
+.zg-image-card{margin:4px 0 10px;display:flex;flex-direction:column;gap:7px}
+.zg-image-card button{padding:0;border:0;background:transparent;text-align:left;max-width:100%}
+.zg-image-card img{display:block;max-width:100%;max-height:420px;object-fit:contain;border-radius:9px;background:#ece9e3}
+.zg-image-card a{font-size:15pt;color:#1f5c48;align-self:flex-start}
+.zg-progress{font-size:15pt;color:#1f5c48;background:#e9f2ed;border-radius:8px;padding:7px 12px;margin:0 0 8px}
+dialog.zg-lightbox{background:#15191c;color:#fff;border:1px solid #53605b;border-radius:12px;max-width:min(96vw,1600px);max-height:96vh;padding:16px}
+dialog.zg-lightbox::backdrop{background:rgba(0,0,0,.85)}
+.zg-lightbox-inner{display:flex;flex-direction:column;align-items:center;gap:9px}
+.zg-lightbox-inner img{max-width:92vw;max-height:78vh;object-fit:contain}
+.zg-lightbox-inner a,.zg-lightbox-inner button{color:#fff;font-size:15pt}
 </style>
 </head>
 <body>
@@ -100,6 +111,7 @@ details.chip-fold summary{cursor:pointer;color:#63706a;font-size:13.5pt;padding:
   </section>
 
   <section id="secPrompts" style="display:none">
+    <div class="zg-progress" id="zgImageProgress">正在读取原图目录…</div>
     <div class="bar">
       <input type="search" id="qPrompt" placeholder="支持多关键词空格搜索篇章、角色、场景、道具、配套、编号（如：冥祥记 莲华、神仙传 麻姑、耳食录、夜雨秋灯录）…">
       <select id="selBatch">
@@ -351,8 +363,67 @@ function renderPrompts() {
         <button class="gold" onclick="copyText('pt_${r.seq}', true)">复制并打开 GPT Image 2</button>
       </div>
     `;
+    zgRenderImageCard(d,r);
     g.appendChild(d);
   });
+}
+
+
+const ZG_IMAGES = {};
+let zgGalleryOrigin = '';
+async function zgGalleryBase(){
+  if(location.hostname.endsWith('.trycloudflare.com') || (location.port==='18890' && ['127.0.0.1','localhost','172.16.0.32'].includes(location.hostname))) return location.origin;
+  const response=await fetch('https://aikingtai-ctrl.github.io/jintai-domestic-portal/tunnel.json?t='+Date.now(),{cache:'no-store'});
+  if(!response.ok) throw new Error('原图入口不可用');
+  const data=await response.json();
+  if(!/^https:\/\/[a-z0-9-]+\.trycloudflare\.com$/i.test(data.tunnel_url||'')) throw new Error('原图入口无效');
+  return data.tunnel_url;
+}
+async function loadZgImages(){
+  try{
+    zgGalleryOrigin=await zgGalleryBase();
+    await new Promise((resolve,reject)=>{
+      const s=document.createElement('script');
+      s.src=zgGalleryOrigin+'/jintai-history-image-library/zhiguai_data/images.js?t='+Date.now();
+      s.onload=resolve;s.onerror=reject;document.head.appendChild(s);
+    });
+    const incoming=window.JINTAI_ZHIGUAI_IMAGES||{};
+    for(const [id,info] of Object.entries(incoming)){
+      if(!/^ZG-20261028-\d{4}$/.test(id) || !/^history_zhiguai_8000_codex_gpt_image_\d{8}$/.test(info.original_dir||'')) continue;
+      info.preview_url=zgGalleryOrigin+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+      info.original_url=zgGalleryOrigin+'/original-pngs/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.filename);
+      ZG_IMAGES[id]=info;
+    }
+    $('zgImageProgress').textContent='已接原图 '+Object.keys(ZG_IMAGES).length.toLocaleString()+' / 8,000 张';
+    if(ITEMS.length) renderPrompts();
+  }catch(e){
+    $('zgImageProgress').textContent='原图目录暂不可达，提示词仍可浏览';
+  }
+}
+function zgRenderImageCard(card,record){
+  const info=ZG_IMAGES[record.id];
+  if(!info) return;
+  const wrap=document.createElement('div');wrap.className='zg-image-card';
+  const button=document.createElement('button');button.type='button';button.title='查看 '+record.id+' 无损原图';
+  const img=document.createElement('img');img.loading='lazy';img.src=info.preview_url;img.alt=record.title+' 生成图预览';
+  button.appendChild(img);button.onclick=()=>zgOpenOriginal(record,info);
+  const link=document.createElement('a');link.href=info.original_url+'?download=1';link.target='_blank';link.rel='noopener';link.textContent='查看或下载无损原图 · '+info.width+'×'+info.height;
+  wrap.append(button,link);
+  card.querySelector('.box').before(wrap);
+}
+function zgOpenOriginal(record,info){
+  let dlg=$('zgLightbox');
+  if(!dlg){
+    dlg=document.createElement('dialog');dlg.id='zgLightbox';dlg.className='zg-lightbox';
+    dlg.innerHTML='<div class="zg-lightbox-inner"><strong></strong><img alt=""><a target="_blank" rel="noopener">下载无损 PNG</a><button type="button">关闭</button></div>';
+    dlg.querySelector('button').onclick=()=>dlg.close();
+    dlg.onclick=e=>{if(e.target===dlg)dlg.close();};
+    document.body.appendChild(dlg);
+  }
+  dlg.querySelector('strong').textContent=record.id+' · '+record.title;
+  const img=dlg.querySelector('img');img.onerror=()=>{img.onerror=null;img.src=info.preview_url;};img.src=info.original_url;
+  dlg.querySelector('a').href=info.original_url+'?download=1';
+  dlg.showModal();
 }
 
 function chgPage(delta) {
@@ -408,6 +479,7 @@ $('selType').onchange = () => { page = 0; applyPrompts(); };
 $('sortPrompt').onchange = () => { page = 0; applyPrompts(); };
 $('qExist').oninput = renderExisting;
 hydrateSpecialistPage();
+loadZgImages();
 </script>
 </body>
 </html>
