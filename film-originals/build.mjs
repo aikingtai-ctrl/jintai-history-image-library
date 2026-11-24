@@ -26,8 +26,8 @@ for (const row of first) {
   const work = byWid.get(row.wid);
   const asset = extra[row.wid];
   if (asset) {
-    if (!/^https:\/\/raw\.githubusercontent\.com\/aikingtai-ctrl\/jintai-history-image-library\/[0-9a-f]{40}\/originals\/part-\d+\/[A-Za-z0-9_-]+-[0-9a-f]{12}\.png$/.test(asset.url) && !/^https:\/\/github\.com\/aikingtai-ctrl\/jintai-history-image-library\/releases\/download\/[A-Za-z0-9._-]+\/[A-Za-z0-9_-]+-[0-9a-f]{12}\.png$/.test(asset.url)) throw new Error(`Unexpected original URL: ${row.wid}`);
-    if (asset.thumbnail && !/^https:\/\/raw\.githubusercontent\.com\/aikingtai-ctrl\/jintai-history-image-library\/[0-9a-f]{40}\/thumbnails\/part-\d+\/[A-Za-z0-9_-]+-[0-9a-f]{12}\.jpg$/.test(asset.thumbnail)) throw new Error(`Unexpected thumbnail URL: ${row.wid}`);
+    if (!/^https:\/\/raw\.githubusercontent\.com\/aikingtai-ctrl\/jintai-history-image-library\/[0-9a-f]{40}\/originals\/part-\d+\/[A-Za-z0-9_-]+-[0-9a-f]{12}\.png$/.test(asset.url) && !/^https:\/\/github\.com\/aikingtai-ctrl\/jintai-history-image-library\/releases\/download\/[A-Za-z0-9._-]+\/(?:[A-Za-z0-9_-]+-[0-9a-f]{12}|[0-9a-f]{64})\.png$/.test(asset.url)) throw new Error(`Unexpected original URL: ${row.wid}`);
+    if (asset.thumbnail && !/^https:\/\/raw\.githubusercontent\.com\/aikingtai-ctrl\/jintai-history-image-library\/[0-9a-f]{40}\/(?:thumbnails\/part-\d+\/[A-Za-z0-9_-]+-[0-9a-f]{12}|film-ai\/(?:[A-Za-z0-9_-]+\/)*[A-Za-z0-9_-]+)\.jpg$/.test(asset.thumbnail)) throw new Error(`Unexpected thumbnail URL: ${row.wid}`);
     row.scene = asset.scene || null;
     row.prompt = asset.prompt || null;
     row.thumbnail = asset.thumbnail || (row.ordinal > 1000 ? raw + images[row.wid] : row.thumbnail);
@@ -48,8 +48,8 @@ for (const work of works) {
   if (!/^film-ai\/[a-zA-Z0-9_./-]+\.(?:jpe?g|webp|png)$/i.test(image)) throw new Error(`Unexpected image path: ${image}`);
   const asset = extra[work.wid];
   if (asset) {
-    if (!/^https:\/\/raw\.githubusercontent\.com\/aikingtai-ctrl\/jintai-history-image-library\/[0-9a-f]{40}\/originals\/part-\d+\/[A-Za-z0-9_-]+-[0-9a-f]{12}\.png$/.test(asset.url) && !/^https:\/\/github\.com\/aikingtai-ctrl\/jintai-history-image-library\/releases\/download\/[A-Za-z0-9._-]+\/[A-Za-z0-9_-]+-[0-9a-f]{12}\.png$/.test(asset.url)) throw new Error(`Unexpected original URL: ${work.wid}`);
-    if (asset.thumbnail && !/^https:\/\/raw\.githubusercontent\.com\/aikingtai-ctrl\/jintai-history-image-library\/[0-9a-f]{40}\/thumbnails\/part-\d+\/[A-Za-z0-9_-]+-[0-9a-f]{12}\.jpg$/.test(asset.thumbnail)) throw new Error(`Unexpected thumbnail URL: ${work.wid}`);
+    if (!/^https:\/\/raw\.githubusercontent\.com\/aikingtai-ctrl\/jintai-history-image-library\/[0-9a-f]{40}\/originals\/part-\d+\/[A-Za-z0-9_-]+-[0-9a-f]{12}\.png$/.test(asset.url) && !/^https:\/\/github\.com\/aikingtai-ctrl\/jintai-history-image-library\/releases\/download\/[A-Za-z0-9._-]+\/(?:[A-Za-z0-9_-]+-[0-9a-f]{12}|[0-9a-f]{64})\.png$/.test(asset.url)) throw new Error(`Unexpected original URL: ${work.wid}`);
+    if (asset.thumbnail && !/^https:\/\/raw\.githubusercontent\.com\/aikingtai-ctrl\/jintai-history-image-library\/[0-9a-f]{40}\/(?:thumbnails\/part-\d+\/[A-Za-z0-9_-]+-[0-9a-f]{12}|film-ai\/(?:[A-Za-z0-9_-]+\/)*[A-Za-z0-9_-]+)\.jpg$/.test(asset.thumbnail)) throw new Error(`Unexpected thumbnail URL: ${work.wid}`);
     attached.add(work.wid);
   }
   used.add(work.wid);
