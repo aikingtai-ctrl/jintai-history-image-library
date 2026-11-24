@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import crypto from 'node:crypto';
 import vm from 'node:vm';
 import { execFileSync } from 'node:child_process';
 
@@ -90,7 +91,7 @@ function filter(){const term=search.value.trim().toLocaleLowerCase();filtered=te
 search.addEventListener('input',filter);document.getElementById('reset').onclick=()=>{search.value='';filter();search.focus();};previous.onclick=()=>{if(page>0){page--;render();scrollTo(0,0);}};next.onclick=()=>{if((page+1)*pageSize<filtered.length){page++;render();scrollTo(0,0);}};
 document.addEventListener('click',async event=>{const link=event.target.closest('a[data-view],a[data-download]');if(!link)return;if(link.hasAttribute('data-view')){event.preventDefault();originalCaption.textContent=link.dataset.caption;originalDownload.href=link.href;originalDownload.dataset.filename=link.dataset.filename;originalScroll.classList.remove('zoom');originalStatus.textContent='正在加载 PNG 原图…';originalImage.src=link.href;viewer.showModal();return;}if(link.href.includes('/releases/download/'))return;event.preventDefault();const label=link.textContent;link.textContent='正在准备下载…';try{const response=await fetch(link.href);if(!response.ok)throw new Error();const url=URL.createObjectURL(await response.blob()),anchor=document.createElement('a');anchor.href=url;anchor.download=link.dataset.filename||'original.png';anchor.click();setTimeout(()=>URL.revokeObjectURL(url),60000);}catch{window.open(link.href,'_blank','noopener');}finally{link.textContent=label;}});
 document.getElementById('original-close').onclick=()=>viewer.close();document.getElementById('original-size').onclick=()=>originalScroll.classList.toggle('zoom');originalImage.onload=()=>{originalStatus.textContent='PNG '+originalImage.naturalWidth+' × '+originalImage.naturalHeight;};originalImage.onerror=()=>{originalStatus.textContent='原图加载失败，可点击下载后查看。';};
-fetch('film-originals/data.json').then(response=>{if(!response.ok)throw new Error();return response.json();}).then(data=>{all=data.images;filter();}).catch(()=>{count.textContent='目录加载失败，请刷新重试';});
+fetch('film-originals/data.json?v=${crypto.createHash('sha256').update(data).digest('hex').slice(0,12)}').then(response=>{if(!response.ok)throw new Error();return response.json();}).then(data=>{all=data.images;filter();}).catch(()=>{count.textContent='目录加载失败，请刷新重试';});
 </script></body></html>`;
 fs.writeFileSync(new URL('film-originals.html', root), html);
 console.log(JSON.stringify({ collected: rows.length, published, added: additions.length, sourceRevision: revision }));
