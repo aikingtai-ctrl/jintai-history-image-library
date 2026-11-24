@@ -1004,6 +1004,16 @@ function syncChipUI(){
 
 function histPreview(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||'';}
 function histThumb(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]?.thumb||histPreview(id);}
+function histOriginalInfo(id){return window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||(!window.JINTAI_AI_IMAGES?.[id]&&window.JINTAI_YUANMING_IMAGES?.[id])||window.JINTAI_SONG_IMAGES?.[id]||null;}
+function openHistOriginal(r){
+  const info=histOriginalInfo(r.id);
+  if(!info){window.open(histPreview(r.id),'_blank','noopener');return;}
+  if(info.original){window.open(info.original,'_blank','noopener');return;}
+  const tab=window.open('about:blank','_blank');
+  if(!tab){openHistLightbox(r);return;}
+  tab.opener=null;
+  historyOriginalUrl(info).then(url=>tab.location.replace(url)).catch(()=>tab.location.replace(histPreview(r.id)));
+}
 let historyTunnelPromise;
 function historyGalleryBase(){
   if(location.hostname.endsWith('.trycloudflare.com') || (location.port==='18890' && ['127.0.0.1','localhost','172.16.0.32'].includes(location.hostname)))return Promise.resolve(location.origin);
@@ -1079,7 +1089,12 @@ function render(){
       <div class="summary">${esc(r.brief||'')}</div>
       <div class="card-foot"><span>${esc(eraTxt)} ｜ ${esc(kindTxt)}</span><span class="views">${views} 视角</span></div>`;
     const previewButton=d.querySelector('.history-preview-button');
-    if(previewButton){previewButton.onclick=ev=>{ev.stopPropagation();openHistLightbox(r);};}
+    if(previewButton){
+      const label=histOriginalInfo(r.id)?'打开原图：':'打开当前图片：';
+      previewButton.title=histOriginalInfo(r.id)?'在新标签页打开原图':'在新标签页打开当前图片';
+      previewButton.setAttribute('aria-label',label+(r.title||''));
+      previewButton.onclick=ev=>{ev.stopPropagation();openHistOriginal(r);};
+    }
     d.onclick=()=>openCard(r);
     g.appendChild(d);
   }
@@ -1197,7 +1212,10 @@ async function openCard(r){
     ${r.story?`<div style="color:#63706a;font-size:14pt;margin-bottom:4px">典籍/题材：${esc(r.story)}</div>`:''}
     ${r.src?`<div style="color:#63706a;font-size:13.5pt;margin-bottom:4px">考证出处：${esc(r.src)}${r.hold?'（'+esc(r.hold)+'）':''}</div>`:''}
     <p style="color:#45534d;margin:6px 0 10px;line-height:1.6">${esc(r.brief||'')}</p>`;
-  if($('dHistZoom'))$('dHistZoom').onclick=()=>openHistLightbox(r);
+  if($('dHistZoom')){
+    $('dHistZoom').title=histOriginalInfo(r.id)?'在新标签页打开原图':'在新标签页打开当前图片';
+    $('dHistZoom').onclick=()=>openHistOriginal(r);
+  }
   const t=$('dtabs'); t.innerHTML='';
   (r.variants||[]).forEach((v,i)=>{
     const b=document.createElement('button');
