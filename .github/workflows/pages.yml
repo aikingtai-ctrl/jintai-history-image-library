@@ -308,13 +308,200 @@ jobs:
                   brw_stage.write_text(bh2, encoding="utf-8", newline="\n")
                   total_bytes += brw_stage.stat().st_size - old_sz
 
-          for rel in ("index.html", "browser.html"):
+          # Upgrade staged specialty galleries to 2-stage progressive wave loading (boot shard first -> ~1.5s first card, then waves of 3).
+          v4_hyd_re = re.compile(r"async function hydrateSpecialistData\(\)\{[\s\S]*?\}\n(?=/\*__SPECIALIST_V4_SHARD_END__\*/)")
+          v4_new_fn = (
+              "async function hydrateSpecialistData(){\n"
+              "  if(document.getElementById('jt_gate_css')&&document.documentElement.getAttribute('data-jt-ok')!=='1')return;\n"
+              "  const cntEl=document.getElementById('count');\n"
+              "  if(cntEl)cntEl.textContent='正在载入考证专集首屏数据…';\n"
+              "  window.SPECIALIST_V4_MANIFEST=null;\n"
+              "  await loadSpecResource('manifest.js?v='+Date.now(),true,()=>{if(!window.SPECIALIST_V4_MANIFEST)throw new Error('mf');});\n"
+              "  const mf=window.SPECIALIST_V4_MANIFEST,shards=(mf&&Array.isArray(mf.shards))?mf.shards:[],ver=mf&&mf.version?('?v='+mf.version):'';\n"
+              "  DATA.length=0;\n"
+              "  if(!shards.length){initCounts();apply();window.__JT_SPEC_FIRST_READY__=true;window.__JT_SPEC_ALL_READY__=true;return;}\n"
+              "  await loadSpecResource(shards[0]+ver,false,()=>{if(!window.__SPEC_V4_CHUNKS__[0])throw new Error('chunk');});\n"
+              "  {const rows=_unpackWS(window.__SPEC_V4_CHUNKS__[0]);for(let j=0;j<rows.length;j++)DATA.push(rows[j]);delete window.__SPEC_V4_CHUNKS__[0];}\n"
+              "  initCounts();\n"
+              "  apply();\n"
+              "  window.__JT_SPEC_FIRST_READY__=true;\n"
+              "  if(shards.length>1){\n"
+              "    await new Promise(r=>setTimeout(r,24));\n"
+              "    for(let w=1;w<shards.length;w+=3){\n"
+              "      const end=Math.min(shards.length,w+3),idxs=[];\n"
+              "      for(let i=w;i<end;i++)idxs.push(i);\n"
+              "      await Promise.all(idxs.map(i=>loadSpecResource(shards[i]+ver,false,()=>{if(!window.__SPEC_V4_CHUNKS__[i])throw new Error('chunk');})));\n"
+              "      for(const i of idxs){const rows=_unpackWS(window.__SPEC_V4_CHUNKS__[i]);for(let j=0;j<rows.length;j++){const r=rows[j];if(typeof computeChronoRank==='function')r._cRank=computeChronoRank(r);DATA.push(r);}delete window.__SPEC_V4_CHUNKS__[i];}\n"
+              "      await new Promise(r=>setTimeout(r,16));\n"
+              "    }\n"
+              "    const prevScroll=window.scrollY,prevPage=page;\n"
+              "    initCounts();\n"
+              "    apply();\n"
+              "    if(prevPage>0){page=prevPage;render();}\n"
+              "    window.scrollTo(0,prevScroll);\n"
+              "  }\n"
+              "  window.__JT_SPEC_ALL_READY__=true;\n"
+              "}\n"
+          )
+          for v4_rel in ("websearch5000.html", "dynasty2000.html"):
+              vp = site / v4_rel
+              if vp.is_file():
+                  vh = vp.read_text(encoding="utf-8")
+                  if "__JT_SPEC_FIRST_READY__" not in vh and "/*__SPECIALIST_V4_SHARD_END__*/" in vh:
+                      vh2, vc = v4_hyd_re.subn(lambda _: v4_new_fn, vh, count=1)
+                      assert vc == 1, f"Expected 1 hydrateSpecialistData() match in {v4_rel}, got {vc}"
+                      old_sz = vp.stat().st_size
+                      vp.write_text(vh2, encoding="utf-8", newline="\n")
+                      total_bytes += vp.stat().st_size - old_sz
+
+          spec_all_hyd_re = re.compile(r"async function hydrateSpecialistPage\(\)\{[\s\S]*?\}\n(?=/\*__SPEC_ALL_SHARD_END__\*/)")
+          spec_all_bodies = {
+              "flat_data": (
+                  "  DATA.length=0;\n"
+                  "  if(!shards.length){list=DATA;initFilters();apply();window.__JT_SPEC_FIRST_READY__=true;window.__JT_SPEC_ALL_READY__=true;return;}\n"
+                  "  await loadSpecAllRes(shards[0]+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[shards[0]])throw new Error('chunk');});\n"
+                  "  {const rows=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[shards[0]]);for(let j=0;j<rows.length;j++)DATA.push(rows[j]);delete window.__SPEC_ALL_CHUNKS__[shards[0]];}\n"
+                  "  list=DATA;initFilters();apply();window.__JT_SPEC_FIRST_READY__=true;\n"
+                  "  if(shards.length>1){\n"
+                  "    await new Promise(r=>setTimeout(r,24));\n"
+                  "    for(let w=1;w<shards.length;w+=3){\n"
+                  "      const batch=shards.slice(w,w+3);\n"
+                  "      await Promise.all(batch.map(sh=>loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');})));\n"
+                  "      for(const sh of batch){const rows=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[sh]);for(let j=0;j<rows.length;j++)DATA.push(rows[j]);delete window.__SPEC_ALL_CHUNKS__[sh];}\n"
+                  "      await new Promise(r=>setTimeout(r,16));\n"
+                  "    }\n"
+                  "    const prevScroll=window.scrollY,prevPage=page;\n"
+                  "    list=DATA;initFilters();\n"
+                  "    if(typeof fSub==='string'&&document.getElementById('subRow'))document.querySelectorAll('#subRow .chip').forEach(x=>x.classList.toggle('on',x.dataset.sub===fSub));\n"
+                  "    if(typeof fState==='string'&&document.getElementById('stateRow'))document.querySelectorAll('#stateRow .chip').forEach(x=>x.classList.toggle('on',x.dataset.state===fState));\n"
+                  "    apply();\n"
+                  "    if(prevPage>0){page=prevPage;render();}\n"
+                  "    window.scrollTo(0,prevScroll);\n"
+                  "  }\n"
+                  "  window.__JT_SPEC_ALL_READY__=true;\n"
+              ),
+              "epics_raw": (
+                  "  const boot=(mf&&mf.meta_shard)?(shards.length?[mf.meta_shard,shards[0]]:[mf.meta_shard]):(shards.length?[shards[0]]:[]);\n"
+                  "  await Promise.all(boot.map(sh=>loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');})));\n"
+                  "  const meta=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[mf.meta_shard]);delete window.__SPEC_ALL_CHUNKS__[mf.meta_shard];\n"
+                  "  RAW.groups=meta.groups||[];RAW.existing=meta.existing||[];RAW.items=[];\n"
+                  "  GROUPS.length=0;for(let i=0;i<RAW.groups.length;i++)GROUPS.push(_mapEpGroup(RAW.groups[i]));\n"
+                  "  ITEMS.length=0;\n"
+                  "  if(shards.length){const rows=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[shards[0]]);for(let j=0;j<rows.length;j++){const r=rows[j];RAW.items.push(r);ITEMS.push(_mapEpItem(r));}delete window.__SPEC_ALL_CHUNKS__[shards[0]];}\n"
+                  "  filtered=ITEMS;initChips();renderWorks();applyPrompts();renderExisting();window.__JT_SPEC_FIRST_READY__=true;\n"
+                  "  if(shards.length>1){\n"
+                  "    await new Promise(r=>setTimeout(r,24));\n"
+                  "    for(let w=1;w<shards.length;w+=3){\n"
+                  "      const batch=shards.slice(w,w+3);\n"
+                  "      await Promise.all(batch.map(sh=>loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');})));\n"
+                  "      for(const sh of batch){const rows=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[sh]);for(let j=0;j<rows.length;j++){const r=rows[j];RAW.items.push(r);ITEMS.push(_mapEpItem(r));}delete window.__SPEC_ALL_CHUNKS__[sh];}\n"
+                  "      await new Promise(r=>setTimeout(r,16));\n"
+                  "    }\n"
+                  "    initChips();applyPrompts();\n"
+                  "  }\n"
+                  "  window.__JT_SPEC_ALL_READY__=true;\n"
+              ),
+              "zhiguai_raw": (
+                  "  const boot=(mf&&mf.meta_shard)?(shards.length?[mf.meta_shard,shards[0]]:[mf.meta_shard]):(shards.length?[shards[0]]:[]);\n"
+                  "  await Promise.all(boot.map(sh=>loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');})));\n"
+                  "  const meta=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[mf.meta_shard]);delete window.__SPEC_ALL_CHUNKS__[mf.meta_shard];\n"
+                  "  RAW.books=meta.books||[];RAW.groups=meta.groups||[];RAW.existing=meta.existing||[];RAW.total_existing=meta.total_existing||0;RAW.items=[];ITEMS.length=0;\n"
+                  "  if(shards.length){const rows=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[shards[0]]);for(let j=0;j<rows.length;j++){const r=rows[j];RAW.items.push(r);ITEMS.push(_mapZgItem(r));}delete window.__SPEC_ALL_CHUNKS__[shards[0]];}\n"
+                  "  filtered=ITEMS;initChips();renderBooks();applyPrompts();renderExisting();\n"
+                  "  if(typeof zgRenderHomeGallery==='function')zgRenderHomeGallery();\n"
+                  "  window.__JT_SPEC_FIRST_READY__=true;\n"
+                  "  if(shards.length>1){\n"
+                  "    await new Promise(r=>setTimeout(r,24));\n"
+                  "    for(let w=1;w<shards.length;w+=3){\n"
+                  "      const batch=shards.slice(w,w+3);\n"
+                  "      await Promise.all(batch.map(sh=>loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');})));\n"
+                  "      for(const sh of batch){const rows=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[sh]);for(let j=0;j<rows.length;j++){const r=rows[j];RAW.items.push(r);ITEMS.push(_mapZgItem(r));}delete window.__SPEC_ALL_CHUNKS__[sh];}\n"
+                  "      await new Promise(r=>setTimeout(r,16));\n"
+                  "    }\n"
+                  "    initChips();\n"
+                  "    if(typeof curBookNo==='number'&&document.getElementById('bookChips'))document.querySelectorAll('#bookChips .chip').forEach(c=>c.classList.toggle('on',parseInt(c.dataset.bno,10)===curBookNo));\n"
+                  "    applyPrompts();\n"
+                  "    if(typeof zgRenderHomeGallery==='function')zgRenderHomeGallery();\n"
+                  "  }\n"
+                  "  window.__JT_SPEC_ALL_READY__=true;\n"
+              ),
+              "hlm_lz_json": (
+                  "  const boot=(mf&&mf.meta_shard)?(shards.length?[mf.meta_shard,shards[0]]:[mf.meta_shard]):(shards.length?[shards[0]]:[]);\n"
+                  "  await Promise.all(boot.map(sh=>loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');})));\n"
+                  "  const meta=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[mf.meta_shard]);delete window.__SPEC_ALL_CHUNKS__[mf.meta_shard];\n"
+                  "  GROUPS.length=0;const mg=meta.groups||[];for(let i=0;i<mg.length;i++)GROUPS.push(mg[i]);\n"
+                  "  LEGACY.length=0;const ml=meta.legacy||[];for(let i=0;i<ml.length;i++)LEGACY.push(ml[i]);\n"
+                  "  ITEMS.length=0;\n"
+                  "  if(shards.length){const rows=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[shards[0]]);for(let j=0;j<rows.length;j++)ITEMS.push(rows[j]);delete window.__SPEC_ALL_CHUNKS__[shards[0]];}\n"
+                  "  fGroups=GROUPS;fItems=ITEMS;\n"
+                  "  if(curTab==='grp')renderG();else if(curTab==='prm')renderP();else renderL();\n"
+                  "  window.__JT_SPEC_FIRST_READY__=true;\n"
+                  "  if(shards.length>1){\n"
+                  "    await new Promise(r=>setTimeout(r,24));\n"
+                  "    for(let w=1;w<shards.length;w+=3){\n"
+                  "      const batch=shards.slice(w,w+3);\n"
+                  "      await Promise.all(batch.map(sh=>loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');})));\n"
+                  "      for(const sh of batch){const rows=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[sh]);for(let j=0;j<rows.length;j++)ITEMS.push(rows[j]);delete window.__SPEC_ALL_CHUNKS__[sh];}\n"
+                  "      await new Promise(r=>setTimeout(r,16));\n"
+                  "    }\n"
+                  "    if(curTab==='prm'){const _pp=pP;filterP();if(_pp>1){pP=_pp;renderP();}}else if(fItems===ITEMS)fItems=ITEMS;\n"
+                  "  }\n"
+                  "  window.__JT_SPEC_ALL_READY__=true;\n"
+              ),
+          }
+          spec_all_targets = [
+              ("arch5680.html", "flat_data", "count"),
+              ("myth5000.html", "flat_data", "count"),
+              ("epics.html", "epics_raw", "pCount"),
+              ("zhiguai31.html", "zhiguai_raw", "pCount"),
+              ("hongloumeng.html", "hlm_lz_json", "infoG"),
+              ("liaozhai.html", "hlm_lz_json", "infoG"),
+              ("聊斋志异角色场景法器全谱专集.html", "hlm_lz_json", "infoG"),
+              ("聊斋志异角色与全场景专集.html", "hlm_lz_json", "infoG"),
+          ]
+          upgraded_spec_pages = ["index.html", "browser.html"]
+          for s_rel, s_kind, s_st in spec_all_targets:
+              sp = site / s_rel
+              if sp.is_file():
+                  sh_txt = sp.read_text(encoding="utf-8")
+                  if "__JT_SPEC_FIRST_READY__" not in sh_txt and "/*__SPEC_ALL_SHARD_END__*/" in sh_txt:
+                      s_new_fn = (
+                          "async function hydrateSpecialistPage(){\n"
+                          "  if(document.getElementById('jt_gate_css')&&document.documentElement.getAttribute('data-jt-ok')!=='1')return;\n"
+                          f"  const stEl=document.getElementById('{s_st}');\n"
+                          "  if(stEl)stEl.textContent='正在载入考证专集首屏数据…';\n"
+                          "  window.SPEC_ALL_MANIFEST=null;\n"
+                          "  await loadSpecAllRes('manifest.js?v='+Date.now(),true,()=>{if(!window.SPEC_ALL_MANIFEST)throw new Error('mf');});\n"
+                          "  const mf=window.SPEC_ALL_MANIFEST,shards=(mf&&Array.isArray(mf.item_shards))?mf.item_shards:[],ver=mf&&mf.version?('?v='+mf.version):'';\n"
+                          + spec_all_bodies[s_kind]
+                          + "}\n"
+                      )
+                      sh_txt2, sc_cnt = spec_all_hyd_re.subn(lambda _: s_new_fn, sh_txt, count=1)
+                      assert sc_cnt == 1, f"Expected 1 hydrateSpecialistPage() match in {s_rel}, got {sc_cnt}"
+                      old_sz = sp.stat().st_size
+                      sp.write_text(sh_txt2, encoding="utf-8", newline="\n")
+                      total_bytes += sp.stat().st_size - old_sz
+                  upgraded_spec_pages.append(s_rel)
+          for v4_rel in ("websearch5000.html", "dynasty2000.html"):
+              if (site / v4_rel).is_file():
+                  upgraded_spec_pages.append(v4_rel)
+
+          for rel in upgraded_spec_pages:
               st_html = (site / rel).read_text(encoding="utf-8")
-              st_scripts = re.findall(r"<script(?:\s[^>]*)?>([\s\S]*?)</script>", st_html)
-              assert st_scripts, f"No inline scripts in staged {rel}"
-              for sc in st_scripts:
-                  if sc.strip():
-                      subprocess.run(["node", "--check", "-"], input=sc.encode("utf-8"), check=True)
+              st_blocks = re.findall(r"<script([^>]*)>([\s\S]*?)</script>", st_html, re.I)
+              js_checked = 0
+              for st_attrs, sc in st_blocks:
+                  if re.search(r"\bsrc\s*=", st_attrs, re.I) or not sc.strip():
+                      continue
+                  m_t = re.search(r'\btype\s*=\s*["\']?([^"\'\s>]+)', st_attrs, re.I)
+                  t_v = m_t.group(1).lower() if m_t else ""
+                  if t_v and t_v not in ("text/javascript", "application/javascript", "module"):
+                      if "json" in t_v:
+                          json.loads(sc)
+                      continue
+                  subprocess.run(["node", "--check", "-"], input=sc.encode("utf-8"), check=True)
+                  js_checked += 1
+              assert js_checked >= 1, f"No inline JS scripts in staged {rel}"
               print(f"Verified progressive loader JS syntax in staged {rel}")
 
           reused_gz = 0
@@ -372,6 +559,31 @@ jobs:
               check=True,
           )
           gate.unlink()
+
+          # Content-pin staged film-ai/manifest.js after HD filtering and skip redundant no-store double-fetch on boot.
+          ai_manifest = site / "film-ai" / "manifest.js"
+          if ai_manifest.is_file():
+              ai_pin = hashlib.sha256(ai_manifest.read_bytes()).hexdigest()[:16]
+              with ai_manifest.open("a", encoding="utf-8", newline="\n") as ah:
+                  ah.write("\nwindow.__FILM_AI_PINNED__=1;\n")
+              total_bytes += len("\nwindow.__FILM_AI_PINNED__=1;\n")
+              ai_pin_re = re.compile(r'(<script src="film-ai/manifest\.js\?v=)([^"]+)("></script>)')
+              ai_guard_re = re.compile(r"(async function updateLiveFilmAiManifest\(\)\{\s*)if\(!IS_GH_FILM\)return;")
+              for f_rel in ("film.html", "影视参考图集.html"):
+                  fp = site / f_rel
+                  if fp.is_file():
+                      fh = fp.read_text(encoding="utf-8")
+                      old_sz = fp.stat().st_size
+                      fh2, c_p = ai_pin_re.subn(lambda m: m.group(1) + ai_pin + m.group(3), fh, count=1)
+                      assert c_p == 1, f"Expected 1 film-ai/manifest.js tag in {f_rel}, got {c_p}"
+                      fh3, c_g = ai_guard_re.subn(r"\1if(!IS_GH_FILM||window.__FILM_AI_PINNED__)return;", fh2, count=1)
+                      assert c_g == 1, f"Expected 1 updateLiveFilmAiManifest guard in {f_rel}, got {c_g}"
+                      fp.write_text(fh3, encoding="utf-8", newline="\n")
+                      total_bytes += fp.stat().st_size - old_sz
+                      for st_attrs, sc in re.findall(r"<script([^>]*)>([\s\S]*?)</script>", fh3, re.I):
+                          if not re.search(r"\bsrc\s*=", st_attrs, re.I) and sc.strip():
+                              subprocess.run(["node", "--check", "-"], input=sc.encode("utf-8"), check=True)
+              print(f"Pinned staged film pages to filtered film-ai/manifest.js {ai_pin} (single-fetch mode)")
 
           # Film cards load JPGs from GitHub Raw. Omit any newly validated JPEGs from Pages artifact.
           film_jpgs = list((site / "film-ai").rglob("*.jpg"))
