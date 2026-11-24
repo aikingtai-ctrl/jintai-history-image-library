@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-24T22:23:08.459725+00:00",
+  "snapshot_time_utc": "2026-11-24T22:27:18.209914+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -22662,6 +22662,20 @@
       "file": "film-ai/decks/film-src-7b0b16feb2859f42.webp",
       "sha256": "7632c39d05b51269110c4575defacc213c0de1396d2e8c6df5d47c7d46bef9ba",
       "bytes": 315970,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-b64a45d785d13fde",
+      "wid": "src-b64a45d785d13fde",
+      "title": "A Tale of Smallpox",
+      "file": "film-ai/decks/film-src-b64a45d785d13fde.webp",
+      "sha256": "f27f6acfd4566a7b75cfb5f2f1d24a6d19cbfd5393222cc5684a9f92639958da",
+      "bytes": 241250,
       "size": [
         1672,
         941
