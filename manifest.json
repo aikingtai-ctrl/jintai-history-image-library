@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "538-7b8a121ad7be",
+  "revision": "570-5600f73a7a35",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -4307,6 +4307,262 @@
       "width": 1672,
       "height": 941,
       "sha256": "7b8a121ad7bebd8bd5903299cc4efcbd6b929cc4d58dad8aa2efd429bc2bef23"
+    },
+    "HL-JINGUO-SC-0019": {
+      "title": "金代中都马市",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-SC-0019.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-SC-0019.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a0b938aa7a6bba7a10e925fb5b2c451f7e00d6fd3cc4c06281361eb189644281"
+    },
+    "HL-JINGUO-SC-0020": {
+      "title": "金代全真道观讲道",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-SC-0020.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-SC-0020.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fe563a35e80304ad17ba7441e4f2e335bb6edcb2e41cb4d701d0831e07a9fe2b"
+    },
+    "HL-JINGUO-PR-0004": {
+      "title": "金代金银器",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-PR-0004.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-PR-0004.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "26d3f03eb356c4e878aaa0c4e79f29e9e3c111d98edb6bd68204cae3db428ccc"
+    },
+    "HL-JINGUO-PR-0005": {
+      "title": "金代春水秋山玉",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-PR-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-PR-0005.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "2b09d6cd198d62b897c23dac231712358ef06acfc7a9c01df051c3c20035b2de"
+    },
+    "HL-JINGUO-PR-0006": {
+      "title": "金代铁甲与兵器",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-PR-0006.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-PR-0006.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f40ad78bb744202b59e722db03a4934118f4b66cf8dcd5520c1fa04e2b96511c"
+    },
+    "HL-JINGUO-PR-0007": {
+      "title": "金代铜官印",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-PR-0007.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-PR-0007.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1bfbf75b443baf4fa80eeddd008be1c4f6c27e34041d454b011828b8574104a0"
+    },
+    "HL-JINGUO-AR-0005": {
+      "title": "金代佛光寺文殊殿",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-AR-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-AR-0005.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "219e31ce25e4cf5796c2bca7f8d83efd5ca12615de70e435d19c233c04143151"
+    },
+    "HL-JINGUO-AR-0006": {
+      "title": "金代高平戏台",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-AR-0006.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-AR-0006.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5656dbfa2ac977f5c411d98d84f2ef1d9ae712e4399f8775a30e1cb56b64d88b"
+    },
+    "HL-JINGUO-AR-0007": {
+      "title": "金上京会宁府",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-AR-0007.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-AR-0007.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "40a7e97d7933ad66488e0ce8551c63d422460fdbee0bd28fab9a29d0daa5f8df"
+    },
+    "HL-JINGUO-AR-0008": {
+      "title": "金代北方民居",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-AR-0008.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-AR-0008.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "9bdea6042758c19cd9b4c6b2631270438441e9a278a84fde6d64e0a6ba590211"
+    },
+    "HL-JINGUO-LS-0003": {
+      "title": "金代松花江畔",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-LS-0003.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-LS-0003.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ebc5cb7c734e40b119c0084fc18e262e173e4816e752273315fa2b9c1a50b643"
+    },
+    "HL-JINGUO-LS-0004": {
+      "title": "金代黄河改道泛区",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-LS-0004.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-LS-0004.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b67c4c0e3ee600ba6ceba5a9073facb3aa7147b712bcdfc11a832b318d6f922b"
+    },
+    "HL-JINGUO-LS-0005": {
+      "title": "金代中都西山行宫",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-LS-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-LS-0005.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2ac0a1074315825b5a52e88bee5e619942a87e87f7ab8d5c43691a0ffc068961"
+    },
+    "HL-JINGUO-CO-0031": {
+      "title": "金代皇太子",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0031.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0031.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "65dd29a858f5fa1a4d9c377e1e3234fc7f5ea596155746fcee227e6be597a02f"
+    },
+    "HL-JINGUO-CO-0032": {
+      "title": "金代公主",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0032.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0032.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "d34ca41601e7a77aab58a79f263abfc7c51c0aa0bcb3a7ea80a5a792f7292a06"
+    },
+    "HL-JINGUO-CO-0033": {
+      "title": "金代宫女",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0033.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0033.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "a49dc1ef3d050eaa15296535d112591ea85a69192867e929fce9b99684cf7075"
+    },
+    "HL-JINGUO-CO-0034": {
+      "title": "金代宫廷侍卫",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0034.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0034.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "97c57272b0fa4060f0eac6d385862cd4c5cf2db53fe978c8bc1cb7d1b08bbedd"
+    },
+    "HL-JINGUO-CO-0035": {
+      "title": "金代女真弓手",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0035.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0035.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "48b229d6c464e3ed8d164f18da66df8f2f52219e43950dbd66f2e1fb989be56e"
+    },
+    "HL-JINGUO-CO-0036": {
+      "title": "金代猛安长官",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0036.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0036.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "56c369c53d55bc86f04280c5bdf5ce4af9676839e076aea28a51cfd40a212eed"
+    },
+    "HL-JINGUO-CO-0037": {
+      "title": "金代女真牧民",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0037.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0037.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "ff4e80ac51a2a39e3a6d03e3852df2ffe39510fae61140ce79c26b5e66a55780"
+    },
+    "HL-JINGUO-CO-0038": {
+      "title": "金代女真农妇",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0038.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0038.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "5b79f81de5ebf8488a5c009269e01aa32d7f4a88c86992dd88fd8af733bba41b"
+    },
+    "HL-JINGUO-CO-0039": {
+      "title": "金代女真商人",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0039.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0039.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "0d1ec318e2b156646daecc8174b8d7b6630f7150f9fca13c8681da615d1be0c1"
+    },
+    "HL-JINGUO-CO-0040": {
+      "title": "金代汉人农夫",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0040.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0040.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "1a69d9ce27750b96793bf5fcedce1982beba5e429da578afb5403164f5d1ad60"
+    },
+    "HL-JINGUO-CO-0041": {
+      "title": "金代汉人商人",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0041.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0041.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "d17920449be45e005c81945b8066d376e212f03e7bda0fdca5c72f4a40249799"
+    },
+    "HL-JINGUO-CO-0042": {
+      "title": "金代汉人书生",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0042.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0042.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "31ad842e60f43256b9a0b4bd596fdef4bbc30f87fea37ad30bccd97c54de98b7"
+    },
+    "HL-JINGUO-CO-0043": {
+      "title": "金代汉人乐伎",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0043.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0043.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "9fee904369a9c89170d6696a8b76cd5f8e4e35d8f4e193adbe8ea6173e0f03d0"
+    },
+    "HL-JINGUO-CO-0044": {
+      "title": "金代契丹人",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0044.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0044.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "fe7dbb15c96720c2f0fed7fac60095c36844ff68dced1094c7c9f52c81ca4313"
+    },
+    "HL-JINGUO-CO-0045": {
+      "title": "金代渤海妇女",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0045.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0045.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "a6958ead1c489777365287f6d6f14b5e197e1a07d4f30115be9e59801151aec0"
+    },
+    "HL-JINGUO-CO-0046": {
+      "title": "金代回鹘商人",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0046.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0046.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "0e5e4d7b6a9d711b70a3ff26742c18bec36a4a94642c1c01f0edf6b56aabaea1"
+    },
+    "HL-JINGUO-CO-0047": {
+      "title": "金代画工",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0047.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0047.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "b8d3686405b3ac0c2ebbf12b0c5818a551c8e89549e58d6f1bd75b3e24922d00"
+    },
+    "HL-JINGUO-CO-0048": {
+      "title": "金代铁匠",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0048.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0048.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "fbfec25458dcf66943ab851e57389d02fdecd13b6cd85303a891a5ae27fb5ebd"
+    },
+    "HL-JINGUO-CO-0049": {
+      "title": "金代织户",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-CO-0049.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-CO-0049.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5600f73a7a351d5bec6dee5b68cce4f3160c4f5d7bcc8b7e1cf40b9907d426dd"
     }
   }
 }
