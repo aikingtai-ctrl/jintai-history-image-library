@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.ok(Object.keys(gpt).length >= 302);
+assert.equal(Object.keys(gpt).length, 332);
 for (const id of ['HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) assert.ok(gpt[id], id);
 for (const item of Object.values(gpt)) {
   assert.equal(item.model, 'GPT Image');
@@ -246,6 +246,22 @@ for (const id of ['HL-XIA-SC-0058', 'HL-XIA-SC-0059', 'HL-XIA-SC-0060']) {
   assert.match(gpt[id].source_deviation_note, /原有小图可见遗体.*合棺葬仪.*画面与原小图不同/,
     `public visual deviation disclosure: ${id}`);
 }
+for (let index = 301; index <= 330; index++) {
+  const rows = Object.entries(gpt).filter(([, image]) => image.index === index);
+  assert.equal(rows.length, 1, `accepted native image at index ${index}`);
+  const [id, image] = rows[0];
+  assert.ok(originals[id], `frozen JPEG preserved for ${id}`);
+  assert.equal(image.method, 'reference_edit', id);
+  assert.ok(image.width * image.height >= 1_500_000 && image.height >= 850,
+    `native PNG dimensions: ${id}`);
+  assert.match(image.preview, new RegExp(`/gpt-image-previews/${String(index).padStart(6, '0')}-`));
+}
+assert.equal(gpt['HL-XIA-SC-0083'].sha256,
+  '33ba776bf6b7d15d66d1c75aec6838d44ab7ade34cd102b8d228a7f0fde2469a',
+  'index 306 must use the accepted pseudo-mark correction');
+assert.deepEqual([gpt['HL-XIA-SC-0089'].width, gpt['HL-XIA-SC-0089'].height], [1837, 856],
+  'index 312 retains the wide source framing');
+assert.equal(gpt['HT-W20261028B-G022'].index, 330);
 assert.ok(originals['HF-20261015-0101'] && gpt['HF-20261015-0101']);
 const gptAndJpg = 'HF-20261015-0101';
 const jpgOnly = ids.find(id => !gpt[id]);
@@ -266,7 +282,7 @@ const histThumb = vm.runInNewContext(`${histPreviewCode}; ${histThumbCode}; hist
 for (const id of [...ids, 'HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) {
   assert.equal(histThumb(id), gpt[id]?.preview || originals[id], `homepage thumb: ${id}`);
 }
-const lightboxSelect = index.match(/^\s*const gpt=window\.JINTAI_GPT_IMAGES\?\.\[r\.id\];/m)?.[0];
+const lightboxSelect = index.match(/^\s*const gpt=window\.JINTAI_PAGE19_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_GPT_IMAGES\?\.\[r\.id\];/m)?.[0];
 assert.ok(lightboxSelect, 'Homepage lightbox must select accepted GPT Image');
 const lightboxGpt = vm.runInNewContext(`(r)=>{${lightboxSelect}return gpt;}`, { window: manifest });
 assert.equal(lightboxGpt({ id: gptAndJpg }), gpt[gptAndJpg]);
