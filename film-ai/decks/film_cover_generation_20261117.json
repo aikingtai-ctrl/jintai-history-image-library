@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-24T15:30:56.674047+00:00",
+  "snapshot_time_utc": "2026-11-24T15:40:57.191257+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -21948,6 +21948,20 @@
       "file": "film-ai/decks/film-src-a7ef44b8adf62b55.webp",
       "sha256": "ad8e17f8bac2f02072c4c464edf4a34d6845f5d472380bd137ef3debcb3cb57c",
       "bytes": 412268,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-bab07375d4f1f3d4",
+      "wid": "src-bab07375d4f1f3d4",
+      "title": "State of Siege",
+      "file": "film-ai/decks/film-src-bab07375d4f1f3d4.webp",
+      "sha256": "5d6ef5429591f97b9f05ef8370412191cecb68da08e5507ed732204db57e208e",
+      "bytes": 233732,
       "size": [
         1672,
         941
