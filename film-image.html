@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>查看图片原文件</title>
+<style>
+body{margin:0;background:#111;color:#eee;font:16px system-ui,sans-serif}
+header{padding:12px 20px;display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+a{color:#e6ba65}
+img{display:block;max-width:100%;height:auto;margin:auto}
+</style>
+</head>
+<body>
+<header><span id="status">正在加载图片原文件…</span><a id="file" hidden target="_blank" rel="noopener noreferrer">打开源文件 ↗</a></header>
+<img id="image" alt="作品图片原文件">
+<script>
+const raw=new URLSearchParams(location.search).get('src');
+let source;
+try{
+ source=new URL(raw);
+ if(source.protocol!=='https:'||source.hostname!=='github.com'||!source.pathname.startsWith('/aikingtai-ctrl/jintai-history-image-library/releases/download/'))throw Error();
+ document.getElementById('file').href=source.href;
+ document.getElementById('file').hidden=false;
+ const image=document.getElementById('image');
+ image.onload=()=>document.getElementById('status').textContent=`图片原文件 · ${image.naturalWidth} × ${image.naturalHeight}`;
+ image.onerror=()=>document.getElementById('status').textContent='图片加载失败，请尝试打开源文件。';
+ image.src=source.href;
+}catch{document.getElementById('status').textContent='图片地址无效。';}
+</script>
+</body>
+</html>
