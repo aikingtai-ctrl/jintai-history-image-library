@@ -422,7 +422,8 @@ async function loadZgImages(){
     const incoming=window.JINTAI_ZHIGUAI_IMAGES||{};
     for(const [id,info] of Object.entries(incoming)){
       if(!/^ZG-20261028-\d{4}$/.test(id) || !/^history_zhiguai_8000_codex_gpt_image_\d{8}$/.test(info.original_dir||'')) continue;
-      info.preview_url=zgGalleryOrigin+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+      info.preview_url=zgGalleryOrigin+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.thumbnail_filename||info.preview_filename);
+      info.full_preview_url=zgGalleryOrigin+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
       info.original_url=zgGalleryOrigin+'/original-pngs/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.filename);
       ZG_IMAGES[id]=info;
     }
@@ -460,7 +461,8 @@ function zgSetPreview(img,info){
   img.onerror=()=>{
     attempt++;
     if(attempt===1){setTimeout(()=>{img.src=info.preview_url+'?retry='+Date.now();},800);return;}
-    if(attempt===2){img.src=info.original_url;return;}
+    if(attempt===2){img.src=info.full_preview_url;return;}
+    if(attempt===3){img.src=info.original_url;return;}
     img.onerror=null;
   };
   img.src=info.preview_url;
@@ -495,7 +497,7 @@ function zgOpenOriginal(record,info){
     document.body.appendChild(dlg);
   }
   dlg.querySelector('strong').textContent=record.id+' · '+record.title;
-  const img=dlg.querySelector('img');img.onerror=()=>{img.onerror=null;img.src=info.preview_url;};img.src=info.original_url;
+  const img=dlg.querySelector('img');img.onerror=()=>{img.onerror=null;img.src=info.full_preview_url;};img.src=info.original_url;
   dlg.querySelector('a').href=info.original_url+'?download=1';
   dlg.showModal();
 }
