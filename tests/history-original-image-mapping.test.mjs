@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 405);
+assert.equal(Object.keys(gpt).length, 406);
 const taosiPanorama = gpt['AR-20261020-0025'];
 assert.ok(originals['AR-20261020-0025'] && taosiPanorama,
   'saved Taosi JPEG and accepted GPT Image panorama both remain mapped');
@@ -91,6 +91,7 @@ for (const [id, width, height] of [
   ['AR-20261020-0781', 1774, 887],
   ['AR-20261020-0782', 2172, 724],
   ['AR-20261020-0783', 1774, 887],
+  ['AR-20261020-0784', 1774, 887],
 ]) {
   assert.ok(originals[id] && gpt[id], `saved Erlitou JPEG and accepted redraw: ${id}`);
   assert.equal(gpt[id].method, 'reference_edit');
