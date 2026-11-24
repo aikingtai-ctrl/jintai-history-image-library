@@ -1,0 +1,51 @@
+{
+  "reviewedOn": "2026-11-24",
+  "reviewedRange": [
+    1800,
+    2159
+  ],
+  "decisions": [
+    {
+      "wid": "src-0a63c218e21bd644",
+      "previous": "film-ai/src-0a63c218e21bd644.jpg",
+      "replacement": "film-ai/quality-reviewed/src-0a63c218e21bd644.png",
+      "reason": "Empty forest omits the undercover detectives and 1970s investigation",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-0cbd54133ead0835",
+      "previous": "film-ai/src-0cbd54133ead0835.jpg",
+      "replacement": "film-ai/quality-reviewed/src-0cbd54133ead0835.png",
+      "reason": "Funeral-home exterior omits the courtroom drama and attorney",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-0d7946fd46e434f5",
+      "previous": "film-ai/src-0d7946fd46e434f5.jpg",
+      "replacement": "film-ai/quality-reviewed/src-0d7946fd46e434f5.png",
+      "reason": "Contemporary subway scene does not represent the Mars science-fiction story",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-115c6f0cfdfd18c6",
+      "previous": "film-ai/src-115c6f0cfdfd18c6.jpg",
+      "replacement": "film-ai/quality-reviewed/src-115c6f0cfdfd18c6.png",
+      "reason": "Children in a field omit the defining circus musical setting",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-15f54bf421ebce4c",
+      "previous": "film-ai/shots/WORKCONCEPT-20261117-src-15f54bf421ebce4c.webp",
+      "replacement": "film-ai/quality-reviewed/src-15f54bf421ebce4c.png",
+      "reason": "Empty concert hall omits the conductor and orchestra",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-1c0b1199d8cee968",
+      "previous": "film-ai/src-1c0b1199d8cee968.jpg",
+      "replacement": "film-ai/quality-reviewed/src-1c0b1199d8cee968.png",
+      "reason": "Unrelated group portrait omits the undersea habitat and crew",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
