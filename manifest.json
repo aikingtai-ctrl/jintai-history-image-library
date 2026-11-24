@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "602-f4e4dd5d1848",
+  "revision": "634-d500a7d2fa19",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -4819,6 +4819,262 @@
       "width": 1024,
       "height": 1536,
       "sha256": "f4e4dd5d1848bcaf93a7bc550e46297bdde0a5815b25d2f4446b23b4e3f50a2f"
+    },
+    "HL-JINGUO-AR-0010": {
+      "title": "金中都城墙",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-AR-0010.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-AR-0010.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "d18fb47a596b82c2bece398195753fdd0fa5c8b11d5e38ae9ce200fbb2ada05f"
+    },
+    "HL-JINGUO-AR-0011": {
+      "title": "金代善化寺普贤阁",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-AR-0011.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-AR-0011.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "71cfd80c3619036fd46593627024ab134a42a84ad99e2dda3aca66f6d30b7b5a"
+    },
+    "HL-JINGUO-LS-0006": {
+      "title": "金代长白山",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-LS-0006.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-LS-0006.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1e74fc052f680f0f35d5033d22175e609327c1d41665b0af6bf34bd5334f2608"
+    },
+    "HL-JINGUO-LS-0007": {
+      "title": "金代中原平原村落",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-LS-0007.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-LS-0007.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3080ef2f2792f1b63af7036a6f0951eb38dbf254fa028cf61a908e5c591ad964"
+    },
+    "HL-NSONG-CO-0027": {
+      "title": "南宋水军车船兵",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-CO-0027.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-CO-0027.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "fb5fdaf62bfdbd0dbd2b6fd26768c5419ab1e33c18f13a6d6c99ae0c88a638e2"
+    },
+    "HL-NSONG-CO-0028": {
+      "title": "南宋书坊刻工",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-CO-0028.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-CO-0028.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "799c3f2c30dd15c89afbd395860162deb72c642deb1c3a3e965a681defc7165e"
+    },
+    "HL-NSONG-CO-0029": {
+      "title": "南宋绣娘",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-CO-0029.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-CO-0029.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "491e0ae0f045d5400ae1190b504c01cfcc07b5d7990991d901afd833d7d16656"
+    },
+    "HL-NSONG-CO-0030": {
+      "title": "南宋货郎",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-CO-0030.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-CO-0030.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "406e10cb97e2366a07899abea909e17c0fb662352c93fd9e5c762571f2c63ed7"
+    },
+    "HL-NSONG-CO-0031": {
+      "title": "南宋走方郎中",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-CO-0031.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-CO-0031.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "cd8f5b16afa107178357e4bcea3821c657bd5935dc4bc4f581aa7b1172f03fe8"
+    },
+    "HL-NSONG-AC-0004": {
+      "title": "南宋展脚幞头",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-AC-0004.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-AC-0004.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c7f501b082d8c025f7510f8e27c79ed264ded12e9ba66af348acd4b6560e576a"
+    },
+    "HL-NSONG-AC-0005": {
+      "title": "南宋女子冠梳与花钗",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-AC-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-AC-0005.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "8623aae3f1d640f52b2e6f3431490a7abe1df1b2c6f30e0b8f82438cb9913742"
+    },
+    "HL-NSONG-AC-0006": {
+      "title": "南宋女子珍珠面饰",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-AC-0006.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-AC-0006.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "664e88aa153ce70734d6b989cfebfe0feadff0e7f013a32dd1f4d116ab4ba735"
+    },
+    "HL-NSONG-AC-0007": {
+      "title": "南宋男子玉带与鱼袋",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-AC-0007.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-AC-0007.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "f080c2f02c376f458f3970f947a238e3652c9251375cf0b8997f1ec89234621e"
+    },
+    "HL-NSONG-AC-0008": {
+      "title": "南宋女子弓鞋与罗袜",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-AC-0008.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-AC-0008.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "dcd048d53c481ce473e0bb957d01b0c69ee1ee598ee8da35c3dc19433e891f67"
+    },
+    "HL-NSONG-FA-0003": {
+      "title": "南宋太学生容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0003.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0003.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "87cb04628150edbcac250b2cd45d8dfa2fda8f69e836c13dd0ae4beeaeacbc8d"
+    },
+    "HL-NSONG-FA-0004": {
+      "title": "南宋船工容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0004.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0004.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "ce2be9d588805d8a7a571d60755443d9248f7e9b914c4d7e997abc1197e60537"
+    },
+    "HL-NSONG-FA-0005": {
+      "title": "南宋江南农妇容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0005.png",
+      "width": 1289,
+      "height": 1220,
+      "sha256": "b2a3f235e1cac5afb231c7e6eb496c9b9326125219e8d5cd6786473c91dfefd1"
+    },
+    "HL-NSONG-FA-0006": {
+      "title": "南宋老年乡绅容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0006.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0006.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "783ba017deb0231911e2c273c5b8d084261193f20f3dea797893fea2d92a529c"
+    },
+    "HL-NSONG-FA-0007": {
+      "title": "南宋童子容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0007.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0007.png",
+      "width": 1290,
+      "height": 1219,
+      "sha256": "7cf076058860e7606b1e46ff635a38e0566ecf19c993c2199bfb9b28caf4d633"
+    },
+    "HL-NSONG-SC-0031": {
+      "title": "南宋建阳书坊刻书",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0031.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0031.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "83c40cd81508d23aa00bab19c1d380d05a58987c9405fb389be2e3ce8e7118f9"
+    },
+    "HL-NSONG-SC-0032": {
+      "title": "南宋龙泉窑烧造",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0032.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0032.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "836548b5ec0cb7318049c238ab4c53c56898cd736a54a9558086325fdb4cd2c3"
+    },
+    "HL-NSONG-SC-0033": {
+      "title": "南宋两浙盐场煎盐",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0033.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0033.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "96dce9aa45d3e0b4d445889aead75bc2d2b8cfc8e0c7d2f9d58a10f34c1af5f9"
+    },
+    "HL-NSONG-SC-0034": {
+      "title": "南宋社仓放粮",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0034.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0034.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "504a61c598925c50f88e1c15e09e9f375d6178e937efc319ae600af35ce1e962"
+    },
+    "HL-NSONG-LS-0008": {
+      "title": "南宋鄱阳湖水乡",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-LS-0008.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-LS-0008.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "500d34b54c9bcf8905fa26e4f5495c0ae62a21b7c14eb2f38dd02dc107d9dc13"
+    },
+    "HL-NSONG-PR-0005": {
+      "title": "南宋雕版与印本书页",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-PR-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-PR-0005.png",
+      "width": 1960,
+      "height": 802,
+      "sha256": "f2d6f04b3ad3049c1e3ec8124c05f1741474eddaeace460a42141d7c987eb15d"
+    },
+    "HL-NSONG-AR-0003": {
+      "title": "南宋临安御街店铺",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-AR-0003.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-AR-0003.png",
+      "width": 2172,
+      "height": 724,
+      "sha256": "76f9c5a607c4aabc3ef93a7a3ca92038d94cbd03bd179305499c2a852bc11a11"
+    },
+    "HL-NSONG-AR-0004": {
+      "title": "南宋泉州蕃坊礼拜寺",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-AR-0004.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-AR-0004.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e586a2824e8fa23cd4af322bcaa25127044b2163b682c3103330b49dc8438551"
+    },
+    "HL-NSONG-AR-0005": {
+      "title": "南宋闽浙木拱廊桥",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-AR-0005.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-AR-0005.png",
+      "width": 1774,
+      "height": 887,
+      "sha256": "cce05ac830a4c44196026613f5f018d7c935b3bf2e17120454180e556d60f229"
+    },
+    "HL-BSONG-AC-0007": {
+      "title": "北宋女子包髻与团冠",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-AC-0007.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-AC-0007.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "02424e4eecd4a53b63e5e93afc4d12ab59c65e529368e2924e77f32a3e45ad3a"
+    },
+    "HL-BSONG-AC-0008": {
+      "title": "北宋士人东坡巾",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-AC-0008.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-AC-0008.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "5a918dce73b32d718fd0ecc2ceb8fea59575bf8f36e353a0dbc8e6c7511e869f"
+    },
+    "HL-BSONG-AC-0009": {
+      "title": "北宋女子耳环与钏镯",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-AC-0009.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-AC-0009.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "b9a42298e4375def2fbe695d81c3d357f2e7a67e7f75971bc7244f247bd2b295"
+    },
+    "HL-BSONG-AC-0010": {
+      "title": "北宋交脚幞头",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-AC-0010.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-AC-0010.png",
+      "width": 1199,
+      "height": 1312,
+      "sha256": "d500a7d2fa19c6c4579583ca68bbec1ea20e51dd36eb58e4de8f19f261977c60"
     }
   }
 }
