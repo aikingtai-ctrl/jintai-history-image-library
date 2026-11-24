@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 419);
+assert.equal(Object.keys(gpt).length, 421);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
   assert.ok(html.includes(`gpt-image-${Object.keys(gpt).length}`),
@@ -110,6 +110,8 @@ for (const [id, width, height] of [
   ['AR-20261020-0796', 1774, 887],
   ['AR-20261020-0797', 1672, 941],
   ['AR-20261020-0798', 1672, 941],
+  ['AR-20261020-0799', 1774, 887],
+  ['AR-20261020-0800', 1672, 941],
 ]) {
   assert.ok(originals[id] && gpt[id], `saved Erlitou JPEG and accepted redraw: ${id}`);
   assert.equal(gpt[id].method, 'reference_edit');
@@ -132,6 +134,9 @@ assert.equal(gpt['AR-20261020-0797'].sha256,
   '176316f54f636a8ac1a4f7cf2bd9830aa5bbc4517356894acb5a40a63fcf93d0');
 assert.ok(!gpt['AR-20261020-0797'].source_deviation_note,
   'the accepted first redraw follows the saved JPEG roof without a material visual deviation');
+for (const id of ['AR-20261020-0799', 'AR-20261020-0800']) {
+  assert.match(gpt[id].source_deviation_note, /成排圆形夯土基址.*完整圆形瓦顶建筑/);
+}
 assert.ok(!gpt['AR-20261020-0779'], 'unaccepted #425 remains outside the manifest');
 const qing = manifest.JINTAI_QING_IMAGES;
 assert.ok(Object.keys(qing).length >= 1 && Object.keys(qing).length <= 4573);
