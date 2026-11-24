@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-24T13:53:38.671115+00:00",
+  "snapshot_time_utc": "2026-11-24T14:00:47.213109+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -21808,6 +21808,20 @@
       "file": "film-ai/decks/film-src-0a4966e1b0826bca.webp",
       "sha256": "38148a80aa857bae0841110cd61c23e195104bb745ebf94aaa7228335762aced",
       "bytes": 348016,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-945b42fb08649fa5",
+      "wid": "src-945b42fb08649fa5",
+      "title": "The War of Jan-Ken-Pon",
+      "file": "film-ai/decks/film-src-945b42fb08649fa5.webp",
+      "sha256": "f1382b50148a824274c12fddc6302e7905106b4747a49a2b45081fc037ea3963",
+      "bytes": 208338,
       "size": [
         1672,
         941
