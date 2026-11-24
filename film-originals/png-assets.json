@@ -98383,6 +98383,36 @@
       "sha256": "3a6ec99d38147e2847e7f5df9adc7098d924fafe5fd7fe497939404fd9020b5a",
       "scene": "竖幅极简艺术海报上，顶部黑影中露出一名仰躺人物的局部面容，下方大面积苍茫白雪中站立着一个渺小背影并印有竖排片名。",
       "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: Vertical poster for Do Over featuring a close-up face at the top above a vast white expanse with vertical Chinese calligraphy.. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-d7385495b938c046": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p09/src-d7385495b938c046-2fb019a51e24.png",
+      "filename": "src-d7385495b938c046-2fb019a51e24.png",
+      "width": 1942,
+      "height": 809,
+      "bytes": 1668759,
+      "sha256": "2fb019a51e2498a595421e50029e2928aaa715c9673ad134b64928bef7b55222",
+      "scene": "昏暗封闭空间内，四名人物呈俯卧或跪姿排列于地面，右侧墙壁上方有一扇开启的窗户，顶部悬挂一盏长条灯，背景深处可见微弱亮光。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: 低分辨率昏暗室内场景，四名人物俯卧或跪姿排列于地面，仅可见背部与头部轮廓，身体大部分隐于阴影。右侧墙壁上方有一扇开启的窗户，顶部悬挂一盏长条荧光灯，发出冷白光，照亮局部墙面与地面。背景深处有一处矩形亮区，整体色调偏冷，以黑、灰、暗蓝为主，空间封闭压抑，人物与墙壁比例显示空间狭长。. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
+    },
+    "src-d73c0430b8db54a2": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p09/src-d73c0430b8db54a2-e195e29a874b.png",
+      "filename": "src-d73c0430b8db54a2-e195e29a874b.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1916543,
+      "sha256": "e195e29a874bdbed26ff0306f3ad77c82460a4f258f40bb2d8fe2a55cb139884",
+      "scene": "画面主体为一名倒卧在地面的男性头部，面部朝上，额头处有大面积鲜红色液体覆盖，背景昏暗且模糊，仅见地面纹理。",
+      "prompt": "Use case: original cinematic reference image for a film card, wide 16:9 composition. Original horror film still, extreme close-up of a pale fictional adult man lying on the floor, face turned upward with a blank stunned expression, positioned slightly right of center. Strong overhead light against a deep black blurred background, high contrast, dramatic shadow. No blood, wounds, gore, text, logos, watermark."
+    },
+    "src-d742f7e9cd261874": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p09/src-d742f7e9cd261874-f0350fa183af.png",
+      "filename": "src-d742f7e9cd261874-f0350fa183af.png",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1860594,
+      "sha256": "f0350fa183afc2bce67f7ea12c726ef4fb85eeb49eff14d1cfc22094e234d52e",
+      "scene": "黄昏时分，橙红色天空下，两人站在白色栈桥栏杆旁，左侧水面有一人坐在小船上，远处可见绿色信号灯。",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide cinematic reference image for a film card. Create one original film still inspired by this first-shot description: 黄昏时分，橙红色天空占据画面上半部，云层呈现深红至暗紫的渐变。右侧白色木质栈桥从右下角向左上方延伸，栏杆结构清晰，两名人物站在栈桥上，仅可见上半身，背对镜头，一人穿浅色衣物，另一人穿深色衣物，身形在画面中较大。左侧开阔水面上，一艘极小的深色小船漂浮，船内坐着一名戴帽人物，身形微小。水面中央偏左位置，立着一根黑色支架，顶端亮着绿色方形信号灯。水面反射着天空的暖橙色光芒，波纹细腻。整体色调以橙红、暗紫为主，绿色信号灯形成冷色点缀，画面静谧，光影层次丰富。. Preserve its composition, setting, lighting, palette, and mood. Depict only fictional people without real-actor likeness, fully clothed and in a nonsexual, non-graphic scene. No text, title, credits, logos, watermark, or readable text."
     }
   }
 }
