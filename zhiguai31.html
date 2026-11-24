@@ -67,6 +67,7 @@ dialog.zg-lightbox::backdrop{background:rgba(0,0,0,.85)}
 .zg-lightbox-inner{display:flex;flex-direction:column;align-items:center;gap:9px}
 .zg-lightbox-inner img{max-width:92vw;max-height:78vh;object-fit:contain}
 .zg-lightbox-inner a,.zg-lightbox-inner button{color:#fff;font-size:15pt}
+.zg-lightbox-status{font-size:13pt;color:#b8d2c8}
 
 .zg-home{background:#fff;border:1px solid #d8dfd8;border-radius:12px;padding:14px 16px;margin:8px 0 18px}
 .zg-home-title{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap;color:#1f5c48;font-size:17pt}
@@ -491,15 +492,27 @@ function zgOpenOriginal(record,info){
   let dlg=$('zgLightbox');
   if(!dlg){
     dlg=document.createElement('dialog');dlg.id='zgLightbox';dlg.className='zg-lightbox';
-    dlg.innerHTML='<div class="zg-lightbox-inner"><strong></strong><img alt=""><a target="_blank" rel="noopener">下载无损 PNG</a><button type="button">关闭</button></div>';
+    dlg.innerHTML='<div class="zg-lightbox-inner"><strong></strong><img alt=""><span class="zg-lightbox-status" aria-live="polite"></span><a target="_blank" rel="noopener">下载无损 PNG</a><button type="button">关闭</button></div>';
     dlg.querySelector('button').onclick=()=>dlg.close();
     dlg.onclick=e=>{if(e.target===dlg)dlg.close();};
     document.body.appendChild(dlg);
   }
+  dlg.dataset.currentId=record.id;
   dlg.querySelector('strong').textContent=record.id+' · '+record.title;
-  const img=dlg.querySelector('img');img.onerror=()=>{img.onerror=null;img.src=info.full_preview_url;};img.src=info.original_url;
+  const img=dlg.querySelector('img');img.onerror=()=>{img.onerror=null;img.src=info.full_preview_url;};img.src=info.preview_url;
+  const status=dlg.querySelector('.zg-lightbox-status');status.textContent='正在载入无损 PNG，当前显示预览…';
   dlg.querySelector('a').href=info.original_url+'?download=1';
   dlg.showModal();
+  const original=new Image();
+  original.onload=()=>{
+    if(!dlg.open || dlg.dataset.currentId!==record.id)return;
+    img.onerror=()=>{img.onerror=null;img.src=info.full_preview_url;};img.src=info.original_url;
+    status.textContent='无损 PNG 已载入 · '+info.width+'×'+info.height;
+  };
+  original.onerror=()=>{
+    if(dlg.open && dlg.dataset.currentId===record.id)status.textContent='原图暂不可达，可点下载链接重试';
+  };
+  original.src=info.original_url;
 }
 
 function chgPage(delta) {
