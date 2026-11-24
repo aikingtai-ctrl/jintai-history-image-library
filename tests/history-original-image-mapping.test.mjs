@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 378);
+assert.equal(Object.keys(gpt).length, 383);
 const taosiPanorama = gpt['AR-20261020-0025'];
 assert.ok(originals['AR-20261020-0025'] && taosiPanorama,
   'saved Taosi JPEG and accepted GPT Image panorama both remain mapped');
@@ -35,6 +35,20 @@ for (const [id, width, height] of [
   assert.ok(originals[id] && gpt[id], `saved Taosi JPEG and accepted redraw: ${id}`);
   assert.equal(gpt[id].method, 'reference_edit');
   assert.deepEqual([gpt[id].width, gpt[id].height], [width, height]);
+}
+for (const [id, width, height] of [
+  ['AR-20261020-0031', 1672, 941],
+  ['AR-20261020-0032', 1774, 887],
+  ['AR-20261020-0033', 1672, 941],
+  ['AR-20261020-0034', 1672, 941],
+  ['AR-20261020-0035', 1672, 941],
+]) {
+  assert.ok(originals[id] && gpt[id], `saved architectural JPEG and accepted redraw: ${id}`);
+  assert.equal(gpt[id].method, 'reference_edit');
+  assert.deepEqual([gpt[id].width, gpt[id].height], [width, height]);
+}
+for (const id of ['AR-20261020-0031', 'AR-20261020-0033', 'AR-20261020-0035']) {
+  assert.ok(gpt[id].source_deviation_note, `reference/prompt difference disclosed: ${id}`);
 }
 const qing = manifest.JINTAI_QING_IMAGES;
 assert.ok(Object.keys(qing).length >= 1 && Object.keys(qing).length <= 4573);
