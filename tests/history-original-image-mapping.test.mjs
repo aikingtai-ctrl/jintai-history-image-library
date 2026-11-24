@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.ok(Object.keys(gpt).length >= 252);
+assert.ok(Object.keys(gpt).length >= 282);
 for (const id of ['HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) assert.ok(gpt[id], id);
 for (const item of Object.values(gpt)) {
   assert.equal(item.model, 'GPT Image');
@@ -198,6 +198,28 @@ for (const [id, width, height] of [
   assert.ok(originals[id] && image, `saved JPEG and accepted GPT image: ${id}`);
   assert.equal(image.method, 'reference_edit', id);
   assert.deepEqual([image.width, image.height], [width, height], `native landscape PNG: ${id}`);
+}
+const batch251to280 = [
+  'HL-XIA-SC-0010', 'HL-XIA-SC-0012', 'HL-XIA-SC-0013',
+  'HL-XIA-SC-0014', 'HL-XIA-SC-0015', 'HL-XIA-SC-0016',
+  'HL-XIA-SC-0017', 'HL-XIA-SC-0021', 'HL-XIA-SC-0022',
+  'HL-XIA-SC-0029', 'HL-XIA-SC-0030', 'HL-XIA-SC-0031',
+  'HL-XIA-SC-0032', 'HL-XIA-SC-0033', 'HL-XIA-SC-0034',
+  'HL-XIA-SC-0035', 'HL-XIA-SC-0036', 'HL-XIA-SC-0037',
+  'HL-XIA-SC-0038', 'HL-XIA-SC-0039', 'HL-XIA-SC-0040',
+  'HL-XIA-SC-0041', 'HL-XIA-SC-0042', 'HL-XIA-SC-0043',
+  'HL-XIA-SC-0044', 'HL-XIA-SC-0049', 'HL-XIA-SC-0050',
+  'HL-XIA-SC-0051', 'HL-XIA-SC-0052', 'HL-XIA-SC-0053',
+];
+assert.equal(batch251to280.length, 30);
+for (const id of batch251to280) {
+  const image = gpt[id];
+  assert.ok(originals[id] && image, `saved JPEG and accepted GPT image: ${id}`);
+  assert.equal(image.method, 'reference_edit', id);
+  assert.ok(image.width * image.height >= 1_500_000, `native megapixels: ${id}`);
+  assert.ok(image.height >= 850, `native short edge: ${id}`);
+  assert.ok(image.width / image.height > 1.7 && image.width / image.height < 2.2,
+    `landscape source framing: ${id}`);
 }
 assert.ok(originals['HF-20261015-0101'] && gpt['HF-20261015-0101']);
 const gptAndJpg = 'HF-20261015-0101';
