@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 332);
+assert.equal(Object.keys(gpt).length, 360);
 for (const id of ['HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) assert.ok(gpt[id], id);
 for (const item of Object.values(gpt)) {
   assert.equal(item.model, 'GPT Image');
@@ -262,6 +262,26 @@ assert.equal(gpt['HL-XIA-SC-0083'].sha256,
 assert.deepEqual([gpt['HL-XIA-SC-0089'].width, gpt['HL-XIA-SC-0089'].height], [1837, 856],
   'index 312 retains the wide source framing');
 assert.equal(gpt['HT-W20261028B-G022'].index, 330);
+for (let index = 332; index <= 360; index++) {
+  if (index === 359) continue;
+  const rows = Object.entries(gpt).filter(([, image]) => image.index === index);
+  assert.equal(rows.length, 1, `accepted native image at index ${index}`);
+  const [id, image] = rows[0];
+  assert.ok(originals[id], `frozen JPEG preserved for ${id}`);
+  assert.equal(image.method, 'reference_edit', id);
+  assert.ok(image.width * image.height >= 1_500_000 && image.height >= 850,
+    `native PNG dimensions: ${id}`);
+}
+for (const index of [331, 359]) {
+  assert.ok(!Object.values(gpt).some(image => image.index === index),
+    `unaccepted or missing image ${index} must not appear in the public map`);
+}
+for (const id of ['HL-XIA-LS-0018', 'HL-XIA-LS-0022', 'HL-XIA-LS-0024', 'HL-XIA-LS-0029']) {
+  assert.deepEqual([gpt[id].width, gpt[id].height], [1774, 887],
+    `corrected 2:1 source framing: ${id}`);
+}
+assert.deepEqual([gpt['HL-XIA-LS-0030'].width, gpt['HL-XIA-LS-0030'].height], [1833, 858],
+  'index 352 retains its 720×337 source framing');
 assert.ok(originals['HF-20261015-0101'] && gpt['HF-20261015-0101']);
 const gptAndJpg = 'HF-20261015-0101';
 const jpgOnly = ids.find(id => !gpt[id]);
