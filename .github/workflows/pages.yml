@@ -138,9 +138,9 @@ jobs:
               assert "gpt-image-manifest.js" in html, f"GPT Image manifest missing in {rel}"
               assert "original-pngs/" in html and "download=1" in html, f"GPT Image original download missing in {rel}"
               assert "regenerated-manifest.js" not in html and "JINTAI_REGENERATED_IMAGES" not in html, f"Old Qwen redrawn image mapping returned in {rel}"
-          assert "history-ai/manifest.js" in idx_html and "function histPreview(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||" in idx_html, "Accepted GPT Image preview priority missing"
-          assert "function histThumb(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||" in idx_html, "Accepted GPT Image thumbnail priority missing"
-          assert "const gpt=window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id];" in idx_html and "saved.hidden=!(gpt&&window.JINTAI_AI_IMAGES?.[r.id])" in idx_html, "GPT Image download or saved JPEG fallback missing"
+          assert "history-ai/manifest.js" in idx_html and "function histPreview(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||" in idx_html, "Accepted GPT Image preview priority missing"
+          assert "function histThumb(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||" in idx_html, "Accepted GPT Image thumbnail priority missing"
+          assert "const gpt=window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_QING_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id];" in idx_html and "saved.hidden=!(gpt&&window.JINTAI_AI_IMAGES?.[r.id])" in idx_html, "GPT Image download or saved JPEG fallback missing"
           for rel in ("history-batch.html", "history-batch-1001-2000.html"):
               assert "function gpt(r){return window.JINTAI_GPT_IMAGES?.[r.id];}" in history_pages[rel], f"Accepted GPT Image priority missing in {rel}"
               assert "function previewSrc(r){return gpt(r)?.preview||histImgSrc(r.thumbnail);}" in history_pages[rel], f"Batch preview missing in {rel}"
@@ -159,6 +159,11 @@ jobs:
           assert all(item["model"] == "GPT Image" and item["original_dir"] == "history_2000_gpt_image" for item in gpt_images.values()), "GPT Image source mismatch"
           expected_previews = {"history-ai/gpt-image-previews/" + item["preview"].rsplit("/", 1)[-1] for item in gpt_images.values()}
           assert expected_previews <= raw_paths_set, "GPT Image previews missing from repository"
+          qing_js = git_bytes("show", "HEAD:history-ai/qing-manifest.js").decode("utf-8")
+          assert qing_js.startswith("window.JINTAI_QING_IMAGES="), "Qing GPT Image manifest invalid"
+          qing_images = json.loads(qing_js.split("=", 1)[1].rstrip(";\n"))
+          assert len(qing_images) <= 4573, f"Qing GPT Image count invalid: {len(qing_images)}"
+          assert all(item["source"] == "Codex GPT Image original PNG" and item["original_dir"] == "history_qing_4573_codex_gpt_image_20261124" for item in qing_images.values()), "Qing GPT Image source mismatch"
           print(f"Saved JPEG gate passed: {len(originals)}; GPT Image gate passed: {len(gpt_images)}")
           selected = []
           for rel in raw_paths:
@@ -205,7 +210,7 @@ jobs:
                       continue
               elif top == "history-ai":
                   history_files = {
-                      "manifest.js", "source-notes.js", "gpt-image-manifest.js", "page19-originals-manifest.js", "regenerated-manifest.js",
+                      "manifest.js", "source-notes.js", "gpt-image-manifest.js", "qing-manifest.js", "page19-originals-manifest.js", "regenerated-manifest.js",
                       "gallery-data.js", "gallery-data-batch2.js",
                       "batch-manifest.json", "batch2-manifest.json",
                       "image-audit.json", "verification.json", "verification-batch2.json",
@@ -249,6 +254,68 @@ jobs:
               dst.parent.mkdir(parents=True, exist_ok=True)
               total_bytes += src.stat().st_size
               shutil.move(str(src), str(dst))
+
+          # Upgrade staged _site/index.html & _site/browser.html to 2-stage progressive wave loading
+          # (boot chunk first -> ~1s interactive first screen, then polite waves of 3) without touching repo layout_sha256.
+          idx_stage = site / "index.html"
+          if idx_stage.is_file():
+              ih = idx_stage.read_text(encoding="utf-8")
+              if "__JT_FIRST_SCREEN_READY__" not in ih:
+                  idx_re = re.compile(r"^async function loadAll\(\)\{\$\('loadmsg'\)\.textContent=[^\n]+\}$", re.M)
+                  new_idx_fn = (
+                      "async function loadAll(){$('loadmsg').textContent='正在载入全库索引（0/'+IDX_CHUNKS.length+'）…';"
+                      "let doneIdx=0;const loadIdx=async fn=>{await loadScriptChain(buildUrls('d1_idx/'+fn,'d1_idx/'+fn,'d1_idx/'+fn),10000);"
+                      "doneIdx++;$('loadmsg').textContent=`正在载入全库索引（${doneIdx}/${IDX_CHUNKS.length}）…`;};"
+                      "if(IDX_CHUNKS.length>0){const bootSet=new Set([IDX_CHUNKS[0]]);"
+                      "if(typeof f==='object'&&f&&f.sort==='newest'&&IDX_CHUNKS.length>1)bootSet.add(IDX_CHUNKS[IDX_CHUNKS.length-1]);"
+                      "await Promise.all([...bootSet].map(loadIdx));rebuildStoryDropdown();renderSubcats();apply();"
+                      "window.__JT_FIRST_SCREEN_READY__=true;await new Promise(r=>setTimeout(r,24));"
+                      "const rest=IDX_CHUNKS.filter(fn=>!bootSet.has(fn));"
+                      "for(let w=0;w<rest.length;w+=3){await Promise.all(rest.slice(w,w+3).map(loadIdx));"
+                      "if(typeof f==='object'&&f&&(f.era||f.kind||f.subdyn||f.subcat||f.spec||f.q))apply();"
+                      "await new Promise(r=>setTimeout(r,16));}"
+                      "if(rest.length>0){rebuildStoryDropdown();renderSubcats();apply();}}"
+                      "const extra=SHARDS.filter(s=>!loaded.has(s.file));"
+                      "if(extra.length>0){await Promise.all(extra.map(async s=>{await loadShard(s);loadmsg();}));"
+                      "rebuildStoryDropdown();renderSubcats();apply();}$('loadmsg').textContent='';}"
+                  )
+                  ih2, c_idx = idx_re.subn(lambda _: new_idx_fn, ih, count=1)
+                  assert c_idx == 1, f"Expected 1 loadAll() match in index.html, got {c_idx}"
+                  old_sz = idx_stage.stat().st_size
+                  idx_stage.write_text(ih2, encoding="utf-8", newline="\n")
+                  total_bytes += idx_stage.stat().st_size - old_sz
+
+          brw_stage = site / "browser.html"
+          if brw_stage.is_file():
+              bh = brw_stage.read_text(encoding="utf-8")
+              if "__JT_FIRST_SCREEN_READY__" not in bh:
+                  brw_re = re.compile(r"^async function loadAll\(\)\{[^\n]*IDX_CHUNKS[^\n]+\}$", re.M)
+                  new_brw_fn = (
+                      "async function loadAll(){const loadIdx=fn=>loadScriptChain(buildUrls('d2_idx/'+fn,'d2_idx/'+fn,'d2_idx/'+fn),10000);"
+                      "if(IDX_CHUNKS.length>0){await loadIdx(IDX_CHUNKS[0]);rebuildCats();apply();"
+                      "window.__JT_FIRST_SCREEN_READY__=true;await new Promise(r=>setTimeout(r,24));"
+                      "const rest=IDX_CHUNKS.slice(1);"
+                      "for(let w=0;w<rest.length;w+=3){await Promise.all(rest.slice(w,w+3).map(loadIdx));"
+                      "if(typeof state==='object'&&state&&(state.group||state.kind||state.cat||state.q))apply();"
+                      "await new Promise(r=>setTimeout(r,16));}"
+                      "if(rest.length>0){rebuildCats();apply();}}"
+                      "const extra=SHARDS.filter(s=>!loaded.has(s.file));"
+                      "if(extra.length>0){await Promise.all(extra.map(s=>loadShard(s)));rebuildCats();apply();}}"
+                  )
+                  bh2, c_brw = brw_re.subn(lambda _: new_brw_fn, bh, count=1)
+                  assert c_brw == 1, f"Expected 1 loadAll() match in browser.html, got {c_brw}"
+                  old_sz = brw_stage.stat().st_size
+                  brw_stage.write_text(bh2, encoding="utf-8", newline="\n")
+                  total_bytes += brw_stage.stat().st_size - old_sz
+
+          for rel in ("index.html", "browser.html"):
+              st_html = (site / rel).read_text(encoding="utf-8")
+              st_scripts = re.findall(r"<script(?:\s[^>]*)?>([\s\S]*?)</script>", st_html)
+              assert st_scripts, f"No inline scripts in staged {rel}"
+              for sc in st_scripts:
+                  if sc.strip():
+                      subprocess.run(["node", "--check", "-"], input=sc.encode("utf-8"), check=True)
+              print(f"Verified progressive loader JS syntax in staged {rel}")
 
           reused_gz = 0
           for name in d4_shards:
