@@ -75,6 +75,7 @@ dialog.zg-lightbox::backdrop{background:rgba(0,0,0,.85)}
 .zg-home-item img{width:100%;height:190px;object-fit:contain;background:#ebeae5;border-radius:6px}
 .zg-home-item button{padding:0;background:transparent;border:0;text-align:left;color:#1f5c48;font-size:13pt}
 .zg-home-item a{font-size:13pt;color:#1f5c48}
+.zg-home-all{margin-top:12px;background:#2e6b5e;border-color:#3f8f7e;color:#fff}
 </style>
 </head>
 <body>
@@ -100,7 +101,7 @@ dialog.zg-lightbox::backdrop{background:rgba(0,0,0,.85)}
 </header>
 <main>
   <section id="secBooks">
-    <div class="zg-home" id="zgHomeGallery"><div class="zg-home-title"><b>已生成原图</b><span id="zgHomeCount">正在读取原图目录…</span></div><div class="zg-home-grid" id="zgHomeGrid"></div></div>
+    <div class="zg-home" id="zgHomeGallery"><div class="zg-home-title"><b>已生成原图</b><span id="zgHomeCount">正在读取原图目录…</span></div><div class="zg-home-grid" id="zgHomeGrid"></div><button class="zg-home-all" id="zgHomeAll" type="button" onclick="zgShowAllImages()" style="display:none">查看全部已生成原图</button></div>
     <div class="bar">
       <input autofocus type="search" id="qBook" placeholder="支持多关键词空格搜索57部书名、作者、朝代、角色、法宝（如：观世音、西王母、赤松子、麻姑、红线女、聂小倩、吕洞宾）…">
       <select id="catBook">
@@ -136,6 +137,10 @@ dialog.zg-lightbox::backdrop{background:rgba(0,0,0,.85)}
         <option value="场景">场景 / 幻境洞天冥司（2400条）</option>
         <option value="道具">道具 / 法宝经像信物（1600条）</option>
         <option value="配套">配套 / 舟车仙辇阵法（800条）</option>
+      </select>
+      <select id="selImageState" aria-label="原图状态">
+        <option value="">全部生图状态</option>
+        <option value="generated">只看已生成原图</option>
       </select>
       <select id="sortPrompt">
         <option value="book">排序：按 57 部古籍与篇章次序（1→57部 · 推荐）</option>
@@ -311,6 +316,7 @@ function jumpBook(bno) {
 function resetPromptFilter() {
   $('qPrompt').value = '';
   $('selType').value = '';
+  $('selImageState').value = '';
   if ($('selBatch')) $('selBatch').value = '';
   if ($('sortPrompt')) $('sortPrompt').value = 'book';
   pickBook(0);
@@ -320,11 +326,13 @@ function applyPrompts() {
   const rawQ = $('qPrompt').value.trim().toLowerCase();
   const tokens = rawQ ? rawQ.split(/\s+/).filter(Boolean) : [];
   const tp = $('selType').value;
+  const imageState = $('selImageState').value;
   const bat = $('selBatch') ? $('selBatch').value : '';
   const sortMode = $('sortPrompt') ? $('sortPrompt').value : 'book';
   const list = ITEMS.filter(r => {
     if (curBookNo && r.book_no !== curBookNo) return false;
     if (tp && r.asset_type !== tp) return false;
+    if (imageState === 'generated' && !ZG_IMAGES[r.id]) return false;
     if (bat) {
       const bNum = Math.ceil(r.seq / 2000);
       if (String(bNum) !== bat) return false;
@@ -356,7 +364,9 @@ function applyPrompts() {
 function renderPrompts() {
   const total = filtered.length, pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
   if (page >= pages) page = pages - 1;
-  $('pCount').textContent = `当前筛选 ${total} 条提示词（总计 ${ITEMS.length} 条）`;
+  $('pCount').textContent = $('selImageState').value === 'generated'
+    ? `已生成原图 ${total} 张（总计 ${ITEMS.length} 条提示词）`
+    : `当前筛选 ${total} 条提示词（总计 ${ITEMS.length} 条）`;
   $('pInfo').textContent = `第 ${page+1} / ${pages} 页`;
   $('prevBtn').disabled = page <= 0;
   $('nextBtn').disabled = page >= pages - 1;
@@ -417,7 +427,7 @@ async function loadZgImages(){
       ZG_IMAGES[id]=info;
     }
     $('zgImageProgress').textContent='已接原图 '+Object.keys(ZG_IMAGES).length.toLocaleString()+' / 8,000 张';
-    if(ITEMS.length) renderPrompts();
+    if(ITEMS.length) applyPrompts();
     zgRenderHomeGallery();
   }catch(e){
     $('zgImageProgress').textContent='原图目录暂不可达，提示词仍可浏览';
@@ -428,6 +438,7 @@ function zgRenderHomeGallery(){
   const grid=$('zgHomeGrid');if(!grid)return;
   const ids=Object.keys(ZG_IMAGES).sort((a,b)=>Number(b.slice(-4))-Number(a.slice(-4)));
   $('zgHomeCount').textContent=ids.length.toLocaleString()+' / 8,000 张已接入 · 下方显示最新 '+Math.min(12,ids.length)+' 张';
+  const all=$('zgHomeAll');all.style.display=ids.length?'':'none';all.textContent='查看全部已生成原图（'+ids.length.toLocaleString()+' 张，分页浏览）';
   grid.replaceChildren();
   if(!ids.length){grid.textContent='正在生成，已验收的原图会自动出现在这里。';return;}
   for(const id of ids.slice(0,12)){
@@ -442,6 +453,14 @@ function zgRenderHomeGallery(){
     locate.onclick=()=>{if(!ITEMS.length)return;$('qPrompt').value=id;page=0;applyPrompts();setTab('prompts');$('secPrompts').scrollIntoView({behavior:'smooth'});};
     card.append(open,download,locate);grid.appendChild(card);
   }
+}
+
+function zgShowAllImages(){
+  if(!Object.keys(ZG_IMAGES).length)return;
+  $('qPrompt').value='';$('selBatch').value='';$('selType').value='';
+  $('selImageState').value='generated';$('sortPrompt').value='seq_desc';
+  setTab('prompts');pickBook(0);
+  $('secPrompts').scrollIntoView({behavior:'smooth'});
 }
 
 function zgRenderImageCard(card,record){
@@ -520,6 +539,7 @@ $('sortBook').onchange = renderBooks;
 $('qPrompt').oninput = () => { page = 0; applyPrompts(); };
 $('selBatch').onchange = () => { page = 0; applyPrompts(); };
 $('selType').onchange = () => { page = 0; applyPrompts(); };
+$('selImageState').onchange = () => { page = 0; applyPrompts(); };
 $('sortPrompt').onchange = () => { page = 0; applyPrompts(); };
 $('qExist').oninput = renderExisting;
 hydrateSpecialistPage();
