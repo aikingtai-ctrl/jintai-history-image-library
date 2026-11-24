@@ -1,0 +1,78 @@
+{
+  "reviewedOn": "2026-11-24",
+  "scope": "8 confirmed poor or mismatched displayed work images; originals preserved",
+  "decisions": [
+    {
+      "wid": "src-3a8cb6ca0d69c97a",
+      "title": "Nae cheongchun-ege goham",
+      "previous": "film-ai/src-3a8cb6ca0d69c97a.jpg",
+      "replacement": "film-ai/quality-reviewed/src-3a8cb6ca0d69c97a.jpg",
+      "reason": "unrelated portrait instead of film image",
+      "source": "https://smtps.koreanfilm.org/films2006.html",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-5d533a451a281628",
+      "title": "The Da Vinci Code",
+      "previous": "film-ai/src-5d533a451a281628.jpg",
+      "replacement": "film-ai/quality-reviewed/src-5d533a451a281628.jpg",
+      "reason": "portrait instead of film image",
+      "source": "https://www.sonypictures.com/movies/thedavincicode",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-9222f891bc69604a",
+      "title": "La maison jaune",
+      "previous": "film-ai/src-9222f891bc69604a.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9222f891bc69604a.jpg",
+      "reason": "festival microphone portrait instead of film image",
+      "source": "https://iffr.com/en/iffr/2008/films/la-maison-jaune",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-9dde7fcc0b3e3b82",
+      "title": "The Day",
+      "previous": "film-ai/src-9dde7fcc0b3e3b82.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9dde7fcc0b3e3b82.jpg",
+      "reason": "certificate for a different film; The Day is Peter Finch’s Ibiza short also called Antonito",
+      "source": "https://consellinsulardeformentera.cat/index.php?Itemid=647&id=83&lang=en&layout=blog&limitstart=485&option=com_content&view=category",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-9e9cfe00ca2dfbcc",
+      "title": "Chasing Amy",
+      "previous": "film-ai/src-9e9cfe00ca2dfbcc.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9e9cfe00ca2dfbcc.jpg",
+      "reason": "director portrait instead of film image",
+      "source": "https://www.criterion.com/films/615-chasing-amy",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-ace5bea6ef274ae4",
+      "title": "The Laramie Project",
+      "previous": "film-ai/src-ace5bea6ef274ae4.jpg",
+      "replacement": "film-ai/quality-reviewed/src-ace5bea6ef274ae4.jpg",
+      "reason": "red carpet portrait instead of film image",
+      "source": "https://www.hbo.com/movies/a-z",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-bdb2d9b09ab96be6",
+      "title": "Toys",
+      "previous": "film-ai/src-bdb2d9b09ab96be6.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bdb2d9b09ab96be6.jpg",
+      "reason": "publicity portrait instead of film image",
+      "source": "https://catalog.afi.com/Film/59416-TOYS",
+      "provenance": "new AI concept image; not an original film frame"
+    },
+    {
+      "wid": "src-bf7a726520341318",
+      "title": "El Viaje de Carol",
+      "previous": "film-ai/src-bf7a726520341318.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bf7a726520341318.jpg",
+      "reason": "unrelated adult portrait instead of film image",
+      "source": "https://sede.mcu.gob.es/CatalogoICAA/es-es/Peliculas/Detalle?Pelicula=105701",
+      "provenance": "new AI concept image; not an original film frame"
+    }
+  ]
+}
