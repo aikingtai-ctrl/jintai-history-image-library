@@ -138,9 +138,9 @@ jobs:
               assert "gpt-image-manifest.js" in html, f"GPT Image manifest missing in {rel}"
               assert "original-pngs/" in html and "download=1" in html, f"GPT Image original download missing in {rel}"
               assert "regenerated-manifest.js" not in html and "JINTAI_REGENERATED_IMAGES" not in html, f"Old Qwen redrawn image mapping returned in {rel}"
-          assert "history-ai/manifest.js" in idx_html and "function histPreview(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||" in idx_html, "Accepted GPT Image preview priority missing"
-          assert "function histThumb(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||" in idx_html, "Accepted GPT Image thumbnail priority missing"
-          assert "const gpt=window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_QING_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id];" in idx_html and "saved.hidden=!(gpt&&window.JINTAI_AI_IMAGES?.[r.id])" in idx_html, "GPT Image download or saved JPEG fallback missing"
+          assert "history-ai/manifest.js" in idx_html and "function histPreview(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||" in idx_html, "Accepted GPT Image preview priority missing"
+          assert "function histThumb(id){return window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||" in idx_html, "Accepted GPT Image thumbnail priority missing"
+          assert "const gpt=window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id];" in idx_html and "saved.hidden=!(gpt&&window.JINTAI_AI_IMAGES?.[r.id])" in idx_html, "GPT Image download or saved JPEG fallback missing"
           for rel in ("history-batch.html", "history-batch-1001-2000.html"):
               assert "function gpt(r){return window.JINTAI_GPT_IMAGES?.[r.id];}" in history_pages[rel], f"Accepted GPT Image priority missing in {rel}"
               assert "function previewSrc(r){return gpt(r)?.preview||histImgSrc(r.thumbnail);}" in history_pages[rel], f"Batch preview missing in {rel}"
@@ -159,11 +159,6 @@ jobs:
           assert all(item["model"] == "GPT Image" and item["original_dir"] == "history_2000_gpt_image" for item in gpt_images.values()), "GPT Image source mismatch"
           expected_previews = {"history-ai/gpt-image-previews/" + item["preview"].rsplit("/", 1)[-1] for item in gpt_images.values()}
           assert expected_previews <= raw_paths_set, "GPT Image previews missing from repository"
-          qing_js = git_bytes("show", "HEAD:history-ai/qing-manifest.js").decode("utf-8")
-          assert qing_js.startswith("window.JINTAI_QING_IMAGES="), "Qing GPT Image manifest invalid"
-          qing_images = json.loads(qing_js.split("=", 1)[1].rstrip(";\n"))
-          assert len(qing_images) <= 4573, f"Qing GPT Image count invalid: {len(qing_images)}"
-          assert all(item["source"] == "Codex GPT Image original PNG" and item["original_dir"] == "history_qing_4573_codex_gpt_image_20261124" for item in qing_images.values()), "Qing GPT Image source mismatch"
           print(f"Saved JPEG gate passed: {len(originals)}; GPT Image gate passed: {len(gpt_images)}")
           selected = []
           for rel in raw_paths:
@@ -210,7 +205,7 @@ jobs:
                       continue
               elif top == "history-ai":
                   history_files = {
-                      "manifest.js", "source-notes.js", "gpt-image-manifest.js", "qing-manifest.js", "page19-originals-manifest.js", "regenerated-manifest.js",
+                      "manifest.js", "source-notes.js", "gpt-image-manifest.js", "page19-originals-manifest.js", "regenerated-manifest.js",
                       "gallery-data.js", "gallery-data-batch2.js",
                       "batch-manifest.json", "batch2-manifest.json",
                       "image-audit.json", "verification.json", "verification-batch2.json",
