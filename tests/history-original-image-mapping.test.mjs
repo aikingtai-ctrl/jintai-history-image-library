@@ -14,6 +14,11 @@ const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
 assert.equal(Object.keys(gpt).length, 415);
+for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
+  const html = fs.readFileSync(path.join(root, page), 'utf8');
+  assert.ok(html.includes(`gpt-image-${Object.keys(gpt).length}`),
+    `${page}: GPT manifest cache marker must match the published manifest`);
+}
 const taosiPanorama = gpt['AR-20261020-0025'];
 assert.ok(originals['AR-20261020-0025'] && taosiPanorama,
   'saved Taosi JPEG and accepted GPT Image panorama both remain mapped');
