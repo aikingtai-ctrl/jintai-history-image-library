@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 451);
+assert.equal(Object.keys(gpt).length, 459);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
   assert.ok(html.includes(`gpt-image-${Object.keys(gpt).length}`),
@@ -142,6 +142,14 @@ for (const [id, width, height] of [
   ['HL-XIA-AR-0016', 2172, 724],
   ['HL-XIA-AR-0017', 1774, 887],
   ['HL-XIA-AR-0018', 1774, 887],
+  ['AR-20261020-0508', 1752, 897],
+  ['AR-20261020-0509', 1774, 887],
+  ['AR-20261020-0510', 1774, 887],
+  ['AR-20261020-0511', 1774, 887],
+  ['AR-20261020-0512', 1921, 819],
+  ['AR-20261020-0513', 1774, 887],
+  ['AR-20261020-0514', 1774, 887],
+  ['AR-20261020-0515', 1774, 887],
 ]) {
   assert.ok(originals[id] && gpt[id], `saved Erlitou JPEG and accepted redraw: ${id}`);
   assert.equal(gpt[id].method, 'reference_edit');
@@ -179,6 +187,11 @@ for (const id of ['AR-20261021-0067', 'AR-20261021-0069']) {
 assert.match(gpt['AR-20261021-0068'].source_deviation_note, /门额与旗帜图案.*未逐字逐形复现/);
 assert.equal(gpt['HL-XIA-AR-0016'].width / gpt['HL-XIA-AR-0016'].height, 3);
 assert.match(gpt['HL-XIA-AR-0018'].source_deviation_note, /成排圆形夯土基址.*完整的圆形茅顶屋群/);
+assert.equal(gpt['AR-20261020-0509'].sha256,
+  'af69fa3d68e349795b711d8bb1f45f53a4955fdc5fe453be3bde095385db0286');
+assert.match(gpt['AR-20261020-0509'].source_deviation_note, /亮色下落碎屑.*清除了不合理的发光喷射/);
+assert.match(gpt['AR-20261020-0510'].source_deviation_note, /标题称“内景”.*殿外正视/);
+assert.ok(Math.abs(gpt['AR-20261020-0512'].width / gpt['AR-20261020-0512'].height - 720 / 307) < 0.01);
 assert.ok(!gpt['AR-20261021-0054'], 'three failed #454 generations must not be published');
 assert.ok(!gpt['AR-20261021-0070'], 'three failed #470 generations must not be published');
 assert.ok(!gpt['AR-20261020-0779'], 'unaccepted #425 remains outside the manifest');
