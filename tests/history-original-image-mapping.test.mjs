@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 360);
+assert.equal(Object.keys(gpt).length, 366);
 const qing = manifest.JINTAI_QING_IMAGES;
 assert.ok(Object.keys(qing).length >= 1 && Object.keys(qing).length <= 4573);
 for (const id of ['HF-20261015-0093', 'HF-20261015-0094', 'HF-20261015-0095']) {
@@ -285,6 +285,18 @@ for (let index = 332; index <= 360; index++) {
 for (const index of [331, 359]) {
   assert.ok(!Object.values(gpt).some(image => image.index === index),
     `unaccepted or missing image ${index} must not appear in the public map`);
+}
+for (const [index, id] of [
+  [361, 'HL-XIA-LS-0039'], [362, 'HL-XIA-LS-0040'],
+  [364, 'HL-XIA-SC-0018'], [378, 'HL-XIA-SC-0098'],
+  [1149, 'HL-SHANG-SC-0110'], [1696, 'HF-20261023-0036'],
+]) {
+  const image = gpt[id];
+  assert.equal(image?.index, index, `native image index: ${id}`);
+  assert.ok(originals[id], `current saved JPEG exists for ${id}`);
+  assert.equal(image.method, 'reference_edit', `must use saved JPEG as reference: ${id}`);
+  assert.ok(image.width * image.height >= 1_500_000 && image.height >= 850,
+    `native PNG dimensions: ${id}`);
 }
 for (const id of ['HL-XIA-LS-0018', 'HL-XIA-LS-0022', 'HL-XIA-LS-0024', 'HL-XIA-LS-0029']) {
   assert.deepEqual([gpt[id].width, gpt[id].height], [1774, 887],
