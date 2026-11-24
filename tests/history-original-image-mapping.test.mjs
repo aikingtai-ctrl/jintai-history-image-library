@@ -13,7 +13,15 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 373);
+assert.equal(Object.keys(gpt).length, 374);
+const taosiPanorama = gpt['AR-20261020-0025'];
+assert.ok(originals['AR-20261020-0025'] && taosiPanorama,
+  'saved Taosi JPEG and accepted GPT Image panorama both remain mapped');
+assert.equal(taosiPanorama.method, 'reference_edit');
+assert.deepEqual([taosiPanorama.width, taosiPanorama.height], [1921, 819]);
+assert.ok(taosiPanorama.width * taosiPanorama.height >= 1_500_000);
+assert.ok(Math.min(taosiPanorama.width, taosiPanorama.height) >= 800);
+assert.ok(Math.abs(taosiPanorama.width / taosiPanorama.height - 720 / 307) < 0.06);
 const qing = manifest.JINTAI_QING_IMAGES;
 assert.ok(Object.keys(qing).length >= 1 && Object.keys(qing).length <= 4573);
 for (const id of ['HF-20261015-0093', 'HF-20261015-0094', 'HF-20261015-0095']) {
