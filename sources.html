@@ -123,7 +123,7 @@ dialog::backdrop{background:#000c}
    <a class="back-link" href="portal.html">总入口</a>
    <span class="sep">·</span>
    <strong>影视提示词与来源目录</strong>
-   <span class="kpi" id="topKpi"><b>68,000</b> 部 · <b>3,689,785</b> 镜</span>
+   <span class="kpi" id="topKpi"><b>68,000</b> 部 · <b>3,689,835</b> 镜</span>
   </div>
   <nav class="topnav">
    <a href="index.html">历史图库</a>
@@ -184,7 +184,7 @@ dialog::backdrop{background:#000c}
  <div class="grid" id="grid"></div>
  <div class="pager"><button id="first" type="button">首页</button><button id="prev" type="button">上一页</button><span class="page-nums" id="page-nums"></span><span id="page"></span><button id="next" type="button">下一页</button><button id="last" type="button">末页</button><label class="page-jump">页码 <select id="page-select" aria-label="选择页码"></select></label><span class="page-jump">跳至 <input id="page-input" type="number" min="1" value="1" aria-label="输入页码"> 页 <button id="page-go" type="button">跳转</button></span></div>
  <details class="meta-fold">
-  <summary>库况统计与数据说明（68,000部作品 · 3,689,785条镜头描述）</summary>
+  <summary>库况统计与数据说明（68,000部作品 · 3,689,835条镜头描述）</summary>
   <div class="stats" id="stats"></div>
   <p id="prompt-coverage"></p>
   <p id="workGoal"></p>
@@ -199,7 +199,7 @@ dialog::backdrop{background:#000c}
 </main>
 <dialog id="detail"><div class="dialog-head"><h2 id="dtitle"></h2><button id="close" type="button">关闭</button></div><p class="muted" id="dinfo"></p><p id="dsource"></p><p class="notice muted">点击“查看来源画面”到源站查看对应静帧。</p><div class="grid" id="frames"></div><div class="pager"><button id="fprev" type="button">上一页</button><span class="page-nums" id="fpage-nums"></span><span id="fpage"></span><button id="fnext" type="button">下一页</button><label class="page-jump">页码 <select id="fpage-select" aria-label="选择来源画面页码"></select></label></div></dialog>
 <dialog id="pdetail" aria-labelledby="ptitle"><div class="dialog-head"><h2 id="ptitle"></h2><button id="pclose" type="button">关闭</button></div><p class="muted" id="pinfo"></p><p id="pcopy-status" class="prompt-status muted" role="status" aria-live="polite"></p><div class="prompt-list" id="prompts"></div><div class="pager"><button id="pprev" type="button">上一页</button><span class="page-nums" id="ppage-nums"></span><span id="ppage"></span><button id="pnext" type="button">下一页</button><label class="page-jump">页码 <select id="ppage-select" aria-label="选择提示词页码"></select></label></div></dialog>
-<script src="d4/summary.js?v=50475a5c346a"></script><script src="d4/catalogue.js?v=2e3083c62158"></script>
+<script src="d4/summary.js?v=0d900e58fd3c"></script><script src="d4/catalogue.js?v=0d900e58fd3c"></script>
 <script>
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>{try{const p=new URL(u);return ['http:','https:'].includes(p.protocol)?p.href:'';}catch{return '';}};
@@ -224,10 +224,11 @@ function loadD4Script(relName,checkFn,errMsg){return new Promise((resolve,reject
  };
  const fetchFallback=async()=>{
   if(location.protocol==='file:'){reject(new Error(errMsg));return;}
-  if(await loadCompressed(PACKED_D4_CDN+clean+'.gz'+suffix,18000))return;
-  if(await loadPlain(FALLBACK_D4_CDN,25000))return;
-  if(await loadCompressed('d4/'+clean+'.gz'+suffix,25000))return;
+  if(isCatShard&&await loadCompressed('d4/'+clean+'.gz'+suffix,18000))return;
+  if(isCatShard&&await loadCompressed(RAW_D4_BASE+clean+'.gz'+suffix,22000))return;
   if(await loadPlain(RAW_D4_BASE,25000))return;
+  if(isCatShard&&await loadCompressed(PACKED_D4_CDN+clean+'.gz'+suffix,15000))return;
+  if(await loadPlain(FALLBACK_D4_CDN,18000))return;
   reject(new Error(errMsg));
  };
  if(IS_GH_SRC&&!isSiteJs){fetchFallback();return;}
@@ -403,10 +404,10 @@ function initSourcesUI(preserveState){
  if($('cineGuild'))options('cineGuild',WORKS.flatMap(cineSystems),'全部摄影权威体系（140大）');options('festival',WORKS.flatMap(w=>awards(w).map(a=>a.festival)),'全部电影节／大奖');awardOptions();options('classic',WORKS.flatMap(w=>classics(w).map(c=>c.list)),'全部经典榜单');options('genre',WORKS.flatMap(genres),'全部叙事类型');options('region',WORKS.flatMap(regions),'全部地区');options('decade',WORKS.map(decade),'全部年代',v=>v==='待补'?'上映年待补':v+' 年代');if(preserveState!==true){$('sort').value='prompts';if(new URLSearchParams(window.location?.search||'').get('prompts')==='1')$('coverage').value='prompts';}browse();filter(preserveState===true);if(preserveState!==true&&new URLSearchParams(window.location?.search||'').get('cinematography')==='all')$('cinematography-all').onclick();
 }
 async function ensureCatalogueLoaded(onFirstShard){
- if(!S)S=await loadD4Script('summary.js?v=50475a5c346a',()=>{if(!window.FILM_SOURCE_SUMMARY)throw new Error('bad');return window.FILM_SOURCE_SUMMARY;},'summary');
+ if(!S)S=await loadD4Script('summary.js?v=0d900e58fd3c',()=>{if(!window.FILM_SOURCE_SUMMARY)throw new Error('bad');return window.FILM_SOURCE_SUMMARY;},'summary');
  if(Array.isArray(window.FILM_SOURCE_WORKS)&&window.FILM_SOURCE_WORKS.length&&(!window.FILM_CATALOGUE_MANIFEST||window.FILM_SOURCE_WORKS.length>=window.FILM_CATALOGUE_MANIFEST.total_works)){WORKS=window.FILM_SOURCE_WORKS;return false;}
  if(!window.FILM_CATALOGUE_MANIFEST){
-  await loadD4Script('catalogue.js?v=24c18155aa1c',()=>{if(!window.FILM_CATALOGUE_MANIFEST&&!(Array.isArray(window.FILM_SOURCE_WORKS)&&window.FILM_SOURCE_WORKS.length))throw new Error('bad');return true;},'catalogue');
+  await loadD4Script('catalogue.js?v=0d900e58fd3c',()=>{if(!window.FILM_CATALOGUE_MANIFEST&&!(Array.isArray(window.FILM_SOURCE_WORKS)&&window.FILM_SOURCE_WORKS.length))throw new Error('bad');return true;},'catalogue');
   if(Array.isArray(window.FILM_SOURCE_WORKS)&&window.FILM_SOURCE_WORKS.length&&!window.FILM_CATALOGUE_MANIFEST){WORKS=window.FILM_SOURCE_WORKS;return false;}
  }
  const mf=window.FILM_CATALOGUE_MANIFEST;if(!mf||!Array.isArray(mf.shards)||!mf.shards.length)throw new Error('manifest');
@@ -416,10 +417,12 @@ async function ensureCatalogueLoaded(onFirstShard){
  await loadD4Script(mf.shards[0]+ver,()=>{if(!Array.isArray(window.__FILM_CAT_CHUNKS__[0]))throw new Error('shard-0');doneCnt=1;return true;},'shard-0');
  if(mf.shards.length>1&&typeof onFirstShard==='function'){
   WORKS=window.__FILM_CAT_CHUNKS__[0].slice();window.FILM_SOURCE_WORKS=WORKS;didFirst=true;onFirstShard();
+  await new Promise(r=>setTimeout(r,24));
  }
- for(let w=1;w<mf.shards.length;w+=9){
-  const slice=mf.shards.slice(w,w+9);
+ for(let w=1;w<mf.shards.length;w+=6){
+  const slice=mf.shards.slice(w,w+6);
   await Promise.all(slice.map((sh,off)=>{const idx=w+off;return loadD4Script(sh+ver,()=>{if(!Array.isArray(window.__FILM_CAT_CHUNKS__[idx]))throw new Error('shard');doneCnt++;return true;},'shard-'+idx);}));
+  await new Promise(r=>setTimeout(r,12));
  }
  const merged=[];for(let i=0;i<mf.shards.length;i++){const ch=window.__FILM_CAT_CHUNKS__[i];if(Array.isArray(ch))for(let j=0;j<ch.length;j++)merged.push(ch[j]);}
  window.FILM_SOURCE_WORKS=merged;WORKS=merged;window.__FILM_CAT_CHUNKS__=[];window.__JT_SOURCES_FULL__=true;return didFirst;
