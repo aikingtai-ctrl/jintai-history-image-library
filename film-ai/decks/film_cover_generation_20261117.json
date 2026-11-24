@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-24T14:13:30.619182+00:00",
+  "snapshot_time_utc": "2026-11-24T14:23:14.155261+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -21836,6 +21836,20 @@
       "file": "film-ai/decks/film-src-62959de4546dce51.webp",
       "sha256": "a5607b041b280d2b5a4e6bc9074bca919634fd9c9cbfae5e926c239330e9261e",
       "bytes": 193586,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-514071651549125c",
+      "wid": "src-514071651549125c",
+      "title": "A Bay of Blood",
+      "file": "film-ai/decks/film-src-514071651549125c.webp",
+      "sha256": "e4d1bca5a080b48a7669f3532f6c28d600fe270ec509d90d800aab130614ac72",
+      "bytes": 356592,
       "size": [
         1672,
         941
