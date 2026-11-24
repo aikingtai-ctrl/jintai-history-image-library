@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-24T04:11:35.188554+00:00",
+  "snapshot_time_utc": "2026-11-24T04:23:28.012063+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -21150,6 +21150,20 @@
       "file": "film-ai/decks/film-src-740d0c7e5c500e8b.webp",
       "sha256": "8f0cf869636fcfc3637679608b94155664fd7c30331b5d51459d3332e10301aa",
       "bytes": 290338,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-be9b3855f8789ad7",
+      "wid": "src-be9b3855f8789ad7",
+      "title": "The Plea",
+      "file": "film-ai/decks/film-src-be9b3855f8789ad7.webp",
+      "sha256": "3b6212bbf1a001fe9e0277ac9eb839695079cad7a67582eeab5244cb3ffb6c81",
+      "bytes": 328686,
       "size": [
         1672,
         941
