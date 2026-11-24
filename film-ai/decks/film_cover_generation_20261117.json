@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-24T21:30:27.592907+00:00",
+  "snapshot_time_utc": "2026-11-24T21:39:38.977639+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -22550,6 +22550,20 @@
       "file": "film-ai/decks/film-src-91dfdbf882ad4c67.webp",
       "sha256": "8a4f592267e03b554f602e24b91c239e32a36c6a95b34137a606fdea4bd3c4b1",
       "bytes": 248336,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:pastoral-to-die-in-the-country-1974",
+      "wid": "pastoral-to-die-in-the-country-1974",
+      "title": "Pastoral To Die In The Country",
+      "file": "film-ai/decks/film-pastoral-to-die-in-the-country-1974.webp",
+      "sha256": "dc440f6c3ab200acf6a11a94eeb68ab7ea2e366db324461f69c845d5e3bbbca3",
+      "bytes": 380528,
       "size": [
         1672,
         941
