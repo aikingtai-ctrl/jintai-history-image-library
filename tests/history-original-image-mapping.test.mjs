@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 397);
+assert.equal(Object.keys(gpt).length, 405);
 const taosiPanorama = gpt['AR-20261020-0025'];
 assert.ok(originals['AR-20261020-0025'] && taosiPanorama,
   'saved Taosi JPEG and accepted GPT Image panorama both remain mapped');
@@ -82,6 +82,25 @@ for (const id of ['AR-20261020-0726', 'AR-20261020-0727']) {
   assert.ok(gpt[id].source_deviation_note, `saved JPEG/prompt difference disclosed: ${id}`);
 }
 assert.ok(!gpt['AR-20261020-0725'], 'unaccepted #416 remains outside the manifest');
+for (const [id, width, height] of [
+  ['AR-20261020-0730', 1672, 941],
+  ['AR-20261020-0731', 1774, 887],
+  ['AR-20261020-0732', 1672, 941],
+  ['AR-20261020-0778', 1774, 887],
+  ['AR-20261020-0780', 1672, 941],
+  ['AR-20261020-0781', 1774, 887],
+  ['AR-20261020-0782', 2172, 724],
+  ['AR-20261020-0783', 1774, 887],
+]) {
+  assert.ok(originals[id] && gpt[id], `saved Erlitou JPEG and accepted redraw: ${id}`);
+  assert.equal(gpt[id].method, 'reference_edit');
+  assert.deepEqual([gpt[id].width, gpt[id].height], [width, height]);
+}
+const ultraWide = gpt['AR-20261020-0782'];
+assert.equal(ultraWide.width / ultraWide.height, 3);
+assert.ok(ultraWide.width * ultraWide.height >= 1_500_000);
+assert.ok(ultraWide.height >= 700);
+assert.ok(!gpt['AR-20261020-0779'], 'unaccepted #425 remains outside the manifest');
 const qing = manifest.JINTAI_QING_IMAGES;
 assert.ok(Object.keys(qing).length >= 1 && Object.keys(qing).length <= 4573);
 for (const id of ['HF-20261015-0093', 'HF-20261015-0094', 'HF-20261015-0095']) {
