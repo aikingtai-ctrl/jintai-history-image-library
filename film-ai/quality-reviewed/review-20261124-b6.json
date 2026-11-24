@@ -1,0 +1,58 @@
+{
+  "reviewedOn": "2026-11-24",
+  "reviewedRange": [
+    360,
+    719
+  ],
+  "decisions": [
+    {
+      "wid": "anomalisa-2015",
+      "previous": "film-ai/decks/film-anomalisa-2015.webp",
+      "replacement": "film-ai/quality-reviewed/anomalisa-2015.png",
+      "reason": "Photorealistic corridor does not show the stop-motion puppet form",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "battle-royale-2000",
+      "previous": "film-ai/decks/film-battle-royale-2000.webp",
+      "replacement": "film-ai/quality-reviewed/battle-royale-2000.png",
+      "reason": "Empty shoreline obscures the student survival premise",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "beyonce-single-ladies-2008",
+      "previous": "film-ai/decks/film-beyonce-single-ladies-2008.webp",
+      "replacement": "film-ai/quality-reviewed/beyonce-single-ladies-2008.png",
+      "reason": "Empty studio omits the dance trio; matching original PNG already exists locally",
+      "provenance": "Previously generated original PNG matching existing gallery JPEG"
+    },
+    {
+      "wid": "bjork-all-is-full-of-love-1999",
+      "previous": "film-ai/decks/film-bjork-all-is-full-of-love-1999.webp",
+      "replacement": "film-ai/bjork-all-is-full-of-love-1999.jpg",
+      "reason": "Generic glass dome omits the two robotic figures",
+      "provenance": "Existing gallery representative JPEG; provenance not independently verified"
+    },
+    {
+      "wid": "blackpink-how-you-like-that-2020",
+      "previous": "film-ai/decks/film-blackpink-how-you-like-that-2020.webp",
+      "replacement": "film-ai/blackpink-how-you-like-that-2020.jpg",
+      "reason": "Empty stage omits the four performers",
+      "provenance": "Existing gallery representative JPEG; provenance not independently verified"
+    },
+    {
+      "wid": "coraline-2009",
+      "previous": "film-ai/decks/film-coraline-2009.webp",
+      "replacement": "film-ai/coraline-2009.jpg",
+      "reason": "Photorealistic room omits the stop-motion characters",
+      "provenance": "Existing gallery representative JPEG; provenance not independently verified"
+    },
+    {
+      "wid": "depeche-mode-enjoy-the-silence-1990",
+      "previous": "film-ai/decks/film-depeche-mode-enjoy-the-silence-1990.webp",
+      "replacement": "film-ai/depeche-mode-enjoy-the-silence-1990.jpg",
+      "reason": "Empty window omits the crowned figure and mountain setting",
+      "provenance": "Existing gallery representative JPEG; provenance not independently verified"
+    }
+  ]
+}
