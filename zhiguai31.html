@@ -224,6 +224,7 @@ async function hydrateSpecialistPage(){
     if(typeof zgRenderHomeGallery==='function')zgRenderHomeGallery();
   }
   window.__JT_SPEC_ALL_READY__=true;
+  zgOpenOriginalsFromUrl();
 }
 /*__SPEC_ALL_SHARD_END__*/
 const JIMENG = 'https://chatgpt.com/';
@@ -404,6 +405,13 @@ function renderPrompts() {
 
 const ZG_IMAGES = {};
 let zgGalleryOrigin = '';
+let zgOpenedOriginalsFromUrl = false;
+function zgOpenOriginalsFromUrl(){
+  if(zgOpenedOriginalsFromUrl || new URLSearchParams(location.search).get('view')!=='originals' ||
+     !window.__JT_SPEC_ALL_READY__ || !Object.keys(ZG_IMAGES).length) return;
+  zgOpenedOriginalsFromUrl=true;
+  zgShowAllImages();
+}
 async function zgGalleryBase(){
   if(location.hostname.endsWith('.trycloudflare.com') || (location.port==='18890' && ['127.0.0.1','localhost','172.16.0.32'].includes(location.hostname))) return location.origin;
   const response=await fetch('https://aikingtai-ctrl.github.io/jintai-domestic-portal/tunnel.json?t='+Date.now(),{cache:'no-store'});
@@ -431,6 +439,7 @@ async function loadZgImages(){
     $('zgImageProgress').textContent='已接原图 '+Object.keys(ZG_IMAGES).length.toLocaleString()+' / 8,000 张';
     if(ITEMS.length) applyPrompts();
     zgRenderHomeGallery();
+    zgOpenOriginalsFromUrl();
   }catch(e){
     $('zgImageProgress').textContent='原图目录暂不可达，提示词仍可浏览';
   }
