@@ -128,7 +128,10 @@ assert.equal(ultraWideCeremony.width / ultraWideCeremony.height, 3);
 assert.ok(ultraWideCeremony.width * ultraWideCeremony.height >= 1_500_000);
 assert.ok(ultraWideCeremony.height >= 700);
 assert.match(gpt['AR-20261020-0796'].source_deviation_note, /台基遗迹.*完整圆形瓦顶建筑/);
-assert.match(gpt['AR-20261020-0797'].source_deviation_note, /旧 JPG 上层屋面基本铺瓦.*左半屋面露出/);
+assert.equal(gpt['AR-20261020-0797'].sha256,
+  '176316f54f636a8ac1a4f7cf2bd9830aa5bbc4517356894acb5a40a63fcf93d0');
+assert.ok(!gpt['AR-20261020-0797'].source_deviation_note,
+  'the accepted first redraw follows the saved JPEG roof without a material visual deviation');
 assert.ok(!gpt['AR-20261020-0779'], 'unaccepted #425 remains outside the manifest');
 const qing = manifest.JINTAI_QING_IMAGES;
 assert.ok(Object.keys(qing).length >= 1 && Object.keys(qing).length <= 4573);
