@@ -75,7 +75,7 @@ dialog.zg-lightbox::backdrop{background:rgba(0,0,0,.85)}
 .zg-home-item img{width:100%;height:190px;object-fit:contain;background:#ebeae5;border-radius:6px}
 .zg-home-item button{padding:0;background:transparent;border:0;text-align:left;color:#1f5c48;font-size:13pt}
 .zg-home-item a{font-size:13pt;color:#1f5c48}
-.zg-home-all{margin-top:12px;background:#2e6b5e;border-color:#3f8f7e;color:#fff}
+.zg-home-all{margin-left:auto;background:#2e6b5e;border-color:#3f8f7e;color:#fff}
 </style>
 </head>
 <body>
@@ -101,7 +101,7 @@ dialog.zg-lightbox::backdrop{background:rgba(0,0,0,.85)}
 </header>
 <main>
   <section id="secBooks">
-    <div class="zg-home" id="zgHomeGallery"><div class="zg-home-title"><b>已生成原图</b><span id="zgHomeCount">正在读取原图目录…</span></div><div class="zg-home-grid" id="zgHomeGrid"></div><button class="zg-home-all" id="zgHomeAll" type="button" onclick="zgShowAllImages()" style="display:none">查看全部已生成原图</button></div>
+    <div class="zg-home" id="zgHomeGallery"><div class="zg-home-title"><b>已生成原图</b><span id="zgHomeCount">正在读取原图目录…</span><button class="zg-home-all" id="zgHomeAll" type="button" onclick="zgShowAllImages()" style="display:none">查看全部已生成原图</button></div><div class="zg-home-grid" id="zgHomeGrid"></div></div>
     <div class="bar">
       <input autofocus type="search" id="qBook" placeholder="支持多关键词空格搜索57部书名、作者、朝代、角色、法宝（如：观世音、西王母、赤松子、麻姑、红线女、聂小倩、吕洞宾）…">
       <select id="catBook">
@@ -445,7 +445,7 @@ function zgRenderHomeGallery(){
     const info=ZG_IMAGES[id],record=ITEMS.find(r=>r.id===id)||{id,title:id};
     const card=document.createElement('div');card.className='zg-home-item';
     const open=document.createElement('button');open.type='button';open.title='打开无损原图';
-    const img=document.createElement('img');img.loading='eager';img.decoding='sync';img.src=info.preview_url;img.alt=id+' 原图预览';
+    const img=document.createElement('img');img.loading='lazy';zgSetPreview(img,info);img.alt=id+' 原图预览';
     const label=document.createElement('strong');label.textContent=id;
     open.append(img,label);open.onclick=()=>zgOpenOriginal(record,info);
     const download=document.createElement('a');download.href=info.original_url+'?download=1';download.target='_blank';download.rel='noopener';download.textContent='下载无损原图 · '+info.width+'×'+info.height;
@@ -453,6 +453,17 @@ function zgRenderHomeGallery(){
     locate.onclick=()=>{if(!ITEMS.length)return;$('qPrompt').value=id;page=0;applyPrompts();setTab('prompts');$('secPrompts').scrollIntoView({behavior:'smooth'});};
     card.append(open,download,locate);grid.appendChild(card);
   }
+}
+
+function zgSetPreview(img,info){
+  let attempt=0;
+  img.onerror=()=>{
+    attempt++;
+    if(attempt===1){setTimeout(()=>{img.src=info.preview_url+'?retry='+Date.now();},800);return;}
+    if(attempt===2){img.src=info.original_url;return;}
+    img.onerror=null;
+  };
+  img.src=info.preview_url;
 }
 
 function zgShowAllImages(){
@@ -468,7 +479,7 @@ function zgRenderImageCard(card,record){
   if(!info) return;
   const wrap=document.createElement('div');wrap.className='zg-image-card';
   const button=document.createElement('button');button.type='button';button.title='查看 '+record.id+' 无损原图';
-  const img=document.createElement('img');img.loading='lazy';img.src=info.preview_url;img.alt=record.title+' 生成图预览';
+  const img=document.createElement('img');img.loading='lazy';zgSetPreview(img,info);img.alt=record.title+' 生成图预览';
   button.appendChild(img);button.onclick=()=>zgOpenOriginal(record,info);
   const link=document.createElement('a');link.href=info.original_url+'?download=1';link.target='_blank';link.rel='noopener';link.textContent='查看或下载无损原图 · '+info.width+'×'+info.height;
   wrap.append(button,link);
