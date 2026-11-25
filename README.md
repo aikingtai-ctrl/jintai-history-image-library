@@ -40,3 +40,5 @@
 
 | `图库总入口.html` (`portal.html`) | **全站科学导航总入口** | 极简搜索直达 ＋ 核心入口与专题分馆卡片 | 一页直达全部主库、专集、更新记录与历史批次 |
 
+
+- [砼核巨构 Concretecore Megastructure（1,000 Midjourney 美学提示词）](concretecore.html)

@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<script>(function(){var H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3';var k='jt_gate';function getSaved(){try{if(location.hostname==='127.0.0.1'||location.hostname==='localhost'||location.protocol==='file:')return true;}catch(e){}try{if(localStorage.getItem(k)===H)return true;}catch(e){}try{if(sessionStorage.getItem(k)===H)return true;}catch(e){}return false;}function saveOk(){try{localStorage.setItem(k,H);}catch(e){}try{sessionStorage.setItem(k,H);}catch(e){}}if(getSaved()){document.documentElement.setAttribute('data-jt-ok','1');return;}var st=document.createElement('style');st.id='jt_gate_css';st.textContent='html:not([data-jt-ok="1"]) body{display:none!important}';document.documentElement.appendChild(st);document.documentElement.style.visibility='hidden';function shaPure(ascii){function rr(v,a){return(v>>>a)|(v<<(32-a));}var bytes=[],i,j;if(typeof TextEncoder!=='undefined'){bytes=Array.from(new TextEncoder().encode(ascii));}else{for(i=0;i<ascii.length;i++){var c=ascii.charCodeAt(i);if(c<128)bytes.push(c);else if(c<2048)bytes.push(192|(c>>6),128|(c&63));else bytes.push(224|(c>>12),128|((c>>6)&63),128|(c&63));}}var bitLen=bytes.length*8;bytes.push(0x80);while((bytes.length%64)!==56)bytes.push(0);var hi=Math.floor(bitLen/4294967296),lo=bitLen>>>0;bytes.push((hi>>>24)&255,(hi>>>16)&255,(hi>>>8)&255,hi&255,(lo>>>24)&255,(lo>>>16)&255,(lo>>>8)&255,lo&255);var K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];var H0=[0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];for(i=0;i<bytes.length;i+=64){var W=new Array(64);for(j=0;j<16;j++)W[j]=((bytes[i+j*4]<<24)|(bytes[i+j*4+1]<<16)|(bytes[i+j*4+2]<<8)|bytes[i+j*4+3])>>>0;for(j=16;j<64;j++){var s0=rr(W[j-15],7)^rr(W[j-15],18)^(W[j-15]>>>3);var s1=rr(W[j-2],17)^rr(W[j-2],19)^(W[j-2]>>>10);W[j]=(W[j-16]+s0+W[j-7]+s1)>>>0;}var a=H0[0],b=H0[1],c=H0[2],d=H0[3],e=H0[4],f=H0[5],g=H0[6],h=H0[7];for(j=0;j<64;j++){var S1=rr(e,6)^rr(e,11)^rr(e,25),ch=(e&f)^((~e)&g),t1=(h+S1+ch+K[j]+W[j])>>>0;var S0=rr(a,2)^rr(a,13)^rr(a,22),maj=(a&b)^(a&c)^(b&c),t2=(S0+maj)>>>0;h=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=b;b=a;a=(t1+t2)>>>0;}H0[0]=(H0[0]+a)>>>0;H0[1]=(H0[1]+b)>>>0;H0[2]=(H0[2]+c)>>>0;H0[3]=(H0[3]+d)>>>0;H0[4]=(H0[4]+e)>>>0;H0[5]=(H0[5]+f)>>>0;H0[6]=(H0[6]+g)>>>0;H0[7]=(H0[7]+h)>>>0;}return H0.map(function(x){return('00000000'+x.toString(16)).slice(-8);}).join('');}async function sha(s){try{if(window.crypto&&crypto.subtle&&typeof TextEncoder!=='undefined'){var b=new TextEncoder().encode(s);var d=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(d)).map(function(x){return x.toString(16).padStart(2,'0');}).join('');}}catch(e){}return shaPure(s);}function lockDom(){window.__CC_SHARD__=window.applyFilters=function(){};if(!document.body){var b=document.createElement('body');document.documentElement.appendChild(b);}document.body.innerHTML='<div class="jt-lock"><div class="jt-lock-title">金泰 AI 砼核巨构美学专集</div><div class="jt-lock-sub">请输入内部访问口令进入专集（跨站已验证免重复输入）</div><div class="jt-lock-form"><input id="jt_pw_box" class="search-input" type="password" placeholder="请输入访问口令"><button id="jt_pw_btn" class="btn primary" type="button">验证进入</button></div><div id="jt_pw_err" class="jt-lock-err"></div></div>';document.documentElement.setAttribute('data-jt-ok','1');document.documentElement.style.visibility='visible';var inp=document.getElementById('jt_pw_box'),btn=document.getElementById('jt_pw_btn'),err=document.getElementById('jt_pw_err');async function tryIn(){var v=(inp.value||'').trim();if(!v){err.textContent='请输入访问口令';return;}var h=await sha(v);if(h===H){saveOk();location.reload();}else{err.textContent='口令不正确';inp.value='';inp.focus();}}if(btn)btn.onclick=tryIn;if(inp){inp.onkeydown=function(e){if(e.key==='Enter')tryIn();};}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',lockDom,{once:true});}else{lockDom();}})();</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="砼核巨构建筑美学与 Midjourney v6.1 一千条中英双语提示词专集，涵盖十大建筑原型、五大核类美学谱系与六种电影画幅。">
+<title>砼核巨构 Concretecore Megastructure 1,000 提示词专集</title>
+<style>/* Hallmark · brutalist-concretecore | floor | sloplint-clean */
+:root {
+  --bg: #eeede8;
+  --surface: #faf9f5;
+  --surface-muted: #f3f2ed;
+  --ink: #171a1c;
+  --muted: #52595d;
+  --line: #c6c4bc;
+  --accent: #283c43;
+  --accent-ink: #f4f5f2;
+  --tag-bg: #e5e8e9;
+  --tag-ink: #1d2c31;
+  --code-bg: #f1f2ef;
+  --err: #8a1c1c;
+  --font-sans: "Microsoft YaHei", "PingFang SC", "Noto Sans SC", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 1.6;
+}
+a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+button, input, select { font-family: var(--font-sans); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1360px; margin: 0 auto; padding: 20px 24px 48px; }
+.topbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+.nav-links { display: flex; flex-wrap: wrap; gap: 16px; font-size: 16px; }
+.hero {
+  padding: 24px 0 20px;
+  border-bottom: 2px solid var(--ink);
+}
+.hero h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+  line-height: 1.25;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+  min-width: 0;
+}
+.hero-lead { margin: 0 0 16px; color: var(--muted); font-size: 18px; max-width: 980px; }
+.search-bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.search-input {
+  flex: 1;
+  min-width: 240px;
+  padding: 12px 16px;
+  font-size: 18px;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+.btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1.5px solid var(--accent);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+}
+.btn.primary { background: var(--accent); color: var(--accent-ink); }
+.btn:active, .chip:active { transform: translateY(1px); }
+.btn:disabled, .chip:disabled { opacity: 0.45; cursor: not-allowed; }
+.controls { padding: 16px 0; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 12px; }
+.filter-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.filter-label { font-size: 15px; font-weight: 700; color: var(--muted); min-width: 84px; }
+.chip {
+  padding: 8px 12px;
+  font-size: 15px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+}
+.chip.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 700; }
+.manifesto {
+  margin: 16px 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px 16px;
+}
+.manifesto summary { cursor: pointer; font-weight: 700; font-size: 17px; color: var(--ink); }
+.manifesto-body { margin-top: 12px; color: var(--muted); font-size: 16px; }
+.status-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 0;
+  font-size: 16px;
+  color: var(--muted);
+}
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.item {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.item-head { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.badge {
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: var(--tag-bg);
+  color: var(--tag-ink);
+  font-weight: 700;
+}
+.item h2 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.35;
+  text-wrap: balance;
+  color: var(--ink);
+  overflow-wrap: break-word;
+  min-width: 0;
+}
+.sub-en { font-family: var(--font-mono); font-size: 14px; color: var(--muted); margin: 0; }
+.spec-line { font-size: 15px; color: var(--muted); margin: 0; padding-top: 8px; border-top: 1px solid var(--line); }
+.prompt-box {
+  margin: 0;
+  padding: 12px 16px;
+  background: var(--code-bg);
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 14.5px;
+  line-height: 1.55;
+  color: var(--ink);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.prompt-cn {
+  margin: 0;
+  padding: 12px 16px;
+  background: var(--surface-muted);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--ink);
+}
+.card-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 4px; }
+.pager { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; padding: 24px 0 8px; }
+.jt-lock {
+  max-width: 640px;
+  margin: 48px auto;
+  padding: 36px 24px;
+  background: var(--surface);
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  text-align: center;
+}
+.jt-lock-title { font-size: 24px; font-weight: 700; color: var(--ink); margin-bottom: 8px; }
+.jt-lock-sub { font-size: 16px; color: var(--muted); margin-bottom: 20px; }
+.jt-lock-form { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.jt-lock-err { font-size: 15px; color: var(--err); min-height: 24px; margin-top: 12px; }
+@media (max-width: 900px) {
+  .grid { grid-template-columns: minmax(0, 1fr); }
+  .hero h1 { font-size: 26px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="topbar">
+    <strong>中国历史文化图库</strong>
+    <nav class="nav-links" aria-label="站点导航">
+      <a href="portal.html">专题门户首页</a>
+      <a href="index.html">全库总检索</a>
+      <a href="arch5680.html">历代建筑考证</a>
+      <a href="更新记录.html">全站更新记录</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>砼核巨构 Concretecore Megastructure 美学专集（1,000 提示词）</h1>
+    <p class="hero-lead">人工造石的沉默尺度：剥离日常居住窗口与商业符号，将战后粗野主义、阈限空间、大地切割与天地崇高感统一纳入 Midjourney v6.1 与中文详版双重出图体系。</p>
+    <div class="search-bar">
+      <label for="qInput" class="filter-label">关键词检索</label>
+      <input id="qInput" class="search-input" type="search" placeholder="检索结构词、地形、光影、编码（例如：CC-02、arch dam、沉环、雷暴、board-formed）">
+      <button id="randBtn" class="btn primary" type="button">随机灵感抽签</button>
+      <button id="exportBtn" class="btn" type="button">导出当前列表文本</button>
+    </div>
+  </section>
+
+  <section class="controls" aria-label="多维筛选控制台">
+    <div class="filter-row" id="archRow">
+      <span class="filter-label">建筑原型</span>
+      <button type="button" class="chip on" data-arch="">全部十大原型 (1000)</button>
+      <button type="button" class="chip" data-arch="CC-01">CC-01 穹水弧坝与镜面栈桥</button><button type="button" class="chip" data-arch="CC-02">CC-02 圣殿阶梯与天光门洞</button><button type="button" class="chip" data-arch="CC-03">CC-03 绿野嵌体与倾斜方碑</button><button type="button" class="chip" data-arch="CC-04">CC-04 大地沉环与几何天井</button><button type="button" class="chip" data-arch="CC-05">CC-05 深邃阈限与抽离回廊</button><button type="button" class="chip" data-arch="CC-06">CC-06 雷暴崇高与天穹巨墙</button><button type="button" class="chip" data-arch="CC-07">CC-07 粗野遗梦与战后灰城</button><button type="button" class="chip" data-arch="CC-08">CC-08 新陈代谢与垂直巨构</button><button type="button" class="chip" data-arch="CC-09">CC-09 工业基石与滞停骨架</button><button type="button" class="chip" data-arch="CC-10">CC-10 文明残骸与自然回吞</button>
+    </div>
+    <div class="filter-row" id="dimRow">
+      <span class="filter-label">美学维度</span>
+      <button type="button" class="chip on" data-dim="">全部维度</button>
+      <button type="button" class="chip" data-dim="崇高压迫">崇高压迫</button><button type="button" class="chip" data-dim="阈限孤寂">阈限孤寂</button><button type="button" class="chip" data-dim="粗野遗产">粗野遗产</button><button type="button" class="chip" data-dim="大地嵌体">大地嵌体</button><button type="button" class="chip" data-dim="末世自然">末世自然</button>
+    </div>
+    <div class="filter-row" id="arRow">
+      <span class="filter-label">电影画幅</span>
+      <button type="button" class="chip on" data-ar="">全部画幅</button>
+      <button type="button" class="chip" data-ar="16:9">16:9</button><button type="button" class="chip" data-ar="21:9">21:9</button><button type="button" class="chip" data-ar="4:5">4:5</button><button type="button" class="chip" data-ar="2:3">2:3</button><button type="button" class="chip" data-ar="9:16">9:16</button><button type="button" class="chip" data-ar="1:1">1:1</button>
+    </div>
+    <div class="filter-row" id="modeRow">
+      <span class="filter-label">显示语言</span>
+      <button type="button" class="chip on" data-mode="both">双语对照</button>
+      <button type="button" class="chip" data-mode="mj">仅看 Midjourney 英文</button>
+      <button type="button" class="chip" data-mode="cn">仅看中文详版</button>
+    </div>
+  </section>
+
+  <details class="manifesto">
+    <summary>展开《砼核与巨构美学》核心理论谱系与 Midjourney 构图法则</summary>
+    <div class="manifesto-body">
+      <p>1. <strong>核类美学与砼核定义</strong>：怪核、梦核、池核、阈限空间皆通过日常意象异化制造疏离；砼核则放弃低分辨率滤镜，凭借裸露模板印迹、拉杆锥孔与压倒性石质体量冷酷压迫视线。</p>
+      <p>2. <strong>巨构与崇高感（Sublime）</strong>：把整座城市的体量压入单一建筑外壳后，再刻意剥去商铺与普通住宅窗格，仅以极微小黑色剪影对比四百米混凝土立面，唤醒人类面对庞大未知力量时的敬畏与孤寂。</p>
+      <p>3. <strong>粗野主义血脉</strong>：上承战后欧洲素混凝土人文理想与岁月风化发黑后的末世沉郁，融合单点中心透视、垂直冷白光柱与绿野浅水大地切割。</p>
+    </div>
+  </details>
+
+  <div class="status-bar">
+    <span id="statusTxt">正在载入 1,000 条砼核巨构提示词</span>
+    <span id="pageInfo">第 1 页</span>
+  </div>
+
+  <main id="listGrid" class="grid"></main>
+  <nav id="pagerBar" class="pager" aria-label="分页导航"></nav>
+  <noscript><p>请启用浏览器脚本以交互式检索 1,000 条砼核巨构提示词，或访问<a href="每日更新/每日成果/20261125/砼核巨构_Midjourney美学1000提示词/index.html">静态大字交付总览</a>。</p></noscript>
+</div>
+
+<script src="concretecore_data/manifest.js"></script>
+<script>
+const ITEMS = [];
+window.__CC_SHARDS__ = window.__CC_SHARDS__ || {};
+window.__CC_SHARD__ = function(code, rows) {
+  if (Array.isArray(rows)) window.__CC_SHARDS__[code] = rows;
+};
+let state = { q: '', arch: '', dim: '', ar: '', mode: 'both', page: 1, pageSize: 24 };
+let filtered = [];
+
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function copyText(txt, btn, okLabel) {
+  navigator.clipboard.writeText(txt).then(() => {
+    const old = btn.textContent;
+    btn.textContent = okLabel;
+    setTimeout(() => { btn.textContent = old; }, 1500);
+  });
+}
+
+function applyFilters(resetPage) {
+  if (resetPage !== false) state.page = 1;
+  const kw = state.q.trim().toLowerCase();
+  filtered = ITEMS.filter(x => {
+    if (state.arch && x.ac !== state.arch) return false;
+    if (state.dim && x.d !== state.dim) return false;
+    if (state.ar && x.ar !== state.ar) return false;
+    if (kw) {
+      if (!x._q) x._q = (x.i + ' ' + x.tc + ' ' + x.te + ' ' + x.an + ' ' + x.d + ' ' + x.mj + ' ' + x.cn).toLowerCase();
+      if (!x._q.includes(kw)) return false;
+    }
+    return true;
+  });
+  render();
+}
+
+function render() {
+  const total = filtered.length;
+  const pages = Math.max(1, Math.ceil(total / state.pageSize));
+  if (state.page > pages) state.page = pages;
+  const start = (state.page - 1) * state.pageSize;
+  const slice = filtered.slice(start, start + state.pageSize);
+  document.getElementById('statusTxt').textContent = `当前匹配 ${total} 条砼核巨构提示词（已加载 ${ITEMS.length} 条）`;
+  document.getElementById('pageInfo').textContent = `第 ${state.page} / ${pages} 页`;
+
+  const grid = document.getElementById('listGrid');
+  grid.innerHTML = slice.map(x => {
+    const mjBlock = (state.mode === 'both' || state.mode === 'mj') ? `<pre class="prompt-box">${esc(x.mj)}</pre>` : '';
+    const cnBlock = (state.mode === 'both' || state.mode === 'cn') ? `<p class="prompt-cn">${esc(x.cn)}</p>` : '';
+    return `<article class="item" data-id="${esc(x.i)}">
+      <div class="item-head">
+        <span class="badge">${esc(x.i)}</span>
+        <span class="badge">${esc(x.an)}</span>
+        <span class="badge">${esc(x.d)}</span>
+        <span class="badge">${esc(x.ar)}</span>
+      </div>
+      <h2>${esc(x.tc)}</h2>
+      <p class="sub-en">${esc(x.te)}</p>
+      <p class="spec-line">光影：${esc(x.lc)} ｜ 尺度：${esc(x.kc)}</p>
+      ${mjBlock}
+      ${cnBlock}
+      <div class="card-actions">
+        <button type="button" class="btn primary copy-mj" data-id="${esc(x.i)}">复制 Midjourney 英文</button>
+        <button type="button" class="btn copy-cn" data-id="${esc(x.i)}">复制中文详版</button>
+      </div>
+    </article>`;
+  }).join('');
+
+  grid.querySelectorAll('.copy-mj').forEach(btn => {
+    btn.onclick = () => {
+      const rec = ITEMS.find(r => r.i === btn.dataset.id);
+      if (rec) copyText(rec.mj, btn, '已复制英文');
+    };
+  });
+  grid.querySelectorAll('.copy-cn').forEach(btn => {
+    btn.onclick = () => {
+      const rec = ITEMS.find(r => r.i === btn.dataset.id);
+      if (rec) copyText(rec.cn, btn, '已复制中文');
+    };
+  });
+
+  const pb = document.getElementById('pagerBar');
+  const btns = [];
+  if (state.page > 1) btns.push(`<button type="button" class="chip" data-pg="${state.page - 1}">上一页</button>`);
+  const lo = Math.max(1, state.page - 3), hi = Math.min(pages, state.page + 3);
+  for (let p = lo; p <= hi; p++) {
+    btns.push(`<button type="button" class="chip ${p === state.page ? 'on' : ''}" data-pg="${p}">${p}</button>`);
+  }
+  if (state.page < pages) btns.push(`<button type="button" class="chip" data-pg="${state.page + 1}">下一页</button>`);
+  pb.innerHTML = btns.join('');
+  pb.querySelectorAll('button').forEach(b => {
+    b.onclick = () => { state.page = Number(b.dataset.pg); render(); window.scrollTo({ top: 0, behavior: 'auto' }); };
+  });
+}
+
+function bindGroup(rowId, key, attr) {
+  document.getElementById(rowId).addEventListener('click', e => {
+    const b = e.target.closest('button');
+    if (!b) return;
+    document.querySelectorAll(`#${rowId} button`).forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+    state[key] = b.dataset[attr] || '';
+    applyFilters(true);
+  });
+}
+bindGroup('archRow', 'arch', 'arch');
+bindGroup('dimRow', 'dim', 'dim');
+bindGroup('arRow', 'ar', 'ar');
+bindGroup('modeRow', 'mode', 'mode');
+
+document.getElementById('qInput').addEventListener('input', e => {
+  state.q = e.target.value;
+  applyFilters(true);
+});
+document.getElementById('randBtn').onclick = () => {
+  if (!filtered.length) return;
+  const pick = filtered[Math.floor(Math.random() * filtered.length)];
+  document.getElementById('qInput').value = pick.i;
+  state.q = pick.i;
+  applyFilters(true);
+};
+document.getElementById('exportBtn').onclick = () => {
+  const lines = filtered.map(x => `[${x.i}] ${x.tc}\n${x.mj}\n${x.cn}\n`).join('\n');
+  const blob = new Blob([lines], { type: 'text/plain;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `concretecore_${filtered.length}.txt`;
+  a.click();
+};
+
+function loadShard(file) {
+  return new Promise(resolve => {
+    const s = document.createElement('script');
+    s.src = 'concretecore_data/' + file;
+    s.onload = () => resolve(true);
+    s.onerror = () => resolve(false);
+    document.head.appendChild(s);
+  });
+}
+
+(async function hydrate() {
+  const mf = window.CC_MANIFEST;
+  if (!mf || !Array.isArray(mf.shards)) return;
+  for (const sh of mf.shards) {
+    await loadShard(sh.file);
+    const rows = window.__CC_SHARDS__[sh.code] || [];
+    for (const r of rows) ITEMS.push(r);
+    if (ITEMS.length === 100 || ITEMS.length === mf.total) applyFilters(false);
+  }
+})();
+</script>
+</body>
+</html>
