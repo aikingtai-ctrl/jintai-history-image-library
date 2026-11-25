@@ -118061,6 +118061,28 @@
       "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/ff8a38bd8a7e87d1689ce3f81c4d930c69d6dcb1/film-ai/src-f8fa67f765362067.jpg",
       "scene": null,
       "prompt": null
+    },
+    "src-53515d6433d77717": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h3/31d426fe8d7a17e108878252ecb67eb099d3ba950fb3d6e2c7e85f604ce0e700.png",
+      "filename": "31d426fe8d7a17e108878252ecb67eb099d3ba950fb3d6e2c7e85f604ce0e700.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2414216,
+      "sha256": "31d426fe8d7a17e108878252ecb67eb099d3ba950fb3d6e2c7e85f604ce0e700",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2d3a094f0f255d62274068c41ae106e247acc61b/film-ai/src-39d4bf59814a03dd.jpg",
+      "scene": "Vertical black-and-white medium shot of Grace Kelly in The Country Girl, wearing glasses, a plain cardigan sweater, and a plaid skirt while standing quietly in a doorway, realistic dramatic lighting.",
+      "prompt": "Create exactly one original cinematic reference image. 1950s American dramatic black-and-white vertical medium shot. An anonymous adult woman wearing black-framed glasses,a plain cardigan and a plaid skirt stands quietly beside a doorway. Her hands are clasped,her expression exhausted and restrained. Realistic dramatic silver-gelatin lighting.\nVertical portrait frame2:3. Preserve the specified era,cultural setting,subject count,clothing,framing and medium. All human faces are original anonymous fictional performers without resemblance to real actors or directors. No watermark,logos,captions or added text except the explicitly requested title. Preserve an explicitly requested split composition."
+    },
+    "src-811a0c5e1c98fc38": {
+      "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h3/310c252df83a31a881f0ee554a263652d9cf2322157857a5cdc996094e97eec4.png",
+      "filename": "310c252df83a31a881f0ee554a263652d9cf2322157857a5cdc996094e97eec4.png",
+      "width": 1086,
+      "height": 1448,
+      "bytes": 1940723,
+      "sha256": "310c252df83a31a881f0ee554a263652d9cf2322157857a5cdc996094e97eec4",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2d3a094f0f255d62274068c41ae106e247acc61b/film-ai/src-2a2b527ef5791abf.jpg",
+      "scene": "Vertical medium close-up in warm theatrical lighting showing Annette Bening in a black dress with a white collar smiling radiantly.",
+      "prompt": "Create exactly one original AI cinematic reference image for the library entry \"Being Julia\" (2004). Follow the original first-shot prompt and scene description below. Preserve the location and cultural setting, depicted historical era, subject count, age range, clothing, pose, lighting, visual medium, and composition. Use original fictional performers with the same described roles instead of reproducing an actor's exact likeness. Use the aspect ratio and portrait or square framing explicitly specified by the source; if none is specified, use a horizontal 16:9 frame. Do not add watermarks, logos, captions, collages, or lettering unless explicitly required by the source first shot.\n\nOriginal first-shot prompt:\nVertical medium close-up in warm theatrical lighting showing Annette Bening in a black dress with a white collar smiling radiantly.\n\nSource scene description:\n穿白领黑裙的三十年代舞台剧女名伶在温暖剧场灯光下展露自信笑颜"
     }
   }
 }
