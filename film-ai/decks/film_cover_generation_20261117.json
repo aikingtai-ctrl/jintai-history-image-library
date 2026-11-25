@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-25T10:53:44.787838+00:00",
+  "snapshot_time_utc": "2026-11-25T11:14:34.018768+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -24174,6 +24174,76 @@
       "file": "film-ai/decks/film-src-beb6d6f5ff5668d7.webp",
       "sha256": "a8bf891fbe1a63300c619f1c2c27baebd2dc08d74c8ef3d85de481d2bdaa82ac",
       "bytes": 185080,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-a0827877d81a988a",
+      "wid": "src-a0827877d81a988a",
+      "title": "Vivement Dimanche",
+      "file": "film-ai/decks/film-src-a0827877d81a988a.webp",
+      "sha256": "ffa9b256e8955efea7a613b7e8e76ae1f5b652ea23e079d3a2a0b5ed13eb453d",
+      "bytes": 160006,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-a3cf1e5c73e10996",
+      "wid": "src-a3cf1e5c73e10996",
+      "title": "Crime & Punishment",
+      "file": "film-ai/decks/film-src-a3cf1e5c73e10996.webp",
+      "sha256": "d511a6c6b3cadf381565ba15bd904c52f9e6cc8b67c83e6139d40f410aa956b4",
+      "bytes": 235912,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-dd3884fe7ff0b43d",
+      "wid": "src-dd3884fe7ff0b43d",
+      "title": "Conan The Destroyer",
+      "file": "film-ai/decks/film-src-dd3884fe7ff0b43d.webp",
+      "sha256": "63d789aabe5cdb1d8c204dfda11d98ae81f74d222e6e88ed4258acae28e121e7",
+      "bytes": 283388,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-5c4d1396a0d472de",
+      "wid": "src-5c4d1396a0d472de",
+      "title": "The NeverEnding Story",
+      "file": "film-ai/decks/film-src-5c4d1396a0d472de.webp",
+      "sha256": "1d25bb1948d403a0155d3658f4fee861ead0f8e0c09322e1e702f5a002079a3c",
+      "bytes": 185198,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-0df7391e08f4fbcf",
+      "wid": "src-0df7391e08f4fbcf",
+      "title": "The Karate Kid",
+      "file": "film-ai/decks/film-src-0df7391e08f4fbcf.webp",
+      "sha256": "6aa87ea3cdd51dd4a263502e7046258703c9f3a53814a55754f5578c852178f1",
+      "bytes": 227586,
       "size": [
         1672,
         941
