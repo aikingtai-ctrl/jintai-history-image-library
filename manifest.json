@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "1074-010369c0ac00",
+  "revision": "1090-7eb6592d7bb4",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -8595,6 +8595,134 @@
       "width": 1312,
       "height": 1199,
       "sha256": "010369c0ac008aa445bc27d6ccec7924c67c11c3729dd5eaeb863e67cd7c085b"
+    },
+    "HL-BSONG-FA-0106": {
+      "title": "北宋·木匠·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-FA-0106.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-FA-0106.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "8485fa8c223a2c25e8e15c63dc658bfe931306709aebc9717eeb0e29f66ffc55"
+    },
+    "HL-BSONG-FA-0107": {
+      "title": "北宋·木匠·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-FA-0107.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-FA-0107.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "a07bc47d64c8b0ab2bd5599b99f8b8f805146c9ba36301cb1bac4487d521a400"
+    },
+    "HL-NSONG-FA-0068": {
+      "title": "南宋·制陶工匠·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0068.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0068.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "0c20958921c764b7078b3aec4128bc585f2bf2802545da6799b5fe98ef97eb31"
+    },
+    "HL-NSONG-FA-0069": {
+      "title": "南宋·制陶工匠·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0069.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0069.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "7d2bd0f00a53f22e12fcbe87c6a0a9522d9e7743d48d10282ecfca28da0abbf7"
+    },
+    "HL-NSONG-FA-0070": {
+      "title": "南宋·刻印工匠·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0070.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0070.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "3ee1d4aae26f258871b138b003b9d6b9cd42f16fda01396c4e58fe2495f78402"
+    },
+    "HL-NSONG-FA-0071": {
+      "title": "南宋·刻印工匠·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0071.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0071.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "70bbbcf3ad31107a1639d83cfdb102a4c3eb2d18fdb5f8737d28809604015cfa"
+    },
+    "HL-BSONG-FA-0108": {
+      "title": "北宋·坐商店主·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-FA-0108.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-FA-0108.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "50d43ec4632c94a602ba21760a8ee696dcafa7103fbef74c05f970dd83f699f7"
+    },
+    "HL-BSONG-FA-0109": {
+      "title": "北宋·坐商店主·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-FA-0109.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-FA-0109.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "0a24664fe3b8a047756d8177b61fc75c84ac83ae4f3624e615445cd27dfe17e4"
+    },
+    "HL-NSONG-FA-0072": {
+      "title": "南宋·货栈经营者·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0072.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0072.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "c3157a2211820b56b9c07b11567f0291600a118f27ddbe0f404a33e9f0f4506e"
+    },
+    "HL-NSONG-FA-0073": {
+      "title": "南宋·货栈经营者·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0073.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0073.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "3343a46a907144f81725aec3c7d6c47486c8e154096e527ccb9289ddb6822072"
+    },
+    "HL-BSONG-FA-0110": {
+      "title": "北宋·赶车人·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-FA-0110.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-FA-0110.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "809dad4a6836dfb2738cabba3d3120f79b2e5c76167d6e68d7ff725d2f869e96"
+    },
+    "HL-BSONG-FA-0111": {
+      "title": "北宋·赶车人·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-FA-0111.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-FA-0111.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "3740bc692b76c63e930eb6b2904125cef4ad1134e34617f389b35c729fc10817"
+    },
+    "HL-NSONG-FA-0074": {
+      "title": "南宋·船夫·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0074.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0074.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "9c7aed7937932275aefbff13e9d0b7d6320cbcfe96ec71936c84c1997390dec8"
+    },
+    "HL-NSONG-FA-0075": {
+      "title": "南宋·船夫·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-FA-0075.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-FA-0075.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "64246721dbf965de8e2e5ad3a1b6f3f3650019c43820cc31958a39a23fa4dace"
+    },
+    "HL-BSONG-FA-0112": {
+      "title": "北宋·茶肆经营者·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-FA-0112.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-FA-0112.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "831492ea5ad45e7de84f901f2a6a14e187e4227b845899e157f35f7a13273ad5"
+    },
+    "HL-BSONG-FA-0113": {
+      "title": "北宋·茶肆经营者·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-FA-0113.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-FA-0113.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "7eb6592d7bb413cbb5c40612d58f579941e575023bdaaf20d095835d82111968"
     }
   }
 }
