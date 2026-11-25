@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-25T11:44:28.876709+00:00",
+  "snapshot_time_utc": "2026-11-25T12:12:23.003483+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -24314,6 +24314,76 @@
       "file": "film-ai/decks/film-src-cb707a2261ebb9bf.webp",
       "sha256": "9ff48520b5f8754187e289d95309d27bca841dac39fb73d7873f4e0a12dcb819",
       "bytes": 183128,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-92e43de1932512c8",
+      "wid": "src-92e43de1932512c8",
+      "title": "Night of the Comet",
+      "file": "film-ai/decks/film-src-92e43de1932512c8.webp",
+      "sha256": "bd9ce1927897c28e6691a4a03dc44c0df4ebc8f7ddc57c33bcba2dad5d1c3979",
+      "bytes": 247394,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-c5c441b016547700",
+      "wid": "src-c5c441b016547700",
+      "title": "Decoder",
+      "file": "film-ai/decks/film-src-c5c441b016547700.webp",
+      "sha256": "74dfd7b43a161234ddd8c81145152a28ca6900e75824ba65a06ae8ec48f01db3",
+      "bytes": 275642,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-81e234cc44ba6173",
+      "wid": "src-81e234cc44ba6173",
+      "title": "Friday the 13th: The Final Chapter",
+      "file": "film-ai/decks/film-src-81e234cc44ba6173.webp",
+      "sha256": "9441106b682aa09b35291db7374704ad720c361c9017bf3f7f5fd1545818dcde",
+      "bytes": 157382,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-cf0084f6604677b9",
+      "wid": "src-cf0084f6604677b9",
+      "title": "The Return of Godzilla",
+      "file": "film-ai/decks/film-src-cf0084f6604677b9.webp",
+      "sha256": "c0bf08484a738932580357599a56116955703abcc7527e29f90be2f5f680d630",
+      "bytes": 193268,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-bd33991d8531834f",
+      "wid": "src-bd33991d8531834f",
+      "title": "Streetwise",
+      "file": "film-ai/decks/film-src-bd33991d8531834f.webp",
+      "sha256": "91f88e3b90abdbef7afc0538f4baebf1ccfa3989fcb276f2ca2eada362578e25",
+      "bytes": 234686,
       "size": [
         1672,
         941
