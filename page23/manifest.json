@@ -1,0 +1,51 @@
+{
+  "page": 23,
+  "pageSize": 120,
+  "catalogTotal": 87179,
+  "model": "GPT Image",
+  "images": {
+    "HT-W20261029B-G132": {
+      "title": "【20261029薄弱环节深潜考证】春秋·山西侯马晋国新田都城铸铜遗址十万陶范库与合范浇注工场（晋公霸业军工中心）（配套类）（山西博物院·10景）",
+      "original": "images/HT-W20261029B-G132.png",
+      "preview": "previews/HT-W20261029B-G132.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b12f3ee08b680ffb26e5c9166c571caed6daf123d5641753b657b3ca00d36b3b",
+      "source_prompt": "Create one photorealistic historical film concept still, landscape 16:9, for the Chinese Spring and Autumn period at the Jin state bronze casting site at Houma, Shanxi. Center the historical craft: two artisans carefully join carved reddish earthenware piece-molds around a large bronze ritual vessel while another worker tends a small charcoal furnace in an open air clay workshop. Many distinct ceramic mold pieces lie in organized shallow trays, with clearly carved curving patterns, but do not imply a literal warehouse of one hundred thousand objects. Period plausible rammed earth and timber architecture, plain woven hemp work clothes, no modern equipment, warm clear morning daylight, nuanced realistic materials. No captions, no letters, no seals, no museum setting, no photomontage, no fantasy. This is an artistic reconstruction, not an excavation photo or exact copy of any museum artifact.",
+      "source": "https://www.beijing.gov.cn/fwcj/calendar/bwgzl/6a0d7712daec8455186ecd6f0d1.html",
+      "evidence_level": "B",
+      "method": "text_generation",
+      "source_deviation_note": "侯马铸铜遗址出土春秋陶范有官方展品资料；画面是工场脱范场景的艺术复原，不是遗址实拍。条目所称“十万陶范库”及具体工场布局未获核实，器形和铸造步骤不按单件出土文物精确复现。",
+      "nas_period": "春秋"
+    },
+    "HT-W20261029B-G134": {
+      "title": "【20261029薄弱环节深潜考证】战国·曾侯乙墓出土全套青铜建鼓座、编钟架横梁铜套与悬钟钩件工程（先秦声学与机械工程）（配套类）（湖北省博物馆·10景）",
+      "original": "images/HT-W20261029B-G134.png",
+      "preview": "previews/HT-W20261029B-G134.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "58999856d4a48d8a1c10a4c54476510a3334a8ad0ba912acbc1c4946bdf7ab29",
+      "source_prompt": "Create one photorealistic historical film concept still, landscape 16:9, of a Warring States period Zeng state ceremonial music hall inspired by the Zeng Hou Yi tomb finds. A large L-shaped, three-tier bronze-and-painted-wood bell frame is the central subject; tiered bronze bells of varied sizes hang from its timber beams and bronze supports. Nearby, a tall upright drum on a sculptural openwork dragon-form bronze base stands as a separate instrument; several modestly dressed musicians prepare to perform. Avoid invented mechanisms, springs, modern brackets, and readable inscriptions. Rich dark lacquer and aged bronze against rammed earth, realistic early Chinese court dress, soft clear daylight and legible craft details. No labels, no text, no museum visitors, no collage. This is a conceptual artistic reconstruction, not a photo of the surviving artifact.",
+      "source": "https://hbww.org.cn/zgzb/p/4695.html",
+      "evidence_level": "B",
+      "method": "text_generation",
+      "source_additional": "https://www.hbww.org.cn/hhfz70n/p/9135.html",
+      "source_deviation_note": "馆方资料证实曾侯乙墓出土65件编钟，三层八组悬于曲尺形铜木钟架，建鼓在钟架旁出土。画面仅为战国礼乐场景的艺术复原，钟的数量、器形、铭文和架体细节均非馆藏原件精确复制；条目所述自锁钩件等机械细节未独立核实。",
+      "nas_period": "战国"
+    },
+    "HT-W20261029B-G135": {
+      "title": "【20261029薄弱环节深潜考证】战国·湖北荆州楚纪南城熊家冢车马坑六马天子级安车与礼仪车阵（楚王威仪车乘）（配套类）（荆州博物馆·10景）",
+      "original": "images/HT-W20261029B-G135.png",
+      "preview": "previews/HT-W20261029B-G135.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7706ef7c2194ed3b4b4d33b58591c47cf383a8e5318ce26a700f51c1b05430fa",
+      "source_prompt": "Create one photorealistic historical film concept still, landscape 16:9, showing a Warring States Chu aristocratic chariot procession inspired by the Xiongjiazhong chariot pits near Jingzhou. One ceremonial wooden chariot is drawn by six horses in a single balanced harness, with several other chariots following at a distance on a broad earthen road; a Chu attendant holds a plain textile canopy, and bronze fittings glint subtly. Emphasize plausible wood, horse tack, earth, and textiles. Exterior near low rammed earth walls and trees in morning sun. Do not show excavated skeletons, modern artifacts, museum halls, legible writing or an exact archaeological reconstruction; avoid visualizing unsupported special mechanical details. This is artistic visualization based on the chariot burial evidence.",
+      "source": "https://wlt.hubei.gov.cn/bmdt/xydt/202109/t20210915_3762322.shtml",
+      "evidence_level": "B",
+      "method": "text_generation",
+      "source_deviation_note": "湖北省文旅厅资料记熊家冢1号车马坑长132.6米，遗址有六马驾车遗存。画面是车队行进的艺术想象，并非车马坑实拍；车舆、马具、人物与排列方式不按单座墓坑精确复原。",
+      "nas_period": "战国"
+    }
+  }
+}
