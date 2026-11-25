@@ -1,0 +1,120 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    0,
+    9434
+  ],
+  "sources": [
+    "https://www.sonyclassics.com/awards/badeducation.html",
+    "https://www.earthworksfilms.com/broken-rainbow/",
+    "https://player.bfi.org.uk/subscription/film/watch-stagefright-1987-online",
+    "https://archive.pov.org/lastmeninaleppo/"
+  ],
+  "decisions": [
+    {
+      "wid": "modern-times-1936",
+      "previous": "film-ai/modern-times-1936.jpg",
+      "replacement": "film-ai/quality-reviewed/modern-times-1936.png",
+      "reason": "Modern Times had a modern interview rather than a 1930s factory scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "monsoon-wedding-2001",
+      "previous": "film-ai/monsoon-wedding-2001.jpg",
+      "replacement": "film-ai/quality-reviewed/monsoon-wedding-2001.png",
+      "reason": "Monsoon Wedding had an unrelated portrait rather than an Indian wedding scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "spider-man-into-the-spider-verse-2018",
+      "previous": "film-ai/spider-man-into-the-spider-verse-2018.jpg",
+      "replacement": "film-ai/quality-reviewed/spider-man-into-the-spider-verse-2018.png",
+      "reason": "Spider-Verse had a live-action car instead of animation",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-00cc2583196a6d12",
+      "previous": "film-ai/src-00cc2583196a6d12.jpg",
+      "replacement": "film-ai/quality-reviewed/src-00cc2583196a6d12.png",
+      "reason": "Folie douce folie dure had a red-carpet photo rather than animated documentary imagery",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-017ef3995241eb29",
+      "previous": "film-ai/src-017ef3995241eb29.jpg",
+      "replacement": "film-ai/quality-reviewed/src-017ef3995241eb29.png",
+      "reason": "Last Men in Aleppo had an unrelated actor portrait rather than a Syria rescue scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-021925e64eb361f6",
+      "previous": "film-ai/src-021925e64eb361f6.jpg",
+      "replacement": "film-ai/quality-reviewed/src-021925e64eb361f6.png",
+      "reason": "Kubo had a live-action sunset rather than stop-motion imagery",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-065f85d340650798",
+      "previous": "film-ai/src-065f85d340650798.jpg",
+      "replacement": "film-ai/quality-reviewed/src-065f85d340650798.png",
+      "reason": "Hedwig had an unrelated portrait instead of a glam-rock performance scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-077e52b0ff64049d",
+      "previous": "film-ai/src-077e52b0ff64049d.jpg",
+      "replacement": "film-ai/quality-reviewed/src-077e52b0ff64049d.png",
+      "reason": "Hulk had an unrelated portrait instead of a gamma experiment scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-09625dddb72df448",
+      "previous": "film-ai/src-09625dddb72df448.jpg",
+      "replacement": "film-ai/quality-reviewed/src-09625dddb72df448.png",
+      "reason": "Bad Education had an unrelated singer portrait instead of a Spanish film-noir scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-0dd7a7fb9505bb29",
+      "previous": "film-ai/src-0dd7a7fb9505bb29.jpg",
+      "replacement": "film-ai/quality-reviewed/src-0dd7a7fb9505bb29.png",
+      "reason": "Hard Candy had a Japanese romance image instead of a psychological thriller scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-15014576b3e93797",
+      "previous": "film-ai/src-15014576b3e93797.jpg",
+      "replacement": "film-ai/quality-reviewed/src-15014576b3e93797.png",
+      "reason": "Broken Rainbow had a DVD stack instead of a Navajo relocation theme",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-1cc05253f68553dc",
+      "previous": "film-ai/src-1cc05253f68553dc.jpg",
+      "replacement": "film-ai/quality-reviewed/src-1cc05253f68553dc.png",
+      "reason": "1952 physics film had a modern web presenter and logo",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-1cda09ccc55be5fb",
+      "previous": "film-ai/src-1cda09ccc55be5fb.jpg",
+      "replacement": "film-ai/quality-reviewed/src-1cda09ccc55be5fb.png",
+      "reason": "1947 Moscow May Day film had an unrelated 1957 football cover",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-22a213b9001d67f8",
+      "previous": "film-ai/src-22a213b9001d67f8.jpg",
+      "replacement": "film-ai/quality-reviewed/src-22a213b9001d67f8.png",
+      "reason": "StageFright had a singer with saxophone rather than an owl-mask theatre horror scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-4ffa3b54b1f95635",
+      "previous": "film-ai/src-4ffa3b54b1f95635.jpg",
+      "replacement": "film-ai/quality-reviewed/src-4ffa3b54b1f95635.png",
+      "reason": "Possessor had an unrelated singer rather than a body-control thriller scene",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
