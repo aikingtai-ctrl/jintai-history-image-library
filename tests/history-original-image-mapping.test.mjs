@@ -545,7 +545,7 @@ for (const id of [...ids, 'HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) {
 for (const id of ['HF-20261015-0093', 'HF-20261015-0094', 'HF-20261015-0095']) {
   assert.equal(histThumb(id), qing[id].preview, `Qing homepage thumb: ${id}`);
 }
-const lightboxSelect = index.match(/^\s*const gpt=window\.JINTAI_PAGE20_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_PAGE19_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_QING_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_GPT_IMAGES\?\.\[r\.id\];/m)?.[0];
+const lightboxSelect = index.match(/^\s*const gpt=window\.JINTAI_PAGE21_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_PAGE20_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_PAGE19_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_QING_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_GPT_IMAGES\?\.\[r\.id\];/m)?.[0];
 assert.ok(lightboxSelect, 'Homepage lightbox must select accepted GPT Image');
 const lightboxGpt = vm.runInNewContext(`(r)=>{${lightboxSelect}return gpt;}`, { window: manifest });
 assert.equal(lightboxGpt({ id: gptAndJpg }), gpt[gptAndJpg]);
