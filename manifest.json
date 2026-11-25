@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "1338-bde41868b787",
+  "revision": "1354-165b6fcfdf58",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -10707,6 +10707,134 @@
       "width": 1312,
       "height": 1199,
       "sha256": "bde41868b78705406e7ec3349189ee70be0c880df6972f2ef55fb684cd215ad4"
+    },
+    "HL-JINGUO-FA-0123": {
+      "title": "金代皇太子·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0123.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0123.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "10c1377b176d0cfe7833bf15d102fc57a8b9feffea9de573ccbf33d846dcff31"
+    },
+    "HL-JINGUO-FA-0124": {
+      "title": "金代公主·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0124.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0124.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "e3a66e7603385184980d9c8cb1add347f27ecb4ca176e0a64bcb76879b0842b2"
+    },
+    "HL-JINGUO-FA-0125": {
+      "title": "金代宫女·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0125.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0125.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "306f1bdbc4e4e93bdf246b0573c35a30375bffed4aebad5b89862e57e9de31e7"
+    },
+    "HL-JINGUO-FA-0126": {
+      "title": "金代宫廷侍卫·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0126.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0126.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "4b7f7bae651a3853318995cf0a59ad0c3f5c767bf98df376b82a8d0b7c97f9fe"
+    },
+    "HL-JINGUO-FA-0127": {
+      "title": "金代宫廷侍卫·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0127.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0127.png",
+      "width": 1290,
+      "height": 1219,
+      "sha256": "a498c91ebbf3bcfd396ba13ca8149572c3fcf678b32b774ef37191e12b084b4c"
+    },
+    "HL-JINGUO-FA-0128": {
+      "title": "金代女真弓手·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0128.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0128.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "d78f04e51a46b3a0c63712998361feacf500d54b6fa7a478d7e77bb3621cb1a2"
+    },
+    "HL-JINGUO-FA-0129": {
+      "title": "金代猛安长官·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0129.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0129.png",
+      "width": 1291,
+      "height": 1218,
+      "sha256": "b6e5c6e1e08285f0d5f0bc68bcd2920e7e7e14b601e5e9e893f847333e81e31f"
+    },
+    "HL-JINGUO-FA-0130": {
+      "title": "金代猛安长官·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0130.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0130.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "280ac333e8bb1e7fabb879e63268e1826a26708d9f2a7ee0d2c5178b193fb4a0"
+    },
+    "HL-JINGUO-FA-0131": {
+      "title": "金代女真牧民·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0131.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0131.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "e771868df8800ca8a249785e7913c430112fdbcd6ee1d6e1abbbdeebacc913b8"
+    },
+    "HL-JINGUO-FA-0132": {
+      "title": "金代女真牧民·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0132.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0132.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "ff028f43e11162be747e2de97be176ef3ee45dac88604be763ff46fd1b906623"
+    },
+    "HL-JINGUO-FA-0133": {
+      "title": "金代女真农妇·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0133.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0133.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "671632e7c76f0a2acad1c403249c2585a41a44ae04048933c25a4a915e2fb961"
+    },
+    "HL-JINGUO-FA-0134": {
+      "title": "金代女真农妇·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0134.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0134.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "eec5520cff516b91d6b34422c7bec26a20108be61ab497b2ab3609de347ffa24"
+    },
+    "HL-JINGUO-FA-0135": {
+      "title": "金代女真商人·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0135.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0135.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "9117096f5103f9db46c1832fb1d0c4b70e0e5bdf5d7303a24569b0ea8e440e40"
+    },
+    "HL-JINGUO-FA-0136": {
+      "title": "金代女真商人·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0136.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0136.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "c93c8eb940462e3a04dd8353d05d60c2604322375c0f0439ee83bffe5d911702"
+    },
+    "HL-JINGUO-FA-0137": {
+      "title": "金代汉人农夫·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0137.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0137.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "eee3ee1309bece1ecb02681768ff3a018eb14867a2c00416781c1eec22040788"
+    },
+    "HL-JINGUO-FA-0138": {
+      "title": "金代汉人农夫·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0138.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0138.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "165b6fcfdf586b2fcc627b4c77666ddf2bd3615299754ca1f8cd7aa065efa507"
     }
   }
 }
