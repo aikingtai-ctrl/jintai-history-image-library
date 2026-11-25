@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "1194-d6502624e98b",
+  "revision": "1210-e54112099332",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -9555,6 +9555,134 @@
       "width": 1312,
       "height": 1199,
       "sha256": "d6502624e98b61473aa6e2c958cd2e5ba5ea3563193fb16483199a5b6220f40e"
+    },
+    "HL-XIXIA-FA-0115": {
+      "title": "西夏医者·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0115.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0115.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "84dc0ba9035d8ec669fab68da64d0b64b70cd83f974608626efa084a4c0e2997"
+    },
+    "HL-XIXIA-FA-0116": {
+      "title": "西夏医者·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0116.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0116.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "0850a5d38210680b15d1b4380f52d5344c4a5473c65cb33fc136eff3c86329ed"
+    },
+    "HL-XIXIA-FA-0117": {
+      "title": "西夏太子·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0117.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0117.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "16a236c86a8d247e1d6ffb822ae1e50c731a1b52550b5ae4816f203f79047b24"
+    },
+    "HL-XIXIA-FA-0118": {
+      "title": "西夏中书宰相·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0118.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0118.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "e30e171048c67dc1c221fd5693bf1a92c8b72a7e54f2b2494327c7d83606dcae"
+    },
+    "HL-XIXIA-FA-0119": {
+      "title": "西夏中书宰相·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0119.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0119.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "7852a736b42db0b641953ee35fd945dff892929396a47cd1ca99a9bd8ea2dd89"
+    },
+    "HL-XIXIA-FA-0120": {
+      "title": "西夏将军·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0120.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0120.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "8973520a7530b7eb5accfc77f89237fba3daf71822779f55f20a4a40524e4e1c"
+    },
+    "HL-XIXIA-FA-0121": {
+      "title": "西夏将军·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0121.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0121.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "364fcf88b80f8248fdcfe074fbcba928863617cbb6fa17c4dca5c97c849347e9"
+    },
+    "HL-XIXIA-FA-0122": {
+      "title": "西夏擒生军·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0122.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0122.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "c5b0aafe28a7e24374ff52a52f758761b03e2c5fff493605323f8eabe76d3360"
+    },
+    "HL-XIXIA-FA-0123": {
+      "title": "西夏擒生军·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0123.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0123.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "c101f9bc3dad1f9e6968f7c7e77ef0011d4a4f70dd29a3ba2f27a5dd92d7f1a1"
+    },
+    "HL-XIXIA-FA-0124": {
+      "title": "西夏弓箭手·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0124.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0124.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "112eef981e0901f966e3841734cb222f8fca49d0870c71ef56427f2359575ef7"
+    },
+    "HL-XIXIA-FA-0125": {
+      "title": "西夏泥塑工匠·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0125.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0125.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "f6c6a2db7f91c4814afbf68e63ee5a06f4d18d09dd83846f66a84718fb5ba7af"
+    },
+    "HL-XIXIA-FA-0126": {
+      "title": "西夏泥塑工匠·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0126.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0126.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "11a6401928ca2dd1392f012a617dfe951260e969e8ee805c033e0949a1e191ca"
+    },
+    "HL-XIXIA-FA-0127": {
+      "title": "西夏壁画画工·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0127.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0127.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "5a05007b5a231f813e2e96b9aee4407042e219a1c8f6ccbd3471927f1331b7d9"
+    },
+    "HL-XIXIA-FA-0128": {
+      "title": "西夏壁画画工·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0128.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0128.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "c8ecd0a25e172c90f7cde334087260fe38241811bc0c75ecf8dabc7ea52d5d01"
+    },
+    "HL-XIXIA-FA-0129": {
+      "title": "西夏抄经生·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0129.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0129.png",
+      "width": 1230,
+      "height": 1278,
+      "sha256": "d2008f5d676c1df7451585ef40d97c2a24395aa6ed752d0b6ddcaa44733c48af"
+    },
+    "HL-XIXIA-FA-0130": {
+      "title": "西夏抄经生·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-FA-0130.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-FA-0130.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "e541120993327a9f847a4f8193674beec62dcf33c7af85d422f09ede6ef681e1"
     }
   }
 }
