@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-25T16:39:08.708186+00:00",
+  "snapshot_time_utc": "2026-11-25T17:18:31.056478+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -24944,6 +24944,76 @@
       "file": "film-ai/decks/film-src-7afd782699fdf6b8.webp",
       "sha256": "f8f5dda76ac0437c6b594ccdc646063e74238461d6c2ad5b908b6305cb30c647",
       "bytes": 173142,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-7526b36bd2d448a6",
+      "wid": "src-7526b36bd2d448a6",
+      "title": "Beverly Hills Cop II",
+      "file": "film-ai/decks/film-src-7526b36bd2d448a6.webp",
+      "sha256": "fbde6af3b88e7dad3df30c1d5aef750a66910ad7fd4b5af1f59003add03e2d3b",
+      "bytes": 275100,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-06ced19c53d3d120",
+      "wid": "src-06ced19c53d3d120",
+      "title": "The Lost Boys",
+      "file": "film-ai/decks/film-src-06ced19c53d3d120.webp",
+      "sha256": "de6546635df71fc02970fe6200c8ca372d1e88904d0b6dbffa2db332adb524bc",
+      "bytes": 168370,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-96566163ac95257c",
+      "wid": "src-96566163ac95257c",
+      "title": "House of Games",
+      "file": "film-ai/decks/film-src-96566163ac95257c.webp",
+      "sha256": "209b89e22d74d8de09e7244641d866fd9665fcf10c554f3ea93d027d070619a3",
+      "bytes": 115224,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-568af08d4b7bc23b",
+      "wid": "src-568af08d4b7bc23b",
+      "title": "Fatal Attraction",
+      "file": "film-ai/decks/film-src-568af08d4b7bc23b.webp",
+      "sha256": "197813732c4b6b2534e9d5a827bd6444083372efbae80a366d76e3be31124525",
+      "bytes": 200010,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-107770873017f03d",
+      "wid": "src-107770873017f03d",
+      "title": "胭脂扣",
+      "file": "film-ai/decks/film-src-107770873017f03d.webp",
+      "sha256": "18984cc99937219a3512abfb677c373ea19a1c0cfc8e6a70724d253e187b8040",
+      "bytes": 246070,
       "size": [
         1672,
         941
