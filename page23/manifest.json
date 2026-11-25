@@ -131,6 +131,20 @@
       "source_deviation_note": "凤雏甲组的影壁、门塾、两进院落、甲骨窖藏与排水设施有遗址平面资料；图中的屋顶、立面、人物及可见陶管剖面均为艺术复原，不是遗址实拍或精确建筑复建，宗庙性质仍有学术讨论。",
       "nas_period": "西周"
     },
+    "HT-W20261029C-G136": {
+      "title": "【20261029薄弱环节深潜考证】西周宣王时期陕西眉县杨家村青铜器窖藏“三百七十二字逨盘与四十二年逨鼎册命单公军礼”（军旅营帐类）（宝鸡青铜器博物院·10景）",
+      "original": "images/HT-W20261029C-G136.png",
+      "preview": "previews/HT-W20261029C-G136.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e707ba8f24ab72e151afd7de06ffa0ac47813885b47f2991cb472944a0483c21",
+      "source_prompt": "Create one photorealistic historical film concept still, horizontal 16:9, of a late Western Zhou bronze ritual presentation near the Yangjiacun region of Shaanxi. Two different bronze ritual vessels are presented on simple wooden stands: one shallow pan basin and one tripod ding, with an official and artisans attending a formal but restrained court ceremony. The vessels are inspired by the Lai pan and the Forty-second-Year Lai ding, but their forms and inscriptions are not exact replicas; do not make legible pseudo-ancient writing. Rammed-earth courtyard, timber hall, period clothing, clear daylight. This is an artistic reconstruction of the era and vessel types, not a photograph of the Yangjiacun hoard or an assertion that both objects were displayed together at a recorded ceremony. No modern items, banners, labels, or fantasy.\n[Edit] Edit the supplied photorealistic Western Zhou bronze vessel presentation scene. Preserve the two different bronze vessels, wooden stands, people positions, lighting, and overall composition. Replace the tall rigid rectangular court hats on all officials with restrained early Western Zhou hair styling: compact plain cloth caps close to the head or tied topknots held with simple hairpins. Remove any unmistakably later imperial official headwear. Keep clothing sober and early Zhou plausible. Do not alter faces, vessel forms, or add writing, captions or modern objects.",
+      "source": "https://www.saac.gov.cn/mowcn/cn/6sbs/202512/3ab95315183f4f9a894b60a85cacaf75.shtml",
+      "evidence_level": "B",
+      "method": "reference_edit",
+      "source_deviation_note": "国家档案局申报资料记2003年眉县杨家村窖藏出土逨盘、四十二年逨鼎等，分别有372字和282字铭文。图为西周仪式中的泛化青铜盘、鼎概念并置，不是馆藏原件或真实仪式记录，器形和铭文未精确复刻；首稿偏晚官帽已编辑为简朴发式。",
+      "nas_period": "西周"
+    },
     "HT-W20261029C-G141": {
       "title": "【20261029薄弱环节深潜考证】春秋早期陕西韩城梁带村芮国墓地“双轮朱漆带棚活动木偶弄器车与金石鼓瑟乐悬配套”（配套类）（陕西考古博物馆·10景）",
       "original": "images/HT-W20261029C-G141.png",
@@ -212,8 +226,23 @@
       "source": "https://ytsc.rootinhenan.gov.cn/sitesources/ytsc/page_pc/hnly/zywh/article40c9a0ca855b4e1b92971a5245aea18d.html",
       "evidence_level": "B",
       "method": "text_generation",
-      "source_additional": "https://www.smx.gov.cn/4042/2025/10/2143489.html",
-      "source_deviation_note": "河南文旅平台记上村岭虢国车马坑有5辆战车、10匹战马；三门峡市政府资料确认虢季墓M2001及西周至春秋墓地背景。条目“虢季大墓19车64马”与所引车马坑不符，且虢季墓通常断为春秋早期。画面只以少量车马作跨两周的概念场景，不是墓坑实拍或精确复原。",
+      "source_additional": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/bwzl/yyhxzzjd/cpsx/articlefe6414d5fbbd4e4d9ebc7f36a2502ec7.html",
+      "source_deviation_note": "河南文旅平台记上村岭一处虢国车马坑有5辆战车、10匹战马；河南博物院将虢季墓M2001归于西周晚期。条目“虢季大墓19车64马”与所引坑的公开数字不符。画面仅以少量车马作两周之际的概念场景，不是墓坑实拍或精确复原。",
+      "nas_period": "西周"
+    },
+    "HT-W20261029D-G089": {
+      "title": "【20261029薄弱环节深潜考证】西周早期北京房山琉璃河燕国都城遗址“克篹克罍铭文、宽阔夯土城壕与召公封燕筑城军礼”（军旅营帐类）（首都博物馆（琉璃河遗址博物馆）·10景）",
+      "original": "images/HT-W20261029D-G089.png",
+      "preview": "previews/HT-W20261029D-G089.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "936da823bd477e59ef07006dba3dd2c537923cb418509ea002f9c6e2cf6c0025",
+      "source_prompt": "Create one photorealistic historical film concept still, horizontal 16:9, of the early Western Zhou Yan settlement at Liulihe near present-day Beijing. At the edge of a broad rammed-earth city wall and shallow defensive ditch, laborers finish an earthen gateway while a small group of nobles receives two plain bronze ritual vessels in protective woven carriers, alluding to the Ke lei and Ke he inscriptions about the Yan enfeoffment. The vessels have no legible inscriptions and are not copies of museum objects. North China plain, low hills, early Zhou timber structures, restrained woven garments and clear morning light. The precise ceremony is artistic invention; no modern excavators, later imperial towers, text, labels, or collage.\n[Edit] Edit the supplied photorealistic early Western Zhou Liulihe city gate scene while preserving the earth wall, ditch, builders, bronze vessels in baskets, people positions, daylight and composition. Replace the tall rigid black official hat on the front nobleman and similar tall headwear on all other nobles with simple compact cloth wraps or tied topknots appropriate to a restrained early Zhou concept. Remove any later imperial-style headwear. Keep the wall earth-toned and the bronze objects unchanged. No readable writing, text, labels or modern objects.",
+      "source": "https://www.bjfsh.gov.cn/zhxw/fsdt/202508/t20250812_40091582.shtml",
+      "evidence_level": "B",
+      "method": "reference_edit",
+      "source_additional": "https://www.bjfsh.gov.cn/zhxw/fsdt/202507/t20250725_40091097_fs.shtml",
+      "source_deviation_note": "北京市房山区政府资料确认琉璃河西周燕都、克罍与克盉铭文及夯土城址。条目“克篹”疑为“克盉”误写；图只作筑城及器物交接的艺术想象，不是铭文所记具体仪式或城址精确复建。首稿偏晚高帽经编辑。",
       "nas_period": "西周"
     },
     "HT-W20261029D-G093": {
@@ -246,6 +275,21 @@
       "source_deviation_note": "宝鸡市文物局证实周原城门、水系、道路等新发现；陕西地方志记周原出土西周陶管。王家嘴至凤雏跨谷引水渠和完整连接水网的具体布局未核实，图中为小型沟渠与陶管的概念艺术复原，并非遗址实拍。",
       "nas_period": "西周"
     },
+    "HT-W20261029E-G112": {
+      "title": "【20261029薄弱环节深潜考证】春秋郑国河南新郑郑韩故城社稷祭祀遗址“十七座九鼎八簋编钟礼乐坎坑、四十四座殉马坑与东周公室郊社大典”（军旅营帐类）（郑国车马坑博物馆与河南博物院·10景）",
+      "original": "images/HT-W20261029E-G112.png",
+      "preview": "previews/HT-W20261029E-G112.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "18436b12bcaf3e74e847e0a31735aad569490035d900675ef149ee34ddb6a499",
+      "source_prompt": "Create one photorealistic historical concept still, horizontal 16:9, of a Spring and Autumn Zheng state ritual gathering at the Zheng-Han ancient city near Xinzheng, Henan. In a modest walled ceremonial precinct, attendants place several bronze ding cauldrons and gui food vessels in orderly rows while a separate small bronze bell set stands to one side; a priestly official observes. Keep the number of vessels approximate rather than claiming to show all nine ding, eight gui or seventeen pits. No animal sacrifice is shown. This is an artistic reconstruction inspired by the excavated Zheng ritual bronze and bell caches, not an excavation photo or exact placement plan. Natural daylight, plausible period dress and bronze forms, no readable inscriptions, modern equipment, labels or fantasy.\n[Edit] Edit the supplied photorealistic Spring and Autumn Zheng ritual bronze scene, preserving all vessel arrangements, bell rack, people, courtyard, light and camera composition. Replace the front official's tall rigid black hat with a simple compact dark cloth cap or tied topknot appropriate to the period. Remove the two large hanging banners with pseudo-character symbols, or make them plain unmarked cloth. Keep bronze vessels and people otherwise the same. Do not add any writing, labels, modern objects, or fantasy.",
+      "source": "https://wwj.zhengzhou.gov.cn/wwyw/10104024.jhtml",
+      "evidence_level": "B",
+      "method": "reference_edit",
+      "source_additional": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/xsyj/xslw/article49a078b0208748818c9bb451ed52b4f1.html",
+      "source_deviation_note": "郑州市文物局资料记郑国祭祀遗址17座礼乐器坑、44座殉马坑；河南博物院记九鼎八簋、编钟等。图是春秋礼器陈列的艺术复原，不是坑内原位图，也没有逐件展示17坑、44马坑及九鼎八簋的准确数量；首稿偏晚高帽和伪文字旗帜已编辑。",
+      "nas_period": "春秋"
+    },
     "HT-W20261030A-G003": {
       "title": "【20261030科技工程与民国深潜考证】西周至唐代河南登封告成周公测景台“八尺青石表柱、梯形石圭底座与夏至正午日影测地心规制配套”（配套类）（河南博物院·10景）",
       "original": "images/HT-W20261030A-G003.png",
@@ -260,6 +304,21 @@
       "source_additional": "https://wwj.zhengzhou.gov.cn/country/3175217.jhtml",
       "source_deviation_note": "登封市政府及郑州市文物局资料明确现存石圭表为唐开元十一年依周代旧制重建，不是西周遗存；图为唐代测影的概念艺术复原，石表比例、背景建筑及人物活动并非对现存文物的精确复制。按画面年代存入NAS“唐”目录。",
       "nas_period": "唐"
+    },
+    "HT-W20261030B-G189": {
+      "title": "【20261030军工配套与历史事件深潜考证】公元前1046年华夏礼乐王朝开天决战实证“周武王牧野之战与《利簋》腹底三十二字铭文：檀车煌煌驷騵彭彭三百乘战车黎明冲阵克商事件”（军旅营帐类）（中国国家博物馆·10景）",
+      "original": "images/HT-W20261030B-G189.png",
+      "preview": "previews/HT-W20261030B-G189.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "dd7dda6bcb6f629a003ce7c5d211db2780ee9ff93107e75ad9a5b8e6fc46d4fe",
+      "source_prompt": "Create one photorealistic historical film concept still, horizontal 16:9, of the dawn before the Battle of Muye at the Shang–Zhou transition. A small group of early Zhou wooden two-wheeled war chariots with teams of horses moves across a misty plain at first light; infantry with simple bronze-age spears and cloth-and-leather clothing follow at a distance. Emphasize one foreground chariot and the pre-battle movement, not a claimed exact army of three hundred chariots. No bronze Li gui vessel is present on the battlefield, since it was made to commemorate the campaign later; no legible inscription, iron armor, fireworks, modernity, gore or later imperial uniforms. Historical concept art informed by the Li gui inscription's mention of the campaign, not a literal photo or exact reconstruction.\n[Edit] Edit the supplied photorealistic dawn Zhou chariot scene, preserving all chariots, horses, soldiers, terrain, mist, sunrise, camera composition and overall mood. Change every visible cloth battle banner to plain unmarked fabric of muted natural color: remove all pseudo-Chinese glyphs, painted symbols or letters. The flags may remain frayed and windblown. Do not change people, horse anatomy, tack or other scenery. No writing, captions, text or modern objects.",
+      "source": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202108/t20210802_250931.shtml",
+      "evidence_level": "B",
+      "method": "reference_edit",
+      "source_additional": "https://www.chnmuseum.cn/portals/0/web/zt/202008zzzg/",
+      "source_deviation_note": "中国国家博物馆记利簋方座内底四行32字铭文与武王甲子日清晨征商事件。图为牧野之战拂晓车队的概念艺术复原，不是史料所记战车数量的实景，也未把战后所铸利簋置于战场；条目引句与“300乘”不由利簋铭文直接证明。首稿旗帜伪文字经编辑移除。",
+      "nas_period": "西周"
     },
     "HT-W20261030G-G007": {
       "title": "【20261030全库66格满百与清代民国国宝深潜考证】西周至战国楚地采冶奇迹“湖北大冶铜绿山古铜矿遗址四框榫接圆木支护深竖井、木辘轳竹索提矿箕与木溜槽重力选矿配套”（配套类）（湖北省博物馆·10景）",
@@ -349,6 +408,35 @@
       "method": "text_generation",
       "source_additional": "https://www.cssn.cn/skgz/bwyc/202404/t20240423_5747454.shtml",
       "source_deviation_note": "中国社会科学网记洛阳东郊北窑发现西周铸铜遗址与大规模作坊。图为陶范铸铜的艺术复原，条目所述瀍河西岸、引瀍澄泥水道、官营窑群和北邙车马坑礼仪驰道的完整连通关系未核实；画中井和远处车驾仅作场景想象。",
+      "nas_period": "西周"
+    },
+    "HT-W20261105A-G004": {
+      "title": "【20261105全网考证破10万条与建筑满9000座】西周至春秋早期铜矿采冶巨构“湖北大冶铜绿山古铜矿遗址百米深竖井盲井木支护巷道、辘轳提矿排水木槽与鼓风竖炉炼铜配套”（配套类）（湖北省博物馆与铜绿山古铜矿遗址博物馆·10景）",
+      "original": "images/HT-W20261105A-G004.png",
+      "preview": "previews/HT-W20261105A-G004.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a6830f6ae54eaa9e568a9d6090491b4083a790096b45be58582e63e47ac6227e",
+      "source_prompt": "Create one photorealistic historical film concept still, horizontal 16:9, of the Tonglushan ancient copper mine in present-day Hubei during the Western Zhou to early Spring and Autumn transition. Show an exterior view distinct from an underground mine: a compact timber-framed shaft opening on a forested hillside, baskets of green ore beside a shallow wooden drainage channel, and a small clay charcoal smelting furnace tended by workers a short distance away. Copper ore, wood, earth and smoke are legible; simple hemp clothing and bronze-age hand tools. This is a conceptual artistic synthesis of the site's long mining history, not an exact dated layout, hundred-meter shaft, precise wind-blown furnace or archaeological photograph. No mechanized hoist, iron rails, modern helmets, text or museum scene.",
+      "source": "https://wlt.hubei.gov.cn/bmdt/mtjj/202506/t20250629_5708478.shtml",
+      "evidence_level": "B",
+      "method": "text_generation",
+      "source_additional": "https://hswhj.huangshi.gov.cn/xwzx/gzdt/201902/t20190228_511877.html",
+      "source_deviation_note": "湖北省文旅厅与黄石市文旅局资料证实铜绿山古矿的多时期竖井、木支护、排水及炼铜遗迹。图为西周至春秋过渡时期采冶的概念并置，不是同一文化层的实景；百米井深、辘轳构造、木槽与鼓风炉的精确组合未逐项核实。",
+      "nas_period": "春秋"
+    },
+    "JT-TPL-AC-005": {
+      "title": "佩饰组合",
+      "original": "images/JT-TPL-AC-005.png",
+      "preview": "previews/JT-TPL-AC-005.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2dcd486d8e43513cd48a3cb6524b766fa1c56b7e1379aeb461b646a5a76e8754",
+      "source_prompt": "Create one photorealistic museum-quality historical concept still, horizontal 16:9, focused on a late Western Zhou Guo-state ceremonial jade pendant assembly inspired by the seven-huang linked jade ornament from the Guo Ji tomb at Sanmenxia. In a calm rammed-earth hall, a noble attendant carefully lays out a long, vertically arranged pendant on dark woven cloth: seven arc-shaped pale celadon jade huang pieces increasing in size downward, linked with many small red agate beads and a few pale tubular beads. Keep the composition physically coherent and distinct from an exact copy of the excavated object; no readable labels or dimensions. Soft natural side light emphasizes translucent jade and agate; modest early Zhou textiles. No modern museum glass, no plastic, no fantasy, no text or collage.",
+      "source": "https://www.chnmus.net/sitesources/hnsbwy/page_pc/bwzl/yyhxzzjd/cpsx/articlefe6414d5fbbd4e4d9ebc7f36a2502ec7.html",
+      "evidence_level": "初稿·未考证",
+      "method": "text_generation",
+      "source_deviation_note": "该条为“初稿·未考证”模板；河南博物院记虢季墓七璜组玉佩由玉璜、红玛瑙珠等组成。图仅为西周组玉佩概念布置，玉璜数量、连接、尺寸与纹饰不按馆藏七璜原件精确复制；模板的五璜描述不等同虢季七璜实物。",
       "nas_period": "西周"
     }
   }
