@@ -1,0 +1,20 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    7560,
+    7919
+  ],
+  "sources": [
+    "https://www.tondesaitama.com/one/index-2.html",
+    "https://www.fujitv.co.jp/movie/01movie/20190000_02_M00.html"
+  ],
+  "decisions": [
+    {
+      "wid": "src-wd-q126091602",
+      "previous": "film-ai/goal9438/src-wd-q126091602.jpg",
+      "replacement": "film-ai/quality-reviewed/src-wd-q126091602.png",
+      "reason": "Fly Me to the Saitama displays an unrelated European Roman arch instead of its Japanese setting",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
