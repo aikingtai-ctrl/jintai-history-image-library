@@ -1006,9 +1006,9 @@ function syncChipUI(){
 }
 
 
-function histPreview(id){return window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
-function histThumb(id){return window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.thumb||window.JINTAI_SONG_IMAGES?.[id]?.preview||histPreview(id);}
-function histOriginalInfo(id){return window.JINTAI_PAGE21_IMAGES?.[id]||window.JINTAI_PAGE20_IMAGES?.[id]||window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]||window.JINTAI_SONG_IMAGES?.[id]||null;}
+function histPreview(id){return window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
+function histThumb(id){return window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.thumb||window.JINTAI_SONG_IMAGES?.[id]?.preview||histPreview(id);}
+function histOriginalInfo(id){return window.JINTAI_PAGE22_IMAGES?.[id]||window.JINTAI_PAGE21_IMAGES?.[id]||window.JINTAI_PAGE20_IMAGES?.[id]||window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]||window.JINTAI_SONG_IMAGES?.[id]||null;}
 function openHistOriginal(r){
   const info=histOriginalInfo(r.id);
   if(!info){window.open(histPreview(r.id),'_blank','noopener');return;}
@@ -1119,7 +1119,7 @@ function setHlbZoom(s,reset=false){
 function renderHlb(){
   const r=HLB.pool[HLB.idx];if(!r)return;
   const preview=histPreview(r.id);if(!preview)return;
-  const gpt=window.JINTAI_PAGE21_IMAGES?.[r.id]||window.JINTAI_PAGE20_IMAGES?.[r.id]||window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_QING_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id];
+  const gpt=window.JINTAI_PAGE22_IMAGES?.[r.id]||window.JINTAI_PAGE21_IMAGES?.[r.id]||window.JINTAI_PAGE20_IMAGES?.[r.id]||window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_QING_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id];
   const yuanming=!gpt&&!window.JINTAI_AI_IMAGES?.[r.id]&&window.JINTAI_YUANMING_IMAGES?.[r.id];
   const native=gpt||yuanming;
   const songOriginal=window.JINTAI_SONG_IMAGES?.[r.id]?.original;
@@ -1136,7 +1136,7 @@ function renderHlb(){
     if(HLB.request!==request)return;
     $('hlbSub').textContent=subtitle+` · ${im.naturalWidth}×${im.naturalHeight} px`;
     if(originalSrc&&im.currentSrc===originalSrc){
-      $('hlbNote').textContent=gpt?.method==='museum_open_access_original'?`克利夫兰艺术博物馆 CC0 馆藏原件 ${im.naturalWidth}×${im.naturalHeight} PNG；${gpt.source_deviation_note}`:gpt?`GPT Image 生成的 ${im.naturalWidth}×${im.naturalHeight} PNG；${gpt.method==='reference_edit'?'依据原有小图重绘':'依据保存的文字描述生成'}，历史细节仍需核验。${gpt.source_deviation_note?' 画面差异：'+gpt.source_deviation_note:''}`:yuanming?`原创 PNG ${im.naturalWidth}×${im.naturalHeight}；按保存的条目描述生成。`:`原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`;
+      $('hlbNote').textContent=gpt?.method==='museum_open_access_original'?`克利夫兰艺术博物馆 CC0 馆藏高清图 ${im.naturalWidth}×${im.naturalHeight} ${gpt.filename.endsWith('.jpg')?'JPEG':'PNG'}；${gpt.source_deviation_note}`:gpt?`GPT Image 生成的 ${im.naturalWidth}×${im.naturalHeight} PNG；${gpt.method==='reference_edit'?'依据原有小图重绘':'依据保存的文字描述生成'}，历史细节仍需核验。${gpt.source_deviation_note?' 画面差异：'+gpt.source_deviation_note:''}`:yuanming?`原创 PNG ${im.naturalWidth}×${im.naturalHeight}；按保存的条目描述生成。`:`原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`;
     }else if(originalFailed){
       $('hlbNote').textContent='原始 PNG 暂不可用，当前显示预览图。';
     }else if(native||songOriginal){
@@ -1362,5 +1362,6 @@ document.addEventListener('keydown',e=>{
 <script src="history-ai/page19-originals-manifest.js?v=20261124-page19-120" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 <script src="history-ai/page20-originals-manifest.js?v=20261124-page20-120" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 <script src="history-ai/page21-originals-manifest.js?v=20261125-page21-115" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
+<script src="history-ai/page22-originals-manifest.js?v=20261125-page22-1" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 </body>
 </html>

@@ -6,13 +6,15 @@ import vm from 'node:vm';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const manifest = {};
-for (const file of ['history-ai/manifest.js', 'history-ai/gpt-image-manifest.js', 'history-ai/qing-manifest.js']) {
+for (const file of ['history-ai/manifest.js', 'history-ai/gpt-image-manifest.js', 'history-ai/qing-manifest.js', 'history-ai/page22-originals-manifest.js']) {
   vm.runInNewContext(fs.readFileSync(path.join(root, file), 'utf8'), { window: manifest });
 }
 const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
+assert.equal(manifest.JINTAI_PAGE22_IMAGES['HT-E20261024-G053'].method, 'museum_open_access_original');
+assert.match(manifest.JINTAI_PAGE22_IMAGES['HT-E20261024-G053'].original, /\.jpg$/);
 assert.equal(Object.keys(gpt).length, 500);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
@@ -584,7 +586,7 @@ for (const id of [...ids, 'HL-SHANG-FA-0008', 'HL-ZHOU-CO-0023']) {
 for (const id of ['HF-20261015-0093', 'HF-20261015-0094', 'HF-20261015-0095']) {
   assert.equal(histThumb(id), qing[id].preview, `Qing homepage thumb: ${id}`);
 }
-const lightboxSelect = index.match(/^\s*const gpt=window\.JINTAI_PAGE21_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_PAGE20_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_PAGE19_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_QING_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_GPT_IMAGES\?\.\[r\.id\];/m)?.[0];
+const lightboxSelect = index.match(/^\s*const gpt=window\.JINTAI_PAGE22_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_PAGE21_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_PAGE20_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_PAGE19_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_QING_IMAGES\?\.\[r\.id\]\|\|window\.JINTAI_GPT_IMAGES\?\.\[r\.id\];/m)?.[0];
 assert.ok(lightboxSelect, 'Homepage lightbox must select accepted GPT Image');
 const lightboxGpt = vm.runInNewContext(`(r)=>{${lightboxSelect}return gpt;}`, { window: manifest });
 assert.equal(lightboxGpt({ id: gptAndJpg }), gpt[gptAndJpg]);
