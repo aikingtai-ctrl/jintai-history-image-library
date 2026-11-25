@@ -1,0 +1,20 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    0,
+    9434
+  ],
+  "sources": [
+    "https://ivanmaximov.ru/%D0%B1%D0%B8%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F/",
+    "https://animator.ru/db/?fid=4821&p=show_film"
+  ],
+  "decisions": [
+    {
+      "wid": "src-19b99208205e0a04",
+      "previous": "film-ai/src-19b99208205e0a04.jpg",
+      "replacement": "film-ai/quality-reviewed/src-19b99208205e0a04.png",
+      "reason": "Bolero (1992 Ivan Maximov animation) displayed a cover for an unrelated Patrice Leconte work",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
