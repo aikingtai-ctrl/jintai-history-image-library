@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-25T18:43:16.141459+00:00",
+  "snapshot_time_utc": "2026-11-25T19:03:14.936975+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -25224,6 +25224,76 @@
       "file": "film-ai/decks/film-src-0f4095cbab1dcdf8.webp",
       "sha256": "165f8eed9a9d627b3a48474729799e55952fb1d3a6918888396b4c30bb4d58ce",
       "bytes": 291544,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-c2e7e8708523003e",
+      "wid": "src-c2e7e8708523003e",
+      "title": "Brain Damage",
+      "file": "film-ai/decks/film-src-c2e7e8708523003e.webp",
+      "sha256": "98230997387c17de1d29630b5517226ad90ec509406e29e1f2ba580521524f21",
+      "bytes": 200230,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-50ad945228d8a3d4",
+      "wid": "src-50ad945228d8a3d4",
+      "title": "Nekromantik",
+      "file": "film-ai/decks/film-src-50ad945228d8a3d4.webp",
+      "sha256": "22fe6133df6c3f085fdca5345f0015e0c26bc3f442f8c1eaed60b83090e1c6fb",
+      "bytes": 250706,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-f23e0acceb009347",
+      "wid": "src-f23e0acceb009347",
+      "title": "The Spider Labyrinth",
+      "file": "film-ai/decks/film-src-f23e0acceb009347.webp",
+      "sha256": "e4539435626e0a990b844ce0b55c5e8e831c23d4fa1c1e36e3d7f1f11f8a615e",
+      "bytes": 221194,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-1ed1d3c286259198",
+      "wid": "src-1ed1d3c286259198",
+      "title": "Evil Dead Trap",
+      "file": "film-ai/decks/film-src-1ed1d3c286259198.webp",
+      "sha256": "879cd42206649f1567649b978bf326219f8bc0b33f2b829d10448e6bd15d1a44",
+      "bytes": 186254,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-02b7469df2295b20",
+      "wid": "src-02b7469df2295b20",
+      "title": "Friday the 13th Part VII: The New Blood",
+      "file": "film-ai/decks/film-src-02b7469df2295b20.webp",
+      "sha256": "d38a3f0109850161c4ee6154240b9c5f626a80111f62b5779e6c7ac0aee5104f",
+      "bytes": 210302,
       "size": [
         1672,
         941
