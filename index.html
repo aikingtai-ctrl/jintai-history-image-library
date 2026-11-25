@@ -65,11 +65,11 @@ main{max-width:1640px;margin:0 auto;padding:8px 26px 44px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(440px,1fr));gap:14px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:16px 18px;cursor:pointer;transition:border-color .14s,transform .14s,box-shadow .14s;display:flex;flex-direction:column;gap:8px}
 .card:hover{border-color:#9ab8ac;transform:translateY(-1px);box-shadow:0 6px 18px rgba(24,42,35,.06)}
-.history-preview-button{position:relative;display:block;width:100%;padding:0;border:0;border-radius:6px;background:transparent;overflow:hidden;cursor:zoom-in}
+.history-preview-button{position:relative;display:block;width:100%;padding:0;border:0;border-radius:6px;background:transparent;overflow:hidden;cursor:pointer}
 .history-preview-button:focus-visible,.history-detail-preview-button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 .history-preview-button .history-card-preview{margin:0}
 .history-preview-zoom{position:absolute;right:10px;bottom:10px;padding:5px 11px;border-radius:7px;background:rgba(12,25,21,.82);color:#fff;font:600 12.5pt/1.3 "Microsoft YaHei",sans-serif;pointer-events:none}
-.history-detail-preview-button{display:block;max-width:100%;padding:0;margin:12px auto;border:0;background:transparent;cursor:zoom-in}
+.history-detail-preview-button{display:block;max-width:100%;padding:0;margin:12px auto;border:0;background:transparent;cursor:pointer}
 .history-detail-preview-button .history-detail-preview{margin:0}
 .hlb-stage #hlbImg{width:94%;height:92%}
 .card h3{margin:0;font-size:17.5pt;line-height:1.35;color:var(--ink);font-weight:700;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
@@ -1089,15 +1089,15 @@ function render(){
     const kindTxt=(r.cat && r.cat!==kBase) ? `${kBase} · ${r.cat}` : kBase;
     const views=r.n || (r.variants?r.variants.length:1);
     const historyPreview=histThumb(r.id);
-    d.innerHTML=`${historyPreview ? `<button type="button" class="history-preview-button" aria-label="打开图片：${esc(r.title)}" title="在灯箱放大查看图片"><img class="history-card-preview" loading="lazy" src="${esc(historyPreview)}" alt=""><span class="history-preview-zoom" aria-hidden="true">放大查看</span></button>` : ''}<h3>${esc(r.title)}</h3>${window.JINTAI_AI_NOTES?.[r.id] ? `<p>${esc(window.JINTAI_AI_NOTES[r.id])}</p>` : ''}
+    d.innerHTML=`${historyPreview ? `<button type="button" class="history-preview-button" aria-label="打开原图：${esc(r.title)}" title="在新窗口打开原图"><img class="history-card-preview" loading="lazy" src="${esc(historyPreview)}" alt=""><span class="history-preview-zoom" aria-hidden="true">查看原图</span></button>` : ''}<h3>${esc(r.title)}</h3>${window.JINTAI_AI_NOTES?.[r.id] ? `<p>${esc(window.JINTAI_AI_NOTES[r.id])}</p>` : ''}
       <div class="summary">${esc(r.brief||'')}</div>
       <div class="card-foot"><span>${esc(eraTxt)} ｜ ${esc(kindTxt)}</span><span class="views">${views} 视角</span></div>`;
     const previewButton=d.querySelector('.history-preview-button');
     if(previewButton){
-      const label='放大查看图片：';
-      previewButton.title='在灯箱放大查看图片';
+      const label='打开原图：';
+      previewButton.title='在新窗口打开原图';
       previewButton.setAttribute('aria-label',label+(r.title||''));
-      previewButton.onclick=ev=>{ev.stopPropagation();openHistLightbox(r);};
+      previewButton.onclick=ev=>{ev.stopPropagation();openHistOriginal(r);};
     }
     d.onclick=()=>openCard(r);
     g.appendChild(d);
@@ -1212,14 +1212,14 @@ async function openCard(r){
       <span>#${esc(r.id)}</span>
     </div>
     <h2>${esc(r.title)}</h2>
-    ${histPreview(r.id) ? `<button type="button" class="history-detail-preview-button" id="dHistZoom" aria-label="查看图片：${esc(r.title)}"><img class="history-detail-preview" src="${esc(histPreview(r.id))}" alt=""></button>` : ''}
+    ${histPreview(r.id) ? `<button type="button" class="history-detail-preview-button" id="dHistZoom" aria-label="打开原图：${esc(r.title)}"><img class="history-detail-preview" src="${esc(histPreview(r.id))}" alt=""></button>` : ''}
     ${r.story?`<div style="color:#63706a;font-size:14pt;margin-bottom:4px">典籍/题材：${esc(r.story)}</div>`:''}
     ${r.src?`<div style="color:#63706a;font-size:13.5pt;margin-bottom:4px">考证出处：${esc(r.src)}${r.hold?'（'+esc(r.hold)+'）':''}</div>`:''}
     <p style="color:#45534d;margin:6px 0 10px;line-height:1.6">${esc(r.brief||'')}</p>`;
   if($('dHistZoom')){
-    $('dHistZoom').title='在灯箱放大查看图片';
-    $('dHistZoom').setAttribute('aria-label','放大查看图片：'+(r.title||''));
-    $('dHistZoom').onclick=()=>openHistLightbox(r);
+    $('dHistZoom').title='在新窗口打开原图';
+    $('dHistZoom').setAttribute('aria-label','打开原图：'+(r.title||''));
+    $('dHistZoom').onclick=()=>openHistOriginal(r);
   }
   const t=$('dtabs'); t.innerHTML='';
   (r.variants||[]).forEach((v,i)=>{
