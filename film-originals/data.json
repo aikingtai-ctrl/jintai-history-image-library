@@ -1,6 +1,6 @@
 {
   "collected": 20000,
-  "published": 13641,
+  "published": 13642,
   "target": 20000,
   "generationMethod": "内置 imagegen（已公开 PNG）",
   "sourceRevision": "ff8a38bd8a7e87d1689ce3f81c4d930c69d6dcb1",
@@ -175209,10 +175209,17 @@
       "title": "Un chien andalou",
       "alternateTitle": "",
       "year": 1928,
-      "scene": null,
-      "prompt": null,
-      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/ff8a38bd8a7e87d1689ce3f81c4d930c69d6dcb1/film-ai/src-886683d35b0beeb7.jpg",
-      "png": null
+      "scene": "Classic black-and-white close-up of young Luis Bunuel testing the edge of an open straight razor with his thumb, realistic period film still, natural lighting and shadow detail, 35mm cinema lens texture and balanced composition.",
+      "prompt": "Create exactly one original AI cinematic reference image for the library entry \"Chien andalou, Un\" (1928). Follow the original first-shot prompt and scene description below. Preserve the location and cultural setting, depicted historical era, subject count, age range, clothing, pose, lighting, visual medium, and composition. Use original fictional performers with the same described roles instead of reproducing an actor's exact likeness. Use the aspect ratio and portrait or square framing explicitly specified by the source; if none is specified, use a horizontal 16:9 frame. Do not add watermarks, logos, captions, collages, or lettering unless explicitly required by the source first shot.\n\nOriginal first-shot prompt:\nClassic black-and-white close-up of young Luis Bunuel testing the edge of an open straight razor with his thumb, realistic period film still, natural lighting and shadow detail, 35mm cinema lens texture and balanced composition.\n\nSource scene description:\n黑白默片阳台单人特写，年轻的路易斯·布努埃尔身穿白衬衫，神情专注而冷酷地用大拇指试探手中剃须刀片的锋利程度。",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2d3a094f0f255d62274068c41ae106e247acc61b/film-ai/src-7a361989c3399c74.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h5/5556e1eac0a27eeb7de8cebaa0aa97f8de23d3a3582908b20f556c688aea6c15.png",
+        "filename": "5556e1eac0a27eeb7de8cebaa0aa97f8de23d3a3582908b20f556c688aea6c15.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2388442,
+        "sha256": "5556e1eac0a27eeb7de8cebaa0aa97f8de23d3a3582908b20f556c688aea6c15"
+      }
     },
     {
       "ordinal": 10933,
