@@ -1,0 +1,48 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    0,
+    9434
+  ],
+  "sources": [
+    "https://vardarfilm.mk/feniks-animiran-film-srebrena-mechka-1977-berlin/",
+    "https://www.annecyfestival.com/about/archives/2023/official-selection/film-index%3Afilm-20233323"
+  ],
+  "decisions": [
+    {
+      "wid": "spider-man-2002",
+      "previous": "film-ai/spider-man-2002.jpg",
+      "replacement": "film-ai/quality-reviewed/spider-man-2002.png",
+      "reason": "Spider-Man had an unrelated empty suburb instead of a New York superhero scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-14598deb8373fc3b",
+      "previous": "film-ai/src-14598deb8373fc3b.jpg",
+      "replacement": "film-ai/quality-reviewed/src-14598deb8373fc3b.png",
+      "reason": "The Black Phone had a blurry road image instead of a readable thriller scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-1d2a622aa1d87307",
+      "previous": "film-ai/src-1d2a622aa1d87307.jpg",
+      "replacement": "film-ai/quality-reviewed/src-1d2a622aa1d87307.png",
+      "reason": "Feniks had an unrelated manta-ray cover instead of an animated phoenix scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-2c9d0a10585eeba8",
+      "previous": "film-ai/goal9438/src-2c9d0a10585eeba8.jpg",
+      "replacement": "film-ai/quality-reviewed/src-2c9d0a10585eeba8.png",
+      "reason": "Splash had an empty tropical landscape rather than its New York mermaid premise",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-34c87e181bca0600",
+      "previous": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/e37999478701b03849ec3d8cd50ee5f143be532d/originals/part-03/src-34c87e181bca0600-9787d3cfeb5f.png",
+      "replacement": "film-ai/quality-reviewed/src-34c87e181bca0600.png",
+      "reason": "Robot Dreams had a 3D-looking render instead of hand-drawn 2D animation",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
