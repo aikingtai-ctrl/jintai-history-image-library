@@ -1,0 +1,27 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    2520,
+    2879
+  ],
+  "sources": [
+    "https://www.berlinale.de/en/2008/programme/20082063.html",
+    "https://media.netflix.com/en/only-on-netflix/81901696"
+  ],
+  "decisions": [
+    {
+      "wid": "src-2d7db068560794cd",
+      "previous": "film-ai/src-2d7db068560794cd.jpg",
+      "replacement": "film-ai/quality-reviewed/src-2d7db068560794cd.png",
+      "reason": "Adult press portrait does not represent the 2008 Mexican film about a teenager seeking car repair",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-3289b138e54aa76b",
+      "previous": "film-ai/src-3289b138e54aa76b.jpg",
+      "replacement": "film-ai/quality-reviewed/src-3289b138e54aa76b.png",
+      "reason": "Film festival awards photograph does not represent the fictional crime musical",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
