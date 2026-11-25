@@ -1,0 +1,20 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    8280,
+    8639
+  ],
+  "sources": [
+    "https://tv.apple.com/us/movie/che/umc.cmc.7jhli4rrhzm3x7nwy9mcw19ej",
+    "https://www.imdb.com/title/tt3526538/"
+  ],
+  "decisions": [
+    {
+      "wid": "src-wd-q5924145",
+      "previous": "film-ai/goal9438/src-wd-q5924145.jpg",
+      "replacement": "film-ai/quality-reviewed/src-wd-q5924145.png",
+      "reason": "Che (2014 Iranian war film) displays an unrelated coastal motorcycle road instead of its Paveh conflict setting",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
