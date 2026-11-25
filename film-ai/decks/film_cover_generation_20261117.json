@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-25T06:13:08.723057+00:00",
+  "snapshot_time_utc": "2026-11-25T07:21:47.176530+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -23824,6 +23824,76 @@
       "file": "film-ai/decks/film-src-d94b43e9f1898616.webp",
       "sha256": "bc5e0c574d964376ec6be14f6aba9774ca2a3bdf41420247d0ce382890c959ba",
       "bytes": 327804,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-b8c67d6ff773400b",
+      "wid": "src-b8c67d6ff773400b",
+      "title": "The Entity",
+      "file": "film-ai/decks/film-src-b8c67d6ff773400b.webp",
+      "sha256": "e247797e39af441186127d9437f1d3dc45d3c435ee66de5f75e0278f710cbac8",
+      "bytes": 230182,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-ed095d77cb33f343",
+      "wid": "src-ed095d77cb33f343",
+      "title": "Vigilante",
+      "file": "film-ai/decks/film-src-ed095d77cb33f343.webp",
+      "sha256": "214a4a1017dfc6b1452e451f5d0ac09c4750f4a655582a87284a3ea3ae2a7dbf",
+      "bytes": 334858,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-b2c1d46926979400",
+      "wid": "src-b2c1d46926979400",
+      "title": "Dead Men Don’t Wear Plaid",
+      "file": "film-ai/decks/film-src-b2c1d46926979400.webp",
+      "sha256": "928100667e83f0b18f20c40a81d49a1ac1a145fc200bd30ee34ade6bbe577c08",
+      "bytes": 185534,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-8b5eda64888c4c1f",
+      "wid": "src-8b5eda64888c4c1f",
+      "title": "Litan",
+      "file": "film-ai/decks/film-src-8b5eda64888c4c1f.webp",
+      "sha256": "a34f0beeee0c69cf97e2ea5398927a75f0d043a72901b8ffde4364d91c4a7ed2",
+      "bytes": 286262,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-eaefbf120391821d",
+      "wid": "src-eaefbf120391821d",
+      "title": "Burst City",
+      "file": "film-ai/decks/film-src-eaefbf120391821d.webp",
+      "sha256": "926de3ca0e74e67e689fafeafd5cec63604738a95d99ca242aa43b6e42a0ed34",
+      "bytes": 281044,
       "size": [
         1672,
         941
