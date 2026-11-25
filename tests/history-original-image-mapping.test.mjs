@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 493);
+assert.equal(Object.keys(gpt).length, 500);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
   assert.ok(html.includes(`gpt-image-${Object.keys(gpt).length}`),
@@ -253,6 +253,17 @@ assert.deepEqual([gpt['HL-XIA-AR-0013'].width, gpt['HL-XIA-AR-0013'].height], [1
 assert.match(gpt['HL-XIA-AR-0013'].source_deviation_note, /现代考古测量标尺.*移除标尺/);
 for (const id of ['HT-N20261028-G006', 'HT-W20261028B-G003', 'HT-W20261028B-G007', 'HT-W20261028B-G017']) {
   assert.ok(!gpt[id], `timed-out generation must remain unpublished: ${id}`);
+}
+for (const id of ['HT-W20261031A-G002', 'HT-W20261105A-G017', 'AR-20261020-0717']) {
+  assert.deepEqual([gpt[id].width, gpt[id].height], [1672, 941]);
+}
+for (const id of ['AR-20261020-0715', 'AR-20261020-0718', 'AR-20261020-0719', 'AR-20261020-0721']) {
+  assert.deepEqual([gpt[id].width, gpt[id].height], [1774, 887]);
+}
+assert.match(gpt['HT-W20261031A-G002'].source_deviation_note, /似字纹样.*无字/);
+assert.match(gpt['HT-W20261105A-G017'].source_deviation_note, /旌旗.*省去旌旗/);
+for (const id of ['AR-20261020-0715', 'AR-20261020-0721']) {
+  assert.match(gpt[id].source_deviation_note, /现代.*考古测量标尺.*移除标尺/);
 }
 assert.ok(!gpt['AR-20261021-0054'], 'three failed #454 generations must not be published');
 assert.ok(!gpt['AR-20261021-0070'], 'three failed #470 generations must not be published');
