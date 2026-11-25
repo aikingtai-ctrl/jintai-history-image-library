@@ -1,0 +1,27 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    6840,
+    7199
+  ],
+  "sources": [
+    "https://www.shochiku.co.jp/cinema/database/04055/",
+    "https://tv.apple.com/in/movie/iruvar/umc.cmc.34icbxamyqlv0cynfk0szjjoc"
+  ],
+  "decisions": [
+    {
+      "wid": "the-yellow-handkerchief-1977",
+      "previous": "film-ai/the-yellow-handkerchief-1977.jpg",
+      "replacement": "film-ai/quality-reviewed/the-yellow-handkerchief-1977.png",
+      "reason": "The Yellow Handkerchief displays a large title overlay instead of a story scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "iruvar-1997",
+      "previous": "film-ai/goal9438/iruvar-1997.jpg",
+      "replacement": "film-ai/quality-reviewed/iruvar-1997.png",
+      "reason": "Iruvar displays an empty film set instead of the actor and politician at its center",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
