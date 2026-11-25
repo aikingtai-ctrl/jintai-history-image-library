@@ -1,0 +1,23 @@
+{
+  "page": 22,
+  "pageSize": 120,
+  "catalogTotal": 85179,
+  "model": "GPT Image / Cleveland Museum of Art Open Access",
+  "images": {
+    "HT-E20261024-G053": {
+      "title": "【20261024晚间21点全网考证】西周克利夫兰馆藏馆藏青铜与金银金属器《Wine Vessel (Fu Wu Zun)》（馆藏号1938.13）（克利夫兰艺术博物馆·10景）",
+      "original": "images/HT-E20261024-G053.jpg",
+      "preview": "previews/HT-E20261024-G053.jpg",
+      "width": 4638,
+      "height": 5594,
+      "sha256": "a13f6f9df642aba0bab2ade0bbf361ed8531e1e02a1e9cd613d26e290fb507bc",
+      "source": "https://clevelandart.org/art/1938.13",
+      "evidence_level": "B",
+      "method": "museum_open_access_original",
+      "source_image": "https://openaccess-cdn.clevelandart.org/1938.13/1938.13_full.tif",
+      "license": "CC0",
+      "model": "Cleveland Museum of Art Open Access",
+      "source_deviation_note": "Wine Vessel (Fu Wu Zun)；馆藏 TIFF 原件的同分辨率 JPEG 浏览版，非 AI 生成。"
+    }
+  }
+}
