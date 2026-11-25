@@ -1,0 +1,43 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    3240,
+    3599
+  ],
+  "sources": [
+    "https://www.sonypictures.com/movies/thedavincicode",
+    "https://origin.www.wga.org/the-guild/about-us/history/past-presidents",
+    "https://www.bfi.org.uk/film/da87ba82-d49e-5d79-a010-eabdb1bd1a27/the-dresser",
+    "https://www.u2.com/blogs/news/sneak_preview__u23d_4428"
+  ],
+  "decisions": [
+    {
+      "wid": "src-5d533a451a281628",
+      "previous": "film-ai/src-5d533a451a281628.jpg",
+      "replacement": "film-ai/quality-reviewed/src-5d533a451a281628.png",
+      "reason": "Producer John Calley portrait instead of Da Vinci Code mystery scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-5e338e3dbb57b263",
+      "previous": "film-ai/src-5e338e3dbb57b263.jpg",
+      "replacement": "film-ai/quality-reviewed/src-5e338e3dbb57b263.png",
+      "reason": "Unrelated studio headshot instead of Member of the Wedding story",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-5e38b7b113ba59cb",
+      "previous": "film-ai/src-5e38b7b113ba59cb.jpg",
+      "replacement": "film-ai/quality-reviewed/src-5e38b7b113ba59cb.png",
+      "reason": "Framed actor headshot instead of The Dresser theatrical drama",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-5fe7efd6415d2d39",
+      "previous": "film-ai/src-5fe7efd6415d2d39.jpg",
+      "replacement": "film-ai/quality-reviewed/src-5fe7efd6415d2d39.png",
+      "reason": "Festival red-carpet photo instead of U2 3D concert film",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
