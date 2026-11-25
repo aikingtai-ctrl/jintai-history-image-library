@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-25T10:13:33.551705+00:00",
+  "snapshot_time_utc": "2026-11-25T10:38:23.384559+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -24034,6 +24034,76 @@
       "file": "film-ai/decks/film-src-43fc2aaf16c32c4b.webp",
       "sha256": "46fb03b6a54e0c6a8847b7a5a9e499d4c6701a033a98edcc6fc28d374f12aa15",
       "bytes": 287508,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-ec42b7d05cd890eb",
+      "wid": "src-ec42b7d05cd890eb",
+      "title": "Breathless",
+      "file": "film-ai/decks/film-src-ec42b7d05cd890eb.webp",
+      "sha256": "5b2511d82da808a995e0236e460d2957dac31183d7ff8f3dea8df9b36a1e3ac5",
+      "bytes": 393016,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-4c76057b155752e2",
+      "wid": "src-4c76057b155752e2",
+      "title": "Flashdance",
+      "file": "film-ai/decks/film-src-4c76057b155752e2.webp",
+      "sha256": "acf8518fe565a7ef9a6812f915cf173d9588711487ad3452ba4be8d46cdc3594",
+      "bytes": 253146,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-f528e97ddb3a3b74",
+      "wid": "src-f528e97ddb3a3b74",
+      "title": "Yentl",
+      "file": "film-ai/decks/film-src-f528e97ddb3a3b74.webp",
+      "sha256": "5f5e6a576ac2dd4e5bffba15f4f5b6eeec8184b892a191330be31668c0e8b151",
+      "bytes": 187086,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-167a30cc6566e855",
+      "wid": "src-167a30cc6566e855",
+      "title": "Star 80",
+      "file": "film-ai/decks/film-src-167a30cc6566e855.webp",
+      "sha256": "e3fd49a7fc9574f42069f1f0c7f2923dfa36db5a551cf74c095aef0b035d8301",
+      "bytes": 136644,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-b487e8aa5e1e4007",
+      "wid": "src-b487e8aa5e1e4007",
+      "title": "Never Say Never Again",
+      "file": "film-ai/decks/film-src-b487e8aa5e1e4007.webp",
+      "sha256": "ff5a6eddb2e8c609889a6d0596923efc995991ef750c32f8c8a634ccad454981",
+      "bytes": 272162,
       "size": [
         1672,
         941
