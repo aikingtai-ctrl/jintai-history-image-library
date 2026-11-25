@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>(function(){var H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3';var k='jt_gate';function getSaved(){try{if(localStorage.getItem(k)===H)return true;}catch(e){}try{if(sessionStorage.getItem(k)===H)return true;}catch(e){}return false;}function saveOk(){try{localStorage.setItem(k,H);}catch(e){}try{sessionStorage.setItem(k,H);}catch(e){}}if(getSaved()){document.documentElement.setAttribute('data-jt-ok','1');return;}var st=document.createElement('style');st.id='jt_gate_css';st.textContent='html:not([data-jt-ok="1"]) body{display:none!important}';document.documentElement.appendChild(st);document.documentElement.style.visibility='hidden';function shaPure(ascii){function rr(v,a){return(v>>>a)|(v<<(32-a));}var bytes=[],i,j;if(typeof TextEncoder!=='undefined'){bytes=Array.from(new TextEncoder().encode(ascii));}else{for(i=0;i<ascii.length;i++){var c=ascii.charCodeAt(i);if(c<128)bytes.push(c);else if(c<2048)bytes.push(192|(c>>6),128|(c&63));else bytes.push(224|(c>>12),128|((c>>6)&63),128|(c&63));}}var bitLen=bytes.length*8;bytes.push(0x80);while((bytes.length%64)!==56)bytes.push(0);var hi=Math.floor(bitLen/4294967296),lo=bitLen>>>0;bytes.push((hi>>>24)&255,(hi>>>16)&255,(hi>>>8)&255,hi&255,(lo>>>24)&255,(lo>>>16)&255,(lo>>>8)&255,lo&255);var K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];var H0=[0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];for(i=0;i<bytes.length;i+=64){var W=new Array(64);for(j=0;j<16;j++)W[j]=((bytes[i+j*4]<<24)|(bytes[i+j*4+1]<<16)|(bytes[i+j*4+2]<<8)|bytes[i+j*4+3])>>>0;for(j=16;j<64;j++){var s0=rr(W[j-15],7)^rr(W[j-15],18)^(W[j-15]>>>3);var s1=rr(W[j-2],17)^rr(W[j-2],19)^(W[j-2]>>>10);W[j]=(W[j-16]+s0+W[j-7]+s1)>>>0;}var a=H0[0],b=H0[1],c=H0[2],d=H0[3],e=H0[4],f=H0[5],g=H0[6],h=H0[7];for(j=0;j<64;j++){var S1=rr(e,6)^rr(e,11)^rr(e,25),ch=(e&f)^((~e)&g),t1=(h+S1+ch+K[j]+W[j])>>>0;var S0=rr(a,2)^rr(a,13)^rr(a,22),maj=(a&b)^(a&c)^(b&c),t2=(S0+maj)>>>0;h=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=b;b=a;a=(t1+t2)>>>0;}H0[0]=(H0[0]+a)>>>0;H0[1]=(H0[1]+b)>>>0;H0[2]=(H0[2]+c)>>>0;H0[3]=(H0[3]+d)>>>0;H0[4]=(H0[4]+e)>>>0;H0[5]=(H0[5]+f)>>>0;H0[6]=(H0[6]+g)>>>0;H0[7]=(H0[7]+h)>>>0;}return H0.map(function(x){return('00000000'+x.toString(16)).slice(-8);}).join('');}async function sha(s){try{if(window.crypto&&crypto.subtle&&typeof TextEncoder!=='undefined'){var b=new TextEncoder().encode(s);var d=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(d)).map(function(x){return x.toString(16).padStart(2,'0');}).join('');}}catch(e){}return shaPure(s);}function lockDom(){window.__SHARD__=window.__IDX_BATCH__=window.__VISUAL_INDEX__=window.__VISUAL_WORKS__=window.apply=window.render=window.loadAll=function(){};document.querySelectorAll('script[src]').forEach(function(s){s.onload=s.onerror=null;if(s.parentNode)s.parentNode.removeChild(s);});if(!document.body){var b=document.createElement('body');document.documentElement.appendChild(b);}document.body.innerHTML='<div id="jt_lock_box" style="font:19pt/1.65 Microsoft YaHei,PingFang SC,sans-serif;padding:36px 24px;color:#1d3338;max-width:680px;margin:42px auto;background:#fff;border:2px solid #284b45;border-radius:14px;text-align:center;box-shadow:0 10px 28px rgba(0,0,0,.08)"><div style="font-size:23pt;font-weight:bold;color:#1d3338;margin-bottom:10px">金泰 AI · 中国历史文化图库</div><div style="font-size:15.5pt;color:#4a5d54;margin-bottom:22px">请输入内部访问口令进入检索系统（手机微信 / 浏览器验证一次即可自动记住）</div><div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;max-width:500px;margin:0 auto"><input id="jt_pw_box" type="password" placeholder="请输入访问口令" autocomplete="current-password" style="flex:1;min-width:210px;font:17pt Microsoft YaHei,sans-serif;padding:11px 14px;border:1.5px solid #6f857b;border-radius:8px;background:#fff;color:#263a40"><button id="jt_pw_btn" type="button" style="font:bold 17pt Microsoft YaHei,sans-serif;padding:11px 26px;background:#284b45;color:#fff;border:none;border-radius:8px;cursor:pointer">验证进入</button></div><div id="jt_pw_err" style="font-size:15pt;color:#8a1c1c;min-height:28px;margin-top:12px"></div></div>';document.documentElement.setAttribute('data-jt-ok','1');document.documentElement.style.visibility='visible';var inp=document.getElementById('jt_pw_box'),btn=document.getElementById('jt_pw_btn'),err=document.getElementById('jt_pw_err');async function tryIn(){var v=(inp.value||'').trim();if(!v){err.textContent='请输入访问口令';return;}var h=await sha(v);if(h===H){saveOk();location.reload();}else{err.textContent='口令不正确，请核对后重试';inp.value='';inp.focus();}}if(btn)btn.onclick=tryIn;if(inp){inp.onkeydown=function(e){if(e.key==='Enter')tryIn();};setTimeout(function(){try{inp.focus();}catch(e){}},60);}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',lockDom,{once:true});}else{lockDom();}})();</script>
+<title>怪奇另类电影集锦 500 部 · 十大美学谱系与镜头提示词档案</title>
+<style>
+html:not([data-jt-ok="1"]) body{display:none!important}
+:root{--bg:#f6f5f1;--card:#ffffff;--ink:#19231f;--muted:#5c6963;--line:#e3dfd6;--accent:#284b45;--cult:#8c2d19;--cult-soft:#faece8;--accent-soft:#eaf3ef}
+*{box-sizing:border-box}
+body{margin:0;font:15.5pt/1.58 "Microsoft YaHei","PingFang SC",sans-serif;background:var(--bg);color:var(--ink)}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+header.topbar{max-width:1620px;margin:0 auto;padding:12px 26px 8px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.brand strong{font-size:18pt;font-weight:700;color:var(--ink)}
+.brand span{font-size:13pt;color:var(--muted)}
+.topnav{display:flex;gap:14px;flex-wrap:wrap;font-size:13.5pt}
+.topnav a{color:var(--muted)}
+.topnav a:hover{color:var(--accent)}
+.sticky-search{position:sticky;top:0;z-index:20;background:rgba(246,245,241,.96);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+.search-wrap{max-width:1620px;margin:0 auto;padding:10px 26px 10px}
+.search-row{display:flex;gap:10px;align-items:center;background:#fff;border:1.5px solid #c9c4b8;border-radius:12px;padding:6px 10px 6px 16px}
+.search-row:focus-within{border-color:var(--accent);box-shadow:0 0 0 3px rgba(40,75,69,.12)}
+.search-row input{flex:1;min-width:180px;border:0;outline:0;font:inherit;font-size:16.5pt;padding:6px 0;background:transparent;color:var(--ink)}
+.search-row button{font:inherit;font-size:14pt;font-weight:600;padding:8px 18px;border-radius:9px;border:0;background:var(--accent);color:#fff;cursor:pointer;white-space:nowrap}
+.pillar-tabs{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.ptab{font:13.5pt "Microsoft YaHei",sans-serif;padding:6px 13px;border-radius:999px;border:1px solid #d4cfc4;background:#fff;color:var(--ink);cursor:pointer;transition:.12s}
+.ptab:hover{border-color:var(--cult)}
+.ptab.on{background:var(--cult);border-color:var(--cult);color:#fff;font-weight:700}
+details.chip-fold{margin-top:8px}
+details.chip-fold summary{cursor:pointer;font-size:13.5pt;color:var(--muted);user-select:none;padding:3px 0}
+.filters-bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:8px;padding:10px 14px;background:#fff;border:1px solid var(--line);border-radius:10px}
+.filters-bar select,.filters-bar button{font:13.5pt "Microsoft YaHei",sans-serif;padding:7px 12px;border:1px solid #c9c4b8;border-radius:8px;background:#fff;color:var(--ink);cursor:pointer}
+.filters-bar button.sec{background:var(--accent-soft);border-color:#b7d1c7;color:var(--accent);font-weight:600}
+main{max-width:1620px;margin:0 auto;padding:12px 26px 48px}
+.status-line{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin:6px 2px 14px;font-size:14pt;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+.grid.v2col{grid-template-columns:repeat(2,minmax(0,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;cursor:pointer;transition:transform .12s,box-shadow .12s,border-color .12s}
+.card:hover{transform:translateY(-2px);border-color:var(--cult);box-shadow:0 8px 20px rgba(30,20,18,.08)}
+.cover-box{position:relative;width:100%;aspect-ratio:16/9;background:#1a171c;overflow:hidden}
+.cover-box img{width:100%;height:100%;object-fit:cover;display:block}
+.dna-poster{width:100%;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:12px;color:#fff;position:relative}
+.dna-strips{position:absolute;inset:0;display:flex}
+.dna-strips span{flex:1;height:100%}
+.dna-label{position:relative;z-index:2;background:rgba(15,15,18,.62);padding:5px 10px;border-radius:7px;font-size:12.5pt;display:inline-block;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.badge-rank{position:absolute;top:8px;left:8px;z-index:3;background:rgba(20,18,22,.78);color:#fff;font-size:12pt;font-weight:700;padding:3px 9px;border-radius:6px}
+.badge-pil{position:absolute;top:8px;right:8px;z-index:3;background:rgba(140,45,25,.9);color:#fff;font-size:12pt;font-weight:600;padding:3px 9px;border-radius:6px}
+.card-body{padding:13px 15px 14px;display:flex;flex-direction:column;gap:6px;flex:1}
+.c-title{font-size:15.5pt;font-weight:700;color:var(--ink);line-height:1.35}
+.c-sub{font-size:13pt;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.c-look{font-size:13.5pt;color:#3d4944;line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:2px}
+.c-foot{margin-top:auto;padding-top:8px;border-top:1px solid #f0ece3;display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12.5pt;color:var(--muted)}
+.pal-dots{display:flex;gap:4px;align-items:center}
+.pal-dots i{display:inline-block;width:15px;height:15px;border-radius:4px;border:1px solid rgba(0,0,0,.15)}
+dialog#dlg{width:min(1040px,95vw);max-height:90vh;border:1px solid #c9c4b8;border-radius:16px;padding:0;background:#fff;color:var(--ink);box-shadow:0 24px 60px rgba(0,0,0,.25)}
+dialog#dlg::backdrop{background:rgba(15,20,18,.58)}
+.dlg-head{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line);padding:16px 22px;display:flex;justify-content:space-between;align-items:flex-start;gap:14px}
+.dlg-head h2{margin:0;font-size:19pt;color:var(--ink)}
+.dlg-close{font:bold 14.5pt "Microsoft YaHei",sans-serif;padding:7px 16px;border-radius:8px;border:1px solid #c9c4b8;background:#faf9f5;cursor:pointer}
+.dlg-body{padding:18px 22px 26px;font-size:14.5pt;line-height:1.6}
+.meta-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;background:#faf8f3;border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:14px}
+.shot-card{background:#faf9f5;border:1px solid var(--line);border-radius:10px;padding:13px 15px;margin-top:12px}
+.shot-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.copy-btn{font:bold 13pt "Microsoft YaHei",sans-serif;padding:6px 14px;border-radius:7px;border:0;background:var(--accent);color:#fff;cursor:pointer}
+.prompt-box{width:100%;min-height:92px;font:13.5pt/1.55 "Microsoft YaHei",sans-serif;padding:9px 11px;border:1px solid #d5cfc2;border-radius:8px;background:#fff;color:var(--ink);resize:vertical}
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#19231f;color:#fff;padding:10px 22px;border-radius:999px;font-size:14pt;z-index:999;display:none}
+@media(max-width:1200px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){header.topbar,.search-wrap,main{padding-left:14px;padding-right:14px}.grid,.grid.v2col{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <a href="portal.html" style="font-size:14pt;font-weight:600">← 专集目录</a>
+    <span>·</span>
+    <strong>怪奇另类电影集锦 500 部</strong>
+    <span id="hdrStat">十大美学谱系 · 影史真片</span>
+  </div>
+  <nav class="topnav">
+    <a href="index.html">全库总检索</a>
+    <a href="film.html">影视参考图集</a>
+    <a href="sources.html">来源目录</a>
+    <a href="更新记录.html">更新记录</a>
+  </nav>
+</header>
+
+<section class="sticky-search">
+  <div class="search-wrap">
+    <div class="search-row">
+      <input id="q" type="search" autofocus autocomplete="off" placeholder="空格多词搜索片名、导演、摄影师、年份、谱系或镜头提示词（如：林奇 梦境、身体恐怖、定格、1977）…">
+      <button id="btnReset" type="button">重置</button>
+    </div>
+    <div class="pillar-tabs" id="pillarTabs"></div>
+    <details class="chip-fold">
+      <summary>细分筛选（年代 · 地域 · 黑白/彩色 · 封面 · 视图 · 导出） ▾</summary>
+      <div class="filters-bar">
+        <select id="fDecade"><option value="">全部年代</option></select>
+        <select id="fRegion"><option value="">全部国家/地区</option></select>
+        <select id="fColor">
+          <option value="">全部影调</option>
+          <option value="bw">仅黑白单色</option>
+          <option value="color">仅彩色</option>
+        </select>
+        <select id="fCover">
+          <option value="">全部片目</option>
+          <option value="1">仅看已有高清参考封面</option>
+        </select>
+        <select id="fView">
+          <option value="4">4 列视图</option>
+          <option value="2">2 列大卡视图</option>
+        </select>
+        <button id="btnExportJson" class="sec" type="button">导出当前 JSON</button>
+        <button id="btnExportCsv" class="sec" type="button">导出当前 CSV</button>
+      </div>
+    </details>
+  </div>
+</section>
+
+<main>
+  <div class="status-line">
+    <div id="statusText">正在加载 500 部怪奇另类电影档案…</div>
+    <div id="pillarDesc" style="color:var(--cult);font-weight:600"></div>
+  </div>
+  <div class="grid" id="grid"></div>
+</main>
+
+<dialog id="dlg">
+  <div class="dlg-head">
+    <div>
+      <h2 id="dlgTitle"></h2>
+      <div id="dlgSub" style="font-size:13.5pt;color:var(--muted);margin-top:3px"></div>
+    </div>
+    <button id="dlgClose" class="dlg-close" type="button">关闭</button>
+  </div>
+  <div class="dlg-body" id="dlgBody"></div>
+</dialog>
+<div class="toast" id="toast">已复制</div>
+
+<script src="weird500_data/weird500.js?v=982cc2a62864"></script>
+<script>
+(()=>{
+const D = window.WEIRD500_DATA || {items:[], pillars:[]};
+const ITEMS = D.items || [];
+const PILLARS = D.pillars || [];
+const IS_GH = /github\.io$/i.test(location.hostname || '');
+const RAW_BASE = 'https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/';
+const $ = id => document.getElementById(id);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let curPillar = '';
+
+function resolveCover(rel) {
+  if (!rel) return '';
+  if (/^https?:/i.test(rel)) return rel;
+  if (IS_GH || location.protocol === 'file:') return RAW_BASE + rel;
+  return rel;
+}
+
+function toast(msg) {
+  const el = $('toast');
+  el.textContent = msg;
+  el.style.display = 'block';
+  clearTimeout(toast._t);
+  toast._t = setTimeout(() => el.style.display = 'none', 1800);
+}
+
+function copyText(txt) {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(txt).then(() => toast('已复制提示词')).catch(() => fallbackCopy(txt));
+  } else fallbackCopy(txt);
+}
+function fallbackCopy(txt) {
+  const ta = document.createElement('textarea');
+  ta.value = txt; document.body.appendChild(ta); ta.select();
+  try { document.execCommand('copy'); toast('已复制提示词'); } catch(e) { toast('请手动复制'); }
+  document.body.removeChild(ta);
+}
+
+function initFilters() {
+  $('hdrStat').textContent = `${ITEMS.length} 部真片 · ${PILLARS.length} 大谱系 · 已有高清封面 ${D.with_cover || 0} 部`;
+  const tabs = [`<button class="ptab on" data-pid="">全部 (${ITEMS.length})</button>`]
+    .concat(PILLARS.map(p => {
+      const c = ITEMS.filter(x => x.pillar_id === p.id).length;
+      return `<button class="ptab" data-pid="${esc(p.id)}">${esc(p.short)} (${c})</button>`;
+    }));
+  $('pillarTabs').innerHTML = tabs.join('');
+  $('pillarTabs').onclick = e => {
+    const btn = e.target.closest('.ptab');
+    if (!btn) return;
+    curPillar = btn.dataset.pid || '';
+    document.querySelectorAll('.ptab').forEach(b => b.classList.toggle('on', b === btn));
+    apply();
+  };
+
+  const decs = Array.from(new Set(ITEMS.map(x => x.decade).filter(Boolean))).sort();
+  $('fDecade').innerHTML = '<option value="">全部年代</option>' + decs.map(d => `<option value="${esc(d)}">${esc(d)}</option>`).join('');
+  const regs = Array.from(new Set(ITEMS.map(x => x.region).filter(Boolean))).sort((a,b) => a.localeCompare(b, 'zh-CN'));
+  $('fRegion').innerHTML = '<option value="">全部国家/地区</option>' + regs.map(r => `<option value="${esc(r)}">${esc(r)}</option>`).join('');
+
+  ['q','fDecade','fRegion','fColor','fCover'].forEach(id => $(id).addEventListener(id === 'q' ? 'input' : 'change', apply));
+  $('fView').onchange = () => $('grid').classList.toggle('v2col', $('fView').value === '2');
+  $('btnReset').onclick = () => {
+    $('q').value = ''; $('fDecade').value = ''; $('fRegion').value = ''; $('fColor').value = ''; $('fCover').value = '';
+    curPillar = '';
+    document.querySelectorAll('.ptab').forEach((b,i) => b.classList.toggle('on', i === 0));
+    apply();
+  };
+  $('btnExportJson').onclick = () => downloadExport('json');
+  $('btnExportCsv').onclick = () => downloadExport('csv');
+}
+
+let currentList = ITEMS;
+function apply() {
+  const tokens = ($('q').value || '').trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const dec = $('fDecade').value, reg = $('fRegion').value, col = $('fColor').value, cov = $('fCover').value;
+  currentList = ITEMS.filter(x => {
+    if (curPillar && x.pillar_id !== curPillar) return false;
+    if (dec && x.decade !== dec) return false;
+    if (reg && x.region !== reg) return false;
+    if (col === 'bw' && !x.bw) return false;
+    if (col === 'color' && x.bw) return false;
+    if (cov === '1' && !x.cover) return false;
+    if (tokens.length) {
+      const hay = [x.t, x.te, x.y, x.dir, x.dp, x.region, x.pillar, x.look, (x.genres||[]).join(' '), x.awards, (x.shots||[]).map(s=>s.scene+' '+s.prompt).join(' ')].join(' ').toLowerCase();
+      if (!tokens.every(tk => hay.includes(tk))) return false;
+    }
+    return true;
+  });
+
+  const pObj = PILLARS.find(p => p.id === curPillar);
+  $('pillarDesc').textContent = pObj ? pObj.desc : '';
+  $('statusText').textContent = `当前显示 ${currentList.length} / ${ITEMS.length} 部`;
+
+  $('grid').innerHTML = currentList.map(x => {
+    const palHtml = (x.pal5 || []).map(c => `<span style="background:${esc(c)}"></span>`).join('');
+    const dotsHtml = (x.pal5 || []).map(c => `<i style="background:${esc(c)}" title="${esc(c)}"></i>`).join('');
+    const covUrl = resolveCover(x.cover);
+    const posterFallback = `<div class="dna-poster"><div class="dna-strips">${palHtml}</div><div class="dna-label">${esc(x.te || x.t)} (${x.y})</div></div>`;
+    const mediaHtml = covUrl
+      ? `<img loading="lazy" src="${esc(covUrl)}" alt="${esc(x.t)}" onerror="this.outerHTML=this.dataset.fb" data-fb="${esc(posterFallback)}">`
+      : posterFallback;
+    return `<article class="card" data-wid="${esc(x.wid)}">
+      <div class="cover-box">
+        <span class="badge-rank">#${String(x.rank).padStart(3,'0')}</span>
+        <span class="badge-pil">${esc(x.pillar_short)}</span>
+        ${mediaHtml}
+      </div>
+      <div class="card-body">
+        <div class="c-title">${esc(x.t)} <span style="font-weight:400;color:var(--muted)">(${x.y})</span></div>
+        <div class="c-sub">${esc(x.te && x.te !== x.t ? x.te + ' · ' : '')}${esc(x.dir || '导演待核')}${x.region ? ' · ' + esc(x.region) : ''}</div>
+        <div class="c-look">${esc(x.look || (x.shots[0] && x.shots[0].scene) || '')}</div>
+        <div class="c-foot">
+          <div class="pal-dots">${dotsHtml}</div>
+          <span>${x.bw ? '黑白 · ' : ''}${x.n} 镜</span>
+        </div>
+      </div>
+    </article>`;
+  }).join('');
+}
+
+$('grid').onclick = e => {
+  const card = e.target.closest('.card');
+  if (!card) return;
+  const x = ITEMS.find(it => it.wid === card.dataset.wid);
+  if (!x) return;
+  openModal(x);
+};
+
+function openModal(x) {
+  $('dlgTitle').textContent = `#${String(x.rank).padStart(3,'0')} ${x.t} (${x.y})`;
+  $('dlgSub').textContent = `${x.te || ''} ｜ ${x.pillar} ｜ ID: ${x.wid}`;
+  const palChips = (x.pal5 || []).map(c => `<span style="display:inline-flex;align-items:center;gap:5px;margin-right:10px"><i style="display:inline-block;width:18px;height:18px;border-radius:4px;background:${esc(c)};border:1px solid #ccc"></i><code>${esc(c)}</code></span>`).join('');
+  const shotsHtml = (x.shots || []).map((s, idx) => `
+    <div class="shot-card">
+      <div class="shot-head">
+        <strong>代表镜头 #${idx + 1} · ${esc(s.id)}</strong>
+        <button class="copy-btn" type="button" data-copy-idx="${idx}">复制提示词</button>
+      </div>
+      ${s.scene ? `<div style="margin-bottom:6px"><b>画面：</b>${esc(s.scene)}</div>` : ''}
+      ${s.analysis ? `<div style="margin-bottom:6px;color:#41504a"><b>视听分析：</b>${esc(s.analysis)}</div>` : ''}
+      <textarea class="prompt-box" readonly>${esc(s.prompt)}</textarea>
+    </div>`).join('');
+  $('dlgBody').innerHTML = `
+    <div class="meta-grid">
+      <div><b>导演：</b>${esc(x.dir || '待核')}</div>
+      <div><b>摄影指导（DP）：</b>${esc(x.dp || '待核')}</div>
+      <div><b>国家/地区：</b>${esc(x.region || '待核')}</div>
+      <div><b>画幅 / 介质：</b>${esc([x.ar, x.format].filter(Boolean).join(' · ') || '待核')}</div>
+      <div><b>摄影机 / 镜头：</b>${esc([x.cam, x.lens].filter(Boolean).join(' / ') || '待核')}</div>
+      <div><b>全库镜头总数：</b>${x.n} 镜</div>
+    </div>
+    <div style="margin-bottom:10px"><b>视觉基调：</b>${esc(x.look || '待核')}</div>
+    ${x.awards ? `<div style="margin-bottom:10px"><b>奖项荣誉：</b>${esc(x.awards)}</div>` : ''}
+    <div style="margin-bottom:12px"><b>五色视觉 DNA：</b>${palChips}</div>
+    <div style="margin-bottom:12px;display:flex;gap:10px;flex-wrap:wrap">
+      <a href="film.html" target="_blank" style="padding:7px 14px;background:var(--accent-soft);border-radius:8px;font-weight:600">在《影视参考图集》检索 →</a>
+      <a href="sources.html" target="_blank" style="padding:7px 14px;background:var(--cult-soft);color:var(--cult);border-radius:8px;font-weight:600">在《来源目录》查看全部 ${x.n} 镜 →</a>
+    </div>
+    ${shotsHtml}`;
+  $('dlgBody').onclick = ev => {
+    const btn = ev.target.closest('.copy-btn');
+    if (!btn) return;
+    const s = (x.shots || [])[Number(btn.dataset.copyIdx)];
+    if (s) copyText(s.prompt);
+  };
+  $('dlg').showModal();
+}
+$('dlgClose').onclick = () => $('dlg').close();
+$('dlg').onclick = e => { if (e.target === $('dlg')) $('dlg').close(); };
+
+function downloadExport(fmt) {
+  let blob, fname;
+  if (fmt === 'json') {
+    blob = new Blob([JSON.stringify(currentList, null, 2)], {type:'application/json;charset=utf-8'});
+    fname = `weird500_export_${currentList.length}.json`;
+  } else {
+    const cols = ['rank','wid','pillar_id','pillar','t','te','y','region','dir','dp','ar','format','look','n'];
+    const escCsv = v => '"' + String(v==null?'':v).replace(/"/g,'""') + '"';
+    const lines = [cols.join(',')].concat(currentList.map(r => cols.map(c => escCsv(r[c])).join(',')));
+    blob = new Blob(['\uFEFF' + lines.join('\r\n')], {type:'text/csv;charset=utf-8'});
+    fname = `weird500_export_${currentList.length}.csv`;
+  }
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = fname;
+  a.click();
+}
+
+initFilters();
+apply();
+})();
+</script>
+</body>
+</html>
