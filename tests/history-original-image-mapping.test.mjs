@@ -19,7 +19,7 @@ assert.equal(Object.values(manifest.JINTAI_PAGE22_IMAGES).filter(item => item.me
 assert.ok(fs.readFileSync(path.join(root, 'index.html'), 'utf8').includes('page22-originals-manifest.js?v=20261125-page22-33'));
 assert.equal(manifest.JINTAI_PAGE22_IMAGES['HT-E20261024-G053'].method, 'museum_open_access_original');
 assert.match(manifest.JINTAI_PAGE22_IMAGES['HT-E20261024-G053'].original, /\.jpg$/);
-assert.equal(Object.keys(gpt).length, 503);
+assert.equal(Object.keys(gpt).length, 505);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
   assert.ok(html.includes(`gpt-image-${Object.keys(gpt).length}`),
@@ -275,6 +275,12 @@ for (const id of ['AR-20261020-0723', 'HL-XIA-AR-0005', 'HL-XIA-AR-0014']) {
   assert.deepEqual([gpt[id].width, gpt[id].height], [1774, 887]);
 }
 assert.match(gpt['HL-XIA-AR-0014'].source_deviation_note, /现代黑白考古测量标尺.*移除标尺.*X 纹/);
+assert.deepEqual([gpt['HL-XIA-PR-0001'].width, gpt['HL-XIA-PR-0001'].height], [1536, 1024]);
+assert.deepEqual([gpt['HL-XIA-PR-0002'].width, gpt['HL-XIA-PR-0002'].height], [2172, 724]);
+for (const id of ['HL-XIA-PR-0001', 'HL-XIA-PR-0002']) {
+  assert.match(gpt[id].source_deviation_note, /AI 重绘示意.*不是博物馆实物照片/);
+  assert.match(gpt[id].source_deviation_note, /移除.*标尺|移除标尺/);
+}
 assert.ok(!gpt['AR-20261021-0054'], 'three failed #454 generations must not be published');
 assert.ok(!gpt['AR-20261021-0070'], 'three failed #470 generations must not be published');
 assert.ok(!gpt['AR-20261020-0779'], 'unaccepted #425 remains outside the manifest');
