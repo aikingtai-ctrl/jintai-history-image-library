@@ -1,0 +1,75 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    6480,
+    6839
+  ],
+  "sources": [
+    "https://www.sansebastianfestival.com/2005/sections_and_films/official_section/7/530008/in",
+    "https://www.criterion.com/films/248-the-battle-of-algiers",
+    "https://www.cfa.org.cn/cfaen/gz/dymlcx/dy/2023060211390352910/index.html",
+    "https://production.a24films.com/films/the-green-knight",
+    "https://www.festival-cannes.com/en/f/le-gamin-au-velo/",
+    "https://www.festival-cannes.com/en/f/la-notte-di-san-lorenzo/",
+    "https://www.focusfeatures.com/the-northman",
+    "https://sede.mcu.gob.es/CatalogoICAA/en-us/Peliculas/Detalle?Pelicula=123503"
+  ],
+  "decisions": [
+    {
+      "wid": "sunflower-2005",
+      "previous": "film-ai/sunflower-2005.jpg",
+      "replacement": "film-ai/quality-reviewed/sunflower-2005.png",
+      "reason": "Sunflower displays a director and actor portrait rather than a story scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "the-battle-of-algiers-1966",
+      "previous": "film-ai/the-battle-of-algiers-1966.jpg",
+      "replacement": "film-ai/quality-reviewed/the-battle-of-algiers-1966.png",
+      "reason": "The Battle of Algiers displays a camera crew on set rather than a story scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "the-black-cannon-incident-1986",
+      "previous": "film-ai/src-wd-q7718271.jpg",
+      "replacement": "film-ai/quality-reviewed/the-black-cannon-incident-1986.png",
+      "reason": "The Black Cannon Incident displays only a title card",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "the-green-knight-2021",
+      "previous": "film-ai/the-green-knight-2021.jpg",
+      "replacement": "film-ai/quality-reviewed/the-green-knight-2021.png",
+      "reason": "The Green Knight displays an unrelated modern portrait",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "the-kid-with-a-bike-2011",
+      "previous": "film-ai/the-kid-with-a-bike-2011.jpg",
+      "replacement": "film-ai/quality-reviewed/the-kid-with-a-bike-2011.png",
+      "reason": "The Kid with a Bike displays a portrait of the directors",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "the-night-of-the-shooting-stars-1982",
+      "previous": "film-ai/the-night-of-the-shooting-stars-1982.jpg",
+      "replacement": "film-ai/quality-reviewed/the-night-of-the-shooting-stars-1982.png",
+      "reason": "The Night of the Shooting Stars displays a camera crew on set",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "the-northman-2022",
+      "previous": "film-ai/the-northman-2022.jpg",
+      "replacement": "film-ai/quality-reviewed/the-northman-2022.png",
+      "reason": "The Northman displays an unrelated modern portrait",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "the-sea-inside-2004",
+      "previous": "film-ai/the-sea-inside-2004.jpg",
+      "replacement": "film-ai/quality-reviewed/the-sea-inside-2004.png",
+      "reason": "The Sea Inside displays a director instructing an actor on set",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
