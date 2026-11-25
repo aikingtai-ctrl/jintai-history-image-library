@@ -1,0 +1,89 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    4320,
+    4679
+  ],
+  "sources": [
+    "https://catalog.afi.com/Film/57674-ENEMY-MINE",
+    "https://player.bfi.org.uk/free/film/watch-polio-diagnosis-and-management-1948-online",
+    "https://hellenicfilmsociety.org/past-events/michael-cacoyannis-retrospective",
+    "https://www.archives.nysed.gov/research/motion-picture-division-index",
+    "https://www.universalpicturesathome.com/movies/baby-mama",
+    "https://www.3continents.com/fr/film/baara/",
+    "https://www.labiennale.org/en/cinema/2020/venezia-77-competition/nuevo-orden",
+    "https://www.goldenhorse.org.tw/awards/nw/?ins=45&sc=8&search_regist_year=1972&serach_type=aw"
+  ],
+  "decisions": [
+    {
+      "wid": "src-9d743b96a31c0b1f",
+      "previous": "film-ai/src-9d743b96a31c0b1f.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9d743b96a31c0b1f.png",
+      "reason": "Modern television interview for a 1949 film entry; historical immigration concept kept generic because plot unverified",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-9d9d0fa31b6e8e01",
+      "previous": "film-ai/src-9d9d0fa31b6e8e01.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9d9d0fa31b6e8e01.png",
+      "reason": "Enemy Mine director and actor behind-the-scenes photo instead of story scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-9dc1756b08be512d",
+      "previous": "film-ai/src-9dc1756b08be512d.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9dc1756b08be512d.png",
+      "reason": "Modern video podcast instead of 1948 Polio training film imagery",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-9de87ec505bca6e5",
+      "previous": "film-ai/src-9de87ec505bca6e5.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9de87ec505bca6e5.png",
+      "reason": "Camera operator filming a director instead of House of Numbers documentary interview scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-9e3b2fbebb72199b",
+      "previous": "film-ai/src-9e3b2fbebb72199b.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9e3b2fbebb72199b.png",
+      "reason": "Stella end-title card obscures the frame",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-9e4383d76cbfe042",
+      "previous": "film-ai/src-9e4383d76cbfe042.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9e4383d76cbfe042.png",
+      "reason": "Modern actress headshot instead of 1935 Metropolitan Nocturne scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-9f0cf23b91d9adf3",
+      "previous": "film-ai/src-9f0cf23b91d9adf3.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9f0cf23b91d9adf3.png",
+      "reason": "Director, film camera, and actors on Baby Mama set instead of story scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-a083a889ca7448ce",
+      "previous": "film-ai/src-a083a889ca7448ce.jpg",
+      "replacement": "film-ai/quality-reviewed/src-a083a889ca7448ce.png",
+      "reason": "Baara portrait-format placeholder with blank yellow title box",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-a3588371f40de24d",
+      "previous": "film-ai/src-a3588371f40de24d.jpg",
+      "replacement": "film-ai/quality-reviewed/src-a3588371f40de24d.png",
+      "reason": "Nuevo orden red-carpet group photo instead of wedding uprising scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-aaa9267d1717e6c7",
+      "previous": "film-ai/src-aaa9267d1717e6c7.jpg",
+      "replacement": "film-ai/quality-reviewed/src-aaa9267d1717e6c7.png",
+      "reason": "Modern publicity poster unrelated to early-1970s Taiwanese 真假千金",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
