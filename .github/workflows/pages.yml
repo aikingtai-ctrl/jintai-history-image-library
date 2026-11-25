@@ -216,7 +216,7 @@ jobs:
                       "image-audit.json", "verification.json", "verification-batch2.json",
                   }
                   # History thumbnails are served from GitHub Raw (+ testingcf fallback), not Pages.
-                  if name not in history_files and not rel.startswith("history-ai/page21-museum-originals/"):
+                  if name not in history_files and not rel.startswith(("history-ai/page21-museum-originals/", "history-ai/page22-museum-originals/")):
                       continue
               selected.append(rel)
 

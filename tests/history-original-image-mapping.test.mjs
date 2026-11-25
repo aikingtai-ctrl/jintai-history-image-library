@@ -14,6 +14,7 @@ const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
 assert.equal(Object.keys(manifest.JINTAI_PAGE22_IMAGES).length, 18);
+assert.equal(Object.values(manifest.JINTAI_PAGE22_IMAGES).filter(item => item.original.includes('/page22-museum-originals/')).length, 6);
 assert.equal(manifest.JINTAI_PAGE22_IMAGES['HT-E20261024-G053'].method, 'museum_open_access_original');
 assert.match(manifest.JINTAI_PAGE22_IMAGES['HT-E20261024-G053'].original, /\.jpg$/);
 assert.equal(Object.keys(gpt).length, 500);
