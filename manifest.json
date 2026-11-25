@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "1050-78406f694d7f",
+  "revision": "1058-7c45706caed0",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -8403,6 +8403,70 @@
       "width": 1312,
       "height": 1199,
       "sha256": "78406f694d7ffe541b0d1b64f11404927978a4dd575557f33892f83ebcbfc5a5"
+    },
+    "HL-LIAO-FA-0072": {
+      "title": "辽代前期契丹武士·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-FA-0072.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-FA-0072.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "dc6b813bb5537de5fb4ae0e9c13c8551527ed1b75775c1d7d1afcdb62c19dce4"
+    },
+    "HL-LIAO-FA-0073": {
+      "title": "辽代前期契丹武士·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-FA-0073.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-FA-0073.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "6c66e064dd1f327b4206fcc9d58b5b3b42fbd5c4e746ea8f89cd5b0246de26b5"
+    },
+    "HL-LIAO-FA-0074": {
+      "title": "辽代中期契丹公主·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-FA-0074.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-FA-0074.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "055626d1327e361d22118b8db09b32058640a521a1873d758b756623fe539bf1"
+    },
+    "HL-JINGUO-FA-0078": {
+      "title": "金代前期女真将领·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0078.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0078.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "7681a47e150ecc1360b5752ed37aa309b0394eb18ab75ad912ae91110cc62204"
+    },
+    "HL-JINGUO-FA-0079": {
+      "title": "金代前期女真将领·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0079.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0079.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "fd3cede57633102408e8fae00b68c911076166c8f51b7c1de200ce6a9ea1e7f1"
+    },
+    "HL-JINGUO-FA-0080": {
+      "title": "金代中期女真贵族服饰·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0080.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0080.png",
+      "width": 1292,
+      "height": 1217,
+      "sha256": "102f11720a0fd19b67ca904681c1d12256780f394fa55ee7d17b7cd31302f9ca"
+    },
+    "HL-JINGUO-FA-0081": {
+      "title": "金代中期女真贵族服饰·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0081.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0081.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "ffff48819f1f28bd936cd91b59c6882556e9479fe8bdef10c2d2e2a1aab6fc28"
+    },
+    "HL-JINGUO-FA-0082": {
+      "title": "金代中期女真贵妇服饰·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0082.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0082.png",
+      "width": 1290,
+      "height": 1219,
+      "sha256": "7c45706caed0e89e2b7996668a0644b6c2c7791913aaaa92ddd3a7efc7d3a314"
     }
   }
 }
