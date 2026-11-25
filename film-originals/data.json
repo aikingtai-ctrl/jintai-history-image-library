@@ -1,6 +1,6 @@
 {
   "collected": 20000,
-  "published": 18403,
+  "published": 18409,
   "target": 20000,
   "generationMethod": "内置 imagegen（已公开 PNG）",
   "sourceRevision": "ff8a38bd8a7e87d1689ce3f81c4d930c69d6dcb1",
@@ -180759,10 +180759,17 @@
       "title": "Alfred Kubin - Magier der Zeichnung",
       "alternateTitle": "",
       "year": 1958,
-      "scene": null,
-      "prompt": null,
-      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/ff8a38bd8a7e87d1689ce3f81c4d930c69d6dcb1/film-ai/src-8021202771ede295.jpg",
-      "png": null
+      "scene": "AI内容参考图（非原片首镜）：依据1958年同期评论记载的采访事件创作；黑白画面中，单个匿名成年采访者与画外对象交流。年龄、背景、机位、服装、姿态和光线为创意默认，不冒称Carl Lamb本人肖像或影片开场。",
+      "prompt": "Use case: historical-scene. Create one original black-and-white AI reference image grounded in a specific event documented in the contemporary 1958 review of Alfred Kubin - Magier der Zeichnung, directed by Carl Lamb: at some point in the biographical first part, the director appears on camera as an interviewer. Show a single anonymous fictional middle-aged male interviewer in a plain mid-1950s suit and collared shirt, in a restrained medium view, turned slightly toward an unseen person outside the picture and engaged in conversation. Keep the interviewee outside the image; the written source does not identify that person or establish a two-person shot. Use a plain unadorned interior, neutral soft light and a simple understated pose as creative defaults because the source gives no composition, clothes, location or lighting details. Landscape composition with a 1.37:1 aspect ratio, subtle monochrome 35mm texture. The adult interviewer’s apparent age is a creative default. No artist drawing, artworks, studio props, landscapes, microphone, text, credits, titles, logos or watermark. This is an original reconstruction of a documented nonopening interview event, not a verified opening, an authentic frame, a portrait likeness of Carl Lamb or a claim that Kubin is being interviewed.",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/be620bdf27f466353a40115b9278ad76f715e061/film-ai/originals-corrections/src-8021202771ede295-76fa7bd17877.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h7/76fa7bd17877574a9d912d9d4a1eac4b2215b6cb04d75225193c0d147dbb6d52.png",
+        "filename": "76fa7bd17877574a9d912d9d4a1eac4b2215b6cb04d75225193c0d147dbb6d52.png",
+        "width": 1467,
+        "height": 1072,
+        "bytes": 2106469,
+        "sha256": "76fa7bd17877574a9d912d9d4a1eac4b2215b6cb04d75225193c0d147dbb6d52"
+      }
     },
     {
       "ordinal": 10224,
@@ -184753,10 +184760,17 @@
       "title": "Le monde des Marais",
       "alternateTitle": "",
       "year": 1963,
-      "scene": null,
-      "prompt": null,
-      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/ff8a38bd8a7e87d1689ce3f81c4d930c69d6dcb1/film-ai/src-839c5bcb4b705c1d.jpg",
-      "png": null
+      "scene": "AI内容参考图（非原片首镜）：依据发行方官方生态简介创作的原创湿地生态画面，呈现两栖动物、湿地鸟类与昆虫的自然内容；具体动物外观、构图、环境细节、机位和光线为创意默认，不代表原片某个镜头。",
+      "prompt": "Use case: photorealistic-natural. Create exactly one original colour AI ecology content-reference image for Le monde des Marais / Bog’s World (1963), directed by Guy Dhuit. The official distributor synopsis concerns the small world of marshes: insects, amphibians and birds. The user explicitly authorizes an original content reference, not a reconstruction of any original opening shot or film frame. Show one coherent continuous natural wetland-edge scene: an amphibian resting near the foreground waterline, a small wetland bird farther along the same shoreline and an insect resting on a nearby reed. Water, reeds and muddy shore form a single believable habitat, with no collage, panels or composite scenes. Use generic plausible animal appearances without claiming any particular species or location documented in the film. Natural photographic colour and texture, 16:9 landscape, soft daylight and a low naturalistic camera position; all specific composition, animal appearances, environment details, camera and light are creative defaults. No people, anthropomorphism, cartoon animals, text, title, credits, logos or watermark. This is AI内容参考图（非原片首镜）; communicate that in catalogue metadata, not as an overlay in the image.",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/be620bdf27f466353a40115b9278ad76f715e061/film-ai/originals-corrections/src-839c5bcb4b705c1d-70b32a8c537c.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h7/70b32a8c537c14a2c15009168f4b33ad72c63f7b47d88e7a73f6b7f07e4d4b35.png",
+        "filename": "70b32a8c537c14a2c15009168f4b33ad72c63f7b47d88e7a73f6b7f07e4d4b35.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2625485,
+        "sha256": "70b32a8c537c14a2c15009168f4b33ad72c63f7b47d88e7a73f6b7f07e4d4b35"
+      }
     },
     {
       "ordinal": 10540,
@@ -186225,11 +186239,18 @@
       "wid": "src-850d400c4d62846e",
       "title": "Birju",
       "alternateTitle": "",
-      "year": null,
-      "scene": null,
-      "prompt": null,
-      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/ff8a38bd8a7e87d1689ce3f81c4d930c69d6dcb1/film-ai/src-850d400c4d62846e.jpg",
-      "png": null
+      "year": 2002,
+      "scene": "AI剧照参考图（首镜未核）：依据柏林电影节2003官方节目册所刊《Birju》(2002)剧照重绘；右侧男孩穿棕酒红横纹毛衣与浅色领衬衫，左侧褪色蓝旧木门及锈锁片，右侧白墙。",
+      "prompt": "Use case: photorealistic-natural. Asset type: original AI reference-still recreation for the public20k film catalogue. Recreate the composition and visible clothing of the first narrative-film publicity still in the Berlinale 2003 official programme PDF for Birju (2002), directed by Heeraz Marfatia. This is a festival reference still, not a verified opening frame. Landscape 3:2, chest-up portrait of an anonymous four-year-old Indian boy on the right half of the image, looking directly toward the camera with a quiet, serious expression. Short dark hair neatly combed to one side. Fully clothed in a dark brown-maroon knitted sweater with thin blue, white and grey horizontal stripes across the chest, over a pale narrow-striped collared shirt. A weathered bright faded-blue wooden double door occupies most of the left and centre background, its cracked peeling paint and rusty iron latch plate near the upper left clearly visible; a narrow rough whitewashed wall at the far right. Natural soft daylight, slight grain and modest contrast reminiscent of a 35mm colour publicity print. Preserve this simple scene and framing. No other people, no text, title, credits, logos, border or watermark.",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/be620bdf27f466353a40115b9278ad76f715e061/film-ai/originals-corrections/src-850d400c4d62846e-26052eb2dbaa.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h2/26052eb2dbaadcecb0f0c174692a47e78d09ab7029772b705f2f507d7319017d.png",
+        "filename": "26052eb2dbaadcecb0f0c174692a47e78d09ab7029772b705f2f507d7319017d.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 3352709,
+        "sha256": "26052eb2dbaadcecb0f0c174692a47e78d09ab7029772b705f2f507d7319017d"
+      }
     },
     {
       "ordinal": 10658,
@@ -191215,10 +191236,17 @@
       "title": "Sogno a Venezia",
       "alternateTitle": "",
       "year": 1958,
-      "scene": null,
-      "prompt": null,
-      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/ff8a38bd8a7e87d1689ce3f81c4d930c69d6dcb1/film-ai/src-8a435d49ddd680c9.jpg",
-      "png": null
+      "scene": "AI剧情参考图（非已核原片首镜）：依据1958年生产方送审梗概最早剧情事件重绘；普通着装的Tonino在儿童化装舞会入口因未穿戏服被拒，门内可见化装儿童；具体机位、服装、门卫与光线为创意默认。",
+      "prompt": "Use case: historical-scene. Create one original colour cinematic AI reference image for Sogno a Venezia (1958), directed by Nino Zucchelli, based on the earliest plot event in its producer-submitted 1958 synopsis: Tonino, a museum custodian’s young son, tries to enter a children’s masked carnival ball but is refused because he is not wearing a costume. Show a single scene at the entrance to a modest Venetian hall: an anonymous school-age Italian boy in ordinary mid-1950s shirt, cardigan and trousers stands at the threshold looking into the ball, while an anonymous adult attendant gently indicates he cannot enter with an open-palm gesture. A few fully clothed children in carnival costumes and simple masks are visible inside. The boy himself has no mask or fancy-dress costume yet. Use a 16:9 eye-level medium-wide composition, gentle daylight at the doorway and warm light indoors as creative defaults. Exact original framing, clothing, light and attendant appearance are unverified. Natural mid-century colour-film texture, restrained expressions. No gondola, fantasy journey, museum painting or composite of later events. No text, signs, titles, credits, logos or watermark. This is a single AI reference scene grounded in the earliest plot event, not an authentic film frame or verified first camera shot.",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/be620bdf27f466353a40115b9278ad76f715e061/film-ai/originals-corrections/src-8a435d49ddd680c9-915cd99bb3b5.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h9/915cd99bb3b5b0fe35db847aa442b261260b3a5018c4abf3b20a452b7ec2fb10.png",
+        "filename": "915cd99bb3b5b0fe35db847aa442b261260b3a5018c4abf3b20a452b7ec2fb10.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2446739,
+        "sha256": "915cd99bb3b5b0fe35db847aa442b261260b3a5018c4abf3b20a452b7ec2fb10"
+      }
     },
     {
       "ordinal": 11060,
@@ -192006,12 +192034,19 @@
       "ordinal": 11126,
       "wid": "src-8b140c3ac56cfe76",
       "title": "巫山春回",
-      "alternateTitle": "Ingmar Bergman Makes a Movie",
+      "alternateTitle": "第二春 / The Second Spring",
       "year": 1963,
-      "scene": null,
-      "prompt": null,
-      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/ff8a38bd8a7e87d1689ce3f81c4d930c69d6dcb1/film-ai/src-8b140c3ac56cfe76.jpg",
-      "png": null
+      "scene": "AI海报构图参考图（非原片首镜）：依据Letterboxd所示《巫山春回／第二春》(1963)海报构图重绘；橙黄背景、顶部白色片名、左下女像／右下男像、下中侧面女像及上中站立男女；原海报发行权属未核，不称官方发行海报。",
+      "prompt": "Use case: stylized-concept. Asset type: original AI poster-reference recreation for 巫山春回 / 第二春 / The Second Spring (1963), directed by Lo Chen. Use the attached image only as a visual poster reference; it is not an opening frame. Create a portrait 2:3 vintage photographic collage with a warm orange and yellow softly mottled watercolour background. Near the top, one large white geometric Chinese title line reading exactly 巫山春回. Below it, retain the visible arrangement: a large dark-haired adult woman bust in the lower left looking toward the left, a large dark-haired adult man portrait at lower right looking up toward the left; a smaller adult woman in profile near the bottom centre looking right; a much smaller standing adult couple near the upper centre, a woman in a patterned knee-length dress and a man in a yellow-ochre shirt and dark trousers facing one another. Use anonymous fictional East Asian adults, all dressed in modest early-1960s clothing. Preserve this image arrangement, warm palette and simple title treatment. Add no other lettering, names, credits, logos, captions, border or watermark. This is an AI recreation of the observed title-poster composition, not an authentic historical poster or verified film frame.",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/be620bdf27f466353a40115b9278ad76f715e061/film-ai/originals-corrections/src-8b140c3ac56cfe76-e6d969514017.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-he/e6d96951401716dc10f2cd2bd2ce99666c19d02b3be4dbf0d6c10d842192e6dd.png",
+        "filename": "e6d96951401716dc10f2cd2bd2ce99666c19d02b3be4dbf0d6c10d842192e6dd.png",
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2577769,
+        "sha256": "e6d96951401716dc10f2cd2bd2ce99666c19d02b3be4dbf0d6c10d842192e6dd"
+      }
     },
     {
       "ordinal": 11127,
@@ -193942,10 +193977,17 @@
       "title": "Barboni",
       "alternateTitle": "",
       "year": 1946,
-      "scene": null,
-      "prompt": null,
-      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/ff8a38bd8a7e87d1689ce3f81c4d930c69d6dcb1/film-ai/src-8cf5327e54724ef4.jpg",
-      "png": null
+      "scene": "AI场景参考图（依据官方开场段落文字，原片首镜画面未核）：依据都灵电影节所录《Barboni》(1946)首段文字重绘，低机位仰拍新建住宅楼；具体立面、机位尺度、16:9与光线为创意默认，未验证原片逐帧构图。",
+      "prompt": "Use case: historical-scene. Create one original AI cinematic reference image for the opening sequence of Barboni (1946), directed by Dino Risi, based only on the first-shot description recorded by Torino Film Festival: the camera looks from below upward at newly built large apartment blocks. Show a single upward-looking exterior view of substantial new apartment buildings in mid-1940s Milan, their facades rising above the low camera. Black-and-white photographic image, a restrained documentary feeling. Use 16:9 as a catalogue format and soft neutral daylight as creative defaults; the exact original frame, facade geometry and lighting have not been verified. No added people, shacks, rubble tableau or composite scene. No text, captions, titles, credits, logos or watermark. This is a text-grounded AI reconstruction, not an authentic frame or a claim of frame-by-frame fidelity.",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/be620bdf27f466353a40115b9278ad76f715e061/film-ai/originals-corrections/src-8cf5327e54724ef4-772a40608566.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h7/772a40608566070a028704438729a407587f598ff94b3ae4d27a3a4fa1eda7b8.png",
+        "filename": "772a40608566070a028704438729a407587f598ff94b3ae4d27a3a4fa1eda7b8.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2853849,
+        "sha256": "772a40608566070a028704438729a407587f598ff94b3ae4d27a3a4fa1eda7b8"
+      }
     },
     {
       "ordinal": 11285,
