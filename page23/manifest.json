@@ -466,6 +466,34 @@
       "source_deviation_note": "北京市文物局所载研究讨论宁城南山根夏家店上层文化多类青铜短剑，赤峰市政府资料记南山根墓地发掘。图为北方青铜时代行旅与器物概念场景；曲刃剑、马具与特定战车的组合及“山戎铁骑”身份未获该资料证实，人物骑乘亦为推测，不应视作实物复原。",
       "nas_period": "春秋"
     },
+    "HT-W20261102B-G004": {
+      "title": "【20261102九大板块54格全满135与全库66格满130考证】西周早期营建天下之中大典“周成王五年周公旦召公奭相宅洛邑营建新邑成周、铸‘何尊’铭刻‘宅兹中国’册命宗室事件”（事件类）（宝鸡青铜器博物院·10景）",
+      "original": "images/HT-W20261102B-G004.png",
+      "preview": "previews/HT-W20261102B-G004.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4805d6637b660e696780dabbea51dfab1ffbf90b7732c7847b69835cdfd58466",
+      "source_prompt": "Create one photorealistic historical film concept still, horizontal 16:9, in an early Western Zhou bronze workshop near the new eastern city of Chengzhou. A skilled bronze caster and a young noble stand over a freshly cast ritual zun vessel cooling beside fired clay piece-molds while workers tend a modest furnace in the background; through an open timber doorway, low rammed earth construction can be seen. This visual links the He zun inscription to the planning of Chengzhou symbolically, without copying the actual artifact, inventing legible bronze text or claiming exact eyewitness chronology. Historically plausible early Zhou simple robes and tied hair, warm furnace light, no later imperial architecture, no museum, no readable writing, no modern tools.\n[Edit] Edit the supplied historical bronze-workshop scene while preserving its composition, lighting, people, furnace, vessel and clay molds. Replace the young noble's tall metallic crown with a simple bound topknot or plain narrow cloth headband plausible for early Western Zhou. Remove the distant hanging banners with pseudo characters completely; make the background beyond the workshop only low rammed-earth building work and plain timber structures. Keep the bronze vessel uninscribed and do not add any readable or pseudo writing. Maintain horizontal 16:9 photorealistic appearance.",
+      "source": "https://www.saac.gov.cn/mowcn/cn/6sbs/202512/3ab95315183f4f9a894b60a85cacaf75.shtml",
+      "evidence_level": "B",
+      "method": "reference_edit",
+      "source_deviation_note": "何尊122字铭文与成周营建有实物依据；图把青铜作坊和筑城作象征性并置，人物、作坊、铸造时间及器形均为艺术复原，非何尊原件或史料所载的同一现场。初稿高冠与伪文旗帜已编辑去除。",
+      "nas_period": "西周"
+    },
+    "HT-W20261102B-G005": {
+      "title": "【20261102九大板块54格全满135与全库66格满130考证】西周晚期宣王中兴北御玁狁凯旋“周宣王五年尹吉甫兮甲率王师六师北征玁狁直抵彭衙洛水、成周宣榭册赏铸‘兮甲盘’纪功事件”（事件类）（中国国家博物馆·10景）",
+      "original": "images/HT-W20261102B-G005.png",
+      "preview": "previews/HT-W20261102B-G005.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5e763723f8ff78eb4b54b3045fdf133b7a1bea45b44827b4bd79f3be53511e55",
+      "source_prompt": "Create a single photorealistic historical film concept still, horizontal 16:9, of a Western Zhou court award after King Xuan's northern campaign. A returning commander in simple armor kneels in a timber hall while a royal envoy offers four horses visible in the open courtyard behind; attendants hold an uninscribed bronze pan as a symbolic commemorative vessel. The Xijia pan inscription records a campaign against Xianyun and royal rewards, but the picture is a conceptual scene, not a literal transcription, artifact replica, exact place or historically identified portrait. Restrained early Zhou clothing, timber columns and earthen floor, natural side light, no later dynastic court hats, no legible characters, no modern props.\n[Edit] Edit this Western Zhou court award scene while preserving the people, bronze pan, four horses, timber hall and lighting. Remove all flags or banners bearing pseudo writing, glyphs or emblems; any textile hangings should be undecorated. Replace any tall later-dynasty hairstyle or headwear with simple tied hair appropriate to Western Zhou. Keep the bronze pan without legible inscriptions and do not introduce any text. Photorealistic horizontal 16:9.",
+      "source": "https://www.cuhk.edu.hk/ics/journal/articles/v30p115.pdf",
+      "evidence_level": "B",
+      "method": "reference_edit",
+      "source_deviation_note": "兮甲盘133字铭文涉及北伐猃狁与受赏，但画面中的马匹、赐赏礼仪和铜盘均为概念艺术复原，不是确定的册命现场或馆藏原件。条目所述彭衙洛水具体进军地点及国家博物馆馆藏归属未获核实。",
+      "nas_period": "西周"
+    },
     "HT-W20261103B-G003": {
       "title": "【20261103全库66格全破150与九大板块54格满154考证】西周早期至中期周原与宗周王畿礼乐交通大动脉“陕西岐山扶风周原遗址凤雏云塘石铺路面排水沟、周道列树邮亭与渭水横桥津渡车马配套”（配套类）（周原博物院与陕西历史博物馆·10景）",
       "original": "images/HT-W20261103B-G003.png",
@@ -479,6 +507,34 @@
       "method": "text_generation",
       "source_additional": "https://wwj.baoji.gov.cn/zzzb/wbyw/202508/t20250825_1200869.html",
       "source_deviation_note": "宝鸡市文物局记周原考古新发现道路、水系，并介绍云塘村附近西周人工蓄水池。画面是聚落道路、排水沟及小桥的艺术复原，凤雏至云塘的石铺路线、周道列树、邮亭和渭水横桥的直接配套未获独立证实；牛车与路面细节为推测。",
+      "nas_period": "西周"
+    },
+    "HT-W20261103B-G010": {
+      "title": "【20261103全库66格全破150与九大板块54格满154考证】西周成王康王时期（约前1042—前996年）成康之治营建成周“周公旦召公奭相成王平三监东征、太保召公相宅洛邑铸《何尊》铭‘宅兹中国’事件”（事件类）（宝鸡青铜器博物院与中国国家博物馆·10景）",
+      "original": "images/HT-W20261103B-G010.png",
+      "preview": "previews/HT-W20261103B-G010.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f540ada4f022d7c9e586ac84d1cfeb8e80117963bd0d6a8a1526f602b251067b",
+      "source_prompt": "Create a single photorealistic historical film concept still, horizontal 16:9, depicting the early Western Zhou development of Chengzhou. From a high earth bank at morning, surveyors and builders lay out a broad rectangular rammed-earth foundation with cord, timber frames and baskets of soil; a small delegation of nobles watches from the side. A river and low hills establish the Luo region without asserting an exact archaeological footprint. Show the work and landscape as a distinct panoramic scene, not a copy of an artifact and not an eyewitness photograph. Plausible bronze-age textiles and plain topknots, no mature imperial city, no later dynasty roof shapes, no readable writing, no modern tools.\n[Edit] Edit the supplied early Western Zhou Chengzhou construction scene while preserving the wide river landscape, rectangular earthwork, surveyors, builders, baskets and morning light. Remove the foreground banner with pseudo glyphs and any other marks resembling writing; if a fabric standard remains it must be plain undecorated linen. Use simple tied hair and modest robes for the observing nobles. Keep the construction layout conceptual, without exact archaeological claim. Photorealistic horizontal 16:9.",
+      "source": "https://www.saac.gov.cn/mowcn/cn/6sbs/202512/3ab95315183f4f9a894b60a85cacaf75.shtml",
+      "evidence_level": "B",
+      "method": "reference_edit",
+      "source_deviation_note": "何尊铭文与周初营建成周有关；图为筑城工地的概念艺术复原，具体地貌、建筑基址、施工方案和人物身份未获实证。成康之治不等于图中单一场景，何尊不是这处工地的实物布景。初稿伪文字旗帜已编辑移除。",
+      "nas_period": "西周"
+    },
+    "HT-W20261103B-G011": {
+      "title": "【20261103全库66格全破150与九大板块54格满154考证】公元前841年（西周共和元年）中国历史确切纪年开端“国人暴动后周定公召穆公二相行政号曰‘共和’（或共伯和摄行天子事）、司马迁《十二诸侯年表》肇始事件”（事件类）（中国国家博物馆与陕西历史博物馆·10景）",
+      "original": "images/HT-W20261103B-G011.png",
+      "preview": "previews/HT-W20261103B-G011.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6ea7c869f83f8f228b76d8fc1a33c7a873626cf7c331a255cab8fc34135b9835",
+      "source_prompt": "Create one photorealistic historical film concept still, horizontal 16:9, for the 841 BCE Western Zhou political crisis called Gonghe administration. Show a quiet aftermath in a rammed-earth capital courtyard: several senior nobles and local representatives sit around a low wooden table with plain wooden tallies and unmarked bamboo slips, discussing practical governance while townspeople wait outside; no single regent is enthroned. This is an artistic visualization of a debated political arrangement, not a literal historical portrait. Restrained early Zhou robes and simple tied hair, overcast daylight, no later imperial hats, no legible writing or invented exact records, no violence, no modern props.\n[Edit] Edit this Western Zhou council scene while preserving the composition, seated people, wooden tallies, background townspeople, bronze vessels and soft light. Remove the large banner with pseudo characters on the left and replace it with plain undecorated woven fabric or an empty section of earth wall. Remove any other readable or pseudo writing. Keep early Zhou simple tied hair and no imperial crowns. Photorealistic horizontal 16:9.",
+      "source": "https://www.nopss.gov.cn/n1/2019/1209/c417173-31497388.html",
+      "evidence_level": "B",
+      "method": "reference_edit",
+      "source_deviation_note": "前841年共和元年为传世历史纪年重要起点；共和行政主政人选在学界有争论。画面为议政概念艺术复原，不证明周召二公或共伯和中的某一说。初稿伪文字旗帜已编辑移除。",
       "nas_period": "西周"
     },
     "HT-W20261103C-G002": {
@@ -495,6 +551,35 @@
       "source_additional": "https://www.cssn.cn/skgz/bwyc/202404/t20240423_5747454.shtml",
       "source_deviation_note": "中国社会科学网记洛阳东郊北窑发现西周铸铜遗址与大规模作坊。图为陶范铸铜的艺术复原，条目所述瀍河西岸、引瀍澄泥水道、官营窑群和北邙车马坑礼仪驰道的完整连通关系未核实；画中井和远处车驾仅作场景想象。",
       "nas_period": "西周"
+    },
+    "HT-W20261103C-G009": {
+      "title": "【20261103全库66格全满160与九大板块54格满162考证】公元前1046年正月甲子朝周武王牧野鹰扬克商大决战“周武王姬发与太公望姜尚统战车三百乘虎贲三千人盟津会八百诸侯、甲子清晨牧野破商师八日后铸《利簋》铭记事件”（事件类）（中国国家博物馆与陕西历史博物馆·10景）",
+      "original": "images/HT-W20261103C-G009.png",
+      "preview": "previews/HT-W20261103C-G009.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "464209d9e1520eee965bdf50cc5b54983484f6d41d59700b6f725376e86a029f",
+      "source_prompt": "Create a photorealistic historical film concept still, horizontal 16:9, depicting the dawn of the Battle of Muye in the late Shang to early Zhou transition. Across a broad misty plain, a small foreground group of Zhou chariots with two horses each and infantry with bronze-tipped spears advances toward distant opposing ranks; the first low sunlight reveals dust and restrained human tension. The Li gui inscription supports a Jiazi morning campaign against Shang, but the picture makes no claim about exact troop counts, eight hundred lords or a precise battlefield layout. Plausible late bronze-age wood chariots, leather and cloth gear, no iron armor, no later imperial uniforms, no readable banners, no gore, no fantasy, no modern objects.",
+      "source": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202108/t20210802_250931.shtml",
+      "evidence_level": "B",
+      "method": "text_generation",
+      "source_deviation_note": "国博利簋铭文记甲子日清晨征商，画面是牧野战前推进的概念艺术复原，不是精确战场或兵力记录。条目所述三百乘、三千虎贲和八百诸侯不可由利簋铭文直接证实，图不按这些数字绘制。",
+      "nas_period": "西周"
+    },
+    "HT-W20261103C-G010": {
+      "title": "【20261103全库66格全满160与九大板块54格满162考证】公元前770年（周平王元年）平王东迁洛邑开启东周春秋时代“秦襄公赢开率精兵护卫周平王宜臼自关中宗周东迁成周洛邑、平王赐封岐西之地秦始列为诸侯事件”（事件类）（洛阳博物馆与甘肃省博物馆·10景）",
+      "original": "images/HT-W20261103C-G010.png",
+      "preview": "previews/HT-W20261103C-G010.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8a55dbfe2fc4d65b676a1e43be42ac0285a893472c7eb85e3188ecc4c98f1b5f",
+      "source_prompt": "Create one photorealistic historical film concept still, horizontal 16:9, of an early Eastern Zhou royal migration eastward toward Luoyi around 770 BCE. A modest caravan of families, pack animals, plain timber carts and a small mounted escort moves along a river valley road at morning light; a leader in simple court robes surveys a distant low walled settlement. The scene suggests King Ping's eastward move and Qin support without asserting exact portraits, escort size, land grants shown in the image or a particular route. Plausible Zhou-era textiles, wooden carts and early Chinese landscape, no later imperial city or cavalry armor, no readable signs, no modern objects. Artistic reconstruction, not documentary photography.\n[Edit] Edit the supplied early Eastern Zhou migration scene while preserving the caravan, people, animals, valley, river and distant settlement. Replace the central mounted leader's tall black official hat with a simple cloth-bound topknot suitable for an early Zhou concept image. Remove the large foreground banner and any small banners with pseudo writing or emblems; keep any remaining escort standards plain unmarked cloth. Keep architecture modest and avoid readable or pseudo text. Photorealistic horizontal 16:9.",
+      "source": "https://www.baoji.gov.cn/col26/col95/201408/t20140815_10287.html",
+      "evidence_level": "B",
+      "method": "reference_edit",
+      "source_additional": "https://www.baoji.gov.cn/col26/col95/201603/t20160302_10334.html",
+      "source_deviation_note": "前770年周平王东迁与秦襄公护送、受封西方土地有地方史料概述。画面为迁徙队伍的概念艺术复原，人物、路线、骑乘与洛邑外观不是可核实的现场细节；初稿高冠和伪文旗帜已编辑移除。",
+      "nas_period": "春秋"
     },
     "HT-W20261105A-G004": {
       "title": "【20261105全网考证破10万条与建筑满9000座】西周至春秋早期铜矿采冶巨构“湖北大冶铜绿山古铜矿遗址百米深竖井盲井木支护巷道、辘轳提矿排水木槽与鼓风竖炉炼铜配套”（配套类）（湖北省博物馆与铜绿山古铜矿遗址博物馆·10景）",
