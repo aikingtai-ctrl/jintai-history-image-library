@@ -320,6 +320,48 @@
       "source_deviation_note": "中国国家博物馆记利簋方座内底四行32字铭文与武王甲子日清晨征商事件。图为牧野之战拂晓车队的概念艺术复原，不是史料所记战车数量的实景，也未把战后所铸利簋置于战场；条目引句与“300乘”不由利簋铭文直接证明。首稿旗帜伪文字经编辑移除。",
       "nas_period": "西周"
     },
+    "HT-W20261030C-G189": {
+      "title": "【20261030神话配套与军工民国国宝深潜考证】西周初年营建天下之中与‘中国’一词最早实物诞辰“周公旦摄政东征平三监、召公奭相宅洛汭营建洛邑成周城，周成王五年铸《何尊》内底一百二十二字铭刻‘余其宅兹中国’事件”（事件类）（陕西历史博物馆·10景）",
+      "original": "images/HT-W20261030C-G189.png",
+      "preview": "previews/HT-W20261030C-G189.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "af2459d8c398bb93e248f1e1deb7eeed2e3904771380b5bd328d63f775469dee",
+      "source_prompt": "Create a single photorealistic historical film concept still, horizontal 16:9, set in the early Western Zhou during the planning of the new eastern city at Luoyi/Chengzhou. On a broad river terrace, surveyors and builders in plain early Zhou garments use cords and wooden measuring poles to mark the line of a modest rammed-earth wall; two senior nobles with simple bound hair confer beside a low timber shelter. A bronze ritual zun vessel sits safely inside the shelter as a symbolic reference to the He zun inscription, but it is not an exact copy or a claimed eyewitness prop. Focus on site planning and earth construction, natural daylight, no mature imperial city, no readable text, no tall official hats, no museum, no modern tools. Conceptual reconstruction, not a photograph.",
+      "source": "https://www.saac.gov.cn/mowcn/cn/6sbs/202512/3ab95315183f4f9a894b60a85cacaf75.shtml",
+      "evidence_level": "B",
+      "method": "text_generation",
+      "source_deviation_note": "何尊铭文与成周营建有实物依据，铭文122字；画面是西周筑城概念复原，不是何尊原件照片，也不能从图中断定参与者身份、具体地点及施工顺序。铭文中的“中国”不可直接等同于现代国家概念。",
+      "nas_period": "西周"
+    },
+    "HT-W20261030D-G040": {
+      "title": "【20261030全朝代百大事件与军工神话配套深潜考证】公元前841年中国历史确切纪年开端里程碑“西周共和行政（周召共和）：国人止息厉王苛政后，周定公与召穆公于宗周镐京同心辅政十四载安抚百工庶民事件”（事件类）（陕西历史博物馆·10景）",
+      "original": "images/HT-W20261030D-G040.png",
+      "preview": "previews/HT-W20261030D-G040.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e90ce7715c1077ec5a673be284f6f128afd4cf4c9e22604e3559995c80c1ef92",
+      "source_prompt": "Create one photorealistic historical film concept still, horizontal 16:9, of the Western Zhou capital region in the ninth century BCE during the period known as Gonghe administration. In a restrained timber and rammed-earth council courtyard, several senior aristocrats with simple tied hair or compact cloth caps listen to representatives of craftspeople and townspeople; a clerk holds an unmarked bamboo bundle. The scene conveys collective administration after political turmoil without asserting whether Zhou and Shao dukes or Gongbo He held sole regency. Calm but serious human expressions, early Zhou textiles, earth walls, natural overcast light. No throne, no crown, no later imperial robes, no legible documents, banners, modern objects or violence. Artistic reconstruction of a debated historical episode.",
+      "source": "https://www.nopss.gov.cn/n1/2019/1209/c417173-31497388.html",
+      "evidence_level": "B",
+      "method": "text_generation",
+      "source_deviation_note": "共和行政始于前841年；究竟由周召二公还是共伯和主政，学界存在争议。画面只表现集议与政局调整，是艺术复原，不能作为特定执政者的肖像或史实照片。",
+      "nas_period": "西周"
+    },
+    "HT-W20261030D-G041": {
+      "title": "【20261030全朝代百大事件与军工神话配套深潜考证】公元前827—前823年西周中兴北御猃狁南征淮夷壮举“周宣王中兴与尹吉甫兮甲北伐：六月出师大破猃狁直抵太原，铸国宝《兮甲盘》百三十三字铭刻边贸赋税法制事件”（事件类）（中国国家博物馆·10景）",
+      "original": "images/HT-W20261030D-G041.png",
+      "preview": "previews/HT-W20261030D-G041.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0852ce05d7e8767fb8a6599844c3327a817703880d5b9f9e9935b8780a4176d5",
+      "source_prompt": "Create one photorealistic historical film concept still, horizontal 16:9, of a Western Zhou northern frontier campaign in King Xuan's era. On a dry plateau, a commander with simple topknot and practical bronze-age attire receives a messenger beside a few wooden two-wheeled chariots and horses; scouts point toward a distant river valley. Cloth standards are plain without symbols, bronze spearheads and leather gear are modest, weather clear. The Xijia pan inscription records a campaign against Xianyun and later southern matters, but this scene is only a conceptual visualization, not an exact named battlefield or a rendering of the inscribed bronze pan. No legible writing, no iron armor, no later official hats, no fantasy.",
+      "source": "https://www.cuhk.edu.hk/ics/journal/articles/v30p115.pdf",
+      "evidence_level": "B",
+      "method": "text_generation",
+      "source_deviation_note": "兮甲盘133字铭文涉及北伐猃狁和南方淮夷事务；画面为边地军情艺术复原，未复现兮甲盘原件、具体战场或精确人物。条目所列中国国家博物馆馆藏归属未获核实，不能与虢季子白盘混同。",
+      "nas_period": "西周"
+    },
     "HT-W20261030G-G007": {
       "title": "【20261030全库66格满百与清代民国国宝深潜考证】西周至战国楚地采冶奇迹“湖北大冶铜绿山古铜矿遗址四框榫接圆木支护深竖井、木辘轳竹索提矿箕与木溜槽重力选矿配套”（配套类）（湖北省博物馆·10景）",
       "original": "images/HT-W20261030G-G007.png",
@@ -334,6 +376,21 @@
       "source_additional": "https://wlt.hubei.gov.cn/bmdt/mtjj/202506/t20250629_5708478.shtml",
       "source_deviation_note": "黄石市文旅局及湖北省文旅厅资料证实铜绿山古矿有竖井、平巷、木支护、竹木工具和排水遗迹。画面选择春秋时期地下采矿作概念艺术复原，条目所称“四框榫接圆木”、木辘轳及具体重力选矿流程未逐项证实；非遗址实拍。",
       "nas_period": "春秋"
+    },
+    "HT-W20261030G-G021": {
+      "title": "【20261030全库66格满百与清代民国国宝深潜考证】西周初年定鼎天下“周公旦与召公奭奉成王命于洛阳瀍涧二水圭表测影卜洛、迁九鼎营建成周洛邑大会四方诸侯事件”（事件类）（宝鸡青铜器博物院·10景）",
+      "original": "images/HT-W20261030G-G021.png",
+      "preview": "previews/HT-W20261030G-G021.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5d0f1751bce1fc55c8b01eb2f9112905d316a734522f67ede96a5ba641ccd354",
+      "source_prompt": "Create a single photorealistic historical film concept still, horizontal 16:9. Early Western Zhou nobles and surveyors choose a river terrace for the eastern city of Luoyi. A modest group uses measuring cord, wooden stakes and a simple divination setup near the Luo River, with low rammed-earth foundations in the distance; two senior advisers confer with builders in plain woven robes and tied hair. The image conveys site selection and planning associated with the Duke of Zhou and Duke of Shao, without claiming exact portraits, an exact ritual site, measured shadow instruments or the legendary transfer of nine tripods. Natural morning light, plausible bronze-age materials, no readable inscriptions, no later imperial architecture, no museum, no modern objects.",
+      "source": "https://www.saac.gov.cn/mowcn/cn/6sbs/202512/3ab95315183f4f9a894b60a85cacaf75.shtml",
+      "evidence_level": "B",
+      "method": "text_generation",
+      "source_additional": "https://m.ly.gov.cn/2013/06-24/74500.html",
+      "source_deviation_note": "周初营建成周有史料和何尊铭文依据；画面是河岸相宅、筑城的概念复原，人物、测绘流程和建筑外观非实录。条目中的迁九鼎情节及圭表测影细节未在本轮证实，画面不据此绘制。",
+      "nas_period": "西周"
     },
     "HT-W20261031A-G014": {
       "title": "【20261031八大板块器物全满500与边疆十国深潜考证】西周至春秋礼乐渊薮手工业“山东曲阜鲁国故城周公庙北官营铸铜陶范熔炉、彩绘凤纹漆木礼豆髹饰与紫晶玛瑙珠串磨制配套”（配套类）（山东博物馆与孔子博物馆·10景）",
@@ -363,6 +420,35 @@
       "method": "text_generation",
       "source_additional": "https://www.wjmuseum.cn/html/article1063418.html",
       "source_deviation_note": "赤峰市松山区政府资料证实林西大井夏家店上层文化铜矿遗址有露天开采、选矿、冶炼、铸造工序。图为北方晚期青铜时代露天矿作业概念复原；马鞍形磨盘、双风口炼炉及此矿铸某款含砷锡短剑的具体组合未核实。",
+      "nas_period": "西周"
+    },
+    "HT-W20261031A-G024": {
+      "title": "【20261031八大板块器物全满500与边疆十国深潜考证】西周中期穆王十七年“周穆王姬满驾八骏赤骥盗骊西巡昆仑河宗、于瑶池高台会见西王母献锦帛受白圭玄璧载籍盛事事件”（事件类）（河南博物院与中国国家博物馆·10景）",
+      "original": "images/HT-W20261031A-G024.png",
+      "preview": "previews/HT-W20261031A-G024.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "87fb9baa6c73a09cadf0563936330f98e3dade6145deeb36587274b3e6a042f7",
+      "source_prompt": "Create a single photorealistic historical film concept still, horizontal 16:9, as a visual adaptation of the ancient literary legend of King Mu's journey west and meeting the Queen Mother of the West. A small Western Zhou traveler party with horses and a wooden chariot pauses near a high-altitude lake and stone terrace; across a respectful distance, a dignified woman in simple archaic woven garments welcomes the travelers, while an attendant carries folded silk. Dreamlike clear mountain light yet physically plausible scenery, no magic effects, no exact identified geographical claim, no later royal crowns, no readable inscriptions, no museum, no modern objects. Present it as legendary storytelling rather than historical documentation.",
+      "source": "https://www.geermu.gov.cn/details?id=bb5cf28b6c6b3aca016c7575452d0053",
+      "evidence_level": "B",
+      "method": "text_generation",
+      "source_additional": "https://www.gxtyzx.gov.cn/txysy/gz/202403/t20240314_16825.html",
+      "source_deviation_note": "周穆王会西王母出自《穆天子传》等文献传说，不能视为已证实的历史会面；瑶池位置也不能由画面确定。这是传奇文学的艺术改编，不是文物实拍或现场复原。",
+      "nas_period": "西周"
+    },
+    "HT-W20261031A-G027": {
+      "title": "【20261031八大板块器物全满500与边疆十国深潜考证】西周宣王五年（前823年）“太师尹吉甫奉命统六师北伐猃狁追至太原大捷归镐京、受赐四牡车马并铸《兮甲盘》厘定南淮夷贡赋事件”（事件类）（中国国家博物馆·10景）",
+      "original": "images/HT-W20261031A-G027.png",
+      "preview": "previews/HT-W20261031A-G027.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8be62090b91cbab27d0f2a7e53226654e6b64fa3d6826cb8d1019b5809737023",
+      "source_prompt": "Create one photorealistic historical film concept still, horizontal 16:9, of a Western Zhou ceremonial return after a northern frontier campaign in King Xuan's era. A commander in practical bronze-age robe and armor steps down from a plain two-wheeled chariot at a rammed-earth gate; attendants offer a simple bronze ritual pan and cloth to commemorate service, while soldiers and horses rest nearby. Inspired broadly by the Xijia pan inscription and accounts of Yin Jifu's campaign against Xianyun, but the pictured vessel is not a reproduction of the inscribed original and the scene is not an exact recorded event. No legible inscriptions, no national museum interior, no later dynasty hats or armor, no fantasy, no modern objects.",
+      "source": "https://www.cuhk.edu.hk/ics/journal/articles/v30p115.pdf",
+      "evidence_level": "B",
+      "method": "text_generation",
+      "source_deviation_note": "兮甲盘铭文记周宣王时期北伐猃狁及南方淮夷事务。画面是凯旋献器的想象场景，铜盘不按实物精确复制，人物及仪式不是史料确证的具体一幕；条目中国家博物馆馆藏归属未获核实。",
       "nas_period": "西周"
     },
     "HT-W20261102A-G010": {
