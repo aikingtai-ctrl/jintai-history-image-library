@@ -1,0 +1,27 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    2160,
+    2519
+  ],
+  "sources": [
+    "https://www.sonypictures.com/movies/mrdeeds",
+    "https://cfe.tiff.net/canadianfilmencyclopedia/content/films/outrageous"
+  ],
+  "decisions": [
+    {
+      "wid": "src-1e546417f87fa928",
+      "previous": "film-ai/src-1e546417f87fa928.jpg",
+      "replacement": "film-ai/quality-reviewed/src-1e546417f87fa928.png",
+      "reason": "Snowy fantasy mountain scene does not represent the 2002 small-town-to-New-York comedy",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-2a5830940e9377e2",
+      "previous": "film-ai/src-2a5830940e9377e2.jpg",
+      "replacement": "film-ai/quality-reviewed/src-2a5830940e9377e2.png",
+      "reason": "Generic cartoon smiley is unrelated to the Toronto drag performer story",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
