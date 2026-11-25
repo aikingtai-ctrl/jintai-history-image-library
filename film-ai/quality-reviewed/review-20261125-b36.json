@@ -1,0 +1,20 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    0,
+    9434
+  ],
+  "sources": [
+    "https://participant.com/campaign/contagion/",
+    "https://film-grab.com/2012/07/28/contagion/"
+  ],
+  "decisions": [
+    {
+      "wid": "src-320c108be58e65f4",
+      "previous": "film-ai/src-320c108be58e65f4.jpg",
+      "replacement": "film-ai/quality-reviewed/src-320c108be58e65f4.png",
+      "reason": "Contagion (2011 Soderbergh) displayed an unverified winter-cap portrait unrelated to its documented source still",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
