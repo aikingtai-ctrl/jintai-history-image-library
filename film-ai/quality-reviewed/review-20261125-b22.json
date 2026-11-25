@@ -1,0 +1,58 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    5760,
+    6119
+  ],
+  "sources": [
+    "https://italianpavilion.it/wp-content/uploads/2023/02/ItalianFilms%4073.Berlinale-2.pdf",
+    "https://gidalyapictures.com/portfolio/this-is-home/",
+    "https://cn.govopendata.com/renminribao/1984/04/14/8/",
+    "https://www.idfa.nl/en/film/4304edde-f3a0-4d2b-be54-6ec51392e41c/my-sextortion-diary/",
+    "https://tv.apple.com/us/movie/red-state/umc.cmc.3swedvlc7splb5s40rhfld579"
+  ],
+  "decisions": [
+    {
+      "wid": "src-wd-q116790375",
+      "previous": "film-ai/src-wd-q116790375.jpg",
+      "replacement": "film-ai/quality-reviewed/src-wd-q116790375.png",
+      "reason": "Massimo Troisi documentary displays an unrelated elderly woman portrait",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-wd-q123741351",
+      "previous": "film-ai/src-wd-q123741351.jpg",
+      "replacement": "film-ai/quality-reviewed/src-wd-q123741351.png",
+      "reason": "This Is Home displays a white studio headshot instead of Syrian refugee families",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-wd-q124801047",
+      "previous": "film-ai/src-wd-q124801047.jpg",
+      "replacement": "film-ai/quality-reviewed/src-wd-q124801047.png",
+      "reason": "The Devoted Soldier displays an unrelated modern film-set portrait",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-wd-q124858065",
+      "previous": "film-ai/src-wd-q124858065-v2.jpg",
+      "replacement": "film-ai/quality-reviewed/src-wd-q124858065.png",
+      "reason": "My Sextortion Diary displays a desktop folder icon instead of a film image",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-wd-q125196931",
+      "previous": "film-ai/src-wd-q125196931.jpg",
+      "replacement": "film-ai/quality-reviewed/src-wd-q125196931.png",
+      "reason": "The Spirit of a Policeman displays a medal in a box instead of a scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-wd-q1255499",
+      "previous": "film-ai/src-wd-q1255499.jpg",
+      "replacement": "film-ai/quality-reviewed/src-wd-q1255499.png",
+      "reason": "Red State displays a film-crew behind-the-scenes photo instead of a scene",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
