@@ -29,7 +29,7 @@ for (const item of Object.values(manifest.JINTAI_PAGE23_IMAGES)) {
 const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 assert.ok(homepage.includes(`page23-originals-manifest.js?v=20261125-page23-${page23Count}`));
 assert.match(homepage, /function histOriginalInfo\(id\)\{return window\.JINTAI_PAGE23_IMAGES\?\.\[id\]/);
-assert.equal(Object.keys(gpt).length, 511);
+assert.equal(Object.keys(gpt).length, 512);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
   assert.ok(html.includes(`gpt-image-${Object.keys(gpt).length}`),
@@ -308,6 +308,9 @@ for (const id of ['HL-XIA-PR-0007', 'HL-XIA-PR-0008']) {
 }
 assert.match(gpt['HL-XIA-PR-0007'].source_deviation_note, /5 枚独立.*第 6 枚.*数量与 JPG 冲突/);
 assert.match(gpt['HL-XIA-PR-0008'].source_deviation_note, /移除标尺、比例线、文字和信息框/);
+assert.deepEqual([gpt['HL-XIA-PR-0010'].width, gpt['HL-XIA-PR-0010'].height], [1536, 1024]);
+assert.match(gpt['HL-XIA-PR-0010'].source_deviation_note, /无锈金黄.*灰绿锈色.*新图按金黄色 JPG 重绘/);
+assert.match(gpt['HL-XIA-PR-0010'].source_deviation_note, /AI 重绘示意.*不是博物馆实物照片/);
 assert.ok(!gpt['AR-20261021-0054'], 'three failed #454 generations must not be published');
 assert.ok(!gpt['AR-20261021-0070'], 'three failed #470 generations must not be published');
 assert.ok(!gpt['AR-20261020-0779'], 'unaccepted #425 remains outside the manifest');
