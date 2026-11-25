@@ -1006,9 +1006,9 @@ function syncChipUI(){
 }
 
 
-function histPreview(id){return window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
-function histThumb(id){return window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.thumb||window.JINTAI_SONG_IMAGES?.[id]?.preview||histPreview(id);}
-function histOriginalInfo(id){return window.JINTAI_PAGE22_IMAGES?.[id]||window.JINTAI_PAGE21_IMAGES?.[id]||window.JINTAI_PAGE20_IMAGES?.[id]||window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]||window.JINTAI_SONG_IMAGES?.[id]||null;}
+function histPreview(id){return window.JINTAI_PAGE23_IMAGES?.[id]?.preview||window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
+function histThumb(id){return window.JINTAI_PAGE23_IMAGES?.[id]?.preview||window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.thumb||window.JINTAI_SONG_IMAGES?.[id]?.preview||histPreview(id);}
+function histOriginalInfo(id){return window.JINTAI_PAGE23_IMAGES?.[id]||window.JINTAI_PAGE22_IMAGES?.[id]||window.JINTAI_PAGE21_IMAGES?.[id]||window.JINTAI_PAGE20_IMAGES?.[id]||window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]||window.JINTAI_SONG_IMAGES?.[id]||null;}
 function openHistOriginal(r){
   const info=histOriginalInfo(r.id);
   if(!info){window.open(histPreview(r.id),'_blank','noopener');return;}
@@ -1119,7 +1119,7 @@ function setHlbZoom(s,reset=false){
 function renderHlb(){
   const r=HLB.pool[HLB.idx];if(!r)return;
   const preview=histPreview(r.id);if(!preview)return;
-  const gpt=window.JINTAI_PAGE22_IMAGES?.[r.id]||window.JINTAI_PAGE21_IMAGES?.[r.id]||window.JINTAI_PAGE20_IMAGES?.[r.id]||window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_QING_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id];
+  const gpt=window.JINTAI_PAGE23_IMAGES?.[r.id]||window.JINTAI_PAGE22_IMAGES?.[r.id]||window.JINTAI_PAGE21_IMAGES?.[r.id]||window.JINTAI_PAGE20_IMAGES?.[r.id]||window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_QING_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id];
   const yuanming=!gpt&&!window.JINTAI_AI_IMAGES?.[r.id]&&window.JINTAI_YUANMING_IMAGES?.[r.id];
   const native=gpt||yuanming;
   const songOriginal=window.JINTAI_SONG_IMAGES?.[r.id]?.original;
@@ -1363,5 +1363,6 @@ document.addEventListener('keydown',e=>{
 <script src="history-ai/page20-originals-manifest.js?v=20261124-page20-120" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 <script src="history-ai/page21-originals-manifest.js?v=20261125-page21-115" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 <script src="history-ai/page22-originals-manifest.js?v=20261125-page22-120" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
+<script src="history-ai/page23-originals-manifest.js?v=20261125-page23-3" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 </body>
 </html>
