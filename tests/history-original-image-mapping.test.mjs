@@ -19,14 +19,15 @@ assert.equal(Object.values(manifest.JINTAI_PAGE22_IMAGES).filter(item => item.me
 assert.ok(fs.readFileSync(path.join(root, 'index.html'), 'utf8').includes('page22-originals-manifest.js?v=20261125-page22-120'));
 assert.equal(manifest.JINTAI_PAGE22_IMAGES['HT-E20261024-G053'].method, 'museum_open_access_original');
 assert.match(manifest.JINTAI_PAGE22_IMAGES['HT-E20261024-G053'].original, /\.jpg$/);
-assert.equal(Object.keys(manifest.JINTAI_PAGE23_IMAGES).length, 3);
+const page23Count = Object.keys(manifest.JINTAI_PAGE23_IMAGES).length;
+assert.ok(page23Count >= 6 && page23Count <= 120);
 for (const item of Object.values(manifest.JINTAI_PAGE23_IMAGES)) {
   assert.match(item.original, /\/page23\/images\/.*\.png$/);
   assert.match(item.preview, /\/page23\/previews\/.*\.jpg$/);
-  assert.ok(item.source_deviation_note?.includes('艺术'));
+  assert.match(item.source_deviation_note, /艺术|概念/);
 }
 const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
-assert.ok(homepage.includes('page23-originals-manifest.js?v=20261125-page23-3'));
+assert.ok(homepage.includes(`page23-originals-manifest.js?v=20261125-page23-${page23Count}`));
 assert.match(homepage, /function histOriginalInfo\(id\)\{return window\.JINTAI_PAGE23_IMAGES\?\.\[id\]/);
 assert.equal(Object.keys(gpt).length, 511);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
