@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 479);
+assert.equal(Object.keys(gpt).length, 490);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
   assert.ok(html.includes(`gpt-image-${Object.keys(gpt).length}`),
@@ -226,6 +226,25 @@ for (const id of ['AR-20261020-0633', 'AR-20261020-0634', 'AR-20261020-0636']) {
 for (const id of ['AR-20261020-0632', 'AR-20261020-0635']) {
   assert.ok(!gpt[id], `failed generation must remain unpublished: ${id}`);
 }
+for (const [id, sha] of [
+  ['AR-20261020-0637', 'c0b3fb1f5bbae08ab23c733c972ab04044083781e30c54068b50e9989112f089'],
+  ['AR-20261020-0638', 'a3e4f1346ce4c084620c21003485c2e546c2ffca66dace298958a6a4522cd603'],
+  ['AR-20261020-0639', '264eff4c23649f7d75d361900a216686898e3ad7657ab681f197f1ca0c52c1ee'],
+]) {
+  assert.equal(gpt[id].sha256, sha);
+  assert.deepEqual([gpt[id].width, gpt[id].height], [1672, 941]);
+  assert.match(gpt[id].source_deviation_note, /冻结文字提示词.*旧 JPG.*考古|冻结文字提示词.*旧 JPG.*史料/);
+}
+assert.ok(!gpt['AR-20261020-0641'], 'timed-out #513 must remain unpublished');
+for (const id of ['AR-20261020-0640', 'AR-20261020-0642', 'HL-XIA-AR-0002', 'HL-XIA-AR-0004']) {
+  assert.deepEqual([gpt[id].width, gpt[id].height], [1672, 941]);
+}
+assert.match(gpt['AR-20261020-0642'].source_deviation_note, /旧 JPG.*历史形制/);
+for (const id of ['HL-XIA-AR-0001', 'HL-XIA-AR-0003', 'HL-XIA-AR-0011']) {
+  assert.deepEqual([gpt[id].width, gpt[id].height], [2172, 724]);
+}
+assert.deepEqual([gpt['HL-XIA-AR-0010'].width, gpt['HL-XIA-AR-0010'].height], [1774, 887]);
+assert.match(gpt['HL-XIA-AR-0010'].source_deviation_note, /无字矩形色带/);
 assert.ok(!gpt['AR-20261021-0054'], 'three failed #454 generations must not be published');
 assert.ok(!gpt['AR-20261021-0070'], 'three failed #470 generations must not be published');
 assert.ok(!gpt['AR-20261020-0779'], 'unaccepted #425 remains outside the manifest');
