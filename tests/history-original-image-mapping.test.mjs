@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 473);
+assert.equal(Object.keys(gpt).length, 476);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
   assert.ok(html.includes(`gpt-image-${Object.keys(gpt).length}`),
@@ -164,6 +164,9 @@ for (const [id, width, height] of [
   ['AR-20261020-0626', 1774, 887],
   ['AR-20261020-0627', 1774, 887],
   ['AR-20261020-0628', 2172, 724],
+  ['AR-20261020-0629', 1774, 887],
+  ['AR-20261020-0630', 1774, 887],
+  ['AR-20261020-0631', 1774, 887],
 ]) {
   assert.ok(originals[id] && gpt[id], `saved Erlitou JPEG and accepted redraw: ${id}`);
   assert.equal(gpt[id].method, 'reference_edit');
