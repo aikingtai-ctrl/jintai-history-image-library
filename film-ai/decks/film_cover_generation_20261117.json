@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-25T00:09:18.453529+00:00",
+  "snapshot_time_utc": "2026-11-25T00:40:46.843172+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -23040,6 +23040,76 @@
       "file": "film-ai/decks/film-the-duellists-1977.webp",
       "sha256": "52c24c68127735747aa032f8cc2f086084b91bf09aa43ba23bef4ba62ef09af2",
       "bytes": 258544,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-cac64a4bc8542a7f",
+      "wid": "src-cac64a4bc8542a7f",
+      "title": "Catalogue of Memory",
+      "file": "film-ai/decks/film-src-cac64a4bc8542a7f.webp",
+      "sha256": "ae3d9e7a5d29b12eb9ea2e9077d992a5dc5f7bae2037b5ecd4bbbe455a0a1721",
+      "bytes": 203502,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-e7e48013b2c070e1",
+      "wid": "src-e7e48013b2c070e1",
+      "title": "An Attempt to Describe the Measure of a Man",
+      "file": "film-ai/decks/film-src-e7e48013b2c070e1.webp",
+      "sha256": "7479f183d31c2d18b930c78fce4cbcd04650a933996e51c54ea74ffd1353659b",
+      "bytes": 270026,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-ebcf0f92e06fe41b",
+      "wid": "src-ebcf0f92e06fe41b",
+      "title": "The Spy Who Loved Me",
+      "file": "film-ai/decks/film-src-ebcf0f92e06fe41b.webp",
+      "sha256": "7e041d0c8e0b76d7b8d366348cbebd7448ac5cd250c3e1bc78a14cba771dd37f",
+      "bytes": 172386,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-56343e02a5a64567",
+      "wid": "src-56343e02a5a64567",
+      "title": "The Woman with Two Heads",
+      "file": "film-ai/decks/film-src-56343e02a5a64567.webp",
+      "sha256": "726faebafd38fc15043874cff0407ed6a4015f699542d82667f06ae2b7a562d9",
+      "bytes": 288828,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-5de4fe00afd1efde",
+      "wid": "src-5de4fe00afd1efde",
+      "title": "Les Chants de Maldoror",
+      "file": "film-ai/decks/film-src-5de4fe00afd1efde.webp",
+      "sha256": "bf8f49577bad0d93db13a1504103132e301ead8422488657dd91643272c1c98f",
+      "bytes": 256724,
       "size": [
         1672,
         941
