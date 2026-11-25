@@ -1,0 +1,35 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    2520,
+    2879
+  ],
+  "sources": [
+    "https://www.aardman.com/film-tv-games/chicken-run/",
+    "https://koreanfilm.or.kr/eng/news/news.jsp?blbdComCd=601008&mode=VIEW&seq=440",
+    "https://www.screenaustralia.gov.au/screen-guide/deeper-than-yesterday-29404/"
+  ],
+  "decisions": [
+    {
+      "wid": "src-309d86d85b49b5e9",
+      "previous": "film-ai/src-309d86d85b49b5e9.jpg",
+      "replacement": "film-ai/quality-reviewed/src-309d86d85b49b5e9.png",
+      "reason": "Promotional collage of one clay hen and a real person is not a representative film scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-3a8cb6ca0d69c97a",
+      "previous": "film-ai/src-3a8cb6ca0d69c97a.jpg",
+      "replacement": "film-ai/quality-reviewed/src-3a8cb6ca0d69c97a.png",
+      "reason": "Director headshot does not represent the Korean drama about three young adults",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-3bbbbc495c4229fb",
+      "previous": "film-ai/src-3bbbbc495c4229fb.jpg",
+      "replacement": "film-ai/quality-reviewed/src-3bbbbc495c4229fb.png",
+      "reason": "Isolated actor portrait omits the defining submarine setting of the short film",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
