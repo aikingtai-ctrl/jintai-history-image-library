@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-25T12:36:35.411357+00:00",
+  "snapshot_time_utc": "2026-11-25T12:48:13.724112+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -24454,6 +24454,76 @@
       "file": "film-ai/decks/film-src-1532cf5b177e0fd6.webp",
       "sha256": "f9e9525a504f035ad46f38971e52a54563a091c38dd70f0df53499ad94b77b30",
       "bytes": 226538,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-da57f5f6c85325a5",
+      "wid": "src-da57f5f6c85325a5",
+      "title": "Legend",
+      "file": "film-ai/decks/film-src-da57f5f6c85325a5.webp",
+      "sha256": "1bed14dea13affe5eb5638474c8498452cf45090a3b077a6f558ded236ef3dbf",
+      "bytes": 512160,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-cd139305858c1903",
+      "wid": "src-cd139305858c1903",
+      "title": "Tenement",
+      "file": "film-ai/decks/film-src-cd139305858c1903.webp",
+      "sha256": "0f481c82a7cd49d53a07c12330f606a7af6e81b64cdaacd6f261f59bf61d7f70",
+      "bytes": 266052,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-6ccae3ced21a9c1a",
+      "wid": "src-6ccae3ced21a9c1a",
+      "title": "A View to a Kill",
+      "file": "film-ai/decks/film-src-6ccae3ced21a9c1a.webp",
+      "sha256": "a135112bcc28802177fff363da18e34f9a4b3a4ae386080026ff788ff0b0020f",
+      "bytes": 234306,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-8b265939d8db35cb",
+      "wid": "src-8b265939d8db35cb",
+      "title": "Friday the 13th: A New Beginning",
+      "file": "film-ai/decks/film-src-8b265939d8db35cb.webp",
+      "sha256": "07aefcb853f67a308d6747157b48d6f672df3329dad62757e8684d1bfc22c79f",
+      "bytes": 324310,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-5c2e57381a34f36d",
+      "wid": "src-5c2e57381a34f36d",
+      "title": "Desert Hearts",
+      "file": "film-ai/decks/film-src-5c2e57381a34f36d.webp",
+      "sha256": "a49362513972b948550b0a274f81eec89d761b3b3ad6d61a0c2385bc65e0321a",
+      "bytes": 230192,
       "size": [
         1672,
         941
