@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-25T04:26:07.608289+00:00",
+  "snapshot_time_utc": "2026-11-25T04:39:44.221503+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -23572,6 +23572,76 @@
       "file": "film-ai/decks/film-src-5c26edb802678898.webp",
       "sha256": "d2afcc594559b8d55fd5b9cf4ccdc2b50f6ea09f51e6a0d532a503ee4db3c465",
       "bytes": 343918,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-679fe006ab100f21",
+      "wid": "src-679fe006ab100f21",
+      "title": "Melvin & Howard",
+      "file": "film-ai/decks/film-src-679fe006ab100f21.webp",
+      "sha256": "543abdfaf9734e9d0221796b9b860744b70e09506e693f4e695a72f48373fed2",
+      "bytes": 145928,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-00b4ebb1a6d80e64",
+      "wid": "src-00b4ebb1a6d80e64",
+      "title": "The Postman Always Rings Twice",
+      "file": "film-ai/decks/film-src-00b4ebb1a6d80e64.webp",
+      "sha256": "7ace26c6c8626739ac9ef673ee7b0bdcd74b5e8e27b5232fe4ad44930bb948f8",
+      "bytes": 342622,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-f5b8d9bf9d53b16e",
+      "wid": "src-f5b8d9bf9d53b16e",
+      "title": "Outland",
+      "file": "film-ai/decks/film-src-f5b8d9bf9d53b16e.webp",
+      "sha256": "b538c78338a752e3fdbfb80a8cd2cd0d91ae2680faff5f123aae99f181476e61",
+      "bytes": 305960,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-aa6eb000c6f1f0ae",
+      "wid": "src-aa6eb000c6f1f0ae",
+      "title": "Reds",
+      "file": "film-ai/decks/film-src-aa6eb000c6f1f0ae.webp",
+      "sha256": "f201c71de462475101d7c45f674885455b42279a7a8a7876ac989c2adc103e98",
+      "bytes": 276680,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-f5f7a788bb9fc5df",
+      "wid": "src-f5f7a788bb9fc5df",
+      "title": "The Beyond",
+      "file": "film-ai/decks/film-src-f5f7a788bb9fc5df.webp",
+      "sha256": "f8f3c8f0203fa05284e59db1fa9ea9a105b55e36261b57c2b1cf700019cf90e5",
+      "bytes": 256524,
       "size": [
         1672,
         941
