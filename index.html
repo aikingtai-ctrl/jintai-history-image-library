@@ -1136,7 +1136,7 @@ function renderHlb(){
     if(HLB.request!==request)return;
     $('hlbSub').textContent=subtitle+` · ${im.naturalWidth}×${im.naturalHeight} px`;
     if(originalSrc&&im.currentSrc===originalSrc){
-      $('hlbNote').textContent=gpt?`GPT Image 生成的 ${im.naturalWidth}×${im.naturalHeight} PNG；${gpt.method==='reference_edit'?'依据原有小图重绘':'依据保存的文字描述生成'}，历史细节仍需核验。${gpt.source_deviation_note?' 画面差异：'+gpt.source_deviation_note:''}`:yuanming?`原创 PNG ${im.naturalWidth}×${im.naturalHeight}；按保存的条目描述生成。`:`原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`;
+      $('hlbNote').textContent=gpt?.method==='museum_open_access_original'?`克利夫兰艺术博物馆 CC0 馆藏原件 ${im.naturalWidth}×${im.naturalHeight} PNG；${gpt.source_deviation_note}`:gpt?`GPT Image 生成的 ${im.naturalWidth}×${im.naturalHeight} PNG；${gpt.method==='reference_edit'?'依据原有小图重绘':'依据保存的文字描述生成'}，历史细节仍需核验。${gpt.source_deviation_note?' 画面差异：'+gpt.source_deviation_note:''}`:yuanming?`原创 PNG ${im.naturalWidth}×${im.naturalHeight}；按保存的条目描述生成。`:`原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`;
     }else if(originalFailed){
       $('hlbNote').textContent='原始 PNG 暂不可用，当前显示预览图。';
     }else if(native||songOriginal){
@@ -1157,8 +1157,8 @@ function renderHlb(){
   if(native){
     historyOriginalUrl(native).then(url=>{
       if(HLB.request!==request)return;
-      originalSrc=url;raw.href=url;raw.textContent=gpt?'新窗口查看 GPT Image PNG ↗':'新窗口查看原始 PNG ↗';
-      download.href=url+'?download=1';download.textContent=gpt?'下载 GPT Image PNG':'下载原始 PNG';download.hidden=false;
+      originalSrc=url;raw.href=url;raw.textContent=gpt?.method==='museum_open_access_original'?'新窗口查看馆藏原图 ↗':gpt?'新窗口查看 GPT Image PNG ↗':'新窗口查看原始 PNG ↗';
+      download.href=url+'?download=1';download.textContent=gpt?.method==='museum_open_access_original'?'下载馆藏原图':gpt?'下载 GPT Image PNG':'下载原始 PNG';download.hidden=false;
       $('hlbNote').textContent='高清预览已显示，原始 PNG 正在后台加载…';
       const full=new Image();
       full.onload=()=>{if(HLB.request===request)im.src=url;};
@@ -1361,6 +1361,6 @@ document.addEventListener('keydown',e=>{
 </script>
 <script src="history-ai/page19-originals-manifest.js?v=20261124-page19-120" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 <script src="history-ai/page20-originals-manifest.js?v=20261124-page20-120" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
-<script src="history-ai/page21-originals-manifest.js?v=20261125-page21-94" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
+<script src="history-ai/page21-originals-manifest.js?v=20261125-page21-115" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 </body>
 </html>
