@@ -1,0 +1,35 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    6120,
+    6479
+  ],
+  "sources": [
+    "https://www.theroadbetweenus.com/",
+    "https://www.filmportal.de/en/movie/dont-come-knocking_facaffc4fe5c713ce03053d50b372839",
+    "https://jfc.org.il/en/movie/25119-2/"
+  ],
+  "decisions": [
+    {
+      "wid": "src-wd-q135781160",
+      "previous": "film-ai/src-wd-q135781160.jpg",
+      "replacement": "film-ai/quality-reviewed/src-wd-q135781160.png",
+      "reason": "The Road Between Us displays a film-festival portrait rather than the rescue story",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-wd-q175600",
+      "previous": "film-ai/src-wd-q175600.jpg",
+      "replacement": "film-ai/quality-reviewed/src-wd-q175600.png",
+      "reason": "Don't Come Knocking displays an event photo rather than the neo-Western",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-wd-q2920469",
+      "previous": "film-ai/src-wd-q2920469.jpg",
+      "replacement": "film-ai/quality-reviewed/src-wd-q2920469.png",
+      "reason": "Nina's Tragedies displays an unrelated award ceremony portrait",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
