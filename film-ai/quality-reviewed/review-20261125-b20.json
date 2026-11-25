@@ -1,0 +1,118 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    5040,
+    5399
+  ],
+  "sources": [
+    "https://www.criterion.com/current/posts/3130-breaking-the-waves-breaking-the-rules",
+    "https://www.criterion.com/films/28443-aparajito",
+    "https://movies.disney.com/101-dalmatians-1961",
+    "https://www.criterion.com/films/27810-purple-noon",
+    "https://iffr.com/en/iffr/2004/films/the-last-train",
+    "https://catalog.afi.com/Film/56478-THE-OCTAGON",
+    "https://movies.disney.com/mighty-joe-young",
+    "https://www.festival-cannes.com/en/f/el-viaje/",
+    "https://www.filminstitutet.se/venedig"
+  ],
+  "decisions": [
+    {
+      "wid": "src-ca9d303c60127834",
+      "previous": "film-ai/src-ca9d303c60127834.jpg",
+      "replacement": "film-ai/quality-reviewed/src-ca9d303c60127834.png",
+      "reason": "Dogville displays an ordinary decorated interior rather than its chalk-marked stage",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-cdb900babf6d8055",
+      "previous": "film-ai/src-cdb900babf6d8055.jpg",
+      "replacement": "film-ai/quality-reviewed/src-cdb900babf6d8055.png",
+      "reason": "Aparajito displays a director portrait at a microphone",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-cf1b3e4f3ae06b8e",
+      "previous": "film-ai/src-cf1b3e4f3ae06b8e.jpg",
+      "replacement": "film-ai/quality-reviewed/src-cf1b3e4f3ae06b8e.png",
+      "reason": "High Heels displays a magazine page instead of a legible scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-cf2c0001bdbaef65",
+      "previous": "film-ai/src-cf2c0001bdbaef65.jpg",
+      "replacement": "film-ai/quality-reviewed/src-cf2c0001bdbaef65.png",
+      "reason": "1961 animated Dalmatians displays a live-action dog photo",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-d18115db626101dc",
+      "previous": "film-ai/src-d18115db626101dc.jpg",
+      "replacement": "film-ai/quality-reviewed/src-d18115db626101dc.png",
+      "reason": "Purple Noon displays a religious painting instead of the Riviera thriller",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-d69ee71c79d29a49",
+      "previous": "film-ai/src-d69ee71c79d29a49.jpg",
+      "replacement": "film-ai/quality-reviewed/src-d69ee71c79d29a49.png",
+      "reason": "The Bride of Frankenstein displays an unrelated elderly woman portrait",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-d6c22903d37a0de8",
+      "previous": "film-ai/src-d6c22903d37a0de8.jpg",
+      "replacement": "film-ai/quality-reviewed/src-d6c22903d37a0de8.png",
+      "reason": "Angel-A displays soldiers at a US government building instead of Paris",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-d75d5fd3bfd1711f",
+      "previous": "film-ai/src-d75d5fd3bfd1711f.jpg",
+      "replacement": "film-ai/quality-reviewed/src-d75d5fd3bfd1711f.png",
+      "reason": "The Tribe displays unrelated wartime soldiers",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-daaea2b062044314",
+      "previous": "film-ai/src-daaea2b062044314.jpg",
+      "replacement": "film-ai/quality-reviewed/src-daaea2b062044314.png",
+      "reason": "The Last Train displays a narrow poster rather than a scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-e20ec79f52278364",
+      "previous": "film-ai/src-e20ec79f52278364.jpg",
+      "replacement": "film-ai/quality-reviewed/src-e20ec79f52278364.png",
+      "reason": "Too Good to Be True displays a narrow cover with large blank panel",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-e2374a1ba48e9da0",
+      "previous": "film-ai/src-e2374a1ba48e9da0.jpg",
+      "replacement": "film-ai/quality-reviewed/src-e2374a1ba48e9da0.png",
+      "reason": "The Octagon displays a modern actor portrait rather than martial arts",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-e2ceec5ea750e7bb",
+      "previous": "film-ai/src-e2ceec5ea750e7bb.jpg",
+      "replacement": "film-ai/quality-reviewed/src-e2ceec5ea750e7bb.png",
+      "reason": "Mighty Joe Young displays a black-tie cast event without the gorilla",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-e33cae2e4dbf3a15",
+      "previous": "film-ai/src-e33cae2e4dbf3a15.jpg",
+      "replacement": "film-ai/quality-reviewed/src-e33cae2e4dbf3a15.png",
+      "reason": "El Viaje displays Venice instead of a South American bicycle journey",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-e36c24b6d0df189b",
+      "previous": "film-ai/src-e36c24b6d0df189b.jpg",
+      "replacement": "film-ai/quality-reviewed/src-e36c24b6d0df189b.png",
+      "reason": "A Sunday in September displays a narrow poster with blank yellow panel",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
