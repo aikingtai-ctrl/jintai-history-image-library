@@ -13,7 +13,7 @@ const originals = manifest.JINTAI_AI_IMAGES;
 const ids = Object.keys(originals);
 assert.equal(ids.length, 1998);
 const gpt = manifest.JINTAI_GPT_IMAGES;
-assert.equal(Object.keys(gpt).length, 476);
+assert.equal(Object.keys(gpt).length, 479);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
   assert.ok(html.includes(`gpt-image-${Object.keys(gpt).length}`),
@@ -215,6 +215,16 @@ assert.match(gpt['AR-20261020-0575'].source_deviation_note, /左下角有可读�
 for (const id of ['AR-20261020-0578', 'AR-20261020-0628']) {
   assert.equal(gpt[id].width / gpt[id].height, 3);
   assert.ok(gpt[id].width * gpt[id].height >= 1_500_000);
+}
+assert.equal(gpt['AR-20261020-0633'].sha256,
+  '9e5c2168a10a6931a237834c7610cbe717494249d9ca453f728a50c471135ec1',
+  'moonlit gate must use the corrected lantern PNG');
+for (const id of ['AR-20261020-0633', 'AR-20261020-0634', 'AR-20261020-0636']) {
+  assert.equal(gpt[id].method, 'reference_edit');
+  assert.ok(gpt[id].width >= 1536 && gpt[id].height >= 800);
+}
+for (const id of ['AR-20261020-0632', 'AR-20261020-0635']) {
+  assert.ok(!gpt[id], `failed generation must remain unpublished: ${id}`);
 }
 assert.ok(!gpt['AR-20261021-0054'], 'three failed #454 generations must not be published');
 assert.ok(!gpt['AR-20261021-0070'], 'three failed #470 generations must not be published');
