@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-25T12:12:23.003483+00:00",
+  "snapshot_time_utc": "2026-11-25T12:36:35.411357+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -24384,6 +24384,76 @@
       "file": "film-ai/decks/film-src-bd33991d8531834f.webp",
       "sha256": "91f88e3b90abdbef7afc0538f4baebf1ccfa3989fcb276f2ca2eada362578e25",
       "bytes": 234686,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-7a9b5e376c32410f",
+      "wid": "src-7a9b5e376c32410f",
+      "title": "Gremlins",
+      "file": "film-ai/decks/film-src-7a9b5e376c32410f.webp",
+      "sha256": "2e8754cdb7b395ddd8a8450c82fbe568ba49747b0ca4af0f33cfdc68cd765c89",
+      "bytes": 272226,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-bbed9d23f1d042cf",
+      "wid": "src-bbed9d23f1d042cf",
+      "title": "Typhoon Club",
+      "file": "film-ai/decks/film-src-bbed9d23f1d042cf.webp",
+      "sha256": "969d668980887910d57f02fa05426834a11c442059e2f35fa0d9e10706394a27",
+      "bytes": 227674,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-26f8a844f9dfb9c6",
+      "wid": "src-26f8a844f9dfb9c6",
+      "title": "Demons",
+      "file": "film-ai/decks/film-src-26f8a844f9dfb9c6.webp",
+      "sha256": "93f952f362ac27e118839d2876b95dea58474dfb1d3c549e564efc0ed0938c57",
+      "bytes": 205312,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-f211ffccdda6584a",
+      "wid": "src-f211ffccdda6584a",
+      "title": "My Life As A Dog",
+      "file": "film-ai/decks/film-src-f211ffccdda6584a.webp",
+      "sha256": "4b6940512f8ce448cbf59f8fe8dc0d281dc4f39ba4406e0fe6a20eb97dff6e3b",
+      "bytes": 462660,
+      "size": [
+        1672,
+        940
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-1532cf5b177e0fd6",
+      "wid": "src-1532cf5b177e0fd6",
+      "title": "Lifeforce",
+      "file": "film-ai/decks/film-src-1532cf5b177e0fd6.webp",
+      "sha256": "f9e9525a504f035ad46f38971e52a54563a091c38dd70f0df53499ad94b77b30",
+      "bytes": 226538,
       "size": [
         1672,
         941
