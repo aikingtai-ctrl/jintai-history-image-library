@@ -1,6 +1,6 @@
 {
   "collected": 20000,
-  "published": 17665,
+  "published": 17666,
   "target": 20000,
   "generationMethod": "内置 imagegen（已公开 PNG）",
   "sourceRevision": "ff8a38bd8a7e87d1689ce3f81c4d930c69d6dcb1",
@@ -185351,10 +185351,17 @@
       "title": "40 qm Deutschland",
       "alternateTitle": "",
       "year": 1985,
-      "scene": null,
-      "prompt": null,
-      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/ff8a38bd8a7e87d1689ce3f81c4d930c69d6dcb1/film-ai/src-864ed72f28180c97.jpg",
-      "png": null
+      "scene": "Studio wedding portrait medium two-shot of Turkish bride Ozay Fecht in a white veil and mustachioed groom Yaman Okay in a dark suit.",
+      "prompt": "Create exactly one original AI cinematic reference image for the library entry \"40 Quadratmeter Deutschland\" (1986). Follow the original first-shot prompt and scene description below. Preserve the location and cultural setting, depicted historical era, subject count, age range, clothing, pose, lighting, visual medium, and composition. Use original fictional performers with the same described roles instead of reproducing an actor's exact likeness. Use the aspect ratio and portrait or square framing explicitly specified by the source; if none is specified, use a horizontal 16:9 frame. Do not add watermarks, logos, captions, collages, or lettering unless explicitly required by the source first shot.\n\nOriginal first-shot prompt:\nStudio wedding portrait medium two-shot of Turkish bride Ozay Fecht in a white veil and mustachioed groom Yaman Okay in a dark suit.\n\nSource scene description:\n照相馆婚礼双人中近景，披白色婚纱头纱的土耳其新娘与留八字胡穿黑西装的新郎并立合影",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2d3a094f0f255d62274068c41ae106e247acc61b/film-ai/src-76ad0760a969c9c0.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-he/e860fbbc533d8f3175ea203ec1b254a24e4320932185a816fea06121f968d88f.png",
+        "filename": "e860fbbc533d8f3175ea203ec1b254a24e4320932185a816fea06121f968d88f.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2248406,
+        "sha256": "e860fbbc533d8f3175ea203ec1b254a24e4320932185a816fea06121f968d88f"
+      }
     },
     {
       "ordinal": 10763,
