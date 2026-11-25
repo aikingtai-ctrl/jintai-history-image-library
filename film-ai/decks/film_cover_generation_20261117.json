@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-25T03:10:00.041444+00:00",
+  "snapshot_time_utc": "2026-11-25T03:55:36.708354+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -23432,6 +23432,76 @@
       "file": "film-ai/decks/film-src-69411941cccfb24e.webp",
       "sha256": "e034bb92d58a69befea9dc9f11ca759fefc8375904fc3d9971f6ec7e0d0e30ab",
       "bytes": 268190,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-c181ec2ceef4f730",
+      "wid": "src-c181ec2ceef4f730",
+      "title": "Battle Beyond the Stars",
+      "file": "film-ai/decks/film-src-c181ec2ceef4f730.webp",
+      "sha256": "f77f3027b4c316199b64cfbb5dda6bca2461f57ba5a1289a872bb113264d6390",
+      "bytes": 309670,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-48a120e550d18f77",
+      "wid": "src-48a120e550d18f77",
+      "title": "Zigeunerweisen",
+      "file": "film-ai/decks/film-src-48a120e550d18f77.webp",
+      "sha256": "da0f103cfd566f1476fdcb154a3203489179bf721c2a84e1dd0e4c728f2c25b9",
+      "bytes": 209402,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-4852b70b0fc17324",
+      "wid": "src-4852b70b0fc17324",
+      "title": "Inferno",
+      "file": "film-ai/decks/film-src-4852b70b0fc17324.webp",
+      "sha256": "dceae3bc37133252263d53996313281509ce4af5707547a5f67a4b5d334f91d1",
+      "bytes": 183736,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-b6aafc6df0a1d3e6",
+      "wid": "src-b6aafc6df0a1d3e6",
+      "title": "Breaker Morant",
+      "file": "film-ai/decks/film-src-b6aafc6df0a1d3e6.webp",
+      "sha256": "b4be6a70f1f41c7fa1503d6d791f4b01e4d8fe475b40de7dde41c64b26dda97e",
+      "bytes": 197348,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-86e759542854c743",
+      "wid": "src-86e759542854c743",
+      "title": "Encounter of the Spooky Kind",
+      "file": "film-ai/decks/film-src-86e759542854c743.webp",
+      "sha256": "d0fbb51aae5c65c9d022cfd36ed3ab07c8cbe0696195ff45aa5e851f7188edf4",
+      "bytes": 264406,
       "size": [
         1672,
         941
