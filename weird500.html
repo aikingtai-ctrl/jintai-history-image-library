@@ -139,7 +139,7 @@ dialog#dlg::backdrop{background:rgba(15,20,18,.58)}
 </dialog>
 <div class="toast" id="toast">已复制</div>
 
-<script src="weird500_data/weird500.js?v=982cc2a62864"></script>
+<script src="weird500_data/weird500.js?v=e39ba13ce16f"></script>
 <script>
 (()=>{
 const D = window.WEIRD500_DATA || {items:[], pillars:[]};
@@ -157,6 +157,16 @@ function resolveCover(rel) {
   if (IS_GH || location.protocol === 'file:') return RAW_BASE + rel;
   return rel;
 }
+window.__w500ImgErr = function(img) {
+  const rel = img.getAttribute('data-rel') || '';
+  if (rel && !img.getAttribute('data-raw-tried') && !/^https?:/i.test(rel) && !IS_GH && location.protocol !== 'file:') {
+    img.setAttribute('data-raw-tried', '1');
+    img.src = RAW_BASE + rel;
+    return;
+  }
+  const fb = img.getAttribute('data-fb');
+  if (fb) img.outerHTML = fb;
+};
 
 function toast(msg) {
   const el = $('toast');
@@ -239,7 +249,7 @@ function apply() {
     const covUrl = resolveCover(x.cover);
     const posterFallback = `<div class="dna-poster"><div class="dna-strips">${palHtml}</div><div class="dna-label">${esc(x.te || x.t)} (${x.y})</div></div>`;
     const mediaHtml = covUrl
-      ? `<img loading="lazy" src="${esc(covUrl)}" alt="${esc(x.t)}" onerror="this.outerHTML=this.dataset.fb" data-fb="${esc(posterFallback)}">`
+      ? `<img loading="lazy" src="${esc(covUrl)}" alt="${esc(x.t)}" data-rel="${esc(x.cover)}" data-fb="${esc(posterFallback)}" onerror="window.__w500ImgErr(this)">`
       : posterFallback;
     return `<article class="card" data-wid="${esc(x.wid)}">
       <div class="cover-box">
