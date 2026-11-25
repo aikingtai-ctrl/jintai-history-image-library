@@ -46,6 +46,48 @@
       "method": "text_generation",
       "source_deviation_note": "湖北省文旅厅资料记熊家冢1号车马坑长132.6米，遗址有六马驾车遗存。画面是车队行进的艺术想象，并非车马坑实拍；车舆、马具、人物与排列方式不按单座墓坑精确复原。",
       "nas_period": "战国"
+    },
+    "HT-W20261029B-G140": {
+      "title": "【20261029薄弱环节深潜考证】战国·陕西泾阳郑国渠首引泾拦河大坝与陶管输水测量定线器具（关中超级水利工程）（配套类）（咸阳博物院·10景）",
+      "original": "images/HT-W20261029B-G140.png",
+      "preview": "previews/HT-W20261029B-G140.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6546d46049160d17e3909c855eb4a73060ddc35d201d2e0fd69f85a0ebd9b722",
+      "source_prompt": "Create a single photorealistic historical film concept image in landscape 16:9 of the Warring States era construction of the Zhengguo Canal at the Jing River gorge in Shaanxi. Show an earthen irrigation channel being cut into a sunlit loess slope near a stony riverbank; surveyors use simple wooden sighting rods and cord to align the route while laborers with baskets move soil. The significant subject is the river diversion and canal earthwork, with a modest timber guide structure but no unsupported exact dam geometry, ceramic pipe system, modern surveying tools or readable marks. Period plausible Qin clothing and practical construction details, no palace, no museum, no captions or text. This is an artistic reconstruction of a historically documented canal site, not a precise archaeological diagram or photograph.",
+      "source": "https://www.sxjhj.cn/16/752/content.aspx",
+      "evidence_level": "B",
+      "method": "text_generation",
+      "source_deviation_note": "陕西省泾惠渠灌溉中心资料说明郑国渠首遗址及历代引泾渠首调查；图为战国筑渠场景的艺术复原，并非遗址实拍。拦河坝断面、测量器具、陶管输水等条目具体构造未获独立核实，画面不按精确工程图表现。",
+      "nas_period": "战国"
+    },
+    "HT-W20261029B-G141": {
+      "title": "【20261029薄弱环节深潜考证】战国·魏国大梁与燕下都武阳城铁作坊双扇木风箱、铁范铸造与块炼渗碳锻钢炉（战国冶铁配套）（配套类）（河北博物院·10景）",
+      "original": "images/HT-W20261029B-G141.png",
+      "preview": "previews/HT-W20261029B-G141.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "974b52073f0cbf6c0f604f76753b22beee615f2b08a0683b6cb4e4b66e570cd1",
+      "source_prompt": "Create a single photorealistic historical film concept image in landscape 16:9 of a Warring States period ironworking workshop within the city of Yanxiadu, northern China. Show workers heating rough iron billets in a compact clay furnace, one hand-operating a simple leather-and-wood air supply and another shaping a red-hot small iron tool on a stone anvil. Show heaps of iron slag, ceramic molds and rough iron pieces near rammed-earth walls. Focus on historically plausible manual metallurgy, not a fully specified bellows design or a conflation with the Wei capital of Daliang. Clear natural side light, realistic materials, sober clothing, no modern gear, no text or labels. Explicitly an artistic interpretation of the documented Yanxiadu ironworking remains, not an excavation photograph.",
+      "source": "https://wenwu.hebei.gov.cn/system/2023/10/16/030257948.shtml",
+      "evidence_level": "B",
+      "method": "text_generation",
+      "source_deviation_note": "河北省文物局记燕下都城内发现冶铁作坊遗址。图只表现燕下都冶铁概念场景，不表现条目同时提到的魏都大梁；风箱外形、冶炼工艺流程与工具组合未经实物逐项核对，不是遗址实拍。",
+      "nas_period": "战国"
+    },
+    "HT-W20261029B-G142": {
+      "title": "【20261029薄弱环节深潜考证】战国·墨家城防体系之转射机、连弩车与悬门千钧闸机械总成（战国守城工程器械）（配套类）（滕州墨子纪念馆·10景）",
+      "original": "images/HT-W20261029B-G142.png",
+      "preview": "previews/HT-W20261029B-G142.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3ca540508754957ab2bb1425a2edf75fcc65fb167e6c554437efdb9188d86777",
+      "source_prompt": "Create a single photorealistic historical film concept image in landscape 16:9 illustrating Warring States era defensive engineering described in the transmitted Mohist texts. On a rammed-earth city wall, a small team of defenders prepares a wooden multiple-bolt crossbow carriage and checks a heavy hanging gate with ropes and timber beams. Show plausible carpenter-built mechanisms, hemp ropes and hand-made bolts, not an exact historical blueprint; the ancient texts are incomplete and no matching artifact is assumed. Daytime, physically coherent wood joinery and engineering labor, period plain clothing, no fantasy weapons, no modern machinery, no writing or captions. A clearly conceptual historical scene rather than a museum photograph.",
+      "source": "https://ctext.org/wiki.pl?chapter=769751&if=gb",
+      "evidence_level": "B",
+      "method": "text_generation",
+      "source_deviation_note": "传世《墨子》城守篇含连弩车及悬门等守城描述，但器械结构具体形制存在解释空间。图为基于文本的概念艺术复原，不对应出土器物或滕州馆藏原件，弩车及城门机构不作精确复刻。",
+      "nas_period": "战国"
     }
   }
 }
