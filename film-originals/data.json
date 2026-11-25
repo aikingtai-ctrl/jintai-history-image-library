@@ -1,6 +1,6 @@
 {
   "collected": 20000,
-  "published": 15367,
+  "published": 15368,
   "target": 20000,
   "generationMethod": "内置 imagegen（已公开 PNG）",
   "sourceRevision": "ff8a38bd8a7e87d1689ce3f81c4d930c69d6dcb1",
@@ -181975,10 +181975,17 @@
       "title": "驕陽逼近",
       "alternateTitle": "From What Is Before",
       "year": 2014,
-      "scene": null,
-      "prompt": null,
-      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/ff8a38bd8a7e87d1689ce3f81c4d930c69d6dcb1/film-ai/src-8a1f25308e66edb3.jpg",
-      "png": null
+      "scene": "Black-and-white wide shot on a winding tropical dirt road in the Philippines, a lone woman sitting on the roadside beneath overarching palm fronds, 2014 Lav Diaz film.",
+      "prompt": "Create exactly one original AI cinematic reference image for the library entry \"Mula sa kung ano ang noon\" (2014). Follow the original first-shot prompt and scene description below. Preserve the location and cultural setting, depicted historical era, subject count, age range, clothing, pose, lighting, visual medium, and composition. Use original fictional performers with the same described roles instead of reproducing an actor's exact likeness. Preserve portrait or square framing when explicitly specified; otherwise use a horizontal 16:9 frame. Do not add watermarks, logos, captions, collages, or lettering unless explicitly required by the source first shot.\n\nOriginal first-shot prompt:\nBlack-and-white wide shot on a winding tropical dirt road in the Philippines, a lone woman sitting on the roadside beneath overarching palm fronds, 2014 Lav Diaz film.\n\nSource scene description:\n菲律宾热带丛林蜿蜒的乡间土路上，茂密的棕榈树叶垂落成拱形，一名女子独自坐在路边草地上静默休息。",
+      "thumbnail": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2d3a094f0f255d62274068c41ae106e247acc61b/film-ai/src-19f68312b03879da.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h9/96b70965564f9515957f33b95fb2665e706564e204a97ca3b5c58b2e6b6cdee3.png",
+        "filename": "96b70965564f9515957f33b95fb2665e706564e204a97ca3b5c58b2e6b6cdee3.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2834960,
+        "sha256": "96b70965564f9515957f33b95fb2665e706564e204a97ca3b5c58b2e6b6cdee3"
+      }
     },
     {
       "ordinal": 11053,
