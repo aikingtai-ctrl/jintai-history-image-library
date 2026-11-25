@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-25T10:38:23.384559+00:00",
+  "snapshot_time_utc": "2026-11-25T10:53:44.787838+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -24104,6 +24104,76 @@
       "file": "film-ai/decks/film-src-b487e8aa5e1e4007.webp",
       "sha256": "ff5a6eddb2e8c609889a6d0596923efc995991ef750c32f8c8a634ccad454981",
       "bytes": 272162,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:sans-soleil-1983",
+      "wid": "sans-soleil-1983",
+      "title": "Sans Soleil",
+      "file": "film-ai/decks/film-sans-soleil-1983.webp",
+      "sha256": "f8fead00852aa2b5e94200a75389a4cc5fd9bb3756ecfebe5c637e44894c911b",
+      "bytes": 244304,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-d16b32983addd89f",
+      "wid": "src-d16b32983addd89f",
+      "title": "Octopussy",
+      "file": "film-ai/decks/film-src-d16b32983addd89f.webp",
+      "sha256": "0fd41ad12d0ef7607c46cef0eabfad878e581c97fc3267f3a52aab58413b61d5",
+      "bytes": 188598,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:the-outsiders-1983",
+      "wid": "the-outsiders-1983",
+      "title": "The Outsiders",
+      "file": "film-ai/decks/film-the-outsiders-1983.webp",
+      "sha256": "3383edcc63707dfd383820298a05686218e10acbe602b59324c2e8544383e763",
+      "bytes": 208950,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-2e0622a571d8794d",
+      "wid": "src-2e0622a571d8794d",
+      "title": "Olivia",
+      "file": "film-ai/decks/film-src-2e0622a571d8794d.webp",
+      "sha256": "c67340e15334eccb04fcf0b0fdce9782bc319c78867cc9622e2e0f562177865e",
+      "bytes": 143356,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-beb6d6f5ff5668d7",
+      "wid": "src-beb6d6f5ff5668d7",
+      "title": "Conquest",
+      "file": "film-ai/decks/film-src-beb6d6f5ff5668d7.webp",
+      "sha256": "a8bf891fbe1a63300c619f1c2c27baebd2dc08d74c8ef3d85de481d2bdaa82ac",
+      "bytes": 185080,
       "size": [
         1672,
         941
