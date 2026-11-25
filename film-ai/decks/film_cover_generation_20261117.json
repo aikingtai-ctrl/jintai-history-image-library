@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-25T04:39:44.221503+00:00",
+  "snapshot_time_utc": "2026-11-25T05:00:27.741042+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -23642,6 +23642,76 @@
       "file": "film-ai/decks/film-src-f5f7a788bb9fc5df.webp",
       "sha256": "f8f3c8f0203fa05284e59db1fa9ea9a105b55e36261b57c2b1cf700019cf90e5",
       "bytes": 256524,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-a6a8c432b52b4a2f",
+      "wid": "src-a6a8c432b52b4a2f",
+      "title": "Escape From New York",
+      "file": "film-ai/decks/film-src-a6a8c432b52b4a2f.webp",
+      "sha256": "5ffeda8e98c7d1ca700a69fe70b0e048ab1daf4a26637a74fd4fbbc6f1b89eb5",
+      "bytes": 228384,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-ae062aee0a88adf0",
+      "wid": "src-ae062aee0a88adf0",
+      "title": "Coup De Torchon",
+      "file": "film-ai/decks/film-src-ae062aee0a88adf0.webp",
+      "sha256": "dc81ee01ee05e747df9064bdb15bd22b487d8bb9035662c10b867c1b3a786c7e",
+      "bytes": 349826,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-2f1553dcc3f4141b",
+      "wid": "src-2f1553dcc3f4141b",
+      "title": "Halloween II",
+      "file": "film-ai/decks/film-src-2f1553dcc3f4141b.webp",
+      "sha256": "c97479a790d1711c97136be6b8d56148b8a1dede1085af97369fb2d20de1b39c",
+      "bytes": 211236,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-5b42d471505eacda",
+      "wid": "src-5b42d471505eacda",
+      "title": "For Your Eyes Only",
+      "file": "film-ai/decks/film-src-5b42d471505eacda.webp",
+      "sha256": "2c5e3851ac9f64c7fa4d895f54b7d1de2eef222ce7690226f0e34f8b28f292a0",
+      "bytes": 313716,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-d1cca7d737e25d1d",
+      "wid": "src-d1cca7d737e25d1d",
+      "title": "School in the Crosshairs",
+      "file": "film-ai/decks/film-src-d1cca7d737e25d1d.webp",
+      "sha256": "51bddb94af0551fce41f9279af784f603d9599e21fba7d30de402baf36e3b148",
+      "bytes": 165184,
       "size": [
         1672,
         941
