@@ -1,0 +1,180 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    4680,
+    5039
+  ],
+  "sources": [
+    "https://catalog.afi.com/Film/59703-THE-WEDDINGBANQUET",
+    "https://player.bfi.org.uk/subscription/film/watch-images-1972-online",
+    "https://trigon-film.org/en/films/o-megalexandros/",
+    "https://sansebastianfestival.com/2016/sections_and_films/official_selection/7/641957/in",
+    "https://catalog.afi.com/Film/12942-UNDERWORLD",
+    "https://jfdb.jp/en/title/8126",
+    "https://sitgesfilmfestival.com/en/film/2019/bacurau",
+    "https://www.sonypictures.com/movies/freaksofnature"
+  ],
+  "decisions": [
+    {
+      "wid": "src-b7138fbc1caac9bf",
+      "previous": "film-ai/src-b7138fbc1caac9bf.jpg",
+      "replacement": "film-ai/quality-reviewed/src-b7138fbc1caac9bf.png",
+      "reason": "The Wedding Banquet displays Jackie Chan in a different film costume",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bb47f4ed19b49b2c",
+      "previous": "film-ai/src-bb47f4ed19b49b2c.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bb47f4ed19b49b2c.png",
+      "reason": "Images displays unrelated commercial sign and collage",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bc55bc68bbb7b8f6",
+      "previous": "film-ai/src-bc55bc68bbb7b8f6.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bc55bc68bbb7b8f6.png",
+      "reason": "O Megalexandros displays a text title card instead of a scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bd501959e7945fc7",
+      "previous": "film-ai/src-bd501959e7945fc7.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bd501959e7945fc7.png",
+      "reason": "A Brief Vacation displays a television capture and director portrait",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bd9d2cd86b4a03c3",
+      "previous": "film-ai/src-bd9d2cd86b4a03c3.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bd9d2cd86b4a03c3.png",
+      "reason": "The Giant displays David Attenborough and a dinosaur skeleton instead of the petanque story",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bdb46c1d25235e31",
+      "previous": "film-ai/src-bdb46c1d25235e31.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bdb46c1d25235e31.png",
+      "reason": "Center Stage displays an unrelated fashion portrait instead of ballet",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bdde87ce679af62d",
+      "previous": "film-ai/src-bdde87ce679af62d.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bdde87ce679af62d.png",
+      "reason": "Underworld displays a newspaper text card occupying the image",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-be1ebd09c61a0884",
+      "previous": "film-ai/src-be1ebd09c61a0884.jpg",
+      "replacement": "film-ai/quality-reviewed/src-be1ebd09c61a0884.png",
+      "reason": "The Childhood of a Leader displays a festival red-carpet photograph",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-be6ad3e338d4f67a",
+      "previous": "film-ai/src-be6ad3e338d4f67a.jpg",
+      "replacement": "film-ai/quality-reviewed/src-be6ad3e338d4f67a.png",
+      "reason": "Love Actually displays an unrelated modern father and teenager scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-be7a0ecee67f27ce",
+      "previous": "film-ai/src-be7a0ecee67f27ce.jpg",
+      "replacement": "film-ai/quality-reviewed/src-be7a0ecee67f27ce.png",
+      "reason": "Zapped! displays an unrelated middle-aged man at a school locker",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-be9a6ab9e4db5419",
+      "previous": "film-ai/src-be9a6ab9e4db5419.jpg",
+      "replacement": "film-ai/quality-reviewed/src-be9a6ab9e4db5419.png",
+      "reason": "Crash displays a camera and crew in a behind-the-scenes image",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bef4e84367ac5e0b",
+      "previous": "film-ai/src-bef4e84367ac5e0b.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bef4e84367ac5e0b.png",
+      "reason": "Tender Mercies displays an unrelated contemporary cowboy portrait",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bf06b6afefdf9bac",
+      "previous": "film-ai/src-bf06b6afefdf9bac.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bf06b6afefdf9bac.png",
+      "reason": "In Search of Dr. Seuss displays an unrelated uniformed man portrait",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bf06d186ce19de6f",
+      "previous": "film-ai/src-bf06d186ce19de6f.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bf06d186ce19de6f.png",
+      "reason": "Ferris Bueller displays unrelated middle-aged man and delivery worker",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bf0e877df66ada1b",
+      "previous": "film-ai/src-bf0e877df66ada1b.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bf0e877df66ada1b.png",
+      "reason": "Rappin displays a contemporary LED stage inconsistent with the 1985 film",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bf2628a81f8e5e48",
+      "previous": "film-ai/src-bf2628a81f8e5e48.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bf2628a81f8e5e48.png",
+      "reason": "Toy Story 3 displays repeated abstract neon architecture",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bf26905438ec80e6",
+      "previous": "film-ai/src-bf26905438ec80e6.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bf26905438ec80e6.png",
+      "reason": "Superstition displays repeated abstract neon architecture",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bf26cabfd8a096dd",
+      "previous": "film-ai/src-bf26cabfd8a096dd.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bf26cabfd8a096dd.png",
+      "reason": "Nishijin displays repeated abstract neon architecture",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bf2d94f7c7e63309",
+      "previous": "film-ai/src-bf2d94f7c7e63309.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bf2d94f7c7e63309.png",
+      "reason": "Bacurau displays repeated abstract neon architecture",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bf33dace9d6411c5",
+      "previous": "film-ai/src-bf33dace9d6411c5.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bf33dace9d6411c5.png",
+      "reason": "Freaks of Nature displays repeated abstract neon architecture",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bf36cc85255d5a1f",
+      "previous": "film-ai/src-bf36cc85255d5a1f.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bf36cc85255d5a1f.png",
+      "reason": "Lilya 4-Ever displays repeated abstract neon architecture",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-bfeaeaaa04ac9ad1",
+      "previous": "film-ai/src-bfeaeaaa04ac9ad1.jpg",
+      "replacement": "film-ai/quality-reviewed/src-bfeaeaaa04ac9ad1.png",
+      "reason": "Lucy displays cheetahs unrelated to the film",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-c200843d07b9d8d0",
+      "previous": "film-ai/src-c200843d07b9d8d0.jpg",
+      "replacement": "film-ai/quality-reviewed/src-c200843d07b9d8d0.png",
+      "reason": "Dheepan displays a director portrait instead of a story scene",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
