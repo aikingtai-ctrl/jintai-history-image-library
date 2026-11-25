@@ -1,0 +1,35 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    3600,
+    3959
+  ],
+  "sources": [
+    "https://www.moma.org/calendar/events/9174",
+    "https://www.swissfilms.ch/de/movie/tusen-toner/91e7336cb6504c55afb2e4fca423abeb",
+    "https://catalog.afi.com/Film/64016-SCARY-MOVIE-4?cxt=filmography"
+  ],
+  "decisions": [
+    {
+      "wid": "src-6fc461a1bf09fe6d",
+      "previous": "film-ai/src-6fc461a1bf09fe6d.jpg",
+      "replacement": "film-ai/quality-reviewed/src-6fc461a1bf09fe6d.png",
+      "reason": "End-credit text card instead of the I basilischi story",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-7ce21396665fdee8",
+      "previous": "film-ai/src-7ce21396665fdee8.jpg",
+      "replacement": "film-ai/quality-reviewed/src-7ce21396665fdee8.png",
+      "reason": "Older filmmaker portrait instead of four young rappers in Tusen Toner",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-7d992a9a04220660",
+      "previous": "film-ai/src-7d992a9a04220660.jpg",
+      "replacement": "film-ai/quality-reviewed/src-7d992a9a04220660.png",
+      "reason": "Behind-the-scenes crew photo instead of Scary Movie 4 story",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
