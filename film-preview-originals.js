@@ -1,6 +1,13 @@
 /* FILM_PREVIEW_DIRECT_OPEN: keep preview clicks pointed at source images. */
 (() => {
   function original(src) {
+    const goal = String(src || '').match(/^(?:.*?film-ai\/goal9438\/)([^/?#]+)\.jpg(?:[?#].*)?$/i);
+    if (goal) {
+      const wid = goal[1];
+      let hash = 0;
+      for (const char of wid) hash = (Math.imul(hash, 31) + char.charCodeAt(0)) >>> 0;
+      return `https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-goal9438-native-20261124-h${hash % 4}/${wid}.png`;
+    }
     const match = String(src || '').match(/^(.*?film-ai\/goal3377\/)([^/?#]+)\.jpg(?:[?#].*)?$/i);
     return match ? `${match[1]}originals/${match[2]}.png` : src;
   }
