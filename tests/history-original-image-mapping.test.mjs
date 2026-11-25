@@ -29,7 +29,7 @@ for (const item of Object.values(manifest.JINTAI_PAGE23_IMAGES)) {
 const homepage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 assert.ok(homepage.includes(`page23-originals-manifest.js?v=20261125-page23-${page23Count}`));
 assert.match(homepage, /function histOriginalInfo\(id\)\{return window\.JINTAI_PAGE23_IMAGES\?\.\[id\]/);
-assert.equal(Object.keys(gpt).length, 536);
+assert.equal(Object.keys(gpt).length, 540);
 for (const page of ['index.html', 'history-batch.html', 'history-batch-1001-2000.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
   assert.ok(html.includes(`gpt-image-${Object.keys(gpt).length}`),
