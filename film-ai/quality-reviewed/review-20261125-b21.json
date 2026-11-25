@@ -1,0 +1,72 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    5400,
+    5759
+  ],
+  "sources": [
+    "https://www.festival-cannes.com/en/f/huozhe/",
+    "https://catalog.afi.com/Film/56561-JENNIFER",
+    "https://globalcinema.kadokawa.co.jp/library/entry-3425.html",
+    "https://catalog.afi.com/Catalog/moviedetails/5054",
+    "https://www.pbs.org/video/a-conversation-with-renowned-poet-nikki-giovanni-ar5mpg/"
+  ],
+  "decisions": [
+    {
+      "wid": "src-e4614e43aa19594b",
+      "previous": "film-ai/src-e4614e43aa19594b.jpg",
+      "replacement": "film-ai/quality-reviewed/src-e4614e43aa19594b.png",
+      "reason": "H Is for Happiness displays a narrow text poster rather than a scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-e476d2475dd2e705",
+      "previous": "film-ai/src-e476d2475dd2e705.jpg",
+      "replacement": "film-ai/quality-reviewed/src-e476d2475dd2e705.png",
+      "reason": "To Live displays a poster for a different same-title French film",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-e50353494fa02d1a",
+      "previous": "film-ai/src-e50353494fa02d1a.jpg",
+      "replacement": "film-ai/quality-reviewed/src-e50353494fa02d1a.png",
+      "reason": "10 Minutes Gone displays a title overlay on a building rather than a scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-e53017e5ba410ee4",
+      "previous": "film-ai/src-e53017e5ba410ee4.jpg",
+      "replacement": "film-ai/quality-reviewed/src-e53017e5ba410ee4.png",
+      "reason": "Going to Mars displays an event photo rather than a documentary theme",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-e5d50450f0ee3235",
+      "previous": "film-ai/src-e5d50450f0ee3235.jpg",
+      "replacement": "film-ai/quality-reviewed/src-e5d50450f0ee3235.png",
+      "reason": "The Lorax displays a voice actor in a recording booth rather than animation",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-e7ee6819110d16df",
+      "previous": "film-ai/src-e7ee6819110d16df.jpg",
+      "replacement": "film-ai/quality-reviewed/src-e7ee6819110d16df.png",
+      "reason": "Jennifer displays a low-quality horror poster rather than a legible scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-ec8a9f80bc620807",
+      "previous": "film-ai/src-ec8a9f80bc620807.jpg",
+      "replacement": "film-ai/quality-reviewed/src-ec8a9f80bc620807.png",
+      "reason": "Odd Obsession displays a title card rather than a scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-oscar-cine-b18e3d683cd877e2",
+      "previous": "film-ai/src-oscar-cine-b18e3d683cd877e2.jpg",
+      "replacement": "film-ai/quality-reviewed/src-oscar-cine-b18e3d683cd877e2.png",
+      "reason": "Abe Lincoln in Illinois displays a historical portrait rather than the film",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
