@@ -1,0 +1,35 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    2880,
+    3239
+  ],
+  "sources": [
+    "https://www.viennale.at/en/films/exercice-de-l-tat",
+    "https://catalog.afi.com/Catalog/moviedetails/59557",
+    "https://bampfa.org/oskicat/journey-self"
+  ],
+  "decisions": [
+    {
+      "wid": "src-3cef3b6856f43cb0",
+      "previous": "film-ai/src-3cef3b6856f43cb0.jpg",
+      "replacement": "film-ai/quality-reviewed/src-3cef3b6856f43cb0.png",
+      "reason": "Outdoor portrait is not a representative scene of the French political drama",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-3efefb253e0e93c8",
+      "previous": "film-ai/src-3efefb253e0e93c8.jpg",
+      "replacement": "film-ai/quality-reviewed/src-3efefb253e0e93c8.png",
+      "reason": "Academy Awards DVD collection box is unrelated to Stanton Elementary documentary content",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-541a856b76ff2ec1",
+      "previous": "film-ai/src-541a856b76ff2ec1.jpg",
+      "replacement": "film-ai/quality-reviewed/src-541a856b76ff2ec1.png",
+      "reason": "Carl Rogers book jacket is not a scene from the 1968 encounter-group documentary",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
