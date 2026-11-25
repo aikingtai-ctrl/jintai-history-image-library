@@ -1,0 +1,59 @@
+{
+  "reviewedOn": "2026-11-25",
+  "screenedRange": [
+    3960,
+    4319
+  ],
+  "sources": [
+    "https://watch.afi.com/movie/open-water",
+    "https://www.magpictures.com/profile.aspx?id=d54c5e7f-82f4-4c1e-a005-416970801a5c",
+    "https://www.europeanfilmawards.eu/efa-movie/moolaade/",
+    "https://www.universalpicturesathome.com/movies/pitch-perfect",
+    "https://catalog.afi.com/Film/50637-ROOM-FOR-ONE-MORE",
+    "https://catalog.afi.com/Film/55915-THE-TURNING-POINT"
+  ],
+  "decisions": [
+    {
+      "wid": "src-7f3d493a8b78ddb6",
+      "previous": "film-ai/src-7f3d493a8b78ddb6.jpg",
+      "replacement": "film-ai/quality-reviewed/src-7f3d493a8b78ddb6.png",
+      "reason": "Dive-boat production photo instead of Open Water story scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-9893421b197c4383",
+      "previous": "film-ai/src-9893421b197c4383.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9893421b197c4383.png",
+      "reason": "On-set crew photo instead of In the Fade drama scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-9a29301d400ecfd8",
+      "previous": "film-ai/src-9a29301d400ecfd8.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9a29301d400ecfd8.png",
+      "reason": "Abstract logo graphic instead of Moolaadé village story",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-9c8848cab094035a",
+      "previous": "film-ai/src-9c8848cab094035a.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9c8848cab094035a.png",
+      "reason": "Premiere red-carpet portrait instead of Pitch Perfect musical scene",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-9ced1b1517ebab67",
+      "previous": "film-ai/src-9ced1b1517ebab67.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9ced1b1517ebab67.png",
+      "reason": "Cast-credit text card instead of Room for One More family story",
+      "provenance": "New AI concept image; not a film frame"
+    },
+    {
+      "wid": "src-9d60b6d0a26435e6",
+      "previous": "film-ai/src-9d60b6d0a26435e6.jpg",
+      "replacement": "film-ai/quality-reviewed/src-9d60b6d0a26435e6.png",
+      "reason": "Unrelated older actress portrait instead of The Turning Point ballet scene",
+      "provenance": "New AI concept image; not a film frame"
+    }
+  ]
+}
