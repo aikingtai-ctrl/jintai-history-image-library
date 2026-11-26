@@ -601,6 +601,206 @@
       },
       "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
       "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 47,
+      "wid": "src-1020d9ce6cf22750",
+      "title": "Aldrig en Absolution",
+      "firstShotId": "VP-src-1020d9ce6cf22750-01",
+      "scene": "树荫斑驳的户外穿黑色吊带裙戴墨镜的长发女子手托下巴竖幅照",
+      "actualPrompt": "Original cinematic outdoor portrait, wide 16:9. A fictional adult long-haired woman in a plain black spaghetti-strap summer dress and dark sunglasses rests her chin thoughtfully on one hand beneath dappled tree shade. Frame head and shoulders, muted blurred foliage and gentle patches of sunlight, calm candid expression, natural nonsexual presentation. Original face, no actor likeness, no text.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "672d6c253acff5c0984a535097044b068b0cd24f6e29f616c32ba57682397186",
+      "preview": "film-ai/firstshot-20261126/src-1020d9ce6cf22750.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f8e4a288a50c23df920c33589893af9438993d5c/originals/film-expand-firstshot-20261126/src-1020d9ce6cf22750.png",
+        "bytes": 2178216,
+        "sha256": "5bfbd809ce23428429ace7c0056c09addfe64df42f2abd81cfa59efc19678924",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 48,
+      "wid": "src-103cef0fc3b3c01f",
+      "title": "Captain Marvel",
+      "firstShotId": "VP-51d4edc807827389",
+      "scene": "昏暗的工业走廊中，两名人物剪影在中央对峙，两侧墙壁排列着垂直的青色霓虹灯条，尽头弥漫着橙红色的雾气。",
+      "actualPrompt": "Original cinematic science-fiction corridor image, wide 16:9. Two fully clothed human silhouettes face one another in the middle of a dark industrial hallway. Both walls are lined with vertical cyan neon light bars, while orange-red fog glows at the far end. Symmetric architectural depth, contrasting cold and warm light, tense stillness, no violence or written symbols. No text or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "3be1d481b80ea4aa8ba568a7bbace03edf0f9b67893330c5ddb110c998bf3add",
+      "preview": "film-ai/firstshot-20261126/src-103cef0fc3b3c01f.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f8e4a288a50c23df920c33589893af9438993d5c/originals/film-expand-firstshot-20261126/src-103cef0fc3b3c01f.png",
+        "bytes": 2036110,
+        "sha256": "43b8b5195473a7cd9dd8d60ca9f099f17cad77516980ee4b83623bb0e095f320",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 49,
+      "wid": "src-10621597adeb3e22",
+      "title": "Liam",
+      "firstShotId": "VP-src-10621597adeb3e22-01",
+      "scene": "三十年代利物浦教堂告解室木格栅窗后七岁小男孩利亚姆双手合十紧张地低头忏悔",
+      "actualPrompt": "Original quiet cinematic image, wide 16:9. A fully clothed seven-year-old boy kneels behind the wooden lattice window of a 1930s Liverpool church confessional, hands clasped and head bowed nervously in prayer. Close shot through the wooden grille, dim warm church light and old wood texture. Respectful ordinary religious setting, no threatening adult, no abuse. Original fictional face, no text.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "4380ea87cb8227c83e80e42339b90ef923f9b392e52a9e3d3fdf996d95403229",
+      "preview": "film-ai/firstshot-20261126/src-10621597adeb3e22.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f8e4a288a50c23df920c33589893af9438993d5c/originals/film-expand-firstshot-20261126/src-10621597adeb3e22.png",
+        "bytes": 1839501,
+        "sha256": "bc7dfa6e633d7a0c560dd0dc1e4a32eeaac939cf4cf6ef7e37b701519627a47c",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 50,
+      "wid": "src-106b03426e682358",
+      "title": "千刀萬里追",
+      "firstShotId": "VP-src-106b03426e682358-01",
+      "scene": "明代古装厅堂内，留着胡须、身穿暗红几何花纹锦袍的武林高手手握宝剑，神情威严地伫立堂前。",
+      "actualPrompt": "Original cinematic historical martial-arts image, wide 16:9. In a Ming-dynasty ceremonial interior, a bearded adult swordsman in a dark red brocade robe with geometric woven patterns stands solemnly holding a sword. Medium shot, imposing posture, carved timber architecture, rich fabric and controlled warm light. Original fictional face, no actor likeness, no combat or injury, no text.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "acf019dac4751730ba0e0f322ce25c97c97eaa5b820dc82f17d0ab265162503a",
+      "preview": "film-ai/firstshot-20261126/src-106b03426e682358.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f8e4a288a50c23df920c33589893af9438993d5c/originals/film-expand-firstshot-20261126/src-106b03426e682358.png",
+        "bytes": 2365942,
+        "sha256": "1efc05cc92c4e0e46886be371b2d4e4c3e05d34558b35a7c049bc4af920c6d3c",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 51,
+      "wid": "src-106e977a6da48fa0",
+      "title": "Un uomo in grigio",
+      "firstShotId": "VP-src-106e977a6da48fa0-01",
+      "scene": "昏暗室內留著蓬鬆捲髮的小男孩身穿深色高領毛衣，面容蒼白眼神憂傷地凝視著前方",
+      "actualPrompt": "Original restrained cinematic portrait, wide 16:9. A fictional young boy with fluffy curly hair wears a dark high-neck sweater in a dim interior. His pale face and sorrowful eyes look quietly ahead. Close framing, soft shadow and a simple blurred domestic background, natural emotion without melodrama. Fully clothed, no injury or threatening person, no text or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "0f20ab0c1fc70f4c8977f9de8236e3d89dbe1e2e47f8e05f1215939e26f2d4b6",
+      "preview": "film-ai/firstshot-20261126/src-106e977a6da48fa0.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f8e4a288a50c23df920c33589893af9438993d5c/originals/film-expand-firstshot-20261126/src-106e977a6da48fa0.png",
+        "bytes": 1777138,
+        "sha256": "b37ceb38b67bedd6e02fffd1a5a583369511dae5e56ec0bc3dd34a70a28f6b8b",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 52,
+      "wid": "src-106fcff907efb558",
+      "title": "The Long Dumb Road",
+      "firstShotId": "VP-fb15d4074c03b259",
+      "scene": "昏暗旅馆房间内，一名穿格纹衬衫的人物仰躺在铺着花纹床单的床上，左手扶额，右手持手机，背景可见台灯、窗帘及白色房门。",
+      "actualPrompt": "Original cinematic motel-room image, wide 16:9. A fully clothed adult in a plaid shirt lies face upward on a bed with patterned sheets, left hand on the forehead and right hand holding a mobile phone. In the dim background are a bedside lamp, curtains and a white room door. Quiet weary mood, ordinary modest lodging, realistic textures. Fictional original face, no text.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "394d2ad70b21be615b551455f3d7d3bd3b4fe4a348424ab42eb8ed27bd75309a",
+      "preview": "film-ai/firstshot-20261126/src-106fcff907efb558.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f8e4a288a50c23df920c33589893af9438993d5c/originals/film-expand-firstshot-20261126/src-106fcff907efb558.png",
+        "bytes": 2103009,
+        "sha256": "97b9a2015631958a360becb061c3a636abe820d1364f6ef81d1d37d506ea9640",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 53,
+      "wid": "src-10769c1d674d3dfc",
+      "title": "Las plantas",
+      "firstShotId": "VP-src-10769c1d674d3dfc-01",
+      "scene": "晴朗的浅蓝天空下，留着脏辫、身穿卡其色马甲内搭黑色连帽衫的年轻男子站在高处，双手握着一台微型摄像机对准下方拍摄。",
+      "actualPrompt": "Original cinematic outdoor medium shot, wide 16:9. A fictional young adult man with dreadlocks stands at an elevated position under a clear pale blue sky, wearing a khaki vest over a black hoodie. He holds a small video camera with both hands and points it downward to film something below. Preserve the camera and downward recording action, natural daylight, no lettering.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "56c0536bf50e33132515a566709fcfe2433776545144cdfc0a91ab07ab8276e1",
+      "preview": "film-ai/firstshot-20261126/src-10769c1d674d3dfc.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f8e4a288a50c23df920c33589893af9438993d5c/originals/film-expand-firstshot-20261126/src-10769c1d674d3dfc.png",
+        "bytes": 1927502,
+        "sha256": "bba1d74193075bb8d2fdb7090cb611bb4ab37e92dd62d535c532abd0cd1a5814",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 54,
+      "wid": "src-107770873017f03d",
+      "title": "胭脂扣",
+      "firstShotId": "VP-ef4813dd62891652",
+      "scene": "一位身穿深色花卉旗袍的女子站在木框镜子前，双手抬起置于胸前，背景是贴有橙白碎花壁纸的室内墙壁。",
+      "actualPrompt": "Original cinematic period interior, wide 16:9. A fictional adult woman wearing a dark floral cheongsam stands before a wooden-framed mirror with both hands lifted near her chest. Orange-and-white small-flower wallpaper covers the wall behind her. Warm subdued room light, delicate woven dress and old timber textures, thoughtful restrained posture. Original face and coherent mirror reflection, no actor likeness, no text.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "8e47d4929d7f06dcc0fa1b12a817ee25ee3305b974d602ec2a97c25137e8950c",
+      "preview": "film-ai/firstshot-20261126/src-107770873017f03d.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f8e4a288a50c23df920c33589893af9438993d5c/originals/film-expand-firstshot-20261126/src-107770873017f03d.png",
+        "bytes": 2453957,
+        "sha256": "9ae6c8509ee1ee1b99cc7d3772b72effdb4dfcddcf4986eae3840007ea1c278f",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 55,
+      "wid": "src-1078dd10201afd13",
+      "title": "Dek Hor",
+      "firstShotId": "VP-src-1078dd10201afd13-01",
+      "scene": "现代北欧风格的客厅内，浅灰色布艺沙发与圆形木茶几摆放整齐，白色墙面上挂着一幅黑白摄影装饰画。",
+      "actualPrompt": "Original photoreal cinematic interior still, wide 16:9. An unoccupied modern Nordic-style living room with a light gray fabric sofa and a round wooden coffee table arranged neatly. A single black-and-white photographic print hangs on the white wall. Soft natural daylight, calm restrained neutral palette, realistic fabric and timber surfaces. No people, no added objects, no writing or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "0f240757523dab9f0155c15cee386457f0bd1fb4dd68a6ca792198dee4c07a2e",
+      "preview": "film-ai/firstshot-20261126/src-1078dd10201afd13.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f8e4a288a50c23df920c33589893af9438993d5c/originals/film-expand-firstshot-20261126/src-1078dd10201afd13.png",
+        "bytes": 2547500,
+        "sha256": "e834a36b42ef7d551fde45bcc94f9e5fcd94c00e47bf867e8ffdb93c397d3db4",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 56,
+      "wid": "src-107a1bd109d6380a",
+      "title": "Everly",
+      "firstShotId": "VP-src-107a1bd109d6380a-01",
+      "scene": "金色丝绸窗帘旁湿发披肩的萨尔玛·海耶克裸露后肩、眼神警觉地回首凝视画左特写",
+      "actualPrompt": "Original cinematic close portrait, wide 16:9. A fictional adult Latina woman with wet long dark hair turns her head alertly to look toward the left beside golden silk curtains. She wears a modest backless evening gown; frame only her face, upper shoulder and upper back, with no intimate anatomy visible. Tense attentive expression, warm curtain light, original face with no celebrity likeness. No text.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "bd090d78edb5320426111a53e928fd33ed5b5db3e11a87d8b0e517440b3a3280",
+      "preview": "film-ai/firstshot-20261126/src-107a1bd109d6380a.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f8e4a288a50c23df920c33589893af9438993d5c/originals/film-expand-firstshot-20261126/src-107a1bd109d6380a.png",
+        "bytes": 2150463,
+        "sha256": "e8d0e165730f1723613633cf3cffb030c5146318b279738b3e093ac791dc01bf",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
     }
   ]
 }
