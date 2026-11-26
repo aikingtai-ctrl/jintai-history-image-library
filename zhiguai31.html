@@ -190,6 +190,8 @@ const ZG_G031_TITLE='《卖胡粉女／买粉复生（拟题）》';
 const ZG_G031_NOTE='史料核对：本次所核《幽明录》记载富家子买胡粉、卖粉女子临尸恸哭、男子复生；未见白氍毹、画眉或卖粉女子施法。下方保留冻结的影视概念提示词，其中白毯、镜、服饰和场景细节不可当作古籍明文。';
 const ZG_G032_TITLE='《黄原与青犬入妙音宅（拟题）》';
 const ZG_G032_NOTE='史料核对：《幽明录》卷二记黄原见青犬，随犬入山穴，遇太真夫人之女妙音；太真夫人与妙音为两人。冻结提示词中的黑犬、白獭化形、连理白玉佩及珍珠螺钿漆盒未见所核原文；下方原提示词仅供追溯，不能作为史料。';
+const ZG_G033_TITLE='《新鬼推磨舂谷求食（拟题）》';
+const ZG_G033_NOTE='史料核对：《太平广记》卷三百二十一引《幽明录》记新鬼形疲瘦，遇死已二十年的肥健旧友；先在奉佛人家西厢推磨、后在奉道人家门旁舂谷，均未获食。冻稿中的韦驮神像、青石磨自转、偷吃生面、幽冥仙境及具体衣饰器形未见所核原文；下方原提示词仅供追溯。';
 function zgCorrectG031Meta(meta){
   const g=(meta.groups||[]).find(x=>x[0]==='ZG-20261028-G031');
   if(g){
@@ -222,6 +224,18 @@ function zgCorrectG032Meta(meta){
     b.characters=b.characters.map(x=>x.includes('千年老白獭化形')?'黄原、引路青犬、太真夫人及其女妙音（服饰为影视诠释）':x);
   }
 }
+function zgCorrectG033Meta(meta){
+  const g=(meta.groups||[]).find(x=>x[0]==='ZG-20261028-G033');
+  if(g){
+    g[5]=ZG_G033_TITLE;
+    g[6]='形疲瘦的新鬼与死已二十年的肥健旧友；服饰、相貌为影视推想';
+    g[7]='集市东头奉佛人家西厢推磨，西头奉道人家门旁舂谷；后来在另家庭院遇白狗';
+    g[8]='磨、碓、簸筛、竹竿与白狗见引文；具体材质、器形和陈设为影视推想';
+    g[9]='《太平广记》卷三百二十一〈新鬼〉引《幽明录》：新鬼为两户劳作而未获食；具体衣饰、法器及幻境未述。';
+  }
+  const b=(meta.books||[]).find(x=>x.book_no===5);
+  if(b)b.stories=b.stories.map(x=>x==='《新死鬼形疲瘦入人家磨面》'?ZG_G033_TITLE:x);
+}
 async function hydrateSpecialistPage(){
   if(document.getElementById('jt_gate_css')&&document.documentElement.getAttribute('data-jt-ok')!=='1')return;
   const stEl=document.getElementById('pCount');
@@ -234,6 +248,7 @@ async function hydrateSpecialistPage(){
   const meta=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[mf.meta_shard]);delete window.__SPEC_ALL_CHUNKS__[mf.meta_shard];
   zgCorrectG031Meta(meta);
   zgCorrectG032Meta(meta);
+  zgCorrectG033Meta(meta);
   RAW.books=meta.books||[];
   RAW.groups=meta.groups||[];
   RAW.existing=meta.existing||[];
@@ -270,6 +285,7 @@ const _mapZgItem = x => {
   const g = RAW.groups[x[2]];
   const corrected=x[1].startsWith('ZG-20261028-03')&&x[0]>=301&&x[0]<=310;
   const corrected32=x[1].startsWith('ZG-20261028-03')&&x[0]>=311&&x[0]<=320;
+  const corrected33=x[1].startsWith('ZG-20261028-03')&&x[0]>=321&&x[0]<=330;
   const labels={
     302:'02_卖粉女子人物造型（原词误标异类）',
     306:'06_影视主观转场（原典未述幽冥仙境）',
@@ -285,15 +301,23 @@ const _mapZgItem = x => {
     317:'07_南向堂前池台四角透光',318:'08_离别佩饰（器形未述）',
     319:'09_琴瑟博棋（原典提及，器形诠释）',320:'10_池中平台与宅院建筑'
   };
-  const label=corrected?(labels[x[0]]||x[5]):corrected32?(labels32[x[0]]||x[5]):x[5];
-  const title=corrected?x[7].replace('《买粉儿白氍毹画眉复生》',ZG_G031_TITLE).replace(x[5],label):corrected32?x[7].replace('《黄原黑犬引路入太真夫人水际妙宅》',ZG_G032_TITLE).replace(x[5],label):x[7];
+  const labels33={
+    321:'01_形疲瘦的新鬼主视图',322:'02_肥健旧鬼的形貌（具体造型为影视推想）',
+    323:'03_旧鬼指点新鬼求食',324:'04_新鬼劳作后的疲惫神态',
+    325:'05_集市两户人家的现实空间',326:'06_两次劳作场景转接（原典未述仙境）',
+    327:'07_奉佛人家西厢推磨',328:'08_推磨器具（具体器形为影视推想）',
+    329:'09_舂谷碓与簸筛（具体器形为影视推想）',330:'10_庭院竹竿与白狗（未描绘后续伤害）'
+  };
+  const label=corrected?(labels[x[0]]||x[5]):corrected32?(labels32[x[0]]||x[5]):corrected33?(labels33[x[0]]||x[5]):x[5];
+  const title=corrected?x[7].replace('《买粉儿白氍毹画眉复生》',ZG_G031_TITLE).replace(x[5],label):corrected32?x[7].replace('《黄原黑犬引路入太真夫人水际妙宅》',ZG_G032_TITLE).replace(x[5],label):corrected33?x[7].replace('《新死鬼形疲瘦入人家磨面》',ZG_G033_TITLE).replace(x[5],label):x[7];
   const subTypes={302:'人物/概念变体',306:'主观转场',307:'戏剧现场',308:'胡粉器物',309:'影视概念道具',310:'影视建筑配套'};
   const subTypes32={312:'青犬形态',317:'池台厅堂',318:'佩饰概念',319:'琴瑟博棋器用',320:'建筑配套'};
+  const subTypes33={322:'旧鬼形貌',326:'现实场景转接',327:'推磨现场',328:'磨具概念',329:'磨碓与簸筛',330:'院落配套'};
   return {
     seq: x[0], id: x[1], gid: g[0], book_no: g[1], book: g[2], author_era: g[3],
     era: g[4], story: g[5], characters: g[6], scenes: g[7], props: g[8],
-    basis: g[9], url: g[10], asset_type: x[3], sub_type: corrected?(subTypes[x[0]]||x[4]):corrected32?(subTypes32[x[0]]||x[4]):x[4], label,
-    ratio: x[6], title, prompt: x[8], source_note: corrected?ZG_G031_NOTE:corrected32?ZG_G032_NOTE:''
+    basis: g[9], url: g[10], asset_type: x[3], sub_type: corrected?(subTypes[x[0]]||x[4]):corrected32?(subTypes32[x[0]]||x[4]):corrected33?(subTypes33[x[0]]||x[4]):x[4], label,
+    ratio: x[6], title, prompt: x[8], source_note: corrected?ZG_G031_NOTE:corrected32?ZG_G032_NOTE:corrected33?ZG_G033_NOTE:''
   };
 };
 const ITEMS = RAW.items.map(_mapZgItem);
