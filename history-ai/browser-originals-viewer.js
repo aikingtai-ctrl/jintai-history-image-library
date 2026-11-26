@@ -31,7 +31,7 @@
     'JINTAI_SONG_IMAGES'
   ];
   const DIR_RE = /^[A-Za-z0-9_-]+$/;
-  const PNG_RE = /^[A-Za-z0-9_-]+\.png$/i;
+  const PNG_RE = /^[A-Za-z0-9_-]+(?:\.[A-Za-z0-9_-]+)*\.png$/i;
   const style = document.createElement('style');
   style.textContent = `
     .jt-original-preview{display:block;max-width:100%;max-height:280px;object-fit:contain;border-radius:7px;background:#f7f5f0}
