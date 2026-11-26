@@ -1226,6 +1226,221 @@
       "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
       "method": "内置 imagegen",
       "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 27,
+      "wid": "src-06deed26952fe2b3",
+      "title": "A Christmas Story",
+      "firstShotId": "VP-src-06deed26952fe2b3-01",
+      "scene": "Warm 1940s family bathroom, medium close-up of a fully clothed little boy with round glasses standing quietly at a washbasin. A large red bar of soap rests safely on the edge of the basin beside his hand. He looks thoughtful, ordinary hygiene setting, nobody being punished, no soap in his mouth.",
+      "actualPrompt": "Create one original AI reference image, wide 16:9. Warm 1940s family bathroom, medium close-up of a fully clothed little boy with round glasses standing quietly at a washbasin. A large red bar of soap rests safely on the edge of the basin beside his hand. He looks thoughtful, ordinary hygiene setting, nobody being punished, no soap in his mouth. No readable text, no logos, no watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "589a7f213192b32dce43c51ed64e63a510742a46e02552abe2d62e49aa5db026",
+      "preview": "film-ai/firstshot-20261126/src-06deed26952fe2b3.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/cff592c2ded32ddc2eeb069f2166475fb4de4b62/originals/film-expand-firstshot-20261126/src-06deed26952fe2b3.png",
+        "bytes": 2273504,
+        "sha256": "6658c3a824101b5cbacdc1190112971cbdf4d1a624b3737895ac9af82f9f373b",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（取消受罚细节）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "取消口塞肥皂及受罚情节，将红色肥皂放在洗手台边，保留眼镜男孩与浴室构图。"
+    },
+    {
+      "ordinal": 32,
+      "wid": "src-096b8bd8aa3b7caa",
+      "title": "Teen Titans Go! To the Movies",
+      "firstShotId": "VP-src-096b8bd8aa3b7caa-01",
+      "scene": "Original flat-color 2D superhero comedy animation, wide view. Three small young cartoon heroes—a violet-cloaked kid, a rounded silver robot kid and an orange-masked kid—look upward at three towering adult heroes in original teal, gold and plum costumes. Humorous scale contrast, exactly six characters. Entirely original costumes, silhouettes and faces, no emblems or franchise characters.",
+      "actualPrompt": "Create one original AI reference image, wide 16:9. Original flat-color 2D superhero comedy animation, wide view. Three small young cartoon heroes—a violet-cloaked kid, a rounded silver robot kid and an orange-masked kid—look upward at three towering adult heroes in original teal, gold and plum costumes. Humorous scale contrast, exactly six characters. Entirely original costumes, silhouettes and faces, no emblems or franchise characters. No readable text, no logos, no watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "f72998dd2a0d1734e478a1bd7855da461f74a09e81b227d9e1d20dc957828deb",
+      "preview": "film-ai/firstshot-20261126/src-096b8bd8aa3b7caa.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/cff592c2ded32ddc2eeb069f2166475fb4de4b62/originals/film-expand-firstshot-20261126/src-096b8bd8aa3b7caa.png",
+        "bytes": 1959562,
+        "sha256": "d3613594b844ee53cfe16a5a1c76b216103178b183c5a8d0117ae65444b9f641",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（原创角色）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "将原有少年泰坦和正义联盟角色改为六名原创英雄，保留三小三大的尺度对比与仰视关系。"
+    },
+    {
+      "ordinal": 33,
+      "wid": "src-09d2f3808ee0bf5c",
+      "title": "Time Is Money",
+      "firstShotId": "VP-src-09d2f3808ee0bf5c-01",
+      "scene": "Vintage newspaper advertisement illustration, yellow-and-black graphic panels without letters. An original elderly anthropomorphic duck with a brown waistcoat and three small original duck adventurers wearing different hats ride together on the back of a friendly dinosaur. Joyful prehistoric adventure, original character designs, print halftone texture.",
+      "actualPrompt": "Create one original AI reference image, wide 16:9. Vintage newspaper advertisement illustration, yellow-and-black graphic panels without letters. An original elderly anthropomorphic duck with a brown waistcoat and three small original duck adventurers wearing different hats ride together on the back of a friendly dinosaur. Joyful prehistoric adventure, original character designs, print halftone texture. No readable text, no logos, no watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "e4a05a74c4cb474c59b1439be7b9fdd4d6286e3fa25c57a730b284ce47a64aa0",
+      "preview": "film-ai/firstshot-20261126/src-09d2f3808ee0bf5c.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/cff592c2ded32ddc2eeb069f2166475fb4de4b62/originals/film-expand-firstshot-20261126/src-09d2f3808ee0bf5c.png",
+        "bytes": 3788334,
+        "sha256": "efad744b1f074759319dc175ce3e59e1a5514f799b364486fa2015a7392edb54",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（原创角色）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "将史高治与小鸭改为原创拟人鸭角色，保留骑恐龙冒险与报纸插画构图。"
+    },
+    {
+      "ordinal": 76,
+      "wid": "src-122625a84b629335",
+      "title": "Freeheld",
+      "firstShotId": "VP-src-122625a84b629335-01",
+      "scene": "市政厅听证会现场支持同性伴侣平权的白发警官布莱恩（史蒂夫·卡瑞尔饰）高举双手鼓掌欢呼的中近景",
+      "actualPrompt": "Remove only the small gray emblem in the extreme upper-left corner. Fill it with the matching natural blurred dark green background. Preserve the officer, his face, both raised clapping hands, uniform, all background people, rainbow flag, meeting room and complete composition. No added words, logos or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "a175bdd33eba968e987c4e077c74ae200c210ece959b0d3f5d6db2fdec0712b1",
+      "preview": "film-ai/firstshot-20261126/src-122625a84b629335.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/cff592c2ded32ddc2eeb069f2166475fb4de4b62/originals/film-expand-firstshot-20261126/src-122625a84b629335.png",
+        "bytes": 2028603,
+        "sha256": "aadcdd43d7227f464605d56b7b21ac84f61cbb15c77438827b72d97c466cb6e5",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 77,
+      "wid": "src-12267531a0c8cffb",
+      "title": "Heartbeats (Les Amours Imaginaires)",
+      "firstShotId": "VP-cd2b6cd485d940fa",
+      "scene": "昏暗室内，一名深色短发女性侧身站立，面对右侧的镜子。她身穿深色细吊带上衣，右手抬起靠近颈部，镜中映出她的正面面容。背景可见木质家具、搁板上的瓶罐杂物以及悬挂的深色衣物。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. A fictional adult woman with short dark hair stands in profile in a dim room, facing a mirror at right. She wears a dark spaghetti-strap top and raises her right hand near her neck. Her face appears coherently in the mirror. Wooden furniture, bottles on shelves and hanging dark clothes behind her. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "0b42e26fb059958447ad75a074d9794e3bbca69a9b6044bda5c5bbfb46567eb6",
+      "preview": "film-ai/firstshot-20261126/src-12267531a0c8cffb.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/cff592c2ded32ddc2eeb069f2166475fb4de4b62/originals/film-expand-firstshot-20261126/src-12267531a0c8cffb.png",
+        "bytes": 1874386,
+        "sha256": "5f89715bc1b1874ec9e8c8a28ac6f9d3385ed2599d423be09f9198430fdfac69",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 78,
+      "wid": "src-1229c06bf2e50d8e",
+      "title": "Min far har penge",
+      "firstShotId": "VP-src-1229c06bf2e50d8e-01",
+      "scene": "黑白高角度远景中，两名身穿浅色夏装的年轻女子坐在洒满阳光的草坡上，身旁停放着她们的自行车",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Black-and-white high-angle long shot. Two fully clothed young adult women in pale summer outfits sit on a sunlit grassy slope with their bicycles parked beside them. Gentle natural light and quiet everyday mood. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "4f6750b177986174bdb00b5a36ed860b26f17a7776b0e878f8651497b9a1e545",
+      "preview": "film-ai/firstshot-20261126/src-1229c06bf2e50d8e.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/cff592c2ded32ddc2eeb069f2166475fb4de4b62/originals/film-expand-firstshot-20261126/src-1229c06bf2e50d8e.png",
+        "bytes": 3202924,
+        "sha256": "ffdfdfe399bbc59cfce201863becc98807c5ad0cd2aa6a11f80cd6542c52b820",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 79,
+      "wid": "src-122c2468b2fd5316",
+      "title": "Mountaintop Motel Massacre",
+      "firstShotId": "VP-src-122c2468b2fd5316-01",
+      "scene": "Close two-shot in a motel room with wooden plank walls. A fictional adult man in a plain sleeveless undershirt and an adult woman in a modest white bathrobe sit side by side on the edge of a bed. Tense quiet conversation, no nudity, no violence.",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Close two-shot in a motel room with wooden plank walls. A fictional adult man in a plain sleeveless undershirt and an adult woman in a modest white bathrobe sit side by side on the edge of a bed. Tense quiet conversation, no nudity, no violence. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "092f6ac9bf26416ceac2af7168e819be23bbf00fc2efab69f0862ff2beea7e36",
+      "preview": "film-ai/firstshot-20261126/src-122c2468b2fd5316.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/cff592c2ded32ddc2eeb069f2166475fb4de4b62/originals/film-expand-firstshot-20261126/src-122c2468b2fd5316.png",
+        "bytes": 2352292,
+        "sha256": "020f591f8c56a1925b4e02827eb1dc66356f9d591352ad90ac972a459611872c",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（穿衣人物）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "将赤膊与浴巾改为背心及白色浴袍，保留旅馆床沿双人构图。"
+    },
+    {
+      "ordinal": 80,
+      "wid": "src-1236649ecfd3001f",
+      "title": "Them!",
+      "firstShotId": "VP-cdb90cc0ce714e21",
+      "scene": "黑白室内场景，四名男子位于办公室内。前景左侧一名穿深色制服男子俯身于桌前，中景一名穿浅色衬衫男子坐于桌后，右侧两名穿深色制服男子站立，背景可见门框与墙面挂画。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Black-and-white office scene with exactly four adult men. Left foreground: a dark-uniformed man leans over a desk. Center: a light-shirted man sits behind the desk. Right: two dark-uniformed men stand. Doorframe and framed wall picture in background, midcentury cinematic lighting. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "b11d6660a2e1e14837d07bccbab328373fda262e39c90fcfdf52fc247a75ccb9",
+      "preview": "film-ai/firstshot-20261126/src-1236649ecfd3001f.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/cff592c2ded32ddc2eeb069f2166475fb4de4b62/originals/film-expand-firstshot-20261126/src-1236649ecfd3001f.png",
+        "bytes": 2059236,
+        "sha256": "a6ca920e30a12e55cc90bb9cd4ed6df6a85fb5f1d0f1702de4df32b96fa63621",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 81,
+      "wid": "src-123d31fcdd0f6520",
+      "title": "Une liaison pornographique",
+      "firstShotId": "VP-src-123d31fcdd0f6520-01",
+      "scene": "Tender close two-shot on white bedding: a fictional adult man in an opaque pajama shirt leans forward to nuzzle the neck of a smiling adult woman in a modest opaque pajama top. Affectionate embrace, faces and clothed shoulders visible, no sexual activity.",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Tender close two-shot on white bedding: a fictional adult man in an opaque pajama shirt leans forward to nuzzle the neck of a smiling adult woman in a modest opaque pajama top. Affectionate embrace, faces and clothed shoulders visible, no sexual activity. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "566f60ce783b2a51aa1639e0f5ff7ace1d5020f099906f3a97f8a18655642502",
+      "preview": "film-ai/firstshot-20261126/src-123d31fcdd0f6520.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/cff592c2ded32ddc2eeb069f2166475fb4de4b62/originals/film-expand-firstshot-20261126/src-123d31fcdd0f6520.png",
+        "bytes": 2248912,
+        "sha256": "c3142a1c51da0091c51035c62e17d58f224cc726507e0725a3cf5867c41c3315",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（穿衣人物）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "将裸露上身改为不透明睡衣，保留亲密双人构图。"
+    },
+    {
+      "ordinal": 82,
+      "wid": "src-125d5316d8074ba5",
+      "title": "不见",
+      "firstShotId": "VP-src-125d5316d8074ba5-01",
+      "scene": "黄绿高反差色调的极简海报上，几片凌乱的黑色树叶剪影斜跨画面，右下角印有小巧的片名字样",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Minimal high-contrast yellow-green graphic composition. Several irregular black silhouettes of tree leaves cross the image diagonally. Flat paper texture, dramatic negative space, no lettering. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "e517f1473837f70e291b52e5c38da8567fe1cd6a31d60dff0f501e60138e3cd2",
+      "preview": "film-ai/firstshot-20261126/src-125d5316d8074ba5.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/cff592c2ded32ddc2eeb069f2166475fb4de4b62/originals/film-expand-firstshot-20261126/src-125d5316d8074ba5.png",
+        "bytes": 2213610,
+        "sha256": "a7d87377e70df999c95bc8787adb53751c46838de7fd681e27405e75e9baea02",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
     }
   ]
 }
