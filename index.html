@@ -991,15 +991,23 @@ function histMuseumTiff(id){
   const url=histMuseumCopy(id)?.source_image||'';
   return /^https:\/\/openaccess-cdn\.clevelandart\.org\/[^\s]+\.tif$/i.test(url)?url:'';
 }
-function histOriginalLabel(id){return histMuseumCopy(id)?'馆藏高清浏览版':histOriginalInfo(id)?'查看原图':'查看预览';}
+function histOriginalLabel(id){const info=histOriginalInfo(id);return info?.method==='museum_open_access_original'&&/\.jpe?g$/i.test(info.filename||'')?'馆藏高清 JPEG 浏览版':info?'查看原图':'查看预览';}
 function openHistOriginal(r){
   const info=histOriginalInfo(r.id);
   if(!info){openHistLightbox(r);return;}
   const tab=window.open('about:blank','_blank');
   if(!tab){alert('浏览器阻止弹出原图，请允许弹出窗口后重试。');return;}
   tab.opener=null;
-  tab.document.body.textContent='正在打开原始图片…';
-  historyOriginalUrl(info).then(url=>tab.location.replace(url)).catch(()=>{tab.document.title='原图暂不可用';tab.document.body.textContent='原图入口暂不可用，请稍后重试。';});
+  tab.document.body.textContent='正在核对原始图片…';
+  historyOriginalUrl(info).then(url=>new Promise((resolve,reject)=>{
+    const probe=new Image();
+    probe.onload=()=>{
+      if((info.width&&probe.naturalWidth!==Number(info.width))||(info.height&&probe.naturalHeight!==Number(info.height)))reject(new Error('原图尺寸与验收清单不符'));
+      else resolve(url);
+    };
+    probe.onerror=()=>reject(new Error('原图加载失败'));
+    probe.src=url;
+  })).then(url=>tab.location.replace(url)).catch(()=>{tab.document.title='原图暂不可用';tab.document.body.textContent='原图暂不可用，未打开预览图冒充原图。';});
 }
 let historyTunnelPromise,historyTunnelFetchedAt=0;
 function historyGalleryBase(){
@@ -1292,7 +1300,7 @@ function renderHlb(){
         }
         originalSrc=url;
         raw.href=url;raw.textContent=gpt?.method==='museum_open_access_original'?'新窗口查看馆藏高清 JPEG 浏览版 ↗':gpt||three?'新窗口查看 GPT Image PNG ↗':minguo?`新窗口查看 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG ↗`:regenerated?'新窗口查看重生成原始 PNG ↗':'新窗口查看原始 PNG ↗';
-        download.href=histMuseumTiff(r.id)||url+'?download=1';download.textContent=histMuseumTiff(r.id)?'下载馆藏 TIFF 原件':gpt?.method==='museum_open_access_original'?'下载馆藏高清浏览版':gpt||three?'下载 GPT Image PNG':minguo?`下载 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG`:regenerated?'下载重生成原始 PNG':'下载原始 PNG';download.hidden=false;
+        download.href=histMuseumTiff(r.id)||url+'?download=1';download.textContent=histMuseumTiff(r.id)?'下载馆藏 TIFF 原件':gpt?.method==='museum_open_access_original'?'下载馆藏高清 JPEG':gpt||three?'下载 GPT Image PNG':minguo?`下载 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG`:regenerated?'下载重生成原始 PNG':'下载原始 PNG';download.hidden=false;
         im.src=url;
       };
       full.onerror=()=>{if(HLB.request===request){originalFailed=true;originalSrc='';raw.href=preview;raw.textContent='新窗口查看预览图 ↗';download.hidden=true;$('hlbNote').textContent='原始 PNG 暂不可用，当前显示预览图。';}};
