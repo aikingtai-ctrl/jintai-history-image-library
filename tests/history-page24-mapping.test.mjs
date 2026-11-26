@@ -10,7 +10,7 @@ const manifest = { window: {} };
 vm.runInNewContext(fs.readFileSync(path.join(root, 'history-ai/page24-originals-manifest.js'), 'utf8'), manifest);
 const images = manifest.window.JINTAI_PAGE24_IMAGES;
 const count = Object.keys(images).length;
-assert.ok(count >= 1 && count <= 120);
+assert.equal(count, 120);
 assert.ok(index.includes(`page24-originals-manifest.js?v=20261126-page24-${count}`));
 const infoCode = index.match(/^function histOriginalInfo\(id\)\{[^\n]+/m)?.[0];
 const previewCode = index.match(/^function histPreview\(id\)\{[^\n]+/m)?.[0];
@@ -24,4 +24,16 @@ for (const [id, item] of Object.entries(images)) {
   assert.match(item.source_deviation_note, /艺术|概念/);
   assert.equal(originalInfo(id), item);
   assert.equal(preview(id), item.preview);
+}
+
+const currentChunks = JSON.parse(index.match(/const IDX_CHUNKS=(\[[^;]+\]);/)?.[1] || '[]');
+for (const dir of ['d1', 'd2', 'd1_idx', 'd2_idx']) {
+  const files = dir.endsWith('_idx')
+    ? currentChunks.map(name => path.join(root, dir, name)).filter(file => fs.existsSync(file))
+    : [path.join(root, dir, 'nightly_20261016_001.js')];
+  assert.ok(files.length);
+  const data = files.map(file => fs.readFileSync(file, 'utf8')).join('\n');
+  assert.match(data, /【历史名人】士会（范武子）/);
+  assert.match(data, /【历史名人】士燮（范文子）/);
+  assert.doesNotMatch(data, /士会（范文子）|士燮（范宣子）/);
 }
