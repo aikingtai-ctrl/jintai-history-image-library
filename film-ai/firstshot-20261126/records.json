@@ -241,6 +241,166 @@
       },
       "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
       "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 15,
+      "wid": "src-01977f21d1c723e8",
+      "title": "Cenicienta",
+      "firstShotId": "VP-src-01977f21d1c723e8-01",
+      "scene": "迪士尼二维动画中景，粉色礼服被撕破的灰姑娘趴在花园长椅上痛哭，小鸟与小老鼠在一旁安慰",
+      "actualPrompt": "A single original hand-drawn fairy-tale animation image, wide 16:9. An adult princess wearing a modest pink evening gown with torn decorative sleeves and ribbons lies forward on a garden bench, crying with her face in her arms. Small friendly birds and mice gather beside the bench to comfort her. A quiet palace garden at dusk, soft painted flowers and foliage, expressive classic cel-animation linework, compassionate tone. The garment remains fully covering and there is no injury. No writing, title, logo, watermark or collage.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "c981213c1d51112e9024060fde35f502b8eecade06e3aa157207a61c68b14f98",
+      "preview": "film-ai/firstshot-20261126/src-01977f21d1c723e8.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2f2f292809ccae2c4a4eafbdffae13880aafb584/originals/film-expand-firstshot-20261126/src-01977f21d1c723e8.png",
+        "bytes": 2726732,
+        "sha256": "2166e9c284b86412d6ae871908905c307534514b5ab97c28d29a84f25137e898",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 17,
+      "wid": "src-021e25fa5609b571",
+      "title": "Fantastic Beasts and Where to Find Them",
+      "firstShotId": "VP-src-021e25fa5609b571-01",
+      "scene": "二十年代纽约复古暖光下美国魔法国会傲罗蒂娜·戈德斯坦恩（凯瑟琳·沃特斯顿饰）留着波波头、神情端庄的肖像特写",
+      "actualPrompt": "One original photoreal cinematic portrait, landscape 16:9. A fictional dignified adult woman with a neat dark bob haircut appears in close-up in warm vintage light in 1920s New York. She wears a simple period dark coat and has a composed attentive expression. Warm practical indoor lamps and softly blurred period architecture behind her, restrained amber palette, soft film grain and realistic fabric. A fresh original face, no actor or celebrity likeness. No fantasy creatures, no props not described, no text or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "11c33e37b073775f1a68fae40ecee6cdbbdca8bb632eca426d211812c76774d0",
+      "preview": "film-ai/firstshot-20261126/src-021e25fa5609b571.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2f2f292809ccae2c4a4eafbdffae13880aafb584/originals/film-expand-firstshot-20261126/src-021e25fa5609b571.png",
+        "bytes": 2116617,
+        "sha256": "6bc06d0d5c47f9f8b4c3e519e74782a8722949c079983a7be4a9453d32b97b67",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 21,
+      "wid": "src-0396cad362b76b74",
+      "title": "Night Owls",
+      "firstShotId": "VP-243fb0f33b0adddd",
+      "scene": "室内暖光环境中，一名穿红黑拼接裙的短发女子俯身向前，面对一名仰躺在深褐色皮沙发上的男子，背景可见书架、台灯及相框。",
+      "actualPrompt": "One original photoreal cinematic medium two-shot in a warm living room, wide 16:9. A fictional adult short-haired woman wearing a red-and-black color-block dress leans forward facing an adult man reclining on his back on a dark brown leather sofa. A bookcase, table lamp and framed photographs are visible behind them. Everyone is fully clothed, an ordinary dramatic conversation rather than an erotic scene. Preserve their positions and the leather sofa, naturally motivated warm light, realistic domestic textures. No text, no celebrity likenesses, no watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "5c1693c781873b3313d01683e1c46fde94ea84756bdbe9a90faf437c3d97f7e8",
+      "preview": "film-ai/firstshot-20261126/src-0396cad362b76b74.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2f2f292809ccae2c4a4eafbdffae13880aafb584/originals/film-expand-firstshot-20261126/src-0396cad362b76b74.png",
+        "bytes": 2217744,
+        "sha256": "208085b26895292a5371b66265e1cd18342117fd7310bc84f9cfbefd092c3489",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 24,
+      "wid": "src-058dfb9e79be5b02",
+      "title": "Cohen and Tate",
+      "firstShotId": "VP-src-058dfb9e79be5b02-01",
+      "scene": "幽暗绿调夜色中戴棒球帽的小男孩从车座后方惊恐窥视",
+      "actualPrompt": "One original tense cinematic reference image, wide 16:9. In the dim green-tinted interior of a vehicle at night, a fully clothed young boy wearing a baseball cap peeks fearfully from behind the front car seat. Close perspective through the narrow gap between seats, his face partly in shadow, faint exterior night light and soft worn upholstery texture. No violence, restraints, injuries or adults threatening him. Fictional original face, observational dramatic framing. No text, title or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "0f2f6bf21d0d051198504caf6203166f9fa189acc5b7f85aafb2c0e631574708",
+      "preview": "film-ai/firstshot-20261126/src-058dfb9e79be5b02.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2f2f292809ccae2c4a4eafbdffae13880aafb584/originals/film-expand-firstshot-20261126/src-058dfb9e79be5b02.png",
+        "bytes": 1640060,
+        "sha256": "ef00a625532170dabc5eacf7c6b46f3c89f0bbe920e458fc446ec019d2ecc9fb",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 25,
+      "wid": "src-067c6234b148cf9f",
+      "title": "STAR SPANGLED BANNER",
+      "firstShotId": "VP-src-067c6234b148cf9f-01",
+      "scene": "《STAR SPANGLED BANNER》巨幅美国星条旗与敬礼士兵前穿白色运动服的惠特妮·休斯顿高歌",
+      "actualPrompt": "One original photoreal cinematic image of a fictional adult Black female singer in a white athletic tracksuit singing passionately into a microphone. Behind her is a huge American flag, with a small row of uniformed service members standing respectfully at salute. Early 1990s outdoor sporting-event atmosphere, medium-long stage composition, natural daylight, expressive singing pose. The singer has an original face and must not resemble any real person or celebrity. No writing, branding, title, extra flags or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "3e3a2f7bd3598be2670c287ca00a0395ce1cef7d2bfeb8e082689bf1dff2d826",
+      "preview": "film-ai/firstshot-20261126/src-067c6234b148cf9f.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2f2f292809ccae2c4a4eafbdffae13880aafb584/originals/film-expand-firstshot-20261126/src-067c6234b148cf9f.png",
+        "bytes": 2340770,
+        "sha256": "bf465106fd4291d86856f66d270f4a9910866828a74d5f5941dc5c603f56fcd9",
+        "width": 1536,
+        "height": 1024
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 26,
+      "wid": "src-06ced19c53d3d120",
+      "title": "The Lost Boys",
+      "firstShotId": "VP-e9bd3398f2750195",
+      "scene": "舞台中央一名赤膊男子站立，右臂高举，嘴部张开，身前立有麦克风架。左侧有烟雾与火光，右侧一名卷发人物持乐器站立，背景昏暗。",
+      "actualPrompt": "One original cinematic concert photograph, landscape 16:9. A shirtless adult male stage performer stands centrally with his right arm raised high and mouth open as he performs into a microphone on a stand. Another curly-haired adult musician holding an instrument stands to the right. Smoke and controlled theatrical flame effects are visible far to the left, the rest of the stage falls into darkness. Dynamic warm stage light, 1980s rock-concert atmosphere, no injuries or danger to performers. Fictional faces with no celebrity likeness. No text, title or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "eefcbfc293fdfe1f5f0babb41254a05ae776bb722344d58eb7c1d990266b427b",
+      "preview": "film-ai/firstshot-20261126/src-06ced19c53d3d120.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2f2f292809ccae2c4a4eafbdffae13880aafb584/originals/film-expand-firstshot-20261126/src-06ced19c53d3d120.png",
+        "bytes": 2175327,
+        "sha256": "0930e65e59a368076c1edc24a172369843d8e25bbd6f125bd98d85612f069fc4",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 28,
+      "wid": "src-075272bcdaec80a9",
+      "title": "Mob Story",
+      "firstShotId": "VP-src-075272bcdaec80a9-01",
+      "scene": "竖版黑帮喜剧海报中身穿性感黑裙的女主角跨坐在穿条纹西装手拿雪茄的黑帮老大腿上",
+      "actualPrompt": "One original cinematic gangster-comedy reference image, wide 16:9. An adult woman in an elegant fully covering black evening dress sits astride the lap of an adult gangster boss wearing a pinstriped suit and holding a cigar. They pose with exaggerated comedic confidence in a warmly lit vintage office. Medium two-person framing, polished old-fashioned furniture, playful gangster-film tone. Everyone fully clothed, no sexual actions, no groping, original fictional faces. No promotional text, title, logo or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "0cbcc43379be417950ff186a3975183b8cef260de09e63a17c950081e933a27e",
+      "preview": "film-ai/firstshot-20261126/src-075272bcdaec80a9.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2f2f292809ccae2c4a4eafbdffae13880aafb584/originals/film-expand-firstshot-20261126/src-075272bcdaec80a9.png",
+        "bytes": 2222028,
+        "sha256": "b2b4bc615d2e4a3198b3b613d5398dee8e53c13ee42b22bac809ebbd61d4eeef",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 30,
+      "wid": "src-093650325e078b1c",
+      "title": "BADPAKJE 46",
+      "firstShotId": "VP-src-093650325e078b1c-01",
+      "scene": "铺贴米色瓷砖的泳池淋浴间内，头发湿漉漉的微胖少女尚塔尔赤裸肩膀回眸望向右侧。",
+      "actualPrompt": "One original naturalistic cinematic portrait at a public swimming pool, landscape 16:9. A fully clothed teenage female swimmer in a plain modest one-piece sports swimsuit, her wet hair slicked down, turns her head to look toward the right in a communal beige-tiled shower-room area. Frame only her face and shoulders, the neckline of the sports swimsuit clearly visible. Neutral everyday sports context, quiet thoughtful expression, soft overhead pool-facility light. No nudity, no sensual posing or body emphasis, no showering action. Fictional original face, no celebrity likeness. No lettering or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "8a5f840de646d13d68206b1311d994f36c7d8ef685d967a6eda1bc6015a31896",
+      "preview": "film-ai/firstshot-20261126/src-093650325e078b1c.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2f2f292809ccae2c4a4eafbdffae13880aafb584/originals/film-expand-firstshot-20261126/src-093650325e078b1c.png",
+        "bytes": 1863380,
+        "sha256": "c94a1e07018c0a42fb3db138b85fda061e540aa7c6b37e273508a53c83c0f5af",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
     }
   ]
 }
