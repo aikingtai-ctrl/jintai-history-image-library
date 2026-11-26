@@ -1260,8 +1260,7 @@ function setHlbZoom(s,reset=false){
 function renderHlb(){
   const r=HLB.pool[HLB.idx];if(!r)return;
   const preview=histPreview(r.id);if(!preview)return;
-  const three=window.JINTAI_THREE_IMAGES?.[r.id];
-  const native=three||histOriginalInfo(r.id);
+  const native=histOriginalInfo(r.id);
   const special=native&&native===window.JINTAI_SPECIAL_IMAGES?.[r.id];
   const myth=native&&native===window.JINTAI_MYTH_IMAGES?.[r.id];
   const three=native&&native===window.JINTAI_THREE_IMAGES?.[r.id];
