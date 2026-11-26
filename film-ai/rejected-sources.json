@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T07:16:35.544927+08:00",
+  "updated_at": "2026-11-27T07:51:20.059803+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -1647,6 +1647,90 @@
       "sha256": "6cc44be9d01e01edf1966bb4141373a9cabf2d5c557ac6f50043abb15949ddad",
       "reason": "舞台灯前持烟男子面孔无法核 Gary Oldman/Herman，且未见写作或《公民凯恩》线索。",
       "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "princess-iron-fan-1941",
+      "src": "film-ai/princess-iron-fan-1941.jpg",
+      "sha256": "bb152a71fe24216d85d879529a87a43cf78b2a62792b8066dbb3fda20a8b7f31",
+      "reason": "原图是印有英文片名的实体书封面和内嵌卡通图，不是独立动画剧情剧照。",
+      "evidence": "第三十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "requiem-for-a-dream-2000",
+      "src": "film-ai/requiem-for-a-dream-2000.jpg",
+      "sha256": "756f7dd15c9b1f679ce266b577a51b218d3d3d790cf695e8aa6ebf1c6bee992b",
+      "reason": "原图为太空中陨石/星体特写，和城市家庭、成瘾与 Sara 等角色无视觉关联，属明显错题材画面。",
+      "evidence": "第三十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "return-to-dust-2022",
+      "src": "film-ai/return-to-dust-2022.jpg",
+      "sha256": "cb581dbf1ca0cf6b7b6cf962db32acffc0898b3cae299f8fdad030130f06e7f7",
+      "reason": "驴车稻草景后方为热带棕榈树及葱绿农田，与电影甘肃西北乡村地貌明显冲突。",
+      "evidence": "第三十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "rivers-and-tides-2001",
+      "src": "film-ai/rivers-and-tides-2001.jpg",
+      "sha256": "192e4c217f38f8e841ae64cf25d096f496b9f3576806f495afd38db7585aedfd",
+      "reason": "原图右侧为印有 RIVERS AND TIDES、Andy Goldsworthy、DVD VIDEO 的发行品字卡，不是纪录片场景图。",
+      "evidence": "第三十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "rome-open-city-1945",
+      "src": "film-ai/rome-open-city-1945.jpg",
+      "sha256": "1f390e501aa744773adaf3e4599ecd3b43005260199257314ddd21aecae919cd",
+      "reason": "罗马空景中央叠覆巨大 ROMA CITTÀ APERTA 片名，属于片名字卡而非剧情剧照。",
+      "evidence": "第三十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "spider-man-into-the-spider-verse-2018",
+      "src": "film-ai/spider-man-into-the-spider-verse-2018.jpg",
+      "sha256": "6984a6af9ef65fe5b5c5f4b9724b98c5572eeafa6e92aca8157df0ef41cc08cb",
+      "reason": "原图是两名东亚真人男子在旧汽车内的实拍镜头，人物与 2018 全动画媒介均不符。",
+      "evidence": "第三十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "summer-snow-1995",
+      "src": "film-ai/summer-snow-1995.jpg",
+      "sha256": "a5c25d8d235e3228bd10ccfa4a910b3643ff0eaca5c4639b2475660811ce5481",
+      "reason": "竖版照片上方大字写《女人，四十。》，属宣发海报/题字图，非无字剧情剧照。",
+      "evidence": "第三十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "sunflower-2005",
+      "src": "film-ai/sunflower-2005.jpg",
+      "sha256": "a3debfe72f9036df4e7dd8a53d92e6dca76b7947ee96f87837cf0d2f25963c65",
+      "reason": "两名成年男子正面合影面对镜头，现代花衬衫和衬衫背景，无影片父子故事动作或时代布景，呈片外宣传肖像。",
+      "evidence": "第三十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "pixote-1980",
+      "src": "film-ai/pixote-1980.jpg",
+      "sha256": "4fca27ab80170d308cd79fd3fb3c429fbef0e2f804c2cfbe2e2067c9ddae4f87",
+      "reason": "原图是花衬衫成年黑人男子单坐汽车，未见 Pixote、少年群、感化院或可核巴西剧情人物；不足确认串片来源。",
+      "evidence": "第三十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "pixote-1980",
+      "src": "film-ai/shots/YS-20261106-2300-pixote-1980-06.webp",
+      "sha256": "0fdf71729b316d4e5a491ebdfe84f39b60a1fdb18b3e1f6f4d6a3c11ef316d6d",
+      "reason": "荒凉街道和一双童鞋只象征流浪儿童，没有 Pixote 或可核城市/事件，不能凭巴西街景推定关联。",
+      "evidence": "第三十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "slumdog-millionaire-2008",
+      "src": "film-ai/shots/YS-20261028-C15-slumdog-millionaire-2008-11.webp",
+      "sha256": "6e456c1a42722722d1e5db251fcfe6b3ecac55c76590057cd8385faa80d10fe0",
+      "reason": "蓝光烟雾中的两名西装男子无法核为 Jamal/Salim，也无电视问答、孟买或 Latika 线索。",
+      "evidence": "第三十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "slumdog-millionaire-2008",
+      "src": "film-ai/slumdog-millionaire-2008.jpg",
+      "sha256": "c0b9d42dbdb9639348c228f314296a7991fa69ab69c4afee508e98f0d671749a",
+      "reason": "黄色荒地上的孤立人影与木架并无可核孟买贫民窟/问答/童年情节，似泛末日景观。",
+      "evidence": "第三十八批30部两路径电影/逐图建议与联系表"
     }
   ]
 }

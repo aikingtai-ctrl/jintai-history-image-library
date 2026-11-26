@@ -6479,6 +6479,36 @@
         "sha256": "9bcd973c7e8e70e54921d61c2e4339fdcd65ac982108356c22e670a29a6c8b4d"
       }
     ],
+    "pakeezah-1972": [
+      {
+        "src": "film-ai/decks/film-pakeezah-1972.webp",
+        "sha256": "96353d2793364e414c3be1aac0b0b7faef143362e23b446b2740f5016f0b3e04"
+      },
+      {
+        "src": "film-ai/pakeezah-1972.jpg",
+        "sha256": "374c63fe504b0a4dfe83e48a874f9e82b4491e49b687c8ad1eaf3b24f605c728"
+      }
+    ],
+    "pale-flower-1964": [
+      {
+        "src": "film-ai/shots/YS-20261109F5-M36-pale-flower-1964-006.webp",
+        "sha256": "e3b84fd54a9c9a56e86f387a6c1d2c8617051da75015c5627041fc506e6bc93e"
+      },
+      {
+        "src": "film-ai/pale-flower-1964.jpg",
+        "sha256": "f9f01fea2a52ed9f3aab5743818840fa47090c0833c1329b90dbc59ffcf8e1e3"
+      }
+    ],
+    "pandoras-box-1929": [
+      {
+        "src": "film-ai/shots/YS-20261109F5-M36-pandoras-box-1929-006.webp",
+        "sha256": "f6835358769f12c6f0d79a6178fcd54eaff53039b7cebc276177af719e685c77"
+      },
+      {
+        "src": "film-ai/pandoras-box-1929.jpg",
+        "sha256": "e32bcb6df490b89550acdf3b247e1ce02f45ce32266256e06bfa411aa733f521"
+      }
+    ],
     "parasite-2019": [
       {
         "src": "film-ai/decks/film-parasite-2019.webp",
@@ -6487,6 +6517,16 @@
       {
         "src": "film-ai/restored/parasite-2019.jpg",
         "sha256": "315d99c3ec35620c3de3df32b85aa74137b3b68dfeb6ba0e61e7d7481ab3320e"
+      }
+    ],
+    "pickpocket-1959": [
+      {
+        "src": "film-ai/pickpocket-1959.jpg",
+        "sha256": "fcd329642900817ec35c6f6deaab59f16a459a81d55b40b681481dcfb851d374"
+      },
+      {
+        "src": "film-ai/decks/film-pickpocket-1959.webp",
+        "sha256": "d652a92166e13253a067d98c138216d14e05031f262835222f4e78e68688f382"
       }
     ],
     "pickup-on-south-street-1953": [
@@ -6529,6 +6569,36 @@
         "sha256": "d70856f578634c71090bc2ffb3688c0786e45fb12aff7f70cba1e315a68170fd"
       }
     ],
+    "princess-yang-kwei-fei-1955": [
+      {
+        "src": "film-ai/princess-yang-kwei-fei-1955.jpg",
+        "sha256": "27fd67933cbd55edf3e6b53e7eaf844fe6892826d46aa553f02348fbe111d6c9"
+      },
+      {
+        "src": "film-ai/shots/YS-20261103-2300-princess-yang-kwei-f-06.webp",
+        "sha256": "d74a5e4140045738898991aa67685a54fda137976dd883a48ea4890321c8005e"
+      }
+    ],
+    "prison-on-fire-1987": [
+      {
+        "src": "film-ai/prison-on-fire-1987.jpg",
+        "sha256": "bf00c02093ab70a649042aee3a3512575a012704061b810c621a06f264567f88"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111-2300-prison-on-fire-1987-06.webp",
+        "sha256": "5eabc8bbd442aaf09bc289140d00541bff645ca5d46524ba08562df59a6d028b"
+      }
+    ],
+    "psycho-1960": [
+      {
+        "src": "film-ai/psycho-1960.jpg",
+        "sha256": "daa10b6ed1b74d58f4fcab0e610068282dcafc4eafadfc8eee4a6c76dbdc3593"
+      },
+      {
+        "src": "film-ai/quality-reviewed/psycho-1960.png",
+        "sha256": "83b6325641fc3730a978860911d37978a3d21912bc1790504e0b8d0d0d832ee5"
+      }
+    ],
     "purple-butterfly-2003": [
       {
         "src": "film-ai/shots/YS-20261111B5-M68-purple-butterfly-2003-009.webp",
@@ -6547,6 +6617,16 @@
       {
         "src": "film-ai/restored/raise-the-red-lantern-1991.jpg",
         "sha256": "582afc414e6ceeaba25e6703e7bbef05258223979982a785ed1da8d8af8f3e04"
+      }
+    ],
+    "ready-player-one-2018": [
+      {
+        "src": "film-ai/ready-player-one-2018.jpg",
+        "sha256": "7f23fe84e63f42ece15c0a985efe6e5c7d0cd1cce3fdec6390397b54ad782d53"
+      },
+      {
+        "src": "film-ai/shots/YS-20261106F4-CL68-ready-player-one-2018-006.webp",
+        "sha256": "c4d3b2a6d5537edc00fec1cfca826d7807eb3fc0baa245983562f0355e2b44a3"
       }
     ],
     "red-sorghum-1987": [
@@ -6571,6 +6651,16 @@
       {
         "src": "film-ai/decks/film-roma-2018.webp",
         "sha256": "a9d6014d93d2f4d1c22c3b1f4a8ea3876303a8e76e8b5b570ee55dc90d4ea8cd"
+      }
+    ],
+    "samurai-rebellion-1967": [
+      {
+        "src": "film-ai/shots/YS-20261109F5-M36-samurai-rebellion-1967-006.webp",
+        "sha256": "ae9886bef896fbe73496b2aaf755856210e910485da090099612ca3b1915c2a3"
+      },
+      {
+        "src": "film-ai/samurai-rebellion-1967.jpg",
+        "sha256": "bbb5ff9c14b2ece26025444bee0278a34db5a777d0c6431fba4d29d5a68d39b8"
       }
     ],
     "sanshiro-sugata-1943": [
@@ -6651,6 +6741,16 @@
         "sha256": "9a8e2dab58934f36e21bca4c47a18d5311be197509254af77ab333930d4e9ec7"
       }
     ],
+    "sonatine-1993": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261118-sonatine-1993.webp",
+        "sha256": "9d140a4dc20bc55e8c7560cc5ca91b5878dacb89c109298d0b8a76ee8ec85267"
+      },
+      {
+        "src": "film-ai/sonatine-1993.jpg",
+        "sha256": "36114c48f0ec30fea7ebd6183f146f330443b5e794db70eda16cc06f04944c0e"
+      }
+    ],
     "song-of-the-fishermen-1934": [
       {
         "src": "film-ai/decks/film-song-of-the-fishermen-1934.webp",
@@ -6679,6 +6779,16 @@
       {
         "src": "film-ai/restored/spirited-away-2001.jpg",
         "sha256": "f2f9344c7ce338083464ec766bd1b9b7b0473fbc4f7731b1c0e9b8eeb160295c"
+      }
+    ],
+    "tampopo-1985": [
+      {
+        "src": "film-ai/decks/film-tampopo-1985.webp",
+        "sha256": "07914ee85319122dfefdeedeb6e1bbf61cce35a09a43a7bd2f78758fd151f16e"
+      },
+      {
+        "src": "film-ai/goal9438/tampopo-1985.jpg",
+        "sha256": "bb20e205f87d2b0029f7144c263b702f1b4f1dbf03f3acdcf4cfcc2b1e858050"
       }
     ],
     "taste-of-cherry-1997": [
