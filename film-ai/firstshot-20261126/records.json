@@ -2133,6 +2133,27 @@
         "https://asac.labiennale.org/attivita/cinema/5174"
       ],
       "adaptationNote": "官方档案确认1958年彩色绘画纪录短片《Kandinsky》；据抽象绘画主题构思原创几何作品，非具体康定斯基画作复制、非首镜。"
+    },
+    {
+      "ordinal": 100,
+      "wid": "src-1416bbd923f402cf",
+      "title": "Boom!",
+      "firstShotId": "VP-46ace4dbbe18962b",
+      "scene": "两名男子位于户外建筑旁，右侧男子身穿花纹衬衫，左侧男子手持黑色老式电话听筒，背景可见米色墙面与彩色条纹帘布。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Two fictional adult men stand beside an outdoor building. The man on the right wears a patterned shirt. The man on the left holds a black old-fashioned telephone receiver. Beige wall and colorful striped awning behind them, restrained cinematic medium two-shot. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "9270f7e4abc39e49c1617dab3ed11005be17190afe2379c6b07a4c98838c8c0d",
+      "preview": "film-ai/firstshot-20261126/src-1416bbd923f402cf.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a50714f95263b32355b88832e4b244cce1072826/originals/film-expand-firstshot-20261126/src-1416bbd923f402cf.png",
+        "bytes": 2543322,
+        "sha256": "0e5d3d6d89980d050ba82acc2342085ebba8b43eefb41da54feca859cdb13516",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
     }
   ]
 }
