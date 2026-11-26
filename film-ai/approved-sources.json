@@ -1,0 +1,407 @@
+{
+  "schema": 1,
+  "films": {
+    "1899-2022": [
+      {
+        "src": "film-ai/shots/YS-20261103-CN96-1899-2022-006.webp",
+        "sha256": "b6848dc249bd89395d395bad43c65f906aad77967e9e81980eb4f0434f659800"
+      },
+      {
+        "src": "film-ai/decks/film-1899-2022.webp",
+        "sha256": "ee1701c5d1cb48eae48596f04dc7b2ab3ccd6fdbc985f5770fb37d547a8912e8"
+      },
+      {
+        "src": "film-ai/1899-2022.jpg",
+        "sha256": "d13d7cb11bbac96fa7ad6dfc83773be7e0f6bc974631908eabc8a0a8468243d3"
+      }
+    ],
+    "aces-go-places-1982": [
+      {
+        "src": "film-ai/shots/YS-20261112-W2-aces-go-places-1982-06.webp",
+        "sha256": "707ecd72daed4bde5c95a8578de2f444cddb303c81635e9b5f91f6151e4c6706"
+      },
+      {
+        "src": "film-ai/shots/YS-20261112-W2-aces-go-places-1982-07.webp",
+        "sha256": "29e5511d4c971b587708d3d0fd01d9ecb2a7d13dd3da9f4d73868ef02ba2ccf4"
+      },
+      {
+        "src": "film-ai/decks/film-aces-go-places-1982.webp",
+        "sha256": "f862ad9bb9d06d2224e2bf9fa43399929f7a85663c51e1b59cc6e5610b973490"
+      },
+      {
+        "src": "film-ai/aces-go-places-1982.jpg",
+        "sha256": "ed574509ca6e38945a5ae906cd9fd1937b5c4a0b1e10dd42fb7899f2d3fdc416"
+      }
+    ],
+    "all-quiet-on-the-western-front-2022": [
+      {
+        "src": "film-ai/quality-reviewed/all-quiet-on-the-western-front-2022.png",
+        "sha256": "0c5fca81112c32fdf573372b540b49f6b29a9d4c8b300b4fbb8c8787cb8ab295"
+      },
+      {
+        "src": "film-ai/shots/YS-20261028-C15-all-quiet-on-the-western-front-2022-06.webp",
+        "sha256": "db250d43de967828b24dc94a332d02a0259e8cc9ba6c53b12f565be9e96c1caf"
+      },
+      {
+        "src": "film-ai/decks/film-all-quiet-on-the-western-front-2022.webp",
+        "sha256": "30ec342f1544e249c6de3cb24f86f5765099ada5944af02b820bb5ca27699fa6"
+      }
+    ],
+    "apocalypse-now-1979": [
+      {
+        "src": "film-ai/shots/YS-0029-01.webp",
+        "sha256": "c8f8bcceaf1c758382844ec45cf32fb12464342b4c3984c267ce745892aa5208"
+      },
+      {
+        "src": "film-ai/decks/film-apocalypse-now-1979.webp",
+        "sha256": "f4bacf7642f372ddedd8d1abd052fa5d279ede31854c008f2f70952ed5809908"
+      },
+      {
+        "src": "film-ai/restored/apocalypse-now-1979.jpg",
+        "sha256": "f82d566cab99011db6d0834a750fe33c18e6644c210803672ade6f725e6192ec"
+      }
+    ],
+    "barry-lyndon-1975": [
+      {
+        "src": "film-ai/shots/YS-0048-01.webp",
+        "sha256": "9f9b363864a73cb6c8dd078883eaed7f0a8530a356dec53616fa912b859aeeef"
+      },
+      {
+        "src": "film-ai/decks/film-barry-lyndon-1975.webp",
+        "sha256": "6a54489c16d5cc3176660d7b86a8796882442de0283bc6343f3a4bed7d64aabb"
+      },
+      {
+        "src": "film-ai/restored/barry-lyndon-1975.jpg",
+        "sha256": "62352425873bdf4f7b1f458c88f6fbabfe1b06dc04898cc0905256c35946a396"
+      }
+    ],
+    "black-cat-detective-1984": [
+      {
+        "src": "film-ai/shots/YS-20261112-W2-black-cat-detective--06.webp",
+        "sha256": "1b6fda50e30cbcb140d109d9038af127f9e4b0f8b08479540426be5d24dda7c2"
+      },
+      {
+        "src": "film-ai/shots/YS-20261112-W2-black-cat-detective--07.webp",
+        "sha256": "dafd03bc7d7adce33b599c7e835420981f6fd33de653a17606ecea746f0deace"
+      },
+      {
+        "src": "film-ai/decks/film-black-cat-detective-1984.webp",
+        "sha256": "f8172a3817e3dc0e9a8f2a13490cd8502ee73f0c21c9d5d065f6aec744e1ca8d"
+      },
+      {
+        "src": "film-ai/black-cat-detective-1984.jpg",
+        "sha256": "cc4a07323a21e630046972bd6b78c0abbe1d6c8a0420869698fbe8eba799f63b"
+      }
+    ],
+    "blade-runner-2049-2017": [
+      {
+        "src": "film-ai/shots/YS-0040-01.webp",
+        "sha256": "d61b94df30929fedb45a89b3f2ab2483b3c93c62970ac17fd818759f67551217"
+      },
+      {
+        "src": "film-ai/decks/film-blade-runner-2049-2017.webp",
+        "sha256": "ab897534d177090da2bfe672b26957277a7c58c87a9458965fbf526bde5ac188"
+      }
+    ],
+    "calabash-brothers-1986": [
+      {
+        "src": "film-ai/shots/YS-20261112-2300-calabash-brothers-19-06.webp",
+        "sha256": "88b65c20536f7f0eb8bb97cb9635cceabdeea5ddec9ea7cce395b9c1e0fea5a5"
+      },
+      {
+        "src": "film-ai/shots/YS-20261112-2300-calabash-brothers-19-07.webp",
+        "sha256": "24be283fbaa703f21e4f87e5a144be06c66f0d6baec4f151907277042df74cdc"
+      },
+      {
+        "src": "film-ai/decks/film-calabash-brothers-1986.webp",
+        "sha256": "59274f17a587cc22adcc6e286004a75a6a5a623c9007c20a010d2a79e82dddaf"
+      },
+      {
+        "src": "film-ai/calabash-brothers-1986.jpg",
+        "sha256": "658f830cca2b8dce2be3ef99389c81f7f5e5906f1ed76c7d6fca90f67566d55d"
+      }
+    ],
+    "chungking-express-1994": [
+      {
+        "src": "film-ai/shots/YS-20261103-CN96-chungking-express-1994-096.webp",
+        "sha256": "8ba452c978db748cb1d6d52fa2d082ede6b3118e8d9c481d3f4deb400baac7e9"
+      },
+      {
+        "src": "film-ai/decks/film-chungking-express-1994.webp",
+        "sha256": "4220e5c6cbad0e63f7b6b7ca7b4855ffab53273ea7e3874e8215289624e26dd5"
+      },
+      {
+        "src": "film-ai/restored/chungking-express-1994.jpg",
+        "sha256": "ece545b67394d344f0b7827d253e5d2e27450fa0cc06915beddcfc5ddd29457b"
+      }
+    ],
+    "cold-war-2018": [
+      {
+        "src": "film-ai/shots/YS-20261110-2300-cold-war-2018-06.webp",
+        "sha256": "5914395307cded8a98f001da698b50dff6d8c5413599a1705dc0339c8557df77"
+      },
+      {
+        "src": "film-ai/shots/YS-20261110-2300-cold-war-2018-07.webp",
+        "sha256": "e5ab3d2c986a880bc8d237c3f99da501c3ce6b91288fc49b43a40688b50d7ae1"
+      },
+      {
+        "src": "film-ai/decks/film-cold-war-2018.webp",
+        "sha256": "13113cd945faf07c33096d9e837617ffefa1784f3f217981531bff28e13ff74b"
+      },
+      {
+        "src": "film-ai/cold-war-2018.jpg",
+        "sha256": "61e9722d7fc25796f2ab5245c0a9bf958e2b6a6bb781ac42b7b57cdaa4b17925"
+      }
+    ],
+    "crouching-tiger-hidden-dragon-2000": [
+      {
+        "src": "film-ai/shots/YS-20261103-CW112-crouching-tiger-hidden-dragon-2000-105.webp",
+        "sha256": "8b687daed67a67a03db8af5508344757ce8dd80630501a37df20bc32e130c339"
+      },
+      {
+        "src": "film-ai/shots/YS-0011-01.webp",
+        "sha256": "6d05856eb0b4255013f01464fc42f5bbd23611f09dcde4a9a7986cb214fb2beb"
+      },
+      {
+        "src": "film-ai/restored/crouching-tiger-hidden-dragon-2000.jpg",
+        "sha256": "16295e5bd12482bde22a2d1612c83eec8b78e1f56870c810cf7502c9aac779f4"
+      }
+    ],
+    "farewell-my-concubine-1993": [
+      {
+        "src": "film-ai/shots/YS-20261103-CN96-farewell-my-concubine-1993-093.webp",
+        "sha256": "5df03dd42a4a805436c5e407798555db6e81bcca3507edd8b132ea523d0a2de9"
+      },
+      {
+        "src": "film-ai/decks/film-farewell-my-concubine-1993.webp",
+        "sha256": "c2e3aed34401f40bb5b54bf87babc7347bf394f5c730c1a000bb2ca25908c9bd"
+      },
+      {
+        "src": "film-ai/restored/farewell-my-concubine-1993.jpg",
+        "sha256": "d40b48283c3a7883ee9ddc7e7a6c8cc01762a7e01d6ec22dcbe11e5e684c3cda"
+      }
+    ],
+    "fist-of-legend-1994": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-fist-of-legend-1994-045.webp",
+        "sha256": "7d89b2a9216888ad876ed1945201b7fe3613ffdd94fe44dfd3d9c1da89e4e498"
+      },
+      {
+        "src": "film-ai/decks/film-fist-of-legend-1994.webp",
+        "sha256": "24e17d78dae32aa385cbdaadbe7873bc0918e5a6a73b78b77d09b9126d0426e0"
+      },
+      {
+        "src": "film-ai/fist-of-legend-1994.jpg",
+        "sha256": "5b1fcc9724b9171e0f05def1d1a5870514c620a4f034818110e497d1b41434db"
+      }
+    ],
+    "fog-hill-of-five-elements-2020": [
+      {
+        "src": "film-ai/shots/YS-20261112-W2-fog-hill-of-five-ele-06.webp",
+        "sha256": "4b4e6293d0b6ee6fa368b06a9931887eaa9fb7bb0a4b5cc08b031f4ea1ca5d3a"
+      },
+      {
+        "src": "film-ai/shots/YS-20261112-W2-fog-hill-of-five-ele-07.webp",
+        "sha256": "0fd7e7ccf59dad3a4c57547159338659deb5efd2520d2e78aaacb83294e863b6"
+      },
+      {
+        "src": "film-ai/decks/film-fog-hill-of-five-elements-2020.webp",
+        "sha256": "9092a8e0e78fc1a29abae5c32ce07f1a434d18d375f3982391050ddaf8683f03"
+      },
+      {
+        "src": "film-ai/fog-hill-of-five-elements-2020.jpg",
+        "sha256": "6445ae9eb30f7d95f131ce8c989c2decd95624ebe23258796b85138e816741d5"
+      }
+    ],
+    "girlhood-2014": [
+      {
+        "src": "film-ai/girlhood-2014.jpg",
+        "sha256": "d11c33fd6f19e7f2c1c5c10f6aa58680da49f7338369855b6fe19d49f932a0e8"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-girlhood-2014-007.webp",
+        "sha256": "9cc21fdddec2666f7d90c21fde5abcaca1b44c37687e4a774eed9a33968e5ed3"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-girlhood-2014-008.webp",
+        "sha256": "61b1227f8561fcb6acbd815898ea5acf0a7274405940c6ceb6869d2608b64b51"
+      },
+      {
+        "src": "film-ai/decks/film-girlhood-2014.webp",
+        "sha256": "a79c1d2fe85075ea29be3f285de0c17520d9c0af9a5bf2c51d093cb522c49e2b"
+      }
+    ],
+    "god-of-gamblers-1989": [
+      {
+        "src": "film-ai/shots/YS-20261112-W2-god-of-gamblers-1989-06.webp",
+        "sha256": "f4f381695f5b1ce6637c6c0ce1be3eec420b752f53e631e9c6e1bd30c820bcb8"
+      },
+      {
+        "src": "film-ai/shots/YS-20261112-W2-god-of-gamblers-1989-07.webp",
+        "sha256": "ec9b085c3850a2ffeb7513d5ec291929413f4afe6a0b90363c0cb5e0ab4f01aa"
+      },
+      {
+        "src": "film-ai/decks/film-god-of-gamblers-1989.webp",
+        "sha256": "ee89ac2b1c3086e5baa1428bef09e8a2cbe31b196447a57a08eb9bf42391c2d9"
+      },
+      {
+        "src": "film-ai/god-of-gamblers-1989.jpg",
+        "sha256": "6c7ccebac129193e99edbddf65b86fbf948ccba513996128045731832b561715"
+      }
+    ],
+    "goldfinger-1964": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M46-goldfinger-1964-045.webp",
+        "sha256": "767bb73664fdfccba2d225894030d6c8100145fa007cb7df7503a53ef9d1b305"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M46-goldfinger-1964-046.webp",
+        "sha256": "2a38447054edc5b3f3864b54f118f68a47a73ed8441e3586d7f111d732497b8e"
+      },
+      {
+        "src": "film-ai/decks/film-goldfinger-1964.webp",
+        "sha256": "55484fc7a6875924d62c841feff7160ba6c02e316f6aeae3905c9d5387e9a412"
+      }
+    ],
+    "greenpeace-smog-journeys-2015": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-greenpeace-smog-journeys-2015-007.webp",
+        "sha256": "6298abcf17aa4b8e4d4fa1d9599d1ddfd8e029cf1062b8ff0005e53fd176ffe4"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-greenpeace-smog-journeys-2015-008.webp",
+        "sha256": "8ccbe891469042371c5b128ef8ba7b73433d780cd2a0720926cfa35ec0405ed1"
+      },
+      {
+        "src": "film-ai/decks/film-greenpeace-smog-journeys-2015.webp",
+        "sha256": "e4bc65ab387449ff62517ddb4679a39bc411d7e1029d22d20fb9ba149984cd83"
+      }
+    ],
+    "hero-2002": [
+      {
+        "src": "film-ai/shots/YS-20261103-CW112-hero-2002-105.webp",
+        "sha256": "596337461b85352b9baf006c05a593f7746fefd357ae62d4d537231da30baf1a"
+      },
+      {
+        "src": "film-ai/decks/film-hero-2002.webp",
+        "sha256": "c82905c4d8e992cd3f2e589f8f2b5209c06db1f1dd52a36f9429639a22dfe384"
+      },
+      {
+        "src": "film-ai/restored/hero-2002.jpg",
+        "sha256": "6a11f91790fd576563712cd2b3dd5efc7dd2efb6aaaec1dd3a51e4f3913a32b7"
+      }
+    ],
+    "in-the-mood-for-love-2000": [
+      {
+        "src": "film-ai/shots/YS-20261103-CW112-in-the-mood-for-love-2000-105.webp",
+        "sha256": "ac50de1cd945c141c8fcdbfc726fda69f477a6f60c3b0f75cb0009fa439ae375"
+      },
+      {
+        "src": "film-ai/decks/film-in-the-mood-for-love-2000.webp",
+        "sha256": "4fbaf414b053ef9580b939c86c97e0c2f3f15cbee69e61c77821a002fd0907f9"
+      },
+      {
+        "src": "film-ai/restored/in-the-mood-for-love-2000.jpg",
+        "sha256": "8389fba0ca4e0c5e61776cf6b891ae95a5019ef3c4681ad719130004efcddd4e"
+      }
+    ],
+    "killer-of-sheep-1978": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-killer-of-sheep-1978-047.webp",
+        "sha256": "2f6fb3692fdb510910bb71157a6f5f56f1ca5daef11c6ae487756a8782d506b0"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-killer-of-sheep-1978-048.webp",
+        "sha256": "ee562e35541f1580e8ed9b6fd2f3248e35cfd9789414ae7ca1be368989f598d2"
+      },
+      {
+        "src": "film-ai/decks/film-killer-of-sheep-1978.webp",
+        "sha256": "351c8e70d3686192358703cbb6936082d32464d2a7e9b101c33d8a2c27abd691"
+      },
+      {
+        "src": "film-ai/killer-of-sheep-1978.jpg",
+        "sha256": "b38b3183d0b69a8b747b674aa9c29c3e200f4e76da8bd7eb0888ae89a4df2c9e"
+      }
+    ],
+    "lawrence-of-arabia-1962": [
+      {
+        "src": "film-ai/shots/YS-0024-01.webp",
+        "sha256": "daf62c82c8252639296e29c84f03f331a4173f0b9e0c37deff6d7d0fe0e8298d"
+      },
+      {
+        "src": "film-ai/decks/film-lawrence-of-arabia-1962.webp",
+        "sha256": "733e40d379db514d46e9fa98cbd8bc9dbf23c245415a1859fb0708284ca02439"
+      }
+    ],
+    "little-women-1994": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M46-little-women-1994-006.webp",
+        "sha256": "3fc5e8da02b8771f7fe7b498d2def3803f45a7a08ed18c0d8fc20fb776345fef"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M46-little-women-1994-007.webp",
+        "sha256": "054a4040bd85c5b63fc2cadf817faea65f0d6f1cfd8f3cc2c517201a1519afc2"
+      },
+      {
+        "src": "film-ai/decks/film-little-women-1994.webp",
+        "sha256": "2aa1c87d484bb393357997d91351e116b73b5b220ee1d6b1e8d20ab915051acb"
+      },
+      {
+        "src": "film-ai/little-women-1994.jpg",
+        "sha256": "6157ad2fce308007e3321537b91ca00cb62579b3fe193295d3deffbd61f6ebd7"
+      }
+    ],
+    "notting-hill-1999": [
+      {
+        "src": "film-ai/notting-hill-1999.jpg",
+        "sha256": "6132fc1d40d6087e2159d54d29c15421379f1a6b3b00802de78da486be34b599"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M46-notting-hill-1999-006.webp",
+        "sha256": "5fd9f175f47f23a8207477d052491623418138bbaba71be4cc428f03056cf69c"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M46-notting-hill-1999-007.webp",
+        "sha256": "db979882d67f85bdf2fdd907aae4a8efb0c8c76f76239c5d92aa60fe699b21fa"
+      },
+      {
+        "src": "film-ai/decks/film-notting-hill-1999.webp",
+        "sha256": "9de48e1d62b8a347ef9ca5edc092c0a05b79f9eb001d19a99efc5af20b33e3e3"
+      }
+    ],
+    "oppenheimer-2023": [
+      {
+        "src": "film-ai/shots/YS-0072-01.webp",
+        "sha256": "2456d8382e98751d7c7d12b26a7ddd6ace0d853f419d1931ffe4b0d034123b4c"
+      },
+      {
+        "src": "film-ai/decks/film-oppenheimer-2023.webp",
+        "sha256": "4b569925778937363513f9cd2732e9a2de7d2307739ddb35cfcb8e7135286901"
+      }
+    ],
+    "playtime-1967": [
+      {
+        "src": "film-ai/playtime-1967.jpg",
+        "sha256": "ab948ebfcbb2595b3d94a36541ea4d800847f81ef4f3ea9be38337ac3e8e8cdf"
+      },
+      {
+        "src": "film-ai/decks/film-playtime-1967.webp",
+        "sha256": "870c667daa92b883a06db67a5230b2e770f813f9a68bcbe7a4f64bcea3cb3196"
+      }
+    ],
+    "red-sorghum-1987": [
+      {
+        "src": "film-ai/shots/YS-20261103-CW112-red-sorghum-1987-105.webp",
+        "sha256": "2e6b085ec6602beff65f5421052013b1a26a72e94d45a099e34cfaffc8db55fc"
+      },
+      {
+        "src": "film-ai/shots/YS-20261118-GR-red-sorghum-1987-01.webp",
+        "sha256": "7fb6ac72586b9b2887c7ba14da7986f870ded14dcaf1ddea7145b73676d41656"
+      },
+      {
+        "src": "film-ai/restored/red-sorghum-1987.jpg",
+        "sha256": "3d8b2ed9efa15757059d80657659be4bb4e9ad4ca858457f28389eb13f44716d"
+      }
+    ]
+  }
+}
