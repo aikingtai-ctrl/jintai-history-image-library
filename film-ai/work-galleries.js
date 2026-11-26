@@ -1,0 +1,1 @@
+window.FILM_WORK_GALLERIES={"in-the-mood-for-love-2000":[{"src":"film-ai/shots/YS-20261103-CW112-in-the-mood-for-love-2000-105.webp","kind":"primary"},{"src":"film-ai/decks/film-in-the-mood-for-love-2000.webp","kind":"cover"},{"src":"film-ai/restored/in-the-mood-for-love-2000.jpg","kind":"representative"}]};
