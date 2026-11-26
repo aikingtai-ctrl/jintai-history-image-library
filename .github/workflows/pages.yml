@@ -176,6 +176,13 @@ jobs:
           qing_images = json.loads(qing_js.split("=", 1)[1].rstrip(";\n"))
           assert len(qing_images) <= 4573, f"Qing GPT Image count invalid: {len(qing_images)}"
           assert all(item["source"] == "Codex GPT Image original PNG" and item["original_dir"] == "history_qing_4573_codex_gpt_image_20261124" for item in qing_images.values()), "Qing GPT Image source mismatch"
+          three_js = git_bytes("show", "HEAD:history-ai/three-manifest.js").decode("utf-8")
+          assert three_js.startswith("window.JINTAI_THREE_IMAGES="), "Three GPT Image manifest invalid"
+          three_images = json.loads(three_js.split("=", 1)[1].rstrip(";\n"))
+          assert 2 <= len(three_images) <= 11458, f"Three GPT Image count invalid: {len(three_images)}"
+          assert all(item["model"] == "GPT Image" and item["source"] == "Codex GPT Image original PNG"
+                     and item["original_dir"] == "history_three_11458_codex_gpt_image_20261126"
+                     for item in three_images.values()), "Three GPT Image source mismatch"
           print(f"Saved JPEG gate passed: {len(originals)}; GPT Image gate passed: {len(gpt_images)}")
           selected = []
           for rel in raw_paths:
@@ -223,7 +230,7 @@ jobs:
               elif top == "history-ai":
                   history_files = {
                       "browser-originals-manifest.js", "browser-originals-viewer.js",
-                      "manifest.js", "source-notes.js", "gpt-image-manifest.js", "shanhaijing-gpt-manifest.js", "qing-manifest.js", "page19-originals-manifest.js", "page20-originals-manifest.js", "page21-originals-manifest.js", "page22-originals-manifest.js", "page23-originals-manifest.js", "regenerated-manifest.js", "myth-originals-manifest.js", "people-manifest.js",
+                      "manifest.js", "source-notes.js", "gpt-image-manifest.js", "shanhaijing-gpt-manifest.js", "qing-manifest.js", "three-manifest.js", "page19-originals-manifest.js", "page20-originals-manifest.js", "page21-originals-manifest.js", "page22-originals-manifest.js", "page23-originals-manifest.js", "regenerated-manifest.js", "myth-originals-manifest.js", "people-manifest.js",
                       "gallery-data.js", "gallery-data-batch2.js",
                       "batch-manifest.json", "batch2-manifest.json",
                       "image-audit.json", "verification.json", "verification-batch2.json",
