@@ -4803,6 +4803,26 @@
         "sha256": "c00b6359ee2c38bad330942113d07d84557005e9fcc018a7582df83b4813d21a"
       }
     ],
+    "hamlet-1948": [
+      {
+        "src": "film-ai/decks/film-hamlet-1948.webp",
+        "sha256": "c8686a1a2c0c363ff668653e22663872af1324520ecc2e66316c88207205af04"
+      },
+      {
+        "src": "film-ai/hamlet-1948.jpg",
+        "sha256": "c4ec1c736e6521e5a4502acd9af151a3500575712ec61dcd250bd9a4b960465d"
+      }
+    ],
+    "hana-and-alice-2004": [
+      {
+        "src": "film-ai/decks/film-hana-and-alice-2004.webp",
+        "sha256": "3017b869d917eb84f202985e331614aed125ab0cec607074be51d968d1475052"
+      },
+      {
+        "src": "film-ai/hana-and-alice-2004.jpg",
+        "sha256": "8040fc0fadc13f78ce088c440194327306da25d84ea710a3652e92eb726e011c"
+      }
+    ],
     "hana-bi-1997": [
       {
         "src": "film-ai/decks/film-hana-bi-1997.webp",
@@ -4811,6 +4831,36 @@
       {
         "src": "film-ai/restored/hana-bi-1997.jpg",
         "sha256": "09de7f33ec4327d24fe83f684155e98b5ab763b79f6d89b72bdd58a8d664ddc0"
+      }
+    ],
+    "hannah-and-her-sisters-1986": [
+      {
+        "src": "film-ai/decks/film-hannah-and-her-sisters-1986.webp",
+        "sha256": "e3ef8901055387dd6b89870eec94ddb00a517a99415fe86646705e51094c0c9d"
+      },
+      {
+        "src": "film-ai/hannah-and-her-sisters-1986.jpg",
+        "sha256": "1a4ef3af2aeb4c32b7be22e1e33ea924a307fd71eda3119b1b0d528de41ab34d"
+      }
+    ],
+    "hansan-rising-dragon-2022": [
+      {
+        "src": "film-ai/decks/film-hansan-rising-dragon-2022.webp",
+        "sha256": "8ac939f581fd549756f7ae1d9bbe8a8acce808ae741d1d5165dcf6651157d533"
+      },
+      {
+        "src": "film-ai/hansan-rising-dragon-2022.jpg",
+        "sha256": "eab1700c5a53a8ed34fb135775c0566eeaabf902970c5cf806f126eccd9c36bc"
+      }
+    ],
+    "happy-as-lazzaro-2018": [
+      {
+        "src": "film-ai/decks/film-happy-as-lazzaro-2018.webp",
+        "sha256": "1e4e6241797125a7c11883d089f03c720e7ae7e7d9f5d8c488efdfb6587a706f"
+      },
+      {
+        "src": "film-ai/happy-as-lazzaro-2018.jpg",
+        "sha256": "776c58c443d34a4fc7a5a7c9e9335ff4c351b74dc25652b24a9f6da937de414c"
       }
     ],
     "happy-together-1997": [
@@ -4825,6 +4875,66 @@
       {
         "src": "film-ai/restored/happy-together-1997.jpg",
         "sha256": "49e6ea4ca4f19257621f3dd6a5a3f9d5a57452b960f5d360be380e95fbad38e6"
+      }
+    ],
+    "hard-to-be-a-god-2013": [
+      {
+        "src": "film-ai/hard-to-be-a-god-2013.jpg",
+        "sha256": "bd76a77f5a0eb9f1d64da0a32655b7726949b7ac566cadd36cc25d1a82867263"
+      },
+      {
+        "src": "film-ai/decks/film-hard-to-be-a-god-2013.webp",
+        "sha256": "1281308c3217896df81ba8fff6c3ee92105ab7636d6230ebecc422d8e4d16549"
+      }
+    ],
+    "harlan-county-usa-1976": [
+      {
+        "src": "film-ai/decks/film-harlan-county-usa-1976.webp",
+        "sha256": "419e996bdb81f8679f88716fde2cba636018b083611aeadd16d11aee7d1c3769"
+      },
+      {
+        "src": "film-ai/harlan-county-usa-1976.jpg",
+        "sha256": "5951aa858a19812209ee71e81f860024ba69a23611a5fb72b667f523391315f4"
+      }
+    ],
+    "hearts-of-darkness-1991": [
+      {
+        "src": "film-ai/decks/film-hearts-of-darkness-1991.webp",
+        "sha256": "ef0fc144f666bcb26733e151b2b8c5e5dd54fa18e09ce5512e77cf460ec5de87"
+      },
+      {
+        "src": "film-ai/hearts-of-darkness-1991.jpg",
+        "sha256": "847648cf55a325c76d625cfbe043446cd95b0c9f7a4b3db8799ea8138831fcb3"
+      }
+    ],
+    "hedgehog-in-the-fog-1975": [
+      {
+        "src": "film-ai/decks/film-hedgehog-in-the-fog-1975.webp",
+        "sha256": "4947e699ce29327af2bfb315d4a8ab196f1f6978100bbde3224f3da1e91d7ed1"
+      },
+      {
+        "src": "film-ai/hedgehog-in-the-fog-1975.jpg",
+        "sha256": "1b7ced09de4bb819dd4d5700f2e512600374523c8940e1b27dbe10225f64e02d"
+      }
+    ],
+    "hell-or-high-water-2016": [
+      {
+        "src": "film-ai/decks/film-hell-or-high-water-2016.webp",
+        "sha256": "29e5b2147e2cf8db90c572eb881a465f9555e74e69aff838a164fde0375670b5"
+      },
+      {
+        "src": "film-ai/hell-or-high-water-2016.jpg",
+        "sha256": "686b318c1bd1832a2e25fbd259d93d69f1544c3b068ae8f996857646b7c72171"
+      }
+    ],
+    "her-story-2024": [
+      {
+        "src": "film-ai/decks/film-her-story-2024.webp",
+        "sha256": "03b5c3c819a459036dc62b4e369b212c1bc8b553a0bba33f607d10a302f27748"
+      },
+      {
+        "src": "film-ai/her-story-2024.jpg",
+        "sha256": "f084511fac6047ebbb2176161dc7336197a07782339e0671a3870d50e61c9ccb"
       }
     ],
     "hero-2002": [
@@ -4855,6 +4965,86 @@
         "sha256": "e17519bbbc7a4e374d44d0a1b6cfefa6ca6f7143aa2038fbf61aee4693f0c058"
       }
     ],
+    "hes-a-woman-shes-a-man-1994": [
+      {
+        "src": "film-ai/decks/film-hes-a-woman-shes-a-man-1994.webp",
+        "sha256": "4ffd12139aa4fa94c0b9d8961cce131c4c241a5c7926c351fb70cb4e896cad50"
+      },
+      {
+        "src": "film-ai/hes-a-woman-shes-a-man-1994.jpg",
+        "sha256": "2700505fb839ff3f698741da239759873c5e4e3be639d75019de3cef49fb16a5"
+      }
+    ],
+    "hi-mom-2021": [
+      {
+        "src": "film-ai/decks/film-hi-mom-2021.webp",
+        "sha256": "d51d67999b02f0c42246f98b09ad3d54ff43506109c7d4c17600cae30c9b3c60"
+      },
+      {
+        "src": "film-ai/hi-mom-2021.jpg",
+        "sha256": "520de787b33718a6a986d187028a39c5c79dc503bed332705a5bbf3ad3014380"
+      }
+    ],
+    "hibiscus-town-1987": [
+      {
+        "src": "film-ai/decks/film-hibiscus-town-1987.webp",
+        "sha256": "9c2ae8c3f8cccd1fdae438d24fbd05db79264b73df9e661673c42c78e30a5d5b"
+      },
+      {
+        "src": "film-ai/hibiscus-town-1987.jpg",
+        "sha256": "3bd9356fec484b3917d7585d67235957e1f1b060c4728030a6f534adf76dbfb8"
+      }
+    ],
+    "hidden-blade-2023": [
+      {
+        "src": "film-ai/decks/film-hidden-blade-2023.webp",
+        "sha256": "9516e178a814fdceb8a65d1e0755fb0921421ba472322b5944926a11f9942e71"
+      },
+      {
+        "src": "film-ai/hidden-blade-2023.jpg",
+        "sha256": "71b1ba40e16e1e31a94c4bf1afa8bdc222cb802af5d7448e2edda673185d9d25"
+      }
+    ],
+    "hidden-man-2018": [
+      {
+        "src": "film-ai/decks/film-hidden-man-2018.webp",
+        "sha256": "897c7df0152ff9922f4b259f960c3fed6aead68ec1aa7b3904913699d9815b43"
+      },
+      {
+        "src": "film-ai/hidden-man-2018.jpg",
+        "sha256": "6243d3c5ba27416beef100c6505fe7368dfdfe15206ef82385ea1bec0fef5791"
+      }
+    ],
+    "high-and-low-1963": [
+      {
+        "src": "film-ai/decks/film-high-and-low-1963.webp",
+        "sha256": "b7f2e136ac7767d3385ade495b8c8aa4eb073f0bfc6d0019b2246e367f55c349"
+      },
+      {
+        "src": "film-ai/high-and-low-1963.jpg",
+        "sha256": "2a9e349497670e417963fff330a0cdbcacdfbee2fdf14f32ee3ded8e82d39a91"
+      }
+    ],
+    "hill-of-no-return-1992": [
+      {
+        "src": "film-ai/decks/film-hill-of-no-return-1992.webp",
+        "sha256": "6b016500418ab0549769499b6cd019c0ecd50088705fb104dd786188093dcdfb"
+      },
+      {
+        "src": "film-ai/hill-of-no-return-1992.jpg",
+        "sha256": "48adc86ea24a869715c7480d2e62f72d12a94c460e16909abda309ada342dbf9"
+      }
+    ],
+    "his-girl-friday-1940": [
+      {
+        "src": "film-ai/decks/film-his-girl-friday-1940.webp",
+        "sha256": "36c6a54eb9127f62b04c340848d25ba408bf33894d948089d9bf1da20c8ce70d"
+      },
+      {
+        "src": "film-ai/his-girl-friday-1940.jpg",
+        "sha256": "c6e303c16360219a84d0fe73534d165bda0aafa1319553d63334d886146cf7e4"
+      }
+    ],
     "holy-motors-2012": [
       {
         "src": "film-ai/shots/YS-20261103-CW112-holy-motors-2012-105.webp",
@@ -4863,6 +5053,16 @@
       {
         "src": "film-ai/decks/film-holy-motors-2012.webp",
         "sha256": "ccdc8f0179021ee603b65bf065054ce29bf856e4ac3aa7589229a009c6046f19"
+      }
+    ],
+    "home-2009": [
+      {
+        "src": "film-ai/decks/film-home-2009.webp",
+        "sha256": "e9bf257bbd4bc1c76741ef6575748c9e659b2dd998b92ef35b31b286f0947065"
+      },
+      {
+        "src": "film-ai/home-2009.jpg",
+        "sha256": "1da2aa35f6d7d44d1de051b1860f5f8a52af9371759f2dd6e874b735e2ec1bfc"
       }
     ],
     "house-1977": [

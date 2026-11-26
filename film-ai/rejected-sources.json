@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T01:55:09.926364+08:00",
+  "updated_at": "2026-11-27T02:19:44.749614+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -1052,6 +1052,41 @@
       "sha256": "8edcf76a214fad51cdfad152f426c79a9bfdeb636281494d6d15740353de17fa",
       "reason": "暴雨火场中倒地者是写实真人照片质感，画面无木偶且媒介与 Netflix 确认的定格动画直接冲突。",
       "evidence": "第三十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "heat-1995",
+      "src": "film-ai/heat-1995.jpg",
+      "sha256": "c7d545acf4105b0a2d77fba7910d1cbd081162a72808da6336b8968b3ef3907b",
+      "reason": "犯罪对峙近景里的两名核心男子是东亚面孔，与 AFI 所列 Pacino/De Niro/Kilmer 主角组合明显冲突，不能标为本片人物图。",
+      "evidence": "第三十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "her-2013",
+      "src": "film-ai/her-2013.jpg",
+      "sha256": "4c1e13cf0fe821f41ea824ef52c1a95602031e237f224b9549a528ebea223ccf",
+      "reason": "历史服装中的两名东亚女子亲密画面与近未来洛杉矶、男子和无实体 AI 的核心设定同时冲突。",
+      "evidence": "第三十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "high-rise-2015",
+      "src": "film-ai/high-rise-2015.jpg",
+      "sha256": "d0479848717b2d6a2604af6b4e2f9d0827fc8bba4c4c6b35c2b13e62da592a31",
+      "reason": "近景眼部为东亚男子，而 BFI 所列本片主要人物演员均非该形象，且画面没有大楼或阶层冲突锚点。",
+      "evidence": "第三十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "home-coming-2022",
+      "src": "film-ai/home-coming-2022.jpg",
+      "sha256": "f1084b2ee12b240283a8932541193fc33130283e3d687b55b4b4710dc790d5d1",
+      "reason": "原图有摄影机、器材箱、遮阳棚和现场工作人员，主体为戴羽饰的外籍男子；画面呈现外部片场拍摄现场，不是撤侨剧情静帧。",
+      "evidence": "第三十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "homecoming-1984",
+      "src": "film-ai/homecoming-1984.jpg",
+      "sha256": "dddf6dca0cb68f05c19c0c89502013f8c21b6bdbaef1aa988247296e758f7a85",
+      "reason": "竖版图上直接印有《返乡 / Homecoming》片名及“严浩导演”字样，属于海报/字卡拼版而非剧情静帧。",
+      "evidence": "第三十一批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
