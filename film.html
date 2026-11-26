@@ -1656,7 +1656,7 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
   const aiGeneratedJpg=FILM_AI_GENERATED_WIDS.has(w.wid)&&/(?:^|\/)film-ai\/[^/?#]+\.jpe?g(?:[?#]|$)/i.test(aiSrc||'');
   const aiGeneratedWebp=FILM_AI_GENERATED_WIDS.has(w.wid)&&/(?:^|\/)film-ai\/src-[^/?#]+\.webp(?:[?#]|$)/i.test(aiSrc||'');
   const aiGoal3377=/(?:^|\/)film-ai\/goal3377\/[^?#]+\.jpe?g(?:[?#]|$)/i.test(aiSrc||'');
-  const aiBadge=(window.FILM_AI_FIRST_SHOT_GOAL_WIDS||{})[w.wid]?'首镜头 AI 参考图':(window.FILM_SHOT_WORK_ROLES||{})[w.wid]||(aiReviewed||aiGoal3377?'原创概念图·高清':aiGeneratedJpg?'AI 小图·待升级':aiGeneratedWebp?'AI 代表图':aiWorkConcept?'原创概念图·高清':aiHires?'高清 AI 参考图':aiDeckCover?'原创概念图·高清':'旧版小图·待替换');
+  const aiBadge=(window.FILM_AI_REFERENCE_LABELS||{})[w.wid]||((window.FILM_AI_FIRST_SHOT_GOAL_WIDS||{})[w.wid]?'首镜头 AI 参考图':(window.FILM_SHOT_WORK_ROLES||{})[w.wid]||(aiReviewed||aiGoal3377?'原创概念图·高清':aiGeneratedJpg?'AI 小图·待升级':aiGeneratedWebp?'AI 代表图':aiWorkConcept?'原创概念图·高清':aiHires?'高清 AI 参考图':aiDeckCover?'原创概念图·高清':'旧版小图·待替换'));
   const aiPreview=aiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" role="button" tabindex="0" title="点击查看《${esc(w.t)}》图片原文件" aria-label="点击查看 ${esc(w.t)} 图片原文件"><img src="${esc(aiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">${aiBadge}</span><span class="film-ai-zoom-hint">↗ 打开原图</span></div>`:'<div class="film-ai-preview empty">等待 AI 代表图</div>';
   return`<div class="wc"><h4>${esc(w.t)} <span class="muted" style="font-size:18px">${enShow?esc(enShow)+' · ':''}${esc(w.y||'')}${w.year_status==='待核'?'（年份待核）':''}</span></h4>
  <div class="m">${esc(metaParts)}</div>

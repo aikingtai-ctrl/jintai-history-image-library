@@ -801,6 +801,217 @@
       },
       "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
       "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 57,
+      "wid": "src-107b84f17b3b46a2",
+      "title": "La rosa di Bagdad",
+      "firstShotId": "VP-src-107b84f17b3b46a2-01",
+      "scene": "暖金二维动画中景，身穿蓝衣白纱的巴格达公主站在华丽宫殿内，抬手轻抚停在指尖的白鸟",
+      "actualPrompt": "Original warm golden hand-drawn 2D animation medium shot, wide 16:9. A princess in a blue gown with a white veil stands in an ornate Baghdad palace, gently raising one hand to stroke a small white bird perched on her fingertip. Delicate original character design, intricate painted palace details, calm graceful gesture and soft warm light. No words, logos or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "9b6474c1d1d444aab6da9c8e92d05f73676ffc2e8cd228c2e5cd6c1600a0d68d",
+      "preview": "film-ai/firstshot-20261126/src-107b84f17b3b46a2.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/0b952a43f478fbc62d18942fc0c9b7713d841ac5/originals/film-expand-firstshot-20261126/src-107b84f17b3b46a2.png",
+        "bytes": 2646966,
+        "sha256": "199a1a31fd4694dea76a9bb639db1722ac1c2cb1751146e2dad53ed8e5dfebdb",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 58,
+      "wid": "src-10801981c0999fff",
+      "title": "Kisten",
+      "firstShotId": "VP-src-10801981c0999fff-01",
+      "scene": "派对室内三人中景里三名盛装打扮的年轻女孩并肩站立露出自信笑容",
+      "actualPrompt": "Original cinematic medium three-shot at an indoor party, wide 16:9. Three fictional young adult women dressed elegantly for the party stand side by side, smiling confidently. All wear modest evening outfits, with natural friendly body language and balanced grouping. Warm party lamps and softly blurred room decor, original faces, no celebrity likenesses, no revealing framing, no text or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "d47154a1d6d0dded84790ef4e39262998edee553a3b993d6f9e39698672a5e2f",
+      "preview": "film-ai/firstshot-20261126/src-10801981c0999fff.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/0b952a43f478fbc62d18942fc0c9b7713d841ac5/originals/film-expand-firstshot-20261126/src-10801981c0999fff.png",
+        "bytes": 2134603,
+        "sha256": "92890bc118b631eaba85311dcb9647487be4ac89d477d45851d03bc8ed8cc71a",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 59,
+      "wid": "src-108c24ffcd2e1856",
+      "title": "Dreams That Money Can Buy",
+      "firstShotId": "VP-src-108c24ffcd2e1856-01",
+      "scene": "上半部为黄绿渐变标题块、下半部为蓝脸超现实主义男子的《金钱能买的梦》BFI版DVD封面图",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Surrealist graphic composition: upper half a smooth yellow-green gradient panel with no lettering; lower half a fictional adult male face colored deep blue, dreamlike shadows and photographic grain. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "8a0836f9be28e7abf0cab250de3c9304ef8044bce005fd81b21de83176490ec5",
+      "preview": "film-ai/firstshot-20261126/src-108c24ffcd2e1856.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/0b952a43f478fbc62d18942fc0c9b7713d841ac5/originals/film-expand-firstshot-20261126/src-108c24ffcd2e1856.png",
+        "bytes": 2447993,
+        "sha256": "0885c7ebcc83aef05dfae9f5aa98cfae02256bdc3c647e15357fce31d3187eca",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 60,
+      "wid": "src-108cca771fdf361c",
+      "title": "Child’s Play 3",
+      "firstShotId": "VP-aba05c2162fc8a4a",
+      "scene": "前景右侧为黄色拱形展示柜，内嵌红发玩偶头部；左侧背景处两名穿西装男子站立，一人背对镜头，一人侧身面向左方，背景昏暗。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. A yellow arched display cabinet dominates the right foreground, containing a red-haired toy doll head. In the dim background at left stand two adult men in suits, one facing away and the other in left-facing profile. Unsettling toy-shop atmosphere, no violence. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "361fe598cdf4329329cff35bf55e3e3075f4acc731bc6b9e0058ebae34d62129",
+      "preview": "film-ai/firstshot-20261126/src-108cca771fdf361c.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/0b952a43f478fbc62d18942fc0c9b7713d841ac5/originals/film-expand-firstshot-20261126/src-108cca771fdf361c.png",
+        "bytes": 2007331,
+        "sha256": "ef49b31258f23f246f67526f89903c296db17d6c0634d24a59b3dd9cd1c03f20",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 61,
+      "wid": "src-1090d2a51277e854",
+      "title": "LBJ",
+      "firstShotId": "VP-src-1090d2a51277e854-01",
+      "scene": "《林登·约翰逊》（2017）空军一号机舱内满头白发的约翰逊总统握住身穿粉色套装、神情悲痛的杰奎琳·肯尼迪的双手",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Inside a 1960s presidential aircraft cabin, a white-haired older adult man in a dark suit gently holds both hands of a grieving adult woman in a pink skirt suit. Restrained historical drama, original fictional faces rather than recognizable politicians. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "a1f4fd179c23004fee0ecc68bed9b026349fb56b083c32cbb670ed72cf650e07",
+      "preview": "film-ai/firstshot-20261126/src-1090d2a51277e854.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/0b952a43f478fbc62d18942fc0c9b7713d841ac5/originals/film-expand-firstshot-20261126/src-1090d2a51277e854.png",
+        "bytes": 2357948,
+        "sha256": "c915387e9dedbd5a3158f331e9e5fb81f47ad87602a6640bb241d4fb40dad86e",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 62,
+      "wid": "src-10ab1bf067927650",
+      "title": "Witness for the Prosecution",
+      "firstShotId": "VP-src-10ab1bf067927650-01",
+      "scene": "《控方证人》复古宣传海报，红黑大字标语下方呈现英国法庭审判插画",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Vintage courtroom publicity illustration: an empty red-and-black graphic header above an illustrated British courtroom with judge, counsel and public benches. Midcentury print texture, no lettering. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "8629ab581af452d464346847d5489da8c7d262f52b41c021ccedc817466668b4",
+      "preview": "film-ai/firstshot-20261126/src-10ab1bf067927650.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/0b952a43f478fbc62d18942fc0c9b7713d841ac5/originals/film-expand-firstshot-20261126/src-10ab1bf067927650.png",
+        "bytes": 3335345,
+        "sha256": "afbb32be01c67236e60b1e4a73f614d5b82949780df309abde62a148a663b7d4",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 63,
+      "wid": "src-10b4ed26d9a3b35d",
+      "title": "Away We Go",
+      "firstShotId": "VP-4f7eb612437510c8",
+      "scene": "两名人物在户外山景前站立亲吻。左侧人物穿带毛领的米色外套，右侧人物穿花纹长袍。背景是连绵的蓝绿色山脉和灰白天空，前景有少量绿色植被。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Two fully clothed adults stand outdoors kissing gently before layered blue-green mountain ridges and gray-white sky. Person at left wears a beige coat with a furry collar, person at right a patterned long robe. A little green vegetation in the foreground. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "0e436d59f93001b8f08c456e6a69e381865bb6de04761f8aba8dc910601c8989",
+      "preview": "film-ai/firstshot-20261126/src-10b4ed26d9a3b35d.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/0b952a43f478fbc62d18942fc0c9b7713d841ac5/originals/film-expand-firstshot-20261126/src-10b4ed26d9a3b35d.png",
+        "bytes": 2205548,
+        "sha256": "d39d4abed3217a5749c62e563515d86e07853f2958a2f4d8dbe78e58b31f9480",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 65,
+      "wid": "src-11aa79c8be2eb423",
+      "title": "Flirt",
+      "firstShotId": "VP-src-11aa79c8be2eb423-01",
+      "scene": "留深色短发的年轻女子裹着白色床单斜躺在床垫上并抬眼若有所思地望向画左上方",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. A thoughtful fictional adult woman with short dark hair reclines diagonally on a mattress, modestly wrapped securely from shoulders to feet in an opaque white sheet. She looks upward toward the upper left. Quiet contemplative portrait, no nudity or sexual activity. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "fd0a5bfd15e132529c1014d995bee048affa9774a7d75fd27532f53017408309",
+      "preview": "film-ai/firstshot-20261126/src-11aa79c8be2eb423.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/0b952a43f478fbc62d18942fc0c9b7713d841ac5/originals/film-expand-firstshot-20261126/src-11aa79c8be2eb423.png",
+        "bytes": 2095800,
+        "sha256": "f8d0d3b5ebf2fee8bf4f747941ed7b8e212f187109dc71a5e8a2026d4ccd6c5f",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 66,
+      "wid": "src-11d30d7b06451b69",
+      "title": "Stormquest",
+      "firstShotId": "VP-src-11d30d7b06451b69-01",
+      "scene": "Close romantic portrait of two fictional adults embracing and gently kissing on a fur-covered couch in a dim rustic interior. Both wear opaque linen shirts covering their torsos and shoulders. Emphasize faces and the embrace, ordinary romantic tenderness.",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Close romantic portrait of two fictional adults embracing and gently kissing on a fur-covered couch in a dim rustic interior. Both wear opaque linen shirts covering their torsos and shoulders. Emphasize faces and the embrace, ordinary romantic tenderness. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "b22cb4ec023f51176892d0499ce76780c23f1bcc01fdccf45dc1af6e677420f8",
+      "preview": "film-ai/firstshot-20261126/src-11d30d7b06451b69.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/0b952a43f478fbc62d18942fc0c9b7713d841ac5/originals/film-expand-firstshot-20261126/src-11d30d7b06451b69.png",
+        "bytes": 2252615,
+        "sha256": "1ac59e017474352ad49acc8fd2dd73d0d20e6a633828abed507c226a870843cb",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（穿衣人物）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "将裸露肩背改为不透明亚麻衬衣，保留相拥亲吻构图。"
+    },
+    {
+      "ordinal": 67,
+      "wid": "src-11ed9c4050bb4c4e",
+      "title": "Choke Canyon",
+      "firstShotId": "VP-src-11ed9c4050bb4c4e-01",
+      "scene": "机舱或车厢内的女性受困特写，一头金色卷发的年轻女子嘴巴被宽大的白色胶带死死封住，惊恐万分地瞪大双眼望向侧方。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Close portrait of a fictional adult woman with curly blonde hair sitting in a dark vehicle cabin. A broad white strip of tape covers her mouth and she looks fearfully to the side. No injury, no assailant or weapon, suspense-film framing without graphic detail. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "8d6a05c71654fc7a857b9675287ff689b989c86e08e08d60ca8439fb0882c27d",
+      "preview": "film-ai/firstshot-20261126/src-11ed9c4050bb4c4e.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/0b952a43f478fbc62d18942fc0c9b7713d841ac5/originals/film-expand-firstshot-20261126/src-11ed9c4050bb4c4e.png",
+        "bytes": 1998776,
+        "sha256": "017a97ca6e28ee55a123a174d9c86cf96004f688ee983e9cacfbfb1f7654abff",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
     }
   ]
 }
