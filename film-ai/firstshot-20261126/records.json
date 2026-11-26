@@ -401,6 +401,106 @@
       },
       "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
       "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 29,
+      "wid": "src-07779a62d899e750",
+      "title": "A Thin Line Between Love and Hate",
+      "firstShotId": "VP-src-07779a62d899e750-01",
+      "scene": "温暖卧室内的竖幅双人中景，花花公子达内尔（马丁·劳伦斯饰）正深情亲吻身穿白色吊带裙的富家女布兰迪（琳恩·惠特菲尔德饰）。",
+      "actualPrompt": "One original romantic cinematic medium two-shot, landscape 16:9. In a warmly lit bedroom, a fictional adult Black man gently kisses a fictional adult Black woman wearing a modest white slip-style dress with thin straps. Both faces appear in profile. He wears a light shirt, she wears the white dress, tender restrained emotion and calm body language. Warm practical bedside light, softly blurred bedroom furnishings, natural fabrics and realistic dark skin tones. Fully clothed adults, no explicit sexual action, no intimate body framing. These must be fresh original faces, not likenesses of actors or real people. No text, title or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "61ea68bee279667613a0cb37720891b23bf758dad63efa24976f69a919ec74d9",
+      "preview": "film-ai/firstshot-20261126/src-07779a62d899e750.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5fe60159e38e2a548714d6d685076f6589757665/originals/film-expand-firstshot-20261126/src-07779a62d899e750.png",
+        "bytes": 2234838,
+        "sha256": "464256b839e90c97732a3b0852a7d0b94c1293d96b424297bf8c44dadad19dfc",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 35,
+      "wid": "src-0a31a52e17216801",
+      "title": "The Adventures of Tintin",
+      "firstShotId": "VP-src-0a31a52e17216801-01",
+      "scene": "丁丁驾驶挎斗摩托车载着举望远镜的阿道克船长与白雪在摩洛哥街巷疾驰的竖版海报",
+      "actualPrompt": "Original cinematic animated adventure image, wide 16:9. A young adult reporter with a small upright hair quiff drives a vintage sidecar motorcycle fast through a Moroccan street. Beside him a bearded sea captain raises binoculars, and a small white terrier rides in the sidecar. Warm sandstone alleys, dynamic street perspective, lively motion, clear original character designs. No text or poster lettering.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "f58ba7e4575979635c0dfa1489addefc321d078c13fc6d1bb33f99e3c64005ce",
+      "preview": "film-ai/firstshot-20261126/src-0a31a52e17216801.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5fe60159e38e2a548714d6d685076f6589757665/originals/film-expand-firstshot-20261126/src-0a31a52e17216801.png",
+        "bytes": 2605899,
+        "sha256": "3146a11c03f7551657f1a229344c8d086bca744d3c6f1ce9e7e4fba1fb827ed1",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 37,
+      "wid": "src-0ba207245f915ec2",
+      "title": "California Suite",
+      "firstShotId": "VP-src-0ba207245f915ec2-01",
+      "scene": "《加州套房》竖幅黑白剧照：豪华酒店大床上头裹白浴巾的玛吉·史密斯优雅盘坐",
+      "actualPrompt": "Original black-and-white cinematic hotel-room scene, landscape 16:9. A fictional mature woman with a white bath towel wrapped around her head sits elegantly cross-legged on a large luxury hotel bed. She wears a modest hotel robe. Plush pillows and sophisticated bedroom furniture, medium shot, restrained classic comedy atmosphere and soft monochrome light. Original face, no celebrity likeness, no text.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "f8b252623426b598c684b9d8cda737ce2380db225bfe854d1ddf5f26eb778c98",
+      "preview": "film-ai/firstshot-20261126/src-0ba207245f915ec2.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5fe60159e38e2a548714d6d685076f6589757665/originals/film-expand-firstshot-20261126/src-0ba207245f915ec2.png",
+        "bytes": 2113250,
+        "sha256": "d21e6548ed07800b65c4b19f3aca76ded3fdff696d04b694fa0e4cf8c126340f",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 38,
+      "wid": "src-0c51024e8bc3428b",
+      "title": "Bedknobs and Broomsticks",
+      "firstShotId": "VP-src-0c51024e8bc3428b-01",
+      "scene": "迪士尼2D动画场景中绿色热带丛林草地上，头戴皇冠的森林之王狮子正愤怒地咆哮着从灌木丛中扑向右下角穿黄衣的卡通小熊渔夫",
+      "actualPrompt": "Original vivid hand-drawn 2D animated scene, wide 16:9. On a green tropical jungle clearing a crowned royal lion roars angrily and bounds out of a bush toward a small cartoon bear fisherman wearing a yellow outfit at the lower right. Expressive exaggerated cartoon motion, lush painted jungle leaves and grass. Playful peril without injury or blood, original animal character designs, no lettering.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "853fcabf5aedf14c4c9e34ec64ae0b49d30a16dd4d34c7ba18369e46a86c523b",
+      "preview": "film-ai/firstshot-20261126/src-0c51024e8bc3428b.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5fe60159e38e2a548714d6d685076f6589757665/originals/film-expand-firstshot-20261126/src-0c51024e8bc3428b.png",
+        "bytes": 2944458,
+        "sha256": "1f0ffa78c07a3f08482a9711fcc9b9e3b5a0e07167103561d14ea620a495433d",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 39,
+      "wid": "src-0c70ae8af48808e6",
+      "title": "PLEASURE",
+      "firstShotId": "VP-src-0c70ae8af48808e6-01",
+      "scene": "粉紫霓虹色调的竖版海报上身穿紧身内衣的金发女演员叉腰站立在粉色片名后",
+      "actualPrompt": "Original cinematic fashion-reference image, wide 16:9. A fictional adult blonde woman stands with hands on hips in front of a pink-and-purple neon backdrop. She wears a plain opaque fitted stage bodysuit covering chest and hips, a confident nonsexual fashion pose. Graphic pink rectangular shapes behind her suggest a film-poster layout, but contain no words. Adult model, original face, no celebrity likeness, no watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "70365f74fbbab33043c66d708308ca3ae4436ddefbd10b9b06753665fb66cc8b",
+      "preview": "film-ai/firstshot-20261126/src-0c70ae8af48808e6.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5fe60159e38e2a548714d6d685076f6589757665/originals/film-expand-firstshot-20261126/src-0c70ae8af48808e6.png",
+        "bytes": 1821575,
+        "sha256": "4159b861c99b8fe8fbad69d0c5c1f55c07d9242261adfb133c1908acb2420776",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
     }
   ]
 }
