@@ -1052,7 +1052,7 @@ function historyDownloadUrl(url){return url+(url.includes('?')?'&':'?')+'downloa
         info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       const count=Object.keys(images).length;
-      $('threeProgress').textContent='三国两晋南北朝已接图 '+count.toLocaleString()+' / 11,458 张'+(count===11458?' · 已完成':'');
+      const progress_threeProgress=$('threeProgress');if(progress_threeProgress)progress_threeProgress.textContent='三国两晋南北朝已接图 '+count.toLocaleString()+' / 11,458 张'+(count===11458?' · 已完成':'');
       if(typeof render==='function'&&R.length)render();
     };
     document.head.appendChild(s);
@@ -1097,7 +1097,7 @@ function historyDownloadUrl(url){return url+(url.includes('?')?'&':'?')+'downloa
         if(info.thumbnail_filename)info.thumb=historyGalleryAssetUrl(base,'gallery-thumbnails/',info,info.thumbnail_filename);
       }
       const imageCount=Object.keys(images).length;
-      $('yuanmingProgress').textContent='元明已接图 '+imageCount.toLocaleString()+' / 7,358 张'+(imageCount===7358?' · 已完成':'');
+      const progress_yuanmingProgress=$('yuanmingProgress');if(progress_yuanmingProgress)progress_yuanmingProgress.textContent='元明已接图 '+imageCount.toLocaleString()+' / 7,358 张'+(imageCount===7358?' · 已完成':'');
       if(typeof render==='function'&&R.length)render();
     };
     document.head.appendChild(s);
@@ -1113,7 +1113,7 @@ function historyDownloadUrl(url){return url+(url.includes('?')?'&':'?')+'downloa
         info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       const count=Object.keys(images).length;
-      $('qingProgress').textContent='清代已接图 '+count.toLocaleString()+' / 4,984 张'+(count===4984?' · 已完成':'');
+      const progress_qingProgress=$('qingProgress');if(progress_qingProgress)progress_qingProgress.textContent='清代已接图 '+count.toLocaleString()+' / 4,984 张'+(count===4984?' · 已完成':'');
       if(typeof render==='function'&&R.length)render();
     };
     document.head.appendChild(s);
