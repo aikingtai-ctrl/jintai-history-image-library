@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T17:00:02.398609+08:00",
+  "updated_at": "2026-11-26T17:29:14.986788+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -177,6 +177,62 @@
       "sha256": "e661cde4014c6bdb28b991520c04112cb1f316bb409287585aa2cc5610f97c73",
       "reason": "Lettered poster uses a different title and is not a standalone film image",
       "evidence": "2026-11-26_影视多图候选只读审计/第十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "a-man-and-a-woman-1966",
+      "src": "film-ai/a-man-and-a-woman-1966.jpg",
+      "sha256": "1fff577550e27f61514dd9d9623dfeec6b427c5bb62cef0e47d7b261195fd9ae",
+      "reason": "02 为暗蓝色东亚男子脸部极近景，人物与戛纳/CC 所列 Anouk Aimée 和 Jean-Louis Trintignant 角色不符。",
+      "evidence": "第十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "a-moment-of-romance-1990",
+      "src": "film-ai/a-moment-of-romance-1990.jpg",
+      "sha256": "8a751f5c67037c34caed569d514d63ee5d64e55854def5ca329dfb92573bb78f",
+      "reason": "02 只有‘追梦人’书法字和演唱/导演署名，是歌曲字卡，不是独立剧照。",
+      "evidence": "第十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "a-pigeon-sat-on-a-branch-reflecting-on-existence-2014",
+      "src": "film-ai/a-pigeon-sat-on-a-branch-reflecting-on-existence-2014.jpg",
+      "sha256": "beb93ec3db5b9b560bd867e16412a47fa975eb5198905cb28ce793c818eeb0f6",
+      "reason": "02 是导演样人物在摄影监视器前受访，属于幕后/访谈，不是电影场景。",
+      "evidence": "第十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "a-serious-man-2009",
+      "src": "film-ai/a-serious-man-2009.jpg",
+      "sha256": "8c5b3055eadb7c80dd8e97612df43459c185e4f94e3fde57690998bf358d6a9e",
+      "reason": "02 为东亚年轻患者受检画面；发行方确提医生场景，但主角 Larry Gopnik 是 Michael Stuhlbarg，画面不能据题材推为本片。",
+      "evidence": "第十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "a-single-man-2009",
+      "src": "film-ai/decks/film-a-single-man-2009.webp",
+      "sha256": "d4f2d44702d777e6c8386ffa59d29cf9a06fe98edb4396b8155a3e0f187f5521",
+      "reason": "01 主人公为秃顶灰须中老年男子，与 BFI 确认的 Colin Firth 饰 George Falconer 形象不合；房屋风格相似不足以认证。",
+      "evidence": "第十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "a-single-man-2009",
+      "src": "film-ai/a-single-man-2009.jpg",
+      "sha256": "3fffd4843f76aae1863571da054566d5092a571f6b6c3fc562b8734c17eb8882",
+      "reason": "02 只有黑暗中年轻男子背影，无法辨认 Colin Firth、角色或 1962 年南加州场景；两图均不建议接入。",
+      "evidence": "第十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "a-star-is-born-1954",
+      "src": "film-ai/a-star-is-born-1954.jpg",
+      "sha256": "2064593c66746512f94d6d6d042b0ca45269109cc8d54f5fb287057d017e35c1",
+      "reason": "01 是黑白歌手表演图，而 AFI 将 1954 年版标为 Technicolor/CinemaScope；为保持该片色彩参考准确暂缓。",
+      "evidence": "第十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "a-sunday-in-the-country-1984",
+      "src": "film-ai/a-sunday-in-the-country-1984.jpg",
+      "sha256": "31fdb50a4307feecc96998dd55e1420faa98040a477f124c7bf6359f2175e005",
+      "reason": "02 覆盖中文宣传字幅，又与 01 都是同一花园父女近景，不能当独立剧照。",
+      "evidence": "第十一批30部两路径电影/逐图建议与联系表"
     }
   ]
 }

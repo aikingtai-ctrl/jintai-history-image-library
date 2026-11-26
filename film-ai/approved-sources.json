@@ -385,6 +385,26 @@
         "sha256": "f93e89c711dfec88465a88b2e29f2ad3e55217e1996a61202dca25376fb04c27"
       }
     ],
+    "a-man-escaped-1956": [
+      {
+        "src": "film-ai/decks/film-a-man-escaped-1956.webp",
+        "sha256": "a09900d49579fff284d3a18ec22c56f35a23cd7a2a99545836a7e714a9406a71"
+      },
+      {
+        "src": "film-ai/a-man-escaped-1956.jpg",
+        "sha256": "6dc36e0dacd428ea97673dd2ae96c57972c30e3e21d8dfb1bfab6857002ebd6d"
+      }
+    ],
+    "a-man-for-all-seasons-1966": [
+      {
+        "src": "film-ai/decks/film-a-man-for-all-seasons-1966.webp",
+        "sha256": "55a1d5ee13c74587e8b8dad7989f792212ed3667dfa5e551f1edf69d09e7dd74"
+      },
+      {
+        "src": "film-ai/a-man-for-all-seasons-1966.jpg",
+        "sha256": "09d01c511eef387b3cd5042cf62a4d0bf091dfb1f99e45961442ce4a25fac5f5"
+      }
+    ],
     "a-matter-of-life-and-death-1946": [
       {
         "src": "film-ai/decks/film-a-matter-of-life-and-death-1946.webp",
@@ -393,6 +413,26 @@
       {
         "src": "film-ai/restored/a-matter-of-life-and-death-1946.jpg",
         "sha256": "97c06f280b1eb50a515009fc015870b877fc2a1b28b0ee5c00444b3046c4bd4f"
+      }
+    ],
+    "a-moment-to-remember-2004": [
+      {
+        "src": "film-ai/decks/film-a-moment-to-remember-2004.webp",
+        "sha256": "e625bdc36fe8a4795ba61841b789b1498ee809e7ab21f46fc3584a3fff9eaef8"
+      },
+      {
+        "src": "film-ai/a-moment-to-remember-2004.jpg",
+        "sha256": "11d6bd2fcda8ad60be600bb8a512c27d8fd2aa0499c9ddbdb28976d887ef2d7e"
+      }
+    ],
+    "a-most-violent-year-2014": [
+      {
+        "src": "film-ai/decks/film-a-most-violent-year-2014.webp",
+        "sha256": "a36f5f939ba08da1ae95d21cc3b6aef5e86ede475b61c642a84484be4a2f81d3"
+      },
+      {
+        "src": "film-ai/a-most-violent-year-2014.jpg",
+        "sha256": "77a19636b78132b6f099d4a70b314dd83556ddc058e2664ed31fd88edcdb813c"
       }
     ],
     "a-page-of-madness-1926": [
@@ -405,6 +445,66 @@
         "sha256": "01539a258d3bfb7fb8cbd6b888818542b109ca979e9b224a4d5c3b64237ba97c"
       }
     ],
+    "a-passage-to-india-1984": [
+      {
+        "src": "film-ai/decks/film-a-passage-to-india-1984.webp",
+        "sha256": "e92c920f41c196cd6a325465ba670e19cde3d87d0e7564a94977e4910640ef0a"
+      },
+      {
+        "src": "film-ai/a-passage-to-india-1984.jpg",
+        "sha256": "4dc9c3ac4a745f36b63666bdf4c5320a0ec17607da40540687e9383d43ba4790"
+      }
+    ],
+    "a-place-in-the-sun-1951": [
+      {
+        "src": "film-ai/decks/film-a-place-in-the-sun-1951.webp",
+        "sha256": "4f4892bfae4d8cab57cedb4591766da40eed0393c458ac90ddd7495d28de7871"
+      },
+      {
+        "src": "film-ai/a-place-in-the-sun-1951.jpg",
+        "sha256": "ffc6fea90acb0e33e7cd78a01d957be55d085331883c185e63414b0380ebf03d"
+      }
+    ],
+    "a-prophet-2009": [
+      {
+        "src": "film-ai/decks/film-a-prophet-2009.webp",
+        "sha256": "ff831fa5eb0d261da8bece20f8720b3828ebfdd88953f29b77a5ebd069adeb48"
+      },
+      {
+        "src": "film-ai/a-prophet-2009.jpg",
+        "sha256": "d6fd8a721c2a6e23b52ae050c13258f964887d2dc04537f2b91e97834107e45e"
+      }
+    ],
+    "a-quiet-place-2018": [
+      {
+        "src": "film-ai/decks/film-a-quiet-place-2018.webp",
+        "sha256": "ef8f2ce3489a1318cc2aad6c47ae0f767687d33adf3055d1569a0f5a90a53059"
+      },
+      {
+        "src": "film-ai/a-quiet-place-2018.jpg",
+        "sha256": "b8c6ca62f95ec75823d24b41c91b53e042d795fea8b55bb0a9b60c012be6c474"
+      }
+    ],
+    "a-river-runs-through-it-1992": [
+      {
+        "src": "film-ai/decks/film-a-river-runs-through-it-1992.webp",
+        "sha256": "8892a95d58e6373d33ab7daad4d544b758a6483d62be97484060517a4b1f9b66"
+      },
+      {
+        "src": "film-ai/a-river-runs-through-it-1992.jpg",
+        "sha256": "a67d9b2cfde994521228709ca5b1b900d00c23101c893563fa1afb3f9cd80d43"
+      }
+    ],
+    "a-short-film-about-killing-1988": [
+      {
+        "src": "film-ai/decks/film-a-short-film-about-killing-1988.webp",
+        "sha256": "53785e1589f62ff6de85e7f67cd2137fa941b7022555b05dececd5b20c09455b"
+      },
+      {
+        "src": "film-ai/a-short-film-about-killing-1988.jpg",
+        "sha256": "ff5f3875b932e027cba6999da618aef82b0f71e44a8b797e149d85493ae85184"
+      }
+    ],
     "a-short-film-about-love-1988": [
       {
         "src": "film-ai/shots/YS-20261108-2300-a-short-film-about-l-06.webp",
@@ -413,6 +513,86 @@
       {
         "src": "film-ai/a-short-film-about-love-1988.jpg",
         "sha256": "024f9e27fdd9abb8e770edf10f90cd3f14f7b828e31edf6c54fef63b243ccde4"
+      }
+    ],
+    "a-silent-voice-2016": [
+      {
+        "src": "film-ai/decks/film-a-silent-voice-2016.webp",
+        "sha256": "bfa8e655311f9343be83b3d87b65ea0bfd80701a4e30cbd211b2ff599d6b61ab"
+      },
+      {
+        "src": "film-ai/a-silent-voice-2016.jpg",
+        "sha256": "5cc5b7f49618d722225101d3f2841a32a3f4022f20d88ea60ae3e0a751a7e267"
+      }
+    ],
+    "a-simple-life-2011": [
+      {
+        "src": "film-ai/decks/film-a-simple-life-2011.webp",
+        "sha256": "c57ced86ab8ed29698c8bf8f0a84f9d174551238941e8419ef4738cfdc8dd522"
+      },
+      {
+        "src": "film-ai/a-simple-life-2011.jpg",
+        "sha256": "37059a9bf2f0476381fede8b9f7d26f16fc908bbb61cd91e3bf81445508fee5c"
+      }
+    ],
+    "a-star-is-born-2018": [
+      {
+        "src": "film-ai/decks/film-a-star-is-born-2018.webp",
+        "sha256": "7c27c8ab2f1c46d84bf4cbd37b72fb31ccb8d6308bcd16dfb69295ba635e5d49"
+      },
+      {
+        "src": "film-ai/a-star-is-born-2018.jpg",
+        "sha256": "8a983ee9fbb3a9d32e0bfe9baf4771f1b487df1254a74ec217589e6ce4d41f54"
+      }
+    ],
+    "a-story-from-chikamatsu-1954": [
+      {
+        "src": "film-ai/decks/film-a-story-from-chikamatsu-1954.webp",
+        "sha256": "ec5bb5d269b5ae920fbeabb61e060d52f2e9ac6feb9a9ba381f900f115203d68"
+      },
+      {
+        "src": "film-ai/a-story-from-chikamatsu-1954.jpg",
+        "sha256": "f23c0669f8c2a85ac1a61bc2852b066184632d9bdc69099f919450fbb773bd5b"
+      }
+    ],
+    "a-summer-at-grandpas-1984": [
+      {
+        "src": "film-ai/decks/film-a-summer-at-grandpas-1984.webp",
+        "sha256": "33ba7db0a3aa3f20d138badeb248b653a900a1b4f4a17849e45ace1ea7dcb2e8"
+      },
+      {
+        "src": "film-ai/a-summer-at-grandpas-1984.jpg",
+        "sha256": "b163fde14d54b9a4f9bad900699e99320997a6f58a6786fe88cc7b955dba5695"
+      }
+    ],
+    "a-sun-2019": [
+      {
+        "src": "film-ai/decks/film-a-sun-2019.webp",
+        "sha256": "bbba663de3f40751f3f097970e941617b4a674fdee121642336fb2e0a150fe51"
+      },
+      {
+        "src": "film-ai/a-sun-2019.jpg",
+        "sha256": "4cded45f12171f164f3a7cd618079b8256b4dbbea99d372c84020bca39b0107a"
+      }
+    ],
+    "a-time-for-drunken-horses-2000": [
+      {
+        "src": "film-ai/decks/film-a-time-for-drunken-horses-2000.webp",
+        "sha256": "cc3019aea409609fa048917ce5078a0db4b666e72464934409fe512a2b8dc9f1"
+      },
+      {
+        "src": "film-ai/a-time-for-drunken-horses-2000.jpg",
+        "sha256": "19aed36f8466c36a9117983bc9cf90b02b5fe4c259baefd8322f02e4c38c6d63"
+      }
+    ],
+    "a-time-to-live-a-time-to-die-1985": [
+      {
+        "src": "film-ai/decks/film-a-time-to-live-a-time-to-die-1985.webp",
+        "sha256": "f54bf9fb7e91820d2bd95023a50077669bf69b89ac128ca282d99bfc20a42661"
+      },
+      {
+        "src": "film-ai/a-time-to-live-a-time-to-die-1985.jpg",
+        "sha256": "a2839d0837d38d35ef031a4b5eccd8d8c2c08a0d922b8f7b1e68533078bd7d63"
       }
     ],
     "aces-go-places-1982": [
