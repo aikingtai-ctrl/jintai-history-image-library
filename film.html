@@ -892,7 +892,7 @@ async function openDetail(id){let r=BYID.get(id);if(!r){const rw=resolveWorkFrom
  const workAiSrc=getFilmAiSrc(w.wid);
  $('dBody').innerHTML=`<div class="dbody"><div><div class="vis" id="dVisZoom" title="点击全屏放大检视">${visual(r,1100,true)}</div>
  <div class="palbig">${P.map(c=>`<div style="background:${c}" data-hex="${c}" title="点击复制色值"><span>${c}</span></div>`).join('')}</div>
- ${workAiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" title="点击全屏放大查看《${esc(w.t)}》AI 代表图" style="margin:10px 0"><img src="${esc(workAiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图 · ${esc(w.t)}</span><span class="film-ai-zoom-hint">🔍 点击放大高清原图</span></div>`:''}
+ ${workAiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" title="点击打开《${esc(w.t)}》图片原文件" style="margin:10px 0"><img src="${esc(workAiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图 · ${esc(w.t)}</span><span class="film-ai-zoom-hint">↗ 打开原图</span></div>`:''}
  <p class="muted small">${f?'真实截帧 · 色板为实测（本机内部版）':shotImageSrc(r.id)?(isWorkRepresentativeShot(r.id)?'同片高清代表图，用于替换该处 SVG 示意图；不是该镜原帧。镜头标签与色板仍待原片核验。点击画面可放大或在新窗口打开原图。':'AI 原创参考画面，依据本镜描述生成；不是影片原帧。色板仍为估色，镜头标签仍待对照原片核验。点击画面可放大或在新窗口打开原图。'):pending?'依据对应来源静帧撰写画面分析，无本机截帧。摄影标签待标注，色板待测；不能据此确认运镜、器材或精确参数。经典代表性仍待逐片精选。':'示意图：按标签自动绘制（画幅、主光方向、剪影大小与位置、构图线、天气），色板为估色，不是影片原帧。看原片画面用下面的外链。'}</p>
  ${pending?`<p class="muted small">核验状态：${esc(r.verification||'观图待人工核')}</p>`:''}${limits?`<p class="muted small">画面限制：${esc(limits)}</p>`:''}${r.review?`<p class="muted small">复核记录：${esc(r.review)}</p>`:''}
  <h3>这一镜</h3><p class="note">${esc(r.sc)}${r.wh?`<br><span class="muted small">位置：${esc(r.wh)}${r.pl?' · '+esc(r.pl):''}</span>`:r.pl?`<br><span class="muted small">${esc(r.pl)}</span>`:''}</p>
@@ -1528,7 +1528,7 @@ function renderFP(){
      ${e.nWorks>1?`<button type="button" data-fpexpand="${e.idx}" style="font-size:15px;padding:4px 10px">展开代表片</button>`:''}
      <button type="button" data-fpgo="${e.idx}" style="font-size:15px;padding:4px 10px">看全部镜头</button>
     </div>
-    ${e.w&&getFilmAiSrc(e.w.wid)?`<div class="film-ai-preview" data-zoom-wid="${esc(e.w.wid)}" title="点击放大查看《${esc(e.w.t)}》AI 代表图" style="margin:8px 0"><img src="${esc(getFilmAiSrc(e.w.wid))}" alt="${esc(e.w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图</span><span class="film-ai-zoom-hint">🔍 点击放大</span></div>`:''}
+    ${e.w&&getFilmAiSrc(e.w.wid)?`<div class="film-ai-preview" data-zoom-wid="${esc(e.w.wid)}" title="点击打开《${esc(e.w.t)}》图片原文件" style="margin:8px 0"><img src="${esc(getFilmAiSrc(e.w.wid))}" alt="${esc(e.w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图</span><span class="film-ai-zoom-hint">↗ 打开原图</span></div>`:''}
     <div class="sec" style="margin-top:6px">全片时序色彩 DNA（片头 → 片尾）</div>
     <div class="dna-strip">${dna.map(c=>`<span style="background:${c}" title="${c}"></span>`).join('')}</div>
     <div class="sec">五大主导色阶（点击色块复制 HEX）</div>
@@ -1657,17 +1657,14 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
   const aiGeneratedWebp=FILM_AI_GENERATED_WIDS.has(w.wid)&&/(?:^|\/)film-ai\/src-[^/?#]+\.webp(?:[?#]|$)/i.test(aiSrc||'');
   const aiGoal3377=/(?:^|\/)film-ai\/goal3377\/[^?#]+\.jpe?g(?:[?#]|$)/i.test(aiSrc||'');
   const aiBadge=(window.FILM_AI_FIRST_SHOT_GOAL_WIDS||{})[w.wid]?'首镜头 AI 参考图':(window.FILM_SHOT_WORK_ROLES||{})[w.wid]||(aiReviewed||aiGoal3377?'原创概念图·高清':aiGeneratedJpg?'AI 小图·待升级':aiGeneratedWebp?'AI 代表图':aiWorkConcept?'原创概念图·高清':aiHires?'高清 AI 参考图':aiDeckCover?'原创概念图·高清':'旧版小图·待替换');
-  const aiPreview=aiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" role="button" tabindex="0" title="点击查看《${esc(w.t)}》图片原文件" aria-label="点击查看 ${esc(w.t)} 图片原文件"><img src="${esc(aiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">${aiBadge}</span><span class="film-ai-zoom-hint">🔍 点击放大</span></div>`:'<div class="film-ai-preview empty">等待 AI 代表图</div>';
+  const aiPreview=aiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" role="button" tabindex="0" title="点击查看《${esc(w.t)}》图片原文件" aria-label="点击查看 ${esc(w.t)} 图片原文件"><img src="${esc(aiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">${aiBadge}</span><span class="film-ai-zoom-hint">↗ 打开原图</span></div>`:'<div class="film-ai-preview empty">等待 AI 代表图</div>';
   return`<div class="wc"><h4>${esc(w.t)} <span class="muted" style="font-size:18px">${enShow?esc(enShow)+' · ':''}${esc(w.y||'')}${w.year_status==='待核'?'（年份待核）':''}</span></h4>
  <div class="m">${esc(metaParts)}</div>
  ${aiPreview}
  <div class="mosaic" data-wpal="${esc(w.wid)}" style="flex-direction:row;height:22px">${workMosaicSpans(w)}</div><p>${esc(w.look||'')}</p>
- <div class="btns"><button class="pri" data-wid="${esc(w.wid)}">看 ${cnt.toLocaleString()} 个镜头</button>${aiSrc?`<button type="button" data-zoom-wid="${esc(w.wid)}">🔍 放大原图</button>`:''}<button data-wdeck="${esc(w.wid)}">整片图集</button><button data-wfp="${esc(w.wid)}">加入瞬间对照</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
- const pageAiWids=ws.filter(w=>getFilmAiSrc(w.wid)).map(w=>w.wid);
- $('wGrid').querySelectorAll('[data-zoom-wid]').forEach(el=>{
-  const trigger=()=>openWorkAiLightbox(el.dataset.zoomWid,pageAiWids);
-  el.onclick=trigger;
-  el.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();trigger();}};
+ <div class="btns"><button class="pri" data-wid="${esc(w.wid)}">看 ${cnt.toLocaleString()} 个镜头</button>${aiSrc?`<button type="button" data-zoom-wid="${esc(w.wid)}">↗ 打开原图</button>`:''}<button data-wdeck="${esc(w.wid)}">整片图集</button><button data-wfp="${esc(w.wid)}">加入瞬间对照</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
+ $('wGrid').querySelectorAll('.film-ai-preview[data-zoom-wid]').forEach(el=>{
+  el.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();el.click();}};
  });
  $('wGrid').querySelectorAll('[data-wid]').forEach(b=>b.onclick=async()=>{const wid=b.dataset.wid,w=WORK_BY_WID.get(wid)||WORKS.find(x=>x.wid===wid);WID=wid;QP={tags:[],work:null,words:[],rawWords:[]};$('q').value='';showTab('find');apply();
   if(w&&!workFullyHydrated(w)){$('loadStatus').textContent=` · 正在载入《${w.t}》全部 ${w.n} 个镜头…`;await ensureWorkShots(w);$('loadStatus').textContent='';if(WID===wid)apply();}});
@@ -1805,10 +1802,8 @@ function openShotVisualLightbox(r){
   const card=zoomTarget.closest('.wc,.dbody,.fp,.dkhead');
   const wid=zoomTarget.getAttribute('data-zoom-wid')||card?.querySelector('[data-zoom-wid]')?.getAttribute('data-zoom-wid')||card?.querySelector('[data-wid]')?.getAttribute('data-wid')||'';
   const imgEl=zoomTarget.querySelector('img')||card?.querySelector('.film-ai-preview img');
-  const fallbackSrc=imgEl?(imgEl.getAttribute('src')||imgEl.currentSrc||imgEl.src):'';
-  const h4=card?.querySelector('h4');
-  const fallbackTitle=h4?(h4.childNodes[0]?.textContent||'').trim():'';
-  openWorkAiLightbox(wid,null,fallbackSrc,fallbackTitle);
+  const src=(imgEl&&(imgEl.getAttribute('src')||imgEl.currentSrc||imgEl.src))||getFilmAiSrc(wid);
+  if(src)window.open(src.replace(/(\/?film-ai\/goal3377\/)([^/?#]+)\.jpg(?=$|[?#])/i,'$1originals/$2.png'),'_blank','noopener');
  },true);
  document.addEventListener('keydown',e=>{
   if(!dlg.open&&!dlg.hasAttribute('open'))return;
