@@ -1284,7 +1284,7 @@ function renderHlb(){
     if(HLB.request!==request)return;
     $('hlbSub').textContent=subtitle+` · ${im.naturalWidth}×${im.naturalHeight} px`;
     if(originalSrc&&im.currentSrc===originalSrc){
-      $('hlbNote').textContent=minguo?`${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`:three?`GPT Image 原生 PNG ${im.naturalWidth}×${im.naturalHeight}；依据条目描述生成，历史细节仍需专家复核。`:gpt?.method==='museum_open_access_original'?`克利夫兰艺术博物馆 CC0 馆藏高清图 ${im.naturalWidth}×${im.naturalHeight} ${gpt.filename.endsWith('.jpg')?'JPEG':'PNG'}；${gpt.source_deviation_note}`:gpt?`GPT Image 生成的 ${im.naturalWidth}×${im.naturalHeight} PNG；${gpt.method==='reference_edit'?'依据原有小图重绘':'依据保存的文字描述生成'}，历史细节仍需核验。${gpt.source_deviation_note?' 画面差异：'+gpt.source_deviation_note:''}`:xiongnu?`新生成的原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`:yuanming?`原创 PNG ${im.naturalWidth}×${im.naturalHeight}；按保存的条目描述生成。`:regenerated?`重新生成的原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`:`原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`;
+      $('hlbNote').textContent=minguo?`${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`:three?`GPT Image 原生 PNG ${im.naturalWidth}×${im.naturalHeight}；依据条目描述生成，历史细节仍需专家复核。`:gpt?.method==='museum_open_access_original'?`克利夫兰艺术博物馆 CC0 馆藏高清浏览版 ${im.naturalWidth}×${im.naturalHeight} ${gpt.filename.endsWith('.jpg')?'JPEG':'PNG'}；${gpt.source_deviation_note}`:gpt?`GPT Image 生成的 ${im.naturalWidth}×${im.naturalHeight} PNG；${gpt.method==='reference_edit'?'依据原有小图重绘':'依据保存的文字描述生成'}，历史细节仍需核验。${gpt.source_deviation_note?' 画面差异：'+gpt.source_deviation_note:''}`:xiongnu?`新生成的原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`:yuanming?`原创 PNG ${im.naturalWidth}×${im.naturalHeight}；按保存的条目描述生成。`:regenerated?`重新生成的原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`:`原始 PNG ${im.naturalWidth}×${im.naturalHeight}；卡片显示压缩预览图。`;
     }else if(originalFailed){
       $('hlbNote').textContent='原始 PNG 暂不可用，当前显示预览图。';
     }else if(native||songOriginal){
@@ -1313,7 +1313,7 @@ function renderHlb(){
           originalFailed=true;$('hlbNote').textContent='原图尺寸与验收清单不符，当前仅显示预览图。';return;
         }
         originalSrc=url;
-        raw.href=url;raw.textContent=gpt?.method==='museum_open_access_original'?'新窗口查看馆藏高清 JPEG 浏览版 ↗':gpt||three?'新窗口查看 GPT Image PNG ↗':minguo?`新窗口查看 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG ↗`:regenerated?'新窗口查看重生成原始 PNG ↗':'新窗口查看原始 PNG ↗';
+        raw.href=url;raw.textContent=histMuseumCopy(r.id)?'新窗口查看馆藏高清浏览版 ↗':gpt||three?'新窗口查看 GPT Image PNG ↗':minguo?`新窗口查看 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG ↗`:regenerated?'新窗口查看重生成原始 PNG ↗':'新窗口查看原始 PNG ↗';
         download.href=histMuseumTiff(r.id)||url+'?download=1';download.textContent=histMuseumTiff(r.id)?'下载馆藏 TIFF 原件':gpt?.method==='museum_open_access_original'?'下载馆藏高清 JPEG':gpt||three?'下载 GPT Image PNG':minguo?`下载 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG`:regenerated?'下载重生成原始 PNG':'下载原始 PNG';download.hidden=false;
         im.src=url;
       };
