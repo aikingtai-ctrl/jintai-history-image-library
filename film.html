@@ -1799,14 +1799,15 @@ function openShotVisualLightbox(r){
   const zoomTarget=e.target.closest('[data-zoom-wid],.film-ai-preview:not(.empty),.thumb,.mini,#dVisZoom');
   if(!zoomTarget)return;
   const card=zoomTarget.closest('.wc,.dbody,.fp,.dkhead');
-  const wid=zoomTarget.getAttribute('data-zoom-wid')||card?.querySelector('[data-zoom-wid]')?.getAttribute('data-zoom-wid')||card?.querySelector('[data-wid]')?.getAttribute('data-wid')||'';
-  const imgEl=zoomTarget.querySelector('img')||card?.querySelector('.film-ai-preview img');
   const record=BYID.get(zoomTarget.closest('[data-open]')?.getAttribute('data-open'));
+  const wid=zoomTarget.getAttribute('data-zoom-wid')||record?.W?.wid||FIND_FILM_GROUPS.get(zoomTarget.closest('[data-film-key]')?.getAttribute('data-film-key'))?.w?.wid||card?.querySelector('[data-zoom-wid]')?.getAttribute('data-zoom-wid')||card?.querySelector('[data-wid]')?.getAttribute('data-wid')||'';
+  const imgEl=zoomTarget.querySelector('img')||card?.querySelector('.film-ai-preview img');
   const frame=record&&frOf(record);
   const src=frame?`${FRAME_DIR}/${frame.f}`:(imgEl&&(imgEl.getAttribute('src')||imgEl.currentSrc||imgEl.src))||getFilmAiSrc(wid);
   if(!src)return;
   e.preventDefault();e.stopPropagation();
-  window.open(src.replace(/(\/?film-ai\/goal3377\/)([^/?#]+)\.jpg(?=$|[?#])/i,'$1originals/$2.png'),'_blank','noopener');
+  const original=src.replace(/(\/?film-ai\/goal3377\/)([^/?#]+)\.jpg(?=$|[?#])/i,'$1originals/$2.png');
+  window.open(/^https:\/\/github\.com\/aikingtai-ctrl\/jintai-history-image-library\/releases\/download\//i.test(original)&&wid?`film-originals.html?wid=${encodeURIComponent(wid)}`:original,'_blank','noopener');
  },true);
  document.addEventListener('keydown',e=>{
   if(!dlg.open&&!dlg.hasAttribute('open'))return;
