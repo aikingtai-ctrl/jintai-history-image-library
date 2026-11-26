@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "1562-40949fb38fd4",
+  "revision": "1577-a934d87505e2",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -12499,6 +12499,126 @@
       "width": 1672,
       "height": 941,
       "sha256": "40949fb38fd451a0e32873db94e20d2dd2ae8f2ad8757ceaf9e4bd73e62b3caf"
+    },
+    "HL-NSONG-SC-0056": {
+      "title": "南宋前期临安行在朝会·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0056.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0056.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "680892370264a787b7b307b3936460ab7929163495e66f2610bcce9414e2dd2a"
+    },
+    "HL-NSONG-SC-0057": {
+      "title": "南宋前期临安行在朝会·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0057.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0057.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "73ac19d009d313206f90ff2de702a2bc23d8bb2441fcbc30191c56b4b303669c"
+    },
+    "HL-NSONG-SC-0058": {
+      "title": "南宋中期书院辩论·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0058.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0058.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8e0ef52a345444a6468e0195b7d0a62be50f2dccc645f26fea57394c54486f7b"
+    },
+    "HL-NSONG-SC-0059": {
+      "title": "南宋中期书院辩论·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0059.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0059.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "daec71a52426867a8c0d4d6b6a7a6a6f8fea7bf31a667d50d8282c86908ff859"
+    },
+    "HL-NSONG-SC-0060": {
+      "title": "南宋中期书院辩论·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0060.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0060.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a4462f1b748ecbd973a9aa1ce91d77325ac33f7010ea279e18ec49727e92704d"
+    },
+    "HL-NSONG-SC-0061": {
+      "title": "南宋中期书院辩论·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0061.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0061.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "bc239e4a453b0c030e9a7a60d3c426138cf6bcc92ee4d4f4e2c10309bd1c6559"
+    },
+    "HL-NSONG-SC-0062": {
+      "title": "南宋后期临安夜市·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0062.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0062.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "48416cf879f2537289d188794167511682f41352574c5a30e8d910e45afe85a4"
+    },
+    "HL-NSONG-SC-0063": {
+      "title": "南宋后期临安夜市·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0063.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0063.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1b585a059aa1a4409eced415ecfdff614388e72c3c33f22bbe371c086dc93013"
+    },
+    "HL-NSONG-SC-0064": {
+      "title": "南宋后期临安夜市·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0064.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0064.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6567c26034d784764715c8b23eed75f703c193b1878bc4d8258c0d1f62000015"
+    },
+    "HL-NSONG-SC-0065": {
+      "title": "南宋后期临安夜市·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0065.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0065.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "620fb269f8798e4e400314f88fdff843770a0ecf83f78b1b853efbd57fe69dff"
+    },
+    "HL-NSONG-SC-0066": {
+      "title": "南宋末崖山海上行朝·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0066.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0066.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "34cb2b3e778bef47a0149ebcf0b3e83b8c1e86e3d8d714db6b5abba203ad332b"
+    },
+    "HL-NSONG-SC-0067": {
+      "title": "南宋末崖山海上行朝·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0067.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0067.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "7d1139af4bf5007449132ef13ccfea9e491a4624f3656933e051a87a4c70dc61"
+    },
+    "HL-NSONG-SC-0069": {
+      "title": "南宋末崖山海上行朝·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0069.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0069.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "79b56ecf619bdea1734ef6d5ade35606e03143af9745fea5464cacab7af37c0c"
+    },
+    "HL-LIAO-SC-0042": {
+      "title": "辽代后期契丹贵族狩猎·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-SC-0042.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-SC-0042.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2ccd92c3f2b41da38c5a641ebda3a348849e3a2f046b9ce0a4f890f816f1e5f2"
+    },
+    "HL-LIAO-SC-0043": {
+      "title": "辽代后期契丹贵族狩猎·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-SC-0043.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-SC-0043.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a934d87505e29bae7ae45cb07eee30985273f0526e1038ed817bd77c5fa196e2"
     }
   }
 }
