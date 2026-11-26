@@ -1,6 +1,9 @@
 /* FILM_PREVIEW_DIRECT_OPEN: keep preview clicks pointed at source images. */
 (() => {
   function original(src) {
+    const path = String(src || '').match(/(?:^|\/)(film-ai\/[^?#]+)(?:[?#].*)?$/i)?.[1];
+    const verified = path && window.FILM_PREVIEW_NATIVE_MAP?.[path];
+    if (verified) return verified;
     const goal = String(src || '').match(/^(?:.*?film-ai\/goal9438\/)([^/?#]+)\.jpg(?:[?#].*)?$/i);
     if (goal) {
       const wid = goal[1];

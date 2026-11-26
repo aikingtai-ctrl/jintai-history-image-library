@@ -664,10 +664,15 @@ jobs:
                   assert len(pins) == 1 and pins[0][1] == source_pin, rel
 
           film_preview_js = git_bytes("show", "HEAD:film-preview-originals.js").decode("utf-8")
+          native_map_js = git_bytes("show", "HEAD:film-preview-native-map.js").decode("utf-8")
           subprocess.run(["node", "--check", "-"], input=film_preview_js.encode("utf-8"), check=True)
+          subprocess.run(["node", "--check", "-"], input=native_map_js.encode("utf-8"), check=True)
+          (site / "film-preview-native-map.js").write_text(native_map_js, encoding="utf-8")
+          total_bytes += len(native_map_js.encode("utf-8"))
+          assert total_bytes < max_site_bytes, "Native preview map exceeds site size threshold"
           film_page = (site / "film.html").read_text(encoding="utf-8")
           assert "</head>" in film_page, "Film page head missing"
-          (site / "film.html").write_text(film_page.replace("</head>", "<script>" + film_preview_js + "</script></head>", 1), encoding="utf-8")
+          (site / "film.html").write_text(film_page.replace("</head>", "<script src=\"film-preview-native-map.js\"></script><script>" + film_preview_js + "</script></head>", 1), encoding="utf-8")
           shutil.copy2(site / "film.html", site / "影视参考图集.html")
 
           (site / ".nojekyll").write_text("", encoding="utf-8")
