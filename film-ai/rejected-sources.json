@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T05:35:11.184153+08:00",
+  "updated_at": "2026-11-27T05:54:43.219297+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -1437,6 +1437,41 @@
       "sha256": "a402276a240583f163b7ded491f92f818f63293ac342942a48f787c9b814426e",
       "reason": "霓虹酒吧里较年轻女性持麦克风唱歌，无美子年龄、社区诗歌课或片中行动线锚点；暂缓。",
       "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "kikis-delivery-service-1989",
+      "src": "film-ai/kikis-delivery-service-1989.jpg",
+      "sha256": "684becb4eab08b78a6b8d35387048b58076a682b92b36292414d8117c632de91",
+      "reason": "画面主体是戴眼镜成年男子倚靠汽车与大量行李，没有 13 岁琪琪、黑猫吉吉或扫帚送货，人物和交通方式与本片主线冲突。",
+      "evidence": "第三十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "king-of-comedy-1999",
+      "src": "film-ai/king-of-comedy-1999.jpg",
+      "sha256": "e5b10b2096af84264fb526028b652f51fe2ab5f1f37b4e3e7ece5007252c67b6",
+      "reason": "海边两名年轻人中女方穿水手服，男方为陌生青年形象；与舞小姐柳飘飘/演员尹天仇的身份和官方演员相冲突，像其他青春爱情片。",
+      "evidence": "第三十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "klute-1971",
+      "src": "film-ai/klute-1971.jpg",
+      "sha256": "3ff33424430367def093db898d4f6818809b63582f1fffa0fdc1d24794c309ae",
+      "reason": "隧道内走来的主体是东亚面貌女子，与 Jane Fonda 饰演的纽约女性 Bree Daniels 明显不符；无其他可核片中人物，拒用。",
+      "evidence": "第三十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "judas-and-the-black-messiah-2021",
+      "src": "film-ai/decks/film-judas-and-the-black-messiah-2021.webp",
+      "sha256": "c1c50e15a89b3b6a0f99f9a24fc37992b4bcd6bb6a9233e8c8004cd1a50b79de",
+      "reason": "空会议室仅有讲台和折叠椅，未见黑豹党标识、Fred Hampton 或具体历史节点；暂缓。",
+      "evidence": "第三十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "judas-and-the-black-messiah-2021",
+      "src": "film-ai/judas-and-the-black-messiah-2021.jpg",
+      "sha256": "d8f541765508eff9ac90e2a3d14c2c82eb1d741e50402ba5c356fb882648eb58",
+      "reason": "受伤的黑人男子穿西装近景无法核定为 Hampton、O'Neal 或其他片中人物；演员与事件均缺锚点，暂缓。",
+      "evidence": "第三十五批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
