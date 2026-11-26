@@ -803,6 +803,56 @@
         "sha256": "19c32e7d8fdf72d02867e7bb65d78a3523cccfbf331d387fe5f6fa77796b834c"
       }
     ],
+    "alice-1988": [
+      {
+        "src": "film-ai/decks/film-alice-1988.webp",
+        "sha256": "3767355e57e0c8c125459bea92da3f6afa9adcdf5a0a00311edc1a5ed1709cdc"
+      },
+      {
+        "src": "film-ai/alice-1988.jpg",
+        "sha256": "3de5b5567a007f0f2e6ebb24d65c50ded05a6c4217ed0b644cdaedd796cbbf52"
+      }
+    ],
+    "all-about-ah-long-1989": [
+      {
+        "src": "film-ai/decks/film-all-about-ah-long-1989.webp",
+        "sha256": "0368738ddfe8f83250fc14ea3148ddea21df6fbf419873402d20b08461c67a3f"
+      },
+      {
+        "src": "film-ai/all-about-ah-long-1989.jpg",
+        "sha256": "ac9184b8d96227fbb650e9827d136bd197e412fca132dd20b5686d96d082e0f6"
+      }
+    ],
+    "all-about-eve-1950": [
+      {
+        "src": "film-ai/decks/film-all-about-eve-1950.webp",
+        "sha256": "8208400c831cfcf625016cfa496de1c64a0c86ef241a0c581b224086f7df0227"
+      },
+      {
+        "src": "film-ai/all-about-eve-1950.jpg",
+        "sha256": "1a434d5e26c4bcf7f4dc5f19c6852c76edea2ade2798a84b6f0cb4323db6d4ab"
+      }
+    ],
+    "all-about-my-mother-1999": [
+      {
+        "src": "film-ai/decks/film-all-about-my-mother-1999.webp",
+        "sha256": "f94f167dc1a366df6e1ae93158ffdc00f64025c1d20caacfb42961df03062bfc"
+      },
+      {
+        "src": "film-ai/all-about-my-mother-1999.jpg",
+        "sha256": "469ea863d5222a4831c810099e60ae107375959a93747baa2f95881f77611f75"
+      }
+    ],
+    "all-quiet-on-the-western-front-1930": [
+      {
+        "src": "film-ai/decks/film-all-quiet-on-the-western-front-1930.webp",
+        "sha256": "1e151c6f46793156b667fc6f4a5bcfb5e66e2f408b13e47ca612a42a531a269e"
+      },
+      {
+        "src": "film-ai/all-quiet-on-the-western-front-1930.jpg",
+        "sha256": "b1f6ea8e72b0599a498c57b1b01ee1106cd2f9615dca71e9c7d579589f397961"
+      }
+    ],
     "all-quiet-on-the-western-front-2022": [
       {
         "src": "film-ai/quality-reviewed/all-quiet-on-the-western-front-2022.png",
@@ -817,6 +867,66 @@
         "sha256": "30ec342f1544e249c6de3cb24f86f5765099ada5944af02b820bb5ca27699fa6"
       }
     ],
+    "all-that-breathes-2022": [
+      {
+        "src": "film-ai/decks/film-all-that-breathes-2022.webp",
+        "sha256": "1afdabd8f0dcb8e087d7fd82fef34aeb9bfe5b0c9d45a1f9841548b1eb7ac24f"
+      },
+      {
+        "src": "film-ai/all-that-breathes-2022.jpg",
+        "sha256": "6a43a010baeba7f6ca430adda4ad870d54c330daafabdd181110bc733642c5d2"
+      }
+    ],
+    "all-the-kings-men-1949": [
+      {
+        "src": "film-ai/decks/film-all-the-kings-men-1949.webp",
+        "sha256": "1cd34ae6f86937690a8f9ea8c1889f08869b968366b74bc537fba47e68cd833b"
+      },
+      {
+        "src": "film-ai/all-the-kings-men-1949.jpg",
+        "sha256": "d94e82de79036cf026ec031afc96e1735e1e85e5410571029f05d5b7cb435645"
+      }
+    ],
+    "all-we-imagine-as-light-2024": [
+      {
+        "src": "film-ai/decks/film-all-we-imagine-as-light-2024.webp",
+        "sha256": "d09c53ddcccd12a8dca9147f05eb33651e1bde38f8968cdca5f9201993747c02"
+      },
+      {
+        "src": "film-ai/all-we-imagine-as-light-2024.jpg",
+        "sha256": "8274ffeea8ebd9182cbe1a9c244b9881f65925a5b8083176ed3d15d4ad80eef7"
+      }
+    ],
+    "along-with-the-gods-the-two-worlds-2017": [
+      {
+        "src": "film-ai/decks/film-along-with-the-gods-the-two-worlds-2017.webp",
+        "sha256": "1d9eb2d2c4dfcb32f8ecf6e702a1a6acf6cd4be01e356dcac1a1acf1dfba3659"
+      },
+      {
+        "src": "film-ai/along-with-the-gods-the-two-worlds-2017.jpg",
+        "sha256": "988a1274f25ba692c7c0914e01f1353c73f3f9bb496a34789293fc481cfcd0ee"
+      }
+    ],
+    "alphaville-1965": [
+      {
+        "src": "film-ai/decks/film-alphaville-1965.webp",
+        "sha256": "3c093028f30c401291155592c67b7e04a81c6a7d8da6f127f93a3422f5c2dcbb"
+      },
+      {
+        "src": "film-ai/goal9438/alphaville-1965.jpg",
+        "sha256": "bccebcc149d18e59fdc7fbb4b76d64c63fd5931f7daf4c64569437457ff8d4b0"
+      }
+    ],
+    "american-dreams-in-china-2013": [
+      {
+        "src": "film-ai/decks/film-american-dreams-in-china-2013.webp",
+        "sha256": "6b2dd89e91ba4cd3559cad5004aa86c74aa25a2ec7b7ce8ce0cc70dfc8b3151f"
+      },
+      {
+        "src": "film-ai/american-dreams-in-china-2013.jpg",
+        "sha256": "690df33b0ab0331c37c6a922ecadaa5b7563a33a299db8ebfb0ec43e0acae099"
+      }
+    ],
     "american-girl-2021": [
       {
         "src": "film-ai/shots/VP-american-girl-2021-01.webp",
@@ -825,6 +935,16 @@
       {
         "src": "film-ai/american-girl-2021.jpg",
         "sha256": "d21be7acdf4d4f808328350e4ba1986d0f089c6177cb4c2794e6324bc59e7024"
+      }
+    ],
+    "american-graffiti-1973": [
+      {
+        "src": "film-ai/decks/film-american-graffiti-1973.webp",
+        "sha256": "6332dceee3090a423f3f9362982238df650b3ede6b280e0328ebcc59d6e7aa2f"
+      },
+      {
+        "src": "film-ai/american-graffiti-1973.jpg",
+        "sha256": "7873d55a261ed434b0c6ab973a7e4bf1f8f47509a4dda218575d0f580bec2591"
       }
     ],
     "andor-2022": [
@@ -964,6 +1084,10 @@
       }
     ],
     "battleship-potemkin-1925": [
+      {
+        "src": "film-ai/firstshot-20261126/battleship-potemkin-1925.jpg",
+        "sha256": "ddd5c8b5ff2431f942a0f8b51c7a0f6f591ddb308ca9f20f726bfeac5dc5dbb0"
+      },
       {
         "src": "film-ai/shots/YS-20261106F4-CL68-battleship-potemkin-1925-006.webp",
         "sha256": "e28915262615f4ec95dea83b6d834f267d7c881e08382705e61d6fcc5e146ea7"
@@ -1389,6 +1513,10 @@
     ],
     "donkey-skin-1970": [
       {
+        "src": "film-ai/firstshot-20261126/donkey-skin-1970.jpg",
+        "sha256": "21781472486a590d68b4a80e4b640610dd64ff666d2039b52c0436d8c6eb76ff"
+      },
+      {
         "src": "film-ai/shots/YS-20261109F5-M36-donkey-skin-1970-006.webp",
         "sha256": "6b01651ae5e07a32ebd000f6e26226b429d2aa04bb8e07d34e688f7ea428d945"
       },
@@ -1432,6 +1560,10 @@
       }
     ],
     "drunken-master-ii-1994": [
+      {
+        "src": "film-ai/firstshot-20261126/drunken-master-ii-1994.jpg",
+        "sha256": "085031e81de09bb7378201d1ca2971acaebe2946b89b3f377d4069c97a2d7d97"
+      },
       {
         "src": "film-ai/shots/YS-20261105-2300-drunken-master-ii-19-06.webp",
         "sha256": "a193e65a7d54bf7510aff527689029c29b4a06c9416b737162f6c54bfe486a88"

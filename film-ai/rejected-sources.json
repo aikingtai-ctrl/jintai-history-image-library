@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T17:42:20.391854+08:00",
+  "updated_at": "2026-11-26T17:59:56.663657+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -261,6 +261,55 @@
       "sha256": "1ade170a1de8bb668434883b6c20f72ef32125d7d81e42dac6432121ef4d7495",
       "reason": "02 是带片名及宣传字的竖版海报，不是独立剧照。",
       "evidence": "第十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "all-about-lily-chou-chou-2001",
+      "src": "film-ai/all-about-lily-chou-chou-2001.jpg",
+      "sha256": "5d5b3d95da9ee5842bb74765c3047185ab61d92cabd22ecef0cce05fcde9c4d1",
+      "reason": "02 将六个画面拼成一张，不是独立剧照；其中若干画面与 01 稻田/天空意象重复。",
+      "evidence": "第十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "all-that-heaven-allows-1955",
+      "src": "film-ai/all-that-heaven-allows-1955.jpg",
+      "sha256": "199c079039920280b6be12f77af375d6369e2b79e39fc975afa82289702c4d18",
+      "reason": "02 覆盖英文电影片名字样，属于宣传字版，不作为另一张剧照。",
+      "evidence": "第十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "always-sunset-on-third-street-2005",
+      "src": "film-ai/always-sunset-on-third-street-2005.jpg",
+      "sha256": "bb6770a179fe8a4ad9fa2e1c08a1e6c47752e11b783886dc9453b7df58613c44",
+      "reason": "02 将多个人物头像叠在夕阳街景之上，是宣传拼贴，不是单场景剧照。",
+      "evidence": "第十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "american-beauty-1999",
+      "src": "film-ai/american-beauty-1999.jpg",
+      "sha256": "5d59adb5f13aa3960f4ea76be8d02aac68cd55949c20077bbff8fc53272ec761",
+      "reason": "02 是装框的东亚家族像，与 AFI 所列 Spacey、Bening、Birch 家庭演员不符；强身份错配。",
+      "evidence": "第十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "american-factory-2019",
+      "src": "film-ai/american-factory-2019.jpg",
+      "sha256": "3ae978c8b4a77ab102b30dee9cda6d06938e8567f15adb57773ee785818c8783",
+      "reason": "02 是蓝色影展背景前的主创多人合照，属于活动照而非纪录片场景。",
+      "evidence": "第十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "american-hustle-2013",
+      "src": "film-ai/american-hustle-2013.jpg",
+      "sha256": "a734568a3cbe4b0b0f1d0da8878e866d02bcbd58933855fabd08252b15cace6f",
+      "reason": "02 为现代白色公寓中的东亚年轻女子，和 Sony 所列 Bale、Adams、Lawrence 等角色不合；强人物/时代错配。",
+      "evidence": "第十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "amour-2012",
+      "src": "film-ai/amour-2012.jpg",
+      "sha256": "d690bdcad256177eb86fe7b55908b72d81686f4dac887b7ce90477dc6b5ec792",
+      "reason": "02 是较年轻男女在桌边对话，戛纳明确主角 Georges/Anne 为八旬夫妻；强年龄/角色错配。",
+      "evidence": "第十三批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
