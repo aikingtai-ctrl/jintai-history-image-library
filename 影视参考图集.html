@@ -1603,6 +1603,7 @@ let WORKS_VIEW_MODE=(()=>{const u=new URLSearchParams(location.search).get('wvie
 function resolveFilmAiAsset(rel){if(!rel)return'';if(/^https?:/i.test(rel))return rel;return IS_GH_FILM?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/${rel}`:rel;}
 function resolveFilmAiLegacyAsset(rel){return resolveFilmAiAsset(rel);}
 function getFilmAiSrc(wid){
+ const batchRepresentative=(window.FILM_AI_IMAGES||{})[wid];if(typeof batchRepresentative==='string'&&batchRepresentative.startsWith('film-ai/firstshot-20261126/'))return resolveFilmAiAsset(batchRepresentative);
   const gallery=(window.FILM_WORK_GALLERIES||{})[wid];
   if(Array.isArray(gallery)&&gallery.length){for(const first of gallery){const src=typeof first==='string'?first:first&&first.src;if(src&&!isKnownBadFilmSource(src))return resolveFilmAiAsset(src);}}
  const rawRepresentative=(window.FILM_AI_IMAGES||FILM_AI_IMAGES||{})[wid],representative=isKnownBadFilmSource(rawRepresentative)?(SAFE_FILM_FALLBACKS[wid]||''):rawRepresentative;
@@ -1619,6 +1620,7 @@ function getFilmAiSrc(wid){
 }
  function workPhotoEntries(w){if(!w)return[];const out=[],seen=new Set(),kindNames={primary:'影片主图',representative:'单片代表图',cover:'AI 图集封面',shot:'逐镜参考图',work:'作品关联图'};
   const add=(src,shotId='',kind='参考画面')=>{if(!src||out.length>=5||window.FILM_BAD_SOURCE_CHECK?.(src))return;const resolved=resolveFilmAiAsset(src),key=filmImageKey(resolved);if(seen.has(key))return;seen.add(key);out.push({src:resolved,shotId,kind:kindNames[kind]||kind});};
+  const batchRepresentative=(window.FILM_AI_IMAGES||{})[w.wid];if(typeof batchRepresentative==='string'&&batchRepresentative.startsWith('film-ai/firstshot-20261126/'))add(batchRepresentative,'','representative');
   const curated=(window.FILM_WORK_GALLERIES||{})[w.wid];
   if(Array.isArray(curated)&&curated.length){curated.forEach(x=>{if(typeof x==='string')add(x);else if(x)add(x.src||x.path,x.shotId||'',x.kind||'参考画面');});return out;}
   add(getFilmAiSrc(w.wid),'','单片代表图');
