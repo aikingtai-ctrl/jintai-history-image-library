@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T02:43:25.164637+08:00",
+  "updated_at": "2026-11-27T03:54:09.703749+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -1122,6 +1122,62 @@
       "sha256": "227e21323fd094f2d53e3825fcf689a6b32e99a0c6e342369fa77bc4f3567f68",
       "reason": "近景主体是年轻男子，无法对应年迈的渡边勘治；桌前写着“虫疫係”的异样部门牌，与影片市民事务/公园线索不合。",
       "evidence": "第三十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "in-our-time-1982",
+      "src": "film-ai/in-our-time-1982.jpg",
+      "sha256": "2fc83b6ab70a203551d12c0594b273b8a32b26d37cfd65256def6905f147ae6b",
+      "reason": "画面右上角覆盖巨大“1982 我们的时代..”宣传字样，且并非此片正式中文片名《光阴的故事》；属于文字拼版而非干净剧情静帧。",
+      "evidence": "第三十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "in-the-heat-of-the-sun-1994",
+      "src": "film-ai/in-the-heat-of-the-sun-1994.jpg",
+      "sha256": "0c0ba6a2846c90e060644ae93e273137266eed61c7451757239176fafd1d1b86",
+      "reason": "两名男子对镜头笑着比赞，左上可见大型摄影灯及背景剧组人员，显然是拍摄现场合影而非剧情静帧。",
+      "evidence": "第三十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "incendies-2010",
+      "src": "film-ai/incendies-2010.jpg",
+      "sha256": "0d722a229db9836b65f60a5f55294f33b5bab0a94b4949d4cea18881c332a4db",
+      "reason": "近景主体为东亚面貌年轻男子，画面无 Jeanne、Simon、Nawal 或中东寻亲线索，与发行方明确的角色/演员及场域不符。",
+      "evidence": "第三十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "inland-empire-2006",
+      "src": "film-ai/inland-empire-2006.jpg",
+      "sha256": "f65a36ccd16cd78780a72367e1103ca04333a90e5b49924a17f2d67feb4f58d8",
+      "reason": "两名男子穿十八/十九世纪式礼服坐于华丽宫廷沙龙，和 Criterion 所述 Nikki 的当代好莱坞/波兰片中片人物与时代均明显不合。",
+      "evidence": "第三十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "inside-out-2015",
+      "src": "film-ai/firstshot-20261126/inside-out-2015.jpg",
+      "sha256": "23f3261117b7a6916c9f7e60cf153dcf8adbbe141be3cbb5520d88709a971bb8",
+      "reason": "黄色星形角色与紫色戴镜绒球角色均不属于 Pixar 官方五情绪或 Bing Bong 的角色造型，虽为三维动画却是明显串角色概念。",
+      "evidence": "第三十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "insomnia-2002",
+      "src": "film-ai/insomnia-2002.jpg",
+      "sha256": "c2f16e042eb7182f43f0039dc5742b183d34b024ae9201101c11764431bd3942",
+      "reason": "车中主体是东亚面貌中年男子，与 AFI 列出的 Dormer/Pacino 及主要演员不符；雨窗也无阿拉斯加午夜太阳案件锚点。",
+      "evidence": "第三十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "inception-2010",
+      "src": "film-ai/shots/YS-20261028-C15-inception-2010-11.webp",
+      "sha256": "b9cf56ef728c79640273f06c1742f8480357f5efac8443df87c2734ed3199ffd",
+      "reason": "沙地上倒卧的东亚年轻男子无法核为 Cobb、Saito 或其他梦境人物，画面也缺少该片可识别的梦境机制/地点；暂缓。",
+      "evidence": "第三十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "inception-2010",
+      "src": "film-ai/inception-2010.jpg",
+      "sha256": "9da0172201093baa6041f80b5396a1af46136f10b6b53a01ca1f9b599b2e8722",
+      "reason": "澡盆前破旧室内有人躺于台面，既无可辨梦境装置、团队人物或片中场景，又与 01 无可靠叙事互补；暂缓。",
+      "evidence": "第三十三批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
