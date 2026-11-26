@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T17:29:14.986788+08:00",
+  "updated_at": "2026-11-26T17:42:20.391854+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -233,6 +233,34 @@
       "sha256": "31fdb50a4307feecc96998dd55e1420faa98040a477f124c7bf6359f2175e005",
       "reason": "02 覆盖中文宣传字幅，又与 01 都是同一花园父女近景，不能当独立剧照。",
       "evidence": "第十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "ad-astra-2019",
+      "src": "film-ai/ad-astra-2019.jpg",
+      "sha256": "65f764c3bdc33f59ed6440659a061091b8096b1fbf1e97d797dd9b6450963fc4",
+      "reason": "02 为戴黑帽的东南亚式制服男子与麦克风，室内不像 Brad Pitt 饰 Roy McBride 的太空任务画面；强身份/场景错配。",
+      "evidence": "第十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "ai-artificial-intelligence-2001",
+      "src": "film-ai/ai-artificial-intelligence-2001.jpg",
+      "sha256": "6d353152abf6ebb4b0fa72b628122451d69e927f802fef15fb4bd2ff8463d6ec",
+      "reason": "02 是装裱的东亚家庭照，与 Amblin 所列 David 和 Swinton 家庭演员/角色不合；强身份错配。",
+      "evidence": "第十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "alexander-nevsky-1938",
+      "src": "film-ai/alexander-nevsky-1938.jpg",
+      "sha256": "cbaf648735e483423507fcfc682a057d7b00d47c51be823d28976d7d403c95e4",
+      "reason": "02 西装现代男子倚石狮，并非中世纪冰湖战役场景；强年代/内容错配。",
+      "evidence": "第十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "ah-fei-1984",
+      "src": "film-ai/ah-fei-1984.jpg",
+      "sha256": "1ade170a1de8bb668434883b6c20f72ef32125d7d81e42dac6432121ef4d7495",
+      "reason": "02 是带片名及宣传字的竖版海报，不是独立剧照。",
+      "evidence": "第十二批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
