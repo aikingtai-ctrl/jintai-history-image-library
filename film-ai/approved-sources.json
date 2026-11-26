@@ -1943,6 +1943,76 @@
         "sha256": "ba51713f8798cde46ab96f952dc27fb4c6a7838a7c668d4926d57f5fa3a5da09"
       }
     ],
+    "bright-star-2009": [
+      {
+        "src": "film-ai/decks/film-bright-star-2009.webp",
+        "sha256": "a4ee78ca736b9abe17c3b630f69e725251c920a3dfe7eb7c51c611815151fd99"
+      },
+      {
+        "src": "film-ai/bright-star-2009.jpg",
+        "sha256": "2e5245450952b7e7eea5b62e53f1758f15a0ba0cddca192ebf2cd7cc4b288b00"
+      }
+    ],
+    "brighton-rock-1947": [
+      {
+        "src": "film-ai/decks/film-brighton-rock-1947.webp",
+        "sha256": "45a8451c87e01f24cb54db1d8465a88dd70f408e25e4662707d5073ea86ef39d"
+      },
+      {
+        "src": "film-ai/brighton-rock-1947.jpg",
+        "sha256": "82b69259b634514d4a854c84fcc1cc84088e7e7b2c6461e0dd6076c5872cf6f9"
+      }
+    ],
+    "brokeback-mountain-2005": [
+      {
+        "src": "film-ai/decks/film-brokeback-mountain-2005.webp",
+        "sha256": "429967d6fa199c1f78266d8f84729c218bd10143b6ef4b776c4d9d5b7cb2efad"
+      },
+      {
+        "src": "film-ai/brokeback-mountain-2005.jpg",
+        "sha256": "68317e4ed80e831d13712901737ac18b4159eff75c58edb94ed8a3d50c241cc7"
+      }
+    ],
+    "broker-2022": [
+      {
+        "src": "film-ai/decks/film-broker-2022.webp",
+        "sha256": "2d5e9994294b0d4362496a9b3f6e2d60ea0d4c6a36d00bae4567840bf6a380ca"
+      },
+      {
+        "src": "film-ai/broker-2022.jpg",
+        "sha256": "071214c172297eb187c50eaa37c36a119bec403b31f5cecf2fed1b4ce23341b6"
+      }
+    ],
+    "brotherhood-of-blades-2014": [
+      {
+        "src": "film-ai/decks/film-brotherhood-of-blades-2014.webp",
+        "sha256": "8dbbfdcb8a7d5fa229ea9d3e27128df1147f6bf98071e5d2d7a498d31c7fb43f"
+      },
+      {
+        "src": "film-ai/brotherhood-of-blades-2014.jpg",
+        "sha256": "52635d80a6eea4e7bf55792e03b9c7cb9e0e27e32a038fe0dce98a871c60cc6b"
+      }
+    ],
+    "brotherhood-of-blades-ii-the-infernal-battlefield-2017": [
+      {
+        "src": "film-ai/decks/film-brotherhood-of-blades-ii-the-infernal-battlefield-2017.webp",
+        "sha256": "c079d99830231d217c0480784427f081b1ea20033d8c3e4b2af11af4ccd8f34f"
+      },
+      {
+        "src": "film-ai/brotherhood-of-blades-ii-the-infernal-battlefield-2017.jpg",
+        "sha256": "e74a791918036ea99d420b5ac2ecf4148ae67a55357e065efa956e3d5e9523ff"
+      }
+    ],
+    "burden-of-dreams-1982": [
+      {
+        "src": "film-ai/decks/film-burden-of-dreams-1982.webp",
+        "sha256": "7d3f0fbf4c6f950eb08ab590c90d14f39557d16c1396cad26f05be4808aac530"
+      },
+      {
+        "src": "film-ai/burden-of-dreams-1982.jpg",
+        "sha256": "5bbdb54fc219ff6029aa5a61aefe44bd81ce3d785daec80a5cde8d1be41538a1"
+      }
+    ],
     "burning-2018": [
       {
         "src": "film-ai/decks/film-burning-2018.webp",
@@ -1951,6 +2021,16 @@
       {
         "src": "film-ai/restored/burning-2018.jpg",
         "sha256": "4333b570e5386817533fe9c43d91f2565443b87316be35611d0e95b96c403cdc"
+      }
+    ],
+    "butch-cassidy-and-the-sundance-kid-1969": [
+      {
+        "src": "film-ai/decks/film-butch-cassidy-and-the-sundance-kid-1969.webp",
+        "sha256": "e82d10fd0cbdd26fa1f3b69cb71e9198263d90e007dfb2cbfb3b82bd298a7818"
+      },
+      {
+        "src": "film-ai/butch-cassidy-and-the-sundance-kid-1969.jpg",
+        "sha256": "05482a8b753fa8e98b14b0d8776d7ba7516c60c75ab00c8bcb2054ad3b26eaab"
       }
     ],
     "cabiria-1914": [
@@ -1965,6 +2045,26 @@
       {
         "src": "film-ai/cabiria-1914.jpg",
         "sha256": "844eeb1ce625f6ad5c99d3302e4366064c0ebd8dfd5cfba9c693fe77e7a975ab"
+      }
+    ],
+    "cache-2005": [
+      {
+        "src": "film-ai/decks/film-cache-2005.webp",
+        "sha256": "63440b57930136539ac4d1f572356565624516339b47d491951eecd0e28a3373"
+      },
+      {
+        "src": "film-ai/cache-2005.jpg",
+        "sha256": "62ebc1222002f8e734da35977a30ad8cd3b2b7b1f720ed0bb7a89685f485c28b"
+      }
+    ],
+    "cairo-station-1958": [
+      {
+        "src": "film-ai/decks/film-cairo-station-1958.webp",
+        "sha256": "1e70f96208f37bd0854eec97ef65a9e7d59efd799c361d24d6272669e8174ec0"
+      },
+      {
+        "src": "film-ai/cairo-station-1958.jpg",
+        "sha256": "b87f6692e8675eb349c646f6309f03393c9d0b02190fef7010c6fb8797033dfb"
       }
     ],
     "calabash-brothers-1986": [
@@ -1983,6 +2083,136 @@
       {
         "src": "film-ai/calabash-brothers-1986.jpg",
         "sha256": "658f830cca2b8dce2be3ef99389c81f7f5e5906f1ed76c7d6fca90f67566d55d"
+      }
+    ],
+    "call-me-by-your-name-2017": [
+      {
+        "src": "film-ai/decks/film-call-me-by-your-name-2017.webp",
+        "sha256": "6609c199238ab14a14cf01519b0fc9e09f526b2e5227b7bc58f492896c0c1d8b"
+      },
+      {
+        "src": "film-ai/call-me-by-your-name-2017.jpg",
+        "sha256": "1734e76b30303aad5589c3e761343796860162d22a3ca2a37cb39f5846b91f5e"
+      }
+    ],
+    "camille-claudel-1988": [
+      {
+        "src": "film-ai/decks/film-camille-claudel-1988.webp",
+        "sha256": "c8d70344fba843e02e0dfef1867f50a726975d62225885cebabf5d2511159369"
+      },
+      {
+        "src": "film-ai/camille-claudel-1988.jpg",
+        "sha256": "72a55ef167186ae65a12b6b79e353c13c0ee25fcf4e6037d5746c4a8f7a17a3b"
+      }
+    ],
+    "cape-no-7-2008": [
+      {
+        "src": "film-ai/cape-no-7-2008.jpg",
+        "sha256": "35e3a03292e77ae1c4479f33173f2f367493b48623aa7610835aa82c2345a483"
+      },
+      {
+        "src": "film-ai/decks/film-cape-no-7-2008.webp",
+        "sha256": "8e1138d0e104cc9a05994ae9da4b000f0a4b8831b4fbae3a1b736d9bdde36fe1"
+      }
+    ],
+    "capernaum-2018": [
+      {
+        "src": "film-ai/decks/film-capernaum-2018.webp",
+        "sha256": "24f8034b5761dcca9b529e81e724eac190369c9923a83cb4b79cf41db55cb6f3"
+      },
+      {
+        "src": "film-ai/capernaum-2018.jpg",
+        "sha256": "60777c09b2fe718334af2e249b7691cb5de716133dd0445af3866d366dfd894d"
+      }
+    ],
+    "caramel-2007": [
+      {
+        "src": "film-ai/decks/film-caramel-2007.webp",
+        "sha256": "e8dc91d261150a5bb7a4b26f88b9fa1804b056c2ea47d21dd19ad9ba18b9a130"
+      },
+      {
+        "src": "film-ai/caramel-2007.jpg",
+        "sha256": "761b4f7125f6c951beab8a51e30b8f5ff24cdcd09b6470bd5337faf016701582"
+      }
+    ],
+    "caravaggio-1986": [
+      {
+        "src": "film-ai/decks/film-caravaggio-1986.webp",
+        "sha256": "893eaa4160b1d63a94445ba90b40c7979241c952301855e1fc21fd0a701245a2"
+      },
+      {
+        "src": "film-ai/caravaggio-1986.jpg",
+        "sha256": "cbc7ab73ad20a4855911189ca24e4a3e6192701da459cbc8b34eb611b3e6c87e"
+      }
+    ],
+    "carmen-1983": [
+      {
+        "src": "film-ai/carmen-1983.jpg",
+        "sha256": "ddfe152d0a073b8fbb2b4d67db2de505cc78841893f96ee9f6c447075e5d9b41"
+      },
+      {
+        "src": "film-ai/decks/film-carmen-1983.webp",
+        "sha256": "45db0c9d6856bdbfa8e770bfd2d619d37e049d89b7d2949fb8bc9d36fbe30ee3"
+      }
+    ],
+    "cast-away-2000": [
+      {
+        "src": "film-ai/cast-away-2000.jpg",
+        "sha256": "d5486272d8b5aab2ebc9c9a15bfb99712127a84708e390512cbae1352fd8854e"
+      },
+      {
+        "src": "film-ai/decks/film-cast-away-2000.webp",
+        "sha256": "bebcd16f7339f58b27338c80ba5e3522be036065c34f7e6a0c5071213aab3f8e"
+      }
+    ],
+    "castaway-on-the-moon-2009": [
+      {
+        "src": "film-ai/decks/film-castaway-on-the-moon-2009.webp",
+        "sha256": "aa1b92685e1e0d5c3eacd1ad49a31b116de5fe346691dde6b2e1d9b88c52c447"
+      },
+      {
+        "src": "film-ai/castaway-on-the-moon-2009.jpg",
+        "sha256": "255a200dacaa0e2a068a593ef11aa07da5498e717a3d12002a3872c1182a191f"
+      }
+    ],
+    "cat-on-a-hot-tin-roof-1958": [
+      {
+        "src": "film-ai/decks/film-cat-on-a-hot-tin-roof-1958.webp",
+        "sha256": "63687ba0ae09734db71852bed387f44b147e86aeecbfa39a5d7a764518542106"
+      },
+      {
+        "src": "film-ai/cat-on-a-hot-tin-roof-1958.jpg",
+        "sha256": "852b219640e2fb006c81f749616bc15434281a8fe2d910435faecba73b167548"
+      }
+    ],
+    "cat-people-1942": [
+      {
+        "src": "film-ai/decks/film-cat-people-1942.webp",
+        "sha256": "b6567616d8e6b92fcfddb5b968d25505c282377cceaef1b3a044e9f4acb8e9e1"
+      },
+      {
+        "src": "film-ai/cat-people-1942.jpg",
+        "sha256": "cbd6ea4f63b823fb4dce3960f749e582f1876be59ebce53e63980e6fb667ce25"
+      }
+    ],
+    "caught-by-the-tides-2024": [
+      {
+        "src": "film-ai/decks/film-caught-by-the-tides-2024.webp",
+        "sha256": "5a9fdb69851ed3453e521d08319f1c68162437fbfa7e51dbcfb4ca2baff35182"
+      },
+      {
+        "src": "film-ai/caught-by-the-tides-2024.jpg",
+        "sha256": "0aa94e7c82a81384db42c750dc200d1b5d508735230935c70340987c3f534b63"
+      }
+    ],
+    "celine-and-julie-go-boating-1974": [
+      {
+        "src": "film-ai/decks/film-celine-and-julie-go-boating-1974.webp",
+        "sha256": "0377aa0b94c3f4877c0fc1da60eb76c76a01be99616e6d18e60bc46ac6abee86"
+      },
+      {
+        "src": "film-ai/celine-and-julie-go-boating-1974.jpg",
+        "sha256": "6facab9b10dcd75e57a663ada549a77e64bd08723f648fe52d81ef7993e83e19"
       }
     ],
     "cemetery-of-splendour-2015": [
@@ -2009,6 +2239,16 @@
         "sha256": "58f7936d406d84e50127683bf07feb7947a14e56da60899f46786257c970a84e"
       }
     ],
+    "cest-la-vie-mon-cheri-1993": [
+      {
+        "src": "film-ai/decks/film-cest-la-vie-mon-cheri-1993.webp",
+        "sha256": "23fad8fca98cb00712527e9a956a4afe81879f664a7821a46f45c41130d9455f"
+      },
+      {
+        "src": "film-ai/cest-la-vie-mon-cheri-1993.jpg",
+        "sha256": "ac47c39877628b63835338aa3f05ee911a59de02c43e2bd92b2231f58bba4e6f"
+      }
+    ],
     "chang-an-2023": [
       {
         "src": "film-ai/decks/film-chang-an-2023.webp",
@@ -2019,6 +2259,76 @@
         "sha256": "04582371609bb216213520c19a8297373edb91e3188bdd883fcaab147b0d1ca7"
       }
     ],
+    "changeling-2008": [
+      {
+        "src": "film-ai/decks/film-changeling-2008.webp",
+        "sha256": "079b64d6104e5032f7cf6078bd3695f27f47e1488b01e1b0a364ee6fa78c36c2"
+      },
+      {
+        "src": "film-ai/changeling-2008.jpg",
+        "sha256": "c7a3fe67683a294a8735c9c12495122b422728b0dbad0dd1d388a0b0bb20fb3b"
+      }
+    ],
+    "chariots-of-fire-1981": [
+      {
+        "src": "film-ai/chariots-of-fire-1981.jpg",
+        "sha256": "dc37f6e5e4b9c202d2a897ee13dba579865fb308195a8fca37891e38d5f0eb10"
+      },
+      {
+        "src": "film-ai/decks/film-chariots-of-fire-1981.webp",
+        "sha256": "dba2e3451a919494a641ee10bb997a09a15d073b3f34c70c393b4e1f451f2dc4"
+      }
+    ],
+    "chihwaseon-2002": [
+      {
+        "src": "film-ai/decks/film-chihwaseon-2002.webp",
+        "sha256": "fadebc116fd03a7fd5f96590dfdcf0970f67c5f6d51e565165da51ff8a9c0729"
+      },
+      {
+        "src": "film-ai/chihwaseon-2002.jpg",
+        "sha256": "5fa4f3c6c09a8c61d264f6df8dae8debe225a5c00e168b839c12840f76568b7c"
+      }
+    ],
+    "children-of-heaven-1997": [
+      {
+        "src": "film-ai/decks/film-children-of-heaven-1997.webp",
+        "sha256": "aee7081ad915b34d52ade6a03aee06cfe0805206a40699fc025c89fce99661ea"
+      },
+      {
+        "src": "film-ai/children-of-heaven-1997.jpg",
+        "sha256": "52239d65168bf9c0d08f377deaaf7bfaa9b233a2b641fa0f7d49e1ce4b7c851e"
+      }
+    ],
+    "children-of-men-2006": [
+      {
+        "src": "film-ai/decks/film-children-of-men-2006.webp",
+        "sha256": "5a3ba13e5a1d4dd92583a5c4dd522014f1a030a328ca92c2fac88f8469958773"
+      },
+      {
+        "src": "film-ai/children-of-men-2006.jpg",
+        "sha256": "8d754b81123893320d6d797d536456140c69b502972881c9f09a04c345848b6b"
+      }
+    ],
+    "children-of-the-sea-2019": [
+      {
+        "src": "film-ai/decks/film-children-of-the-sea-2019.webp",
+        "sha256": "bd9caef5a980044afb47c26ecf7c51603b91dc592345ff3fb07e281357fb1daa"
+      },
+      {
+        "src": "film-ai/children-of-the-sea-2019.jpg",
+        "sha256": "4f02efeba7cf3a279f00c223ccf5a64df006898fb69606abdf1f1b5e9b92ee23"
+      }
+    ],
+    "chilsu-and-mansu-1988": [
+      {
+        "src": "film-ai/decks/film-chilsu-and-mansu-1988.webp",
+        "sha256": "b5001d59bd8c8ac122c0d46b4c957211c845366b30ef6e222254c76349e2516a"
+      },
+      {
+        "src": "film-ai/chilsu-and-mansu-1988.jpg",
+        "sha256": "ebbd3e99e28aa4def5e87e4f3243779fb07af0d1ffdd33015109a5cd717df825"
+      }
+    ],
     "chinatown-1974": [
       {
         "src": "film-ai/shots/YS-20261103-CN96-chinatown-1974-093.webp",
@@ -2027,6 +2337,26 @@
       {
         "src": "film-ai/chinatown-1974.jpg",
         "sha256": "22d70e86f95c23e16a8f149bc0ea6fd9efa1b89a9fb4b56427f3609fdee020dd"
+      }
+    ],
+    "christmas-in-august-1998": [
+      {
+        "src": "film-ai/decks/film-christmas-in-august-1998.webp",
+        "sha256": "367a3156952dfc281e9b1e95fb77671e5a6f5c7b6b082ce8379669038d9d05a8"
+      },
+      {
+        "src": "film-ai/christmas-in-august-1998.jpg",
+        "sha256": "2e309e48f372cf242849665b026717ddb0edbf0f06ea4f87170f0843259c8e36"
+      }
+    ],
+    "chronicle-of-a-summer-1961": [
+      {
+        "src": "film-ai/decks/film-chronicle-of-a-summer-1961.webp",
+        "sha256": "b441346cada0f6f2ce8f12635ac3d032a0f100dc103d8a870a7d2d5b4557ee84"
+      },
+      {
+        "src": "film-ai/chronicle-of-a-summer-1961.jpg",
+        "sha256": "688918666376de90522dce5860bed34d47e1aa24d56a4991ead7b9097ffc70a9"
       }
     ],
     "chungking-express-1994": [
@@ -2041,6 +2371,26 @@
       {
         "src": "film-ai/restored/chungking-express-1994.jpg",
         "sha256": "ece545b67394d344f0b7827d253e5d2e27450fa0cc06915beddcfc5ddd29457b"
+      }
+    ],
+    "chunhyang-2000": [
+      {
+        "src": "film-ai/decks/film-chunhyang-2000.webp",
+        "sha256": "60078663c7c6e6450e7ecb7874255f6d2affb3b5b3e7d874513082a1a369bece"
+      },
+      {
+        "src": "film-ai/chunhyang-2000.jpg",
+        "sha256": "158d87d1860ef19f6e64a75e812e85a6340542a1424172f9c656de169a50dd8a"
+      }
+    ],
+    "cinema-paradiso-1988": [
+      {
+        "src": "film-ai/decks/film-cinema-paradiso-1988.webp",
+        "sha256": "2e98864fbf64e8a938fd18c9c826672af1a0afcf084026907ac977630ce2f48d"
+      },
+      {
+        "src": "film-ai/cinema-paradiso-1988.jpg",
+        "sha256": "77a77cb258eb3d1c37e1d2c43e916b553a957d4cabe76dbd5b3f9edb84fd8562"
       }
     ],
     "city-of-glass-1998": [

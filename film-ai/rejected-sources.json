@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T20:38:29.585374+08:00",
+  "updated_at": "2026-11-26T21:43:06.267020+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -541,6 +541,118 @@
       "sha256": "914a7396f57128781a5e859114f86f1c0cb3fd83846e3a0af413c8bf03d6e100",
       "reason": "02 人物站在摄影机旁的拍摄现场，不是《精疲力尽》叙事内的独立剧照。",
       "evidence": "第十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "carlitos-way-1993",
+      "src": "film-ai/carlitos-way-1993.jpg",
+      "sha256": "e79164693c221f4745ce1d6b4db44a415d4c6cdee3756103a8328cafd5c89cc4",
+      "reason": "02 羽饰宽檐帽男子和华丽古装室内，与本片 1970 年代纽约黑帮人物/场景明显冲突，判串片。",
+      "evidence": "第二十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "carol-2015",
+      "src": "film-ai/carol-2015.jpg",
+      "sha256": "442a3057739c2d3d0320fd8771a11222860d1f5fbe891fdeda496df09dd0aa23",
+      "reason": "02 东亚少女独坐并戴圣诞帽，与 Therese/Carol 人物与纽约 1950 年代故事不符，判串片。",
+      "evidence": "第二十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "carrie-1976",
+      "src": "film-ai/carrie-1976.jpg",
+      "sha256": "e967db746c7318030c4defe772602d423255cf151885203fcc4b223a951ecff8",
+      "reason": "02 东亚女子在哥特式烛光房间阅读魔法书，与 1976 年美国高中少女 Carrie 的人物/情境不符，判串片。",
+      "evidence": "第二十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "casablanca-1942",
+      "src": "film-ai/casablanca-1942.jpg",
+      "sha256": "6bf943a801d8be8c39f9494ba9973c5bb37c8c3c94b97104e0f22ed0a04da46e",
+      "reason": "02 黑白棋盘前的东亚青年与 Humphrey Bogart 饰 Rick 的人物外观不符，判串片。",
+      "evidence": "第二十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "casino-1995",
+      "src": "film-ai/casino-1995.jpg",
+      "sha256": "d9ab54f0eec8ba4f8f20402f2565703dae5d7b9930c0c3079743a4910fb3e0ab",
+      "reason": "02 美国白宫讲台上的肯尼迪形象，与 1995 年拉斯维加斯赌场黑帮叙事不符，判串片。",
+      "evidence": "第二十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "castle-in-the-sky-1986",
+      "src": "film-ai/castle-in-the-sky-1986.jpg",
+      "sha256": "1ea93c0e3eafc87ea13109d6fb27e6e0389ea01cc7a53f5d4b1ac24f1df4e180",
+      "reason": "02 风车旁人物悬浮的实拍电影画面，与吉卜力 1986 年手绘动画媒介不符，判串片。",
+      "evidence": "第二十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "brooklyn-2015",
+      "src": "film-ai/brooklyn-2015.jpg",
+      "sha256": "2ed88dc4c465faabc590c7a77ea22549f72825d61c5e9c5f29b65c5ff50e987f",
+      "reason": "两名东亚女性在旧式室内，不能对应爱尔兰女主角 Eilis 或 BFI 所列核心人物，明显串片。",
+      "evidence": "第十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "buddha-mountain-2010",
+      "src": "film-ai/buddha-mountain-2010.jpg",
+      "sha256": "2b4d4e4554b5973b419f5f75edfccf848cadbe2d84a3939583971f468765f146",
+      "reason": "山桥三人穿上世纪早期样式服装、背旧式布包，呈年代戏；与当代毕业青年赴成都求职的片目年代冲突。",
+      "evidence": "第十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "bullet-in-the-head-1990",
+      "src": "film-ai/bullet-in-the-head-1990.jpg",
+      "sha256": "3919a00befc87afa02d60b0681dd97bdd6cc7f29365ab833e91be641de997007",
+      "reason": "三人脸上覆盖大幅《喋血街头》中文及英文片名字样，是宣传海报/字卡，不是独立剧照。",
+      "evidence": "第十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "bullitt-1968",
+      "src": "film-ai/bullitt-1968.jpg",
+      "sha256": "c7bb885592ba25e090aba550c3dd107679ea90561516d18d0cf28ac6bbe77f26",
+      "reason": "毛皮大帽、旧式军装手套与街上更早年代汽车构成非 1968 年旧金山造型，男子亦无法对应 Steve McQueen 的 Bullitt；年代/人物串片。",
+      "evidence": "第十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "bumming-in-beijing-1990",
+      "src": "film-ai/bumming-in-beijing-1990.jpg",
+      "sha256": "5d958ede73cbb7082f05a75d2a53e40b7fe764aa32e10e7d8247282bef5fd376",
+      "reason": "黑底白字“1990 年”背景叙述说明卡，画面无可独立呈现的镜头内容。",
+      "evidence": "第十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "cabaret-1972",
+      "src": "film-ai/cabaret-1972.jpg",
+      "sha256": "35a0d9e84debeeebd50fd8ac4d6dce2c39146828f997b7ada88bf8bef329ca9b",
+      "reason": "东亚面貌年轻男歌手站在舞台中央，与 AFI 所列 Joel Grey 主持人、Michael York 等核心男角不符，疑串片。",
+      "evidence": "第十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "call-of-heroes-2016",
+      "src": "film-ai/call-of-heroes-2016.jpg",
+      "sha256": "23bc94101c3035b00a63a2da2a0322f7f2f11a8fe7442827a9d9cab81db22b27",
+      "reason": "虽有囚禁情节，但图中白色交领古装、束发顶髻的年轻男子像更早朝代人物，不能对应民国军阀少帅古天乐；场景词匹配但年代/角色造型串片。",
+      "evidence": "第十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "cameraperson-2016",
+      "src": "film-ai/decks/film-cameraperson-2016.webp",
+      "sha256": "eb83075418d1c8b3fb5d65a6ada42d3cfb1728dc3b18b18ae26d623b4c093c3d",
+      "reason": "油画式女性坐剪辑台面对空白多屏，是关于制作过程的幕后/概念插画；片目强调已有纪录摄影素材，不能作为片内独立纪录画面。",
+      "evidence": "第十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "cape-fear-1991",
+      "src": "film-ai/cape-fear-1991.jpg",
+      "sha256": "97bace8e8470305ac00e77aa34696015a1729348aab4fb64f9473ba99db788d5",
+      "reason": "东亚三人在现代影院观众席观看银幕，人物与地点均不能对应 AFI 所述美国家庭惊悚故事，明显串片。",
+      "evidence": "第十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "capote-2005",
+      "src": "film-ai/capote-2005.jpg",
+      "sha256": "dc68c317bd1c95b44e6f51ba1721e83f58f6a9f18a89cf8368f6065a2da71ce6",
+      "reason": "东亚男子坐在室内打电话，既不能对应 Truman Capote/Philip Seymour Hoffman，也缺乏 Kansas 调查的片目关联，明显串片。",
+      "evidence": "第十九批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
