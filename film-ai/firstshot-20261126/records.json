@@ -1651,6 +1651,234 @@
       "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
       "method": "内置 imagegen",
       "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 14,
+      "wid": "src-015511ee7508b1b9",
+      "title": "Urok na istorijata",
+      "firstShotId": "VP-src-015511ee7508b1b9-01",
+      "scene": "A restrained historical-drama concept set in Germany in 1933: an adult Bulgarian political defendant in a plain dark suit stands in a wood-paneled courthouse under cold window light, with papers and empty benches. Original fictional face, no political emblems, no violence.",
+      "actualPrompt": "Create one original AI content reference image, wide 16:9. A restrained historical-drama concept set in Germany in 1933: an adult Bulgarian political defendant in a plain dark suit stands in a wood-paneled courthouse under cold window light, with papers and empty benches. Original fictional face, no political emblems, no violence. No watermark, no logos, no readable text. This is a new concept image, not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "8b5042a583e469fee080279206d048f7f1ff076bcb2c25996438d0e96af08cd6",
+      "preview": "film-ai/firstshot-20261126/src-015511ee7508b1b9.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/066e5bc0a2b9eb53745c70d4ad26c0bdcfeb2f0b/originals/film-expand-firstshot-20261126/src-015511ee7508b1b9.png",
+        "bytes": 2070725,
+        "sha256": "7ac438329bab1a6acd8e32fc4f20dcbafaf41e6994d5d699cf8f7bae97527907",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-official-content-concept",
+      "sourceEvidence": [
+        "https://www.mosfilm.ru/cinema/films/urok-istorii/"
+      ],
+      "adaptationNote": "官方简介为1933年德国国会纵火案及季米特洛夫遭指控；据此构思法庭概念画面，非已核实影片镜头。"
+    },
+    {
+      "ordinal": 18,
+      "wid": "src-02746a66ff5f3ca9",
+      "title": "Dinosaur",
+      "firstShotId": "VP-src-02746a66ff5f3ca9-01",
+      "scene": "Original clay animation concept: a fully clothed young boy and his classmates imagine a prehistoric landscape populated by a friendly long-necked dinosaur. Handmade clay textures, small rounded original characters, fern-covered terrain, playful educational wonder.",
+      "actualPrompt": "Create one original AI content reference image, wide 16:9. Original clay animation concept: a fully clothed young boy and his classmates imagine a prehistoric landscape populated by a friendly long-necked dinosaur. Handmade clay textures, small rounded original characters, fern-covered terrain, playful educational wonder. No watermark, no logos, no readable text. This is a new concept image, not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "405027fe60c6169476e7ef5595049e1bfcb6644bcd771f7c2a61ac9e90884399",
+      "preview": "film-ai/firstshot-20261126/src-02746a66ff5f3ca9.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/066e5bc0a2b9eb53745c70d4ad26c0bdcfeb2f0b/originals/film-expand-firstshot-20261126/src-02746a66ff5f3ca9.png",
+        "bytes": 2988491,
+        "sha256": "290624130dd5d4c813ca132444969af97742175a445b9dff1bf0f08361680722",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-official-content-concept",
+      "sourceEvidence": [
+        "https://www.giffonifilmfestival.it/en/archivio-film/142-edition-1981/4147-dinosaur.html"
+      ],
+      "adaptationNote": "官方影展简介为男孩与同学想象中的史前世界；改用Will Vinton短片内容构思，原描述中的哆啦A梦并非本片。"
+    },
+    {
+      "ordinal": 19,
+      "wid": "src-033847fff61d6f24",
+      "title": "Vente aux enchères",
+      "firstShotId": "VP-src-033847fff61d6f24-01",
+      "scene": "A documentary-style concept of a modest 1940s French auction room: an auctioneer stands behind a wooden podium with a small gavel, old furniture and framed artworks are displayed while adult bidders sit quietly. Original faces, natural monochrome lighting.",
+      "actualPrompt": "Create one original AI content reference image, wide 16:9. A documentary-style concept of a modest 1940s French auction room: an auctioneer stands behind a wooden podium with a small gavel, old furniture and framed artworks are displayed while adult bidders sit quietly. Original faces, natural monochrome lighting. No watermark, no logos, no readable text. This is a new concept image, not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "86186ded1c4bd59828575d81048057634afbdc47f20b5a3cf59945b4d48b555a",
+      "preview": "film-ai/firstshot-20261126/src-033847fff61d6f24.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/066e5bc0a2b9eb53745c70d4ad26c0bdcfeb2f0b/originals/film-expand-firstshot-20261126/src-033847fff61d6f24.png",
+        "bytes": 2380543,
+        "sha256": "6e4d842848336bf16a96546e86c493d2e3e078f1e63c2b3ce62761b00a48b83b",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-official-content-concept",
+      "sourceEvidence": [
+        "https://asac.labiennale.org/attivita/cinema/1820"
+      ],
+      "adaptationNote": "威尼斯官方档案确认本片为1948年法国纪录短片，英文片名Auctions；依据片名主题构思拍卖场景，未核实具体首镜。"
+    },
+    {
+      "ordinal": 20,
+      "wid": "src-0384f7b18b10d6cd",
+      "title": "木兰传奇",
+      "firstShotId": "VP-src-0384f7b18b10d6cd-01",
+      "scene": "Chinese traditional opera-film concept: a fully clothed adult female warrior portraying Mulan stands on a theatrical stage in embroidered armor, long flowing sleeves and a traditional opera headdress, holding a stage spear upright. Painted landscape backdrop, expressive dignified stance, original face.",
+      "actualPrompt": "Create one original AI content reference image, wide 16:9. Chinese traditional opera-film concept: a fully clothed adult female warrior portraying Mulan stands on a theatrical stage in embroidered armor, long flowing sleeves and a traditional opera headdress, holding a stage spear upright. Painted landscape backdrop, expressive dignified stance, original face. No watermark, no logos, no readable text. This is a new concept image, not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "7314e793a884d6770b649bd1201d3e4b27e5c9f25e64e61c2b4559fc3f0825a6",
+      "preview": "film-ai/firstshot-20261126/src-0384f7b18b10d6cd.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/066e5bc0a2b9eb53745c70d4ad26c0bdcfeb2f0b/originals/film-expand-firstshot-20261126/src-0384f7b18b10d6cd.png",
+        "bytes": 2604997,
+        "sha256": "9c94e22283e208ee201bd1379c6456c8bd3eb5923ddfa5c8e7f2d1e366db1fc1",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-official-content-concept",
+      "sourceEvidence": [
+        "https://www.chinanews.com.cn/zxys/filmfestivl/jinji15.htm"
+      ],
+      "adaptationNote": "中新网奖项档案确认《木兰传奇》为戏曲片；依据片名与戏曲类型构思木兰武将舞台形象，非赛车画面、非已核实首镜。"
+    },
+    {
+      "ordinal": 93,
+      "wid": "src-12a0424c66cf081a",
+      "title": "Unicorn Store",
+      "firstShotId": "VP-src-12a0424c66cf081a-01",
+      "scene": "梦幻光斑背景前金发沾满彩色亮片、身穿彩虹领上衣的少女心女画家基特（布丽·拉尔森饰）灿烂微笑的特写",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Close portrait of a fictional cheerful adult blonde female painter. Colorful glitter flecks are caught in her hair and she wears a rainbow-collared shirt. Brilliant warm smile against dreamy soft colored bokeh, original face with no celebrity likeness. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "ae14903c7f9a45c450060bc26baa962c6aff13212a60c1bdf6ce235a7749a111",
+      "preview": "film-ai/firstshot-20261126/src-12a0424c66cf081a.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/066e5bc0a2b9eb53745c70d4ad26c0bdcfeb2f0b/originals/film-expand-firstshot-20261126/src-12a0424c66cf081a.png",
+        "bytes": 2399847,
+        "sha256": "cda88029280ba0b4cca9b17dcf36f8a7832220751216d49cfaf5f064934a74c3",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 94,
+      "wid": "src-12aec9ebd02f54b5",
+      "title": "Criss Cross",
+      "firstShotId": "VP-59ce74e18144bff8",
+      "scene": "黑白画面中，一辆有轨电车停在街道右侧，一名穿西装的男子正从车门处走下。左侧前景有两人坐在长椅上，背景是高架桥、隧道口及山坡上的多层住宅。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Black-and-white street scene. A tram stops at right and an adult man in a suit steps down from its doorway. Two people sit on a bench in the left foreground. In the background are an overpass, tunnel entrance and multistory hillside residences, midcentury atmosphere. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "e5396f83eb80a6405e8b6672124ccaa2914b97e443970662fe3d2c3bf1950dcf",
+      "preview": "film-ai/firstshot-20261126/src-12aec9ebd02f54b5.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/066e5bc0a2b9eb53745c70d4ad26c0bdcfeb2f0b/originals/film-expand-firstshot-20261126/src-12aec9ebd02f54b5.png",
+        "bytes": 2825621,
+        "sha256": "16333c26c84bfabfd890dc36e9777429f41ee61ca5da1e868ef2aa9b52b82db2",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 95,
+      "wid": "src-139b15c390fbc525",
+      "title": "Lilo & Stitch 2: Stitch Has a Glitch",
+      "firstShotId": "VP-src-139b15c390fbc525-01",
+      "scene": "Original hand-drawn 2D animation in a cozy wooden cabin. A little Hawaiian girl in a modest orange dress holds up a sheet of her drawing with both hands to show a friendly small blue alien creature. Invent entirely original character designs: girl with braided hair and rounded facial features, alien with small curled antennae and round floppy ears. Warm friendly family scene.",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Original hand-drawn 2D animation in a cozy wooden cabin. A little Hawaiian girl in a modest orange dress holds up a sheet of her drawing with both hands to show a friendly small blue alien creature. Invent entirely original character designs: girl with braided hair and rounded facial features, alien with small curled antennae and round floppy ears. Warm friendly family scene. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "140229425019fc7459cc836c8a20da7a4df63e5d7399bc2f829f6640ad909acb",
+      "preview": "film-ai/firstshot-20261126/src-139b15c390fbc525.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/066e5bc0a2b9eb53745c70d4ad26c0bdcfeb2f0b/originals/film-expand-firstshot-20261126/src-139b15c390fbc525.png",
+        "bytes": 1982162,
+        "sha256": "6885456dadd8f1f1d25c4a0f5345e02b250839558b4350b064eb364d3b595130",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（原创角色）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "将原有动画角色改为原创女孩和原创蓝色外星生物，保留展示画纸场景。"
+    },
+    {
+      "ordinal": 96,
+      "wid": "src-13cbaa3ccb219ced",
+      "title": "Skinheads",
+      "firstShotId": "VP-src-13cbaa3ccb219ced-01",
+      "scene": "Somber critical social-drama poster composition. A fictional young adult man with a shaved head lowers his head against a dark neutral background. Plain scalp without tattoos, ordinary dark shirt, empty red graphic header with no words. Uneasy disapproving tone, no extremist symbols or glorification.",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Somber critical social-drama poster composition. A fictional young adult man with a shaved head lowers his head against a dark neutral background. Plain scalp without tattoos, ordinary dark shirt, empty red graphic header with no words. Uneasy disapproving tone, no extremist symbols or glorification. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "a46f087f5e0eab791921abe8d0f57534b7a54bb7aad08e8cff45fd90fca4f0f0",
+      "preview": "film-ai/firstshot-20261126/src-13cbaa3ccb219ced.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/066e5bc0a2b9eb53745c70d4ad26c0bdcfeb2f0b/originals/film-expand-firstshot-20261126/src-13cbaa3ccb219ced.png",
+        "bytes": 2013334,
+        "sha256": "a540bc9d8bc86ced528842a9ad07abbea0f9e94d38bba93accb40a95b4938e25",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（移除极端符号）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "移除新纳粹纹身和极端主义符号，保留低头剃发人物与海报构图。"
+    },
+    {
+      "ordinal": 97,
+      "wid": "src-1400de84a54b092e",
+      "title": "The Legend Of Kaspar Hauser",
+      "firstShotId": "VP-c07e3c54b472fb06",
+      "scene": "黑白画面中，两名戴头盔的人物分别站在左右两侧，各扶着一辆越野摩托车。背景是一排低矮的瓦顶房屋，前景右下角有一张石凳，地面为开阔的浅色空地。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Black-and-white wide shot of an open pale sandy courtyard. Two helmeted people stand separately at left and right, each holding a dirt motorcycle. A row of low tile-roofed houses runs behind them. A stone bench sits in the lower right foreground, quiet surreal stillness. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "83085f808ab2d9961cc2a76e619ae2dfb09a0047ea838d88339b52a877236f58",
+      "preview": "film-ai/firstshot-20261126/src-1400de84a54b092e.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/066e5bc0a2b9eb53745c70d4ad26c0bdcfeb2f0b/originals/film-expand-firstshot-20261126/src-1400de84a54b092e.png",
+        "bytes": 2873203,
+        "sha256": "4b8d39745dd9bb823153246a392cd5ca149273831aa6ca5bdd61b085d419544e",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 98,
+      "wid": "src-140ab52747816f32",
+      "title": "LA TRAVERSÉE DE L’ATLANTIQUE A LA RAME",
+      "firstShotId": "VP-src-140ab52747816f32-01",
+      "scene": "灰蓝海天背景下绘有黑色船锚与棕发女子背影的手绘动画海报",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Hand-drawn animation poster-style composition: blue-gray sea and sky, a bold black ship anchor and the back view of an adult brown-haired woman. Restrained painted texture, wistful maritime atmosphere, no lettering. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "068bcf474686a4b8c36633a05e6c3ef93236802283548a658b82abfdd16e7843",
+      "preview": "film-ai/firstshot-20261126/src-140ab52747816f32.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/066e5bc0a2b9eb53745c70d4ad26c0bdcfeb2f0b/originals/film-expand-firstshot-20261126/src-140ab52747816f32.png",
+        "bytes": 2505888,
+        "sha256": "3ebf58517b690ea281a572fcee0015918a77ddb62002c7041df4bf203eda8bd2",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
     }
   ]
 }
