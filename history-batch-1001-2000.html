@@ -44,7 +44,13 @@ async function show(r){
   if(q('imgDimBadge'))q('imgDimBadge').textContent='读取尺寸…';
   let verifiedOriginalUrl='';
   img.onload=()=>{const w=img.naturalWidth||0,h=img.naturalHeight||0;if(q('imgDimBadge')&&w&&h)q('imgDimBadge').textContent=w+'×'+h+' px · '+(info&&img.currentSrc===verifiedOriginalUrl?imageQualityLabel(w,h,info):info?'GPT Image 预览':'原有 JPEG');};
-  img.onerror=null;img.src=src;img.alt=r.title;
+  img.onerror=()=>{
+    if(curRow!==r||!verifiedOriginalUrl||img.src!==new URL(verifiedOriginalUrl,location.href).href)return;
+    q('rawLink').textContent='原图加载失败 · 重试打开原图 ↗';q('downloadPng').hidden=true;
+    q('adaptation').textContent='原图加载失败，当前仅显示预览图。';
+    verifiedOriginalUrl='';img.onerror=null;img.src=src;
+  };
+  img.src=src;img.alt=r.title;
   q('rawLink').href=src;q('rawLink').textContent='新窗口查看预览图 ↗';
   q('downloadPng').hidden=true;
   q('savedJpg').hidden=!(info&&oldJpg);if(!q('savedJpg').hidden)q('savedJpg').href=oldJpg;
@@ -54,18 +60,24 @@ async function show(r){
   if(!info)return;
   try{
     const url=await gptOriginalUrl(info);if(curRow!==r)return;
+    const originalUrl=new URL(url,location.href),previewUrl=new URL(src,location.href);
+    if(originalUrl.origin===previewUrl.origin&&originalUrl.pathname===previewUrl.pathname)throw new Error('原图与预览路径相同');
+    verifiedOriginalUrl=url;
+    q('rawLink').href=url;q('rawLink').textContent='新窗口查看原图 ↗';
+    const downloadUrl=new URL(url,location.href);downloadUrl.searchParams.set('download','1');
+    q('downloadPng').href=downloadUrl.href;q('downloadPng').textContent='下载原图';q('downloadPng').hidden=false;
     const full=new Image();
     full.onload=()=>{
       if(curRow!==r)return;
-      if((info.width&&full.naturalWidth!==Number(info.width))||(info.height&&full.naturalHeight!==Number(info.height))){q('adaptation').textContent='原图尺寸与验收清单不符，当前仅显示预览图。';return;}
-      verifiedOriginalUrl=url;
-      q('rawLink').href=url;q('rawLink').textContent='新窗口查看 GPT Image PNG ↗';
-      q('downloadPng').href=gptDownloadUrl(url);q('downloadPng').hidden=false;
+      if((info.width&&full.naturalWidth!==Number(info.width))||(info.height&&full.naturalHeight!==Number(info.height))){
+        verifiedOriginalUrl='';q('rawLink').removeAttribute('href');q('rawLink').textContent='原图尺寸异常';
+        q('downloadPng').hidden=true;q('adaptation').textContent='原图尺寸与验收清单不符，当前仅显示预览图。';return;
+      }
       img.src=url;
     };
-    full.onerror=()=>{if(curRow===r){q('downloadPng').hidden=true;q('rawLink').href=src;q('rawLink').textContent='新窗口查看预览图 ↗';q('adaptation').textContent='GPT Image PNG 暂不可用，当前显示预览图。';}};
+    full.onerror=()=>{if(curRow===r){verifiedOriginalUrl='';q('downloadPng').hidden=true;q('rawLink').textContent='原图加载失败 · 重试打开原图 ↗';q('adaptation').textContent='原图加载失败，当前仅显示预览图。';}};
     full.src=url;
-  }catch(e){if(curRow===r)q('adaptation').textContent='GPT Image PNG 暂不可用，当前显示预览图。';}
+  }catch(e){if(curRow===r)q('adaptation').textContent='原图入口解析失败，当前仅显示预览图。';}
 }
 function stepRow(d){if(!curRow||!doneRows.length)return;const i=doneRows.findIndex(x=>x.id===curRow.id);const n=(i+d+doneRows.length)%doneRows.length;show(doneRows[n]);}
 function render(){q('grid').replaceChildren();if(!rows.length){const p=document.createElement('p');p.setAttribute('role','alert');p.textContent='图片列表暂时无法显示，请刷新页面重试。';q('grid').append(p);q('page').disabled=true;q('prev').disabled=true;q('next').disabled=true;q('page-status').textContent='数据加载失败';return;}const slice=rows.filter(r=>r.page===page);for(const r of slice){const card=document.createElement('article');card.className='card';card.dataset.id=r.id;card.dataset.index=r.index;const body=document.createElement('div');body.className='info';const title=document.createElement('h2');title.textContent=String(r.index).padStart(4,'0')+' · '+r.title;const meta=document.createElement('div');meta.className='meta';meta.textContent=r.id+' · '+(r.status==='done'?'AI 生成':r.status==='deferred'?'待处理':r.status==='failed'?'未生成 · 待确认':'待生成');body.append(title,meta);if(r.status==='done'){const detail=document.createElement('button');detail.className='details-button';detail.textContent='详情与提示词';detail.onclick=()=>show(r);body.append(detail);const b=document.createElement('button');b.setAttribute('aria-label',(gpt(r)?'查看原图：':'查看预览：')+r.title);b.title=gpt(r)?'查看原图':'查看预览';const im=document.createElement('img');im.src=previewSrc(r);im.alt=r.title;im.loading='lazy';b.append(im);b.classList.toggle('has-gpt',!!gpt(r));b.onclick=()=>openOriginal(r);card.append(b)}else{const p=document.createElement('div');p.className='pending';p.textContent=r.status==='deferred'?'暂留待处理':r.status==='failed'?'未生成 · 待确认':'待生成';card.append(p)}card.append(body);q('grid').append(card)}q('page').value=page;q('prev').disabled=page===1;q('next').disabled=page===34;q('page-status').textContent='本页 '+slice.length+' 项，已生成 '+slice.filter(r=>r.status==='done').length+' 张'+(slice.some(r=>r.status==='deferred')?'，待处理 '+slice.filter(r=>r.status==='deferred').length+' 项':'');}

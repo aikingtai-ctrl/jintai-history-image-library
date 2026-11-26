@@ -44,7 +44,13 @@ async function show(r){
   if(q('imgDimBadge'))q('imgDimBadge').textContent='读取尺寸…';
   let verifiedOriginalUrl='';
   img.onload=()=>{const w=img.naturalWidth||0,h=img.naturalHeight||0;if(q('imgDimBadge')&&w&&h)q('imgDimBadge').textContent=w+'×'+h+' px · '+(info&&img.currentSrc===verifiedOriginalUrl?imageQualityLabel(w,h,info):info?'GPT Image 预览':'原有 JPEG');};
-  img.onerror=null;img.src=src;img.alt=r.title;
+  img.onerror=()=>{
+    if(curRow!==r||!verifiedOriginalUrl||img.src!==new URL(verifiedOriginalUrl,location.href).href)return;
+    q('rawLink').textContent='原图加载失败 · 重试打开原图 ↗';q('downloadPng').hidden=true;
+    q('adaptation').textContent='原图加载失败，当前仅显示预览图。';
+    verifiedOriginalUrl='';img.onerror=null;img.src=src;
+  };
+  img.src=src;img.alt=r.title;
   q('rawLink').href=src;q('rawLink').textContent='新窗口查看预览图 ↗';
   q('downloadPng').hidden=true;
   q('savedJpg').hidden=!(info&&oldJpg);if(!q('savedJpg').hidden)q('savedJpg').href=oldJpg;
@@ -54,18 +60,24 @@ async function show(r){
   if(!info)return;
   try{
     const url=await gptOriginalUrl(info);if(curRow!==r)return;
+    const originalUrl=new URL(url,location.href),previewUrl=new URL(src,location.href);
+    if(originalUrl.origin===previewUrl.origin&&originalUrl.pathname===previewUrl.pathname)throw new Error('原图与预览路径相同');
+    verifiedOriginalUrl=url;
+    q('rawLink').href=url;q('rawLink').textContent='新窗口查看原图 ↗';
+    const downloadUrl=new URL(url,location.href);downloadUrl.searchParams.set('download','1');
+    q('downloadPng').href=downloadUrl.href;q('downloadPng').textContent='下载原图';q('downloadPng').hidden=false;
     const full=new Image();
     full.onload=()=>{
       if(curRow!==r)return;
-      if((info.width&&full.naturalWidth!==Number(info.width))||(info.height&&full.naturalHeight!==Number(info.height))){q('adaptation').textContent='原图尺寸与验收清单不符，当前仅显示预览图。';return;}
-      verifiedOriginalUrl=url;
-      q('rawLink').href=url;q('rawLink').textContent='新窗口查看 GPT Image PNG ↗';
-      q('downloadPng').href=gptDownloadUrl(url);q('downloadPng').hidden=false;
+      if((info.width&&full.naturalWidth!==Number(info.width))||(info.height&&full.naturalHeight!==Number(info.height))){
+        verifiedOriginalUrl='';q('rawLink').removeAttribute('href');q('rawLink').textContent='原图尺寸异常';
+        q('downloadPng').hidden=true;q('adaptation').textContent='原图尺寸与验收清单不符，当前仅显示预览图。';return;
+      }
       img.src=url;
     };
-    full.onerror=()=>{if(curRow===r){q('downloadPng').hidden=true;q('rawLink').href=src;q('rawLink').textContent='新窗口查看预览图 ↗';q('adaptation').textContent='GPT Image PNG 暂不可用，当前显示预览图。';}};
+    full.onerror=()=>{if(curRow===r){verifiedOriginalUrl='';q('downloadPng').hidden=true;q('rawLink').textContent='原图加载失败 · 重试打开原图 ↗';q('adaptation').textContent='原图加载失败，当前仅显示预览图。';}};
     full.src=url;
-  }catch(e){if(curRow===r)q('adaptation').textContent='GPT Image PNG 暂不可用，当前显示预览图。';}
+  }catch(e){if(curRow===r)q('adaptation').textContent='原图入口解析失败，当前仅显示预览图。';}
 }
 if(q('copyPromptBtn'))q('copyPromptBtn').onclick=async()=>{if(!curRow||!curRow.prompt)return;try{await navigator.clipboard.writeText(curRow.prompt);}catch(e){}q('copyPromptBtn').textContent='已复制 ✓';setTimeout(()=>q('copyPromptBtn').textContent='复制提示词',1200);};
 function stepRow(d){if(!curRow||!doneRows.length)return;const i=doneRows.findIndex(x=>x.id===curRow.id);const n=(i+d+doneRows.length)%doneRows.length;show(doneRows[n]);}
