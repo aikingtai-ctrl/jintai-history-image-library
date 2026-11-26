@@ -155,6 +155,76 @@
         "sha256": "a57262d33c910a90c924f4e58ca6f9463875f8202a980068f4d427b8cac8055e"
       }
     ],
+    "35-shots-of-rum-2008": [
+      {
+        "src": "film-ai/decks/film-35-shots-of-rum-2008.webp",
+        "sha256": "da3fbef772372e63f6a09deaf18d7932f0bae183ef95d8b062c5503a44e095aa"
+      },
+      {
+        "src": "film-ai/35-shots-of-rum-2008.jpg",
+        "sha256": "1a0d24d947cb2b00f41fed83f9689c7ccf25439dff6a531984b817fa52cade40"
+      }
+    ],
+    "4-months-3-weeks-and-2-days-2007": [
+      {
+        "src": "film-ai/decks/film-4-months-3-weeks-and-2-days-2007.webp",
+        "sha256": "45998dab3008d78f39b4e20dcf7afdad928cd1faf37bdc93e6c66b1dff3e7ff0"
+      },
+      {
+        "src": "film-ai/4-months-3-weeks-and-2-days-2007.jpg",
+        "sha256": "cc39168c227af64b73378dec0993f2afc5cd6480b1c92a0b7addc3f8f6d88c2f"
+      }
+    ],
+    "5-centimeters-per-second-2007": [
+      {
+        "src": "film-ai/decks/film-5-centimeters-per-second-2007.webp",
+        "sha256": "bac579fa7825dd3097b966850e18943ad1e9778b7c48954aaca9b2928e97993e"
+      },
+      {
+        "src": "film-ai/5-centimeters-per-second-2007.jpg",
+        "sha256": "fb91769b126fcdd4c823b7167ea18850c2865a79467e5ac2b591421d8ee0401a"
+      }
+    ],
+    "500-days-of-summer-2009": [
+      {
+        "src": "film-ai/decks/film-500-days-of-summer-2009.webp",
+        "sha256": "556b3ed36af3afc1a3db3e2244b81a1ca498f45562f9837556bb3216e46354c4"
+      },
+      {
+        "src": "film-ai/500-days-of-summer-2009.jpg",
+        "sha256": "8f23c024d3b5e2a3d1edd1b9ea9c36291ff2b7657a22ad49665e632b9c30c474"
+      }
+    ],
+    "a-beautiful-mind-2001": [
+      {
+        "src": "film-ai/decks/film-a-beautiful-mind-2001.webp",
+        "sha256": "2b1a374f94ca4cc6cfd44473d3a8898a0f82283a2976c183ecbfbb127fd0d2f5"
+      },
+      {
+        "src": "film-ai/a-beautiful-mind-2001.jpg",
+        "sha256": "610de2a5dc0b7bc9a97be3b026a26530d83cfc6f4a00ae8affbedb7acf41de49"
+      }
+    ],
+    "a-bittersweet-life-2005": [
+      {
+        "src": "film-ai/decks/film-a-bittersweet-life-2005.webp",
+        "sha256": "541971c55af63315dcf56394453a0307ebb758c8fc544a0279dc5943862bb93f"
+      },
+      {
+        "src": "film-ai/a-bittersweet-life-2005.jpg",
+        "sha256": "21d8160bf00cac32c3e9f44f19f44b74ea0f6632b90a8c43f0b16bd4e8e0af11"
+      }
+    ],
+    "a-chinese-ghost-story-1987": [
+      {
+        "src": "film-ai/decks/film-a-chinese-ghost-story-1987.webp",
+        "sha256": "b38e6ff5dced0ef1d8373af6ff55a6436aa04f89c5ceb919499d49e34bfbb950"
+      },
+      {
+        "src": "film-ai/a-chinese-ghost-story-1987.jpg",
+        "sha256": "fa20f96f234d3cda82bf5f1081b12218abfb7274c6c7839fdc0aa7e4b4f5a201"
+      }
+    ],
     "a-chinese-odyssey-part-one-pandoras-box-1995": [
       {
         "src": "film-ai/decks/film-a-chinese-odyssey-part-one-pandoras-box-1995.webp",
@@ -163,6 +233,16 @@
       {
         "src": "film-ai/a-chinese-odyssey-part-one-pandoras-box-1995.jpg",
         "sha256": "e4b015e88a92cccb467674d736a5731e5eee54dd448a3df586b503ca7dab673c"
+      }
+    ],
+    "a-chinese-odyssey-part-two-cinderella-1995": [
+      {
+        "src": "film-ai/decks/film-a-chinese-odyssey-part-two-cinderella-1995.webp",
+        "sha256": "3af9a7088180019c25b5d7587f5a3d719e5a903b1d2a95cdc38c557542d8d0ab"
+      },
+      {
+        "src": "film-ai/a-chinese-odyssey-part-two-cinderella-1995.jpg",
+        "sha256": "068880fd80ee40d13a98acb67174303dc4e156cc8149db654bb11cb8c7f28477"
       }
     ],
     "a-city-of-sadness-1989": [
@@ -175,6 +255,106 @@
         "sha256": "0c9a29ed0e0ae642dfb82076efa455c8a982e6b7080ee5ea0bb7020caacb85e7"
       }
     ],
+    "a-clockwork-orange-1971": [
+      {
+        "src": "film-ai/decks/film-a-clockwork-orange-1971.webp",
+        "sha256": "84da7fb032989ccef96713e0efa7d50ff03fd31d2d2ea4dab8912b7043aab084"
+      },
+      {
+        "src": "film-ai/a-clockwork-orange-1971.jpg",
+        "sha256": "f25b9c9d62aa446e7015bf8e5ff5a07ba20a63ee92d85679001ed0f480721f69"
+      }
+    ],
+    "a-fantastic-woman-2017": [
+      {
+        "src": "film-ai/decks/film-a-fantastic-woman-2017.webp",
+        "sha256": "a8b51be56e4e1635acdd0ea93db21960866e5862ffad0d2f118cc65b37ac52f8"
+      },
+      {
+        "src": "film-ai/a-fantastic-woman-2017.jpg",
+        "sha256": "89d0044393d29226913ffd0370d8c9a654c92ace97bb6d1e5a7c23e69fce35c0"
+      }
+    ],
+    "a-field-in-england-2013": [
+      {
+        "src": "film-ai/decks/film-a-field-in-england-2013.webp",
+        "sha256": "eb2dadacb66eef999e4928ac71c2f81ccb54c784710dad6812df52725fd35f2f"
+      },
+      {
+        "src": "film-ai/a-field-in-england-2013.jpg",
+        "sha256": "fdb94e027a2ceed83cc16dfe0558f1798f377549c6038c1beb6edacff853f281"
+      }
+    ],
+    "a-fistful-of-dollars-1964": [
+      {
+        "src": "film-ai/decks/film-a-fistful-of-dollars-1964.webp",
+        "sha256": "b7e3548ff64eee949af79a653e1f0f496a2407ab103497c16a0fc75676bad6c7"
+      },
+      {
+        "src": "film-ai/a-fistful-of-dollars-1964.jpg",
+        "sha256": "a3de1dc8a0683ef660c098f7722a83d2132da279c77f1d303fcce9151a69704a"
+      }
+    ],
+    "a-flower-in-the-raining-night-1983": [
+      {
+        "src": "film-ai/decks/film-a-flower-in-the-raining-night-1983.webp",
+        "sha256": "86dba19ed61a1881fd262a38caae4e74f6c207c5d8bea3ec9645d0702384fbcd"
+      },
+      {
+        "src": "film-ai/goal9438/a-flower-in-the-raining-night-1983.jpg",
+        "sha256": "e2bea72ca9333bc9df501522f2c6d06da6dfe2e18285ffe8146fe52afa14173e"
+      }
+    ],
+    "a-fool-2014": [
+      {
+        "src": "film-ai/decks/film-a-fool-2014.webp",
+        "sha256": "404cde8ff2f1e48d2f43db59a7577ffdc84a658d5829587aff1cf435a6460aa3"
+      },
+      {
+        "src": "film-ai/a-fool-2014.jpg",
+        "sha256": "5c8613f43b6eb52635e873fa1613e4005b48f51e143790c0f30a1d422245eac4"
+      }
+    ],
+    "a-ghost-story-2017": [
+      {
+        "src": "film-ai/decks/film-a-ghost-story-2017.webp",
+        "sha256": "c33e0d23d28415ae7a96c6ed2f272b45c8ac5f6b86d03ee8b54e5ff9bdef5674"
+      },
+      {
+        "src": "film-ai/a-ghost-story-2017.jpg",
+        "sha256": "95aa88c92138e178bdd78a7a7af31181e7397788596e46b37d9dedc28e1ef569"
+      }
+    ],
+    "a-girl-at-my-door-2014": [
+      {
+        "src": "film-ai/decks/film-a-girl-at-my-door-2014.webp",
+        "sha256": "5ad3feb6fe944f779c6732421a2d6724f724fcb86ac76970e741c0bbf52f35df"
+      },
+      {
+        "src": "film-ai/a-girl-at-my-door-2014.jpg",
+        "sha256": "882c3486de82c8b8dd7724844471fc4336279c30d08e0516dbaa9d26436c4637"
+      }
+    ],
+    "a-hard-day-2014": [
+      {
+        "src": "film-ai/decks/film-a-hard-day-2014.webp",
+        "sha256": "d12fbb63960e250bda6f495d63536606c1e25fb6592f8760c087a36e565d178d"
+      },
+      {
+        "src": "film-ai/a-hard-day-2014.jpg",
+        "sha256": "dbeff4a78c46a396f243cf991bd0d0464ee6362321e02095b63641f10b1554cd"
+      }
+    ],
+    "a-hero-2021": [
+      {
+        "src": "film-ai/decks/film-a-hero-2021.webp",
+        "sha256": "05937bf88a81562d59e6b2fa97bdc1139e16624d0762cc856c3d56f3c93d2e5b"
+      },
+      {
+        "src": "film-ai/a-hero-2021.jpg",
+        "sha256": "661c610b4262f99af2d61473b101ef0634acd9669233c06394ab18f1aac1376a"
+      }
+    ],
     "a-hero-never-dies-1998": [
       {
         "src": "film-ai/shots/YS-20261103-2300-a-hero-never-dies-19-06.webp",
@@ -183,6 +363,26 @@
       {
         "src": "film-ai/a-hero-never-dies-1998.jpg",
         "sha256": "2414040edec9e14782b7a1b84868bbba47e611cc60ddaffaf2b8208f9dd837ca"
+      }
+    ],
+    "a-hidden-life-2019": [
+      {
+        "src": "film-ai/decks/film-a-hidden-life-2019.webp",
+        "sha256": "7ab51a5002fb53899b36c9b7502299d222fdccca0218c584c3255ca12b3bebff"
+      },
+      {
+        "src": "film-ai/a-hidden-life-2019.jpg",
+        "sha256": "033c7a792984271b812edcee003e0a1ce4fee595db4b45c1111fecaddf77d40d"
+      }
+    ],
+    "a-history-of-violence-2005": [
+      {
+        "src": "film-ai/decks/film-a-history-of-violence-2005.webp",
+        "sha256": "1548df52f0386f59c7bb3ffa9d8a9caf9c88a9a56b0e2300aafe57707e5927a7"
+      },
+      {
+        "src": "film-ai/a-history-of-violence-2005.jpg",
+        "sha256": "f93e89c711dfec88465a88b2e29f2ad3e55217e1996a61202dca25376fb04c27"
       }
     ],
     "a-matter-of-life-and-death-1946": [

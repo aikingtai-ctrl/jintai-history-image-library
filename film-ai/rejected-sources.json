@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T16:38:30.283756+08:00",
+  "updated_at": "2026-11-26T17:00:02.398609+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -142,6 +142,41 @@
       "sha256": "1e674a2f74705cab991ab1346ca347d5361ecd1e62108ef9ba0fde5bbe02c0d7",
       "reason": "Snow bear conflicts with the film's wolf scene",
       "evidence": "2026-11-26_影视多图候选只读审计/第九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "8-women-2002",
+      "src": "film-ai/8-women-2002.jpg",
+      "sha256": "40fe84cfd4da354d36e853034629138e22cf34c02e850833b367c478316cd6f2",
+      "reason": "East Asian duo does not match the French ensemble cast",
+      "evidence": "2026-11-26_影视多图候选只读审计/第十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "a-cool-fish-2018",
+      "src": "film-ai/a-cool-fish-2018.jpg",
+      "sha256": "96b81461b9fa4068990cfed6d8dbc1321be041154357ac041e22081976cb39a6",
+      "reason": "Period fantasy collage is unrelated to the modern crime comedy",
+      "evidence": "2026-11-26_影视多图候选只读审计/第十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "a-family-in-northern-tibet-1991",
+      "src": "film-ai/a-family-in-northern-tibet-1991.jpg",
+      "sha256": "93256fffcf8442a539240a2697ad953ed6f6c57570177665a431326db9c6f0a3",
+      "reason": "New York suited men are unrelated to northern Tibetan pastoral life",
+      "evidence": "2026-11-26_影视多图候选只读审计/第十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "a-borrowed-life-1994",
+      "src": "film-ai/a-borrowed-life-1994.jpg",
+      "sha256": "c11352fe193a6ca2f624b52b02d4095b5a7cadfb86d750cd37114c2daf5b64a1",
+      "reason": "Title poster is not a standalone film image",
+      "evidence": "2026-11-26_影视多图候选只读审计/第十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "a-good-woman-1985",
+      "src": "film-ai/a-good-woman-1985.jpg",
+      "sha256": "e661cde4014c6bdb28b991520c04112cb1f316bb409287585aa2cc5610f97c73",
+      "reason": "Lettered poster uses a different title and is not a standalone film image",
+      "evidence": "2026-11-26_影视多图候选只读审计/第十批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
