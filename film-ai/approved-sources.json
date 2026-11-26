@@ -5065,6 +5065,36 @@
         "sha256": "1da2aa35f6d7d44d1de051b1860f5f8a52af9371759f2dd6e874b735e2ec1bfc"
       }
     ],
+    "honey-2010": [
+      {
+        "src": "film-ai/decks/film-honey-2010.webp",
+        "sha256": "10d5096353d649a88b5406ba3e008ed1571b86621fe742d5582db2d87bdf676d"
+      },
+      {
+        "src": "film-ai/honey-2010.jpg",
+        "sha256": "5e817759fdf6e931cc4a4ad26ce9de7b86481a66c275e96ed4a3505128161b00"
+      }
+    ],
+    "honeyland-2019": [
+      {
+        "src": "film-ai/decks/film-honeyland-2019.webp",
+        "sha256": "d9f24387254a14752ba1f6d70d95cd6e9804eb84fa280f373f7192ec91a0b29d"
+      },
+      {
+        "src": "film-ai/honeyland-2019.jpg",
+        "sha256": "443b59d53624ffacce68e3ef7934f7aca72b43cd400b15d44f0dc2461dd0010c"
+      }
+    ],
+    "hoop-dreams-1994": [
+      {
+        "src": "film-ai/decks/film-hoop-dreams-1994.webp",
+        "sha256": "fe39344344c4395e191518191c766bc0b1acbfeba754d220baead817081f5330"
+      },
+      {
+        "src": "film-ai/hoop-dreams-1994.jpg",
+        "sha256": "eb89dc67729622c1447cf4a74594b2d82bfa5e7e6ac5350684d85c64dc098879"
+      }
+    ],
     "house-1977": [
       {
         "src": "film-ai/shots/YS-20261106F4-CL68-house-1977-006.webp",
@@ -5079,6 +5109,86 @@
         "sha256": "8bab373ac75f7929a71c3457e8db8e0885167bf5731e0c9b9dda3c37f5f16c03"
       }
     ],
+    "house-of-flying-daggers-2004": [
+      {
+        "src": "film-ai/decks/film-house-of-flying-daggers-2004.webp",
+        "sha256": "0417bf6cba2951a8cd488721c00a0f62c3db0efbcf15bd76c97da293207ef236"
+      },
+      {
+        "src": "film-ai/house-of-flying-daggers-2004.jpg",
+        "sha256": "0ef3510932823c20f15d43600cef042d55673f88d0d04f39b2548abc7f0bfa88"
+      }
+    ],
+    "house-of-hummingbird-2018": [
+      {
+        "src": "film-ai/decks/film-house-of-hummingbird-2018.webp",
+        "sha256": "4df84ed6e01b54889cf0b6a50d8f73a70daf414025b5b7ec40a82c92de92c6d1"
+      },
+      {
+        "src": "film-ai/house-of-hummingbird-2018.jpg",
+        "sha256": "3bd98b5c1616dc1e97075e77b23b4e1b7999c19d26dcf1fdad6feee67a51dce9"
+      }
+    ],
+    "how-green-was-my-valley-1941": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-how-green-was-my-valley-1941.webp",
+        "sha256": "3e555ac8499eef9e764a4dcd7b819511ce3be6111cb1de898fdde8e76178ad0f"
+      },
+      {
+        "src": "film-ai/how-green-was-my-valley-1941.jpg",
+        "sha256": "d1ef2b44c4448582d9c93380a241f98cf25a77cb2253fe29cc75ff63131e0392"
+      }
+    ],
+    "how-to-make-millions-before-grandma-dies-2024": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-how-to-make-millions-before-grandma-dies-2024.webp",
+        "sha256": "4aa09758f555aa112e5881b649ddf7030db5b167b95e60be276ee752399cb9ac"
+      },
+      {
+        "src": "film-ai/how-to-make-millions-before-grandma-dies-2024.jpg",
+        "sha256": "3fd30b4321b63eea8ed666f976025c402d4a6ec5d16fa2cc130db865fcb6ddc2"
+      }
+    ],
+    "how-to-train-your-dragon-2010": [
+      {
+        "src": "film-ai/firstshot-20261126/how-to-train-your-dragon-2010.jpg",
+        "sha256": "08e82c7dc4c88b0c0354c604e7d9fba38787083cb79356e97b196a6d84066b78"
+      },
+      {
+        "src": "film-ai/decks/film-how-to-train-your-dragon-2010.webp",
+        "sha256": "37701ed6ddac5a5b963805f6b57ae2828b060616d91460c906d7f2da93629a6b"
+      }
+    ],
+    "howards-end-1992": [
+      {
+        "src": "film-ai/howards-end-1992.jpg",
+        "sha256": "90cd9dfb048cf525145283726b4ec8036e375fd9d222f749e6ecbe84b6bf010e"
+      },
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-howards-end-1992.webp",
+        "sha256": "b558ac4f7c9334daaf03344d17eed90099b7c2012df673e8a9668c4a2ff88f64"
+      }
+    ],
+    "hud-1963": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-hud-1963.webp",
+        "sha256": "21d226f2e9c9f9dcee0bcf7c0adb18f8e90e0f240a42bc4d2b25625f48bb591f"
+      },
+      {
+        "src": "film-ai/hud-1963.jpg",
+        "sha256": "ecc79f9bc956c012a68584851f64281b324ba421abbb58d4206732cb11926863"
+      }
+    ],
+    "hugo-2011": [
+      {
+        "src": "film-ai/shots/YS-20261028-C15-hugo-2011-11.webp",
+        "sha256": "7a57a7dd937bf1cb383dbf5fcdd5d7cc7442a29c7381ed037816027bb483b604"
+      },
+      {
+        "src": "film-ai/hugo-2011.jpg",
+        "sha256": "8161d23f9135e025bf46e267adb3375f6ebc2ccf8b5ee79046576197cc6810f1"
+      }
+    ],
     "humanity-and-paper-balloons-1937": [
       {
         "src": "film-ai/decks/film-humanity-and-paper-balloons-1937.webp",
@@ -5087,6 +5197,86 @@
       {
         "src": "film-ai/restored/humanity-and-paper-balloons-1937.jpg",
         "sha256": "43400d6868626014ae49ea94bdbca35f5d8d59b94439ff2014b198c17a3c6c80"
+      }
+    ],
+    "hunt-2022": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-hunt-2022.webp",
+        "sha256": "7f6f23f8c2edb22043d4492d7968c667bf9e79dc47103c960830fd935c421729"
+      },
+      {
+        "src": "film-ai/hunt-2022.jpg",
+        "sha256": "fe33aa7c5a3d613d3d167746ee019fc69a8734bfcd8d481b5014aa643d77654c"
+      }
+    ],
+    "i-am-love-2009": [
+      {
+        "src": "film-ai/i-am-love-2009.jpg",
+        "sha256": "916a0edca96415284144161beed26c6f9512607435d3b6d4fa9c43fee004a639"
+      },
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-i-am-love-2009.webp",
+        "sha256": "92db83104e0fbde1ba8fdd7ec16b72a08ff5b00efa866602fd89e11e885e0d4c"
+      }
+    ],
+    "i-am-not-madame-bovary-2016": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-i-am-not-madame-bovary-2016.webp",
+        "sha256": "8515210d6fb6b6f5c6539238e8f9e72f6986609d408be88801ddda476ed4e69e"
+      },
+      {
+        "src": "film-ai/i-am-not-madame-bovary-2016.jpg",
+        "sha256": "417c9d98a03639af072f26274a49e9936e67c322fad82dd4cadcc42e86bd65a7"
+      }
+    ],
+    "i-am-what-i-am-2021": [
+      {
+        "src": "film-ai/shots/YS-20261112-W2-i-am-what-i-am-2021-07.webp",
+        "sha256": "8d7f652b42e9360b447526bcc592208e88557f757dc993a198f97f48195af0ed"
+      },
+      {
+        "src": "film-ai/i-am-what-i-am-2021.jpg",
+        "sha256": "f9a1ea6beb4d29ba9a4ac93814d8a1a35f22b2c77a2138d88b9fa12769a4201d"
+      }
+    ],
+    "i-daniel-blake-2016": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-i-daniel-blake-2016.webp",
+        "sha256": "a808a863e965b8a409e30616e4167239aeb5920ac94d370d818a558dd92af150"
+      },
+      {
+        "src": "film-ai/i-daniel-blake-2016.jpg",
+        "sha256": "c83ec5d3f6d2b4a4e28fbccd5db261c7ae0803770e2d4c619b231108ee985d6e"
+      }
+    ],
+    "i-saw-the-devil-2010": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-i-saw-the-devil-2010.webp",
+        "sha256": "d2fa9c916766680ece942f27d9cf7ebf56364cface93b77db8211c54491f6ace"
+      },
+      {
+        "src": "film-ai/i-saw-the-devil-2010.jpg",
+        "sha256": "3e592265229948662c906924ed72205503b97b9ff2692b36777bdba72a1f4f68"
+      }
+    ],
+    "i-vitelloni-1953": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-i-vitelloni-1953.webp",
+        "sha256": "d0b575cf71fb5591ae2179b71dad1dda83bb06450354a98fcb40572024a9fa90"
+      },
+      {
+        "src": "film-ai/i-vitelloni-1953.jpg",
+        "sha256": "38911734613e652360db22af5848d7f41a13c2026e8587ad460a999d2b4920e8"
+      }
+    ],
+    "i-walked-with-a-zombie-1943": [
+      {
+        "src": "film-ai/i-walked-with-a-zombie-1943.jpg",
+        "sha256": "e1822c7bd7f8bcbedb52678a82a3776d9f553ecfc63636d5e9e78fdeb6c5d8c9"
+      },
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-i-walked-with-a-zombie-1943.webp",
+        "sha256": "54dfaf442983557deb4b15ac71c9a6136297bde8b5f779273a458cc849f6248c"
       }
     ],
     "i-wish-i-knew-2010": [
@@ -5111,6 +5301,26 @@
       {
         "src": "film-ai/restored/ida-2013.jpg",
         "sha256": "32b692d326cfe50590d37edd02fe5ec56a84c57d7ca9e5acd171936dff3139a9"
+      }
+    ],
+    "if-beale-street-could-talk-2018": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-if-beale-street-could-talk-2018.webp",
+        "sha256": "75299eb79cad6cf15a20d689ee87243ae72b76f8e37b6a215c2ceaedd99e7cb5"
+      },
+      {
+        "src": "film-ai/if-beale-street-could-talk-2018.jpg",
+        "sha256": "189f39a9f7d1ea8b8e6d7ecbb01589f558ee790c122e368a05329032dc921964"
+      }
+    ],
+    "il-divo-2008": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-il-divo-2008.webp",
+        "sha256": "571572d0407ef7ee77cc7629434446da8f327d1dae778b54642de803e4ce80b1"
+      },
+      {
+        "src": "film-ai/il-divo-2008.jpg",
+        "sha256": "e51f2bdf1a0536f1e384fb3b6bd1ffb84efc747171e389a6b9c22e4d822a6958"
       }
     ],
     "im-a-cyborg-but-thats-ok-2006": [

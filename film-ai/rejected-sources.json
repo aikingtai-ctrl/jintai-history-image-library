@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T02:19:44.749614+08:00",
+  "updated_at": "2026-11-27T02:43:25.164637+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -1087,6 +1087,41 @@
       "sha256": "dddf6dca0cb68f05c19c0c89502013f8c21b6bdbaef1aa988247296e758f7a85",
       "reason": "竖版图上直接印有《返乡 / Homecoming》片名及“严浩导演”字样，属于海报/字卡拼版而非剧情静帧。",
       "evidence": "第三十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "howls-moving-castle-2004",
+      "src": "film-ai/howls-moving-castle-2004.jpg",
+      "sha256": "fdfa3b9da4b840737c7e0cf1a13395ef8173e022148499e1d518724e4c84bdb8",
+      "reason": "画面是近写实的两名飞翔成年女子与粉色天使翼，既非 Sophie 老妪/Howl 的人物设定，也不符吉卜力手绘动画媒介。",
+      "evidence": "第三十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "hunger-2008",
+      "src": "film-ai/hunger-2008.jpg",
+      "sha256": "67666fc4f8e2c9bfd27dd73988a4d46147ff9bb5476091e91be7d0223809837a",
+      "reason": "东亚男子穿现代衬衣站于雪地外墙，人物、服饰与地点均和 Bobby Sands 的北爱监狱绝食情节冲突。",
+      "evidence": "第三十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "i-am-cuba-1964",
+      "src": "film-ai/i-am-cuba-1964.jpg",
+      "sha256": "9346f86a05fa4435f93c9b02531ce7aeb68e8afa893c43760c928287b2684b9c",
+      "reason": "整幅为棕榈海岸背景叠加巨大俄文片名“Я-КУБА”的标题卡，不是供单片展示的剧情静帧。",
+      "evidence": "第三十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "i-am-not-a-witch-2017",
+      "src": "film-ai/i-am-not-a-witch-2017.jpg",
+      "sha256": "af71e954506eeefc5e6f6b474515c9202c42496626b4c4552f40034f43d77b8f",
+      "reason": "主体是成人身体、夸张怪物眼与张嘴木面具，和片中九岁女孩及以缎带卷轴束缚的现实女巫营形象冲突。",
+      "evidence": "第三十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "ikiru-1952",
+      "src": "film-ai/ikiru-1952.jpg",
+      "sha256": "227e21323fd094f2d53e3825fcf689a6b32e99a0c6e342369fa77bc4f3567f68",
+      "reason": "近景主体是年轻男子，无法对应年迈的渡边勘治；桌前写着“虫疫係”的异样部门牌，与影片市民事务/公园线索不合。",
+      "evidence": "第三十二批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
