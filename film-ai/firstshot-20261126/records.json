@@ -1879,6 +1879,260 @@
       "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
       "method": "内置 imagegen",
       "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 23,
+      "wid": "src-04fccf722915885c",
+      "title": "Sicilia barocca",
+      "firstShotId": "VP-src-04fccf722915885c-01",
+      "scene": "Architectural documentary concept of Sicilian Baroque: warm pale stone church facades with curved balconies, ornate carved portals and sculptural columns in an old Sicilian square under clear daylight. No people, careful architectural detail.",
+      "actualPrompt": "Create one original AI content reference image, wide 16:9. Architectural documentary concept of Sicilian Baroque: warm pale stone church facades with curved balconies, ornate carved portals and sculptural columns in an old Sicilian square under clear daylight. No people, careful architectural detail. No watermark, no logos, no readable text. This is a new concept image, not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "3895e4ba64f99b3cf2cb0b94ba7c3a3fca4286f8994fb472c66c19fb069be745",
+      "preview": "film-ai/firstshot-20261126/src-04fccf722915885c.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/820c4298dc231f16f0ce7d1ed24af8194136f8d7/originals/film-expand-firstshot-20261126/src-04fccf722915885c.png",
+        "bytes": 3114584,
+        "sha256": "52662ffca300f97db0a12b573ab285d89e1b56b17fb1bf751fcf3881b2d5efd3",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-official-content-concept",
+      "sourceEvidence": [
+        "https://asac.labiennale.org/attivita/cinema/3594"
+      ],
+      "adaptationNote": "官方档案列为建筑艺术纪录片；据西西里巴洛克建筑主题构思，具体建筑与机位为AI概念合成。"
+    },
+    {
+      "ordinal": 31,
+      "wid": "src-0942ce8b40ccddca",
+      "title": "張大千的畫",
+      "firstShotId": "VP-src-0942ce8b40ccddca-01",
+      "scene": "Art-documentary concept: a quiet Chinese painting studio with original ink landscape paintings on rice paper, distant mountains rendered in expressive ink washes, brushes, inkstone and a partially unfurled scroll on a wooden table. No portrait or signature, original painting composition.",
+      "actualPrompt": "Remove only the small vertical calligraphy-like signature and red seal marks at the lower left of the narrow hanging scroll on the back wall, just right of the large landscape painting. Replace those tiny marks with matching plain rice-paper texture. Preserve all landscape paintings, ink strokes, brushes, inkstone, table, window, lighting and full composition. No signatures, seals, lettering or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "738310d048f662eff17e566d42eab91d2e9c0a5138df73d46eb68f12873ed1d3",
+      "preview": "film-ai/firstshot-20261126/src-0942ce8b40ccddca.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/820c4298dc231f16f0ce7d1ed24af8194136f8d7/originals/film-expand-firstshot-20261126/src-0942ce8b40ccddca.png",
+        "bytes": 2558816,
+        "sha256": "a4dac509043163e5d11510123faed9450a4169edeadaf54baac2137088905169",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-official-content-concept",
+      "sourceEvidence": [
+        "https://www.goldenhorse.org.tw/awards/nw/?serach_type=award&search_regist_year=1969"
+      ],
+      "adaptationNote": "金马奖官方档案确认《張大千的畫》为纪录片；依据绘画主题构思原创水墨工作室，非临摹张大千具体画作，未核实首镜。"
+    },
+    {
+      "ordinal": 34,
+      "wid": "src-09d3c06dc6c6ac86",
+      "title": "El patio de mi cárcel / My Prison Yard",
+      "firstShotId": "VP-src-09d3c06dc6c6ac86-01",
+      "scene": "Contemporary Spanish prison social-drama concept: a small group of fully clothed adult women rehearse a hopeful theatre scene in a plain prison common room, with simple chairs, barred high windows and handwritten scripts without legible words. Original faces, humane documentary light, no violence.",
+      "actualPrompt": "Create one original AI content reference image, wide 16:9. Contemporary Spanish prison social-drama concept: a small group of fully clothed adult women rehearse a hopeful theatre scene in a plain prison common room, with simple chairs, barred high windows and handwritten scripts without legible words. Original faces, humane documentary light, no violence. No watermark, no logos, no readable text. This is a new concept image, not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "8749688b7b2ab5905abf74704c5b16b0a5b45d479aa66666333570a407f80ec3",
+      "preview": "film-ai/firstshot-20261126/src-09d3c06dc6c6ac86.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/820c4298dc231f16f0ce7d1ed24af8194136f8d7/originals/film-expand-firstshot-20261126/src-09d3c06dc6c6ac86.png",
+        "bytes": 2238648,
+        "sha256": "4e1a07ed359d403a58c34ee2c715576dec10def862a70eefaf52c8e178b33a27",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-official-content-concept",
+      "sourceEvidence": [
+        "https://www.sansebastianfestival.com/2008/sections_and_films/official_selection/7/560094/in"
+      ],
+      "adaptationNote": "圣塞巴斯蒂安官方简介为西班牙女子监狱及Módulo 4戏剧团；据官方内容构思排演场景，原巴西男孩描述错片。"
+    },
+    {
+      "ordinal": 36,
+      "wid": "src-0abf1ba99fa839b8",
+      "title": "Le savon et le chat",
+      "firstShotId": "VP-src-0abf1ba99fa839b8-01",
+      "scene": "Original 1940s advertising-art concept: a curious domestic cat sits beside a plain white bar of soap and a simple washbasin, clean tiled background, charming hand-painted commercial illustration with soft pastel colors. No brand names or lettering.",
+      "actualPrompt": "Create one original AI content reference image, wide 16:9. Original 1940s advertising-art concept: a curious domestic cat sits beside a plain white bar of soap and a simple washbasin, clean tiled background, charming hand-painted commercial illustration with soft pastel colors. No brand names or lettering. No watermark, no logos, no readable text. This is a new concept image, not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "5837d053e04a43e628a50fdd0f1fd03094973137e7bd5e4de2fa78bedce46802",
+      "preview": "film-ai/firstshot-20261126/src-0abf1ba99fa839b8.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/820c4298dc231f16f0ce7d1ed24af8194136f8d7/originals/film-expand-firstshot-20261126/src-0abf1ba99fa839b8.png",
+        "bytes": 2492718,
+        "sha256": "1dea195c7c149e4b17cc5f0a29a801b9808c02d06c73f217680f92105cd88789",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-official-content-concept",
+      "sourceEvidence": [
+        "https://asac.labiennale.org/attivita/cinema/63756"
+      ],
+      "adaptationNote": "官方档案确认法国广告片《Le savon et le chat》；仅据官方片名“肥皂与猫”和广告类型构思，未核实剧情或首镜。"
+    },
+    {
+      "ordinal": 40,
+      "wid": "src-0daf697a40123bc4",
+      "title": "Poklad z Madhie",
+      "firstShotId": "VP-src-0daf697a40123bc4-01",
+      "scene": "Art-documentary concept: a quiet Tunisian museum display with an ancient Greek bronze artifact and carved marble fragments arranged on stone plinths under soft gallery light. Careful material textures, contemplative archaeological atmosphere, no labels or words.",
+      "actualPrompt": "Create one original AI content reference image, wide 16:9. Art-documentary concept: a quiet Tunisian museum display with an ancient Greek bronze artifact and carved marble fragments arranged on stone plinths under soft gallery light. Careful material textures, contemplative archaeological atmosphere, no labels or words. No watermark, no logos, no readable text. This is a new concept image, not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "4f5346442bc5101917090b8e385293289dfde10c0e23bcf03f8e162d510ff7de",
+      "preview": "film-ai/firstshot-20261126/src-0daf697a40123bc4.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/820c4298dc231f16f0ce7d1ed24af8194136f8d7/originals/film-expand-firstshot-20261126/src-0daf697a40123bc4.png",
+        "bytes": 2530092,
+        "sha256": "0ad980c33493fcc06d4d1905574971ccaa3b002326c3a8db3e6e533bb515c73f",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-official-content-concept",
+      "sourceEvidence": [
+        "https://asac.labiennale.org/attivita/cinema/8055",
+        "https://africultures.com/films/?no=22211"
+      ],
+      "adaptationNote": "威尼斯官方档案确认本片为艺术教育短片；Africultures资料提到突尼斯巴尔杜博物馆古希腊艺术遗物，据此构思展陈，非已核实首镜。"
+    },
+    {
+      "ordinal": 43,
+      "wid": "src-0edc070ff5b2e1e3",
+      "title": "L'appel du sud",
+      "firstShotId": "VP-src-0edc070ff5b2e1e3-01",
+      "scene": "Black-and-white documentary concept: a midcentury Swiss passenger train curves along an Alpine railway with a stone viaduct and mountain pass in the distance. Deep landscape perspective, precise railway textures, quiet natural daylight.",
+      "actualPrompt": "Create one original AI content reference image, wide 16:9. Black-and-white documentary concept: a midcentury Swiss passenger train curves along an Alpine railway with a stone viaduct and mountain pass in the distance. Deep landscape perspective, precise railway textures, quiet natural daylight. No watermark, no logos, no readable text. This is a new concept image, not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "d559ab3f22de44fd2c207e4db5baf98ba98082491cc58d6a9b0537ebecb703e1",
+      "preview": "film-ai/firstshot-20261126/src-0edc070ff5b2e1e3.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/820c4298dc231f16f0ce7d1ed24af8194136f8d7/originals/film-expand-firstshot-20261126/src-0edc070ff5b2e1e3.png",
+        "bytes": 3453066,
+        "sha256": "91ff81eca341de7e108c519b1442ed93f77efc3116c882d3d475411738454e29",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-official-content-concept",
+      "sourceEvidence": [
+        "https://asac.labiennale.org/attivita/cinema/6479",
+        "https://journals.openedition.org/decadrages/pdf/138"
+      ],
+      "adaptationNote": "官方档案确认瑞士交通传播题材纪录片；学术研究指出主题为瑞士南北交通与翻越阿尔卑斯，火车及机位为概念构思，非首镜。"
+    },
+    {
+      "ordinal": 64,
+      "wid": "src-11578a1d2e26c4b2",
+      "title": "Prelude To Power",
+      "firstShotId": "VP-src-11578a1d2e26c4b2-01",
+      "scene": "Black-and-white historical science-documentary concept: a fictional nineteenth-century experimenter in a plain waistcoat studies an iron induction ring with two wire coils, a galvanometer and a battery on a wooden laboratory bench. Focus on the electromagnetic apparatus and careful hands, no lettering.",
+      "actualPrompt": "Create one original AI content reference image, wide 16:9. Black-and-white historical science-documentary concept: a fictional nineteenth-century experimenter in a plain waistcoat studies an iron induction ring with two wire coils, a galvanometer and a battery on a wooden laboratory bench. Focus on the electromagnetic apparatus and careful hands, no lettering. No watermark, no logos, no readable text. This is a new concept image, not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "5cef309791900665e54d1e8034a7f55bde7192c5b20f8e014dea28911e56b469",
+      "preview": "film-ai/firstshot-20261126/src-11578a1d2e26c4b2.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/820c4298dc231f16f0ce7d1ed24af8194136f8d7/originals/film-expand-firstshot-20261126/src-11578a1d2e26c4b2.png",
+        "bytes": 2337255,
+        "sha256": "41e51d633e29d5a6cd20d7b7d6069769650df3723c4a2b426d691dd1ccb861bd",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-official-content-concept",
+      "sourceEvidence": [
+        "https://www.acmi.net.au/works/71786--prelude-to-power/"
+      ],
+      "adaptationNote": "ACMI官方馆藏简介确认法拉第电磁感应及感应环实验主题；据内容构思历史实验场景，非已核实首镜。"
+    },
+    {
+      "ordinal": 72,
+      "wid": "src-120ade18c818d8e2",
+      "title": "Les eaux souterraines",
+      "firstShotId": "VP-src-120ade18c818d8e2-01",
+      "scene": "Scientific documentary concept of underground water: a clear subterranean stream flows through a limestone cave, reflected light glints on wet rock and stalactites, a small pool reveals stone textures beneath the surface. Naturalistic cave illumination, no lava or portrait.",
+      "actualPrompt": "Create one original AI content reference image, wide 16:9. Scientific documentary concept of underground water: a clear subterranean stream flows through a limestone cave, reflected light glints on wet rock and stalactites, a small pool reveals stone textures beneath the surface. Naturalistic cave illumination, no lava or portrait. No watermark, no logos, no readable text. This is a new concept image, not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "ae680e45b821c3272cb413b30710ae3e5cb46db83eab00ec0989eaed7f03386d",
+      "preview": "film-ai/firstshot-20261126/src-120ade18c818d8e2.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/820c4298dc231f16f0ce7d1ed24af8194136f8d7/originals/film-expand-firstshot-20261126/src-120ade18c818d8e2.png",
+        "bytes": 3268355,
+        "sha256": "1c0570521efce517a1369742b393e564b1289bcd665cf3e30307090bca0488b1",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-official-content-concept",
+      "sourceEvidence": [
+        "https://asac.labiennale.org/attivita/cinema/4910",
+        "https://www.ville-pontarlier.fr/uploads/elfinder/Musee/Pierre%20Bichet%20-%20pour%20aller%20plus%20loin.pdf"
+      ],
+      "adaptationNote": "官方档案确认塔捷耶夫地下水科教短片；据主题构思石灰岩地下河，非火山人物传记海报、非首镜。"
+    },
+    {
+      "ordinal": 75,
+      "wid": "src-1217693697de08ad",
+      "title": "Late At Night",
+      "firstShotId": "VP-src-1217693697de08ad-01",
+      "scene": "Original painted-animation concept translating a late-night jazz mood into an atmospheric image: a small anonymous adult silhouette moves through a dark indigo city street, warm window lights and flowing violet brushstrokes suggest musical rhythm. Expressive paint textures, no recognizable performer, no words.",
+      "actualPrompt": "Remove only the faint cursive signature-like lettering at the extreme bottom-left corner of this purple nighttime street painting. Replace those tiny marks with matching purple-blue paint texture. Preserve the walking silhouette, cafe windows, street lamps, reflected lights, floating musical forms and entire painted composition. No signatures, words, symbols used as a logo, or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "2e84262a250737596c1c4d8a732f68ef47fef3ba61306a973bf5482c407e729b",
+      "preview": "film-ai/firstshot-20261126/src-1217693697de08ad.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/820c4298dc231f16f0ce7d1ed24af8194136f8d7/originals/film-expand-firstshot-20261126/src-1217693697de08ad.png",
+        "bytes": 2664211,
+        "sha256": "ca2b36b2ec567fa2f101cf6180f2f3acc09ee3e36b972d0f6049f993faf02fb5",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-official-content-concept",
+      "sourceEvidence": [
+        "https://outonscreen.com/wp-content/uploads/2021/07/1998guide.pdf",
+        "https://www.berlinale.de/en/1997/programme/19971303.html"
+      ],
+      "adaptationNote": "影展官方1998场刊第31页介绍动画、绘画与Cassandra Wilson音乐结合的情绪作品；据此构思夜行与绘画韵律，非格洛丽亚·格雷厄姆剧照、非首镜。"
+    },
+    {
+      "ordinal": 99,
+      "wid": "src-140b7bf522efd54e",
+      "title": "Kandinsky",
+      "firstShotId": "VP-src-140b7bf522efd54e-01",
+      "scene": "Art-documentary concept: an original abstract geometric painting displayed in a quiet gallery, with circles, angled lines, triangles and carefully balanced red, yellow, blue and black forms over a pale ground. Painted texture, original composition, no signature, no copied artwork.",
+      "actualPrompt": "Create one original AI content reference image, wide 16:9. Art-documentary concept: an original abstract geometric painting displayed in a quiet gallery, with circles, angled lines, triangles and carefully balanced red, yellow, blue and black forms over a pale ground. Painted texture, original composition, no signature, no copied artwork. No watermark, no logos, no readable text. This is a new concept image, not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "23cd7d5b75d59a20070cc70407c9dac396f445842a09141c19035d65d540337e",
+      "preview": "film-ai/firstshot-20261126/src-140b7bf522efd54e.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/820c4298dc231f16f0ce7d1ed24af8194136f8d7/originals/film-expand-firstshot-20261126/src-140b7bf522efd54e.png",
+        "bytes": 2141469,
+        "sha256": "dcde4c9a627a68d4bc00ecf52c6dc368535fede55280144c0eacc5e1192c517a",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-official-content-concept",
+      "sourceEvidence": [
+        "https://asac.labiennale.org/attivita/cinema/5174"
+      ],
+      "adaptationNote": "官方档案确认1958年彩色绘画纪录短片《Kandinsky》；据抽象绘画主题构思原创几何作品，非具体康定斯基画作复制、非首镜。"
     }
   ]
 }
