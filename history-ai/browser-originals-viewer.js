@@ -6,9 +6,12 @@
   'use strict';
   const DIRECT_FILES = [
     'browser-originals-manifest.js', 'three-manifest.js',
-    'southern-song-manifest.js', 'minguo-folk16-manifest.js',
+    'architecture-gpt-manifest.js', 'architecture-manifest.js',
+    'people-manifest.js', 'southern-song-manifest.js',
+    'southern-song-gpt-manifest.js', 'minguo-folk16-manifest.js',
     'xiongnu-manifest.js', 'specials-400-manifest.js',
-    'shanhaijing-originals-manifest.js', 'myth-originals-manifest.js',
+    'shanhaijing-gpt-manifest.js', 'shanhaijing-originals-manifest.js',
+    'myth-originals-manifest.js',
     'page23-originals-manifest.js', 'page22-originals-manifest.js',
     'page21-originals-manifest.js', 'page20-originals-manifest.js',
     'page19-originals-manifest.js', 'qing-manifest.js',
@@ -16,6 +19,8 @@
   ];
   const MAPS = [
     'JINTAI_BROWSER_IMAGES', 'JINTAI_THREE_IMAGES',
+    'JINTAI_ARCH_GPT_IMAGES', 'JINTAI_ARCH_IMAGES',
+    'JINTAI_PEOPLE_IMAGES', 'JINTAI_SHANHAIJING_GPT_IMAGES',
     'JINTAI_SOUTHERN_SONG_IMAGES', 'JINTAI_MINGUO_FOLK16_IMAGES',
     'JINTAI_XIONGNU_IMAGES', 'JINTAI_SPECIAL_IMAGES',
     'JINTAI_SHANHAIJING_IMAGES', 'JINTAI_MYTH_IMAGES',
@@ -161,7 +166,22 @@
   function loadManifest(file) {
     const script = document.createElement('script');
     script.src = 'history-ai/' + file + '?v=20261126';
-    script.onload = () => { if (typeof render === 'function') render(); if (document.querySelector('#modal.open')) updateModal(); };
+    script.onload = () => {
+      if (file === 'southern-song-manifest.js' || file === 'southern-song-gpt-manifest.js') {
+        const incoming = window.JINTAI_SOUTHERN_SONG_IMAGES || {};
+        const merged = window.__JT_BROWSER_SONG_IMAGES || {};
+        const ranks = window.__JT_BROWSER_SONG_RANKS || {};
+        const rank = file === 'southern-song-gpt-manifest.js' ? 2 : 1;
+        for (const [id, info] of Object.entries(incoming)) {
+          if ((ranks[id] || 0) <= rank) { merged[id] = info; ranks[id] = rank; }
+        }
+        window.__JT_BROWSER_SONG_IMAGES = merged;
+        window.__JT_BROWSER_SONG_RANKS = ranks;
+        window.JINTAI_SOUTHERN_SONG_IMAGES = merged;
+      }
+      if (typeof render === 'function') render();
+      if (document.querySelector('#modal.open')) updateModal();
+    };
     script.onerror = () => {
       galleryBase().then(base => {
         const fallback = document.createElement('script');
