@@ -31,7 +31,7 @@ function openOriginal(r){
   if(!info){window.open(preview,'_blank','noopener');return;}
   if(info.original){window.open(info.original,'_blank','noopener');return;}
   const tab=window.open('about:blank','_blank');
-  if(!tab){show(r);return;}
+  if(!tab){alert('浏览器阻止弹出原图，请允许弹出窗口后重试。');return;}
   tab.opener=null;
   gptOriginalUrl(info).then(url=>tab.location.replace(url)).catch(()=>tab.location.replace(preview));
 }
