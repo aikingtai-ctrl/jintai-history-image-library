@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "1577-a934d87505e2",
+  "revision": "1593-3886e14b8129",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -12619,6 +12619,134 @@
       "width": 1672,
       "height": 941,
       "sha256": "a934d87505e29bae7ae45cb07eee30985273f0526e1038ed817bd77c5fa196e2"
+    },
+    "HL-LIAO-SC-0044": {
+      "title": "辽代后期契丹贵族狩猎·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-SC-0044.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-SC-0044.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c51871f334bbdb50cc9ba2f12bd1a241d130796b0810e341e87de4fa4bea6f1b"
+    },
+    "HL-LIAO-SC-0045": {
+      "title": "辽代后期契丹贵族狩猎·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-SC-0045.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-SC-0045.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "62f23df2fa65ab420b26a356640375ea76fadb839d3f3a51266e88e728060bca"
+    },
+    "HL-JINGUO-SC-0048": {
+      "title": "金代后期开封围城·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-SC-0048.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-SC-0048.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "aada00ff24b8805cc14a22a9b21d7bc9e4dce388d100cb000809d10807136684"
+    },
+    "HL-JINGUO-SC-0049": {
+      "title": "金代后期开封围城·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-SC-0049.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-SC-0049.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "bdd89b3b39b269e0d532e23b0edc437dcdc987d0a7a006455456ec48c09a21b8"
+    },
+    "HL-JINGUO-SC-0050": {
+      "title": "金代后期开封围城·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-SC-0050.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-SC-0050.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5cd94df57d7d2f22999a90ed9eab25c45b6e9889dd769587b4b080f9b0df28ea"
+    },
+    "HL-JINGUO-SC-0051": {
+      "title": "金代后期开封围城·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-SC-0051.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-SC-0051.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "4d21e13befce230c6c0833f144bd8f183a2d6bd529066eb35be69e69584f9ced"
+    },
+    "HL-XIXIA-SC-0045": {
+      "title": "西夏末兴庆府围城·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0045.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0045.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "14dfe7ace0390d7e3686236b6a8768fc175fb1aa2fc7aa84e1f22a2ea9348aee"
+    },
+    "HL-XIXIA-SC-0046": {
+      "title": "西夏末兴庆府围城·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0046.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0046.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "97ed4884cd94d984faee12fc8ae41e72f2add83b7b970ea6112a0de7c86ceb68"
+    },
+    "HL-XIXIA-SC-0047": {
+      "title": "西夏末兴庆府围城·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0047.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0047.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3e81c47b5e7c91a801bb8842965a3cef0d7a93e0a59b6bdf2c0491246218a1e2"
+    },
+    "HL-XIXIA-SC-0048": {
+      "title": "西夏末兴庆府围城·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0048.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0048.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ace46a011d95cbdefd9c6e0cd4848606edc28fb04c14057bc0fb53f5c3dab5ed"
+    },
+    "HL-BSONG-SC-0106": {
+      "title": "北宋·卧房起居·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0106.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0106.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "fedaae840494396f91d6a09672264b4079571f4ebab5cb79354a3aebb1cb4f52"
+    },
+    "HL-BSONG-SC-0107": {
+      "title": "北宋·卧房起居·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0107.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0107.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c8a711d5d673714b30953e5c983e09defd4707057f458205ce28eb7d1e757a6e"
+    },
+    "HL-BSONG-SC-0108": {
+      "title": "北宋·卧房起居·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0108.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0108.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "427736bf82bbfa282bc9e7425811db28f9d526097df556f4207d8e5eaf11e608"
+    },
+    "HL-BSONG-SC-0109": {
+      "title": "北宋·卧房起居·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0109.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0109.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1eadbefb4c47e710577cd997ee1729f04f4e8b651533f74495603b040cf3fd12"
+    },
+    "HL-NSONG-SC-0070": {
+      "title": "南宋·门前邻里交谈·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0070.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0070.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "69798cb8a8c6f8b08a34899f1f8481639ce0ca1f6bb641fb8ca78e00fbad0147"
+    },
+    "HL-NSONG-SC-0071": {
+      "title": "南宋·门前邻里交谈·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0071.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0071.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3886e14b8129ab4a0c584bbcf84155f49a4efe96a324be065c8b4ec2ecf86712"
     }
   }
 }
