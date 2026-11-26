@@ -999,8 +999,16 @@ function openHistOriginal(r){
   const tab=window.open('about:blank','_blank');
   if(!tab){alert('浏览器阻止弹出原图，请允许弹出窗口后重试。');return;}
   tab.opener=null;
-  tab.document.body.textContent='正在打开原始图片…';
-  historyOriginalUrl(info).then(url=>tab.location.replace(url)).catch(()=>{tab.document.title='原图暂不可用';tab.document.body.textContent='原图入口暂不可用，请稍后重试。';});
+  tab.document.body.textContent='正在核对原始图片…';
+  historyOriginalUrl(info).then(url=>new Promise((resolve,reject)=>{
+    const probe=new Image();
+    probe.onload=()=>{
+      if((info.width&&probe.naturalWidth!==Number(info.width))||(info.height&&probe.naturalHeight!==Number(info.height)))reject(new Error('原图尺寸与验收清单不符'));
+      else resolve(url);
+    };
+    probe.onerror=()=>reject(new Error('原图加载失败'));
+    probe.src=url;
+  })).then(url=>tab.location.replace(url)).catch(()=>{tab.document.title='原图暂不可用';tab.document.body.textContent='原图暂不可用，未打开预览图冒充原图。';});
 }
 let historyTunnelPromise,historyTunnelFetchedAt=0;
 function historyGalleryBase(){
@@ -1512,5 +1520,6 @@ document.addEventListener('keydown',e=>{
 <script src="history-ai/page21-originals-manifest.js?v=20261125-page21-115" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 <script src="history-ai/page22-originals-manifest.js?v=20261125-page22-120" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 <script src="history-ai/page23-originals-manifest.js?v=20261125-page23-120" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
+<script src="history-ai/specials-views-ui.js?v=20261126-4000"></script>
 </body>
 </html>
