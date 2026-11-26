@@ -25,6 +25,16 @@
         "sha256": "45a918864409cfe64925f43cbf4ac9fed0ac969444ab6563637329be686fbfcb"
       }
     ],
+    "3-10-to-yuma-2007": [
+      {
+        "src": "film-ai/shots/YS-20261109F5-M68-3-10-to-yuma-2007-006.webp",
+        "sha256": "62f99f4f9977c5d73458fc5bd71c5841ba659f4cb0661bcc06f5166f9e75b0c3"
+      },
+      {
+        "src": "film-ai/3-10-to-yuma-2007.jpg",
+        "sha256": "872196b1da94bf2ecfa0ad0a77189fd9d2248eb5754331de005b98d68f2daf44"
+      }
+    ],
     "a-chinese-odyssey-part-one-pandoras-box-1995": [
       {
         "src": "film-ai/decks/film-a-chinese-odyssey-part-one-pandoras-box-1995.webp",
@@ -43,6 +53,16 @@
       {
         "src": "film-ai/restored/a-city-of-sadness-1989.jpg",
         "sha256": "0c9a29ed0e0ae642dfb82076efa455c8a982e6b7080ee5ea0bb7020caacb85e7"
+      }
+    ],
+    "a-hero-never-dies-1998": [
+      {
+        "src": "film-ai/shots/YS-20261103-2300-a-hero-never-dies-19-06.webp",
+        "sha256": "25b020d2247481787779d1bf518603b49d46b59e008484f1bffbb439e7d70f6d"
+      },
+      {
+        "src": "film-ai/a-hero-never-dies-1998.jpg",
+        "sha256": "2414040edec9e14782b7a1b84868bbba47e611cc60ddaffaf2b8208f9dd837ca"
       }
     ],
     "a-short-film-about-love-1988": [
@@ -199,6 +219,16 @@
         "sha256": "a6094eaca003266eafa65ff0cb89a2491d2e73389c377eca8aa8b73f843cda67"
       }
     ],
+    "bardo-2022": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261117-bardo-2022.webp",
+        "sha256": "6fc742b0b719b8e0a8fa1963c17bce7330c46f6a4a13e1c8c658c529d4595db3"
+      },
+      {
+        "src": "film-ai/bardo-2022.jpg",
+        "sha256": "d5f12f1f19340f24a0c991df9b406dfa3f4d0abd38c2446952f47503af6ed866"
+      }
+    ],
     "barry-lyndon-1975": [
       {
         "src": "film-ai/shots/YS-0048-01.webp",
@@ -299,6 +329,20 @@
         "sha256": "33a8a5bd528a2162a748c65253fdbcb8700dfe675bb8ee467d57a8004c966f83"
       }
     ],
+    "cabiria-1914": [
+      {
+        "src": "film-ai/shots/YS-20261109F5-M68-cabiria-1914-006.webp",
+        "sha256": "3f13a225fadc63628f51ed74df334a66565f6f9ebaf3ed2e283c328c2005be07"
+      },
+      {
+        "src": "film-ai/decks/film-cabiria-1914.webp",
+        "sha256": "fc7e6987a68332a78bfc91d1744849afc4278666a7ffd3ce30e4fb040f0793d2"
+      },
+      {
+        "src": "film-ai/cabiria-1914.jpg",
+        "sha256": "844eeb1ce625f6ad5c99d3302e4366064c0ebd8dfd5cfba9c693fe77e7a975ab"
+      }
+    ],
     "calabash-brothers-1986": [
       {
         "src": "film-ai/shots/YS-20261112-2300-calabash-brothers-19-06.webp",
@@ -395,6 +439,16 @@
         "sha256": "0b1b5eeaf71597e5036026edc833054c512f597e0aa7fcd60989330075b07bff"
       }
     ],
+    "cock-and-bull-2016": [
+      {
+        "src": "film-ai/shots/YS-20261112-W3-cock-and-bull-2016-07.webp",
+        "sha256": "5dfaad7eb57f40f50cecf8bcb0af33bc4f780b494fb90d9b7c97bd0e4724cf83"
+      },
+      {
+        "src": "film-ai/decks/film-cock-and-bull-2016.webp",
+        "sha256": "e522284b836350d7271f059318343441a8e039f27ca1135bdce6990f8a90dadd"
+      }
+    ],
     "cold-war-2018": [
       {
         "src": "film-ai/shots/YS-20261110-2300-cold-war-2018-06.webp",
@@ -459,6 +513,48 @@
       {
         "src": "film-ai/restored/crouching-tiger-hidden-dragon-2000.jpg",
         "sha256": "16295e5bd12482bde22a2d1612c83eec8b78e1f56870c810cf7502c9aac779f4"
+      }
+    ],
+    "cruel-story-of-youth-1960": [
+      {
+        "src": "film-ai/shots/YS-20261109F5-M36-cruel-story-of-youth-1960-006.webp",
+        "sha256": "411b633f106e5ee5570060cbce64b16dcb21125f3fed70530e18df90f5cb54df"
+      },
+      {
+        "src": "film-ai/decks/film-cruel-story-of-youth-1960.webp",
+        "sha256": "cbc782523ac398c9a1eb0b0f3503b4e4605a8f15a43ba8405a123101c967bc0e"
+      },
+      {
+        "src": "film-ai/cruel-story-of-youth-1960.jpg",
+        "sha256": "b078ee628a6faed93c4c6d8713cd3ce1cc0cb3e6c54ea3334bf2a60f52d141d5"
+      }
+    ],
+    "daisies-1966": [
+      {
+        "src": "film-ai/shots/YS-20261106F4-CL68-daisies-1966-006.webp",
+        "sha256": "f8ac715944cec83fc69a57fc49d420ff7edb2fcec34b18f7cfea2325768a7c6b"
+      },
+      {
+        "src": "film-ai/decks/film-daisies-1966.webp",
+        "sha256": "40b43ce24f7617f140d1d7f07e14ce2fa22a6280ef85466c0e54833f7547921a"
+      },
+      {
+        "src": "film-ai/daisies-1966.jpg",
+        "sha256": "9cfbf7c808b6f6d0ad176bac9f51b98e32249646fe9b069d263f21d5f3a4413c"
+      }
+    ],
+    "dangerous-encounters-of-the-first-kind-1980": [
+      {
+        "src": "film-ai/shots/YS-20261103-2300-dangerous-encounters-06.webp",
+        "sha256": "61701cde7de2645c6c7fb8761a388c4e6255ff8cf867773f02ae2c8e824309c1"
+      },
+      {
+        "src": "film-ai/decks/film-dangerous-encounters-of-the-first-kind-1980.webp",
+        "sha256": "53270a4e95d81dfd97b945f52e839f1f3d840691a1769b06609637533c394b74"
+      },
+      {
+        "src": "film-ai/dangerous-encounters-of-the-first-kind-1980.jpg",
+        "sha256": "02aa12ea7e56d0b4c258ff7651ae16d695dfa73f9c1395ee0dc9cf57f386faac"
       }
     ],
     "days-of-being-wild-1990": [
@@ -589,6 +685,16 @@
         "sha256": "aa9003a74a7d95a2b7a575d8e25b6d77d4785bc2e0f07af91524ddbb5e9dbcb4"
       }
     ],
+    "evening-bell-1988": [
+      {
+        "src": "film-ai/shots/YS-20261118-GR-evening-bell-1988-01.webp",
+        "sha256": "68b0aa5295efb8dc87ce7967497056bf00f126837b977c6a9ec83753337a052e"
+      },
+      {
+        "src": "film-ai/decks/film-evening-bell-1988.webp",
+        "sha256": "04c482b4ce3a4e185f9efd6958e25edb70d88f54cdd98aa42cba71309357c31b"
+      }
+    ],
     "everything-everywhere-all-at-once-2022": [
       {
         "src": "film-ai/decks/film-everything-everywhere-all-at-once-2022.webp",
@@ -597,6 +703,16 @@
       {
         "src": "film-ai/restored/everything-everywhere-all-at-once-2022.jpg",
         "sha256": "199df7a62bd7001fc5aa5be88f0235eca4bbbc130ff8fe74b3dd80b38ebae2f3"
+      }
+    ],
+    "execution-in-autumn-1972": [
+      {
+        "src": "film-ai/shots/VP-execution-in-autumn-1972-01.webp",
+        "sha256": "ae2031881c648b07589b2aa6a4f28e68cff40e0aeda901c09b728b649cb181ad"
+      },
+      {
+        "src": "film-ai/execution-in-autumn-1972.jpg",
+        "sha256": "1f142f9a1bd5e4cd40c9917209d5bda9eb12a25402729ecc4d58a0db7ded16ec"
       }
     ],
     "fallen-angels-1995": [
@@ -809,6 +925,20 @@
         "sha256": "6a11f91790fd576563712cd2b3dd5efc7dd2efb6aaaec1dd3a51e4f3913a32b7"
       }
     ],
+    "heroic-sons-and-daughters-1964": [
+      {
+        "src": "film-ai/shots/YS-20261112-2300-heroic-sons-and-daug-07.webp",
+        "sha256": "9e8b2ec87a818605a433e165ab96e008f3574a201c5c044d375fc8b1b596d3d8"
+      },
+      {
+        "src": "film-ai/decks/film-heroic-sons-and-daughters-1964.webp",
+        "sha256": "042f12107a503c3a0fe7b125e9d8f4bb843f980e6f5d34f802e83d9a2331c2c5"
+      },
+      {
+        "src": "film-ai/heroic-sons-and-daughters-1964.jpg",
+        "sha256": "e17519bbbc7a4e374d44d0a1b6cfefa6ca6f7143aa2038fbf61aee4693f0c058"
+      }
+    ],
     "holy-motors-2012": [
       {
         "src": "film-ai/shots/YS-20261103-CW112-holy-motors-2012-105.webp",
@@ -899,6 +1029,20 @@
         "sha256": "134c2d4d42f55e02304567a56fd0113ac526c37330bc0655a91feda6e14ebe6e"
       }
     ],
+    "juliet-of-the-spirits-1965": [
+      {
+        "src": "film-ai/shots/YS-20261104-2300-juliet-of-the-spirit-06.webp",
+        "sha256": "f33dab936ed4b1d1dafdccef56ebb7d8515fda0c7e77316196aca625dca637fc"
+      },
+      {
+        "src": "film-ai/decks/film-juliet-of-the-spirits-1965.webp",
+        "sha256": "5dad7628294b0e80bffb1336e2d4ab449effd317175db8393328e8c382af1f68"
+      },
+      {
+        "src": "film-ai/juliet-of-the-spirits-1965.jpg",
+        "sha256": "49cfba618bcc37c6b3fb9e0dddbf6915537704af63bdc0c5ce02dc82df4fc399"
+      }
+    ],
     "keep-rolling-2020": [
       {
         "src": "film-ai/gallery-reviewed/keep-rolling-2020-01.webp",
@@ -931,6 +1075,30 @@
         "sha256": "ea976865efda02c69159f1ba6b770539309c5c2f2dd43754d0bafe4ae8e24b12"
       }
     ],
+    "kids-return-1996": [
+      {
+        "src": "film-ai/shots/YS-20261104-2300-kids-return-1996-06.webp",
+        "sha256": "c3a134c6502c62f6a5e269d06113969f2edd9513f8ad341bd3c0ed792b57c255"
+      },
+      {
+        "src": "film-ai/decks/film-kids-return-1996.webp",
+        "sha256": "4e731c750536204073f11e22340e95fdfac49768f68cb414a11d9577b79b659f"
+      },
+      {
+        "src": "film-ai/kids-return-1996.jpg",
+        "sha256": "bd0c2764f6a0a149d465f316e37fb192ac3e9a196b771fdbc1b373fa42e62900"
+      }
+    ],
+    "killer-clans-1976": [
+      {
+        "src": "film-ai/shots/YS-20261107-2300-killer-clans-1976-06.webp",
+        "sha256": "6d0c68450d908294c18d6f244a58b8105761f398a6e9c974ee2363dcc83aceb6"
+      },
+      {
+        "src": "film-ai/killer-clans-1976.jpg",
+        "sha256": "cacad42cb62c60570b1b2e5e1e7034e53507591eeba90479dfa6364e5ea30ca1"
+      }
+    ],
     "killer-of-sheep-1978": [
       {
         "src": "film-ai/shots/YS-20261111B5-M68-killer-of-sheep-1978-047.webp",
@@ -949,6 +1117,34 @@
         "sha256": "b38b3183d0b69a8b747b674aa9c29c3e200f4e76da8bd7eb0888ae89a4df2c9e"
       }
     ],
+    "la-terra-trema-1948": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-la-terra-trema-1948-037.webp",
+        "sha256": "0fc8cd7973f4a52a587de620df5333ac00b836afb13aeebce6bfbfab17be3480"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-la-terra-trema-1948-038.webp",
+        "sha256": "dd3c498d88f7ec6291a7139633c2812cf95269176ad7e2a4b25eb074292786c6"
+      },
+      {
+        "src": "film-ai/la-terra-trema-1948.jpg",
+        "sha256": "a38857a56648f58ab68cc5f383d0b1727dc9798f12f40ff1de060fa06ac291be"
+      }
+    ],
+    "last-tango-in-paris-1972": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-last-tango-in-paris-1972-037.webp",
+        "sha256": "589a6cb47a5051ee4a1f2d80b9e6cf6bd257f559c158a80a5290c1c224fd4c96"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-last-tango-in-paris-1972-038.webp",
+        "sha256": "fb1ba0de638b8b17c3d5514567e722e3ff266d6af3f2a166ee81b79cd706d2ad"
+      },
+      {
+        "src": "film-ai/last-tango-in-paris-1972.jpg",
+        "sha256": "2f9cc0ad4d56eab26fe1605f5455b19bd6f269f907c8a0ed1f8b19a7cc46523f"
+      }
+    ],
     "lawrence-of-arabia-1962": [
       {
         "src": "film-ai/shots/YS-0024-01.webp",
@@ -957,6 +1153,44 @@
       {
         "src": "film-ai/decks/film-lawrence-of-arabia-1962.webp",
         "sha256": "733e40d379db514d46e9fa98cbd8bc9dbf23c245415a1859fb0708284ca02439"
+      }
+    ],
+    "le-jour-se-leve-1939": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-le-jour-se-leve-1939-007.webp",
+        "sha256": "4e86a608e806f52f3f75ac1f0c85193d1f8328f9194c682335220dca7aa06511"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-le-jour-se-leve-1939-008.webp",
+        "sha256": "071b9649d80383bbcd5f773dd95b3ef5acd1df5876a9fe14110ae1e3cd49b190"
+      },
+      {
+        "src": "film-ai/le-jour-se-leve-1939.jpg",
+        "sha256": "e75e918e139ec2e7d7288dc8e79ca1d968c5998a2069aeed2c7d442fffa823ef"
+      }
+    ],
+    "life-1984": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-life-1984-059.webp",
+        "sha256": "1ef046334ae12ee06e63586c9d6701783efe34deeab0707fd8fe2312646c8691"
+      },
+      {
+        "src": "film-ai/life-1984.jpg",
+        "sha256": "ed5bb0afa2a194fdb0ca516fd91514020e560f7629f0d7d6920ae1ebf7d72d7a"
+      }
+    ],
+    "like-water-for-chocolate-1992": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-like-water-for-chocolate-1992-008.webp",
+        "sha256": "8a0672dad8009da49826726836d29334d3936061e85fdce62ea1d3a617b0a1f9"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-like-water-for-chocolate-1992-009.webp",
+        "sha256": "7fd61ea66365ebbc2a64ec18e595b350ffbcd1841a2f8a27ee94e9590275c42b"
+      },
+      {
+        "src": "film-ai/like-water-for-chocolate-1992.jpg",
+        "sha256": "47bf8389e3a0933d2035a83df64c8ab89dce9e5045095a3471f35e25342f217b"
       }
     ],
     "little-women-1994": [
@@ -977,6 +1211,16 @@
         "sha256": "6157ad2fce308007e3321537b91ca00cb62579b3fe193295d3deffbd61f6ebd7"
       }
     ],
+    "mauvais-sang-1986": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-mauvais-sang-1986-037.webp",
+        "sha256": "547f01864169e8d8aca10efac3fd156dbdd55ec83ca5f1d78b7dda191469f99c"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-mauvais-sang-1986-038.webp",
+        "sha256": "13d61973460bfb529227faa3fb57aca18c2e5aea28bee9e44b0d4c7e44d2426b"
+      }
+    ],
     "ming-dynasty-in-1566-2007": [
       {
         "src": "film-ai/shots/YS-20261111B5-M68-ming-dynasty-in-1566-2007-006.webp",
@@ -989,6 +1233,20 @@
       {
         "src": "film-ai/ming-dynasty-in-1566-2007.jpg",
         "sha256": "90d80ed0921a891069dedfdc2997ac312b8257083f0f95bb1a71fe41d36a563a"
+      }
+    ],
+    "mystery-2012": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-mystery-2012-037.webp",
+        "sha256": "f02e2eae4ce8fbf9480db013b7aa19bd89a65e7f5134ed60b65853dee3376b37"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-mystery-2012-038.webp",
+        "sha256": "799451f96f1671d79dfeaf6386dc173c0efb72529203aab3801342509defd2f0"
+      },
+      {
+        "src": "film-ai/mystery-2012.jpg",
+        "sha256": "4999125d475c5981e58f59227c84d231a36e5a9732e55a18ef070c182fde3288"
       }
     ],
     "new-gods-yang-jian-2022": [
@@ -1023,6 +1281,40 @@
         "sha256": "9de48e1d62b8a347ef9ca5edc092c0a05b79f9eb001d19a99efc5af20b33e3e3"
       }
     ],
+    "old-well-1987": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-old-well-1987-059.webp",
+        "sha256": "b49ea762b3d664565faa40225134c6d83fdf4b3419d7843c38787eff5b0f2749"
+      },
+      {
+        "src": "film-ai/old-well-1987.jpg",
+        "sha256": "a04cc27031c7b1895a1ec5952868df014a3544254ed9faba32a27eac7064544b"
+      }
+    ],
+    "one-and-eight-1984": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-one-and-eight-1984-008.webp",
+        "sha256": "bbf63cea2df97d240269cd234aee110a1ecb6246417d9662e324a0fc9b9202de"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-one-and-eight-1984-009.webp",
+        "sha256": "631c0b7cff6f8b73005b0ac6cae6875e7d8dc04a2b22e98348486aa279b1a9fa"
+      }
+    ],
+    "open-your-eyes-1997": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-open-your-eyes-1997-059.webp",
+        "sha256": "8f277ee8b2b506a00ec01fa62bd4cb7a8d4a5ed20dec94e3f32b9dde321ad397"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-open-your-eyes-1997-060.webp",
+        "sha256": "2a5534cbd8da4edca64d8634266c1fdcaf927f88badb51843fd6d0ca0468add6"
+      },
+      {
+        "src": "film-ai/open-your-eyes-1997.jpg",
+        "sha256": "d064551111320e968aeddfb958b042c613eeb6fdec62d2f87ab0b1719c146e53"
+      }
+    ],
     "oppenheimer-2023": [
       {
         "src": "film-ai/shots/YS-0072-01.webp",
@@ -1033,6 +1325,40 @@
         "sha256": "4b569925778937363513f9cd2732e9a2de7d2307739ddb35cfcb8e7135286901"
       }
     ],
+    "osaka-elegy-1936": [
+      {
+        "src": "film-ai/shots/YS-20261109F5-M36-osaka-elegy-1936-011.webp",
+        "sha256": "94cedf656f9febac363f3d0416650718d9826057759ae694d0329d642d288262"
+      },
+      {
+        "src": "film-ai/decks/film-osaka-elegy-1936.webp",
+        "sha256": "4d74dd401f20344b8ec6a9d249c77296835f74a5805736d127026405ae572262"
+      }
+    ],
+    "out-of-sight-1998": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-out-of-sight-1998-066.webp",
+        "sha256": "d7f18c1989fcb14a9f3975894aaf8b62f5a9be9c6272b5d6fdba6e4e2642c2fd"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-out-of-sight-1998-067.webp",
+        "sha256": "4ec535c980683aede12d73e495cb3c73a8930cb53283f557ea7db645a7dafa29"
+      },
+      {
+        "src": "film-ai/out-of-sight-1998.jpg",
+        "sha256": "05ee0eceaa7051942cd72315c1b2f1d5194da3138da97c41d948a3dbe5eec4be"
+      }
+    ],
+    "painted-skin-the-resurrection-2012": [
+      {
+        "src": "film-ai/shots/YS-20261112-2300-painted-skin-the-res-06.webp",
+        "sha256": "a582e2cb6ee2edc041e1256da7526532e629187f2c1f143f939a6ee9492cb80b"
+      },
+      {
+        "src": "film-ai/shots/YS-20261112-2300-painted-skin-the-res-07.webp",
+        "sha256": "9bcd973c7e8e70e54921d61c2e4339fdcd65ac982108356c22e670a29a6c8b4d"
+      }
+    ],
     "parasite-2019": [
       {
         "src": "film-ai/decks/film-parasite-2019.webp",
@@ -1041,6 +1367,16 @@
       {
         "src": "film-ai/restored/parasite-2019.jpg",
         "sha256": "315d99c3ec35620c3de3df32b85aa74137b3b68dfeb6ba0e61e7d7481ab3320e"
+      }
+    ],
+    "pickup-on-south-street-1953": [
+      {
+        "src": "film-ai/pickup-on-south-street-1953.jpg",
+        "sha256": "0c859cb84501aa84e73d754ab99fb249a7d6639d330fd2ea750aeec294492b92"
+      },
+      {
+        "src": "film-ai/decks/film-pickup-on-south-street-1953.webp",
+        "sha256": "d2e50be10f64aab1a3a396b711f8a959e991d7946c6151ffe4764b14f5781bbf"
       }
     ],
     "playtime-1967": [
@@ -1071,6 +1407,16 @@
       {
         "src": "film-ai/restored/portrait-of-a-lady-on-fire-2019.jpg",
         "sha256": "d70856f578634c71090bc2ffb3688c0786e45fb12aff7f70cba1e315a68170fd"
+      }
+    ],
+    "purple-butterfly-2003": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-purple-butterfly-2003-009.webp",
+        "sha256": "e3aa04d66fa6b3099dcea2350642bf87ca4a02073801cae2a44fee163153705f"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-purple-butterfly-2003-010.webp",
+        "sha256": "4ba2043c6205bb7cc9e275de9505d4d19417f6ca98401132bda7356bb282e764"
       }
     ],
     "raise-the-red-lantern-1991": [
@@ -1129,6 +1475,20 @@
       {
         "src": "film-ai/decks/film-sinners-2025.webp",
         "sha256": "8bd714bde5446f4780d934446622d4347d5f3a1432666968a61af9ad77379534"
+      }
+    ],
+    "sisters-of-the-gion-1936": [
+      {
+        "src": "film-ai/shots/YS-20261109F5-M36-sisters-of-the-gion-1936-011.webp",
+        "sha256": "031b72ea180491bf6f0477dcf07b50d92f06f20682ef0fffcdf83ff446b6f5f3"
+      },
+      {
+        "src": "film-ai/decks/film-sisters-of-the-gion-1936.webp",
+        "sha256": "7a64905ad9b3217de255dcf9cc452a2152dd05ef6b47e7a088125ac1d0a23d41"
+      },
+      {
+        "src": "film-ai/restored/sisters-of-the-gion-1936.jpg",
+        "sha256": "9a8e2dab58934f36e21bca4c47a18d5311be197509254af77ab333930d4e9ec7"
       }
     ],
     "spirited-away-2001": [
