@@ -91,7 +91,7 @@ const hlb = index.slice(index.indexOf('function renderHlb(){'), index.indexOf('f
 const hlbPreload = hlb.indexOf('const full=new Image();');
 assert(hlbPreload >= 0, 'Lightbox original load missing');
 assert(hlb.indexOf('raw.href=url;') >= 0 && hlb.indexOf('raw.href=url;') < hlbPreload, 'Lightbox original link waits for image load');
-assert(hlb.indexOf('download.hidden=false;') >= 0 && hlb.indexOf('download.hidden=false;') < hlbPreload, 'Lightbox original download waits for image load');
+assert(hlb.indexOf('download.hidden=false;') > hlb.indexOf('full.onload'), 'Lightbox download shown before original image validation');
 assert(hlb.includes("raw.textContent='原图加载失败 · 重试打开原图 ↗'"), 'Lightbox original-load failure not labeled');
 assert(index.includes('full.onerror') && index.includes('download.hidden=true'), 'Lightbox download failure fallback missing');
 const labelSource = functionSource(index, 'histOriginalLabel');
@@ -124,7 +124,7 @@ for (const name of ['history-batch.html', 'history-batch-1001-2000.html']) {
   const preload = show.indexOf('const full=new Image();');
   assert(preload >= 0, `${name}: original load missing`);
   assert(show.indexOf("q('rawLink').href=url") >= 0 && show.indexOf("q('rawLink').href=url") < preload, `${name}: original link waits for image load`);
-  assert(show.indexOf("q('downloadPng').hidden=false") >= 0 && show.indexOf("q('downloadPng').hidden=false") < preload, `${name}: original download waits for image load`);
+  assert(show.indexOf("q('downloadPng').hidden=false") > show.indexOf("full.onload"), `${name}: download shown before original image validation`);
   assert(show.includes("q('rawLink').textContent='原图加载失败 · 重试打开原图 ↗'"), `${name}: original-load failure not labeled`);
   await checkPopup(html, 'openOriginal', true);
 }
