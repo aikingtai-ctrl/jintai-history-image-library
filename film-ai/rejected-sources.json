@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T16:19:57.615270+08:00",
+  "updated_at": "2026-11-26T16:38:30.283756+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -100,6 +100,48 @@
       "sha256": "ff3da41e1a94ea5284909f79ec88578e159129a0a2b2dd8d337f771da934b982",
       "reason": "Adult vagrant is unrelated to the child protagonist Sanmao",
       "evidence": "2026-11-26_影视多图候选只读审计/第八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "i-know-where-im-going-1945",
+      "src": "film-ai/restored/i-know-where-im-going-1945.jpg",
+      "sha256": "9ccf508174be0a5f396b4bda21a4171f2e6428945919bf67ce03052472ff5fb6",
+      "reason": "Multi-face East Asian composite is unrelated to the Scottish-island film",
+      "evidence": "2026-11-26_影视多图候选只读审计/第九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "21-grams-2003",
+      "src": "film-ai/21-grams-2003.jpg",
+      "sha256": "ed458fb66100f543a27601eba6481edebb8b50a5060f1cfe065ca7c606a51a87",
+      "reason": "East Asian young man does not match the film's principal characters",
+      "evidence": "2026-11-26_影视多图候选只读审计/第九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "25th-hour-2002",
+      "src": "film-ai/25th-hour-2002.jpg",
+      "sha256": "1fc3fbaf414019da276e954801fdf4041a4e3f7fc665e5801b1e40cf91612319",
+      "reason": "East Asian elderly portrait does not match the principal characters",
+      "evidence": "2026-11-26_影视多图候选只读审计/第九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "28-days-later-2002",
+      "src": "film-ai/28-days-later-2002.jpg",
+      "sha256": "7c706574adb14218b30cc3d8ebfc7fe28de3ccb2fc5c9fede4b24fec12d9c545",
+      "reason": "Chinese interior signs are unrelated to the British epidemic story",
+      "evidence": "2026-11-26_影视多图候选只读审计/第九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "3-iron-2004",
+      "src": "film-ai/3-iron-2004.jpg",
+      "sha256": "1f2ae19920bd3507e0bb711da86ed7450bd45d4ccc0c910d02fbe91b7cbd9a2f",
+      "reason": "Handgun and blue balloon conflict with the film's golf-ball action",
+      "evidence": "2026-11-26_影视多图候选只读审计/第九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "300-2006",
+      "src": "film-ai/300-2006.jpg",
+      "sha256": "1e674a2f74705cab991ab1346ca347d5361ecd1e62108ef9ba0fde5bbe02c0d7",
+      "reason": "Snow bear conflicts with the film's wolf scene",
+      "evidence": "2026-11-26_影视多图候选只读审计/第九批30部两路径电影/逐图建议与联系表"
     }
   ]
 }

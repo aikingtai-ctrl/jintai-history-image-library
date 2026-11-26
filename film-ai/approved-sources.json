@@ -1,6 +1,56 @@
 {
   "schema": 1,
   "films": {
+    "11-flowers-2011": [
+      {
+        "src": "film-ai/decks/film-11-flowers-2011.webp",
+        "sha256": "6fccf2ca9e33a41c5cd597f3874158b955d9c5548601529919333eb76fe7bf48"
+      },
+      {
+        "src": "film-ai/11-flowers-2011.jpg",
+        "sha256": "b82b6f48673807a87ad8e34047d9c58cdfeab28a5b10b4d1492021ec3d7e45fc"
+      }
+    ],
+    "12-12-the-day-2023": [
+      {
+        "src": "film-ai/decks/film-12-12-the-day-2023.webp",
+        "sha256": "2f1d9af6adcccd2b36329c568a3e1a51ccdb7057cb565051485a1c754d5b9091"
+      },
+      {
+        "src": "film-ai/12-12-the-day-2023.jpg",
+        "sha256": "5a9362cab46168700e19c7aae83ee7914707ff46d1c0d3eac0a6f2929bee055a"
+      }
+    ],
+    "12-monkeys-1995": [
+      {
+        "src": "film-ai/decks/film-12-monkeys-1995.webp",
+        "sha256": "a30120aae127dbb62468e77ed2ebadce897dd1166f1758938f018c559caafc55"
+      },
+      {
+        "src": "film-ai/12-monkeys-1995.jpg",
+        "sha256": "b587df6f8b76949922bf091e0f2c9824438d921b9bf66909796cb8e18c1e1f2b"
+      }
+    ],
+    "127-hours-2010": [
+      {
+        "src": "film-ai/decks/film-127-hours-2010.webp",
+        "sha256": "4576ff4b0ad6c8dff572c0a159ca27421004c45f7bf2c1c6cf66ac28460c876c"
+      },
+      {
+        "src": "film-ai/127-hours-2010.jpg",
+        "sha256": "840c386aee88ed4310ebd8fd101b1131bd485b5853b66ec1e1edcab54147ab3a"
+      }
+    ],
+    "13-assassins-2010": [
+      {
+        "src": "film-ai/decks/film-13-assassins-2010.webp",
+        "sha256": "1f7edf64bbb9d6d4d438369d6c6c975ca9122faf251f862f15001757c1ec0e67"
+      },
+      {
+        "src": "film-ai/13-assassins-2010.jpg",
+        "sha256": "fcde489c21da1c6865aa71f97d06927844f52b40200fa227dccba421b0389143"
+      }
+    ],
     "1899-2022": [
       {
         "src": "film-ai/shots/YS-20261103-CN96-1899-2022-006.webp",
@@ -15,6 +65,16 @@
         "sha256": "d13d7cb11bbac96fa7ad6dfc83773be7e0f6bc974631908eabc8a0a8468243d3"
       }
     ],
+    "1900-1976": [
+      {
+        "src": "film-ai/decks/film-1900-1976.webp",
+        "sha256": "b1344946d3a6652025c9e0643a2840b3865a4596726f18f9342e8b4a80b32062"
+      },
+      {
+        "src": "film-ai/1900-1976.jpg",
+        "sha256": "fb82d4da93822e72da6a903fc2554873de2384afc77002b6759e9f2e83120658"
+      }
+    ],
     "1917-2019": [
       {
         "src": "film-ai/shots/YS-0041-01.webp",
@@ -23,6 +83,36 @@
       {
         "src": "film-ai/decks/film-1917-2019.webp",
         "sha256": "45a918864409cfe64925f43cbf4ac9fed0ac969444ab6563637329be686fbfcb"
+      }
+    ],
+    "1984-1984": [
+      {
+        "src": "film-ai/decks/film-1984-1984.webp",
+        "sha256": "817fbdf62aac8939aeb890ea12ac76a187a8d476c2c9009bf979e6f6b3af3d42"
+      },
+      {
+        "src": "film-ai/1984-1984.jpg",
+        "sha256": "108ba66c61bd544197af31dc60050a2d1372661006fb07b2b9ee5935ad04ca59"
+      }
+    ],
+    "1987-when-the-day-comes-2017": [
+      {
+        "src": "film-ai/decks/film-1987-when-the-day-comes-2017.webp",
+        "sha256": "3f0e7cf2a88c0eaaa3fa8212ce0551696180f229f8c2594cb8010543755a540c"
+      },
+      {
+        "src": "film-ai/goal9438/1987-when-the-day-comes-2017.jpg",
+        "sha256": "c9f053e12bce6c73135299aab6207eb0ee2f1aa63c5b8d4f8e94d4234e1ae4da"
+      }
+    ],
+    "2-or-3-things-i-know-about-her-1967": [
+      {
+        "src": "film-ai/decks/film-2-or-3-things-i-know-about-her-1967.webp",
+        "sha256": "018d21479f8209aea4a17e0de0bd9a0c3f5183468e31368c70c96c8f14946d17"
+      },
+      {
+        "src": "film-ai/2-or-3-things-i-know-about-her-1967.jpg",
+        "sha256": "b013dfab7c3c44e009457d28a6c6a7f5af5ff39d7b772a7d9496c5f5b5b79c8b"
       }
     ],
     "2001-a-space-odyssey-1968": [
@@ -35,6 +125,16 @@
         "sha256": "f05dcf79dfa22d06bf0b13fe70cf1b7c7ba042850e68aa0765033ca6a1fb1269"
       }
     ],
+    "2046-2004": [
+      {
+        "src": "film-ai/decks/film-2046-2004.webp",
+        "sha256": "9dc3eff816d5f233a70f2cef373c70f5cf8e57c94c7a27f0f28c116cb527f9a2"
+      },
+      {
+        "src": "film-ai/2046-2004.jpg",
+        "sha256": "fbcd6453ce4a73eca603f0fa1f2aaad872b002d90cd81dfe965601feea1c2410"
+      }
+    ],
     "3-10-to-yuma-2007": [
       {
         "src": "film-ai/shots/YS-20261109F5-M68-3-10-to-yuma-2007-006.webp",
@@ -43,6 +143,16 @@
       {
         "src": "film-ai/3-10-to-yuma-2007.jpg",
         "sha256": "872196b1da94bf2ecfa0ad0a77189fd9d2248eb5754331de005b98d68f2daf44"
+      }
+    ],
+    "3-idiots-2009": [
+      {
+        "src": "film-ai/decks/film-3-idiots-2009.webp",
+        "sha256": "196d8f77f744684732951d8d44389511b8663ca476b7644907d9f08dbdcc0cd3"
+      },
+      {
+        "src": "film-ai/3-idiots-2009.jpg",
+        "sha256": "a57262d33c910a90c924f4e58ca6f9463875f8202a980068f4d427b8cac8055e"
       }
     ],
     "a-chinese-odyssey-part-one-pandoras-box-1995": [
@@ -73,6 +183,16 @@
       {
         "src": "film-ai/a-hero-never-dies-1998.jpg",
         "sha256": "2414040edec9e14782b7a1b84868bbba47e611cc60ddaffaf2b8208f9dd837ca"
+      }
+    ],
+    "a-matter-of-life-and-death-1946": [
+      {
+        "src": "film-ai/decks/film-a-matter-of-life-and-death-1946.webp",
+        "sha256": "ca99dbeb0c52e5668b3d9ca43e15d1ac459c1a3654c161b9be236e7f6378b1af"
+      },
+      {
+        "src": "film-ai/restored/a-matter-of-life-and-death-1946.jpg",
+        "sha256": "97c06f280b1eb50a515009fc015870b877fc2a1b28b0ee5c00444b3046c4bd4f"
       }
     ],
     "a-page-of-madness-1926": [
@@ -377,6 +497,16 @@
       {
         "src": "film-ai/blood-and-black-lace-1964.jpg",
         "sha256": "33a8a5bd528a2162a748c65253fdbcb8700dfe675bb8ee467d57a8004c966f83"
+      }
+    ],
+    "brief-encounter-1945": [
+      {
+        "src": "film-ai/decks/film-brief-encounter-1945.webp",
+        "sha256": "b68f31a266fea84f6d66e0e161628fdd81a15deb913e81a10dd14bea63731f7d"
+      },
+      {
+        "src": "film-ai/restored/brief-encounter-1945.jpg",
+        "sha256": "ba51713f8798cde46ab96f952dc27fb4c6a7838a7c668d4926d57f5fa3a5da09"
       }
     ],
     "burning-2018": [
@@ -721,6 +851,16 @@
         "sha256": "d388970519eb913d59b9e0cf4473104a17031386e701b702e5634a18a422a454"
       }
     ],
+    "drunken-angel-1948": [
+      {
+        "src": "film-ai/decks/film-drunken-angel-1948.webp",
+        "sha256": "4067f10b78cd3bf16941def9f6f9ba4cec5dbb0810260754f931768480e2b1ba"
+      },
+      {
+        "src": "film-ai/restored/drunken-angel-1948.jpg",
+        "sha256": "006c76e7d24c7f30bb7d3812719f8bc18cf93436b9fee0decd5c7a24c36a9fbc"
+      }
+    ],
     "drunken-master-1978": [
       {
         "src": "film-ai/shots/YS-20261105-2300-drunken-master-1978-06.webp",
@@ -879,6 +1019,16 @@
       {
         "src": "film-ai/five-deadly-venoms-1978.jpg",
         "sha256": "c6d0dfe11ae98c4153937e82127953dc88d1d29d024a2277b1153d1a6a359202"
+      }
+    ],
+    "five-golden-flowers-1959": [
+      {
+        "src": "film-ai/decks/film-five-golden-flowers-1959.webp",
+        "sha256": "6e110f2174c1b6451823d958b46e19cb758878326a2f9a317c5d72e1b960870b"
+      },
+      {
+        "src": "film-ai/restored/five-golden-flowers-1959.jpg",
+        "sha256": "30f071c6677f83cf8201d7369e9625c3bd75a98e87c94558fffc55fd1755e2f5"
       }
     ],
     "fog-hill-of-five-elements-2020": [
@@ -1395,6 +1545,16 @@
         "sha256": "0381c5c8f9485fe0ee8398415bd8eb48e0d833b929fac34dda372bbd1d3c55c4"
       }
     ],
+    "mambo-girl-1957": [
+      {
+        "src": "film-ai/decks/film-mambo-girl-1957.webp",
+        "sha256": "32c17a338f457133157077c34ad1d786b7195835f23513977020d03e16b24991"
+      },
+      {
+        "src": "film-ai/restored/mambo-girl-1957.jpg",
+        "sha256": "cf470e8a779e7292d6a48e9dc4d6f723ca50cee6a59acd6686106b7cc31df8b5"
+      }
+    ],
     "mauvais-sang-1986": [
       {
         "src": "film-ai/shots/YS-20261111B5-M68-mauvais-sang-1986-037.webp",
@@ -1857,6 +2017,16 @@
       {
         "src": "film-ai/restored/the-lighthouse-2019.jpg",
         "sha256": "477105263cc373708895ac96e1988bc8759cc228e94555f3469f1bd21a8e6129"
+      }
+    ],
+    "the-lin-family-shop-1959": [
+      {
+        "src": "film-ai/decks/film-the-lin-family-shop-1959.webp",
+        "sha256": "b65e78dc0850811f455aaf8de19631b2d769e9cfabdedfdc5d73688c87b8f08b"
+      },
+      {
+        "src": "film-ai/restored/the-lin-family-shop-1959.jpg",
+        "sha256": "4df36716c9832d97fe50c02f977413075a6af2cde19e3baaeea4aa8c6956417b"
       }
     ],
     "the-spring-river-flows-east-1947": [
