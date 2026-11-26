@@ -152,6 +152,7 @@ main{max-width:1640px!important;padding:6px 26px 44px!important}
 <button id="next2">下一页</button>
 </div>
 </main>
+<script src="source-correction-aic18522.js?v=20261126"></script>
 <script>
 const JIMENG='https://chatgpt.com/';
 /*__SPECIALIST_V4_SHARD_START__*/
@@ -180,7 +181,7 @@ async function hydrateSpecialistData(){
   DATA.length=0;
   if(!shards.length){initCounts();apply();window.__JT_SPEC_FIRST_READY__=true;window.__JT_SPEC_ALL_READY__=true;return;}
   await loadSpecResource(shards[0]+ver,false,()=>{if(!window.__SPEC_V4_CHUNKS__[0])throw new Error('chunk');});
-  {const rows=_unpackWS(window.__SPEC_V4_CHUNKS__[0]);for(let j=0;j<rows.length;j++)DATA.push(rows[j]);delete window.__SPEC_V4_CHUNKS__[0];}
+  {const rows=_unpackWS(window.__SPEC_V4_CHUNKS__[0]);for(let j=0;j<rows.length;j++){const row=rows[j];if(window.applyJintaiPromptCorrection)window.applyJintaiPromptCorrection(row);DATA.push(row);}delete window.__SPEC_V4_CHUNKS__[0];}
   initCounts();
   apply();
   window.__JT_SPEC_FIRST_READY__=true;
@@ -190,7 +191,7 @@ async function hydrateSpecialistData(){
       const end=Math.min(shards.length,w+3),idxs=[];
       for(let i=w;i<end;i++)idxs.push(i);
       await Promise.all(idxs.map(i=>loadSpecResource(shards[i]+ver,false,()=>{if(!window.__SPEC_V4_CHUNKS__[i])throw new Error('chunk');})));
-      for(const i of idxs){const rows=_unpackWS(window.__SPEC_V4_CHUNKS__[i]);for(let j=0;j<rows.length;j++){const r=rows[j];if(typeof computeChronoRank==='function')r._cRank=computeChronoRank(r);DATA.push(r);}delete window.__SPEC_V4_CHUNKS__[i];}
+      for(const i of idxs){const rows=_unpackWS(window.__SPEC_V4_CHUNKS__[i]);for(let j=0;j<rows.length;j++){const r=rows[j];if(typeof computeChronoRank==='function')r._cRank=computeChronoRank(r);if(window.applyJintaiPromptCorrection)window.applyJintaiPromptCorrection(r);DATA.push(r);}delete window.__SPEC_V4_CHUNKS__[i];}
       await new Promise(r=>setTimeout(r,16));
     }
     const prevScroll=window.scrollY,prevPage=page;
