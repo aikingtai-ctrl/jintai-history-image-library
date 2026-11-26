@@ -154,6 +154,7 @@ jobs:
           assert browser_js.startswith("window.JINTAI_BROWSER_IMAGES="), "Browser original manifest invalid"
           browser_images = json.loads(browser_js.split("=", 1)[1].rstrip(";\n"))
           assert all(item.get("original_dir") == "history_browser_87386_codex_gpt_image_20261126" and item.get("filename", "").endswith(".png") and item.get("preview_filename", "").endswith(".webp") for item in browser_images.values()), "Browser original source mismatch"
+          assert "regenerated-manifest.js" not in idx_html and "JINTAI_REGENERATED_IMAGES" not in idx_html, "Unaccepted Qwen inventory linked"
           for rel in ("history-batch.html", "history-batch-1001-2000.html"):
               assert "function gpt(r){return window.JINTAI_GPT_IMAGES?.[r.id];}" in history_pages[rel], f"Accepted GPT Image priority missing in {rel}"
               assert "function previewSrc(r){return gpt(r)?.preview||histImgSrc(r.thumbnail);}" in history_pages[rel], f"Batch preview missing in {rel}"

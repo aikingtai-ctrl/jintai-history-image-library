@@ -162,6 +162,14 @@
     const script = document.createElement('script');
     script.src = 'history-ai/' + file + '?v=20261126';
     script.onload = () => { if (typeof render === 'function') render(); if (document.querySelector('#modal.open')) updateModal(); };
+    script.onerror = () => {
+      galleryBase().then(base => {
+        const fallback = document.createElement('script');
+        fallback.src = base + '/jintai-history-image-library/history-ai/' + encodeURIComponent(file) + '?v=20261126';
+        fallback.onload = script.onload;
+        document.head.appendChild(fallback);
+      }).catch(() => {});
+    };
     document.head.appendChild(script);
   }
   DIRECT_FILES.forEach(loadManifest);
