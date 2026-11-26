@@ -509,20 +509,30 @@ function zgOpenOriginal(record,info){
   }
   dlg.dataset.currentId=record.id;
   dlg.querySelector('strong').textContent=record.id+' · '+record.title;
-  const img=dlg.querySelector('img');img.onerror=()=>{img.onerror=null;img.src=info.full_preview_url;};img.src=info.preview_url;
-  const status=dlg.querySelector('.zg-lightbox-status');status.textContent='正在载入无损 PNG，当前显示预览…';
+  const img=dlg.querySelector('img');
+  img.removeAttribute('src');
+  img.style.display='none';
+  img.alt=record.title+' 无损原图';
+  const status=dlg.querySelector('.zg-lightbox-status');status.textContent='正在载入无损 PNG…';
   dlg.querySelector('a').href=info.original_url+'?download=1';
   dlg.showModal();
-  const original=new Image();
-  original.onload=()=>{
+  img.onload=()=>{
     if(!dlg.open || dlg.dataset.currentId!==record.id)return;
-    img.onerror=()=>{img.onerror=null;img.src=info.full_preview_url;};img.src=info.original_url;
+    if(img.naturalWidth!==info.width || img.naturalHeight!==info.height){
+      status.textContent='原图尺寸与登记不符，已停止显示';
+      img.style.display='none';
+      return;
+    }
+    img.style.display='';
     status.textContent='无损 PNG 已载入 · '+info.width+'×'+info.height;
   };
-  original.onerror=()=>{
-    if(dlg.open && dlg.dataset.currentId===record.id)status.textContent='原图暂不可达，可点下载链接重试';
+  img.onerror=()=>{
+    if(dlg.open && dlg.dataset.currentId===record.id){
+      img.style.display='none';
+      status.textContent='原图暂不可达，可点下载链接重试';
+    }
   };
-  original.src=info.original_url;
+  img.src=info.original_url;
 }
 
 function chgPage(delta) {
