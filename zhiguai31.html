@@ -186,6 +186,25 @@ async function loadSpecAllRes(relName,isManifest,checkFn){
   if(await loadSpecAllTag(SPEC_ALL_LOCAL+relName,checkFn,12000))return true;
   throw new Error('spec-all-load-'+clean);
 }
+const ZG_G031_TITLE='《卖胡粉女／买粉复生（拟题）》';
+const ZG_G031_NOTE='史料核对：本次所核《幽明录》记载富家子买胡粉、卖粉女子临尸恸哭、男子复生；未见白氍毹、画眉或卖粉女子施法。下方保留冻结的影视概念提示词，其中白毯、镜、服饰和场景细节不可当作古籍明文。';
+function zgCorrectG031Meta(meta){
+  const g=(meta.groups||[]).find(x=>x[0]==='ZG-20261028-G031');
+  if(g){
+    g[5]=ZG_G031_TITLE;
+    g[6]='富家子与卖胡粉女子（原典人物）；服饰造型为影视诠释';
+    g[7]='市肆买胡粉；女子临尸恸哭与男子复生（具体建筑为影视诠释）';
+    g[8]='百余裹胡粉见原典；漆盒、白毯、铜镜为影视诠释道具';
+    g[9]='《幽明录》对应段：富家子日往市买胡粉，女子临尸抚之恸哭，男子豁然更生。白氍毹与画眉未见本次核对原文。';
+  }
+  const b=(meta.books||[]).find(x=>x.book_no===5);
+  if(b){
+    b.stories=b.stories.map(x=>x==='《买粉儿白氍毹画眉复生》'?ZG_G031_TITLE:x);
+    b.characters=b.characters.map(x=>x.includes('执氍毹包裹尸身的侍婢')?'富家子与卖胡粉女子（服饰为影视诠释）':x);
+    b.scenes=b.scenes.map(x=>x.includes('白氍毹毛毯上少女魂魄')?'卖粉女子临尸恸哭、男子复生（具体场景为影视诠释）':x);
+    b.props=b.props.map(x=>x.includes('洁白羊毛氍毹毯与铜柄菱花镜')?'白毯与铜镜：影视诠释道具，非本次核对原典明文':x);
+  }
+}
 async function hydrateSpecialistPage(){
   if(document.getElementById('jt_gate_css')&&document.documentElement.getAttribute('data-jt-ok')!=='1')return;
   const stEl=document.getElementById('pCount');
@@ -196,6 +215,7 @@ async function hydrateSpecialistPage(){
   const boot=(mf&&mf.meta_shard)?(shards.length?[mf.meta_shard,shards[0]]:[mf.meta_shard]):(shards.length?[shards[0]]:[]);
   await Promise.all(boot.map(sh=>loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');})));
   const meta=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[mf.meta_shard]);delete window.__SPEC_ALL_CHUNKS__[mf.meta_shard];
+  zgCorrectG031Meta(meta);
   RAW.books=meta.books||[];
   RAW.groups=meta.groups||[];
   RAW.existing=meta.existing||[];
@@ -230,11 +250,14 @@ async function hydrateSpecialistPage(){
 const JIMENG = 'https://chatgpt.com/';
 const _mapZgItem = x => {
   const g = RAW.groups[x[2]];
+  const corrected=x[1].startsWith('ZG-20261028-03')&&x[0]>=301&&x[0]<=310;
+  const label=corrected&&x[0]===302?'02_卖粉女子人物造型（原词误标异类）':x[5];
+  const title=corrected?x[7].replace('《买粉儿白氍毹画眉复生》',ZG_G031_TITLE).replace('02_异类精怪或神魔本相化形特写',label):x[7];
   return {
     seq: x[0], id: x[1], gid: g[0], book_no: g[1], book: g[2], author_era: g[3],
     era: g[4], story: g[5], characters: g[6], scenes: g[7], props: g[8],
-    basis: g[9], url: g[10], asset_type: x[3], sub_type: x[4], label: x[5],
-    ratio: x[6], title: x[7], prompt: x[8]
+    basis: g[9], url: g[10], asset_type: x[3], sub_type: corrected&&x[0]===302?'人物/概念变体':x[4], label,
+    ratio: x[6], title, prompt: x[8], source_note: corrected?ZG_G031_NOTE:''
   };
 };
 const ITEMS = RAW.items.map(_mapZgItem);
@@ -363,6 +386,8 @@ function applyPrompts() {
   renderPrompts();
 }
 
+function zgDisplayPrompt(r){return r.source_note?r.source_note+'\n\n'+r.prompt:r.prompt;}
+
 function renderPrompts() {
   const total = filtered.length, pages = Math.max(1, Math.ceil(total / PAGE_SIZE));
   if (page >= pages) page = pages - 1;
@@ -391,7 +416,8 @@ function renderPrompts() {
         <div><b>关联道具：</b>${r.props}</div>
         <div><b>原典依据：</b>${r.basis}</div>
       </div>
-      <textarea readonly id="pt_${r.seq}">${r.prompt}</textarea>
+      ${r.source_note?`<div class="box"><b>史料核对：</b>${r.source_note}</div>`:''}
+      <textarea readonly id="pt_${r.seq}">${zgDisplayPrompt(r)}</textarea>
       <div class="bar" style="margin:4px 0">
         <button class="primary" onclick="copyText('pt_${r.seq}', false)">复制十二段提示词</button>
         <button class="gold" onclick="copyText('pt_${r.seq}', true)">复制并打开 GPT Image 2</button>
@@ -496,6 +522,9 @@ function zgRenderImageCard(card,record){
   button.appendChild(img);button.onclick=()=>zgOpenOriginal(record,info);
   const link=document.createElement('a');link.href=info.original_url+'?download=1';link.target='_blank';link.rel='noopener';link.textContent='查看或下载无损原图 · '+info.width+'×'+info.height;
   wrap.append(button,link);
+  if(record.id==='ZG-20261028-0309'){
+    const note=document.createElement('p');note.textContent='白毯为影视诠释道具，非本次核对《幽明录》原文所载。';wrap.appendChild(note);
+  }
   card.querySelector('.box').before(wrap);
 }
 function zgOpenOriginal(record,info){
