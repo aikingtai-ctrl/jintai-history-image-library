@@ -1072,7 +1072,7 @@ async function historyOriginalUrl(info){
         info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
       }
       const count=Object.keys(images).length;
-      $('qingProgress').textContent='清代已接图 '+count.toLocaleString()+' / 4,573 张'+(count===4573?' · 已完成':'');
+      $('qingProgress').textContent='清代已接图 '+count.toLocaleString()+' / 4,984 张'+(count===4984?' · 已完成':'');
       if(typeof render==='function'&&R.length)render();
     };
     document.head.appendChild(s);
