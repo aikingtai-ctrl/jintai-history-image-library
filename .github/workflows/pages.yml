@@ -174,7 +174,16 @@ jobs:
           browser_js = git_bytes("show", "HEAD:history-ai/browser-originals-manifest.js").decode("utf-8")
           assert browser_js.startswith("window.JINTAI_BROWSER_IMAGES="), "Browser original manifest invalid"
           browser_images = json.loads(browser_js.split("=", 1)[1].rstrip(";\n"))
-          assert all(item.get("original_dir") == "history_browser_87386_codex_gpt_image_20261126" and item.get("filename", "").endswith(".png") and item.get("preview_filename", "").endswith(".webp") for item in browser_images.values()), "Browser original source mismatch"
+          assert all(
+              (item.get("original_dir") == "history_browser_87386_codex_gpt_image_20261126" and item.get("filename") == image_id + ".png" and item.get("preview_filename") == image_id + ".webp")
+              or (item.get("method") == "restored_existing_zhiguai_group_main" and item.get("coverage_scope") == "group_main_only_not_all_ten_variants" and item.get("original_dir") == "history_zhiguai_8000_codex_gpt_image_20261124"
+                  and re.fullmatch(r"ZG-20261028-G\d{3}", image_id) and image_id != "ZG-20261028-G002"
+                  and re.fullmatch(r"ZG-20261028-\d{4}", item.get("source_image_id", ""))
+                  and int(image_id[-3:]) == (int(item["source_image_id"][-4:]) - 1) // 10 + 1
+                  and item.get("filename") == item["source_image_id"] + ".png" and item.get("preview_filename") == item["source_image_id"] + ".webp"
+                  and re.fullmatch(r"[a-f0-9]{64}", item.get("sha256", "")) and re.fullmatch(r"[a-f0-9]{64}", item.get("preview_sha256", "")))
+              for image_id, item in browser_images.items()
+          ), "Browser original source mismatch"
           assert "regenerated-manifest.js" not in idx_html and "JINTAI_REGENERATED_IMAGES" not in idx_html, "Unaccepted Qwen inventory linked"
           for rel in ("history-batch.html", "history-batch-1001-2000.html"):
               assert "function gpt(r){return window.JINTAI_GPT_IMAGES?.[r.id];}" in history_pages[rel], f"Accepted GPT Image priority missing in {rel}"

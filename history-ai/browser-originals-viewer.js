@@ -122,11 +122,12 @@
   function addControls(container, id, info) {
     const line = document.createElement('div');
     line.className = 'jt-original-tools';
+    const groupMain = info.coverage_scope === 'group_main_only_not_all_ten_variants';
     const label = document.createElement('span');
-    label.textContent = '网页预览 · 原生 PNG ' + (info.width || '?') + '×' + (info.height || '?');
+    label.textContent = (groupMain ? '十态组主图预览 · 原生 PNG ' : '网页预览 · 原生 PNG ') + (info.width || '?') + '×' + (info.height || '?');
     const button = document.createElement('button');
     button.type = 'button';
-    button.textContent = '查看或下载原图 PNG';
+    button.textContent = groupMain ? '查看十态组主图原生 PNG' : '查看或下载原图 PNG';
     button.addEventListener('click', event => openOriginal(event, id));
     line.append(label, button);
     container.appendChild(line);
