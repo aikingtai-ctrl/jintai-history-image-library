@@ -42,6 +42,7 @@ async function checkPopup(html, name, isBatch) {
       historyOriginalUrl: async () => 'https://example.test/original-pngs/verified/verified.png',
       openHistLightbox: () => lightbox++,
       gpt: () => info,
+      original: () => info,
       previewSrc: () => 'https://example.test/gallery-previews/verified/verified.webp',
       gptOriginalUrl: async () => 'https://example.test/original-pngs/verified/verified.png',
     };
@@ -82,7 +83,10 @@ assert(index.indexOf('download.hidden=false') > index.indexOf('full.onload'), 'L
 assert(index.includes('full.onerror') && index.includes('download.hidden=true'), 'Lightbox download failure fallback missing');
 const labelSource = functionSource(index, 'histOriginalLabel');
 let mapped = null;
-const labels = { histOriginalInfo: () => mapped };
+const labels = {
+  histOriginalInfo: () => mapped,
+  histMuseumCopy: () => mapped?.method === 'museum_open_access_original' ? mapped : null,
+};
 vm.runInNewContext(labelSource, labels);
 assert.equal(labels.histOriginalLabel('old-jpeg'), '查看预览');
 mapped = { filename: 'accepted.png' };
