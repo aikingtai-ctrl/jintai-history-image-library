@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T06:57:34.648402+08:00",
+  "updated_at": "2026-11-27T07:16:35.544927+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -1528,6 +1528,125 @@
       "sha256": "a1512c5757c76e0b71ef34981852ee7c78523b8e6bfb20e4cfacd2135a7f32b9",
       "reason": "海崖山水上叠有竖排片名‘山中传奇’，为标题宣传字卡而非无字剧情剧照。",
       "evidence": "第三十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "metropolis-1927",
+      "src": "film-ai/metropolis-1927.jpg",
+      "sha256": "e207ee4fcd4e095f2cc58a512634925493f37748ae1be092dfb1b3a7602b34ec",
+      "reason": "原图呈现代东亚青年裸上身户外跑步，与 1927 年德国表现主义未来都市/演员群不符。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "mississippi-burning-1988",
+      "src": "film-ai/mississippi-burning-1988.jpg",
+      "sha256": "ffe4e2f74acc0a40a89e58c0ec46461581b9b2fc845de786b9d9e1ceeb67c0ae",
+      "reason": "伏案查报纸的主要人物为东亚青年，与影片美国南方 FBI 探员及民权案件人物构成不符。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "monsoon-wedding-2001",
+      "src": "film-ai/monsoon-wedding-2001.jpg",
+      "sha256": "cc2e7db47d5f979fd3be9e4c5c8f31fa94be612b4ee4fed6f0a3fc0929d2d982",
+      "reason": "东亚女性近景无印度婚礼人物、服装或场域，与片中 Aditi 等旁遮普家庭人物不符。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "mr-donkey-2016",
+      "src": "film-ai/shots/YS-20261112-W3-mr-donkey-2016-06.webp",
+      "sha256": "135fdf6da7e8c5c38aefd192a4df2612dba2ab512b317f39b3af830439e05323",
+      "reason": "画面为欧洲石屋与白人妇女筛谷，缺中国民国乡村学校和片中师生；人物/地域明显串片。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "mr-donkey-2016",
+      "src": "film-ai/mr-donkey-2016.jpg",
+      "sha256": "a060699262310e7f588d070822b342e0d97686d370d80da4f5318321562224e0",
+      "reason": "欧洲石屋内三名白人男子闲谈，和中国乡村学校教师群及驴得水故事不符。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "mulholland-drive-2001",
+      "src": "film-ai/shots/WORKCONCEPT-20261123-mulholland-dr-2001-gpt.webp",
+      "sha256": "095605a1e8e970c2c8fffae37b1aeaa0dd4130133747d4897aa53d2ad4cbabdd",
+      "reason": "空好莱坞公寓与摄像机没有 Betty/Rita、车祸、蓝盒或片厂节点，‘洛杉矶气氛’不足归片。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "mulholland-drive-2001",
+      "src": "film-ai/mulholland-drive-2001.jpg",
+      "sha256": "05db88240bf8bfb23aad1114267d613008a2aee1a8e251d35580de0dec09b482",
+      "reason": "主要人物是东亚面容长发女子，既非 Naomi Watts 的 Betty，也非 Laura Harring 的 Rita；缺其他剧情锚点。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "nashville-1975",
+      "src": "film-ai/nashville-1975.jpg",
+      "sha256": "5b9888918e94e1c39ad57810d1f2e3df47c5534302edca60768e7063d7dc2f0f",
+      "reason": "独身东亚老年男子近景既无乡村音乐或美国政治场域，也无法归入官方美国演员群像。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "night-of-the-living-dead-1968",
+      "src": "film-ai/night-of-the-living-dead-1968.jpg",
+      "sha256": "c8f043aa5e8b72842da5fc1866f293df9527456d8f8ad48314e6729af88cdce7",
+      "reason": "黑白林地微笑东亚西装男子与 Ben/农舍幸存者及丧尸威胁均不符。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "once-upon-a-time-in-the-west-1968",
+      "src": "film-ai/once-upon-a-time-in-the-west-1968.jpg",
+      "sha256": "318ccef3197489505c1d534ea0766a25e2f9dea46b640fed07ddafadc840d5cf",
+      "reason": "黑白室内女性姿态肖像与官方彩色西部叙事媒介/铁路环境冲突，像其他年代的明星宣传照。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "pain-and-glory-2019",
+      "src": "film-ai/pain-and-glory-2019.jpg",
+      "sha256": "befd7df500e1dc8998291e80167496828b8f746c5c9207fbb7c764a38992bc1d",
+      "reason": "摄影机入画，灰发黄衫男子在两位演员身旁指挥；形貌为导演而非 Antonio Banderas 饰 Salvador，属剧组幕后工作照。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "painted-faces-1988",
+      "src": "film-ai/shots/VP-painted-faces-1988-01.webp",
+      "sha256": "184027415cf99d27acfd3a75015b5e0e11220462acc187c4c9a9050d56018073",
+      "reason": "仅一把题诗绘兰折扇的静物图，无戏班师徒、练功或舞台；把片名误读成绘扇，非电影剧情图。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "painted-faces-1988",
+      "src": "film-ai/painted-faces-1988.jpg",
+      "sha256": "1fa3cbc208f53bd1c3e30a8593e0987ed272d14a6005f19b8386a3b5ac450436",
+      "reason": "仍仅是题诗绘兰折扇静物，和 01 同类且无《七小福》师徒/儿童/京剧元素，非剧情图。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "life-of-pi-2012",
+      "src": "film-ai/shots/YS-20261028-C15-life-of-pi-2012-11.webp",
+      "sha256": "d679a09ccc57083876bcb360d427e229cad91a31a9c6cfd617246f32bb994a2a",
+      "reason": "郁绿旧宅没有 Pi、动物园、海难、船或老虎；无法仅凭热带植物归片。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "life-of-pi-2012",
+      "src": "film-ai/life-of-pi-2012.jpg",
+      "sha256": "d4987da981334f4d18f59b8d6621e4d3b90fe76b15023bbf1a1aa8799e9b332a",
+      "reason": "灯海寺院仅可泛联想到宗教议题，没有 Pi、孟加拉虎或核心海上求生节点。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "mank-2020",
+      "src": "film-ai/shots/YS-20261028-C15-mank-2020-11.webp",
+      "sha256": "563058c2242f4b91fe9f7736d8cc75206bddf1ba3d7c8c15e123110c30a93000",
+      "reason": "黑白荒漠公路与电线杆没有 Herman、剧本或好莱坞片场，不能凭年代风格归片。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "mank-2020",
+      "src": "film-ai/mank-2020.jpg",
+      "sha256": "6cc44be9d01e01edf1966bb4141373a9cabf2d5c557ac6f50043abb15949ddad",
+      "reason": "舞台灯前持烟男子面孔无法核 Gary Oldman/Herman，且未见写作或《公民凯恩》线索。",
+      "evidence": "第三十七批30部两路径电影/逐图建议与联系表"
     }
   ]
 }

@@ -6157,6 +6157,26 @@
         "sha256": "6157ad2fce308007e3321537b91ca00cb62579b3fe193295d3deffbd61f6ebd7"
       }
     ],
+    "living-2022": [
+      {
+        "src": "film-ai/decks/film-living-2022.webp",
+        "sha256": "d8fee913e274e98ee2597a752501a919553cb6fa273368fb0234a27d4aee9adc"
+      },
+      {
+        "src": "film-ai/living-2022.jpg",
+        "sha256": "d00c0da325a8815c7c4ca183203c19e7294867a8776c7d464912eaa081064103"
+      }
+    ],
+    "living-forever-in-burning-flames-1965": [
+      {
+        "src": "film-ai/shots/YS-20261112-2300-living-forever-in-bu-07.webp",
+        "sha256": "fdfbdb0f254a22b2692e39716d51308b2a22826a72eb077815ef49697d7adf77"
+      },
+      {
+        "src": "film-ai/living-forever-in-burning-flames-1965.jpg",
+        "sha256": "0920525f41096f39963e7d4f862bcb6ea3ad8792418616180c429e3b8747bcae"
+      }
+    ],
     "love-letter-1995": [
       {
         "src": "film-ai/decks/film-love-letter-1995.webp",
@@ -6167,6 +6187,16 @@
         "sha256": "0381c5c8f9485fe0ee8398415bd8eb48e0d833b929fac34dda372bbd1d3c55c4"
       }
     ],
+    "lucia-1968": [
+      {
+        "src": "film-ai/shots/YS-20261109F5-M36-lucia-1968-006.webp",
+        "sha256": "59a501e6a35a646baf422e7f0e910a19090ee3dabff44b0b43ee3402247760bf"
+      },
+      {
+        "src": "film-ai/lucia-1968.jpg",
+        "sha256": "187de972a90394712ae175d50c95a7a904cb8ccfc9e26374a8b86b01a5775ccc"
+      }
+    ],
     "mambo-girl-1957": [
       {
         "src": "film-ai/decks/film-mambo-girl-1957.webp",
@@ -6175,6 +6205,16 @@
       {
         "src": "film-ai/restored/mambo-girl-1957.jpg",
         "sha256": "cf470e8a779e7292d6a48e9dc4d6f723ca50cee6a59acd6686106b7cc31df8b5"
+      }
+    ],
+    "man-with-a-movie-camera-1929": [
+      {
+        "src": "film-ai/shots/YS-20261109F5-M36-man-with-a-movie-camera-1929-006.webp",
+        "sha256": "180d9a8a5677c43feec1d4ead0ca871a2d1c922aeb0b52839502ac4c6d72ce8b"
+      },
+      {
+        "src": "film-ai/man-with-a-movie-camera-1929.jpg",
+        "sha256": "5b483ad432f25518a85c833488a3af469aa872c1c83201e505572cd47b666935"
       }
     ],
     "mauvais-sang-1986": [
@@ -6201,6 +6241,26 @@
         "sha256": "90d80ed0921a891069dedfdc2997ac312b8257083f0f95bb1a71fe41d36a563a"
       }
     ],
+    "miracle-in-milan-1951": [
+      {
+        "src": "film-ai/decks/film-miracle-in-milan-1951.webp",
+        "sha256": "15b6449ce1376e68d4e112c1ee4c0b9922896d6914e32cb26f02503fbb57c941"
+      },
+      {
+        "src": "film-ai/miracle-in-milan-1951.jpg",
+        "sha256": "d9e3743186d290ce59cff2b0b9d1ae2567c18eab2136f3f97ddac76d1142dde7"
+      }
+    ],
+    "modern-times-1936": [
+      {
+        "src": "film-ai/quality-reviewed/modern-times-1936.png",
+        "sha256": "7c0ab560d6d9c67d2ebf0a685f8edec4e5ecade596a4ff6d2c7d3046a355328a"
+      },
+      {
+        "src": "film-ai/modern-times-1936.jpg",
+        "sha256": "ccb5f33c879c746b9b57355e386b8bbb1089d52434230f760450a71c5df0f051"
+      }
+    ],
     "moonlight-2016": [
       {
         "src": "film-ai/decks/film-moonlight-2016.webp",
@@ -6209,6 +6269,26 @@
       {
         "src": "film-ai/restored/moonlight-2016.jpg",
         "sha256": "98ec30ee32a12029542c563b23aaed7289ea6b6b63a27cd9a8a710f5d1440108"
+      }
+    ],
+    "mr-hulots-holiday-1953": [
+      {
+        "src": "film-ai/decks/film-mr-hulots-holiday-1953.webp",
+        "sha256": "f487a01bdf4f8a8806da50341d627b6a85e576f762f7be0d4ee2b2c2ebd47704"
+      },
+      {
+        "src": "film-ai/mr-hulots-holiday-1953.jpg",
+        "sha256": "1dc78a80b14ea418446056ae33b6388de62c38482fffffe5831d28258604db48"
+      }
+    ],
+    "my-sunshine-2024": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261124-my-sunshine-2024-gpt.webp",
+        "sha256": "6fc3cff41bbce31d4a0dabbe567ab860a3914c890d95bf1a2c8e0f518127e04e"
+      },
+      {
+        "src": "film-ai/my-sunshine-2024.jpg",
+        "sha256": "33f7003e6c1311fa5bf7fb32fdc969e469a8491b7854e81877757651fd35893e"
       }
     ],
     "myriad-of-lights-1948": [
@@ -6247,6 +6327,16 @@
       {
         "src": "film-ai/new-gods-yang-jian-2022.jpg",
         "sha256": "17a80e054ce44b457363a4f2680dd0813259e6a0a63a74fbaa1a0387ab51220f"
+      }
+    ],
+    "nosferatu-2024": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261124-nosferatu-2024-gpt.webp",
+        "sha256": "46c9d913c300d2b9c32c7c8b8769719d1320be326a0ddb255954212d72062ed6"
+      },
+      {
+        "src": "film-ai/nosferatu-2024.jpg",
+        "sha256": "4cebb9dd2ff4d89a01c6c528c15a7654a34848afa26b6a1379943eb9f7d7e1cc"
       }
     ],
     "notting-hill-1999": [
@@ -6301,6 +6391,16 @@
         "sha256": "631c0b7cff6f8b73005b0ac6cae6875e7d8dc04a2b22e98348486aa279b1a9fa"
       }
     ],
+    "only-yesterday-1991": [
+      {
+        "src": "film-ai/decks/film-only-yesterday-1991.webp",
+        "sha256": "59c79e4dd626c2e27fb5a292bab263600b188481ec974fa207a848639842aa4d"
+      },
+      {
+        "src": "film-ai/only-yesterday-1991.jpg",
+        "sha256": "5aafdf74c4ad8783dfe8143e0f739ad776f92bd72802634737d77ec3a6eb4be2"
+      }
+    ],
     "open-your-eyes-1997": [
       {
         "src": "film-ai/shots/YS-20261111B5-M68-open-your-eyes-1997-059.webp",
@@ -6325,6 +6425,16 @@
         "sha256": "4b569925778937363513f9cd2732e9a2de7d2307739ddb35cfcb8e7135286901"
       }
     ],
+    "orlando-1992": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261118-orlando-1992.webp",
+        "sha256": "a60b36eb2a1ec0596ad7629a5c32254a58dca622df2af952c5867ea7fd6d6279"
+      },
+      {
+        "src": "film-ai/orlando-1992.jpg",
+        "sha256": "af69e75437b913915dccc100876ba16d461f49eb4e8313ce7697eb92b8adbb70"
+      }
+    ],
     "osaka-elegy-1936": [
       {
         "src": "film-ai/shots/YS-20261109F5-M36-osaka-elegy-1936-011.webp",
@@ -6347,6 +6457,16 @@
       {
         "src": "film-ai/out-of-sight-1998.jpg",
         "sha256": "05ee0eceaa7051942cd72315c1b2f1d5194da3138da97c41d948a3dbe5eec4be"
+      }
+    ],
+    "out-of-the-past-1947": [
+      {
+        "src": "film-ai/decks/film-out-of-the-past-1947.webp",
+        "sha256": "a8fed9a23380eb5946481cbe5703c8420ea55d76e84d46e2b7ff0753332509e0"
+      },
+      {
+        "src": "film-ai/out-of-the-past-1947.jpg",
+        "sha256": "ad522c99fa20116288fb52f3cb15ded60d350b4932ef2ce738f00e2da570503c"
       }
     ],
     "painted-skin-the-resurrection-2012": [
