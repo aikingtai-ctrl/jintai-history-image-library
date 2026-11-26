@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="中国历史文化图库唯美电影专区，严选十大银幕美学谱系共一千部真实佳片，提供五色色彩指纹、摄影指导档案与净版镜头提示词。">
-<title>唯美电影专区 1,000 部（中国历史文化图库）</title>
+<meta name="description" content="中国历史文化图库唯美电影专区，严选十大银幕美学谱系共三千部真实佳片，提供五色色彩指纹、摄影指导档案与九千条净版镜头提示词。">
+<title>唯美电影专区 3,000 部（中国历史文化图库）</title>
 <script>(function(){
 const H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3';
 const K='jt_aesthetics_auth_2026';
@@ -19,7 +19,7 @@ const lockDom=()=>{
   document.documentElement.style.visibility='';
   const w=document.createElement('div');
   w.className='jt-lock';
-  w.innerHTML='<div class="jt-lock-title">唯美电影专区 1,000 部：访问验证</div>'
+  w.innerHTML='<div class="jt-lock-title">唯美电影专区 3,000 部：访问验证</div>'
     +'<p class="jt-lock-sub">中国历史文化图库研究访问口令校验</p>'
     +'<form class="jt-lock-form" id="jtLockF"><input id="jtLockI" type="password" placeholder="请输入访问口令" autocomplete="current-password"><button type="submit" class="btn primary">解锁进入</button></form>'
     +'<p class="jt-lock-err" id="jtLockE"></p>';
@@ -35,7 +35,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 else lockDom();
 })();</script>
 <style>
-/* Hallmark · gallery-ivory-aesthetic1000 | floor | sloplint-clean */
+/* Hallmark · gallery-ivory-aesthetic3000 | floor | sloplint-clean */
 :root {
   --bg: #f8f6f1;
   --surface: #fffdf9;
@@ -137,7 +137,7 @@ button:disabled, .btn:disabled, .btn-sm:disabled, .tab-btn:disabled { opacity: 0
   align-items: center;
 }
 .search-input {
-  flex: 1 1 300px;
+  flex: 1 1 280px;
   min-width: 0;
   min-height: 44px;
   padding: 8px 16px;
@@ -509,10 +509,15 @@ button:disabled, .btn:disabled, .btn-sm:disabled, .tab-btn:disabled { opacity: 0
   </header>
 
   <section class="hero">
-    <h1>唯美电影专区 1,000 部</h1>
-    <p class="hero-lead">横跨十大银幕美学谱系，每系严选一百部实名传世佳片，附带色彩指纹、摄影规格与原生净版镜头描述。</p>
+    <h1>唯美电影专区 3,000 部</h1>
+    <p class="hero-lead">横跨十大银幕美学谱系，每系严选三百部实名传世佳片，附带色彩指纹、摄影规格与九千条净版镜头描述。</p>
     <div class="toolbar">
       <input id="qInput" class="search-input" type="search" aria-label="检索片名、导演、摄影师或色系词" placeholder="检索片名、导演、摄影师、时代或构图光影词（例如：王家卫、宫崎骏、Roger Deakins、花样年华）">
+      <select id="batchFilter" class="sel-box" aria-label="批次筛选">
+        <option value="all">全部 3,000 部</option>
+        <option value="B1">首批典藏 1,000 部</option>
+        <option value="B2">新增扩容 2,000 部</option>
+      </select>
       <select id="coverFilter" class="sel-box" aria-label="剧照筛选">
         <option value="all">全部封面与色板</option>
         <option value="cover">仅看含高清封面帧</option>
@@ -528,12 +533,12 @@ button:disabled, .btn:disabled, .btn-sm:disabled, .tab-btn:disabled { opacity: 0
   </section>
 
   <section id="pillarBar" class="pillar-strip" aria-label="十大唯美美学谱系">
-    <button type="button" class="tab-btn on" data-pid=""><span>全部十大谱系</span><span class="tab-count" id="totalCount">1000</span></button>
+    <button type="button" class="tab-btn on" data-pid=""><span>全部十大谱系</span><span class="tab-count" id="totalCount">3000</span></button>
   </section>
   <p id="pillarNote" class="pillar-note" hidden></p>
 
   <div class="status-bar">
-    <span id="statusTxt">正在分片载入十大唯美电影谱系</span>
+    <span id="statusTxt">正在并行载入十大唯美电影谱系 30 个分片</span>
     <span id="pageInfo">第 1 页</span>
   </div>
 
@@ -554,12 +559,12 @@ button:disabled, .btn:disabled, .btn-sm:disabled, .tab-btn:disabled { opacity: 0
   </div>
 </div>
 
-<script src="aesthetic1000_data/manifest.js?v=202611261350"></script>
+<script src="aesthetic1000_data/manifest.js?v=202611261425"></script>
 <script>
 const ITEMS = [];
 window.__AESTHETIC1000_SHARDS__ = window.__AESTHETIC1000_SHARDS__ || {};
-window.__AESTHETIC1000_SHARD__ = function(code, rows) {
-  if (Array.isArray(rows)) window.__AESTHETIC1000_SHARDS__[code] = rows;
+window.__AESTHETIC1000_SHARD__ = function(key, rows) {
+  if (Array.isArray(rows)) window.__AESTHETIC1000_SHARDS__[key] = rows;
 };
 const IS_LOCAL_PREVIEW = (location.hostname === '127.0.0.1' || location.hostname === 'localhost' || location.protocol === 'file:');
 const IS_GH = /github\.io$/i.test(location.hostname || '');
@@ -581,7 +586,7 @@ window.__a1000ImgErr = function(img) {
   const fb = img.getAttribute('data-fb');
   if (fb) img.outerHTML = fb;
 };
-let state = { pid: '', q: '', cover: 'all', bw: 'all', page: 1, pageSize: 24 };
+let state = { pid: '', q: '', batch: 'all', cover: 'all', bw: 'all', page: 1, pageSize: 24 };
 let filtered = [];
 
 function esc(s) {
@@ -615,17 +620,18 @@ function paintSwatches(scope) {
 
 function renderPillars() {
   const mf = window.AESTHETIC1000_MANIFEST;
-  if (!mf || !Array.isArray(mf.shards)) return;
+  if (!mf) return;
+  const plist = Array.isArray(mf.pillars) ? mf.pillars : (Array.isArray(mf.shards) ? mf.shards : []);
   const bar = document.getElementById('pillarBar');
   const first = bar.querySelector('button[data-pid=""]');
   bar.replaceChildren(first);
-  document.getElementById('totalCount').textContent = String(mf.total || 1000);
-  for (const sh of mf.shards) {
+  document.getElementById('totalCount').textContent = String(mf.total || 3000);
+  for (const p of plist) {
     const b = document.createElement('button');
     b.type = 'button';
-    b.className = 'tab-btn' + (state.pid === sh.code ? ' on' : '');
-    b.dataset.pid = sh.code;
-    b.innerHTML = `<span>${esc(sh.code)} ${esc(sh.short)}</span><span class="tab-count">${sh.count}</span>`;
+    b.className = 'tab-btn' + (state.pid === p.code ? ' on' : '');
+    b.dataset.pid = p.code;
+    b.innerHTML = `<span>${esc(p.code)} ${esc(p.short)}</span><span class="tab-count">${p.count}</span>`;
     bar.appendChild(b);
   }
 }
@@ -635,8 +641,9 @@ function applyFilters(resetPage) {
   const kw = state.q.trim().toLowerCase();
   const noteEl = document.getElementById('pillarNote');
   const mf = window.AESTHETIC1000_MANIFEST;
-  if (state.pid && mf && Array.isArray(mf.shards)) {
-    const p = mf.shards.find(s => s.code === state.pid);
+  const plist = mf && (Array.isArray(mf.pillars) ? mf.pillars : mf.shards);
+  if (state.pid && Array.isArray(plist)) {
+    const p = plist.find(s => s.code === state.pid);
     if (p) {
       noteEl.textContent = `${p.code} ${p.name}（${p.count} 部）：${p.desc}`;
       noteEl.hidden = false;
@@ -647,6 +654,8 @@ function applyFilters(resetPage) {
 
   filtered = ITEMS.filter(x => {
     if (state.pid && x.pid !== state.pid) return false;
+    const btag = x.batch || 'B1';
+    if (state.batch !== 'all' && btag !== state.batch) return false;
     if (state.cover === 'cover' && !x.cover) return false;
     if (state.bw === 'bw' && !x.bw) return false;
     if (state.bw === 'color' && x.bw) return false;
@@ -664,11 +673,12 @@ function applyFilters(resetPage) {
 
 function renderGrid() {
   const total = filtered.length;
+  const mfTotal = (window.AESTHETIC1000_MANIFEST && window.AESTHETIC1000_MANIFEST.total) || 3000;
   const pages = Math.max(1, Math.ceil(total / state.pageSize));
   if (state.page > pages) state.page = pages;
   const start = (state.page - 1) * state.pageSize;
   const slice = filtered.slice(start, start + state.pageSize);
-  document.getElementById('statusTxt').textContent = `当前匹配 ${total} 部唯美电影（已载入 ${ITEMS.length} / 1000 部，校验戳 2026-11-26 13:50）`;
+  document.getElementById('statusTxt').textContent = `当前匹配 ${total} 部唯美电影（已载入 ${ITEMS.length} / ${mfTotal} 部，校验戳 2026-11-26 14:25）`;
   document.getElementById('pageInfo').textContent = `第 ${state.page} / ${pages} 页`;
 
   const grid = document.getElementById('filmGrid');
@@ -680,6 +690,7 @@ function renderGrid() {
       : fbHtml;
     const pal = (x.pal || []).map(hex => `<span class="swatch" data-hex="${esc(hex)}" title="#${esc(hex)}"></span>`).join('');
     const firstShot = (x.shots && x.shots[0]) ? x.shots[0].prompt : '';
+    const bLabel = (x.batch === 'B2') ? '<span class="tag">扩容2000</span>' : '';
     return `<article class="card" data-aid="${esc(x.aid)}">
       <div class="frame-box" data-open="${esc(x.aid)}">
         ${media}
@@ -692,6 +703,7 @@ function renderGrid() {
           <span class="tag">${esc(x.pshort)}</span>
           <span class="tag">${x.y}</span>
           ${x.bw ? '<span class="tag">黑白银盐</span>' : ''}
+          ${bLabel}
         </div>
         <h2 data-open="${esc(x.aid)}">${esc(x.t || x.te)}</h2>
         <p class="sub-en">${esc(x.te)}</p>
@@ -792,6 +804,7 @@ document.getElementById('pillarBar').addEventListener('click', e => {
 });
 
 document.getElementById('qInput').addEventListener('input', e => { state.q = e.target.value; applyFilters(true); });
+document.getElementById('batchFilter').addEventListener('change', e => { state.batch = e.target.value; applyFilters(true); });
 document.getElementById('coverFilter').addEventListener('change', e => { state.cover = e.target.value; applyFilters(true); });
 document.getElementById('bwFilter').addEventListener('change', e => { state.bw = e.target.value; applyFilters(true); });
 document.getElementById('randBtn').onclick = () => {
@@ -800,23 +813,23 @@ document.getElementById('randBtn').onclick = () => {
   openModal(pick.aid);
 };
 document.getElementById('exportCsvBtn').onclick = () => {
-  const header = ['aid','pname','t','te','y','dir','dp','region','ar','bw','pal','prompt1'];
+  const header = ['aid','batch','pname','t','te','y','dir','dp','region','ar','bw','pal','prompt1'];
   const escCsv = v => '"' + String(v || '').replace(/"/g, '""') + '"';
   const rows = [header.join(',')].concat(filtered.map(x => [
-    x.aid, x.pname, x.t, x.te, x.y, x.dir, x.dp, x.region, x.ar, x.bw ? 'BW' : 'Color',
+    x.aid, x.batch || 'B1', x.pname, x.t, x.te, x.y, x.dir, x.dp, x.region, x.ar, x.bw ? 'BW' : 'Color',
     (x.pal || []).join('|'), (x.shots && x.shots[0]) ? x.shots[0].prompt : ''
   ].map(escCsv).join(',')));
   const blob = new Blob(['\uFEFF' + rows.join('\n')], { type: 'text/csv;charset=utf-8' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = `aesthetic1000_${filtered.length}.csv`;
+  a.download = `aesthetic3000_${filtered.length}.csv`;
   a.click();
 };
 
 function loadShard(file) {
   return new Promise(resolve => {
     const s = document.createElement('script');
-    s.src = 'aesthetic1000_data/' + file + '?v=202611261350';
+    s.src = 'aesthetic1000_data/' + file + '?v=202611261425';
     s.onload = () => resolve(true);
     s.onerror = () => resolve(false);
     document.head.appendChild(s);
@@ -827,13 +840,16 @@ function loadShard(file) {
   renderPillars();
   const mf = window.AESTHETIC1000_MANIFEST;
   if (!mf || !Array.isArray(mf.shards)) return;
-  for (const sh of mf.shards) {
-    await loadShard(sh.file);
-    const rows = window.__AESTHETIC1000_SHARDS__[sh.code] || [];
-    for (const r of rows) ITEMS.push(r);
-    if (ITEMS.length === rows.length || ITEMS.length === mf.total) applyFilters(false);
+  for (let i = 0; i < mf.shards.length; i += 5) {
+    const chunk = mf.shards.slice(i, i + 5);
+    await Promise.all(chunk.map(sh => loadShard(sh.file)));
+    for (const sh of chunk) {
+      const k = sh.key || sh.code;
+      const rows = window.__AESTHETIC1000_SHARDS__[k] || [];
+      for (const r of rows) ITEMS.push(r);
+    }
+    applyFilters(false);
   }
-  applyFilters(false);
 })();
 </script>
 </body>
