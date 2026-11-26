@@ -251,12 +251,21 @@ const JIMENG = 'https://chatgpt.com/';
 const _mapZgItem = x => {
   const g = RAW.groups[x[2]];
   const corrected=x[1].startsWith('ZG-20261028-03')&&x[0]>=301&&x[0]<=310;
-  const label=corrected&&x[0]===302?'02_卖粉女子人物造型（原词误标异类）':x[5];
-  const title=corrected?x[7].replace('《买粉儿白氍毹画眉复生》',ZG_G031_TITLE).replace('02_异类精怪或神魔本相化形特写',label):x[7];
+  const labels={
+    302:'02_卖粉女子人物造型（原词误标异类）',
+    306:'06_影视主观转场（原典未述幽冥仙境）',
+    307:'07_卖粉女子恸哭与公子复生（原典未述斗法）',
+    308:'08_胡粉纸包与漆盒（漆盒为影视诠释）',
+    309:'09_白毯与铜镜（影视概念道具）',
+    310:'10_粉铺建筑配套（影视诠释）'
+  };
+  const label=corrected?(labels[x[0]]||x[5]):x[5];
+  const title=corrected?x[7].replace('《买粉儿白氍毹画眉复生》',ZG_G031_TITLE).replace(x[5],label):x[7];
+  const subTypes={302:'人物/概念变体',306:'主观转场',307:'戏剧现场',308:'胡粉器物',309:'影视概念道具',310:'影视建筑配套'};
   return {
     seq: x[0], id: x[1], gid: g[0], book_no: g[1], book: g[2], author_era: g[3],
     era: g[4], story: g[5], characters: g[6], scenes: g[7], props: g[8],
-    basis: g[9], url: g[10], asset_type: x[3], sub_type: corrected&&x[0]===302?'人物/概念变体':x[4], label,
+    basis: g[9], url: g[10], asset_type: x[3], sub_type: corrected?(subTypes[x[0]]||x[4]):x[4], label,
     ratio: x[6], title, prompt: x[8], source_note: corrected?ZG_G031_NOTE:''
   };
 };
