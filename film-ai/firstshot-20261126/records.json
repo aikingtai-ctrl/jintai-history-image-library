@@ -81,6 +81,166 @@
       "referenceLabel": "首条镜头描述 AI 参考图；虚构面孔，非原片帧",
       "method": "内置 imagegen",
       "reviewed": true
+    },
+    {
+      "ordinal": 4,
+      "wid": "drunken-master-ii-1994",
+      "title": "醉拳二",
+      "firstShotId": "VP-drunken-master-ii-1994-01",
+      "scene": "白日集市街道木楼前，身穿深蓝长衫的少年黄飞鸿双手擒住黑衣对手的肩膀展开贴身缠斗",
+      "actualPrompt": "One original cinematic reference image, landscape 16:9. Daytime street market in late nineteenth-century southern China, in front of timber shop buildings. A young adult martial artist wearing a deep navy long traditional changshan grips the shoulders of a black-clad adult opponent with both hands in close-range grappling. Dynamic medium shot, clear hand and shoulder contact, period market details, daylight, realistic cinematic texture. Fictional original faces, no resemblance to actors or real people. No blood, no injuries, no text, no watermark. Preserve exactly the described interaction rather than a generic fighting poster.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "f95c2317d5d193df48e45580cfe98cc8514e0d891bdd5191f31bcce58dd1869e",
+      "preview": "film-ai/firstshot-20261126/drunken-master-ii-1994.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f901871c0dc3683f344c3e7b264571c16b3834b/originals/film-expand-firstshot-20261126/drunken-master-ii-1994.png",
+        "bytes": 2431176,
+        "sha256": "320e3216b46bb7385bb6173074738515d7d870cc8d2324d833d713d448be54e8",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 5,
+      "wid": "how-to-train-your-dragon-2010",
+      "title": "驯龙高手",
+      "firstShotId": "VP-how-to-train-your-dragon-2010-01",
+      "scene": "维京少年骑在展开黑色巨翼的夜煞飞龙背上翱翔于云海之上",
+      "actualPrompt": "A single wide cinematic 3D animated illustration. A young fully clothed Viking rider sits safely astride an original black dragon flying high above a sunlit sea of white clouds. The huge black wings are stretched open across the picture, the dragon is shown fully and the rider clearly visible on its back. Joyful adventurous atmosphere, soft blue sky, spectacular cloud layers and natural volumetric light. Original creature design, expressive rounded shapes, polished animated feature look. No real people, no text, no logos, no watermark, no violence, no injury.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "c305e667c8cf76e1fe0ac18dc2f18062d2669ba7907e49d75f8350d6d44c11b7",
+      "preview": "film-ai/firstshot-20261126/how-to-train-your-dragon-2010.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f901871c0dc3683f344c3e7b264571c16b3834b/originals/film-expand-firstshot-20261126/how-to-train-your-dragon-2010.png",
+        "bytes": 2233731,
+        "sha256": "b0efbc1fd65f68153ef604c4140dceea332f0ab66f2e9dc179fa0702f291fd20",
+        "width": 1752,
+        "height": 897
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 7,
+      "wid": "padre-padrone-1977",
+      "title": "我父我主",
+      "firstShotId": "VP-085703978b14a383",
+      "scene": "撒丁岛荒凉碎石山坡上暴躁专制的牧羊人父亲弯腰按住倒在地上哭喊的年幼儿子加维诺的中景",
+      "actualPrompt": "One sober original neorealist cinematic reference image, landscape 16:9. On an austere stony hillside in rural Sardinia, a stern shepherd father bends down and restrains his young son who has fallen onto the ground and is crying. Medium shot, coarse peasant clothes, loose pale rocks, sparse scrub, harsh natural daylight, restrained earthy colors. Treat the scene as a critical portrayal of coercive parenting and the child's distress, never celebratory. No striking, no weapons, no injuries, no blood, no graphic violence. Everyone fully clothed. Fictional faces, not portraits of real people. No text or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "719d893d8a58ca2ae7836cce51727cffad71451d4b5f1de59c30e99794324a2c",
+      "preview": "film-ai/firstshot-20261126/padre-padrone-1977.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f901871c0dc3683f344c3e7b264571c16b3834b/originals/film-expand-firstshot-20261126/padre-padrone-1977.png",
+        "bytes": 2767673,
+        "sha256": "4a1690b21909d57ffbc6f6f3bf24f09f14435f1337a2bc1d640e82c8f2d4313b",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 8,
+      "wid": "perfume-the-story-of-a-murderer-2006",
+      "title": "香水",
+      "firstShotId": "VP-a4bc1353ed7c7043",
+      "scene": "一名深色短发男子位于画面中央，仅露出头部与肩部，神情严肃直视前方。背景是连绵起伏的褐色山峦，天空占据画面上半部分，云层稀薄，光线柔和。",
+      "actualPrompt": "One original photoreal cinematic reference image, landscape 16:9. A serious young adult man with dark short hair faces straight forward at the exact center; only his head and shoulders are visible. Behind him are rolling brown mountain ranges, with pale sky taking the upper half of the frame, thin clouds and soft diffuse daylight. Muted earth tones, composed symmetrical portrait, subtle period-appropriate clothing, realistic texture. Original fictional face, no actor or real-person likeness. No extra people, no text, no title, no watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "2f9c196bae5570ee0eae9e2fdb9f94ac5a3aa8e4b2582e6e9ec432643a4fe50f",
+      "preview": "film-ai/firstshot-20261126/perfume-the-story-of-a-murderer-2006.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f901871c0dc3683f344c3e7b264571c16b3834b/originals/film-expand-firstshot-20261126/perfume-the-story-of-a-murderer-2006.png",
+        "bytes": 2084011,
+        "sha256": "ffdaf27145b5efa4e5dfc31f9cc8d691f7293a8bd5e7b63215951fe08ba6e9e8",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 9,
+      "wid": "room-2015",
+      "title": "Room",
+      "firstShotId": "VP-8f583de6f4f52b26",
+      "scene": "一名身穿白色无袖上衣的短发人物仰面平躺，头部位于画面上方中央，双臂向两侧自然伸展。背景为大面积的粗针织纹理织物，整体色调昏暗，呈现出低照度下的室内静卧状态。",
+      "actualPrompt": "One original cinematic reference image, landscape 16:9. Overhead view of a fully clothed adult with short hair wearing a white sleeveless top, lying quietly face upward on a large coarse knitted fabric. The person's head is near the upper center and the arms extend naturally to each side. Dim indoor light, prominent chunky textile texture across the background, subdued colors, contemplative stillness, a natural resting pose. Fictional original face. No injuries, no sexual framing, no text, no title, no watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "36ee802a16553ea00d47c5905a9a116d6d9648a6700701d20f148053b1a9c6ae",
+      "preview": "film-ai/firstshot-20261126/room-2015.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f901871c0dc3683f344c3e7b264571c16b3834b/originals/film-expand-firstshot-20261126/room-2015.png",
+        "bytes": 2317154,
+        "sha256": "2b064e6d68826eb5855da575ad53a044b176a5e70a9de1125eeb5913b436190f",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 10,
+      "wid": "salo-1975",
+      "title": "索多玛120天",
+      "firstShotId": "VP-salo-1975-01",
+      "scene": "装饰派艺术走廊门框前四名法西斯权贵开怀大笑的中远景",
+      "actualPrompt": "One original historical cinematic reference image, landscape 16:9. Medium-long shot of four fully clothed male fascist officials laughing together in the doorway of an austere Art Deco corridor in 1940s Italy. Formal dark suits and restrained period attire, geometric door frames, carefully arranged symmetrical architectural space, cool detached photographic observation. Critical dramatic depiction of authoritarian elites, not celebratory propaganda. No insignia, slogans, weapons, violence, nudity or sexual content. Fictional original faces, no likenesses of real people. No subtitles, no text, no watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "760b4c3ecae418a7a2ebf4d5cf808f64f5c614719122c1482c7f0559460a1333",
+      "preview": "film-ai/firstshot-20261126/salo-1975.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f901871c0dc3683f344c3e7b264571c16b3834b/originals/film-expand-firstshot-20261126/salo-1975.png",
+        "bytes": 2137091,
+        "sha256": "23906a294921833af86bfbe3e6a5bfa65065cbfecf05fcd0263018194898a76f",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 11,
+      "wid": "src-00a5a734e539dc16",
+      "title": "The Picture of Dorian Gray",
+      "firstShotId": "VP-45eaf45e40ec1d1d",
+      "scene": "幽暗的维多利亚式客厅内，身穿深色礼服与高领白衬衫的道林·格雷（赫德·哈特菲尔德饰）神情冷漠地正面凝视，下方叠印演员字幕。",
+      "actualPrompt": "One original black-and-white gothic cinematic reference image, landscape 16:9. A cold, composed fictional young Victorian gentleman in a dark formal suit and high-collared white shirt looks directly forward in a dim ornate Victorian drawing room. Medium close portrait, elegant upright bearing, shadowy furniture and wall paneling, fine 1940s monochrome photographic lighting, rich blacks and controlled highlights. An original face that does not resemble an actor or real person. The source shot had credits but omit all written overlays so this is a clean AI reference image. No text, no watermark, no collage.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "3207b1bda5eeed54076d5ea27382d3b75f57344546e41de11cbfbabc702c424c",
+      "preview": "film-ai/firstshot-20261126/src-00a5a734e539dc16.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f901871c0dc3683f344c3e7b264571c16b3834b/originals/film-expand-firstshot-20261126/src-00a5a734e539dc16.png",
+        "bytes": 1813235,
+        "sha256": "bcbb2314d90cf530a4197c01636b1285f0a72dccb687124b345cf618f4c728cf",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 13,
+      "wid": "src-0139229584f6bd65",
+      "title": "Jack Reacher",
+      "firstShotId": "VP-src-0139229584f6bd65-01",
+      "scene": "瓢泼大雨的夜间采石场内，浑身湿透、身穿黑皮衣的汤姆·克鲁斯端起突击步枪瞄准",
+      "actualPrompt": "One original photoreal cinematic action reference image, landscape 16:9. In an open quarry at night during torrential rain, a soaked fictional adult man in a black leather jacket holds an assault rifle in a steady aimed position. Medium shot, drenched dark hair and jacket, wet gravel and quarry machinery fading into rainy darkness, hard backlight catching the rainfall, tense concentrated expression. No actor or real-person likeness, no injured people, no shots being fired, no blood. No text, no title, no watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "f85bddd0b8f2ce4c564c289b752a01106ead22ee1f7253aef2193217da493399",
+      "preview": "film-ai/firstshot-20261126/src-0139229584f6bd65.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f901871c0dc3683f344c3e7b264571c16b3834b/originals/film-expand-firstshot-20261126/src-0139229584f6bd65.png",
+        "bytes": 2577888,
+        "sha256": "52e938f84b7e6bc734fa988f4bbcdeff8eeb0979770f9858552caea1c889aa9f",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
     }
   ]
 }
