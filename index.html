@@ -980,9 +980,9 @@ function syncChipUI(){
   if($('kindSel')) $('kindSel').value=f.kind||'';
   updateAdvBadge();
 }
-function histPreview(id){return histOriginalInfo(id)?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
-function histThumb(id){return histOriginalInfo(id)?.thumb||histPreview(id);}
-function histOriginalInfo(id){return window.JINTAI_SHANHAIJING_GPT_IMAGES?.[id]||window.JINTAI_ARCH_GPT_IMAGES?.[id]||window.JINTAI_BROWSER_IMAGES?.[id]||window.JINTAI_SPECIAL_IMAGES?.[id]||window.JINTAI_MYTH_IMAGES?.[id]||window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_MINGUO_FOLK16_IMAGES?.[id]||window.JINTAI_PAGE23_IMAGES?.[id]||window.JINTAI_PAGE22_IMAGES?.[id]||window.JINTAI_PAGE21_IMAGES?.[id]||window.JINTAI_PAGE20_IMAGES?.[id]||window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]||window.JINTAI_SONG_IMAGES?.[id]||(window.JINTAI_XIONGNU_VISUAL_ACCEPTED===true?window.JINTAI_XIONGNU_IMAGES?.[id]:null)||window.JINTAI_PEOPLE_IMAGES?.[id]||null;}
+function histPreview(id){return window.JINTAI_THREE_IMAGES?.[id]?.preview||histOriginalInfo(id)?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
+function histThumb(id){return window.JINTAI_THREE_IMAGES?.[id]?.preview||histOriginalInfo(id)?.thumb||histPreview(id);}
+function histOriginalInfo(id){return window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_SHANHAIJING_GPT_IMAGES?.[id]||window.JINTAI_ARCH_GPT_IMAGES?.[id]||window.JINTAI_BROWSER_IMAGES?.[id]||window.JINTAI_SPECIAL_IMAGES?.[id]||window.JINTAI_MYTH_IMAGES?.[id]||window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_MINGUO_FOLK16_IMAGES?.[id]||window.JINTAI_PAGE23_IMAGES?.[id]||window.JINTAI_PAGE22_IMAGES?.[id]||window.JINTAI_PAGE21_IMAGES?.[id]||window.JINTAI_PAGE20_IMAGES?.[id]||window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]||window.JINTAI_SONG_IMAGES?.[id]||(window.JINTAI_XIONGNU_VISUAL_ACCEPTED===true?window.JINTAI_XIONGNU_IMAGES?.[id]:null)||window.JINTAI_PEOPLE_IMAGES?.[id]||null;}
 function histMuseumCopy(id){
   const info=histOriginalInfo(id);
   return info?.method==='museum_open_access_original'?info:null;
@@ -1260,7 +1260,8 @@ function setHlbZoom(s,reset=false){
 function renderHlb(){
   const r=HLB.pool[HLB.idx];if(!r)return;
   const preview=histPreview(r.id);if(!preview)return;
-  const native=histOriginalInfo(r.id);
+  const three=window.JINTAI_THREE_IMAGES?.[r.id];
+  const native=three||histOriginalInfo(r.id);
   const special=native&&native===window.JINTAI_SPECIAL_IMAGES?.[r.id];
   const myth=native&&native===window.JINTAI_MYTH_IMAGES?.[r.id];
   const three=native&&native===window.JINTAI_THREE_IMAGES?.[r.id];
