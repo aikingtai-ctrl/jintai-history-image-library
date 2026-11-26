@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T03:54:09.703749+08:00",
+  "updated_at": "2026-11-27T04:27:03.857890+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -1178,6 +1178,83 @@
       "sha256": "9da0172201093baa6041f80b5396a1af46136f10b6b53a01ca1f9b599b2e8722",
       "reason": "澡盆前破旧室内有人躺于台面，既无可辨梦境装置、团队人物或片中场景，又与 01 无可靠叙事互补；暂缓。",
       "evidence": "第三十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "iron-man-2008",
+      "src": "film-ai/iron-man-2008.jpg",
+      "sha256": "07a9c548c45f17b10b8529f9d5de74705a4d73f1146ec67a2e708c5444c0b385",
+      "reason": "东亚面貌男女群像站在赌场式空间，既无 Tony Stark、装甲或相符人物关系，也不合 AFI 的核心角色身份；明显串片。",
+      "evidence": "第三十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "it-2017",
+      "src": "film-ai/shots/WORKCONCEPT-20261123-it-2017.webp",
+      "sha256": "2fd337d0221ae35e441928cf129cc8e3960f440e4e9358370ae72031c69cc61a",
+      "reason": "无人秋季游乐园旋转木马仅有宽泛小丑/嘉年华联想，缺 Derry、失败者俱乐部或 Pennywise，且秋景难对应片中夏季事件；暂缓。",
+      "evidence": "第三十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "it-2017",
+      "src": "film-ai/it-2017.jpg",
+      "sha256": "be36ab78bb3e55245f0c139eece71115ea39c96a57a75a8acaadb24fb9cb7675",
+      "reason": "公共洗手间中东亚儿童与成年女子的俯拍，没有 Derry 少年团或 Pennywise 线索，人物及场域显著不合。",
+      "evidence": "第三十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "it-follows-2014",
+      "src": "film-ai/it-follows-2014.jpg",
+      "sha256": "a66096d6f5ed0d66c8fc7a571f28a84720fd078173f4e52a2a171010f27c4a55",
+      "reason": "主体为身着旧时代蕾丝衣和贝壳项链的金发女子室内近景，缺现代 Jay/追随实体锚点，服饰年代与片目明显偏离。",
+      "evidence": "第三十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "it-happened-one-night-1934",
+      "src": "film-ai/it-happened-one-night-1934.jpg",
+      "sha256": "c5a5df36f21fc57d55c6093871adf462ab9c78103e3494504c703495fffa4d4c",
+      "reason": "东亚面貌男子独坐办公室电话旁，既非 Gable/Colbert 人物，也无两人巴士旅行线索；明显串片。",
+      "evidence": "第三十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "jade-love-1984",
+      "src": "film-ai/jade-love-1984.jpg",
+      "sha256": "f9061980d47141005e46f3b162c5fc413acd33d8fdb623ca08107a73b588ad5e",
+      "reason": "竖版人物接吻图下叠巨大《玉卿嫂》片名字样，是电影海报/宣传拼版，不是可用干净剧照。",
+      "evidence": "第三十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "jaws-1975",
+      "src": "film-ai/jaws-1975.jpg",
+      "sha256": "64273eb11d1cb3a58d8db6f12c4c0e83f5165287f750b874511a39b79287f2d1",
+      "reason": "海湾边三名东亚面貌男子与 Amity 的 Brody/Hooper/Quint 人物构成不符，也没有鲨鱼或 Orca 号锚点；明显串片。",
+      "evidence": "第三十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "johnny-guitar-1954",
+      "src": "film-ai/johnny-guitar-1954.jpg",
+      "sha256": "142cdabad9df2e205f761524e4165effef7c617b9b53670bb17dca8161315e55",
+      "reason": "近景是明显年迈、外形近后期 Clint Eastwood 式牛仔；1954 年 Johnny 的演员为 Sterling Hayden 且人物关系缺失，属于年代和人物错配。",
+      "evidence": "第三十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "journey-to-italy-1954",
+      "src": "film-ai/journey-to-italy-1954.jpg",
+      "sha256": "fb3f3cee54ed6f0f7e27f58a45b7fc427c6cdfb6a48122dac95ca1efe6877c94",
+      "reason": "整幅画面只有英文片名 Journey to Italy 灰阶字卡，没有剧情人物或空间；非剧照。",
+      "evidence": "第三十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "irreversible-2002",
+      "src": "film-ai/shots/WORKCONCEPT-20261123-irreversible-2002.webp",
+      "sha256": "81e696f38177bb17c50a121cc986b577f8037f056930760658fc0d0836762f2a",
+      "reason": "空无人物的日落巴黎火车站大厅没有 Alex、Marcus、Pierre 或可核实剧情节点；宽泛巴黎地点不足以归片。",
+      "evidence": "第三十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "irreversible-2002",
+      "src": "film-ai/irreversible-2002.jpg",
+      "sha256": "4a19c83f324e5345d688a99f66a2e0c5bf1be5a585f2a9acc148cb5f0cb305ab",
+      "reason": "俯拍两辆白色货车及一名男子，没有可核身份、倒叙事件或片中地点锚点；暂缓。",
+      "evidence": "第三十四批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
