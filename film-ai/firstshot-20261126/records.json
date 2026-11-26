@@ -1012,6 +1012,220 @@
       "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
       "method": "内置 imagegen",
       "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 6,
+      "wid": "inside-out-2015",
+      "title": "头脑特工队",
+      "firstShotId": "VP-inside-out-2015-01",
+      "scene": "Two original fantastical emotion characters talk side by side in a whimsical brain command room lined with glowing memory spheres. One character is a warm golden glowing star-shaped creature in an orange tunic; the other is a lavender round-bodied creature with round spectacles and a white knitted sweater. Expressive friendly faces, polished colorful 3D animation.",
+      "actualPrompt": "Create one original AI reference image, wide 16:9. Two original fantastical emotion characters talk side by side in a whimsical brain command room lined with glowing memory spheres. One character is a warm golden glowing star-shaped creature in an orange tunic; the other is a lavender round-bodied creature with round spectacles and a white knitted sweater. Expressive friendly faces, polished colorful 3D animation. No readable text, no logos, no watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "8cc5f05fcb9d13df619ba3e3a8ca9e850ada8dda63d983da0e15670834b9964c",
+      "preview": "film-ai/firstshot-20261126/inside-out-2015.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/06a8d55d4af34f0c7473d0acd7a1344600c4b7c2/originals/film-expand-firstshot-20261126/inside-out-2015.png",
+        "bytes": 2353756,
+        "sha256": "6da8fe0f4634bc69e778493a1f797175b8f38e528005890eb84e185f49bb8c3c",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（原创角色）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "将乐乐、忧忧改为原创金色星形与紫色圆形角色，保留总部交谈和记忆球构图。"
+    },
+    {
+      "ordinal": 12,
+      "wid": "src-010058791959e76f",
+      "title": "Popeye the Sailor Meets Ali Baba's Forty Thieves",
+      "firstShotId": "VP-src-010058791959e76f-01",
+      "scene": "Original 1930s-style hand-drawn Technicolor animation: a stocky adult sailor in a white uniform and a tall adult woman in a green dress sit at a restaurant table. At right a large bearded bandit chief gestures and shouts theatrically. Invent entirely original facial features and silhouettes, comedic energy, no violence.",
+      "actualPrompt": "Create one original AI reference image, wide 16:9. Original 1930s-style hand-drawn Technicolor animation: a stocky adult sailor in a white uniform and a tall adult woman in a green dress sit at a restaurant table. At right a large bearded bandit chief gestures and shouts theatrically. Invent entirely original facial features and silhouettes, comedic energy, no violence. No readable text, no logos, no watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "b4c5436adde6c4ad662b53f57d6d53ce262a85394207824fe584e3446fbee4c1",
+      "preview": "film-ai/firstshot-20261126/src-010058791959e76f.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/06a8d55d4af34f0c7473d0acd7a1344600c4b7c2/originals/film-expand-firstshot-20261126/src-010058791959e76f.png",
+        "bytes": 2929111,
+        "sha256": "f1329a6167279a5583b0cf420b16a3dcbff865fb11a1130cf8fea9406f767957",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（原创角色）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "将原有大力水手、奥莉薇与强盗首领改为原创水手、女子及强盗，保留餐桌三人构图。"
+    },
+    {
+      "ordinal": 16,
+      "wid": "src-01ce5a5d6fc16359",
+      "title": "Le monde de Paul Delvaux",
+      "firstShotId": "VP-src-01ce5a5d6fc16359-01",
+      "scene": "An original monochrome surrealist oil painting: an adult woman in an opaque ankle-length classical dress and several fully clothed classical figures stand among ruined stone buildings. Dreamlike stillness, broken arches, pale sky, deep perspective, museum artwork texture. All figures fully clothed.",
+      "actualPrompt": "Create one original AI reference image, wide 16:9. An original monochrome surrealist oil painting: an adult woman in an opaque ankle-length classical dress and several fully clothed classical figures stand among ruined stone buildings. Dreamlike stillness, broken arches, pale sky, deep perspective, museum artwork texture. All figures fully clothed. No readable text, no logos, no watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "5fd2a3422115918a88328a0b9af02144d214b603213c1ed99adabcd268b3f191",
+      "preview": "film-ai/firstshot-20261126/src-01ce5a5d6fc16359.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/06a8d55d4af34f0c7473d0acd7a1344600c4b7c2/originals/film-expand-firstshot-20261126/src-01ce5a5d6fc16359.png",
+        "bytes": 3163388,
+        "sha256": "50bd08602d954fd027f66e05faa81749b0e6b8ba378c95a53b6d17339aa2a4b5",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（穿衣人物）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "将裸体女子改为穿不透明长裙的成年女子，保留古典人物与废墟构图。"
+    },
+    {
+      "ordinal": 22,
+      "wid": "src-03ed093ed8b750f9",
+      "title": "Rings",
+      "firstShotId": "VP-src-03ed093ed8b750f9-01",
+      "scene": "Minimal cinematic psychological-suspense portrait against a pure black background. An adult woman with long wet dark hair stands centrally with her back angled toward the camera. She wears an opaque long-sleeved fitted gray shirt. A cold silver side light from the left outlines her shoulder and curved back through the fabric. No injury, no nudity.",
+      "actualPrompt": "Create one original AI reference image, wide 16:9. Minimal cinematic psychological-suspense portrait against a pure black background. An adult woman with long wet dark hair stands centrally with her back angled toward the camera. She wears an opaque long-sleeved fitted gray shirt. A cold silver side light from the left outlines her shoulder and curved back through the fabric. No injury, no nudity. No readable text, no logos, no watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "c4237bacbbce731153c094a6930b6a7dac85a53d5e8ef8ed56af187cd662ad66",
+      "preview": "film-ai/firstshot-20261126/src-03ed093ed8b750f9.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/06a8d55d4af34f0c7473d0acd7a1344600c4b7c2/originals/film-expand-firstshot-20261126/src-03ed093ed8b750f9.png",
+        "bytes": 949426,
+        "sha256": "677e86aa1f0a7acd09da67c9436cbe331eed9312d310207adb7f9dfc1411ebbe",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（穿衣人物）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "将裸露背部改为不透明长袖灰衣，保留全黑背景、背影与冷侧光。"
+    },
+    {
+      "ordinal": 68,
+      "wid": "src-11ef0eb6b69a0a2e",
+      "title": "金城小子",
+      "firstShotId": "VP-src-11ef0eb6b69a0a2e-01",
+      "scene": "画家刘小东坐在东北金城老家晴朗蓝天下的乡间土路上专注写生的竖幅海报",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. A fictional middle-aged Chinese male painter sits on a rural dirt road in northeastern China under a clear blue sky, focused on painting at a portable easel. Plain practical clothes, countryside surroundings, documentary natural light, original face. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "41952885cf29a961eb6baef02b3032a7a0fa7dda0258df4b77b4007c8c90baaa",
+      "preview": "film-ai/firstshot-20261126/src-11ef0eb6b69a0a2e.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/06a8d55d4af34f0c7473d0acd7a1344600c4b7c2/originals/film-expand-firstshot-20261126/src-11ef0eb6b69a0a2e.png",
+        "bytes": 2711654,
+        "sha256": "eb3735d9021ede62e3c989bf555ebfdbe268cf44afe7df1717b73a3e0eb41fee",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 69,
+      "wid": "src-11f4ec1b00b47743",
+      "title": "SOFIA",
+      "firstShotId": "VP-src-11f4ec1b00b47743-01",
+      "scene": "摩洛哥传统客厅全景中，三名女子分坐在雕花木门两侧的丝绒长榻上，神色严肃地彼此交谈",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Wide shot of a traditional Moroccan sitting room. Three fully clothed adult women sit on velvet divans on either side of an ornate carved wooden doorway, conversing with serious expressions. Balanced spacious framing and warm domestic light. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "bcf5e92b67913e5d195e4e32471c81b49a6cfde53aea8404b1e2086592ddad53",
+      "preview": "film-ai/firstshot-20261126/src-11f4ec1b00b47743.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/06a8d55d4af34f0c7473d0acd7a1344600c4b7c2/originals/film-expand-firstshot-20261126/src-11f4ec1b00b47743.png",
+        "bytes": 3018367,
+        "sha256": "beba4739aad6d6617e8a4473cea8f8b83028467b95194986cfac67575bc7a2fc",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 70,
+      "wid": "src-12039bc15c0511b9",
+      "title": "賣身契",
+      "firstShotId": "VP-src-12039bc15c0511b9-01",
+      "scene": "鲜绿色背景的竖幅英文版海报上，许冠文、许冠杰与许冠英三兄弟摆出夸张搞笑姿势，顶部印有红色英文片名。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Playful vintage comedy graphic with a vivid green background. Three fictional adult Chinese men strike exaggerated funny poses together, varied expressions and lively gestures. A blank red header at top, no lettering or celebrity likenesses. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "8f9b6f760aaeeb5f20a89531ff21031d3222a6b2948307c042dbf48805897d15",
+      "preview": "film-ai/firstshot-20261126/src-12039bc15c0511b9.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/06a8d55d4af34f0c7473d0acd7a1344600c4b7c2/originals/film-expand-firstshot-20261126/src-12039bc15c0511b9.png",
+        "bytes": 2835996,
+        "sha256": "b38ba9d710e21abb12b450b0b6648dac4e8fe1370ba0dec0166b615afe2d3778",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 71,
+      "wid": "src-12070a2689937d2d",
+      "title": "Love Song For Bobby Long",
+      "firstShotId": "VP-7e3715a24a8a7121",
+      "scene": "两名人物在碎石路上行走，左侧是茂密的绿色植被和河流，远处横跨着一座大型钢桁架桥，天空占据画面上半部，云层厚重。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Two fully clothed adults walk on a gravel path beside dense green vegetation and a river at left. A large steel truss bridge crosses the distant river. Thick cloudy sky occupies the upper half, quiet natural cinematic landscape. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "2d19839b9efdae3406315c5670451e55b4ed3e576f223e164b2d922349bcf964",
+      "preview": "film-ai/firstshot-20261126/src-12070a2689937d2d.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/06a8d55d4af34f0c7473d0acd7a1344600c4b7c2/originals/film-expand-firstshot-20261126/src-12070a2689937d2d.png",
+        "bytes": 3014119,
+        "sha256": "fbf21edfa9ad15fe059e600148f63f1f69ef1c8b095a4e431d17f2b2cb4f08c1",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 73,
+      "wid": "src-120fc284f9c25af8",
+      "title": "Aadmi Ki Aurat Aur Anya Kahaniya",
+      "firstShotId": "VP-src-120fc284f9c25af8-01",
+      "scene": "竖幅米黄色背景的极简艺术海报上，用黑色细线条勾勒出两扇错位敞开的房门，门框内外分别站着一男一女的黑色剪影。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Minimal art-poster composition on a pale beige background. Fine black lines define two offset open doorframes. A black silhouette of an adult man and a black silhouette of an adult woman stand separately within and beyond the frames. Clean negative space, no text. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "a29f6145a0629f591b31271c1bd85f957faba1e1f9b806e10cf35343084e6a84",
+      "preview": "film-ai/firstshot-20261126/src-120fc284f9c25af8.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/06a8d55d4af34f0c7473d0acd7a1344600c4b7c2/originals/film-expand-firstshot-20261126/src-120fc284f9c25af8.png",
+        "bytes": 1221309,
+        "sha256": "3b4b919393f258c87fc7c7824001db3cc76e8d1ed1d288e8894e305e49dcd166",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 74,
+      "wid": "src-1215e9d501a19dad",
+      "title": "The Death of Maria Malibran",
+      "firstShotId": "VP-e67f9127d1e6170d",
+      "scene": "昏暗室内，一人影坐于左侧，面向右侧。前方有一不规则大洞口，透出明亮的户外景色，可见树木、水面及远山。右侧为竹编墙壁，地面散落落叶。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Dim rustic interior with a seated human silhouette at left facing right. Ahead a large irregular opening reveals bright trees, water and distant mountains. Woven bamboo wall at right, scattered dry leaves on the floor. Strong contrast between dark shelter and luminous outdoors. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "59879678b307b1cd7b9ce2441e47cda3f3400cefbc93596126e2578a132c15a8",
+      "preview": "film-ai/firstshot-20261126/src-1215e9d501a19dad.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/06a8d55d4af34f0c7473d0acd7a1344600c4b7c2/originals/film-expand-firstshot-20261126/src-1215e9d501a19dad.png",
+        "bytes": 2400898,
+        "sha256": "0938a4af76908437eca90745a7ac02e76d0a66c7a8abd9425ca36de01846a1c2",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
     }
   ]
 }
