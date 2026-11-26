@@ -25,6 +25,26 @@
         "sha256": "45a918864409cfe64925f43cbf4ac9fed0ac969444ab6563637329be686fbfcb"
       }
     ],
+    "a-chinese-odyssey-part-one-pandoras-box-1995": [
+      {
+        "src": "film-ai/decks/film-a-chinese-odyssey-part-one-pandoras-box-1995.webp",
+        "sha256": "827332139aa0e2958c255ce92ab912e706a134ab810fadae91d9023afb3d0646"
+      },
+      {
+        "src": "film-ai/a-chinese-odyssey-part-one-pandoras-box-1995.jpg",
+        "sha256": "e4b015e88a92cccb467674d736a5731e5eee54dd448a3df586b503ca7dab673c"
+      }
+    ],
+    "a-city-of-sadness-1989": [
+      {
+        "src": "film-ai/shots/YS-20261103-CN96-a-city-of-sadness-1989-093.webp",
+        "sha256": "097d64462baf3194826f6eb90d0d7609bb43c02d7ec9ae49f9a2509511b42d0c"
+      },
+      {
+        "src": "film-ai/restored/a-city-of-sadness-1989.jpg",
+        "sha256": "0c9a29ed0e0ae642dfb82076efa455c8a982e6b7080ee5ea0bb7020caacb85e7"
+      }
+    ],
     "aces-go-places-1982": [
       {
         "src": "film-ai/shots/YS-20261112-W2-aces-go-places-1982-06.webp",
@@ -71,6 +91,40 @@
         "sha256": "f82d566cab99011db6d0834a750fe33c18e6644c210803672ade6f725e6192ec"
       }
     ],
+    "ashes-of-time-1994": [
+      {
+        "src": "film-ai/shots/VP-ashes-of-time-1994-01.webp",
+        "sha256": "5edec1cee62970e7f8c907c1995bbd3c96b757a58db74b8465421d8cb2225236"
+      },
+      {
+        "src": "film-ai/ashes-of-time-1994.jpg",
+        "sha256": "e908632b4a7b6e3084e95ba5c8e1137b57cb469190b23803c1ec5cecd1778b20"
+      }
+    ],
+    "avatar-2009": [
+      {
+        "src": "film-ai/shots/YS-20261028-C15-avatar-2009-11.webp",
+        "sha256": "a24ae321b9b85eae2e0af182c20e8bee2d56ca36a4544d883cccbeb0fc70375c"
+      },
+      {
+        "src": "film-ai/decks/film-avatar-2009.webp",
+        "sha256": "12a1eef2ced1e9cfc780d80d3cfd8783498af9aac033b75156a9e22bb1f310e8"
+      },
+      {
+        "src": "film-ai/avatar-2009.jpg",
+        "sha256": "668a1036254290c2d25b2b32cb645cb23213da64364c768fc6466b7a8ed55c02"
+      }
+    ],
+    "bad-genius-2017": [
+      {
+        "src": "film-ai/shots/YS-20261106F4-CL68-bad-genius-2017-006.webp",
+        "sha256": "625d72217410b5e941492a3234e6b189ddb1de4926ff6bf37e79c63b07295f46"
+      },
+      {
+        "src": "film-ai/bad-genius-2017.jpg",
+        "sha256": "a6094eaca003266eafa65ff0cb89a2491d2e73389c377eca8aa8b73f843cda67"
+      }
+    ],
     "barry-lyndon-1975": [
       {
         "src": "film-ai/shots/YS-0048-01.webp",
@@ -85,6 +139,16 @@
         "sha256": "62352425873bdf4f7b1f458c88f6fbabfe1b06dc04898cc0905256c35946a396"
       }
     ],
+    "battle-royale-2000": [
+      {
+        "src": "film-ai/quality-reviewed/battle-royale-2000.png",
+        "sha256": "dfd4ed8595588d6c40994313aae8d83c15c6d7f2221a04261e864890e6fdff1a"
+      },
+      {
+        "src": "film-ai/battle-royale-2000.jpg",
+        "sha256": "df10c90c5db7d0522b34de20c627eeb1d66adfce35cb34f7924bf892685fe58d"
+      }
+    ],
     "better-days-2019": [
       {
         "src": "film-ai/decks/film-better-days-2019.webp",
@@ -93,6 +157,16 @@
       {
         "src": "film-ai/better-days-2019.jpg",
         "sha256": "e533963e47cc1c75ea8c2279445a85b95fed799adcc80583160f97ebf21af9bf"
+      }
+    ],
+    "birdman-2014": [
+      {
+        "src": "film-ai/shots/YS-20261028-C15-birdman-2014-11.webp",
+        "sha256": "0f8d707f0b49e9258f3f1411259185d68344f9b8a427cac20d23abc86fad96ab"
+      },
+      {
+        "src": "film-ai/decks/film-birdman-2014.webp",
+        "sha256": "a927917eb05145f25c3241a7c83dcd52e654351160a8582f19cc43f9d614e1c7"
       }
     ],
     "black-cat-detective-1984": [
@@ -123,6 +197,16 @@
         "sha256": "ab897534d177090da2bfe672b26957277a7c58c87a9458965fbf526bde5ac188"
       }
     ],
+    "blind-massage-2014": [
+      {
+        "src": "film-ai/shots/VP-blind-massage-2014-01.webp",
+        "sha256": "d896299c731ac7a50eb658cf87577d0d9b95d4291d290d3df329c89253d89132"
+      },
+      {
+        "src": "film-ai/blind-massage-2014.jpg",
+        "sha256": "6389d89563c190c032aaf6e8c9260403906c347740b00026cdbf72a7d5a02d05"
+      }
+    ],
     "calabash-brothers-1986": [
       {
         "src": "film-ai/shots/YS-20261112-2300-calabash-brothers-19-06.webp",
@@ -141,6 +225,30 @@
         "sha256": "658f830cca2b8dce2be3ef99389c81f7f5e5906f1ed76c7d6fca90f67566d55d"
       }
     ],
+    "center-stage-1991": [
+      {
+        "src": "film-ai/center-stage-1991.jpg",
+        "sha256": "2b1578f71e125391dcdb704be1cebe7d992ce6383fb08f1bd726f70196be0a75"
+      },
+      {
+        "src": "film-ai/shots/VP-center-stage-1991-01.webp",
+        "sha256": "32d0b06474a02b6017bca93947295a694524d9274840f0ba17094bf33a06703d"
+      },
+      {
+        "src": "film-ai/decks/film-center-stage-1991.webp",
+        "sha256": "58f7936d406d84e50127683bf07feb7947a14e56da60899f46786257c970a84e"
+      }
+    ],
+    "chinatown-1974": [
+      {
+        "src": "film-ai/shots/YS-20261103-CN96-chinatown-1974-093.webp",
+        "sha256": "a690041083eb69c27c8e19c8745bf6e2bc22fb9b2a2528a22c23632b7baf89d4"
+      },
+      {
+        "src": "film-ai/chinatown-1974.jpg",
+        "sha256": "22d70e86f95c23e16a8f149bc0ea6fd9efa1b89a9fb4b56427f3609fdee020dd"
+      }
+    ],
     "chungking-express-1994": [
       {
         "src": "film-ai/shots/YS-20261103-CN96-chungking-express-1994-096.webp",
@@ -153,6 +261,16 @@
       {
         "src": "film-ai/restored/chungking-express-1994.jpg",
         "sha256": "ece545b67394d344f0b7827d253e5d2e27450fa0cc06915beddcfc5ddd29457b"
+      }
+    ],
+    "city-of-life-and-death-2009": [
+      {
+        "src": "film-ai/shots/VP-city-of-life-and-death-2009-01.webp",
+        "sha256": "cbef42d6bd846f2128995bb422d245115100009a32813f31f03a92e0bb55e6af"
+      },
+      {
+        "src": "film-ai/decks/film-city-of-life-and-death-2009.webp",
+        "sha256": "164a9d82be7e4c816e0262db15ecfd942072391c0137f337f941c9241b7aea5d"
       }
     ],
     "cold-war-2018": [
@@ -173,6 +291,20 @@
         "sha256": "61e9722d7fc25796f2ab5245c0a9bf958e2b6a6bb781ac42b7b57cdaa4b17925"
       }
     ],
+    "creation-of-the-gods-i-kingdom-of-storms-2023": [
+      {
+        "src": "film-ai/shots/YS-20261118-GR-creation-of-the-gods-i-kingdom-of-storms-2023-01.webp",
+        "sha256": "4ec8d860bbd5b6c69b503bd513ed309760967654afa37620d3db4e1eb7519220"
+      },
+      {
+        "src": "film-ai/decks/film-creation-of-the-gods-i-kingdom-of-storms-2023.webp",
+        "sha256": "f5b3a5a9c2030b121db8020ba795b6e6128bf36c6cdff384024f0a1835052f93"
+      },
+      {
+        "src": "film-ai/creation-of-the-gods-i-kingdom-of-storms-2023.jpg",
+        "sha256": "000c2ea0b11adb8baeb75098f4aafae93e7e23dedf3e2875e6efdc61c7858b7a"
+      }
+    ],
     "crouching-tiger-hidden-dragon-2000": [
       {
         "src": "film-ai/shots/YS-20261103-CW112-crouching-tiger-hidden-dragon-2000-105.webp",
@@ -185,6 +317,48 @@
       {
         "src": "film-ai/restored/crouching-tiger-hidden-dragon-2000.jpg",
         "sha256": "16295e5bd12482bde22a2d1612c83eec8b78e1f56870c810cf7502c9aac779f4"
+      }
+    ],
+    "days-of-being-wild-1990": [
+      {
+        "src": "film-ai/shots/YS-20261103-CW112-days-of-being-wild-1990-105.webp",
+        "sha256": "d99c2290fb553adc0e28ed6000720dc99c3fe8ae7be977227e1a97f806809e86"
+      },
+      {
+        "src": "film-ai/restored/days-of-being-wild-1990.jpg",
+        "sha256": "1df27e7c01189666e45731c3bc51275d610acb76f591c51ba76e7778d8174c76"
+      }
+    ],
+    "days-of-heaven-1978": [
+      {
+        "src": "film-ai/gallery-reviewed/days-of-heaven-1978-01.webp",
+        "sha256": "fd15dc8d255b7d1897da1025518c1c6bbd6c3fa4e59c053c83bd1d7cd002267c"
+      },
+      {
+        "src": "film-ai/gallery-reviewed/days-of-heaven-1978-02.webp",
+        "sha256": "a03ca7f29c0fb5aed2173e4f9afe633521620064bad1d5d7e5e708cb9caf5a8a"
+      },
+      {
+        "src": "film-ai/gallery-reviewed/days-of-heaven-1978-03.webp",
+        "sha256": "78ee1548c2efea10e45239001af92215a7d44c220c9d80e38b32fe7c67ca456e"
+      },
+      {
+        "src": "film-ai/gallery-reviewed/days-of-heaven-1978-04.webp",
+        "sha256": "4bc92094224e5dba1c861df6f495a81449b4537e58317014c5b08a14260622fb"
+      },
+      {
+        "src": "film-ai/gallery-reviewed/days-of-heaven-1978-05.webp",
+        "sha256": "0939d77a3fcd51a173e9b8d3b452a6bb162c3997be17302a536c5c77bb4feac9"
+      }
+    ],
+    "drunken-master-1978": [
+      {
+        "src": "film-ai/shots/YS-20261105-2300-drunken-master-1978-06.webp",
+        "sha256": "b6baefdad72aa2bef2e6f16fb869f90ecd964e251ddcd61c50bdbd2f5bc9d58a"
+      },
+      {
+        "src": "film-ai/decks/film-drunken-master-1978.webp",
+        "sha256": "ec611636496166706672255be203ea92a618d52b4ee5f3d18c20b5a7515a8969"
       }
     ],
     "dune-2021": [
@@ -207,6 +381,34 @@
         "sha256": "d7c1a224fd1fe946bdcc89389c5f53faf1d48c834e9af70bea7de242b59f1490"
       }
     ],
+    "empresses-in-the-palace-2011": [
+      {
+        "src": "film-ai/shots/YS-20261112-W2-empresses-in-the-pal-06.webp",
+        "sha256": "d8bc7a4414076b0952bc0edd74fe09bdbd4911a0ae3c78e775f95ac2d7307882"
+      },
+      {
+        "src": "film-ai/decks/film-empresses-in-the-palace-2011.webp",
+        "sha256": "fed06e0cecef7b8e9f0faf6f31a8f463b7a283b467c822f4d8a6ae18cc7d0931"
+      },
+      {
+        "src": "film-ai/empresses-in-the-palace-2011.jpg",
+        "sha256": "bbf193ae491c7f291ca08c77a627db6366d10842c2d93d4e918ff4796d10f514"
+      }
+    ],
+    "et-the-extra-terrestrial-1982": [
+      {
+        "src": "film-ai/shots/YS-20261103-CW112-et-the-extra-terrestrial-1982-105.webp",
+        "sha256": "2ad71e67f358a38c853578a76ef7eab6b0e92ef28557d46592d417aecaa4f737"
+      },
+      {
+        "src": "film-ai/decks/film-et-the-extra-terrestrial-1982.webp",
+        "sha256": "2191c379311e2a72b4e47fa1f2bd4beff83772c3c8b57e055126ed0288603280"
+      },
+      {
+        "src": "film-ai/et-the-extra-terrestrial-1982.jpg",
+        "sha256": "aa9003a74a7d95a2b7a575d8e25b6d77d4785bc2e0f07af91524ddbb5e9dbcb4"
+      }
+    ],
     "everything-everywhere-all-at-once-2022": [
       {
         "src": "film-ai/decks/film-everything-everywhere-all-at-once-2022.webp",
@@ -215,6 +417,16 @@
       {
         "src": "film-ai/restored/everything-everywhere-all-at-once-2022.jpg",
         "sha256": "199df7a62bd7001fc5aa5be88f0235eca4bbbc130ff8fe74b3dd80b38ebae2f3"
+      }
+    ],
+    "fallen-angels-1995": [
+      {
+        "src": "film-ai/shots/YS-20261103-CW112-fallen-angels-1995-105.webp",
+        "sha256": "a9e409111519f81b17175220c758c38bc75aa4651ee207948ec6b9f4b195db39"
+      },
+      {
+        "src": "film-ai/restored/fallen-angels-1995.jpg",
+        "sha256": "409cea0fada3cb97c49b01549b20dc4b71b7083b6580a77f1a8fec457c1f59e9"
       }
     ],
     "farewell-my-concubine-1993": [
@@ -313,6 +525,16 @@
         "sha256": "55484fc7a6875924d62c841feff7160ba6c02e316f6aeae3905c9d5387e9a412"
       }
     ],
+    "gravity-2013": [
+      {
+        "src": "film-ai/shots/YS-20261028-C15-gravity-2013-11.webp",
+        "sha256": "5fe41cda8d55ad4c022d4b40a1ceb013dddf6988fb8668a4b279818bfac0a6cc"
+      },
+      {
+        "src": "film-ai/decks/film-gravity-2013.webp",
+        "sha256": "898e456baea37abc789cc42c3ac67790a1446ea5fe3af472ae1a053f47accf19"
+      }
+    ],
     "greenpeace-smog-journeys-2015": [
       {
         "src": "film-ai/shots/YS-20261111B5-M68-greenpeace-smog-journeys-2015-007.webp",
@@ -325,6 +547,20 @@
       {
         "src": "film-ai/decks/film-greenpeace-smog-journeys-2015.webp",
         "sha256": "e4bc65ab387449ff62517ddb4679a39bc411d7e1029d22d20fb9ba149984cd83"
+      }
+    ],
+    "happy-together-1997": [
+      {
+        "src": "film-ai/shots/YS-20261103-CW112-happy-together-1997-105.webp",
+        "sha256": "d2452b0e179237b9ac68948d9acbecabd090fbb26e88c5242809bfb794cc4b42"
+      },
+      {
+        "src": "film-ai/decks/film-happy-together-1997.webp",
+        "sha256": "ccc108d6d0588911052ed5c9d8e69bba63976400ce0dff516353cabbad0fb6db"
+      },
+      {
+        "src": "film-ai/restored/happy-together-1997.jpg",
+        "sha256": "49e6ea4ca4f19257621f3dd6a5a3f9d5a57452b960f5d360be380e95fbad38e6"
       }
     ],
     "hero-2002": [
@@ -341,6 +577,20 @@
         "sha256": "6a11f91790fd576563712cd2b3dd5efc7dd2efb6aaaec1dd3a51e4f3913a32b7"
       }
     ],
+    "house-1977": [
+      {
+        "src": "film-ai/shots/YS-20261106F4-CL68-house-1977-006.webp",
+        "sha256": "cf242d5b1e71ee04173ec4e5796c03d5ba54007d8da601b61879037ac26013e1"
+      },
+      {
+        "src": "film-ai/decks/film-house-1977.webp",
+        "sha256": "bbc622f1776baed1f6a3c887ee1acc9c42c7935a7e6ecd4e61092f80cfe8aad9"
+      },
+      {
+        "src": "film-ai/house-1977.jpg",
+        "sha256": "8bab373ac75f7929a71c3457e8db8e0885167bf5731e0c9b9dda3c37f5f16c03"
+      }
+    ],
     "in-the-mood-for-love-2000": [
       {
         "src": "film-ai/shots/YS-20261103-CW112-in-the-mood-for-love-2000-105.webp",
@@ -353,6 +603,38 @@
       {
         "src": "film-ai/restored/in-the-mood-for-love-2000.jpg",
         "sha256": "8389fba0ca4e0c5e61776cf6b891ae95a5019ef3c4681ad719130004efcddd4e"
+      }
+    ],
+    "jeanne-dielman-1975": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-jeanne-dielman-1975.webp",
+        "sha256": "f3501b8c9753749d359362ffacd89816defff208b7c82e23b1cc4f4a4b0f3d15"
+      },
+      {
+        "src": "film-ai/decks/film-jeanne-dielman-1975.webp",
+        "sha256": "134c2d4d42f55e02304567a56fd0113ac526c37330bc0655a91feda6e14ebe6e"
+      }
+    ],
+    "keep-rolling-2020": [
+      {
+        "src": "film-ai/gallery-reviewed/keep-rolling-2020-01.webp",
+        "sha256": "ff17980bc7277442d1662360a8b367e9a8c6d19ca13b2c5c04c80c87a1306cca"
+      },
+      {
+        "src": "film-ai/gallery-reviewed/keep-rolling-2020-02.webp",
+        "sha256": "e7db951ce8e457a0bbf77c88f130663027f4e19fd705b888f9353e1f38579dcc"
+      },
+      {
+        "src": "film-ai/gallery-reviewed/keep-rolling-2020-03.webp",
+        "sha256": "182216ca09d9462c11d6ac35fae582bf377b601f51f85d25723a9354f6b8467f"
+      },
+      {
+        "src": "film-ai/gallery-reviewed/keep-rolling-2020-04.webp",
+        "sha256": "ae5cc3158deb2cc5134dcce64adbac3a27c468c67305fc79e5ff635e5ca8ffd9"
+      },
+      {
+        "src": "film-ai/gallery-reviewed/keep-rolling-2020-05.webp",
+        "sha256": "8bf6971a5cb354a21577f433f25cd6e92a7c1c3ed419daaba6c5f89aacf099a0"
       }
     ],
     "killer-of-sheep-1978": [
@@ -469,6 +751,16 @@
         "sha256": "d70856f578634c71090bc2ffb3688c0786e45fb12aff7f70cba1e315a68170fd"
       }
     ],
+    "raise-the-red-lantern-1991": [
+      {
+        "src": "film-ai/shots/YS-20261103-CW112-raise-the-red-lantern-1991-105.webp",
+        "sha256": "b590bad02feee45bc8e8b3cffebb8ceed7d73fafb01a40faa5ab3fe84bc6f1dc"
+      },
+      {
+        "src": "film-ai/restored/raise-the-red-lantern-1991.jpg",
+        "sha256": "582afc414e6ceeaba25e6703e7bbef05258223979982a785ed1da8d8af8f3e04"
+      }
+    ],
     "red-sorghum-1987": [
       {
         "src": "film-ai/shots/YS-20261103-CW112-red-sorghum-1987-105.webp",
@@ -483,6 +775,16 @@
         "sha256": "3d8b2ed9efa15757059d80657659be4bb4e9ad4ca858457f28389eb13f44716d"
       }
     ],
+    "roma-2018": [
+      {
+        "src": "film-ai/shots/YS-0059-01.webp",
+        "sha256": "1d328ee1f18cac91e1b8b48847d8386f87bf21052ddb0d6a93a9e5e5aa99d4fb"
+      },
+      {
+        "src": "film-ai/decks/film-roma-2018.webp",
+        "sha256": "a9d6014d93d2f4d1c22c3b1f4a8ea3876303a8e76e8b5b570ee55dc90d4ea8cd"
+      }
+    ],
     "schindlers-list-1993": [
       {
         "src": "film-ai/shots/YS-20261028-C15-schindlers-list-1993-11.webp",
@@ -493,6 +795,20 @@
         "sha256": "9a7ebe69ebbedfb4b46fdf1800e4883bd7aa101b13959aa3cbacb214db3a32f0"
       }
     ],
+    "sinners-2025": [
+      {
+        "src": "film-ai/shots/YS-20261028-CF-sinners-2025-026.webp",
+        "sha256": "98c0fc518a651ff407ce4c8012d3df7ecb5e9c799733da56258c5ef9fe854179"
+      },
+      {
+        "src": "film-ai/shots/YS-0082-01.webp",
+        "sha256": "98a6211958f13b7c4b50e238d8647a2a6505b1fc61bfad97c55db1dc0578a41f"
+      },
+      {
+        "src": "film-ai/decks/film-sinners-2025.webp",
+        "sha256": "8bd714bde5446f4780d934446622d4347d5f3a1432666968a61af9ad77379534"
+      }
+    ],
     "spirited-away-2001": [
       {
         "src": "film-ai/decks/film-spirited-away-2001.webp",
@@ -501,6 +817,26 @@
       {
         "src": "film-ai/restored/spirited-away-2001.jpg",
         "sha256": "f2f9344c7ce338083464ec766bd1b9b7b0473fbc4f7731b1c0e9b8eeb160295c"
+      }
+    ],
+    "the-assassin-2015": [
+      {
+        "src": "film-ai/shots/YS-20261103-CW112-the-assassin-2015-105.webp",
+        "sha256": "e37218de7ecbbef4f64b220a987e41d9522a869383c7a2d93b5ff20bad437baf"
+      },
+      {
+        "src": "film-ai/restored/the-assassin-2015.jpg",
+        "sha256": "37a42e768c6271c22d65230eb87f46ef5dfeb9461676d2f66dd73f4026e2ba26"
+      }
+    ],
+    "the-brutalist-2024": [
+      {
+        "src": "film-ai/shots/YS-0079-01.webp",
+        "sha256": "491127f9d9df4d1848a3b9fb57add3cd36ed9e7b576211c3d8bac133770888d4"
+      },
+      {
+        "src": "film-ai/decks/film-the-brutalist-2024.webp",
+        "sha256": "adc447c58835162004b6e61df27aff6cb2fff4467c9d01f3dbd8ee4cf3513875"
       }
     ],
     "the-godfather-1972": [
@@ -521,6 +857,16 @@
       {
         "src": "film-ai/restored/the-grandmaster-2013.jpg",
         "sha256": "213544470a39fac0bd8e8c01b10ec0d2a6bce0eb4c600db5bd5819a3a3d080aa"
+      }
+    ],
+    "there-will-be-blood-2007": [
+      {
+        "src": "film-ai/shots/YS-0037-01.webp",
+        "sha256": "b3e4d31d1c1a01ee135e18c093849199e6844247a75164a6a340308caa38b9d7"
+      },
+      {
+        "src": "film-ai/decks/film-there-will-be-blood-2007.webp",
+        "sha256": "c5316a6d57b45700657d4319ed95a9ff01bbf609859bde12771c213a55af3f89"
       }
     ]
   }
