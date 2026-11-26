@@ -65,8 +65,10 @@
     for (const name of MAPS) {
       const info = window[name]?.[id];
       if (!info || !/^[a-f0-9]{64}$/i.test(info.sha256 || '')) continue;
-      if (info.original && /^https:\/\/(raw\.githubusercontent\.com|[a-z0-9-]+\.trycloudflare\.com)\//i.test(info.original) &&
-          /\.png(?:[?#]|$)/i.test(info.original)) return info;
+      const trustedPngUrl = /^https:\/\/raw\.githubusercontent\.com\//i.test(info.original || '') ||
+        /^https:\/\/[a-z0-9-]+\.trycloudflare\.com\//i.test(info.original || '') ||
+        /^https:\/\/aikingtai-ctrl\.github\.io\/jintai-history-image-library\/history-ai\/page21-museum-originals\//i.test(info.original || '');
+      if (trustedPngUrl && /\.png(?:[?#]|$)/i.test(info.original)) return info;
       if (DIR_RE.test(info.original_dir || '') && PNG_RE.test(info.filename || '')) return info;
     }
     return null;
