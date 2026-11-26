@@ -1008,9 +1008,9 @@ function syncChipUI(){
 }
 
 
-function histPreview(id){return window.JINTAI_MYTH_IMAGES?.[id]?.preview||window.JINTAI_PAGE23_IMAGES?.[id]?.preview||window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||window.JINTAI_PEOPLE_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
-function histThumb(id){return window.JINTAI_MYTH_IMAGES?.[id]?.preview||window.JINTAI_PAGE23_IMAGES?.[id]?.preview||window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.thumb||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]?.thumb||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||histPreview(id);}
-function histOriginalInfo(id){return window.JINTAI_MYTH_IMAGES?.[id]||window.JINTAI_PAGE23_IMAGES?.[id]||window.JINTAI_PAGE22_IMAGES?.[id]||window.JINTAI_PAGE21_IMAGES?.[id]||window.JINTAI_PAGE20_IMAGES?.[id]||window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]||window.JINTAI_SONG_IMAGES?.[id]||window.JINTAI_PEOPLE_IMAGES?.[id]||null;}
+function histPreview(id){return window.JINTAI_BROWSER_IMAGES?.[id]?.preview||window.JINTAI_MYTH_IMAGES?.[id]?.preview||window.JINTAI_PAGE23_IMAGES?.[id]?.preview||window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||window.JINTAI_PEOPLE_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
+function histThumb(id){return window.JINTAI_BROWSER_IMAGES?.[id]?.thumb||window.JINTAI_BROWSER_IMAGES?.[id]?.preview||window.JINTAI_MYTH_IMAGES?.[id]?.preview||window.JINTAI_PAGE23_IMAGES?.[id]?.preview||window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.thumb||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]?.thumb||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||histPreview(id);}
+function histOriginalInfo(id){return window.JINTAI_BROWSER_IMAGES?.[id]||window.JINTAI_MYTH_IMAGES?.[id]||window.JINTAI_PAGE23_IMAGES?.[id]||window.JINTAI_PAGE22_IMAGES?.[id]||window.JINTAI_PAGE21_IMAGES?.[id]||window.JINTAI_PAGE20_IMAGES?.[id]||window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]||window.JINTAI_SONG_IMAGES?.[id]||window.JINTAI_PEOPLE_IMAGES?.[id]||null;}
 function openHistOriginal(r){
   const info=histOriginalInfo(r.id);
   if(!info){openHistLightbox(r);return;}
@@ -1057,6 +1057,20 @@ async function historyOriginalUrl(info){
     s.src=base+'/jintai-history-image-library/history-ai/people-manifest.js?t='+Date.now();
     s.onload=()=>{
       const images=window.JINTAI_PEOPLE_IMAGES||{};
+      for(const info of Object.values(images)){
+        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+      }
+      if(typeof render==='function'&&R.length)render();
+    };
+    document.head.appendChild(s);
+  }).catch(()=>{});
+})();
+(function loadBrowserOriginalImages(){
+  historyGalleryBase().then(base=>{
+    const s=document.createElement('script');
+    s.src=base+'/jintai-history-image-library/history-ai/browser-originals-manifest.js?t='+Date.now();
+    s.onload=()=>{
+      const images=window.JINTAI_BROWSER_IMAGES||{};
       for(const info of Object.values(images)){
         info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
       }

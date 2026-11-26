@@ -142,6 +142,12 @@ jobs:
               assert route + ".then(url=>tab.location.replace(url))" in html, f"Direct original navigation missing in {rel}"
           assert "history-ai/myth-originals-manifest.js" in idx_html and "JINTAI_MYTH_IMAGES?.[id]" in idx_html, "Myth original mapping missing"
           assert "full.onload" in idx_html and "native.width" in idx_html, "Original lightbox dimension gate missing"
+          assert "history-ai/browser-originals-manifest.js" in idx_html and "window.JINTAI_BROWSER_IMAGES?.[id]||" in idx_html, "Accepted browser originals missing from index"
+          assert "history-ai/browser-originals-viewer.js" in brw_html, "Browser original viewer missing"
+          browser_js = git_bytes("show", "HEAD:history-ai/browser-originals-manifest.js").decode("utf-8")
+          assert browser_js.startswith("window.JINTAI_BROWSER_IMAGES="), "Browser original manifest invalid"
+          browser_images = json.loads(browser_js.split("=", 1)[1].rstrip(";\n"))
+          assert all(item.get("original_dir") == "history_browser_87386_codex_gpt_image_20261126" and item.get("filename", "").endswith(".png") and item.get("preview_filename", "").endswith(".webp") for item in browser_images.values()), "Browser original source mismatch"
           for rel in ("history-batch.html", "history-batch-1001-2000.html"):
               assert "function gpt(r){return window.JINTAI_GPT_IMAGES?.[r.id];}" in history_pages[rel], f"Accepted GPT Image priority missing in {rel}"
               assert "function previewSrc(r){return gpt(r)?.preview||histImgSrc(r.thumbnail);}" in history_pages[rel], f"Batch preview missing in {rel}"
@@ -216,6 +222,7 @@ jobs:
                       continue
               elif top == "history-ai":
                   history_files = {
+                      "browser-originals-manifest.js", "browser-originals-viewer.js",
                       "manifest.js", "source-notes.js", "gpt-image-manifest.js", "qing-manifest.js", "page19-originals-manifest.js", "page20-originals-manifest.js", "page21-originals-manifest.js", "page22-originals-manifest.js", "page23-originals-manifest.js", "regenerated-manifest.js", "myth-originals-manifest.js", "people-manifest.js",
                       "gallery-data.js", "gallery-data-batch2.js",
                       "batch-manifest.json", "batch2-manifest.json",
