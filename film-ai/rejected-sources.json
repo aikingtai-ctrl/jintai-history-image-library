@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T05:54:43.219297+08:00",
+  "updated_at": "2026-11-27T06:57:34.648402+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -1472,6 +1472,62 @@
       "sha256": "d8f541765508eff9ac90e2a3d14c2c82eb1d741e50402ba5c356fb882648eb58",
       "reason": "受伤的黑人男子穿西装近景无法核定为 Hampton、O'Neal 或其他片中人物；演员与事件均缺锚点，暂缓。",
       "evidence": "第三十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "la-jetee-1962",
+      "src": "film-ai/la-jetee-1962.jpg",
+      "sha256": "f4938e69dbd17c6a61efa26fb0913d67385786ec654cbfed9942f1ecf773d43e",
+      "reason": "黑白近景主体为东亚面容女子，与法国片中 Hélène Chatelain 所饰女性不符；无可核的其他角色或场景锚点。",
+      "evidence": "第三十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "la-la-land-2016",
+      "src": "film-ai/shots/YS-20261028-C15-la-la-land-2016-11.webp",
+      "sha256": "bc05d3270a8e22c8b7c38d8273edfe11f98cc5d34d47915d2d622a0d0ac5bad1",
+      "reason": "原图车内主体为东亚女性，不能代表 Emma Stone 饰演的 Mia；仅汽车与洛杉矶郊野无其他角色锚点。",
+      "evidence": "第三十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "lady-macbeth-2016",
+      "src": "film-ai/lady-macbeth-2016.jpg",
+      "sha256": "ec2c084d14ab34f356daeaaf9759c5a641cf9167f0bcdac083d90c7f78a078e8",
+      "reason": "床上主体明显为东亚女性，与 Florence Pugh 饰英国青年 Katherine 的演员/地域形象冲突，未见可核其他角色。",
+      "evidence": "第三十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "landscape-in-the-mist-1988",
+      "src": "film-ai/shots/WORKCONCEPT-20261123-landscape-in-the-mist-1988-gpt.webp",
+      "sha256": "9206779ed25ced6a3d39c46aee28495281ee9236e66d4cc226816132405be055",
+      "reason": "空公交站与雾路未见兄妹、火车或德国寻父线，泛化气氛无法归为具体电影。",
+      "evidence": "第三十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "landscape-in-the-mist-1988",
+      "src": "film-ai/landscape-in-the-mist-1988.jpg",
+      "sha256": "168dc3f068273e5e2885a9c4f9e2bb1b9411236d14118c25b261419245983f9c",
+      "reason": "原图全黑仅希腊语文字‘η σιωπή’，是字卡而非电影场面/人物剧照。",
+      "evidence": "第三十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "late-autumn-1960",
+      "src": "film-ai/late-autumn-1960.jpg",
+      "sha256": "0ac8f8c1ecbf2289c40730e737eee9377be5b2f863bdb6d020d0e3f235c8bca6",
+      "reason": "原图为整幅黑白多人合影，而 Criterion 明列该片为彩色；在现行图片呈现下不能充当彩色原片剧照。",
+      "evidence": "第三十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "laura-1944",
+      "src": "film-ai/laura-1944.jpg",
+      "sha256": "4fbd4e6ebd05c9a30bd5691d5d32bc27f3a449fda6319cbdf1d78af90837a345",
+      "reason": "画面底部明确叠有‘GENE TIERNEY’演员署名，是演员宣传字卡，不是无字电影剧照。",
+      "evidence": "第三十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "legend-of-the-mountain-1979",
+      "src": "film-ai/legend-of-the-mountain-1979.jpg",
+      "sha256": "a1512c5757c76e0b71ef34981852ee7c78523b8e6bfb20e4cfacd2135a7f32b9",
+      "reason": "海崖山水上叠有竖排片名‘山中传奇’，为标题宣传字卡而非无字剧情剧照。",
+      "evidence": "第三十六批30部两路径电影/逐图建议与联系表"
     }
   ]
 }

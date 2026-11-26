@@ -5963,6 +5963,26 @@
         "sha256": "a44a4ac90a143f152773e02619732255ff3c9afe848bfa8e2a2c1f35d9767a8a"
       }
     ],
+    "la-dolce-vita-1960": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-la-dolce-vita-1960.webp",
+        "sha256": "5164b967d85c9cca32cc6e2603a585dd66a93eaaa5d6bc457dbeda9ec510176e"
+      },
+      {
+        "src": "film-ai/la-dolce-vita-1960.jpg",
+        "sha256": "6f9e608c3ade1998a05ebfc578a8d417c6743b9737810972d79dab3620584db6"
+      }
+    ],
+    "la-haine-1995": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-la-haine-1995.webp",
+        "sha256": "db943c572f5f7156f69a0e0e893264ff26c1c36e7a13ef21df02a5a534a4c475"
+      },
+      {
+        "src": "film-ai/la-haine-1995.jpg",
+        "sha256": "269e25bd9d8fc309d57d276706333aa82236c7de82fb31c44cd7cd4af872b205"
+      }
+    ],
     "la-terra-trema-1948": [
       {
         "src": "film-ai/shots/YS-20261111B5-M68-la-terra-trema-1948-037.webp",
@@ -5977,6 +5997,26 @@
         "sha256": "a38857a56648f58ab68cc5f383d0b1727dc9798f12f40ff1de060fa06ac291be"
       }
     ],
+    "lagaan-2001": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-lagaan-2001.webp",
+        "sha256": "f164517aea26b4fdb59601147e225d89245afb5057b83b2f9daae0d2ff250873"
+      },
+      {
+        "src": "film-ai/lagaan-2001.jpg",
+        "sha256": "74ea4cfee34e2633fc94f6d44253b03d2c54241f715b559d1a6bd1084ed34e16"
+      }
+    ],
+    "last-life-in-the-universe-2003": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-last-life-in-the-universe-2003-gpt.webp",
+        "sha256": "6ac2fa015c28490734937e7721f8022176a13c156365f793135ca0362db0dc2f"
+      },
+      {
+        "src": "film-ai/last-life-in-the-universe-2003.jpg",
+        "sha256": "9a95fc8e8ad0fc8f405549a2baa7c686b606e2ea1840e1339c9f023d056566c0"
+      }
+    ],
     "last-tango-in-paris-1972": [
       {
         "src": "film-ai/shots/YS-20261111B5-M68-last-tango-in-paris-1972-037.webp",
@@ -5989,6 +6029,16 @@
       {
         "src": "film-ai/last-tango-in-paris-1972.jpg",
         "sha256": "2f9cc0ad4d56eab26fe1605f5455b19bd6f269f907c8a0ed1f8b19a7cc46523f"
+      }
+    ],
+    "last-year-at-marienbad-1961": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-last-year-at-marienbad-1961-gpt.webp",
+        "sha256": "8dd81e6f6109d77b9f4ef7bc1576bbf21b736563b1928e915529c5906692a61b"
+      },
+      {
+        "src": "film-ai/last-year-at-marienbad-1961.jpg",
+        "sha256": "2c6d150869dc34aae72582fd92071aab55b7e50bc2b28ab7dd76000bcf5c88e8"
       }
     ],
     "lawrence-of-arabia-1962": [
@@ -6013,6 +6063,56 @@
       {
         "src": "film-ai/le-jour-se-leve-1939.jpg",
         "sha256": "e75e918e139ec2e7d7288dc8e79ca1d968c5998a2069aeed2c7d442fffa823ef"
+      }
+    ],
+    "leap-2020": [
+      {
+        "src": "film-ai/shots/YS-20261118-GR-leap-2020-01.webp",
+        "sha256": "6cbee591da692b8b37104c602378edfe78b7772d073e0ed0344507e21dc2023c"
+      },
+      {
+        "src": "film-ai/leap-2020.jpg",
+        "sha256": "a3575c94384f8f1d40f17248f808d96c4fcc963dd6932d0d16a4a43631c43784"
+      }
+    ],
+    "legend-of-the-demon-cat-2017": [
+      {
+        "src": "film-ai/shots/YS-20261118-GR-legend-of-the-demon-cat-2017-01.webp",
+        "sha256": "9526d3fb2c9ae13c3b36aee0e148b1a5667286abaa72360e6c63d45825bdc23f"
+      },
+      {
+        "src": "film-ai/legend-of-the-demon-cat-2017.jpg",
+        "sha256": "ea65d5e4c949030feae58edfc9d5a26b2834c393d2f287f50467663460fb18fa"
+      }
+    ],
+    "les-amants-du-pont-neuf-1991": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-les-amants-du-pont-neuf-1991-gpt.webp",
+        "sha256": "69f883f021c2dd6737d382c8779fc020c6865c49d9d158f95aca5490cfa4b51a"
+      },
+      {
+        "src": "film-ai/les-amants-du-pont-neuf-1991.jpg",
+        "sha256": "657e613ae73ed2a6e28b07a66bb7335d46f5b0cb1ced8f5fadee745fd185a64a"
+      }
+    ],
+    "les-diaboliques-1955": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261123-les-diaboliques-1955-gpt.webp",
+        "sha256": "3c2bb32f409383884236cad14ea6910d2eb489987e126fb74429d644c048ca83"
+      },
+      {
+        "src": "film-ai/les-diaboliques-1955.jpg",
+        "sha256": "f1551b87629fee3f867e117e81793454d938fdcb02efec1fb612f313a2a46c88"
+      }
+    ],
+    "lessons-of-darkness-1992": [
+      {
+        "src": "film-ai/shots/YS-20261109-2300-lessons-of-darkness--06.webp",
+        "sha256": "5785247efe54689a235167f85ff99128ffebe730140d04f444e278bae1239ea6"
+      },
+      {
+        "src": "film-ai/lessons-of-darkness-1992.jpg",
+        "sha256": "7cb58dcfe7c235c25ed51857e9a4f61be643a0503a84c561fb6593dd13e73507"
       }
     ],
     "life-1984": [
