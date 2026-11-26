@@ -389,6 +389,16 @@
         "sha256": "870c667daa92b883a06db67a5230b2e770f813f9a68bcbe7a4f64bcea3cb3196"
       }
     ],
+    "portrait-of-a-lady-on-fire-2019": [
+      {
+        "src": "film-ai/decks/film-portrait-of-a-lady-on-fire-2019.webp",
+        "sha256": "a98aa5903268b8df79d55145d811e7aebfc672eca60eadb435e35cb2bcb8cfad"
+      },
+      {
+        "src": "film-ai/restored/portrait-of-a-lady-on-fire-2019.jpg",
+        "sha256": "d70856f578634c71090bc2ffb3688c0786e45fb12aff7f70cba1e315a68170fd"
+      }
+    ],
     "red-sorghum-1987": [
       {
         "src": "film-ai/shots/YS-20261103-CW112-red-sorghum-1987-105.webp",
