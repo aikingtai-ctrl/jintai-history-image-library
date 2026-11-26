@@ -1627,6 +1627,62 @@
       "method": "reference_edit",
       "source_deviation_note": "原目录所引史料关联子西；图为楚国迁城议事的概念艺术复原，非真实肖像或确证场景。",
       "nas_period": "春秋"
+    },
+    "HF-20261020-0074": {
+      "title": "【历史名人】叶公（沈诸梁）（先秦·春秋楚国·春秋楚国令尹兼司马、方城之外统帅、平白公胜之乱定楚社稷）",
+      "original": "images/HF-20261020-0074.png",
+      "preview": "previews/HF-20261020-0074.jpg",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "eed0ef580e06f1d3bd52b4703b1271c9dd9fa165af642ed804e2f63e54d32f53",
+      "source_prompt": "Cinematic photorealistic historical concept portrait of 叶公 in Eastern Zhou China. 楚国议政. Interpretive art; plausible simple robes and rammed-earth architecture, no later crowns, heraldry, pseudo-writing, text or watermark.",
+      "source": "https://zh.wikisource.org/zh-hans/%E5%8F%B2%E8%A8%98",
+      "evidence_level": "A",
+      "method": "text_generation",
+      "source_deviation_note": "原目录所引史料关联叶公；图为楚国议政的概念艺术复原，非真实肖像或确证场景。",
+      "nas_period": "春秋"
+    },
+    "HF-20261020-0075": {
+      "title": "【历史名人】虞卿（先秦·战国赵国·战国赵国上卿、解相印弃万户侯与魏齐同行、著《虞氏春秋》）",
+      "original": "images/HF-20261020-0075.png",
+      "preview": "previews/HF-20261020-0075.jpg",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c23f9bb6899c8c90e8ffb2861b69b75fa53eafb4fd85f02ab4d82badb8383b64",
+      "source_prompt": "Cinematic photorealistic historical concept portrait of 虞卿 in Eastern Zhou China. 赵国行旅. Interpretive art; plausible simple robes and rammed-earth architecture, no later crowns, heraldry, pseudo-writing, text or watermark.",
+      "source": "https://zh.wikisource.org/zh-hans/%E5%8F%B2%E8%A8%98",
+      "evidence_level": "A",
+      "method": "text_generation",
+      "source_deviation_note": "原目录所引史料关联虞卿；图为赵国行旅的概念艺术复原，非真实肖像或确证场景。",
+      "nas_period": "战国"
+    },
+    "HF-20261021-0001": {
+      "title": "【历史名人】周定王（姬瑜）（先秦·东周王室·东周第九位天子、命王孙满于洛阳郊外以周德九鼎之对折服楚庄王）",
+      "original": "images/HF-20261021-0001.png",
+      "preview": "previews/HF-20261021-0001.jpg",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c8cfe29d16a0e6ea3c92e9918963ed6e175590302b5d8783314bc292c9acde73",
+      "source_prompt": "Cinematic photorealistic historical concept portrait of 周定王 in Eastern Zhou China. 聆听使者. Interpretive art; plausible simple robes and rammed-earth architecture, no later crowns, heraldry, pseudo-writing, text or watermark.",
+      "source": "https://zh.wikisource.org/zh-hans/%E5%8F%B2%E8%A8%98",
+      "evidence_level": "A",
+      "method": "text_generation",
+      "source_deviation_note": "原目录所引史料关联周定王；图为聆听使者的概念艺术复原，非真实肖像或确证场景。",
+      "nas_period": "春秋"
+    },
+    "HF-20261021-0006": {
+      "title": "【历史名人】苌弘（周大夫）（先秦·东周王室·东周敬王重臣、通晓天文历算与武乐礼制、孔子访乐之师、忠周殉国苌弘化碧）",
+      "original": "images/HF-20261021-0006.png",
+      "preview": "previews/HF-20261021-0006.jpg",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "354a00bec562408ffda43ce77b10d03bad971a04d94ca862f94d392e02e1da9b",
+      "source_prompt": "Cinematic photorealistic historical concept portrait of 苌弘 in Eastern Zhou China. 讲授古乐. Interpretive art; plausible simple robes and rammed-earth architecture, no later crowns, heraldry, pseudo-writing, text or watermark.",
+      "source": "https://zh.wikisource.org/zh-hans/%E5%8F%B2%E8%A8%98",
+      "evidence_level": "A",
+      "method": "text_generation",
+      "source_deviation_note": "原目录所引史料关联苌弘；图为讲授古乐的概念艺术复原，非真实肖像或确证场景。",
+      "nas_period": "春秋"
     }
   }
 }
