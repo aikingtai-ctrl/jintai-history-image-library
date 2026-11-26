@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T04:27:03.857890+08:00",
+  "updated_at": "2026-11-27T05:35:11.184153+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -1255,6 +1255,188 @@
       "sha256": "4a19c83f324e5345d688a99f66a2e0c5bf1be5a585f2a9acc148cb5f0cb305ab",
       "reason": "俯拍两辆白色货车及一名男子，没有可核身份、倒叙事件或片中地点锚点；暂缓。",
       "evidence": "第三十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "lost-in-the-stars-2023",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/54b8ecc5b4d532f7af741d3898223f643a3df212/originals/part-03/lost-in-the-stars-2023-d78b70c5dffa.png",
+      "sha256": "d78b70c5dffa426e390170430a663c4fd559e53e0bf3c341b781511c9ca9f6bc",
+      "reason": "虽借用了海底/潜水母题，主体却是胡须浓重的白人男子穿复古硬式潜水盔；与朱一龙饰何非及当代潜水装备和人物身份明显冲突。",
+      "evidence": "外链两路径首批10部/逐图建议与联系表"
+    },
+    {
+      "wid": "lost-in-the-stars-2023",
+      "src": "film-ai/lost-in-the-stars-2023-v2.jpg",
+      "sha256": "385a0ca62fc680b136f5f00c40a838a29efb3d68523b9b36609a113bf4ec55ab",
+      "reason": "本地 JPG 与外链 PNG 为同一错配画面缩小压缩版；同样不可归入《消失的她》。",
+      "evidence": "外链两路径首批10部/逐图建议与联系表"
+    },
+    {
+      "wid": "lan-yu-2001",
+      "src": "film-ai/lan-yu-2001.jpg",
+      "sha256": "f2decacbb56c24ae07d91896dc2c706167f83374441a7308913bdfd2a8e70be5",
+      "reason": "本地 JPG 与外链 PNG 构图完全相同，pHash 距离 0、dHash 距离 0；仅是 1280×720 压缩预览，不能计为第二张不同剧照。",
+      "evidence": "外链两路径首批10部/逐图建议与联系表"
+    },
+    {
+      "wid": "lan-yu-2001",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/lan-yu-2001-9a22a86789ae.png",
+      "sha256": "9a22a86789ae053f4713ad6af4faccea07a9b1c66d0c15a636b0b926f0118d5c",
+      "reason": "北京式大家庭餐桌以长辈、妇女和儿童为主体，未能辨认陈捍东/蓝宇双人关系；虽故事可能有家庭场面，但无足够片目锚点。",
+      "evidence": "外链两路径首批10部/逐图建议与联系表"
+    },
+    {
+      "wid": "licorice-pizza-2021",
+      "src": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p01/licorice-pizza-2021-030fb34ebfb3.png",
+      "sha256": "030fb34ebfb3e313f65db6d845334a4d93375594bb7b25ca14db118b61cb8042",
+      "reason": "昏暗餐馆内长发女子与背对镜头男子对坐，无法核出 15 岁 Gary、25 岁 Alana 或圣费尔南多谷行动线；仅年代氛围不足归片。",
+      "evidence": "外链两路径首批10部/逐图建议与联系表"
+    },
+    {
+      "wid": "licorice-pizza-2021",
+      "src": "film-ai/licorice-pizza-2021.jpg",
+      "sha256": "1204f301cf914ef2ac0ce17625888d6e9c8102b32de23354f5228b3dbba1512b",
+      "reason": "本地 JPG 与外链 PNG 构图完全相同，pHash 距离 2、dHash 距离 0；仅是 640×360 压缩预览，不能计为第二张不同剧照。",
+      "evidence": "外链两路径首批10部/逐图建议与联系表"
+    },
+    {
+      "wid": "mahjong-1996",
+      "src": "film-ai/mahjong-1996.jpg",
+      "sha256": "d6dee2122adc5731442e401e263972d71a10b53ebb03869a6fe37e860eb56ae5",
+      "reason": "与外链 PNG 是同一构图的较小 JPG 预览，pHash 距离 0、dHash 距离 0；不能计为第二张不同剧照。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "mahjong-1996",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/mahjong-1996-8116a3e23950.png",
+      "sha256": "8116a3e2395014e0471f44cbf63e7008fe02d06858f7cc6c2dbd72310758c0b8",
+      "reason": "夜间出租车里的三名东亚青年仅有城市时代氛围，缺影片人物或事件锚点；暂缓归片。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "malena-2000",
+      "src": "film-ai/malena-2000.jpg",
+      "sha256": "1685c0d320ec571807a74c95c190e22a2c9847679c1c3f0865c7b70302a3bbc0",
+      "reason": "与外链 PNG 是同一构图的较小 JPG 预览，pHash 距离 0、dHash 距离 0；不能计为第二张不同剧照。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "malena-2000",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/malena-2000-439caf894b44.png",
+      "sha256": "439caf894b447c62ea3ebb376055757ccb18be31e40df0b8e0720b82c2465b5d",
+      "reason": "女子穿现代商务套装、提现代手袋走过意大利回廊；人物身份与二战年代服装难核，不以西西里外景归片。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "memoria-2021",
+      "src": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p01/memoria-2021-955b6e27dae1.png",
+      "sha256": "955b6e27dae1c51f9a85aa3afe1e5c1c921d802183d35f836a9c2d51f3aa825b",
+      "reason": "画面为东亚男性在佛寺式庭院交流，地域、主体人物与官方哥伦比亚/苏格兰女性设定冲突；两路径均拒用。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "memoria-2021",
+      "src": "film-ai/memoria-2021.jpg",
+      "sha256": "ae7742dbb3e8e38ffdf3f3369f83335aad150be2562adab283d38f68757c633a",
+      "reason": "本地 JPG 是同一错配/非剧照 PNG 的较小压缩副本，画面内容同样拒用。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "no-more-bets-2023",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/6d94c20a952721d5b54ab76cf0ae61099b51d48d/originals/part-03/no-more-bets-2023-a1ec0b1691da.png",
+      "sha256": "a1ec0b1691dade12ad56ece2eaf60079bca0c0984cb266ede1b202989efce38f",
+      "reason": "东亚女子坐在教室听课，未见电诈园区、技术工作或片中人物身份锚点；暂缓。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "no-more-bets-2023",
+      "src": "film-ai/no-more-bets-2023.jpg",
+      "sha256": "c9dd91aa906e57d3b3850a1a816481a9ea7944b8357deb0c3a543917018f3ecb",
+      "reason": "与外链 PNG 是同一构图的较小 JPG 预览，pHash 距离 0、dHash 距离 2；不能计为第二张不同剧照。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "old-fox-2023",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/6d94c20a952721d5b54ab76cf0ae61099b51d48d/originals/part-03/old-fox-2023-42fd9a02850e.png",
+      "sha256": "42fd9a02850e0260753077481516b59b5983908e258a3e8464c757f2c4852357",
+      "reason": "仅成人男女在室内交谈，未见少年、父亲与房东关系或片中情节锚点；暂缓。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "old-fox-2023",
+      "src": "film-ai/old-fox-2023.jpg",
+      "sha256": "ad7f95b51add214eb116baa6511b8fdf39b04d6a145c72aad5a00cd3df710551",
+      "reason": "与外链 PNG 是同一构图的较小 JPG 预览，pHash 距离 0、dHash 距离 0；不能计为第二张不同剧照。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "phoenix-2014",
+      "src": "film-ai/phoenix-2014.jpg",
+      "sha256": "fc17c044d36a9994b8320775de6ed23d9e6a30ea9b2fa3c4f20dcd314945941f",
+      "reason": "与外链 PNG 是同一构图的较小 JPG 预览，pHash 距离 0、dHash 距离 1；不能计为第二张不同剧照。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "phoenix-2014",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/phoenix-2014-4071c350d32f.png",
+      "sha256": "4071c350d32f25f2cf63f7e4802fb15ec9c73922be2fb5b71b43c5bc4b657f5d",
+      "reason": "临床病床上被单覆面者可联想术后，却无内莉身份、柏林或面部重建的明确画面证据；暂缓。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "pi-1998",
+      "src": "film-ai/pi-1998.jpg",
+      "sha256": "c8bdf798168208bf7c244537f42499bea287c7da67f5aab82da73471f78be2d5",
+      "reason": "本地 JPG 是同一错配/非剧照 PNG 的较小压缩副本，画面内容同样拒用。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "pi-1998",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/pi-1998-f87e03a33fa0.png",
+      "sha256": "f87e03a33fa04d516c3f1918ca622f3f33b820269f933099a744080da2db4c55",
+      "reason": "黑白画面中的主体为东亚年轻男子写数字，和官方主人公 Max Cohen 的演员肖恩·古莱特明显不符；两路径均拒用。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "pieta-2012",
+      "src": "film-ai/pieta-2012.jpg",
+      "sha256": "5758a761cd36def82c94d5f5a16c1570fe6f831c5db6b964435b88fbcb253432",
+      "reason": "本地 JPG 是同一错配/非剧照 PNG 的较小压缩副本，画面内容同样拒用。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "pieta-2012",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/pieta-2012-a0aff6b6a39d.png",
+      "sha256": "a0aff6b6a39dd41610b4d7b52f265496b5ca073e8d291c936dd794a572fad3bb",
+      "reason": "巨大 OMEGA 钟面、女子面孔与穿刺刀具组成商业广告式拼贴，属于非叙事剧照/推广图，且与影片人物场景无可核联系；两路径均拒用。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003",
+      "src": "film-ai/pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003.jpg",
+      "sha256": "eedde83a60183e2cc60a7ea333820bb4b8ecb54c1df7f1e314e9db48e80e4c99",
+      "reason": "与外链 PNG 是同一构图的较小 JPG 预览，pHash 距离 0、dHash 距离 0；不能计为第二张不同剧照。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003-0fa5fbc9d248.png",
+      "sha256": "0fa5fbc9d248a487b90df1259fc24b7e0f277b0dfd6f5591d3c719832daeaf99",
+      "reason": "英军士兵与旗帜可见皇家港类型场景，但无杰克、伊丽莎白、巴博萨或黑珍珠号锚点；暂缓。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "poetry-2010",
+      "src": "film-ai/poetry-2010.jpg",
+      "sha256": "ea35f46f9d9688eae4401a6421cc0a69b175dfade4e357caadb143ca672114b4",
+      "reason": "与外链 PNG 是同一构图的较小 JPG 预览，pHash 距离 0、dHash 距离 0；不能计为第二张不同剧照。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "poetry-2010",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/poetry-2010-a402276a2405.png",
+      "sha256": "a402276a240583f163b7ded491f92f818f63293ac342942a48f787c9b814426e",
+      "reason": "霓虹酒吧里较年轻女性持麦克风唱歌，无美子年龄、社区诗歌课或片中行动线锚点；暂缓。",
+      "evidence": "外链两路径第二批30部/逐图建议与联系表"
     }
   ]
 }
