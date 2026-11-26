@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "1418-6e3b47908903",
+  "revision": "1434-05a248f0be6d",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -11347,6 +11347,134 @@
       "width": 1278,
       "height": 1230,
       "sha256": "6e3b4790890337cf91c7017d9efc9b7ea45ba4943e13f6e8cd7ba27b0938abb0"
+    },
+    "HL-JINGUO-FA-0176": {
+      "title": "金代矿冶匠户·青年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0176.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0176.png",
+      "width": 1312,
+      "height": 1199,
+      "sha256": "3230361d24fce2ea94443dbd77b97a5560c6a529dcb8da40d97f804a2c0aa456"
+    },
+    "HL-JINGUO-FA-0177": {
+      "title": "金代矿冶匠户·老年版·容貌范型",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-JINGUO-FA-0177.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-JINGUO-FA-0177.png",
+      "width": 1316,
+      "height": 1195,
+      "sha256": "cd0f70a9a4033d51b197a4d2fc7a353ba09c302e6bfac10e0d168068ce7dfcdc"
+    },
+    "HL-BSONG-LS-0009": {
+      "title": "北宋汴河沿岸秋日午后·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-LS-0009.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-LS-0009.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "324daeec5c405ab7b5360791ffd33059672c91485fc04a19fa1a9b2fda503724"
+    },
+    "HL-BSONG-LS-0010": {
+      "title": "北宋汴河沿岸秋日午后·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-LS-0010.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-LS-0010.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "29ad57385b63e89534954a23de96d3c5cb72238c1bfa0c8307888aa464bced84"
+    },
+    "HL-BSONG-LS-0011": {
+      "title": "北宋汴河沿岸秋日午后·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-LS-0011.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-LS-0011.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "32acdd7cf63aaca07d1fbc00a2e5b8e20eeefba150067fcd70af0bd488155a43"
+    },
+    "HL-BSONG-LS-0012": {
+      "title": "北宋汴河沿岸秋日午后·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-LS-0012.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-LS-0012.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6c10da7653391469c424a82e7a26e8726ed94e871a8cd8dd3f64aee0559dfdad"
+    },
+    "HL-NSONG-LS-0010": {
+      "title": "南宋临安西湖·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-LS-0010.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-LS-0010.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8e97c63a074730d1c32aa6fdfafde6d8b5b10e25897d0059c71b106a5da0101f"
+    },
+    "HL-NSONG-LS-0011": {
+      "title": "南宋临安西湖·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-LS-0011.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-LS-0011.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "73b8db914bafed79a775fbf44f90198b350c85d92a7a0727f692253069c50d41"
+    },
+    "HL-NSONG-LS-0012": {
+      "title": "南宋临安西湖·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-LS-0012.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-LS-0012.png",
+      "width": 1671,
+      "height": 941,
+      "sha256": "b99daed0af7ae0e3b330f90f4125b946705b863d99ad7dd40a107b5051b2008e"
+    },
+    "HL-NSONG-LS-0013": {
+      "title": "南宋临安西湖·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-LS-0013.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-LS-0013.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e6ba60a5a4b585edbd9a32457652be074d12eefb56d75ad792d1fb01ecf47229"
+    },
+    "HL-LIAO-LS-0008": {
+      "title": "辽代契丹草原捺钵营帐·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-LS-0008.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-LS-0008.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "8c7274580fb6f21e2a44ba19b007adc15548c2de794617b3b177e95839bb8ef9"
+    },
+    "HL-LIAO-LS-0009": {
+      "title": "辽代契丹草原捺钵营帐·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-LS-0009.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-LS-0009.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5d639f7359b8b68c10d6cef07ffd29e34d743f95ad612c45f2799410248dca0b"
+    },
+    "HL-LIAO-LS-0010": {
+      "title": "辽代契丹草原捺钵营帐·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-LS-0010.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-LS-0010.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ed9269811b663ad53c0acc174e64c6cf13cedfd516483b5a58b53256b02e8bc8"
+    },
+    "HL-LIAO-LS-0011": {
+      "title": "辽代契丹草原捺钵营帐·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-LIAO-LS-0011.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-LIAO-LS-0011.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a8b9c13b22c8ec68557561f90266b50447a30446fe409615e5f342b9a02014da"
+    },
+    "HL-BSONG-SC-0046": {
+      "title": "北宋汴京市井茶肆内景·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0046.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0046.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "59ee9b5e8154dba7b2f9750554c73e192a8984ff1ccba2df1b134b447a84a53b"
+    },
+    "HL-BSONG-SC-0047": {
+      "title": "北宋汴京市井茶肆内景·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0047.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0047.png",
+      "width": 1671,
+      "height": 941,
+      "sha256": "05a248f0be6d2f7f392ddf64059fdc63a39bd496db2b6d9a99056e54dca314d0"
     }
   }
 }
