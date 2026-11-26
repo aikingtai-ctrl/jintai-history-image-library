@@ -167,6 +167,20 @@
         "sha256": "16295e5bd12482bde22a2d1612c83eec8b78e1f56870c810cf7502c9aac779f4"
       }
     ],
+    "dune-2021": [
+      {
+        "src": "film-ai/dune-2021.jpg",
+        "sha256": "f758296cf381764828057f546e809711a731f3d7d2de247d4891991eaab2fdf1"
+      },
+      {
+        "src": "film-ai/shots/YS-20261028-C15-dune-2021-11.webp",
+        "sha256": "53c24c05a8029f374c14c88b846eb5a7225fa41fb5777069c94f13083699cefe"
+      },
+      {
+        "src": "film-ai/decks/film-dune-2021.webp",
+        "sha256": "f26d9010820307bbf9bb1bd4e7174a608c0f508b936c2a8b2417d4c3741fa3e6"
+      }
+    ],
     "farewell-my-concubine-1993": [
       {
         "src": "film-ai/shots/YS-20261103-CN96-farewell-my-concubine-1993-093.webp",
