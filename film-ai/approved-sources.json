@@ -109,10 +109,6 @@
       {
         "src": "film-ai/decks/film-avatar-2009.webp",
         "sha256": "12a1eef2ced1e9cfc780d80d3cfd8783498af9aac033b75156a9e22bb1f310e8"
-      },
-      {
-        "src": "film-ai/avatar-2009.jpg",
-        "sha256": "668a1036254290c2d25b2b32cb645cb23213da64364c768fc6466b7a8ed55c02"
       }
     ],
     "bad-genius-2017": [
@@ -137,16 +133,6 @@
       {
         "src": "film-ai/restored/barry-lyndon-1975.jpg",
         "sha256": "62352425873bdf4f7b1f458c88f6fbabfe1b06dc04898cc0905256c35946a396"
-      }
-    ],
-    "battle-royale-2000": [
-      {
-        "src": "film-ai/quality-reviewed/battle-royale-2000.png",
-        "sha256": "dfd4ed8595588d6c40994313aae8d83c15c6d7f2221a04261e864890e6fdff1a"
-      },
-      {
-        "src": "film-ai/battle-royale-2000.jpg",
-        "sha256": "df10c90c5db7d0522b34de20c627eeb1d66adfce35cb34f7924bf892685fe58d"
       }
     ],
     "better-days-2019": [
@@ -285,10 +271,6 @@
       {
         "src": "film-ai/decks/film-cold-war-2018.webp",
         "sha256": "13113cd945faf07c33096d9e837617ffefa1784f3f217981531bff28e13ff74b"
-      },
-      {
-        "src": "film-ai/cold-war-2018.jpg",
-        "sha256": "61e9722d7fc25796f2ab5245c0a9bf958e2b6a6bb781ac42b7b57cdaa4b17925"
       }
     ],
     "creation-of-the-gods-i-kingdom-of-storms-2023": [
