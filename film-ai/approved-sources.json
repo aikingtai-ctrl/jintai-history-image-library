@@ -75,6 +75,16 @@
         "sha256": "2414040edec9e14782b7a1b84868bbba47e611cc60ddaffaf2b8208f9dd837ca"
       }
     ],
+    "a-page-of-madness-1926": [
+      {
+        "src": "film-ai/decks/film-a-page-of-madness-1926.webp",
+        "sha256": "b2ef551f5bd6572d320cea16e1ecbd261ee98d6d259273085ee65b6199215ff4"
+      },
+      {
+        "src": "film-ai/restored/a-page-of-madness-1926.jpg",
+        "sha256": "01539a258d3bfb7fb8cbd6b888818542b109ca979e9b224a4d5c3b64237ba97c"
+      }
+    ],
     "a-short-film-about-love-1988": [
       {
         "src": "film-ai/shots/YS-20261108-2300-a-short-film-about-l-06.webp",
@@ -559,6 +569,16 @@
       {
         "src": "film-ai/crosscurrent-2016.jpg",
         "sha256": "d36fbe88e529e384f7f837bfb82d54fd55bf351106fb10bc1206f563de218145"
+      }
+    ],
+    "crossroads-1937": [
+      {
+        "src": "film-ai/decks/film-crossroads-1937.webp",
+        "sha256": "df8dd086be39ee76bde87ed2dcff9f728fcd80497e8d653c9eec381f7707eb67"
+      },
+      {
+        "src": "film-ai/restored/crossroads-1937.jpg",
+        "sha256": "2e1dfe9bc3f0d993d198c9cc213901581dd39e5cfa308cb79f8185a94615fbc9"
       }
     ],
     "crouching-tiger-hidden-dragon-2000": [
@@ -1067,6 +1087,16 @@
         "sha256": "8bab373ac75f7929a71c3457e8db8e0885167bf5731e0c9b9dda3c37f5f16c03"
       }
     ],
+    "humanity-and-paper-balloons-1937": [
+      {
+        "src": "film-ai/decks/film-humanity-and-paper-balloons-1937.webp",
+        "sha256": "a005f95db8e4e000f49e50766964d0e2350ab55d696b02e9cdaab979345447dc"
+      },
+      {
+        "src": "film-ai/restored/humanity-and-paper-balloons-1937.jpg",
+        "sha256": "43400d6868626014ae49ea94bdbca35f5d8d59b94439ff2014b198c17a3c6c80"
+      }
+    ],
     "i-wish-i-knew-2010": [
       {
         "src": "film-ai/shots/YS-20261111B5-M68-i-wish-i-knew-2010-007.webp",
@@ -1113,6 +1143,16 @@
       {
         "src": "film-ai/shots/YS-20261111B5-M68-in-expectation-1996-060.webp",
         "sha256": "a7aad6e74eadd7685746d747b9110aaae9a0456994b4879a025bf22e98a9f5c9"
+      }
+    ],
+    "in-the-face-of-demolition-1953": [
+      {
+        "src": "film-ai/decks/film-in-the-face-of-demolition-1953.webp",
+        "sha256": "9f28c47396e27feebbade0a5510f9bf488a7988be41dabd823106a85e2e9cb7f"
+      },
+      {
+        "src": "film-ai/restored/in-the-face-of-demolition-1953.jpg",
+        "sha256": "c339bac69b3f2777ba9f347ec0a8873e7c932c2e50db5c97ce77813506bf0e43"
       }
     ],
     "in-the-mood-for-love-2000": [
@@ -1389,6 +1429,16 @@
         "sha256": "98ec30ee32a12029542c563b23aaed7289ea6b6b63a27cd9a8a710f5d1440108"
       }
     ],
+    "myriad-of-lights-1948": [
+      {
+        "src": "film-ai/decks/film-myriad-of-lights-1948.webp",
+        "sha256": "589bff7309c0f0991060870e483bd8319d5a4987d1cc72bbabc01dc30ba1c696"
+      },
+      {
+        "src": "film-ai/restored/myriad-of-lights-1948.jpg",
+        "sha256": "4bf19206bdd9d3f857ba726ebd59dcefa82443620a5fde5534e6fdafcb1e34db"
+      }
+    ],
     "mystery-2012": [
       {
         "src": "film-ai/shots/YS-20261111B5-M68-mystery-2012-037.webp",
@@ -1621,6 +1671,16 @@
         "sha256": "a9d6014d93d2f4d1c22c3b1f4a8ea3876303a8e76e8b5b570ee55dc90d4ea8cd"
       }
     ],
+    "sanshiro-sugata-1943": [
+      {
+        "src": "film-ai/decks/film-sanshiro-sugata-1943.webp",
+        "sha256": "0f8a1bde6db33a17afc0a88cd07edc43b04f9dea5393ac4fda3f42626d84cad2"
+      },
+      {
+        "src": "film-ai/restored/sanshiro-sugata-1943.jpg",
+        "sha256": "5c3dabdb9902e840694e70625dad9d8d2085db4f464111eb9ea4c4e609bf15a5"
+      }
+    ],
     "schindlers-list-1993": [
       {
         "src": "film-ai/shots/YS-20261028-C15-schindlers-list-1993-11.webp",
@@ -1687,6 +1747,26 @@
       {
         "src": "film-ai/restored/sisters-of-the-gion-1936.jpg",
         "sha256": "9a8e2dab58934f36e21bca4c47a18d5311be197509254af77ab333930d4e9ec7"
+      }
+    ],
+    "song-of-the-fishermen-1934": [
+      {
+        "src": "film-ai/decks/film-song-of-the-fishermen-1934.webp",
+        "sha256": "76b46b82c09dc68b246bbfd31245a190290e9b0df300167fa281dbc60480b84b"
+      },
+      {
+        "src": "film-ai/restored/song-of-the-fishermen-1934.jpg",
+        "sha256": "745f34efb4370f706a6215124a5b70903fd2e8e8d7539f35462a5c4f675acd75"
+      }
+    ],
+    "sorrows-of-the-forbidden-city-1948": [
+      {
+        "src": "film-ai/decks/film-sorrows-of-the-forbidden-city-1948.webp",
+        "sha256": "bf093446d02dec02d6c8a0293594b58adb2600bcdf8eac79f51cf81a9598ebf5"
+      },
+      {
+        "src": "film-ai/restored/sorrows-of-the-forbidden-city-1948.jpg",
+        "sha256": "7fc103c3076d0676d6dadf651f42571fad253de639c3b58c3afe4a19bf52d488"
       }
     ],
     "spirited-away-2001": [
@@ -1759,6 +1839,16 @@
         "sha256": "213544470a39fac0bd8e8c01b10ec0d2a6bce0eb4c600db5bd5819a3a3d080aa"
       }
     ],
+    "the-lady-vanishes-1938": [
+      {
+        "src": "film-ai/decks/film-the-lady-vanishes-1938.webp",
+        "sha256": "af2484668ed6a2284b607ebb14a9dd57f33e83ce9c88191d827f3164d7356157"
+      },
+      {
+        "src": "film-ai/restored/the-lady-vanishes-1938.jpg",
+        "sha256": "046aea220844cf73d7d16f0baa848142a3592f9c235648b7d812882795cbe7df"
+      }
+    ],
     "the-lighthouse-2019": [
       {
         "src": "film-ai/decks/film-the-lighthouse-2019.webp",
@@ -1767,6 +1857,16 @@
       {
         "src": "film-ai/restored/the-lighthouse-2019.jpg",
         "sha256": "477105263cc373708895ac96e1988bc8759cc228e94555f3469f1bd21a8e6129"
+      }
+    ],
+    "the-spring-river-flows-east-1947": [
+      {
+        "src": "film-ai/decks/film-the-spring-river-flows-east-1947.webp",
+        "sha256": "1c71a5ec9d28327f3f90a4065668d208cc9f65ab8c5d0fbb860ef275a77b479f"
+      },
+      {
+        "src": "film-ai/restored/the-spring-river-flows-east-1947.jpg",
+        "sha256": "a1cba00e5335b38816da9eba2c02314956364dda270f0264e59ac7043b0aef0a"
       }
     ],
     "the-substance-2024": [

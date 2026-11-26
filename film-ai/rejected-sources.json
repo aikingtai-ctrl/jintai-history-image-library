@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T16:07:34.573972+08:00",
+  "updated_at": "2026-11-26T16:19:57.615270+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -72,6 +72,34 @@
       "sha256": "ab84c480b27665a281f0cf4b67ea424bdccd2345d617399ed8498a0587de244d",
       "reason": "Lettered multi-panel collage is not a standalone film image",
       "evidence": "2026-11-26_影视多图候选只读审计/第七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "spring-silkworms-1933",
+      "src": "film-ai/restored/spring-silkworms-1933.jpg",
+      "sha256": "2964fce3785f03eedf78aac6c9317192153bd47426b60610b6ca13ac2f0c0790",
+      "reason": "Nine-panel montage is not one standalone image",
+      "evidence": "2026-11-26_影视多图候选只读审计/第八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "henry-v-1944",
+      "src": "film-ai/restored/henry-v-1944.jpg",
+      "sha256": "64bdcfc3a2b024839954cbcd2d8295a9045122428c801a8aa43c7914d3cef38d",
+      "reason": "Chinese palace city is unrelated to the 1944 British film",
+      "evidence": "2026-11-26_影视多图候选只读审计/第八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "san-mao-the-little-vagabond-1949",
+      "src": "film-ai/decks/film-san-mao-the-little-vagabond-1949.webp",
+      "sha256": "b4d26dc397eefb28b03a64a08b0a65c96bf8beb418513c8f6480ececb770603b",
+      "reason": "Empty street lacks the child protagonist; unsuitable as a representative image",
+      "evidence": "2026-11-26_影视多图候选只读审计/第八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "san-mao-the-little-vagabond-1949",
+      "src": "film-ai/restored/san-mao-the-little-vagabond-1949.jpg",
+      "sha256": "ff3da41e1a94ea5284909f79ec88578e159129a0a2b2dd8d337f771da934b982",
+      "reason": "Adult vagrant is unrelated to the child protagonist Sanmao",
+      "evidence": "2026-11-26_影视多图候选只读审计/第八批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
