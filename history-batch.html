@@ -17,11 +17,11 @@ window.addEventListener('error',function(ev){const el=ev&&ev.target;if(!el||el.t
 function gpt(r){return window.JINTAI_GPT_IMAGES?.[r.id];}
 function previewSrc(r){return gpt(r)?.preview||histImgSrc(r.thumbnail);}
 function imageQualityLabel(w,h,info){return info&&w===info.width&&h===info.height?'GPT Image PNG':info?'GPT Image 预览':'原有 JPEG';}
-let gptTunnelPromise;
+let gptTunnelPromise,gptTunnelFetchedAt=0;
 async function gptOriginalUrl(info){
   let base=location.origin;
   if(!location.hostname.endsWith('.trycloudflare.com')&&!(location.port==='18890'&&['127.0.0.1','localhost','172.16.0.32'].includes(location.hostname))){
-    if(!gptTunnelPromise)gptTunnelPromise=fetch('https://aikingtai-ctrl.github.io/jintai-domestic-portal/tunnel.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('原图入口不可用');return r.json();}).then(x=>{if(!/^https:\/\/[a-z0-9-]+\.trycloudflare\.com$/i.test(x.tunnel_url||''))throw Error('原图入口无效');return x.tunnel_url;});
+    if(!gptTunnelPromise||Date.now()-gptTunnelFetchedAt>120000){gptTunnelFetchedAt=Date.now();gptTunnelPromise=fetch('https://aikingtai-ctrl.github.io/jintai-domestic-portal/tunnel.json?t='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('原图入口不可用');return r.json();}).then(x=>{if(!/^https:\/\/[a-z0-9-]+\.trycloudflare\.com$/i.test(x.tunnel_url||''))throw Error('原图入口无效');return x.tunnel_url;}).catch(error=>{gptTunnelPromise=null;gptTunnelFetchedAt=0;throw error;});}
     base=await gptTunnelPromise;
   }
   return base+'/original-pngs/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.filename);
