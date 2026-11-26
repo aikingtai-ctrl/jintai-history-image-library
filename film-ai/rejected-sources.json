@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T01:13:45.757920+08:00",
+  "updated_at": "2026-11-27T01:33:43.561275+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -982,6 +982,34 @@
       "sha256": "90d738945a1f414fbcdc07b89d6c88384374f8b3116df608afc7af42afd73641",
       "reason": "泥地训练的一队东亚男子与片中美国海军陆战队新兵训练及越南战地叙事不符，判串片。",
       "evidence": "第二十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "gerry-2002",
+      "src": "film-ai/gerry-2002.jpg",
+      "sha256": "af8640507b15aafe51d6a76ed58582266984d7d040037e4154e98938e4f8e55d",
+      "reason": "原图林中两名男子之一明显为东亚面孔，与 Damon/Affleck 的双主角不符，且森林景观缺影片荒漠迷途特征。",
+      "evidence": "第二十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "get-out-2017",
+      "src": "film-ai/get-out-2017.jpg",
+      "sha256": "e77f85b6085e11e60c3428ffad75c36148b9ce4b2d63dc9348ee24858d85ecff",
+      "reason": "原图仅一名东亚女子抱小犬坐沙发，无 Chris、Rose 或庄园关系锚点，人物设定与片目主角冲突。",
+      "evidence": "第二十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "ghost-world-2001",
+      "src": "film-ai/ghost-world-2001.jpg",
+      "sha256": "fcc2ccbf190c78586cc6f9bb6d359bddae37dcd3a7e65aa556588331bcfe5d64",
+      "reason": "两名东亚男子站在写有“光华学院”的中文招牌前，与美国少女及唱片收藏者的地点、人物全部冲突。",
+      "evidence": "第二十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "ghostbusters-1984",
+      "src": "film-ai/ghostbusters-1984.jpg",
+      "sha256": "e8278252cf4d960b8fc97cfeeab1996f8b63f1ac524653c13702ebfeec62173c",
+      "reason": "原图三名东亚男子在普通图书馆对话，人物并非影片捉鬼队，且无可辨捉鬼事件或装备。",
+      "evidence": "第二十九批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
