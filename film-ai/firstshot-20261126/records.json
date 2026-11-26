@@ -1,0 +1,86 @@
+{
+  "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+  "assets": [
+    {
+      "ordinal": 1,
+      "wid": "apollo-13-1995",
+      "title": "阿波罗13号",
+      "alternateTitle": "Apollo 13",
+      "year": 1995,
+      "firstShotId": "VP-d49623c7f62fef18",
+      "scene": "阿波罗13号昏暗狭窄的太空舱内汤姆·汉克斯、凯文·贝肯与比尔·帕克斯顿三名宇航员身穿白色内衬服紧张排障的近景",
+      "sourcePrompt": "电影感九十年代太空灾难史诗室内近景，1995年朗·霍华德执导《阿波罗13号》剧照，断电后昏暗狭窄的阿波罗13号飞船座舱内，汤姆·汉克斯饰演的指令长吉姆·洛弗尔居中，与左侧凯文·贝肯、右侧比尔·帕克斯顿饰演的宇航员并肩挤在仪表盘前，三人身穿白色宇航内衬服，神情高度紧张。",
+      "sourceFile": "d4/p_apollo-13-1995.js",
+      "sourceSHA256": "fcc0c8fd040ddf66236429ec4cd42e3116b8da630109ddf5a634211450713f6a",
+      "pngPath": "originals/film-expand-firstshot-20261126/apollo-13-1995.png",
+      "jpgPath": "film-ai/firstshot-20261126/apollo-13-1995.jpg",
+      "pngBlob": "6f6db09d4cf7cf842a5f4eac25e2f663135a79bc",
+      "jpgBlob": "afe65b3b2a6ce774e6b199dc07b93c07c44e889c",
+      "png": {
+        "bytes": 2464699,
+        "sha256": "2edb741a7805b137d3033f47634015303087b2f6a75765f51ed58efca4cfd9ee",
+        "width": 1672,
+        "height": 941,
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/fc242e95d02a5f10679f32619872c33f70e382df/originals/film-expand-firstshot-20261126/apollo-13-1995.png"
+      },
+      "jpgSHA256": "631cb69dcc36b5231c7dee18e4f684f8302d0ff56d49bfad7176a8f1e26e3311",
+      "referenceLabel": "首条镜头描述 AI 参考图；虚构面孔，非原片帧",
+      "method": "内置 imagegen",
+      "reviewed": true
+    },
+    {
+      "ordinal": 2,
+      "wid": "battleship-potemkin-1925",
+      "title": "战舰波将金号",
+      "alternateTitle": "Battleship Potemkin / Bronenosets Potyomkin",
+      "year": 1925,
+      "firstShotId": "VP-battleship-potemkin-1925-01",
+      "scene": "《战舰波将金号》著名的敖德萨阶梯屠杀场面中，惊慌失措的民众沿着宽阔石阶四散奔逃，前景一名白衣哥萨克骑兵策马横掠。",
+      "sourcePrompt": "Iconic black-and-white high-angle wide shot of the Odessa Steps massacre in Battleship Potemkin (1925), panicked civilians fleeing down the wide stone staircase while a mounted Cossack horseman in a white tunic rides across the foreground.",
+      "sourceFile": "d4/p_battleship-potemkin-1925.js",
+      "sourceSHA256": "deb45b15d13fd8a69bfe4e8cac29bdc36215c4c62b5e3bf3b5b4ea141b6b1d16",
+      "pngPath": "originals/film-expand-firstshot-20261126/battleship-potemkin-1925.png",
+      "jpgPath": "film-ai/firstshot-20261126/battleship-potemkin-1925.jpg",
+      "pngBlob": "1943c13ac382fe2601fb48bf5dff2a4ccb80ad2a",
+      "jpgBlob": "3f4562251d14cc1856d97613d484a912f319c302",
+      "png": {
+        "bytes": 2873553,
+        "sha256": "6aedaa5b2daeea9b83aece5b0960f27919bdcc6537cc7e6837b9757e0e3e87c5",
+        "width": 1672,
+        "height": 941,
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/fc242e95d02a5f10679f32619872c33f70e382df/originals/film-expand-firstshot-20261126/battleship-potemkin-1925.png"
+      },
+      "jpgSHA256": "ddd5c8b5ff2431f942a0f8b51c7a0f6f591ddb308ca9f20f726bfeac5dc5dbb0",
+      "referenceLabel": "首条镜头描述 AI 参考图；虚构面孔，非原片帧",
+      "method": "内置 imagegen",
+      "reviewed": true
+    },
+    {
+      "ordinal": 3,
+      "wid": "donkey-skin-1970",
+      "title": "驴皮公主",
+      "alternateTitle": "Donkey Skin",
+      "year": 1970,
+      "firstShotId": "VP-donkey-skin-1970-01",
+      "scene": "烛台辉映的童话宫殿内身穿金色华丽礼服的凯瑟琳德纳芙端坐白色毛皮王座旁的中景",
+      "sourcePrompt": "Medium shot inside a fairytale palace room with silver candelabras, Catherine Deneuve as the Princess in a golden gown sitting beside a white furry throne.",
+      "sourceFile": "d4/p_donkey-skin-1970.js",
+      "sourceSHA256": "f1aa3a184efe104319d8fec70ae09a10499849a7b9b357aef380b26f9adf0644",
+      "pngPath": "originals/film-expand-firstshot-20261126/donkey-skin-1970.png",
+      "jpgPath": "film-ai/firstshot-20261126/donkey-skin-1970.jpg",
+      "pngBlob": "9100b87206bfec226fbd55a816231b290fb2bee7",
+      "jpgBlob": "ad1e555f4bf4aac7dcd1fec0e522e3af4bab29aa",
+      "png": {
+        "bytes": 2564358,
+        "sha256": "b75138ce77ab448be518a02a72aab235f05238c3be71d5a4b884a169f55e8cb8",
+        "width": 1672,
+        "height": 941,
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/fc242e95d02a5f10679f32619872c33f70e382df/originals/film-expand-firstshot-20261126/donkey-skin-1970.png"
+      },
+      "jpgSHA256": "21781472486a590d68b4a80e4b640610dd64ff666d2039b52c0436d8c6eb76ff",
+      "referenceLabel": "首条镜头描述 AI 参考图；虚构面孔，非原片帧",
+      "method": "内置 imagegen",
+      "reviewed": true
+    }
+  ]
+}
