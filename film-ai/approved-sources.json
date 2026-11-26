@@ -1115,6 +1115,46 @@
         "sha256": "631cb69dcc36b5231c7dee18e4f684f8302d0ff56d49bfad7176a8f1e26e3311"
       }
     ],
+    "argo-2012": [
+      {
+        "src": "film-ai/decks/film-argo-2012.webp",
+        "sha256": "5ec0bc81e9eb5782b4ea8eb911c7facb04bceabe4ded934c2ea9286c766d8312"
+      },
+      {
+        "src": "film-ai/argo-2012.jpg",
+        "sha256": "5e2dbe716a6a306e5e60b1161fa2fa30b6343e84c9c642d9b49be6820d77634b"
+      }
+    ],
+    "army-of-shadows-1969": [
+      {
+        "src": "film-ai/decks/film-army-of-shadows-1969.webp",
+        "sha256": "59643401776d5f611bfbbff696e1b78f47c5f92d3330d538456d6f69fd06805f"
+      },
+      {
+        "src": "film-ai/army-of-shadows-1969.jpg",
+        "sha256": "cded35188f01669f0508769bbf64cd6c0f734d81eb12cc5a8190c0f84bff18b1"
+      }
+    ],
+    "as-tears-go-by-1988": [
+      {
+        "src": "film-ai/decks/film-as-tears-go-by-1988.webp",
+        "sha256": "931a331be9aa12a2a3a4b6059424ee8236364d6c7fea8779aa68c471917c7f64"
+      },
+      {
+        "src": "film-ai/as-tears-go-by-1988.jpg",
+        "sha256": "9d330835a218c229ac4e2fb48522079e577a5ffd3018f71e76a7c67b4bc20dab"
+      }
+    ],
+    "asako-i-and-ii-2018": [
+      {
+        "src": "film-ai/decks/film-asako-i-and-ii-2018.webp",
+        "sha256": "3f1b4c2aaab948185060cc1211b51d86ca5662eda07249d0ee58850cdec7fe2f"
+      },
+      {
+        "src": "film-ai/asako-i-and-ii-2018.jpg",
+        "sha256": "5425f18de1d07172a306ddbdb5435bcdc96c83141e7a19a09dd2f4c9bf5eea0d"
+      }
+    ],
     "ashes-and-diamonds-1958": [
       {
         "src": "film-ai/shots/YS-20261109F5-M36-ashes-and-diamonds-1958-006.webp",
@@ -1135,6 +1175,16 @@
         "sha256": "e908632b4a7b6e3084e95ba5c8e1137b57cb469190b23803c1ec5cecd1778b20"
       }
     ],
+    "assassination-2015": [
+      {
+        "src": "film-ai/decks/film-assassination-2015.webp",
+        "sha256": "c100b120eb96cbea2c780ac206e0977e4f8050ae2fe30c5acce39d709cd81094"
+      },
+      {
+        "src": "film-ai/assassination-2015.jpg",
+        "sha256": "76399f3d13170270b3f01052dac0d4346a5a8e75d898a7f8423247516b835fcf"
+      }
+    ],
     "assembly-2007": [
       {
         "src": "film-ai/shots/YS-20261118-GR-assembly-2007-01.webp",
@@ -1149,6 +1199,76 @@
         "sha256": "6760c3cf0b1779977982644f39eb10c21a2eef606485fbaa08c7eb0627199ca1"
       }
     ],
+    "asura-the-city-of-madness-2016": [
+      {
+        "src": "film-ai/decks/film-asura-the-city-of-madness-2016.webp",
+        "sha256": "44c34943232c1362d4ebd9f32dbc216e094b76e05900fbe693b099ecc517383a"
+      },
+      {
+        "src": "film-ai/asura-the-city-of-madness-2016.jpg",
+        "sha256": "dfab23bde147bc29ee06ed05ec16107ddbde3e4bfcfd780225e7b9507a4932a7"
+      }
+    ],
+    "atanarjuat-the-fast-runner-2001": [
+      {
+        "src": "film-ai/decks/film-atanarjuat-the-fast-runner-2001.webp",
+        "sha256": "edcf4468d377e43e84f56258d15def58be38c3bcf1ec8bd3d25fd2fc2110af87"
+      },
+      {
+        "src": "film-ai/atanarjuat-the-fast-runner-2001.jpg",
+        "sha256": "894045aae39a8d926b8ed2381ec3940d914c005312846e825de1ad66a77ed37a"
+      }
+    ],
+    "atlantics-2019": [
+      {
+        "src": "film-ai/decks/film-atlantics-2019.webp",
+        "sha256": "58a5a982a661b4f2fcc83a3ca3a64797743e65cccbde797c1a687d6bef6908a6"
+      },
+      {
+        "src": "film-ai/atlantics-2019.jpg",
+        "sha256": "0f8928558166fa63c5e88df52b00cf1b07384b2f3ee87d47f91387b7ce6ec401"
+      }
+    ],
+    "atonement-2007": [
+      {
+        "src": "film-ai/decks/film-atonement-2007.webp",
+        "sha256": "1340b56613951711cf0b6f6097768f53d0d1a588a39fb96fb3e04528df897e3e"
+      },
+      {
+        "src": "film-ai/atonement-2007.jpg",
+        "sha256": "29814c73a3f7106908af708b915e2bc248911b0e2a79e43f0f85a954088ef4b8"
+      }
+    ],
+    "au-hasard-balthazar-1966": [
+      {
+        "src": "film-ai/decks/film-au-hasard-balthazar-1966.webp",
+        "sha256": "2ab714c47f3cca3e07251068d9e871557f8fa5dbd82288cdc44e828a1ca4ace8"
+      },
+      {
+        "src": "film-ai/au-hasard-balthazar-1966.jpg",
+        "sha256": "f2d6c9e014fbe08952e8d90e450c270325e3f2963997e8b2bf587866aeadb98b"
+      }
+    ],
+    "au-revoir-taipei-2010": [
+      {
+        "src": "film-ai/decks/film-au-revoir-taipei-2010.webp",
+        "sha256": "52689ac03d5980c513274f6a3092a513880d1252a71a6ee94d60959402016039"
+      },
+      {
+        "src": "film-ai/au-revoir-taipei-2010.jpg",
+        "sha256": "b299594f331a6099bc76f00921058722867bf964d1c0542e758559a4deb5fe0d"
+      }
+    ],
+    "audition-1999": [
+      {
+        "src": "film-ai/decks/film-audition-1999.webp",
+        "sha256": "ae03a2ffdb35b881996307e1cd2d12417c7e8585dca094039c0df8869dbd3cd2"
+      },
+      {
+        "src": "film-ai/audition-1999.jpg",
+        "sha256": "7b930fa1ebcb589605cd88ab7285214ab1b01cf12ea711c862ae7417f0051e40"
+      }
+    ],
     "avatar-2009": [
       {
         "src": "film-ai/shots/YS-20261028-C15-avatar-2009-11.webp",
@@ -1157,6 +1277,26 @@
       {
         "src": "film-ai/decks/film-avatar-2009.webp",
         "sha256": "12a1eef2ced1e9cfc780d80d3cfd8783498af9aac033b75156a9e22bb1f310e8"
+      }
+    ],
+    "baby-driver-2017": [
+      {
+        "src": "film-ai/decks/film-baby-driver-2017.webp",
+        "sha256": "d1e8fb4d08edd72b1a72b23f664d7054cbdf59d8250c9c74e6596ca417aa1e07"
+      },
+      {
+        "src": "film-ai/baby-driver-2017.jpg",
+        "sha256": "285a61fc0680720947d9311fd734a82ca7f0c9255a9063ea8583c9e957fbf16c"
+      }
+    ],
+    "babylon-2022": [
+      {
+        "src": "film-ai/decks/film-babylon-2022.webp",
+        "sha256": "c971795d2a914c01b2d04d8546f80b14237d576f72f023a8cae273873b066618"
+      },
+      {
+        "src": "film-ai/babylon-2022.jpg",
+        "sha256": "7215cc3ed0650cd69447bcd0d46af393ecd3c7b11bafa2b55cdd8a6c28735e2e"
       }
     ],
     "back-to-1942-2012": [
@@ -1169,6 +1309,16 @@
         "sha256": "31cb2a9f96fc0c3a0460208a2523ec0a76507685457e08e211722442cdcff412"
       }
     ],
+    "bad-education-2004": [
+      {
+        "src": "film-ai/decks/film-bad-education-2004.webp",
+        "sha256": "0f1a51f0bb785bd35801220321893a12ffd2a66278af93c29136b1c167a54743"
+      },
+      {
+        "src": "film-ai/bad-education-2004.jpg",
+        "sha256": "bf4830d34d13ecd02a839cc2e8ccf540bb55332f080140c4eab4009a122292f1"
+      }
+    ],
     "bad-genius-2017": [
       {
         "src": "film-ai/shots/YS-20261106F4-CL68-bad-genius-2017-006.webp",
@@ -1177,6 +1327,36 @@
       {
         "src": "film-ai/bad-genius-2017.jpg",
         "sha256": "a6094eaca003266eafa65ff0cb89a2491d2e73389c377eca8aa8b73f843cda67"
+      }
+    ],
+    "ballad-of-a-soldier-1959": [
+      {
+        "src": "film-ai/decks/film-ballad-of-a-soldier-1959.webp",
+        "sha256": "1aae49ca83b573c5f7ed0cf24c1f6a7f6ef435d16e858028ed8e51d2cb37b1b7"
+      },
+      {
+        "src": "film-ai/ballad-of-a-soldier-1959.jpg",
+        "sha256": "3d95a8690164865ac168f463a00df17517622c381a9ca39a27b4d643f027ede2"
+      }
+    ],
+    "band-of-outsiders-1964": [
+      {
+        "src": "film-ai/decks/film-band-of-outsiders-1964.webp",
+        "sha256": "35b91324463883797c05c24a00c7ce5291f66b4445eaf3e1abf8d377299f6218"
+      },
+      {
+        "src": "film-ai/band-of-outsiders-1964.jpg",
+        "sha256": "fe6eafa9595117a216603208ef68d1633f040855efb6974200b5879cddf5c1e8"
+      }
+    ],
+    "baran-2001": [
+      {
+        "src": "film-ai/decks/film-baran-2001.webp",
+        "sha256": "7253158294ece8fc8f9a663d07fccb034055e926de9ce62a8f009ea79c84a9cb"
+      },
+      {
+        "src": "film-ai/baran-2001.jpg",
+        "sha256": "85720bd820b1ccfadffbd934f41ab26c04a758d4f8c22fb0b73824b245d3f05e"
       }
     ],
     "bardo-2022": [
@@ -1203,6 +1383,36 @@
         "sha256": "62352425873bdf4f7b1f458c88f6fbabfe1b06dc04898cc0905256c35946a396"
       }
     ],
+    "batman-begins-2005": [
+      {
+        "src": "film-ai/decks/film-batman-begins-2005.webp",
+        "sha256": "bacfa952ee2b7f5788781634e1946ac660d47789001dcb5cc3ee59f3bfb4021d"
+      },
+      {
+        "src": "film-ai/batman-begins-2005.jpg",
+        "sha256": "ed898550ada985b56126203867bc5634a5e32451a91287a2ceef2b26a9f48b19"
+      }
+    ],
+    "battle-of-memories-2017": [
+      {
+        "src": "film-ai/decks/film-battle-of-memories-2017.webp",
+        "sha256": "d6197a414160e600fe7054816f02d173b4b45160d3418d7a0ad158c76a3284f1"
+      },
+      {
+        "src": "film-ai/battle-of-memories-2017.jpg",
+        "sha256": "478104187b30fa54f05e6ecae7684b4531f315453ed0ed73525c29da59843653"
+      }
+    ],
+    "battles-without-honor-and-humanity-1973": [
+      {
+        "src": "film-ai/decks/film-battles-without-honor-and-humanity-1973.webp",
+        "sha256": "66493bcf77b691dbf33647903e308fc6dc11b363ffa1b204860322d667938f28"
+      },
+      {
+        "src": "film-ai/battles-without-honor-and-humanity-1973.jpg",
+        "sha256": "017d663ca5d0bb4e47f27a7a586e8a00b5009f08fe1f3835f8c5feb56b50ba0a"
+      }
+    ],
     "battleship-potemkin-1925": [
       {
         "src": "film-ai/firstshot-20261126/battleship-potemkin-1925.jpg",
@@ -1215,6 +1425,146 @@
       {
         "src": "film-ai/decks/film-battleship-potemkin-1925.webp",
         "sha256": "ee2a70122c27f1d352b9af247f71659bcae30ba80c778dd2e645ca7a9d7071dc"
+      }
+    ],
+    "be-there-or-be-square-1998": [
+      {
+        "src": "film-ai/decks/film-be-there-or-be-square-1998.webp",
+        "sha256": "50aa20d428c53013a3330e6ed047b0b7db6d0eca0a801916a3e3d9de88ec8677"
+      },
+      {
+        "src": "film-ai/be-there-or-be-square-1998.jpg",
+        "sha256": "7d5f624b2f97d2ce1bf7318f35e8e4d9ef0bbfa7f7a171324fd99094f1d6e68f"
+      }
+    ],
+    "beanpole-2019": [
+      {
+        "src": "film-ai/decks/film-beanpole-2019.webp",
+        "sha256": "099d4aa8c7f4e31104cdf8b2d5f4d1d0b5cb66375acc5afa232a32a4f69f6c45"
+      },
+      {
+        "src": "film-ai/beanpole-2019.jpg",
+        "sha256": "f95ca9594244bd195998bad8b6bfb91a5e2f1b62b43e82bf9b45c345bae7cac0"
+      }
+    ],
+    "beast-cops-1998": [
+      {
+        "src": "film-ai/decks/film-beast-cops-1998.webp",
+        "sha256": "6519428f46ade9dd5c786287c8b7ff472327fb77dc42eefe882125a920eee526"
+      },
+      {
+        "src": "film-ai/beast-cops-1998.jpg",
+        "sha256": "02802bc0d1b8cb454debaaa5377f27ddf6db342adec40f6b58b330eb4aaab691"
+      }
+    ],
+    "beauty-and-the-beast-1946": [
+      {
+        "src": "film-ai/decks/film-beauty-and-the-beast-1946.webp",
+        "sha256": "bb9d6d322eb2f503ebe8449ece00c2655ec2615b933b3e56cc18ba48f717ff3c"
+      },
+      {
+        "src": "film-ai/beauty-and-the-beast-1946.jpg",
+        "sha256": "3c38360ae7855207e7e8552b0ed630450002c7f922c488570460e4205c08d6dc"
+      }
+    ],
+    "beauty-and-the-beast-1991": [
+      {
+        "src": "film-ai/decks/film-beauty-and-the-beast-1991.webp",
+        "sha256": "c1ef3db08b67ed43c96b266b2dc5fec61b04b9b3001cb9ff2b1febed60369cea"
+      },
+      {
+        "src": "film-ai/goal9438/beauty-and-the-beast-1991.jpg",
+        "sha256": "29189d8185808d01635ac188f682c0f175654b7f24af3533dc2156477fc85349"
+      }
+    ],
+    "before-midnight-2013": [
+      {
+        "src": "film-ai/decks/film-before-midnight-2013.webp",
+        "sha256": "4d46fcee27896546fcde927f85b8d8cad875b2ffc672104530e03dc31607e8c4"
+      },
+      {
+        "src": "film-ai/before-midnight-2013.jpg",
+        "sha256": "bcd4da81f556a68157fee912b8026939e6d55529cf009120b282166dd84c78de"
+      }
+    ],
+    "before-sunrise-1995": [
+      {
+        "src": "film-ai/decks/film-before-sunrise-1995.webp",
+        "sha256": "0813c97679a236f777b0b3e1a46261f7071d2dc5a804c79a1d8c60e6212f64d3"
+      },
+      {
+        "src": "film-ai/before-sunrise-1995.jpg",
+        "sha256": "ff7e7a63194bbfa42ace65d7cf2eea8ee9113cf610b9a0ddc7f584f24aac74b4"
+      }
+    ],
+    "before-sunset-2004": [
+      {
+        "src": "film-ai/decks/film-before-sunset-2004.webp",
+        "sha256": "a2d2584c8624d2e69dcd07cae04879eab5f0692cf8d04ec14cb5de76666449d8"
+      },
+      {
+        "src": "film-ai/before-sunset-2004.jpg",
+        "sha256": "13f65a6fb31ac81fc2b66d0c0900d45e9e727ae4d1694d7827b02a7ae9d49439"
+      }
+    ],
+    "behind-the-sun-2001": [
+      {
+        "src": "film-ai/decks/film-behind-the-sun-2001.webp",
+        "sha256": "7aaa71b59e92cd882db1dc796cc5ca60696cfbeace01c242efecd84b10aed027"
+      },
+      {
+        "src": "film-ai/behind-the-sun-2001.jpg",
+        "sha256": "c6b29f919518f9fbe0403d398621746baede7cf59817ffa608e7d7b518573ade"
+      }
+    ],
+    "beijing-bicycle-2001": [
+      {
+        "src": "film-ai/decks/film-beijing-bicycle-2001.webp",
+        "sha256": "eb3b7e1bfaa1cc791788ce486b30aec3f53939c34e02fb4cf1e17d85ce735e4f"
+      },
+      {
+        "src": "film-ai/beijing-bicycle-2001.jpg",
+        "sha256": "9f87ac30a43649d878d8cf31a2eb1cb558ae7a196eeb50bd21073fca3b3f0ca1"
+      }
+    ],
+    "belfast-2021": [
+      {
+        "src": "film-ai/decks/film-belfast-2021.webp",
+        "sha256": "9a052ea3d59110a0fe0b7a59e97b401b3507f9e02e213cdad291fa4f96c1ae8c"
+      },
+      {
+        "src": "film-ai/belfast-2021.jpg",
+        "sha256": "401b4be1938ad19d5c50838fd26c59a873dbf2de30ff95e5db7059c83e5209bb"
+      }
+    ],
+    "belladonna-of-sadness-1973": [
+      {
+        "src": "film-ai/decks/film-belladonna-of-sadness-1973.webp",
+        "sha256": "474b3baa4866f374ee80f59ebf3370c2a4a71afbfbd596ca1b3f1fcff336099a"
+      },
+      {
+        "src": "film-ai/belladonna-of-sadness-1973.jpg",
+        "sha256": "2430134091bf8fdbf571d66150680a3685ab860c7ec195fb422bf291713183d0"
+      }
+    ],
+    "belle-de-jour-1967": [
+      {
+        "src": "film-ai/decks/film-belle-de-jour-1967.webp",
+        "sha256": "d40355694603d957f6b94b786d06d906f579f699fba8fdfab87eaed40bf45e3a"
+      },
+      {
+        "src": "film-ai/belle-de-jour-1967.jpg",
+        "sha256": "4ce3171b02356a5c253a64c1448f52c073dc740ff34702047c6ea70610714376"
+      }
+    ],
+    "ben-hur-1959": [
+      {
+        "src": "film-ai/decks/film-ben-hur-1959.webp",
+        "sha256": "b9248026639a9b86a3a4f3b23d12b92a8073651b06fb0b9e8951355876ee2706"
+      },
+      {
+        "src": "film-ai/ben-hur-1959.jpg",
+        "sha256": "f4100a7c13185e59d421075b3ad30e3ff8d09e73c567f96792060ca79dfe3d3c"
       }
     ],
     "better-days-2019": [

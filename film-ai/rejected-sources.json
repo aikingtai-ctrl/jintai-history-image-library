@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T18:40:16.449451+08:00",
+  "updated_at": "2026-11-26T19:40:00.013898+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -338,6 +338,76 @@
       "sha256": "55de63aed9dff174adbd904757a456048467ad86969c9670eacb3115031171b5",
       "reason": "02 黑白婚礼家庭照，与 Criterion 所列原片彩色不一致；不得作为原片色彩参考。",
       "evidence": "第十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "ash-is-purest-white-2018",
+      "src": "film-ai/ash-is-purest-white-2018.jpg",
+      "sha256": "615056036655abb9d597810890ba8af9e846d1a35ced3dda208b99d1954adf58",
+      "reason": "02 将一位欧美面孔女子巨像叠在旧上海持枪街景，既非单镜剧照，又不符赵涛饰巧巧的人物锚点。",
+      "evidence": "第十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "au-revoir-les-enfants-1987",
+      "src": "film-ai/au-revoir-les-enfants-1987.jpg",
+      "sha256": "adb871b82484c7f6d217fafdf3ceb3e2b38af15661710a5fb39bbca790f4dd50",
+      "reason": "02 东亚少年在现代卧室读书，和二战法国修道院学校两名男主身份/场景不合。",
+      "evidence": "第十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "awaara-1951",
+      "src": "film-ai/awaara-1951.jpg",
+      "sha256": "35ee5cd2a04e45e1686d3d028c1e47cfd8288cba3acfaf422157d9689fa1babb",
+      "reason": "02 金发白人女性与西装男子为欧美制片棚式情侣，与印度 Raj Kapoor/Nargis 主角和社会环境冲突。",
+      "evidence": "第十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "baahubali-the-beginning-2015",
+      "src": "film-ai/baahubali-the-beginning-2015.jpg",
+      "sha256": "37e1964a00810d6c72a895c32c9f9920ebeec2ed31ac2334ca32a9852c56ee02",
+      "reason": "02 戴耳机、墨镜的现代男子用对讲机，后方有影视器材与工作人员；不属古代王国叙事单镜。",
+      "evidence": "第十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "back-to-back-face-to-face-1994",
+      "src": "film-ai/back-to-back-face-to-face-1994.jpg",
+      "sha256": "3f3569a2d9c24cc90fc260c73401ed643b6fd48d999bf03e45d4719920672c4b",
+      "reason": "02 将两张人物大脸、书法片名和亭台插画拼为宣传海报，不是独立剧照。",
+      "evidence": "第十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "back-to-the-future-1985",
+      "src": "film-ai/back-to-the-future-1985.jpg",
+      "sha256": "0cd43b2bd68cd6fd9e9e1c8d36808f99c66e82367f57950e4be03707954916e1",
+      "reason": "02 东亚男子摘墨镜近景，不符环球所列 Michael J. Fox 饰 Marty McFly；明确角色错配。",
+      "evidence": "第十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "badlands-1973",
+      "src": "film-ai/badlands-1973.jpg",
+      "sha256": "3d6387ceed5c14530dea2c456894efc97c0eb9ac5850e8d2a20bc2b6394e70ce",
+      "reason": "02 东亚年轻男女在树下对谈，和 Criterion 所列 Martin Sheen/Sissy Spacek 主角身份不符。",
+      "evidence": "第十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "banana-paradise-1989",
+      "src": "film-ai/banana-paradise-1989.jpg",
+      "sha256": "b301046189283e6b5798671d01d9a68cb59f0afa47453cdf4fe07cce7cbac7b0",
+      "reason": "02 大面积日文片名、群体摆拍和插画蕉叶，为日本发行宣传海报，不是单镜剧照。",
+      "evidence": "第十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "beau-travail-1999",
+      "src": "film-ai/beau-travail-1999.jpg",
+      "sha256": "a8ae0f1eb64e418eaaf6180041ad8418c95d556c2483bce547120230565edbd0",
+      "reason": "02 现代电线杆上的男子与吉布提外籍兵军营情节不符，明确错图。",
+      "evidence": "第十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "being-john-malkovich-1999",
+      "src": "film-ai/being-john-malkovich-1999.jpg",
+      "sha256": "96defaa21847344e6da777f923646c2f60ea0eca9c36456c781d3310f7921223",
+      "reason": "02 东亚古装双人房间与现代美国办公室、演员传送门故事不符，明确串片。",
+      "evidence": "第十六批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
