@@ -1185,6 +1185,20 @@ function loadXiongnuImages(){
     document.head.appendChild(s);
   }).catch(()=>{});
 })();
+(function loadMinguoFolk16Images(){
+  historyGalleryBase().then(base=>{
+    const s=document.createElement('script');
+    s.src=base+'/jintai-history-image-library/history-ai/minguo-folk16-manifest.js?t='+Date.now();
+    s.onload=()=>{
+      const images=window.JINTAI_MINGUO_FOLK16_IMAGES||{};
+      for(const info of Object.values(images)){
+        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+      }
+      if(typeof render==='function'&&R.length)render();
+    };
+    document.head.appendChild(s);
+  }).catch(error=>console.warn('民国传奇原图入口暂不可用',error));
+})();
 function render(){
   const total=list.length, tp=Math.max(1,Math.ceil(total/PAGE));
   if(page>=tp) page=tp-1;
@@ -1496,6 +1510,5 @@ document.addEventListener('keydown',e=>{
 <script src="history-ai/page21-originals-manifest.js?v=20261125-page21-115" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 <script src="history-ai/page22-originals-manifest.js?v=20261125-page22-120" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 <script src="history-ai/page23-originals-manifest.js?v=20261125-page23-120" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
-<script src="history-ai/minguo-folk16-manifest.js?v=20261126-200" onload="historyGalleryBase().then(base=>{for(const info of Object.values(window.JINTAI_MINGUO_FOLK16_IMAGES||{})){info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename)}if(typeof render==='function')render()}).catch(error=>console.warn('民国传奇原图入口暂不可用',error))"></script>
 </body>
 </html>
