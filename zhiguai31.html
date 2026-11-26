@@ -192,6 +192,8 @@ const ZG_G032_TITLE='《黄原与青犬入妙音宅（拟题）》';
 const ZG_G032_NOTE='史料核对：《幽明录》卷二记黄原见青犬，随犬入山穴，遇太真夫人之女妙音；太真夫人与妙音为两人。冻结提示词中的黑犬、白獭化形、连理白玉佩及珍珠螺钿漆盒未见所核原文；下方原提示词仅供追溯，不能作为史料。';
 const ZG_G033_TITLE='《新鬼推磨舂谷求食（拟题）》';
 const ZG_G033_NOTE='史料核对：《太平广记》卷三百二十一引《幽明录》记新鬼形疲瘦，遇死已二十年的肥健旧友；先在奉佛人家西厢推磨、后在奉道人家门旁舂谷，均未获食。冻稿中的韦驮神像、青石磨自转、偷吃生面、幽冥仙境及具体衣饰器形未见所核原文；下方原提示词仅供追溯。';
+const ZG_G034_TITLE='《钟繇遇美妇及墓中遗迹（拟题）》';
+const ZG_G034_NOTE='史料核对：《幽明录》卷二记钟繇遇美妇，因僚友怀疑她是鬼而起杀意，妇人停在户外问其故；钟繇不忍，只轻伤她。次日循血迹至大墓，见棺中女子穿白练衫、丹绣裲襠，一髀有伤。冻稿中的颍川旧宅月夜、青年魏太傅、错金环首剑、玉蝉和斗法幻境未见所核原文；下方原提示词仅供追溯。';
 function zgCorrectG031Meta(meta){
   const g=(meta.groups||[]).find(x=>x[0]==='ZG-20261028-G031');
   if(g){
@@ -236,6 +238,18 @@ function zgCorrectG033Meta(meta){
   const b=(meta.books||[]).find(x=>x.book_no===5);
   if(b)b.stories=b.stories.map(x=>x==='《新死鬼形疲瘦入人家磨面》'?ZG_G033_TITLE:x);
 }
+function zgCorrectG034Meta(meta){
+  const g=(meta.groups||[]).find(x=>x[0]==='ZG-20261028-G034');
+  if(g){
+    g[5]=ZG_G034_TITLE;
+    g[6]='钟繇与来访的美妇；原文未说明此时年龄与职位，棺中女子衣着见白练衫、丹绣裲襠';
+    g[7]='妇人停在户外质问杀意，钟繇轻伤之；次日循血迹至大冢';
+    g[8]='新棉拭血、白练衫与丹绣裲襠见原文；刀剑、玉蝉和灯台具体器形未述';
+    g[9]='《幽明录》卷二钟繇段：妇人微伤离去、血迹通大冢；未记颍川旧宅月夜、青年魏太傅或具名兵器。';
+  }
+  const b=(meta.books||[]).find(x=>x.book_no===5);
+  if(b)b.stories=b.stories.map(x=>x==='《钟繇颍川旧宅月夜遇美妇》'?ZG_G034_TITLE:x);
+}
 async function hydrateSpecialistPage(){
   if(document.getElementById('jt_gate_css')&&document.documentElement.getAttribute('data-jt-ok')!=='1')return;
   const stEl=document.getElementById('pCount');
@@ -249,6 +263,7 @@ async function hydrateSpecialistPage(){
   zgCorrectG031Meta(meta);
   zgCorrectG032Meta(meta);
   zgCorrectG033Meta(meta);
+  zgCorrectG034Meta(meta);
   RAW.books=meta.books||[];
   RAW.groups=meta.groups||[];
   RAW.existing=meta.existing||[];
@@ -286,6 +301,7 @@ const _mapZgItem = x => {
   const corrected=x[1].startsWith('ZG-20261028-03')&&x[0]>=301&&x[0]<=310;
   const corrected32=x[1].startsWith('ZG-20261028-03')&&x[0]>=311&&x[0]<=320;
   const corrected33=x[1].startsWith('ZG-20261028-03')&&x[0]>=321&&x[0]<=330;
+  const corrected34=x[1].startsWith('ZG-20261028-03')&&x[0]>=331&&x[0]<=340;
   const labels={
     302:'02_卖粉女子人物造型（原词误标异类）',
     306:'06_影视主观转场（原典未述幽冥仙境）',
@@ -308,16 +324,24 @@ const _mapZgItem = x => {
     327:'07_奉佛人家西厢推磨',328:'08_推磨器具（具体器形为影视推想）',
     329:'09_舂谷碓与簸筛（具体器形为影视推想）',330:'10_庭院竹竿与白狗（未描绘后续伤害）'
   };
-  const label=corrected?(labels[x[0]]||x[5]):corrected32?(labels32[x[0]]||x[5]):corrected33?(labels33[x[0]]||x[5]):x[5];
-  const title=corrected?x[7].replace('《买粉儿白氍毹画眉复生》',ZG_G031_TITLE).replace(x[5],label):corrected32?x[7].replace('《黄原黑犬引路入太真夫人水际妙宅》',ZG_G032_TITLE).replace(x[5],label):corrected33?x[7].replace('《新死鬼形疲瘦入人家磨面》',ZG_G033_TITLE).replace(x[5],label):x[7];
+  const labels34={
+    331:'01_钟繇人物主视图（年龄与官职未述）',332:'02_来访美妇的形貌（服饰参考墓中记载）',
+    333:'03_妇人户外问钟繇何以起杀意',334:'04_美妇面部神态（具体妆发为推想）',
+    335:'05_钟繇宅门与往来路径（宅址未述）',336:'06_紧张夜景氛围（原典未述仙境）',
+    337:'07_钟繇不忍而微伤妇人（未述斗法）',338:'08_新棉拭血与路上血迹',
+    339:'09_白练衫与丹绣裲襠（原典服饰）',340:'10_次日寻迹到大墓（墓制为推想）'
+  };
+  const label=corrected?(labels[x[0]]||x[5]):corrected32?(labels32[x[0]]||x[5]):corrected33?(labels33[x[0]]||x[5]):corrected34?(labels34[x[0]]||x[5]):x[5];
+  const title=corrected?x[7].replace('《买粉儿白氍毹画眉复生》',ZG_G031_TITLE).replace(x[5],label):corrected32?x[7].replace('《黄原黑犬引路入太真夫人水际妙宅》',ZG_G032_TITLE).replace(x[5],label):corrected33?x[7].replace('《新死鬼形疲瘦入人家磨面》',ZG_G033_TITLE).replace(x[5],label):corrected34?x[7].replace('《钟繇颍川旧宅月夜遇美妇》',ZG_G034_TITLE).replace(x[5],label):x[7];
   const subTypes={302:'人物/概念变体',306:'主观转场',307:'戏剧现场',308:'胡粉器物',309:'影视概念道具',310:'影视建筑配套'};
   const subTypes32={312:'青犬形态',317:'池台厅堂',318:'佩饰概念',319:'琴瑟博棋器用',320:'建筑配套'};
   const subTypes33={322:'旧鬼形貌',326:'现实场景转接',327:'推磨现场',328:'磨具概念',329:'磨碓与簸筛',330:'院落配套'};
+  const subTypes34={332:'来访美妇形貌',336:'现实夜景氛围',337:'宅内冲突',338:'新棉与血迹',339:'墓中衣饰',340:'墓址场景'};
   return {
     seq: x[0], id: x[1], gid: g[0], book_no: g[1], book: g[2], author_era: g[3],
     era: g[4], story: g[5], characters: g[6], scenes: g[7], props: g[8],
-    basis: g[9], url: g[10], asset_type: x[3], sub_type: corrected?(subTypes[x[0]]||x[4]):corrected32?(subTypes32[x[0]]||x[4]):corrected33?(subTypes33[x[0]]||x[4]):x[4], label,
-    ratio: x[6], title, prompt: x[8], source_note: corrected?ZG_G031_NOTE:corrected32?ZG_G032_NOTE:corrected33?ZG_G033_NOTE:''
+    basis: g[9], url: g[10], asset_type: x[3], sub_type: corrected?(subTypes[x[0]]||x[4]):corrected32?(subTypes32[x[0]]||x[4]):corrected33?(subTypes33[x[0]]||x[4]):corrected34?(subTypes34[x[0]]||x[4]):x[4], label,
+    ratio: x[6], title, prompt: x[8], source_note: corrected?ZG_G031_NOTE:corrected32?ZG_G032_NOTE:corrected33?ZG_G033_NOTE:corrected34?ZG_G034_NOTE:''
   };
 };
 const ITEMS = RAW.items.map(_mapZgItem);
