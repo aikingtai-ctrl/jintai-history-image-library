@@ -67,6 +67,20 @@ async function checkPopup(html, name, isBatch) {
 }
 
 const index = read('index.html');
+const gatewayAssetSource = functionSource(index, 'historyGalleryAssetUrl');
+const originalUrlSource = functionSource(index, 'historyOriginalUrl');
+const gateway = { encodeURIComponent, historyGalleryBase: async () => 'https://gateway.test' };
+vm.runInNewContext(gatewayAssetSource + '\nasync ' + originalUrlSource, gateway);
+const versionA = 'a'.repeat(64);
+const versionB = 'b'.repeat(64);
+const versioned = { original_dir: 'verified', filename: 'verified.png', preview_filename: 'verified.webp', sha256: versionA };
+assert.equal(await gateway.historyOriginalUrl(versioned), `https://gateway.test/original-pngs/verified/verified.png?v=${versionA}`);
+assert.equal(gateway.historyGalleryAssetUrl('https://gateway.test', 'gallery-previews/', versioned, versioned.preview_filename), `https://gateway.test/gallery-previews/verified/verified.webp?v=${versionA}`);
+assert.equal(gateway.historyGalleryAssetUrl('https://gateway.test', 'gallery-previews/', { ...versioned, sha256: versionB }, versioned.preview_filename), `https://gateway.test/gallery-previews/verified/verified.webp?v=${versionB}`);
+assert.equal(gateway.historyGalleryAssetUrl('https://gateway.test', 'gallery-previews/', { ...versioned, sha256: '' }, versioned.preview_filename), 'https://gateway.test/gallery-previews/verified/verified.webp');
+assert.equal(await gateway.historyOriginalUrl({ original: 'https://immutable.test/verified.png' }), 'https://immutable.test/verified.png');
+assert(!index.includes("info.preview=base+'/gallery-previews/'"), 'Unversioned gallery preview loader remains');
+assert(!index.includes("info.thumb=base+'/gallery-thumbnails/'"), 'Unversioned gallery thumbnail loader remains');
 assert(index.includes('JINTAI_MYTH_IMAGES?.[id]'), 'Myth original mapping missing');
 assert(!index.includes("histOriginalInfo(r.id)?'查看原图'"), 'Unqualified original label in main gallery');
 assert(!index.includes('aria-label="打开原图：'), 'Unqualified detail label in main gallery');

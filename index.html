@@ -1017,7 +1017,12 @@ function historyGalleryBase(){
 async function historyOriginalUrl(info){
   if(info.original)return info.original;
   const base=await historyGalleryBase();
-  return base+'/original-pngs/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.filename);
+  return historyGalleryAssetUrl(base,'original-pngs/',info,info.filename);
+}
+function historyGalleryAssetUrl(base,route,info,filename){
+  const digest=info?.sha256||'';
+  const version=/^[0-9a-f]{64}$/i.test(digest)?'?v='+digest:'';
+  return base+'/'+route+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(filename)+version;
 }
 (function loadBrowserOriginalImages(){
   historyGalleryBase().then(base=>{
@@ -1026,7 +1031,7 @@ async function historyOriginalUrl(info){
     s.onload=()=>{
       const images=window.JINTAI_BROWSER_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1040,7 +1045,7 @@ async function historyOriginalUrl(info){
     s.onload=()=>{
       const images=window.JINTAI_THREE_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       const count=Object.keys(images).length;
       $('threeProgress').textContent='三国两晋南北朝已接图 '+count.toLocaleString()+' / 11,458 张'+(count===11458?' · 已完成':'');
@@ -1056,7 +1061,7 @@ async function historyOriginalUrl(info){
     s.onload=()=>{
       const images=window.JINTAI_MYTH_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1070,7 +1075,7 @@ async function historyOriginalUrl(info){
     s.onload=()=>{
       const images=window.JINTAI_PEOPLE_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1084,8 +1089,8 @@ async function historyOriginalUrl(info){
     s.onload=()=>{
       const images=window.JINTAI_YUANMING_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
-        if(info.thumbnail_filename)info.thumb=base+'/gallery-thumbnails/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.thumbnail_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
+        if(info.thumbnail_filename)info.thumb=historyGalleryAssetUrl(base,'gallery-thumbnails/',info,info.thumbnail_filename);
       }
       const imageCount=Object.keys(images).length;
       $('yuanmingProgress').textContent='元明已接图 '+imageCount.toLocaleString()+' / 7,358 张'+(imageCount===7358?' · 已完成':'');
@@ -1101,7 +1106,7 @@ async function historyOriginalUrl(info){
     s.onload=()=>{
       const images=window.JINTAI_QING_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       const count=Object.keys(images).length;
       $('qingProgress').textContent='清代已接图 '+count.toLocaleString()+' / 4,984 张'+(count===4984?' · 已完成':'');
@@ -1120,8 +1125,8 @@ function loadXiongnuImages(){
       const images=window.JINTAI_XIONGNU_IMAGES||{};
       for(const [id,info] of Object.entries(images)){
         if(info.original_dir!=='history_xiongnu_1167_codex_gpt_image_20261126'||info.model!=='GPT Image'){delete images[id];continue;}
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
-        if(info.thumbnail_filename)info.thumb=base+'/gallery-thumbnails/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.thumbnail_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
+        if(info.thumbnail_filename)info.thumb=historyGalleryAssetUrl(base,'gallery-thumbnails/',info,info.thumbnail_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1135,8 +1140,8 @@ function loadXiongnuImages(){
     s.onload=()=>{
       const images=window.JINTAI_SOUTHERN_SONG_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
-        if(info.thumbnail_filename)info.thumb=base+'/gallery-thumbnails/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.thumbnail_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
+        if(info.thumbnail_filename)info.thumb=historyGalleryAssetUrl(base,'gallery-thumbnails/',info,info.thumbnail_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1151,7 +1156,7 @@ function loadXiongnuImages(){
       const images=window.JINTAI_SPECIAL_IMAGES||{};
       for(const info of Object.values(images)){
         if(!info.original_dir||!info.filename||!info.preview_filename)continue;
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1165,7 +1170,7 @@ function loadXiongnuImages(){
     s.onload=()=>{
       const images=window.JINTAI_ARCH_GPT_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1179,7 +1184,7 @@ function loadXiongnuImages(){
     s.onload=()=>{
       const images=window.JINTAI_SHANHAIJING_GPT_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1193,7 +1198,7 @@ function loadXiongnuImages(){
     s.onload=()=>{
       const images=window.JINTAI_MINGUO_FOLK16_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
