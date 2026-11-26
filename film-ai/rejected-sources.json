@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T21:43:06.267020+08:00",
+  "updated_at": "2026-11-26T22:34:42.013933+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -653,6 +653,111 @@
       "sha256": "dc68c317bd1c95b44e6f51ba1721e83f58f6a9f18a89cf8368f6065a2da71ce6",
       "reason": "东亚男子坐在室内打电话，既不能对应 Truman Capote/Philip Seymour Hoffman，也缺乏 Kansas 调查的片目关联，明显串片。",
       "evidence": "第十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "crash-1996",
+      "src": "film-ai/crash-1996.jpg",
+      "sha256": "791c1eba8aceacefa29fa4f6f9fff78e0de28651e31e920963a96974075a1b6d",
+      "reason": "02 东亚男子坐书桌写字，与 BFI 所列 James Spader 饰 James Ballard 的车祸癖欧美人物及情节不符，判串片。",
+      "evidence": "第二十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "crazy-stone-2006",
+      "src": "film-ai/crazy-stone-2006.jpg",
+      "sha256": "4a23353d334ca98b03616f6044bcb6e336608eb2433f27732888fff07a16840a",
+      "reason": "02 欧美秃顶男子拿 DV 摄像机的室内画面，无法对应中国盗宝喜剧的角色/地点，判串片。",
+      "evidence": "第二十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "creed-2015",
+      "src": "film-ai/creed-2015.jpg",
+      "sha256": "8c03af48bc69cfb6bed5543ae6d6094a55646b3835221cc5a946bf507ea3ade5",
+      "reason": "02 东亚男子坐在室内沙发，与 Adonis Creed/Michael B. Jordan 和费城拳击叙事不符，判串片。",
+      "evidence": "第二十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "cube-1997",
+      "src": "film-ai/cube-1997.jpg",
+      "sha256": "3c29d00b114f5c508774f6319490f34dbcad35329c2ace9f1960b7af78bf6bb4",
+      "reason": "02 东亚女性满面网状血痕特写，无方块房间锚点，也不在 TIFF 收录的 1997 年加拿大版演员阵容内，判串片。",
+      "evidence": "第二十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "dahechang-2019",
+      "src": "film-ai/dahechang-2019.jpg",
+      "sha256": "ea7de6b109b96f49a3036d86285cf58298dc6503fd45f7eb940c95ce08dc5bba",
+      "reason": "02 非裔老人佩耳机举欧美吉他唱片的室内画面，与黄河流域五名中国民间艺人的纪录主题明确不符，判串片。",
+      "evidence": "第二十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "darkest-hour-2017",
+      "src": "film-ai/darkest-hour-2017.jpg",
+      "sha256": "bac95b6b9ee7768575b188242baf8b1e53973ec3b4ef577fad71c5b96f3fe040",
+      "reason": "02 粉衬衣老年男子在现代式餐桌接电话，不像 Gary Oldman 饰演的 1940 年英国首相 Churchill，人物/年代串片。",
+      "evidence": "第二十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "darwins-nightmare-2004",
+      "src": "film-ai/darwins-nightmare-2004.jpg",
+      "sha256": "3802eef5a24f98a41a39b0e7e759f0f77029572cce968f93f5ba5d1f77f99dc6",
+      "reason": "02 德文片名字样、飞机和鱼骨枪支拼贴，是宣传海报而非独立剧照。",
+      "evidence": "第二十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "daughter-of-the-nile-1987",
+      "src": "film-ai/daughter-of-the-nile-1987.jpg",
+      "sha256": "b22cf1f3230eb3723b8edf6d85240072c18ee34e5d3616ad123e8d596b919713",
+      "reason": "02 黑底白字“学府股份有限公司出品”为片头公司字卡，无独立画面内容。",
+      "evidence": "第二十二批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "city-lights-1931",
+      "src": "film-ai/city-lights-1931.jpg",
+      "sha256": "7f31dc9738a5ae7460d5958886d44866797ee40016d3a825c50bae813373541c",
+      "reason": "照片主体为制服军警在似东亚仪仗场合敬礼，虽有围观人群，却没有 AFI 所述雕像与流浪汉，视觉年代/人物均偏向他片。",
+      "evidence": "第二十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "claires-knee-1970",
+      "src": "film-ai/claires-knee-1970.jpg",
+      "sha256": "e038a9c3661c6ef3ca04c1deacb5475cd38feb4bc2191d17a0df24f227012aed",
+      "reason": "纯黑底红色法文片名字卡，只有标题，没有独立画面。",
+      "evidence": "第二十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "classmates-minus-2020",
+      "src": "film-ai/decks/film-classmates-minus-2020.webp",
+      "sha256": "04df38e2a697e58641481ac531b3fead9017332bf0a470a7b55c57a962ae79c4",
+      "reason": "画面下半部嵌入黑白少年群像，与上半部成年四友路边合成双时间层，是编辑式拼贴，不是单一独立场景照。",
+      "evidence": "第二十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "closely-watched-trains-1966",
+      "src": "film-ai/closely-watched-trains-1966.jpg",
+      "sha256": "be33aa28a25bf4d0d30280111d9a24f6be54f4120c5863a38afd605ba0d12a25",
+      "reason": "美式老好莱坞打光与皮草造型的金发明星肖像，与捷克乡村车站人物和片中演员造型明显不合，疑串片。",
+      "evidence": "第二十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "coco-2017",
+      "src": "film-ai/coco-2017.jpg",
+      "sha256": "8d1eacbbddc87605cddd6e9b70c810d1faafbf3cb0c3250b6a3b6a0336a0d1d6",
+      "reason": "真实剧院观众剪影、真人歌舞团与实体舞台表演，不符合 Pixar 电脑动画片内媒介，疑为舞台改编/表演图。",
+      "evidence": "第二十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "come-drink-with-me-1966",
+      "src": "film-ai/come-drink-with-me-1966.jpg",
+      "sha256": "2b1bab4c59b9cba3c008595c2ca08ef9d45d6474e9b1a060cf826282503b06d9",
+      "reason": "画面左侧明显摄影机，中央导演坐在折椅指挥演员并持剧本，是片场幕后照，不是片内场景。",
+      "evidence": "第二十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "cotton-2014",
+      "src": "film-ai/cotton-2014.jpg",
+      "sha256": "87a558f4e26ac49ba64a8b0ce1bf2fbce3128f957eddf9fd43d33949cbaf935d",
+      "reason": "牛仔布标签式拼贴上覆巨大《棉花》片名字样及产业链英文，属于宣传海报/标题图。",
+      "evidence": "第二十一批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
