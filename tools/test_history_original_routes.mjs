@@ -69,8 +69,9 @@ async function checkPopup(html, name, isBatch) {
 const index = read('index.html');
 const gatewayAssetSource = functionSource(index, 'historyGalleryAssetUrl');
 const originalUrlSource = functionSource(index, 'historyOriginalUrl');
+const downloadUrlSource = functionSource(index, 'historyDownloadUrl');
 const gateway = { encodeURIComponent, historyGalleryBase: async () => 'https://gateway.test' };
-vm.runInNewContext(gatewayAssetSource + '\nasync ' + originalUrlSource, gateway);
+vm.runInNewContext(gatewayAssetSource + '\nasync ' + originalUrlSource + '\n' + downloadUrlSource, gateway);
 const versionA = 'a'.repeat(64);
 const versionB = 'b'.repeat(64);
 const versioned = { original_dir: 'verified', filename: 'verified.png', preview_filename: 'verified.webp', sha256: versionA };
@@ -79,6 +80,8 @@ assert.equal(gateway.historyGalleryAssetUrl('https://gateway.test', 'gallery-pre
 assert.equal(gateway.historyGalleryAssetUrl('https://gateway.test', 'gallery-previews/', { ...versioned, sha256: versionB }, versioned.preview_filename), `https://gateway.test/gallery-previews/verified/verified.webp?v=${versionB}`);
 assert.equal(gateway.historyGalleryAssetUrl('https://gateway.test', 'gallery-previews/', { ...versioned, sha256: '' }, versioned.preview_filename), 'https://gateway.test/gallery-previews/verified/verified.webp');
 assert.equal(await gateway.historyOriginalUrl({ original: 'https://immutable.test/verified.png' }), 'https://immutable.test/verified.png');
+assert.equal(gateway.historyDownloadUrl(`https://gateway.test/original-pngs/verified/verified.png?v=${versionA}`), `https://gateway.test/original-pngs/verified/verified.png?v=${versionA}&download=1`);
+assert.equal(gateway.historyDownloadUrl('https://gateway.test/original-pngs/verified/verified.png'), 'https://gateway.test/original-pngs/verified/verified.png?download=1');
 assert(!index.includes("info.preview=base+'/gallery-previews/'"), 'Unversioned gallery preview loader remains');
 assert(!index.includes("info.thumb=base+'/gallery-thumbnails/'"), 'Unversioned gallery thumbnail loader remains');
 assert(index.includes('JINTAI_MYTH_IMAGES?.[id]'), 'Myth original mapping missing');
@@ -103,6 +106,13 @@ await checkPopup(index, 'openHistOriginal', false);
 
 for (const name of ['history-batch.html', 'history-batch-1001-2000.html']) {
   const html = read(name);
+  const batchOriginalSource = functionSource(html, 'gptOriginalUrl');
+  const batchDownloadSource = functionSource(html, 'gptDownloadUrl');
+  const batch = { encodeURIComponent, location: { origin: 'https://gateway.test', hostname: 'gateway.trycloudflare.com', port: '' } };
+  vm.runInNewContext('async ' + batchOriginalSource + '\n' + batchDownloadSource, batch);
+  const versionedBatchUrl = await batch.gptOriginalUrl(versioned);
+  assert.equal(versionedBatchUrl, `https://gateway.test/original-pngs/verified/verified.png?v=${versionA}`);
+  assert.equal(batch.gptDownloadUrl(versionedBatchUrl), `https://gateway.test/original-pngs/verified/verified.png?v=${versionA}&download=1`);
   assert(html.includes('content:"↗ 查看预览"'), `${name}: old JPEG wrongly labeled as original`);
   assert(html.includes('.has-gpt::after{content:"↗ GPT Image 原图"}'), `${name}: accepted PNG label missing`);
   assert(html.includes("q('downloadPng').hidden=true"), `${name}: download initial hide missing`);

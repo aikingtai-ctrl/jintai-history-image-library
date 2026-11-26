@@ -1027,6 +1027,7 @@ function historyGalleryAssetUrl(base,route,info,filename){
   const version=/^[0-9a-f]{64}$/i.test(digest)?'?v='+digest:'';
   return base+'/'+route+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(filename)+version;
 }
+function historyDownloadUrl(url){return url+(url.includes('?')?'&':'?')+'download=1';}
 (function loadBrowserOriginalImages(){
   historyGalleryBase().then(base=>{
     const s=document.createElement('script');
@@ -1317,7 +1318,7 @@ function renderHlb(){
         }
         originalSrc=url;
         raw.href=url;raw.textContent=groupMain?'新窗口查看十态组主图原生 PNG ↗':histMuseumCopy(r.id)?'新窗口查看馆藏高清浏览版 ↗':gpt||three?'新窗口查看 GPT Image PNG ↗':minguo?`新窗口查看 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG ↗`:regenerated?'新窗口查看重生成原始 PNG ↗':`新窗口查看原始 ${nativeFormat} ↗`;
-        download.href=histMuseumTiff(r.id)||url+'?download=1';download.textContent=groupMain?'下载十态组主图原生 PNG':histMuseumTiff(r.id)?'下载馆藏 TIFF 原件':gpt?.method==='museum_open_access_original'?'下载馆藏高清浏览版':gpt||three?'下载 GPT Image PNG':minguo?`下载 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG`:regenerated?'下载重生成原始 PNG':`下载原始 ${nativeFormat}`;download.hidden=false;
+        download.href=histMuseumTiff(r.id)||historyDownloadUrl(url);download.textContent=groupMain?'下载十态组主图原生 PNG':histMuseumTiff(r.id)?'下载馆藏 TIFF 原件':gpt?.method==='museum_open_access_original'?'下载馆藏高清浏览版':gpt||three?'下载 GPT Image PNG':minguo?`下载 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG`:regenerated?'下载重生成原始 PNG':`下载原始 ${nativeFormat}`;download.hidden=false;
         im.src=url;
       };
       full.onerror=()=>{if(HLB.request===request){originalFailed=true;originalSrc='';raw.href=preview;raw.textContent='新窗口查看预览图 ↗';download.hidden=true;$('hlbNote').textContent=`原始 ${nativeFormat} 暂不可用，当前显示预览图。`;}};
