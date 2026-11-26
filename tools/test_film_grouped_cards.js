@@ -48,6 +48,9 @@ function verify(file) {
   assert.match(elements.count.innerHTML, /共 <b>2<\/b> 部作品/);
   assert.deepEqual(ctx.pager, [0, 1]);
   assert.equal(vm.runInContext('filmStillItems(FIND_FILM_GROUPS.get("film-a")).length', ctx), 1);
+  shots.a1 = 'film-ai/shots/second.webp';
+  assert.equal(vm.runInContext('filmStillItems(FIND_FILM_GROUPS.get("film-a")).length', ctx), 2, 'Distinct representative supplements a shot image');
+  delete shots.a1;
   assert.equal(vm.runInContext('filmStillItems(FIND_FILM_GROUPS.get("film-b")).length', ctx), 5);
   assert.equal(vm.runInContext('filmStillItems(FIND_FILM_GROUPS.get("film-b"))[0].kind', ctx), '真实截帧');
   assert.equal(vm.runInContext('new Set(filmStillItems(FIND_FILM_GROUPS.get("film-b")).map(x=>filmImageKey(x.src))).size', ctx), 5);

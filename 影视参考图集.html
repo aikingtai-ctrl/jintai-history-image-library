@@ -842,7 +842,7 @@ function filmStillItems(g){
  const items=[],sources=new Set(),add=(r,src,kind)=>{if(!src||items.length>=5)return;const key=filmImageKey(src);if(sources.has(key))return;sources.add(key);items.push({r,src,kind});};
  all.forEach(r=>{const f=frOf(r);if(f)add(r,`${FRAME_DIR}/${f.f}`,'真实截帧');});
  all.forEach(r=>{if((window.FILM_SHOT_IMAGES||{})[r.id])add(r,shotImageSrc(r.id),'AI 原创参考画面');});
- if(!items.length)add(g.rows[0],getFilmAiSrc(g.w.wid),'同片代表图 · 非镜头原帧');
+ add(g.rows[0],getFilmAiSrc(g.w.wid),'同片代表图 · 非镜头原帧');
  return items;
 }
 function filmCard(g){const w=g.w,items=filmStillItems(g),hero=items[0],r=hero?.r||g.rows[0],inD=DECKS.cur&&deckHas(r.id),inC=CMP.includes(r.id),label=hero?hero.kind:'暂无已接画面';
