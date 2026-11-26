@@ -767,7 +767,7 @@ async function updateWorkGalleryManifest(){
   const gallery=JSON.parse(match[1]);if(gallery&&typeof gallery==='object'&&!Array.isArray(gallery))window.FILM_WORK_GALLERIES=gallery;
  }catch(e){console.warn('影片图库清单暂不可用，使用影片主图',e);}finally{clearTimeout(timer);}
 }
-function visual(r,W,big){const f=frOf(r);if(f)return`<img loading="lazy" src="${FRAME_DIR}/${esc(big?f.f:f.t)}" alt="${esc(r.W.t)} 截帧">`;const ai=shotImageSrc(r.id);if(ai)return`<img loading="lazy" src="${esc(ai)}" alt="${esc(r.W.t)} · ${isWorkRepresentativeShot(r.id)?'同片代表图，非该镜原帧':esc(r.sc||'')+'，AI 原创参考画面'}">`;return r.origin==='visual'?sourceVisual(r):schem(r,W);}
+function visual(r,W,big){const f=frOf(r);if(f)return`<img loading="lazy" src="${FRAME_DIR}/${esc(big?f.f:f.t)}" alt="${esc(r.W.t)} 截帧">`;const ai=shotImageSrc(r.id);if(ai)return`<img loading="lazy" src="${esc(ai)}" alt="${esc(r.W.t)} · ${isWorkRepresentativeShot(r.id)?'同片代表图，非该镜原帧':esc(r.sc||'')+'，AI 原创参考画面'}">`;const rep=getFilmAiSrc(r.W.wid);if(rep)return`<img loading="lazy" src="${esc(rep)}" alt="${esc(r.W.t)} · 同片代表图，非该镜原帧">`;return r.origin==='visual'?sourceVisual(r):schem(r,W);}
 function palHTML(r){const p=palOf(r);return p.length?`<div class="pal">${p.map(c=>`<span style="background:${c}"></span>`).join('')}</div>`:'<div class="pal pal-empty" title="色板待测"></div>';}
 /* ---------- 智能搜索 ---------- */
 const TERMS=[],TERM_SET=new Set();(function(){const seen=new Set();const add=(t,tg)=>{const k=t.toLowerCase();TERM_SET.add(k);if(seen.has(k+'>'+tg.join()))return;seen.add(k+'>'+tg.join());TERMS.push([k,tg]);};
@@ -837,8 +837,8 @@ function renderActive(E){let h='';QP.tags.forEach(t=>{const[k,v]=t.split(':');h+
  $('active').querySelectorAll('button').forEach(b=>b.onclick=()=>{if(b.dataset.q){QP.tags=QP.tags.filter(t=>t!==b.dataset.q);}else if(b.dataset.k){selOf(b.dataset.k).delete(b.dataset.v);}else if(b.dataset.w){QP.words=QP.words.filter(w=>w!==b.dataset.w);}
   else if(b.dataset.x==='work')QP.work=null;else if(b.dataset.x==='wid')WID=null;else if(b.dataset.x==='color')COLOR=null;else if(b.dataset.x==='img')IMGPAL=null;apply();});
  const tol=$('tol');if(tol)tol.onchange=()=>{COLOR.tol=+tol.value;apply();};}
-function card(r,opts={}){const w=r.W,f=frOf(r),ai=shotImageSrc(r.id),inD=DECKS.cur&&deckHas(r.id),inC=CMP.includes(r.id);
- return`<div class="card" data-id="${r.id}"><div class="thumb${r.origin==='visual'&&!f&&!ai?' source':''}" data-open="${r.id}" title="${ai?'点击放大并打开原图':'点击查看镜头详情'}">${visual(r,560)}<span class="badge${f?' fr':''}">${f?'截帧 · 实测色':ai?(isWorkRepresentativeShot(r.id)?'同片代表图 · 非该镜原帧':'AI 原创参考画面'):r.origin==='visual'?'来源静帧 · 标签待标注':'示意图 · 估色'}</span></div>${palHTML(r)}
+function card(r,opts={}){const w=r.W,f=frOf(r),ai=shotImageSrc(r.id),rep=!f&&!ai&&getFilmAiSrc(w.wid),inD=DECKS.cur&&deckHas(r.id),inC=CMP.includes(r.id);
+ return`<div class="card" data-id="${r.id}"><div class="thumb${r.origin==='visual'&&!f&&!ai&&!rep?' source':''}" data-open="${r.id}" title="${f||ai||rep?'点击打开原图':'点击查看镜头详情'}">${visual(r,560)}<span class="badge${f?' fr':''}">${f?'截帧 · 实测色':ai?(isWorkRepresentativeShot(r.id)?'同片代表图 · 非该镜原帧':'AI 原创参考画面'):rep?'同片代表图 · 非该镜原帧':r.origin==='visual'?'来源静帧 · 标签待标注':'示意图 · 估色'}</span></div>${palHTML(r)}
  <div class="cap" data-open="${r.id}"><b>${esc(w.t)}</b> <span class="y">${esc(w.y||'年份待核')}${r.ep?' · '+esc(r.ep):''}</span><p>${esc(r.sc)}</p></div>
  <div class="tg">${[r.size,r.time,r.ie,(r.light||[]).slice(0,2).join('·'),(r.color||[]).slice(0,2).join('·'),(r.emo||[])[0]].filter(Boolean).map(esc).join(' · ')||'摄影标签待标注'}</div>
  <div class="acts"><button data-add="${r.id}" class="${inD?'in':''}">${inD?'✓ 已在图集':'＋图集'}</button><button data-cmp="${r.id}" class="${inC?'in':''}">${inC?'✓ 对照中':'对照'}</button></div></div>`;}
@@ -1796,14 +1796,17 @@ function openShotVisualLightbox(r){
  });
  dlg.addEventListener('click',e=>{if(e.target===dlg)closeLbModal();});
  document.addEventListener('click',e=>{
-  const zoomTarget=e.target.closest('[data-zoom-wid],.film-ai-preview:not(.empty)');
+  const zoomTarget=e.target.closest('[data-zoom-wid],.film-ai-preview:not(.empty),.thumb,.mini,#dVisZoom');
   if(!zoomTarget)return;
-  e.preventDefault();e.stopPropagation();
   const card=zoomTarget.closest('.wc,.dbody,.fp,.dkhead');
   const wid=zoomTarget.getAttribute('data-zoom-wid')||card?.querySelector('[data-zoom-wid]')?.getAttribute('data-zoom-wid')||card?.querySelector('[data-wid]')?.getAttribute('data-wid')||'';
   const imgEl=zoomTarget.querySelector('img')||card?.querySelector('.film-ai-preview img');
-  const src=(imgEl&&(imgEl.getAttribute('src')||imgEl.currentSrc||imgEl.src))||getFilmAiSrc(wid);
-  if(src)window.open(src.replace(/(\/?film-ai\/goal3377\/)([^/?#]+)\.jpg(?=$|[?#])/i,'$1originals/$2.png'),'_blank','noopener');
+  const record=BYID.get(zoomTarget.closest('[data-open]')?.getAttribute('data-open'));
+  const frame=record&&frOf(record);
+  const src=frame?`${FRAME_DIR}/${frame.f}`:(imgEl&&(imgEl.getAttribute('src')||imgEl.currentSrc||imgEl.src))||getFilmAiSrc(wid);
+  if(!src)return;
+  e.preventDefault();e.stopPropagation();
+  window.open(src.replace(/(\/?film-ai\/goal3377\/)([^/?#]+)\.jpg(?=$|[?#])/i,'$1originals/$2.png'),'_blank','noopener');
  },true);
  document.addEventListener('keydown',e=>{
   if(!dlg.open&&!dlg.hasAttribute('open'))return;
