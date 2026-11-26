@@ -1,4 +1,4 @@
-/* Display corrections for 23 pending GPT Image items. Frozen prompts and shards remain evidence. */
+/* Display corrections for 29 pending GPT Image items. Frozen prompts and shards remain evidence. */
 (()=>{
   const corrections=Object.create(null);
   function add(id,title,note,sourceUrls){
@@ -43,6 +43,31 @@
         '史实待校正：原题“C8G1”与正文所述逾六十米、双排柱槽的大型基址编号未核实；公开资料论及十五号建筑及“四阿重屋”复原，但不能据此直接断言 C8G1 与 C8F15/C8G15 同号。斗拱、瓦脊与室内陈设亦须另证；旧图仅为存档预览。',
         [zhengzhou]);
   }
+
+  const yinBenji='https://zh.wikisource.org/zh-hant/%E5%8F%B2%E8%A8%98/%E5%8D%B7003';
+  const zuYiMuseum='https://www.dpm.org.cn/lemmas/241084.html';
+  for(const [id,title] of [
+    ['JT-HF-XIANQIN-EMP-12004','祖乙·商朝（迁都地望与世系待核）'],
+    ['JT-HF-XIANQIN-EMP-15001','祖乙（另一条目）·商朝（迁都地望与世系待核）']
+  ]){
+    add(id,title,
+        '史实待校正：冻结提示词将祖乙迁都于耿及亲属世系写成定论；传世文献有迁邢、迁耿等不同记载，卜辞世系研究亦须另核。旧 JPEG 宫阙造型仅为存档预览，不能用作商代参考。',
+        [yinBenji,zuYiMuseum]);
+  }
+  add('JT-HF-XIANQIN-EMP-14015','雍己·商朝（冻结提示词私名待核）',
+      '史实待校正：冻结提示词将雍己写作“名密”，与太戊私名混淆；应先校订私名与甲骨世系。旧 JPEG 仅为存档预览。',
+      [yinBenji,'https://www11.ihp.sinica.edu.tw/storage/w2_file/4799kWFdPGv.pdf']);
+  for(const [id,title] of [
+    ['JT-HF-XIANQIN-EMP-15008','小辛（另一条目）·商朝（在位评价待核）'],
+    ['JT-HF-XIANQIN-EMP-17002','商王小辛·商朝（在位评价待核）']
+  ]){
+    add(id,title,
+        '史实待校正：冻结提示词称小辛在位时承平或盛世；《史记·殷本纪》记“殷复衰”，不应把太平朝会当作可证场景。旧 JPEG 仅为存档预览。',
+        [yinBenji]);
+  }
+  add('JT-HF-XIANQIN-EMP-15012','祖甲（另一条目）·商朝（史传评价分歧待核）',
+      '史实待校正：冻结提示词将祖甲的祭制改革与“盛王”评价并作定论；《史记》与卜辞研究的评价路径不同，应标明史料分歧后再生成。旧 JPEG 仅为存档预览。',
+      [yinBenji,'https://www11.ihp.sinica.edu.tw/storage/w2_file/2840jzRVfUI.pdf']);
 
   function apply(record){
     const correction=record&&corrections[record.id];
