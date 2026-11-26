@@ -387,6 +387,7 @@ dialog h2{margin:4px 0 8px;font-size:21pt;line-height:1.3}
     <div class="result-left">
       <span id="count">加载中…</span>
       <span id="loadmsg"></span>
+      <span id="threeProgress"></span>
       <span id="yuanmingProgress"></span>
       <span id="qingProgress"></span>
       <div class="crumbs" id="crumbs"></div>
@@ -1008,9 +1009,9 @@ function syncChipUI(){
 }
 
 
-function histPreview(id){return window.JINTAI_BROWSER_IMAGES?.[id]?.preview||window.JINTAI_MYTH_IMAGES?.[id]?.preview||window.JINTAI_PAGE23_IMAGES?.[id]?.preview||window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||window.JINTAI_PEOPLE_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
-function histThumb(id){return window.JINTAI_BROWSER_IMAGES?.[id]?.thumb||window.JINTAI_BROWSER_IMAGES?.[id]?.preview||window.JINTAI_MYTH_IMAGES?.[id]?.preview||window.JINTAI_PAGE23_IMAGES?.[id]?.preview||window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.thumb||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]?.thumb||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||histPreview(id);}
-function histOriginalInfo(id){return window.JINTAI_BROWSER_IMAGES?.[id]||window.JINTAI_MYTH_IMAGES?.[id]||window.JINTAI_PAGE23_IMAGES?.[id]||window.JINTAI_PAGE22_IMAGES?.[id]||window.JINTAI_PAGE21_IMAGES?.[id]||window.JINTAI_PAGE20_IMAGES?.[id]||window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]||window.JINTAI_SONG_IMAGES?.[id]||window.JINTAI_PEOPLE_IMAGES?.[id]||null;}
+function histPreview(id){return window.JINTAI_THREE_IMAGES?.[id]?.preview||window.JINTAI_BROWSER_IMAGES?.[id]?.preview||window.JINTAI_MYTH_IMAGES?.[id]?.preview||window.JINTAI_PAGE23_IMAGES?.[id]?.preview||window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.preview||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||window.JINTAI_PEOPLE_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
+function histThumb(id){return window.JINTAI_THREE_IMAGES?.[id]?.preview||window.JINTAI_BROWSER_IMAGES?.[id]?.thumb||window.JINTAI_BROWSER_IMAGES?.[id]?.preview||window.JINTAI_MYTH_IMAGES?.[id]?.preview||window.JINTAI_PAGE23_IMAGES?.[id]?.preview||window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||window.JINTAI_YUANMING_IMAGES?.[id]?.thumb||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]?.thumb||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]?.preview||window.JINTAI_SONG_IMAGES?.[id]?.preview||histPreview(id);}
+function histOriginalInfo(id){return window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_BROWSER_IMAGES?.[id]||window.JINTAI_MYTH_IMAGES?.[id]||window.JINTAI_PAGE23_IMAGES?.[id]||window.JINTAI_PAGE22_IMAGES?.[id]||window.JINTAI_PAGE21_IMAGES?.[id]||window.JINTAI_PAGE20_IMAGES?.[id]||window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]||window.JINTAI_SONG_IMAGES?.[id]||window.JINTAI_PEOPLE_IMAGES?.[id]||null;}
 function openHistOriginal(r){
   const info=histOriginalInfo(r.id);
   if(!info){openHistLightbox(r);return;}
@@ -1074,6 +1075,22 @@ async function historyOriginalUrl(info){
       for(const info of Object.values(images)){
         info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
       }
+      if(typeof render==='function'&&R.length)render();
+    };
+    document.head.appendChild(s);
+  }).catch(()=>{});
+})();
+(function loadThreeImages(){
+  historyGalleryBase().then(base=>{
+    const s=document.createElement('script');
+    s.src=base+'/jintai-history-image-library/history-ai/three-manifest.js?t='+Date.now();
+    s.onload=()=>{
+      const images=window.JINTAI_THREE_IMAGES||{};
+      for(const info of Object.values(images)){
+        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+      }
+      const count=Object.keys(images).length;
+      $('threeProgress').textContent='三国两晋南北朝已接图 '+count.toLocaleString()+' / 11,458 张'+(count===11458?' · 已完成':'');
       if(typeof render==='function'&&R.length)render();
     };
     document.head.appendChild(s);
@@ -1180,9 +1197,10 @@ function setHlbZoom(s,reset=false){
 function renderHlb(){
   const r=HLB.pool[HLB.idx];if(!r)return;
   const preview=histPreview(r.id);if(!preview)return;
+  const three=window.JINTAI_THREE_IMAGES?.[r.id];
   const gpt=window.JINTAI_PAGE23_IMAGES?.[r.id]||window.JINTAI_PAGE22_IMAGES?.[r.id]||window.JINTAI_PAGE21_IMAGES?.[r.id]||window.JINTAI_PAGE20_IMAGES?.[r.id]||window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_QING_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id];
   const yuanming=!gpt&&window.JINTAI_YUANMING_IMAGES?.[r.id];
-  const native=histOriginalInfo(r.id);
+  const native=three||histOriginalInfo(r.id);
   const songOriginal=window.JINTAI_SONG_IMAGES?.[r.id]?.original;
   HLB.scale=1;HLB.tx=0;HLB.ty=0;
   HLB.request=(HLB.request||0)+1;const request=HLB.request;
