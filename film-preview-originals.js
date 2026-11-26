@@ -1,23 +1,15 @@
-/* FILM_PREVIEW_DIRECT_OPEN: keep preview clicks pointed at source images. */
+/* FILM_PREVIEW_DIRECT_OPEN: open only exact, provenance-mapped native images. */
 (() => {
   function original(src) {
     const path = String(src || '').match(/(?:^|\/)(film-ai\/[^?#]+)(?:[?#].*)?$/i)?.[1];
-    const verified = path && window.FILM_PREVIEW_NATIVE_MAP?.[path];
-    if (verified) return verified;
-    const goal = String(src || '').match(/^(?:.*?film-ai\/goal9438\/)([^/?#]+)\.jpg(?:[?#].*)?$/i);
-    if (goal) {
-      const wid = goal[1];
-      let hash = 0;
-      for (const char of wid) hash = (Math.imul(hash, 31) + char.charCodeAt(0)) >>> 0;
-      return `https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-goal9438-native-20261124-h${hash % 4}/${wid}.png`;
-    }
-    const match = String(src || '').match(/^(.*?film-ai\/goal3377\/)([^/?#]+)\.jpg(?:[?#].*)?$/i);
-    return match ? `${match[1]}originals/${match[2]}.png` : src;
+    return path && window.FILM_PREVIEW_NATIVE_MAP?.[path] || '';
   }
   function href(src) {
     return /^https:\/\/github\.com\/aikingtai-ctrl\/jintai-history-image-library\/releases\/download\//i.test(src)
       ? `film-image.html?src=${encodeURIComponent(src)}` : src;
   }
+  window.filmNativeOriginalForPreview = original;
+  window.filmNativeOriginalHref = href;
   window.addEventListener('click', event => {
     const target = event.target.closest?.('[data-zoom-wid],.film-ai-preview:not(.empty),.thumb,.mini,.vis,.dk-cover,.qcell');
     if (!target) return;
@@ -36,6 +28,6 @@
     if (!src) return;
     event.preventDefault();
     event.stopImmediatePropagation();
-    window.open(href(original(src)), '_blank', 'noopener');
+    window.open(href(original(src) || src), '_blank', 'noopener');
   }, true);
 })();

@@ -983,7 +983,7 @@ function syncChipUI(){
 }
 function histPreview(id){return window.JINTAI_THREE_IMAGES?.[id]?.preview||histOriginalInfo(id)?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
 function histThumb(id){return window.JINTAI_THREE_IMAGES?.[id]?.preview||histOriginalInfo(id)?.thumb||histPreview(id);}
-function histOriginalInfo(id){return window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_SHANHAIJING_GPT_IMAGES?.[id]||window.JINTAI_ARCH_GPT_IMAGES?.[id]||window.JINTAI_BROWSER_IMAGES?.[id]||window.JINTAI_SPECIAL_IMAGES?.[id]||window.JINTAI_MYTH_IMAGES?.[id]||window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_MINGUO_FOLK16_IMAGES?.[id]||window.JINTAI_PAGE24_IMAGES?.[id]||window.JINTAI_PAGE23_IMAGES?.[id]||window.JINTAI_PAGE22_IMAGES?.[id]||window.JINTAI_PAGE21_IMAGES?.[id]||window.JINTAI_PAGE20_IMAGES?.[id]||window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]||window.JINTAI_SONG_IMAGES?.[id]||(window.JINTAI_XIONGNU_VISUAL_ACCEPTED===true?window.JINTAI_XIONGNU_IMAGES?.[id]:null)||window.JINTAI_PEOPLE_IMAGES?.[id]||null;}
+function histOriginalInfo(id){return window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_SHANHAIJING_GPT_IMAGES?.[id]||window.JINTAI_ARCH_GPT_IMAGES?.[id]||window.JINTAI_BROWSER_IMAGES?.[id]||window.JINTAI_SPECIAL_IMAGES?.[id]||window.JINTAI_MYTH_IMAGES?.[id]||window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_MINGUO_FOLK16_IMAGES?.[id]||window.JINTAI_PAGE25_IMAGES?.[id]||window.JINTAI_PAGE24_IMAGES?.[id]||window.JINTAI_PAGE23_IMAGES?.[id]||window.JINTAI_PAGE22_IMAGES?.[id]||window.JINTAI_PAGE21_IMAGES?.[id]||window.JINTAI_PAGE20_IMAGES?.[id]||window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]||window.JINTAI_SONG_IMAGES?.[id]||(window.JINTAI_XIONGNU_VISUAL_ACCEPTED===true?window.JINTAI_XIONGNU_IMAGES?.[id]:null)||window.JINTAI_PEOPLE_IMAGES?.[id]||null;}
 function histMuseumCopy(id){
   const info=histOriginalInfo(id);
   return info?.method==='museum_open_access_original'?info:null;
@@ -1014,10 +1014,16 @@ function historyGalleryBase(){
   }
   return historyTunnelPromise;
 }
+function historyGalleryAssetUrl(base,route,info,filename){
+  const digest=info?.sha256||'';
+  const version=/^[0-9a-f]{64}$/i.test(digest)?'?v='+digest:'';
+  return base+'/'+route+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(filename)+version;
+}
+function historyDownloadUrl(url){return url+(url.includes('?')?'&':'?')+'download=1';}
 async function historyOriginalUrl(info){
   if(info.original)return info.original;
   const base=await historyGalleryBase();
-  return base+'/original-pngs/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.filename);
+  return historyGalleryAssetUrl(base,'original-pngs/',info,info.filename);
 }
 (function loadBrowserOriginalImages(){
   historyGalleryBase().then(base=>{
@@ -1026,7 +1032,7 @@ async function historyOriginalUrl(info){
     s.onload=()=>{
       const images=window.JINTAI_BROWSER_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1040,7 +1046,7 @@ async function historyOriginalUrl(info){
     s.onload=()=>{
       const images=window.JINTAI_THREE_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       const count=Object.keys(images).length;
       $('threeProgress').textContent='三国两晋南北朝已接图 '+count.toLocaleString()+' / 11,458 张'+(count===11458?' · 已完成':'');
@@ -1056,7 +1062,7 @@ async function historyOriginalUrl(info){
     s.onload=()=>{
       const images=window.JINTAI_MYTH_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1070,7 +1076,7 @@ async function historyOriginalUrl(info){
     s.onload=()=>{
       const images=window.JINTAI_PEOPLE_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1084,7 +1090,7 @@ async function historyOriginalUrl(info){
     s.onload=()=>{
       const images=window.JINTAI_YUANMING_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
         if(info.thumbnail_filename)info.thumb=base+'/gallery-thumbnails/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.thumbnail_filename);
       }
       const imageCount=Object.keys(images).length;
@@ -1101,7 +1107,7 @@ async function historyOriginalUrl(info){
     s.onload=()=>{
       const images=window.JINTAI_QING_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       const count=Object.keys(images).length;
       $('qingProgress').textContent='清代已接图 '+count.toLocaleString()+' / 4,984 张'+(count===4984?' · 已完成':'');
@@ -1120,7 +1126,7 @@ function loadXiongnuImages(){
       const images=window.JINTAI_XIONGNU_IMAGES||{};
       for(const [id,info] of Object.entries(images)){
         if(info.original_dir!=='history_xiongnu_1167_codex_gpt_image_20261126'||info.model!=='GPT Image'){delete images[id];continue;}
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
         if(info.thumbnail_filename)info.thumb=base+'/gallery-thumbnails/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.thumbnail_filename);
       }
       if(typeof render==='function'&&R.length)render();
@@ -1135,7 +1141,7 @@ function loadXiongnuImages(){
     s.onload=()=>{
       const images=window.JINTAI_SOUTHERN_SONG_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
         if(info.thumbnail_filename)info.thumb=base+'/gallery-thumbnails/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.thumbnail_filename);
       }
       if(typeof render==='function'&&R.length)render();
@@ -1151,7 +1157,7 @@ function loadXiongnuImages(){
       const images=window.JINTAI_SPECIAL_IMAGES||{};
       for(const info of Object.values(images)){
         if(!info.original_dir||!info.filename||!info.preview_filename)continue;
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1165,7 +1171,7 @@ function loadXiongnuImages(){
     s.onload=()=>{
       const images=window.JINTAI_ARCH_GPT_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1179,7 +1185,7 @@ function loadXiongnuImages(){
     s.onload=()=>{
       const images=window.JINTAI_SHANHAIJING_GPT_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1193,7 +1199,7 @@ function loadXiongnuImages(){
     s.onload=()=>{
       const images=window.JINTAI_MINGUO_FOLK16_IMAGES||{};
       for(const info of Object.values(images)){
-        info.preview=base+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
+        info.preview=historyGalleryAssetUrl(base,'gallery-previews/',info,info.preview_filename);
       }
       if(typeof render==='function'&&R.length)render();
     };
@@ -1308,7 +1314,7 @@ function renderHlb(){
         }
         originalSrc=url;
         raw.href=url;raw.textContent=histMuseumCopy(r.id)?'新窗口查看馆藏高清浏览版 ↗':gpt||three?'新窗口查看 GPT Image PNG ↗':minguo?`新窗口查看 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG ↗`:regenerated?'新窗口查看重生成原始 PNG ↗':`新窗口查看原始 ${nativeFormat} ↗`;
-        download.href=histMuseumTiff(r.id)||url+'?download=1';download.textContent=histMuseumTiff(r.id)?'下载馆藏 TIFF 原件':gpt?.method==='museum_open_access_original'?'下载馆藏高清 JPEG':gpt||three?'下载 GPT Image PNG':minguo?`下载 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG`:regenerated?'下载重生成原始 PNG':`下载原始 ${nativeFormat}`;download.hidden=false;
+        download.href=histMuseumTiff(r.id)||historyDownloadUrl(url);download.textContent=histMuseumTiff(r.id)?'下载馆藏 TIFF 原件':gpt?.method==='museum_open_access_original'?'下载馆藏高清 JPEG':gpt||three?'下载 GPT Image PNG':minguo?`下载 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG`:regenerated?'下载重生成原始 PNG':`下载原始 ${nativeFormat}`;download.hidden=false;
         im.src=url;
       };
       full.onerror=()=>{if(HLB.request===request){originalFailed=true;originalSrc='';raw.href=preview;raw.textContent='新窗口查看预览图 ↗';download.hidden=true;$('hlbNote').textContent=`原始 ${nativeFormat} 暂不可用，当前显示预览图。`;}};
@@ -1513,6 +1519,7 @@ document.addEventListener('keydown',e=>{
 <script src="history-ai/page22-originals-manifest.js?v=20261125-page22-120" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 <script src="history-ai/page23-originals-manifest.js?v=20261125-page23-120" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 <script src="history-ai/page24-originals-manifest.js?v=20261126-page24-120" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
+<script src="history-ai/page25-originals-manifest.js?v=20261126-page25-20" onload="if(typeof render==='function'&&window.DATA?.length)render()"></script>
 <script src="history-ai/specials-views-ui.js?v=20261126-4000"></script>
 </body>
 </html>

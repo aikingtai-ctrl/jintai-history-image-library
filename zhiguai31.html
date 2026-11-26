@@ -555,6 +555,11 @@ async function zgGalleryBase(){
   if(!/^https:\/\/[a-z0-9-]+\.trycloudflare\.com$/i.test(data.tunnel_url||'')) throw new Error('原图入口无效');
   return data.tunnel_url;
 }
+function zgVersionedUrl(url,info){
+  const digest=info?.sha256||'';
+  return /^[0-9a-f]{64}$/i.test(digest)?url+'?v='+digest:url;
+}
+function zgDownloadUrl(url){return url+(url.includes('?')?'&':'?')+'download=1';}
 async function loadZgImages(){
   try{
     zgGalleryOrigin=await zgGalleryBase();
@@ -566,9 +571,9 @@ async function loadZgImages(){
     const incoming=window.JINTAI_ZHIGUAI_IMAGES||{};
     for(const [id,info] of Object.entries(incoming)){
       if(!/^ZG-20261028-\d{4}$/.test(id) || !/^history_zhiguai_8000_codex_gpt_image_\d{8}$/.test(info.original_dir||'')) continue;
-      info.preview_url=zgGalleryOrigin+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.thumbnail_filename||info.preview_filename);
-      info.full_preview_url=zgGalleryOrigin+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename);
-      info.original_url=zgGalleryOrigin+'/original-pngs/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.filename);
+      info.preview_url=zgVersionedUrl(zgGalleryOrigin+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.thumbnail_filename||info.preview_filename),info);
+      info.full_preview_url=zgVersionedUrl(zgGalleryOrigin+'/gallery-previews/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.preview_filename),info);
+      info.original_url=zgVersionedUrl(zgGalleryOrigin+'/original-pngs/'+encodeURIComponent(info.original_dir)+'/'+encodeURIComponent(info.filename),info);
       ZG_IMAGES[id]=info;
     }
     $('zgImageProgress').textContent='已接原图 '+Object.keys(ZG_IMAGES).length.toLocaleString()+' / 8,000 张';
@@ -594,7 +599,7 @@ function zgRenderHomeGallery(){
     const img=document.createElement('img');img.loading='lazy';zgSetPreview(img,info);img.alt=id+' 原图预览';
     const label=document.createElement('strong');label.textContent=id;
     open.append(img,label);open.onclick=()=>zgOpenOriginal(record,info);
-    const download=document.createElement('a');download.href=info.original_url+'?download=1';download.target='_blank';download.rel='noopener';download.textContent='下载无损原图 · '+info.width+'×'+info.height;
+    const download=document.createElement('a');download.href=zgDownloadUrl(info.original_url);download.target='_blank';download.rel='noopener';download.textContent='下载无损原图 · '+info.width+'×'+info.height;
     const locate=document.createElement('button');locate.type='button';locate.textContent='查看对应提示词';
     locate.onclick=()=>{if(!ITEMS.length)return;$('qPrompt').value=id;page=0;applyPrompts();setTab('prompts');$('secPrompts').scrollIntoView({behavior:'smooth'});};
     card.append(open,download,locate);grid.appendChild(card);
@@ -605,7 +610,7 @@ function zgSetPreview(img,info){
   let attempt=0;
   img.onerror=()=>{
     attempt++;
-    if(attempt===1){setTimeout(()=>{img.src=info.preview_url+'?retry='+Date.now();},800);return;}
+    if(attempt===1){setTimeout(()=>{img.src=info.preview_url+(info.preview_url.includes('?')?'&':'?')+'retry='+Date.now();},800);return;}
     if(attempt===2){img.src=info.full_preview_url;return;}
     if(attempt===3){img.src=info.original_url;return;}
     img.onerror=null;
@@ -628,7 +633,7 @@ function zgRenderImageCard(card,record){
   const button=document.createElement('button');button.type='button';button.title='查看 '+record.id+' 无损原图';
   const img=document.createElement('img');img.loading='lazy';zgSetPreview(img,info);img.alt=record.title+' 生成图预览';
   button.appendChild(img);button.onclick=()=>zgOpenOriginal(record,info);
-  const link=document.createElement('a');link.href=info.original_url+'?download=1';link.target='_blank';link.rel='noopener';link.textContent='查看或下载无损原图 · '+info.width+'×'+info.height;
+  const link=document.createElement('a');link.href=zgDownloadUrl(info.original_url);link.target='_blank';link.rel='noopener';link.textContent='查看或下载无损原图 · '+info.width+'×'+info.height;
   wrap.append(button,link);
   if(record.id==='ZG-20261028-0309'){
     const note=document.createElement('p');note.textContent='白毯为影视诠释道具，非本次核对《幽明录》原文所载。';wrap.appendChild(note);
@@ -651,7 +656,7 @@ function zgOpenOriginal(record,info){
   img.style.display='none';
   img.alt=record.title+' 无损原图';
   const status=dlg.querySelector('.zg-lightbox-status');status.textContent='正在载入无损 PNG…';
-  dlg.querySelector('a').href=info.original_url+'?download=1';
+  dlg.querySelector('a').href=zgDownloadUrl(info.original_url);
   dlg.showModal();
   img.onload=()=>{
     if(!dlg.open || dlg.dataset.currentId!==record.id)return;
