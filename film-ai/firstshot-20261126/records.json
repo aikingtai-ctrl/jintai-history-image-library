@@ -501,6 +501,106 @@
       },
       "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
       "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 41,
+      "wid": "src-0dbdb12cfacd2fdf",
+      "title": "Death of a Centerfold: The Dorothy Stratten Story",
+      "firstShotId": "VP-src-0dbdb12cfacd2fdf-01",
+      "scene": "身穿白色睡裙坐在床上的金发女子与床边跪地男子",
+      "actualPrompt": "Original cinematic bedroom two-shot, wide 16:9. A fictional adult blonde woman wearing a modest white nightdress sits upright on a bed while a fully dressed adult man kneels on the floor beside the bed, looking up at her. Quiet dramatic interaction, softly lit domestic furnishings, natural photographic textures. Preserve their positions; no sexual action, no violence, no real-person likeness, no lettering.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "e6b34931c94517117c17ba924d824888d1b34b02b7c4113c3cac3800167a2b37",
+      "preview": "film-ai/firstshot-20261126/src-0dbdb12cfacd2fdf.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/22922ba36b16370afa48df8ea9d1a44a95635548/originals/film-expand-firstshot-20261126/src-0dbdb12cfacd2fdf.png",
+        "bytes": 2163064,
+        "sha256": "f076f70e4b053c7aec65a25308435dad7f5f715bff84d28810d99c4b969a762e",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 42,
+      "wid": "src-0e6d45e3e7aa2ce2",
+      "title": "Mojave Moon",
+      "firstShotId": "VP-src-0e6d45e3e7aa2ce2-01",
+      "scene": "光线柔和的室内房间里，留着俏丽深色短发的年轻美女赤裸香肩侧身回眸，嘴角挂着神秘迷人的浅笑。",
+      "actualPrompt": "Original cinematic close portrait, wide 16:9. A fictional adult woman with a playful short dark haircut turns sideways to look back with a slight mysterious smile. She wears a modest strapless dress, with only face and upper shoulders framed. Soft interior window light and gently blurred room background, warm realistic skin texture, fresh original face rather than an actor likeness. No nudity, no text.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "3041f2f44eaffc121a69aefad54715f7f55a0e18682228c48426ce2525843012",
+      "preview": "film-ai/firstshot-20261126/src-0e6d45e3e7aa2ce2.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/22922ba36b16370afa48df8ea9d1a44a95635548/originals/film-expand-firstshot-20261126/src-0e6d45e3e7aa2ce2.png",
+        "bytes": 1878851,
+        "sha256": "76e7d82f9baddd6f54aac0697593810f2828bc388650b8dc63f60c4f544e6ec6",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 44,
+      "wid": "src-0fdfe3d60c6de008",
+      "title": "Love Field",
+      "firstShotId": "VP-src-0fdfe3d60c6de008-01",
+      "scene": "夜晚户外留着六十年代金色蓬松短发的家庭主妇卢琳（米歇尔·菲佛饰）俯身与黑人小女孩交谈的双人近景",
+      "actualPrompt": "Original cinematic outdoor night two-shot, wide 16:9. A fictional white adult housewife with a fluffy 1960s blonde bob hairstyle bends down to speak gently at eye level with a fully clothed young Black girl. Soft porch and street light in the night, period everyday clothes, warm empathetic conversation and close framing. Original faces, no real-person likenesses, no text or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "1cf198808df3e4b170599574535afe14c01902b3bc7ff827f82cd34ded2adfe2",
+      "preview": "film-ai/firstshot-20261126/src-0fdfe3d60c6de008.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/22922ba36b16370afa48df8ea9d1a44a95635548/originals/film-expand-firstshot-20261126/src-0fdfe3d60c6de008.png",
+        "bytes": 2322611,
+        "sha256": "40a110389fc5d7463f090242a2c43e1178923a689965aea53837e23d9accbf52",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 45,
+      "wid": "src-1016b4523649fdb3",
+      "title": "Royal Journey",
+      "firstShotId": "VP-src-1016b4523649fdb3-01",
+      "scene": "《皇室之旅》彩色纪实画面中年轻的英国伊丽莎白公主头戴红帽身穿红色大衣坐在敞篷礼宾车内微笑",
+      "actualPrompt": "Original color cinematic documentary-style image, wide 16:9. A fictional young adult royal woman wearing a red hat and red overcoat sits in an open-top ceremonial motorcar, smiling during a mid-twentieth-century royal procession. Modest period clothes, restrained vintage color, polite ceremonial atmosphere. The face must be an original fictional person, not any real monarch or public figure. No lettering or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "62ca0b4720f003b76cb0f5e9448e9ecc8230128472736138faecfc748133ce82",
+      "preview": "film-ai/firstshot-20261126/src-1016b4523649fdb3.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/22922ba36b16370afa48df8ea9d1a44a95635548/originals/film-expand-firstshot-20261126/src-1016b4523649fdb3.png",
+        "bytes": 2295704,
+        "sha256": "7697206447ae14c0e8d008e4ce48b7b5df1600f191c30e5ed1f1505fbc390e6e",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
+    },
+    {
+      "ordinal": 46,
+      "wid": "src-101c9aa8cd215ee9",
+      "title": "Un acro di terra",
+      "firstShotId": "VP-src-101c9aa8cd215ee9-01",
+      "scene": "黑白乡间木制汲水杆旁穿传统农家服饰的青年男女并肩站立的中景",
+      "actualPrompt": "Remove only the faint small geometric logo in the upper-right sky. Preserve the two peasants, their faces and clothes, the wooden well lever, countryside, monochrome lighting and full composition. Replace the logo with uninterrupted natural sky texture. No added text, symbols or watermark.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "578b466865836d119dbb94a388c5d3e8be4bcd0eed525928c35fb8104cbd4986",
+      "preview": "film-ai/firstshot-20261126/src-101c9aa8cd215ee9.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/22922ba36b16370afa48df8ea9d1a44a95635548/originals/film-expand-firstshot-20261126/src-101c9aa8cd215ee9.png",
+        "bytes": 2641868,
+        "sha256": "fa239f11fc626d0e67832591e58d506a40a10ae2ef806170284237a92b55817a",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen"
     }
   ]
 }
