@@ -15,6 +15,16 @@
         "sha256": "d13d7cb11bbac96fa7ad6dfc83773be7e0f6bc974631908eabc8a0a8468243d3"
       }
     ],
+    "1917-2019": [
+      {
+        "src": "film-ai/shots/YS-0041-01.webp",
+        "sha256": "60e07657f82c9eef18f57b6e141d16bf7ff4f07be309b00dfecbb6a9a21fc841"
+      },
+      {
+        "src": "film-ai/decks/film-1917-2019.webp",
+        "sha256": "45a918864409cfe64925f43cbf4ac9fed0ac969444ab6563637329be686fbfcb"
+      }
+    ],
     "aces-go-places-1982": [
       {
         "src": "film-ai/shots/YS-20261112-W2-aces-go-places-1982-06.webp",
@@ -73,6 +83,16 @@
       {
         "src": "film-ai/restored/barry-lyndon-1975.jpg",
         "sha256": "62352425873bdf4f7b1f458c88f6fbabfe1b06dc04898cc0905256c35946a396"
+      }
+    ],
+    "better-days-2019": [
+      {
+        "src": "film-ai/decks/film-better-days-2019.webp",
+        "sha256": "865abd6bac9e7571cd7df666b99c9052ee29fc55562174deb8e9bff5cc3746d1"
+      },
+      {
+        "src": "film-ai/better-days-2019.jpg",
+        "sha256": "e533963e47cc1c75ea8c2279445a85b95fed799adcc80583160f97ebf21af9bf"
       }
     ],
     "black-cat-detective-1984": [
@@ -175,6 +195,26 @@
       {
         "src": "film-ai/decks/film-dune-2021.webp",
         "sha256": "f26d9010820307bbf9bb1bd4e7174a608c0f508b936c2a8b2417d4c3741fa3e6"
+      }
+    ],
+    "dune-part-two-2024": [
+      {
+        "src": "film-ai/decks/film-dune-part-two-2024.webp",
+        "sha256": "18484a7ef0350227dea41400d2c7a4369706131e1f86208b8c9a6cf43116c8f1"
+      },
+      {
+        "src": "film-ai/restored/dune-part-two-2024.jpg",
+        "sha256": "d7c1a224fd1fe946bdcc89389c5f53faf1d48c834e9af70bea7de242b59f1490"
+      }
+    ],
+    "everything-everywhere-all-at-once-2022": [
+      {
+        "src": "film-ai/decks/film-everything-everywhere-all-at-once-2022.webp",
+        "sha256": "0893d8de81c424d4094d733f2632e0dd3f5db31ab410174675ef80a31c6e3590"
+      },
+      {
+        "src": "film-ai/restored/everything-everywhere-all-at-once-2022.jpg",
+        "sha256": "199df7a62bd7001fc5aa5be88f0235eca4bbbc130ff8fe74b3dd80b38ebae2f3"
       }
     ],
     "farewell-my-concubine-1993": [
@@ -389,6 +429,16 @@
         "sha256": "4b569925778937363513f9cd2732e9a2de7d2307739ddb35cfcb8e7135286901"
       }
     ],
+    "parasite-2019": [
+      {
+        "src": "film-ai/decks/film-parasite-2019.webp",
+        "sha256": "6aa0da0a0198ff7cac3e9ce687584d1cacaa88dd813960722f73f008a6f01409"
+      },
+      {
+        "src": "film-ai/restored/parasite-2019.jpg",
+        "sha256": "315d99c3ec35620c3de3df32b85aa74137b3b68dfeb6ba0e61e7d7481ab3320e"
+      }
+    ],
     "playtime-1967": [
       {
         "src": "film-ai/playtime-1967.jpg",
@@ -397,6 +447,16 @@
       {
         "src": "film-ai/decks/film-playtime-1967.webp",
         "sha256": "870c667daa92b883a06db67a5230b2e770f813f9a68bcbe7a4f64bcea3cb3196"
+      }
+    ],
+    "poor-things-2023": [
+      {
+        "src": "film-ai/decks/film-poor-things-2023.webp",
+        "sha256": "76085ef3a76b754d0c0c0c8fc05eea2b4a2f55b45303a6b0fb0756d0855cdf04"
+      },
+      {
+        "src": "film-ai/restored/poor-things-2023.jpg",
+        "sha256": "3b86ab9efe2a91681453a233320265128a61183eb6f413f0ff034ea986f629c8"
       }
     ],
     "portrait-of-a-lady-on-fire-2019": [
@@ -421,6 +481,46 @@
       {
         "src": "film-ai/restored/red-sorghum-1987.jpg",
         "sha256": "3d8b2ed9efa15757059d80657659be4bb4e9ad4ca858457f28389eb13f44716d"
+      }
+    ],
+    "schindlers-list-1993": [
+      {
+        "src": "film-ai/shots/YS-20261028-C15-schindlers-list-1993-11.webp",
+        "sha256": "fb084a7860ebe0074187788ae500241572b1d45136031dbfe2651ee3d5804ba4"
+      },
+      {
+        "src": "film-ai/schindlers-list-1993.jpg",
+        "sha256": "9a7ebe69ebbedfb4b46fdf1800e4883bd7aa101b13959aa3cbacb214db3a32f0"
+      }
+    ],
+    "spirited-away-2001": [
+      {
+        "src": "film-ai/decks/film-spirited-away-2001.webp",
+        "sha256": "2a2a7ac9b3561987de6f90b093566354ad275302ce405b274439bcd21f8c53dc"
+      },
+      {
+        "src": "film-ai/restored/spirited-away-2001.jpg",
+        "sha256": "f2f9344c7ce338083464ec766bd1b9b7b0473fbc4f7731b1c0e9b8eeb160295c"
+      }
+    ],
+    "the-godfather-1972": [
+      {
+        "src": "film-ai/decks/film-the-godfather-1972.webp",
+        "sha256": "4af023b720cafc30f2c79e51cd59b27dcd262d260be3467273d3c9aa4885f9bc"
+      },
+      {
+        "src": "film-ai/restored/the-godfather-1972.jpg",
+        "sha256": "5a320c77fad0281f5a9f0e5ca19232463e2a91c41fff6a57893db22314d95f61"
+      }
+    ],
+    "the-grandmaster-2013": [
+      {
+        "src": "film-ai/shots/YS-20261103-CW112-the-grandmaster-2013-105.webp",
+        "sha256": "7fb0a3b88b2373da2103798fc5c842f1d51082685be75ab2e999896e276cbd4d"
+      },
+      {
+        "src": "film-ai/restored/the-grandmaster-2013.jpg",
+        "sha256": "213544470a39fac0bd8e8c01b10ec0d2a6bce0eb4c600db5bd5819a3a3d080aa"
       }
     ]
   }
