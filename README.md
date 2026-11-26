@@ -42,3 +42,5 @@
 
 
 - [砼核巨构 Concretecore Megastructure（1,000 Midjourney 美学提示词）](concretecore.html)
+
+- [中国古代复杂工具机器特辑（100 件史籍考古机械 × 1,000 提示词）](machines.html)

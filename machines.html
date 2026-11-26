@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<script>(function(){var H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3';var k='jt_gate';function getSaved(){try{if(location.hostname==='127.0.0.1'||location.hostname==='localhost'||location.protocol==='file:')return true;}catch(e){}try{if(localStorage.getItem(k)===H)return true;}catch(e){}try{if(sessionStorage.getItem(k)===H)return true;}catch(e){}return false;}function saveOk(){try{localStorage.setItem(k,H);}catch(e){}try{sessionStorage.setItem(k,H);}catch(e){}}if(getSaved()){document.documentElement.setAttribute('data-jt-ok','1');return;}var st=document.createElement('style');st.id='jt_gate_css';st.textContent='html:not([data-jt-ok="1"]) body{display:none!important}';document.documentElement.appendChild(st);document.documentElement.style.visibility='hidden';function shaPure(ascii){function rr(v,a){return(v>>>a)|(v<<(32-a));}var bytes=[],i,j;if(typeof TextEncoder!=='undefined'){bytes=Array.from(new TextEncoder().encode(ascii));}else{for(i=0;i<ascii.length;i++){var c=ascii.charCodeAt(i);if(c<128)bytes.push(c);else if(c<2048)bytes.push(192|(c>>6),128|(c&63));else bytes.push(224|(c>>12),128|((c>>6)&63),128|(c&63));}}var bitLen=bytes.length*8;bytes.push(0x80);while((bytes.length%64)!==56)bytes.push(0);var hi=Math.floor(bitLen/4294967296),lo=bitLen>>>0;bytes.push((hi>>>24)&255,(hi>>>16)&255,(hi>>>8)&255,hi&255,(lo>>>24)&255,(lo>>>16)&255,(lo>>>8)&255,lo&255);var K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];var H0=[0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];for(i=0;i<bytes.length;i+=64){var W=new Array(64);for(j=0;j<16;j++)W[j]=((bytes[i+j*4]<<24)|(bytes[i+j*4+1]<<16)|(bytes[i+j*4+2]<<8)|bytes[i+j*4+3])>>>0;for(j=16;j<64;j++){var s0=rr(W[j-15],7)^rr(W[j-15],18)^(W[j-15]>>>3);var s1=rr(W[j-2],17)^rr(W[j-2],19)^(W[j-2]>>>10);W[j]=(W[j-16]+s0+W[j-7]+s1)>>>0;}var a=H0[0],b=H0[1],c=H0[2],d=H0[3],e=H0[4],f=H0[5],g=H0[6],h=H0[7];for(j=0;j<64;j++){var S1=rr(e,6)^rr(e,11)^rr(e,25),ch=(e&f)^((~e)&g),t1=(h+S1+ch+K[j]+W[j])>>>0;var S0=rr(a,2)^rr(a,13)^rr(a,22),maj=(a&b)^(a&c)^(b&c),t2=(S0+maj)>>>0;h=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=b;b=a;a=(t1+t2)>>>0;}H0[0]=(H0[0]+a)>>>0;H0[1]=(H0[1]+b)>>>0;H0[2]=(H0[2]+c)>>>0;H0[3]=(H0[3]+d)>>>0;H0[4]=(H0[4]+e)>>>0;H0[5]=(H0[5]+f)>>>0;H0[6]=(H0[6]+g)>>>0;H0[7]=(H0[7]+h)>>>0;}return H0.map(function(x){return('00000000'+x.toString(16)).slice(-8);}).join('');}async function sha(s){try{if(window.crypto&&crypto.subtle&&typeof TextEncoder!=='undefined'){var b=new TextEncoder().encode(s);var d=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(d)).map(function(x){return x.toString(16).padStart(2,'0');}).join('');}}catch(e){}return shaPure(s);}function lockDom(){window.__MC_SHARD__=window.applyFilters=function(){};if(!document.body){var b=document.createElement('body');document.documentElement.appendChild(b);}document.body.innerHTML='<div class="jt-lock"><div class="jt-lock-title">中国历史文化图库古代复杂工具机器特辑</div><div class="jt-lock-sub">请输入内部访问口令进入专集（跨站已验证免重复输入）</div><div class="jt-lock-form"><input id="jt_pw_box" class="search-input" type="password" placeholder="请输入访问口令"><button id="jt_pw_btn" class="btn primary" type="button">验证进入</button></div><div id="jt_pw_err" class="jt-lock-err"></div></div>';document.documentElement.setAttribute('data-jt-ok','1');document.documentElement.style.visibility='visible';var inp=document.getElementById('jt_pw_box'),btn=document.getElementById('jt_pw_btn'),err=document.getElementById('jt_pw_err');async function tryIn(){var v=(inp.value||'').trim();if(!v){err.textContent='请输入访问口令';return;}var h=await sha(v);if(h===H){saveOk();location.reload();}else{err.textContent='口令不正确';inp.value='';inp.focus();}}if(btn)btn.onclick=tryIn;if(inp){inp.onkeydown=function(e){if(e.key==='Enter')tryIn();};}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',lockDom,{once:true});}else{lockDom();}})();</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="中国古代复杂工具与机械特辑：100件史籍与考古实证机械、运动链工程拆解及1,000条十二段中文IMAGE 2提示词。">
+<title>中国古代复杂工具机器特辑 1000 提示词工作台</title>
+<style>/* Hallmark · ancient-machines-codex | floor | sloplint-clean */
+:root {
+  --bg: #f4efe6;
+  --surface: #fbf8f2;
+  --surface-muted: #ebe3d5;
+  --ink: #1b2526;
+  --muted: #4b5754;
+  --line: #cfc4b2;
+  --accent: #8c2d19;
+  --accent-ink: #fbf8f2;
+  --tag-bg: #e5ded0;
+  --tag-ink: #243534;
+  --kin-bg: #e9efe9;
+  --kin-ink: #1e3d35;
+  --code-bg: #efe8da;
+  --backdrop: rgba(27, 37, 38, 0.62);
+  --err: #8a1c1c;
+  --font-sans: "Microsoft YaHei", "PingFang SC", "Noto Sans SC", sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 1.65;
+}
+a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+button, input { font-family: var(--font-sans); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1360px; margin: 0 auto; padding: 20px 24px 48px; }
+.topbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+.brand { font-size: 18px; font-weight: 700; color: var(--ink); }
+.nav-links { display: flex; flex-wrap: wrap; gap: 16px; font-size: 16px; }
+.hero { padding: 24px 0 20px; border-bottom: 2px solid var(--ink); }
+.hero h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+  line-height: 1.25;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+  min-width: 0;
+}
+.hero-lead { margin: 0 0 16px; color: var(--muted); font-size: 18px; max-width: 1020px; }
+.search-bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.search-input {
+  flex: 1;
+  min-width: 260px;
+  padding: 12px 16px;
+  font-size: 18px;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+.btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1.5px solid var(--accent);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+}
+.btn.primary { background: var(--accent); color: var(--accent-ink); }
+.btn:active, .chip:active { transform: translateY(1px); }
+.btn:disabled, .chip:disabled { opacity: 0.45; cursor: not-allowed; }
+.controls { padding: 16px 0; border-bottom: 1px solid var(--line); display: flex; flex-direction: column; gap: 12px; }
+.filter-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.filter-label { font-size: 15px; font-weight: 700; color: var(--muted); min-width: 84px; }
+.chip {
+  padding: 8px 12px;
+  font-size: 15px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+}
+.chip.on { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); font-weight: 700; }
+.manifesto {
+  margin: 16px 0 8px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px 16px;
+}
+.manifesto summary { cursor: pointer; font-weight: 700; font-size: 17px; color: var(--ink); }
+.manifesto-body { margin-top: 12px; color: var(--muted); font-size: 16px; }
+.status-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 0;
+  font-size: 16px;
+  color: var(--muted);
+}
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.item {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.item-head { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.badge {
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: var(--tag-bg);
+  color: var(--tag-ink);
+  font-weight: 700;
+}
+.item h2 {
+  margin: 0;
+  font-size: 22px;
+  line-height: 1.35;
+  text-wrap: balance;
+  color: var(--ink);
+  overflow-wrap: break-word;
+  min-width: 0;
+}
+.source-line { font-size: 15.5px; color: var(--muted); margin: 0; }
+.kin-line {
+  margin: 0;
+  padding: 12px 16px;
+  background: var(--kin-bg);
+  color: var(--kin-ink);
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 1.55;
+}
+.prompt-preview {
+  margin: 0;
+  padding: 12px 16px;
+  background: var(--code-bg);
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--ink);
+}
+.card-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: auto; padding-top: 4px; }
+.pager { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; padding: 24px 0 8px; }
+dialog.codex-dlg {
+  max-width: 920px;
+  width: calc(100% - 32px);
+  max-height: 88vh;
+  border: 2px solid var(--ink);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  padding: 0;
+}
+dialog.codex-dlg::backdrop { background: var(--backdrop); }
+.dlg-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px 24px;
+  border-bottom: 1px solid var(--line);
+  background: var(--surface-muted);
+}
+.dlg-head h2 { margin: 0; font-size: 24px; line-height: 1.3; }
+.dlg-body { padding: 20px 24px; overflow-y: auto; max-height: calc(88vh - 140px); display: flex; flex-direction: column; gap: 12px; }
+.dlg-meta { font-size: 16.5px; color: var(--muted); margin: 0; }
+.dlg-prompt {
+  margin: 0;
+  padding: 16px 20px;
+  background: var(--code-bg);
+  border-radius: 6px;
+  font-size: 18.5px;
+  line-height: 1.72;
+  color: var(--ink);
+  white-space: pre-wrap;
+}
+.dlg-foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px 24px 20px;
+  border-top: 1px solid var(--line);
+  background: var(--surface-muted);
+}
+.jt-lock {
+  max-width: 640px;
+  margin: 48px auto;
+  padding: 36px 24px;
+  background: var(--surface);
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  text-align: center;
+}
+.jt-lock-title { font-size: 24px; font-weight: 700; color: var(--ink); margin-bottom: 8px; }
+.jt-lock-sub { font-size: 16px; color: var(--muted); margin-bottom: 20px; }
+.jt-lock-form { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.jt-lock-err { font-size: 15px; color: var(--err); min-height: 24px; margin-top: 12px; }
+@media (max-width: 900px) {
+  .grid { grid-template-columns: minmax(0, 1fr); }
+  .hero h1 { font-size: 25px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="topbar">
+    <span class="brand">中国历史文化图库专题分馆</span>
+    <nav class="nav-links" aria-label="站点导航">
+      <a href="portal.html">专题门户首页</a>
+      <a href="index.html">全库总检索</a>
+      <a href="arch5680.html">历代建筑考证</a>
+      <a href="dynasty2000.html">科技与国宝专集</a>
+      <a href="更新记录.html">全站更新记录</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>中国古代复杂工具机器特辑（100 件机械与 1,000 提示词）</h1>
+    <p class="hero-lead">上承《考工记》《天工开物》《王祯农书》《新仪象法要》及考古实物实证，系统拆解十大门类一百件古代复杂机械的动力传动链条、榫卯材质工艺与十机位影视分镜提示词。</p>
+    <div class="search-bar">
+      <label for="qInput" class="filter-label">关键词检索</label>
+      <input id="qInput" class="search-input" type="search" placeholder="检索机具名、发明家、典籍、构件或编码（如：水运仪象台、老官山、指南车、擒纵、MC-01）">
+      <button id="randBtn" class="btn primary" type="button">随机灵感抽签</button>
+      <button id="exportBtn" class="btn" type="button">导出当前筛选文本</button>
+    </div>
+  </section>
+
+  <section class="controls" aria-label="机械工程多维筛选控制台">
+    <div class="filter-row" id="pillarRow">
+      <span class="filter-label">十大门类</span>
+      <button type="button" class="chip on" data-pillar="">全部十大门类 (1000)</button>
+      <button type="button" class="chip" data-pillar="MC-01">MC-01 天文历法与精密计时 (100)</button><button type="button" class="chip" data-pillar="MC-02">MC-02 水力动力与冶金鼓风 (100)</button><button type="button" class="chip" data-pillar="MC-03">MC-03 农耕精播与水利枢纽 (100)</button><button type="button" class="chip" data-pillar="MC-04">MC-04 纺织提花与印染机械 (100)</button><button type="button" class="chip" data-pillar="MC-05">MC-05 攻守军械与火器机关 (100)</button><button type="button" class="chip" data-pillar="MC-06">MC-06 舟车导航与陆海运载 (100)</button><button type="button" class="chip" data-pillar="MC-07">MC-07 井盐采矿与化工蒸馏 (100)</button><button type="button" class="chip" data-pillar="MC-08">MC-08 印刷活字与文房巧作 (100)</button><button type="button" class="chip" data-pillar="MC-09">MC-09 宫廷土木营造与起重机关 (100)</button><button type="button" class="chip" data-pillar="MC-10">MC-10 机关杂技光学与精密微机械 (100)</button>
+    </div>
+    <div class="filter-row" id="eraRow">
+      <span class="filter-label">历史断代</span>
+      <button type="button" class="chip on" data-era="">全部朝代</button>
+      <button type="button" class="chip" data-era="先秦秦汉">先秦秦汉</button><button type="button" class="chip" data-era="魏晋隋唐">魏晋隋唐</button><button type="button" class="chip" data-era="宋元">宋元</button><button type="button" class="chip" data-era="明清">明清</button>
+    </div>
+    <div class="filter-row" id="powerRow">
+      <span class="filter-label">动力机制</span>
+      <button type="button" class="chip on" data-power="">全部动力源</button>
+      <button type="button" class="chip" data-power="水力驱动">水力驱动</button><button type="button" class="chip" data-power="人力脚踏手摇">人力脚踏手摇</button><button type="button" class="chip" data-power="畜力牵引">畜力牵引</button><button type="button" class="chip" data-power="重力配重与弹性蓄能">重力配重与弹性蓄能</button><button type="button" class="chip" data-power="风力与热气流">风力与热气流</button><button type="button" class="chip" data-power="自然物理与精密手动">自然物理与精密手动</button>
+    </div>
+    <div class="filter-row" id="viewRow">
+      <span class="filter-label">镜头用途</span>
+      <button type="button" class="chip on" data-view="">全部十种机位</button>
+      <button type="button" class="chip" data-view="V01">V01 工坊运转全景</button><button type="button" class="chip" data-view="V02">V02 核心传动微距</button><button type="button" class="chip" data-view="V03">V03 动力耦合中景</button><button type="button" class="chip" data-view="V04">V04 匠师实操特写</button><button type="button" class="chip" data-view="V05">V05 工程剖面透视</button><button type="button" class="chip" data-view="V06">V06 材质榫卯工艺</button><button type="button" class="chip" data-view="V07">V07 夜班灯火赶工</button><button type="button" class="chip" data-view="V08">V08 官署监造验收</button><button type="button" class="chip" data-view="V09">V09 历史现场应用</button><button type="button" class="chip" data-view="V10">V10 博物馆考据定妆</button>
+    </div>
+  </section>
+
+  <details class="manifesto">
+    <summary>展开《古代复杂工具机器特辑》机械工程考证方法与十二段正向编写准则</summary>
+    <div class="manifesto-body">
+      <p>1. 一手典籍与出土实物双重互证：全辑收录自战国至明清的一百件高复杂度古代机械装置，逐件标明苏颂《新仪象法要》、宋应星《天工开物》、王祯《农书》、曾公亮《武经总要》以及老官山汉墓、满城汉墓、铜绿山、自贡燊海井等考古遗存依据。</p>
+      <p>2. 完整运动链拆解：每件机具均明确列出动力源头至传动机构再到末端执行机构的物理传动链，辅助概念设计与三维预演还原真实受力关系。</p>
+      <p>3. 十二段纯正向中文构词：每条提示词涵盖构图视角、主体机械结构、动力传动链条、材质榫卯工艺、人物工位动作、历史空间环境、光线色温层次、动态痕迹媒介、光学镜头景深、胶片色彩科学、典籍考古依据与视觉用途基准，并与主库全文检索实时联动。</p>
+    </div>
+  </details>
+
+  <div class="status-bar">
+    <span id="statusTxt">正在载入 1,000 条古代复杂机械提示词</span>
+    <span id="pageInfo">第 1 页</span>
+  </div>
+
+  <main id="listGrid" class="grid"></main>
+  <nav id="pagerBar" class="pager" aria-label="分页导航"></nav>
+  <noscript><p>请启用浏览器脚本以交互检索 1,000 条古代复杂机械提示词，或访问<a href="每日更新/每日成果/20261126/古代复杂工具机器特辑/index.html">静态大字交付总览</a>。</p></noscript>
+</div>
+
+<dialog id="detailDlg" class="codex-dlg" aria-labelledby="dlgTitle">
+  <div class="dlg-head">
+    <div>
+      <h2 id="dlgTitle"></h2>
+      <p id="dlgBadges" class="dlg-meta"></p>
+    </div>
+    <button id="dlgClose" type="button" class="btn">关闭详情</button>
+  </div>
+  <div class="dlg-body">
+    <p id="dlgSource" class="dlg-meta"></p>
+    <p id="dlgKin" class="kin-line"></p>
+    <p id="dlgMat" class="dlg-meta"></p>
+    <p id="dlgWf" class="dlg-meta"></p>
+    <p id="dlgEnv" class="dlg-meta"></p>
+    <p id="dlgPrompt" class="dlg-prompt"></p>
+  </div>
+  <div class="dlg-foot">
+    <button id="dlgCopy" type="button" class="btn primary">复制完整十二段提示词</button>
+    <a id="dlgLibLink" class="btn" href="index.html">跳转主库检索关联词条</a>
+  </div>
+</dialog>
+
+<script src="machines_data/manifest.js"></script>
+<script>
+const ITEMS = [];
+window.__MC_SHARDS__ = window.__MC_SHARDS__ || {};
+window.__MC_SHARD__ = function(code, rows) {
+  if (Array.isArray(rows)) window.__MC_SHARDS__[code] = rows;
+};
+let state = { q: '', pillar: '', era: '', power: '', view: '', page: 1, pageSize: 24 };
+let filtered = [];
+let activeItem = null;
+
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function copyText(txt, btn, okLabel) {
+  navigator.clipboard.writeText(txt).then(() => {
+    const old = btn.textContent;
+    btn.textContent = okLabel;
+    setTimeout(() => { btn.textContent = old; }, 1500);
+  });
+}
+
+function openDetail(item) {
+  activeItem = item;
+  const dlg = document.getElementById('detailDlg');
+  document.getElementById('dlgTitle').textContent = `${item.i} ${item.mn}`;
+  document.getElementById('dlgBadges').textContent = `${item.pn} | ${item.dy} | ${item.pw} | ${item.vn}`;
+  document.getElementById('dlgSource').textContent = `典籍与考古依据：${item.sr}`;
+  document.getElementById('dlgKin').textContent = `运动链条：${item.kn}`;
+  document.getElementById('dlgMat').textContent = `材质与榫卯工艺：${item.mt}`;
+  document.getElementById('dlgWf').textContent = `匠师工位协同：${item.wf}`;
+  document.getElementById('dlgEnv').textContent = `历史空间环境：${item.ev}`;
+  document.getElementById('dlgPrompt').textContent = item.pr;
+  document.getElementById('dlgLibLink').href = 'index.html?q=' + encodeURIComponent(item.sq);
+  if (typeof dlg.showModal === 'function') dlg.showModal();
+  else dlg.setAttribute('open', 'open');
+}
+
+function closeDetail() {
+  const dlg = document.getElementById('detailDlg');
+  if (typeof dlg.close === 'function') dlg.close();
+  else dlg.removeAttribute('open');
+}
+
+function applyFilters(resetPage) {
+  if (resetPage !== false) state.page = 1;
+  const kw = state.q.trim().toLowerCase();
+  filtered = ITEMS.filter(x => {
+    if (state.pillar && x.pc !== state.pillar) return false;
+    if (state.era && x.er !== state.era) return false;
+    if (state.power && x.pw !== state.power) return false;
+    if (state.view && x.vc !== state.view) return false;
+    if (kw) {
+      if (!x._q) x._q = (x.i + ' ' + x.mn + ' ' + x.pn + ' ' + x.dy + ' ' + x.pw + ' ' + x.sr + ' ' + x.kn + ' ' + x.mt + ' ' + x.pr).toLowerCase();
+      if (!x._q.includes(kw)) return false;
+    }
+    return true;
+  });
+  render();
+}
+
+function render() {
+  const total = filtered.length;
+  const pages = Math.max(1, Math.ceil(total / state.pageSize));
+  if (state.page > pages) state.page = pages;
+  const start = (state.page - 1) * state.pageSize;
+  const slice = filtered.slice(start, start + state.pageSize);
+  document.getElementById('statusTxt').textContent = `当前匹配 ${total} 条古代复杂机械提示词（已加载 ${ITEMS.length} 条）`;
+  document.getElementById('pageInfo').textContent = `第 ${state.page} / ${pages} 页`;
+
+  const grid = document.getElementById('listGrid');
+  grid.innerHTML = slice.map(x => {
+    const preview = x.pr.length > 220 ? x.pr.slice(0, 220) + '……' : x.pr;
+    const libHref = 'index.html?q=' + encodeURIComponent(x.sq);
+    return `<article class="item" data-id="${esc(x.i)}">
+      <div class="item-head">
+        <span class="badge">${esc(x.i)}</span>
+        <span class="badge">${esc(x.pn)}</span>
+        <span class="badge">${esc(x.dy)}</span>
+        <span class="badge">${esc(x.pw)}</span>
+        <span class="badge">${esc(x.vn)}</span>
+      </div>
+      <h2>${esc(x.mn)}</h2>
+      <p class="source-line">出处：${esc(x.sr)}</p>
+      <p class="kin-line">传动链条：${esc(x.kn)}</p>
+      <p class="prompt-preview">${esc(preview)}</p>
+      <div class="card-actions">
+        <button type="button" class="btn primary view-btn" data-id="${esc(x.i)}">查看完整十二段</button>
+        <button type="button" class="btn copy-btn" data-id="${esc(x.i)}">复制提示词</button>
+        <a class="btn" href="${esc(libHref)}">主库检索关联词条</a>
+      </div>
+    </article>`;
+  }).join('');
+
+  grid.querySelectorAll('.view-btn').forEach(btn => {
+    btn.onclick = () => {
+      const rec = ITEMS.find(r => r.i === btn.dataset.id);
+      if (rec) openDetail(rec);
+    };
+  });
+  grid.querySelectorAll('.copy-btn').forEach(btn => {
+    btn.onclick = () => {
+      const rec = ITEMS.find(r => r.i === btn.dataset.id);
+      if (rec) copyText(rec.pr, btn, '已复制提示词');
+    };
+  });
+
+  const pb = document.getElementById('pagerBar');
+  const btns = [];
+  if (state.page > 1) btns.push(`<button type="button" class="chip" data-pg="${state.page - 1}">上一页</button>`);
+  const lo = Math.max(1, state.page - 3), hi = Math.min(pages, state.page + 3);
+  for (let p = lo; p <= hi; p++) {
+    btns.push(`<button type="button" class="chip ${p === state.page ? 'on' : ''}" data-pg="${p}">${p}</button>`);
+  }
+  if (state.page < pages) btns.push(`<button type="button" class="chip" data-pg="${state.page + 1}">下一页</button>`);
+  pb.innerHTML = btns.join('');
+  pb.querySelectorAll('button').forEach(b => {
+    b.onclick = () => { state.page = Number(b.dataset.pg); render(); window.scrollTo({ top: 0, behavior: 'auto' }); };
+  });
+}
+
+function bindGroup(rowId, key, attr) {
+  document.getElementById(rowId).addEventListener('click', e => {
+    const b = e.target.closest('button');
+    if (!b) return;
+    document.querySelectorAll(`#${rowId} button`).forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+    state[key] = b.dataset[attr] || '';
+    applyFilters(true);
+  });
+}
+bindGroup('pillarRow', 'pillar', 'pillar');
+bindGroup('eraRow', 'era', 'era');
+bindGroup('powerRow', 'power', 'power');
+bindGroup('viewRow', 'view', 'view');
+
+document.getElementById('qInput').addEventListener('input', e => {
+  state.q = e.target.value;
+  applyFilters(true);
+});
+document.addEventListener('keydown', e => {
+  if ((e.key === '/' || ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k')) && document.activeElement !== document.getElementById('qInput')) {
+    e.preventDefault();
+    document.getElementById('qInput').focus();
+  }
+});
+document.getElementById('randBtn').onclick = () => {
+  if (!filtered.length) return;
+  const pick = filtered[Math.floor(Math.random() * filtered.length)];
+  document.getElementById('qInput').value = pick.i;
+  state.q = pick.i;
+  applyFilters(true);
+};
+document.getElementById('exportBtn').onclick = () => {
+  const lines = filtered.map(x => `[${x.i}] ${x.mn}（${x.dy}｜${x.vn}）\n${x.pr}\n`).join('\n');
+  const blob = new Blob([lines], { type: 'text/plain;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `ancient_machines_${filtered.length}.txt`;
+  a.click();
+};
+document.getElementById('dlgClose').onclick = closeDetail;
+document.getElementById('dlgCopy').onclick = () => {
+  if (activeItem) copyText(activeItem.pr, document.getElementById('dlgCopy'), '已复制全部十二段');
+};
+document.getElementById('detailDlg').addEventListener('click', e => {
+  if (e.target === document.getElementById('detailDlg')) closeDetail();
+});
+
+function loadShard(file) {
+  return new Promise(resolve => {
+    const s = document.createElement('script');
+    s.src = 'machines_data/' + file;
+    s.onload = () => resolve(true);
+    s.onerror = () => resolve(false);
+    document.head.appendChild(s);
+  });
+}
+
+(async function hydrate() {
+  const mf = window.MC_MANIFEST;
+  if (!mf || !Array.isArray(mf.shards)) return;
+  for (const sh of mf.shards) {
+    await loadShard(sh.file);
+    const rows = window.__MC_SHARDS__[sh.code] || [];
+    for (const r of rows) ITEMS.push(r);
+    if (ITEMS.length === 100 || ITEMS.length === mf.total) applyFilters(false);
+  }
+})();
+</script>
+</body>
+</html>
