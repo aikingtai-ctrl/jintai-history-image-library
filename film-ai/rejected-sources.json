@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T22:34:42.013933+08:00",
+  "updated_at": "2026-11-26T23:28:27.286110+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -758,6 +758,90 @@
       "sha256": "87a558f4e26ac49ba64a8b0ce1bf2fbce3128f957eddf9fd43d33949cbaf935d",
       "reason": "牛仔布标签式拼贴上覆巨大《棉花》片名字样及产业链英文，属于宣传海报/标题图。",
       "evidence": "第二十一批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "days-2020",
+      "src": "film-ai/days-2020.jpg",
+      "sha256": "813c02bf63bac0da755d58ad6f5a2e1964223adea6118d2e09ff8ed2ec58eb30",
+      "reason": "画面为西方男子与女子浪漫对视，与柏林片目所述 Kang、Non 两名男子的核心关系冲突。",
+      "evidence": "第二十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "deep-red-1975",
+      "src": "film-ai/decks/film-deep-red-1975.webp",
+      "sha256": "3ea54244e13f55f6383ceba362989f15ceef3355add921e3eace0bdba268202a",
+      "reason": "图中明显是芭蕾把杆前独奏大提琴手；主角是钢琴家且片目中的核心地点为凶案公寓，呈另一部舞蹈/音乐片的设定。",
+      "evidence": "第二十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "deep-red-1975",
+      "src": "film-ai/deep-red-1975.jpg",
+      "sha256": "faf0a624b0fc79e0174febe82d6bd9cc52ad49b950111bc44b5eff03fafabf88",
+      "reason": "白面妆、黑帽、白条纹西装男子没有可核对为 Marcus、记者或凶手的角色/情节锚点；不能凭红布景推定是《深红》。",
+      "evidence": "第二十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "delicatessen-1991",
+      "src": "film-ai/delicatessen-1991.jpg",
+      "sha256": "fa9c568e0b59f205d517b6bddb49268ae4d3c6f971e07aa1863d10d9a33f5eda",
+      "reason": "亚洲文字招贴与东亚面貌屠夫、菜刀构成东亚旧街食肆，和法国片地点及 Dreyfus 所饰屠夫明显不符。",
+      "evidence": "第二十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "dersu-uzala-1975",
+      "src": "film-ai/dersu-uzala-1975.jpg",
+      "sha256": "5175c441d6ed3aa4e32f10cf1eb9174595d322a064cdd73f5f0a86990e833bf0",
+      "reason": "纯红色血管/纤维状抽象影像，没有人物、野地或情节，是非场景装饰图。",
+      "evidence": "第二十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "devils-on-the-doorstep-2000",
+      "src": "film-ai/devils-on-the-doorstep-2000.jpg",
+      "sha256": "bcfa2172349926c576df1beee5972322155df9da38171d03ef45cfaf0199b826",
+      "reason": "现代背包女子独自站在长城景区，地点、人物、时代均与抗战村庄和被俘日军主线不符。",
+      "evidence": "第二十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "die-hard-1988",
+      "src": "film-ai/die-hard-1988.jpg",
+      "sha256": "57806c7b8d5b0427ad37dc7c28092af8d8def425b77f5c28013f2f4e5b4814b1",
+      "reason": "雨夜车内是东亚年轻乘客与戴墨镜的中年男司机，人物组合和 AFI 记载的 McClane 与 Argyle 接机桥段不合。",
+      "evidence": "第二十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "dil-se-1998",
+      "src": "film-ai/dil-se-1998.jpg",
+      "sha256": "5114d851960c72103ea148c93141cd37fa19735ff91d4d148f07964c8e93b271",
+      "reason": "欧式室内和欧洲面貌的古典服饰女子，与 1998 年当代印度政治爱情片及主演造型明显不符。",
+      "evidence": "第二十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "dirty-harry-1971",
+      "src": "film-ai/dirty-harry-1971.jpg",
+      "sha256": "ec972507f7b07464a46bb56633037470165f375b0337152f9bfdba976e7b5e91",
+      "reason": "Clint Eastwood 旁有摄影机、摄影师、灯具与工作人员，是片场幕后照，不是剧情场景。",
+      "evidence": "第二十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "do-the-right-thing-1989",
+      "src": "film-ai/do-the-right-thing-1989.jpg",
+      "sha256": "4bf2913ea9f770be3c8c1ec6baa13c1befc08e02ce0d3924f389fb8800d7a790",
+      "reason": "02 年轻东亚男子坐在中式肖像墙餐馆，与影片布鲁克林 Sal 意大利比萨店/韩国杂货店的人物和布景都不符，判串片。",
+      "evidence": "第二十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "double-vision-2002",
+      "src": "film-ai/double-vision-2002.jpg",
+      "sha256": "5d87e5239f07dc3e7f2bcfd5f7f7982410abfdab658748e486d7dbff98e2a361",
+      "reason": "02 巨大阴阳眼悬于两名探员头上，属于拼贴宣传/概念图，不是独立情境剧照。",
+      "evidence": "第二十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "dr-no-1962",
+      "src": "film-ai/dr-no-1962.jpg",
+      "sha256": "931fd8b79b04ce0d36d403b5c81eadc2b7116cd4e25c0d7aef696130bbe0cf67",
+      "reason": "02 现代东亚男子在办公室打电话，与 1962 版 Sean Connery 饰 Bond 的牙买加任务、角色阵容不符，判串片。",
+      "evidence": "第二十四批30部两路径电影/逐图建议与联系表"
     }
   ]
 }

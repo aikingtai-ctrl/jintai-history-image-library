@@ -2953,6 +2953,56 @@
         "sha256": "0939d77a3fcd51a173e9b8d3b452a6bb162c3997be17302a536c5c77bb4feac9"
       }
     ],
+    "dead-poets-society-1989": [
+      {
+        "src": "film-ai/decks/film-dead-poets-society-1989.webp",
+        "sha256": "cda411bfd85e9d4bbd7d206823758195481973083c3bd0cde0f21dc4f5424618"
+      },
+      {
+        "src": "film-ai/dead-poets-society-1989.jpg",
+        "sha256": "e1b16799fa0566dcf1e69db682402816aab2970bbc473f5f04007ba0e1dfb633"
+      }
+    ],
+    "dead-ringers-1988": [
+      {
+        "src": "film-ai/decks/film-dead-ringers-1988.webp",
+        "sha256": "4ebacb956c81559695755e00f4fbfbe6fb89b54e485b3877ba7b1b6a7d7912ba"
+      },
+      {
+        "src": "film-ai/dead-ringers-1988.jpg",
+        "sha256": "b662fbcfd1ed563e68dc29750c220bc166f54d3668b6c8d7d53e9621f34f9dd4"
+      }
+    ],
+    "dear-ex-2018": [
+      {
+        "src": "film-ai/decks/film-dear-ex-2018.webp",
+        "sha256": "1e448e0bdf0a2f666322836e987971401f50e754c9b7cc0c37fbb33bf8f5d5bb"
+      },
+      {
+        "src": "film-ai/dear-ex-2018.jpg",
+        "sha256": "dd162b8ff3c340d3297776c38f6d4dd0f66a1e9bfa5578993db8bab21b207e93"
+      }
+    ],
+    "dearest-2014": [
+      {
+        "src": "film-ai/decks/film-dearest-2014.webp",
+        "sha256": "a294e25dcb77680dcf0d95649631afb0b1e8e1522c9c689ef9aa5489cf312a8e"
+      },
+      {
+        "src": "film-ai/dearest-2014.jpg",
+        "sha256": "44da3aa5167cbaaf1f0e4e42cb56299f1b8c9fc29df03edc3d2d20687629990e"
+      }
+    ],
+    "death-by-hanging-1968": [
+      {
+        "src": "film-ai/decks/film-death-by-hanging-1968.webp",
+        "sha256": "fddb7551b3e6755243a870bc34875392d0b753975bdb647e9f3445cf828adae3"
+      },
+      {
+        "src": "film-ai/death-by-hanging-1968.jpg",
+        "sha256": "3c08e52c0c81bdb6954bc602d5721ea5f60868c7fccc8473f600df7b07a49469"
+      }
+    ],
     "death-in-venice-1971": [
       {
         "src": "film-ai/shots/YS-20261109-2300-death-in-venice-1971-06.webp",
@@ -2965,6 +3015,176 @@
       {
         "src": "film-ai/death-in-venice-1971.jpg",
         "sha256": "5b17613cfca8d2d6b6b2ccb49da4b9244ab3be32f38870644d368b90108a70e3"
+      }
+    ],
+    "death-of-a-cyclist-1955": [
+      {
+        "src": "film-ai/decks/film-death-of-a-cyclist-1955.webp",
+        "sha256": "d76082768fe468f78fd54f7a0ba073ce9eeb48eace11c7885b4cca241352e50c"
+      },
+      {
+        "src": "film-ai/death-of-a-cyclist-1955.jpg",
+        "sha256": "e321a42ed489a6d977503d596ace427b33f8496307c79e1cb63a9e78b796f08f"
+      }
+    ],
+    "decision-to-leave-2022": [
+      {
+        "src": "film-ai/decks/film-decision-to-leave-2022.webp",
+        "sha256": "e9c50c758e419cd24dea3d2fb0972be200fb55a9534a91fa67991bfaa136a06c"
+      },
+      {
+        "src": "film-ai/decision-to-leave-2022.jpg",
+        "sha256": "09f7968d6ea6460c0b9070b97a22b41c2ae0ebd5bf987e600148d62c4693aa3a"
+      }
+    ],
+    "deep-sea-2023": [
+      {
+        "src": "film-ai/decks/film-deep-sea-2023.webp",
+        "sha256": "ae8c46084aaeb534eaab85c3a429f0890bee50449f55b0b315aa94ff3410acdb"
+      },
+      {
+        "src": "film-ai/deep-sea-2023.jpg",
+        "sha256": "ab0963463630f55ce8d77b773a1f2f119f29e4d3d53e1e7f23e6f6d128637336"
+      }
+    ],
+    "deliverance-1972": [
+      {
+        "src": "film-ai/decks/film-deliverance-1972.webp",
+        "sha256": "6549007571af983ee3e41ca4c75e7934deb8a9a70adce1f5ad8bec3a5dd7aaea"
+      },
+      {
+        "src": "film-ai/deliverance-1972.jpg",
+        "sha256": "8f63b15b6ca1ba17a13b102f5f2f7548b90f9779783edafdc09c0bef96ab7eb4"
+      }
+    ],
+    "demon-slayer-mugen-train-2020": [
+      {
+        "src": "film-ai/decks/film-demon-slayer-mugen-train-2020.webp",
+        "sha256": "8abcde976156a8b66a7b7e0e92d952ce1187ba7d84daa3a556b462cd62653a66"
+      },
+      {
+        "src": "film-ai/demon-slayer-mugen-train-2020.jpg",
+        "sha256": "dd3b29b52be97209b0bb7cc5b80d9dceba108be91f8c2a7774617ec1e5e97c75"
+      }
+    ],
+    "departures-2008": [
+      {
+        "src": "film-ai/decks/film-departures-2008.webp",
+        "sha256": "db6be90264efd9f8cacf1039d2f6463942c3f6311f9ddc656084cd50cf65139f"
+      },
+      {
+        "src": "film-ai/departures-2008.jpg",
+        "sha256": "0158ccda4787a2d098c47cb01b5ee562e4dd2fd6b603dfa234421221e21342b1"
+      }
+    ],
+    "detective-dee-and-the-mystery-of-the-phantom-flame-2010": [
+      {
+        "src": "film-ai/decks/film-detective-dee-and-the-mystery-of-the-phantom-flame-2010.webp",
+        "sha256": "c93c210f056cc4501207e6b1b3e0ab91c94abee00a0feb4a42347f72b5cfa79e"
+      },
+      {
+        "src": "film-ai/detective-dee-and-the-mystery-of-the-phantom-flame-2010.jpg",
+        "sha256": "c8ce3be957cd7015cb238960eb28fa602706966926bb2495fbe1db7c343d54c1"
+      }
+    ],
+    "detention-2019": [
+      {
+        "src": "film-ai/decks/film-detention-2019.webp",
+        "sha256": "f4a15ec300afea1728a7290b0783a22befcbcd80320d4607cbc34e463a6d4628"
+      },
+      {
+        "src": "film-ai/detention-2019.jpg",
+        "sha256": "a81d8896a13e6f82e37f23e2862a3fddd2761bfe12c2f1ab2281e435f2c23f21"
+      }
+    ],
+    "detour-1945": [
+      {
+        "src": "film-ai/decks/film-detour-1945.webp",
+        "sha256": "5ccf8e63102bb0b6eddd98891faadb6a6719b75a832e3d509fff15827ad89f0b"
+      },
+      {
+        "src": "film-ai/detour-1945.jpg",
+        "sha256": "5d7e663a25b62c5e792a497cbd9e4438e2b5abb77ab7f6396633b60419f382eb"
+      }
+    ],
+    "devdas-2002": [
+      {
+        "src": "film-ai/decks/film-devdas-2002.webp",
+        "sha256": "b845893d7ee93a4b9709a134e96548f5284f29b1969364bee827931ca144bd6e"
+      },
+      {
+        "src": "film-ai/devdas-2002.jpg",
+        "sha256": "b71fe5dc146a40495d8b28143ca95a4ab1cb8bb993ad9fe90dfb30c7cee7cefe"
+      }
+    ],
+    "diary-of-a-country-priest-1951": [
+      {
+        "src": "film-ai/decks/film-diary-of-a-country-priest-1951.webp",
+        "sha256": "54a12013f6bec7178e271763e4934e4902c04a4a425d988fc9fed64bfc610b14"
+      },
+      {
+        "src": "film-ai/diary-of-a-country-priest-1951.jpg",
+        "sha256": "ce8d4c454ca53b41b08c9e42661bb50a1d2b4932260b1e20adb472aa75eb09fa"
+      }
+    ],
+    "divine-intervention-2002": [
+      {
+        "src": "film-ai/decks/film-divine-intervention-2002.webp",
+        "sha256": "2d2c2f38d6d801e38179d29e19aa64e6278026fffdd06bbeb1021feb3b3b5ab6"
+      },
+      {
+        "src": "film-ai/divine-intervention-2002.jpg",
+        "sha256": "bf72c99829c9fb9f5ee33d7c6c7425e21cbb7b669d8b0d3faa30c212ddf54750"
+      }
+    ],
+    "django-unchained-2012": [
+      {
+        "src": "film-ai/decks/film-django-unchained-2012.webp",
+        "sha256": "ee1fb1c15686b1b9bd023b1ed4ecc9840f23b06f85122922fb1c91a4ad4397fe"
+      },
+      {
+        "src": "film-ai/django-unchained-2012.jpg",
+        "sha256": "eef3ed6f29525e9f88893cfe9439cd86ba81e662c8d9af126611861be8ee5fd4"
+      }
+    ],
+    "dodeskaden-1970": [
+      {
+        "src": "film-ai/decks/film-dodeskaden-1970.webp",
+        "sha256": "a25662285dbc39f88c96bec6979b97f476fbb246c15dd17046a444b106529757"
+      },
+      {
+        "src": "film-ai/dodeskaden-1970.jpg",
+        "sha256": "8ac4d2a37a31338c640632bb15c45eca204a99a36678ad10c0198787a78d7c84"
+      }
+    ],
+    "dog-day-afternoon-1975": [
+      {
+        "src": "film-ai/decks/film-dog-day-afternoon-1975.webp",
+        "sha256": "fbc53ec282e7ddc75de3ba9ec63d322f8a2c3bfc3a189aca034b76b7541e4fc8"
+      },
+      {
+        "src": "film-ai/dog-day-afternoon-1975.jpg",
+        "sha256": "b454cc03648a29bd8a50310036c7d033ceba4b00d0edd18c236b7b682fb484bc"
+      }
+    ],
+    "dogville-2003": [
+      {
+        "src": "film-ai/decks/film-dogville-2003.webp",
+        "sha256": "a5e80653e42ba3b0e2cc220187e795a29403a8daf0bc5965e43f341295010091"
+      },
+      {
+        "src": "film-ai/dogville-2003.jpg",
+        "sha256": "494b361dec3190cc9838ce58fb12167d628ec041791e9af3bcf1cf02b13e2f5e"
+      }
+    ],
+    "dolls-2002": [
+      {
+        "src": "film-ai/decks/film-dolls-2002.webp",
+        "sha256": "93e510831c41fedd2bfabc8345f335fdb69bf2c08eabb6c4331b738d9e31b254"
+      },
+      {
+        "src": "film-ai/dolls-2002.jpg",
+        "sha256": "65ef797789fde09e3e6dae9e623eb5165d21e2607f4cbdc68659e928fcae3a3a"
       }
     ],
     "dong-2006": [
@@ -2981,6 +3201,16 @@
         "sha256": "d59e686294080e5e76a023d264d34af887d62fc80c57f5bcc18b4960fa54293e"
       }
     ],
+    "dongju-the-portrait-of-a-poet-2016": [
+      {
+        "src": "film-ai/decks/film-dongju-the-portrait-of-a-poet-2016.webp",
+        "sha256": "4ee514e579cec306a962abf43b60c56e40ced8dfc94aea4984995f06e59c2c5f"
+      },
+      {
+        "src": "film-ai/dongju-the-portrait-of-a-poet-2016.jpg",
+        "sha256": "af9d70b2b3473f361899fec09f4f1aa836bc7446705bc0bbe6a5f66765726ea2"
+      }
+    ],
     "donkey-skin-1970": [
       {
         "src": "film-ai/firstshot-20261126/donkey-skin-1970.jpg",
@@ -2995,6 +3225,66 @@
         "sha256": "b6474a721ab5564334a526b8b2f2877c209f8acd5fb872bf3f361d7e79e51ead"
       }
     ],
+    "dont-look-back-1967": [
+      {
+        "src": "film-ai/decks/film-dont-look-back-1967.webp",
+        "sha256": "b4bfbb42839da033437ed77e002d5070cf8696f9ed506c24f0f0e5234de40fcb"
+      },
+      {
+        "src": "film-ai/dont-look-back-1967.jpg",
+        "sha256": "7eac7f264a7e78e26ea4973f0d61c9282d6e50887e56afdab67a6c950f85337b"
+      }
+    ],
+    "dont-look-now-1973": [
+      {
+        "src": "film-ai/decks/film-dont-look-now-1973.webp",
+        "sha256": "af522b19667f40c4fd2f477588e76d5e2caa9e3f616b391d8a44c8cb7e3bbf17"
+      },
+      {
+        "src": "film-ai/dont-look-now-1973.jpg",
+        "sha256": "243bfc52be0ad239c44724db9582f06b14a0e6d853d7749c1d30bdbfba64ed2f"
+      }
+    ],
+    "double-indemnity-1944": [
+      {
+        "src": "film-ai/decks/film-double-indemnity-1944.webp",
+        "sha256": "7cb3e19ea9798682c3265e69787064b5fd60b6558ed683e2d31e74c73acb8207"
+      },
+      {
+        "src": "film-ai/double-indemnity-1944.jpg",
+        "sha256": "2effaff09adb0bd64e209c007f61ef372e07ae6967a2b845e6fde8b8fcea51f4"
+      }
+    ],
+    "double-suicide-1969": [
+      {
+        "src": "film-ai/decks/film-double-suicide-1969.webp",
+        "sha256": "92233947c00ed75d36a7e7bc6c895e6e42cd61f9efbfea69ab4dad8c4fb9ef16"
+      },
+      {
+        "src": "film-ai/double-suicide-1969.jpg",
+        "sha256": "535b42c1b8b957a67ac1959e25daf267bdabd323d6c82f0a47a7c79ee8aff006"
+      }
+    ],
+    "downfall-2004": [
+      {
+        "src": "film-ai/decks/film-downfall-2004.webp",
+        "sha256": "1f2af8b9821ec853f43d5f2191e053f2bf5e9f0584c999070e61aedac6fb37a7"
+      },
+      {
+        "src": "film-ai/goal9438/downfall-2004.jpg",
+        "sha256": "94d1e6fbf4a91accd3390656249c213b4c50916d919250ea7a690d405e0190f6"
+      }
+    ],
+    "dragon-inn-1967": [
+      {
+        "src": "film-ai/decks/film-dragon-inn-1967.webp",
+        "sha256": "9e73e85a40b63b11279fb11384da3aa3a8a866be5e010b7613270af6fc34c544"
+      },
+      {
+        "src": "film-ai/dragon-inn-1967.jpg",
+        "sha256": "eea3a3298adc1b975c764cc436062a7e72253eff386c93631921288a11566fdf"
+      }
+    ],
     "drawing-sword-2005": [
       {
         "src": "film-ai/shots/YS-20261112-W3-drawing-sword-2005-07.webp",
@@ -3007,6 +3297,56 @@
       {
         "src": "film-ai/drawing-sword-2005.jpg",
         "sha256": "d388970519eb913d59b9e0cf4473104a17031386e701b702e5634a18a422a454"
+      }
+    ],
+    "dreams-1990": [
+      {
+        "src": "film-ai/decks/film-dreams-1990.webp",
+        "sha256": "c76cc7c7dc038f7a1a26b184e40bdbfe8475c0d28d771be3d578922708911845"
+      },
+      {
+        "src": "film-ai/dreams-1990.jpg",
+        "sha256": "4134e4526a9e20f7bd128953a9bb0e5017bef4085fba097e23534025f6040aea"
+      }
+    ],
+    "dressed-to-kill-1980": [
+      {
+        "src": "film-ai/decks/film-dressed-to-kill-1980.webp",
+        "sha256": "4f6acb7e4da1ac480bd59c946a3dd1b42607a85ed1f6999931b3209d853cc7f8"
+      },
+      {
+        "src": "film-ai/dressed-to-kill-1980.jpg",
+        "sha256": "9a0a558bd10b33e4d62b647b3862bf1ec6ba2d9a013f1dcd0f1a0e491bec3ee3"
+      }
+    ],
+    "drifting-2021": [
+      {
+        "src": "film-ai/decks/film-drifting-2021.webp",
+        "sha256": "9a92e4d94c86e8bc9d7e0911bcf00d29c71dc768476aa97f162737c795447d90"
+      },
+      {
+        "src": "film-ai/drifting-2021.jpg",
+        "sha256": "f587efba548265109247f088e5963899556c4b8e6200f2d2649da7a818222866"
+      }
+    ],
+    "drive-2011": [
+      {
+        "src": "film-ai/decks/film-drive-2011.webp",
+        "sha256": "6bf65d25c83683bb4b3dab8c285bf480454ee1c1108c7e51e679cc11d883c336"
+      },
+      {
+        "src": "film-ai/drive-2011.jpg",
+        "sha256": "7d6cb6236f658b518878b1bb3deb7c8e14f50b076348d4647983b3165e9a207d"
+      }
+    ],
+    "drug-war-2012": [
+      {
+        "src": "film-ai/decks/film-drug-war-2012.webp",
+        "sha256": "9be377e53a5456ef1d6d58e96fe15ed41906eb1273fb6692ff583f4f902c7b89"
+      },
+      {
+        "src": "film-ai/drug-war-2012.jpg",
+        "sha256": "abd3c92be0aabaad784ffd71394f531a983b76d80e7ccc0afd4a329fa4e8a99c"
       }
     ],
     "drunken-angel-1948": [
@@ -3041,6 +3381,16 @@
       {
         "src": "film-ai/decks/film-drunken-master-ii-1994.webp",
         "sha256": "a461890ef8bfcc805cd2dab7360959565d6efaf5013c308ccd8a3aa0751db7ff"
+      }
+    ],
+    "duelist-2005": [
+      {
+        "src": "film-ai/decks/film-duelist-2005.webp",
+        "sha256": "45ab54e3746dc2496626521fefd3ebe7d117c7f3c4a557db3d14a90a6c5f04c4"
+      },
+      {
+        "src": "film-ai/duelist-2005.jpg",
+        "sha256": "b2a03052cc00557d6109809d6d3b084bea46ab735646ca05e540264bcdf8049a"
       }
     ],
     "dune-2021": [
