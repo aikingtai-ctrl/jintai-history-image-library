@@ -36,8 +36,8 @@
   style.textContent = `
     .jt-original-preview{display:block;max-width:100%;max-height:280px;object-fit:contain;border-radius:7px;background:#f7f5f0}
     .jt-original-tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap;color:#59645e;font-size:12.5pt}
-    .jt-original-tools button{font:inherit;cursor:pointer;border:1px solid #176148;color:#176148;background:#fff;border-radius:7px;padding:5px 10px}
-    .jt-original-tools button:hover{background:#e6f1ec}
+    .jt-original-tools button,.jt-original-tools a{font:inherit;cursor:pointer;border:1px solid #176148;color:#176148;background:#fff;border-radius:7px;padding:5px 10px;text-decoration:none}
+    .jt-original-tools button:hover,.jt-original-tools a:hover{background:#e6f1ec}
     .jt-original-missing{color:#756b5e;font-size:12.5pt}
     .jt-modal-original{display:flex;gap:12px;align-items:flex-start;flex-wrap:wrap;border:1px solid #e2ded3;padding:10px;border-radius:9px;margin:8px 0 14px}
     .jt-modal-original img{max-width:220px;max-height:180px;object-fit:contain;border-radius:5px;background:#f7f5f0}
@@ -65,8 +65,19 @@
     for (const name of MAPS) {
       const info = window[name]?.[id];
       if (!info || !/^[a-f0-9]{64}$/i.test(info.sha256 || '')) continue;
-      if (info.original && /^https:\/\/(raw\.githubusercontent\.com|[a-z0-9-]+\.trycloudflare\.com)\//i.test(info.original)) return info;
+      if (info.original && /^https:\/\/(raw\.githubusercontent\.com|[a-z0-9-]+\.trycloudflare\.com)\//i.test(info.original) &&
+          /\.png(?:[?#]|$)/i.test(info.original)) return info;
       if (DIR_RE.test(info.original_dir || '') && PNG_RE.test(info.filename || '')) return info;
+    }
+    return null;
+  }
+  function museumJpegInfo(id) {
+    for (const name of MAPS) {
+      const info = window[name]?.[id];
+      if (info?.method === 'museum_open_access_original' &&
+          /^[a-f0-9]{64}$/i.test(info.sha256 || '') &&
+          /^https:\/\/raw\.githubusercontent\.com\//i.test(info.original || '') &&
+          /\.jpe?g(?:[?#]|$)/i.test(info.original)) return info;
     }
     return null;
   }
@@ -118,6 +129,27 @@
     line.append(label, button);
     container.appendChild(line);
   }
+  function addMuseumControls(container, info) {
+    const line = document.createElement('div');
+    line.className = 'jt-original-tools';
+    const label = document.createElement('span');
+    label.textContent = '馆藏高清 JPEG 浏览版 · ' + (info.width || '?') + '×' + (info.height || '?');
+    const view = document.createElement('a');
+    view.href = info.original;
+    view.target = '_blank';
+    view.rel = 'noopener';
+    view.textContent = '查看 JPEG 浏览版';
+    line.append(label, view);
+    if (/^https:\/\/(?:www\.)?clevelandart\.org\/art\//i.test(info.source || '')) {
+      const source = document.createElement('a');
+      source.href = info.source;
+      source.target = '_blank';
+      source.rel = 'noopener';
+      source.textContent = '查看馆藏原件来源';
+      line.appendChild(source);
+    }
+    container.appendChild(line);
+  }
   function updateCards() {
     if (typeof filtered === 'undefined' || typeof state === 'undefined') return;
     const slice = filtered.slice((state.page - 1) * PAGE, state.page * PAGE);
@@ -131,6 +163,11 @@
       if (info) {
         addPreview(block, info, row.title);
         addControls(block, row.id, info);
+      } else if (museumJpegInfo(row.id)) {
+        const museum = museumJpegInfo(row.id);
+        block.classList.add('jt-original-museum');
+        addPreview(block, museum, row.title);
+        addMuseumControls(block, museum);
       } else {
         const missing = document.createElement('span');
         missing.className = 'jt-original-missing';
@@ -151,6 +188,11 @@
     if (info) {
       addPreview(block, info, curItem.title);
       addControls(block, curItem.id, info);
+    } else if (museumJpegInfo(curItem.id)) {
+      const museum = museumJpegInfo(curItem.id);
+      block.classList.add('jt-original-museum');
+      addPreview(block, museum, curItem.title);
+      addMuseumControls(block, museum);
     } else {
       block.textContent = '该条目尚无已验收的主图 PNG。';
     }
