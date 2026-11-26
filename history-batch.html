@@ -32,16 +32,8 @@ function openOriginal(r){
   const tab=window.open('about:blank','_blank');
   if(!tab){alert('浏览器阻止弹出原图，请允许弹出窗口后重试。');return;}
   tab.opener=null;
-  tab.document.body.textContent='正在核对原始图片…';
-  gptOriginalUrl(info).then(url=>new Promise((resolve,reject)=>{
-    const probe=new Image();
-    probe.onload=()=>{
-      if((info.width&&probe.naturalWidth!==Number(info.width))||(info.height&&probe.naturalHeight!==Number(info.height)))reject(new Error('原图尺寸与清单不符'));
-      else resolve(url);
-    };
-    probe.onerror=()=>reject(new Error('原图加载失败'));
-    probe.src=url;
-  })).then(url=>tab.location.replace(url)).catch(()=>{tab.document.body.textContent='原图暂不可用，未打开预览图冒充原图。';});
+  tab.document.body.textContent='正在打开原始图片…';
+  gptOriginalUrl(info).then(url=>tab.location.replace(url)).catch(()=>{tab.document.title='原图暂不可用';tab.document.body.textContent='原图入口暂不可用，请稍后重试。';});
 }
 async function show(r){
   curRow=r;setZoom(1,true);

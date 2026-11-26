@@ -1,0 +1,1 @@
+window.JINTAI_PEOPLE_IMAGES={"HL-SHENHUA-CO-0004":{"filename":"HL-SHENHUA-CO-0004.png","preview_filename":"HL-SHENHUA-CO-0004.webp","original_dir":"history_people_16152_codex_gpt_image_20261126","width":1086,"height":1448,"sha256":"b7acea8c38a72e186ef042188bd470c190fa025f42c4c4e4cf28dd96c9119215","source":"Codex built-in GPT Image original PNG"}};

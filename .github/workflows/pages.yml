@@ -138,7 +138,8 @@ jobs:
               assert "gpt-image-manifest.js" in html, f"GPT Image manifest missing in {rel}"
               assert "original-pngs/" in html and "download=1" in html, f"Original download missing in {rel}"
               assert "查看预览" in html and "原图" in html, f"Preview/original labels missing in {rel}"
-              assert "probe.onload" in html and "probe.naturalWidth" in html, f"Original preflight missing in {rel}"
+              route = "historyOriginalUrl(info)" if rel == "index.html" else "gptOriginalUrl(info)"
+              assert route + ".then(url=>tab.location.replace(url))" in html, f"Direct original navigation missing in {rel}"
           assert "history-ai/myth-originals-manifest.js" in idx_html and "JINTAI_MYTH_IMAGES?.[id]" in idx_html, "Myth original mapping missing"
           assert "full.onload" in idx_html and "native.width" in idx_html, "Original lightbox dimension gate missing"
           for rel in ("history-batch.html", "history-batch-1001-2000.html"):
@@ -215,7 +216,7 @@ jobs:
                       continue
               elif top == "history-ai":
                   history_files = {
-                      "manifest.js", "source-notes.js", "gpt-image-manifest.js", "qing-manifest.js", "page19-originals-manifest.js", "page20-originals-manifest.js", "page21-originals-manifest.js", "page22-originals-manifest.js", "page23-originals-manifest.js", "regenerated-manifest.js", "myth-originals-manifest.js",
+                      "manifest.js", "source-notes.js", "gpt-image-manifest.js", "qing-manifest.js", "page19-originals-manifest.js", "page20-originals-manifest.js", "page21-originals-manifest.js", "page22-originals-manifest.js", "page23-originals-manifest.js", "regenerated-manifest.js", "myth-originals-manifest.js", "people-manifest.js",
                       "gallery-data.js", "gallery-data-batch2.js",
                       "batch-manifest.json", "batch2-manifest.json",
                       "image-audit.json", "verification.json", "verification-batch2.json",
