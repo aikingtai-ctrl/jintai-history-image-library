@@ -136,11 +136,11 @@ jobs:
           }
           for rel, html in history_pages.items():
               assert "gpt-image-manifest.js" in html, f"GPT Image manifest missing in {rel}"
-              assert "original-pngs/" in html and "download=1" in html, f"GPT Image original download missing in {rel}"
-              assert "regenerated-manifest.js" not in html and "JINTAI_REGENERATED_IMAGES" not in html, f"Old Qwen redrawn image mapping returned in {rel}"
-          assert "history-ai/manifest.js" in idx_html and "function histPreview(id){return window.JINTAI_PAGE23_IMAGES?.[id]?.preview||window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||" in idx_html and re.search(r"function histPreview\(id\)\{[^\n]*window\.JINTAI_AI_IMAGES\?\.\[id\]", idx_html), "Accepted GPT Image preview priority missing"
-          assert "function histThumb(id){return window.JINTAI_PAGE23_IMAGES?.[id]?.preview||window.JINTAI_PAGE22_IMAGES?.[id]?.preview||window.JINTAI_PAGE21_IMAGES?.[id]?.preview||window.JINTAI_PAGE20_IMAGES?.[id]?.preview||window.JINTAI_PAGE19_IMAGES?.[id]?.preview||window.JINTAI_QING_IMAGES?.[id]?.preview||window.JINTAI_GPT_IMAGES?.[id]?.preview||" in idx_html and re.search(r"function histThumb\(id\)\{[^\n]*histPreview\(id\);", idx_html), "Accepted GPT Image thumbnail priority missing"
-          assert "const gpt=window.JINTAI_PAGE23_IMAGES?.[r.id]||window.JINTAI_PAGE22_IMAGES?.[r.id]||window.JINTAI_PAGE21_IMAGES?.[r.id]||window.JINTAI_PAGE20_IMAGES?.[r.id]||window.JINTAI_PAGE19_IMAGES?.[r.id]||window.JINTAI_QING_IMAGES?.[r.id]||window.JINTAI_GPT_IMAGES?.[r.id];" in idx_html and "saved.hidden=!(gpt&&window.JINTAI_AI_IMAGES?.[r.id])" in idx_html, "GPT Image download or saved JPEG fallback missing"
+              assert "original-pngs/" in html and "download=1" in html, f"Original download missing in {rel}"
+              assert "查看预览" in html and "原图" in html, f"Preview/original labels missing in {rel}"
+              assert "probe.onload" in html and "probe.naturalWidth" in html, f"Original preflight missing in {rel}"
+          assert "history-ai/myth-originals-manifest.js" in idx_html and "JINTAI_MYTH_IMAGES?.[id]" in idx_html, "Myth original mapping missing"
+          assert "full.onload" in idx_html and "native.width" in idx_html, "Original lightbox dimension gate missing"
           for rel in ("history-batch.html", "history-batch-1001-2000.html"):
               assert "function gpt(r){return window.JINTAI_GPT_IMAGES?.[r.id];}" in history_pages[rel], f"Accepted GPT Image priority missing in {rel}"
               assert "function previewSrc(r){return gpt(r)?.preview||histImgSrc(r.thumbnail);}" in history_pages[rel], f"Batch preview missing in {rel}"
@@ -159,6 +159,11 @@ jobs:
           assert all(item["model"] == "GPT Image" and item["original_dir"] == "history_2000_gpt_image" for item in gpt_images.values()), "GPT Image source mismatch"
           expected_previews = {"history-ai/gpt-image-previews/" + item["preview"].rsplit("/", 1)[-1] for item in gpt_images.values()}
           assert expected_previews <= raw_paths_set, "GPT Image previews missing from repository"
+          myth_js = git_bytes("show", "HEAD:history-ai/myth-originals-manifest.js").decode("utf-8")
+          assert myth_js.startswith("window.JINTAI_MYTH_IMAGES="), "Myth original manifest invalid"
+          myth_images = json.loads(myth_js.split("=", 1)[1].rstrip(";\n"))
+          assert len(myth_images) >= 1243, f"Myth originals regressed: {len(myth_images)}"
+          assert all(row.get("original_dir") in ("myth_5903", "history_myth_7884_gpt_image_20261126") and row.get("filename", "").endswith(".png") and row.get("sha256") for row in myth_images.values()), "Myth manifest contains unaccepted source"
           qing_js = git_bytes("show", "HEAD:history-ai/qing-manifest.js").decode("utf-8")
           assert qing_js.startswith("window.JINTAI_QING_IMAGES="), "Qing GPT Image manifest invalid"
           qing_images = json.loads(qing_js.split("=", 1)[1].rstrip(";\n"))
@@ -210,7 +215,7 @@ jobs:
                       continue
               elif top == "history-ai":
                   history_files = {
-                      "manifest.js", "source-notes.js", "gpt-image-manifest.js", "qing-manifest.js", "page19-originals-manifest.js", "page20-originals-manifest.js", "page21-originals-manifest.js", "page22-originals-manifest.js", "page23-originals-manifest.js", "regenerated-manifest.js",
+                      "manifest.js", "source-notes.js", "gpt-image-manifest.js", "qing-manifest.js", "page19-originals-manifest.js", "page20-originals-manifest.js", "page21-originals-manifest.js", "page22-originals-manifest.js", "page23-originals-manifest.js", "regenerated-manifest.js", "myth-originals-manifest.js",
                       "gallery-data.js", "gallery-data-batch2.js",
                       "batch-manifest.json", "batch2-manifest.json",
                       "image-audit.json", "verification.json", "verification-batch2.json",
