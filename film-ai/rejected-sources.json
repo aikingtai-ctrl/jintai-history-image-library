@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T01:33:43.561275+08:00",
+  "updated_at": "2026-11-27T01:55:09.926364+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -1010,6 +1010,48 @@
       "sha256": "e8278252cf4d960b8fc97cfeeab1996f8b63f1ac524653c13702ebfeec62173c",
       "reason": "原图三名东亚男子在普通图书馆对话，人物并非影片捉鬼队，且无可辨捉鬼事件或装备。",
       "evidence": "第二十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "gone-girl-2014",
+      "src": "film-ai/gone-girl-2014.jpg",
+      "sha256": "e49c40b5a82a456b4a62529f6990ec81b46943b519531c02c62c922cd7cd26cc",
+      "reason": "雪夜工业巷中两名东亚面孔男女与 Nick/Amy 的美国失踪婚姻故事、主演形象和居家调查空间冲突。",
+      "evidence": "第三十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "good-bye-lenin-2003",
+      "src": "film-ai/good-bye-lenin-2003.jpg",
+      "sha256": "f0fb4ac5c9419a2af259f2f3634c88195a133ca666a79f9fc6959a02a4a577be",
+      "reason": "红十字护士依偎穿二战时代军服男子，整体为战时情侣照，和 1989 年东德母子/统一后家庭故事的年代与人物关系冲突。",
+      "evidence": "第三十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "good-men-good-women-1995",
+      "src": "film-ai/decks/film-good-men-good-women-1995.webp",
+      "sha256": "9e8e33adf8132f1ad61544cbddbd7e85ca4b802ca29a4ddeb920c80872eb7a4d",
+      "reason": "摄影棚窗外完整台北 101；台北 101 官方大事纪显示 1998 年才动工，无法出现在 1995 年影片的当代台北实景。",
+      "evidence": "第三十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "good-will-hunting-1997",
+      "src": "film-ai/good-will-hunting-1997.jpg",
+      "sha256": "4d233a94826613983c7be78c1291beaa2c8e78fa5fbc4f63b8f8fb9c6346b957",
+      "reason": "并坐四名东亚青年与 Will、导师及其波士顿朋友的官方主演组合均不符，画面也无数学或心理治疗锚点。",
+      "evidence": "第三十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "goodfellas-1990",
+      "src": "film-ai/goodfellas-1990.jpg",
+      "sha256": "6d33af9d62300e3ebe7250bcb518854a475a9973725956c01b52ee2e79232e85",
+      "reason": "赌场近景男主为明显东亚面孔，与 Henry/Jimmy/Tommy 的主演形象不合，不能标为《好家伙》人物图。",
+      "evidence": "第三十批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "guillermo-del-toros-pinocchio-2022",
+      "src": "film-ai/guillermo-del-toros-pinocchio-2022.jpg",
+      "sha256": "8edcf76a214fad51cdfad152f426c79a9bfdeb636281494d6d15740353de17fa",
+      "reason": "暴雨火场中倒地者是写实真人照片质感，画面无木偶且媒介与 Netflix 确认的定格动画直接冲突。",
+      "evidence": "第三十批30部两路径电影/逐图建议与联系表"
     }
   ]
 }

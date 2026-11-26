@@ -4605,6 +4605,16 @@
         "sha256": "65d7e0380497c7e64faecc0882bfe53df138d202fe38e9d480b33d7a9fd47eb8"
       }
     ],
+    "gohatto-1999": [
+      {
+        "src": "film-ai/decks/film-gohatto-1999.webp",
+        "sha256": "85e4c279ca6d8c4485df6870b423f6e8aa0a7c6f3513a59c94e5122c5ef735cd"
+      },
+      {
+        "src": "film-ai/gohatto-1999.jpg",
+        "sha256": "e144582ff6b8d13b99336e5a5873bd61f3f3de29fd54475e01f5a1405a07f527"
+      }
+    ],
     "goldfinger-1964": [
       {
         "src": "film-ai/shots/YS-20261111B5-M46-goldfinger-1964-045.webp",
@@ -4619,6 +4629,76 @@
         "sha256": "55484fc7a6875924d62c841feff7160ba6c02e316f6aeae3905c9d5387e9a412"
       }
     ],
+    "gomorrah-2008": [
+      {
+        "src": "film-ai/decks/film-gomorrah-2008.webp",
+        "sha256": "f71b4cba3983d25594e19bc32591964e4c52ef6f99833b1cda06c54ce58b2316"
+      },
+      {
+        "src": "film-ai/gomorrah-2008.jpg",
+        "sha256": "9dde13f5d16ee94ef098aeeea5cfdfc1ba7671bc933ac517d055cb807ebb02a4"
+      }
+    ],
+    "gone-with-the-bullets-2014": [
+      {
+        "src": "film-ai/decks/film-gone-with-the-bullets-2014.webp",
+        "sha256": "8689bb10ce5bbc3f2f5c27f23b6b7df6654735a5d82f01cd8128513a38e8ddb4"
+      },
+      {
+        "src": "film-ai/gone-with-the-bullets-2014.jpg",
+        "sha256": "af7499b9a4d07fd93113fa563e0832fc2573f80575ddca027fb5116f3aa445c9"
+      }
+    ],
+    "good-night-and-good-luck-2005": [
+      {
+        "src": "film-ai/decks/film-good-night-and-good-luck-2005.webp",
+        "sha256": "879986b745053dc8df13033ac70ab4a5294a5f90b157cca03c8c71ada1a5b61b"
+      },
+      {
+        "src": "film-ai/good-night-and-good-luck-2005.jpg",
+        "sha256": "aafc0b1f30734d08325f93b96c8bb1c3a1c5e81e7a73d83719ba32eb2beddad3"
+      }
+    ],
+    "good-time-2017": [
+      {
+        "src": "film-ai/decks/film-good-time-2017.webp",
+        "sha256": "b870f16843e7e13d4cbce195aee7294fec14fb86f165300cfdff46985963760d"
+      },
+      {
+        "src": "film-ai/good-time-2017.jpg",
+        "sha256": "1c28a1f2bbb491c0bbf97555de6734e4fd041e403a096c1e1e87c68d9a2e1b4d"
+      }
+    ],
+    "goodbye-south-goodbye-1996": [
+      {
+        "src": "film-ai/decks/film-goodbye-south-goodbye-1996.webp",
+        "sha256": "75c86b1a52504a2267cb16910d02d3c66959cefe80b08a0aabdeadd563a94d80"
+      },
+      {
+        "src": "film-ai/goodbye-south-goodbye-1996.jpg",
+        "sha256": "3c6f85a7328660338fa8b00aae5010b3068d0c4998109f10997ea0a9445ddfdc"
+      }
+    ],
+    "grand-illusion-1937": [
+      {
+        "src": "film-ai/decks/film-grand-illusion-1937.webp",
+        "sha256": "54322b73546fe186926f0ef26d1129a1f2ba50986c8984f66ad8c14d8c28cb44"
+      },
+      {
+        "src": "film-ai/grand-illusion-1937.jpg",
+        "sha256": "b09e1e792c33f81289c87dfd77badbb632f924eba6b6724ca27069626517c9ae"
+      }
+    ],
+    "grand-prix-1966": [
+      {
+        "src": "film-ai/decks/film-grand-prix-1966.webp",
+        "sha256": "91b137b93f9fa318cb00bdfdce83b71f74f7d8b8e08bb457077d180438a6d241"
+      },
+      {
+        "src": "film-ai/grand-prix-1966.jpg",
+        "sha256": "3106141d85e5c5aae71cd47680a53416bfa3b62fecbb3a8bbd23bfd78da06e51"
+      }
+    ],
     "gravity-2013": [
       {
         "src": "film-ai/shots/YS-20261028-C15-gravity-2013-11.webp",
@@ -4627,6 +4707,26 @@
       {
         "src": "film-ai/decks/film-gravity-2013.webp",
         "sha256": "898e456baea37abc789cc42c3ac67790a1446ea5fe3af472ae1a053f47accf19"
+      }
+    ],
+    "greed-1924": [
+      {
+        "src": "film-ai/decks/film-greed-1924.webp",
+        "sha256": "3a5823770514090581895cbdb0f3ef95b441623c8fb1471d83f7d076598629db"
+      },
+      {
+        "src": "film-ai/greed-1924.jpg",
+        "sha256": "bc27eb923e32bf40bfe26d4d99d8f1cf9f7c0b62790c6293e3b916aef5be8df3"
+      }
+    ],
+    "green-fish-1997": [
+      {
+        "src": "film-ai/decks/film-green-fish-1997.webp",
+        "sha256": "d9190a667cebfeb509ce96e4757f82b1a3e6e6a4b8ed4b3aaa04d3db20ae8c8a"
+      },
+      {
+        "src": "film-ai/green-fish-1997.jpg",
+        "sha256": "304d0a0b885bc68365d0b87b109ef3291f77a7edc4aeef8f1f41199bceb4339b"
       }
     ],
     "greenpeace-smog-journeys-2015": [
@@ -4641,6 +4741,66 @@
       {
         "src": "film-ai/decks/film-greenpeace-smog-journeys-2015.webp",
         "sha256": "e4bc65ab387449ff62517ddb4679a39bc411d7e1029d22d20fb9ba149984cd83"
+      }
+    ],
+    "groundhog-day-1993": [
+      {
+        "src": "film-ai/decks/film-groundhog-day-1993.webp",
+        "sha256": "d9b71a265b08652f4072cd1b9cbd22225939ad4b6986e60a1767a0021ededd78"
+      },
+      {
+        "src": "film-ai/groundhog-day-1993.jpg",
+        "sha256": "8abc9addf1ac1734335bb212bd4fb89e20d326220c7b680da53bf798487d8826"
+      }
+    ],
+    "growing-up-1983": [
+      {
+        "src": "film-ai/decks/film-growing-up-1983.webp",
+        "sha256": "749dea52eb72f0bc568d4f1ec6176e260825871931fbb788961fa9cfc53a27bf"
+      },
+      {
+        "src": "film-ai/growing-up-1983.jpg",
+        "sha256": "020637427dda43bd9d5f1921f5da7619a0baca3e6fe7ff66d610e6d397f468db"
+      }
+    ],
+    "gueros-2014": [
+      {
+        "src": "film-ai/decks/film-gueros-2014.webp",
+        "sha256": "a55d161d9e73ed0c946972b8347107c68bdfc8706ac5cc0c62ce2a81b4eca65e"
+      },
+      {
+        "src": "film-ai/gueros-2014.jpg",
+        "sha256": "1c3b5555f5f5c34e40b0cd221a586c1b4a5560ded248c9ead18804cc248aaf46"
+      }
+    ],
+    "gunda-2020": [
+      {
+        "src": "film-ai/decks/film-gunda-2020.webp",
+        "sha256": "8c41d071532b7b51fb370a132789a8a2b2abe9cae4481a3b01438e8d183b4e08"
+      },
+      {
+        "src": "film-ai/gunda-2020.jpg",
+        "sha256": "193ff7731a9de83f728a309825166a5f50bd729d5c9deaa9e035ccc5a190b2e8"
+      }
+    ],
+    "hail-caesar-2016": [
+      {
+        "src": "film-ai/decks/film-hail-caesar-2016.webp",
+        "sha256": "701e8dd39846aa91ebf0aa2d1b0fb9a119fc3e07c9f631797516346b4785a3fc"
+      },
+      {
+        "src": "film-ai/hail-caesar-2016.jpg",
+        "sha256": "42ca0ad159c2ba8917e89a46acdfab1b9bd2960d5c9d0c21bbd9cafa9eb665df"
+      }
+    ],
+    "hale-county-this-morning-this-evening-2018": [
+      {
+        "src": "film-ai/decks/film-hale-county-this-morning-this-evening-2018.webp",
+        "sha256": "f6215da37ba40ef2689f8a494d9a80634f5c3ddbb4f52802733e28704b61105f"
+      },
+      {
+        "src": "film-ai/hale-county-this-morning-this-evening-2018.jpg",
+        "sha256": "c00b6359ee2c38bad330942113d07d84557005e9fcc018a7582df83b4813d21a"
       }
     ],
     "hana-bi-1997": [
