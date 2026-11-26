@@ -188,6 +188,8 @@ async function loadSpecAllRes(relName,isManifest,checkFn){
 }
 const ZG_G031_TITLE='《卖胡粉女／买粉复生（拟题）》';
 const ZG_G031_NOTE='史料核对：本次所核《幽明录》记载富家子买胡粉、卖粉女子临尸恸哭、男子复生；未见白氍毹、画眉或卖粉女子施法。下方保留冻结的影视概念提示词，其中白毯、镜、服饰和场景细节不可当作古籍明文。';
+const ZG_G032_TITLE='《黄原与青犬入妙音宅（拟题）》';
+const ZG_G032_NOTE='史料核对：《幽明录》卷二记黄原见青犬，随犬入山穴，遇太真夫人之女妙音；太真夫人与妙音为两人。冻结提示词中的黑犬、白獭化形、连理白玉佩及珍珠螺钿漆盒未见所核原文；下方原提示词仅供追溯，不能作为史料。';
 function zgCorrectG031Meta(meta){
   const g=(meta.groups||[]).find(x=>x[0]==='ZG-20261028-G031');
   if(g){
@@ -205,6 +207,21 @@ function zgCorrectG031Meta(meta){
     b.props=b.props.map(x=>x.includes('洁白羊毛氍毹毯与铜柄菱花镜')?'白毯与铜镜：影视诠释道具，非本次核对原典明文':x);
   }
 }
+function zgCorrectG032Meta(meta){
+  const g=(meta.groups||[]).find(x=>x[0]==='ZG-20261028-G032');
+  if(g){
+    g[5]=ZG_G032_TITLE;
+    g[6]='黄原、引路青犬、太真夫人及其女妙音（服饰为影视诠释）';
+    g[7]='黄原随青犬入山穴；穴中平衢槐柳、院墙与厅前池台';
+    g[8]='原文有“解佩分袂”，佩饰具体形制未述；白玉佩、珍珠螺钿盒为影视概念道具';
+    g[9]='《幽明录》卷二黄原段：青犬引路，太真夫人之女妙音与黄原成婚；未见黑犬、白獭化形或具名玉佩漆盒。';
+  }
+  const b=(meta.books||[]).find(x=>x.book_no===5);
+  if(b){
+    b.stories=b.stories.map(x=>x==='《黄原黑犬引路入太真夫人水际妙宅》'?ZG_G032_TITLE:x);
+    b.characters=b.characters.map(x=>x.includes('千年老白獭化形')?'黄原、引路青犬、太真夫人及其女妙音（服饰为影视诠释）':x);
+  }
+}
 async function hydrateSpecialistPage(){
   if(document.getElementById('jt_gate_css')&&document.documentElement.getAttribute('data-jt-ok')!=='1')return;
   const stEl=document.getElementById('pCount');
@@ -216,6 +233,7 @@ async function hydrateSpecialistPage(){
   await Promise.all(boot.map(sh=>loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');})));
   const meta=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[mf.meta_shard]);delete window.__SPEC_ALL_CHUNKS__[mf.meta_shard];
   zgCorrectG031Meta(meta);
+  zgCorrectG032Meta(meta);
   RAW.books=meta.books||[];
   RAW.groups=meta.groups||[];
   RAW.existing=meta.existing||[];
@@ -251,6 +269,7 @@ const JIMENG = 'https://chatgpt.com/';
 const _mapZgItem = x => {
   const g = RAW.groups[x[2]];
   const corrected=x[1].startsWith('ZG-20261028-03')&&x[0]>=301&&x[0]<=310;
+  const corrected32=x[1].startsWith('ZG-20261028-03')&&x[0]>=311&&x[0]<=320;
   const labels={
     302:'02_卖粉女子人物造型（原词误标异类）',
     306:'06_影视主观转场（原典未述幽冥仙境）',
@@ -259,14 +278,22 @@ const _mapZgItem = x => {
     309:'09_白毯与铜镜（影视概念道具）',
     310:'10_粉铺建筑配套（影视诠释）'
   };
-  const label=corrected?(labels[x[0]]||x[5]):x[5];
-  const title=corrected?x[7].replace('《买粉儿白氍毹画眉复生》',ZG_G031_TITLE).replace(x[5],label):x[7];
+  const labels32={
+    311:'01_黄原与青犬人物主视图',312:'02_引路青犬形态（原典未述化形）',
+    313:'03_黄原与妙音人物互动',314:'04_妙音人物容貌（服饰诠释）',
+    315:'05_山穴入口与平衢',316:'06_穴中槐柳宅院与池台',
+    317:'07_黄原与妙音解佩别离（原典未述斗法）',318:'08_离别佩饰（器形未述）',
+    319:'09_琴瑟博棋（原典提及，器形诠释）',320:'10_池中平台与宅院建筑'
+  };
+  const label=corrected?(labels[x[0]]||x[5]):corrected32?(labels32[x[0]]||x[5]):x[5];
+  const title=corrected?x[7].replace('《买粉儿白氍毹画眉复生》',ZG_G031_TITLE).replace(x[5],label):corrected32?x[7].replace('《黄原黑犬引路入太真夫人水际妙宅》',ZG_G032_TITLE).replace(x[5],label):x[7];
   const subTypes={302:'人物/概念变体',306:'主观转场',307:'戏剧现场',308:'胡粉器物',309:'影视概念道具',310:'影视建筑配套'};
+  const subTypes32={312:'青犬形态',317:'离别现场',318:'佩饰概念',319:'琴瑟博棋器用',320:'建筑配套'};
   return {
     seq: x[0], id: x[1], gid: g[0], book_no: g[1], book: g[2], author_era: g[3],
     era: g[4], story: g[5], characters: g[6], scenes: g[7], props: g[8],
-    basis: g[9], url: g[10], asset_type: x[3], sub_type: corrected?(subTypes[x[0]]||x[4]):x[4], label,
-    ratio: x[6], title, prompt: x[8], source_note: corrected?ZG_G031_NOTE:''
+    basis: g[9], url: g[10], asset_type: x[3], sub_type: corrected?(subTypes[x[0]]||x[4]):corrected32?(subTypes32[x[0]]||x[4]):x[4], label,
+    ratio: x[6], title, prompt: x[8], source_note: corrected?ZG_G031_NOTE:corrected32?ZG_G032_NOTE:''
   };
 };
 const ITEMS = RAW.items.map(_mapZgItem);
