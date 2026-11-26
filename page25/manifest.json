@@ -229,6 +229,62 @@
       "method": "text_generation",
       "source_deviation_note": "《史记·晋世家》记晋成公在位与晋国军政；图为概念艺术复原，车辆、门楼和具体场景均非确证原貌。",
       "nas_period": "春秋"
+    },
+    "HF-20261021-0029": {
+      "title": "【历史名人】晋定公（姬午）（先秦·春秋晋国·春秋晚期晋国国君、主持召陵之会合十八国诸侯尊周、率军筑成周城、与吴王夫差黄池争霸之君）",
+      "original": "images/HF-20261021-0029.png",
+      "preview": "previews/HF-20261021-0029.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c50f2fda081f65c610477102c6e3f2f0885547785cd01bd6da3b54f6896f2a6b",
+      "source_prompt": "Prompt summary (not exact): Duke Ding of Jin observes a diplomatic gathering in a modest audience hall.",
+      "source": "https://zh.wikisource.org/zh-hans/%E5%8F%B2%E8%A8%98/%E5%8D%B7039",
+      "evidence_level": "A",
+      "method": "text_generation",
+      "source_deviation_note": "《史记·晋世家》记晋定公在位；图为概念艺术复原，会盟场地、衣冠与人物容貌均非确证。",
+      "nas_period": "春秋"
+    },
+    "HF-20261021-0030": {
+      "title": "【历史名人】丕郑（晋大夫）（先秦·春秋晋国·春秋晋献公、惠公朝重臣、丕豹之父、与里克同为晋国朝堂柱石、出使秦国纵横折冲之名臣）",
+      "original": "images/HF-20261021-0030.png",
+      "preview": "previews/HF-20261021-0030.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5436490787afb7ed9d25c14dc85ab77a1e90517deefc3c38bcc005debee23456",
+      "source_prompt": "Prompt summary (not exact): Jin envoy Pi Zheng stands with a bamboo document outside a plain timber hall.",
+      "source": "https://zh.wikisource.org/zh-hans/%E6%98%A5%E7%A7%8B%E5%B7%A6%E6%B0%8F%E5%82%B3/%E5%83%96%E5%85%AC",
+      "evidence_level": "A",
+      "method": "text_generation",
+      "source_deviation_note": "丕郑见《左传》僖公篇；图为外交主题的概念艺术复原，人物容貌、服饰与会面现场不可考。",
+      "nas_period": "春秋"
+    },
+    "HF-20261021-0031": {
+      "title": "【历史名人】舟之侨（虢大夫）（先秦·春秋晋国·春秋虢国贤大夫、因谏虢公骄矜而率族奔晋、城濮之战后随晋文公参与践土之盟的戎车重臣）",
+      "original": "images/HF-20261021-0031.png",
+      "preview": "previews/HF-20261021-0031.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f2ac01cbebcccfd089b9fa2afc068f33b53da05dd4fd19cfb406de8949d58035",
+      "source_prompt": "Prompt summary (not exact): Zhou Zhiqiao pauses with a family group and covered cart outside an earthen settlement.",
+      "source": "https://zh.wikisource.org/zh-hans/%E6%98%A5%E7%A7%8B%E5%B7%A6%E6%B0%8F%E5%82%B3/%E9%96%94%E5%85%AC",
+      "evidence_level": "A",
+      "method": "text_generation",
+      "source_deviation_note": "舟之侨奔晋见《左传》闵公篇；图为迁徙主题的概念艺术复原，家属人数、车辆及人物容貌不可考。",
+      "nas_period": "春秋"
+    },
+    "HF-20261021-0032": {
+      "title": "【历史名人】颠颉（晋大夫）（先秦·春秋晋国·春秋晋文公重耳流亡十九年五贤士之一、与狐偃赵衰魏犨胥臣并称五蛇辅龙之开国骁将）",
+      "original": "images/HF-20261021-0032.png",
+      "preview": "previews/HF-20261021-0032.jpg",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2e1fd3c361600e2e76d4b5380d671358414eeea9d0a59acab01af7259db2e6e2",
+      "source_prompt": "Prompt summary (not exact): Dian Jie travels with companions and rests beside a roadside fire.",
+      "source": "https://zh.wikisource.org/zh-hans/%E5%8F%B2%E8%A8%98/%E5%8D%B7039",
+      "evidence_level": "A",
+      "method": "text_generation",
+      "source_deviation_note": "《史记·晋世家》记颠颉随重耳；图为流亡旅途的概念艺术复原，同行人数、地点与具体情景不可考。",
+      "nas_period": "春秋"
     }
   }
 }
