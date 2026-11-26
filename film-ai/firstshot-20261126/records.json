@@ -1441,6 +1441,216 @@
       "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
       "method": "内置 imagegen",
       "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 83,
+      "wid": "src-1262c5e2f3dab2e0",
+      "title": "飛越藍調",
+      "firstShotId": "VP-src-1262c5e2f3dab2e0-01",
+      "scene": "黑白三维动画的倾斜街道上，身穿深色夹克、留着刺猬头的卡通少年背着乐器盒，独自低头行走在变形的都市人行道边。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Black-and-white stylized 3D animation. An original spiky-haired cartoon teenager in a dark jacket walks alone with head bowed along a tilted distorted city sidewalk, carrying a musical instrument case on his back. Expressive warped architecture and melancholy light. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "04a8b781ccb980e2efe368799acda2b96cb963b503d15065421e4524e4faf0c6",
+      "preview": "film-ai/firstshot-20261126/src-1262c5e2f3dab2e0.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/6d8d4eee66d9d2aba5b832a24d5e43995f98d3df/originals/film-expand-firstshot-20261126/src-1262c5e2f3dab2e0.png",
+        "bytes": 2372600,
+        "sha256": "bac6041e0e5da556ede9cfe98a2affca7371b0b47df5d66a9bd5401b14747d1b",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 84,
+      "wid": "src-12648ad29992f28c",
+      "title": "Nerve",
+      "firstShotId": "VP-1664c7f441dd69a0",
+      "scene": "四名年轻人近距离聚集，面部占据画面大部分空间。背景可见模糊的室内环境，包括窗户和砖墙结构，光线从后方透入。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Close group portrait of four fictional young adults gathered very close together, their faces filling most of the frame. Softly blurred interior with brick wall and window, strong light entering from behind. Natural attentive expressions. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "4d53056a87a7e10999d512fb2e054ba5ea0c8741ea79c7b12eeb9426b6ae46a1",
+      "preview": "film-ai/firstshot-20261126/src-12648ad29992f28c.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/6d8d4eee66d9d2aba5b832a24d5e43995f98d3df/originals/film-expand-firstshot-20261126/src-12648ad29992f28c.png",
+        "bytes": 2669599,
+        "sha256": "04213484da2ab3513181d77550a72a5f1f8f1992fe5ec2ce757e65114006fce0",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 85,
+      "wid": "src-1268d809dbda724d",
+      "title": "The Saddest Music in the World",
+      "firstShotId": "VP-63d8d1914c207948",
+      "scene": "黑白画面中，一位浅色卷发女性面部占据主体，神情柔和，下方可见深色衣物领口及一个矩形物体，背景为模糊的灰暗色块。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Black-and-white close portrait of a fictional adult woman with light curly hair and a gentle expression. Dark clothing collar and the top edge of a rectangular object appear at bottom. Softly blurred gray background, vintage cinematic grain. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "747e6d91b986ea054d7092653c82ccde323f00d0fb831fe9ea75bd5d7b45504f",
+      "preview": "film-ai/firstshot-20261126/src-1268d809dbda724d.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/6d8d4eee66d9d2aba5b832a24d5e43995f98d3df/originals/film-expand-firstshot-20261126/src-1268d809dbda724d.png",
+        "bytes": 2375642,
+        "sha256": "1f393e3224f9bcb19544323d8fa919bf192d5b0a3dea5d9436888db5f92f3fe4",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 86,
+      "wid": "src-126be07449679df2",
+      "title": "The Rocketeer",
+      "firstShotId": "VP-c8df15588aabcfda",
+      "scene": "两名戴帽男子头部与肩部特写，背景为纯净蓝天，无其他景物。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Close head-and-shoulders two-shot of two fictional adult men wearing period hats against a pure clear blue sky, no other scenery. Crisp sunlight and classic adventure-film color. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "f02478299630f40e898942666d33d6b873cbea8b16deb93d72c9fcb45656d500",
+      "preview": "film-ai/firstshot-20261126/src-126be07449679df2.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/6d8d4eee66d9d2aba5b832a24d5e43995f98d3df/originals/film-expand-firstshot-20261126/src-126be07449679df2.png",
+        "bytes": 2646483,
+        "sha256": "4ef7b4bad68404e4d460c56dc3b55d18d7de5946ac5b68595e77401fc3b0e564",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 87,
+      "wid": "src-127196adda0f09f9",
+      "title": "A Day At The Races",
+      "firstShotId": "VP-53847311310a3255",
+      "scene": "黑白画面中，一名戴圆眼镜、留八字胡的男子身穿白衬衫、系领带并佩戴背带，脖子上挂着听诊器，面带微笑，背景为模糊的竖向木板墙面。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Black-and-white portrait of a fictional adult male comic doctor with round glasses and a small parted moustache. He wears a white shirt, tie and suspenders, with a stethoscope around his neck, smiling. Blurred vertical wooden plank wall behind him, original face rather than an actor. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "17d8601783b71eecfd83b4f0d4fa51e5cec1c0788939d81323db4336e50943c8",
+      "preview": "film-ai/firstshot-20261126/src-127196adda0f09f9.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/6d8d4eee66d9d2aba5b832a24d5e43995f98d3df/originals/film-expand-firstshot-20261126/src-127196adda0f09f9.png",
+        "bytes": 1929181,
+        "sha256": "c7dfb56d4ceb15bd511c6e951ee5aca300f33c66186816ec739cdd3a7ce06c79",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 88,
+      "wid": "src-1283e7e945f78b95",
+      "title": "MILLE MOIS",
+      "firstShotId": "VP-src-1283e7e945f78b95-01",
+      "scene": "头戴黑头巾的摩洛哥年轻母亲举起彩色万花筒玩具观察且小男孩站在青色墙角",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. A fictional young adult Moroccan mother in a black headscarf raises a colorful toy kaleidoscope to one eye to look through it. A fully clothed little boy stands at a teal-painted wall corner nearby. Natural domestic light and affectionate everyday curiosity. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "eec14767fe0ce1b6be8810562cd2b9b58a6ac7ee08ffbb86f095ad3746c67eac",
+      "preview": "film-ai/firstshot-20261126/src-1283e7e945f78b95.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/6d8d4eee66d9d2aba5b832a24d5e43995f98d3df/originals/film-expand-firstshot-20261126/src-1283e7e945f78b95.png",
+        "bytes": 2512277,
+        "sha256": "5d71042cab63512db2cb201ee35559364bf0a2d926e1cbe855b9f0f778a60d18",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 89,
+      "wid": "src-12841d3aa980d735",
+      "title": "Texas Chainsaw Massacre: The Next Generation",
+      "firstShotId": "VP-src-12841d3aa980d735-01",
+      "scene": "昏暗木屋内满头汗水的疯狂青年高举左臂张大嘴巴发出狰狞咆哮",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. A fictional young adult man, sweaty and fully clothed, raises his left arm and opens his mouth in a furious shout inside a dim wooden cabin. Tense psychological horror atmosphere, no weapon, injury or gore. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "383b2f1f39a28f3babda6fd0e2403b168bc34575a7c71ab50413fc1cc0c0a972",
+      "preview": "film-ai/firstshot-20261126/src-12841d3aa980d735.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/6d8d4eee66d9d2aba5b832a24d5e43995f98d3df/originals/film-expand-firstshot-20261126/src-12841d3aa980d735.png",
+        "bytes": 1837858,
+        "sha256": "f3947329a3797cb9638e062e58fb28f4b9860f525f807d24b1a2e048159528ce",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 90,
+      "wid": "src-128690759d88a8d7",
+      "title": "KISS IT UP TO GOD",
+      "firstShotId": "VP-src-128690759d88a8d7-01",
+      "scene": "《KISS IT UP TO GOD》贴有粉红停业告示的店铺玻璃窗前三位黑人女性并肩相依的中近景",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. Medium close three-shot of three fictional Black adult women standing shoulder to shoulder and leaning together beside a shop glass window. A plain pink closed-notice paper is attached to the glass without readable words. Warm human closeness, natural street light. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "94f560ff263d7c5fbf8e6090fa6fdef9549e75b9a9e50b29da8da0e398c276b5",
+      "preview": "film-ai/firstshot-20261126/src-128690759d88a8d7.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/6d8d4eee66d9d2aba5b832a24d5e43995f98d3df/originals/film-expand-firstshot-20261126/src-128690759d88a8d7.png",
+        "bytes": 2759248,
+        "sha256": "ded95bbe12149dca038dea46ba3ae33b4261295b7d8e6463fcc9546315d433ea",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 91,
+      "wid": "src-12889dc1733bc94f",
+      "title": "Il pianeta acciaio",
+      "firstShotId": "VP-src-12889dc1733bc94f-01",
+      "scene": "夕阳余晖洒满的海滩沙地上，一只招财猫造型的金黄色马黛茶杯插着吸管静立在海浪前。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. A golden yellow lucky-cat-shaped mate drinking cup with a metal straw stands on beach sand in the glow of sunset. Small ocean waves roll behind it. Low still-life camera angle, realistic ceramic and sand texture. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "58fcfb1ccdb357a0dcb92f66d242ca87acf2689abaef394cc03c4c3a38615200",
+      "preview": "film-ai/firstshot-20261126/src-12889dc1733bc94f.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/6d8d4eee66d9d2aba5b832a24d5e43995f98d3df/originals/film-expand-firstshot-20261126/src-12889dc1733bc94f.png",
+        "bytes": 2415495,
+        "sha256": "be0500b878bd45240a538b80fd7d60c997c349bb70a99785bc8cb53f6fd9c381",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 92,
+      "wid": "src-128f45a9eb5a9c2c",
+      "title": "T-Rex",
+      "firstShotId": "VP-08eda2f2e25a4d25",
+      "scene": "路边废弃的砖砌建筑，外墙贴满啤酒促销海报，右侧矗立着锈迹斑斑的褪色招牌塔，背景是茂密的绿树和一座红砖住宅。",
+      "actualPrompt": "Create one original AI reference image, wide 16:9 composition. An abandoned roadside brick building covered with weathered beer-promotion poster shapes without readable brand names. A rusty faded sign tower stands at right. Dense green trees and a red brick house in background, documentary daylight. No watermark, no logos, no readable text. Not an actual movie frame.",
+      "sourceRevision": "3514f38fb2102e35484675d5add1b722952ccf5a",
+      "sourceSHA256": "b57bbeb47a6927086b0c6f7b7827a68bffe7affbcd686d8e6ce5e31154ee82da",
+      "preview": "film-ai/firstshot-20261126/src-128f45a9eb5a9c2c.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/6d8d4eee66d9d2aba5b832a24d5e43995f98d3df/originals/film-expand-firstshot-20261126/src-128f45a9eb5a9c2c.png",
+        "bytes": 3913804,
+        "sha256": "bd6d995a1da8196db886875d29093ded46660b34ae7a272c6caf22b311067021",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
     }
   ]
 }
