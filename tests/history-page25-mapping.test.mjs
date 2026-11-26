@@ -11,6 +11,7 @@ vm.runInNewContext(fs.readFileSync(path.join(root, 'history-ai/page25-originals-
 const images = context.window.JINTAI_PAGE25_IMAGES;
 assert.equal(Object.keys(images).length, 8);
 assert.ok(html.includes('page25-originals-manifest.js?v=20261126-page25-8'));
+assert.ok(fs.readFileSync(path.join(root, '.github/workflows/pages.yml'), 'utf8').includes('"page25-originals-manifest.js"'));
 assert.match(html, /window\.JINTAI_PAGE25_IMAGES\?\.\[id\]\|\|window\.JINTAI_PAGE24_IMAGES/);
 assert.match(html, /previewButton\.onclick=ev=>\{ev\.stopPropagation\(\);openHistOriginal\(r\);\}/);
 assert.match(html, /\$\('dHistZoom'\)\.onclick=\(\)=>openHistOriginal\(r\)/);
