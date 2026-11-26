@@ -25,6 +25,16 @@
         "sha256": "45a918864409cfe64925f43cbf4ac9fed0ac969444ab6563637329be686fbfcb"
       }
     ],
+    "2001-a-space-odyssey-1968": [
+      {
+        "src": "film-ai/decks/film-2001-a-space-odyssey-1968.webp",
+        "sha256": "8f7145dabc67e6383771303f7bbec236485e8076e6ecf3baa3314238d33d9661"
+      },
+      {
+        "src": "film-ai/restored/2001-a-space-odyssey-1968.jpg",
+        "sha256": "f05dcf79dfa22d06bf0b13fe70cf1b7c7ba042850e68aa0765033ca6a1fb1269"
+      }
+    ],
     "3-10-to-yuma-2007": [
       {
         "src": "film-ai/shots/YS-20261109F5-M68-3-10-to-yuma-2007-006.webp",
@@ -241,6 +251,16 @@
       {
         "src": "film-ai/restored/barry-lyndon-1975.jpg",
         "sha256": "62352425873bdf4f7b1f458c88f6fbabfe1b06dc04898cc0905256c35946a396"
+      }
+    ],
+    "battleship-potemkin-1925": [
+      {
+        "src": "film-ai/shots/YS-20261106F4-CL68-battleship-potemkin-1925-006.webp",
+        "sha256": "e28915262615f4ec95dea83b6d834f267d7c881e08382705e61d6fcc5e146ea7"
+      },
+      {
+        "src": "film-ai/decks/film-battleship-potemkin-1925.webp",
+        "sha256": "ee2a70122c27f1d352b9af247f71659bcae30ba80c778dd2e645ca7a9d7071dc"
       }
     ],
     "better-days-2019": [
@@ -603,6 +623,30 @@
         "sha256": "5b17613cfca8d2d6b6b2ccb49da4b9244ab3be32f38870644d368b90108a70e3"
       }
     ],
+    "dong-2006": [
+      {
+        "src": "film-ai/shots/YS-20261109-2300-dong-2006-06.webp",
+        "sha256": "8ed28b2dfb6700c66a66f2d107ffb3e63ab0db4e43511b4b949cb263a3d1b2fd"
+      },
+      {
+        "src": "film-ai/decks/film-dong-2006.webp",
+        "sha256": "84c7b945ce39439d2c02e34fdb9d878fdd819da425a2de9d365381bfabb3e3b7"
+      },
+      {
+        "src": "film-ai/dong-2006.jpg",
+        "sha256": "d59e686294080e5e76a023d264d34af887d62fc80c57f5bcc18b4960fa54293e"
+      }
+    ],
+    "donkey-skin-1970": [
+      {
+        "src": "film-ai/shots/YS-20261109F5-M36-donkey-skin-1970-006.webp",
+        "sha256": "6b01651ae5e07a32ebd000f6e26226b429d2aa04bb8e07d34e688f7ea428d945"
+      },
+      {
+        "src": "film-ai/decks/film-donkey-skin-1970.webp",
+        "sha256": "b6474a721ab5564334a526b8b2f2877c209f8acd5fb872bf3f361d7e79e51ead"
+      }
+    ],
     "drawing-sword-2005": [
       {
         "src": "film-ai/shots/YS-20261112-W3-drawing-sword-2005-07.webp",
@@ -625,6 +669,16 @@
       {
         "src": "film-ai/decks/film-drunken-master-1978.webp",
         "sha256": "ec611636496166706672255be203ea92a618d52b4ee5f3d18c20b5a7515a8969"
+      }
+    ],
+    "drunken-master-ii-1994": [
+      {
+        "src": "film-ai/shots/YS-20261105-2300-drunken-master-ii-19-06.webp",
+        "sha256": "a193e65a7d54bf7510aff527689029c29b4a06c9416b737162f6c54bfe486a88"
+      },
+      {
+        "src": "film-ai/decks/film-drunken-master-ii-1994.webp",
+        "sha256": "a461890ef8bfcc805cd2dab7360959565d6efaf5013c308ccd8a3aa0751db7ff"
       }
     ],
     "dune-2021": [
@@ -897,6 +951,16 @@
         "sha256": "e4bc65ab387449ff62517ddb4679a39bc411d7e1029d22d20fb9ba149984cd83"
       }
     ],
+    "hana-bi-1997": [
+      {
+        "src": "film-ai/decks/film-hana-bi-1997.webp",
+        "sha256": "fa6fffc10e3623e81177fc19ca0fb2029544161c199ba929ff1277b0613b59f6"
+      },
+      {
+        "src": "film-ai/restored/hana-bi-1997.jpg",
+        "sha256": "09de7f33ec4327d24fe83f684155e98b5ab763b79f6d89b72bdd58a8d664ddc0"
+      }
+    ],
     "happy-together-1997": [
       {
         "src": "film-ai/shots/YS-20261103-CW112-happy-together-1997-105.webp",
@@ -989,6 +1053,16 @@
       {
         "src": "film-ai/im-a-cyborg-but-thats-ok-2006.jpg",
         "sha256": "0697e7eb2a864b2600fcd3044554fe72985b45d8af1c87372efbae7f19d75143"
+      }
+    ],
+    "in-expectation-1996": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-in-expectation-1996-059.webp",
+        "sha256": "f71a28e72ff8ba927dd63a0a7deea3b8f426d5efb8cedf0035a388ce7759da10"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-in-expectation-1996-060.webp",
+        "sha256": "a7aad6e74eadd7685746d747b9110aaae9a0456994b4879a025bf22e98a9f5c9"
       }
     ],
     "in-the-mood-for-love-2000": [
@@ -1211,6 +1285,16 @@
         "sha256": "6157ad2fce308007e3321537b91ca00cb62579b3fe193295d3deffbd61f6ebd7"
       }
     ],
+    "love-letter-1995": [
+      {
+        "src": "film-ai/decks/film-love-letter-1995.webp",
+        "sha256": "b1eb3905293be4f0e36723559de58d4bffaadd56d3f629b65613852e352ddb79"
+      },
+      {
+        "src": "film-ai/restored/love-letter-1995.jpg",
+        "sha256": "0381c5c8f9485fe0ee8398415bd8eb48e0d833b929fac34dda372bbd1d3c55c4"
+      }
+    ],
     "mauvais-sang-1986": [
       {
         "src": "film-ai/shots/YS-20261111B5-M68-mauvais-sang-1986-037.webp",
@@ -1233,6 +1317,16 @@
       {
         "src": "film-ai/ming-dynasty-in-1566-2007.jpg",
         "sha256": "90d80ed0921a891069dedfdc2997ac312b8257083f0f95bb1a71fe41d36a563a"
+      }
+    ],
+    "moonlight-2016": [
+      {
+        "src": "film-ai/decks/film-moonlight-2016.webp",
+        "sha256": "a1c24067f07b07870d73ff7b60d930bdb2f52915fb64455be23df738d69c03e2"
+      },
+      {
+        "src": "film-ai/restored/moonlight-2016.jpg",
+        "sha256": "98ec30ee32a12029542c563b23aaed7289ea6b6b63a27cd9a8a710f5d1440108"
       }
     ],
     "mystery-2012": [
@@ -1279,6 +1373,20 @@
       {
         "src": "film-ai/decks/film-notting-hill-1999.webp",
         "sha256": "9de48e1d62b8a347ef9ca5edc092c0a05b79f9eb001d19a99efc5af20b33e3e3"
+      }
+    ],
+    "old-partner-2008": [
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-old-partner-2008-006.webp",
+        "sha256": "9cdab711afbe5d7acc040979cb332efcb5645161c5dbda10d6ab8b530df2b27d"
+      },
+      {
+        "src": "film-ai/shots/YS-20261111B5-M68-old-partner-2008-007.webp",
+        "sha256": "469a5afe85e83fdab6ff9cbfa099ad5dd885222fc4d43933a46b8675f1e1488f"
+      },
+      {
+        "src": "film-ai/old-partner-2008.jpg",
+        "sha256": "7a9d406941987a4f36a1ad84aeb2f105bf9544911f14dc495e2eb638e8dcd8ac"
       }
     ],
     "old-well-1987": [
@@ -1463,6 +1571,26 @@
         "sha256": "9a7ebe69ebbedfb4b46fdf1800e4883bd7aa101b13959aa3cbacb214db3a32f0"
       }
     ],
+    "se7en-1995": [
+      {
+        "src": "film-ai/decks/film-se7en-1995.webp",
+        "sha256": "b34ebf5e0e4b1246d01321284479bd8fa0d50fa08d1d4e99995a7cec7bbe1385"
+      },
+      {
+        "src": "film-ai/restored/se7en-1995.jpg",
+        "sha256": "fd3129d9d910cd84a89aafec011d27a8a29bfdb107a3de1e4477bae43b9a32aa"
+      }
+    ],
+    "seven-samurai-1954": [
+      {
+        "src": "film-ai/decks/film-seven-samurai-1954.webp",
+        "sha256": "436862b8b794f903a5bb3f2a2d1cb110f397b19390e04e7e7bc282a2c5f63759"
+      },
+      {
+        "src": "film-ai/restored/seven-samurai-1954.jpg",
+        "sha256": "3351ed60869c407f6479b83adf5e911679492b0832258d413bfa914315aecb64"
+      }
+    ],
     "sinners-2025": [
       {
         "src": "film-ai/shots/YS-20261028-CF-sinners-2025-026.webp",
@@ -1549,6 +1677,26 @@
       {
         "src": "film-ai/decks/film-there-will-be-blood-2007.webp",
         "sha256": "c5316a6d57b45700657d4319ed95a9ff01bbf609859bde12771c213a55af3f89"
+      }
+    ],
+    "vertigo-1958": [
+      {
+        "src": "film-ai/decks/film-vertigo-1958.webp",
+        "sha256": "0d3ced46eca1b6833f72aac0392ada6e985d1c0b80bfec6ed7ffd05fdfc0eda2"
+      },
+      {
+        "src": "film-ai/restored/vertigo-1958.jpg",
+        "sha256": "8c8e1b2cfcb531df995cefa2f3ee6284e2922260ab3508f58749aded6395d2ea"
+      }
+    ],
+    "yi-yi-2000": [
+      {
+        "src": "film-ai/decks/film-yi-yi-2000.webp",
+        "sha256": "ec066c3e2cbc16e09ae6a9cf116ab022ae034dd729e29f34c7110bddcefe4d65"
+      },
+      {
+        "src": "film-ai/restored/yi-yi-2000.jpg",
+        "sha256": "31992fb0f9ff2c3c4055e51271106acb9f99f1a3ed7a7737b95770c806c64c05"
       }
     ]
   }
