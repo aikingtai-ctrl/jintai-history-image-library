@@ -123,7 +123,7 @@ dialog::backdrop{background:#000c}
    <a class="back-link" href="portal.html">总入口</a>
    <span class="sep">·</span>
    <strong>影视提示词与来源目录</strong>
-   <span class="kpi" id="topKpi"><b>68,000</b> 部 · <b>3,689,985</b> 镜</span>
+   <span class="kpi" id="topKpi"><b>68,000</b> 部 · <b>3,690,035</b> 镜</span>
   </div>
   <nav class="topnav">
    <a href="index.html">历史图库</a>
@@ -184,7 +184,7 @@ dialog::backdrop{background:#000c}
  <div class="grid" id="grid"></div>
  <div class="pager"><button id="first" type="button">首页</button><button id="prev" type="button">上一页</button><span class="page-nums" id="page-nums"></span><span id="page"></span><button id="next" type="button">下一页</button><button id="last" type="button">末页</button><label class="page-jump">页码 <select id="page-select" aria-label="选择页码"></select></label><span class="page-jump">跳至 <input id="page-input" type="number" min="1" value="1" aria-label="输入页码"> 页 <button id="page-go" type="button">跳转</button></span></div>
  <details class="meta-fold">
-  <summary>库况统计与数据说明（68,000部作品 · 3,689,985条镜头描述）</summary>
+  <summary>库况统计与数据说明（68,000部作品 · 3,690,035条镜头描述）</summary>
   <div class="stats" id="stats"></div>
   <p id="prompt-coverage"></p>
   <p id="workGoal"></p>
@@ -199,7 +199,7 @@ dialog::backdrop{background:#000c}
 </main>
 <dialog id="detail"><div class="dialog-head"><h2 id="dtitle"></h2><button id="close" type="button">关闭</button></div><p class="muted" id="dinfo"></p><p id="dsource"></p><p class="notice muted">点击“查看来源画面”到源站查看对应静帧。</p><div class="grid" id="frames"></div><div class="pager"><button id="fprev" type="button">上一页</button><span class="page-nums" id="fpage-nums"></span><span id="fpage"></span><button id="fnext" type="button">下一页</button><label class="page-jump">页码 <select id="fpage-select" aria-label="选择来源画面页码"></select></label></div></dialog>
 <dialog id="pdetail" aria-labelledby="ptitle"><div class="dialog-head"><h2 id="ptitle"></h2><button id="pclose" type="button">关闭</button></div><p class="muted" id="pinfo"></p><p id="pcopy-status" class="prompt-status muted" role="status" aria-live="polite"></p><div class="prompt-list" id="prompts"></div><div class="pager"><button id="pprev" type="button">上一页</button><span class="page-nums" id="ppage-nums"></span><span id="ppage"></span><button id="pnext" type="button">下一页</button><label class="page-jump">页码 <select id="ppage-select" aria-label="选择提示词页码"></select></label></div></dialog>
-<script src="d4/summary.js?v=754aec729af1"></script><script src="d4/catalogue.js?v=754aec729af1"></script>
+<script src="d4/summary.js?v=51733a2b5603"></script><script src="d4/catalogue.js?v=51733a2b5603"></script>
 <script>
 const $=id=>document.getElementById(id),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safe=u=>{try{const p=new URL(u);return ['http:','https:'].includes(p.protocol)?p.href:'';}catch{return '';}};
@@ -326,7 +326,54 @@ let sourceCoverSignature='';
 let sourceCoversOnly=new URLSearchParams(location.search).get('covers')==='1';
 function sourceCoverPath(w){const path=window.FILM_DECK_COVERS?.['film:'+w.id];if(typeof path!=='string'||!/^film-ai\/decks\/film-[a-z0-9-]+\.webp$/.test(path))return '';return /github\.io$/i.test(location.hostname||'')?'https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/'+path:path;}
 window.addEventListener('error',ev=>{const img=ev.target;if(!img?.matches?.('.work-cover img')||img.dataset.coverFallback)return;const m=img.src.match(/^https:\/\/raw\.githubusercontent\.com\/aikingtai-ctrl\/jintai-history-image-library\/main\/(.+)$/);if(!m)return;img.dataset.coverFallback='1';img.src='https://testingcf.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/'+m[1];const a=img.closest('a');if(a)a.href=img.src;},true);
-function refreshSourceCovers(){const tag=document.createElement('script');tag.src='film-ai/decks/manifest.js?source-covers='+Date.now();tag.onload=()=>{tag.remove();const count=Object.keys(window.FILM_DECK_COVERS||{}).length;const signature=sourceCoversOnly?Object.keys(window.FILM_DECK_COVERS||{}).join('|'):'';if(count!==sourceCoverCount||sourceCoversOnly&&signature!==sourceCoverSignature){sourceCoverCount=count;sourceCoverSignature=signature;if(sourceCoversOnly)filter(true);else render();}};tag.onerror=()=>tag.remove();document.head.appendChild(tag);}
+let sourceCoverRefreshing=false;
+let sourceCoverAnchorPromise=null;
+const SOURCE_COVER_RAW='https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/film-ai/decks/manifest.js';
+const SOURCE_COVER_ANCHOR='https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f3bf5d8e48d0eaeb5e1b69391f80a0ea2b09cc1e/film-ai/decks/manifest.js';
+function validateSourceCoverMap(map){
+ if(!map||typeof map!=='object'||Array.isArray(map)||!Object.keys(map).length)throw new Error('Invalid cover manifest');
+ for(const [key,path] of Object.entries(map)){
+  if(typeof path!=='string'||!/^film-ai\/decks\/[-_a-z0-9]+\.webp$/.test(path))throw new Error('Invalid cover path');
+  if(key.startsWith('film:')&&path!=='film-ai/decks/film-'+key.slice(5)+'.webp')throw new Error('Mismatched film cover path');
+ }
+ return map;
+}
+async function fetchSourceCoverMap(url){
+ const abort=new AbortController(),timer=setTimeout(()=>abort.abort(),15000);
+ try{
+  const response=await fetch(url,{cache:'no-store',signal:abort.signal});
+  if(!response.ok)throw new Error('Cover manifest HTTP '+response.status);
+  const text=await response.text(),prefix='window.FILM_DECK_COVERS=';
+  if(!text.startsWith(prefix))throw new Error('Invalid cover manifest prefix');
+  return validateSourceCoverMap(JSON.parse(text.slice(prefix.length).trim().replace(/;\s*$/,'')));
+ }finally{clearTimeout(timer);}
+}
+function sourceCoverMapExtends(next,prior){return Object.entries(prior).every(([key,path])=>next[key]===path);}
+function applySourceCoverMap(next){
+ const prior=window.FILM_DECK_COVERS||{};
+ if(!sourceCoverMapExtends(next,prior))return false;
+ const keys=Object.keys(next),count=keys.length,signature=sourceCoversOnly?keys.join('|'):'';
+ window.FILM_DECK_COVERS=next;
+ if(count!==sourceCoverCount||sourceCoversOnly&&signature!==sourceCoverSignature){
+  sourceCoverCount=count;sourceCoverSignature=signature;
+  if(sourceCoversOnly)filter(true);else render();
+ }
+ return true;
+}
+function getSourceCoverAnchor(){
+ if(!sourceCoverAnchorPromise)sourceCoverAnchorPromise=fetchSourceCoverMap(SOURCE_COVER_ANCHOR).catch(error=>{sourceCoverAnchorPromise=null;throw error;});
+ return sourceCoverAnchorPromise;
+}
+async function refreshSourceCovers(){
+ if(sourceCoverRefreshing)return;
+ sourceCoverRefreshing=true;
+ const stamp=Date.now();
+ const pagesTask=fetchSourceCoverMap('film-ai/decks/manifest.js?source-covers='+stamp)
+  .then(map=>applySourceCoverMap(map)).catch(()=>{});
+ const rawTask=Promise.all([fetchSourceCoverMap(SOURCE_COVER_RAW+'?source-covers='+stamp),getSourceCoverAnchor()])
+  .then(([map,anchor])=>{if(sourceCoverMapExtends(map,anchor))applySourceCoverMap(map);}).catch(()=>{});
+ try{await Promise.allSettled([pagesTask,rawTask]);}finally{sourceCoverRefreshing=false;}
+}
 refreshSourceCovers();setInterval(refreshSourceCovers,60000);
 function render(){const max=Math.max(1,Math.ceil(list.length/PS));page=Math.max(0,Math.min(page,max-1));$('count').innerHTML=`共 <b>${list.length.toLocaleString()}</b> 部作品 · <b>${list.reduce((n,w)=>n+promptCount(w),0).toLocaleString()}</b> 条提示词${window.__JT_SOURCES_FULL__?'':' · 目录仍在载入，结果暂不完整'}`;
  syncSrcFilterUI();syncPager(page,max,'',p=>{page=p;render();window.scrollTo({top:0});});
@@ -404,10 +451,10 @@ function initSourcesUI(preserveState){
  if($('cineGuild'))options('cineGuild',WORKS.flatMap(cineSystems),'全部摄影权威体系（140大）');options('festival',WORKS.flatMap(w=>awards(w).map(a=>a.festival)),'全部电影节／大奖');awardOptions();options('classic',WORKS.flatMap(w=>classics(w).map(c=>c.list)),'全部经典榜单');options('genre',WORKS.flatMap(genres),'全部叙事类型');options('region',WORKS.flatMap(regions),'全部地区');options('decade',WORKS.map(decade),'全部年代',v=>v==='待补'?'上映年待补':v+' 年代');if(preserveState!==true){$('sort').value='prompts';if(new URLSearchParams(window.location?.search||'').get('prompts')==='1')$('coverage').value='prompts';}browse();filter(preserveState===true);if(preserveState!==true&&new URLSearchParams(window.location?.search||'').get('cinematography')==='all')$('cinematography-all').onclick();
 }
 async function ensureCatalogueLoaded(onFirstShard){
- if(!S)S=await loadD4Script('summary.js?v=754aec729af1',()=>{if(!window.FILM_SOURCE_SUMMARY)throw new Error('bad');return window.FILM_SOURCE_SUMMARY;},'summary');
+ if(!S)S=await loadD4Script('summary.js?v=51733a2b5603',()=>{if(!window.FILM_SOURCE_SUMMARY)throw new Error('bad');return window.FILM_SOURCE_SUMMARY;},'summary');
  if(Array.isArray(window.FILM_SOURCE_WORKS)&&window.FILM_SOURCE_WORKS.length&&(!window.FILM_CATALOGUE_MANIFEST||window.FILM_SOURCE_WORKS.length>=window.FILM_CATALOGUE_MANIFEST.total_works)){WORKS=window.FILM_SOURCE_WORKS;return false;}
  if(!window.FILM_CATALOGUE_MANIFEST){
-  await loadD4Script('catalogue.js?v=754aec729af1',()=>{if(!window.FILM_CATALOGUE_MANIFEST&&!(Array.isArray(window.FILM_SOURCE_WORKS)&&window.FILM_SOURCE_WORKS.length))throw new Error('bad');return true;},'catalogue');
+  await loadD4Script('catalogue.js?v=51733a2b5603',()=>{if(!window.FILM_CATALOGUE_MANIFEST&&!(Array.isArray(window.FILM_SOURCE_WORKS)&&window.FILM_SOURCE_WORKS.length))throw new Error('bad');return true;},'catalogue');
   if(Array.isArray(window.FILM_SOURCE_WORKS)&&window.FILM_SOURCE_WORKS.length&&!window.FILM_CATALOGUE_MANIFEST){WORKS=window.FILM_SOURCE_WORKS;return false;}
  }
  const mf=window.FILM_CATALOGUE_MANIFEST;if(!mf||!Array.isArray(mf.shards)||!mf.shards.length)throw new Error('manifest');
