@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import { spawnSync } from 'node:child_process';
+import { createFilmShotQuota, updateShotManifestText } from './film-shot-quota.mjs';
 
 const ROOT = process.cwd();
 const TARGETS = path.join(ROOT, 'film-ai', 'shot-targets-20261112.json');
@@ -27,16 +28,25 @@ if (!Number.isInteger(start) || start < 1 || !Number.isInteger(count) || count <
 if (!dryRun && !process.env.OPENAI_API_KEY) throw new Error('Missing OPENAI_API_KEY Actions secret.');
 
 const targets = JSON.parse(fs.readFileSync(TARGETS, 'utf8'));
+const firstPromptByWork = new Map(), duplicatePromptIds = new Set();
+for (const target of targets) {
+  const key = `${target.wid}\u0000${String(target.prompt || '').trim().replace(/\s+/g, ' ')}`;
+  if (firstPromptByWork.has(key)) duplicatePromptIds.add(target.id);
+  else firstPromptByWork.set(key, target.id);
+}
 const selected = targets.slice(start - 1, start - 1 + count);
 if (selected.length !== count) throw new Error('Requested range extends beyond target list.');
 fs.mkdirSync(OUT, { recursive: true });
 const previous = fs.existsSync(LEDGER) ? fs.readFileSync(LEDGER, 'utf8').split(/\r?\n/).filter(Boolean).map(line => JSON.parse(line)) : [];
+const manifestText = fs.existsSync(MANIFEST) ? fs.readFileSync(MANIFEST, 'utf8') : '';
+const manifestMatch = manifestText.match(/window\.FILM_SHOT_IMAGES\s*=\s*(\{[\s\S]*?\})\s*;/);
+const imageMapping = manifestMatch ? JSON.parse(manifestMatch[1]) : {};
+const quota = createFilmShotQuota(targets, imageMapping, previous, 5);
 const standardSizes = new Set(['1024x1024', '1536x1024', '1024x1536']);
 if (!dryRun && count > 1 && !previous.some(row => row.model === MODEL && row.requested_size && !standardSizes.has(row.requested_size) && row.sha256)) {
   throw new Error('Run a single custom-size GPT Image 2.6 Sunburst smoke image before a multi-image batch.');
 }
-const isAcceptedModel = row => row.model === MODEL || row.model_family === 'Images 2.6';
-const accepted = new Map(previous.filter(isAcceptedModel).map(row => [row.id, row]));
+const accepted = new Map(previous.filter(row => row.id && row.sha256).map(row => [row.id, row]));
 const sha256 = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 const relative = id => `film-ai/shots/${id}.webp`;
 
@@ -67,21 +77,20 @@ function promptFor(target) {
 }
 function validAccepted(target) {
   const row = accepted.get(target.id);
-  if (!row || !isAcceptedModel(row)) return false;
-  const file = path.join(ROOT, relative(target.id));
+  if (!row || !imageMapping[target.id]) return false;
+  const file = path.join(ROOT, imageMapping[target.id]);
   if (!fs.existsSync(file)) return false;
   const bytes = fs.readFileSync(file);
   return isWebp(bytes) && sha256(bytes) === row.sha256;
 }
 function saveManifest() {
-  const entries = [];
-  for (const target of targets) if (accepted.has(target.id)) entries.push([target.id, relative(target.id)]);
+  const updated = updateShotManifestText(manifestText, imageMapping);
   const tmp = `${MANIFEST}.tmp`;
-  fs.writeFileSync(tmp, `window.FILM_SHOT_IMAGES=${JSON.stringify(Object.fromEntries(entries))};\n`, 'utf8');
+  fs.writeFileSync(tmp, updated, 'utf8');
   fs.renameSync(tmp, MANIFEST);
-  return entries.length;
+  return Object.keys(imageMapping).length;
 }
-const initiallyValid = dryRun ? accepted.size : saveManifest();
+const initiallyValid = Object.keys(imageMapping).length;
 console.log(`model=${MODEL} range=${start}-${start + count - 1} concurrency=${concurrency} already_valid=${initiallyValid} dry_run=${dryRun}`);
 if (dryRun) {
   for (const [i, target] of selected.entries()) console.log(`${start + i}\t${target.id}\t${target.title}\t${imageSize(target.aspect_ratio)}`);
@@ -139,10 +148,20 @@ const worker = async () => {
       console.log(`[${start + localIndex}/${targets.length}] kept ${target.id}`);
       continue;
     }
+    if (duplicatePromptIds.has(target.id)) {
+      console.log(`[${start + localIndex}/${targets.length}] skipped ${target.id}: duplicate shot description within ${target.wid}`);
+      continue;
+    }
+    if (!quota.reserve(target)) {
+      console.log(`[${start + localIndex}/${targets.length}] skipped ${target.id}: ${target.wid} already has five distinct images`);
+      continue;
+    }
     const prompt = promptFor(target);
     try {
       const generated = await requestImage(target, prompt);
       if (!isWebp(generated.bytes)) throw new Error(`${target.id}: unexpected/invalid WebP output`);
+      const digest = sha256(generated.bytes);
+      if (quota.isDuplicate(target, digest)) throw new Error(`${target.id}: identical image bytes already belong to this film`);
       const file = path.join(ROOT, relative(target.id));
       const tmp = `${file}.${process.pid}.tmp`;
       fs.writeFileSync(tmp, generated.bytes);
@@ -154,23 +173,27 @@ const worker = async () => {
         throw error;
       }
       fs.renameSync(tmp, file);
+      quota.commit(target, relative(target.id), digest);
       const row = {
-        id: target.id, position: start + localIndex, title: target.title, model: MODEL,
+        id: target.id, wid: target.wid, position: start + localIndex, title: target.title, model: MODEL,
         endpoint: '/v1/images/generations', size: generated.size, requested_size: imageSize(target.aspect_ratio),
         quality: 'medium', complexity: 'medium',
-        prompt_sha256: sha256(Buffer.from(prompt)), sha256: sha256(generated.bytes),
+        prompt_sha256: sha256(Buffer.from(prompt)), sha256: digest,
         bytes: generated.bytes.length, width: dimensions.width, height: dimensions.height,
         request_id: generated.requestId, usage: generated.usage,
         created_at: new Date().toISOString(),
       };
       fs.appendFileSync(LEDGER, `${JSON.stringify(row)}\n`, 'utf8');
       accepted.set(target.id, row);
+      imageMapping[target.id] = relative(target.id);
       generatedIds.push(target.id);
       const mapped = saveManifest();
       console.log(`[${start + localIndex}/${targets.length}] accepted ${target.id} ${generated.bytes.length} bytes mapped=${mapped}`);
     } catch (error) {
       failures.push({ id: target.id, position: start + localIndex, error: String(error.message) });
       console.error(`[failed] ${target.id}: ${error.message}`);
+    } finally {
+      quota.release(target);
     }
   }
 };

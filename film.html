@@ -73,6 +73,9 @@ aside summary em{font-style:normal;color:var(--ac);font-size:15px;font-weight:40
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:18px}
 .card{background:var(--p1);border:1px solid var(--line);border-radius:13px;overflow:hidden;position:relative;display:flex;flex-direction:column;transition:border-color .14s,transform .14s}
 .card:hover{border-color:var(--ac);transform:translateY(-1px)}
+.film-card .thumb img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}
+.film-card .cap p{min-height:0}
+.film-card .tg{white-space:normal;line-height:1.4}
 .thumb{position:relative;cursor:zoom-in;background:#0c0e10;line-height:0;aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;overflow:hidden}
 .thumb img{max-width:100%;max-height:100%;width:auto;height:auto;display:block}
 .thumb svg.wid{width:100%;height:auto;display:block}.thumb svg.nar{height:100%;width:auto;display:block}
@@ -831,7 +834,27 @@ function card(r,opts={}){const w=r.W,f=frOf(r),ai=shotImageSrc(r.id),inD=DECKS.c
  <div class="cap" data-open="${r.id}"><b>${esc(w.t)}</b> <span class="y">${esc(w.y||'年份待核')}${r.ep?' · '+esc(r.ep):''}</span><p>${esc(r.sc)}</p></div>
  <div class="tg">${[r.size,r.time,r.ie,(r.light||[]).slice(0,2).join('·'),(r.color||[]).slice(0,2).join('·'),(r.emo||[])[0]].filter(Boolean).map(esc).join(' · ')||'摄影标签待标注'}</div>
  <div class="acts"><button data-add="${r.id}" class="${inD?'in':''}">${inD?'✓ 已在图集':'＋图集'}</button><button data-cmp="${r.id}" class="${inC?'in':''}">${inC?'✓ 对照中':'对照'}</button></div></div>`;}
+let FIND_FILM_GROUPS=new Map();
+function filmImageKey(src){try{const u=new URL(src,location.href),p=u.pathname,m=p.match(/\/(?:film-ai|history-ai|影视参考图集_截帧)\/.*$/i);return(m?m[0]:u.origin+p).toLowerCase();}catch(e){return String(src).split(/[?#]/)[0].toLowerCase();}}
+function filmStillItems(g){
+ const all=[],ids=new Set(),push=r=>{if(r&&!ids.has(r.id)){ids.add(r.id);all.push(r);}};
+ g.rows.forEach(push);(BYW.get(g.w.i)||[]).forEach(push);
+ const items=[],sources=new Set(),add=(r,src,kind)=>{if(!src||items.length>=5)return;const key=filmImageKey(src);if(sources.has(key))return;sources.add(key);items.push({r,src,kind});};
+ all.forEach(r=>{const f=frOf(r);if(f)add(r,`${FRAME_DIR}/${f.f}`,'真实截帧');});
+ all.forEach(r=>{if((window.FILM_SHOT_IMAGES||{})[r.id])add(r,shotImageSrc(r.id),'AI 原创参考画面');});
+ if(!items.length)add(g.rows[0],getFilmAiSrc(g.w.wid),'同片代表图 · 非镜头原帧');
+ return items;
+}
+function filmCard(g){const w=g.w,items=filmStillItems(g),hero=items[0],r=hero?.r||g.rows[0],inD=DECKS.cur&&deckHas(r.id),inC=CMP.includes(r.id),label=hero?hero.kind:'暂无已接画面';
+ return`<div class="card film-card" data-film-key="${esc(g.key)}"><div class="thumb" data-film-open="${esc(g.key)}" role="button" tabindex="0" aria-label="查看《${esc(w.t)}》最多 5 张不同剧照">${hero?`<img loading="lazy" src="${esc(hero.src)}" alt="${esc(w.t)} ${esc(label)}">`:visual(r,560)}<span class="badge${hero?.kind==='真实截帧'?' fr':''}">${esc(label)}</span></div>${palHTML(r)}
+ <div class="cap" data-film-open="${esc(g.key)}" role="button" tabindex="0"><b>${esc(w.t)}</b> <span class="y">${esc(w.y||'年份待核')}</span><p>${esc(w.look||r.sc||'')}</p></div>
+ <div class="tg">${g.rows.length.toLocaleString()} 个匹配镜头 · ${items.length} 张不同画面（上限 5）</div>
+ <div class="acts"><button data-film-open="${esc(g.key)}">查看画面 ${items.length}</button><button data-add="${r.id}" class="${inD?'in':''}">${inD?'✓ 主图已入集':'＋主图入集'}</button><button data-cmp="${r.id}" class="${inC?'in':''}">${inC?'✓ 对照中':'对照'}</button></div></div>`;}
+function openFilmStillLightbox(key){const g=FIND_FILM_GROUPS.get(key);if(!g)return;const items=filmStillItems(g);if(!items.length){openDetail(g.rows[0].id);return;}
+ LB_STATE.items=items.map(({r,src,kind})=>({wid:g.w.wid,src,title:`《${g.w.t}》 · ${kind}`,sub:[g.w.y,kind,r?.id].filter(Boolean).join(' · '),desc:kind==='真实截帧'?'本机真实截帧；仅供内部研究。':kind==='AI 原创参考画面'?'依据镜头描述生成的原创参考画面，非影片原帧。':'同片代表图，不是当前镜头的原帧。'}));
+ LB_STATE.idx=0;renderLightboxItem();}
 function bindCards(root){root.querySelectorAll('[data-open]').forEach(e=>e.onclick=()=>{const id=e.dataset.open;if(e.classList.contains('thumb')&&shotImageSrc(id)){const r=BYID.get(id);if(r)openShotVisualLightbox(r);else openDetail(id);}else openDetail(id);});
+ root.querySelectorAll('[data-film-open]').forEach(e=>{const show=()=>openFilmStillLightbox(e.dataset.filmOpen);e.onclick=show;e.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();show();}};});
  root.querySelectorAll('[data-source-link]').forEach(a=>a.onclick=e=>e.stopPropagation());
  root.querySelectorAll('[data-add]').forEach(b=>b.onclick=e=>{e.stopPropagation();addToDeck([b.dataset.add]);});
  root.querySelectorAll('[data-cmp]').forEach(b=>b.onclick=e=>{e.stopPropagation();toggleCmp(b.dataset.cmp);});}
@@ -839,10 +862,11 @@ function syncPager(cur0,pages){const cur=cur0+1;$('page').textContent=`第 ${cur
  const nums=$('page-nums');if(nums){const listPages=[],start=Math.max(1,Math.min(cur-2,pages-6)),end=Math.min(pages,Math.max(cur+2,7));if(start>1)listPages.push(1);if(start>2)listPages.push('…');for(let p=start;p<=end;p++)listPages.push(p);if(end<pages-1)listPages.push('…');if(end<pages)listPages.push(pages);nums.innerHTML=listPages.map(p=>p==='…'?'<span class="pdots">…</span>':`<button type="button" class="pnum${p===cur?' on':''}" data-page="${p}"${p===cur?' aria-current="page"':''}>${p}</button>`).join('');nums.querySelectorAll('[data-page]').forEach(b=>b.onclick=()=>{page=Number(b.dataset.page)-1;renderGrid();window.scrollTo({top:0});});}
  const sel=$('page-select');if(sel){if(sel._max!==pages){sel._max=pages;sel.innerHTML=Array.from({length:pages},(_,i)=>`<option value="${i+1}">第 ${i+1} / ${pages} 页</option>`).join('');}sel.value=String(cur);sel.disabled=pages<=1;}
  const inp=$('page-input');if(inp){inp.max=String(pages);inp.value=String(cur);inp.disabled=pages<=1;if($('page-go'))$('page-go').disabled=pages<=1;}}
-function renderGrid(){const n=list.length,pages=Math.max(1,Math.ceil(n/PS));page=Math.max(0,Math.min(page,pages-1));
- $('count').innerHTML=`共 <b>${n.toLocaleString()}</b> 镜 · ${new Set(list.map(r=>r.w)).size.toLocaleString()} 部作品`;
+function renderGrid(){const n=list.length,groups=new Map();list.forEach(r=>{const key=String(r.W.wid||r.w);let g=groups.get(key);if(!g){g={key,w:r.W,rows:[]};groups.set(key,g);}g.rows.push(r);});FIND_FILM_GROUPS=groups;
+ const films=[...groups.values()],pages=Math.max(1,Math.ceil(films.length/PS));page=Math.max(0,Math.min(page,pages-1));
+ $('count').innerHTML=`共 <b>${films.length.toLocaleString()}</b> 部作品 · ${n.toLocaleString()} 个匹配镜头 · 每部仅显示 1 张主图`;
  syncPager(page,pages);
- const g=$('grid');g.innerHTML=n?list.slice(page*PS,page*PS+PS).map(r=>card(r)).join(''):'<div class="empty">没有符合的镜头。可以减少一些条件，或把多选类切到“任一即可”。</div>';bindCards(g);}
+ const g=$('grid');g.innerHTML=n?films.slice(page*PS,page*PS+PS).map(filmCard).join(''):'<div class="empty">没有符合的镜头。可以减少一些条件，或把多选类切到“任一即可”。</div>';bindCards(g);}
 /* ---------- 详情 ---------- */
 let CUR=null;
 function tagLinks(k,vs){return(Array.isArray(vs)?vs:[vs]).filter(Boolean).map(v=>`<span class="t" data-k="${k}" data-v="${esc(v)}" title="加入筛选">${esc(v)}</span>`).join('');}
@@ -987,7 +1011,7 @@ function openPick(){const customBtns=DECKS.list.map(d=>`<button style="display:b
  $('pList').querySelectorAll('[data-forksys]').forEach(b=>b.onclick=()=>{const sd=SYS_DECK_MAP.get(b.dataset.forksys);if(sd){newDeck(sd.name+'（我的改版）',sd.desc,sd.items);pushPending();}});
  $('pick').showModal();}
 function pushPending(){const d=curDeck();if(!d)return;let n=0;PENDING.forEach(id=>{if(!d.items.some(x=>x.id===id)){d.items.push({id,note:''});n++;}});saveDecks();$('pick').close();toast(`已加入「${d.name}」${n} 镜`);refreshMarks();}
-function refreshMarks(){document.querySelectorAll('[data-add]').forEach(b=>{const on=deckHas(b.dataset.add);b.classList.toggle('in',on);b.textContent=on?'✓ 已在图集':'＋图集';});if(CUR&&$('detail').open)$('dAdd').textContent=deckHas(CUR.id)?'✓ 已在当前图集':'＋ 加入图集';if(!$('tab-decks').hidden)renderDecks();}
+function refreshMarks(){document.querySelectorAll('[data-add]').forEach(b=>{const on=deckHas(b.dataset.add),film=b.closest('.film-card');b.classList.toggle('in',on);b.textContent=film?(on?'✓ 主图已入集':'＋主图入集'):(on?'✓ 已在图集':'＋图集');});if(CUR&&$('detail').open)$('dAdd').textContent=deckHas(CUR.id)?'✓ 已在当前图集':'＋ 加入图集';if(!$('tab-decks').hidden)renderDecks();}
 function b64e(s){return btoa(unescape(encodeURIComponent(s))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');}
 function b64d(s){s=s.replace(/-/g,'+').replace(/_/g,'/');while(s.length%4)s+='=';return decodeURIComponent(escape(atob(s)));}
 const PUBLIC_FILM='https://aikingtai-ctrl.github.io/jintai-history-image-library/film.html';

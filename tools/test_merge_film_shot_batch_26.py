@@ -1,12 +1,14 @@
 """Regression check: publishing a batch preserves earlier images and is idempotent."""
 
 import hashlib
+import io
 import json
 import subprocess
 import sys
 import tempfile
 import unittest
 from pathlib import Path
+from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -17,7 +19,9 @@ class MergeFilmShotsTest(unittest.TestCase):
     def test_preserves_existing_mapping_and_repeated_publish(self):
         target = json.loads((ROOT / "film-ai" / "shot-targets-20261112.json").read_text(encoding="utf-8"))[0]
         shot_id = target["id"]
-        payload = (ROOT / "film-ai" / "shots" / f"{shot_id}.webp").read_bytes()
+        image_bytes = io.BytesIO()
+        Image.new("RGB", (128, 128), (38, 71, 112)).save(image_bytes, format="WEBP")
+        payload = image_bytes.getvalue()
         row = {
             "id": shot_id,
             "position": 1,
@@ -35,13 +39,15 @@ class MergeFilmShotsTest(unittest.TestCase):
             earlier = {"id": "earlier-shot", "model_family": "Images 2.6", "sha256": "earlier-hash"}
             (dest / "film-ai" / "shots-ledger-26.jsonl").write_text(json.dumps(earlier) + "\n", encoding="utf-8")
             manifest = dest / "film-ai" / "shots-manifest.js"
-            manifest.write_text('window.FILM_SHOT_IMAGES={"earlier-shot":"film-ai/shots/earlier-shot.webp"};\n', encoding="utf-8")
+            work_mapping = 'window.FILM_SHOT_WORK_IMAGES={"film-a":"film-ai/shots/film-a-cover.webp"};\n'
+            manifest.write_text('window.FILM_SHOT_IMAGES={"earlier-shot":"film-ai/shots/earlier-shot.webp"};\n' + work_mapping, encoding="utf-8")
 
             command = [sys.executable, str(MERGER), "--source", str(source), "--dest", str(dest)]
             first = subprocess.run(command, capture_output=True, text=True, check=True)
             self.assertEqual(json.loads(first.stdout)["added"], 1)
             self.assertIn('"earlier-shot"', manifest.read_text(encoding="utf-8"))
             self.assertIn(shot_id, manifest.read_text(encoding="utf-8"))
+            self.assertIn(work_mapping, manifest.read_text(encoding="utf-8"))
             self.assertEqual((dest / "film-ai" / "shots" / f"{shot_id}.webp").read_bytes(), payload)
 
             second = subprocess.run(command, capture_output=True, text=True, check=True)

@@ -39,6 +39,7 @@ jobs:
             "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .
           git sparse-checkout set --no-cone \
             /tools/generate_film_shot_images_26.mjs \
+            /tools/film-shot-quota.mjs \
             /tools/merge_film_shot_batch_26.py \
             /film-ai/shot-targets-20261112.json \
             /film-ai/shots-manifest.js \

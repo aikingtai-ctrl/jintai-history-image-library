@@ -35,6 +35,16 @@ def manifest(path):
     return json.loads(match.group(1))
 
 
+def write_manifest(path, mapping):
+    """Update shot IDs while retaining the separate film representative image mapping."""
+    existing = path.read_text(encoding="utf-8") if path.exists() else ""
+    assignment = "window.FILM_SHOT_IMAGES=" + json.dumps(mapping, ensure_ascii=False, separators=(",", ":")) + ";"
+    updated, count = re.subn(r"window\.FILM_SHOT_IMAGES\s*=\s*\{.*?\}\s*;", lambda _: assignment, existing, count=1, flags=re.DOTALL)
+    if not count:
+        updated = assignment + "\n" + existing
+    path.write_text(updated, encoding="utf-8")
+
+
 def image_file(root, shot_id):
     return root / "film-ai" / "shots" / f"{shot_id}.webp"
 
@@ -94,7 +104,7 @@ def main():
     if added:
         dest_ledger.write_text("".join(json.dumps(item, ensure_ascii=False) + "\n" for item in dest_rows), encoding="utf-8")
     if mapping_changed:
-        dest_manifest.write_text("window.FILM_SHOT_IMAGES=" + json.dumps(mapping, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
+        write_manifest(dest_manifest, mapping)
     print(json.dumps({"generated": len(generated), "added": len(added), "kept_from_latest": len(generated) - len(added)}, ensure_ascii=False))
 
 
