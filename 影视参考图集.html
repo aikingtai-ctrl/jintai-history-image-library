@@ -1618,7 +1618,7 @@ function getFilmAiSrc(wid){
  return resolveFilmAiLegacyAsset(representative||'');
 }
  function workPhotoEntries(w){if(!w)return[];const out=[],seen=new Set(),kindNames={primary:'影片主图',representative:'单片代表图',cover:'AI 图集封面',shot:'逐镜参考图',work:'作品关联图'};
-  const add=(src,shotId='',kind='参考画面')=>{if(!src||out.length>=5||window.FILM_BAD_SOURCE_CHECK?.(src))return;const resolved=resolveFilmAiAsset(src),key=resolved.split(/[?#]/)[0].toLowerCase();if(seen.has(key))return;seen.add(key);out.push({src:resolved,shotId,kind:kindNames[kind]||kind});};
+  const add=(src,shotId='',kind='参考画面')=>{if(!src||out.length>=5||window.FILM_BAD_SOURCE_CHECK?.(src))return;const resolved=resolveFilmAiAsset(src),key=filmImageKey(resolved);if(seen.has(key))return;seen.add(key);out.push({src:resolved,shotId,kind:kindNames[kind]||kind});};
   const curated=(window.FILM_WORK_GALLERIES||{})[w.wid];
   if(Array.isArray(curated)&&curated.length){curated.forEach(x=>{if(typeof x==='string')add(x);else if(x)add(x.src||x.path,x.shotId||'',x.kind||'参考画面');});return out;}
   add(getFilmAiSrc(w.wid),'','单片代表图');
