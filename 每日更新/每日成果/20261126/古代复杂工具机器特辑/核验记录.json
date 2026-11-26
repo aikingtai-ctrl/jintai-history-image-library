@@ -1,0 +1,28 @@
+{
+  "task": "古代复杂工具机器特辑 3,000 件扩充与重铸",
+  "verified_at": "2026-11-26 15:36:49+08:00",
+  "total_machines": 3000,
+  "total_views": 30000,
+  "cn_count": 2500,
+  "world_count": 500,
+  "unique_ids": 3000,
+  "unique_names": 3000,
+  "unique_prompts": 3000,
+  "forbidden_token_hits": 0,
+  "shard_sizes_bytes": {
+    "m_01.js": 771739,
+    "m_02.js": 845440,
+    "m_03.js": 896817,
+    "m_04.js": 950122,
+    "m_05.js": 863610,
+    "m_06.js": 895811,
+    "m_07.js": 935774,
+    "m_08.js": 931869,
+    "m_09.js": 797294,
+    "m_10.js": 838133,
+    "m_11.js": 930526,
+    "m_12.js": 968923
+  },
+  "max_shard_bytes": 968923,
+  "status": "PASS_PRE_PUBLISH"
+}

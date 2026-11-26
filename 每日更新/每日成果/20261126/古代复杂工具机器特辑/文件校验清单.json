@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-11-26 15:36:49+08:00",
+  "archive_files": {
+    "index.html": {
+      "bytes": 9134,
+      "sha256": "ab5ed8c840933865cf0296cbfc65cfc385064f9664579ee50b56d8cf29b7cf5b"
+    },
+    "古代复杂工具机器3000全集.json": {
+      "bytes": 11435102,
+      "sha256": "05f2308393b0fd33735eec4617748f86565ff00b3fd58b821c3ec18d93d3b311"
+    },
+    "古代复杂工具机器3000提示词.txt": {
+      "bytes": 8077118,
+      "sha256": "b79df2a055a274456848dd818df3b789d7e52d46f2a7a3497ceb7f63faf49a77"
+    },
+    "来源与机械考证清单3000.json": {
+      "bytes": 1358862,
+      "sha256": "52c8309f7170f24f87c86daca03b8ba8d378dcf4f7b26a26bdd4e8a3c83eab01"
+    },
+    "核验记录.json": {
+      "bytes": 703,
+      "sha256": "79bf00c034eddfac00dbd7498916bbeb239ee56b4e517705570ff8808d1468b0"
+    }
+  },
+  "web_assets": {
+    "machines.html": {
+      "bytes": 30230,
+      "sha256": "5dbf4c35f7db9964c47a830c33084bd2505c16e7fa93df91a59282ab8eda05d9"
+    },
+    "machines_data/manifest.js": {
+      "bytes": 10601,
+      "sha256": "dcf4ca7322fdf5a5f21af39ec4becba48b04cc999f0de0fce9439cd0851c4425"
+    },
+    "machines_data/m_01.js": {
+      "bytes": 771739,
+      "sha256": "f9c8a91d71f9df157ebf3514736ba4cfb19289f03e8ad04552b63878c24a6c38"
+    },
+    "machines_data/m_02.js": {
+      "bytes": 845440,
+      "sha256": "2291eca48ba924822a6174e4c7058f2f2cb29e1557918bff23f16f09b9bc6891"
+    },
+    "machines_data/m_03.js": {
+      "bytes": 896817,
+      "sha256": "f7c5c864d5da5f132552591600b594be713855b967bc9ba2a7eb0ff4115388bf"
+    },
+    "machines_data/m_04.js": {
+      "bytes": 950122,
+      "sha256": "42326564296c4a255c3cb4193c46c1abd2912c6b42d1b1e5ee8bcc7cd01f77e3"
+    },
+    "machines_data/m_05.js": {
+      "bytes": 863610,
+      "sha256": "1e5de19de059dd8ecda4da359814f852047a0460cd2e4e13ed110f96403c85ea"
+    },
+    "machines_data/m_06.js": {
+      "bytes": 895811,
+      "sha256": "6c263e242ff0babe5ba34c07dcca704598aaae0dd2406cf7f273f6230ab29b41"
+    },
+    "machines_data/m_07.js": {
+      "bytes": 935774,
+      "sha256": "175e4be2503c833c8835b096bb6da7b7a58c96a9fc8e49211489d4b18d5c4a4d"
+    },
+    "machines_data/m_08.js": {
+      "bytes": 931869,
+      "sha256": "9352adf681e84614680312758379bf8f526ed43783602572d48beff5f38940a3"
+    },
+    "machines_data/m_09.js": {
+      "bytes": 797294,
+      "sha256": "1ef9a1957604379dc7d1324355ff1a724a89d645f76136695148cad1d30139d2"
+    },
+    "machines_data/m_10.js": {
+      "bytes": 838133,
+      "sha256": "d0d55000805e5c845dc114b698e7c7a498944eabaa41e14699f59e6bd7afa9d6"
+    },
+    "machines_data/m_11.js": {
+      "bytes": 930526,
+      "sha256": "08da7e7492e562e285f32e17337f7d68a25ae2cedcda7e9281ddcfd5671d7bc4"
+    },
+    "machines_data/m_12.js": {
+      "bytes": 968923,
+      "sha256": "a8acf72575af31c15cbcf8defa0bef3367251cc5cd97474a5b162b1d451254a2"
+    }
+  }
+}

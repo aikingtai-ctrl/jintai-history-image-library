@@ -2917,3 +2917,5 @@
 | **`append_only_guard` 状态快照** | `20261115T004518_figures_20261114.json` | **`20261115T213700_night2100_20261115.json`（`protected_old_files: 3366, protected_pages: 4, guard_errors: []`）** | **只追加保护 100% 通过（0 errors）** |
 | **Git Commit & Remote Sync** | `b9980c3d7a` | **`159d5b8aea`** | **已成功推送至 `origin/main`** |
 | **计划任务守护 (`run_daily_2100_history_expand.py`)** | 就绪 | **识别 `night_2100_batch.status == "completed"` 幂等跳过（返回码 0）** | **Windows 计划任务与 Antigravity Daemon Schedule (`task-185`) 双重就绪** |
+
+- **2026-11-26 15:38:01+08:00 · 古代复杂工具机器特辑升级 3,000 件**：`machines.html` + `machines_data/manifest.js` + `m_01..m_12.js`（12 大门类 × 250 = 3,000 件实证机械 / 中华 2,500 + 世界 500 / 弹窗十镜切换 30,000 分镜 / 零否定词 / Hallmark 0/0/0 / Playwright E2E PASS）。
