@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T23:28:27.286110+08:00",
+  "updated_at": "2026-11-27T00:34:52.860451+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -842,6 +842,90 @@
       "sha256": "931fd8b79b04ce0d36d403b5c81eadc2b7116cd4e25c0d7aef696130bbe0cf67",
       "reason": "02 现代东亚男子在办公室打电话，与 1962 版 Sean Connery 饰 Bond 的牙买加任务、角色阵容不符，判串片。",
       "evidence": "第二十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "durian-durian-2000",
+      "src": "film-ai/durian-durian-2000.jpg",
+      "sha256": "5fa78a491790d5ffe8e840bc80a443ab0a2f6f3604801a15091f1613bb8cf95e",
+      "reason": "原图上下拼接人物宣传照与白底榴莲，叠有大幅片名文字，属于海报拼版而非单幅剧情剧照。",
+      "evidence": "第二十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "dwelling-in-the-fuchun-mountains-2019",
+      "src": "film-ai/dwelling-in-the-fuchun-mountains-2019.jpg",
+      "sha256": "9c8dd471f5b56580e1768704cf0e97105c6060dc28350facf8eda65a172b43be",
+      "reason": "原图男女均穿汉服、束古代发式，呈古装爱情片；与 2019 年片目明确的当代富阳家庭冲突。",
+      "evidence": "第二十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "easy-rider-1969",
+      "src": "film-ai/easy-rider-1969.jpg",
+      "sha256": "a33e9689e438fabf0b706b57ae79f8bf0b5b2f8f1ac9207c7c9018db34e08b57",
+      "reason": "原图左上有明显 TONI BASIL 片头演员字卡，属于带字幕的演职员画面，不是可作独立剧照的干净场景；该演员确属本片。",
+      "evidence": "第二十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "empire-of-light-2022",
+      "src": "film-ai/empire-of-light-2022.jpg",
+      "sha256": "2d9515fbfd5c2f0e1fb9dd1592740c9383dbfeaec742f061c785c5cfdf53eb4e",
+      "reason": "原图为东亚面貌女子望向现代水岸，和官方核定的 Hilary、Stephen 主角组合及八十年代英国海滨影院场景冲突。",
+      "evidence": "第二十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "eastern-promises-2007",
+      "src": "film-ai/decks/film-eastern-promises-2007.webp",
+      "sha256": "2670ed5e6e161d9dedd33f6f6d1550dbb9c2010a60a0ddd54a405af2d7632002",
+      "reason": "俄餐馆被放到西敏桥与大本钟旁的旅游地标前；虽为伦敦，和官方所述东区移民餐馆地点不合，缺少人物情节锚点。",
+      "evidence": "第二十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "eastern-promises-2007",
+      "src": "film-ai/eastern-promises-2007.jpg",
+      "sha256": "cd343eb0039038f1c3a0b9aa623b2540d4e5742282f609cb9f7ac6d9cc8a4565",
+      "reason": "两名戴帽男子走过暗巷，没有可认的 Nikolai、Anna、俄裔餐馆或帮派纹身线索。",
+      "evidence": "第二十五批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "enter-the-dragon-1973",
+      "src": "film-ai/enter-the-dragon-1973.jpg",
+      "sha256": "32e9ceb8de17c7b2428fee7b566f45477660b4ea6bf838f9a45ac85b24e7f837",
+      "reason": "02 穿现代中式外套的年轻男子与主演 Bruce Lee 相貌不符，画面也无影片岛上武馆/比武线索，判串片。",
+      "evidence": "第二十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "enter-the-void-2009",
+      "src": "film-ai/enter-the-void-2009.jpg",
+      "sha256": "a01b53ac5dc79fca812a018eedaac8462183951ef393c48f7da7f03abf154ddf",
+      "reason": "02 长发古装男子被圆框包围，和影片当代东京的 Oscar、Linda 及霓虹都市设定冲突，判串片。",
+      "evidence": "第二十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "equinox-flower-1958",
+      "src": "film-ai/equinox-flower-1958.jpg",
+      "sha256": "86cb3223c50f008bedd74a0541dfce80d6efef7be8af429563eb43f1a15739b2",
+      "reason": "02 黑白母女合照式画面，和小津 1958 年首部彩色电影的媒介特征明确冲突，不能作该片的色彩参考。",
+      "evidence": "第二十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "ermo-1994",
+      "src": "film-ai/ermo-1994.jpg",
+      "sha256": "359342ae31ff4b75296cc73ad270d4c91f797337928f32e8a6f5e80356093c9c",
+      "reason": "02 人物编篮画面上叠印巨大红色片名《二嫫》，是带字宣传图而非独立剧照。",
+      "evidence": "第二十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "eternal-sunshine-of-the-spotless-mind-2004",
+      "src": "film-ai/eternal-sunshine-of-the-spotless-mind-2004.jpg",
+      "sha256": "ba08311d606b7133adbf7874ce0c50e184dd3b70c6a75e7fa77f6f6154092c23",
+      "reason": "02 火车上东亚男女与 Focus 官方确认的 Jim Carrey 饰 Joel、Kate Winslet 饰 Clementine 不符，判串片。",
+      "evidence": "第二十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "fail-safe-1964",
+      "src": "film-ai/fail-safe-1964.jpg",
+      "sha256": "da024d67de9902f621c4f80fd7b91421218b089b99281a02b45619388c0d4da2",
+      "reason": "02 全屏只有 FAIL-SAFE 大字，无独立人物或场景，是片名字卡。",
+      "evidence": "第二十六批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
