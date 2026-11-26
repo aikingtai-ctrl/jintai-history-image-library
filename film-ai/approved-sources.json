@@ -103,6 +103,16 @@
         "sha256": "ed574509ca6e38945a5ae906cd9fd1937b5c4a0b1e10dd42fb7899f2d3fdc416"
       }
     ],
+    "aftersun-2022": [
+      {
+        "src": "film-ai/decks/film-aftersun-2022.webp",
+        "sha256": "170af0ccfd9e390faddf11b3689b41f7dc22223ae0e15c9b9770a0a08654fec5"
+      },
+      {
+        "src": "film-ai/restored/aftersun-2022.jpg",
+        "sha256": "5ca448bb6c968bcdf885712c7e7fda5a52833256f2e4fe8703edd8dffc3f92a8"
+      }
+    ],
     "all-quiet-on-the-western-front-2022": [
       {
         "src": "film-ai/quality-reviewed/all-quiet-on-the-western-front-2022.png",
@@ -149,6 +159,16 @@
       {
         "src": "film-ai/decks/film-anomalisa-2015.webp",
         "sha256": "dba154c9910d0a51e963a12ca34884d4bd5e09631547a822938a5485013ed7a1"
+      }
+    ],
+    "anora-2024": [
+      {
+        "src": "film-ai/decks/film-anora-2024.webp",
+        "sha256": "3117362f479f9ec49159ff91b39135a7446d141a3950753b7cda96ddf336c83c"
+      },
+      {
+        "src": "film-ai/restored/anora-2024.jpg",
+        "sha256": "3912722b6a14f94f23170754bbf3a105e48b3c92db13801db647ff000be35a5f"
       }
     ],
     "apocalypse-now-1979": [
@@ -349,6 +369,16 @@
         "sha256": "33a8a5bd528a2162a748c65253fdbcb8700dfe675bb8ee467d57a8004c966f83"
       }
     ],
+    "burning-2018": [
+      {
+        "src": "film-ai/decks/film-burning-2018.webp",
+        "sha256": "c77adfae2707f746971de98e0df2fe24b98c4dfa91586cb672e4499bfb1a4b66"
+      },
+      {
+        "src": "film-ai/restored/burning-2018.jpg",
+        "sha256": "4333b570e5386817533fe9c43d91f2565443b87316be35611d0e95b96c403cdc"
+      }
+    ],
     "cabiria-1914": [
       {
         "src": "film-ai/shots/YS-20261109F5-M68-cabiria-1914-006.webp",
@@ -403,6 +433,16 @@
       {
         "src": "film-ai/decks/film-center-stage-1991.webp",
         "sha256": "58f7936d406d84e50127683bf07feb7947a14e56da60899f46786257c970a84e"
+      }
+    ],
+    "chang-an-2023": [
+      {
+        "src": "film-ai/decks/film-chang-an-2023.webp",
+        "sha256": "218c265eaf66276f45fedfd518f3050ede6cc689273d3910b8d4ced3ef75677a"
+      },
+      {
+        "src": "film-ai/restored/chang-an-2023.jpg",
+        "sha256": "04582371609bb216213520c19a8297373edb91e3188bdd883fcaab147b0d1ca7"
       }
     ],
     "chinatown-1974": [
@@ -1041,6 +1081,16 @@
         "sha256": "2aef94388416724b408fc6ec2ed7e48c23fcf5b10f2132c77e0221f358397d23"
       }
     ],
+    "ida-2013": [
+      {
+        "src": "film-ai/decks/film-ida-2013.webp",
+        "sha256": "411648eb078714afdf8eea09e39b090eee186a7042eecf105de3857f08b1577c"
+      },
+      {
+        "src": "film-ai/restored/ida-2013.jpg",
+        "sha256": "32b692d326cfe50590d37edd02fe5ec56a84c57d7ca9e5acd171936dff3139a9"
+      }
+    ],
     "im-a-cyborg-but-thats-ok-2006": [
       {
         "src": "film-ai/shots/YS-20261111B5-M68-im-a-cyborg-but-thats-ok-2006-047.webp",
@@ -1189,6 +1239,16 @@
       {
         "src": "film-ai/killer-of-sheep-1978.jpg",
         "sha256": "b38b3183d0b69a8b747b674aa9c29c3e200f4e76da8bd7eb0888ae89a4df2c9e"
+      }
+    ],
+    "killers-of-the-flower-moon-2023": [
+      {
+        "src": "film-ai/decks/film-killers-of-the-flower-moon-2023.webp",
+        "sha256": "a40710af9e401d11f13675621a1be319da75cd4337f338b44a863b44e6484940"
+      },
+      {
+        "src": "film-ai/restored/killers-of-the-flower-moon-2023.jpg",
+        "sha256": "c97ae2b1f576f05e921f811a67164ae017619a9d34002dd5c883fcdb880c93eb"
       }
     ],
     "la-terra-trema-1948": [
@@ -1591,6 +1651,16 @@
         "sha256": "3351ed60869c407f6479b83adf5e911679492b0832258d413bfa914315aecb64"
       }
     ],
+    "shoplifters-2018": [
+      {
+        "src": "film-ai/decks/film-shoplifters-2018.webp",
+        "sha256": "e4bce405d79c723fabe1f19592159936c0b3e5f294ef42c2c791dd161b07710a"
+      },
+      {
+        "src": "film-ai/restored/shoplifters-2018.jpg",
+        "sha256": "84878cb29d16a8f5bf37a2abc7bf5ac169076ae4d6d6a8f87e6c259a715e78dc"
+      }
+    ],
     "sinners-2025": [
       {
         "src": "film-ai/shots/YS-20261028-CF-sinners-2025-026.webp",
@@ -1629,6 +1699,16 @@
         "sha256": "f2f9344c7ce338083464ec766bd1b9b7b0473fbc4f7731b1c0e9b8eeb160295c"
       }
     ],
+    "taste-of-cherry-1997": [
+      {
+        "src": "film-ai/decks/film-taste-of-cherry-1997.webp",
+        "sha256": "644b30c265c0bafa6ee6f1c2e64a4c31560176a73fa184cd899f4d53d9455b4d"
+      },
+      {
+        "src": "film-ai/restored/taste-of-cherry-1997.jpg",
+        "sha256": "4ede01e36df0655d06e4249ee2a44edce2fa28fdd1cc03009a662ae3ae7ba003"
+      }
+    ],
     "the-assassin-2015": [
       {
         "src": "film-ai/shots/YS-20261103-CW112-the-assassin-2015-105.webp",
@@ -1649,6 +1729,16 @@
         "sha256": "adc447c58835162004b6e61df27aff6cb2fff4467c9d01f3dbd8ee4cf3513875"
       }
     ],
+    "the-florida-project-2017": [
+      {
+        "src": "film-ai/decks/film-the-florida-project-2017.webp",
+        "sha256": "61f3d8a16557d1c7496ed06fab3dda74f39de430ea0ca55a7d1cd5b92ea06d85"
+      },
+      {
+        "src": "film-ai/restored/the-florida-project-2017.jpg",
+        "sha256": "9cfe1a08ea54cfde21381784610dfca701d6ab3cceda5bf4ed260bbaf2dab397"
+      }
+    ],
     "the-godfather-1972": [
       {
         "src": "film-ai/decks/film-the-godfather-1972.webp",
@@ -1667,6 +1757,36 @@
       {
         "src": "film-ai/restored/the-grandmaster-2013.jpg",
         "sha256": "213544470a39fac0bd8e8c01b10ec0d2a6bce0eb4c600db5bd5819a3a3d080aa"
+      }
+    ],
+    "the-lighthouse-2019": [
+      {
+        "src": "film-ai/decks/film-the-lighthouse-2019.webp",
+        "sha256": "dc231b49c77c3e5b44a5c0162f47b10f70c0a67143ada35b2680a3f1b63d50f1"
+      },
+      {
+        "src": "film-ai/restored/the-lighthouse-2019.jpg",
+        "sha256": "477105263cc373708895ac96e1988bc8759cc228e94555f3469f1bd21a8e6129"
+      }
+    ],
+    "the-substance-2024": [
+      {
+        "src": "film-ai/decks/film-the-substance-2024.webp",
+        "sha256": "424b311a113f5e4b75d89b906d49146d1e5ac116df4b299bce9663dcb2d9f2ad"
+      },
+      {
+        "src": "film-ai/restored/the-substance-2024.jpg",
+        "sha256": "cd5b6e27f4182c80da1ddfb8158b8e52b85f030a36f4f4ba7a20cabc19b07daf"
+      }
+    ],
+    "the-zone-of-interest-2023": [
+      {
+        "src": "film-ai/decks/film-the-zone-of-interest-2023.webp",
+        "sha256": "4e13d9e802d971ccc5d5ef4f7de16c2a4e908061f38872d995a5f27087b7a2ec"
+      },
+      {
+        "src": "film-ai/restored/the-zone-of-interest-2023.jpg",
+        "sha256": "0e081e2a7f9b3ec6f1a90350b2004f33f12abf8ca9d31842d5b4a242560a82d1"
       }
     ],
     "there-will-be-blood-2007": [

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T14:33:06.361366+08:00",
+  "updated_at": "2026-11-26T16:07:34.573972+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -44,6 +44,34 @@
       "sha256": "a6c8fcbb38bb7f7cc30f800d600a803c6a8e64e0dc481ddf617a319361515514",
       "reason": "Hooded bearded fantasy figure is unrelated to Gladiator",
       "evidence": "qa_batch2/contact-04.jpg"
+    },
+    {
+      "wid": "a-separation-2011",
+      "src": "film-ai/restored/a-separation-2011.jpg",
+      "sha256": "2fd5b03681da19db47672fcb36cace8f19c18aa8d5744028541bfebd038823c7",
+      "reason": "PRC identity cards are unrelated to the Iranian film",
+      "evidence": "2026-11-26_影视多图候选只读审计/第七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "havoc-in-heaven-1961",
+      "src": "film-ai/restored/havoc-in-heaven-1961.jpg",
+      "sha256": "c691b8256edc6021605fe00f46914465e5f3fea12e7d7ed0ffcbb39144fd150e",
+      "reason": "Cyberpunk city figure is unrelated to the 1961 hand-drawn Monkey King film",
+      "evidence": "2026-11-26_影视多图候选只读审计/第七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "ghost-in-the-shell-1995",
+      "src": "film-ai/restored/ghost-in-the-shell-1995.jpg",
+      "sha256": "0d24ebfd8a06bd98f6b432994ef2d2fdfc0aa723c34320ef564f7eb2c014623b",
+      "reason": "Fantasy mounted archery is unrelated to the cyberpunk anime",
+      "evidence": "2026-11-26_影视多图候选只读审计/第七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "spider-man-across-the-spider-verse-2023",
+      "src": "film-ai/restored/spider-man-across-the-spider-verse-2023.jpg",
+      "sha256": "ab84c480b27665a281f0cf4b67ea424bdccd2345d617399ed8498a0587de244d",
+      "reason": "Lettered multi-panel collage is not a standalone film image",
+      "evidence": "2026-11-26_影视多图候选只读审计/第七批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
