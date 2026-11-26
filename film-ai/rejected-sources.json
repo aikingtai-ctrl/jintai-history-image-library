@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T00:34:52.860451+08:00",
+  "updated_at": "2026-11-27T01:13:45.757920+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -926,6 +926,62 @@
       "sha256": "da024d67de9902f621c4f80fd7b91421218b089b99281a02b45619388c0d4da2",
       "reason": "02 全屏只有 FAIL-SAFE 大字，无独立人物或场景，是片名字卡。",
       "evidence": "第二十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "father-and-son-1981",
+      "src": "film-ai/father-and-son-1981.jpg",
+      "sha256": "eccfa0640636d27abe68732217da78736821d5e5b8fba04120b5e75c0c1b0e16",
+      "reason": "父子肖像底部叠加大幅片名《父子情》，是宣传字卡/片名图，不是干净剧情剧照。",
+      "evidence": "第二十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "fear-and-loathing-in-las-vegas-1998",
+      "src": "film-ai/fear-and-loathing-in-las-vegas-1998.jpg",
+      "sha256": "167556c6cdc5ecda96331c65667d3afb08fd6ed52d5eae06437b2aa97eadc6ab",
+      "reason": "两名白人青年穿 1930–40 年代正装立于花园，均不具 Duke 的遮阳帽/墨镜或 Gonzo 人物形象，年代、人物与 1971 年迷幻公路片冲突。",
+      "evidence": "第二十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "finding-mr-right-2013",
+      "src": "film-ai/finding-mr-right-2013.jpg",
+      "sha256": "8365317cd6c665bc1038d2c7cfd67de6afb38a8503611a2ff657e78f2e7ca436",
+      "reason": "原图是欧美面孔男女穿旧时代服饰在乡村卧房交谈，和 2013 年西雅图华人孕妇及司机的时代、人物、地点全部冲突。",
+      "evidence": "第二十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "fire-of-love-2022",
+      "src": "film-ai/fire-of-love-2022.jpg",
+      "sha256": "da781a595dcd961bf3a045127646188f373d30ca22aa79786e406cc7cff0eab6",
+      "reason": "原图为观众席前四人映后座谈，背后银幕放映火山照片；这是影片之外的活动照，不是片内纪录画面或独立剧照。",
+      "evidence": "第二十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "flow-2024",
+      "src": "film-ai/flow-2024.jpg",
+      "sha256": "575631b0f27c0f9025ccbb79206af83161a5122e4046838afab6fca4ff726faa",
+      "reason": "画面是 Blender 类 3D 动画软件里的黑猫模型、骨骼控制线和工具栏，属于制作界面而非成片剧照。",
+      "evidence": "第二十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "foxcatcher-2014",
+      "src": "film-ai/foxcatcher-2014.jpg",
+      "sha256": "cc9f721604bb407803af4903f6de35cc3553ac78505b830b2c4065096e296fb2",
+      "reason": "画面中心是东亚青年摔跤手，与发行方确认的主角 Mark Schultz（Channing Tatum）形象和故事人物冲突，判串片。",
+      "evidence": "第二十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "frida-2002",
+      "src": "film-ai/frida-2002.jpg",
+      "sha256": "dc72fe66acf775073b4544b9febf8b7e38b09bae1fcdc36ae72b06b9d65c966a",
+      "reason": "蓝色伤痕特写呈现另一名现代东亚女性，没有 Salma Hayek 饰演的 Frida Kahlo 或墨西哥画家特征，判串片。",
+      "evidence": "第二十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "full-metal-jacket-1987",
+      "src": "film-ai/full-metal-jacket-1987.jpg",
+      "sha256": "90d738945a1f414fbcdc07b89d6c88384374f8b3116df608afc7af42afd73641",
+      "reason": "泥地训练的一队东亚男子与片中美国海军陆战队新兵训练及越南战地叙事不符，判串片。",
+      "evidence": "第二十八批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
