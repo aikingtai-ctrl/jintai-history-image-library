@@ -87,8 +87,12 @@ assert(!index.includes("info.thumb=base+'/gallery-thumbnails/'"), 'Unversioned g
 assert(index.includes('JINTAI_MYTH_IMAGES?.[id]'), 'Myth original mapping missing');
 assert(!index.includes("histOriginalInfo(r.id)?'查看原图'"), 'Unqualified original label in main gallery');
 assert(!index.includes('aria-label="打开原图：'), 'Unqualified detail label in main gallery');
-assert(index.includes('full.onload') && index.includes('download.hidden=false'), 'Lightbox download gate missing');
-assert(index.indexOf('download.hidden=false') > index.indexOf('full.onload'), 'Lightbox download shown before image load');
+const hlb = index.slice(index.indexOf('function renderHlb(){'), index.indexOf('function openHistLightbox'));
+const hlbPreload = hlb.indexOf('const full=new Image();');
+assert(hlbPreload >= 0, 'Lightbox original load missing');
+assert(hlb.indexOf('raw.href=url;') >= 0 && hlb.indexOf('raw.href=url;') < hlbPreload, 'Lightbox original link waits for image load');
+assert(hlb.indexOf('download.hidden=false;') >= 0 && hlb.indexOf('download.hidden=false;') < hlbPreload, 'Lightbox original download waits for image load');
+assert(hlb.includes("raw.textContent='原图加载失败 · 重试打开原图 ↗'"), 'Lightbox original-load failure not labeled');
 assert(index.includes('full.onerror') && index.includes('download.hidden=true'), 'Lightbox download failure fallback missing');
 const labelSource = functionSource(index, 'histOriginalLabel');
 let mapped = null;
@@ -116,7 +120,12 @@ for (const name of ['history-batch.html', 'history-batch-1001-2000.html']) {
   assert(html.includes('content:"↗ 查看预览"'), `${name}: old JPEG wrongly labeled as original`);
   assert(html.includes('.has-gpt::after{content:"↗ GPT Image 原图"}'), `${name}: accepted PNG label missing`);
   assert(html.includes("q('downloadPng').hidden=true"), `${name}: download initial hide missing`);
-  assert(html.indexOf("q('downloadPng').hidden=false") > html.indexOf('full.onload'), `${name}: download shown before image load`);
+  const show = html.slice(html.indexOf('async function show(r){'), html.indexOf('function stepRow'));
+  const preload = show.indexOf('const full=new Image();');
+  assert(preload >= 0, `${name}: original load missing`);
+  assert(show.indexOf("q('rawLink').href=url") >= 0 && show.indexOf("q('rawLink').href=url") < preload, `${name}: original link waits for image load`);
+  assert(show.indexOf("q('downloadPng').hidden=false") >= 0 && show.indexOf("q('downloadPng').hidden=false") < preload, `${name}: original download waits for image load`);
+  assert(show.includes("q('rawLink').textContent='原图加载失败 · 重试打开原图 ↗'"), `${name}: original-load failure not labeled`);
   await checkPopup(html, 'openOriginal', true);
 }
 
