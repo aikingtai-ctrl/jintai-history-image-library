@@ -947,6 +947,26 @@
         "sha256": "7873d55a261ed434b0c6ab973a7e4bf1f8f47509a4dda218575d0f580bec2591"
       }
     ],
+    "an-affair-to-remember-1957": [
+      {
+        "src": "film-ai/decks/film-an-affair-to-remember-1957.webp",
+        "sha256": "c6e0efc54a9758e2aa51ee3d347d74e81d23b074dba57c4ccfcf8136ca13c0e5"
+      },
+      {
+        "src": "film-ai/an-affair-to-remember-1957.jpg",
+        "sha256": "b656aea9a19f3b1738778ef0ef1e96b1bd06150c3ddbb03a0efb2da95a65b7cc"
+      }
+    ],
+    "an-autumns-tale-1987": [
+      {
+        "src": "film-ai/decks/film-an-autumns-tale-1987.webp",
+        "sha256": "e8e4bc58817b24da940936bb2a1ca448d2edb93f87d7f5e7cf129152c534e7ce"
+      },
+      {
+        "src": "film-ai/an-autumns-tale-1987.jpg",
+        "sha256": "d8c401b8f4b44f07813a6471aa5809bcfd881b0e3ba02aa15e7156b733845991"
+      }
+    ],
     "andor-2022": [
       {
         "src": "film-ai/shots/YS-20261103-CN96-andor-2022-093.webp",
@@ -959,6 +979,66 @@
       {
         "src": "film-ai/andor-2022.jpg",
         "sha256": "2a48a29c10fd9c8809a5e9226ae3eb413baf42ddd09b2395a1b44e675341d93d"
+      }
+    ],
+    "andrei-rublev-1966": [
+      {
+        "src": "film-ai/andrei-rublev-1966.jpg",
+        "sha256": "5e68be8c0378a205fdaa438af4d223f9256159f16702a5198f0ea3f264e076c5"
+      },
+      {
+        "src": "film-ai/decks/film-andrei-rublev-1966.webp",
+        "sha256": "2722aa10e0f396fc0fb42b4d5713a28f5f62b942509fdaa38344b5e4d50870b5"
+      }
+    ],
+    "angels-egg-1985": [
+      {
+        "src": "film-ai/decks/film-angels-egg-1985.webp",
+        "sha256": "e6d9e196dd490deddcf3faf04f2ec1887c931a11b6a4d37b61695762f35f5b4a"
+      },
+      {
+        "src": "film-ai/angels-egg-1985.jpg",
+        "sha256": "c898e919557c0b20ab9470be9e62e46691451d85cddafabf3825bcfd83b887a1"
+      }
+    ],
+    "anita-2021": [
+      {
+        "src": "film-ai/decks/film-anita-2021.webp",
+        "sha256": "cffbf7728eee90e74e53261b4fa77ccad9a83cf3acd0e53286070af619cb4563"
+      },
+      {
+        "src": "film-ai/anita-2021.jpg",
+        "sha256": "40a007fd9a430095e3bf1f53254139ff96281887190874c76c034b1e169742f9"
+      }
+    ],
+    "annihilation-2018": [
+      {
+        "src": "film-ai/decks/film-annihilation-2018.webp",
+        "sha256": "165388d42078b29fedb323907d6ea3236b6022eaa05aa3ac8a0b9fd1e2953426"
+      },
+      {
+        "src": "film-ai/annihilation-2018.jpg",
+        "sha256": "e9b78b5d0a745346ee596e1a7fcc70ef9b86b63d8e1ecd4817b61642dde08d0b"
+      }
+    ],
+    "annual-oscar-afi-4246": [
+      {
+        "src": "film-ai/decks/film-annual-oscar-afi-4246.webp",
+        "sha256": "52ed08d2fb8b91b090607eea10cdddbd467faa94d2091a7b0db2718317536e3a"
+      },
+      {
+        "src": "film-ai/annual-oscar-afi-4246.jpg",
+        "sha256": "c2c1a7d141f8da46b9fedd2f1b28f9e7c09af4311b18ae591b0bea9f28641127"
+      }
+    ],
+    "annual-oscar-afi-4261": [
+      {
+        "src": "film-ai/decks/film-annual-oscar-afi-4261.webp",
+        "sha256": "7e1d7f5fbdcd7ff4016ae876c09d1e08ddd664023e5917f3ae3de05561506128"
+      },
+      {
+        "src": "film-ai/annual-oscar-afi-4261.jpg",
+        "sha256": "f9b3b1890223efddef788b8aaec903288dc95c6218d0884fc4d281844733d831"
       }
     ],
     "anomalisa-2015": [
@@ -981,6 +1061,26 @@
         "sha256": "3912722b6a14f94f23170754bbf3a105e48b3c92db13801db647ff000be35a5f"
       }
     ],
+    "another-round-2020": [
+      {
+        "src": "film-ai/decks/film-another-round-2020.webp",
+        "sha256": "8064647f3e992c98765ca2ed73ce9b28b24ca8bd869b38c68140ee754675220f"
+      },
+      {
+        "src": "film-ai/another-round-2020.jpg",
+        "sha256": "68b4e72ab9dd39d4c1896f0217e1caf1887591a6587fd84011d2b7fbafd4211f"
+      }
+    ],
+    "anthropocene-the-human-epoch-2018": [
+      {
+        "src": "film-ai/decks/film-anthropocene-the-human-epoch-2018.webp",
+        "sha256": "4843689009af94e3fd870db97088015bac7001c0d4376494c59d8acf7b377790"
+      },
+      {
+        "src": "film-ai/anthropocene-the-human-epoch-2018.jpg",
+        "sha256": "81ef5fc92eb394d603e8b5aac1d81b7a6ce9230989accc22479a6dc058aecff5"
+      }
+    ],
     "apocalypse-now-1979": [
       {
         "src": "film-ai/shots/YS-0029-01.webp",
@@ -993,6 +1093,26 @@
       {
         "src": "film-ai/restored/apocalypse-now-1979.jpg",
         "sha256": "f82d566cab99011db6d0834a750fe33c18e6644c210803672ade6f725e6192ec"
+      }
+    ],
+    "apollo-11-2019": [
+      {
+        "src": "film-ai/decks/film-apollo-11-2019.webp",
+        "sha256": "2dfb5f8f90706894280542c56d12564ea0ab09427274ab968467d4e82a711fde"
+      },
+      {
+        "src": "film-ai/apollo-11-2019.jpg",
+        "sha256": "076fbfe437b768d3ff56a7fe2fa2f51b237e6d1a37f3c418b00cf8a1f828878d"
+      }
+    ],
+    "apollo-13-1995": [
+      {
+        "src": "film-ai/decks/film-apollo-13-1995.webp",
+        "sha256": "81f84d716c49cce744a4d43518881b9a44912ac52ea074570ffc5ed5f2d839bf"
+      },
+      {
+        "src": "film-ai/firstshot-20261126/apollo-13-1995.jpg",
+        "sha256": "631cb69dcc36b5231c7dee18e4f684f8302d0ff56d49bfad7176a8f1e26e3311"
       }
     ],
     "ashes-and-diamonds-1958": [

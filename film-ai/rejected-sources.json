@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T17:59:56.663657+08:00",
+  "updated_at": "2026-11-26T18:40:16.449451+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -310,6 +310,34 @@
       "sha256": "d690bdcad256177eb86fe7b55908b72d81686f4dac887b7ce90477dc6b5ec792",
       "reason": "02 是较年轻男女在桌边对话，戛纳明确主角 Georges/Anne 为八旬夫妻；强年龄/角色错配。",
       "evidence": "第十三批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "andhadhun-2018",
+      "src": "film-ai/andhadhun-2018.jpg",
+      "sha256": "239125b032228beb6f22a1df3a4b46616e046073e7e0505f1e2f11d915d75e88",
+      "reason": "02 黑人男子弹琴，而 Netflix 所列男主为 Ayushmann Khurrana；明确人物错配。",
+      "evidence": "第十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "anna-karenina-2012",
+      "src": "film-ai/anna-karenina-2012.jpg",
+      "sha256": "74beab773e443295c543a9bbe8c758e9889414a09b3036bc63fe12a0d0b6ae37",
+      "reason": "02 两名现代西装男子在豪华餐厅议事，与十九世纪俄国叙事及演员造型冲突；明确不适合该片参考。",
+      "evidence": "第十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "antichrist-2009",
+      "src": "film-ai/antichrist-2009.jpg",
+      "sha256": "654299f4f2be9ff59efad12592dd9667fdf3905c967d2ca8cac61f003b1cc039",
+      "reason": "02 东亚女性与一组人站在林中，与 Criterion 所列 Charlotte Gainsbourg/Dafoe 夫妇主线不合；强疑串片。",
+      "evidence": "第十四批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "an-autumn-afternoon-1962",
+      "src": "film-ai/an-autumn-afternoon-1962.jpg",
+      "sha256": "55de63aed9dff174adbd904757a456048467ad86969c9670eacb3115031171b5",
+      "reason": "02 黑白婚礼家庭照，与 Criterion 所列原片彩色不一致；不得作为原片色彩参考。",
+      "evidence": "第十四批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
