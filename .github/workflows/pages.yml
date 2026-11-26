@@ -238,7 +238,7 @@ jobs:
                   history_files = {
                       "browser-originals-manifest.js", "browser-originals-viewer.js",
                       "specials-400-manifest.js", "specials-4000-views-manifest.js", "specials-views-ui.js",
-                      "manifest.js", "source-notes.js", "gpt-image-manifest.js", "shanhaijing-gpt-manifest.js", "qing-manifest.js", "three-manifest.js", "page19-originals-manifest.js", "page20-originals-manifest.js", "page21-originals-manifest.js", "page22-originals-manifest.js", "page23-originals-manifest.js", "page24-originals-manifest.js", "regenerated-manifest.js", "myth-originals-manifest.js", "people-manifest.js",
+                      "manifest.js", "source-notes.js", "gpt-image-manifest.js", "shanhaijing-gpt-manifest.js", "qing-manifest.js", "three-manifest.js", "page19-originals-manifest.js", "page20-originals-manifest.js", "page21-originals-manifest.js", "page22-originals-manifest.js", "page23-originals-manifest.js", "page24-originals-manifest.js", "page25-originals-manifest.js", "regenerated-manifest.js", "myth-originals-manifest.js", "people-manifest.js",
                       "gallery-data.js", "gallery-data-batch2.js",
                       "batch-manifest.json", "batch2-manifest.json",
                       "image-audit.json", "verification.json", "verification-batch2.json",
