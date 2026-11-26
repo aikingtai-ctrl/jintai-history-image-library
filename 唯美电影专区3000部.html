@@ -214,10 +214,22 @@ button:disabled, .btn:disabled, .btn-sm:disabled, .tab-btn:disabled { opacity: 0
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   gap: 12px;
-  padding: 16px 0 12px;
+  padding: 16px 0 8px;
   font-size: 15px;
   color: var(--muted);
+}
+.status-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+}
+.sel-sm {
+  min-height: 36px;
+  padding: 4px 12px;
+  font-size: 14px;
 }
 .grid {
   display: grid;
@@ -375,8 +387,45 @@ button:disabled, .btn:disabled, .btn-sm:disabled, .tab-btn:disabled { opacity: 0
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   gap: 8px;
   padding: 24px 0 8px;
+}
+.pager-top {
+  justify-content: space-between;
+  padding: 8px 0 16px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 16px;
+}
+.pager-btns {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.pager-ellipsis {
+  padding: 0 4px;
+  color: var(--muted);
+  font-weight: 600;
+}
+.pager-jump {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.page-input {
+  width: 72px;
+  min-height: 36px;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-family: var(--font-sans);
+  border: 1px solid var(--line-strong);
+  border-radius: 5px;
+  background: var(--surface);
+  color: var(--ink);
+  text-align: center;
 }
 .modal-back {
   position: fixed;
@@ -539,11 +588,20 @@ button:disabled, .btn:disabled, .btn-sm:disabled, .tab-btn:disabled { opacity: 0
 
   <div class="status-bar">
     <span id="statusTxt">正在并行载入十大唯美电影谱系 30 个分片</span>
-    <span id="pageInfo">第 1 页</span>
+    <div class="status-right">
+      <label for="pageSizeSel">每页显示</label>
+      <select id="pageSizeSel" class="sel-box sel-sm" aria-label="每页显示数量">
+        <option value="24" selected>24 部</option>
+        <option value="48">48 部</option>
+        <option value="96">96 部</option>
+      </select>
+      <span id="pageInfo">第 1 页</span>
+    </div>
   </div>
 
+  <nav id="pagerTop" class="pager pager-top" aria-label="顶部分页导航"></nav>
   <main id="filmGrid" class="grid"></main>
-  <nav id="pagerBar" class="pager" aria-label="分页导航"></nav>
+  <nav id="pagerBar" class="pager" aria-label="底部分页导航"></nav>
 </div>
 
 <div id="filmModal" class="modal-back" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
@@ -559,7 +617,7 @@ button:disabled, .btn:disabled, .btn-sm:disabled, .tab-btn:disabled { opacity: 0
   </div>
 </div>
 
-<script src="aesthetic1000_data/manifest.js?v=202611261425"></script>
+<script src="aesthetic1000_data/manifest.js?v=202611261436"></script>
 <script>
 const ITEMS = [];
 window.__AESTHETIC1000_SHARDS__ = window.__AESTHETIC1000_SHARDS__ || {};
@@ -678,7 +736,7 @@ function renderGrid() {
   if (state.page > pages) state.page = pages;
   const start = (state.page - 1) * state.pageSize;
   const slice = filtered.slice(start, start + state.pageSize);
-  document.getElementById('statusTxt').textContent = `当前匹配 ${total} 部唯美电影（已载入 ${ITEMS.length} / ${mfTotal} 部，校验戳 2026-11-26 14:25）`;
+  document.getElementById('statusTxt').textContent = `当前匹配 ${total} 部唯美电影（已载入 ${ITEMS.length} / ${mfTotal} 部，校验戳 2026-11-26 14:36）`;
   document.getElementById('pageInfo').textContent = `第 ${state.page} / ${pages} 页`;
 
   const grid = document.getElementById('filmGrid');
@@ -733,18 +791,61 @@ function renderGrid() {
     };
   });
 
-  const pb = document.getElementById('pagerBar');
+  renderPager(document.getElementById('pagerTop'), pages, false);
+  renderPager(document.getElementById('pagerBar'), pages, true);
+}
+
+function goToPage(target, pages, scrollTop) {
+  const p = Math.max(1, Math.min(pages, Number(target) || 1));
+  if (p === state.page) return;
+  state.page = p;
+  renderGrid();
+  if (scrollTop) window.scrollTo({ top: 0, behavior: 'auto' });
+}
+
+function renderPager(pb, pages, scrollOnNav) {
+  if (!pb) return;
+  const cur = state.page;
   const btns = [];
-  if (state.page > 1) btns.push(`<button type="button" class="btn-sm" data-pg="${state.page - 1}">上一页</button>`);
-  const lo = Math.max(1, state.page - 3), hi = Math.min(pages, state.page + 3);
-  for (let p = lo; p <= hi; p++) {
-    btns.push(`<button type="button" class="btn-sm ${p === state.page ? 'primary' : ''}" data-pg="${p}">${p}</button>`);
+  btns.push(`<button type="button" class="btn-sm" data-pg="1" ${cur <= 1 ? 'disabled' : ''}>首页</button>`);
+  if (pages > 15) {
+    btns.push(`<button type="button" class="btn-sm" data-pg="${Math.max(1, cur - 10)}" ${cur <= 1 ? 'disabled' : ''}>前10页</button>`);
   }
-  if (state.page < pages) btns.push(`<button type="button" class="btn-sm" data-pg="${state.page + 1}">下一页</button>`);
-  pb.innerHTML = btns.join('');
-  pb.querySelectorAll('button').forEach(b => {
-    b.onclick = () => { state.page = Number(b.dataset.pg); renderGrid(); window.scrollTo({ top: 0, behavior: 'auto' }); };
+  btns.push(`<button type="button" class="btn-sm" data-pg="${Math.max(1, cur - 1)}" ${cur <= 1 ? 'disabled' : ''}>上一页</button>`);
+
+  const lo = Math.max(1, cur - 2);
+  const hi = Math.min(pages, cur + 2);
+  if (lo > 1) {
+    btns.push(`<button type="button" class="btn-sm ${cur === 1 ? 'primary' : ''}" data-pg="1">1</button>`);
+    if (lo > 2) btns.push(`<span class="pager-ellipsis" aria-hidden="true">...</span>`);
+  }
+  for (let p = lo; p <= hi; p++) {
+    btns.push(`<button type="button" class="btn-sm ${p === cur ? 'primary' : ''}" data-pg="${p}">${p}</button>`);
+  }
+  if (hi < pages) {
+    if (hi < pages - 1) btns.push(`<span class="pager-ellipsis" aria-hidden="true">...</span>`);
+    btns.push(`<button type="button" class="btn-sm ${cur === pages ? 'primary' : ''}" data-pg="${pages}">${pages}</button>`);
+  }
+
+  btns.push(`<button type="button" class="btn-sm" data-pg="${Math.min(pages, cur + 1)}" ${cur >= pages ? 'disabled' : ''}>下一页</button>`);
+  if (pages > 15) {
+    btns.push(`<button type="button" class="btn-sm" data-pg="${Math.min(pages, cur + 10)}" ${cur >= pages ? 'disabled' : ''}>后10页</button>`);
+  }
+  btns.push(`<button type="button" class="btn-sm" data-pg="${pages}" ${cur >= pages ? 'disabled' : ''}>末页</button>`);
+
+  const jumpForm = `<form class="pager-jump"><span>跳至</span><input type="number" class="page-input" min="1" max="${pages}" value="${cur}" aria-label="输入目标页码"><span>/${pages} 页</span><button type="submit" class="btn-sm">跳转</button></form>`;
+  pb.innerHTML = `<div class="pager-btns">${btns.join('')}</div>${jumpForm}`;
+  pb.querySelectorAll('button[data-pg]').forEach(b => {
+    b.onclick = () => goToPage(b.dataset.pg, pages, scrollOnNav);
   });
+  const jf = pb.querySelector('.pager-jump');
+  if (jf) {
+    jf.onsubmit = e => {
+      e.preventDefault();
+      const val = jf.querySelector('.page-input').value;
+      goToPage(val, pages, true);
+    };
+  }
 }
 
 function openModal(aid) {
@@ -791,7 +892,16 @@ document.getElementById('filmModal').onclick = e => {
   if (e.target.id === 'filmModal') document.getElementById('filmModal').classList.remove('open');
 };
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') document.getElementById('filmModal').classList.remove('open');
+  if (e.key === 'Escape') {
+    document.getElementById('filmModal').classList.remove('open');
+    return;
+  }
+  const tag = (e.target && e.target.tagName) || '';
+  if (tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA') return;
+  if (document.getElementById('filmModal').classList.contains('open')) return;
+  const pages = Math.max(1, Math.ceil(filtered.length / state.pageSize));
+  if (e.key === '[' || e.key === 'ArrowLeft') goToPage(state.page - 1, pages, true);
+  else if (e.key === ']' || e.key === 'ArrowRight') goToPage(state.page + 1, pages, true);
 });
 
 document.getElementById('pillarBar').addEventListener('click', e => {
@@ -804,6 +914,7 @@ document.getElementById('pillarBar').addEventListener('click', e => {
 });
 
 document.getElementById('qInput').addEventListener('input', e => { state.q = e.target.value; applyFilters(true); });
+document.getElementById('pageSizeSel').addEventListener('change', e => { state.pageSize = Number(e.target.value) || 24; applyFilters(true); });
 document.getElementById('batchFilter').addEventListener('change', e => { state.batch = e.target.value; applyFilters(true); });
 document.getElementById('coverFilter').addEventListener('change', e => { state.cover = e.target.value; applyFilters(true); });
 document.getElementById('bwFilter').addEventListener('change', e => { state.bw = e.target.value; applyFilters(true); });
@@ -829,7 +940,7 @@ document.getElementById('exportCsvBtn').onclick = () => {
 function loadShard(file) {
   return new Promise(resolve => {
     const s = document.createElement('script');
-    s.src = 'aesthetic1000_data/' + file + '?v=202611261425';
+    s.src = 'aesthetic1000_data/' + file + '?v=202611261436';
     s.onload = () => resolve(true);
     s.onerror = () => resolve(false);
     document.head.appendChild(s);
