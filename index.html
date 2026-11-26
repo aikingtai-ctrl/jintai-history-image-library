@@ -992,7 +992,7 @@ function histMuseumTiff(id){
   const url=histMuseumCopy(id)?.source_image||'';
   return /^https:\/\/openaccess-cdn\.clevelandart\.org\/[^\s]+\.tif$/i.test(url)?url:'';
 }
-function histOriginalLabel(id){const info=histOriginalInfo(id);return info?.method==='museum_open_access_original'&&/\.jpe?g$/i.test(info.filename||'')?'馆藏高清 JPEG 浏览版':info?.coverage_scope==='group_main_only_not_all_ten_variants'?'查看十态组主图':info?'查看原图':'查看预览';}
+function histOriginalLabel(id){const info=histOriginalInfo(id);return info?.method==='museum_open_access_original'?(/\.jpe?g$/i.test(info.filename||'')?'馆藏高清 JPEG 浏览版':'馆藏无损 PNG 版'):info?.coverage_scope==='group_main_only_not_all_ten_variants'?'查看十态组主图':info?'查看原图':'查看预览';}
 function openHistOriginal(r){
   const info=histOriginalInfo(r.id);
   if(!info){openHistLightbox(r);return;}
