@@ -717,7 +717,8 @@ jobs:
           assert total_bytes < max_site_bytes, "Native preview map exceeds site size threshold"
           film_page = (site / "film.html").read_text(encoding="utf-8")
           assert "</head>" in film_page, "Film page head missing"
-          (site / "film.html").write_text(film_page.replace("</head>", "<script src=\"film-preview-native-map.js\"></script><script>" + film_preview_js + "</script></head>", 1), encoding="utf-8")
+          film_map_pin = hashlib.sha256(native_map_js.encode("utf-8")).hexdigest()[:16]
+          (site / "film.html").write_text(film_page.replace("</head>", f"<script src=\"film-preview-native-map.js?v={film_map_pin}\"></script><script>" + film_preview_js + "</script></head>", 1), encoding="utf-8")
           shutil.copy2(site / "film.html", site / "影视参考图集.html")
 
           (site / ".nojekyll").write_text("", encoding="utf-8")

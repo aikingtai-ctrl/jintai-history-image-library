@@ -12,6 +12,7 @@
     'xiongnu-manifest.js', 'specials-400-manifest.js',
     'shanhaijing-gpt-manifest.js', 'shanhaijing-originals-manifest.js',
     'myth-originals-manifest.js',
+    'page25-originals-manifest.js', 'page24-originals-manifest.js',
     'page23-originals-manifest.js', 'page22-originals-manifest.js',
     'page21-originals-manifest.js', 'page20-originals-manifest.js',
     'page19-originals-manifest.js', 'qing-manifest.js',
@@ -24,6 +25,7 @@
     'JINTAI_SOUTHERN_SONG_IMAGES', 'JINTAI_MINGUO_FOLK16_IMAGES',
     'JINTAI_XIONGNU_IMAGES', 'JINTAI_SPECIAL_IMAGES',
     'JINTAI_SHANHAIJING_IMAGES', 'JINTAI_MYTH_IMAGES',
+    'JINTAI_PAGE25_IMAGES', 'JINTAI_PAGE24_IMAGES',
     'JINTAI_PAGE23_IMAGES', 'JINTAI_PAGE22_IMAGES',
     'JINTAI_PAGE21_IMAGES', 'JINTAI_PAGE20_IMAGES',
     'JINTAI_PAGE19_IMAGES', 'JINTAI_QING_IMAGES',
@@ -83,15 +85,20 @@
     }
     return null;
   }
+  function versionedGalleryUrl(base, route, info, filename) {
+    const digest = info?.sha256 || '';
+    const version = /^[a-f0-9]{64}$/i.test(digest) ? '?v=' + digest : '';
+    return base + '/' + route + '/' + encodeURIComponent(info.original_dir) + '/' + encodeURIComponent(filename) + version;
+  }
   async function originalUrl(info) {
     if (info.original) return info.original;
-    return (await galleryBase()) + '/original-pngs/' + encodeURIComponent(info.original_dir) + '/' + encodeURIComponent(info.filename);
+    return versionedGalleryUrl(await galleryBase(), 'original-pngs', info, info.filename);
   }
   async function previewUrl(info) {
     if (info.preview && /^https:\/\//i.test(info.preview)) return info.preview;
     if (info.preview && /^data:image\//i.test(info.preview)) return info.preview;
     if (info.preview_filename && DIR_RE.test(info.original_dir || '')) {
-      return (await galleryBase()) + '/gallery-previews/' + encodeURIComponent(info.original_dir) + '/' + encodeURIComponent(info.preview_filename);
+      return versionedGalleryUrl(await galleryBase(), 'gallery-previews', info, info.preview_filename);
     }
     return '';
   }
@@ -210,7 +217,7 @@
 
   function loadManifest(file) {
     const script = document.createElement('script');
-    script.src = 'history-ai/' + file + '?v=20261126';
+    script.src = 'history-ai/' + file + '?t=' + Date.now();
     script.onload = () => {
       if (file === 'southern-song-manifest.js' || file === 'southern-song-gpt-manifest.js') {
         const incoming = window.JINTAI_SOUTHERN_SONG_IMAGES || {};
@@ -230,12 +237,22 @@
     script.onerror = () => {
       galleryBase().then(base => {
         const fallback = document.createElement('script');
-        fallback.src = base + '/jintai-history-image-library/history-ai/' + encodeURIComponent(file) + '?v=20261126';
+        fallback.src = base + '/jintai-history-image-library/history-ai/' + encodeURIComponent(file) + '?t=' + Date.now();
         fallback.onload = script.onload;
         document.head.appendChild(fallback);
       }).catch(() => {});
     };
-    document.head.appendChild(script);
+    if (file === 'southern-song-gpt-manifest.js') {
+      galleryBase().then(base => {
+        const live = document.createElement('script');
+        live.src = base + '/jintai-history-image-library/history-ai/' + encodeURIComponent(file) + '?t=' + Date.now();
+        live.onload = script.onload;
+        live.onerror = () => document.head.appendChild(script);
+        document.head.appendChild(live);
+      }).catch(() => document.head.appendChild(script));
+    } else {
+      document.head.appendChild(script);
+    }
   }
   DIRECT_FILES.forEach(loadManifest);
   fetch('https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/manifest.json', {cache:'no-store'})
