@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-11-26T13:45:46+08:00",
+  "file_count": 6,
+  "files": {
+    "index.html": {
+      "sha256": "b935a208412b6ce8ca48c7b6933205b1b25606d39a3aa0b694236c37f0c4ae3c",
+      "size_bytes": 6664
+    },
+    "历史惊觉古怪事件_Midjourney英文.txt": {
+      "sha256": "1b416da929aaaba61b467fde80dc8ca2bdab0607c3e912bc179d1c48e51cd770",
+      "size_bytes": 237478
+    },
+    "历史惊觉古怪事件_中文十二段提示词.txt": {
+      "sha256": "91704d17ac3a323cb8f9794cae8625ef5fc44a1ccb1b3197a04d82ff1276be28",
+      "size_bytes": 1018584
+    },
+    "历史惊觉古怪事件特辑300案.json": {
+      "sha256": "9414b657736dcd59071515fa9d9c5da1731fb13ad5aec541f5cbc88ce34116a6",
+      "size_bytes": 1583351
+    },
+    "史源考证与科学释疑总表.json": {
+      "sha256": "dffad9299e4c5ce50ccbfddc7bc89279abcff19a65f7017ef19828019cdf708d",
+      "size_bytes": 247512
+    },
+    "核验记录.json": {
+      "sha256": "f202bfb768bdd3585acd489457fa35b7209ba55fa28df5ba88c0bdf39a2b64fa",
+      "size_bytes": 1000
+    }
+  }
+}

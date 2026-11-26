@@ -1,0 +1,512 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<script>(function(){var H='6e95ff3e55611d24803014d9de77b401f191f198f9372577e58f9aa2e51771d3';var k='jt_gate';function getSaved(){try{if(location.hostname==='127.0.0.1'||location.hostname==='localhost'||location.protocol==='file:')return true;}catch(e){}try{if(localStorage.getItem(k)===H)return true;}catch(e){}try{if(sessionStorage.getItem(k)===H)return true;}catch(e){}return false;}function saveOk(){try{localStorage.setItem(k,H);}catch(e){}try{sessionStorage.setItem(k,H);}catch(e){}}if(getSaved()){document.documentElement.setAttribute('data-jt-ok','1');return;}var st=document.createElement('style');st.id='jt_gate_css';st.textContent='html:not([data-jt-ok="1"]) body{display:none!important}';document.documentElement.appendChild(st);document.documentElement.style.visibility='hidden';function shaPure(ascii){function rr(v,a){return(v>>>a)|(v<<(32-a));}var bytes=[],i,j;if(typeof TextEncoder!=='undefined'){bytes=Array.from(new TextEncoder().encode(ascii));}else{for(i=0;i<ascii.length;i++){var c=ascii.charCodeAt(i);if(c<128)bytes.push(c);else if(c<2048)bytes.push(192|(c>>6),128|(c&63));else bytes.push(224|(c>>12),128|((c>>6)&63),128|(c&63));}}var bitLen=bytes.length*8;bytes.push(0x80);while((bytes.length%64)!==56)bytes.push(0);var hi=Math.floor(bitLen/4294967296),lo=bitLen>>>0;bytes.push((hi>>>24)&255,(hi>>>16)&255,(hi>>>8)&255,hi&255,(lo>>>24)&255,(lo>>>16)&255,(lo>>>8)&255,lo&255);var K=[0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2];var H0=[0x6a09e667,0xbb67ae85,0x3c6ef372,0xa54ff53a,0x510e527f,0x9b05688c,0x1f83d9ab,0x5be0cd19];for(i=0;i<bytes.length;i+=64){var W=new Array(64);for(j=0;j<16;j++)W[j]=((bytes[i+j*4]<<24)|(bytes[i+j*4+1]<<16)|(bytes[i+j*4+2]<<8)|bytes[i+j*4+3])>>>0;for(j=16;j<64;j++){var s0=rr(W[j-15],7)^rr(W[j-15],18)^(W[j-15]>>>3);var s1=rr(W[j-2],17)^rr(W[j-2],19)^(W[j-2]>>>10);W[j]=(W[j-16]+s0+W[j-7]+s1)>>>0;}var a=H0[0],b=H0[1],c=H0[2],d=H0[3],e=H0[4],f=H0[5],g=H0[6],h=H0[7];for(j=0;j<64;j++){var S1=rr(e,6)^rr(e,11)^rr(e,25),ch=(e&f)^((~e)&g),t1=(h+S1+ch+K[j]+W[j])>>>0;var S0=rr(a,2)^rr(a,13)^rr(a,22),maj=(a&b)^(a&c)^(b&c),t2=(S0+maj)>>>0;h=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=b;b=a;a=(t1+t2)>>>0;}H0[0]=(H0[0]+a)>>>0;H0[1]=(H0[1]+b)>>>0;H0[2]=(H0[2]+c)>>>0;H0[3]=(H0[3]+d)>>>0;H0[4]=(H0[4]+e)>>>0;H0[5]=(H0[5]+f)>>>0;H0[6]=(H0[6]+g)>>>0;H0[7]=(H0[7]+h)>>>0;}return H0.map(function(x){return('00000000'+x.toString(16)).slice(-8);}).join('');}async function sha(s){try{if(window.crypto&&crypto.subtle&&typeof TextEncoder!=='undefined'){var b=new TextEncoder().encode(s);var d=await crypto.subtle.digest('SHA-256',b);return Array.from(new Uint8Array(d)).map(function(x){return x.toString(16).padStart(2,'0');}).join('');}}catch(e){}return shaPure(s);}function lockDom(){window.__SH_SHARD__=window.applyFilters=function(){};if(!document.body){var b=document.createElement('body');document.documentElement.appendChild(b);}document.body.innerHTML='<div class="jt-lock"><div class="jt-lock-title">金泰 AI · 历史惊觉古怪事件特辑</div><div class="jt-lock-sub">请输入内部访问口令进入专题分馆（跨站已验证免重复输入）</div><div class="jt-lock-form"><input id="jt_pw_box" class="search-input" type="password" placeholder="请输入访问口令"><button id="jt_pw_btn" class="btn primary" type="button">验证进入</button></div><div id="jt_pw_err" class="jt-lock-err"></div></div>';document.documentElement.setAttribute('data-jt-ok','1');document.documentElement.style.visibility='visible';var inp=document.getElementById('jt_pw_box'),btn=document.getElementById('jt_pw_btn'),err=document.getElementById('jt_pw_err');async function tryIn(){var v=(inp.value||'').trim();if(!v){err.textContent='请输入访问口令';return;}var h=await sha(v);if(h===H){saveOk();location.reload();}else{err.textContent='口令不正确';inp.value='';inp.focus();}}if(btn)btn.onclick=tryIn;if(inp){inp.onkeydown=function(e){if(e.key==='Enter')tryIn();};}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',lockDom,{once:true});}else{lockDom();}})();</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="中国历史惊觉古怪事件特辑 300 宗：横跨先秦至清末正史五行志、笔记实录与法医奇案，含十大门类、原典引文、科学释疑与中英双语 AI 绘图提示词。">
+<title>历史惊觉古怪事件特辑 · 300 宗正史古籍奇案总汇</title>
+<style>/* Hallmark · archival-vermilion-chronicle | floor | sloplint-clean */
+:root {
+  --bg: #f3efe4;
+  --surface: #faf7ef;
+  --surface-alt: #f0eadc;
+  --ink: #1a1917;
+  --muted: #524e47;
+  --line: #c9bfa9;
+  --accent: #7c231c;
+  --accent-ink: #fbf8f1;
+  --slate: #2e4246;
+  --tag-bg: #ebe3d3;
+  --tag-ink: #362f29;
+  --grade-a-bg: #f4dfdb;
+  --grade-a-ink: #6a1a14;
+  --grade-b-bg: #e1eaeb;
+  --grade-b-ink: #1d3c42;
+  --grade-c-bg: #eae4d2;
+  --grade-c-ink: #4a3f1f;
+  --quote-bg: #f5efe0;
+  --code-bg: #ede7d8;
+  --err: #8a1c1c;
+  --font-sans: "Microsoft YaHei", "PingFang SC", "Noto Sans SC", sans-serif;
+  --font-serif: "Source Han Serif SC", "Songti SC", "SimSun", serif;
+  --font-mono: ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: clip;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 1.65;
+}
+a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+button, input, select { font-family: var(--font-sans); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.wrap { max-width: 1380px; margin: 0 auto; padding: 20px 24px 56px; }
+.topbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+.brand-title { font-weight: 700; font-size: 20px; color: var(--accent); letter-spacing: 0.5px; }
+.nav-links { display: flex; flex-wrap: wrap; gap: 16px; font-size: 16px; }
+.hero {
+  padding: 24px 0 20px;
+  border-bottom: 2px solid var(--accent);
+}
+.hero h1 {
+  margin: 0 0 8px;
+  font-family: var(--font-serif);
+  font-size: 34px;
+  line-height: 1.28;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+  color: var(--ink);
+  min-width: 0;
+}
+.hero-lead {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 18px;
+  max-width: 1020px;
+}
+.search-bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.search-input {
+  flex: 1;
+  min-width: 240px;
+  padding: 12px 16px;
+  font-size: 18px;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1.5px solid var(--line);
+  border-radius: 6px;
+}
+.btn {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1.5px solid var(--accent);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+}
+.btn.primary { background: var(--accent); color: var(--accent-ink); }
+.btn.slate { border-color: var(--slate); color: var(--slate); }
+.btn:active, .chip:active { transform: translateY(1px); }
+.btn:disabled, .chip:disabled { opacity: 0.45; cursor: not-allowed; }
+.controls {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.filter-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.filter-label { font-size: 15px; font-weight: 700; color: var(--muted); min-width: 84px; }
+.chip {
+  padding: 8px 12px;
+  font-size: 15px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease, transform 0.1s ease;
+}
+.chip.on {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border-color: var(--accent);
+  font-weight: 700;
+}
+.dyn-select {
+  padding: 8px 12px;
+  font-size: 15px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+}
+.sec-panel {
+  margin: 16px 0 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 12px 16px;
+}
+.sec-panel summary { cursor: pointer; font-weight: 700; font-size: 16px; color: var(--slate); }
+.sec-panel-body { margin-top: 12px; display: flex; flex-direction: column; gap: 12px; }
+.status-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 0;
+  font-size: 16px;
+  color: var(--muted);
+}
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.item {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-width: 0;
+}
+.item-head { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.badge {
+  font-size: 14px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: var(--tag-bg);
+  color: var(--tag-ink);
+  font-weight: 700;
+}
+.badge.grade-A { background: var(--grade-a-bg); color: var(--grade-a-ink); }
+.badge.grade-B { background: var(--grade-b-bg); color: var(--grade-b-ink); }
+.badge.grade-C { background: var(--grade-c-bg); color: var(--grade-c-ink); }
+.item h2 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 21px;
+  line-height: 1.38;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+  color: var(--ink);
+  min-width: 0;
+}
+.sub-en { font-family: var(--font-mono); font-size: 13.5px; color: var(--muted); margin: 0; }
+.summary-p { margin: 0; font-size: 17px; color: var(--ink); }
+.quote-box {
+  margin: 0;
+  padding: 12px 16px;
+  background: var(--quote-bg);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-family: var(--font-serif);
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+.quote-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 8px;
+  font-family: var(--font-sans);
+  font-size: 14.5px;
+  color: var(--muted);
+}
+.sci-note {
+  margin: 0;
+  padding: 12px 16px;
+  background: var(--surface-alt);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-size: 15.5px;
+  color: var(--muted);
+}
+.prompt-zh {
+  margin: 0;
+  padding: 12px 16px;
+  background: var(--surface-alt);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-size: 17px;
+  line-height: 1.62;
+  color: var(--ink);
+}
+.prompt-en {
+  margin: 0;
+  padding: 12px 16px;
+  background: var(--code-bg);
+  border-radius: 4px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ink);
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.card-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 4px; }
+.pager { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; padding: 28px 0 8px; }
+.jt-lock {
+  max-width: 640px;
+  margin: 48px auto;
+  padding: 36px 24px;
+  background: var(--surface);
+  border: 2px solid var(--accent);
+  border-radius: 8px;
+  text-align: center;
+}
+.jt-lock-title { font-size: 24px; font-weight: 700; color: var(--ink); margin-bottom: 8px; }
+.jt-lock-sub { font-size: 16px; color: var(--muted); margin-bottom: 20px; }
+.jt-lock-form { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.jt-lock-err { font-size: 15px; color: var(--err); min-height: 24px; margin-top: 12px; }
+@media (max-width: 960px) {
+  .grid { grid-template-columns: minmax(0, 1fr); }
+  .hero h1 { font-size: 26px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="topbar">
+    <span class="brand-title">中国历史文化图库 · 专题文献分馆</span>
+    <nav class="nav-links" aria-label="站点导航">
+      <a href="portal.html">专题门户首页</a>
+      <a href="index.html">全库总检索</a>
+      <a href="zhiguai31.html">57部志怪传奇</a>
+      <a href="arch5680.html">历代建筑考证</a>
+      <a href="更新记录.html">全站更新记录</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>历史惊觉古怪事件特辑（300 宗正史与古籍奇案实录）</h1>
+    <p class="hero-lead">严选先秦至清末确具纪年、地点与古籍出处的 300 宗惊世奇闻，按《二十四史·五行志》《清史稿·灾异志》（甲级 197 宗）、名臣随笔实录（乙级 76 宗）及刑狱法医奇案（丙级 27 宗）三重史源分层编纂，每宗附原典引文、现代科学释疑、十二段零否定词中文生图指令与 Midjourney v6.1 英文提示词。</p>
+    <div class="search-bar">
+      <label for="qInput" class="filter-label">案卷检索</label>
+      <input id="qInput" class="search-input" type="search" autofocus autocomplete="off" placeholder="检索朝代、地名、书名、奇观现象或编号（例如：王恭厂、叫魂、海市、三日并出、洗冤、SH-01）">
+      <button id="randBtn" class="btn primary" type="button">随机抽阅一宗</button>
+      <button id="exportBtn" class="btn" type="button">导出筛选文本</button>
+    </div>
+  </section>
+
+  <section class="controls" aria-label="十大门类与多维筛板">
+    <div class="filter-row" id="catRow">
+      <span class="filter-label">十大门类</span>
+      <button type="button" class="chip on" data-cat="">全部十大门类 (300)</button>
+      <button type="button" class="chip" data-cat="SH-01">SH-01 天火陨星与惊天巨爆 (30)</button><button type="button" class="chip" data-cat="SH-02">SH-02 奇天异象与诡谲气象 (30)</button><button type="button" class="chip" data-cat="SH-03">SH-03 古墓奇闻与千年异尸 (30)</button><button type="button" class="chip" data-cat="SH-04">SH-04 生灵异变与罕见奇兽 (30)</button><button type="button" class="chip" data-cat="SH-05">SH-05 宫廷悬案与帝王诡事 (30)</button><button type="button" class="chip" data-cat="SH-06">SH-06 幽冥奇案与刑狱悬谜 (30)</button><button type="button" class="chip" data-cat="SH-07">SH-07 异人方术与奇工幻戏 (30)</button><button type="button" class="chip" data-cat="SH-08">SH-08 城池异动与山川诡变 (30)</button><button type="button" class="chip" data-cat="SH-09">SH-09 疫疠怪症与社会异潮 (30)</button><button type="button" class="chip" data-cat="SH-10">SH-10 器物自鸣与秘宝奇踪 (30)</button>
+    </div>
+    <details class="sec-panel">
+      <summary>展开精细筛选：史料可信等级 / 朝代筛选 / 提示词显示模式</summary>
+      <div class="sec-panel-body">
+        <div class="filter-row" id="gradeRow">
+          <span class="filter-label">史料等级</span>
+          <button type="button" class="chip on" data-grade="">全部等级 (300)</button>
+          <button type="button" class="chip" data-grade="A">甲级·正史实录 (197)</button>
+          <button type="button" class="chip" data-grade="B">乙级·时人笔记 (76)</button>
+          <button type="button" class="chip" data-grade="C">丙级·刑狱法医 (27)</button>
+        </div>
+        <div class="filter-row" id="modeRow">
+          <span class="filter-label">呈现语言</span>
+          <button type="button" class="chip on" data-mode="both">双语详版与引文</button>
+          <button type="button" class="chip" data-mode="zh">仅中文十二段与史源</button>
+          <button type="button" class="chip" data-mode="en">仅 Midjourney 英文与史源</button>
+        </div>
+        <div class="filter-row">
+          <label for="dynSelect" class="filter-label">断代筛选</label>
+          <select id="dynSelect" class="dyn-select">
+            <option value="">全部朝代（先秦至清末）</option>
+            <option value="历代">历代</option><option value="唐朝">唐朝</option><option value="明朝">明朝</option><option value="清朝">清朝</option><option value="北宋">北宋</option><option value="晋朝">晋朝</option><option value="元朝">元朝</option><option value="东汉">东汉</option><option value="宋朝">宋朝</option><option value="西汉">西汉</option><option value="南宋">南宋</option><option value="东晋">东晋</option><option value="秦朝">秦朝</option><option value="南北朝">南北朝</option><option value="晋宋旧录">晋宋旧录</option><option value="三国吴">三国吴</option><option value="东汉末">东汉末</option><option value="三国魏">三国魏</option><option value="北宋/西汉">北宋/西汉</option><option value="西汉/东汉">西汉/东汉</option><option value="隋朝">隋朝</option>
+          </select>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <div class="status-bar">
+    <span id="statusTxt">正在载入 300 宗历史惊觉古怪事件档案</span>
+    <span id="pageInfo">第 1 页</span>
+  </div>
+
+  <main id="listGrid" class="grid"></main>
+  <nav id="pagerBar" class="pager" aria-label="分页导航"></nav>
+  <noscript><p>请启用浏览器脚本以交互检索 300 宗历史惊觉古怪事件，或查阅<a href="每日更新/每日成果/20261126/历史惊觉古怪事件特辑/index.html">静态大字交付总览</a>。</p></noscript>
+</div>
+
+<script src="strange_history_data/manifest.js"></script>
+<script>
+const ITEMS = [];
+window.__SH_SHARDS__ = window.__SH_SHARDS__ || {};
+window.__SH_SHARD__ = function(code, rows) {
+  if (Array.isArray(rows)) window.__SH_SHARDS__[code] = rows;
+};
+let state = { q: '', cat: '', grade: '', dyn: '', mode: 'both', page: 1, pageSize: 18 };
+let filtered = [];
+
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function copyText(txt, btn, okLabel) {
+  navigator.clipboard.writeText(txt).then(() => {
+    const old = btn.textContent;
+    btn.textContent = okLabel;
+    setTimeout(() => { btn.textContent = old; }, 1500);
+  });
+}
+
+function applyFilters(resetPage) {
+  if (resetPage !== false) state.page = 1;
+  const kw = state.q.trim().toLowerCase();
+  filtered = ITEMS.filter(x => {
+    if (state.cat && x.c !== state.cat) return false;
+    if (state.grade && x.g !== state.grade) return false;
+    if (state.dyn && x.d !== state.dyn) return false;
+    if (kw) {
+      if (!x._q) {
+        x._q = (x.i + ' ' + x.t + ' ' + x.d + ' ' + x.yr + ' ' + x.loc + ' ' + x.sb + ' ' + x.qt + ' ' + x.sm + ' ' + x.pz + ' ' + x.pe).toLowerCase();
+      }
+      if (!x._q.includes(kw)) return false;
+    }
+    return true;
+  });
+  render();
+}
+
+function render() {
+  const total = filtered.length;
+  const pages = Math.max(1, Math.ceil(total / state.pageSize));
+  if (state.page > pages) state.page = pages;
+  const start = (state.page - 1) * state.pageSize;
+  const slice = filtered.slice(start, start + state.pageSize);
+  document.getElementById('statusTxt').textContent = `当前匹配 ${total} 宗历史奇案档案（已加载 ${ITEMS.length} / 300 宗）`;
+  document.getElementById('pageInfo').textContent = `第 ${state.page} / ${pages} 页`;
+
+  const grid = document.getElementById('listGrid');
+  grid.innerHTML = slice.map(x => {
+    const zhBlock = (state.mode === 'both' || state.mode === 'zh') ? `<p class="prompt-zh">${esc(x.pz)}</p>` : '';
+    const enBlock = (state.mode === 'both' || state.mode === 'en') ? `<pre class="prompt-en">${esc(x.pe)}</pre>` : '';
+    const safeUrl = /^https:\/\//.test(x.su || '') ? esc(x.su) : '#';
+    return `<article class="item" data-id="${esc(x.i)}">
+      <div class="item-head">
+        <span class="badge">${esc(x.i)}</span>
+        <span class="badge grade-${esc(x.g)}">${esc(x.gl)}</span>
+        <span class="badge">${esc(x.d)} · ${esc(x.yr)}</span>
+        <span class="badge">${esc(x.loc)}</span>
+      </div>
+      <h2>${esc(x.t)}</h2>
+      <p class="sub-en">${esc(x.te)}</p>
+      <p class="summary-p">${esc(x.sm)}</p>
+      <blockquote class="quote-box">
+        <div>“${esc(x.qt)}”</div>
+        <div class="quote-meta">
+          <span>史源：${esc(x.sb)} · ${esc(x.sc)}（${esc(x.ad)}）</span>
+          <a href="${safeUrl}" target="_blank" rel="noopener noreferrer">维基文库原文查证</a>
+        </div>
+      </blockquote>
+      <p class="sci-note"><strong>现代科学/史学释疑：</strong>${esc(x.sn)}</p>
+      ${zhBlock}
+      ${enBlock}
+      <div class="card-actions">
+        <button type="button" class="btn primary copy-zh" data-id="${esc(x.i)}">复制中文十二段</button>
+        <button type="button" class="btn copy-en" data-id="${esc(x.i)}">复制英文 MJ</button>
+        <button type="button" class="btn slate copy-qt" data-id="${esc(x.i)}">复制古籍原句</button>
+      </div>
+    </article>`;
+  }).join('');
+
+  grid.querySelectorAll('.copy-zh').forEach(btn => {
+    btn.onclick = () => {
+      const rec = ITEMS.find(r => r.i === btn.dataset.id);
+      if (rec) copyText(rec.pz, btn, '已复制中文');
+    };
+  });
+  grid.querySelectorAll('.copy-en').forEach(btn => {
+    btn.onclick = () => {
+      const rec = ITEMS.find(r => r.i === btn.dataset.id);
+      if (rec) copyText(rec.pe, btn, '已复制英文');
+    };
+  });
+  grid.querySelectorAll('.copy-qt').forEach(btn => {
+    btn.onclick = () => {
+      const rec = ITEMS.find(r => r.i === btn.dataset.id);
+      if (rec) copyText(`[${rec.sb}] ${rec.qt}`, btn, '已复制原文');
+    };
+  });
+
+  const pb = document.getElementById('pagerBar');
+  const btns = [];
+  if (state.page > 1) btns.push(`<button type="button" class="chip" data-pg="${state.page - 1}">上一页</button>`);
+  const lo = Math.max(1, state.page - 3), hi = Math.min(pages, state.page + 3);
+  for (let p = lo; p <= hi; p++) {
+    btns.push(`<button type="button" class="chip ${p === state.page ? 'on' : ''}" data-pg="${p}">${p}</button>`);
+  }
+  if (state.page < pages) btns.push(`<button type="button" class="chip" data-pg="${state.page + 1}">下一页</button>`);
+  pb.innerHTML = btns.join('');
+  pb.querySelectorAll('button').forEach(b => {
+    b.onclick = () => { state.page = Number(b.dataset.pg); render(); window.scrollTo({ top: 0, behavior: 'auto' }); };
+  });
+}
+
+function bindGroup(rowId, key, attr) {
+  document.getElementById(rowId).addEventListener('click', e => {
+    const b = e.target.closest('button');
+    if (!b) return;
+    document.querySelectorAll(`#${rowId} button`).forEach(x => x.classList.remove('on'));
+    b.classList.add('on');
+    state[key] = b.dataset[attr] || '';
+    applyFilters(true);
+  });
+}
+bindGroup('catRow', 'cat', 'cat');
+bindGroup('gradeRow', 'grade', 'grade');
+bindGroup('modeRow', 'mode', 'mode');
+
+document.getElementById('dynSelect').addEventListener('change', e => {
+  state.dyn = e.target.value;
+  applyFilters(true);
+});
+document.getElementById('qInput').addEventListener('input', e => {
+  state.q = e.target.value;
+  applyFilters(true);
+});
+document.getElementById('randBtn').onclick = () => {
+  if (!filtered.length) return;
+  const pick = filtered[Math.floor(Math.random() * filtered.length)];
+  document.getElementById('qInput').value = pick.i;
+  state.q = pick.i;
+  applyFilters(true);
+};
+document.getElementById('exportBtn').onclick = () => {
+  const lines = filtered.map(x => `[${x.i}] ${x.t}（${x.sb}）\n原文：${x.qt}\n释疑：${x.sn}\n中文：${x.pz}\n英文：${x.pe}\n`).join('\n');
+  const blob = new Blob([lines], { type: 'text/plain;charset=utf-8' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `strange_history_${filtered.length}.txt`;
+  a.click();
+};
+
+function loadShard(file) {
+  return new Promise(resolve => {
+    const s = document.createElement('script');
+    s.src = 'strange_history_data/' + file;
+    s.onload = () => resolve(true);
+    s.onerror = () => resolve(false);
+    document.head.appendChild(s);
+  });
+}
+
+(async function hydrate() {
+  const mf = window.__STRANGE_HISTORY_MANIFEST__;
+  if (!mf || !Array.isArray(mf.shards)) return;
+  for (const sh of mf.shards) {
+    await loadShard(sh.file);
+    const rows = window.__SH_SHARDS__[sh.code] || [];
+    for (const r of rows) ITEMS.push(r);
+    if (ITEMS.length === 30 || ITEMS.length === mf.total) applyFilters(false);
+  }
+})();
+</script>
+</body>
+</html>
