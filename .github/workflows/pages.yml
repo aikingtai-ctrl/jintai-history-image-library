@@ -139,7 +139,7 @@ jobs:
               assert "original-pngs/" in html and "download=1" in html, f"Original download missing in {rel}"
               assert "查看预览" in html and "原图" in html, f"Preview/original labels missing in {rel}"
               route = "historyOriginalUrl(info)" if rel == "index.html" else "gptOriginalUrl(info)"
-              assert route + ".then(url=>new Promise" in html, f"Original image preflight missing in {rel}"
+              assert route + ".then(url=>tab.location.replace(url))" in html and "probe.onload" not in html, f"Direct original navigation missing in {rel}"
           with tempfile.TemporaryDirectory() as check_dir:
               for rel, html in history_pages.items():
                   (pathlib.Path(check_dir) / rel).write_text(html, encoding="utf-8")

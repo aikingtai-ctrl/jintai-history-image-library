@@ -21,55 +21,47 @@ function functionSource(html, name) {
 
 async function checkPopup(html, name, isBatch) {
   const source = functionSource(html, name);
-  assert(source.includes('probe.onload'), `${name}: image load gate missing`);
-  assert(source.includes('probe.naturalWidth') && source.includes('probe.naturalHeight'), `${name}: dimension gate missing`);
-  assert(source.indexOf('tab.location.replace(url)') > source.indexOf('probe.onload'), `${name}: navigation precedes image check`);
-  assert(source.includes('probe.onerror'), `${name}: image failure gate missing`);
+  const route = isBatch ? 'gptOriginalUrl' : 'historyOriginalUrl';
+  assert(source.includes(`${route}(info).then(url=>tab.location.replace(url))`), `${name}: direct navigation missing`);
+  assert(!source.includes('probe.onload') && !source.includes('new Image()'), `${name}: full-image preload returned`);
 
-  async function scenario({ original = true, width = 1536, height = 1024, fail = false } = {}) {
-    const nav = [], probes = [], opens = [];
+  async function scenario({ original = true, fail = false } = {}) {
+    const nav = [], opens = [];
     let lightbox = 0;
+    const url = 'https://example.test/original-pngs/verified/verified.png';
+    const preview = 'https://example.test/gallery-previews/verified/verified.webp';
     const info = original ? { width: 1536, height: 1024, original_dir: 'verified', filename: 'verified.png' } : null;
-    const tab = { opener: {}, document: { body: { textContent: '' }, title: '' }, location: { replace: url => nav.push(url) } };
-    class Probe {
-      set src(url) { this.url = url; probes.push(this); }
-    }
+    const tab = { opener: {}, document: { body: { textContent: '' }, title: '' }, location: { replace: value => nav.push(value) } };
+    const resolveUrl = () => fail ? Promise.reject(new Error('offline')) : Promise.resolve(url);
     const context = {
-      Image: Probe,
-      window: { open: url => { opens.push(url); return tab; } },
+      Image: class { constructor() { throw Error('Unexpected image preload'); } },
+      window: { open: value => { opens.push(value); return tab; } },
       alert: () => { throw Error('Unexpected popup block'); },
       histOriginalInfo: () => info,
-      historyOriginalUrl: async () => 'https://example.test/original-pngs/verified/verified.png',
+      historyOriginalUrl: resolveUrl,
       openHistLightbox: () => lightbox++,
       gpt: () => info,
       original: () => info,
-      previewSrc: () => 'https://example.test/gallery-previews/verified/verified.webp',
-      gptOriginalUrl: async () => 'https://example.test/original-pngs/verified/verified.png',
+      previewSrc: () => preview,
+      gptOriginalUrl: resolveUrl,
     };
     vm.runInNewContext(source, context);
     context[name]({ id: 'verified' });
     await tick();
     if (!original) {
-      assert.equal(probes.length, 0);
-      assert.equal(nav.length, 0);
-      if (isBatch) assert.equal(opens[0], 'https://example.test/gallery-previews/verified/verified.webp');
+      assert.deepEqual(nav, []);
+      if (isBatch) assert.equal(opens[0], preview);
       else assert.equal(lightbox, 1);
       return;
     }
-    assert.equal(probes.length, 1, `${name}: probe did not start`);
-    assert.equal(nav.length, 0, `${name}: navigated before probe.onload`);
-    const probe = probes[0];
-    if (fail) probe.onerror();
-    else { probe.naturalWidth = width; probe.naturalHeight = height; probe.onload(); }
-    await tick();
-    if (fail || width !== info.width || height !== info.height) {
-      assert.equal(nav.length, 0, `${name}: invalid image navigated`);
+    assert.equal(opens[0], 'about:blank');
+    if (fail) {
+      assert.deepEqual(nav, []);
       assert.match(tab.document.body.textContent, /暂不可用/);
-    } else assert.deepEqual(nav, ['https://example.test/original-pngs/verified/verified.png']);
+    } else assert.deepEqual(nav, [url]);
   }
 
   await scenario();
-  await scenario({ width: 100 });
   await scenario({ fail: true });
   await scenario({ original: false });
 }
@@ -104,4 +96,4 @@ for (const name of ['history-batch.html', 'history-batch-1001-2000.html']) {
   await checkPopup(html, 'openOriginal', true);
 }
 
-console.log('History original route and label checks passed: main + 2 batch pages; valid, wrong-size, failed, and preview-only cases.');
+console.log('History original route and label checks passed: main + 2 batch pages; direct navigation, URL failure, and preview-only cases.');
