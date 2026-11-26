@@ -186,7 +186,7 @@ jobs:
           ), "Browser original source mismatch"
           assert "regenerated-manifest.js" not in idx_html and "JINTAI_REGENERATED_IMAGES" not in idx_html, "Unaccepted Qwen inventory linked"
           for rel in ("history-batch.html", "history-batch-1001-2000.html"):
-              assert "function gpt(r){return window.JINTAI_GPT_IMAGES?.[r.id];}" in history_pages[rel], f"Accepted GPT Image priority missing in {rel}"
+              assert "function gpt(r){return r.metadata_hold?null:window.JINTAI_GPT_IMAGES?.[r.id];}" in history_pages[rel], f"Accepted GPT Image priority or metadata hold missing in {rel}"
               assert "function previewSrc(r){return gpt(r)?.preview||histImgSrc(r.thumbnail);}" in history_pages[rel], f"Batch preview missing in {rel}"
               assert "q('savedJpg').hidden=!(info&&oldJpg)" in history_pages[rel], f"Saved JPEG fallback missing in {rel}"
           history_js = git_bytes("show", "HEAD:history-ai/manifest.js").decode("utf-8")
