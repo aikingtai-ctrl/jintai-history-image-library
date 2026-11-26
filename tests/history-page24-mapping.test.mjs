@@ -12,6 +12,13 @@ const images = manifest.window.JINTAI_PAGE24_IMAGES;
 const count = Object.keys(images).length;
 assert.equal(count, 120);
 assert.ok(index.includes(`page24-originals-manifest.js?v=20261126-page24-${count}`));
+const urlCode = index.match(/^function buildUrls\([^\n]+/m)?.[0];
+assert.ok(urlCode);
+const buildUrls = vm.runInNewContext(`${urlCode};buildUrls`, {
+  IS_GH_HOST: true,
+  CDN_BASES: ['https://gcore.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/'],
+});
+assert.match(buildUrls('d1/nightly_20261016_001.js', 'd1/nightly_20261016_001.js')[0], /\/90d6a7d673ebfd18560d62265cde449994555c30\/d1\/nightly_20261016_001\.js$/);
 const infoCode = index.match(/^function histOriginalInfo\(id\)\{[^\n]+/m)?.[0];
 const previewCode = index.match(/^function histPreview\(id\)\{[^\n]+/m)?.[0];
 assert.ok(infoCode && previewCode);
