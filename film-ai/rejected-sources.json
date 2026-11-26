@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-26T19:40:00.013898+08:00",
+  "updated_at": "2026-11-26T20:38:29.585374+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -408,6 +408,139 @@
       "sha256": "96defaa21847344e6da777f923646c2f60ea0eca9c36456c781d3310f7921223",
       "reason": "02 东亚古装双人房间与现代美国办公室、演员传送门故事不符，明确串片。",
       "evidence": "第十六批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "beyond-beauty-taiwan-from-above-2013",
+      "src": "film-ai/beyond-beauty-taiwan-from-above-2013.jpg",
+      "sha256": "fc6b92acc3de8bcf989d039c7d3dc73fe77a8271943a9f5babbf80ac388886e3",
+      "reason": "02 把《看见台湾》中英文片名和发行文案压在海岛鸟瞰图上，为海报，不是独立镜头画面。",
+      "evidence": "第十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "big-shots-funeral-2001",
+      "src": "film-ai/big-shots-funeral-2001.jpg",
+      "sha256": "610b51735b27942a98019c321ed589f227a1ddb482c74a1484f0a4602121eb12",
+      "reason": "01 仅列葛优、关之琳、保罗·莫索斯基等主演字卡，非独立场景；02 葬礼筹备布景符合片目。",
+      "evidence": "第十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "black-god-white-devil-1964",
+      "src": "film-ai/black-god-white-devil-1964.jpg",
+      "sha256": "bf27085a873636a2f7b7e1352ec3b7bfe69e858e5f06f4e7ca377df57aad7c74",
+      "reason": "02 大字排版 DEUS E O DIABO NA TERRA DO SOL 覆盖人物风景，是片名海报，不是独立镜头。",
+      "evidence": "第十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "black-narcissus-1947",
+      "src": "film-ai/black-narcissus-1947.jpg",
+      "sha256": "8250cc4ea55faf27385b665596422dc00492d18c316b3fde8546d41c4642221b",
+      "reason": "02 暗黑哥特式教堂中张臂男僧，与 Criterion 所述喜马拉雅英籍修女学校及 Technicolor 场景不合。",
+      "evidence": "第十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "black-rain-1989",
+      "src": "film-ai/black-rain-1989.jpg",
+      "sha256": "65b3b33a3c3cce03545fef062da6db98cc7048f9e74c5f51e5f54736b13f4029",
+      "reason": "目录源锁定 IMDb tt0097694，即 Ridley Scott 的彩色大阪警匪片；01 黑白战时日式家庭与 Michael Douglas/Andy Garcia 当代刑警不符，疑混同今村昌平同年《黑雨》。",
+      "evidence": "第十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "black-rain-1989",
+      "src": "film-ai/decks/film-black-rain-1989.webp",
+      "sha256": "a125e4f19d4b274d520bc966e7c351a1de13fb7e70ecc25c1594ae96fe05be4b",
+      "reason": "02 黑白日本战时乡村女子画面同样与 Paramount/AFI 的彩色现代大阪警匪故事不符，疑混同今村昌平同年影片。",
+      "evidence": "第十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "black-swan-2010",
+      "src": "film-ai/black-swan-2010.jpg",
+      "sha256": "6542faf1c03636ca9ccdda9c0e3c2e4c59c674e2681720cce6e51f59239be83b",
+      "reason": "02 东亚女性旧式梳妆镜画面与 Searchlight 所列 Natalie Portman 饰现代芭蕾演员 Nina 不符，明确串片。",
+      "evidence": "第十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "blind-mountain-2007",
+      "src": "film-ai/blind-mountain-2007.jpg",
+      "sha256": "03896ff979e1d4dd995cffa89c92f2356c8119d2956ac212108cecf570da661d",
+      "reason": "02 女主人物叠山景并有大字 BLIND MOUNTAIN，是宣传海报而非独立镜头。",
+      "evidence": "第十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "blind-shaft-2003",
+      "src": "film-ai/blind-shaft-2003.jpg",
+      "sha256": "7c8b28f5a485fb8f0c1b97bd0e7a5abc983ede4fe53e35cc6cbf75886f1de6fe",
+      "reason": "02 多张矿工大头像、红色背景与矿井剪影拼成宣传海报，不是单一场景。",
+      "evidence": "第十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "blockade-2005",
+      "src": "film-ai/blockade-2005.jpg",
+      "sha256": "cbf8f5033252fa74210183c96a70b739b896cbf910e062fe91cfc0b2666cca3b",
+      "reason": "02 仅写 ARMENIA A COUNTRY UNDER BLOCKADE，指亚美尼亚而非导演所述列宁格勒围城纪录片。",
+      "evidence": "第十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "blood-simple-1984",
+      "src": "film-ai/blood-simple-1984.jpg",
+      "sha256": "00eeabd295a4f570e8295827c9d9446496bc2d905647ed0e06703d4d6fe78d9f",
+      "reason": "02 东亚男性近景与 Criterion 所列德州故事及 John Getz、Dan Hedaya、M. Emmet Walsh 等主演不合。",
+      "evidence": "第十七批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "blue-velvet-1986",
+      "src": "film-ai/blue-velvet-1986.jpg",
+      "sha256": "bb6b94f0c64df48045c61dcc88836d73158f7c554a8df07c2ecf29f7081fb623",
+      "reason": "02 东亚男子在暗室楼梯，与 Kyle MacLachlan 等主角身份不符，明确串片。",
+      "evidence": "第十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "blush-1995",
+      "src": "film-ai/blush-1995.jpg",
+      "sha256": "e342aa2d04573fc54239c232c5d56d19e9496113b26b4fcb1f41e5d92621d594",
+      "reason": "02 带《红颜 Hongyan》字样的宣传拼版属另一片名，不是《红粉》独立剧照，明确错配。",
+      "evidence": "第十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "body-heat-1981",
+      "src": "film-ai/body-heat-1981.jpg",
+      "sha256": "78f5fba9a4228c40fc9d0d31602cc6bc9efc91e5b07483905d2051915276b3b4",
+      "reason": "02 东亚青年在夜街，与 AFI 所列 William Hurt / Kathleen Turner 的美国故事和主角不符，明确串片。",
+      "evidence": "第十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "border-town-1984",
+      "src": "film-ai/border-town-1984.jpg",
+      "sha256": "9fa190ab95aecc3e1743fd4d07e8295c25e8024fcb6db21f25d612f960086085",
+      "reason": "02 印有《边城》片名、人物特写与山水底纹，属宣传海报拼版，非独立剧照。",
+      "evidence": "第十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "brazil-1985",
+      "src": "film-ai/brazil-1985.jpg",
+      "sha256": "43a0fe3e5210e162a815218db664e93cee70f00efac311deb8a80c040472d371",
+      "reason": "02 东亚男子在工业廊道，与 BFI 所列 Jonathan Pryce 饰 Sam Lowry 的人物身份不符，明确串片。",
+      "evidence": "第十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "breaking-the-waves-1996",
+      "src": "film-ai/breaking-the-waves-1996.jpg",
+      "sha256": "4d875823e2a7230f0916bfd2f45dd3b8d53f3b2d7b3586550fd040a8ab57dc26",
+      "reason": "02 爱德华时代室内华服女子，与 Criterion 所列苏格兰当代 Bess/油井事故故事年代不合，明确串片。",
+      "evidence": "第十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "breakup-buddies-2014",
+      "src": "film-ai/breakup-buddies-2014.jpg",
+      "sha256": "93c147818706403e3ccf650949b1b21a44c6c70d5b5469248b5b61b5839869b7",
+      "reason": "02 欧美男女在美式 1980 年代电视舞台对谈，与黄渤/徐峥主演的中国公路喜剧不合，明确串片。",
+      "evidence": "第十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "breathless-1960",
+      "src": "film-ai/breathless-1960.jpg",
+      "sha256": "914a7396f57128781a5e859114f86f1c0cb3fd83846e3a0af413c8bf03d6e100",
+      "reason": "02 人物站在摄影机旁的拍摄现场，不是《精疲力尽》叙事内的独立剧照。",
+      "evidence": "第十八批30部两路径电影/逐图建议与联系表"
     }
   ]
 }

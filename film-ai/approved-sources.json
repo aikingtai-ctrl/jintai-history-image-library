@@ -1567,6 +1567,16 @@
         "sha256": "f4100a7c13185e59d421075b3ad30e3ff8d09e73c567f96792060ca79dfe3d3c"
       }
     ],
+    "berlin-symphony-of-a-metropolis-1927": [
+      {
+        "src": "film-ai/decks/film-berlin-symphony-of-a-metropolis-1927.webp",
+        "sha256": "9d6064d87e9349992b9edaeb0332a47f75a10e33e5c9e80f8b5b0acf1144944b"
+      },
+      {
+        "src": "film-ai/berlin-symphony-of-a-metropolis-1927.jpg",
+        "sha256": "6952ce157c35cbea108bd420f1712614cf4d41b533940b06b998be7bf62d8d49"
+      }
+    ],
     "better-days-2019": [
       {
         "src": "film-ai/decks/film-better-days-2019.webp",
@@ -1591,6 +1601,36 @@
         "sha256": "52244d46a459daaf2fb1b52983dd1b9861fe28035e23ab087e01d0dfd7d71458"
       }
     ],
+    "beyond-the-dream-2019": [
+      {
+        "src": "film-ai/decks/film-beyond-the-dream-2019.webp",
+        "sha256": "8561ac3cc7e3e0261bf58fdab9666bfd423ee69e7dec4c9fca87702f8bda0828"
+      },
+      {
+        "src": "film-ai/beyond-the-dream-2019.jpg",
+        "sha256": "ee2f075addbbe68bbe06c1b08f422a46ab628781b65f20c399e13a235abe85c0"
+      }
+    ],
+    "bicycle-thieves-1948": [
+      {
+        "src": "film-ai/decks/film-bicycle-thieves-1948.webp",
+        "sha256": "f3af0223a437338615a0f1d2c3c2a6bda776c73a557c665eb44c529cc4f5a362"
+      },
+      {
+        "src": "film-ai/bicycle-thieves-1948.jpg",
+        "sha256": "2e59aa41966757cb9786aafd19db717db94dc5e52c8217d0e82a61c88226d724"
+      }
+    ],
+    "big-fish-and-begonia-2016": [
+      {
+        "src": "film-ai/decks/film-big-fish-and-begonia-2016.webp",
+        "sha256": "a48f30ce38e84c4a2d3ca7f70dc85e977a51d202a3658e02cbe584f74f9a7714"
+      },
+      {
+        "src": "film-ai/big-fish-and-begonia-2016.jpg",
+        "sha256": "0ecd2b09d63d45f65b5eed413190f4662c2da0c6f8a2252186d89e8cd603faf3"
+      }
+    ],
     "birdman-2014": [
       {
         "src": "film-ai/shots/YS-20261028-C15-birdman-2014-11.webp",
@@ -1599,6 +1639,26 @@
       {
         "src": "film-ai/decks/film-birdman-2014.webp",
         "sha256": "a927917eb05145f25c3241a7c83dcd52e654351160a8582f19cc43f9d614e1c7"
+      }
+    ],
+    "bitter-money-2016": [
+      {
+        "src": "film-ai/decks/film-bitter-money-2016.webp",
+        "sha256": "07ae7a62adf3f0257ea1d20dfff1cd801e4e97555ce8b2d3dc29b6ab5d9bdc45"
+      },
+      {
+        "src": "film-ai/bitter-money-2016.jpg",
+        "sha256": "d8881bb20c91a3be5dbe7c096475f2ec97adf6a220b5a8cdf8a3f763d57c60a8"
+      }
+    ],
+    "bitter-rice-1949": [
+      {
+        "src": "film-ai/decks/film-bitter-rice-1949.webp",
+        "sha256": "0860c3c5fef9f6705973a8a02bef3f75745af2d19c828481e2d950bc904c1d74"
+      },
+      {
+        "src": "film-ai/bitter-rice-1949.jpg",
+        "sha256": "ec3bfa2083a065b61c00958e60f7f507e223089e26f4ab277b16e84c57badbee"
       }
     ],
     "black-cat-detective-1984": [
@@ -1619,6 +1679,36 @@
         "sha256": "cc4a07323a21e630046972bd6b78c0abbe1d6c8a0420869698fbe8eba799f63b"
       }
     ],
+    "black-cat-white-cat-1998": [
+      {
+        "src": "film-ai/decks/film-black-cat-white-cat-1998.webp",
+        "sha256": "3a3103836474a1a73f4355fc5ef671b5cc641ae0c3a1581e43859fbd000356a1"
+      },
+      {
+        "src": "film-ai/goal9438/black-cat-white-cat-1998.jpg",
+        "sha256": "b75c4b7ba12aee5a69114d4ef5755f86831c16ccb91f5d5b2dec79ca02dfa319"
+      }
+    ],
+    "black-dog-2024": [
+      {
+        "src": "film-ai/decks/film-black-dog-2024.webp",
+        "sha256": "e19af95ef55b93c837952276932593b107c50a8587a84fc9305111f0189e8369"
+      },
+      {
+        "src": "film-ai/black-dog-2024.jpg",
+        "sha256": "1e63b6cb464c861bc11f46d80d31d00d26f5989ee22e300e1ad9985dfc57c109"
+      }
+    ],
+    "black-girl-1966": [
+      {
+        "src": "film-ai/decks/film-black-girl-1966.webp",
+        "sha256": "1bd0beb6c699bf93a8abb84a38aef840a891c6fc736de76272bca73fe1f11296"
+      },
+      {
+        "src": "film-ai/black-girl-1966.jpg",
+        "sha256": "66eab91365ee928d05d13675d934b70a044e849048749ea6da9adc8e175317e8"
+      }
+    ],
     "blade-runner-2049-2017": [
       {
         "src": "film-ai/shots/YS-0040-01.webp",
@@ -1627,6 +1717,16 @@
       {
         "src": "film-ai/decks/film-blade-runner-2049-2017.webp",
         "sha256": "ab897534d177090da2bfe672b26957277a7c58c87a9458965fbf526bde5ac188"
+      }
+    ],
+    "blancanieves-2012": [
+      {
+        "src": "film-ai/decks/film-blancanieves-2012.webp",
+        "sha256": "620a5484ee5f72f97e7831187f06dec18724f2695ca7a43045e5c192f2bbf890"
+      },
+      {
+        "src": "film-ai/blancanieves-2012.jpg",
+        "sha256": "7c3d7b85dfc0b1011a962067691bfeec0ee184b5cb7aca941250636763f82f65"
       }
     ],
     "blind-massage-2014": [
@@ -1651,6 +1751,186 @@
       {
         "src": "film-ai/blood-and-black-lace-1964.jpg",
         "sha256": "33a8a5bd528a2162a748c65253fdbcb8700dfe675bb8ee467d57a8004c966f83"
+      }
+    ],
+    "blow-out-1981": [
+      {
+        "src": "film-ai/decks/film-blow-out-1981.webp",
+        "sha256": "ecfad089ed27754e298aad827d77d54cf43ca24987a5c0a15a527e9cf0e09938"
+      },
+      {
+        "src": "film-ai/blow-out-1981.jpg",
+        "sha256": "87c32b9fe83017ba4ab167e4f0512db63fcd8862d1eb7b3c2614ca2ff8fb2cab"
+      }
+    ],
+    "blow-up-1966": [
+      {
+        "src": "film-ai/decks/film-blow-up-1966.webp",
+        "sha256": "6d2ceadf29c2e5ff43ee5d661298c1bcabb5b45c999e09004f1d448afc405167"
+      },
+      {
+        "src": "film-ai/blow-up-1966.jpg",
+        "sha256": "8c1c1bf3894acc477ee7e530688425b0b2232492517eaa719c037e641e5d966b"
+      }
+    ],
+    "blue-gate-crossing-2002": [
+      {
+        "src": "film-ai/decks/film-blue-gate-crossing-2002.webp",
+        "sha256": "f92c42ff46354a1cd74758741ea47e56bf8ed846c65335aa6e86cd82bce2745b"
+      },
+      {
+        "src": "film-ai/blue-gate-crossing-2002.jpg",
+        "sha256": "10575534d4a258224e99d0580725111fb00ce43a595d485d5a4495829e21d863"
+      }
+    ],
+    "boat-people-1982": [
+      {
+        "src": "film-ai/decks/film-boat-people-1982.webp",
+        "sha256": "5542c20751053fa7a6c9ceb0d9e6694e3f3e1c5b53d964fd3fcf61affbcaee48"
+      },
+      {
+        "src": "film-ai/boat-people-1982.jpg",
+        "sha256": "ed8352e5ca1d1285a4fb4b63e7a6670a541e77b214476f5c0d7a1418ba310bdf"
+      }
+    ],
+    "bob-le-flambeur-1956": [
+      {
+        "src": "film-ai/decks/film-bob-le-flambeur-1956.webp",
+        "sha256": "9d7964510460f78fbfb6c51bf54311ceb0c48e5ae7761d4317a415b06404d439"
+      },
+      {
+        "src": "film-ai/bob-le-flambeur-1956.jpg",
+        "sha256": "2c4f00ed9e14b52be867a8b935af986b552ecd2c62b7541def8957c20804e8c2"
+      }
+    ],
+    "body-and-soul-1947": [
+      {
+        "src": "film-ai/decks/film-body-and-soul-1947.webp",
+        "sha256": "4162b80751179692c77695b01a517c0c5ee4d84bce42f9610ead5fe0453fac10"
+      },
+      {
+        "src": "film-ai/body-and-soul-1947.jpg",
+        "sha256": "cb03392d835db1c9832d5a16cabef4d5c03f3511ab6155edced048e3a01dc947"
+      }
+    ],
+    "bodyguards-and-assassins-2009": [
+      {
+        "src": "film-ai/decks/film-bodyguards-and-assassins-2009.webp",
+        "sha256": "d0dbe32cd3bf333da3426af488d3f7fdc8faa6ce3bc5853709ad64771de87cb5"
+      },
+      {
+        "src": "film-ai/bodyguards-and-assassins-2009.jpg",
+        "sha256": "ab6b78c873cf67acabbb5134da557e12a838ca69e6af577e584fcbd4aa585b21"
+      }
+    ],
+    "bombay-1995": [
+      {
+        "src": "film-ai/decks/film-bombay-1995.webp",
+        "sha256": "d92d73c77f5c13e5845fe5336c7ca27b518faa74eae2e19ac3487fbd1008a180"
+      },
+      {
+        "src": "film-ai/bombay-1995.jpg",
+        "sha256": "10c2b5d0c39652c4e2d3e2f61fb90d7b18a47c46b2aac1923feeae399676c038"
+      }
+    ],
+    "boogie-nights-1997": [
+      {
+        "src": "film-ai/decks/film-boogie-nights-1997.webp",
+        "sha256": "1a47cab23ae8ea6504a9e72142ac13dc611a3f472acd2842adf3c81add75ec96"
+      },
+      {
+        "src": "film-ai/boogie-nights-1997.jpg",
+        "sha256": "5c8c33270e2e67ab8da7e96b4eef61eb4572e05ef1f55fdb3b3338cb54886fcf"
+      }
+    ],
+    "borgman-2013": [
+      {
+        "src": "film-ai/decks/film-borgman-2013.webp",
+        "sha256": "e47ece8c1d2acc71eab302e6ed7c4253a4f3e8aa214af9acc292c03fd861df59"
+      },
+      {
+        "src": "film-ai/borgman-2013.jpg",
+        "sha256": "9348e64263ce882d55b12385eb778029d498c15c56bf16a47667b23f763f98d5"
+      }
+    ],
+    "bound-for-glory-1976": [
+      {
+        "src": "film-ai/decks/film-bound-for-glory-1976.webp",
+        "sha256": "a143e848a6975024b3469ba047878d223eb777a0ff6285b7f946654c10ae5675"
+      },
+      {
+        "src": "film-ai/bound-for-glory-1976.jpg",
+        "sha256": "ffd4e0bb56d987a9f8c11076ebef4bc0e0429bdf3be33428488449d1971d950b"
+      }
+    ],
+    "boyhood-2014": [
+      {
+        "src": "film-ai/decks/film-boyhood-2014.webp",
+        "sha256": "7c5ca6c0f84200fb8fa8710d90dfc688a28b1fc61a166a710dd2e59a22020010"
+      },
+      {
+        "src": "film-ai/boyhood-2014.jpg",
+        "sha256": "7f0891c2efa5f5bf668bd67a8da5fbb56cdb3f1d9f66508e68af366de10d3e93"
+      }
+    ],
+    "boyz-n-the-hood-1991": [
+      {
+        "src": "film-ai/decks/film-boyz-n-the-hood-1991.webp",
+        "sha256": "479c2153df83d671d6821be1c656232b4140ec00fe24fd7ac20971ab44ee596e"
+      },
+      {
+        "src": "film-ai/boyz-n-the-hood-1991.jpg",
+        "sha256": "4b42b11d83b985d4787814b33f6613d30b05ae5c47bfc0703d4d1d0c85e8e2f1"
+      }
+    ],
+    "bpm-2017": [
+      {
+        "src": "film-ai/decks/film-bpm-2017.webp",
+        "sha256": "6daeef05ec124cba56ffda8d5914ffcc9c1a824c4dd634e0ffd5b6a68561589a"
+      },
+      {
+        "src": "film-ai/bpm-2017.jpg",
+        "sha256": "ce9098ff95c16c6b6b613e5d62b7a9f46eda033fdcd95b765efd73e6f41e9040"
+      }
+    ],
+    "breakfast-at-tiffanys-1961": [
+      {
+        "src": "film-ai/breakfast-at-tiffanys-1961.jpg",
+        "sha256": "c94701a9dd4bdc7b4a88199470b97997583244bcaea908c85083101774e2e15b"
+      },
+      {
+        "src": "film-ai/decks/film-breakfast-at-tiffanys-1961.webp",
+        "sha256": "8f66a47d51d1a0b306900f60367b78fc4e47873b4eaf212e5cf85a75ec6da93a"
+      }
+    ],
+    "breaking-news-2004": [
+      {
+        "src": "film-ai/decks/film-breaking-news-2004.webp",
+        "sha256": "9fb8068a81da7f81c3370972ee798af776276ed92be1c4174e22796251163e79"
+      },
+      {
+        "src": "film-ai/breaking-news-2004.jpg",
+        "sha256": "a080f5a5a7a5cb835d12bdb8e4f48381ed8af266a41c187a460c148cfd1a0042"
+      }
+    ],
+    "bride-of-frankenstein-1935": [
+      {
+        "src": "film-ai/bride-of-frankenstein-1935.jpg",
+        "sha256": "a3ff0caa4437ea8c283382806d6231e8e9864412ea1e13eff34a299fbde4caef"
+      },
+      {
+        "src": "film-ai/decks/film-bride-of-frankenstein-1935.webp",
+        "sha256": "3189fab8ff4b0f55a723f987d5094b11a9f6f9348211da672ee78c7fc7d7f94f"
+      }
+    ],
+    "bridge-of-spies-2015": [
+      {
+        "src": "film-ai/bridge-of-spies-2015.jpg",
+        "sha256": "dfa5d605a07fc395793dab633d62dd4ef422329e9260d18b6b1496c5be2bf353"
+      },
+      {
+        "src": "film-ai/decks/film-bridge-of-spies-2015.webp",
+        "sha256": "1494ada2e3bc4a64933ce9e65f7a7d6ce0b9320be9638aaf11eae4e98716fa39"
       }
     ],
     "brief-encounter-1945": [
