@@ -49,7 +49,7 @@ jobs:
             "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" repo
 
           python3 - <<'PY'
-          import gzip, hashlib, json, pathlib, re, shutil, subprocess
+          import gzip, hashlib, json, pathlib, re, shutil, subprocess, tempfile
 
           repo = pathlib.Path("repo")
           site = pathlib.Path("_site")
@@ -139,7 +139,13 @@ jobs:
               assert "original-pngs/" in html and "download=1" in html, f"Original download missing in {rel}"
               assert "查看预览" in html and "原图" in html, f"Preview/original labels missing in {rel}"
               route = "historyOriginalUrl(info)" if rel == "index.html" else "gptOriginalUrl(info)"
-              assert route + ".then(url=>tab.location.replace(url))" in html, f"Direct original navigation missing in {rel}"
+              assert route + ".then(url=>new Promise" in html, f"Original image preflight missing in {rel}"
+          with tempfile.TemporaryDirectory() as check_dir:
+              for rel, html in history_pages.items():
+                  (pathlib.Path(check_dir) / rel).write_text(html, encoding="utf-8")
+              check_script = pathlib.Path(check_dir) / "test_history_original_routes.mjs"
+              check_script.write_bytes(git_bytes("show", "HEAD:tools/test_history_original_routes.mjs"))
+              subprocess.run(["node", str(check_script), check_dir], check=True)
           assert "history-ai/myth-originals-manifest.js" in idx_html and "JINTAI_MYTH_IMAGES?.[id]" in idx_html, "Myth original mapping missing"
           assert "full.onload" in idx_html and "native.width" in idx_html, "Original lightbox dimension gate missing"
           assert "history-ai/browser-originals-manifest.js" in idx_html and "window.JINTAI_BROWSER_IMAGES?.[id]||" in idx_html, "Accepted browser originals missing from index"
