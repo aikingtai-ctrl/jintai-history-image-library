@@ -70,6 +70,27 @@ jobs:
 
           film_ai_mf = git_bytes("show", "HEAD:film-ai/manifest.js").decode("utf-8", errors="ignore")
           m_ai = re.search(r"window\.FILM_AI_IMAGES\s*=\s*(\{.*?\})\s*;", film_ai_mf, re.S)
+          rejected = json.loads(git_bytes("show", "HEAD:film-ai/rejected-sources.json"))
+          approved = json.loads(git_bytes("show", "HEAD:film-ai/approved-sources.json"))
+          gallery_text = git_bytes("show", "HEAD:film-ai/work-galleries.js").decode("utf-8")
+          gallery_match = re.search(r"window\.FILM_WORK_GALLERIES\s*=\s*(\{[^\n]*\})\s*;", gallery_text)
+          assert rejected.get("schema") == 1 and gallery_match, "Invalid film rejection or gallery manifest"
+          rejected_paths = {row["src"] for row in rejected["sources"]}
+          approved_paths = {row["src"] for rows in approved["films"].values() for row in rows}
+          gallery_paths = {row["src"] for rows in json.loads(gallery_match.group(1)).values() for row in rows}
+          representative_paths = set(json.loads(m_ai.group(1)).values()) if m_ai else set()
+          mapped_paths = set()
+          for rel, names in (
+              ("film-ai/shots-manifest.js", ("FILM_SHOT_IMAGES", "FILM_SHOT_WORK_IMAGES")),
+              ("film-ai/decks/manifest.js", ("FILM_DECK_COVERS",)),
+          ):
+              mapping_text = git_bytes("show", f"HEAD:{rel}").decode("utf-8")
+              for name in names:
+                  mapping_match = re.search(r"window\." + name + r"\s*=\s*(\{.*?\})\s*;", mapping_text, re.S)
+                  assert mapping_match, f"Missing film image map {name} in {rel}"
+                  mapped_paths.update(json.loads(mapping_match.group(1)).values())
+          leaked = rejected_paths & (approved_paths | gallery_paths | representative_paths | mapped_paths)
+          assert not leaked, f"Rejected film images reintroduced: {sorted(leaked)}"
           film_ai_jpg_keep = {v for v in (json.loads(m_ai.group(1)).values() if m_ai else []) if isinstance(v, str) and v.lower().endswith((".jpg", ".jpeg"))}
 
           # Skip downloading JPEGs whose blob OID matches immutable baseline or verified HD OID cache.

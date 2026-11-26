@@ -757,6 +757,10 @@ async function updateLiveShotManifest(){
   if(Object.keys(remote).length>=Object.keys(current).length){window.FILM_SHOT_IMAGES=remote;if(workMatch)window.FILM_SHOT_WORK_IMAGES=JSON.parse(workMatch[1]);window.FILM_SHOT_ASSET_REV='main';}
  }catch(e){console.warn('在线镜头画面清单暂不可用，使用站点内置版本',e);}finally{clearTimeout(timer);}
 }
+const REJECTED_FILM_SOURCES=new Set(["film-ai/dune-2021.jpg","film-ai/avatar-2009.jpg","film-ai/battle-royale-2000.jpg","film-ai/cold-war-2018.jpg","film-ai/restored/princess-mononoke-1997.jpg","film-ai/gladiator-2000.jpg"]);
+const SAFE_FILM_FALLBACKS={"dune-2021":"film-ai/shots/YS-20261028-C15-dune-2021-11.webp","avatar-2009":"film-ai/decks/film-avatar-2009.webp","battle-royale-2000":"film-ai/quality-reviewed/battle-royale-2000.png","cold-war-2018":"film-ai/shots/YS-20261110-2300-cold-war-2018-06.webp","princess-mononoke-1997":"film-ai/decks/film-princess-mononoke-1997.webp","gladiator-2000":"film-ai/decks/film-gladiator-2000.webp"};
+function isKnownBadFilmSource(src){if(!src)return false;const value=String(src).split(/[?#]/)[0].toLowerCase(),at=value.lastIndexOf("film-ai/");return at>=0&&REJECTED_FILM_SOURCES.has(value.slice(at));}
+window.FILM_BAD_SOURCE_CHECK=isKnownBadFilmSource;
 async function updateWorkGalleryManifest(){
  if(location.protocol==='file:'){await loadScriptOnce('film-ai/work-galleries.js?v=20261126-five-distinct',8000);return;}
  const ctl=new AbortController(),timer=setTimeout(()=>ctl.abort(),8000);
@@ -764,7 +768,7 @@ async function updateWorkGalleryManifest(){
   const url=IS_GH_FILM?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/film-ai/work-galleries.js?v=${Date.now()}`:`film-ai/work-galleries.js?v=20261126-five-distinct`;
   const response=await fetch(url,{cache:'no-store',signal:ctl.signal});if(!response.ok)return;
   const body=await response.text(),match=/window\.FILM_WORK_GALLERIES\s*=\s*(\{[^\n]*?\})\s*;/.exec(body);if(!match)return;
-  const gallery=JSON.parse(match[1]);if(gallery&&typeof gallery==='object'&&!Array.isArray(gallery))window.FILM_WORK_GALLERIES=gallery;
+  const gallery=JSON.parse(match[1]);if(gallery&&typeof gallery==='object'&&!Array.isArray(gallery)){for(const [wid,items] of Object.entries(gallery)){const safe=Array.isArray(items)?items.filter(x=>!isKnownBadFilmSource(typeof x==='string'?x:(x?.src||x?.path||''))):[];if(safe.length>1)gallery[wid]=safe;else delete gallery[wid];}window.FILM_WORK_GALLERIES=gallery;}
  }catch(e){console.warn('影片图库清单暂不可用，使用影片主图',e);}finally{clearTimeout(timer);}
 }
 function visual(r,W,big){const f=frOf(r);if(f)return`<img loading="lazy" src="${FRAME_DIR}/${esc(big?f.f:f.t)}" alt="${esc(r.W.t)} 截帧">`;const ai=shotImageSrc(r.id);if(ai)return`<img loading="lazy" src="${esc(ai)}" alt="${esc(r.W.t)} · ${isWorkRepresentativeShot(r.id)?'同片代表图，非该镜原帧':esc(r.sc||'')+'，AI 原创参考画面'}">`;return r.origin==='visual'?sourceVisual(r):schem(r,W);}
@@ -1600,21 +1604,21 @@ function resolveFilmAiAsset(rel){if(!rel)return'';if(/^https?:/i.test(rel))retur
 function resolveFilmAiLegacyAsset(rel){return resolveFilmAiAsset(rel);}
 function getFilmAiSrc(wid){
   const gallery=(window.FILM_WORK_GALLERIES||{})[wid];
-  if(Array.isArray(gallery)&&gallery.length){const first=gallery[0],src=typeof first==='string'?first:first&&first.src;if(src)return resolveFilmAiAsset(src);}
- const representative=(window.FILM_AI_IMAGES||FILM_AI_IMAGES||{})[wid];
+  if(Array.isArray(gallery)&&gallery.length){for(const first of gallery){const src=typeof first==='string'?first:first&&first.src;if(src&&!isKnownBadFilmSource(src))return resolveFilmAiAsset(src);}}
+ const rawRepresentative=(window.FILM_AI_IMAGES||FILM_AI_IMAGES||{})[wid],representative=isKnownBadFilmSource(rawRepresentative)?(SAFE_FILM_FALLBACKS[wid]||''):rawRepresentative;
  if((window.FILM_AI_FIRST_SHOT_GOAL_WIDS||{})[wid]&&representative)return resolveFilmAiAsset(representative);
 
  const direct=(window.FILM_SHOT_WORK_IMAGES||{})[wid];
- if(direct)return resolveFilmAiAsset(direct);
+ if(direct&&!isKnownBadFilmSource(direct))return resolveFilmAiAsset(direct);
  const work=WORK_BY_WID.get(wid),shots=work?(BYW.get(work.i)||[]):[];
  const generated=shots.find(r=>shotImageSrc(r.id));
  if(generated)return shotImageSrc(generated.id);
  const deckCover=(window.FILM_DECK_COVERS||{})['film:'+wid];
- if(deckCover)return resolveFilmAiAsset(deckCover);
+ if(deckCover&&!isKnownBadFilmSource(deckCover))return resolveFilmAiAsset(deckCover);
  return resolveFilmAiLegacyAsset(representative||'');
 }
  function workPhotoEntries(w){if(!w)return[];const out=[],seen=new Set(),kindNames={primary:'影片主图',representative:'单片代表图',cover:'AI 图集封面',shot:'逐镜参考图',work:'作品关联图'};
-  const add=(src,shotId='',kind='参考画面')=>{if(!src||out.length>=5)return;const resolved=resolveFilmAiAsset(src),key=resolved.split(/[?#]/)[0].toLowerCase();if(seen.has(key))return;seen.add(key);out.push({src:resolved,shotId,kind:kindNames[kind]||kind});};
+  const add=(src,shotId='',kind='参考画面')=>{if(!src||out.length>=5||window.FILM_BAD_SOURCE_CHECK?.(src))return;const resolved=resolveFilmAiAsset(src),key=resolved.split(/[?#]/)[0].toLowerCase();if(seen.has(key))return;seen.add(key);out.push({src:resolved,shotId,kind:kindNames[kind]||kind});};
   const curated=(window.FILM_WORK_GALLERIES||{})[w.wid];
   if(Array.isArray(curated)&&curated.length){curated.forEach(x=>{if(typeof x==='string')add(x);else if(x)add(x.src||x.path,x.shotId||'',x.kind||'参考画面');});return out;}
   add(getFilmAiSrc(w.wid),'','单片代表图');

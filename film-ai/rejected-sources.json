@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "updated_at": "2026-11-26T14:33:06.361366+08:00",
+  "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
+  "sources": [
+    {
+      "wid": "dune-2021",
+      "src": "film-ai/dune-2021.jpg",
+      "sha256": "f758296cf381764828057f546e809711a731f3d7d2de247d4891991eaab2fdf1",
+      "reason": "Chinese lattice-window portrait is unrelated to the desert setting",
+      "evidence": "qa_batch2/dune-2021-approved-contact.jpg"
+    },
+    {
+      "wid": "avatar-2009",
+      "src": "film-ai/avatar-2009.jpg",
+      "sha256": "668a1036254290c2d25b2b32cb645cb23213da64364c768fc6466b7a8ed55c02",
+      "reason": "Neon city Asian men are unrelated to Pandora",
+      "evidence": "qa_batch2/contact-01.jpg; qa_approved_reaudit/approved-contact-02.jpg"
+    },
+    {
+      "wid": "battle-royale-2000",
+      "src": "film-ai/battle-royale-2000.jpg",
+      "sha256": "df10c90c5db7d0522b34de20c627eeb1d66adfce35cb34f7924bf892685fe58d",
+      "reason": "Sleeping adult in business suit is unrelated to the schoolchildren",
+      "evidence": "qa_approved_reaudit/approved-contact-02.jpg"
+    },
+    {
+      "wid": "cold-war-2018",
+      "src": "film-ai/cold-war-2018.jpg",
+      "sha256": "61e9722d7fc25796f2ab5245c0a9bf958e2b6a6bb781ac42b7b57cdaa4b17925",
+      "reason": "Hollywood-style blonde couple is unrelated to the 2018 Polish film",
+      "evidence": "qa_approved_reaudit/approved-contact-04.jpg"
+    },
+    {
+      "wid": "princess-mononoke-1997",
+      "src": "film-ai/restored/princess-mononoke-1997.jpg",
+      "sha256": "7c2f2874fc53631fed53471170f450ba3bcbfd7c9be076cf733df3f126d86008",
+      "reason": "Monkey King illustration is unrelated to Princess Mononoke",
+      "evidence": "qa_batch2/contact-03.jpg"
+    },
+    {
+      "wid": "gladiator-2000",
+      "src": "film-ai/gladiator-2000.jpg",
+      "sha256": "a6c8fcbb38bb7f7cc30f800d600a803c6a8e64e0dc481ddf617a319361515514",
+      "reason": "Hooded bearded fantasy figure is unrelated to Gladiator",
+      "evidence": "qa_batch2/contact-04.jpg"
+    }
+  ]
+}
