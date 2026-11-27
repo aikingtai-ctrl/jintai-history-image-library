@@ -61,8 +61,20 @@ jobs:
 
           idx_html = git_bytes("show", "HEAD:index.html").decode("utf-8", errors="ignore")
           brw_html = git_bytes("show", "HEAD:browser.html").decode("utf-8", errors="ignore")
-          d1_active = set(re.findall(r'"(idx_\d+_\d+\.js)"', idx_html))
-          d2_active = set(re.findall(r'"(idx_\d+_\d+\.js)"', brw_html))
+          def active_index_chunks(html):
+              match = re.search(r"const IDX_CHUNKS\s*=\s*(\[[^\n]*\]);", html)
+              assert match, "IDX_CHUNKS not found"
+              return set(json.loads(match.group(1)))
+
+          d1_active = active_index_chunks(idx_html)
+          d2_active = active_index_chunks(brw_html)
+          shard_match = re.search(r"const SHARDS\s*=\s*(\[[^\n]*\]);", idx_html)
+          assert shard_match, "SHARDS not found"
+          d1_film_shards = {
+              "d1/" + row["file"]
+              for row in json.loads(shard_match.group(1))
+              if row.get("era") == "影视参考"
+          }
           d3_keep = {"00_works.js", "01_idx.js", "vmanifest.js", "vworks.js", "vdecks.js", "vfingerprints.js"}
           d4_catalogue = git_bytes("show", "HEAD:d4/catalogue.js").decode("utf-8")
           d4_shards = re.findall(r'"(c\d{2,}\.js)"', d4_catalogue)
@@ -238,7 +250,9 @@ jobs:
                       continue
               if top == "(root)" and name.lower().endswith((".xlsx", ".zip", ".7z", ".bak")):
                   continue
-              if top in ("d1", "d2") and rel not in ("d1/compat_selected_2000_20261111.js", "d2/compat_selected_2000_20261111.js"):
+              if top == "d1" and rel != "d1/compat_selected_2000_20261111.js" and rel not in d1_film_shards:
+                  continue
+              if top == "d2" and rel != "d2/compat_selected_2000_20261111.js":
                   continue
               if top == "d1_idx":
                   if name not in d1_active:
