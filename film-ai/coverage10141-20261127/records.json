@@ -2,7 +2,7 @@
   "fixedScopeWorks": 10141,
   "scopeRevision": "b58616b8990a50aba2766810e46e84ccf7e21c8f",
   "recovered": 56,
-  "generated": 29,
+  "generated": 35,
   "assets": [
     {
       "wid": "src-wd-q105443659",
@@ -1554,6 +1554,31 @@
       "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
+      "wid": "perrier-le-lion-1990",
+      "title": "巴黎水·狮子",
+      "preview": "film-ai/firstshot-coverage10141-20261127/perrier-le-lion-1990.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5712dc41fbfdfc58096cf1d802d0efdd589773c7/originals/film-coverage-10141-20261127/perrier-le-lion-1990.png",
+        "sha256": "b483cf336bc37b65943edfb5cff7942b0ba88cf1055ab118be1792a7dde2c643",
+        "bytes": 2587467,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "d0267b93c7c89ed85f285aac2577c0d598a022841f7ec1e0904f0da1eddbec67",
+      "referenceLabel": "AI改编参考图（非首镜）",
+      "scene": "红土沙丘与白色阳伞，原创成年金发女子穿完整黑白条纹连衣裙平静站立，远处雄狮立于高坡，桌上无标识绿玻璃气泡水瓶。",
+      "actualPrompt": "Create one original sophisticated 1990s advertising-cinema photographic reference scene. An adult blonde woman in her thirties wears a modest full-length black-and-white striped summer dress and stands calmly beneath a plain white parasol on a red-earth desert terrace. A small table beside her holds an unbranded green glass bottle of sparkling water with condensation and a clear glass. FAR in the background, at a safe considerable distance, a majestic male lion stands calmly on a sunlit red dune ridge, looking across the landscape rather than approaching her. Harsh white midday sun, shimmering warm air, graphic red sand, white parasol and dark lion silhouette, refined wide 1.85:1 composition, natural 1990s commercial-film texture. Original fictional woman, no celebrity likeness, no animal attack, interaction or threat, no swimwear, no lettering, bottle labels, logos, captions, poster or collage. AI adapted reference, not a real commercial frame or verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b58616b8990a50aba2766810e46e84ccf7e21c8f/d4/p_perrier-le-lion-1990.js",
+          "basis": "固定作品ID的首条画面描述；按用户批准改编，不视为经核实的实际开场"
+        }
+      ],
+      "adaptationNote": "按首条描述改编：泳装改为完整条纹连衣裙，人与狮保持远距离，取消逼近威胁及品牌文字；不声称真实广告帧或首镜。"
+    },
+    {
       "wid": "src-5fe7efd6415d2d39",
       "title": "U2 3D",
       "preview": "film-ai/firstshot-coverage10141-20261127/src-5fe7efd6415d2d39.jpg",
@@ -2297,6 +2322,131 @@
         }
       ],
       "adaptationNote": "依首条镜头描述作原创人物改编，不使用特定歌手肖像；保留旧床、蛛网与梦境阴影构图，明确非首镜。官方乐队网页用于作品身份核对。"
+    },
+    {
+      "wid": "the-weeknd-blinding-lights-2020",
+      "title": "Blinding Lights — 盆栽哥",
+      "preview": "film-ai/firstshot-coverage10141-20261127/the-weeknd-blinding-lights-2020.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5712dc41fbfdfc58096cf1d802d0efdd589773c7/originals/film-coverage-10141-20261127/the-weeknd-blinding-lights-2020.png",
+        "sha256": "ae1af8852531e07f635d40b842c2ffe4fe51390dd4e92654b514a3664e3c0929",
+        "bytes": 2455423,
+        "width": 1914,
+        "height": 822,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "66c74d7cc6216e585d85a4c3c6ca9b527d33d2ca8517a4b67acaf3198387c41d",
+      "referenceLabel": "AI改编参考图（非首镜）",
+      "scene": "霓虹雨夜街道，穿红色西装戴深色眼镜的原创成年男子坐在静止的银绿色敞篷跑车中，低机位反光构图。",
+      "actualPrompt": "Create one original cinematic photographic neon-night music-video content-reference frame. A fictional adult man in his thirties wearing a deep red suit jacket, black shirt and dark glasses sits in the driver's seat of a STATIONARY silver-green vintage convertible parked on an empty wet downtown entertainment-district street at midnight. His hands rest calmly on the steering wheel; original face, no recognizable singer likeness. Very low exterior three-quarter camera angle near the wet asphalt, luminous cyan, magenta and amber neon reflections flow across the street and the car body, blurred abstract light panels and hazy distant architecture. Rich cinematic contrast, realistic rain droplets, mild lens halation, wide 2.35:1 landscape composition. No speed, drifting, crash, injuries, weapons, readable signs, visible car badges, brand names, captions, logos, poster or collage. Clearly an adapted AI reference concept, not a real music-video frame or verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b58616b8990a50aba2766810e46e84ccf7e21c8f/d4/p_the-weeknd-blinding-lights-2020.js",
+          "basis": "固定作品ID的首条画面描述；按用户批准改编，不视为经核实的实际开场"
+        }
+      ],
+      "adaptationNote": "按首条描述保留红西装、敞篷车与霓虹反光，以原创成年人物和无标识汽车替代特定歌手及车标，高速驾驶改为停车，明确非首镜。"
+    },
+    {
+      "wid": "the-white-stripes-fell-in-love-with-a-girl-2002",
+      "title": "Fell in Love with a Girl — 白色条纹乐队",
+      "preview": "film-ai/firstshot-coverage10141-20261127/the-white-stripes-fell-in-love-with-a-girl-2002.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5712dc41fbfdfc58096cf1d802d0efdd589773c7/originals/film-coverage-10141-20261127/the-white-stripes-fell-in-love-with-a-girl-2002.png",
+        "sha256": "e16c26a80b5f27efba44d46248a0e1cf86f3adc57d8d8460833e5c2ad3c51b92",
+        "bytes": 1926488,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "030d2aacff79dc642d925efae016beadace9b147735b23f083dd2389547dbfca",
+      "referenceLabel": "AI改编参考图（非首镜）",
+      "scene": "白色颗粒积木摄影棚，红黑白无标识塑料块组成原创成年吉他手轮廓，散开的立方块表现停格重组瞬间。",
+      "actualPrompt": "Create one original stop-motion miniature music-video reference image made entirely from unbranded interlocking plastic blocks and tiny cubes. On a clean white studded toy-block studio floor, hundreds of vivid red, pure black and white blocks form the recognizable full-body silhouette of an ORIGINAL ADULT GUITARIST in a red jacket and black trousers, holding a block-built electric guitar. A few cubes hang suspended just beside the body to suggest a single frozen instant of stop-motion assembly, while the main figure remains coherent. Chunky pixel-like geometry, crisp plastic highlights, real tabletop macro photography, soft studio shadows, energetic diagonal pose, tightly controlled red-black-white palette, wide 1.85:1 landscape composition. No brand name, no existing toy character, no celebrity likeness, no letters, captions, logos, poster or collage. This is an adapted AI visual reference, not an authentic music-video frame or verified first shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b58616b8990a50aba2766810e46e84ccf7e21c8f/d4/p_the-white-stripes-fell-in-love-with-a-girl-2002.js",
+          "basis": "固定作品ID的首条画面描述；按用户批准改编，不视为经核实的实际开场"
+        }
+      ],
+      "adaptationNote": "依首条描述保留红黑白积木与演奏构图，以无品牌原创积木和原创成年角色替代特定乐队成员与商标，不声称真实MV帧或首镜。"
+    },
+    {
+      "wid": "the-white-stripes-seven-nation-army-2003",
+      "title": "Seven Nation Army — 白色条纹乐队",
+      "preview": "film-ai/firstshot-coverage10141-20261127/the-white-stripes-seven-nation-army-2003.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5712dc41fbfdfc58096cf1d802d0efdd589773c7/originals/film-coverage-10141-20261127/the-white-stripes-seven-nation-army-2003.png",
+        "sha256": "79939ff77dc8e148074c65fdf2773eba47599c831798cb97e01671005bbd7aa0",
+        "bytes": 1922321,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "9371f80e3a920fdef5b0ddda1ccf97d2d5ad2e6515f0f85982d6583259d3b416",
+      "referenceLabel": "AI改编参考图（非首镜）",
+      "scene": "红黑白层叠三角走廊内，中央白光三角框中原创成年女鼓手的黑色剪影敲击架子鼓，透视对称。",
+      "actualPrompt": "Create one original graphic cinematic music-video reference image. A perfectly centered deep corridor is built from nested equilateral triangular frames alternating saturated red, jet black and bright white, diminishing toward a luminous white triangle at the center. Within that central triangle, an ORIGINAL ADULT female drummer is seen only as a clean black silhouette behind a compact drum kit, holding two drumsticks in a natural raised playing pose. Crisp geometric symmetry and strong one-point perspective, red-black-white palette only, subtle analog-video texture and a tiny restrained light bloom, wide 1.85:1 composition. The drum kit is clear and plausible, two arms and two sticks. No copied performer face, no words, symbols, captions, logos, poster or collage. An adapted AI music-video concept based on a shot description, not a real video frame or verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b58616b8990a50aba2766810e46e84ccf7e21c8f/d4/p_the-white-stripes-seven-nation-army-2003.js",
+          "basis": "固定作品ID的首条画面描述；按用户批准改编，不视为经核实的实际开场"
+        }
+      ],
+      "adaptationNote": "根据首条描述改为原创成年鼓手剪影，保留三角透视与红黑白配色；未确认真实首镜。"
+    },
+    {
+      "wid": "the-white-stripes-the-hardest-button-to-button-2003",
+      "title": "The Hardest Button to Button — 白色条纹乐队",
+      "preview": "film-ai/firstshot-coverage10141-20261127/the-white-stripes-the-hardest-button-to-button-2003.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5712dc41fbfdfc58096cf1d802d0efdd589773c7/originals/film-coverage-10141-20261127/the-white-stripes-the-hardest-button-to-button-2003.png",
+        "sha256": "4bd9c9b26a7b90f937fb2b9a93c1a1193b45f6adff77b4c14336bb38dd226598",
+        "bytes": 3046515,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "8786fb3b47c0cdd0f0185551024b5e8492e1fd2277dcecec17f489aab5326006",
+      "referenceLabel": "AI改编参考图（非首镜）",
+      "scene": "纽约红砖巷与高架铁桥下，重复红白架子鼓排列成透视队列，一名原创成年女鼓手居前，成年吉他手位于侧面。",
+      "actualPrompt": "Create one original cinematic photographic reference frame with the surreal logic of stop-motion music videos. Beneath an old steel elevated railway beside a red-brick Brooklyn alley, EIGHT identical compact red-and-white drum kits repeat in a staggered perspective line across dark asphalt, receding into the distance like a sequence of rhythmic footprints. At the nearest drum kit an original adult woman drummer in a modest red long-sleeved shirt and black trousers sits naturally holding two sticks. At the left edge an original adult male guitarist in a plain black shirt and red trousers holds a red-and-white electric guitar. Overcast urban daylight, tactile brick and riveted steel, early-2000s music-video film grain, coherent realistic repeated instruments, lively wide 1.85:1 composition. No recognizable musicians, no text, readable graffiti, logos, captions, poster or collage. Adapted AI visual reference, not a genuine music-video still or a verified first shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b58616b8990a50aba2766810e46e84ccf7e21c8f/d4/p_the-white-stripes-the-hardest-button-to-button-2003.js",
+          "basis": "固定作品ID的首条画面描述；按用户批准改编，不视为经核实的实际开场"
+        }
+      ],
+      "adaptationNote": "按首条描述保留重复鼓组和城市构图，以原创成年乐手替代特定乐队肖像，不声称真实MV帧或首镜。"
+    },
+    {
+      "wid": "unkle-rabbit-in-your-headlights-1998",
+      "title": "Rabbit in Your Headlights — UNKLE",
+      "preview": "film-ai/firstshot-coverage10141-20261127/unkle-rabbit-in-your-headlights-1998.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5712dc41fbfdfc58096cf1d802d0efdd589773c7/originals/film-coverage-10141-20261127/unkle-rabbit-in-your-headlights-1998.png",
+        "sha256": "5e7b7153712f51ebea344ee3ae455da258edefcee9fd5f50815e24d35caa104b",
+        "bytes": 2408895,
+        "width": 1921,
+        "height": 819,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "8d8e851a8376ae29469ce6375bd0aa71228eb2d7dd685c8cf851c65b3556e4fd",
+      "referenceLabel": "AI改编参考图（非首镜）",
+      "scene": "深长瓷砖拱顶公路隧道，穿完整旧外套的原创成年男子独立于安全侧道，远处车灯与透视线构成强光剪影；没有碰撞。",
+      "actualPrompt": "Create one original cinematic photographic adapted music-video reference image. A long dim tiled road tunnel curves very slightly into the distance beneath repeating arched ceiling lights. An isolated fully clothed adult man in a worn brown overcoat, dark trousers and sturdy shoes stands safely on a raised side walkway behind a low protective curb, gazing toward distant car headlights far along the roadway. His original fictional face is only partly visible in soft shadow. The distant car remains well away from him in its own lane. Strong headlight beams through thin haze, damp dark asphalt, pale grimy tile and receding overhead light rhythm, late-1990s muted green-gray photographic film texture, wide eye-level 2.35:1 composition, solemn human vulnerability without violence. No collision, injury, flying cars, broken glass, bare chest, recognizable actor likeness, lettering, logos, captions, poster or collage. An adapted AI scene, not an authentic video still or verified first shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b58616b8990a50aba2766810e46e84ccf7e21c8f/d4/p_unkle-rabbit-in-your-headlights-1998.js",
+          "basis": "固定作品ID的首条画面描述；按用户批准改编，不视为经核实的实际开场"
+        }
+      ],
+      "adaptationNote": "依首条描述保留隧道、车灯与孤立人物；人物穿完整外套，取消撞击、飞车、碎玻璃及受伤，以原创成年人替代特定演员，明确非首镜。"
     }
   ]
 }
