@@ -1058,6 +1058,220 @@
       "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
       "method": "内置 imagegen",
       "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 51,
+      "wid": "src-163fb0604f314841",
+      "title": "Faja Lobbi",
+      "firstShotId": "VP-src-163fb0604f314841-01",
+      "scene": "黑白纪实画面中，赤裸上身的欧洲录音师手持设备，正在与头包传统彩色印花布巾的苏里南当地妇女开心交谈。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Black-and-white documentary image in Suriname: an adult European sound recordist with an ordinary bare upper torso holds compact recording equipment while talking cheerfully with a fully clothed local adult woman wearing a traditional patterned headwrap. Respectful natural everyday interaction, nonsexual composition. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "dfcc022f5c294ca1ba612f664b1d3b76a1411c5f609649889c631183e97c341a",
+      "preview": "film-ai/firstshot-20261127/src-163fb0604f314841.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/48f6437f0e482a80b31b7b8a1d9973dcdab67c56/originals/film-expand-firstshot-20261127/src-163fb0604f314841.png",
+        "bytes": 2911739,
+        "sha256": "c03169406d8ef6e08b20e00e50847c1fac89f72b3e74ee746f1121ee8cff0696",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 52,
+      "wid": "src-16454c0883d4ca44",
+      "title": "Ikarie XB 1",
+      "firstShotId": "VP-fbc4173419275a49",
+      "scene": "黑白画面中，一名男子仰头向上，头部佩戴着带有金属尖刺的硬质头盔，颈部围着浅色布料，背景是带有垂直条纹和圆形亮斑的工业结构。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Black-and-white science-fiction close portrait: a fictional adult man tilts his face upward wearing a hard metal helmet with short protruding metal spikes and a pale fabric collar around his neck. Vertical industrial panels and blurred round lights behind him. No injury or menace. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "d882a5ccc990d6add89c2f381cada5bff063fc1700b65dfe9b7973cb739b00e6",
+      "preview": "film-ai/firstshot-20261127/src-16454c0883d4ca44.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/48f6437f0e482a80b31b7b8a1d9973dcdab67c56/originals/film-expand-firstshot-20261127/src-16454c0883d4ca44.png",
+        "bytes": 2170846,
+        "sha256": "253fee8df8d9009a740a5fbfef39e0025617915bd2f1d9cce28a4a9204bbdc4b",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 53,
+      "wid": "src-165f95660d53346f",
+      "title": "Bill and Ted’s Bogus Journey",
+      "firstShotId": "VP-e1b66002efa484ce",
+      "scene": "红发人物上半身位于画面左侧，身着黑色铆钉皮衣，背景为昏暗的蓝紫色舞台环境，右侧可见模糊的音响设备轮廓。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. A fictional red-haired adult performer occupies the left half of a medium close frame, wearing a black studded leather jacket. Dim blue-violet stage light, blurred loudspeaker equipment at the right. Expressive concert atmosphere, no actor likeness. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "3512c390c50b849fff8f7e388814edc459b39f905fcb3556e834a2dcb7817d5a",
+      "preview": "film-ai/firstshot-20261127/src-165f95660d53346f.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/48f6437f0e482a80b31b7b8a1d9973dcdab67c56/originals/film-expand-firstshot-20261127/src-165f95660d53346f.png",
+        "bytes": 2234118,
+        "sha256": "6620ec29f655babff6fc808998db48e9a25901c70fb94ca05902ed97e47839ed",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 54,
+      "wid": "src-16fa484a381beb8e",
+      "title": "金雞SSS",
+      "firstShotId": "VP-src-16fa484a381beb8e-01",
+      "scene": "色彩缤纷的九宫格竖版港产贺岁海报上吴君如率领众星摆出夸张搞笑造型",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. One single image containing a playful 3-by-3 grid of nine colorful Hong Kong comedy-poster portraits. Fictional East Asian adults of varied ages make exaggerated comic faces and poses against vivid festive backdrops. Every panel distinct; no real stars, titles, logos or lettering. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "7986e4ecf93e92b4b548041f4b37e2444b7c310bee7233c9336a69ac9b4eb702",
+      "preview": "film-ai/firstshot-20261127/src-16fa484a381beb8e.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/48f6437f0e482a80b31b7b8a1d9973dcdab67c56/originals/film-expand-firstshot-20261127/src-16fa484a381beb8e.png",
+        "bytes": 3016598,
+        "sha256": "c8fdd29995a2a9f832aba0d8975d97cffe21dc3213a39b871eb3b921429eeea6",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI资料参考图（海报描述，非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "first-record-promotional-image-description",
+      "adaptationNote": "按首条资料中的海报画面描述重绘，省略文字；非原片首镜、非原始海报。"
+    },
+    {
+      "ordinal": 55,
+      "wid": "src-1706477883a3e8e4",
+      "title": "Nada para ver aqui",
+      "firstShotId": "VP-src-1706477883a3e8e4-01",
+      "scene": "深蓝色调的极简概念海报画面，中央一扇半开的矩形门透出淡紫色微光与半圆形光晕，下方印有白色英文片名。",
+      "actualPrompt": "Remove both human figures completely from the foreground. Fill those areas with the same uninterrupted empty dark blue floor and background. Preserve the central half-open rectangular door, pale purple light, semicircular glow and minimal deep-blue composition. Absolutely no people, silhouettes, text, logo, signature or watermark.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "2fc7c86b0090a907719bcf89b0baaa124de3e33d6e811d4cc42a64a50918bfbe",
+      "preview": "film-ai/firstshot-20261127/src-1706477883a3e8e4.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/48f6437f0e482a80b31b7b8a1d9973dcdab67c56/originals/film-expand-firstshot-20261127/src-1706477883a3e8e4.png",
+        "bytes": 1468673,
+        "sha256": "0638a2e5dd238310576b7781bb39da3a3339c76c8d2d67413fdefb371cf73e3c",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI资料参考图（海报描述，非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "first-record-promotional-image-description",
+      "adaptationNote": "按首条资料中的海报画面描述重绘，省略文字；非原片首镜、非原始海报。"
+    },
+    {
+      "ordinal": 56,
+      "wid": "src-170c8f8cda41e6ac",
+      "title": "La sorcière",
+      "firstShotId": "VP-src-170c8f8cda41e6ac-01",
+      "scene": "黑白森林自然光单人面部特写，留着齐刘海金色长发的森林少女伊娜睁着清澈无辜的双眼，好奇而羞怯地注视着前方。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Black-and-white natural-light forest close portrait of a fictional young adult woman with long blonde hair and a straight fringe. She looks ahead with shy curiosity, fully clothed in a plain modest forest dress. Soft leaves behind her, original face. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "eba04e15ba0ad45528c5624eeff4b4df33a6e1993c4af4f6fc6d867efc85d5fd",
+      "preview": "film-ai/firstshot-20261127/src-170c8f8cda41e6ac.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/48f6437f0e482a80b31b7b8a1d9973dcdab67c56/originals/film-expand-firstshot-20261127/src-170c8f8cda41e6ac.png",
+        "bytes": 2517816,
+        "sha256": "657e42218768c7432d85e598dea44e965d4daac11c8257b50ab63b9c636534f8",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 57,
+      "wid": "src-1713e70fb72b0ef4",
+      "title": "Oh, God! You Devil",
+      "firstShotId": "VP-src-1713e70fb72b0ef4-01",
+      "scene": "夜间街角餐厅橱窗外头戴探险帽与圆眼镜的老者独坐在小圆桌旁",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. At night beside the glass window of a street-corner restaurant, a fictional elderly man wearing an explorer-style hat and round spectacles sits alone at a small round table. Warm interior reflections on the window contrast with the dark street. Quiet thoughtful composition. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "483f009e3b2ed6a846524271c336dc4cc38381082697af8f79fce6c760482a33",
+      "preview": "film-ai/firstshot-20261127/src-1713e70fb72b0ef4.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/48f6437f0e482a80b31b7b8a1d9973dcdab67c56/originals/film-expand-firstshot-20261127/src-1713e70fb72b0ef4.png",
+        "bytes": 2164044,
+        "sha256": "7d977d1c97feb41eb359c4f6f7bb3d1201aeb95931302d0a08435913578a7c82",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 58,
+      "wid": "src-1755df657fc611af",
+      "title": "Amenecer en puerta oscura",
+      "firstShotId": "VP-src-1755df657fc611af-01",
+      "scene": "西班牙复古手绘电影海报，在幽暗苍凉的山洞石门下，几名十九世纪安达卢西亚绿林盗匪正策马持枪对峙，左下方印有黄色片名。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Vintage painted Spanish adventure-poster composition: several fully clothed adult nineteenth-century Andalusian outlaws sit on horses with old firearms held safely, facing one another beneath the dark rocky entrance of a mountain cave. No shooting or injury, muted aged print texture, no lettering. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "5b7501b1d0a850b4b59cc875a81cf501ca23ad36f12ebff10b2e2ab8128bdef2",
+      "preview": "film-ai/firstshot-20261127/src-1755df657fc611af.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/48f6437f0e482a80b31b7b8a1d9973dcdab67c56/originals/film-expand-firstshot-20261127/src-1755df657fc611af.png",
+        "bytes": 3369586,
+        "sha256": "c1b95f330e8ccee9197636d7edf13bffd0d55c1260bd0a4720b22135c096dae7",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI资料参考图（海报描述，非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "first-record-promotional-image-description",
+      "adaptationNote": "按首条资料中的海报画面描述重绘，省略文字；非原片首镜、非原始海报。"
+    },
+    {
+      "ordinal": 59,
+      "wid": "src-1759c6f96fcfac1e",
+      "title": "ATANARJUAT THE FAST RUNNER",
+      "firstShotId": "VP-src-1759c6f96fcfac1e-01",
+      "scene": "苍茫雪原上身穿厚重兽皮连帽袍的因纽特长发蓄须男子回首凝望",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Close portrait of a fictional Inuit adult man with long hair and a beard wearing a heavy fur-lined hooded parka. He looks back over his shoulder across an immense snowy plain under a pale cold sky. Dignified natural expression and realistic fur texture. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "24e169e142a6d821a17dec25d2ed4e07831811e515efb68c9d54ee051dd9e0e9",
+      "preview": "film-ai/firstshot-20261127/src-1759c6f96fcfac1e.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/48f6437f0e482a80b31b7b8a1d9973dcdab67c56/originals/film-expand-firstshot-20261127/src-1759c6f96fcfac1e.png",
+        "bytes": 2746157,
+        "sha256": "2a020b8e4765a75e22782c944836acb4151290d9d79a0c44347ceb7c4945eaf0",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 60,
+      "wid": "src-1780651cc35b3245",
+      "title": "SIBERIADA",
+      "firstShotId": "VP-src-1780651cc35b3245-01",
+      "scene": "西伯利亚颂俄文原版海报中央绘有头戴水獭皮帽的粗犷汉子特写与钻井塔背景",
+      "actualPrompt": "Change only the foreground man’s hat to an ordinary plain dark brown fur winter cap. Remove the entire animal head, muzzle, nose, whiskers and ears above his forehead. The cap must be a normal simple rounded fur hat with absolutely no animal face or taxidermy parts. Preserve the man’s face, all people, snow landscape, drilling tower, painted poster texture and complete composition. No text, logo, signature or watermark.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "f5d8d7d25de289ba203e64fd164919920481e6492cee351ade212991bdf7d2f6",
+      "preview": "film-ai/firstshot-20261127/src-1780651cc35b3245.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/48f6437f0e482a80b31b7b8a1d9973dcdab67c56/originals/film-expand-firstshot-20261127/src-1780651cc35b3245.png",
+        "bytes": 2930721,
+        "sha256": "6a3b180c90c9d7964a3dcb26cbe13bb27b35af943aa673315b3397fcaf3efdb0",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI资料参考图（海报描述，非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "first-record-promotional-image-description",
+      "adaptationNote": "按首条资料中的海报画面描述重绘，省略文字；非原片首镜、非原始海报。"
     }
   ]
 }
