@@ -2,7 +2,7 @@
   "fixedScopeWorks": 10141,
   "scopeRevision": "b58616b8990a50aba2766810e46e84ccf7e21c8f",
   "recovered": 29,
-  "generated": 13,
+  "generated": 17,
   "assets": [
     {
       "wid": "src-wd-q105443659",
@@ -1051,6 +1051,106 @@
         }
       ],
       "adaptationNote": "首条为通用器材风格模板且缺少可靠画面细节；依用户既有授权采用发行方或电影机构简介创作内容概念，非影片首镜。"
+    },
+    {
+      "wid": "src-wd-q1426506",
+      "title": "獨行殺手摧命符",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1426506.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7119bdb6f41ad150d6eadf2bd3bbfad14d2afe01/originals/film-coverage-10141-20261127/src-wd-q1426506.png",
+        "sha256": "580c669fadb8ff526ec01e9817f04e3e196a3b77b856628792ca89dccd12c678",
+        "bytes": 2147638,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "f27fc40f0b6a88b6aecb6cc262edbb4c137b1cc42f0450f8aa4b4ac9c44fc660",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "六十年代纽约高级夜总会角落，一名成年男子穿合身深色西服在桌旁冷静观察四周，琥珀台灯、暗红坐席与模糊人群形成退隐杀手故事的内容概念。",
+      "actualPrompt": "Create one original cinematic photographic reference image, one coherent frame. A sophisticated late-1960s Manhattan nightclub interior. A fully clothed adult male foreign-car dealer with short dark hair, wearing a fitted charcoal suit, narrow dark tie and white shirt, sits alone at a small round table near a dark red upholstered booth. He quietly studies the room with a composed, wary expression. Warm amber shaded table lamps, a glass of water, subtle polished wood reflections, a distant blurred jazz ensemble and a few adult patrons in evening clothes. Eye-level medium-wide 1.85:1 composition, restrained amber and deep burgundy palette, strong but realistic shadow separation, fine 1960s color 35mm photographic grain, understated crime-thriller tension. No weapon, no active violence, no injuries. Original adult person rather than a celebrity likeness. No readable text, captions, logos, collage or poster layout. AI content-reference concept based on an AFI synopsis, not an authentic film frame or a verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://catalog.afi.com/Catalog/MovieDetails/22500?cxt=filmography",
+          "basis": "AFI电影机构内容简介；画面为据此创作的概念，不代表已核验首镜"
+        }
+      ],
+      "adaptationNote": "首条为通用器材风格模板，依既有授权改按AFI内容简介创作概念画面，非影片首镜。"
+    },
+    {
+      "wid": "src-wd-q1429269",
+      "title": "打劫陰司路",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1429269.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7119bdb6f41ad150d6eadf2bd3bbfad14d2afe01/originals/film-coverage-10141-20261127/src-wd-q1429269.png",
+        "sha256": "7e806039d41c696ed0eae2686a1c7c4c86e713bd2e14a3fd23eab758e5dfbbc0",
+        "bytes": 2221160,
+        "width": 1915,
+        "height": 821,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "4b849f323e337d76f60f8a20b0c6687b3d116b438218fa42fb662a1f5dbd8170",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "十九世纪末新英格兰老殡仪馆里，两名穿旧黑礼服的成年经营者在空棺与欠账簿旁互相猜疑，昏暖灯光构成黑色喜剧氛围；无尸体或伤害细节。",
+      "actualPrompt": "Create one original cinematic photographic reference image, one coherent frame. An 1890s New England funeral-parlor office rendered as a gentle gothic black comedy. Two fully clothed middle-aged male undertakers in worn black frock coats, waistcoats and high-collared shirts stand beside a CLOSED empty polished wooden coffin; one tall and thin, the other shorter and round-faced, exchange suspiciously frustrated glances over an old accounting ledger. Dark carved wood paneling, faded wallpaper, dusty drapes, a small oil lamp and one vase of dried flowers. Warm amber practical light with soft cool window shadows, rich brown and deep wine-red color photography with a classic early-1960s studio-film feel, eye-level medium-wide 2.35:1 composition. Original fictional adults. No corpse, no blood, no injury, no poisoning, no active violence. No readable text, captions, logos, collage or poster layout. AI content-reference concept based on an AFI synopsis, not an authentic film frame or a verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://catalog.afi.com/Film/19827-THE-COMEDYOFTERRORS",
+          "basis": "AFI电影机构内容简介；画面为据此创作的概念，不代表已核验首镜"
+        }
+      ],
+      "adaptationNote": "首条为通用器材风格模板，依既有授权改按AFI内容简介创作概念画面，非影片首镜。"
+    },
+    {
+      "wid": "src-wd-q1430481",
+      "title": "女集中營",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1430481.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7119bdb6f41ad150d6eadf2bd3bbfad14d2afe01/originals/film-coverage-10141-20261127/src-wd-q1430481.png",
+        "sha256": "f865a21cecd6700b865d625f1be2bbb89a68371a5d3e330761c7cc2d6181e91f",
+        "bytes": 2946024,
+        "width": 1921,
+        "height": 819,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "fd755d36c03cd8d5c8bcbf808f02b2cc035d1bdd6bcb1e52155fd402ec37922f",
+      "referenceLabel": "AI改编参考图（非首镜）",
+      "scene": "二战时期热带森林营地旁，七名穿完整朴素日常衣服的成年女性结伴穿过木围栏小路，神情谨慎而互相照应；省略原情节中的受罚、伤亡和婴儿细节。",
+      "actualPrompt": "Create one original cinematic photographic reference image, one coherent frame. A restrained World War II tropical survival-drama scene in monochrome photographic style, wide 2.35:1 frame. Seven fully clothed adult women between twenty-five and fifty years old in practical loose cotton blouses, long skirts or trousers stand and walk together on a shaded footpath beside a rustic timber-and-bamboo camp fence in a New Guinea forest. Their clothes are worn but modest and intact; they support one another with cautious, resolute expressions, one woman carrying a small plain cloth satchel. Tall palms, broad-leaf foliage, simple empty timber huts and humid mist create layered depth. Eye-level medium-wide ensemble view, soft mottled daylight, rich gray tones, classic 1960s silver-grain photographic texture. All adults, fully clothed. No guards threatening anyone, no punishment, no pregnancy or infant imagery, no injury, no suffering close-ups, no weapons or violence. Original characters, not actor portraits. No readable text, captions, logos, collage or poster layout. AI content-reference concept based on an AFI synopsis, not an authentic film frame or a verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://catalog.afi.com/Film/21590-SEVEN-WOMENFROMHELL",
+          "basis": "AFI电影机构内容简介；画面为据此创作的概念，不代表已核验首镜"
+        }
+      ],
+      "adaptationNote": "首条无可核验具体首镜；根据AFI内容简介制作全体穿衣成年女性营地情境，明确取消受罚、伤亡和婴儿细节，非影片首镜。"
+    },
+    {
+      "wid": "src-wd-q1440054",
+      "title": "春風化雨",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1440054.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7119bdb6f41ad150d6eadf2bd3bbfad14d2afe01/originals/film-coverage-10141-20261127/src-wd-q1440054.png",
+        "sha256": "7483bb8a7bdbb6f2823721c024cdec25cdebb310ba26ab89956539c177399f93",
+        "bytes": 2421599,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "93e09ce00dbd08588181d28c423b4aa52eb7993822dd98d9d80f1e7291fd8557",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "六十年代纽约旧中学教室内，一名年轻成年女英语教师抱着课本站在讲台前，普通着装的学生安静坐在木桌旁，窗光与旧黑板构成朴素教育剧情内容概念。",
+      "actualPrompt": "Create one original cinematic photographic reference image, one coherent frame. A compassionate 1967 New York public-high-school classroom scene in natural color 35mm photographic style. A fully clothed adult female English teacher in her late twenties, with short tidy light-brown hair, a modest pale blue blouse, dark knee-length skirt and cardigan, stands near a plain old blackboard holding a small stack of textbooks. Rows of wooden desks and fully clothed teen students sitting quietly with notebooks fill the middle distance; focus remains on the adult teacher and her hopeful yet slightly overwhelmed expression. Tall windows cast soft overcast city daylight across worn floorboards and scuffed classroom walls. Eye-level medium-wide 1.85:1 framing, honest gray-green and warm wood colors, tactile paper and fabric, subtle film grain and human warmth. No punishment, no injury, no romance, no sexual context, no readable blackboard text. Original fictional people. No readable text, captions, logos, collage or poster layout. AI content-reference concept based on an AFI synopsis, not an authentic film frame or a verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://catalog.afi.com/Catalog/moviedetails/22449",
+          "basis": "AFI电影机构内容简介；画面为据此创作的概念，不代表已核验首镜"
+        }
+      ],
+      "adaptationNote": "首条为通用器材风格模板，依既有授权改按AFI内容简介创作概念画面，非影片首镜。"
     },
     {
       "wid": "src-wd-q16028796",
