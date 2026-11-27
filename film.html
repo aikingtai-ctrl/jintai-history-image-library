@@ -436,7 +436,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
 <h3 style="margin-top:0">这个板块是什么</h3>
 <p>对标 ShotDeck 的影视镜头参考库。既有镜头笔记与新增来源静帧分析一起参与搜索，附研究笔记和原创创作提示词。来源静帧可能来自同一连续镜头，条数不等同于已核验的独立剪辑镜头。缺少的景别、灯光、器材等标签明确待标注；可在左侧“标签状态”筛选。来源分析支持正文检索，手动选择摄影标签时只匹配已标注记录。</p>
 <h3>画面图从哪来</h3>
-<ul><li><b>来源画面分析</b>：新增记录保留对应原图和作品画廊链接，以文字来源卡展示；没有本机截帧时不绘制示意图。色板待测的记录不参与颜色匹配，静帧不能确认运镜和器材参数。</li><li><b>既有示意图</b>：旧镜头笔记按已有标签自动画示意图（画幅、主光方向、剪影大小与位置、构图线、天气），色板是按记忆<b>估色</b>，用来快速比较光色构图，不是影片原帧。</li>
+<ul><li><b>来源画面分析</b>：新增记录保留对应来源图片和作品画廊链接，以文字来源卡展示；没有本机截帧时不绘制示意图。色板待测的记录不参与颜色匹配，静帧不能确认运镜和器材参数。</li><li><b>既有示意图</b>：旧镜头笔记按已有标签自动画示意图（画幅、主光方向、剪影大小与位置、构图线、天气），色板是按记忆<b>估色</b>，用来快速比较光色构图，不是影片原帧。</li>
 <li><b>真实截帧</b>：团队把自己看片时截的图放进 <code>影视参考图集_收件箱</code>，文件名写镜头编号（如 <code>YS-0001-03.jpg</code>）或片名（如 <code>花样年华_走廊.jpg</code>）。每晚自动处理：实测色板、生成缩略图、由 A 机自动打标签，截帧只进本机内部版，不上公网。</li>
 <li><b>看原片画面</b>：每个镜头的详情里有 FilmGrab、SHOT.CAFE、Frame Set、Flim、ShotDeck、Eyecandy 的外链。</li></ul>
 <h3>怎么精准找画面</h3>
@@ -648,7 +648,7 @@ function lab0(h){let[r,g,b]=rgb(h).map(v=>{v/=255;return v>.04045?Math.pow((v+.0
 function dE(a,b){const A=lab(a),B=lab(b);return Math.hypot(A[0]-B[0],A[1]-B[1],A[2]-B[2]);}
 function palOf(r){const f=frOf(r);return((f&&f.pal)||r.pal||[]).filter(c=>/^#[0-9a-f]{6}$/i.test(c));}
 const safeSource=u=>{try{const x=new URL(u);return ['http:','https:'].includes(x.protocol)?x.href:'';}catch{return '';}};
-function sourceLinks(r){return [[r.source_url,'查看对应来源原图'],[r.source_page,'作品画廊']].filter(([u])=>safeSource(u)).map(([u,label])=>`<a data-source-link target="_blank" rel="noopener noreferrer" href="${esc(safeSource(u))}">${label}</a>`).join('');}
+function sourceLinks(r){return [[r.source_url,'查看来源图片'],[r.source_page,'作品画廊']].filter(([u])=>safeSource(u)).map(([u,label])=>`<a data-source-link target="_blank" rel="noopener noreferrer" href="${esc(safeSource(u))}">${label}</a>`).join('');}
 function sourceVisual(r){return `<div class="source-ref"><div class="sr-kicker">来源静帧分析</div><div class="sr-links">${sourceLinks(r)||'<span class="muted">来源待核</span>'}</div><div class="sr-meta">${esc(r.frame_id||'待核')}</div></div>`;}
 /* ---------- 示意图 ---------- */
 let SVGN=0;
@@ -856,7 +856,7 @@ function renderActive(E){let h='';QP.tags.forEach(t=>{const[k,v]=t.split(':');h+
   else if(b.dataset.x==='work')QP.work=null;else if(b.dataset.x==='wid')WID=null;else if(b.dataset.x==='color')COLOR=null;else if(b.dataset.x==='img')IMGPAL=null;apply();});
  const tol=$('tol');if(tol)tol.onchange=()=>{COLOR.tol=+tol.value;apply();};}
 function card(r,opts={}){const w=r.W,f=frOf(r),ai=shotImageSrc(r.id),rep=!f&&!ai&&getFilmAiSrc(w.wid),inD=DECKS.cur&&deckHas(r.id),inC=CMP.includes(r.id);
- return`<div class="card" data-id="${r.id}"><div class="thumb${r.origin==='visual'&&!f&&!ai&&!rep?' source':''}${f||ai||rep?' opens-image':''}" data-open="${r.id}" title="${f||ai||rep?'点击打开原图':'点击查看镜头详情'}">${visual(r,560)}<span class="badge${f?' fr':''}">${f?'截帧 · 实测色':ai?(isWorkRepresentativeShot(r.id)?'同片代表图 · 非该镜原帧':'AI 原创参考画面'):rep?'同片代表图 · 非该镜原帧':r.origin==='visual'?'来源静帧 · 标签待标注':'示意图 · 估色'}</span></div>${palHTML(r)}
+ return`<div class="card" data-id="${r.id}"><div class="thumb${r.origin==='visual'&&!f&&!ai&&!rep?' source':''}${f||ai||rep?' opens-image':''}" data-open="${r.id}" title="${f||ai||rep?'点击打开画面文件':'点击查看镜头详情'}">${visual(r,560)}<span class="badge${f?' fr':''}">${f?'截帧 · 实测色':ai?(isWorkRepresentativeShot(r.id)?'同片代表图 · 非该镜原帧':'AI 原创参考画面'):rep?'同片代表图 · 非该镜原帧':r.origin==='visual'?'来源静帧 · 标签待标注':'示意图 · 估色'}</span></div>${palHTML(r)}
  <div class="cap" data-open="${r.id}"><b>${esc(w.t)}</b> <span class="y">${esc(w.y||'年份待核')}${r.ep?' · '+esc(r.ep):''}</span><p>${esc(r.sc)}</p></div>
  <div class="tg">${[r.size,r.time,r.ie,(r.light||[]).slice(0,2).join('·'),(r.color||[]).slice(0,2).join('·'),(r.emo||[])[0]].filter(Boolean).map(esc).join(' · ')||'摄影标签待标注'}</div>
  <div class="acts"><button data-add="${r.id}" class="${inD?'in':''}">${inD?'✓ 已在图集':'＋图集'}</button><button data-cmp="${r.id}" class="${inC?'in':''}">${inC?'✓ 对照中':'对照'}</button></div></div>`;}
@@ -865,20 +865,20 @@ function filmImageKey(src){try{const u=new URL(src,location.href),p=u.pathname,m
 function filmStillItems(g){
  return workPhotoEntries(g.w).map(p=>({r:(p.shotId&&BYID.get(p.shotId))||g.rows[0],src:p.src,kind:p.kind}));
 }
-function filmCard(g){const w=g.w,items=filmStillItems(g),hero=items[0],r=hero?.r||g.rows[0],inD=DECKS.cur&&deckHas(r.id),inC=CMP.includes(r.id),label=hero?((window.FILM_AI_REFERENCE_LABELS||{})[w.wid]||hero.kind):'暂无已接画面',native=hero&&(window.filmNativeOriginalForPreview?.(hero.src)||(/\.(?:png|webp)(?:[?#]|$)/i.test(hero.src)?hero.src:''));
+function filmCard(g){const w=g.w,items=filmStillItems(g),hero=items[0],r=hero?.r||g.rows[0],inD=DECKS.cur&&deckHas(r.id),inC=CMP.includes(r.id),label=hero?((window.FILM_AI_REFERENCE_LABELS||{})[w.wid]||hero.kind):'暂无已接画面',native=hero&&(window.filmNativeOriginalForPreview?.(hero.src)||(/\.png(?:[?#]|$)/i.test(hero.src)?hero.src:''));
  return`<div class="card film-card" data-film-key="${esc(g.key)}"><div class="thumb${hero?' opens-image':''}" data-film-open="${esc(g.key)}" role="button" tabindex="0" aria-label="查看《${esc(w.t)}》最多 5 张不同参考画面">${hero?`<img loading="lazy" src="${esc(hero.src)}" alt="${esc(w.t)} ${esc(label)}">`:visual(r,560)}<span class="badge${hero?.kind==='真实截帧'?' fr':''}">${esc(label)}</span></div>${palHTML(r)}
  <div class="cap" data-film-open="${esc(g.key)}" role="button" tabindex="0"><b>${esc(w.t)}</b> <span class="y">${esc(w.y||'年份待核')}</span><p>${esc(w.look||r.sc||'')}</p></div>
  <div class="tg">${g.rows.length.toLocaleString()} 个匹配镜头 · ${items.length} 张不同画面（上限 5）</div>
  <div class="acts"><button data-film-open="${esc(g.key)}">查看画面 ${items.length}</button>${native?`<button data-film-native-download="${esc(g.key)}">下载原图</button>`:''}<button data-add="${r.id}" class="${inD?'in':''}">${inD?'✓ 主图已入集':'＋主图入集'}</button><button data-cmp="${r.id}" class="${inC?'in':''}">${inC?'✓ 对照中':'对照'}</button></div></div>`;}
 async function downloadFilmCardOriginal(key,button){
  const group=FIND_FILM_GROUPS.get(key),preview=group&&filmStillItems(group)[0]?.src;
- const source=preview&&(window.filmNativeOriginalForPreview?.(preview)||(/\.(?:png|webp)(?:[?#]|$)/i.test(preview)?preview:''));
+ const source=preview&&(window.filmNativeOriginalForPreview?.(preview)||(/\.png(?:[?#]|$)/i.test(preview)?preview:''));
  if(!source)return;
  button.disabled=true;button.textContent='下载中…';
  try{
   const link=document.createElement('a');link.download=key+(source.match(/\.(png|webp)(?:[?#]|$)/i)?.[0]?.split(/[?#]/)[0]||'.png');
   if(/^https:\/\/github\.com\/aikingtai-ctrl\/jintai-history-image-library\/releases\/download\//i.test(source)){link.href=source;link.click();}
-  else{const response=await fetch(source);if(!response.ok)throw Error('download');const blob=await response.blob();if(!blob.type.startsWith('image/'))throw Error('type');const url=URL.createObjectURL(blob);link.href=url;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+  else{const response=await fetch(source);if(!response.ok)throw Error('download');const blob=await response.blob();if(blob.type!=='image/png')throw Error('type');const url=URL.createObjectURL(blob);link.href=url;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
   button.textContent='下载原图';
  }catch{button.textContent='下载失败，请重试';}finally{button.disabled=false;}
 }
@@ -924,8 +924,8 @@ async function openDetail(id){let r=BYID.get(id);if(!r){const rw=resolveWorkFrom
  const workAiSrc=getFilmAiSrc(w.wid);
  $('dBody').innerHTML=`<div class="dbody"><div><div class="vis${visualHasImage(r)?' opens-image':''}" id="dVisZoom" title="点击全屏放大检视">${visual(r,1100,true)}</div>
  <div class="palbig">${P.map(c=>`<div style="background:${c}" data-hex="${c}" title="点击复制色值"><span>${c}</span></div>`).join('')}</div>
- ${workAiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" title="点击打开《${esc(w.t)}》图片原文件" style="margin:10px 0"><img src="${esc(workAiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图 · ${esc(w.t)}</span><span class="film-ai-zoom-hint" aria-hidden="true"></span></div>`:''}
- <p class="muted small">${f?'真实截帧 · 色板为实测（本机内部版）':shotImageSrc(r.id)?(isWorkRepresentativeShot(r.id)?'同片高清代表图，用于替换该处 SVG 示意图；不是该镜原帧。镜头标签与色板仍待原片核验。点击画面可放大或在新窗口打开原图。':'AI 原创参考画面，依据本镜描述生成；不是影片原帧。色板仍为估色，镜头标签仍待对照原片核验。点击画面可放大或在新窗口打开原图。'):pending?'依据对应来源静帧撰写画面分析，无本机截帧。摄影标签待标注，色板待测；不能据此确认运镜、器材或精确参数。经典代表性仍待逐片精选。':'示意图：按标签自动绘制（画幅、主光方向、剪影大小与位置、构图线、天气），色板为估色，不是影片原帧。看原片画面用下面的外链。'}</p>
+ ${workAiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" title="点击打开《${esc(w.t)}》图片文件" style="margin:10px 0"><img src="${esc(workAiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图 · ${esc(w.t)}</span><span class="film-ai-zoom-hint" aria-hidden="true"></span></div>`:''}
+ <p class="muted small">${f?'真实截帧 · 色板为实测（本机内部版）':shotImageSrc(r.id)?(isWorkRepresentativeShot(r.id)?'同片高清代表图，用于替换该处 SVG 示意图；不是该镜原帧。镜头标签与色板仍待原片核验。点击画面可放大或在新窗口查看图片文件。':'AI 原创参考画面，依据本镜描述生成；不是影片原帧。色板仍为估色，镜头标签仍待对照原片核验。点击画面可放大或在新窗口查看图片文件。'):pending?'依据对应来源静帧撰写画面分析，无本机截帧。摄影标签待标注，色板待测；不能据此确认运镜、器材或精确参数。经典代表性仍待逐片精选。':'示意图：按标签自动绘制（画幅、主光方向、剪影大小与位置、构图线、天气），色板为估色，不是影片原帧。看原片画面用下面的外链。'}</p>
  ${pending?`<p class="muted small">核验状态：${esc(r.verification||'观图待人工核')}</p>`:''}${limits?`<p class="muted small">画面限制：${esc(limits)}</p>`:''}${r.review?`<p class="muted small">复核记录：${esc(r.review)}</p>`:''}
  <h3>这一镜</h3><p class="note">${esc(r.sc)}${r.wh?`<br><span class="muted small">位置：${esc(r.wh)}${r.pl?' · '+esc(r.pl):''}</span>`:r.pl?`<br><span class="muted small">${esc(r.pl)}</span>`:''}</p>
  <h3>研究笔记：光、色、构图如何表达情绪</h3><p class="note">${noteFailed?`正文未成功载入。<button type="button" id="dRetryOne" style="margin-left:10px;padding:3px 10px;font-size:16px">点击立即重新载入</button>`:esc(r.note)}</p>
@@ -959,7 +959,7 @@ async function openDetail(id){let r=BYID.get(id);if(!r){const rw=resolveWorkFrom
  for(const id of ['dCopy','dGo','dCopyAll'])$(id).disabled=pending&&(r.pr===undefined||r.note===undefined);
  $('dAdd').textContent=deckHas(r.id)?'✓ 已在当前图集':'＋ 加入图集';$('dCmp').textContent=CMP.includes(r.id)?'✓ 对照中':'加入对照';
  if(!d.open)d.showModal();d.scrollTop=0;}
-function shotText(r){const w=r.W,source=r.origin==='visual'?`\n来源帧：${r.frame_id||'待核'}\n来源原图：${safeSource(r.source_url)||'待核'}\n作品画廊：${safeSource(r.source_page)||'待核'}\n核验：${r.verification||'观图待人工核'}　摄影标签：${val(r,'tag_status')}`:'';return`【${r.id}】${w.t}（${w.te||''}，${w.y}）${r.ep?' '+r.ep:''}\n导演：${w.dir}　摄影：${w.dp||'待核'}　画幅：${w.ar||''}\n画面：${r.sc}\n标签：${[r.size,r.angle,r.frame,...(r.move||[]),r.lens_type,r.dof,...(r.light||[]),r.time,r.weather,r.ie,...(r.loc||[]),...(r.color||[]),...(r.comp||[]),...(r.emo||[])].filter(Boolean).join(' / ')}\n色板：${palOf(r).join(' ')||'待测'}\n研究笔记：${r.note}\n复刻提示词：${r.pr}${source}`;}
+function shotText(r){const w=r.W,source=r.origin==='visual'?`\n来源帧：${r.frame_id||'待核'}\n来源图片：${safeSource(r.source_url)||'待核'}\n作品画廊：${safeSource(r.source_page)||'待核'}\n核验：${r.verification||'观图待人工核'}　摄影标签：${val(r,'tag_status')}`:'';return`【${r.id}】${w.t}（${w.te||''}，${w.y}）${r.ep?' '+r.ep:''}\n导演：${w.dir}　摄影：${w.dp||'待核'}　画幅：${w.ar||''}\n画面：${r.sc}\n标签：${[r.size,r.angle,r.frame,...(r.move||[]),r.lens_type,r.dof,...(r.light||[]),r.time,r.weather,r.ie,...(r.loc||[]),...(r.color||[]),...(r.comp||[]),...(r.emo||[])].filter(Boolean).join(' / ')}\n色板：${palOf(r).join(' ')||'待测'}\n研究笔记：${r.note}\n复刻提示词：${r.pr}${source}`;}
 function step(d){const i=list.findIndex(x=>x.id===CUR.id);const pool=i>=0?list:R;const j=(i>=0?i:R.indexOf(CUR))+d;if(j>=0&&j<pool.length)openDetail(pool[j].id);}
 /* ---------- 参考图集（全库自动建集：376 套跨片专题 + 29,200 套整片图集 + 我的可编辑图集） ---------- */
 const DKEY='jt_film_decks_v1';let DECKS=JSON.parse(localStorage.getItem(DKEY)||'{"list":[],"cur":null}'),SHARED=null,SHOWSHARED=false,DECK_VIEW_ID=null,DPAGE=0,DECK_HYDRATE_TOKEN=0;const DPS=36;
@@ -1560,7 +1560,7 @@ function renderFP(){
      ${e.nWorks>1?`<button type="button" data-fpexpand="${e.idx}" style="font-size:15px;padding:4px 10px">展开代表片</button>`:''}
      <button type="button" data-fpgo="${e.idx}" style="font-size:15px;padding:4px 10px">看全部镜头</button>
     </div>
-    ${e.w&&getFilmAiSrc(e.w.wid)?`<div class="film-ai-preview" data-zoom-wid="${esc(e.w.wid)}" title="点击打开《${esc(e.w.t)}》图片原文件" style="margin:8px 0"><img src="${esc(getFilmAiSrc(e.w.wid))}" alt="${esc(e.w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图</span><span class="film-ai-zoom-hint" aria-hidden="true"></span></div>`:''}
+    ${e.w&&getFilmAiSrc(e.w.wid)?`<div class="film-ai-preview" data-zoom-wid="${esc(e.w.wid)}" title="点击打开《${esc(e.w.t)}》图片文件" style="margin:8px 0"><img src="${esc(getFilmAiSrc(e.w.wid))}" alt="${esc(e.w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">AI 代表图</span><span class="film-ai-zoom-hint" aria-hidden="true"></span></div>`:''}
     <div class="sec" style="margin-top:6px">全片时序色彩 DNA（片头 → 片尾）</div>
     <div class="dna-strip">${dna.map(c=>`<span style="background:${c}" title="${c}"></span>`).join('')}</div>
     <div class="sec">五大主导色阶（点击色块复制 HEX）</div>
@@ -1630,6 +1630,7 @@ let WPAGE=0,WORKS_RENDER_TOKEN=0,LAST_RENDERED_WORKS_COUNT=0;const WPS=100;const
 let WORKS_VIEW_MODE=(()=>{const u=new URLSearchParams(location.search).get('wview');if(u==='large'||u==='2col'||u==='grid')return u;try{const s=localStorage.getItem('jt_works_view_v2');if(s==='large'||s==='2col'||s==='grid')return s;}catch(e){}return'grid';})();
 function resolveFilmAiAsset(rel){if(!rel)return'';if(/^https?:/i.test(rel))return rel;return IS_GH_FILM?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/${rel}`:rel;}
 function resolveFilmAiLegacyAsset(rel){return resolveFilmAiAsset(rel);}
+function filmOriginalLabel(src){return window.filmNativeOriginalForPreview?.(src)?'↗ 打开原图':'↗ 查看预览';}
 function getFilmAiSrc(wid){
  const batchRepresentative=(window.FILM_AI_IMAGES||{})[wid];if(typeof batchRepresentative==='string'&&(batchRepresentative.startsWith('film-ai/firstshot-')||batchRepresentative.startsWith('film-ai/contentref-20261127-batch2/')))return resolveFilmAiAsset(batchRepresentative);
   const gallery=(window.FILM_WORK_GALLERIES||{})[wid];
@@ -1691,12 +1692,12 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
   const aiGeneratedWebp=FILM_AI_GENERATED_WIDS.has(w.wid)&&/(?:^|\/)film-ai\/src-[^/?#]+\.webp(?:[?#]|$)/i.test(aiSrc||'');
   const aiGoal3377=/(?:^|\/)film-ai\/goal3377\/[^?#]+\.jpe?g(?:[?#]|$)/i.test(aiSrc||'');
   const aiBadge=(window.FILM_AI_REFERENCE_LABELS||{})[w.wid]||((window.FILM_AI_FIRST_SHOT_GOAL_WIDS||{})[w.wid]?'首镜头 AI 参考图':(window.FILM_SHOT_WORK_ROLES||{})[w.wid]||(aiReviewed||aiGoal3377?'原创概念图·高清':aiGeneratedJpg?'AI 小图·待升级':aiGeneratedWebp?'AI 代表图':aiWorkConcept?'原创概念图·高清':aiHires?'高清 AI 参考图':aiDeckCover?'原创概念图·高清':'旧版小图·待替换'));
-  const aiPreview=aiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" role="button" tabindex="0" title="点击查看《${esc(w.t)}》图片原文件" aria-label="点击查看 ${esc(w.t)} 图片原文件"><img src="${esc(aiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">${aiBadge}</span><span class="film-ai-zoom-hint" aria-hidden="true"></span></div>`:'<div class="film-ai-preview empty">等待 AI 代表图</div>';
+  const aiPreview=aiSrc?`<div class="film-ai-preview" data-zoom-wid="${esc(w.wid)}" role="button" tabindex="0" title="点击查看《${esc(w.t)}》图片文件" aria-label="点击查看 ${esc(w.t)} 图片文件"><img src="${esc(aiSrc)}" alt="${esc(w.t)} AI 代表图" loading="lazy"><span class="film-ai-badge">${aiBadge}</span><span class="film-ai-zoom-hint" aria-hidden="true"></span></div>`:'<div class="film-ai-preview empty">等待 AI 代表图</div>';
   return`<div class="wc"><h4>${esc(w.t)} <span class="muted" style="font-size:18px">${enShow?esc(enShow)+' · ':''}${esc(w.y||'')}${w.year_status==='待核'?'（年份待核）':''}</span></h4>
  <div class="m">${esc(metaParts)}</div>
  ${aiPreview}
  <div class="mosaic" data-wpal="${esc(w.wid)}" style="flex-direction:row;height:22px">${workMosaicSpans(w)}</div><p>${esc(w.look||'')}</p>
- <div class="btns"><button class="pri" data-wid="${esc(w.wid)}">看 ${cnt.toLocaleString()} 个镜头</button>${aiSrc?`<button type="button" data-zoom-wid="${esc(w.wid)}">↗ 打开原图</button>${String((window.FILM_AI_IMAGES||{})[w.wid]||'').startsWith('film-ai/firstshot-20261127/')?`<button type="button" data-download-film-original="${esc(w.wid)}">下载原图</button>`:''}`:''}<button data-wdeck="${esc(w.wid)}">整片图集</button><button data-wfp="${esc(w.wid)}">加入瞬间对照</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
+ <div class="btns"><button class="pri" data-wid="${esc(w.wid)}">看 ${cnt.toLocaleString()} 个镜头</button>${aiSrc?`<button type="button" data-zoom-wid="${esc(w.wid)}">${filmOriginalLabel(aiSrc)}</button>${window.filmNativeOriginalForPreview?.(aiSrc)&&String((window.FILM_AI_IMAGES||{})[w.wid]||'').startsWith('film-ai/firstshot-20261127/')?`<button type="button" data-download-film-original="${esc(w.wid)}">下载原图</button>`:''}`:''}<button data-wdeck="${esc(w.wid)}">整片图集</button><button data-wfp="${esc(w.wid)}">加入瞬间对照</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
  $('wGrid').querySelectorAll('.film-ai-preview[data-zoom-wid]').forEach(el=>{
   el.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();el.click();}};
  });
@@ -1728,15 +1729,17 @@ function renderLightboxItem(){
  $('lbFootDesc').textContent=it.desc||'滚轮或点击画面可放大（100%–400%），放大后按住鼠标拖动查看细节，← / → 切换上下张';
  const rawLink=$('lbOpenRaw');
  if(it.src){
-  rawLink.href=it.src;rawLink.hidden=false;
+  const native=window.filmNativeOriginalForPreview?.(it.src)||'';
+  rawLink.href=native?(window.filmNativeOriginalHref?.(native)||native):it.src;rawLink.hidden=false;
+  rawLink.textContent=native?'打开原生 PNG ↗':'打开网页预览 ↗';
   $('lbContent').innerHTML=`<img id="lbImg" src="${esc(it.src)}" alt="${esc(it.title||'')}">`;
   const img=$('lbImg'),baseSub=$('lbSub').textContent,baseDesc=$('lbFootDesc').textContent;
   const showResolution=()=>{
    if($('lbImg')!==img||!img.naturalWidth)return;
    const size=`${img.naturalWidth}×${img.naturalHeight}`;
    const low=img.naturalWidth<1200||img.naturalHeight<675;
-   $('lbSub').textContent=`${baseSub} · ${low?'旧版低分辨率原图':'原图'} ${size}`;
-   if(low)$('lbFootDesc').textContent=`原文件仅 ${size}，网页放大不会增加细节；高清图待生成。${baseDesc}`;
+   $('lbSub').textContent=`${baseSub} · 网页预览 ${size}`;
+   if(low)$('lbFootDesc').textContent=`网页预览仅 ${size}，放大不会增加细节。${baseDesc}`;
   };
   if(img.complete)showResolution();else img.addEventListener('load',showResolution,{once:true});
  }else if(it.svgHtml){
@@ -1840,8 +1843,8 @@ function openShotVisualLightbox(r){
   const src=frame?`${FRAME_DIR}/${frame.f}`:(imgEl&&(imgEl.getAttribute('src')||imgEl.currentSrc||imgEl.src))||getFilmAiSrc(wid);
   if(!src)return;
   e.preventDefault();e.stopPropagation();
-  const original=src.replace(/(\/?film-ai\/goal3377\/)([^/?#]+)\.jpg(?=$|[?#])/i,'$1originals/$2.png');
-  window.open(/^https:\/\/github\.com\/aikingtai-ctrl\/jintai-history-image-library\/releases\/download\//i.test(original)&&wid?`film-originals.html?wid=${encodeURIComponent(wid)}`:original,'_blank','noopener');
+  const original=window.filmNativeOriginalForPreview?.(src)||src;
+  window.open(window.filmNativeOriginalHref?.(original)||original,'_blank','noopener');
  },true);
  document.addEventListener('keydown',e=>{
   if(!dlg.open&&!dlg.hasAttribute('open'))return;
@@ -1856,7 +1859,7 @@ function openShotVisualLightbox(r){
 /* ---------- 对标页 ---------- */
 function renderBench(){const b=BENCH;const nW=WORKS.length,nS=R.length,nF=Object.keys(FR).length;
  $('benchView').innerHTML=`<h3 style="margin-top:0">本板块现状</h3><p>${nW} 部作品 · ${nS} 个镜头 · ${nF} 张本机截帧。每天 0:00 自动新增，并刷新下表中能自动核对的公开数字（最近刷新：${esc(b.checked||'')}）。</p>
- <p class="muted small">定位：ShotDeck 是授权影片截图库；本板块提供既有结构标签镜头笔记和新增真实来源静帧分析；新分析可全文检索、查看笔记并复制创作提示词，缺失的摄影标签明确待标注。旧笔记保留标签示意图，新增来源记录展示文字来源卡与原图链接；本机截帧仅在内部版显示。</p>
+ <p class="muted small">定位：ShotDeck 是授权影片截图库；本板块提供既有结构标签镜头笔记和新增真实来源静帧分析；新分析可全文检索、查看笔记并复制创作提示词，缺失的摄影标签明确待标注。旧笔记保留标签示意图，新增来源记录展示文字来源卡与来源图片链接；本机截帧仅在内部版显示。</p>
  <h3>ShotDeck（对标对象）</h3><table class="bench"><tr><th>项目</th><th>数字 / 说法</th><th>说明</th></tr>${b.shotdeck.map(x=>`<tr><td>${esc(x[0])}</td><td><b>${esc(x[1])}</b></td><td>${esc(x[2])}</td></tr>`).join('')}</table>
  <p class="small muted">${esc(b.shotdeck_note||'')}</p>
  <h3>五个值得收藏的参考站</h3><table class="bench"><tr><th style="width:150px">网站</th><th>资源来源与形式</th><th>检索 / 分类特点</th><th>数量与费用</th><th>本板块借鉴了什么</th></tr>
