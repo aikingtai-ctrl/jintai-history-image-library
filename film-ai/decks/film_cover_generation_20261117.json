@@ -1,6 +1,6 @@
 {
   "source_project": "C:\\Users\\KingT\\Documents\\ChatGPT\\生图\\20261116_8878部代表图",
-  "snapshot_time_utc": "2026-11-26T03:08:49.290926+00:00",
+  "snapshot_time_utc": "2026-11-27T01:42:06.397943+00:00",
   "scope": "single-film full-film deck covers",
   "items": [
     {
@@ -25504,6 +25504,76 @@
       "file": "film-ai/decks/film-src-47a6f01c52b4ba99.webp",
       "sha256": "c279110a142c6c08fb8726abea6f1a867483a0ac2d5f45db7e8bd98e7b9fbd8a",
       "bytes": 212546,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-308b07a0e1b0b1f1",
+      "wid": "src-308b07a0e1b0b1f1",
+      "title": "Paganini Horror",
+      "file": "film-ai/decks/film-src-308b07a0e1b0b1f1.webp",
+      "sha256": "35498536417620dad82761c6e6e5435e34efaee135c6009a03b96dbaaf83d153",
+      "bytes": 245620,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-0be10d7f0512a06b",
+      "wid": "src-0be10d7f0512a06b",
+      "title": "Godzilla vs. Biollante",
+      "file": "film-ai/decks/film-src-0be10d7f0512a06b.webp",
+      "sha256": "7b6c87257e0acd6f4c433149f30ad1bc9604a6b95adc1fd0002ef7980f4a116d",
+      "bytes": 301880,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-315a803289def781",
+      "wid": "src-315a803289def781",
+      "title": "Bill and Ted’s Excellent Adventure",
+      "file": "film-ai/decks/film-src-315a803289def781.webp",
+      "sha256": "509b6cc8dfa0298d1671eb902dc7f2c98f96d6e21d79a7b8c109e9d4ea1b339d",
+      "bytes": 421858,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:src-a0c1f70bcff6433e",
+      "wid": "src-a0c1f70bcff6433e",
+      "title": "Heathers",
+      "file": "film-ai/decks/film-src-a0c1f70bcff6433e.webp",
+      "sha256": "477f4254ea5e2231619eb81ece2a19de1fcaa0d7d6c1cea635bc6732430e0c9f",
+      "bytes": 207550,
+      "size": [
+        1672,
+        941
+      ],
+      "generator": "Codex built-in GPT Image image_gen",
+      "source_receipt": "20261117_单部影片整片图集封面_GPTImage/new_generation_receipts.json"
+    },
+    {
+      "id": "film:tetsuo-the-iron-man-1989",
+      "wid": "tetsuo-the-iron-man-1989",
+      "title": "Tetsuo: The Iron Man",
+      "file": "film-ai/decks/film-tetsuo-the-iron-man-1989.webp",
+      "sha256": "6f28849df34c026f61ccb3b90be84949537746742dbe0325fbfef887c2f86247",
+      "bytes": 384946,
       "size": [
         1672,
         941
