@@ -1485,6 +1485,219 @@
       "method": "内置 imagegen",
       "sourceBasis": "first-record-promotional-image-description",
       "adaptationNote": "按首条资料中的海报画面描述重绘，省略文字；非原片首镜、非原始海报。"
+    },
+    {
+      "ordinal": 71,
+      "wid": "src-1855e88c0b15996b",
+      "title": "Willy/Milly",
+      "firstShotId": "VP-src-1855e88c0b15996b-01",
+      "scene": "两名戴着墨镜的青春期少女并排躺在条纹沙滩躺椅上晒太阳。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Two fully clothed teenage girls wearing sunglasses rest side by side on striped beach loungers in the sun. Modest ordinary cotton summer outfits, relaxed friendly expressions, natural nonsexual everyday framing, no body emphasis. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "11085f133d86324790afcb2f8bec143c669657b7e08e0adffd4c8135e2e888fd",
+      "preview": "film-ai/firstshot-20261127/src-1855e88c0b15996b.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5625e2374e55b325f994bdb3ad1a8c895f39a2a8/originals/film-expand-firstshot-20261127/src-1855e88c0b15996b.png",
+        "bytes": 2590245,
+        "sha256": "c7e9b4b48c583a44ed197bc8b1be3e6f4ac1d1c041fd9c424ddbeb19663b8d5a",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 72,
+      "wid": "src-18608e74e7c93c65",
+      "title": "All Monsters Attack",
+      "firstShotId": "VP-0ca3fd3d2d3737e5",
+      "scene": "两名背着书包的人物行走在高架人行道上，左侧是带有楼梯的铁路轨道区域，远处可见灰白色的工业建筑与密集的电线杆。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Two fully clothed schoolchildren carrying backpacks walk along an elevated pedestrian walkway in 1960s industrial Japan. Railway tracks and stairs lie to the left; gray factory buildings and numerous utility poles fill the distance. Wide natural-light neighborhood view. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "4642b1a62bd31d538689dc1d15dd0318bf439eb0a9b5949c0c0efaf699757ec1",
+      "preview": "film-ai/firstshot-20261127/src-18608e74e7c93c65.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5625e2374e55b325f994bdb3ad1a8c895f39a2a8/originals/film-expand-firstshot-20261127/src-18608e74e7c93c65.png",
+        "bytes": 2908790,
+        "sha256": "dba23b2be4fab1b39ac6d2d35c2e0dda6d61a2fda18cb7654bcbc8fe5c53b30e",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 73,
+      "wid": "src-18827070fcde3b90",
+      "title": "Vite strozzate",
+      "firstShotId": "VP-src-18827070fcde3b90-01",
+      "scene": "竖幅法版影碟封面上方为冷蓝光影中的两名男子半脸下方为黄色法文片名",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Graphic DVD-cover-style composition: the upper portion contains the half-lit faces of two fictional adult men in cold blue light; the lower portion is a solid yellow graphic panel without words. Tense restrained visual contrast, no celebrity likenesses. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "c6a820e0ff0339aee3385183a95821c52589d3d61de5dc786a6a9444e3721490",
+      "preview": "film-ai/firstshot-20261127/src-18827070fcde3b90.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5625e2374e55b325f994bdb3ad1a8c895f39a2a8/originals/film-expand-firstshot-20261127/src-18827070fcde3b90.png",
+        "bytes": 1861684,
+        "sha256": "9ba46d7bb06462886b25fdeb211635576bdb873f48539e861521ddb36ac7669a",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI资料参考图（海报描述，非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "first-record-promotional-image-description",
+      "adaptationNote": "按首条资料中的海报画面描述重绘，省略文字；非原片首镜、非原始海报。"
+    },
+    {
+      "ordinal": 74,
+      "wid": "src-18830c50fd284ee5",
+      "title": "Yu bang xiang zheng",
+      "firstShotId": "VP-src-18830c50fd284ee5-01",
+      "scene": "米白水墨背景竖版海报上长嘴水鸟与河蚌死死相咬且右侧印有篆书风格片名",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Traditional Chinese ink-and-wash illustration on pale cream paper: a long-billed wading bird and a river clam are locked together, the clam closing gently around the bird’s beak in a stylized folktale pose. Delicate reeds and minimal watery brushwork, no blood, injury, seal or calligraphy. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "b5962f466068720e32854b81cd1cb135cd0888ec3f6ff072993d99e5bf47af34",
+      "preview": "film-ai/firstshot-20261127/src-18830c50fd284ee5.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5625e2374e55b325f994bdb3ad1a8c895f39a2a8/originals/film-expand-firstshot-20261127/src-18830c50fd284ee5.png",
+        "bytes": 2916814,
+        "sha256": "0aba9c03e43d70f98518920b800eb6928b819330868054561c8b4ebdeaa15921",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI资料参考图（海报描述，非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "first-record-promotional-image-description",
+      "adaptationNote": "按首条资料中的海报画面描述重绘，省略文字；非原片首镜、非原始海报。"
+    },
+    {
+      "ordinal": 75,
+      "wid": "src-18946932481e8794",
+      "title": "Ashik Kerib",
+      "firstShotId": "VP-a693f3dbf68dad4f",
+      "scene": "深蓝色拱形背景中绘有一棵红褐色枝干的石榴树，树上挂满橙红色果实与绿色叶片，外围环绕着带有花卉纹样的装饰边框。",
+      "actualPrompt": "Remove all four human figures and the baskets completely. Replace them with uninterrupted deep blue ground and additional natural pomegranate-tree branches, leaves and fruits matching the existing flat decorative painting. Keep the central red-brown pomegranate trunk, orange-red fruit, green leaves, deep blue arch, ornate floral border and handmade painted texture. The final artwork contains only one pomegranate tree and the floral frame. No people, faces, animals, text, signature or watermark.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "6d49aa1df4669a2f2143483b1b3946cb2e094489c502c0d3d38c73abb695d791",
+      "preview": "film-ai/firstshot-20261127/src-18946932481e8794.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5625e2374e55b325f994bdb3ad1a8c895f39a2a8/originals/film-expand-firstshot-20261127/src-18946932481e8794.png",
+        "bytes": 3777610,
+        "sha256": "1bae16e629c7c102cf5d10120af41aac0ddca173caf3116c108beb1ec5659501",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 76,
+      "wid": "src-18a710d1d4d14df1",
+      "title": "Les jeux de l'amour",
+      "firstShotId": "VP-src-18a710d1d4d14df1-01",
+      "scene": "黑白画面中，盘着优雅发髻、身穿立领衬衣的古董店女主人苏珊娜站在摆满古典雕像与灯具的店内。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Black-and-white portrait of a fictional adult French antique-shop proprietor. Her hair is arranged in an elegant updo and she wears a high-collared blouse. She stands among draped classical sculptural busts and old lamps in a crowded shop. Calm thoughtful expression. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "5b1814aac646541968808d6d4a9eeebad04f3f2330a55c1de6a273a49a116adc",
+      "preview": "film-ai/firstshot-20261127/src-18a710d1d4d14df1.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5625e2374e55b325f994bdb3ad1a8c895f39a2a8/originals/film-expand-firstshot-20261127/src-18a710d1d4d14df1.png",
+        "bytes": 2525496,
+        "sha256": "c859d0780f5dc82c0949a12e96487716a5a830aab7460454a7c5000358906cca",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 77,
+      "wid": "src-18af0325649b4177",
+      "title": "街舞狂潮",
+      "firstShotId": "VP-src-18af0325649b4177-01",
+      "scene": "台湾街舞少年在巴黎埃菲尔铁塔前单手倒立定格的画面印在竖幅海报上",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. A fully clothed fictional young adult Taiwanese street dancer holds a clear one-handed handstand in the open square before the Eiffel Tower in Paris. Full-body view with one palm firmly on the ground, coherent balanced limbs and loose everyday dance clothes. Energetic documentary daylight, no lettering. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "4fb9468d51e205ce1ee5626d92d3d4563602cb0c0483c4e13d4615ea0af7a226",
+      "preview": "film-ai/firstshot-20261127/src-18af0325649b4177.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5625e2374e55b325f994bdb3ad1a8c895f39a2a8/originals/film-expand-firstshot-20261127/src-18af0325649b4177.png",
+        "bytes": 2260981,
+        "sha256": "e4a007c0ead7bda7b1c1c2cd3a0bf1ab41cb204347ad518af1a3542b4ba082fc",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI资料参考图（海报描述，非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "first-record-promotional-image-description",
+      "adaptationNote": "按首条资料中的海报画面描述重绘，省略文字；非原片首镜、非原始海报。"
+    },
+    {
+      "ordinal": 78,
+      "wid": "src-18b2961863115fd9",
+      "title": "Help!",
+      "firstShotId": "VP-4be28f9c00f27aa1",
+      "scene": "一名涂着红色面部妆容的人物俯卧在石质台面上，头部枕在交叠的手臂上，左侧前景是一台带有金属卷轴的旧式放映设备，背景昏暗处有模糊的人影。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. A fully clothed fictional adult with red theatrical face paint lies forward on a stone tabletop, resting their head on folded arms. An old film projector with visible metal reels occupies the left foreground; blurred figures stand in the dark background. No injury or violence. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "e7616d20dc00b22fcb2735359e59636f35c00319023b12ebf2001dbd5232ec44",
+      "preview": "film-ai/firstshot-20261127/src-18b2961863115fd9.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5625e2374e55b325f994bdb3ad1a8c895f39a2a8/originals/film-expand-firstshot-20261127/src-18b2961863115fd9.png",
+        "bytes": 2072946,
+        "sha256": "09c19b78607ff2726e63109dbbe218d9b66695535276e355e96d41ed6d53a339",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 79,
+      "wid": "src-18c0fa74f2afe19b",
+      "title": "Dance Flick",
+      "firstShotId": "VP-src-18c0fa74f2afe19b-01",
+      "scene": "《跳舞大电影》（2009）蓝紫灯光闪烁的街舞夜店里，头戴灰色毛线帽的黑人青年与身穿白色舞衣的金发少女深情对望",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. In a blue-purple-lit dance club, a fictional young Black adult man in a gray knit cap and a fictional blonde adult woman in modest white dance clothes look warmly into one another’s eyes. Medium two-shot with soft dance-floor lights behind them. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "9c8333988e78a69fb97244e9b0a451d9ed7ed5244c61bd1a55db938c7dd75522",
+      "preview": "film-ai/firstshot-20261127/src-18c0fa74f2afe19b.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5625e2374e55b325f994bdb3ad1a8c895f39a2a8/originals/film-expand-firstshot-20261127/src-18c0fa74f2afe19b.png",
+        "bytes": 2280620,
+        "sha256": "9a33900c9860aad018de0c4bc02fb1bc168064ec93ef62f9314cb1d8f3284f5b",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 80,
+      "wid": "src-18d9e80b844e042b",
+      "title": "Mountains of the Moon",
+      "firstShotId": "VP-dd31a98fc36bd64c",
+      "scene": "夜间沙地营地，多顶帐篷散布，多处明火燃烧，前景一人站立，中景多人影活动，火光映照帐篷与地面。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Nighttime expedition camp on sandy ground, with several tents scattered across the site and a few small campfires. One fully clothed person stands in the foreground while others move in the middle distance. Firelight illuminates fabric and sand, no violence or emergency. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "3789f71f3a851b43b17c548c6799afbb7bbfa97dba374d18a75e1a30382d75ef",
+      "preview": "film-ai/firstshot-20261127/src-18d9e80b844e042b.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5625e2374e55b325f994bdb3ad1a8c895f39a2a8/originals/film-expand-firstshot-20261127/src-18d9e80b844e042b.png",
+        "bytes": 2438616,
+        "sha256": "aba35807e4cc47ddc4bd6b8dfb419ec9859d2f325a13d0ff6a835d94c342350e",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
     }
   ]
 }
