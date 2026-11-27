@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T07:51:20.059803+08:00",
+  "updated_at": "2026-11-27T08:12:01.582764+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -1731,6 +1731,125 @@
       "sha256": "c0b9d42dbdb9639348c228f314296a7991fa69ab69c4afee508e98f0d671749a",
       "reason": "黄色荒地上的孤立人影与木架并无可核孟买贫民窟/问答/童年情节，似泛末日景观。",
       "evidence": "第三十八批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-american-friend-1977",
+      "src": "film-ai/the-american-friend-1977.jpg",
+      "sha256": "e8d96b120c97218cfcd5ab5a5f12fe59f6e8e7ba758f2d79198679cd4601be24",
+      "reason": "港口夜景中央叠红色德文片名 DER AMERIKANISCHE FREUND，属于标题字卡。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-american-friend-1977",
+      "src": "film-ai/shots/YS-20261108-2300-the-american-friend--06.webp",
+      "sha256": "ca1a137ed433046c766d4b447d1f94301d136c304d3ad82ce3f78cea87b3ab7d",
+      "reason": "汉堡港岸边独身男子只有拍摄地类比，无法辨认 Zimmermann/Ripley 或可核犯罪节点。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-bad-and-the-beautiful-1952",
+      "src": "film-ai/goal9438/the-bad-and-the-beautiful-1952.jpg",
+      "sha256": "dec40bf5fe21d2c01524d1a54f26b02d9e97474e87e34229cc362847e3cb6ffc",
+      "reason": "原图是现代彩色日落片厂街景及摄影吊臂，与机构标明的 1952 黑白电影媒介不符。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-battle-of-algiers-1966",
+      "src": "film-ai/the-battle-of-algiers-1966.jpg",
+      "sha256": "167d19c94c8c2407dcbb6f6e15b22f16d9901b601db33b606fa2d64d2167ce03",
+      "reason": "原图人物前方摄影机与导演手势明确入画，是现场制作照而非剧情镜头。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-black-cannon-incident-1986",
+      "src": "film-ai/src-wd-q7718271.jpg",
+      "sha256": "6f72c0a0848361c183f2b1ea0611312b1f6f55c4812edf1d7a27a0ab539c1ace",
+      "reason": "仅灰墙上毛笔字《黑炮事件》片名，无剧情人物或动作，为片名字卡。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-kid-with-a-bike-2011",
+      "src": "film-ai/the-kid-with-a-bike-2011.jpg",
+      "sha256": "28a09b89ec29da9cfe066a89f3525d74fac1872e95353a497f5b29e37b7b492a",
+      "reason": "两名年长男子正面站立对镜头，显然是导演兄弟片外合影，无 Cyril、自行车或叙事情节。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-legend-of-tianyun-mountain-1980",
+      "src": "film-ai/the-legend-of-tianyun-mountain-1980.jpg",
+      "sha256": "53ed9f176256157e15e411ef489840a6c8cd7893fe1a3a380e0daefbd919db27",
+      "reason": "原图虽为病床照护，却完全黑白；机构片目标注彩色，当前素材规范不把黑白再创作当原片剧照。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-marriage-of-maria-braun-1979",
+      "src": "film-ai/the-marriage-of-maria-braun-1979.jpg",
+      "sha256": "8444ad43315c9e878fa1278d18f20398fdda71b1986c6a9345841c78b3aaa7ce",
+      "reason": "黑白好莱坞式金发女星肖像既非电影彩色媒介，也无 Maria 的德战后生活场景。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-night-of-the-shooting-stars-1982",
+      "src": "film-ai/the-night-of-the-shooting-stars-1982.jpg",
+      "sha256": "04a875b974469c91353d1326b069e7714936348aaa2675ccf089c6c332d1f153",
+      "reason": "摄影机、导演和现场工作人员清晰入画，是拍摄幕后而非 1944 故事画面。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-northman-2022",
+      "src": "film-ai/the-northman-2022.jpg",
+      "sha256": "266808593936471d6eb03a2a4b90a6fac6dfb67cbde6eb2701b9d3bee0f2919e",
+      "reason": "现代黑衫项链的东亚少年正面肖像，无维京年代、Amleth 或官方演员关联。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-sea-inside-2004",
+      "src": "film-ai/the-sea-inside-2004.jpg",
+      "sha256": "d5f1c1f7649f36635d05aef90f5db7b4ec9c1e5b773537e78461f30053002b6c",
+      "reason": "卧床演员身旁是戴耳机工作人员对其讲解，呈片场指导/幕后照，不是影片人物对话。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-seed-of-the-sacred-fig-2024",
+      "src": "film-ai/the-seed-of-the-sacred-fig-2024.jpg",
+      "sha256": "3d0b1d7c4749e1ec7e42cf7390877e16c1970e1af2c5a8a0879d1699b6cf2861",
+      "reason": "男性人物旁摄影机机身和监视器占据画面，是片场拍摄记录，非剧情镜头。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-yellow-handkerchief-1977",
+      "src": "film-ai/the-yellow-handkerchief-1977.jpg",
+      "sha256": "8788620125fc238fbcb6827769313c46cce3e11585147b6c9f8a021daa9fd55f",
+      "reason": "北海道风景上覆盖巨大日文片名《幸福の黄色いハンカチ》，是影片标题图。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-house-of-72-tenants-1973",
+      "src": "film-ai/shots/YS-20261112B8-M68-the-house-of-72-tenants-1973-014.webp",
+      "sha256": "ed400a4d7e7ee44e52334b2aee618d1b3ef00e23f4c1e2729b3886652c8935aa",
+      "reason": "钥匙放在红桌上、背后只有模糊人群；未见房客、房东关系或具体群像事件。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-house-of-72-tenants-1973",
+      "src": "film-ai/shots/YS-20261112B8-M68-the-house-of-72-tenants-1973-015.webp",
+      "sha256": "0351ab73fbc0bf3f1908e60369195185a5cbebd0c6590e5d504eebee41f1a053",
+      "reason": "茶杯与毛巾的静物虽在旧楼廊内，不能凭共用空间推认《七十二家房客》的剧情。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-secret-1979",
+      "src": "film-ai/the-secret-1979.jpg",
+      "sha256": "7f129e4bc420396fe6768e6e65f83df0563acf2429c40df368626254f3dd0b41",
+      "reason": "白衣女子在红蓝夜林里惊惧，既无被害情侣或 Ming 的调查线，也不见资料馆强调的香港公寓。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-secret-1979",
+      "src": "film-ai/shots/VP-the-secret-1979-01.webp",
+      "sha256": "145e63ad5e5242d829fac0e379497e1a86f73720fd0a9843209c9e9f213f0052",
+      "reason": "白袍女子仍在同类夜林，外形更像灵异片泛意象；不能从标题推断为本片的谋杀调查。",
+      "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
     }
   ]
 }
