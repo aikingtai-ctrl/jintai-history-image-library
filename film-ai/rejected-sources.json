@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-28T03:54:14.289944+08:00",
+  "updated_at": "2026-11-28T05:24:05.995754+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -4979,6 +4979,279 @@
       "sha256": "b4f2e904c5a3ffd751476149f52e7519137fa69394fd39ba97e35cdc0e374ecf",
       "reason": "正装男子独坐近景未表现 Viktor 的专横、家庭成员或具体关系，人物身份不可核。",
       "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-83d36cef58780023",
+      "src": "film-ai/src-83d36cef58780023.jpg",
+      "sha256": "ab0263fdee06a61aceecc53ee093db3b462c87237feb85e554eed7729dc696e2",
+      "reason": "装饰艺术风格女伶妆面近景未能辨认为片中 Helen Sinclair 或其他演员，也没有排演中的具体关系；单凭年代造型不足作第二场。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-83d6ad635f4c4261",
+      "src": "film-ai/src-83d6ad635f4c4261.jpg",
+      "sha256": "21e2b191849c720e65404920d5eb4e26e028d615e8a6c5e55fdd9ea0e974a3e0",
+      "reason": "西装男子与画外人握手的近景无电视棚、Whiley 可辨身份或小镇秘密事件，暂不作为新增场次。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-83de6a4ba650683c",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-83de6a4ba650683c.webp",
+      "sha256": "456be7d3dd9833d5cd786d2f7ecad08153496a8a9390cf7337df224470ecbcf4",
+      "reason": "古装讲道者面向城中人群，可联想到《使徒行传》，但未辨识使徒、城市或特定经文情节；暂缓核认。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-83de6a4ba650683c",
+      "src": "film-ai/src-83de6a4ba650683c.jpg",
+      "sha256": "6a828a7b3432fb31d22d2cedb02caf41dc344d18459e5e2ca4b9eac54edf929c",
+      "reason": "画面清楚印有 The Visual Bible: ACTS 标题与地图拼贴，是封面/海报而非片内剧照。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-84130180e3458b5c",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-84130180e3458b5c.webp",
+      "sha256": "b3cc59917c772b3e1951d3db29d51049a004c9c76a5e2823c411a24d81508027",
+      "reason": "旅馆房间中两名背光男子、行李和城市远景是泛犯罪片场面，不能确认 Joe 与 Eddie 或骗局情节。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-84130180e3458b5c",
+      "src": "film-ai/src-84130180e3458b5c.jpg",
+      "sha256": "37f91a7c4567eb723c01ecd71a2f826a2d0ce8c7e50f6c5b44ff130eb5cb1c09",
+      "reason": "红发女子站在 826 号汽车旅馆门外，虽可能是 Diane，却没有可核角色身份、交易或与 01 的情节关系。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-84164b6ba327ea7c",
+      "src": "film-ai/src-84164b6ba327ea7c.jpg",
+      "sha256": "ae3e9e4cc8bf110cee2259e3342fdb9319589be5346c9d976b4ae4f81de3e422",
+      "reason": "墨镜男子在赛道看台与另一人交谈，身份不可证为商人 Phil Adamson；同赛道语境也未见独立冲突动作。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8422334f8d6a8edf",
+      "src": "film-ai/src-8422334f8d6a8edf.jpg",
+      "sha256": "aa806711bc0a342c16c4a57c36b01bec3786956cee6d9abf7644cf4b6ac683ad",
+      "reason": "酒店玻璃门/电梯里只见男子蹲身，缺格纹箱、Judy 或 AFI 记载的具体追逐节点；不可把所有酒店闹剧视作原片。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8429cf99eadad34f",
+      "src": "film-ai/src-8429cf99eadad34f.jpg",
+      "sha256": "8475d2405d9380c0ee052cf6f68bc020ae4c9c8c7e014a663afb8b5e37777556",
+      "reason": "全家黑白摆拍肖像与 AFI 记载的彩色正片媒介不合，且是独立宣传照式构图。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-84352560c9eb21c3",
+      "src": "film-ai/shots/WORKCONCEPT-20261117-src-84352560c9eb21c3.webp",
+      "sha256": "a8b51be56e4e1635acdd0ea93db21960866e5862ffad0d2f118cc65b37ac52f8",
+      "reason": "原字节 SHA 与已发表 a-fantastic-woman-2017 的 01 完全相同，已有图不作为新增剧照。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-84352560c9eb21c3",
+      "src": "film-ai/src-84352560c9eb21c3.jpg",
+      "sha256": "71d32395be2e2586069f18c4bf8712e4da42e97101cd1cdc4440728ca226b0cb",
+      "reason": "Marina 镜前妆容近景与已发表 canonical 02 的人物近景语义重复；场景物件未形成有价值新叙事。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8459f1ff316131a9",
+      "src": "film-ai/src-8459f1ff316131a9.jpg",
+      "sha256": "bcd1890ef3aa1c927f2d71e4eb87975d999348c15ecef4812fdb0eb397927379",
+      "reason": "山地咖啡馆虽有法语地名与数人，未能辨认兄弟或坠机/攀山商议；地点泛相似不足认证。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-848a2597565efdfd",
+      "src": "film-ai/src-848a2597565efdfd.jpg",
+      "sha256": "814d5371a17213c2c70688f50167137c69a55cffa57622dc73195b986fdabb39",
+      "reason": "只有乡间教堂与路边汽车，无父子或具体月球旅程情节，不能算第二场剧照。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-84a18e9c510077a6",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-84a18e9c510077a6.webp",
+      "sha256": "8a2038b006ca505bb66f0d944dc913595ce8f0bcc892eacc713441d76e1547e3",
+      "reason": "空拳馆手套与信件只是象征物，没有 Harry、集中营或寻人线索可辨，不足以指认影片。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-84a18e9c510077a6",
+      "src": "film-ai/src-84a18e9c510077a6-v2.jpg",
+      "sha256": "6c901c629986741ec6fb9e85509a52dbcc3f0bf9f90041be16da77ad82181742",
+      "reason": "逆光拳手背影缺 Harry Haft 身份、集中营/职业比赛及寻爱背景；拳击类型相符不等于本片。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-84d09995a5f171f8",
+      "src": "film-ai/src-84d09995a5f171f8.jpg",
+      "sha256": "a22d03aca97f63e736bd370c592ef417f1d25f2a1a23a592fdc8d0ff3c9a4c08",
+      "reason": "现代电视抽奖节目主持人与两名礼服女子的现场照，与 Rachel 逃离家庭故事无关，明显串片。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-84e913080d259a5a",
+      "src": "film-ai/src-84e913080d259a5a.jpg",
+      "sha256": "6bd78d365a575e7af406dfd7b5c245b87194274f60e4cb237dcbc4d130a78416",
+      "reason": "雨后人行道只剩空雨伞，没有 Muppets、真人演出或可核节目情节；暂缓而非凭雨景认错片。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-85086032b2318d1a",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-85086032b2318d1a.webp",
+      "sha256": "cc7f3e61a88dbaefa95c6a3200a9557a84777f56426e66827b1a534d81a23d7d",
+      "reason": "男子独在巴士站携袋候车，虽契合 Alex 逃亡的公路概念，不能辨认 Alex、墨西哥或具体追捕事件。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-85086032b2318d1a",
+      "src": "film-ai/src-85086032b2318d1a.jpg",
+      "sha256": "60c76cd28d29a6815f851ed7e45df514e46ce7a32bcec09b057816c96ed873c2",
+      "reason": "酒吧男女对峙看似黑色电影，但无法核定是 Alex 与 Missy，未见 Mills 或逃亡关系；保守暂缓。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-850f971a6b2084a2",
+      "src": "film-ai/shots/WORKCONCEPT-20261117-src-850f971a6b2084a2.webp",
+      "sha256": "bb9d6d322eb2f503ebe8449ece00c2655ec2615b933b3e56cc18ba48f717ff3c",
+      "reason": "SHA 与已发表 beauty-and-the-beast-1946 的 01 完全相同，已有剧照不得重复新增。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8569ad23cf1800bb",
+      "src": "film-ai/src-8569ad23cf1800bb.jpg",
+      "sha256": "3cd51941c1dc0381288972d0396f79feb1bfbabd3aa48d8be39e47f34aeabe9c",
+      "reason": "持手电与手枪的男子在黑屋搜索，未能核定为 Scott Bakula 的 Harry D'Amour 或片中魔术案件地点。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-858aca9a08b65c55",
+      "src": "film-ai/src-858aca9a08b65c55.jpg",
+      "sha256": "6fde6b6a0260543466dd3c796f8ddcf9b8da6f92b68b75147e743eba1dff569f",
+      "reason": "黑白老年男肖像与原片彩色媒介冲突，也非 AFI 所列主要人物/事件，不能作电影剧照。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-85b09de81ab2a010",
+      "src": "film-ai/src-85b09de81ab2a010.jpg",
+      "sha256": "3ffe13cd2c975844b3a6562a85904fd18832f28b0146b1fa3a076e9843f5f047",
+      "reason": "纯黑底白字写 STUART GORDON'S CASTLE FREAK，是片名字卡而非叙事画面。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-85c0e49cb3533c4c",
+      "src": "film-ai/shots/WORKCONCEPT-20261117-src-85c0e49cb3533c4c.webp",
+      "sha256": "996cf146f81c06e7fe1db4486d2f3828afb69ed30c825f71a5ce8519bd8eb362",
+      "reason": "与第十批同片 01 完全相同；前批虽曾建议保留，但固定准入集尚无该片，需按同片一组重新裁定，不形成第二卡。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-85c0e49cb3533c4c",
+      "src": "film-ai/src-85c0e49cb3533c4c.jpg",
+      "sha256": "5345546e875f0097bdf5660418f869afb5490f6f4c41cc80777ccd1d28300a8b",
+      "reason": "独坐法庭的戴假发年长法官未能识别为电影频道列出的角色或具体庭审关系，不能仅凭香港法庭服饰认定。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-85dac65c13a4a0d9",
+      "src": "film-ai/shots/WORKCONCEPT-20261126-el-juicio-2023-gpt.webp",
+      "sha256": "bbad79816a62ef741b5e39529527a312c4cb54b05eae43f6ab478a52587f3a4b",
+      "reason": "空无人物的现代重构法庭与录像机、磁带是档案意象，但影片是 1985 真实审判的历史影像剪辑，无法认作纪录片内原帧。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-85dac65c13a4a0d9",
+      "src": "film-ai/src-85dac65c13a4a0d9.jpg",
+      "sha256": "4b8ed3fc41e33093325baa59f13a9afeb189555de22618ebfe9fbd407f4d4b43",
+      "reason": "当代年轻女子在现代机构走廊的戏剧化近景与仅由 1985 审判档案构成的影片形式冲突。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-85dca6e4a257c2a0",
+      "src": "film-ai/src-85dca6e4a257c2a0.jpg",
+      "sha256": "d2e7a5160a0b0d2b1bec607c74a5bd37dbe56440de58acbaaec796f47a9597d6",
+      "reason": "车镜内东亚男子眼部特写无 Lenny、Mace 或 SQUID 身份，霓虹夜色的氛围相似不足以证明同片。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8600d3613b411afb",
+      "src": "film-ai/shots/WORKCONCEPT-20261126-il-rapimento-di-arabella-2025-gpt.webp",
+      "sha256": "21f4defcefe8d0533f007445a28f4d28a0e4207b68dbe61414ea11d6c7d955f7",
+      "reason": "年轻女子在路边翻看手中小物，女孩 Arabella 不在画面，也无二人结伴行动，暂不能认作本片。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8600d3613b411afb",
+      "src": "film-ai/src-8600d3613b411afb.jpg",
+      "sha256": "5561b1266ba58a9602f0ece43502fd50acae96bae68ed5e6f27dd10608d452fb",
+      "reason": "演员在威尼斯电影节摄影区手捧奖杯、向摄影师挥手，是颁奖/宣传活动照片，非剧情剧照。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-86147613642331cb",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-86147613642331cb.webp",
+      "sha256": "3db8028d82c79074b598c56a1d16ae98885f2da165bd8cf9c9ed606a247ac1ab",
+      "reason": "宅邸过道墙上仅两个匿名人影，无 Esther 身份、冒名行动或家庭成员可辨；类型氛围不足。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-86147613642331cb",
+      "src": "film-ai/src-86147613642331cb.jpg",
+      "sha256": "e821b0e69b02386a615860b6d732a3285425e61c1fcc1a6b6e771a865f9c2f96",
+      "reason": "画面可见摄影机/监视器，成年工作人员向童星解释机位，明确属片场幕后而非片内镜头。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8617526587e979e2",
+      "src": "film-ai/src-8617526587e979e2.jpg",
+      "sha256": "b297183cd44589d23502e41ac4c83d3b295453c02c4b7602f6bf4da5cd88bab6",
+      "reason": "年轻男技师在明亮商业式水疗室按摩穿衣年轻女子，与原片中年 Nina、Fitch 的私人住宅按摩不符；BBFC 亦描述片中女性裸体长时间按摩。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-862da65f1ef49b56",
+      "src": "film-ai/src-862da65f1ef49b56.jpg",
+      "sha256": "49264f197b42a228df7e804818c8b455669c28cb16171c7b9ed190935e7af044",
+      "reason": "同一家夜总会只有孤身男子站在酒吧，缺新抢劫行动或可辨角色，较 01 无新叙事价值。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-86540c16853a3685",
+      "src": "film-ai/src-86540c16853a3685.jpg",
+      "sha256": "84d197ea8c30517b7477e8b6bfaf0d9fe48f47c3d8fcbff7d94e29b125627841",
+      "reason": "持枪肌肉男子与直升机爆炸是泛动作片构图；没有导弹、恐怖分子或 Don Wilson 可辨身份，暂缓。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-86689ce7acbea80b",
+      "src": "film-ai/src-86689ce7acbea80b.jpg",
+      "sha256": "f1061e2e4843e907de8572430302c36fde075925a4499be12711e67f1f0b92d9",
+      "reason": "只有现代抽象彩绘图案，不是角色/场景画面，也不像 AFI 明记的 Cézanne 交易对象；不能作为电影剧照。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-868f2e5e166a6dc2",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-868f2e5e166a6dc2.webp",
+      "sha256": "6d8f2a15430261dfb5bff827eb5500a9407780338301a82c532bf80019be4bbf",
+      "reason": "办公室背影的灰发男子和纽约夜景缺可辨 Nicholson 角色或狼人事件，都市环境太泛。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-868f2e5e166a6dc2",
+      "src": "film-ai/src-868f2e5e166a6dc2.jpg",
+      "sha256": "144478ccb1d7f5b5f1c9348bbd0d76350e2070e459d25f595f13df651b223d8a",
+      "reason": "华丽古堡卧室内棕发青年男女和夸张血红月亮不像 Sony 所列 Nicholson/Pfeiffer 的现代主角组合，呈通用哥特浪漫宣传画。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-86e31fc584df1d72",
+      "src": "film-ai/src-86e31fc584df1d72.jpg",
+      "sha256": "e03e33339e4b7f01b5d41c6431680034192be0015375214d35991b077e3edf63",
+      "reason": "林中两女子会面可联想 Thérèse 与 Anne，但远景无法识别 Riva/Scob 或两人具体关系；暂缓。",
+      "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
