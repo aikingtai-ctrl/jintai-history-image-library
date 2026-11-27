@@ -435,7 +435,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
 <h3 style="margin-top:0">这个板块是什么</h3>
 <p>对标 ShotDeck 的影视镜头参考库。既有镜头笔记与新增来源静帧分析一起参与搜索，附研究笔记和原创创作提示词。来源静帧可能来自同一连续镜头，条数不等同于已核验的独立剪辑镜头。缺少的景别、灯光、器材等标签明确待标注；可在左侧“标签状态”筛选。来源分析支持正文检索，手动选择摄影标签时只匹配已标注记录。</p>
 <h3>画面图从哪来</h3>
-<ul><li><b>来源画面分析</b>：新增记录保留对应原图和作品画廊链接，以文字来源卡展示；没有本机截帧时不绘制示意图。色板待测的记录不参与颜色匹配，静帧不能确认运镜和器材参数。</li><li><b>既有示意图</b>：旧镜头笔记按已有标签自动画示意图（画幅、主光方向、剪影大小与位置、构图线、天气），色板是按记忆<b>估色</b>，用来快速比较光色构图，不是影片原帧。</li>
+<ul><li><b>来源画面分析</b>：新增记录保留对应来源图片和作品画廊链接，以文字来源卡展示；没有本机截帧时不绘制示意图。色板待测的记录不参与颜色匹配，静帧不能确认运镜和器材参数。</li><li><b>既有示意图</b>：旧镜头笔记按已有标签自动画示意图（画幅、主光方向、剪影大小与位置、构图线、天气），色板是按记忆<b>估色</b>，用来快速比较光色构图，不是影片原帧。</li>
 <li><b>真实截帧</b>：团队把自己看片时截的图放进 <code>影视参考图集_收件箱</code>，文件名写镜头编号（如 <code>YS-0001-03.jpg</code>）或片名（如 <code>花样年华_走廊.jpg</code>）。每晚自动处理：实测色板、生成缩略图、由 A 机自动打标签，截帧只进本机内部版，不上公网。</li>
 <li><b>看原片画面</b>：每个镜头的详情里有 FilmGrab、SHOT.CAFE、Frame Set、Flim、ShotDeck、Eyecandy 的外链。</li></ul>
 <h3>怎么精准找画面</h3>
@@ -647,7 +647,7 @@ function lab0(h){let[r,g,b]=rgb(h).map(v=>{v/=255;return v>.04045?Math.pow((v+.0
 function dE(a,b){const A=lab(a),B=lab(b);return Math.hypot(A[0]-B[0],A[1]-B[1],A[2]-B[2]);}
 function palOf(r){const f=frOf(r);return((f&&f.pal)||r.pal||[]).filter(c=>/^#[0-9a-f]{6}$/i.test(c));}
 const safeSource=u=>{try{const x=new URL(u);return ['http:','https:'].includes(x.protocol)?x.href:'';}catch{return '';}};
-function sourceLinks(r){return [[r.source_url,'查看对应来源原图'],[r.source_page,'作品画廊']].filter(([u])=>safeSource(u)).map(([u,label])=>`<a data-source-link target="_blank" rel="noopener noreferrer" href="${esc(safeSource(u))}">${label}</a>`).join('');}
+function sourceLinks(r){return [[r.source_url,'查看来源图片'],[r.source_page,'作品画廊']].filter(([u])=>safeSource(u)).map(([u,label])=>`<a data-source-link target="_blank" rel="noopener noreferrer" href="${esc(safeSource(u))}">${label}</a>`).join('');}
 function sourceVisual(r){return `<div class="source-ref"><div class="sr-kicker">来源静帧分析</div><div class="sr-links">${sourceLinks(r)||'<span class="muted">来源待核</span>'}</div><div class="sr-meta">${esc(r.frame_id||'待核')}</div></div>`;}
 /* ---------- 示意图 ---------- */
 let SVGN=0;
@@ -943,7 +943,7 @@ async function openDetail(id){let r=BYID.get(id);if(!r){const rw=resolveWorkFrom
  for(const id of ['dCopy','dGo','dCopyAll'])$(id).disabled=pending&&(r.pr===undefined||r.note===undefined);
  $('dAdd').textContent=deckHas(r.id)?'✓ 已在当前图集':'＋ 加入图集';$('dCmp').textContent=CMP.includes(r.id)?'✓ 对照中':'加入对照';
  if(!d.open)d.showModal();d.scrollTop=0;}
-function shotText(r){const w=r.W,source=r.origin==='visual'?`\n来源帧：${r.frame_id||'待核'}\n来源原图：${safeSource(r.source_url)||'待核'}\n作品画廊：${safeSource(r.source_page)||'待核'}\n核验：${r.verification||'观图待人工核'}　摄影标签：${val(r,'tag_status')}`:'';return`【${r.id}】${w.t}（${w.te||''}，${w.y}）${r.ep?' '+r.ep:''}\n导演：${w.dir}　摄影：${w.dp||'待核'}　画幅：${w.ar||''}\n画面：${r.sc}\n标签：${[r.size,r.angle,r.frame,...(r.move||[]),r.lens_type,r.dof,...(r.light||[]),r.time,r.weather,r.ie,...(r.loc||[]),...(r.color||[]),...(r.comp||[]),...(r.emo||[])].filter(Boolean).join(' / ')}\n色板：${palOf(r).join(' ')||'待测'}\n研究笔记：${r.note}\n复刻提示词：${r.pr}${source}`;}
+function shotText(r){const w=r.W,source=r.origin==='visual'?`\n来源帧：${r.frame_id||'待核'}\n来源图片：${safeSource(r.source_url)||'待核'}\n作品画廊：${safeSource(r.source_page)||'待核'}\n核验：${r.verification||'观图待人工核'}　摄影标签：${val(r,'tag_status')}`:'';return`【${r.id}】${w.t}（${w.te||''}，${w.y}）${r.ep?' '+r.ep:''}\n导演：${w.dir}　摄影：${w.dp||'待核'}　画幅：${w.ar||''}\n画面：${r.sc}\n标签：${[r.size,r.angle,r.frame,...(r.move||[]),r.lens_type,r.dof,...(r.light||[]),r.time,r.weather,r.ie,...(r.loc||[]),...(r.color||[]),...(r.comp||[]),...(r.emo||[])].filter(Boolean).join(' / ')}\n色板：${palOf(r).join(' ')||'待测'}\n研究笔记：${r.note}\n复刻提示词：${r.pr}${source}`;}
 function step(d){const i=list.findIndex(x=>x.id===CUR.id);const pool=i>=0?list:R;const j=(i>=0?i:R.indexOf(CUR))+d;if(j>=0&&j<pool.length)openDetail(pool[j].id);}
 /* ---------- 参考图集（全库自动建集：376 套跨片专题 + 29,200 套整片图集 + 我的可编辑图集） ---------- */
 const DKEY='jt_film_decks_v1';let DECKS=JSON.parse(localStorage.getItem(DKEY)||'{"list":[],"cur":null}'),SHARED=null,SHOWSHARED=false,DECK_VIEW_ID=null,DPAGE=0,DECK_HYDRATE_TOKEN=0;const DPS=36;
@@ -1843,7 +1843,7 @@ function openShotVisualLightbox(r){
 /* ---------- 对标页 ---------- */
 function renderBench(){const b=BENCH;const nW=WORKS.length,nS=R.length,nF=Object.keys(FR).length;
  $('benchView').innerHTML=`<h3 style="margin-top:0">本板块现状</h3><p>${nW} 部作品 · ${nS} 个镜头 · ${nF} 张本机截帧。每天 0:00 自动新增，并刷新下表中能自动核对的公开数字（最近刷新：${esc(b.checked||'')}）。</p>
- <p class="muted small">定位：ShotDeck 是授权影片截图库；本板块提供既有结构标签镜头笔记和新增真实来源静帧分析；新分析可全文检索、查看笔记并复制创作提示词，缺失的摄影标签明确待标注。旧笔记保留标签示意图，新增来源记录展示文字来源卡与原图链接；本机截帧仅在内部版显示。</p>
+ <p class="muted small">定位：ShotDeck 是授权影片截图库；本板块提供既有结构标签镜头笔记和新增真实来源静帧分析；新分析可全文检索、查看笔记并复制创作提示词，缺失的摄影标签明确待标注。旧笔记保留标签示意图，新增来源记录展示文字来源卡与来源图片链接；本机截帧仅在内部版显示。</p>
  <h3>ShotDeck（对标对象）</h3><table class="bench"><tr><th>项目</th><th>数字 / 说法</th><th>说明</th></tr>${b.shotdeck.map(x=>`<tr><td>${esc(x[0])}</td><td><b>${esc(x[1])}</b></td><td>${esc(x[2])}</td></tr>`).join('')}</table>
  <p class="small muted">${esc(b.shotdeck_note||'')}</p>
  <h3>五个值得收藏的参考站</h3><table class="bench"><tr><th style="width:150px">网站</th><th>资源来源与形式</th><th>检索 / 分类特点</th><th>数量与费用</th><th>本板块借鉴了什么</th></tr>
