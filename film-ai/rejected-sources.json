@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T08:12:01.582764+08:00",
+  "updated_at": "2026-11-27T08:32:21.136246+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -1850,6 +1850,48 @@
       "sha256": "145e63ad5e5242d829fac0e379497e1a86f73720fd0a9843209c9e9f213f0052",
       "reason": "白袍女子仍在同类夜林，外形更像灵异片泛意象；不能从标题推断为本片的谋杀调查。",
       "evidence": "第三十九批30部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "when-a-wolf-falls-in-love-with-a-sheep-2012",
+      "src": "film-ai/shots/YS-20261112B8-M46-when-a-wolf-falls-in-love-with-a-sheep-2012-007.webp",
+      "sha256": "2a9ce6528c28594353c0f243ea39c5c0c7cbe9527ab16028342bb8b2f294a37c",
+      "reason": "幼年韩国女孩抱两名女孩的合画，与第 39 批韩国电影《我们的世界》02 的原始 SHA 完全相同；不可能给两部电影同时当作不同剧照。",
+      "evidence": "第四十批剩余20部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "your-name-engraved-herein-2020",
+      "src": "film-ai/your-name-engraved-herein-2020.jpg",
+      "sha256": "02ace5e4d81fbd38732d84c6746e96eda90658ca05455eaf505357bd04368335",
+      "reason": "两名西方成年女性在寒冷岩岸依偎，与片目明确的台湾少年阿汉/Birdy 人物、年代与演员不符。",
+      "evidence": "第四十批剩余20部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-door-2007",
+      "src": "film-ai/shots/YS-20261118-GR-the-door-2007-01.webp",
+      "sha256": "d15e897076afb9def1d6e3d623942b4ec8ea68b69df8209a9dc469b01063cb94",
+      "reason": "女子独站公寓门口可联想到文馨，却不能核人物，且无蒋中天猜忌/失踪线索。",
+      "evidence": "第四十批剩余20部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "the-door-2007",
+      "src": "film-ai/goal3377/the-door-2007.jpg",
+      "sha256": "b03466db13c77bc6a6303087a24dc289dd67c0c4368688430b3d8829ff46e784",
+      "reason": "男子面对另一扇公寓门与 01 同类走廊门意象，亦缺蒋中天、文馨或剧情事件证明。",
+      "evidence": "第四十批剩余20部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "grain-in-ear-2005",
+      "src": "film-ai/shots/YS-20261111B5-M68-grain-in-ear-2005-059.webp",
+      "sha256": "7814de428a2362716d180e7965ff95cee929fe578aa3a4d31d04854d6293b98e",
+      "reason": "女子坐车穿过城市雨路，未见儿子、泡菜摊或执法者；仅都市窘境不足认片。",
+      "evidence": "第四十批剩余20部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "grain-in-ear-2005",
+      "src": "film-ai/shots/YS-20261111B5-M68-grain-in-ear-2005-060.webp",
+      "sha256": "674186ca3cd82c1f275c4eddaff4c28bafbcf569ad577f0dc087341a7021a6e0",
+      "reason": "女子在小院晾衣、男子立于门边，缺儿子、泡菜买卖或被查处情节，不能将任意困顿生活认作本片。",
+      "evidence": "第四十批剩余20部两路径电影/逐图建议与联系表"
     }
   ]
 }
