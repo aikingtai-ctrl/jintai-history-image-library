@@ -229,6 +229,59 @@
       "preview": "film-ai/contentref-20261127-batch2/src-1ab45e6e5ffef1be.jpg",
       "previewSHA256": "356aa356037acef67b60f3444112e90ded7330179f836217e7617b31f4f41d72",
       "method": "built-in image_gen"
+    },
+    {
+      "wid": "src-1a017dec1b7df782",
+      "title": "Bound",
+      "year": 1996,
+      "referenceScene": "虚构短发女性在紫红花纹壁纸的公寓内接黑色有线电话，以原创水粉插画呈现犯罪黑色情绪。",
+      "referencePrompt": "Use case: illustration-story. Asset type: one landscape 16:9 original AI content reference image for Bound (1996). Primary request: an invented short-haired adult woman in a white work tank top uses a black corded telephone in a dim apartment, seen in three-quarter view; purple-red floral wallpaper, a lamp, and bold shadow shapes create a tense 1990s neo-noir mood. Render as a clearly hand-painted gouache illustration with simplified angular facial features, visible brush texture, and graphic color blocks; distinct from photography and from any film frame. The fictional face must not resemble Gina Gershon, Jennifer Tilly, or other performers. No tattoo, text, title, logos or watermark.",
+      "originalSourceDescription": "深色短发人物侧脸特写，手持黑色电话听筒贴于耳边，身穿白色背心，背景为模糊的紫红色碎花图案。",
+      "sourceEvidence": [
+        "https://www.criterion.com/films/33670-bound"
+      ],
+      "sourceSHA256": "9d61c54fbfa301ad65f1189e30ad0b74f38580fa662d534320bdb4a057e0e823",
+      "originalURL": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/d03e465520d7958ea8c02428b35301015f968c47/originals/contentref-20261127-batch2/src-1a017dec1b7df782.png",
+      "originalSHA256": "4bb8743c5e5c20ab69fa487fce59756aaea59b76cbaca15da4d9ed001c4fa2d3",
+      "preview": "film-ai/contentref-20261127-batch2/src-1a017dec1b7df782.jpg",
+      "previewSHA256": "0df619fe6589b80dedf32bd49c84e2f105c1d0580183af40fc77d7db439b343a",
+      "method": "built-in image_gen"
+    },
+    {
+      "wid": "src-1b39cd022556fad3",
+      "title": "Who Are You, Polly Maggoo?",
+      "year": 1966,
+      "referenceScene": "六十年代巴黎时装电视摄制组拥挤在拱形后台走廊，强光、模特与工作人员构成媒介讽刺场面。",
+      "referencePrompt": "Use case: stylized-concept. Asset type: one landscape 16:9 original AI content reference image for Who Are You, Polly Maggoo? (1966). Primary request: a satirical 1960s Paris fashion television crew crowded into a narrow arched backstage corridor; one fictional production assistant seated in the foreground in a patterned shirt, a bright circular studio lamp at left, several sharply dressed models and crew in layered depth, all with original facial features. Black-and-white high-contrast graphic photography with bold geometric fashion details, playful media satire, intentional documentary bustle. Newly imagined thematic reference, not a copied frame or likeness of Dorothy McGowan. No readable signs, text, title, logos or watermark.",
+      "originalSourceDescription": "室内走廊场景中，约十名男女聚集。前景一名穿格纹衬衫的男子坐着，周围多人站立或蹲坐，左侧有一盏亮着的灯，背景是拱形门洞。",
+      "sourceEvidence": [
+        "https://www.bfi.org.uk/sight-and-sound/features/strike-pose-fashion-film-through-ages",
+        "https://www.bfi.org.uk/sight-and-sound/interviews/sight-sound-interview-william-klein"
+      ],
+      "sourceSHA256": "1571702d0d03df983149899f60dc88fe83a0a55a072cb225615529be059d9d54",
+      "originalURL": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/d03e465520d7958ea8c02428b35301015f968c47/originals/contentref-20261127-batch2/src-1b39cd022556fad3.png",
+      "originalSHA256": "310660bd3bd69f007d26dfb9d770c15845e9d26e09a2a2cdf66c530b5e13200c",
+      "preview": "film-ai/contentref-20261127-batch2/src-1b39cd022556fad3.jpg",
+      "previewSHA256": "54e36cce25d0432072f91559a73114e193c9a814698d758da1f9d58af14fdb3a",
+      "method": "built-in image_gen"
+    },
+    {
+      "wid": "src-1a19fd53a6475dbe",
+      "title": "The Little Hours",
+      "year": 2017,
+      "referenceScene": "虚构年轻修女站在中世纪意大利修道院的木质忏悔格栅旁，另一名修女提篮穿过拱廊。",
+      "referencePrompt": "Use case: stylized-concept. Asset type: one landscape 16:9 original AI content reference image for The Little Hours (2017). Primary request: an invented young adult nun in a simple black-and-white medieval habit stands in profile in a modest Italian convent hallway beside a perforated wooden confessional screen; a distant second nun carries a basket through an archway. Quietly mischievous medieval comedy mood, warm daylight on pale plaster, natural wood and stone, wide ensemble-friendly composition. Create original faces, no resemblance to Aubrey Plaza, Alison Brie or any cast member; newly imagined thematic reference, not a copied film frame. Fully clothed, no erotic framing, no text, title, logo or watermark.",
+      "originalSourceDescription": "一名身着黑白修女服饰的人物侧身站立，面向右侧布满圆孔的金属板，背景为素净的灰白墙壁与左侧模糊的深色家具。",
+      "sourceEvidence": [
+        "https://www.disneyplus.com/browse/entity-6fad16d5-a2f9-4386-8dc7-dc430bd57da7",
+        "https://s3.amazonaws.com/cdn.filmtrackonline.com/mongrelmedia/starcm_vault_root/media%2Fpublicwebassets%2Flittlehourspresskit_%7B45159082-6b39-41b8-82d3-3d52709a84a3%7D.pdf"
+      ],
+      "sourceSHA256": "56d86042a60082ac9e5d4b452b773247d0e971676da5a44f3534f3059fd5fa80",
+      "originalURL": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/d03e465520d7958ea8c02428b35301015f968c47/originals/contentref-20261127-batch2/src-1a19fd53a6475dbe.png",
+      "originalSHA256": "24b2f14f9d4c2ae4d12596cd1d8b67f878114b640cc48f3f193bc367ed84a81a",
+      "preview": "film-ai/contentref-20261127-batch2/src-1a19fd53a6475dbe.jpg",
+      "previewSHA256": "a56db79cd655b84089b4acc413fb37dca49e165302335e6b1029563d201f00e7",
+      "method": "built-in image_gen"
     }
   ]
 }
