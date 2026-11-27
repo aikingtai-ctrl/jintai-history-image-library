@@ -1615,7 +1615,7 @@ let WORKS_VIEW_MODE=(()=>{const u=new URLSearchParams(location.search).get('wvie
 function resolveFilmAiAsset(rel){if(!rel)return'';if(/^https?:/i.test(rel))return rel;return IS_GH_FILM?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/${rel}`:rel;}
 function resolveFilmAiLegacyAsset(rel){return resolveFilmAiAsset(rel);}
 function getFilmAiSrc(wid){
- const batchRepresentative=(window.FILM_AI_IMAGES||{})[wid];if(typeof batchRepresentative==='string'&&batchRepresentative.startsWith('film-ai/firstshot-20261126/'))return resolveFilmAiAsset(batchRepresentative);
+ const batchRepresentative=(window.FILM_AI_IMAGES||{})[wid];if(typeof batchRepresentative==='string'&&(batchRepresentative.startsWith('film-ai/firstshot-20261126/')||batchRepresentative.startsWith('film-ai/contentref-20261127-batch2/')))return resolveFilmAiAsset(batchRepresentative);
   const gallery=(window.FILM_WORK_GALLERIES||{})[wid];
   if(Array.isArray(gallery)&&gallery.length){for(const first of gallery){const src=typeof first==='string'?first:first&&first.src;if(src&&!isKnownBadFilmSource(src))return resolveFilmAiAsset(src);}}
  const rawRepresentative=(window.FILM_AI_IMAGES||FILM_AI_IMAGES||{})[wid],representative=isKnownBadFilmSource(rawRepresentative)?(SAFE_FILM_FALLBACKS[wid]||''):rawRepresentative;
