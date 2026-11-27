@@ -2,7 +2,7 @@
   "fixedScopeWorks": 10141,
   "scopeRevision": "b58616b8990a50aba2766810e46e84ccf7e21c8f",
   "recovered": 31,
-  "generated": 21,
+  "generated": 25,
   "assets": [
     {
       "wid": "src-wd-q105443659",
@@ -1065,6 +1065,31 @@
       "adaptationNote": "首条为通用器材风格模板且缺少可靠画面细节；依用户既有授权采用发行方或电影机构简介创作内容概念，非影片首镜。"
     },
     {
+      "wid": "src-wd-q1401793",
+      "title": "昨日之敵",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1401793.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/12f36aaac399b3d538ffe1c6dc706c036f5d98b0/originals/film-coverage-10141-20261127/src-wd-q1401793.png",
+        "sha256": "1c2e63c0d98a57c0684a465e1df3cd5999b53ad4a87f83125380f5db49ea1ed5",
+        "bytes": 2954740,
+        "width": 1918,
+        "height": 820,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "022d75496c7fd5868a4743ec803225e373da2d83f33582333cb236a76465ec76",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "二战缅甸丛林，疲惫的成年英国巡逻队涉过浅沼泽，远方竹屋被浓密树叶遮挡，黑白宽银幕，表现孤立与行军疲惫。",
+      "actualPrompt": "Create one original black-and-white cinematic photographic content-reference frame of a small exhausted British patrol walking through a Burma jungle swamp during the Second World War. Five fully clothed adult soldiers in period khaki shirts, canvas webbing, rolled sleeves, plain British steel helmets and muddy boots wade slowly through ankle-deep still water. Their rifles are safely slung and not aimed. A tired captain pauses in the foreground looking toward bamboo huts barely visible through dense foliage in the far distance. Layered wet leaves, tree roots, humid mist, dappled gray daylight, tactile mud and damp cloth. Serious restrained mood, fine 1950s monochrome 35mm film grain, eye-level widescreen 2.35:1 composition. No combat, wounded people, blood, prisoners, insignia closeups, readable text, captions, poster, logos or collage. Original fictional adults. AI content concept from a film synopsis, not an authentic frame or verified first shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://catalog.afi.com/Film/53068-YESTERDAYS-ENEMY?cxt=filmography",
+          "basis": "AFI记述二战缅甸疲惫英国巡逻队穿越丛林沼泽并接近村庄；黑白宽银幕格式"
+        }
+      ],
+      "adaptationNote": "首条为通用景别模板，依据AFI剧情开端构思丛林行军场景；不能确认原片首镜，明确非首镜，省略交火和伤亡。"
+    },
+    {
       "wid": "src-wd-q1402384",
       "title": "重复放映",
       "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1402384.jpg",
@@ -1238,6 +1263,31 @@
         }
       ],
       "adaptationNote": "首条无可核验具体首镜；根据AFI内容简介制作全体穿衣成年女性营地情境，明确取消受罚、伤亡和婴儿细节，非影片首镜。"
+    },
+    {
+      "wid": "src-wd-q1435597",
+      "title": "芭芭·雅嘎",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1435597.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/12f36aaac399b3d538ffe1c6dc706c036f5d98b0/originals/film-coverage-10141-20261127/src-wd-q1435597.png",
+        "sha256": "cffc006973f3921fa64546ec9b1049b7286e87886be3dc1b30ff528d313977bc",
+        "bytes": 2239877,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "15add2abe53691d60dee340f6cf9b8dc4971084957b1b208edeb740aa4e9408e",
+      "referenceLabel": "AI改编参考图（非首镜）",
+      "scene": "七十年代摄影工作室，一名完整穿衣的成年女摄影师手持相机，隔着工作桌望向年长神秘女子；暗红布帘与冷窗光构成悬疑氛围。",
+      "actualPrompt": "Create one original cinematic photographic content concept for a 1973 Italian supernatural mystery. An adult woman photographer in her thirties, fully clothed in a buttoned ivory blouse and long dark trousers, stands beside a studio worktable holding a vintage 35mm camera. Across the table an enigmatic older adult woman in a modest black coat and scarf watches quietly. Two separate, clearly readable figures; original fictional faces. A dim photography studio with neutral seamless paper, contact sheets turned face down, a burgundy curtain and cool daylight through a high window. Restrained amber and blue-green 1970s color-film grain, eye-level medium-wide landscape 1.85:1 composition, subtle psychological unease, realistic camera and hands. No nudity, sexual content, violence, threats, text, poster, logos or collage. An adapted AI content-reference scene, not an authentic film frame or verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://watch.troma.com/severin",
+          "basis": "发行平台简介明确摄影师受女巫影响的情节；工作室构图为内容概念推断"
+        }
+      ],
+      "adaptationNote": "首条为通用IMAX器材模板，无可靠首镜。依据官方发行简介作摄影师与神秘女子的内容构思，全部人物成年并完整穿衣，省略裸露及性暴力，明确非首镜。"
     },
     {
       "wid": "src-wd-q1440054",
@@ -1443,6 +1493,56 @@
         }
       ],
       "adaptationNote": "按该作品首条可核对画面描述生成；未证实为影片开场首镜，因此明确标注非首镜。未沿用通用设备风格模板。"
+    },
+    {
+      "wid": "src-wd-q914190",
+      "title": "死者来信",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q914190.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/12f36aaac399b3d538ffe1c6dc706c036f5d98b0/originals/film-coverage-10141-20261127/src-wd-q914190.png",
+        "sha256": "5c1ccf37a2072bf00eb8a326fcf7c375e25f82392055ccf38188366634402678",
+        "bytes": 2248990,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "23ebd2063879eb81097ffbce9f04c1a2833fcd646335d8c65352cb0c9c86be1b",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "灾后地下室内，一名年长成年教授在昏暗桌灯下书写给失踪儿子的信，混凝土墙、书本与简易床铺呈现孤立与希望。",
+      "actualPrompt": "Create one original cinematic photographic content-reference scene of an elderly adult professor writing a letter in a quiet underground shelter after an unseen catastrophe. He wears a fully buttoned worn wool jacket and scarf, seated at a rough wooden table with a simple pencil and blank paper, shoulders bent in thought. One small shaded desk lamp softly illuminates his lined face, hands and a few old books. Damp concrete walls, exposed pipes and a neatly folded blanket on an empty iron cot recede into shadow. Desaturated ochre-sepia palette with deep smoky gray shadows, subtle 1980s analog-film texture, eye-level wide 1.85:1 composition, somber human dignity and fragile hope. No legible writing, no destroyed bodies, injuries, explosions, weapons, children, nudity, lettering, captions, logos, poster or collage. Original fictional adult, no actor likeness. This is an AI content-reference concept, not a genuine film still or verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://start.ru/watch/pisma-mertvogo-cheloveka",
+          "basis": "官方发行简介明确核灾后地下室避难、年长教授Larsen给失踪儿子写信；本画面为内容概念推断"
+        }
+      ],
+      "adaptationNote": "首条为通用探针微距模板，无首镜依据。按官方发行简介中教授避难并写信的内容构思，明确非首镜。"
+    },
+    {
+      "wid": "src-wd-q914994",
+      "title": "給爸爸的信",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q914994.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/12f36aaac399b3d538ffe1c6dc706c036f5d98b0/originals/film-coverage-10141-20261127/src-wd-q914994.png",
+        "sha256": "5dd2581f754d74797e408262881e0085086a560c7d83bb146f5ea0862ffafc08",
+        "bytes": 2440456,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "f74ff156ff260be08b260848b09eaf305fc9a10ed81c2dfa895d172949a29b58",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "九十年代香港雨夜，一名便衣成年男子站在旧公寓窗边看一封折叠家信，窗外潮湿街灯与霓虹散景，表现卧底身份与家庭牵挂。",
+      "actualPrompt": "Create one original cinematic photographic content-reference scene evoking a 1995 Hong Kong undercover family thriller. A fully clothed adult Chinese plainclothes man in his late thirties, with an original fictional face, short practical hair, a plain dark cotton jacket and pale shirt, stands quietly beside the window of a modest older Hong Kong apartment. He looks down at a folded blank family letter held naturally in both hands. Rain streaks the glass; outside, indistinct amber streetlamps and teal neon reflections blur across a dense urban night. A small wooden table and an unlit ordinary telephone sit behind him. Emotional restraint, concern for absent family, natural skin and fabric detail, subtle 1990s color-film grain, side-lit medium-wide 1.85:1 frame. No readable writing or signs, no recognizable actors, no weapons, fighting, injuries, children, captions, logos, poster or collage. An AI content-reference concept based on a synopsis, not an authentic movie frame or verified first shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://www.acmi.net.au/works/90410/",
+          "basis": "ACMI确认1995年元奎作品，内地警员潜入香港犯罪组织并隐瞒家人身份；读信场景为概念推断"
+        }
+      ],
+      "adaptationNote": "首条为错误的日本沙粒微距模板。根据ACMI馆藏简介的内地卧底与香港行动及家庭牵挂作内容概念；窗边读信为推断构图，明确非首镜，未采用儿童打斗。"
     }
   ]
 }
