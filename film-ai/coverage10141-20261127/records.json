@@ -2,7 +2,7 @@
   "fixedScopeWorks": 10141,
   "scopeRevision": "b58616b8990a50aba2766810e46e84ccf7e21c8f",
   "recovered": 22,
-  "generated": 2,
+  "generated": 6,
   "assets": [
     {
       "wid": "src-wd-q105443659",
@@ -26,11 +26,12 @@
         "bytes": 1794855,
         "sha256": "5dc4c577184cdd5f9ecbbbc9d67974e9b39d3051361bd8566ceaea99e02f9fae"
       },
-      "jpgSHA256": "53af55dd88713da4acc0554fec610ab399fbeca28ca0a2eb962a189db5eac14f",
+      "jpgSHA256": "f64f2da89d30dd3f2a00f511248bba54f5947e77d80a8c806af8060d0067369d",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "黑白影像，室内场景，一名短发男子身穿浅色连帽厚外套，内搭深色衣物，坐在深色皮质沙发上，双手持书低头阅读。沙发上有花纹靠垫。前景是一张深色玻璃面茶几，上面叠放着几本书。右侧背景是一扇浅色木门，墙面有横向装饰线条。地板为深色木质。整体光线柔和，人物位于画面左侧偏中，环境安静整洁。"
+      "scene": "黑白影像，室内场景，一名短发男子身穿浅色连帽厚外套，内搭深色衣物，坐在深色皮质沙发上，双手持书低头阅读。沙发上有花纹靠垫。前景是一张深色玻璃面茶几，上面叠放着几本书。右侧背景是一扇浅色木门，墙面有横向装饰线条。地板为深色木质。整体光线柔和，人物位于画面左侧偏中，环境安静整洁。",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q117341032",
@@ -54,11 +55,12 @@
         "bytes": 1686701,
         "sha256": "7e350cb298074038ae903cecf407a437b1ae1221a3411e67da7308a999c4b295"
       },
-      "jpgSHA256": "ef3ca7bc3aaa73c8c998fcf8707d7fdb68430a326263bd02003786676104e7ab",
+      "jpgSHA256": "1e76825df936df9f94ca81591ef74b7650c367ea5a67fe5053e58624b655c521",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "昏暗冷调的静物特写，粗糙纹理的深色台面上散落着几把金属钥匙、一个深色扁平物件和一个黑色遥控器。画面采用低角度近摄，景深极浅，焦点集中在前景的钥匙与遥控器上，背景完全虚化。整体光线昏暗，呈现冷蓝色调，物体表面有微弱反光，营造出一种压抑、静谧的视觉氛围。"
+      "scene": "昏暗冷调的静物特写，粗糙纹理的深色台面上散落着几把金属钥匙、一个深色扁平物件和一个黑色遥控器。画面采用低角度近摄，景深极浅，焦点集中在前景的钥匙与遥控器上，背景完全虚化。整体光线昏暗，呈现冷蓝色调，物体表面有微弱反光，营造出一种压抑、静谧的视觉氛围。",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q3567621",
@@ -82,11 +84,12 @@
         "bytes": 1684066,
         "sha256": "2557508875bb61dc52d7278b0b82c51ca6157417b8a25d654211fd9a75ff5a4f"
       },
-      "jpgSHA256": "477a7f058db7a247aa3f2bdd3a0f255c7c030451ef171390a79d48b6e534e025",
+      "jpgSHA256": "652ccee0b613b68f4ec7e31d06368f92e79667e574c0fbfb3c16f4d46a0c254c",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q55564530",
@@ -110,11 +113,12 @@
         "bytes": 2302672,
         "sha256": "c061ebe2bd99f0cb3a04a8d924db656a177d6e79d8bbe160919e893994cacc46"
       },
-      "jpgSHA256": "2e3322e69367467ecca96de817082d410fa9a268c8db650c7c189f9d57d8dba9",
+      "jpgSHA256": "7ceb304d76ef7bf497739bc4fcee7050f2af421c41169653389be8e699d9a6ac",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q64148",
@@ -138,11 +142,12 @@
         "bytes": 2040760,
         "sha256": "53ae079e138bfc5df6eba48a71cbed633c7ebf58a20a3f74a858e3d77c3098b4"
       },
-      "jpgSHA256": "dcd137468e5cced4f01de0e14ad389e5ec83461136b85ecd353101061d350cda",
+      "jpgSHA256": "127d83b11f6f6a915bacc35208b375636d98767c128faf6d2034bc3f8a671547",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "一名金发女性面部占据画面主体，额头至鼻梁处有红色液体流下，双眼圆睁，背景为模糊的灰绿色门框结构。"
+      "scene": "一名金发女性面部占据画面主体，额头至鼻梁处有红色液体流下，双眼圆睁，背景为模糊的灰绿色门框结构。",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q885894",
@@ -166,11 +171,12 @@
         "bytes": 1829813,
         "sha256": "a62a3a0d00c7c364702ec6b360493abeadac86b4026895e0b38369516ecd0847"
       },
-      "jpgSHA256": "188d3ac201ca9c622119430c468b8e36fec8d3eccb8942b08a17e6c2d99d40ca",
+      "jpgSHA256": "e591acfdc214d9e98362784d15fc8010f273df8088b1f01f3a3500ca307a2282",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "昏暗室内，两名戴帽人物站立，一人抬手触碰右侧金属门板，另一人双手抬起，地面弥漫浓重烟雾，背景有明亮窗户。"
+      "scene": "昏暗室内，两名戴帽人物站立，一人抬手触碰右侧金属门板，另一人双手抬起，地面弥漫浓重烟雾，背景有明亮窗户。",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q100701374",
@@ -194,11 +200,12 @@
         "bytes": 2994715,
         "sha256": "ee3550242adb117e81c206faf9d6f5f43707ae76e5c2506a83ecc599ff7b3df6"
       },
-      "jpgSHA256": "ea64a6264c258d6c92d2f04b265041a02786b1f3ca09e257f7aae2ea8681fd98",
+      "jpgSHA256": "c5386fff93d23c09e16262785331086d3861afbbe03a9f3175b32e965660a9c2",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "这是一张写实风格的静帧画面，展示了一栋位于荒野中的废弃红砖二层楼房。建筑外观破败，深灰色的屋顶有破损痕迹，烟囱耸立，多个窗户玻璃缺失，露出黑洞洞的内部。房屋左侧和前方被茂密的绿色与枯黄色树木、灌木丛遮挡，植被显得杂乱无章。前景是一片平坦的草地，散落着些许杂物。天空布满厚重的云层，光线柔和而阴郁，整体色彩偏向低饱和度的冷色调，营造出一种荒凉、陈旧且略带压抑的视觉感受。"
+      "scene": "这是一张写实风格的静帧画面，展示了一栋位于荒野中的废弃红砖二层楼房。建筑外观破败，深灰色的屋顶有破损痕迹，烟囱耸立，多个窗户玻璃缺失，露出黑洞洞的内部。房屋左侧和前方被茂密的绿色与枯黄色树木、灌木丛遮挡，植被显得杂乱无章。前景是一片平坦的草地，散落着些许杂物。天空布满厚重的云层，光线柔和而阴郁，整体色彩偏向低饱和度的冷色调，营造出一种荒凉、陈旧且略带压抑的视觉感受。",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q482626",
@@ -222,11 +229,12 @@
         "bytes": 2125841,
         "sha256": "31eade0e76afc44c5a1362ad1e649ed61a97c2f833b6385dbd9129407465520d"
       },
-      "jpgSHA256": "4a16516d3c78e7a45439696caa942d89c9700abecb4ff5932a31da488294e71c",
+      "jpgSHA256": "82b79fdafae9ba3ea968fa76e30f1a3149cb49278394bf22d2ec3f59ec57059b",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q63226470",
@@ -250,11 +258,12 @@
         "bytes": 2661245,
         "sha256": "7a867f767a1ab11d585d95b516085d2c86d8f3a7ead929ce8e4355386b4242e5"
       },
-      "jpgSHA256": "8a40aa902039494794a87c434c7ac853d6ea14e839ab43f5de851566e78a40ec",
+      "jpgSHA256": "f21229c48413c3431edbca2aa8b1806b9559c6d1eff5152566bc219358f984d1",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q64211112",
@@ -278,11 +287,12 @@
         "bytes": 2988670,
         "sha256": "4247efd95928adca97caebf55f432fa8223e5c38428e8c0c1d0c2aeacf870b50"
       },
-      "jpgSHA256": "db876fd72656ad42e7445daf0c226abd86cbdfbd0b5830a981da7b65f916b592",
+      "jpgSHA256": "675d287d95abbc5a2138026e8f7064e2a87a67cdb08ba333090b436a8dece9da",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "这是一幅写实风格的城市灾难场景。画面中心是一只巨大的绿色怪物，它拥有多条带有吸盘的触手和红色的眼睛，正用触手缠绕并掀翻一辆白色的公交车。前景中央站着一名身穿深红色斗篷的人物，背对镜头，双手举起，似乎在操控或阻挡怪物。街道两侧是典型的纽约风格砖墙建筑，挂有“Mancini's Pizzeria”等招牌。右侧停着一辆黄色出租车，左侧有一辆银色轿车。街道地面散落着落叶，天空阴沉，光线柔和，整体色调偏向冷灰与怪物的鲜艳色彩形成对比。"
+      "scene": "这是一幅写实风格的城市灾难场景。画面中心是一只巨大的绿色怪物，它拥有多条带有吸盘的触手和红色的眼睛，正用触手缠绕并掀翻一辆白色的公交车。前景中央站着一名身穿深红色斗篷的人物，背对镜头，双手举起，似乎在操控或阻挡怪物。街道两侧是典型的纽约风格砖墙建筑，挂有“Mancini's Pizzeria”等招牌。右侧停着一辆黄色出租车，左侧有一辆银色轿车。街道地面散落着落叶，天空阴沉，光线柔和，整体色调偏向冷灰与怪物的鲜艳色彩形成对比。",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q65091224",
@@ -306,11 +316,12 @@
         "bytes": 3216965,
         "sha256": "44a15db1ccc27f8300fec37e4d0c5eef57fc840c9f138bb86fb878178e0f161a"
       },
-      "jpgSHA256": "ed6eef024d2fca2f4e26421d4bb4aa05119f9fd22ef7f580630663e62b33d724",
+      "jpgSHA256": "e4826d59e06adbbc10ae9d42e29e5070fa65bb802b2bd881efbc57053a11f72b",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q115776037",
@@ -334,11 +345,12 @@
         "bytes": 2083203,
         "sha256": "02fd00559c92d33e3f7a9be72894ef8381db050f3799477b8e9dfa2a88d56238"
       },
-      "jpgSHA256": "6998c7b19be64ab58062413eb70f67ef1e5993348350a651a83b6a31e2070f08",
+      "jpgSHA256": "0da4ddfc23495a59067e04f95d86e48b2060b5ef7d8ed6027ab08eef3576c12d",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "一位光头年长男性，面部有皱纹，身穿金色花纹长袍，内搭浅色衣物，双手抬起张开，手指伸展。人物位于画面中央，背景是深紫色带有几何花纹的墙壁，左侧有模糊的暖黄色光点。光线从左侧照射，在人物面部和手部形成明暗对比，整体色调偏暖黄与深紫。人物表情严肃，目光直视前方。"
+      "scene": "一位光头年长男性，面部有皱纹，身穿金色花纹长袍，内搭浅色衣物，双手抬起张开，手指伸展。人物位于画面中央，背景是深紫色带有几何花纹的墙壁，左侧有模糊的暖黄色光点。光线从左侧照射，在人物面部和手部形成明暗对比，整体色调偏暖黄与深紫。人物表情严肃，目光直视前方。",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q3212104",
@@ -362,11 +374,12 @@
         "bytes": 2123507,
         "sha256": "02d968b5ffa0d2429d1fc54b42903e45cf8e45d75cd4bbd807d016132ee683f9"
       },
-      "jpgSHA256": "ba373003b2e9d316c93ff90bc58859b494cfd8af76573bf9536b180579f9cfbe",
+      "jpgSHA256": "04877325df2e988bd00acbbbcfc4154e9260c185b1227e2579c481adf3e49c38",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q430521",
@@ -390,11 +403,12 @@
         "bytes": 2007319,
         "sha256": "ee19f493546a324a7602d96e294152647b116e61578d9f973661df9e0aff7f6c"
       },
-      "jpgSHA256": "b38cfcc1a0752d10785de0ceb086012c28f7b68b976a2d6960addd97554ea78d",
+      "jpgSHA256": "b664f68b684f34035c109eec56adde4a6686dcdae7d8374533a7285cac129854",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q4659647",
@@ -418,11 +432,12 @@
         "bytes": 2490869,
         "sha256": "e2ce1166b4cd7e6f98c196a98e263a41d0bc6a96644877d8fa76b89b40d48f23"
       },
-      "jpgSHA256": "31613a34086664d1c620741accaff7ef612be2a9525f564ae3801ae9f511fd71",
+      "jpgSHA256": "b3d891c7c0736701d14bee8d43cf9db5b046394182d88d2162d79eb3c564540d",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q46997940",
@@ -446,11 +461,12 @@
         "bytes": 1661622,
         "sha256": "2288b0f3142ccdff3f6be179e7ec0ac32c6e3de5a17d7ac0fce0aba953ff77d8"
       },
-      "jpgSHA256": "ede3553796bd0ab7cdce3cf6f8292eb815975aca34b23476651ec0a5be17bc39",
+      "jpgSHA256": "119da0b61eb221d453f680306deb7a5cd2ae6f6b55525b3a0f1192d9e468a61c",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q114876189",
@@ -474,11 +490,12 @@
         "bytes": 1788110,
         "sha256": "0dc805db1a024f68dd6f1e3a768ea76b2f21ccf4ae526d0c2d2b900714293816"
       },
-      "jpgSHA256": "01b3ebc4b56e5372de0f6c92f0fdfa2e6037f86a81e526c29574b645fcc9dbbf",
+      "jpgSHA256": "1df05e6a024345f0550f59fb7040a87f135388834d6ae8ac193f8eaf23c8a22a",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "昏暗的现代豪华客厅内，一名身穿黑白拼接T恤的男子正俯身压在一名身穿紫红色套装的女子身上，女子坐在白色沙发边缘，两人面部贴近。背景左侧是带有暖黄色台灯的白色吧台和装饰架，右侧是巨大的落地玻璃窗，窗外可见深蓝色的夜色和模糊的棕榈树影。室内光线昏暗，主要光源来自背景台灯的暖光，人物主体处于较暗的阴影中，营造出私密且充满张力的氛围。"
+      "scene": "昏暗的现代豪华客厅内，一名身穿黑白拼接T恤的男子正俯身压在一名身穿紫红色套装的女子身上，女子坐在白色沙发边缘，两人面部贴近。背景左侧是带有暖黄色台灯的白色吧台和装饰架，右侧是巨大的落地玻璃窗，窗外可见深蓝色的夜色和模糊的棕榈树影。室内光线昏暗，主要光源来自背景台灯的暖光，人物主体处于较暗的阴影中，营造出私密且充满张力的氛围。",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q1686012",
@@ -502,11 +519,12 @@
         "bytes": 2189401,
         "sha256": "784aea93f2f7c4a992d9ab915de0f064b1c702fb5fb6ee5ff723e6c50e0efde9"
       },
-      "jpgSHA256": "26b42caff026b4a6c8e32c9e94a90151113ee823c7a8f34b982b4474ac6f26d0",
+      "jpgSHA256": "8cdfad77aee7d46918345aa0ed15a7f9f7f1f7e983cfc8cf305000694df8e650",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q488947",
@@ -530,11 +548,12 @@
         "bytes": 2382269,
         "sha256": "bfb903f025c476d1966e36e9bf47bb4c3c34ec6f44cee794b09defb666dc7c10"
       },
-      "jpgSHA256": "bcef2b0792f312caae476300e92d6d0c147f3f7d991f761c09b837d93ac20ad6",
+      "jpgSHA256": "1f86d6b8a50f087e8168c7ce0bd8399deb60d634721a36737703153899342c5f",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "一名戴皮帽的男子双手持枪高举，身穿厚棉服，背景是木质墙壁、彩色玻璃窗和水晶吊灯。"
+      "scene": "一名戴皮帽的男子双手持枪高举，身穿厚棉服，背景是木质墙壁、彩色玻璃窗和水晶吊灯。",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-wd-q497027",
@@ -558,11 +577,12 @@
         "bytes": 1870468,
         "sha256": "95f2ad98e76357673e27ab1f0a5451b3762a6406bb712c34325d0a7a7eaee87f"
       },
-      "jpgSHA256": "87fde3e4f1b43f5213f39ace5f0d1298be7f6d5010a8b7a1cbdade8983158b6a",
+      "jpgSHA256": "64bd1c5120c85bc5c78afefb302e1b23c0af4427d74c8989103479f04c570584",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "双手持握一个银色相框，框内是女性肖像照片，玻璃表面反射出持框者的面部轮廓，背景为深色模糊环境。"
+      "scene": "双手持握一个银色相框，框内是女性肖像照片，玻璃表面反射出持框者的面部轮廓，背景为深色模糊环境。",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-4192014104b84068",
@@ -592,11 +612,12 @@
         "bytes": 2074456,
         "sha256": "56500af0ead290b90bf4a6c5b2a682aac4e5244b470f157c6ee3203c0243133e"
       },
-      "jpgSHA256": "0be1b98aaa35202d1c4dd6c277f796841887bd39baee9c7cbaf4acc475c346b4",
+      "jpgSHA256": "0ccde637b1914de671c98e917c0e1307bdeaf4f3afa9984d189540be9f0c9d9c",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "俯瞰连绵山丘的阳光露台上，身穿白色衬衫的中年男子倚靠着铁艺栏杆，左手握着手机正在专注通话"
+      "scene": "俯瞰连绵山丘的阳光露台上，身穿白色衬衫的中年男子倚靠着铁艺栏杆，左手握着手机正在专注通话",
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-6c87053eebd79e7c",
@@ -626,11 +647,38 @@
         "bytes": 2039677,
         "sha256": "e477e680f0d6c98aeaabf220aa433bcfee34fe11a8fd541def8b6b541ca8b7ab"
       },
-      "jpgSHA256": "61fa9bd933cc0c8ecf0153531b286541a26bf6184d25232ff66e54e3afe2edc0",
+      "jpgSHA256": "a4f40aad101a0d45a09bb5f743f02068254799080799fc961a1269eb9c0c0d00",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
-      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "src-wd-q109510942",
+      "title": "马洛",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q109510942.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/601bfbdb4cc0b4dae150c4d49f664db825700a46/originals/film-coverage-10141-20261127/src-wd-q109510942.png",
+        "sha256": "3cd29410f95c236321c11db994e6c6911d050522e42129c87faaf169fdc76570",
+        "bytes": 2361422,
+        "width": 1939,
+        "height": 811,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "ee50582c44ae8023a9b546c478f41ca32f4228a2e03f32842a5bb302cd81943a",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "一九三九年洛杉矶复古私家侦探办公室之内，头戴高顶深灰软呢帽、身穿深褐粗呢三件套西装系暗酒红领带的马洛（连姆·尼森）居中垂首沉思，窗外强烈斜射昼光透过多扇大百叶窗在其皱纹密布的面庞、肩头以及背后悬挂的镜框军官肖像与米白木护墙板上切割出经典黑色电影高反差平行明暗斜光条纹，左侧护墙板挂着一盏粉白灯罩黄铜壁灯与复古台灯罩",
+      "actualPrompt": "Create one original cinematic photographic reference frame, wide 2.39:1. A private detective office in late-1930s Los Angeles, warm faded cream plaster walls, wood paneling, black window-blind frames, a small warm brass wall sconce and a pleated shade desk lamp at lower left. An older adult male detective wearing a gray felt fedora, brown textured wool three-piece suit, white shirt and dark burgundy tie stands center-right, head slightly lowered in weary thought. Strong afternoon sunlight passes through Venetian blinds, throwing crisp diagonal bands of light and shadow across his hat, face, jacket, wall and framed portrait. Medium close eye-level composition, earthy brown and muted amber palette, rich dark shadows, film-like grain and natural facial texture, intimate neo-noir realism. Single coherent image, fully clothed, no weapons, no words, no poster, no collage, no logos. AI interpretation based on a reference description, not a genuine movie still.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://film-grab.com/2026/11/06/marlowe/",
+          "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Marlowe_13.jpg",
+          "sourceShotId": "YS-20261125W1-2300-src-wd-q109510942-69"
+        }
+      ],
+      "adaptationNote": "按该作品首条可核对画面描述生成；未证实为影片开场首镜，因此明确标注非首镜。未沿用通用设备风格模板。"
     },
     {
       "wid": "src-wd-q16028796",
@@ -659,6 +707,58 @@
       "adaptationNote": "原首条画面文字称旧街工坊，与所附 FilmGrab 图片不符；改按该来源可见的林地、吊床、木梯和成年人物生成。该图不是已核实的原片首镜。"
     },
     {
+      "wid": "src-wd-q1661151",
+      "title": "生生长流",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1661151.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/601bfbdb4cc0b4dae150c4d49f664db825700a46/originals/film-coverage-10141-20261127/src-wd-q1661151.png",
+        "sha256": "da3beb7c5af3973c46d459eb2360e222851475ef5a7a18a55c4cdb25565d98f6",
+        "bytes": 2984923,
+        "width": 1615,
+        "height": 974,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "f396e1a06340304514fa034090fb7a56b201d807629ef0815e69dd7188beb225",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "经历大地震后瓦砾半敞的伊朗北部山村路边杂货铺正面中全景之中，额头贴着大片白色医疗纱布的深衣老人居中站在破损木屋正中双手各握一把粗糙高粱扫帚平静直望镜头，右侧薄荷绿铁栅窗洞与屋檐空隙外露出晴朗青翠连绵山峦，前景木箱地面堆满整框大蒜头、橘红包装零食袋、膨胀大麻袋、彩色塑料桶以及铺在桌上带有传统暗红几何纹样的大地毯",
+      "actualPrompt": "Create one original cinematic photographic reference frame, aspect about 1.66:1, poetic Iranian neorealist 1990s color 35mm film texture. Eye-level medium-wide frontal view of a small roadside village shop damaged by an earthquake in northern Iran. An elderly adult shopkeeper in a worn dark brown jacket, a clean white gauze bandage on his forehead, stands in the open doorway, holding two rustic straw brooms, looking calmly outward. The rough plaster walls are partly broken; a large open mint-green barred door is at the right. Sunlit green mountains appear behind him through the broken building. Foreground is crowded with garlic bulbs in wooden crates, bright orange unlabeled snack packets, burlap sacks, metal bowls, woven baskets and an earth-toned geometric patterned cloth over the shop table. Warm natural daylight, soft shadows, resilient everyday human dignity, tactile weathered wood and masonry, subtle film grain, gentle muted green and ocher colors. No injury detail, no rubble victims, no text, no captions, no brand names, no poster or collage. Original AI interpretation of the described reference scene, not a genuine film frame.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://film-grab.com/2025/11/25/life-and-nothing-more/",
+          "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Life_and_Nothing_More_10.jpg",
+          "sourceShotId": "YS-20261125W1-2300-src-wd-q1661151-69"
+        }
+      ],
+      "adaptationNote": "按该作品首条可核对画面描述生成；未证实为影片开场首镜，因此明确标注非首镜。未沿用通用设备风格模板。"
+    },
+    {
+      "wid": "src-wd-q21877685",
+      "title": "侏羅紀世界：殞落國度",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q21877685.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/601bfbdb4cc0b4dae150c4d49f664db825700a46/originals/film-coverage-10141-20261127/src-wd-q21877685.png",
+        "sha256": "eedd55c66fd8736eb34b6c3f1507e5fe41c455138755835a5ced346eb75a3dae",
+        "bytes": 2017129,
+        "width": 1939,
+        "height": 811,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "4b85146eb43e5b5dbeddff407d5a6f33ecb7d2208057fa16440409c176ef6707",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "深红吊灯悬垂暗色调装饰复古美式餐馆木隔间长椅之中，穿着西装格衬衫男子与红发女友克莱尔面对面悄声急切倾谈，壁挂发光长条红橙霓虹管同右后远窗刺眼白昼街光交织出浓郁复古警觉暗流",
+      "actualPrompt": "A single original cinematic photographic reference frame, a wide 2.39:1 interior of a retro American diner in subdued dark brown and deep red. Eye-level medium-wide diagonal view down an aisle. At the near booth on the left, an adult man in a subdued casual checked shirt sits with his back partly toward the camera, facing a red-haired adult woman in a pale blouse. They lean toward each other in a quiet intense conversation across a small table. Empty foreground booths and a metal-backed red vinyl chair on the right. Three scarlet pendant lights and vertical orange-red wall light strips glow over dark wood panels, round wall mirrors and stamped metal ceiling tiles. Large bright frosted daylight window in the far background, a few background adult diners in soft shadow. Rich warm low-key interiors contrasted with cool white daylight, cinematic depth and realistic skin texture, carefully composed natural photography. No dinosaurs, no poster, no collage, no captions, no logos, no lettering. AI scene interpretation, not an authentic movie still.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://film-grab.com/2021/04/05/jurassic-world-fallen-kingdom/",
+          "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Jurassic_World_2_012.jpg",
+          "sourceShotId": "YS-20261125-2300-src-wd-q21877685-69"
+        }
+      ],
+      "adaptationNote": "按该作品首条可核对画面描述生成；未证实为影片开场首镜，因此明确标注非首镜。未沿用通用设备风格模板。"
+    },
+    {
       "wid": "src-wd-q26769930",
       "title": "再一次体悟",
       "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q26769930.jpg",
@@ -683,6 +783,32 @@
         }
       ],
       "adaptationNote": "保留首条可见画面的录音棚、长发浓须音乐人、合成器和圆形柔光灯构图；原描述将人物标作尼克·凯夫，身份不可靠，因此不使用该人名。本图非已核实的原片首镜。"
+    },
+    {
+      "wid": "src-wd-q85801170",
+      "title": "最後一個平安夜",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q85801170.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/601bfbdb4cc0b4dae150c4d49f664db825700a46/originals/film-coverage-10141-20261127/src-wd-q85801170.png",
+        "sha256": "9142400476daeda35d485a6c2f35612b68d9c3435e741a543e5d2ed67d63dc5b",
+        "bytes": 2583878,
+        "width": 1939,
+        "height": 811,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "53676a073b6e8b53df0beb14fd84b7c724ae89ed106d8842dddfb689e88973d3",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "古典红砖英式豪宅后院白漆庭院桌椅旁，穿着深褐驯鹿圣诞针织套头衫、卡其长裤与红袜的男人（马修·古迪）孤身跷坐白色木靠椅上，双掌捧着暖意微升的白瓷马克杯静望右前空处，一排节庆金暖砖墙沉默守候",
+      "actualPrompt": "A single original cinematic photographic reference frame in wide 2.39:1 composition. Quiet English red-brick country-house terrace on an overcast winter morning, pale blue-green window frames and low potted shrubs. An adult man with short dark hair and a thoughtful slightly strained expression sits relaxed in a white-painted wooden garden armchair at center-left, one leg resting over the other, holding a white ceramic mug. He wears a dark brown knitted Christmas sweater with a reindeer pattern, pale khaki trousers, red socks and plain dark shoes. A second empty white wooden chair stands at his right, with a little white garden table nearby; terracotta paving in foreground. Soft muted daylight, tactile brick and wool, gently desaturated warm earthy tones, calm lonely black-comedy atmosphere, realistic photographic detail. No visible words, no captions, no poster, no collage, no logos. AI interpretation of a described reference scene; not an authentic film opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://film-grab.com/2023/12/26/silent-night/",
+          "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Silent_Night_12.jpg",
+          "sourceShotId": "YS-20261125-2300-src-wd-q85801170-37"
+        }
+      ],
+      "adaptationNote": "按该作品首条可核对画面描述生成；未证实为影片开场首镜，因此明确标注非首镜。未沿用通用设备风格模板。"
     }
   ]
 }
