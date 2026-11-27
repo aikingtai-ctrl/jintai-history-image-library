@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-28T01:21:56.135467+08:00",
+  "updated_at": "2026-11-28T02:41:44.602855+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -4601,6 +4601,195 @@
       "sha256": "9c9a55533c06ced972d4346d2339299302536c156462227cd5fde06dc43ca8ec",
       "reason": "纯游泳池水面没有任何人物、行为或可定位此片的空间特征。",
       "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-792be7e02de57353",
+      "src": "film-ai/src-792be7e02de57353.jpg",
+      "sha256": "31fe6cfec8823a676b43b9f0657f57b2f0939dace14a0fda28e999f54b79e07e",
+      "reason": "只有红色魔法树林与远处人影，未见可确认的 Skye、怪物或片目中的具体事件。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7b3431f0fd04cc29",
+      "src": "film-ai/src-7b3431f0fd04cc29.jpg",
+      "sha256": "e384486735ef7f046f27d3fe4959f74ee36651d42fed37336d8f4794e99c1226",
+      "reason": "室内男子与女子交谈没有儿子、球队或可核的人物关系；不能仅因家庭厨房认定是本片。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7b9b3cc1193ee86a",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-7b9b3cc1193ee86a.webp",
+      "sha256": "deef5f0372bf29bdf5c5a7a037d5970deeb6e80b39a7a9d58e08c07dbe07f795",
+      "reason": "空无人物的豪宅夜景可泛指富豪住处，却无 Chris、Sky、操纵或袭击的事件锚点。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7b9b3cc1193ee86a",
+      "src": "film-ai/src-7b9b3cc1193ee86a.jpg",
+      "sha256": "951cf83b0dd9c7fd1427cc143e44d15fbcc563d3fdeff102e0cdab25d7663d20",
+      "reason": "戴眼镜男子独坐电脑前，无法确认是 Chris，也未见 Sky 或故事中的危险关系。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7ce21396665fdee8",
+      "src": "film-ai/src-7ce21396665fdee8.jpg",
+      "sha256": "e3ef7635cb4cc58588184500614e1774f97ad418c895a201cc25a0203c1f0c01",
+      "reason": "书房中独坐老年男子无法由 Swiss Films 四名青年说唱片目识别身份，缺矿镇及音乐工作室关联。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7ce55cd171d761b6",
+      "src": "film-ai/src-7ce55cd171d761b6.jpg",
+      "sha256": "389a2c952d3b117ac276c4177bf70650fdfeb19d030f84cf30e6b946cfc061b7",
+      "reason": "列车中的白人女性与黑人男性虽与配角阵容不矛盾，当前仍缺表兄弟或可核的配角身份/事件。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7d013c65b47758b7",
+      "src": "film-ai/goal9438/src-7d013c65b47758b7.jpg",
+      "sha256": "3f2917fab732da1f22086178242d7b27336943ac0c7f5076a84fdd0125350bc5",
+      "reason": "仍是同一紫禁城主殿前超远景，仅改变视角与日照、人物更小；没有第二叙事事件。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7d52e8be774a2d8d",
+      "src": "film-ai/src-7d52e8be774a2d8d.jpg",
+      "sha256": "b9c316ded32d9c8f4604cd5488b7bb4f7f80bf53943a111cb337b39687825b15",
+      "reason": "独立的木牌仅写 BUS STOP，既无 Bo/Cherie/巴士，也可能只是一般路标，缺故事锚点。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7d5b63fdf73b1481",
+      "src": "film-ai/src-7d5b63fdf73b1481.jpg",
+      "sha256": "90968653dbce31639747c49f7af1893d87146a9eb9b607723c119352b55c6424",
+      "reason": "少女独自眺望辽阔河谷，缺军营、复制人或 Marti 身份辨识，不能以女主孤独泛义准入。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7d992a9a04220660",
+      "src": "film-ai/src-7d992a9a04220660.jpg",
+      "sha256": "4fbc075fcae33ff9856c4ceacec59a833e30087c2958ca2487e141fc7833a245",
+      "reason": "写实演员与《电锯惊魂》人偶并排对镜头微笑，背后有摄影灯和布景；是片场合影式幕后画面，不是叙事场景。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7da0d963157d624f",
+      "src": "film-ai/src-7da0d963157d624f.jpg",
+      "sha256": "63f4a5fb871799932532031dc15b3868fdc71445826b80efc52f3016ef5fde48",
+      "reason": "写实三维建模牛立于紫色夜林，与官方所述几乎全部传统手绘赛璐璐媒介明显冲突。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7dae3ee360398190",
+      "src": "film-ai/src-7dae3ee360398190.jpg",
+      "sha256": "aecabb81f63cc856d683ef2d20794560e7b386b70bde14571fb3d460de14f910",
+      "reason": "明亮办公楼走廊中的男子与金发女子既无追杀或旅程，也不能确认是 Zack 与空乘；暂缓。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7de681e77581e9c7",
+      "src": "film-ai/src-7de681e77581e9c7.jpg",
+      "sha256": "06240dc4b68c14dfc2e4ca67c3e2ed6c6ef41f1e543ddcb806dfc8617fa7c1ac",
+      "reason": "黑白船上女子与男子的关系无法从发行方剧情确认；黑白本身不是错媒介依据。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7dfadb3783a5c5f9",
+      "src": "film-ai/src-7dfadb3783a5c5f9.jpg",
+      "sha256": "fe043c3eb2dc2c896ca725ae474fb9fb110668660e131f7bfcdb7d71426882a1",
+      "reason": "背包成人独立远眺山谷，既无福利院、婴儿、工作人员，也无调查行动；与本纪录片对象明显错位。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7dfd71816e5e6c10",
+      "src": "film-ai/shots/YS-20261106F4-CL68-src-7dfd71816e5e6c10-006.webp",
+      "sha256": "10282a834c9eb4b7b149a530eec5f82e37c9a7eee332e22268230101d7ad22d0",
+      "reason": "仅有城市河岸小船与陌生男子，缺雇佣兵、被绑架男孩或营救动作；不能凭城市风貌确认达卡。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7dfd71816e5e6c10",
+      "src": "film-ai/src-7dfd71816e5e6c10.jpg",
+      "sha256": "a8f63bfd44c08c47dad7aee25fd2b75f664f40f1959ec472fbf2afcaf9a0706e",
+      "reason": "战斗街区男子扶女子逃离；官方核心营救对象是男孩，女子身份与是否片中队员均未证实。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7e6298f4fa2d61e1",
+      "src": "film-ai/src-7e6298f4fa2d61e1.jpg",
+      "sha256": "e8c0b2f284c86dd5ea2f0bd29b0bb3cb9da9f45674e3ed9488809c634c77c0f9",
+      "reason": "单身女子身处山村木屋，缺可辨认 Diana、David、John 或交易之后的片内情节。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7e74cdaeb647ca23",
+      "src": "film-ai/src-7e74cdaeb647ca23.jpg",
+      "sha256": "e429f51b1f7d5b1d34c9cbee7b1a73260e5ea57cdd3546017aa8cc50cea5bf0d",
+      "reason": "远处小人物骑车越过草原，既无 Wilhelm 可辨身份也无旅伴或明确情节，旅途概念过泛。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7ede20b9011d3756",
+      "src": "film-ai/src-7ede20b9011d3756.jpg",
+      "sha256": "76ba665e33e91bb96ce0af706d55a42f0992a2ef460cc1ba6fcca355ea5f7d1d",
+      "reason": "真人写实小丑抓住老年男子的剧照式画面，与 1993 二维动画媒介明确冲突，疑混入其他真人蝙蝠侠影像。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7efaa8791305f4c3",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-7efaa8791305f4c3.webp",
+      "sha256": "fbff6ae9f53df4cec11fa774ab8e9b9cc5175a900d842ce5474c2bc2ae6b579e",
+      "reason": "背对镜头的风衣男子站在泛化黑色侦探办公室，无法确认 Ned 或特定恶搞事件。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7efaa8791305f4c3",
+      "src": "film-ai/src-7efaa8791305f4c3.jpg",
+      "sha256": "9ed4e1260abf41b51fc49fa62dc272b65b367f31a9009168ace4aa392102283e",
+      "reason": "成人与宠物狗坐看群山日落，与律师兼警探的黑色侦探/情色惊悚恶搞毫无片目关联。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7f9af0d391b3fa9a",
+      "src": "film-ai/src-7f9af0d391b3fa9a.jpg",
+      "sha256": "0fe10e2717f4331de3f1725b796fd65045c5b0f314bac1b8204536b1b20ab6b3",
+      "reason": "黑白风格的双城队球员与少年近景，和 1994 正片彩色媒介不符；缺可证实的片内档案片段依据。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7fa043be7d2f11f9",
+      "src": "film-ai/src-7fa043be7d2f11f9.jpg",
+      "sha256": "ca0d03e92e447842f6bd88594d05619c61daac66ebbde05084b5df19e2cc0e3a",
+      "reason": "男子肖像与电椅强光叠合，更像象征性宣传拼版；未能认出死囚身份或独立剧情瞬间。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7fa2f389fc89d2a7",
+      "src": "film-ai/src-7fa2f389fc89d2a7.jpg",
+      "sha256": "9bc9a36694079f07040fc82623840f90295c746abf07d2c0083c1ee5195db670",
+      "reason": "两名普通大学生置于校园派对，没有尸体、蛞蝓或可核的故事事件，仅校园题材相似。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7fcdb2885946292b",
+      "src": "film-ai/src-7fcdb2885946292b.jpg",
+      "sha256": "2d59a76d3af3e13e9ae21de7707e4b07694c6e88d823473c50a31cb57c90274d",
+      "reason": "农舍内独站年轻女子缺母女关系、时序或可识别家族角色，不能只凭农舍接纳第二张。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-804d105ee5664e4e",
+      "src": "film-ai/src-804d105ee5664e4e.jpg",
+      "sha256": "8202784a049780c65361916bc73ded9c0dc0db6e4c528fe40df8f7e9b9d1956d",
+      "reason": "夜巷倒地者与两名站立男子仅有犯罪暴力的泛义，无法确认 Caine、O-Dog 或具体原片事件。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-808016b339372739",
+      "src": "film-ai/src-808016b339372739.jpg",
+      "sha256": "02a1e11a4598d4f9c80b66740d306adaffd83c35fad86d7f95864aadbf207c6a",
+      "reason": "黑白画面中摄影师与演员正操作大型电影摄影机，明示片场制作而非片中叙事。",
+      "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
