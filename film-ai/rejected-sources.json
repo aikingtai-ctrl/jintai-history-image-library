@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T15:37:15.432581+08:00",
+  "updated_at": "2026-11-27T16:35:32.751273+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -2809,6 +2809,188 @@
       "sha256": "f11561b3f441bfa84524df6085a41aaa2245c0e91d4099afb58603aaf6522c82",
       "reason": "整张只有装饰性‘MONEY IS ALL’字样，无人物、事件或影片场景，属于文字标语/道具孤图而非代表剧照。",
       "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0db6bc5d230de804",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-0db6bc5d230de804.webp",
+      "sha256": "b28169210d5987d1098fb50585e5515fc169a51f26a549eb20f5830ecb9b260b",
+      "reason": "熊玩偶、圣经和被窝只有儿童恐惧主题，未见 Junior 或蔬菜角色，不能锚定这一集。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0dd07438ec980276",
+      "src": "film-ai/src-0dd07438ec980276.jpg",
+      "sha256": "a8de1e6e92f062cf4d7d7a7d7bc216354c3a18ebbe49863b1e80da7be2db9e2c",
+      "reason": "两男子在旧式公寓窗边低语符合时代氛围，但无法对应六条人物线或具体革命事件。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0dd7a7fb9505bb29",
+      "src": "film-ai/src-0dd7a7fb9505bb29.jpg",
+      "sha256": "9649dac2ecacc4c07e3b7948bad689612e80544f436fb46c8cd606058662dc09",
+      "reason": "画面是两名东亚成年人露天合影，既非 Hayley/Jeff 的人物年龄和关系，也无摄影师公寓对峙；与电影节片目矛盾。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0df7391e08f4fbcf",
+      "src": "film-ai/src-0df7391e08f4fbcf.jpg",
+      "sha256": "9cc340a7f5bda2cb350dd26534bcd46ac8b4ccd2d13708be5c17d4ef504f79a6",
+      "reason": "热带旧院落池塘与白鹅缺 Daniel、Miyagi、盆景或比赛线索，也难核为 1984 洛杉矶场景。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0dffb8904d177fa4",
+      "src": "film-ai/shots/YS-20261029-AW13-src-0dffb8904d177fa4-13.webp",
+      "sha256": "f5e4f7926b92e23880ba5dfbb18f370433a8dde804e72ce0f1ba479c887539f9",
+      "reason": "武打男孩、熊猫与猴子占据主图，缺官方主角少女、龙蛋及《Dragonkeeper》的角色设计；又与 02 几乎同图。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0dffb8904d177fa4",
+      "src": "film-ai/src-0dffb8904d177fa4.jpg",
+      "sha256": "8a72aeef5a4eb94216477c1d8ff42cca3c1b71d78bf12ce3aecaebc7430931a0",
+      "reason": "同一武打男孩和熊猫构图的轻度重绘，既不符合西班牙文化部片目，也不能作为第二张不同剧照。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0e312d7a84d1001c",
+      "src": "film-ai/src-0e312d7a84d1001c.jpg",
+      "sha256": "30630dbe2f0e19e38d69b4695ec228090f7422f44b5e2059fc63552ec7abea66",
+      "reason": "独行男子置身毁坏街道仅重复 01 战后废墟语义，且无法辨为片中家庭或邻居；纪录片尤其不宜当作原始纪实帧。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0e4dfc0c8b8e8646",
+      "src": "film-ai/src-0e4dfc0c8b8e8646.jpg",
+      "sha256": "9e6f12dee5a43cbd248c52d3e02c3b62de16bbb7986276b94093f05c0533fdcc",
+      "reason": "圣伯纳犬与幼犬虽合题，黑白全家福样式与影片彩色家庭喜剧媒介有出入，且与 01 同为狗与幼犬群像；缺原帧依据，暂不补第二张。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0e4f8c9b49931031",
+      "src": "film-ai/src-0e4f8c9b49931031.jpg",
+      "sha256": "303bd3449d29ebba4212dbb9143a668155bc75530f43597e3d177442570c0cf4",
+      "reason": "黑白影院大厅三人似可对应宣传活动，也可能是黑白片中片或外片；AFI 确认本片含黑白影像，不能仅按黑白判错，但缺 Gene/Woolsey/MANT! 可核锚点。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0e6ca78d236b043e",
+      "src": "film-ai/src-0e6ca78d236b043e.jpg",
+      "sha256": "1bf2319bfff4c49cb9f73a84f4c9a456c8ec6686e0d21fcde70fcca5de0c6295",
+      "reason": "罩纱女子与海边另一人拥抱可泛指爱情，但无法对应 Erik、Eron 或发行方列出的阵营冲突。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0f378820d1c010ea",
+      "src": "film-ai/src-0f378820d1c010ea.jpg",
+      "sha256": "0178f0e21c5177822e8252a7940d721d5cf5570b375bb4bce108b1e0c4f15eac",
+      "reason": "孤立复古可口可乐广告牌只表达美国小镇年代感，无 Johnny、Missy、僵尸或毕业舞会。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0fc20a758ddb6424",
+      "src": "film-ai/src-0fc20a758ddb6424.jpg",
+      "sha256": "71c9b13f35b8daf181fb94ac261b2087db71c079f42dfbb5908e870f12073f2a",
+      "reason": "卷发金发女子穿 1940 年代式睡衣卧于古典卧室，与 1995 未来数据快递、主角及科幻场景明显不符。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-10b11cc144fe2eb6",
+      "src": "film-ai/src-10b11cc144fe2eb6.jpg",
+      "sha256": "9bf41315599765d32f08b47e2a7467ab372651128759d3059fa1b98637926616",
+      "reason": "持花女子室内肖像缺 Klodi、马赛、行李或任务约会的证据，无法判为同片角色。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-10b135ea14ffd1e4",
+      "src": "film-ai/shots/WORKCONCEPT-20261126-dont-let-the-sun-2025-gpt.webp",
+      "sha256": "6ca98539fbba55f4497322f30e594f397aaa839e8a1bb787d2ff60d945356f96",
+      "reason": "河边餐桌男女交谈只可泛指安慰与疏离，没有 Jonah、Nika、假父女关系的可靠锚点。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-10b135ea14ffd1e4",
+      "src": "film-ai/src-10b135ea14ffd1e4.jpg",
+      "sha256": "af954982e00b6cee1c9386e328195498f1fe94d4e0be6a8dd7997c941dcd62d2",
+      "reason": "多人面向镜头在电影节标识前合影，显然是首映/红毯宣传照片而非影片叙事画面。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-10ec5dfe0e6d4089",
+      "src": "film-ai/src-10ec5dfe0e6d4089.jpg",
+      "sha256": "114e20bf9e77f4b2a63bc755999957ba75da50d7bce88a553c4f9ef9e85948d1",
+      "reason": "小胡子男子室内特写无法核为 Max、Willy 或片中其他角色，且面貌不足以对应 AFI 主演名单。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-110a1bc5cf03371a",
+      "src": "film-ai/src-110a1bc5cf03371a.jpg",
+      "sha256": "688e56d5a7f2e6fe36cc86fd8574e5d84a4f674143ae61ae1b00de97cb60a85d",
+      "reason": "草地上三名青年可能让人联想到 Bart/Dave/Clyde 少年回忆，AFI 确有该段；但人物年龄与年代造型无法核定，也无枪支事件，不能明确拒用或补图。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-11594fdd2d58b3fc",
+      "src": "film-ai/shots/WORKCONCEPT-20261124-mongrel-2024-gpt.webp",
+      "sha256": "bc2a55b8680bfdc91366a4d8ed87f6f515f9ac6942b2802473b79fde44c564ac",
+      "reason": "乡村妇女在老屋厨房备餐虽合台湾偏乡生活，但缺悟姆、看护对象或非法移工线索。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-115c6f0cfdfd18c6",
+      "src": "film-ai/src-115c6f0cfdfd18c6.jpg",
+      "sha256": "6bcf92a04a454cb8d68cd96e18fa712f792ffbc7adb1f5a13307d0fa6158485e",
+      "reason": "草地上两名旧时衣着儿童缺 Barnum、马戏、表演团或可核童年事件，不因年代感补图。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-11de89dfb097c522",
+      "src": "film-ai/src-11de89dfb097c522.jpg",
+      "sha256": "573d106b4a439c835b7e5d9a97eb08a232daec787184f5c551aac21e83a9e94a",
+      "reason": "另一幅单人橙色沙丘远景缺 Paul/Chani 或沙虫锚点，与 01 同为沙丘行走语义，不能充作有新叙事的第二张。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-12360cfad17f9eb6",
+      "src": "film-ai/shots/YS-20261029-AW5-src-12360cfad17f9eb6-03.webp",
+      "sha256": "941edb2e307e798a34b44c881e43c60ab79c44473eb67e1553f8aec85176e456",
+      "reason": "写实矿工与红日黑矿山的宣传海报式合成，与官方动画媒介及 Nick/Mary 巡视和维修故事不合。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-12360cfad17f9eb6",
+      "src": "film-ai/src-12360cfad17f9eb6.jpg",
+      "sha256": "024966fab82c508ef86048e0274a067c0422a4522604d3d4c88f11d597c1c87a",
+      "reason": "仅移动矿工与机械位置的同款海报拼画，既不是官方动画场景，也未提供第二个不同叙事画面。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-125d5316d8074ba5",
+      "src": "film-ai/firstshot-20261126/src-125d5316d8074ba5.jpg",
+      "sha256": "39c784f13437d2e6ca2f3bb52eb6a8bfa7dae719b1be55f06233aabd056a03aa",
+      "reason": "荧光黄绿色树叶剪影是抽象背景，无祖母、孙子或公园寻人行为，且颜色风格不能确认为原片。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-12aec9ebd02f54b5",
+      "src": "film-ai/firstshot-20261126/src-12aec9ebd02f54b5.jpg",
+      "sha256": "fb9e70dbc0df6fc045c4d922a36b766c3ff1d5b45a191ca6663f91725ed12a6e",
+      "reason": "画面为欧洲式石桥、欧式多层建筑与窄轨有轨电车，明显偏离 AFI 详记的洛杉矶 Bunker Hill、Angels Flight 和运钞车场景。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-13158120e38257da",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-13158120e38257da.webp",
+      "sha256": "9778a7868a725237546335c7d9fd5e8e7b95ef10acd24807f8e60fcaa416349e",
+      "reason": "仅有约书亚树旁的空旷公路和远车，虽合片名地理，缺逃犯、女警或警察追逐。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-132e0f5cacb23184",
+      "src": "film-ai/src-132e0f5cacb23184.jpg",
+      "sha256": "0875552520850d7515049063df5e7ef757f0ccd752d52f9dd730c96db0f124e3",
+      "reason": "金发西装男女在昏暗走廊像外片惊悚人物，且缺 Lina 的造型工作或阿根廷归返锚点；官方演员面貌未作逐帧鉴定，暂缓而不武断指认错片。",
+      "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
