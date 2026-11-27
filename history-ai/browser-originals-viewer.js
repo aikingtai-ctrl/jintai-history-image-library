@@ -37,6 +37,12 @@
   const style = document.createElement('style');
   style.textContent = `
     .jt-original-preview{display:block;max-width:100%;max-height:280px;object-fit:contain;border-radius:7px;background:#f7f5f0}
+    /* Browser original open triangle, v1 */
+    .jt-original-frame{position:relative;display:inline-block;max-width:100%;min-width:36px;min-height:36px;line-height:0;background:#f7f5f0;border-radius:7px}
+    .jt-original-frame .jt-original-preview{display:block}
+    .jt-original-open{position:absolute;right:10px;bottom:10px;z-index:2;width:26px;height:26px;display:grid;place-items:center;padding:0;border:0;border-radius:6px;background:rgba(12,25,21,.82);color:#fff;cursor:pointer;text-decoration:none}
+    .jt-original-open::after{content:"";width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:7px solid currentColor;transform:translateX(1px)}
+    .jt-original-open:hover,.jt-original-open:focus-visible{background:rgba(12,25,21,.96)}
     .jt-original-tools{display:flex;gap:10px;align-items:center;flex-wrap:wrap;color:#59645e;font-size:12.5pt}
     .jt-original-tools button,.jt-original-tools a{font:inherit;cursor:pointer;border:1px solid #176148;color:#176148;background:#fff;border-radius:7px;padding:5px 10px;text-decoration:none}
     .jt-original-tools button:hover,.jt-original-tools a:hover{background:#e6f1ec}
@@ -117,6 +123,8 @@
   window.browserOriginalUrl = originalUrl;
 
   function addPreview(container, info, alt) {
+    const frame = document.createElement('div');
+    frame.className = 'jt-original-frame';
     const image = document.createElement('img');
     image.className = 'jt-original-preview';
     image.loading = 'lazy';
@@ -124,7 +132,8 @@
     image.onerror = () => { image.hidden = true; };
     previewUrl(info).then(url => { if (url) image.src = url; else image.hidden = true; })
       .catch(() => { image.hidden = true; });
-    container.appendChild(image);
+    frame.appendChild(image);
+    container.appendChild(frame);
   }
   function addControls(container, id, info) {
     const line = document.createElement('div');
@@ -134,9 +143,13 @@
     label.textContent = (groupMain ? '十态组主图预览 · 原生 PNG ' : '网页预览 · 原生 PNG ') + (info.width || '?') + '×' + (info.height || '?');
     const button = document.createElement('button');
     button.type = 'button';
-    button.textContent = groupMain ? '查看十态组主图原生 PNG' : '查看或下载原图 PNG';
+    button.className = 'jt-original-open';
+    const actionLabel = groupMain ? '查看十态组主图原生 PNG' : '查看或下载原图 PNG';
+    button.setAttribute('aria-label', actionLabel);
+    button.title = actionLabel;
     button.addEventListener('click', event => openOriginal(event, id));
-    line.append(label, button);
+    container.querySelector('.jt-original-frame').appendChild(button);
+    line.appendChild(label);
     container.appendChild(line);
   }
   function addMuseumControls(container, info) {
@@ -145,11 +158,14 @@
     const label = document.createElement('span');
     label.textContent = '馆藏高清 JPEG 浏览版 · ' + (info.width || '?') + '×' + (info.height || '?');
     const view = document.createElement('a');
+    view.className = 'jt-original-open';
     view.href = info.original;
     view.target = '_blank';
     view.rel = 'noopener';
-    view.textContent = '查看 JPEG 浏览版';
-    line.append(label, view);
+    view.setAttribute('aria-label', '查看 JPEG 浏览版');
+    view.title = '查看 JPEG 浏览版';
+    container.querySelector('.jt-original-frame').appendChild(view);
+    line.appendChild(label);
     if (/^https:\/\/(?:www\.)?clevelandart\.org\/art\//i.test(info.source || '')) {
       const source = document.createElement('a');
       source.href = info.source;
@@ -160,6 +176,7 @@
     }
     container.appendChild(line);
   }
+
   function updateCards() {
     if (typeof filtered === 'undefined' || typeof state === 'undefined') return;
     const slice = filtered.slice((state.page - 1) * PAGE, state.page * PAGE);
