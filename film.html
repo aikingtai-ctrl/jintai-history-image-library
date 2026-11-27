@@ -865,8 +865,7 @@ function card(r,opts={}){const w=r.W,f=frOf(r),ai=shotImageSrc(r.id),rep=!f&&!ai
 let FIND_FILM_GROUPS=new Map();
 function filmImageKey(src){try{const u=new URL(src,location.href),p=u.pathname,m=p.match(/\/(?:film-ai|history-ai|影视参考图集_截帧)\/.*$/i);return(m?m[0]:u.origin+p).toLowerCase();}catch(e){return String(src).split(/[?#]/)[0].toLowerCase();}}
 function filmStillItems(g){
- let photos=workPhotoEntries(g.w);
- for(const wid of (window.FILM_WORK_ALIAS_MEMBERS||{})[g.key]||[]){const w=WORK_BY_WID.get(wid);if(!w)continue;const candidate=workPhotoEntries(w);if(candidate.length>photos.length)photos=candidate;}
+ const photos=filmGroupPhotoEntries(g.w);
  return photos.map(p=>({r:(p.shotId&&BYID.get(p.shotId))||g.rows[0],src:p.src,kind:p.kind}));
 }
 function filmCard(g){const w=g.w,items=filmStillItems(g),hero=items[0],r=hero?.r||g.rows[0],inD=DECKS.cur&&deckHas(r.id),inC=CMP.includes(r.id),label=hero?((window.FILM_AI_REFERENCE_LABELS||{})[w.wid]||hero.kind):'暂无已接画面',native=hero&&(window.filmNativeOriginalForPreview?.(hero.src)||(/\.png(?:[?#]|$)/i.test(hero.src)?hero.src:''));
@@ -967,14 +966,14 @@ function shotText(r){const w=r.W,source=r.origin==='visual'?`\n来源帧：${r.f
 function step(d){const i=list.findIndex(x=>x.id===CUR.id);const pool=i>=0?list:R;const j=(i>=0?i:R.indexOf(CUR))+d;if(j>=0&&j<pool.length)openDetail(pool[j].id);}
 /* ---------- 参考图集（全库自动建集：376 套跨片专题 + 29,200 套整片图集 + 我的可编辑图集） ---------- */
 const DKEY='jt_film_decks_v1';let DECKS=JSON.parse(localStorage.getItem(DKEY)||'{"list":[],"cur":null}'),SHARED=null,SHOWSHARED=false,DECK_VIEW_ID=null,DPAGE=0,DECK_HYDRATE_TOKEN=0;const DPS=36;
-function totalDeckCount(){return DECKS.list.length+SYS_DECKS.length+(WORKS.length||Number(AUTO_DECK_DATA?.film_deck_count)||0);}
+function totalDeckCount(){return DECKS.list.length+SYS_DECKS.length+(canonicalFilmWorks().length||Number(AUTO_DECK_DATA?.film_deck_count)||0);}
 function updateDeckBadge(){const tot=totalDeckCount();$('nDeck').textContent=tot?' '+tot.toLocaleString():'';}
 function saveDecks(){localStorage.setItem(DKEY,JSON.stringify(DECKS));updateDeckBadge();}
 function curDeck(){return DECKS.list.find(d=>d.id===DECKS.cur)||null;}
 function deckHas(id){const d=curDeck();return!!(d&&d.items.some(x=>x.id===id));}
 function newDeck(name,desc='',items=[]){const d={id:'d'+Date.now().toString(36)+Math.random().toString(36).slice(2,5),name:name||'未命名参考图集',desc:desc||'',items:items.map(x=>({id:x.id,note:x.note||''})),created:new Date().toISOString().slice(0,10)};DECKS.list.unshift(d);DECKS.cur=d.id;saveDecks();return d;}
-function makeFilmDeckObj(w){if(!w)return null;const cnt=workShotCount(w),row=FP_ROWS[w.i],pal=row?unpackHexStrip(row[2]):fallbackWorkPal(w);
- const shots=BYW.get(w.i)||[];
+function makeFilmDeckObj(w){if(!w)return null;w=filmGroupWorks(w)[0];const cnt=filmGroupShotCount(w),row=FP_ROWS[w.i],pal=row?unpackHexStrip(row[2]):fallbackWorkPal(w);
+ const shotMap=new Map();filmGroupWorks(w).forEach(member=>(BYW.get(member.i)||[]).forEach(r=>shotMap.set(r.id,r)));const shots=[...shotMap.values()];
  const items=shots.map(r=>({id:r.id,note:[r.size,r.angle,...(r.light||[]).slice(0,2),...(r.comp||[]).slice(0,2),...(r.emo||[]).slice(0,1)].filter(Boolean).join(' · ')}));
  return{id:'film:'+w.wid,cat:'单部影片整片图集',name:`《${w.t}》${w.y?'（'+w.y+'）':''}整片镜头图集`,
   desc:`${w.type||'电影'}${w.region&&w.region!=='待补'?' · '+w.region:''} · 导演 ${w.dir||'待核'} · 摄影 ${w.dp||'待核'}${w.ar?' · 画幅 '+w.ar:''}。${w.look||''}`,
@@ -987,7 +986,7 @@ function resolveAnyDeck(id){if(!id)return null;if(id==='shared'&&SHARED)return S
 function populateDeckCatSelect(){const sel=$('dCat');if(!sel)return;const prev=sel.value||'curated';
  const catCnt={};SYS_DECKS.forEach(d=>{catCnt[d.cat]=(catCnt[d.cat]||0)+1;});
  const cats=(AUTO_DECK_DATA?.categories||['光影与布光','色彩与影调','构图与调度','景别·机位·运镜','场景与空间','情绪与张力','摄影大师（DP）','导演视觉档案','视觉风格流派','权威摄影奖与榜单','奈飞20年年度十佳','题材与时代美学']).filter(c=>catCnt[c]);
- const nSys=SYS_DECKS.length,nFilm=WORKS.length||Number(AUTO_DECK_DATA?.film_deck_count)||0,nMine=DECKS.list.length,nAll=nSys+nFilm+nMine;
+ const nSys=SYS_DECKS.length,nFilm=canonicalFilmWorks().length||Number(AUTO_DECK_DATA?.film_deck_count)||0,nMine=DECKS.list.length,nAll=nSys+nFilm+nMine;
  sel.innerHTML=`<option value="curated">精选跨片主题图集（${nSys} 套）</option>`+
   `<option value="all">全部自动图集（${nAll.toLocaleString()} 套 · 含整片）</option>`+
   `<option value="mine">我的自建 / 改版图集（${nMine} 套）</option>`+
@@ -1001,8 +1000,8 @@ function getFilteredDecks(){const q=($('dq')?.value||'').trim().toLowerCase(),ca
  if(cat==='mine'){
   res=DECKS.list.filter(d=>matchText((d.name+' '+(d.desc||'')).toLowerCase()));
  }else if(cat==='films'){
-  const ws=words.length?WORKS.filter(w=>matchText(w._q||((w.t||'')+' '+(w.te||'')+' '+(w.dir||'')+' '+(w.dp||'')).toLowerCase())):WORKS;
-  res=ws.map(w=>({kind:'filmStub',id:'film:'+w.wid,w,n:workShotCount(w),film_cnt:1,name:`《${w.t}》${w.y?'（'+w.y+'）':''}`}));
+  const ws=words.length?uniqueFilmWorks(WORKS.filter(w=>matchText(w._q||((w.t||'')+' '+(w.te||'')+' '+(w.dir||'')+' '+(w.dp||'')).toLowerCase()))):canonicalFilmWorks();
+  res=ws.map(w=>({kind:'filmStub',id:'film:'+w.wid,w,n:filmGroupShotCount(w),film_cnt:1,name:`《${w.t}》${w.y?'（'+w.y+'）':''}`}));
  }else{
   const wantCat=cat.startsWith('cat:')?cat.slice(4):'';
   if(cat==='all'&&!wantCat){DECKS.list.forEach(d=>{if(matchText((d.name+' '+(d.desc||'')).toLowerCase()))res.push(d);});}
@@ -1010,9 +1009,9 @@ function getFilteredDecks(){const q=($('dq')?.value||'').trim().toLowerCase(),ca
    const hay=(d._q||(d._q=[d.name,d.cat,d.desc,...(d.films||[])].join(' ').toLowerCase()));
    if(matchText(hay))res.push(d);});
   if(cat==='all'||(words.length&&!wantCat)){
-   const ws=words.length?WORKS.filter(w=>matchText(w._q||((w.t||'')+' '+(w.te||'')+' '+(w.dir||'')+' '+(w.dp||'')).toLowerCase())):WORKS;
+   const ws=words.length?uniqueFilmWorks(WORKS.filter(w=>matchText(w._q||((w.t||'')+' '+(w.te||'')+' '+(w.dir||'')+' '+(w.dp||'')).toLowerCase()))):canonicalFilmWorks();
    const cap=(cat==='all'&&!words.length)?ws.length:Math.min(ws.length,600);
-   for(let i=0;i<cap;i++){const w=ws[i];res.push({kind:'filmStub',id:'film:'+w.wid,w,n:workShotCount(w),film_cnt:1,name:`《${w.t}》${w.y?'（'+w.y+'）':''}`});}
+   for(let i=0;i<cap;i++){const w=ws[i];res.push({kind:'filmStub',id:'film:'+w.wid,w,n:filmGroupShotCount(w),film_cnt:1,name:`《${w.t}》${w.y?'（'+w.y+'）':''}`});}
   }
  }
  if(so==='n')res.sort((a,b)=>((b.n??b.items?.length??0)-(a.n??a.items?.length??0)));
@@ -1028,7 +1027,7 @@ function getFilteredDecks(){const q=($('dq')?.value||'').trim().toLowerCase(),ca
  return res;}
 function renderDeckQuadHTML(d){
   if(d.kind==='filmStub')d=makeFilmDeckObj(d.w);
-  if(d.filmDeckWid){const w=d._w||WORK_BY_WID.get(d.filmDeckWid),photo=workPhotoEntries(w)[0];
+  if(d.filmDeckWid){const w=d._w||WORK_BY_WID.get(d.filmDeckWid),photo=filmGroupPhotoEntries(w)[0];
    if(photo)return `<div class="dk-cover"><img src="${esc(photo.src)}" alt="${esc(d.name)} · 单片主图" loading="lazy" decoding="async"><span class="dk-cover-label">单片主图 · 最多 5 张不同画面</span><button class="dk-cover-zoom" type="button" data-dkcoverzoom="${esc(d.id)}" aria-label="查看${esc(d.name)}剧照"></button></div>`;
    return `<div class="dk-cover"><div class="dk-slate"><span>${esc(w?.t||d.name)} · 暂无可用剧照</span></div></div>`;}
  const cover=(window.FILM_DECK_COVERS||{})[d.id];
@@ -1076,7 +1075,7 @@ function renderDecks(){
  $('deckGalleryWrap').hidden=false;$('deckDetailWrap').hidden=true;
  const token=++DECK_HYDRATE_TOKEN,all=getFilteredDecks(),dp=Math.max(1,Math.ceil(all.length/DPS));
  if(DPAGE>=dp)DPAGE=0;
- const nSys=SYS_DECKS.length,nFilm=WORKS.length||Number(AUTO_DECK_DATA?.film_deck_count)||0,nMine=DECKS.list.length;
+ const nSys=SYS_DECKS.length,nFilm=canonicalFilmWorks().length||Number(AUTO_DECK_DATA?.film_deck_count)||0,nMine=DECKS.list.length;
  $('dCount').innerHTML=`已自动建立 <b>${(nSys+nFilm).toLocaleString()}</b> 套系统图集（<b>${nSys}</b> 套跨片摄影专题 + <b>${nFilm.toLocaleString()}</b> 部整片镜头图集）${nMine?` · 我的自建 <b>${nMine}</b> 套`:''} · 当前匹配 <b>${all.length.toLocaleString()}</b> 套 · 第 ${DPAGE+1} / ${dp} 页 `
   +`<button id="dPrevPage" type="button"${DPAGE?'':' disabled'}>上一页</button> <button id="dNextPage" type="button"${DPAGE<dp-1?'':' disabled'}>下一页</button> `
   +`<label class="page-jump">页码 <select id="dPageSel" aria-label="图集页码"${dp<=1?' disabled':''}>${Array.from({length:Math.min(dp,500)},(_,i)=>`<option value="${i}"${i===DPAGE?' selected':''}>第 ${i+1} 页</option>`).join('')}</select></label>`;
@@ -1125,14 +1124,14 @@ function sendDeckToCompare(deckId){const d=resolveAnyDeck(deckId);if(!d)return;
  (d.items||[]).forEach(it=>{const r=BYID.get(it.id);const w=r?.W||resolveWorkFromShotId(it.id);if(w&&!seen.has(w.wid)){seen.add(w.wid);wids.push({kind:'work',key:w.wid,label:`${w.t}（${w.y||''}）`});}});
  if(wids.length>=2){addFpItems(wids,true);CMP_MODE='works';toast(`已将「${d.name}」关联的 ${wids.length} 部影片载入瞬间对照矩阵`);showTab('compare');}
  else if((d.items||[]).length){CMP=(d.items||[]).slice(0,8).map(x=>x.id);saveCmp();CMP_MODE='shots';showTab('compare');}}
-function filmPhotoGridHTML(d){const w=d._w||WORK_BY_WID.get(d.filmDeckWid),photos=workPhotoEntries(w);
+function filmPhotoGridHTML(d){const w=d._w||WORK_BY_WID.get(d.filmDeckWid),photos=filmGroupPhotoEntries(w);
  if(!photos.length)return'<p class="empty">这部影片目前没有可用剧照；下方仍可查看全部镜头文字资料。</p>';
  return photos.map((p,i)=>`<div class="ditem"><button type="button" class="thumb opens-image" data-film-photo-wid="${esc(d.filmDeckWid)}" data-film-photo-index="${i}" aria-label="放大第 ${i+1} 张画面"><img loading="lazy" decoding="async" src="${esc(p.src)}" alt="《${esc(w.t)}》第 ${i+1} 张画面"></button><div class="cap"><b>${i+1}. ${esc(p.kind||'参考画面')}</b><p>${esc(p.shotId&&BYID.get(p.shotId)?.sc||'单片画面参考')}</p></div></div>`).join('');}
 function filmShotTextHTML(d){const rows=(d.items||[]).map(x=>BYID.get(x.id)).filter(Boolean);
  return`<details class="film-shot-text"><summary>展开全部 ${rows.length.toLocaleString()} 条镜头描述（仅文字）</summary><ol>${rows.map(r=>`<li><b>${esc(r.id)}</b> · ${esc(r.sc||'描述待补')}</li>`).join('')}</ol></details>`;}
 async function renderDeckStudio(d){const V=$('deckView');
  if(d.filmDeckWid){const w=d._w||WORK_BY_WID.get(d.filmDeckWid);
-  if(w&&!workFullyHydrated(w)){V.innerHTML=`<div class="dkhead"><button id="dkBackTmp" type="button">← 返回图集总览</button><h2 style="margin:14px 0 6px">正在载入《${esc(w.t)}》全部 ${w.n} 个镜头…</h2></div>`;$('dkBackTmp').onclick=()=>{DECK_VIEW_ID=null;SHOWSHARED=false;renderDecks();};await ensureWorkShots(w);d=makeFilmDeckObj(w);}}
+  if(w&&filmGroupWorks(w).some(member=>!workFullyHydrated(member))){V.innerHTML=`<div class="dkhead"><button id="dkBackTmp" type="button">← 返回图集总览</button><h2 style="margin:14px 0 6px">正在载入《${esc(w.t)}》全部 ${filmGroupShotCount(w)} 个镜头…</h2></div>`;$('dkBackTmp').onclick=()=>{DECK_VIEW_ID=null;SHOWSHARED=false;renderDecks();};await ensureWorksBatch(filmGroupWorks(w),3);d=makeFilmDeckObj(w);}}
  const ro=!!(d.system||d.shared);
  const allList=getFilteredDecks(),curIdx=allList.findIndex(x=>x.id===d.id);
  const missItems=(d.items||[]).filter(x=>!BYID.has(x.id)),miss=missItems.length;
@@ -1658,16 +1657,23 @@ function getFilmAiSrc(wid){
   add(getFilmAiSrc(w.wid),'',(window.FILM_AI_REFERENCE_LABELS||{})[w.wid]||'单片代表图');
   if(!out.length){for(const r of BYW.get(w.i)||[]){const f=frOf(r),src=f?`${FRAME_DIR}/${f.f}`:shotImageSrc(r.id);if(src){add(src,r.id,f?'原片截帧':'逐镜参考图');break;}}}
   return out;}
+function filmGroupWorks(w){if(!w)return[];const key=(window.FILM_WORK_ALIASES||{})[w.wid]||w.wid,canonical=WORK_BY_WID.get(key)||w;
+ const members=[canonical,...((window.FILM_WORK_ALIAS_MEMBERS||{})[key]||[]).map(wid=>WORK_BY_WID.get(wid)).filter(Boolean)],seen=new Set();
+ return members.filter(member=>{if(seen.has(member.i))return false;seen.add(member.i);return true;});}
+function filmGroupPhotoEntries(w){let photos=[];for(const member of filmGroupWorks(w)){const candidate=workPhotoEntries(member);if(candidate.length>photos.length)photos=candidate;}return photos;}
+function uniqueFilmWorks(ws){const found=new Map(),aliases=window.FILM_WORK_ALIASES||{};for(const w of ws){const key=aliases[w.wid]||w.wid;if(!found.has(key))found.set(key,WORK_BY_WID.get(key)||w);}return[...found.values()];}
+let FILM_CANONICAL_WORKS_CACHE={source:null,aliases:null,works:[]};
+function canonicalFilmWorks(){if(FILM_CANONICAL_WORKS_CACHE.source!==WORKS||FILM_CANONICAL_WORKS_CACHE.aliases!==window.FILM_WORK_ALIASES){FILM_CANONICAL_WORKS_CACHE={source:WORKS,aliases:window.FILM_WORK_ALIASES,works:uniqueFilmWorks(WORKS)};}return FILM_CANONICAL_WORKS_CACHE.works;}
 function fillSel(id,name,arr){const select=$(id),value=select.value;select.innerHTML=`<option value="">${name}：全部</option>`+arr.map(v=>`<option>${esc(v)}</option>`).join('');if(arr.includes(value))select.value=value;}
 function workShotCount(w){return Math.max((BYW.get(w.i)||[]).length,Number(w.n)||0);}
-function filmGroupShotCount(w){return [w,...((window.FILM_WORK_ALIAS_MEMBERS||{})[w.wid]||[]).map(wid=>WORK_BY_WID.get(wid)).filter(Boolean)].reduce((sum,member)=>sum+workShotCount(member),0);}
+function filmGroupShotCount(w){return filmGroupWorks(w).reduce((sum,member)=>sum+workShotCount(member),0);}
 function workMosaicSpans(w){if(FP_ROWS[w.i]){const dna=unpackHexStrip(FP_ROWS[w.i][2]);if(dna.length)return dna.map(c=>`<span style="background:${c}"></span>`).join('');}
  const colored=(BYW.get(w.i)||[]).filter(r=>palOf(r).length);
  if(colored.length)return colored.slice(0,30).map((r,idx)=>{const p=palOf(r);return`<span style="background:${p[(idx*2+1)%p.length]}"></span>`;}).join('');
  return fallbackWorkPal(w).map(c=>`<span style="background:${c};opacity:.78"></span>`).join('');}
 function updateWorksCardsInPlace(){
  $('wGrid')?.querySelectorAll('[data-wpal]').forEach(palEl=>{const w=WORK_BY_WID.get(palEl.dataset.wpal);if(w)palEl.innerHTML=workMosaicSpans(w);});
- $('wGrid')?.querySelectorAll('[data-wid]').forEach(btnEl=>{const w=WORK_BY_WID.get(btnEl.dataset.wid);if(w)btnEl.textContent=`看 ${workShotCount(w).toLocaleString()} 个镜头`;});
+ $('wGrid')?.querySelectorAll('[data-wid]').forEach(btnEl=>{const w=WORK_BY_WID.get(btnEl.dataset.wid);if(w)btnEl.textContent=`看 ${filmGroupShotCount(w).toLocaleString()} 个镜头`;});
 }
 function hydrateWorksPage(slice,token){const need=slice.slice(0,24).filter(w=>!WORK_PROMPT_DONE.has(w.source_id||w.wid)&&(BYW.get(w.i)||[]).length<(Number(w.n)||1));
  if(!need.length||FP_ROWS.length)return;
@@ -1675,7 +1681,7 @@ function hydrateWorksPage(slice,token){const need=slice.slice(0,24).filter(w=>!W
 function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().toLowerCase(),t=$('wType').value,k=$('wKind').value,rg=$('wRegion').value,dc=$('wDecade').value,so=$('wSort').value;
  LAST_RENDERED_WORKS_COUNT=WORKS.length;
  let ws=WORKS.filter(w=>(!t||w.type===t)&&(!k||(w.kinds||[]).includes(k))&&(!rg||w.region===rg)&&(!dc||w.decade===dc)&&(!q||(w._q||[w.t,w.te,w.dir,w.dp,w.pd].join(' ').toLowerCase()).includes(q)));
- const uniqueWorks=new Map(),aliases=window.FILM_WORK_ALIASES||{};for(const w of ws){const key=aliases[w.wid]||w.wid;if(!uniqueWorks.has(key))uniqueWorks.set(key,WORK_BY_WID.get(key)||w);}ws=[...uniqueWorks.values()];
+ ws=uniqueFilmWorks(ws);
  ws.sort(so==='old'?(a,b)=>(a.y||9999)-(b.y||9999):so==='n'?(a,b)=>filmGroupShotCount(b)-filmGroupShotCount(a):so==='title'?(a,b)=>(a.t||'').localeCompare(b.t||'','zh'):(a,b)=>(b.y||0)-(a.y||0)||filmGroupShotCount(b)-filmGroupShotCount(a));
  const wp=Math.max(1,Math.ceil(ws.length/WPS));if(WPAGE>=wp)WPAGE=0;
  const generated=ws.filter(w=>getFilmAiSrc(w.wid)).length;
@@ -1756,7 +1762,7 @@ function renderLightboxItem(){
  const acts=$('lbFootActs');
  if(it.wid){
   const w=WORK_BY_WID.get(it.wid)||WORKS.find(x=>x.wid===it.wid);
-  const cnt=w?workShotCount(w):0;
+  const cnt=w?filmGroupShotCount(w):0;
   acts.innerHTML=`<button type="button" class="pri" id="lbActShots">看 ${cnt.toLocaleString()} 个镜头</button><button type="button" id="lbActDeck">整片图集</button><button type="button" id="lbActFp">加入瞬间对照</button>`;
   $('lbActShots').onclick=async()=>{closeLbModal();if($('detail').open)$('detail').close();WID=it.wid;QP={tags:[],work:null,words:[],rawWords:[]};$('q').value='';showTab('find');apply();if(w&&!workFullyHydrated(w)){await ensureWorkShots(w);if(WID===it.wid)apply();}};
   $('lbActDeck').onclick=()=>{closeLbModal();if($('detail').open)$('detail').close();DECK_VIEW_ID='film:'+it.wid;SHOWSHARED=false;showTab('decks');};
@@ -1786,8 +1792,8 @@ function openDeckCoverLightbox(id){
  LB_STATE.idx=Math.max(0,LB_STATE.items.findIndex(x=>x.deckId===id));
  renderLightboxItem();
 }
- function openWorkGallery(wid,startIndex=0){const w=WORK_BY_WID.get(wid)||WORKS.find(x=>x.wid===wid);if(!w)return;
-  const photos=workPhotoEntries(w);if(!photos.length){DECK_VIEW_ID='film:'+wid;SHOWSHARED=false;showTab('decks');return;}
+ function openWorkGallery(wid,startIndex=0){const original=WORK_BY_WID.get(wid)||WORKS.find(x=>x.wid===wid);if(!original)return;const w=filmGroupWorks(original)[0];wid=w.wid;
+  const photos=filmGroupPhotoEntries(w);if(!photos.length){DECK_VIEW_ID='film:'+wid;SHOWSHARED=false;showTab('decks');return;}
   LB_STATE.items=photos.map((p,i)=>{const r=p.shotId?BYID.get(p.shotId):null;return{wid,shotId:p.shotId||'',src:p.src,title:`《${w.t}》${w.y?'（'+w.y+'）':''} · 画面 ${i+1}`,sub:p.kind||'参考画面',desc:r?.sc||w.look||'单片画面参考；具体来源以画面标记为准。'};});
   LB_STATE.idx=Math.min(Math.max(0,startIndex),LB_STATE.items.length-1);renderLightboxItem();}
 function openWorkAiLightbox(wid,poolWids,fallbackSrc,fallbackTitle){
