@@ -1465,6 +1465,10 @@
       {
         "src": "film-ai/beauty-and-the-beast-1946.jpg",
         "sha256": "3c38360ae7855207e7e8552b0ed630450002c7f922c488570460e4205c08d6dc"
+      },
+      {
+        "src": "film-ai/gallery-reviewed/beauty-and-the-beast-1946-03.webp",
+        "sha256": "eb689cebb44f82010917da7919cad000134ed0fbb10489039019d9e9d9fa39e8"
       }
     ],
     "beauty-and-the-beast-1991": [
@@ -7795,6 +7799,16 @@
       {
         "src": "film-ai/src-82e8368c6ebe3cec.jpg",
         "sha256": "daba29f40c4f3beebd0b367970396398c9e43909ac9886ca815039ec36acf72e"
+      }
+    ],
+    "src-8487f665068a0608": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261117-src-8487f665068a0608.webp",
+        "sha256": "2e879027f22c54a1b174bc8ec4502ac91bc485c69a00176dcdcc7fb5994f90d4"
+      },
+      {
+        "src": "film-ai/src-8487f665068a0608.jpg",
+        "sha256": "e2cead0aad23d2f88178bf6c205ffb3536c52b6fcb22097d40464b3098a99d9f"
       }
     ],
     "tampopo-1985": [
