@@ -1670,7 +1670,7 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
   const aiSrc=getFilmAiSrc(w.wid);
   const aiHires=!!(window.FILM_SHOT_WORK_IMAGES||{})[w.wid]||/(?:^|\/)film-ai\/shots\/[^?#]+\.webp(?:[?#]|$)/i.test(aiSrc||'');
   const aiDeckCover=/(?:^|\/)film-ai\/decks\/film-[^?#]+\.webp(?:[?#]|$)/i.test(aiSrc||'');
-  const aiWorkConcept=/(?:^|\/)film-ai\/shots\/WORKCONCEPT-\d{8}-[^?#]+\.webp(?:[?#]|$)/i.test(aiSrc||'');
+  const aiWorkConcept=/(?:^|\/)film-ai\/shots\/WORKCONCEPT-\d{8}-[^?#]+\.(?:webp|png)(?:[?#]|$)/i.test(aiSrc||'');
   const aiReviewed=/(?:^|\/)film-ai\/quality-reviewed\/[^/?#]+\.jpe?g(?:[?#]|$)/i.test(aiSrc||'');
   const aiGeneratedJpg=FILM_AI_GENERATED_WIDS.has(w.wid)&&/(?:^|\/)film-ai\/[^/?#]+\.jpe?g(?:[?#]|$)/i.test(aiSrc||'');
   const aiGeneratedWebp=FILM_AI_GENERATED_WIDS.has(w.wid)&&/(?:^|\/)film-ai\/src-[^/?#]+\.webp(?:[?#]|$)/i.test(aiSrc||'');
