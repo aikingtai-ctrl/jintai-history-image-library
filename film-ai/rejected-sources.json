@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-28T00:24:06.215702+08:00",
+  "updated_at": "2026-11-28T01:21:56.135467+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -4391,6 +4391,216 @@
       "sha256": "a1a60548e7cbacc2847d9cdf189ae7527e5eeb1d639a4f5022c5f9cd7ca25513",
       "reason": "孤身女子坐在私人室内仅表情沉思，缺工厂、罢工或山间集体生活关联。",
       "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-6b0ba651b16a0008",
+      "src": "film-ai/goal9438/src-6b0ba651b16a0008.jpg",
+      "sha256": "5f1a85d05c88a4e109544d2e83988acce002151a7e54bc39a763024b3f2a0bf3",
+      "reason": "仍是同一金发赌徒倚轮盘的赌场画面，只换近景和夜色；无第二个叙事事件。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-6b2cbba24f9ee39a",
+      "src": "film-ai/src-6b2cbba24f9ee39a.jpg",
+      "sha256": "5c940fef88c5fb3ea1a8e1426e72782c0d2b4aa75f66807462c2f419fc1cea11",
+      "reason": "蓝色丛林内有巨大绿龙与一群写实三维人，尚不能将龙的造型及各人物确认为 Johnny/德古拉一行。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-6b6b83e9d11fbf82",
+      "src": "film-ai/decks/film-src-6b6b83e9d11fbf82.webp",
+      "sha256": "be613234e052d15c5e1aed08bc170c239214c5e92bc2317330a357b5e5b05822",
+      "reason": "男子在火车站走向月台，与 02 追车同属开篇唯一火车抉择；缺另一命运分支。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-6c909d6511b438e8",
+      "src": "film-ai/goal9438/src-6c909d6511b438e8.jpg",
+      "sha256": "1e18efe7118c0046977a3f02f2157e2da6215592763d8c0611286db8a90da7cb",
+      "reason": "同样两名兄妹在同一乡村水边暮色中相伴，仅改成牵手行走；缺新人物或事件。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-6cce066d5e86b58f",
+      "src": "film-ai/src-6cce066d5e86b58f.jpg",
+      "sha256": "2e3535b0b534fb78db28d7ffe6ae3e24acd7f745374251676f0e4d92d8a287ac",
+      "reason": "画面仅见男性教会歌者，既无年轻女歌手也无可验证家庭/唱片关系，不能以音乐场所泛相似准入。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-6e68a9e918c45685",
+      "src": "film-ai/src-6e68a9e918c45685.jpg",
+      "sha256": "691f26f9abdd5d360f51128fb573a33fd154e8c7a06e59f5b9bb3d6488b0f64d",
+      "reason": "被捆绑的黑人女子虽可能比附 Khadijah，当前无法从发行方资料确定画面人物与倒地男子或具体事件。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-6fc461a1bf09fe6d",
+      "src": "film-ai/src-6fc461a1bf09fe6d.jpg",
+      "sha256": "1f68ea51ef97646249361b44512e2004196ffe3aaca7b8a7213537fa001da594",
+      "reason": "纯片头演职员字卡，无叙事画面，明确不符合剧照或概念场景素材规范。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-700e8d7ca09763b0",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-700e8d7ca09763b0.webp",
+      "sha256": "13539d044758cb899ac62a9a91435a0a8bcd759b8a79d01621fd9ecb7d5cf5cd",
+      "reason": "空公寓内两杯茶和鞋子只是居家气氛，无可验证 Ravi/Rita 身份，也未展示相亲/隔离的新事件。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7060c7f66659ecc7",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-7060c7f66659ecc7.webp",
+      "sha256": "eedf1c64bda980b14da9c8fdc3a98ecdf0745682b56f66ff13760212661ace44",
+      "reason": "空儿童卧室及远处派对灯串只表家庭生活，不具 Sonny/Huck 人物或冒险情节锚点。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-706ca4f0e2a73750",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-706ca4f0e2a73750.webp",
+      "sha256": "1aaa4448e84a9bac39c89c4493fbb27b7f2278c4c70dba947b6803a5b65d06dc",
+      "reason": "空说唱舞台的麦克风/书包虽然贴近题材，却无 Bri、对手或家庭关系，不足以识别此片。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-706ca4f0e2a73750",
+      "src": "film-ai/src-706ca4f0e2a73750.jpg",
+      "sha256": "5ef49019dad5635a82abd936f74d2fe0b93ab93ae69ced0ce65239b69521135a",
+      "reason": "舞台上为中年黑人女性持麦克风，不能从片目证明此人是 Bri、其家人或影片中的比赛场景；不凭音乐题材当作关联。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-710e7f235ef6e05f",
+      "src": "film-ai/goal9438/src-710e7f235ef6e05f.jpg",
+      "sha256": "aa62112a70062db6e5d150a5f05fc7c8155f97bd1ee9a68ccd3b509bf9dc78c2",
+      "reason": "人脸、催眠螺旋、华盛顿国会大厦和观众的拼贴更像剧情海报；无可定位片内场景。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7144d744153b89ea",
+      "src": "film-ai/src-7144d744153b89ea.jpg",
+      "sha256": "8ee70c1939ea8feb474895df7954b0b2a56c8f51782d6c8e52d926398fb87865",
+      "reason": "三名女子普通社交聚会，年长者造型也不足以确认 Diane Keaton/Rita；缺新情节锚点。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-71abe17839b3a760",
+      "src": "film-ai/goal9438/src-71abe17839b3a760.jpg",
+      "sha256": "aa8d539cd1ddbd5a7cd858f413fb7d7461101e26456ca04a34c85d10a9636476",
+      "reason": "越战、轮椅与国会大厦叠加成宣传海报式总览，既非单一场景也重复 01 的退伍反战主题。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-722211c34c57bab7",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-722211c34c57bab7.webp",
+      "sha256": "ca340c2dd20e331a48ecbba527293ce8df3b1187e65a82138d24baa26e248cc8",
+      "reason": "空街粉笔松鼠轮廓与放大镜只是泛侦探符号，无 Chip/Dale/Ellie 或被查失踪角色。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-7286e30d4ad2d359",
+      "src": "film-ai/goal9438/src-7286e30d4ad2d359.jpg",
+      "sha256": "1be003298d139725ae0466d60382aaf2ac01f56fe00e007b145ef8385b417923",
+      "reason": "仍是同一红色餐厅用餐全景，虽座位和角度变动，却无妻子与情人的新事件。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-72e55349b885932d",
+      "src": "film-ai/decks/film-src-72e55349b885932d.webp",
+      "sha256": "d4c93da548ef306613ce1e56ef5ea6f2ecb9ede31a331e09783b0fec07ae808b",
+      "reason": "背对镜头的男子独坐普通办公室，未见犯罪、指纹或调查程序，不能确认其为该警官。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-73fe2c3e335df08b",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-73fe2c3e335df08b.webp",
+      "sha256": "c2437d5dbfe7c61acd5ceba392135a6fe3ea7f15d962d1b365d20201b5572612",
+      "reason": "无人物的画室面具、键盘与怪物影子只是通用恐怖艺术拼贴，不能定位某位艺术家或片中事件。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-73fe2c3e335df08b",
+      "src": "film-ai/src-73fe2c3e335df08b.jpg",
+      "sha256": "e3f7f0b60d9ffdb68ccce8f8e8f102ed6412d65d70ff8b1d39d97b83db9dfb74",
+      "reason": "恶魔扑向男子属于通用惊悚画面，电影机构没有支持该具体人物或桥段，不能认证为本片。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-742c0637913a7a0e",
+      "src": "film-ai/shots/WORKCONCEPT-20261127-waves-will-carry-us-2025-gpt.webp",
+      "sha256": "315022c2a996b6164dabdcd822e5b8ad33585fed96ac47e37ac87a7df1bbb1de",
+      "reason": "热带雨中数人于乡间屋廊休息，地点可比附马来西亚，但没有葬礼、阿耀返乡或兄弟关系标识。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-742c0637913a7a0e",
+      "src": "film-ai/src-742c0637913a7a0e.jpg",
+      "sha256": "d8aebbc3ef485c92f58adaaafb03aaf68f006a2524b0e8973bb2ee696568f558",
+      "reason": "两名男子林中对油灯交谈可想象祖辈移民，但片目没有此具体夜行场景或人物身份。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-74702501c8b53da6",
+      "src": "film-ai/shots/YS-20261028-src-74702501c8b53da6-01.webp",
+      "sha256": "5c9719a4410ab14d4ddf9ff56b836b48df0c4d5c13aae4bde05cd0210619bc38",
+      "reason": "彩色巴黎式欧式宫苑与白人绅士画面，同时违背东北小城地点、人物群体和全片黑白媒介。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-74702501c8b53da6",
+      "src": "film-ai/src-74702501c8b53da6.jpg",
+      "sha256": "6b2fd23f4700745e448ed1514abd5264448b70e25cbd551c3f3691fa22496b69",
+      "reason": "画面让中国男子粉红衬衫保持鲜艳、背景近黑白，而电影机构明确原片为全黑白；选择性色彩概念不能充作原片剧照。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-74913b947cc95b0f",
+      "src": "film-ai/src-74913b947cc95b0f.jpg",
+      "sha256": "a9982d02990da5a307499a91db9641311cabb49ae1f1b53a45194e62a630051e",
+      "reason": "年轻男子单独室内特写无法证明其为死去的摇滚歌手儿子，且无母亲调查或音乐活动。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-74a1c7c15616e429",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-74a1c7c15616e429.webp",
+      "sha256": "06fa44dd2f7c5447b584a5a40eba1d13e455a39848c9e0d71c63541a87714e8d",
+      "reason": "空营地桌椅帐篷是通用夏令营场景，未见两家共住/竞争或角色。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-759c38310746e5e6",
+      "src": "film-ai/decks/film-src-759c38310746e5e6.webp",
+      "sha256": "fc3334e7d391bb43955f630dd38a6d0098a50e9a4619cf02812dc2482f084d5e",
+      "reason": "匿名青年在巴黎电车读纸，无法证明其是 Charles 或某一思想/政治选择。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-759c38310746e5e6",
+      "src": "film-ai/goal9438/src-759c38310746e5e6.jpg",
+      "sha256": "0aae78fa00558b8103385791e13c598d088bfefe30d7bea4eb3cfb7676fd3007",
+      "reason": "匿名青年沿塞纳河独行只是普遍的巴黎忧郁画面，没有一手片目所述关键活动。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-773d3ba4113657cc",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-773d3ba4113657cc.webp",
+      "sha256": "2b919732d89f2377cfde463e69a27d9675ee20ee7224fb65ce9e16336c6c3c0e",
+      "reason": "空实验室中的时空传送门虽是科幻题材，却无两位动画主角或片目明确装置。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-781fe6c2045a6ebe",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-781fe6c2045a6ebe.webp",
+      "sha256": "f6ac7be8f92e4a78c7c8eae316c9c82e12c350faad08b13f9bcf3760586e6dab",
+      "reason": "豪宅大门旁放手套的夜景虽似窥视，未见 Kathryn、园丁 Ben 或秘密恋情线索。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-781fe6c2045a6ebe",
+      "src": "film-ai/src-781fe6c2045a6ebe-v2.jpg",
+      "sha256": "9c9a55533c06ced972d4346d2339299302536c156462227cd5fde06dc43ca8ec",
+      "reason": "纯游泳池水面没有任何人物、行为或可定位此片的空间特征。",
+      "evidence": "第五十三批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
