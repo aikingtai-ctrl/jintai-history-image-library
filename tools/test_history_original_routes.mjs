@@ -117,8 +117,10 @@ for (const name of ['history-batch.html', 'history-batch-1001-2000.html']) {
   const versionedBatchUrl = await batch.gptOriginalUrl(versioned);
   assert.equal(versionedBatchUrl, `https://gateway.test/original-pngs/verified/verified.png?v=${versionA}`);
   assert.equal(batch.gptDownloadUrl(versionedBatchUrl), `https://gateway.test/original-pngs/verified/verified.png?v=${versionA}&download=1`);
-  assert(html.includes('content:"↗ 查看预览"'), `${name}: old JPEG wrongly labeled as original`);
-  assert(html.includes('.has-gpt::after{content:"↗ GPT Image 原图"}'), `${name}: accepted PNG label missing`);
+  assert(html.includes('.card > button::before{content:"";') && html.includes('border-left:7px solid #fff'), `${name}: triangle marker missing`);
+  assert(!html.includes('content:"↗ 查看预览"') && !html.includes('content:"↗ GPT Image 原图"'), `${name}: old text badge remains`);
+  assert(html.includes("b.setAttribute('aria-label',(gpt(r)?'查看原图：':'查看预览：')+r.title)"), `${name}: accessible image label missing`);
+  assert(html.includes("b.title=gpt(r)?'查看原图':'查看预览'"), `${name}: image title missing`);
   assert(html.includes("q('downloadPng').hidden=true"), `${name}: download initial hide missing`);
   const show = html.slice(html.indexOf('async function show(r){'), html.indexOf('function stepRow'));
   const preload = show.indexOf('const full=new Image();');
