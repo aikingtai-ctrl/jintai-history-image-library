@@ -2,7 +2,7 @@
   "fixedScopeWorks": 10141,
   "scopeRevision": "b58616b8990a50aba2766810e46e84ccf7e21c8f",
   "recovered": 28,
-  "generated": 6,
+  "generated": 8,
   "assets": [
     {
       "wid": "src-wd-q105443659",
@@ -841,6 +841,56 @@
         }
       ],
       "adaptationNote": "按该作品首条可核对画面描述生成；未证实为影片开场首镜，因此明确标注非首镜。未沿用通用设备风格模板。"
+    },
+    {
+      "wid": "src-wd-q1366508",
+      "title": "看得見看不見",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1366508.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/55f15a81decb0715e353e10af4b65e21cdfa4de9/originals/film-coverage-10141-20261127/src-wd-q1366508.png",
+        "sha256": "228ca1151035e992817948da3b39a6af75b1b781bc061566bacf1dd81cd5579a",
+        "bytes": 2388261,
+        "width": 1705,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "baf4ad95519ba08b8d32754536ff274a7f563a2d3d0e9e05fa6ed3db9cd66193",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "七十年代美国大学化学实验室，成年男大学生在窗边实验台前谨慎观察玻璃烧杯中的透明实验液，台上陈列试管、笔记和老式实验器具；轻松好奇的科学喜剧氛围。",
+      "actualPrompt": "Create a single original cinematic photographic reference image inspired by the official premise of a 1972 light-hearted American college science comedy. A fully clothed adult male chemistry student in his early twenties, with tidy medium-length brown hair, a pale checked shirt and a simple open white lab coat, stands at a wooden university laboratory bench near tall daylight windows. He leans forward with curious surprise, carefully examining a small transparent glass beaker of clear experimental liquid. Several test tubes in a wooden rack, old analog laboratory equipment, a notebook and a desk lamp sit naturally on the workbench. Period 1970s campus brick architecture and a chalkboard in soft focus, cheerful warm daylight, gentle natural colors, lightly textured 35mm film photography, eye-level medium-wide composition around 1.85:1. Original adult person, not an actor likeness. No hazardous reaction, no explosions, no illegible text, no captions, no lettering, no logos, no poster, no collage. This is an AI story-content reference concept, not an authentic film still or a verified first shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://movies.disney.com/now-you-see-him-now-you-dont",
+          "basis": "官方内容简介；画面为据此创作的概念构图，并非来源声称的首镜"
+        }
+      ],
+      "adaptationNote": "现有首条是通用器材与运镜模板，缺少可核对的具体首镜画面；沿用用户授权，依据发行方或电影机构内容简介创作概念参考，明确标注非首镜。"
+    },
+    {
+      "wid": "src-wd-q1372212",
+      "title": "牧羊人 (电影)",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1372212.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/55f15a81decb0715e353e10af4b65e21cdfa4de9/originals/film-coverage-10141-20261127/src-wd-q1372212.png",
+        "sha256": "99b335492ad3477b4fb5f68b7b8ad4e905abbfd773f20d13b4586709917b4ea6",
+        "bytes": 2683733,
+        "width": 1921,
+        "height": 819,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "4e35b675deb4c86c1d576dcd52810cb6bac22205f852154d0481d50f8c0acd2e",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "十九世纪美国西部牧牛小镇入口，穿朴素牛仔服的成年牧羊人骑马停在羊群旁，远处木板商铺和围栏前的牧场主们疑惑围观；晴日尘土与开阔草场形成轻喜剧西部场景。",
+      "actualPrompt": "Create a single original cinematic photographic reference image inspired by a classic 1958 Western comedy about a sheep rancher arriving in a cattle town. A self-assured fully clothed adult cowboy wearing a weathered tan felt hat, plain dark vest, pale work shirt and dusty brown trousers sits calmly on a dark bay horse near the wooden entrance to a late-19th-century American frontier town. A flock of healthy white sheep gathers across the lower foreground and along the dusty road behind him. Two adult cattle ranchers in ordinary period work clothes watch from a timber porch with mildly skeptical expressions; simple weathered wooden shops and rail fences recede toward distant open grassland and low hills. Bright soft afternoon sunlight, warm earth and wool colors, broad natural sky, gentle humorous human atmosphere, richly textured 1950s color 35mm photography, eye-level medium-wide 2.35:1 composition. No drawn weapons, no violence, no text, no signage lettering, no logos, no collage, no poster. Original adult characters, not actor portraits. This is an AI story-content reference concept, not a real film frame or verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://watch.afi.com/movie/the-sheepman",
+          "basis": "官方内容简介；画面为据此创作的概念构图，并非来源声称的首镜"
+        }
+      ],
+      "adaptationNote": "现有首条是通用器材与运镜模板，缺少可核对的具体首镜画面；沿用用户授权，依据发行方或电影机构内容简介创作概念参考，明确标注非首镜。"
     },
     {
       "wid": "src-wd-q16028796",
