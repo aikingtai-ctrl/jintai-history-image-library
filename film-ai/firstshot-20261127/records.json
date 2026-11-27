@@ -1913,6 +1913,216 @@
       "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
       "method": "内置 imagegen",
       "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 91,
+      "wid": "src-19954f7643b14cf0",
+      "title": "Wish I Was Here",
+      "firstShotId": "VP-4d84fbdd4b801f10",
+      "scene": "昏暗室内，一名男子背对镜头站立在书桌前，面向百叶窗。左侧有落地灯，右侧书架上摆放书籍和海报。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Dim domestic interior. A fictional adult man stands with his back toward the camera at a writing desk facing Venetian blinds. A floor lamp stands at left and books and plain graphic posters fill shelves at right. Quiet contemplative medium-wide composition, no readable words. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "965ea3b777d5ccd01ffcb414c9d51ba8f77ba5eca8370aa7cea874ffd4e9f410",
+      "preview": "film-ai/firstshot-20261127/src-19954f7643b14cf0.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/bf5015f5038b1fdae06b3ea4c8b04605a4bbce0f/originals/film-expand-firstshot-20261127/src-19954f7643b14cf0.png",
+        "bytes": 1891675,
+        "sha256": "01abe10788a5bafd8c446e651c9af05f4f9d9cfefd36a12259a558fd3917ca30",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 92,
+      "wid": "src-1995b132c7b80c93",
+      "title": "Blissfully Yours",
+      "firstShotId": "VP-0fd70d184128bbf9",
+      "scene": "两名男子并排坐在室内长椅上，背景是带有金属网格的玻璃隔断，透过玻璃可见后方办公区域及一名伏案的人影。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Two fully clothed fictional adult Thai men sit side by side on an indoor waiting-room bench. A glass partition with a metal grid stands behind them, revealing an office area and a distant person bent over a desk. Natural subdued daylight, quiet ordinary atmosphere. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "42edee2c4b7af8a93b8dc05ac8c559e26499bd7947f74dba7fbbb4a2019a48c8",
+      "preview": "film-ai/firstshot-20261127/src-1995b132c7b80c93.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/bf5015f5038b1fdae06b3ea4c8b04605a4bbce0f/originals/film-expand-firstshot-20261127/src-1995b132c7b80c93.png",
+        "bytes": 2375825,
+        "sha256": "38839ac1d576224d7eb8805507981ea001315b4938a1011b41e052b68402216f",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 93,
+      "wid": "src-19ade09a986283f1",
+      "title": "GAIDOUK",
+      "firstShotId": "VP-src-19ade09a986283f1-01",
+      "scene": "《GAIDOUK》顶部骑兵剪影边框下三名敞怀露胸的巴尔干绿林好汉并肩阔步的复古剧照卡",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Vintage Balkan adventure-lobby-card composition: three fictional adult rebels in loose open-front traditional shirts stride shoulder to shoulder toward the viewer. A narrow decorative border of cavalry silhouettes runs across the top. Rugged nonsexual presentation, no combat, injury or lettering. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "bcebf7331e48b4d8e49f33c9ee320aa1c98e3a760c2a4866bb4b6191e56b3f42",
+      "preview": "film-ai/firstshot-20261127/src-19ade09a986283f1.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/bf5015f5038b1fdae06b3ea4c8b04605a4bbce0f/originals/film-expand-firstshot-20261127/src-19ade09a986283f1.png",
+        "bytes": 3281007,
+        "sha256": "ba0298db1b7963ed69c50d35661bd10a25565b4791754fb618eeb13ac74a2992",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 94,
+      "wid": "src-19b38ce40dd0bb0e",
+      "title": "MI IUBITA MON AMOUR",
+      "firstShotId": "VP-src-19b38ce40dd0bb0e-01",
+      "scene": "夏日海滩逆光近景中，棕色卷发年轻男子躺在金色长发女子怀中闭目享受阳光，两人神情慵懒甜蜜",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Warm backlit summer beach medium close-up. A fully clothed fictional adult man with curly brown hair rests his head in the lap of a fully clothed adult woman with long golden hair. Both look peacefully relaxed in the sunlight. Tender nonsexual composition, natural sandy background. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "b5c9c8df76d068ea6733bcb0ed4ab8711f13ddfd5ff25a78a9201e256e01ee4e",
+      "preview": "film-ai/firstshot-20261127/src-19b38ce40dd0bb0e.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/bf5015f5038b1fdae06b3ea4c8b04605a4bbce0f/originals/film-expand-firstshot-20261127/src-19b38ce40dd0bb0e.png",
+        "bytes": 2319253,
+        "sha256": "082be793c6318dd33516d1348ecbeac0508a30a54832c4690beddb81c53eee3c",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 95,
+      "wid": "src-19c98cf52d4bff3e",
+      "title": "The League of Extraordinary Gentlemen",
+      "firstShotId": "VP-src-19c98cf52d4bff3e-01",
+      "scene": "维多利亚风格暗室内的双人中近景，右侧身穿优雅西装马甲的神秘招募者正与左侧身穿粗犷风衣、神色狐疑的壮汉交谈",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Dim Victorian interior two-shot. At right a fictional adult recruiter in an elegant suit and waistcoat speaks with a suspicious rugged adult man in a heavy rough overcoat at left. Dark wood and restrained practical lighting, original faces and costumes, no weapons or lettering. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "b6208f07449e5df0135a8a9d1129617d3541bc311b9a3db04ab18c5c2259065f",
+      "preview": "film-ai/firstshot-20261127/src-19c98cf52d4bff3e.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/bf5015f5038b1fdae06b3ea4c8b04605a4bbce0f/originals/film-expand-firstshot-20261127/src-19c98cf52d4bff3e.png",
+        "bytes": 2159729,
+        "sha256": "e4a5e84fe6963d01f9ebd68370a20c643cac9f265e34fa38074cda61d571c118",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 96,
+      "wid": "src-19cff09cdc8a1747",
+      "title": "The Haunting",
+      "firstShotId": "VP-aca796ab0cc8ff1d",
+      "scene": "昏暗的紫色卧室中，一名长发人物背对镜头站立，面向一张铺着浅色床单的深色木床，墙上挂着画框和壁灯，右侧有花卉图案的扶手椅。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. A dim purple-lit Gothic bedroom. A fully clothed long-haired adult figure stands with their back toward the camera facing a large dark wooden bed with pale sheets. Framed paintings and wall sconces, floral upholstered armchair at right. Quiet eerie atmosphere, no violence. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "c4bd6e57b2fa9704eb24a52740066326d4bbb022ee259633885b3df874358355",
+      "preview": "film-ai/firstshot-20261127/src-19cff09cdc8a1747.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/bf5015f5038b1fdae06b3ea4c8b04605a4bbce0f/originals/film-expand-firstshot-20261127/src-19cff09cdc8a1747.png",
+        "bytes": 2327551,
+        "sha256": "99737befa5ed59252f6b0459db70de96c8ae6c55e0a8b9d52a61d72e75b06424",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 97,
+      "wid": "src-19ddec3e174a0a32",
+      "title": "Maniac",
+      "firstShotId": "VP-fea2f2c0a49faf9e",
+      "scene": "昏暗室内，右侧站立人物上半身可见，双手抬起，左侧前景人物侧身，背景有格栅和模糊人影，一道垂直光束贯穿画面中央。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Dim interior suspense scene. At right a fully clothed adult’s upper body is visible with both hands raised; at the left foreground another fully clothed adult is seen in profile. A sharp vertical shaft of light divides the center, with grilles and blurred figures behind. No weapon, injury or violent contact. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "e63d8a4cd903c162114bff6883db606efde50eca19af277a86425d544d2bc2e2",
+      "preview": "film-ai/firstshot-20261127/src-19ddec3e174a0a32.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/bf5015f5038b1fdae06b3ea4c8b04605a4bbce0f/originals/film-expand-firstshot-20261127/src-19ddec3e174a0a32.png",
+        "bytes": 1791689,
+        "sha256": "8742414e5ae3ed96186ef855b4a2f99de35b16dfb067e6f048ba10a071acde62",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 98,
+      "wid": "src-19e295023323725b",
+      "title": "The Phantom of the Opera",
+      "firstShotId": "VP-src-19e295023323725b-01",
+      "scene": "高反差黑底竖版特写，一头乌黑卷发的年轻歌剧女伶以唯美侧面轮廓沐浴在温暖圣洁的金色侧光中",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. High-contrast portrait against a black background: a fictional adult opera singer with dark curly hair is shown in an elegant profile outlined by warm golden side light. Modest period neckline, serene expressive face, original features, no celebrity likeness. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "5d7059818caa846cc5c4e58f447dea9163f312528327ac3f06abd71b9636358b",
+      "preview": "film-ai/firstshot-20261127/src-19e295023323725b.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/bf5015f5038b1fdae06b3ea4c8b04605a4bbce0f/originals/film-expand-firstshot-20261127/src-19e295023323725b.png",
+        "bytes": 1408585,
+        "sha256": "096b1a3e63dd4b49a9220745938c6eed1c3f180a9d7879966ae4f083cf66279c",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 99,
+      "wid": "src-19e2d92a62364b06",
+      "title": "Copycat",
+      "firstShotId": "VP-src-19e2d92a62364b06-01",
+      "scene": "极近距离面部特写中年轻男子戴着反光的圆框深蓝色太阳镜",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Extreme close portrait of a fictional young adult man wearing reflective round dark blue sunglasses. The lenses and part of his face fill the frame. Controlled cinematic reflections and muted background, no actor likeness or lettering. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "1aabc0cdcb1654d7fc73fd46b750a0644d20a0c5daa43e6680bf9e4a13cc2964",
+      "preview": "film-ai/firstshot-20261127/src-19e2d92a62364b06.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/bf5015f5038b1fdae06b3ea4c8b04605a4bbce0f/originals/film-expand-firstshot-20261127/src-19e2d92a62364b06.png",
+        "bytes": 2207311,
+        "sha256": "14046a95bdef827c0208781af6612c58bcba686142d375bf5814dd37df1122d7",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 100,
+      "wid": "src-19fe367f6a257cce",
+      "title": "Georges Bataille's Story of the Eye",
+      "firstShotId": "VP-src-19fe367f6a257cce-01",
+      "scene": "昏暗室内全景，左侧黑衣人静立门旁，右侧敞开的蓝白强光隔间内站着一名赤足人影",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Dim interior wide shot. A fully clothed adult in black stands quietly beside a door at left. At right an open compartment flooded with blue-white light contains a standing barefoot adult silhouette wearing opaque clothing. Strong cold light contrast, no nudity, intimate contact or sexual activity. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "50a940e61f3802476c8268e60f2c80e8c30fb1cdd605fef6d60abfb1c67a5837",
+      "preview": "film-ai/firstshot-20261127/src-19fe367f6a257cce.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/bf5015f5038b1fdae06b3ea4c8b04605a4bbce0f/originals/film-expand-firstshot-20261127/src-19fe367f6a257cce.png",
+        "bytes": 1750411,
+        "sha256": "017eb5219cc9e1dc256a6fb140839f043e06e92af69c9298b63ed6a8c3dbcb06",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
     }
   ]
 }
