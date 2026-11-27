@@ -1,8 +1,8 @@
 {
   "fixedScopeWorks": 10141,
   "scopeRevision": "b58616b8990a50aba2766810e46e84ccf7e21c8f",
-  "recovered": 28,
-  "generated": 8,
+  "recovered": 29,
+  "generated": 13,
   "assets": [
     {
       "wid": "src-wd-q105443659",
@@ -817,6 +817,41 @@
       "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
+      "wid": "a-canterbury-tale-1944",
+      "title": "坎特伯雷故事",
+      "year": 1944,
+      "canonicalWid": "a-canterbury-tale-1944",
+      "canonicalTitle": "坎特伯雷故事",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "existingProvenanceMappedPreview": "film-ai/decks/film-a-canterbury-tale-1944.webp"
+      },
+      "previousPreview": "film-ai/restored/a-canterbury-tale-1944.jpg",
+      "preview": "film-ai/firstshot-coverage10141-20261127/a-canterbury-tale-1944.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-8878-native-20261126/ab3d9f81b3cce0d4faaa443fc86703891089b57275ca3949f689af2cc4485e15.png",
+        "sha256": "ab3d9f81b3cce0d4faaa443fc86703891089b57275ca3949f689af2cc4485e15",
+        "bytes": 2235469,
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing provenance-mapped native PNG recovered",
+      "scene": "恢复该作品已有原生PNG代表图；非已核实原片首镜",
+      "bytesVerified": true,
+      "replacesExistingPreview": true,
+      "reviewed": true,
+      "reviewNote": "已查看，黑白中世纪朝圣者放飞猎鹰的画面与该作品开场情境相符；继续保留非首镜标注。",
+      "jpgSHA256": "67c00327467d7b001d5d9432bbdf1d7e9975951fcc40e7cf1ddde75e5ddf03ea",
+      "previewDerivedFromVerifiedNativeOriginal": true,
+      "sourceEvidence": [
+        {
+          "url": "https://www.bfi.org.uk/sight-and-sound/features/pattern-under-plough-old-weird-britain-film",
+          "basis": "BFI confirms the medieval falcon-release opening sequence; restored native reference remains explicitly labelled non-first-shot."
+        }
+      ]
+    },
+    {
       "wid": "src-wd-q109510942",
       "title": "马洛",
       "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q109510942.jpg",
@@ -891,6 +926,131 @@
         }
       ],
       "adaptationNote": "现有首条是通用器材与运镜模板，缺少可核对的具体首镜画面；沿用用户授权，依据发行方或电影机构内容简介创作概念参考，明确标注非首镜。"
+    },
+    {
+      "wid": "src-wd-q1399876",
+      "title": "塞拉菲诺",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1399876.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/3e702c55690b22274f75f45bba2859890538c835/originals/film-coverage-10141-20261127/src-wd-q1399876.png",
+        "sha256": "fec69e70489beaf95eccb72b9c7c47b99b74e0001413f4ce4b0446e5b91e902f",
+        "bytes": 3018665,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "72133310d3ab3848d789000b50fd7112bfa1519bf27f8d175cf84be200fc8096",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "意大利山区草坡上的成年牧羊人穿朴素针织上衣，手扶木杖守着羊群，远处石砌村屋与绿山层叠；自由淳朴的乡村喜剧内容概念。",
+      "actualPrompt": "Create one original cinematic photographic reference image, one coherent frame. Late-1960s Italian rural comedy atmosphere, a fully clothed adult shepherd with short dark hair and a lively unguarded expression, wearing a plain cream buttoned knit undershirt and worn dark trousers, stands with a wooden staff beside healthy white sheep on a sunlit grassy hillside. Rustic dry-stone wall and simple stone farmhouses in the middle distance, soft green Italian mountain ridges beyond, a few adult villagers beside a distant farm gate. Eye-level medium-wide 1.85:1 frame, gentle warm midday daylight, natural earthy greens and cream wool, softly textured vintage color 35mm photography, candid everyday dignity and good humor. Original people, no actor portraits. No readable text, captions, logos, collage or poster layout. This is an AI story-content concept based on an authoritative film synopsis, not an authentic film frame or a verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://mediasetinfinity.mediaset.it/movie/serafino/serafino_F000353801000101/",
+          "basis": "权威电影机构或发行平台内容简介；画面构图为AI概念创作，并非首镜核验"
+        }
+      ],
+      "adaptationNote": "首条为通用器材风格模板且缺少可靠画面细节；依用户既有授权采用发行方或电影机构简介创作内容概念，非影片首镜。"
+    },
+    {
+      "wid": "src-wd-q1402384",
+      "title": "重复放映",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1402384.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/3e702c55690b22274f75f45bba2859890538c835/originals/film-coverage-10141-20261127/src-wd-q1402384.png",
+        "sha256": "6933f1cf1adf0fb1f2bd61c8826f543993d1c78a35104d19a9c8b07596035d84",
+        "bytes": 2403190,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "2ddf9f3a7476d351bfc639daaef9a223d2b25329a2cd02ab7136c58c953dfd13",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "八十年代西班牙公寓书房里，两名中年男性电影创作者围坐木桌讨论剧本，手稿、打字机与书架构成孤独而温暖的创作空间。",
+      "actualPrompt": "Create one original cinematic photographic reference image, one coherent frame. A quiet 1984 Spanish apartment study at dusk. Two fully clothed middle-aged male friends, one in a plain brown blazer and the other in a dark cardigan, sit on opposite sides of a cluttered wooden writing table, leaning into a thoughtful conversation about a screenplay. A mechanical typewriter, loose blank manuscript pages, pencils and two coffee cups on the table, dense bookcases and film-can silhouettes behind them, modest warm desk-lamp light balanced with cool blue window light. Eye-level intimate medium-wide 1.85:1 composition, fine natural facial texture, restrained warm brown color 35mm photographic grain, reflective friendship and love of cinema. Original adults, no famous actor likeness. No readable text, captions, logos, collage or poster layout. This is an AI story-content concept based on an authoritative film synopsis, not an authentic film frame or a verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://www.movistarplus.es/cine/sesion-continua/ficha?id=391343&tipo=E",
+          "basis": "权威电影机构或发行平台内容简介；画面构图为AI概念创作，并非首镜核验"
+        }
+      ],
+      "adaptationNote": "首条为通用器材风格模板且缺少可靠画面细节；依用户既有授权采用发行方或电影机构简介创作内容概念，非影片首镜。"
+    },
+    {
+      "wid": "src-wd-q1409108",
+      "title": "麥士萬歲",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1409108.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/3e702c55690b22274f75f45bba2859890538c835/originals/film-coverage-10141-20261127/src-wd-q1409108.png",
+        "sha256": "77fee8a3f5f75e2d9c959be2ca4e271e729a61bc23948a6623805df4de04aca4",
+        "bytes": 2717413,
+        "width": 1916,
+        "height": 821,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "c635b55053de8ac62d5e74f7e195eecf87069879984be6c054b86316dfa83664",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "六十年代美国圣安东尼奥阿拉莫古建筑前，一名小胡子墨西哥将领昂首站在松散排列的成年士兵前方，热日石墙与轻喜剧式严肃姿态。",
+      "actualPrompt": "Create one original cinematic photographic reference image, one coherent frame. A late-1960s satirical military comedy scene in San Antonio, Texas. A fully clothed middle-aged Mexican general with a neat mustache, wearing an olive-green service uniform and peaked cap, stands at center-left with comically dignified confidence. Behind him a small motley group of adult soldiers in ordinary olive uniforms waits in an imperfect line before the pale weathered limestone facade of the Alamo mission, arched wooden doorway and low trees visible. No aiming weapons, no fighting, no injuries. Hot clear daytime light, warm cream stone and muted olive fabric, natural bright vintage color 35mm photography, eye-level wide 2.35:1 frame, understated humorous expressions rather than caricature or racial stereotypes. Original fictional adults. No readable text, captions, logos, collage or poster layout. This is an AI story-content concept based on an authoritative film synopsis, not an authentic film frame or a verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://catalog.afi.com/Catalog/moviedetails/22525",
+          "basis": "权威电影机构或发行平台内容简介；画面构图为AI概念创作，并非首镜核验"
+        }
+      ],
+      "adaptationNote": "首条为通用器材风格模板且缺少可靠画面细节；依用户既有授权采用发行方或电影机构简介创作内容概念，非影片首镜。"
+    },
+    {
+      "wid": "src-wd-q1410209",
+      "title": "比安布尔更黑",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1410209.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/3e702c55690b22274f75f45bba2859890538c835/originals/film-coverage-10141-20261127/src-wd-q1410209.png",
+        "sha256": "da864e82f57800a43b66a83c2950fab279844e624535483b6be323341a7b1c1e",
+        "bytes": 2378203,
+        "width": 1921,
+        "height": 819,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "cd51d417b00b78f1235565ca802db9fc46859c84135a6b77a545daf6ef49d7e8",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "七十年代佛罗里达群岛近桥水域，一名成年私家侦探与朋友站在旧船甲板上钓鱼并观察远处，海水青绿，船木与暖日光形成平静但隐有悬念的内容参考。",
+      "actualPrompt": "Create one original cinematic photographic reference image, one coherent frame. A 1970 Florida Keys coastal mystery atmosphere. Two fully clothed middle-aged men on the deck of a modest weathered houseboat, one a broad-shouldered private detective in an open-collar pale cotton shirt and navy trousers holding a fishing rod, the other an older thoughtful friend in a simple short-sleeved shirt beside the cabin doorway. Their attention turns toward a distant low concrete bridge across turquoise water. Warm late-afternoon sunlight, worn teak wood, coiled rope, soft ripples and green mangrove shoreline, subdued amber highlights and cool green-blue water, naturally textured color 35mm photography, eye-level medium-wide 2.35:1 composition. Calm surface with a hint of suspense. No endangered people, no injury, no guns, no violence. Original adult characters, not actor portraits. No readable text, captions, logos, collage or poster layout. This is an AI story-content concept based on an authoritative film synopsis, not an authentic film frame or a verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://catalog.afi.com/Film/23521-",
+          "basis": "权威电影机构或发行平台内容简介；画面构图为AI概念创作，并非首镜核验"
+        }
+      ],
+      "adaptationNote": "首条为通用器材风格模板且缺少可靠画面细节；依用户既有授权采用发行方或电影机构简介创作内容概念，非影片首镜。"
+    },
+    {
+      "wid": "src-wd-q1410244",
+      "title": "警察大賊",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1410244.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/3e702c55690b22274f75f45bba2859890538c835/originals/film-coverage-10141-20261127/src-wd-q1410244.png",
+        "sha256": "95d5f419cb0750d3cb4daefed77d06d3dd82fbc4735c7ac02fdeed4b6b96c1e7",
+        "bytes": 2623820,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "b79f74ea4ec76e09e9360a4b5997306570a17d64cfab95e577d4e209d5d8230d",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "七十年代曼哈顿街角，两名穿深蓝制服的成年纽约警察在老式巡逻车旁低声谈话，砖楼、黄色出租车和繁忙街景形成犯罪轻喜剧内容概念。",
+      "actualPrompt": "Create one original cinematic photographic reference image, one coherent frame. Early-1970s New York crime-comedy atmosphere. Two fully clothed adult male city police officers in plain dark navy period uniforms, peaked caps and simple badges stand beside a boxy early-1970s patrol sedan on a Manhattan street corner, leaning slightly toward one another in a private skeptical conversation. One has short dark curly hair and a mustache, the other a stockier clean-shaven face; both original fictional people. Weathered brick apartment facades, a yellow taxi, a deli awning without visible lettering, a fire escape and distant adult pedestrians. Gray daylight with warm reflected shop-window light, gritty muted color 35mm grain, natural skin and wool textures, medium-wide eye-level 1.85:1 framing with urban depth. No drawn weapons, no violence, no active criminal instruction. No readable text, captions, logos, collage or poster layout. This is an AI story-content concept based on an authoritative film synopsis, not an authentic film frame or a verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://kinolorber.com/film/copsandrobbers",
+          "basis": "权威电影机构或发行平台内容简介；画面构图为AI概念创作，并非首镜核验"
+        }
+      ],
+      "adaptationNote": "首条为通用器材风格模板且缺少可靠画面细节；依用户既有授权采用发行方或电影机构简介创作内容概念，非影片首镜。"
     },
     {
       "wid": "src-wd-q16028796",
