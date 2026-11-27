@@ -18,7 +18,9 @@ const buildUrls = vm.runInNewContext(`${urlCode};buildUrls`, {
   IS_GH_HOST: true,
   CDN_BASES: ['https://gcore.jsdelivr.net/gh/aikingtai-ctrl/jintai-history-image-library@main/'],
 });
-assert.match(buildUrls('d1/nightly_20261016_001.js', 'd1/nightly_20261016_001.js')[0], /\/90d6a7d673ebfd18560d62265cde449994555c30\/d1\/nightly_20261016_001\.js$/);
+const indexUrls = buildUrls('d1/nightly_20261016_001.js', 'd1/nightly_20261016_001.js');
+assert.match(indexUrls[0], /\/main\/d1\/nightly_20261016_001\.js\?v=\d+$/);
+assert.match(indexUrls[1], /\/90d6a7d673ebfd18560d62265cde449994555c30\/d1\/nightly_20261016_001\.js$/);
 const infoCode = index.match(/^function histOriginalInfo\(id\)\{[^\n]+/m)?.[0];
 const previewCode = index.match(/^function histPreview\(id\)\{[^\n]+/m)?.[0];
 assert.ok(infoCode && previewCode);
