@@ -754,8 +754,9 @@ async function updateLiveShotManifest(){
   const response=await fetch(url,{cache:'no-store',signal:ctl.signal});if(!response.ok)return;
   const body=await response.text(),match=/window\.FILM_SHOT_IMAGES\s*=\s*(\{[^\n]*?\})\s*;/.exec(body);if(!match)return;
   const workMatch=/window\.FILM_SHOT_WORK_IMAGES\s*=\s*(\{[^\n]*?\})\s*;/.exec(body);
-  const remote=JSON.parse(match[1]),current=window.FILM_SHOT_IMAGES||{};
-  if(Object.keys(remote).length>=Object.keys(current).length){window.FILM_SHOT_IMAGES=remote;if(workMatch)window.FILM_SHOT_WORK_IMAGES=JSON.parse(workMatch[1]);window.FILM_SHOT_ASSET_REV='main';}
+  window.FILM_SHOT_IMAGES=JSON.parse(match[1]);
+  window.FILM_SHOT_WORK_IMAGES=workMatch?JSON.parse(workMatch[1]):{};
+  window.FILM_SHOT_ASSET_REV='main';
  }catch(e){console.warn('在线镜头画面清单暂不可用，使用站点内置版本',e);}finally{clearTimeout(timer);}
 }
 const REJECTED_FILM_SOURCES=new Set(["film-ai/dune-2021.jpg","film-ai/avatar-2009.jpg","film-ai/battle-royale-2000.jpg","film-ai/cold-war-2018.jpg","film-ai/restored/princess-mononoke-1997.jpg","film-ai/gladiator-2000.jpg"]);
