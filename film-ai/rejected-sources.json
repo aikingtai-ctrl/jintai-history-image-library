@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T10:10:20.518100+08:00",
+  "updated_at": "2026-11-27T10:22:18.220288+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -2340,6 +2340,132 @@
       "sha256": "0e23428574bd395269a1fa4ea9fa9109877ce14b0aace79a08797bf4c34dc4a4",
       "reason": "fantasy dragon and period characters unrelated to the modern flood film",
       "evidence": "20261127_影片去重续验_批次42只读/第05表_5部10图_联系表.png"
+    },
+    {
+      "wid": "rio-bravo-1959",
+      "src": "film-ai/rio-bravo-1959.jpg",
+      "sha256": "53b4ed15291c224a9e68bed3b5fc0c82b550fe0ff6cefc406bdfda550b296379",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "rio-bravo-1959",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/rio-bravo-1959-fc45020ea5ab.png",
+      "sha256": "fc45020ea5abcc5a24cabf51d9da9ab37a9f1489f5095b61146768220e777169",
+      "reason": "酒馆门楣写着 RIO BRAVO，旁有两名牛仔，但无法辨作 John Wayne 或 Dean Martin，牌匾也未获原片场景证明；片名文字与西部布景不足以确认关联。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "road-to-perdition-2002",
+      "src": "film-ai/road-to-perdition-2002.jpg",
+      "sha256": "8dc9dc1682fb54c8978eb706570d10cfe0d798fcd2f4f95347ae1d3ab13f9405",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "road-to-perdition-2002",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/road-to-perdition-2002-3e236311cd6a.png",
+      "sha256": "3e236311cd6a11fb77559bf78806e111bc2ba4d18a50bc623c716f3d415dc383",
+      "reason": "画面仅见雨湿地面上的两枚骰子，既无影片人物，也无可辨黑帮/父子剧情场域；暂缓片目归属。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "robocop-1987",
+      "src": "film-ai/robocop-1987.jpg",
+      "sha256": "78f5ebfa57b623aaf0e20ab3b941dab41956463d3804acd5c98b745c3e3caf80",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 1；不能算第二张不同剧照。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "robocop-1987",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/robocop-1987-6715946bebcc.png",
+      "sha256": "6715946bebcc5f688d835e31f381ed71d0588add655a4ed1dd0ea25429d3b5c3",
+      "reason": "城市街面只有普通警车，没有 RoboCop/ED-209、OCP 或可辨主角；底特律警车泛场景不足以认片。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "roman-holiday-1953",
+      "src": "film-ai/roman-holiday-1953.jpg",
+      "sha256": "62793b8d4847b37b2d03d6a019bab19be5f18f615ac7beb324e397ab11f53018",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "roman-holiday-1953",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/roman-holiday-1953-f46abdc4368d.png",
+      "sha256": "f46abdc4368df8322bfe05b3464b8e15b06f8a3ad9d85290cd5932f88ca38dce",
+      "reason": "只裁到裙摆及白鞋小腿，没有 Audrey Hepburn 面貌、罗马街景或记者人物；鞋履不能证明片目。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "romance-on-lushan-mountain-1980",
+      "src": "film-ai/romance-on-lushan-mountain-1980.jpg",
+      "sha256": "bf54eec290693da919d45b7223135d91fac6b9383062b95130da9490ff03cf53",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 2、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "romance-on-lushan-mountain-1980",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/romance-on-lushan-mountain-1980-bf70c8f494df.png",
+      "sha256": "bf70c8f494df3d3c1659a3dadc5541f6d46379e53dfddc12e72522756682c3e1",
+      "reason": "青年女子倚树望山，时代装束与庐山旅行相似，但人物无法可靠辨作张瑜，山形亦无特定庐山地标；暂缓。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "romeo-and-juliet-1968",
+      "src": "film-ai/romeo-and-juliet-1968.jpg",
+      "sha256": "bfb81e31726f8afdf02183b53ec20bc18c64f62a7f85e4451543bf74653a3388",
+      "reason": "本地 JPG 是同一明确错图/非剧照原图的较小压缩预览，画面同样拒用。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "romeo-and-juliet-1968",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/romeo-and-juliet-1968-70a0781573aa.png",
+      "sha256": "70a0781573aa8126ed4253b2d7c962f26e54b7558985fde7cd85af82b307daef",
+      "reason": "候选整幅黑白青年情侣庭院拥抱图，与机构记录的彩色原片媒介冲突；当前素材规范不接受把黑白改色/假原帧当剧照。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "romeo-juliet-1996",
+      "src": "film-ai/romeo-juliet-1996.jpg",
+      "sha256": "248f8e88f521a9dcf5818fdc960a157d78dec0e02fce2fff5a04b07799828764",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 1；不能算第二张不同剧照。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "romeo-juliet-1996",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/romeo-juliet-1996-f94fe2e2216f.png",
+      "sha256": "f94fe2e2216f75a54dc7efbeb720f89938f07c51b92e584d696db6a6f39a9660",
+      "reason": "画面从车镜望黄色敞篷车中一对男女，面孔无法辨为 DiCaprio/Danes，也无 Verona Beach 的明确地点或家族线索；暂缓。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "ryuichi-sakamoto-coda-2017",
+      "src": "film-ai/ryuichi-sakamoto-coda-2017.jpg",
+      "sha256": "c95c1d1842b61205408cdb4926480239b5d247dfe2f6e30d9ed656de002eb302",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "ryuichi-sakamoto-coda-2017",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2e1ecae604db3b0d3e7270b316a39fececb40d0d/originals/part-02/ryuichi-sakamoto-coda-2017-f7b5a7822e14.png",
+      "sha256": "f7b5a7822e14660f4451a4c569550e5270dcc0fd116c08a4c6390169e2a48ab4",
+      "reason": "森林中只见一名白发背影行人，未见坂本龙一面容、录音器材或明确创作动作；自然主题相似仍不足以锚定该纪录片。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "songs-from-the-second-floor-2000",
+      "src": "film-ai/songs-from-the-second-floor-2000.jpg",
+      "sha256": "54e84a2e2bae3083d3b14d7ef32dde0066989ccd69520d5d750c0ee15ff3e6de",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "songs-from-the-second-floor-2000",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/2e1ecae604db3b0d3e7270b316a39fececb40d0d/originals/part-02/songs-from-the-second-floor-2000-17a2a6578308.png",
+      "sha256": "17a2a6578308004416f2d8b69b3d4eda125dd338d8fd20d8f1b692f18b8f1246",
+      "reason": "灰白医院内三位医护与病床符合影片总体视觉风格，但机构片目没有确认该场景，人物也不可辨；暂缓具体片目归属。",
+      "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
     }
   ]
 }
