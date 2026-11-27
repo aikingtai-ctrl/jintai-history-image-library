@@ -59,6 +59,10 @@ details.chip-fold summary{cursor:pointer;color:#63706a;font-size:13.5pt;padding:
 
 .zg-image-card{margin:4px 0 10px;display:flex;flex-direction:column;gap:7px}
 .zg-image-card button{padding:0;border:0;background:transparent;text-align:left;max-width:100%}
+.zg-image-card button{position:relative;line-height:0}
+.zg-image-card button::before{content:"";position:absolute;right:10px;bottom:10px;z-index:1;width:26px;height:26px;border-radius:6px;background:rgba(12,25,21,.82);pointer-events:none}
+.zg-image-card button::after{content:"";position:absolute;right:19px;bottom:18px;z-index:2;width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:7px solid #fff;pointer-events:none}
+.zg-image-card button:hover::before,.zg-image-card button:focus-visible::before{background:rgba(12,25,21,.96)}
 .zg-image-card img{display:block;max-width:100%;max-height:420px;object-fit:contain;border-radius:9px;background:#ece9e3}
 .zg-image-card a{font-size:15pt;color:#1f5c48;align-self:flex-start}
 .zg-progress{font-size:15pt;color:#1f5c48;background:#e9f2ed;border-radius:8px;padding:7px 12px;margin:0 0 8px}
@@ -698,10 +702,10 @@ function zgRenderImageCard(card,record){
   const info=ZG_IMAGES[record.id];
   if(!info) return;
   const wrap=document.createElement('div');wrap.className='zg-image-card';
-  const button=document.createElement('button');button.type='button';button.title='查看 '+record.id+' 无损原图';
+  const button=document.createElement('button');button.type='button';button.title='查看 '+record.id+' 无损原图';button.setAttribute('aria-label','打开无损原图：'+record.id);
   const img=document.createElement('img');img.loading='lazy';zgSetPreview(img,info);img.alt=record.title+' 生成图预览';
   button.appendChild(img);button.onclick=()=>zgOpenOriginal(record,info);
-  const link=document.createElement('a');link.href=zgDownloadUrl(info.original_url);link.target='_blank';link.rel='noopener';link.textContent='查看或下载无损原图 · '+info.width+'×'+info.height;
+  const link=document.createElement('a');link.href=zgDownloadUrl(info.original_url);link.target='_blank';link.rel='noopener';link.textContent='下载无损原图 · '+info.width+'×'+info.height;
   wrap.append(button,link);
   if(record.id==='ZG-20261028-0309'){
     const note=document.createElement('p');note.textContent='白毯为影视诠释道具，非本次核对《幽明录》原文所载。';wrap.appendChild(note);
