@@ -1037,6 +1037,7 @@ function histMuseumTiff(id){
   return /^https:\/\/openaccess-cdn\.clevelandart\.org\/[^\s]+\.tif$/i.test(url)?url:'';
 }
 function histOriginalLabel(id){const info=histOriginalInfo(id);return info?.method==='museum_open_access_original'?(/\.jpe?g$/i.test(info.filename||'')?'馆藏高清 JPEG 浏览版':'馆藏无损 PNG 版'):info?.coverage_scope==='group_main_only_not_all_ten_variants'?'查看十态组主图':info?'查看原图':'查看预览';}
+function histArchitectureAlternative(id){if(window.JINTAI_GPT_2000_CORRECTIONS?.[id]?.action==='metadata_hold')return null;const arch=window.JINTAI_ARCH_GPT_IMAGES?.[id];return arch&&histOriginalInfo(id)!==arch?arch:null;}
 function openHistOriginal(r){
   const info=histOriginalInfo(r.id);
   if(!info){openHistLightbox(r);return;}
@@ -1045,6 +1046,13 @@ function openHistOriginal(r){
   if(!tab){alert('浏览器阻止弹出原图，请允许弹出窗口后重试。');return;}
   tab.opener=null;
   tab.document.body.textContent='正在打开原始图片…';
+  historyOriginalUrl(info).then(url=>tab.location.replace(url)).catch(()=>{tab.document.title='原图暂不可用';tab.document.body.textContent='原图入口暂不可用，请稍后重试。';});
+}
+function openHistArchitectureAlternative(r){
+  const info=histArchitectureAlternative(r.id);if(!info)return;
+  const tab=window.open('about:blank','_blank');
+  if(!tab){alert('浏览器阻止弹出原图，请允许弹出窗口后重试。');return;}
+  tab.opener=null;tab.document.body.textContent='正在打开本批 GPT Image 原始 PNG…';
   historyOriginalUrl(info).then(url=>tab.location.replace(url)).catch(()=>{tab.document.title='原图暂不可用';tab.document.body.textContent='原图入口暂不可用，请稍后重试。';});
 }
 let historyTunnelPromise,historyTunnelFetchedAt=0;
@@ -1441,6 +1449,7 @@ async function openCard(r){
     <h2>${esc(r.title)}</h2>
     ${histPreview(r.id) ? `<button type="button" class="history-detail-preview-button" id="dHistZoom" aria-label="${histOriginalLabel(r.id)}：${esc(r.title)}"><img class="history-detail-preview" src="${esc(histPreview(r.id))}" alt=""></button>` : ''}
     ${histMuseumTiff(r.id)?`<p><a href="${esc(histMuseumTiff(r.id))}" target="_blank" rel="noopener noreferrer">下载馆藏 TIFF 原件 ↗</a></p>`:''}
+    ${histArchitectureAlternative(r.id)?`<p><button type="button" id="dHistArchAlt" title="打开本批已验收的另一张 GPT Image 原始 PNG">查看本批 GPT Image 新生成原图（另一版本） ↗</button></p>`:''}
     ${r.story?`<div style="color:#63706a;font-size:14pt;margin-bottom:4px">典籍/题材：${esc(r.story)}</div>`:''}
     ${r.src?`<div style="color:#63706a;font-size:13.5pt;margin-bottom:4px">考证出处：${esc(r.src)}${r.hold?'（'+esc(r.hold)+'）':''}</div>`:''}
     <p style="color:#45534d;margin:6px 0 10px;line-height:1.6">${esc(r.brief||'')}</p>`;
@@ -1449,6 +1458,7 @@ async function openCard(r){
     $('dHistZoom').setAttribute('aria-label',histOriginalLabel(r.id)+'：'+(r.title||''));
     $('dHistZoom').onclick=()=>openHistOriginal(r);
   }
+  if($('dHistArchAlt'))$('dHistArchAlt').onclick=()=>openHistArchitectureAlternative(r);
   const t=$('dtabs'); t.innerHTML='';
   (r.variants||[]).forEach((v,i)=>{
     const b=document.createElement('button');
