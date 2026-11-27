@@ -1,0 +1,20 @@
+/* Display-only qualifications. Frozen shards and original images are unchanged. */
+(()=>{
+  const specs={"HL-SHANG-SC-0010":{"title":"商代田间启耕（耤田礼推拟）","level":"C（商代农耕有据；耤田礼与同场人物动作属学术解释和影视推拟）","note":"史料核对：中国国家博物馆论文把商代外服“男”的命名与耤田礼列为可能关联，并非某次商王亲耕现场的直接记录。图中带领者身份、众人岗位、衣着、木具使用方式、田畦、建筑及同场动作均为影视复原；冻结旧稿中的商王、贞人、乐工、鼓、旗、牛、酒尊同场没有本条直接证据。当前仅此一张主图已生成，其他视角仍为未生成原稿提示词。","source":"中国国家博物馆《甲骨文、殷礼与商代外服的命名》：https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_36653.shtml；原图生成前审计见本地 HL-SHANG-SC-0010-source-audit.md。","qualification":"农耕有据；“耤田礼”具体场景及人事组合为推拟","prompt":"Use case: historical-scene. ID HL-SHANG-SC-0010. Generate exactly one 16:9 horizontal image, a cautious cinematic interpretation of cultivation in the late Shang heartland near Anyang. In a small early-season field, an adult community leader in plain but slightly finer woven clothing places a simple wooden digging implement into a freshly prepared furrow while several other adults work the soil nearby with wooden hand tools; one carries a small seed basket. Low earthen field ridges, morning light, natural earth and cloth palette, physically plausible agricultural work, modest distant timber structures only. Oracle-bone research supports agricultural management and has been interpreted by some scholars as an early form of ceremonial field cultivation; it does not document the specific later imperial plowing ritual shown in the frozen catalog. Thus the leader's identity, exact ceremony, field, clothing and positions are film reconstruction. Do not portray a named Shang king, ox-drawn iron plow, regalia, flags, large orchestral rite, bronze ceremonial altar, later palace, invented legible script, captions, diagrams, border or collage."},"HL-SHANG-SC-0011":{"title":"商代制陶作坊（影视复原）","level":"C（商代作坊与制陶遗存有据；工人配置和同场动作推拟）","note":"史料核对：殷墟与商代都城遗址发现制陶作坊、制陶工具、陶窑等证据。图中三名陶工的身份、分工、性别、操作顺序、棚架和陶窑同场布局均为影视复原，不能当作某一处遗址的现场照片；冻结旧稿的三窑并列和固定岗位也无直接图像依据。当前仅此一张主图已生成，其他视角仍为未生成原稿提示词。","source":"河南博物院商代都城遗址资料：https://www.chnmus.net/clzl/2011-12/20/content_3611.htm；联合国教科文组织殷墟申遗档案：https://whc.unesco.org/uploads/nominations/1114.pdf；原图生成前审计见本地 HL-SHANG-SC-0011-source-audit.md。","qualification":"制陶遗存有据；工坊具体劳动场景为影视复原","prompt":"Use case: historical-scene. ID HL-SHANG-SC-0011. Generate exactly one 16:9 horizontal cinematic documentary reconstruction of a late Shang pottery workshop in the Anyang area. In a simple open earthen yard beside a timber shelter, three adult ceramic workers perform distinct coherent jobs: one shapes a gray clay vessel by hand on a modest low turning support, one uses a plain paddle to mark the surface of another damp vessel, and one carefully carries a drying vessel to a rack. A small earth-built kiln opening is visible farther back, unglazed gray pottery and clay lumps in natural scale. Ground-level 35 mm view, afternoon slant light, restrained brown and gray palette, tactile clay and soot. Excavations at Yinxu support pottery workshops, tools and kilns, but exact worker identities, gender, device form, kiln placement, actions and number are film reconstruction. Do not add a modern high-speed wheel, glazed porcelain, multiple huge kilns, factory machinery, later architecture, inscriptions, captions, diagrams, borders or collage."}};
+  const previous=window.applyJintaiSourceCorrection;
+  window.applyJintaiSourceCorrection=function(record){
+    if(previous)record=previous(record)||record;
+    const spec=record&&specs[record.id]; if(!spec)return record;
+    record.title=spec.title; record.anchor=spec.note; record.brief=spec.note;
+    record.src=spec.source; record.level=spec.level;
+    record.review_status='考古依据与影视复原范围已标明';
+    record.qualification=spec.qualification; record._sourceWarning=spec.note;
+    (record.variants||[]).forEach((view,index)=>{
+      if(view._shangSc10Sc11Applied)return;
+      if(index===0){view.label='主机位（已生成）';view.prompt=spec.note+'\n\n实际生成提示词：\n'+spec.prompt;}
+      else if(typeof view.prompt==='string'){view.prompt=spec.note+'\n\n未生成视角原稿提示词：\n'+view.prompt;}
+      view._shangSc10Sc11Applied=true;
+    });
+    return record;
+  };
+})();
