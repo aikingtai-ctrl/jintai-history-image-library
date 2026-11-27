@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T08:57:13.326413+08:00",
+  "updated_at": "2026-11-27T09:31:39.206454+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -2102,6 +2102,216 @@
       "sha256": "e3ce9b84f31a15056781c420ef2f6e7c23053651df512fc139311850f5628b05",
       "reason": "原图是通幅黑白宫廷双人画面，1994 发行方明确原片彩色；女主与男子亦无可靠 Adjani/Auteuil/Perez 锚点。按现行原貌剧照规范拒用该黑白改造图。",
       "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "raiders-of-the-lost-ark-1981",
+      "src": "film-ai/raiders-of-the-lost-ark-1981.jpg",
+      "sha256": "eae0eb2b876aff506e4b91c9323fc57850bee039c0dc2d7aa6bc77cf823bd3d9",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "raiders-of-the-lost-ark-1981",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/raiders-of-the-lost-ark-1981-89fbb74d47c5.png",
+      "sha256": "89fbb74d47c5b3f1a6fb5132001b3279016108cb41ec860d987f3ba68897d2cd",
+      "reason": "图中只有穿彩条毛衣的女学生在课堂发呆；不见 Indy、考古或约柜，衣着亦疑偏八十年代。可能是校园段落概念图，但无法归到 1936 年版。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "raining-in-the-mountain-1979",
+      "src": "film-ai/raining-in-the-mountain-1979.jpg",
+      "sha256": "4318a682806077f4a917d58018d1ea0e07d352df410aa09ce4a535c61bc7b8ea",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 2、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "raining-in-the-mountain-1979",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/raining-in-the-mountain-1979-8c7bbb48f847.png",
+      "sha256": "8c7bbb48f847ff5c476ced406db13dac00c35bca616261af90c4897eb7d92087",
+      "reason": "图中只有现代风格高山湖泊空镜，不见寺院、僧人、盗经或任何角色；山水相似不足以归片。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "ratcatcher-1999",
+      "src": "film-ai/ratcatcher-1999.jpg",
+      "sha256": "3d571e13f2ef6b07bcc5b1658452e90dc938fe1bfd08a97544e1cd42749d3972",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "ratcatcher-1999",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/ratcatcher-1999-0965a6bcc60a.png",
+      "sha256": "0965a6bcc60aa914ca088ceca83c957d8899762b8c46813fdeed0fe991d50b08",
+      "reason": "仅一双成人感眼睛的极近景，没有男孩、格拉斯哥住区或垃圾罢工线索；无法核实人物身份。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "rear-window-1954",
+      "src": "film-ai/rear-window-1954.jpg",
+      "sha256": "c7e5e8c0205c38f56db82a1bd2b0da2f560fe28fc6e0145bfd84eee40a9445aa",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "rear-window-1954",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/rear-window-1954-5550f99e7f9f.png",
+      "sha256": "5550f99e7f9ffcfb6f13b632f06e257f1089faa191990a33ec21a136a8287d37",
+      "reason": "画面焦点是杂志《Paris Fashions》印刷肖像和《Visitors from Australia》字样；虽可能呼应 Lisa 时尚身份，但无 Jeff、窗景或可核场次，不能当已证实剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "rebecca-1940",
+      "src": "film-ai/rebecca-1940.jpg",
+      "sha256": "1c7c0b6f3f7f6745b7faced642ec667a4495e3ae4692c09fe2bea4003ba7e93a",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "rebecca-1940",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/rebecca-1940-b69dcda31128.png",
+      "sha256": "b69dcda311285336d6631c0e66318fa04f84c7f7744893978c4c49741b78d06e",
+      "reason": "黑白卧床女子可能符合年代，却无 Manderley、Maxim、Danvers 或可确认 Joan Fontaine 面貌；暂缓。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "red-beard-1965",
+      "src": "film-ai/red-beard-1965.jpg",
+      "sha256": "200cdf9c976fc9767fde15800eba7968758e4196aadf873249f53a944a92c8df",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 2；不能算第二张不同剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "red-beard-1965",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/red-beard-1965-1770e4e1fd1a.png",
+      "sha256": "1770e4e1fd1af1db0c252318679265febb49c368267e4559b418943c34066281",
+      "reason": "图中只有着和服女子站在木屋前，未见诊所、病患、赤胡子或青年医师；时代与民居不构成片目锚点。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "red-cherry-1995",
+      "src": "film-ai/red-cherry-1995.jpg",
+      "sha256": "3dcd06112384b9c380f6852797c0f6ed533b5c01026f1a3c5ca97b39f48199ca",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 2、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "red-cherry-1995",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/red-cherry-1995-50801884baca.png",
+      "sha256": "50801884bacaa50b8f8916ca51c930d2ca8e447e612c1e1201d55b8373fcd613",
+      "reason": "图中白发欧洲老者戴贝雷帽与背影女子，缺中国儿童、战时校园或战争锚点；目前不能确认串片，也不采纳。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "red-firecracker-green-firecracker-1994",
+      "src": "film-ai/red-firecracker-green-firecracker-1994.jpg",
+      "sha256": "a6cf921495f812cbc850b6d69ecb42d93fca1a0d03462d99dd3db0698ef3504c",
+      "reason": "本地 JPG 是同一明确错图/非剧照原图的较小压缩预览，画面同样拒用。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "red-firecracker-green-firecracker-1994",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/red-firecracker-green-firecracker-1994-6f2f83ad2810.png",
+      "sha256": "6f2f83ad28105e8d7f36ba9fd3363b9ffe51fd0cedfcfdc5595104c78ff09342",
+      "reason": "画面叠人像、爆竹群景与大字 RED FIRECRACKER GREEN FIRECRACKER，是电影海报拼版而非片内剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "red-road-2006",
+      "src": "film-ai/red-road-2006.jpg",
+      "sha256": "854f6cc7f62ad9e4de6b9b12b269546f6c2f1daa82dfafa8cae74afa3e1a4f3c",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 2；不能算第二张不同剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "red-road-2006",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/red-road-2006-9ca8d16dc546.png",
+      "sha256": "9ca8d16dc54601abd82b41d564538a0c4c7f7402e23085ccd52912975daecbab",
+      "reason": "只有女子室内侧影和窗外夜灯，没有监控墙、Red Road 高楼或可辨 Kate Dickie；暂缓人物归属。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "reign-of-assassins-2010",
+      "src": "film-ai/reign-of-assassins-2010.jpg",
+      "sha256": "7e695d2be0deb657db4b066406b9599182012d7678cd459ad236dde764d888e7",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 2、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "reign-of-assassins-2010",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/reign-of-assassins-2010-d9136843dd86.png",
+      "sha256": "d9136843dd865ee8b58fae39081d9c73db62c328a2e65f361f3d4db869cff888",
+      "reason": "图中年轻刀客与白发老人未能可靠对上细雨或陆竹；泛武侠对战与该片特定人物关系仍缺证。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "repulsion-1965",
+      "src": "film-ai/repulsion-1965.jpg",
+      "sha256": "d687d3669da4a9c6d2b9154025ddf92723174ee2bcf1bb617e3dfae388a0f54b",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "repulsion-1965",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/repulsion-1965-2b6de0934112.png",
+      "sha256": "2b6de0934112c9b2326c8f981929512b1fb997bc023a989f4be33dfbabb270d6",
+      "reason": "背向镜头女子立在卧室窗前，虽然黑白公寓和孤独状态接近，但无法辨认 Carol/Catherine Deneuve 或片中特定空间。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "reservoir-dogs-1992",
+      "src": "film-ai/reservoir-dogs-1992.jpg",
+      "sha256": "d0965cd09242b13d3c3db62e289652a44576968172da6ecc7b6286e054c64586",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "reservoir-dogs-1992",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/reservoir-dogs-1992-c081be310df6.png",
+      "sha256": "c081be310df63c6c02e12887102abdfa1409d5ac665e3e4e3d3d80396081169e",
+      "reason": "背影七男走向停车场，衣着不齐且均不可辨演员；虽呼应团伙走位，不能与标志开场或片中抢劫人物逐一对应。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "return-of-the-jedi-1983",
+      "src": "film-ai/return-of-the-jedi-1983.jpg",
+      "sha256": "9628269b74f56049aec82b2ec489552747621b3868ae58632926c7a17fe8d74c",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "return-of-the-jedi-1983",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/return-of-the-jedi-1983-9a035c238f48.png",
+      "sha256": "9a035c238f484292c93076e0eb6370653fdfbb08f0bd70a2fcdbbaa3ef9d717b",
+      "reason": "画面为红眼皱皮、颈部肉环的不明异形；未能与官方 Jabba、Bib Fortuna 或皇帝形貌对应，暂缓角色归属。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "riding-alone-for-thousands-of-miles-2005",
+      "src": "film-ai/riding-alone-for-thousands-of-miles-2005.jpg",
+      "sha256": "fbf5f40ed0cb577745e2bc2697bfc1ca60bda7e7e4b18566c7d8078d702cac53",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "riding-alone-for-thousands-of-miles-2005",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/riding-alone-for-thousands-of-miles-2005-8b6fa4261d21.png",
+      "sha256": "8b6fa4261d2126d2c9cad12dd16ebc356e8678ebed7042998c802d05d3883b11",
+      "reason": "背影背包男子站湖边，面容、国别与傩戏场域全不可辨；不能仅凭独行景象认作高田。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "rififi-1955",
+      "src": "film-ai/rififi-1955.jpg",
+      "sha256": "14fa1e27d2a2145946d5191f7655bc71ce052fc3ad55afc53e9836750193d580",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "rififi-1955",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/rififi-1955-adeb9006e05c.png",
+      "sha256": "adeb9006e05c6d6b0c8baf6cfebbc3522ea233bb1f02c2778b9623eab638b519",
+      "reason": "黑白房间四人围地图，但其中人物无法认作 Tony 等四名男主，也无珠宝店/巴黎特征；泛犯罪策划场面暂缓。",
+      "evidence": "外链两路径第四批30部/逐图建议与联系表"
     }
   ]
 }
