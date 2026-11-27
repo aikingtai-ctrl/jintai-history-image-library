@@ -760,8 +760,18 @@ async function updateLiveShotManifest(){
 }
 const REJECTED_FILM_SOURCES=new Set(["film-ai/dune-2021.jpg","film-ai/avatar-2009.jpg","film-ai/battle-royale-2000.jpg","film-ai/cold-war-2018.jpg","film-ai/restored/princess-mononoke-1997.jpg","film-ai/gladiator-2000.jpg"]);
 const SAFE_FILM_FALLBACKS={"dune-2021":"film-ai/shots/YS-20261028-C15-dune-2021-11.webp","avatar-2009":"film-ai/decks/film-avatar-2009.webp","battle-royale-2000":"film-ai/quality-reviewed/battle-royale-2000.png","cold-war-2018":"film-ai/shots/YS-20261110-2300-cold-war-2018-06.webp","princess-mononoke-1997":"film-ai/decks/film-princess-mononoke-1997.webp","gladiator-2000":"film-ai/decks/film-gladiator-2000.webp"};
-function isKnownBadFilmSource(src){if(!src)return false;const value=String(src).split(/[?#]/)[0].toLowerCase(),at=value.lastIndexOf("film-ai/");return at>=0&&REJECTED_FILM_SOURCES.has(value.slice(at));}
+function isKnownBadFilmSource(src){if(!src)return false;const value=String(src).split(/[?#]/)[0].toLowerCase(),at=value.lastIndexOf("film-ai/");return REJECTED_FILM_SOURCES.has(value)||(at>=0&&REJECTED_FILM_SOURCES.has(value.slice(at)));}
 window.FILM_BAD_SOURCE_CHECK=isKnownBadFilmSource;
+async function updateLiveRejectedFilmSources(){
+ if(!IS_GH_FILM)return;
+ const ctl=new AbortController(),timer=setTimeout(()=>ctl.abort(),8000);
+ try{
+  const url=new URL('film-ai/rejected-sources.json',location.href);url.searchParams.set('v',String(Date.now()));
+  const response=await fetch(url,{cache:'no-store',signal:ctl.signal});if(!response.ok)return;
+  const doc=await response.json();if(!Array.isArray(doc.sources))return;
+  for(const entry of doc.sources){if(typeof entry?.src!=='string')continue;const value=entry.src.split(/[?#]/)[0].toLowerCase(),at=value.lastIndexOf('film-ai/');REJECTED_FILM_SOURCES.add(value);if(at>=0)REJECTED_FILM_SOURCES.add(value.slice(at));}
+ }catch(e){console.warn('在线错图清单暂不可用，使用站点内置版本',e);}finally{clearTimeout(timer);}
+}
 async function updateWorkGalleryManifest(){
  if(location.protocol==='file:'){await loadScriptOnce('film-ai/work-galleries.js?v=20261126-five-distinct',8000);return;}
  const ctl=new AbortController(),timer=setTimeout(()=>ctl.abort(),8000);
@@ -1936,7 +1946,7 @@ function selectRepresentativeShards(idxShards){if(idxShards.length<=32)return id
  return picked;}
 $('retryLoad').onclick=()=>location.reload();
 (async function init(){let sourceSummary,visualLoadFailed=false;try{
- const liveShots=Promise.all([updateLiveShotManifest(),updateLiveFilmAiManifest(),updateWorkGalleryManifest()]);
+ const liveShots=Promise.all([updateLiveShotManifest(),updateLiveFilmAiManifest(),updateWorkGalleryManifest(),updateLiveRejectedFilmSources()]);
  const summaryReady=loadScript(D4_DIR+'/summary.js?v=51733a2b5603',true);if(location.protocol==='file:'){await loadScript(FRAME_DIR+'/frames.js');FR=window.__FRAMES__||{};}
  if((await Promise.all(SHARDS.filter(x=>x.era!=='__detail__').map(s=>loadScript(DATA_DIR+'/'+s.file)))).some(ok=>!ok))visualLoadFailed=true;
  await summaryReady;await liveShots;sourceSummary=window.FILM_SOURCE_SUMMARY;if(sourceSummary){if(sourceSummary.version)SOURCE_VERSION=sourceSummary.version;$('sourceStats').hidden=false;$('sourceStats').innerHTML=`<b>${sourceSummary.catalogue_works.toLocaleString()}</b> 部作品目录 · <b>${sourceSummary.frame_references.toLocaleString()}</b> 条有来源画面参考${sourceSummary.prompt_records?` · <b>${sourceSummary.prompt_records.toLocaleString()}</b> 条镜头提示词（${sourceSummary.prompt_works.toLocaleString()} 部）`:""}${sourceSummary.award_works?` · <b>${sourceSummary.award_works.toLocaleString()}</b> 部获奖 · <b>${sourceSummary.classic_works.toLocaleString()}</b> 部经典榜单`:''} · <a href="sources.html">逐片镜头提示词与来源 →</a>`;}
