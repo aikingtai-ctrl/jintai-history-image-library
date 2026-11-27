@@ -240,7 +240,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
 @media print{body{background:#fff;color:#111;font-size:15pt}header.top,main,dialog,#toast{display:none!important}#printArea{display:block}
  #printArea .cover{page-break-after:always;padding:30mm 10mm}#printArea h1{font-size:30pt;margin:0 0 8mm}#printArea .pi{page-break-inside:avoid;display:grid;grid-template-columns:58% 1fr;gap:6mm;margin-bottom:8mm;border-bottom:1px solid #ccc;padding-bottom:6mm}
  #printArea .pi svg,#printArea .pi img{width:100%;height:auto}#printArea .pi h2{font-size:17pt;margin:0 0 2mm}#printArea .pi p{margin:1mm 0;font-size:13pt;line-height:1.55}#printArea .pal{height:6mm}@page{size:A4 landscape;margin:12mm}}
-</style></head><body>
+/* Original modal open triangle: lbOpenRaw */#lbOpenRaw.jt-original-action-icon{position:relative;display:inline-flex;align-items:center;justify-content:center;flex:0 0 26px;width:26px;height:26px;min-width:26px;box-sizing:border-box;overflow:hidden;white-space:nowrap;padding:0!important;font-size:0!important;border-radius:6px;border:1px solid rgba(255,255,255,.3);background:rgba(12,25,21,.88)!important;color:transparent!important;text-decoration:none;vertical-align:middle}#lbOpenRaw.jt-original-action-icon::after{content:"";display:block;width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:7px solid #fff;transform:translateX(1px)}#lbOpenRaw.jt-original-action-icon:hover,#lbOpenRaw.jt-original-action-icon:focus-visible{background:rgba(12,25,21,.98)!important}#lbOpenRaw.jt-original-action-icon:focus-visible{outline:2px solid #d6a64f;outline-offset:2px}#lbOpenRaw[hidden]{display:none!important}</style></head><body>
 <header class="top">
  <div class="topbar">
   <div class="brand">
@@ -2018,4 +2018,4 @@ document.addEventListener('click',async event=>{
  }catch{button.textContent='下载失败，请重试';}finally{button.disabled=false;}
 },true);
 </script>
-</body></html>
+<script id="jt-original-modal-a11y-lbOpenRaw">(()=>{const link=document.getElementById("lbOpenRaw");if(!link)return;const sync=()=>{const label=(link.textContent||"").trim();if(label){link.setAttribute("aria-label",label);link.title=label;}const href=link.getAttribute("href");const active=!!href&&href!=="#"&&!/(加载失败|尺寸异常|暂不可用|解析失败|地址无效)/.test(label);link.classList.toggle("jt-original-action-icon",active);if(!href||href==="#")link.setAttribute("aria-disabled","true");else link.removeAttribute("aria-disabled");};sync();new MutationObserver(sync).observe(link,{childList:true,characterData:true,subtree:true,attributes:true,attributeFilter:["href"]});})();</script></body></html>
