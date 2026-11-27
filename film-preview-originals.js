@@ -5,8 +5,12 @@
     return path && window.FILM_PREVIEW_NATIVE_MAP?.[path] || '';
   }
   function href(src) {
-    return /^https:\/\/github\.com\/aikingtai-ctrl\/jintai-history-image-library\/releases\/download\//i.test(src)
-      ? `film-image.html?src=${encodeURIComponent(src)}` : src;
+    if (/^https:\/\/github\.com\/aikingtai-ctrl\/jintai-history-image-library\/releases\/download\//i.test(src))
+      return `film-image.html?src=${encodeURIComponent(src)}`;
+    if (/^https?:\/\//i.test(src) &&
+        !/^https:\/\/aikingtai-ctrl\.github\.io\/jintai-history-image-library\/film-ai\//i.test(src)) return src;
+    const path = String(src || '').match(/(?:^|\/)(film-ai\/[^?#]+)(?:[?#].*)?$/i)?.[1];
+    return path ? `https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/${path}` : src;
   }
   window.filmNativeOriginalForPreview = original;
   window.filmNativeOriginalHref = href;
