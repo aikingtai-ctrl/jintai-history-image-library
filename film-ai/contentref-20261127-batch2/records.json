@@ -177,6 +177,58 @@
       "preview": "film-ai/contentref-20261127-batch2/src-1b3e8fed2232b2f7.jpg",
       "previewSHA256": "bf53632c016946ea427de156502bfe4ef385c0979da18a5ff243ac15e6d1def8",
       "method": "built-in image_gen"
+    },
+    {
+      "wid": "src-1a65f0e4da27b2d1",
+      "title": "A Nightmare on Elm Street",
+      "year": 2010,
+      "referenceScene": "虚构人物独自举手电穿过蓝绿色的空旷学校走廊，呈现噩梦般的心理恐怖氛围。",
+      "referencePrompt": "Use case: stylized-concept. Asset type: one landscape 16:9 original AI content reference image for A Nightmare on Elm Street (2010). Primary request: a fictional fully clothed adult figure seen small from behind, holding a flashlight at the far end of a long empty school corridor at night; the narrow beam cuts through blue-green darkness and reveals lockers and a little mist. Psychological dream-horror mood, cinematic wide shot, restrained composition, no visible threat or violence. This is a newly imagined thematic reference, not a copied film frame. No recognizable actor, no striped sweater, no bladed glove, no text, title, logo or watermark.",
+      "originalSourceDescription": "幽暗冷蓝绿色的走廊深处一个人影举着手电筒刺破浓重黑夜",
+      "sourceEvidence": [
+        "https://catalog.afi.com/Film/66560-A-NIGHTMARE-ON-ELM-STREET",
+        "https://www.youtube.com/watch?v=CIyLNm_-qH4"
+      ],
+      "sourceSHA256": "600aecd68b4448240de292fd398bed97df344f70b20d23614a0d7a056045e12d",
+      "originalURL": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/d26c072deacd7ccc1a505cfa4fb5e9da5b721087/originals/contentref-20261127-batch2/src-1a65f0e4da27b2d1.png",
+      "originalSHA256": "6f7df18faf02007707af4b03aabcf25c158e555977653d544f6bb70481df3c87",
+      "preview": "film-ai/contentref-20261127-batch2/src-1a65f0e4da27b2d1.jpg",
+      "previewSHA256": "06454ce983e7003edb46bce78c6da1e82855b85cb380b7cb6e1b6874973de780",
+      "method": "built-in image_gen"
+    },
+    {
+      "wid": "src-1ab95e30384cc2c1",
+      "title": "A Safe Place",
+      "year": 1971,
+      "referenceScene": "虚构金发女性披花卉披肩，倚在花园木栏杆旁；幻想感的七十年代独立电影气息。",
+      "referencePrompt": "Use case: stylized-concept. Asset type: one landscape 16:9 original AI content reference image for A Safe Place (1971). Primary request: a fictional adult blonde woman stands beside a reddish wooden porch rail in a garden, framed from a distance by two dark vertical posts. She wears a deep blue shawl with bold abstract red flowers and a simple pale floral headband; a green bench and soft foliage recede behind her. Dreamlike early-1970s American independent cinema atmosphere, rich film color, contemplative expression, strong light entering from camera right. Use a painterly photographic treatment with visibly original features, no likeness of Tuesday Weld. A new thematic interpretation, not a copied film frame. No text, title, logo or watermark.",
+      "originalSourceDescription": "金发女子身披蓝底红花图案的披肩，头戴饰有粉色花朵的发带，倚靠在红褐色木质栏杆旁，背景可见绿色长椅与模糊的户外植被。",
+      "sourceEvidence": [
+        "https://www.criterion.com/films/27531-a-safe-place"
+      ],
+      "sourceSHA256": "964deddf0bab2b1ce5231c1c5e369bdc967f8b8a43cb881fc64521d89762217a",
+      "originalURL": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/d26c072deacd7ccc1a505cfa4fb5e9da5b721087/originals/contentref-20261127-batch2/src-1ab95e30384cc2c1.png",
+      "originalSHA256": "b51fe355696001f5638c0210a0be3a071dbe803f1dc05643fee4d2918925317b",
+      "preview": "film-ai/contentref-20261127-batch2/src-1ab95e30384cc2c1.jpg",
+      "previewSHA256": "208d62d129f84d56d71bbd2335ee54b9154b3bbf3e0a29ecef9a224f5ff0c41a",
+      "method": "built-in image_gen"
+    },
+    {
+      "wid": "src-1ab45e6e5ffef1be",
+      "title": "Inkheart",
+      "year": 2009,
+      "referenceScene": "虚构装帧师在昏暗石厅与几名随从对峙，打开古书，奇幻故事似乎正在显形。",
+      "referencePrompt": "Use case: stylized-concept. Asset type: one landscape 16:9 original AI content reference image for Inkheart (2009). Primary request: in a dark medieval stone hall, a fictional middle-aged bookbinder in a plain brown travel coat faces a small group of armed henchmen, while an old open book and a shaft of warm light hint at stories coming alive. Wide cinematic ensemble composition, family fantasy adventure atmosphere, dusty stone textures, visible faces with entirely original features. This is a newly imagined thematic reference to the film's magical reading and captivity, not a copied frame or actor likeness. No resemblance to Brendan Fraser, no text, title, logo or watermark.",
+      "originalSourceDescription": "阴暗的古堡地牢内，拥有“银舌头”魔力的布兰登·费舍与反派手下杰米·福曼等人对峙",
+      "sourceEvidence": [
+        "https://catalog.afi.com/Catalog/MovieDetails/64914"
+      ],
+      "sourceSHA256": "5208e36eb52af37fd535578b0c5125866c85d69144bf68aab992ddc84d9e9708",
+      "originalURL": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/d26c072deacd7ccc1a505cfa4fb5e9da5b721087/originals/contentref-20261127-batch2/src-1ab45e6e5ffef1be.png",
+      "originalSHA256": "c26d4e21c68b16754bdfac43c2bfc4ebcdbaacf8fa341a58eca4f37381f119da",
+      "preview": "film-ai/contentref-20261127-batch2/src-1ab45e6e5ffef1be.jpg",
+      "previewSHA256": "356aa356037acef67b60f3444112e90ded7330179f836217e7617b31f4f41d72",
+      "method": "built-in image_gen"
     }
   ]
 }
