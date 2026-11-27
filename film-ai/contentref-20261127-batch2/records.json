@@ -54,6 +54,58 @@
       "preview": "film-ai/contentref-20261127-batch2/src-1ace87d3cb1c1aee.jpg",
       "previewSHA256": "68fd756cd63b55dc2adca2777293a9eb94ef9d2e28f7e0639ef7cbb27d6cff8e",
       "method": "built-in image_gen"
+    },
+    {
+      "wid": "src-190cb759f26e9356",
+      "title": "Limelight",
+      "year": 1952,
+      "referenceScene": "1950年代伦敦剧场化妆间，虚构的年长杂耍艺人坐在亮灯镜前，身后年轻芭蕾舞者关切地望着他。",
+      "referencePrompt": "Use case: historical-scene. Asset type: one landscape 16:9 original AI content reference image for Limelight (1952). Primary request: in a modest 1950s London theater dressing room, a tired elderly fictional vaudeville performer in a dark suit sits in the foreground with one hand lightly on his chest while a young adult ballerina in a plain light dress stands behind him, watching with concern. A lit makeup mirror and theatrical bulbs in the background. Black-and-white classic cinema photography, restrained emotion, 1.37-era staging composed within a wide card. Newly imagined reference, not a copied movie frame; no resemblance to Charlie Chaplin or Claire Bloom. No text, logos, watermark or caricature.",
+      "originalSourceDescription": "黑白画面中，前景一名男子坐着，手按胸口，身后站着一名穿浅色裙装的女子，背景是带有镜子和多盏亮灯的化妆间。",
+      "sourceEvidence": [
+        "https://www.criterion.com/films/27557-limelight"
+      ],
+      "sourceSHA256": "bc4a055823260d86b72809189cc11c07a4ad10af4af7fdc6dd6ce6c5accce1cc",
+      "originalURL": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/33a1c6e671bfa57855d6c8848270cb4ed52c56fd/originals/contentref-20261127-batch2/src-190cb759f26e9356.png",
+      "originalSHA256": "c5c4511ff75394909c933a24b7ab5a1ee46ffb66e4316441e5a815021bbb10e4",
+      "preview": "film-ai/contentref-20261127-batch2/src-190cb759f26e9356.jpg",
+      "previewSHA256": "4a6d81078acd9680d727ceaf366e2c082bfe2dae25d6455fb547823f1ffb4435",
+      "method": "built-in image_gen"
+    },
+    {
+      "wid": "src-18981a47d9af6922",
+      "title": "White Of The Eye",
+      "year": 1987,
+      "referenceScene": "亚利桑那州沙漠社区，一辆1980年代深色轿车沿土路驶向仙人掌环绕的低矮房屋。",
+      "referencePrompt": "Use case: stylized-concept. Asset type: one landscape 16:9 original AI content reference image for White of the Eye (1987). Primary request: a lone dark 1980s sedan seen from behind on a dusty road in an Arizona desert community, approaching a low rust-colored house among towering saguaro cacti and dry shrubs, distant mountains under a deep blue sky. Style: striking 1980s cinematic thriller photography, sun-baked atmosphere, precise wide composition and natural textures. This is an original imagined setting reference informed by the film's desert location, not a film frame. No people, no violence, no blood, no title, no logos, no text, no watermark.",
+      "originalSourceDescription": "一辆深色轿车停在土路中央，车尾朝向镜头。背景是一栋红褐色平顶建筑，周围环绕着高大的仙人掌和灌木，远处是连绵的荒山，天空深蓝。",
+      "sourceEvidence": [
+        "https://www.bfi.org.uk/lists/10-great-overlooked-british-horror-films-1980s",
+        "https://player.bfi.org.uk/subscription/film/watch-white-of-the-eye-1987-online"
+      ],
+      "sourceSHA256": "20b72cdd9bf6f97ace45b376d412d7a60663e6bc5a331a4cfb485ec1c9c2e319",
+      "originalURL": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/33a1c6e671bfa57855d6c8848270cb4ed52c56fd/originals/contentref-20261127-batch2/src-18981a47d9af6922.png",
+      "originalSHA256": "c4570de0131311c2f36f08399b099044e0d5c3a33ed0f953f920f462d9068806",
+      "preview": "film-ai/contentref-20261127-batch2/src-18981a47d9af6922.jpg",
+      "previewSHA256": "76f9bf49cd377f6b124966269ca20913a02dce3c4fef0dc29d875c16fc494963",
+      "method": "built-in image_gen"
+    },
+    {
+      "wid": "src-198c85774c7a98f7",
+      "title": "Still Walking",
+      "year": 2008,
+      "referenceScene": "日本夏日住宅街，虚构的白发长者戴草帽与眼镜，停在有白色金属扶手的室外石阶旁。",
+      "referencePrompt": "Use case: photorealistic-natural. Asset type: one landscape 16:9 original AI content reference image for Still Walking (2008). Primary request: an elderly Japanese father with white hair, a plain straw hat and glasses pauses beside weathered outdoor concrete stairs with white metal railings in a quiet Japanese residential neighborhood on a bright summer day. Style: gentle naturalistic contemporary Japanese family drama, realistic 2000s setting and lived-in textures. Composition: medium side view, he looks down the street rather than at camera. Newly imagined content reference, not a copied frame or actor likeness; fictional face. The sky and all corners must be clean photographic image with no emblems, symbols, signatures, overlays or faint white marks. No text, title, logo or watermark.",
+      "originalSourceDescription": "一位戴草帽和眼镜的白发老者侧身站立，背景是带有白色栏杆的户外阶梯，台阶上有锈迹，光线明亮。",
+      "sourceEvidence": [
+        "https://www.criterion.com/films/27540-still-walking"
+      ],
+      "sourceSHA256": "aa8aded799d7d9c167b5cac9ed6583ff7f764fc0a0e71c6818ae4ca23e6a1ac4",
+      "originalURL": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/33a1c6e671bfa57855d6c8848270cb4ed52c56fd/originals/contentref-20261127-batch2/src-198c85774c7a98f7.png",
+      "originalSHA256": "d9f627b33f8a798a2dc2ba8fcf8f768c2e956d70b8ad2bb02f7aaa62139147c1",
+      "preview": "film-ai/contentref-20261127-batch2/src-198c85774c7a98f7.jpg",
+      "previewSHA256": "158c36c411305e7ace5d520138f0df469d5ae77aacb633f5c6baf6c7a6db6b67",
+      "method": "built-in image_gen"
     }
   ]
 }
