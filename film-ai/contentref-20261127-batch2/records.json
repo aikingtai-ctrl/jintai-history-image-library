@@ -106,6 +106,41 @@
       "preview": "film-ai/contentref-20261127-batch2/src-198c85774c7a98f7.jpg",
       "previewSHA256": "158c36c411305e7ace5d520138f0df469d5ae77aacb633f5c6baf6c7a6db6b67",
       "method": "built-in image_gen"
+    },
+    {
+      "wid": "src-195a730e6e4d8980",
+      "title": "The Killing of a Chinese Bookie",
+      "year": 1976,
+      "referenceScene": "1970年代洛杉矶夜晚，两名虚构男子走过一间小型夜总会外的彩色旧壁画与霓虹灯。",
+      "referencePrompt": "Use case: stylized-concept. Asset type: one landscape 16:9 original AI content reference image for The Killing of a Chinese Bookie (1976). Primary request: two fictional men in modest 1970s suits walk past a small Los Angeles nightclub at night, one in a grey jacket and one in an off-white shirt, beside a colorful worn mural and a dim red neon glow. Style: gritty independent American film photography, natural 35 mm grain, moody but unglamorous street lighting. Composition: candid medium-wide view with street and venue context. Newly imagined reference based on the film's nightclub-owner milieu, not a copied frame or likeness of Ben Gazzara. No readable signage, no violence, no weapon, no text, logos or watermark.",
+      "originalSourceDescription": "两名男子在夜间的彩色条纹墙面前行走，一人穿灰衣，一人穿白衣，背景有霓虹招牌和壁画，地面有路灯杆。",
+      "sourceEvidence": [
+        "https://www.criterion.com/films/958-the-killing-of-a-chinese-bookie"
+      ],
+      "sourceSHA256": "9300029380f69eb4c069267aee42884105bb4e495208aea371321e9fc2f17d32",
+      "originalURL": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/aa7794fdd7a5ed3194ce35f042b3c0520fda7e75/originals/contentref-20261127-batch2/src-195a730e6e4d8980.png",
+      "originalSHA256": "300fd7be15a6e3064ccb30b33de57b2e26acb50ac1623f48f612580e045a8131",
+      "preview": "film-ai/contentref-20261127-batch2/src-195a730e6e4d8980.jpg",
+      "previewSHA256": "43d6062f6deac5d693ef07fdc1142c8c4558e95c8e6891bbc42a7cfa235f8c71",
+      "method": "built-in image_gen"
+    },
+    {
+      "wid": "src-19fe750572d462b2",
+      "title": "Woman of the Year",
+      "year": 1942,
+      "referenceScene": "1940年代美国报社办公室，两位虚构记者在稿纸与打字机旁交换默契微笑。",
+      "referencePrompt": "Use case: historical-scene. Asset type: one landscape 16:9 original AI content reference image for Woman of the Year (1942). Primary request: two fictional 1940s American newspaper reporters, a female political columnist in a tailored blouse and a male sportswriter in a rumpled suit, sit together at a newsroom desk and share an amused, knowing smile. Black-and-white classic studio film photography, period typewriters and papers in the softly focused background, balanced medium two-shot. Newly imagined reference based on the film's two-reporter premise, not a copied frame or likeness of Katharine Hepburn or Spencer Tracy. No readable text, title, logos or watermark.",
+      "originalSourceDescription": "体育记者山姆与单手托腮的政治专栏女作家苔丝并肩露出默契微笑",
+      "sourceEvidence": [
+        "https://catalog.afi.com/Film/27562-WOMAN-OF-THE-YEAR?cxt=filmography",
+        "https://www.criterion.com/films/29137-woman-of-the-year"
+      ],
+      "sourceSHA256": "c880e9cb8301f8f5c5379782ffd388220b05caed7137c897cf0ac1c8c693335f",
+      "originalURL": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/aa7794fdd7a5ed3194ce35f042b3c0520fda7e75/originals/contentref-20261127-batch2/src-19fe750572d462b2.png",
+      "originalSHA256": "d5dcfbaadfb5d00adc36fb01ac267631060da70edf59bdcfc9877f3808566989",
+      "preview": "film-ai/contentref-20261127-batch2/src-19fe750572d462b2.jpg",
+      "previewSHA256": "645dd0b754b04747575930ae8a362d96fbbde7e842d89e99f85243e484bb7697",
+      "method": "built-in image_gen"
     }
   ]
 }
