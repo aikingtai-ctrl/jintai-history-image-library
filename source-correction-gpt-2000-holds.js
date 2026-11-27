@@ -119,11 +119,67 @@
   accepted('JT-HF-XIANQIN-OFF-15021',
       '比干（另一条目）：新图借同批 GPT Image 肖像保持人物一致；旧题“商纣王少”残缺，“少师”是另一人物，具体容貌仍为推拟。',
       [yinBenji,songShiji]);
+  const mengziGao='https://zh.wikisource.org/wiki/%E5%AD%9F%E5%AD%90/%E5%91%8A%E5%AD%90%E4%B8%8B';
+  const junShi='https://zh.wikisource.org/wiki/%E5%B0%9A%E6%9B%B8/%E5%90%9B%E5%A5%AD';
+  const shuoMing='https://zh.wikisource.org/wiki/%E5%B0%9A%E6%9B%B8/%E8%AA%AA%E5%91%BD%E4%B8%8B';
+  accepted('JT-HF-XIANQIN-OFF-16003',
+      '微子启：据《史记·宋微子世家》作周公平乱后在宋接见殷遗民的推拟场面；旧题“商帝乙长”残缺，已补为“帝乙长子”。',
+      [yinBenji,songShiji]);
+  accepted('JT-HF-XIANQIN-OFF-16007',
+      '胶鬲：依《孟子·告子下》“举于鱼盐之中”作鱼盐劳作场面；旧提示词“助周克商”缺少本条可靠一手依据。',
+      [mengziGao]);
+  accepted('JT-HF-XIANQIN-OFF-17009',
+      '甘盘：《尚书·君奭》将甘盘置于武丁时期；人物及对话为推拟，不把具体授学场面称为考古事实。',
+      [junShi]);
+  accepted('JT-HF-XIANQIN-OFF-18003',
+      '微子启：据《史记·宋微子世家》商末向太师、少师商议去留的叙事作解释性再现，区别宋国时期的另一条目。',
+      [songShiji]);
+  accepted('JT-HF-XIANQIN-OFF-18008',
+      '甘盘：据《尚书·君奭》作武丁时期贤臣的推拟肖像；冻结题名“名相”不是所核原文职衔。',
+      [junShi]);
+  accepted('JT-HF-XIANQIN-OFF-20004',
+      '伊尹：据《史记·殷本纪》“负鼎俎，以滋味说汤”作传世叙事场面；旧题“以鼎俎调”残缺，人物与菜肴均为推拟。',
+      [yinBenji]);
+  accepted('JT-HF-XIANQIN-OFF-20005',
+      '仲虺：早商议事场面为推拟；《仲虺之诰》今本篇章有伪古文争议，不把当场撰写、左相头衔及具体生卒年当作确证。',
+      [yinBenji,'https://zh.wikisource.org/wiki/%E5%B0%9A%E6%9B%B8/%E4%BB%B2%E8%99%BA%E4%B9%8B%E8%AA%A5']);
+  accepted('JT-HF-XIANQIN-OFF-20006',
+      '巫咸：据《史记·殷本纪》作太戊时期顾问推拟肖像；冻结提示词的神医及天算医药身份缺少所核史料依据。',
+      [yinBenji,junShi]);
+  accepted('JT-HF-XIANQIN-OFF-20007',
+      '伊陟：据《史记·殷本纪》劝太戊修德的传世叙事作推拟；桑谷异象及伊尹父子关系不作为确证。',
+      [yinBenji]);
+  accepted('JT-HF-XIANQIN-OFF-20008',
+      '巫贤：据《尚书·君奭》作祖乙时期人物推拟；旧题“勤政抚民”及“巫咸之子”未见所核文本直接支持。',
+      [junShi]);
+  accepted('JT-HF-XIANQIN-OFF-20010',
+      '傅说：依据武丁举用傅说与《说命》的传世叙事作工地旁劝说场面；不把当场写出三篇文书画成确证。',
+      [yinBenji,shuoMing]);
+  accepted('JT-HF-XIANQIN-SCH-18005',
+      '箕子：据《史记·宋微子世家》商末劝谏叙事作独处抚弦的推拟场面；不沿用后世官署及未核具体生卒年。',
+      [songShiji]);
+  accepted('JT-HF-XIANQIN-SCH-20009',
+      '甘盘：据《尚书·君奭》作聚落事务的推拟场面；“敦德修政”是旧题的概括，不作为可证具体事件。',
+      [junShi]);
+  accepted('JT-HF-XIANQIN-SCH-22009',
+      '箕子：借同批 GPT Image 肖像保持人物一致，作武王问《洪范》的传世叙事；旧题“大儒哲人”及朝鲜教化场面不沿用。',
+      [songShiji,'https://zh.wikisource.org/wiki/%E5%B0%9A%E6%9B%B8/%E6%B4%AA%E7%AF%84']);
+
+  const acceptedTitles=Object.freeze({
+    'JT-HF-XIANQIN-OFF-15021':'比干（另一条目）·商朝',
+    'JT-HF-XIANQIN-OFF-16003':'微子启（帝乙长子）·商末周初',
+    'JT-HF-XIANQIN-OFF-18008':'甘盘（另一条目）·商朝',
+    'JT-HF-XIANQIN-OFF-20004':'伊尹（负鼎俎说汤，传世叙事）·商朝',
+    'JT-HF-XIANQIN-OFF-20008':'巫贤（祖乙时期）·商朝',
+    'JT-HF-XIANQIN-OFF-20010':'傅说（《说命》传世叙事）·商朝',
+    'JT-HF-XIANQIN-SCH-20009':'甘盘（聚落事务场景）·商朝',
+    'JT-HF-XIANQIN-SCH-22009':'箕子·商末周初（《洪范》传世叙事）'
+  });
 
   function apply(record){
-    if(record&&record.id==='JT-HF-XIANQIN-OFF-15021'){
+    if(record&&acceptedTitles[record.id]){
       if(!record._gpt2000FrozenTitle)record._gpt2000FrozenTitle=record.title;
-      record.title='比干（另一条目）·商朝';
+      record.title=acceptedTitles[record.id];
     }
     if(record&&record.id==='JT-HF-XIANQIN-EMP-13026'){
       if(!record._gpt2000FrozenTitle)record._gpt2000FrozenTitle=record.title;
