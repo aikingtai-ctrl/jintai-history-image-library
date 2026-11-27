@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T20:06:09.310883+08:00",
+  "updated_at": "2026-11-27T20:39:57.656055+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -3383,6 +3383,139 @@
       "sha256": "b50ee62f40a51fd4446822f1594c996731e991491d8cebe9be36a25ee607b8e1",
       "reason": "绿色城市街道中仍是两人搬大型门/门框，延续 01 完全相同的核心动作；无新的开门世界或人物事件。",
       "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-26f17404ea803d01",
+      "src": "film-ai/goal9438/src-26f17404ea803d01.jpg",
+      "sha256": "1f6792382047d91c6114f17b33370cfc3da857e0cee9a9ef764f618c4b80d847",
+      "reason": "又是男子靠在同一蒸汽机车上，虽换角度但仍是铁路工人近景，缺新增情节点，语义近似。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-271149346e23c1a2",
+      "src": "film-ai/decks/film-src-271149346e23c1a2.webp",
+      "sha256": "938316a527a7c4fe29898d219a1f58ab2ab5c40002de041f0e66b3aeb4347383",
+      "reason": "雨夜街角小商店与波特兰夜生活相似，但人物太远，无法验证核心关系；与 02 同店街景重复。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2838230dda351258",
+      "src": "film-ai/shots/YS-20261110B4-M68-src-2838230dda351258-038.webp",
+      "sha256": "5bd90a48a7d8cca0010223d89598d83173d72eeb544b3ec0e7d94b80201fd22b",
+      "reason": "女子独处丛林小屋仅具地域氛围，没有离乡、战乱或可辨三位主角的独立锚点。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-292b35abdf357497",
+      "src": "film-ai/shots/YS-20261110B4-M68-src-292b35abdf357497-038.webp",
+      "sha256": "8dd0e00379aa2cbf2d820c4269b7dfc4bd23278a032797f6d0fddf4e0412fd59",
+      "reason": "单名男子眺望城市窗景，没有 Lennon/Epstein 双人关系及可识别角色特征。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2a5830940e9377e2",
+      "src": "film-ai/src-2a5830940e9377e2.jpg",
+      "sha256": "ec7a9ec4cef44eb72cee3e3510726b911de46f4eaed76345eb45ed467e651b15",
+      "reason": "白底卡通黄色笑脸竖拇指是插画表情包，不是角色或影片叙事画面。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2b1c41537511aae8",
+      "src": "film-ai/src-2b1c41537511aae8.jpg",
+      "sha256": "ff1f8506a56e063ba1e4603f16f65bf097f3dbad4455825187f979afe6a8761f",
+      "reason": "华丽室内服饰男女相拥，既无东归队伍或护图行动，也无法辨为莎吉尔玛/阿布；只凭古装爱情不足。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2b53db9f05898f12",
+      "src": "film-ai/src-2b53db9f05898f12.jpg",
+      "sha256": "a883a3147275553acdbb95ca1667fa2168d08615cfd3ac93b4454d630ca2fe67",
+      "reason": "金发少年近景只有垂下的绳索，不见红气球或可核的 Pascal 特征；不能以绳索认证原片。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2b5fccfaceeb18e6",
+      "src": "film-ai/shots/WORKCONCEPT-20261127-utan-kelly-2025-gpt.webp",
+      "sha256": "dfb728a1e98b77c4056cc2bff4813975cd41c2c7280c1e821f733d07ead4a5ce",
+      "reason": "深发女子抱毛毯站在雨夜楼梯口，但影片宣传资料所示 Esther 为粉色发；无法确认此人为同一母亲。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2bc45be1d8184f4b",
+      "src": "film-ai/src-2bc45be1d8184f4b.jpg",
+      "sha256": "9a1d551dfd156a54a997678875f20ee574d0f1c097da3bf8e7c61dcfb4a73565",
+      "reason": "棕榈树旁白色维多利亚屋只具恐怖片建筑氛围，无 Madison、杀人幻象或可核地点。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2be951371f148643",
+      "src": "film-ai/src-2be951371f148643.jpg",
+      "sha256": "d7818d3d34c1cc8073bb482d1cfe2baacda059502dec8adb5792163721a62925",
+      "reason": "男子裹毛巾指向远方绿谷，没有泳池或可核相邻家庭；无法证明是 Ned 特定行动。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2c1a6507c5d8661c",
+      "src": "film-ai/decks/film-src-2c1a6507c5d8661c.webp",
+      "sha256": "e7635f39f9b8935463a8d6f795840d4d6556648328d4f65fbbf8c059373f9d93",
+      "reason": "雨夜街边皮卡与小店没有 Cebe、Don、事故或可辨地点，只是通用乡镇气氛。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2c1a6507c5d8661c",
+      "src": "film-ai/src-2c1a6507c5d8661c.jpg",
+      "sha256": "f5832cc615bc2806b001bda1f84ef30405d4eadc9dfc1e1e4c5f58cccc599c2e",
+      "reason": "废旧房屋空景没有家庭人物、撞车或朋克少年主题，无法建立片目锚点。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2c425d59ce28ede9",
+      "src": "film-ai/decks/film-src-2c425d59ce28ede9.webp",
+      "sha256": "04fd60166dfd6084cc92eb7170e341872dad7d78b2f6bd97d968b3951439bcc9",
+      "reason": "放映机投出椅子与大衣的单幅画面只与实验电影形式泛相似；资料未给 1977 短片的可核场景。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2c425d59ce28ede9",
+      "src": "film-ai/src-2c425d59ce28ede9.jpg",
+      "sha256": "6e93766c1c8a546361e79a10ba0619ed207cc58eb96aeb47958388977d988da5",
+      "reason": "背对镜头的礼帽男子无可辨寺山作品人物与实验机制，无法凭片名父亲推定身份。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2c9d0a10585eeba8",
+      "src": "film-ai/goal9438/src-2c9d0a10585eeba8.jpg",
+      "sha256": "5e484cd57ade290d3dd4791a984f3a3e4506a82df1352450e33a0360ab3a00ec",
+      "reason": "热带落日栈桥空景既无 Allen/Madison，也无海中变身，不能凭海岸风光补图。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2d7db068560794cd",
+      "src": "film-ai/src-2d7db068560794cd.jpg",
+      "sha256": "281c69abdd3d156d4395b78e7673fc619f1bcbad1983c481843ad4697cd61b14",
+      "reason": "白布背景成年胡须男子正面摆拍，既非 16 岁 Juan 也没有撞车修车叙事，属人物宣传肖像而非场景。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2da7cd490252887d",
+      "src": "film-ai/src-2da7cd490252887d.jpg",
+      "sha256": "4284d7cd729595965bfad44ec013b50e2cc6d306bef99de6529e4056be37322e",
+      "reason": "东亚女子拿未擦除肖像照片，虽与照片母题接近，但人物、时代及照片擦除动作均未获机构资料核实。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2e0622a571d8794d",
+      "src": "film-ai/decks/film-src-2e0622a571d8794d.webp",
+      "sha256": "c67340e15334eccb04fcf0b0fdce9782bc319c78867cc9622e2e0f562177865e",
+      "reason": "女子背对镜子与雨夜伦敦窗景、手提箱，属惊悚情绪但无母亲遇害、双重身份或可核演员特征。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2e2f6e7a58a937ff",
+      "src": "film-ai/src-2e2f6e7a58a937ff.jpg",
+      "sha256": "ddd33f07072d9fbf67bc4109cbe6033dd34dfd77d67765e1c00340a0a5262684",
+      "reason": "古代东亚甲胄武士与头盔士兵谈话，不是 1942 华沙演员/纳粹间谍故事，人物及时代冲突。",
+      "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
