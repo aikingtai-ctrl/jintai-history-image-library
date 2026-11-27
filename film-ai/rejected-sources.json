@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T15:14:30.824744+08:00",
+  "updated_at": "2026-11-27T15:37:15.432581+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -2662,6 +2662,153 @@
       "sha256": "f3f99656fdcfe3046a6f1448aad55d664e2db39c2d105b559852ed862552d41d",
       "reason": "空工业廊道虽符合黑白工业质感，但无人物或人机异变锚点；片目关联不足，不作为第二张影片剧照。",
       "evidence": "第四十三批新增封面单片/逐图建议与联系表"
+    },
+    {
+      "wid": "src-06e11373f963423e",
+      "src": "film-ai/src-06e11373f963423e.jpg",
+      "sha256": "b1f0f55fdd5d38b93295fbc9a0d529d987cdd72a20f267d7f3044311f651ed47",
+      "reason": "丛林持枪长发男子的整幅黑白图与 AFI 的彩色影片媒介不符，也没有 Colt/Luger 人物组合；即便影片恶搞《第一滴血》，不能拿黑白仿片代本片剧照。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0745f3cbe8b14f66",
+      "src": "film-ai/src-0745f3cbe8b14f66.jpg",
+      "sha256": "2d7f8e77c21e3b5e4c81d18f83c52e0b492dba39a086a020f9e797c8921f4869",
+      "reason": "两名人类举火把看山谷，缺 Godzilla、Megalon、Jet Jaguar 或水坝，可作泛山景但无片目锚点。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0752f8e87a99d977",
+      "src": "film-ai/src-0752f8e87a99d977.jpg",
+      "sha256": "470a5dc62508773d708198e6a29b1bea07561bc277efb2871634400144e62f22",
+      "reason": "中年东亚女子室内近景无法辨为 Mùi 或其东家女主人，也无木瓜、家务或爱情事件。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-077e52b0ff64049d",
+      "src": "film-ai/src-077e52b0ff64049d.jpg",
+      "sha256": "9dc9b94d594158beb7ee936ff6be496c395a59e1078f92eee830af6042c7d065",
+      "reason": "现代走廊中的东亚女性近景与 AFI 明确的 Betty Ross/Jennifer Connelly 角色不合，且没有浩克、变身或实验线索。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-07e2c932467a40e9",
+      "src": "film-ai/src-07e2c932467a40e9.jpg",
+      "sha256": "fbb7e17847990110201ecd1f86794934861f81496b02a42daca664d9c2851d88",
+      "reason": "满街金色羽饰、旧时代礼服的白人狂欢队列与 AFI 明确的黑人爵士送葬行列及 1973 邦德造型不符。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-07e6a3eccccd38f3",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-07e6a3eccccd38f3.webp",
+      "sha256": "af1b22b23df2e4dc8c27435daf3717a16c65d1799d082b28ad1cfb7b08e27f96",
+      "reason": "丛林中一人拿图一人举望远镜，与任务泛相符，但背影无 Beckett/Miller 可核身份，和 02 同为丛林侦察语义。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-08f6104516eea011",
+      "src": "film-ai/shots/WORKCONCEPT-20261126-solomamma-2025-src-08f6104516eea011-gpt.webp",
+      "sha256": "54bdc75452fceef735f30214e5ef72f9c89c813bc093655fbce3234429423037",
+      "reason": "窗边女性看信的咖啡馆情绪近景，未见孩子、采访、捐赠者身份或 Edith 的记者工作锚点。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-08f6104516eea011",
+      "src": "film-ai/src-08f6104516eea011.jpg",
+      "sha256": "c7cb2227bfa724a7edb20c63382b9472842c198e5de8c36f17967a34b11da696",
+      "reason": "港湾女性望着背离男子，虽可泛指两人关系，但无法证明是 Edith 与捐赠者，亦无单亲母亲情节。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-09625dddb72df448",
+      "src": "film-ai/src-09625dddb72df448.jpg",
+      "sha256": "bc3eaa67833c602582e89b5eec9d6652b50461b48bd657b7ba4d20c2914f8169",
+      "reason": "金衣金发舞台歌手可能联想到表演线，但无法辨明 Zahara、Sara Montiel 影像或与 01 故事的具体关联。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-09db4e648c2f70ed",
+      "src": "film-ai/src-09db4e648c2f70ed.jpg",
+      "sha256": "19ae99f0908075fd3c7f4e062076e89e4e53a73499bd1233daa6ddead32db531",
+      "reason": "竹伞与雨中女子的乡野空景可泛指离乡，但缺 Tsuyu、Osaka、模特或电影特定事件。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0a124efd1bb544f2",
+      "src": "film-ai/src-0a124efd1bb544f2.jpg",
+      "sha256": "71ede04e942c93c67c720c6e72e2b082212e011e53cf630cadee7a603412fb95",
+      "reason": "室内两人望发光圆窗仅有迷幻氛围，无 Jimmy、Mod 服装、踏板车或 Brighton 情节。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0a63c218e21bd644",
+      "src": "film-ai/src-0a63c218e21bd644.jpg",
+      "sha256": "200a301b99657f0e8ec4f7f19a30cfab9b332dba7587c2537f171aa514923906",
+      "reason": "雾林空景无 Ron、Flip、电话、KKK 或警方行动；不能凭悬疑影调补图。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0b706e360e663f77",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-0b706e360e663f77.webp",
+      "sha256": "9f45b815c80d5723b1334769d2e14fb55cb808c16d2725943ee7e41557630631",
+      "reason": "彩带与空办公室只说明聚会场地，无 Vickers、受害者或事件；不可单凭装饰认作特定片段。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0bda29d4e03024b9",
+      "src": "film-ai/src-0bda29d4e03024b9.jpg",
+      "sha256": "599907d9885ebb2674b48db6afa80d25219a227fd6078e39663dfd9faaee528b",
+      "reason": "欧洲战场坦克旁有人搀扶伤兵，虽与二战背景相合，但无 Patton、Bradley 或可核影片事件。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0be10d7f0512a06b",
+      "src": "film-ai/src-0be10d7f0512a06b.jpg",
+      "sha256": "5dae94f6ab1e5dc91cc61592baa577b700bf37768e8f2082841dea7c0cc7848a",
+      "reason": "雨夜汽车中的男女仅提供日本悬疑氛围，无怪兽、DNA、Shiragami 或实验线索。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0bff86f916d324d8",
+      "src": "film-ai/src-0bff86f916d324d8.jpg",
+      "sha256": "58b1a1b66fc1a1b6264d9cd3e05cbbc876b81c15d5e9ca900ad0696e2d47a5a6",
+      "reason": "黑白山林画面直接叠有‘山中客’片名字样，且与官方《骑士风云》彩色媒介、草原营救故事不符。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0c9638c6cacfb7a4",
+      "src": "film-ai/src-0c9638c6cacfb7a4.jpg",
+      "sha256": "b87590820f5e151b08797d7b3d2237490152cd1a07c004fe76b8df951d09e4f3",
+      "reason": "荧光色楼梯上的现代衣装男子无蝶、银幕或寺山 1974 实验结构锚点；未仅凭年代感判定错片。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0ce9b794b4d783a4",
+      "src": "film-ai/src-0ce9b794b4d783a4.jpg",
+      "sha256": "aa8f97cac347b577f87d9ec2daf604d62bdf64e315c91d37372b70bd31dc0678",
+      "reason": "单名持枪骑士穿过荒地，缺 Nancy、Comanche 追兵或可识别 Cody 面貌，未补第二张。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0d04cf264c864294",
+      "src": "film-ai/src-0d04cf264c864294.jpg",
+      "sha256": "78f0699c96f9da90f17fd21622f35ed21bf4b3344475ad84721b3e6cfbd9e5c9",
+      "reason": "云雾中的岛屿航拍仅重复 01 的地理信息，没有守卫、幸存者或新的离岛事件。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0d7946fd46e434f5",
+      "src": "film-ai/src-0d7946fd46e434f5.jpg",
+      "sha256": "179e9c61c76a9a62b3b43295fdec151297d4c0ccc2df0aa7b7c02d85dc521563",
+      "reason": "东亚通勤人群与反复出现的女子电子屏构成泛未来地铁，缺 Quaid、火星、记忆植入或可核 1990 场景。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0db63b7a91570fe0",
+      "src": "film-ai/src-0db63b7a91570fe0.jpg",
+      "sha256": "f11561b3f441bfa84524df6085a41aaa2245c0e91d4099afb58603aaf6522c82",
+      "reason": "整张只有装饰性‘MONEY IS ALL’字样，无人物、事件或影片场景，属于文字标语/道具孤图而非代表剧照。",
+      "evidence": "第四十四批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
