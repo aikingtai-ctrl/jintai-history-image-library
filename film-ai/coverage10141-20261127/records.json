@@ -1,8 +1,8 @@
 {
   "fixedScopeWorks": 10141,
   "scopeRevision": "b58616b8990a50aba2766810e46e84ccf7e21c8f",
-  "recovered": 31,
-  "generated": 25,
+  "recovered": 56,
+  "generated": 29,
   "assets": [
     {
       "wid": "src-wd-q105443659",
@@ -904,6 +904,656 @@
       "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
+      "wid": "src-4da36257f42f1386",
+      "title": "Indictment: The McMartin Trial",
+      "canonicalWid": "src-4da36257f42f1386",
+      "preview": "film-ai/src-4da36257f42f1386.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/src-4da36257f42f1386.png",
+        "sha256": "27aab65b6b6e23ef4112e1e1fd3334e22b40ba60a0e347bbf90152497016a794",
+        "bytes": 1782284,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "ebb60503420c382722fe688cc06095076e3227c46d236e4978d586e41059a370",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "昏暗室内留着棕色蓬松卷发的小男孩神情严肃而迷茫地直视镜头前方",
+      "actualPrompt": "Tight close-up indoors, a young boy with curly brown hair looking straight forward with a solemn and troubled expression.",
+      "firstShotId": "VP-src-4da36257f42f1386-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.7392898478720418,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "src-60b967ea3ca8f8f6",
+      "title": "Cinema Verite",
+      "canonicalWid": "src-60b967ea3ca8f8f6",
+      "preview": "film-ai/src-60b967ea3ca8f8f6.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/src-60b967ea3ca8f8f6.png",
+        "sha256": "2e53655dce622bf111d1d409468eeb9acf2fed0803b5253d203c72133374f1e2",
+        "bytes": 2499272,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "5c613f483d5c46ceca65e3b6ff35d52d8300a24f6326487f71937ffbfb2b9bd4",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "阳光庭院绿植前穿七十年代碎花衬衫配西装的高大男子与戴墨镜穿白裤的妻子并立",
+      "actualPrompt": "Medium two-shot outdoors on a sunny patio, a tall man in a 1970s floral shirt and blazer standing beside a woman in white trousers and sunglasses.",
+      "firstShotId": "VP-src-60b967ea3ca8f8f6-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.6712084872327921,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "tears-for-fears-everybody-wants-to-rule-the-world-1985",
+      "title": "Everybody Wants to Rule the World — 恐惧之泪乐队",
+      "canonicalWid": "tears-for-fears-everybody-wants-to-rule-the-world-1985",
+      "preview": "film-ai/tears-for-fears-everybody-wants-to-rule-the-world-1985.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/tears-for-fears-everybody-wants-to-rule-the-world-1985.png",
+        "sha256": "95ac21b07e999011e5010259481ebb830f02e81c76eac160dea29eb1ccba5a3b",
+        "bytes": 1871249,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "cc2ff19de6c5759d84da1c7ea271c45b75346f6797ca7673b316d0bc497bbd43",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "《Everybody Wants to Rule the World — 恐惧之泪乐队》明亮白色背景前，一名头戴鸭舌帽、身穿印花衬衫的小男孩双手各举一把玩具手枪瞄准前方。",
+      "actualPrompt": "Medium shot from Tears for Fears: Everybody Wants to Rule the World (1985), a young boy wearing a patterned shirt and cap aiming two toy pistols forward against a bright white background.",
+      "firstShotId": "VP-tears-for-fears-everybody-wants-to-rule-the-world-1985-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.7239395980789189,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "svaha-the-sixth-finger-2019",
+      "title": "娑婆诃",
+      "canonicalWid": "svaha-the-sixth-finger-2019",
+      "preview": "film-ai/svaha-the-sixth-finger-2019.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/svaha-the-sixth-finger-2019.png",
+        "sha256": "d17f2917738dcd46a2172c3b826e3bbeca9c7b00f14b6bff34c56638e793e3ef",
+        "bytes": 2719191,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "621938060f167916754f7313ff83b3a217422272b1cc933730c1d717425dce2a",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "白雪覆盖的江原道偏僻山路远景，李政宰饰演的宗教欺诈调查所朴牧师驾驶一辆白色皮卡车停在荒凉的雪坡与电线杆旁。",
+      "actualPrompt": "Snow-covered rural road wide shot, a white pickup truck parked on a snowy incline beside winter trees, captured with natural lighting and authentic cinematic composition.",
+      "firstShotId": "VP-svaha-the-sixth-finger-2019-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.8098916465593818,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "the-age-of-shadows-2016",
+      "title": "密探",
+      "canonicalWid": "the-age-of-shadows-2016",
+      "preview": "film-ai/the-age-of-shadows-2016.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/the-age-of-shadows-2016.png",
+        "sha256": "d1d98eac39178f7f75e08330fcd5c57fcdcafa12e4d786e7ab5be05da5553c50",
+        "bytes": 1888807,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "9dd357c6eb659323951c624d84d4d8903ed9c71b79ee13fe776b44e1d25ac08b",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "日本宪兵队审讯室或办公厅内的单人近景，鹤见辰吾饰演的日本警务局高层东村身穿黑底金章警官制服，眼神阴鸷冷酷地直视镜头。",
+      "actualPrompt": "Dark office medium close-up, Shingo Tsurumi in a black Japanese imperial police uniform staring coldly ahead, captured with natural lighting and authentic cinematic composition.",
+      "firstShotId": "VP-the-age-of-shadows-2016-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.7575574098156962,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "the-bow-2005",
+      "title": "弓",
+      "canonicalWid": "the-bow-2005",
+      "preview": "film-ai/the-bow-2005.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/the-bow-2005.png",
+        "sha256": "e6ce7f654ed1400d4f89c12cec57fcc0834876228ddee3fc384e04d48af1293e",
+        "bytes": 2351485,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "825e1b78af2f4c9363dce7d2c82bbf61d3945458a6d959dfa8b1334621f6fcab",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "漂浮于大海上的木船甲板特写，满头白发的老人拉满传统木弓并搭上利箭，沧桑皱纹充满神秘威慑力",
+      "actualPrompt": "韩国作者电影金基德风格海景特写镜头，湛蓝大海上的破旧渔船甲板旁，满头银白长发与胡须的年迈老人双目如炬，双手奋力拉满一张绘有彩色传统纹样的精致角弓，锋利箭矢直指画面左前方，耀眼的海上日光深刻勾勒出老人脸上的沧桑皱纹与弓弦张力，冷冽写实的胶片质感。",
+      "firstShotId": "VP-the-bow-2005-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.7059549531190594,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "the-last-waltz-1978",
+      "title": "最后华尔兹",
+      "canonicalWid": "the-last-waltz-1978",
+      "preview": "film-ai/the-last-waltz-1978.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/the-last-waltz-1978.png",
+        "sha256": "2758897dc163d80d8da6ec2b0e5baeaaadfb4a56342cfb40baf0e533bcc0a073",
+        "bytes": 2667600,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "bf2d3b347ff8d6cb66544ee84137e798d6f8d0692c3dd7e1b6256be8ea90c8c0",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "告别演唱会谢幕舞台上，头戴白礼帽的鲍勃·迪伦居中弹唱，身旁簇拥着众多摇滚巨星",
+      "actualPrompt": "音乐纪录片《最后华尔兹》（The Last Waltz, 1978，马丁·斯科塞斯执导）告别演唱会压轴大合唱全景剧照，旧金山舞台上，头戴白色礼帽、身穿深色夹克弹奏木吉他的鲍勃·迪伦（Bob Dylan）居中领唱，四周并排簇拥着Robbie Robertson、Rick Danko、Neil Young、Neil Diamond等十余位摇滚传奇巨星，辉煌的70年代35mm彩色舞台摄影。",
+      "firstShotId": "VP-the-last-waltz-1978-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.6515206571296621,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "the-admiral-roaring-currents-2014",
+      "title": "鸣梁海战",
+      "canonicalWid": "the-admiral-roaring-currents-2014",
+      "preview": "film-ai/the-admiral-roaring-currents-2014.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/the-admiral-roaring-currents-2014.png",
+        "sha256": "6747a5332794f8051cbaf4c4721dd4a836cebe655180cc9633de053d0e744fe3",
+        "bytes": 1967639,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "d550b83eafa258dcda7d730f17ac71c524dcaf98de81d8842492606db05802f9",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "昏暗压抑的战船舱室内身穿厚重黑色日本武士铠甲的倭军将领神情阴沉地端坐凝视，金属甲片质感森严",
+      "actualPrompt": "韩国古装海战史诗大片室内近景，昏暗压抑的日本安宅船指挥舱室内，身穿全套黑色漆面当世具足武士重甲、内衬金纹锦缎的日本水军年长将领正襟危坐，面容瘦削阴鸷、双目微眯冷冷凝视前方，微弱的暖黄烛火在精良的黑色铁甲片上反射出金属光泽，沉重肃杀的古战场氛围。",
+      "firstShotId": "VP-the-admiral-roaring-currents-2014-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.6651186454310238,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "the-boy-and-the-world-2013",
+      "title": "男孩与世界",
+      "canonicalWid": "the-boy-and-the-world-2013",
+      "preview": "film-ai/the-boy-and-the-world-2013.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/the-boy-and-the-world-2013.png",
+        "sha256": "39843f78f3ff3e27ea0b4ed475e9261136fa8eda1364cd67d9eab18e6ea19fc0",
+        "bytes": 2325391,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "259c77437823cce975292848780ad6bafee54b33a6802bbe51ea7d8def4a6506",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "极简纯白背景上整齐排列着三排圆润翠绿的几何树冠且细小工人在树间劳作",
+      "actualPrompt": "Stylized Brazilian 2D hand-drawn animation wide shot featuring three neat horizontal rows of round green lollipop-shaped trees against a stark white background, with tiny stick-figure workers climbing ladders inside the canopies.",
+      "firstShotId": "VP-the-boy-and-the-world-2013-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.8928608630874877,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "src-4b93fa9498a29774",
+      "title": "人，性本色",
+      "canonicalWid": "src-4b93fa9498a29774",
+      "preview": "film-ai/src-4b93fa9498a29774.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/src-4b93fa9498a29774.png",
+        "sha256": "9b31788829c6929db46b19decdbe4fc656e541f7c6b0dc13197c102d166c1c38",
+        "bytes": 2523891,
+        "width": 1939,
+        "height": 811
+      },
+      "jpgSHA256": "d3d52bbd5b864a6b96c7fae7ffb105fc3947846102d4b891ee71b1594c668bfe",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "变形宽银幕近景镜头下塞芙琳·卡尼尔饰演的多米诺站在砖墙窗边侧头凝视右方",
+      "actualPrompt": "Anamorphic widescreen close-up showing blonde Séverine Caneele in a dark jacket standing beside a brick wall and white window, looking toward the right in cool overcast northern French daylight, 50mm lens.",
+      "firstShotId": "VP-src-4b93fa9498a29774-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.6665852814906732,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "src-4bd15c9c59f7ef55",
+      "title": "我们的父亲",
+      "canonicalWid": "src-4bd15c9c59f7ef55",
+      "preview": "film-ai/src-4bd15c9c59f7ef55.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/src-4bd15c9c59f7ef55.png",
+        "sha256": "c7c7ffd228a7e48060ff3adb79981df6bc2403d43f91dcd70aa1bc9c208bdb17",
+        "bytes": 2262022,
+        "width": 1086,
+        "height": 1448
+      },
+      "jpgSHA256": "7350309503948688edd8b7e83f37e729c6620ab00d4234a8a119066a9f7129cf",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "圣丹斯电影节活动现场导演克里斯托弗·扎拉胸挂证件双手捧着奖杯微笑留影",
+      "actualPrompt": "Vertical medium close-up event photo of director Christopher Zalla wearing a dark blazer, white shirt, and festival lanyard badge, holding an award plaque in both hands with a bright smile, event flash lighting, 50mm lens.",
+      "firstShotId": "VP-src-4bd15c9c59f7ef55-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.6884463184107628,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "way-down-east-1920",
+      "title": "赖婚",
+      "canonicalWid": "way-down-east-1920",
+      "preview": "film-ai/way-down-east-1920.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/way-down-east-1920.png",
+        "sha256": "0ea39df195041b930ab6f3324f3d6cfbbc51a563582d9fdffcbfb0422f8f3f6b",
+        "bytes": 3000771,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "5d38a7028272983760cab4d3bd5bc5e9d0789965a37ebde5144e78c6c929efdb",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "冰天雪地的严冬外景片场，身穿厚重大衣的导演格里菲斯与莉莲·吉什等剧组人员同坐雪橇",
+      "actualPrompt": "默片《赖婚》（Way Down East, 1920，D·W·格里菲斯执导）黑白片场幕后工作合影，白雪皑皑的户外雪地上，导演D·W·格里菲斯身穿厚重毛皮翻领大衣与高帽坐在雪橇中央，周围簇拥着女主演莉莲·吉什及身穿冬装大衣的剧组主创人员，珍贵的1920年电影史档案照片。",
+      "firstShotId": "VP-way-down-east-1920-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.44524396402421895,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "src-wd-q78517080",
+      "title": "Confluencias",
+      "canonicalWid": "src-wd-q78517080",
+      "preview": "film-ai/src-wd-q78517080.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/src-wd-q78517080.png",
+        "sha256": "9c1cbeb71ae2a06fac210d520666b3d0540d806804a2fa27af2a370ece42afec",
+        "bytes": 3148806,
+        "width": 1024,
+        "height": 1536
+      },
+      "jpgSHA256": "186337dd2f4caab998a3cf11589b628f7cbc11a412ae7f607163bbd35462b3da",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "西班牙短片竖幅宣传图展示斑驳的白色拱门石柱旁站立着一名身穿蓝白服饰的男子",
+      "actualPrompt": "Vertical promotional poster for the 1998 Spanish short Confluencias, showing a figure in blue-and-white attire standing beside weathered stone pillars and an archway in gritty high-contrast tones.",
+      "firstShotId": "VP-src-wd-q78517080-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.5627892774683374,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "src-wd-q94106",
+      "title": "The Miracle of P. Tinto",
+      "canonicalWid": "src-wd-q94106",
+      "preview": "film-ai/src-wd-q94106.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/src-wd-q94106.png",
+        "sha256": "897b02a7689ff26715d30fa9f0aafa2df4e918b749e76b67163286cf3610856c",
+        "bytes": 2307196,
+        "width": 1054,
+        "height": 1492
+      },
+      "jpgSHA256": "b43edbd334fafa1caad3cc773cdf79add631708a46bb70e12f66ca898407585f",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "西班牙荒诞喜剧平托的奇迹英文版音像封面展现背着煤气罐腾空飞起的白衣怪人",
+      "actualPrompt": "Vertical English DVD cover for Javier Fesser's surreal comedy The Miracle of P. Tinto (1998), showing a man in a white padded suit with an orange gas tank strapped to his chest floating in a dark sky.",
+      "firstShotId": "VP-src-wd-q94106-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.6472598492877494,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "the-bands-visit-2007",
+      "title": "乐队来访",
+      "canonicalWid": "the-bands-visit-2007",
+      "preview": "film-ai/the-bands-visit-2007.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/the-bands-visit-2007.png",
+        "sha256": "ecf1ea158e5d9b3e4472d6335f5373a3e68fb404a4e1d16679c41b217ce8181a",
+        "bytes": 1932735,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "5df8b0baab75e586a264a0d0c2bd1e624ef683bcdd9ed00a633d33afc32a62a2",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "身穿天蓝色埃及警察乐队礼服的指挥陶菲克（萨松·加拜饰）右手举着大檐帽、神情拘谨严肃的近景",
+      "actualPrompt": "电影感中东冷幽默文艺片人物近景，2007年伊兰·科里林执导戛纳一种关注大奖《乐队来访》剧照，深暗背景前，萨松·加拜饰演的埃及警察乐队团长陶菲克侧身站立，他留着背头与八字胡，身穿天蓝色镶金边仪仗队礼服与白衬衫系领带，右手拿着蓝白大檐帽举在肩旁，眼神严肃地望向左侧。",
+      "firstShotId": "VP-the-bands-visit-2007-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.7667402591490811,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "ten-2002",
+      "title": "十",
+      "canonicalWid": "ten-2002",
+      "preview": "film-ai/ten-2002.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/ten-2002.png",
+        "sha256": "fd9a86120a9789470f3bc4116bf7d955e666c58e942160d8b1627045f08a0588",
+        "bytes": 2024338,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "750eecff433b621e42d831d11fd010dc69b61b99c30708455911f15536f03f52",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "行驶轿车内近景中头戴黑色头巾身穿黑西装的女司机面带明朗笑容望向副驾驶座",
+      "actualPrompt": "Medium close-up inside a moving car, Iranian actress Mania Akbari wearing a black headscarf and dark blazer smiling warmly toward the passenger seat, Abbas Kiarostami digital realism.",
+      "firstShotId": "VP-ten-2002-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.6803606580336637,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "src-wd-q9031548",
+      "title": "Mensaka",
+      "canonicalWid": "src-wd-q9031548",
+      "preview": "film-ai/src-wd-q9031548.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/src-wd-q9031548.png",
+        "sha256": "6d83714dc68e1e56e10c3e58317cf84b89c2e21272cfaa9ab6b54abd8bcf6251",
+        "bytes": 2599361,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "748eb7d1d2c3f105da6a5c043d864abe1d91ca29f0550b90f94415143d6bdde2",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "马德里城市高架桥与现代摩天大楼背景下青年骑摩托驶过且下方印有立体英文片名",
+      "actualPrompt": "Wide urban title shot in Madrid showing a motorcycle courier riding across a concrete overpass with modern skyscrapers in the background and large 3D block letters spelling MENSAKA along the bottom.",
+      "firstShotId": "VP-src-wd-q9031548-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.6962043671461228,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "the-salesman-2016",
+      "title": "推销员",
+      "canonicalWid": "the-salesman-2016",
+      "preview": "film-ai/the-salesman-2016.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/the-salesman-2016.png",
+        "sha256": "71fef64924b9c823cd8d71b9f934e3abb4330e36a52b13a5b78d8cebfb006b65",
+        "bytes": 2131850,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "afd1edcb647d6abc1236344612e84d3ffc250445821f16213ba3e8f4df1f708e",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "洒满温暖阳光的德黑兰新居门边塔拉内·阿里多斯蒂饰演的妻子拉娜头披酒红头巾、手扶门把回头张望的近景",
+      "actualPrompt": "电影感伊朗家庭心理悬疑片室内近景，2016年阿斯哈·法哈蒂执导奥斯卡最佳外语片《推销员》剧照，阳光强烈的公寓门口，塔拉内·阿里多斯蒂饰演的妻子拉娜头包酒红色头巾、身穿深蓝色长袖外衣侧身站在雕花木门旁，右手搭在门锁上，正微微转头用温和而略带警惕的眼神望向室内。",
+      "firstShotId": "VP-8588625e3262482f",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.658725489740099,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "suspicion-1941",
+      "title": "深闺疑云",
+      "canonicalWid": "suspicion-1941",
+      "preview": "film-ai/suspicion-1941.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/suspicion-1941.png",
+        "sha256": "52414911c871dcd38c4a236bf863adcb7a93aace5873f3a175c0bfdb50d79653",
+        "bytes": 2378586,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "40dedc070f77d2330ce179ac33c29c41c1bfe752592d1962394ac75899827415",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "明亮古典的英国客厅内加里·格兰特饰演的魅力丈夫约翰尼身穿浅灰双排扣西装站在壁炉前微笑的黑白中景",
+      "actualPrompt": "电影感希区柯克悬疑经典黑白中景，1941年《深闺疑云》剧照，装饰考究的英国中产阶级别墅客厅壁炉前，加里·格兰特饰演的丈夫约翰尼·艾斯加斯身穿浅灰色双排扣西装外套、白衬衫配斜条纹领带，双手拿着烟斗面带迷人而神秘的微笑，风流倜傥的外表下透出一丝深不可测的气息。",
+      "firstShotId": "VP-5412a179d50a7fd8",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.4888070086104194,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "the-red-violin-1998",
+      "title": "红色小提琴",
+      "canonicalWid": "the-red-violin-1998",
+      "preview": "film-ai/the-red-violin-1998.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/the-red-violin-1998.png",
+        "sha256": "2844088bfbfe5b18da52369e66de42e98e46b5ba14b95b18b96bdb14c68bf1ca",
+        "bytes": 2092912,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "bca723fd76aa34dac7af9e7fa0b009d65bc55ed8c8107f5720090b106d9176cc",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "十九世纪烛光摇曳的房间内英国天才小提琴家波普赤裸上身拉奏红色小提琴，女作家情人在旁痴迷依偎的近景",
+      "actualPrompt": "电影感跨时代音乐传奇片双人近景，1998年《红色小提琴》英国篇章剧照，昏暗温暖的十九世纪古典卧室内，杰森·弗莱明饰演的浪漫主义小提琴大师弗雷德里克·波普一头长发凌乱披散，赤裸着胸膛闭目忘我地拉奏那把传奇的深红色小提琴，格蕾塔·斯卡奇饰演的情人紧贴在他右肩痴迷聆听。",
+      "firstShotId": "VP-c34ff7904cb5ce7d",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.6716932893813962,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "the-thomas-crown-affair-1968",
+      "title": "天罗地网",
+      "canonicalWid": "the-thomas-crown-affair-1968",
+      "preview": "film-ai/the-thomas-crown-affair-1968.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/the-thomas-crown-affair-1968.png",
+        "sha256": "b03236ba8b4231835d034a2ff2dc1097afe9f1bd5ba1612e92c80e125f1120cc",
+        "bytes": 2253032,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "24c0bf6fb4d6a2a9419a92ff6b380a026ef469cd09a398dbdf5a6535d423a367",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "阳光明媚的马球赛场边费·唐纳薇饰演的保险调查员维姬头戴米色宽檐圆帽、手持双筒望远镜观察的近景",
+      "actualPrompt": "电影感六十年代高定时尚犯罪片人物特写，1968年诺曼·杰威森执导《天罗地网》剧照，绿树环绕的户外马球赛场边，费·唐纳薇饰演的王牌保险调查员维姬·安德森头戴一顶优雅宽大的米粉色圆顶礼帽，佩戴珍珠耳环，身穿同色系高领外套，双手握着黑色望远镜，眼神敏锐冷艳地望向赛场。",
+      "firstShotId": "VP-ef909213f81af895",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.6884463184107628,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "the-borgias-2011",
+      "title": "波吉亚家族",
+      "canonicalWid": "the-borgias-2011",
+      "preview": "film-ai/the-borgias-2011.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/the-borgias-2011.png",
+        "sha256": "0e1db9c242c142391764eabf7f87ae9063067e5a993b1a01b392b67302373f6a",
+        "bytes": 2080971,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "a66c97fb6917c4229ab447fa746b2d202a94b02aac7c075f552288b3a2dc9b7d",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "古典石拱门旁穿深色长袍的年长男子激动拥抱血衣年轻男子的中景",
+      "actualPrompt": "Dramatic Renaissance interior medium two-shot in a stone doorway, an older man in dark robes embracing a young man wearing a bloodstained white billowing shirt, warm chiaroscuro lighting.",
+      "firstShotId": "VP-the-borgias-2011-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.6707233346668854,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "tale-of-tales-1979",
+      "title": "故事中的故事",
+      "canonicalWid": "tale-of-tales-1979",
+      "preview": "film-ai/tale-of-tales-1979.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/tale-of-tales-1979.png",
+        "sha256": "3bc51e72b1ba32413781e1485f6e6bea08d2da30a120a7cf9297e24ba150b16e",
+        "bytes": 2088508,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "5f1665a330594bc9626a5709cc4d99456e5c699ba6ad98d59f8be37fa7e2be7d",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "幽暗古朴的俄罗斯木屋室内，小灰狼孤零零地站在敞开的门框旁，门前亮着一团柔和的白光，四周家具在阴影中若隐若现。",
+      "actualPrompt": "Atmospheric cutout-animation wide shot inside a dimly lit rustic wooden house, the Little Grey Wolf standing near a glowing white bundle by the doorway.",
+      "firstShotId": "VP-tale-of-tales-1979-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.71602745233685,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "src-wd-q947076",
+      "title": "隐秘之河",
+      "canonicalWid": "src-wd-q947076",
+      "preview": "film-ai/src-wd-q947076.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/src-wd-q947076.png",
+        "sha256": "9059b172ecdf2fcff3657eafb2e796d711ec55fe46a440fd299c9301d7acc5e1",
+        "bytes": 3136376,
+        "width": 1024,
+        "height": 1536
+      },
+      "jpgSHA256": "71a49f89b109a3cbc57cf68ed799d4b20ef92bbe80d2718855f5f3d172fd802c",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "《隐秘之河》墨西哥原版手绘海报上，披着深色披肩的玛丽亚·菲利克斯手捧书本神情冷峻。",
+      "actualPrompt": "Vertical vintage Mexican poster for Hidden River (1948), featuring a dramatic painted portrait of Maria Felix in a dark shawl holding a schoolbook above bold red RIO ESCONDIDO lettering.",
+      "firstShotId": "VP-src-wd-q947076-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.5563904317114018,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "src-4a7376c262fa30ac",
+      "title": "航越地平线",
+      "canonicalWid": "src-4a7376c262fa30ac",
+      "preview": "film-ai/src-4a7376c262fa30ac.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/a1c3b0899a5cd5a85c31f5b88837945b8832c880/originals/film-coverage-10141-20261127/recovered/src-4a7376c262fa30ac.png",
+        "sha256": "fbe4e0127d16fd8d628f0eec44ef271c73663e34f818cc2346822f52478600e5",
+        "bytes": 2636319,
+        "width": 1024,
+        "height": 1536
+      },
+      "jpgSHA256": "3e9be939706180f9ee516e4df45c0f9591a3e0764a8dd70886748f4600006f82",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "竖幅暗黑背景肖像中满头蓬松红棕卷发的蕾伊身穿白色无袖背心神情坚毅直视镜头",
+      "actualPrompt": "Vertical close-up portrait of young Nicole Kidman with thick curly red hair wearing a white sleeveless top and looking intensely at the camera against a dark background.",
+      "firstShotId": "VP-src-4a7376c262fa30ac-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.5708295316175107,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
       "wid": "src-5fe7efd6415d2d39",
       "title": "U2 3D",
       "preview": "film-ai/firstshot-coverage10141-20261127/src-5fe7efd6415d2d39.jpg",
@@ -1365,6 +2015,31 @@
       "adaptationNote": "首条无可核实首镜细节，依据AFI关于三位歌曲作者在音乐排练中相遇的简介创作，明确非首镜，不展示受版权保护歌词。"
     },
     {
+      "wid": "src-wd-q1498484",
+      "title": "黑魔王",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1498484.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f6e5c81699e4b142bfef3f89d05c5e80d020f37f/originals/film-coverage-10141-20261127/src-wd-q1498484.png",
+        "sha256": "fff188e1bd3e516ba6a1c0e199ede877c2156b6de81d272844d5d7d2470176e0",
+        "bytes": 1942688,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "f53b7c7dd7dad1e1d410e464586e4987fd9419fb8d8318da3b08027c14408ce2",
+      "referenceLabel": "首条镜头描述 AI 参考图（非原片帧）",
+      "scene": "巨大幽暗拳击场，顶上一排白色灯点照亮中心白色方形擂台，两名成年拳手及白衣裁判为微小身影，看台沉入黑暗。",
+      "actualPrompt": "Generate one original cinematic black-and-white reference image based on this shot description: a huge indoor boxing arena is almost completely swallowed by velvety black darkness. A small luminous square boxing ring sits slightly below the center of a very wide high-angle view. Two adult professional boxers in ordinary boxing shorts and gloves circle at a respectful sporting distance inside, with an adult referee in a white shirt to their right. No punch impact or injury. Several rows of spectators are tiny dark silhouettes. High overhead, two receding lines of round white spotlights float in the darkness, concentrating their light on the pale ring canvas. Extreme noir negative space, luminous whites, smoky air, soft 1950s monochrome photographic grain, distant tiny figures, wide 1.85:1 landscape composition. The arena and people must be original, not exact actor portraits or a copied film frame. No text, logos, graphic violence, captions, poster or collage.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://film-grab.com/wp-content/uploads/photo-gallery/The_Big_Combo_01.jpg",
+          "basis": "已目视核对对应首条有效画面：巨大暗场中的灯列与拳击台；是源画面列表首条，不证明原片第一镜"
+        }
+      ],
+      "adaptationNote": "已查看首条有效画面，保留强烈明暗、远景和中央擂台构图；生成原创人物与空间，不声称核实整片开场顺序。"
+    },
+    {
       "wid": "src-wd-q16028796",
       "title": "底層的珍珠",
       "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q16028796.jpg",
@@ -1469,6 +2144,35 @@
       "adaptationNote": "保留首条可见画面的录音棚、长发浓须音乐人、合成器和圆形柔光灯构图；原描述将人物标作尼克·凯夫，身份不可靠，因此不使用该人名。本图非已核实的原片首镜。"
     },
     {
+      "wid": "src-wd-q7732986",
+      "title": "吹牛伯爵历险记",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q7732986.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f6e5c81699e4b142bfef3f89d05c5e80d020f37f/originals/film-coverage-10141-20261127/src-wd-q7732986.png",
+        "sha256": "77e9e365ddb3b4b229925bc18ce5c9ecb2f9ae56002d983c30606339312fc5fc",
+        "bytes": 3502523,
+        "width": 1469,
+        "height": 1071,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "be534a10e55a2ebf159a7b8b99bf055cad342c55f280e6c554c52d61aaae8a22",
+      "referenceLabel": "首条镜头描述 AI 参考图（非原片帧）",
+      "scene": "孔雀青蓝风暴天空，密集版画线条般的斜雨掠过暗云，分叉白色闪电横跨天空；无人物与地面。",
+      "actualPrompt": "Generate one original fantastical vintage-cinema reference image: the whole frame is an immense peacock-teal and deep cyan storm sky, with absolutely no ground, buildings or people. Dense fine oblique rain streaks sweep diagonally across layered turbulent dark clouds, resembling crosshatched engraved lines. A brilliant branching white lightning bolt snakes from the left upper-middle toward the right side with smaller delicate forks. Deep teal ink shadows, subtle hand-tinted early-1960s optical-film texture, painterly engraved cloud detail and luminous pale lightning bloom. Landscape 1.37:1 composition, elegant coherent lightning structure, dramatic but lyrical atmospheric image. Create a new storm arrangement rather than copying an existing frame. No lettering, captions, logos, poster or collage.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://film-grab.com/wp-content/uploads/photo-gallery/The_Fabulous_Baron_Munchausen_01.jpg",
+          "basis": "已目视确认首条有效画面为青蓝闪电与斜雨"
+        },
+        {
+          "url": "https://www.criterion.com/films/29652",
+          "basis": "发行方确认1962年卡尔齐曼作品身份与奇幻美术性质"
+        }
+      ],
+      "adaptationNote": "已查看首条有效画面：纯青蓝天空与大闪电，按画面描述原创重构；不声称核实原片开场顺序。"
+    },
+    {
       "wid": "src-wd-q85801170",
       "title": "最後一個平安夜",
       "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q85801170.jpg",
@@ -1493,6 +2197,31 @@
         }
       ],
       "adaptationNote": "按该作品首条可核对画面描述生成；未证实为影片开场首镜，因此明确标注非首镜。未沿用通用设备风格模板。"
+    },
+    {
+      "wid": "src-wd-q85855063",
+      "title": "八五盛夏",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q85855063.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f6e5c81699e4b142bfef3f89d05c5e80d020f37f/originals/film-coverage-10141-20261127/src-wd-q85855063.png",
+        "sha256": "2d1a3aeaf73bfab4fe53d4b1cf698e6b85b2f3d401b6627d8678e8f9dbaf3ff6",
+        "bytes": 2244700,
+        "width": 1728,
+        "height": 910,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "2c1ef6708288c170c36649cedf51c760a45916bf7503c9c9664c987552149f37",
+      "referenceLabel": "AI改编参考图（非首镜）",
+      "scene": "法国滨海警局旧地下通道，穿深色制服平顶帽的成年警员与穿浅蓝牛仔夹克的成年青年背对镜头并排前行，冷青荧光灯、斑驳墙面和纵深门廊。",
+      "actualPrompt": "Create one original cinematic photographic adapted reference scene. Rear view of TWO FULLY CLOTHED ADULT MEN walking calmly side by side down a narrow old corridor of a small French coastal police station in the mid-1980s. On the left, an adult police officer in a plain dark uniform and flat-topped kepi; on the right, a clearly adult twenty-year-old young man in a faded light-blue denim jacket and dark trousers. Their hands stay separate and relaxed, no grabbing or restraints. Ceiling fluorescent tubes cast dim cool cyan light on worn gray-green walls, chipped plaster, old wood doors and a hazy doorway at the far end. Claustrophobic perspective, subtle handheld-camera realism, analog 1980s film grain, muted blue-green shadows, medium-wide 1.85:1 composition, original people seen only from behind. No minors, violence, injuries, weapons, readable signs, lettering, captions, poster, logos or collage. AI adapted reference scene, not a real movie still or verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://film-grab.com/wp-content/uploads/photo-gallery/Summer_of_85_01.jpg",
+          "basis": "已查看首条有效画面，人物背面位于冷暗走廊；成年化和取消抓握为用户已批准的改编"
+        }
+      ],
+      "adaptationNote": "已核对源画面；把原少年改为明确20岁的原创成年人，取消抓握押解细节，保留背面双人和冷色走廊构图。标明改编及非首镜。"
     },
     {
       "wid": "src-wd-q914190",
@@ -1543,6 +2272,31 @@
         }
       ],
       "adaptationNote": "首条为错误的日本沙粒微距模板。根据ACMI馆藏简介的内地卧底与香港行动及家庭牵挂作内容概念；窗边读信为推断构图，明确非首镜，未采用儿童打斗。"
+    },
+    {
+      "wid": "the-cure-lullaby-1989",
+      "title": "Lullaby — 治疗乐队",
+      "preview": "film-ai/firstshot-coverage10141-20261127/the-cure-lullaby-1989.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f6e5c81699e4b142bfef3f89d05c5e80d020f37f/originals/film-coverage-10141-20261127/the-cure-lullaby-1989.png",
+        "sha256": "754d610436d7710f43349c305a6b3440ab9b7901abff577a5f0c2db0e39c2d55",
+        "bytes": 2420947,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "c22f014ec7b0162773be4822ed0911c4152bb1f73116473041d769be7a5558c0",
+      "referenceLabel": "AI改编参考图（非首镜）",
+      "scene": "昏暗哥特式卧室，穿完整条纹睡衣的原创成年男子坐在旧铁床上，四周白色蛛网与墙面巨大的蜘蛛阴影形成梦境不安，蓝灰月光照亮床褥。",
+      "actualPrompt": "Create one original cinematic photographic gothic music-video reference scene. A fictional adult man in his thirties with tousled dark hair, wearing modest fully buttoned gray striped long-sleeved pajamas, sits upright beneath dark blankets on an old black iron bed in a shadowy Victorian bedroom. He looks uneasy toward the corner of the room. Delicate white cobweb strands hang from the iron bedposts and ceiling; on the wall behind the bed, an oversized but soft spider SHADOW suggests a strange dream, with no creature touching the man. Cool blue-gray moonlight through a high window meets a dim amber bedside lamp, aged patterned wallpaper, tactile velvet shadows, fine late-1980s analog video and film texture, wide landscape 1.85:1 composition. Original fictional face, no celebrity likeness, no nudity, injuries, restraints, attack, readable text, logos, captions, poster or collage. Clearly an adapted AI reference concept, not an authentic video frame or a verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://www.thecure.com/clip/lullaby/",
+          "basis": "乐队官方确认1989年Lullaby视频；具体构图按现有首条描述改编，不将其称为真实开场"
+        }
+      ],
+      "adaptationNote": "依首条镜头描述作原创人物改编，不使用特定歌手肖像；保留旧床、蛛网与梦境阴影构图，明确非首镜。官方乐队网页用于作品身份核对。"
     }
   ]
 }
