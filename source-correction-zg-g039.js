@@ -45,7 +45,7 @@
     item.label=labels[n-381];
     item.title='《幽明录》〈武昌望夫石〉（拟题） · '+item.label;
     item.frozen_prompt=row[8];
-    item.prompt=note+'\n\n'+prompts[ident];
+    item.prompt=prompts[ident];
     item.source_note=note;
     item.prompt_provenance=window.JINTAI_G039_PROMPT_PROVENANCE[ident];
     return item;
