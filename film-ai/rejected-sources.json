@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-28T02:41:44.602855+08:00",
+  "updated_at": "2026-11-28T03:54:14.289944+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -4790,6 +4790,195 @@
       "sha256": "02a1e11a4598d4f9c80b66740d306adaffd83c35fad86d7f95864aadbf207c6a",
       "reason": "黑白画面中摄影师与演员正操作大型电影摄影机，明示片场制作而非片中叙事。",
       "evidence": "第五十四批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-80b01dde6b459c4a",
+      "src": "film-ai/src-80b01dde6b459c4a.jpg",
+      "sha256": "e4db11a21aee0cd8b826a4ff76670eff86cd0567f4099dc8e0061cf36018aabd",
+      "reason": "背包游客俯瞰山谷小镇，与台北夜生活及三人关系无关；地点和行动均串离本片。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-80c1b716288dd7f3",
+      "src": "film-ai/src-80c1b716288dd7f3.jpg",
+      "sha256": "93299a8681175fb40609262e37d17fb5e7bd34f0b924daa2aa1ea653353caa25",
+      "reason": "同一少年拥抱大猩猩的黑白肖像化画面；原片为彩色，缺片内黑白段落证据，作为剧照素材不合格。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-80c295be8a882869",
+      "src": "film-ai/src-80c295be8a882869.jpg",
+      "sha256": "bb3f18aa97b28e463f9fa9b17fdf1c3b836508cf24bb8b02279cbd2011491e27",
+      "reason": "女子穿 BRONX 字样背心置于黑白街头肖像，原片彩色且画面是宣传式人物形象，不可当另一场剧照。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-80c7a2d987be24a1",
+      "src": "film-ai/shots/YS-20261118-GR-src-80c7a2d987be24a1-01.webp",
+      "sha256": "e786ce94ec55ebfb3927e71bde01922de95deef542081debcf62115b7d4fc3d9",
+      "reason": "仅有雨夜旧宅门口的背影，没有可辨认的黑衣女人、买烟或叙事中相遇的另一人；旧上海气氛不足以认证本片关联。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-80c7a2d987be24a1",
+      "src": "film-ai/src-80c7a2d987be24a1.jpg",
+      "sha256": "4a26119b80a825ce613e3ef7fa4fd19a29830a6531375f5c6da19671ff2632f1",
+      "reason": "竖版标题宣传图把现代情侣置于巴黎式河岸与现代城市；原片明确为 1930 年代上海记者与神秘女子，且本图有宣传字卡，不能作剧照。Evening Liaison 字样本身可能是译名，不作为错片依据。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-80d586cf17520ba8",
+      "src": "film-ai/src-80d586cf17520ba8.jpg",
+      "sha256": "f41de993570deca610dd140727b00ecc622de752649362b34078002b42fdabbd",
+      "reason": "戴帽年轻女子独坐瓷砖房间，不能由画面确认 Fatima、大学或关系变化；暂缓第二场。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-810ec872afc07d7e",
+      "src": "film-ai/src-810ec872afc07d7e.jpg",
+      "sha256": "f00ace6b60b7884d52c1971556a2818bb37bad13888010156785b1c786f5c73f",
+      "reason": "年长女子独立黑白室内肖像，原片彩色且未呈现女儿或案件活动，不能作第二剧照。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8129f6aa130abada",
+      "src": "film-ai/src-8129f6aa130abada.jpg",
+      "sha256": "2114ba3f6f1b86b3f31c0c75fe032243a8024943ea01dfe9750ad47c68e4c836",
+      "reason": "红衣男子在豪宅喷泉边喊叫，虽可联想富二代，却缺课堂、父亲、对手或可核的特定事件。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-816c8a73156f27f0",
+      "src": "film-ai/src-816c8a73156f27f0.jpg",
+      "sha256": "037844ebe5355a39e5f400aaa8c67e4dde2b8b707229d666d3470ad3bbf9492d",
+      "reason": "金发女性持花帽的黑白宣传式肖像与彩色电影媒介不合，亦无 Eliot 或婚姻事件。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-817f06d331f89ae6",
+      "src": "film-ai/src-817f06d331f89ae6.jpg",
+      "sha256": "4af8fa3f3a85a45d6744146bfd7555cc5a57338f8f8ffbe629f42de4e24f1e03",
+      "reason": "浓妆女子贴砖墙的近景没有可辨人物身份、Bubby 或故事中的关系；暂缓。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-818657b12c25fbef",
+      "src": "film-ai/src-818657b12c25fbef.jpg",
+      "sha256": "ab8636e673ddd51e6ccc5825278753298842616d914cfde4280f9df687a6e496",
+      "reason": "仍是同一缆车、同一女子与相近远景，只改成女子探出门；没有第二叙事场次。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-819e97350d531cd5",
+      "src": "film-ai/src-819e97350d531cd5.jpg",
+      "sha256": "f11949de30d4275cc84e54846ef0a6af53cb30a82bc0ad581cf126d785ec54d1",
+      "reason": "健壮男子持文件走在普通街道，缺试镜、Mike 身份或选角冲突；不能单凭多种族演员概念准入。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-81a0ebd903a2812c",
+      "src": "film-ai/src-81a0ebd903a2812c.jpg",
+      "sha256": "bad6d9158d517c9fb76f4626e7c92ddb5e51459a404578c87fa0d9757ca67a16",
+      "reason": "演员穿精致年代戏服、置于完整布景，违背本片便装与极简排演形式；疑为一般契诃夫舞台剧画面。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-81a279b45b45eab4",
+      "src": "film-ai/src-81a279b45b45eab4.jpg",
+      "sha256": "d6abfbf3dbde78994840daf24678b88f4e15e02d576ce72ce45ce79443c3bcad",
+      "reason": "微笑金发女子持文件的肖像与已知创伤叙事没有可核人物或事件联系；不因黑白媒介一致就准入。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-81c321853026e2ef",
+      "src": "film-ai/src-81c321853026e2ef.jpg",
+      "sha256": "6ebba2c8b7cf24e4c7c503871e6aabb2f3a0e04dbfd6d2828083e3f324befcd8",
+      "reason": "独坐微笑男子的近景无法核定为片中室友或恶作剧场面，缺新增叙事。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-81d2e8ae03385e46",
+      "src": "film-ai/src-81d2e8ae03385e46.jpg",
+      "sha256": "1c01741bef04453fcfd9436abac384686b61c35c030910bc0fce040e7a866b54",
+      "reason": "白昼青山公路仅有一辆轿车，与都市夜间吸血鬼俱乐部主线没有人物、地点或事件关联。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-81e234cc44ba6173",
+      "src": "film-ai/decks/film-src-81e234cc44ba6173.webp",
+      "sha256": "9441106b682aa09b35291db7374704ad720c361c9017bf3f7f5fd1545818dcde",
+      "reason": "空卧室与湖景可归于大量营地恐怖片，没有 Jason、Jarvis 或可辨死亡事件。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-81ed93e860b6d017",
+      "src": "film-ai/src-81ed93e860b6d017.jpg",
+      "sha256": "678fa35b0bce4f750314488cfee5b09f947db9023b8387099e2cec90bbc9bbda",
+      "reason": "两名东亚男子置于中文姓名牌前，人物与语言环境同 Sony 列出的西班牙角色及其关系不符。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-81fa9206eb03e18f",
+      "src": "film-ai/src-81fa9206eb03e18f.jpg",
+      "sha256": "b553d63c4f058148f054f638b4752e1bc95a7ea20651b9f4fd1c77cf3d61f3fe",
+      "reason": "男子戴帽举望远镜面对群山；既无农场家人也无片目所记的特定活动，不能仅凭喜剧表情关联 Crawl。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-82028a90119ee391",
+      "src": "film-ai/src-82028a90119ee391.jpg",
+      "sha256": "98e750c1256484238e1f687754bd33dc76663e0357483d74a9262e16f407049e",
+      "reason": "疑似 Jeryline 的黑白人物近景与 AFI 记载的彩色正片媒介冲突，也无秘钥/恶魔事件；不可作第二剧照。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8252389669f84170",
+      "src": "film-ai/src-8252389669f84170.jpg",
+      "sha256": "477a7f058db7a247aa3f2bdd3a0f255c7c030451ef171390a79d48b6e534e025",
+      "reason": "现代霓虹 BAR 外的孤女子和本片 1930 年代舞蹈学校叙事、年代布景冲突。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-827d53a5dbfb6f47",
+      "src": "film-ai/src-827d53a5dbfb6f47.jpg",
+      "sha256": "796defd255cf7cabf1b7c65b396507314bcc439246067d7be8322e1c0faa49f0",
+      "reason": "夜间木屋门前孤人像没有野猪、追猎者或具体袭击事件，不足以证明为第二场。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-828e3108301894cf",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-828e3108301894cf.webp",
+      "sha256": "e09e281c3822902518acc33d98fdf3958b179a316505f4e3b92f0e8e892fcfb8",
+      "reason": "只有相邻门廊与放在台阶上的物件，无 Otto、Marisol、猫或明确邻里互动。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8290215931b6bba6",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-8290215931b6bba6.webp",
+      "sha256": "f4ab302d6d995032a00d55db04c3b5afe60c18ec00860ec86fdcfd7a6dc40f95",
+      "reason": "四名白衣科学家背对镜头看发光装置，仅是泛超级英雄实验室概念，无法确认 1994 版具体人物或场次。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8290215931b6bba6",
+      "src": "film-ai/src-8290215931b6bba6.jpg",
+      "sha256": "4834df1ad49d2ab220e5b51aaae5bd82880d01f6175ec17b83cf333bad1c0e1e",
+      "reason": "蓝白制服金发女英雄为平面漫画插画，媒介明显不是 1994 真人电影剧照。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8293f4bfd4ff0e0f",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-8293f4bfd4ff0e0f.webp",
+      "sha256": "8d83d1bddd64431beb772b5ddb516f7670fb2133e723d9c7eaf9bfb26cddea03",
+      "reason": "空无车辆和人的摩洛哥山路虽与行车事故地点相似，只有书本与远处灯火，无法确认是事发路段。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-82e678fd4a1506db",
+      "src": "film-ai/src-82e678fd4a1506db.jpg",
+      "sha256": "b4f2e904c5a3ffd751476149f52e7519137fa69394fd39ba97e35cdc0e374ecf",
+      "reason": "正装男子独坐近景未表现 Viktor 的专横、家庭成员或具体关系，人物身份不可核。",
+      "evidence": "第五十五批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
