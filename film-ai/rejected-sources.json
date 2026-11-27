@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T16:35:32.751273+08:00",
+  "updated_at": "2026-11-27T18:46:21.694678+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -2991,6 +2991,174 @@
       "sha256": "0875552520850d7515049063df5e7ef757f0ccd752d52f9dd730c96db0f124e3",
       "reason": "金发西装男女在昏暗走廊像外片惊悚人物，且缺 Lina 的造型工作或阿根廷归返锚点；官方演员面貌未作逐帧鉴定，暂缓而不武断指认错片。",
       "evidence": "第四十五批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-13376e15931edc53",
+      "src": "film-ai/src-13376e15931edc53.jpg",
+      "sha256": "18bd70a855c1154e181903331ec3c5a01827e84753993dd0524083719d00fe40",
+      "reason": "白衣东亚式女子悬在巨型龙纹壁画前，画面是东方奇幻造型，和 AFI 所列中世纪西班牙史诗人物及场景明显冲突。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-13a52c3fa1f5ebc2",
+      "src": "film-ai/src-13a52c3fa1f5ebc2.jpg",
+      "sha256": "5ad23eda03d8445c2aa2de567a07279fc2a6bd75313c9fae76dcf37d8a40bfa9",
+      "reason": "现代卧室内的两名东亚成年人及人物造型，与 Antoine/Sabine 的法国人物和唱片店叙事明显不合。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-14598deb8373fc3b",
+      "src": "film-ai/src-14598deb8373fc3b.jpg",
+      "sha256": "48acbafa6d2c573121b3883997491fadc11add33f0e75ca1f2f9475eb37781eb",
+      "reason": "仅见失焦白轿车与路面，没有 Finney、绑匪、地下室或黑电话，不能凭恐怖氛围核为本片。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-14a3e35c7e9ca4b5",
+      "src": "film-ai/firstshot-20261127/src-14a3e35c7e9ca4b5.jpg",
+      "sha256": "6144c273bfeb93febdc39a3a39aaa084dfb3b722b657d7046daac59f12d498da",
+      "reason": "现代感白衣女子与黑衣男子室内交谈，未见 Francine、Todd 或其 1980 年代家庭环境的可核特征。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-15014576b3e93797",
+      "src": "film-ai/src-15014576b3e93797.jpg",
+      "sha256": "442b44f7d6c7137ccac3c1eb2793bb021efc4a6351e4ce1f585baf69fa928dec",
+      "reason": "画面是多部影片 DVD 盒装陈列，其中《Broken Rainbow》只是一个封面；不是该片叙事或纪实画面。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1504b283646dc5f3",
+      "src": "film-ai/src-1504b283646dc5f3.jpg",
+      "sha256": "4c22a0bdde58c0306c8642a5fbd6422dd012a9d46f1a2314f5a841ecb3ba68b4",
+      "reason": "孤立欧洲面容女子的黑白近景与金马所列双女主及台湾乡居叙事不符，也未出现母女或表演班锚点。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1532cf5b177e0fd6",
+      "src": "film-ai/src-1532cf5b177e0fd6.jpg",
+      "sha256": "ce35eb8ae71f3a2fd63080941a177aea4d6306d9dfc3061a6c2eb0c47bce2e6d",
+      "reason": "近未来头盔中的年轻东亚女宇航员占据画面，与 BFI 所列 Space Girl 及原片宇航员人物配置明显不符。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-15674a4ab51a61a1",
+      "src": "film-ai/src-15674a4ab51a61a1.jpg",
+      "sha256": "8d679cd2280e3f3b925154c3e623d53b50b5e0bc42c089b1d6273590ff7f0191",
+      "reason": "阳光海滨咖啡座的女子向男子微笑仅泛指恋情，未能对应 Ophélie 或片中具体关系；与 01 同属海边咖啡座语义。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-15b061541fc49c69",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-15b061541fc49c69.webp",
+      "sha256": "1844ab7a9b6a07777cf9febfc2f8a39cfa640200b58da137e0fba883347e3a19",
+      "reason": "公寓桌上的空酒杯与纸条只有都市悬疑氛围，没有 Ray、Lena 或骗局的可核事件。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-16648f207b3010b5",
+      "src": "film-ai/shots/YS-20261030-AW23-src-16648f207b3010b5-22.webp",
+      "sha256": "6b66c062bcbe86c57467546804391958161e69ec41bf65dba87866436eff5aca",
+      "reason": "游乐场前两青年可能让人想到兄弟，但无母亲、施暴父亲或极右团体事件，不能确认 Luigi/Alessandro。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-16648f207b3010b5",
+      "src": "film-ai/src-16648f207b3010b5.jpg",
+      "sha256": "47fa496a3188262034e20518867ecc57c57ae4040c49fd5481fb624ebf05eb5d",
+      "reason": "与 01 几乎同构图的人物及游乐场，缺新增叙事；且 01 本身尚无片目人物锚点。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-16edf9da36d556b7",
+      "src": "film-ai/goal9438/src-16edf9da36d556b7.jpg",
+      "sha256": "7b5c59645abfec330288f4bb1a17ebcecfdda97dd8da8a53d0a47a2148dd4203",
+      "reason": "同一黑白小镇主街上的警长看向远方来者，只是 01 正午对决的另一机位，未形成第二个独立叙事画面。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-180242308fe3ee53",
+      "src": "film-ai/decks/film-src-180242308fe3ee53.webp",
+      "sha256": "c64fc4f3514285d290a42a8ed7aab741b6d0890b4e9128118326dda413558069",
+      "reason": "荒漠公路上油罐车追逐轿车虽吻合主线，但与 02 完全同一追逐语义，缺另一情节点。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-182f3df2a4fc3a2d",
+      "src": "film-ai/shots/WORKCONCEPT-20261126-dont-let-the-sun-2025-src-182f3df2a4fc3a2d-gpt.webp",
+      "sha256": "3e456ef015f07ccc1d8ddc024c32a5b64ad197123dfa3109d3437133665167ed",
+      "reason": "孤身男子站在湿街仅有都市疏离主题，缺 Nika、父女角色或与陌生人互动。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-182f3df2a4fc3a2d",
+      "src": "film-ai/src-182f3df2a4fc3a2d.jpg",
+      "sha256": "95db81ce6fcf45cfd74d03f6ca0f0fd25ed01b4820639c1c86537472f42497cb",
+      "reason": "六位演员面向镜头站在红毯及奖项背景板前，属于电影节宣传合影而非叙事剧照。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-184ba27ab617ffa7",
+      "src": "film-ai/firstshot-20261127/src-184ba27ab617ffa7.jpg",
+      "sha256": "5e7eb91219a8d6016f30f38fb6d394e12d8d53ce6c66eb88b01eee0f067c75b1",
+      "reason": "男子站在埃菲尔铁塔附近巴黎大道，官方仅证巴黎近郊城堡开场，无法核为 Bond 或该片事件。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-18c96375b0076c9d",
+      "src": "film-ai/src-18c96375b0076c9d.jpg",
+      "sha256": "0c1eb0275d4c1f1937f12dd9f61eb20f261ce2aedcf1eff03e6b92e1f32f7441",
+      "reason": "Vincent Lindon 着礼服面对红毯镜头，背景有颁奖场地，是演员亮相宣传照片而非电影叙事剧照。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-19b99208205e0a04",
+      "src": "film-ai/src-19b99208205e0a04.jpg",
+      "sha256": "ae5b4f3a75480616ed205cda9f86c535f3c09f0348eec8c1380a5219b593d804",
+      "reason": "画面是印有导演、演员及片名的书封/字卡，并非影片画面。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-19b99208205e0a04",
+      "src": "film-ai/quality-reviewed/src-19b99208205e0a04.png",
+      "sha256": "77284f90f17718bb816542367d5402dcbcc21f122803076d06c6d4a848b3fb97",
+      "reason": "彩绘史前人类与动物插画，没有 Jacques Villeret 鼓手、管弦乐或真人短片媒介，属错片/错媒介。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1a6ee390b743e74d",
+      "src": "film-ai/src-1a6ee390b743e74d.jpg",
+      "sha256": "fb2f74c169ed636ebd9f31ec51c9fddb0c116db5cf1ee65aefe4eda1d4d85cd8",
+      "reason": "三名女孩站在带发光片名 Le Bambine 的舞台上，片名字卡式宣传构图，不是自然叙事剧照。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1b0d147108dcc737",
+      "src": "film-ai/goal9438/src-1b0d147108dcc737.jpg",
+      "sha256": "0dfdf066717bba6908cef88e23a41ffe5d69fc9c2b47a1ee5989459e86946bc0",
+      "reason": "雨夜古典建筑边的男女既无民调、华府公司，也难对应 Alan 与具体人物关系，暂不补图。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1bab79074d27030c",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-1bab79074d27030c.webp",
+      "sha256": "3c88e1b226c5043b199a26194682eeeefb71251bb9d1ec2aae76f44fb310a764",
+      "reason": "空的日本古村水道仅有时代地点氛围，没有忍者龟、穿越权杖或 Norinaga 冲突。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1bab7cadd2a16c69",
+      "src": "film-ai/src-1bab7cadd2a16c69.jpg",
+      "sha256": "e0fcc01db237aab74294db06a5c6675a68fefe9c4fe8f48df85dbb0cc3e34ddd",
+      "reason": "当代西方男性独站金色麦田、远处候鸟，与 1982 台湾王童片的中国画家/雪原结局和演员、年代均不符。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1c043859a9ddd41e",
+      "src": "film-ai/src-1c043859a9ddd41e.jpg",
+      "sha256": "f7ffb573636f68cd36820ee7c84b0c1017488ce3e9c8e6ded0a3f0e25b56c208",
+      "reason": "月下黑色城堡与乌鸦仅有噩梦气氛，没有 Ralph、Mumford 或 Botch 的可核角色形象，无法确定是同片场景。",
+      "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
