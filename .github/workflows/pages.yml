@@ -262,7 +262,7 @@ jobs:
                   if name.lower().endswith((".jpg", ".jpeg")):
                       if rel not in film_ai_jpg_need_fetch:
                           continue
-                  elif not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js") or rel.startswith("film-ai/decks/")):
+                  elif not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js", "film-ai/rejected-sources.json") or rel.startswith("film-ai/decks/")):
                       continue
               elif top == "history-ai":
                   history_files = {
