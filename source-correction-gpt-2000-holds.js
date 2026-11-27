@@ -92,8 +92,37 @@
   accepted('JT-HF-XIANQIN-OFF-12007',
       '微子启：《史记·宋微子世家》记其在商末向太师、少师求策，周公后来封其于宋；新图表现前者，旧提示词的后世官署不沿用。',
       ['https://zh.wikisource.org/zh-hans/%E5%8F%B2%E8%A8%98%E4%B8%89%E5%AE%B6%E8%A8%BB/%E5%AE%8B%E5%BE%AE%E5%AD%90%E4%B8%96%E5%AE%B6']);
+  const songShiji='https://zh.wikisource.org/wiki/%E5%8F%B2%E8%A8%98/%E5%8D%B7038';
+  accepted('JT-HF-XIANQIN-EMP-16002',
+      '文丁：《史记·殷本纪》在此作帝太丁；人物与陶作场面为解释性推拟，旧图的后世宫殿、冠服和舆图不是商代证据。',
+      [yinBenji]);
+  accepted('JT-HF-XIANQIN-EMP-17001',
+      '盘庚：据《史记·殷本纪》迁徙叙事作推拟场面；旧图的后世宫阙、舆图与冠服不作为商代图像依据。',
+      [yinBenji]);
+  accepted('JT-HF-XIANQIN-EMP-17003',
+      '小乙：史传只简述其世系，画面是未指定事件的人物推拟；旧图的后世帝王形制与未证就学故事不沿用。',
+      [yinBenji]);
+  accepted('JT-HF-XIANQIN-OFF-13022',
+      '伊尹：据《史记·殷本纪》辅政记载作推拟；冻结提示词误将阿衡写成谥号，并混入宣纸、后世官署与服制。',
+      [yinBenji]);
+  accepted('JT-HF-XIANQIN-OFF-13027',
+      '傅说：据《史记·殷本纪》傅险版筑而被武丁举用的传世记载，作任后独立肖像；后世官署与服制不沿用。',
+      [yinBenji]);
+  accepted('JT-HF-XIANQIN-OFF-13031',
+      '比干：据《史记》商末劝谏记载，作谏前推拟肖像；不将“谏三日”或具体容貌画成已证事实。',
+      [yinBenji,songShiji]);
+  accepted('JT-HF-XIANQIN-OFF-15018',
+      '微子启：据《史记·宋微子世家》作周公平武庚之乱后受命于宋的解释性场面；冻结旧提示词暗示武王直接封宋不符记载。',
+      [songShiji]);
+  accepted('JT-HF-XIANQIN-OFF-15021',
+      '比干（另一条目）：新图借同批 GPT Image 肖像保持人物一致；旧题“商纣王少”残缺，“少师”是另一人物，具体容貌仍为推拟。',
+      [yinBenji,songShiji]);
 
   function apply(record){
+    if(record&&record.id==='JT-HF-XIANQIN-OFF-15021'){
+      if(!record._gpt2000FrozenTitle)record._gpt2000FrozenTitle=record.title;
+      record.title='比干（另一条目）·商朝';
+    }
     if(record&&record.id==='JT-HF-XIANQIN-EMP-13026'){
       if(!record._gpt2000FrozenTitle)record._gpt2000FrozenTitle=record.title;
       record.title=(record.title||'').replaceAll('谥高宗','庙号高宗');
