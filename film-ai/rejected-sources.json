@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T08:32:21.136246+08:00",
+  "updated_at": "2026-11-27T08:57:13.326413+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -1892,6 +1892,216 @@
       "sha256": "674186ca3cd82c1f275c4eddaff4c28bafbcf569ad577f0dc087341a7021a6e0",
       "reason": "女子在小院晾衣、男子立于门边，缺儿子、泡菜买卖或被查处情节，不能将任意困顿生活认作本片。",
       "evidence": "第四十批剩余20部两路径电影/逐图建议与联系表"
+    },
+    {
+      "wid": "police-story-1985",
+      "src": "film-ai/police-story-1985.jpg",
+      "sha256": "08f11f5a9d4b4e087d9361044d50529013486be682cc9a9c353f4964619fbb37",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "police-story-1985",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/police-story-1985-502e0a459377.png",
+      "sha256": "502e0a459377326a8df8319861b81cc1838d24551982cd134f48953821ed354b",
+      "reason": "画面仅一名戴头盔女子骑红色小型摩托；没有成龙、警务、追逐或能可靠辨认为张曼玉的锚点。不能凭八十年代香港街景认作该片。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "poltergeist-1982",
+      "src": "film-ai/poltergeist-1982.jpg",
+      "sha256": "d8a37c9227caf6808945995e79f8d460f9e24ac29fa9f30e2326ed508d52c0ba",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "poltergeist-1982",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/poltergeist-1982-336e4ba4ae27.png",
+      "sha256": "336e4ba4ae27446a67a1d78d818d26fed857c63a93df45c796bd10663af1c23c",
+      "reason": "画面只有山前住宅区和汽车，不见 Freeling 一家、电视、鬼怪或特定房屋；郊区匹配仍不足以落实到该片。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "polytechnique-2009",
+      "src": "film-ai/polytechnique-2009.jpg",
+      "sha256": "63339d17c8b9047af2762a0f4b47ba318660dd0a8d7df97c0a3557e9fa0e2312",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 1；不能算第二张不同剧照。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "polytechnique-2009",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/polytechnique-2009-927cd8a27b77.png",
+      "sha256": "927cd8a27b77196176b45cce248e32db47019ad9cd7dad8d36ef14e1eff1e1af",
+      "reason": "黑白男子面部特写没有校园、枪击或可核实演员标志；不能仅由黑白影调和男性面貌归片。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "ponyo-2008",
+      "src": "film-ai/ponyo-2008.jpg",
+      "sha256": "c1c26fa94fd3c06e8e3fe40fb00b5e6986686438dafdfc9435b2c8294d1a5f8f",
+      "reason": "本地 JPG 是同一明确错图/非剧照原图的较小压缩预览，画面同样拒用。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "ponyo-2008",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/ponyo-2008-204284996125.png",
+      "sha256": "20428499612563f045d5ee380f7e0c395b0b4417be35dfde88edee745311d261",
+      "reason": "原图是年龄更大的男孩驾驶复杂玻璃舱潜艇，带机械仪表、红绿信号灯和巨大鱼；与官方五岁宗介/波妞及手绘场景设定冲突，明确错媒介和人物。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "poppoya-1999",
+      "src": "film-ai/poppoya-1999.jpg",
+      "sha256": "2a689b939785068b90e444735c17ee5fbd56524b7a09a839c6fe90c57c77acf9",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "poppoya-1999",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/poppoya-1999-04eafdf277fa.png",
+      "sha256": "04eafdf277fa96fe238673ea964667c7ec8dd80d16ff8d4af36f910805e27ab2",
+      "reason": "仅有桌上日文记录簿和眼镜；未见铁路员、站台、列车或可确认的乙松，普通文书道具无法锁定影片。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "porco-rosso-1992",
+      "src": "film-ai/porco-rosso-1992.jpg",
+      "sha256": "7a5fa68415d08146fb12f0ddd43e9bc4c7856d492d9372579a02f34585fd58b4",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "porco-rosso-1992",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/porco-rosso-1992-8eb49ca90976.png",
+      "sha256": "8eb49ca909761d3f818d5b6ed87f3b0289eed162068e3515ee174b65b852d1ad",
+      "reason": "动画画面为悬挂意大利旗的船舶与成队水兵，不见红猪、飞机或可核的片中特定角色；海与意大利气氛不足以归片。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "port-of-call-2015",
+      "src": "film-ai/port-of-call-2015.jpg",
+      "sha256": "f591e74cbccb46261e9a4b1b59d399fffcc47d4010f2afe91e2ba338b8b26608",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 1；不能算第二张不同剧照。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "port-of-call-2015",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/port-of-call-2015-2116b56f3104.png",
+      "sha256": "2116b56f310481ae0fd64c02fb16cb671ebe28c2371106ec6ca0412ed2499fb5",
+      "reason": "画面是身份未明的年轻女子躺床看手部；没有佳梅、警方、港区或案件的可核锚点，人物身份暂无法落实。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "powaqqatsi-1988",
+      "src": "film-ai/powaqqatsi-1988.jpg",
+      "sha256": "44b5e6b8e51e0b44cd9c0a216c1b8d2ab5436fccd03edce1a2e273e8cff3668e",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "powaqqatsi-1988",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/powaqqatsi-1988-0b0e1d68725f.png",
+      "sha256": "0b0e1d68725f143f5545d572118ee686a1dad381acc52ecad904a928bee39fed",
+      "reason": "灰雾荒地里几个远距离行人剪影，地点、文化与劳动内容不可辨；不能以抽象纪录片氛围直接归片。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "predator-1987",
+      "src": "film-ai/predator-1987.jpg",
+      "sha256": "f67d6ad5e1dd7f83afea433bc1f86750b08a6617edf30e25cc812c73a75a3b76",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 1；不能算第二张不同剧照。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "predator-1987",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/predator-1987-5d559db01e4c.png",
+      "sha256": "5d559db01e4c5655848c704239fb7a5c25eba84a55665760edc7729373b982de",
+      "reason": "红光耳机男子不易辨为 Arnold/Dutch，画面无丛林、猎杀者或小队；单凭军事通讯装备不足以认片。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "pride-and-prejudice-2005",
+      "src": "film-ai/pride-and-prejudice-2005.jpg",
+      "sha256": "ca7b90ce9b59a27ee678d57f638048ed7c663a579a312c9a9cc4c00ee31d3248",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "pride-and-prejudice-2005",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/pride-and-prejudice-2005-a2b666b5e988.png",
+      "sha256": "a2b666b5e9883c3269f174857ee9cb83c04ebc9d3d0e6de90b5cfd9d6de5ad8a",
+      "reason": "时代舞会群像符合改编题材，但前景女士及中景男子无法可靠确认 Elizabeth/Darcy，且同一小说有多次影视化；暂缓版本归属。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "prisoners-2013",
+      "src": "film-ai/prisoners-2013.jpg",
+      "sha256": "12ed1ae1e9cf5885c691443c334005e3e28b74338feda88497261a1784c3b7a2",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "prisoners-2013",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/prisoners-2013-06c89e51631b.png",
+      "sha256": "06c89e51631b948718ce0d72e2d506741b9037eef6708c8e581aef8899d2f776",
+      "reason": "雨夜加油站只有不明车辆，没有失踪案、房车或任何可辨主角；犯罪片常见场域不能充当该片锚点。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "project-a-1983",
+      "src": "film-ai/project-a-1983.jpg",
+      "sha256": "4d3892cd32e45dc17d0eb1aacf0df4c58b9ebf84f76fd921a483a3fee1b90764",
+      "reason": "本地 JPG 是同一明确错图/非剧照原图的较小压缩预览，画面同样拒用。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "project-a-1983",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/project-a-1983-1c74e08bacb7.png",
+      "sha256": "1c74e08bacb7817c77ccd5cbf3ec64da8a23750862985392e0e0b0e6f271dd4d",
+      "reason": "整张只有红色 PROJECT A 英文字样的片名字卡，没有人物或电影内场景，按剧照规范明确拒用。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "ptu-2003",
+      "src": "film-ai/ptu-2003.jpg",
+      "sha256": "a7deaad98f04a906176057fa5603f475a36540d88df19bfcde0e009bdb212ed4",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "ptu-2003",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/ptu-2003-252bcc6abdf9.png",
+      "sha256": "252bcc6abdf92b131fd47ab2cd2b5d1a7396d33892149033aa79b179a1c8714e",
+      "reason": "原图警证可读为虚构 CHAN Chi-lim / Inspector，未能对上资料馆点名警长；雨夜香港警车虽合类型但缺片中人物锚点。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "public-enemies-2009",
+      "src": "film-ai/public-enemies-2009.jpg",
+      "sha256": "82fbfb8677d7421e6a9716132477b7b67c396ad208f13e8596ceb7bdd3c83bd1",
+      "reason": "与外链原图为同一构图的低清 JPG 预览，pHash 距离 0、dHash 距离 0；不能算第二张不同剧照。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "public-enemies-2009",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/public-enemies-2009-c42d79c0b114.png",
+      "sha256": "c42d79c0b11469e6ce1fcc6e950cf3a16e9bc4e7d73969662e5103708eab1e41",
+      "reason": "三十年代餐馆中女子虽符合年代，但面孔未能可靠辨认 Billie/Marion，背对镜头男子亦不见 Dillinger；暂缓演员归属。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "queen-margot-1994",
+      "src": "film-ai/queen-margot-1994.jpg",
+      "sha256": "4a0791fb5548792324298ecbe28e43ff4945f7fbff5038b2e437041485b40c54",
+      "reason": "本地 JPG 是同一明确错图/非剧照原图的较小压缩预览，画面同样拒用。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "queen-margot-1994",
+      "src": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/42781da7959671f3ecba1be10a89ffacaced22e0/originals/part-01/queen-margot-1994-e3ce9b84f31a.png",
+      "sha256": "e3ce9b84f31a15056781c420ef2f6e7c23053651df512fc139311850f5628b05",
+      "reason": "原图是通幅黑白宫廷双人画面，1994 发行方明确原片彩色；女主与男子亦无可靠 Adjani/Auteuil/Perez 锚点。按现行原貌剧照规范拒用该黑白改造图。",
+      "evidence": "外链两路径第三批30部/逐图建议与联系表"
     }
   ]
 }
