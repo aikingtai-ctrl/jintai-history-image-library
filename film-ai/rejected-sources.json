@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T21:17:28.053922+08:00",
+  "updated_at": "2026-11-27T22:40:04.237936+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -3740,6 +3740,216 @@
       "sha256": "f635ee29c21afaff8b269a742beceacceb461e1468907ffdb78438b766bff534",
       "reason": "白底居中大胡子男子的独立黑白证件式肖像没有潜艇环境或叙事动作，非电影场景。",
       "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3beb1c009456400e",
+      "src": "film-ai/src-3beb1c009456400e.jpg",
+      "sha256": "5cca2a3166bad2d42960675661582df6a3e47ddeabdb3225afc4d3527fe47387",
+      "reason": "高清当代废墟里的头巾男子无法证明是 Hasan 或 2001 年档案影像，且未见摄制/行旅情节。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3cef3b6856f43cb0",
+      "src": "film-ai/src-3cef3b6856f43cb0.jpg",
+      "sha256": "d2d8c192c12842862373744dc08f5303943a0ddfd617119446b3e26729577cde",
+      "reason": "自然光花丛前青年男子正面摆拍，与部长、政府事务或车祸场景无关；是单独人物肖像而非叙事画面。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3dfacf6f3fe1301a",
+      "src": "film-ai/shots/YS-20261118-GR-src-3dfacf6f3fe1301a-01.webp",
+      "sha256": "c76b15929d6b0d00550292a6d8dfeeca7d546670c988904dd89102a20f0eda82",
+      "reason": "四合院空景与远处单人仅是北平环境，无法锚定老李、财政所或离婚情节。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3eae2def15226f8e",
+      "src": "film-ai/src-3eae2def15226f8e.jpg",
+      "sha256": "3791ab76829ef7054be8a891008754453f5625455523b67873bb3c6091a08723",
+      "reason": "三名女子街头并行说笑，节展梗概未给可核对的朋友或具体街行事件，无法确认中间人物即 Eva。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3efefb253e0e93c8",
+      "src": "film-ai/src-3efefb253e0e93c8.jpg",
+      "sha256": "65ea2020da0ae289a3661c05dd87358a10040444b980e5247e33888d2f6ea172",
+      "reason": "画面是 The Academy Awards DVD 收藏盒商品图，既非 Stanton 小学，也非影片中单一场景。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-40cab04bb69d6073",
+      "src": "film-ai/goal9438/src-40cab04bb69d6073.jpg",
+      "sha256": "3a1d1626a044341350abf849e85bb98f217a90a84ab115ac67b92a955dc93fd4",
+      "reason": "同样两名儿童在同一芦苇田奔跑追火车，虽非相同像素，却只是 01 所代表事件的另一个取景，缺新叙事。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-418519fefd4076b5",
+      "src": "film-ai/src-418519fefd4076b5.jpg",
+      "sha256": "3a4f955bb3c9419a101e5c929e5815f36d8aa657141f920dfd848c6cd3101944",
+      "reason": "阴绿色无人教室只有悬疑气氛，未呈两位母亲的互动或争执事件。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-425bbd8045476070",
+      "src": "film-ai/goal9438/src-425bbd8045476070.jpg",
+      "sha256": "d360638a9dd38ec5fac8260b6d601ad74068ca829281ae0c5b0cba4a7d2a0067",
+      "reason": "整张为黑白素描/版画式史前场景，并非机构记载的彩色真人与动画混合电影画面，不能充当另一张剧照。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4308f27e2279dd65",
+      "src": "film-ai/src-4308f27e2279dd65.jpg",
+      "sha256": "e675056d72f5eed6f805d744cf70b597e1035f681cec088bdf67c3f95891bab4",
+      "reason": "有巨大红色片名字与多个演员肖像的彩色宣传海报，不是一个独立电影场景。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4308f27e2279dd65",
+      "src": "film-ai/shots/YS-20261028-src-4308f27e2279dd65-01.webp",
+      "sha256": "4b7f2f86d10ed5011f6f4edbf587bc52404c313fac4ed63874f40463ac3ae58b",
+      "reason": "校舍楼梯上独行的少女与片名年龄只能泛合，现有一手片目未能核出人物身份或特定情节。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-43fc2aaf16c32c4b",
+      "src": "film-ai/decks/film-src-43fc2aaf16c32c4b.webp",
+      "sha256": "46fb03b6a54e0c6a8847b7a5a9e499d4c6701a033a98edcc6fc28d374f12aa15",
+      "reason": "男子背对镜头站在意大利式修道院废墟前，只具寻访古迹氛围，无法核为诗人或任何具体情节。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-43fc2aaf16c32c4b",
+      "src": "film-ai/goal9438/src-43fc2aaf16c32c4b.jpg",
+      "sha256": "22eed5d6400128ad4e22d12e5f67ac9fea09170f9148d3725c0344da714267cd",
+      "reason": "蜡烛置于水边树桩，未呈 BFI 所述手持烛火穿越放干温泉池的动作；暂不推断为明确错片。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4409d1e94b164481",
+      "src": "film-ai/src-4409d1e94b164481.jpg",
+      "sha256": "f2c5bcc7a16d0a78a2c4564b9e560eefc4733a84e26c70d24617a111f493b084",
+      "reason": "原图男子面貌明显不同于 AFI 所列主演，穿 DALLAS 字样卫衣，窗外另有悬浮警车；缺《异形国度》的 Sykes/Newcomer 搭档，疑似别片科幻人物串入。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-440b9e238e873fe1",
+      "src": "film-ai/goal9438/src-440b9e238e873fe1.jpg",
+      "sha256": "eeff652db08f1d9d68e96d9b96aaa4433aa2ca783e7341ad9a2e4b004ce988c5",
+      "reason": "男子隔雨窗望向女子仅符合一般黑色电影气氛，无法核实 Bannion、Debby 或具体案情。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-454167dc5a68bdc3",
+      "src": "film-ai/decks/film-src-454167dc5a68bdc3.webp",
+      "sha256": "3f385917c7f9a7d432c364775dab4d51e319281af4ccfed1f272ed33cd1fd834",
+      "reason": "酒缸与酒坊院落可对应九儿接管酒坊，且不同于旧 ID 的迎亲三图；但本来源 ID 是已准入《红高粱》的别名，须先并入 canonical 条目，暂不作为新影片图准入。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-454167dc5a68bdc3",
+      "src": "film-ai/goal9438/src-454167dc5a68bdc3.jpg",
+      "sha256": "1b26ccefed224a01722467d71790181c40e657783a186822d9fe42cd49c47bab",
+      "reason": "红衣女子走在高粱田与已准入 red-sorghum-1987 的 01 红衣女子田间背影同一母题，虽然哈希不同，缺新增叙事；且是同片别名。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-454e9e0eab09e919",
+      "src": "film-ai/src-454e9e0eab09e919.jpg",
+      "sha256": "acc4579e0699fd871a6b52f52f7430bb6d9789d30ef228638688b622c27d4d59",
+      "reason": "近景是古装手持短剑的武士形象，与当代瑞典矿镇青年说唱和录音室明显冲突。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4568520ac21c268d",
+      "src": "film-ai/goal9438/src-4568520ac21c268d.jpg",
+      "sha256": "39e85c6dd8382cd420cc618194fe417952f8885f5fd52439285f8d3595f3b3e0",
+      "reason": "彩色金发女子站在粉紫色黄昏机场/马戏篷前，而 AFI 明确影片原生黑白；不能当该片原色剧照。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4682d16fdad51b43",
+      "src": "film-ai/goal9438/src-4682d16fdad51b43.jpg",
+      "sha256": "75971b00240e208ecd1acbfd02aea5a4e05e2385f29ef3a961f2f0bded7e4278",
+      "reason": "同一男子在饭店倚窗望工地，仅重复债务忧思与施工背景，未呈卖眼提议或另一独立事件。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-46ac360adde8854f",
+      "src": "film-ai/src-46ac360adde8854f.jpg",
+      "sha256": "552e21e09e594511d11711923cf5ecbe2857dc306b1882904d3aa075b55ae2b9",
+      "reason": "整张是印着片名 Útóipe Cheilteach 的黑白木刻封面，不是纪录片里的单一场景。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-470f49f6924c449d",
+      "src": "film-ai/src-470f49f6924c449d.jpg",
+      "sha256": "6f9bd9acc4c13277a7c18c58d57297a7353aa017ab3d8ea34d98728ae2608f61",
+      "reason": "戴 1930 年代帽子的女子在室内微笑，无法辨认她是否 Solveig，也没有清唱剧或家庭事件。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-476837cd857a4273",
+      "src": "film-ai/shots/WORKCONCEPT-20261127-mam-2025-gpt.webp",
+      "sha256": "3e69999b816b77ff4ae3c40c0572a7b15219c509c915c2a854cd0b03e44fe9f8",
+      "reason": "蒸汽厨房中东亚男女一起备越南菜符合故事概念，但画中男性无法核为 Texas 厨师 Jerald Head，女演员身份也未核。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-476837cd857a4273",
+      "src": "film-ai/src-476837cd857a4273.jpg",
+      "sha256": "b96ba9dd0d4831fdc8c5150966d5db5ff85699f393d94d3c6508d6c046a2f728",
+      "reason": "戴眼镜青年男子着旧式西装独坐深色室内，无越南菜、纽约餐馆或 Jerald/Nhung 人物关系锚点。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-47c7ae3f20506908",
+      "src": "film-ai/src-47c7ae3f20506908.jpg",
+      "sha256": "0e9c955c7bc949db27c539b6871b94ba905757ae98f3da9911b4998ea471be11",
+      "reason": "戴眼镜胡须男子面对带机构标志的紫色活动背板拍照，是电影节活动肖像而非片内场景。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4852b70b0fc17324",
+      "src": "film-ai/goal9438/src-4852b70b0fc17324.jpg",
+      "sha256": "5eb431216dac7443ebe07b0e05b80fd15a987db72f0f7f18a4003e2bb43c2d1a",
+      "reason": "另一女子在同一红蓝走廊经过雕像，几乎只重复 01 的走廊探入动作和色彩，缺独立事件或人物身份。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-488ec049c098d81e",
+      "src": "film-ai/src-488ec049c098d81e.jpg",
+      "sha256": "54ea3f7cc217f2ffdd8cd807b460df9c49d22427bd8c453daf7a86407408fe08",
+      "reason": "白沙发上一对年轻男女没有吸尘器、工厂或亡妻重逢事件，不能仅凭二人关系推断为 March 和 Nat。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-48902729a48a1bd6",
+      "src": "film-ai/goal9438/src-48902729a48a1bd6.jpg",
+      "sha256": "42c1a4ef1009ce8789842cf1b94585569b7d3157b9b5a79c02cb2514cc21ee97",
+      "reason": "披斗篷老人面对古堡废墟及天空巨大人脸，容易被误作莎翁古装戏；虽可联想后末日拼贴，未找到片内场面锚点。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-48a120e550d18f77",
+      "src": "film-ai/goal9438/src-48a120e550d18f77.jpg",
+      "sha256": "7240cc9e3cf22ab33cc0ce3f101073ce134184c29d30869d85ae52c0551166ab",
+      "reason": "红月下的空铁路和小提琴只象征音乐与鬼魅，未见片中友人、留声机或可核对事件。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4a1ae0a64f03cb96",
+      "src": "film-ai/decks/film-src-4a1ae0a64f03cb96.webp",
+      "sha256": "139cfa669bcfb35c155256ee6d91530fcee11016e6ad0f422950619bd0d4c168",
+      "reason": "空荡榻榻米房间无 Sada、Kichi 或其亲密关系，传统日式室内不能定位本片。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4a1ae0a64f03cb96",
+      "src": "film-ai/goal9438/src-4a1ae0a64f03cb96.jpg",
+      "sha256": "bcc4d86b335cc06058b33cac1d175d4e76fcb9017573ddae48199b2222f342f1",
+      "reason": "另一传统房间仅远处两个人影，人物不可辨认，也未表现影片主线；与 01 同为室内空景。",
+      "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
