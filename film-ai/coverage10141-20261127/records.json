@@ -1,7 +1,7 @@
 {
   "fixedScopeWorks": 10141,
   "scopeRevision": "b58616b8990a50aba2766810e46e84ccf7e21c8f",
-  "recovered": 22,
+  "recovered": 28,
   "generated": 6,
   "assets": [
     {
@@ -585,6 +585,33 @@
       "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
+      "wid": "src-wd-q19885337",
+      "title": "芝拉克",
+      "year": 2015,
+      "canonicalWid": "src-9b116ae76ee19bd1",
+      "canonicalTitle": "Chi-raq",
+      "identityEvidence": {
+        "year": 2015,
+        "sharedPages": [],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q19885337.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h7/736bd55306675effdeb473c5026935a5cb8948072851533157359ce7aa2fd058.png",
+        "filename": "736bd55306675effdeb473c5026935a5cb8948072851533157359ce7aa2fd058.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2347697,
+        "sha256": "736bd55306675effdeb473c5026935a5cb8948072851533157359ce7aa2fd058"
+      },
+      "jpgSHA256": "b5ef344afa1f7dd2412a504f770a71f01e4537111f6704f67cc282f6a638552d",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
       "wid": "src-4192014104b84068",
       "title": "LE PÈRE DE MES ENFANTS",
       "year": 2008,
@@ -648,6 +675,141 @@
         "sha256": "e477e680f0d6c98aeaabf220aa433bcfee34fe11a8fd541def8b6b541ca8b7ab"
       },
       "jpgSHA256": "a4f40aad101a0d45a09bb5f743f02068254799080799fc961a1269eb9c0c0d00",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "src-wd-q131160726",
+      "title": "爸爸",
+      "year": 2024,
+      "canonicalWid": "src-24b28c30c03d12b8",
+      "canonicalTitle": "爸爸",
+      "identityEvidence": {
+        "year": 2024,
+        "sharedPages": [],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q131160726.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/4fcc6d7d8e43c3828c46905f40b8559cc679c233/originals/part-04/src-24b28c30c03d12b8-738f9bc4210b.png",
+        "filename": "src-24b28c30c03d12b8-738f9bc4210b.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2283826,
+        "sha256": "738f9bc4210ba021b07c21fa49c422a1c8f917e335da39ea5f0e3315231bddf9"
+      },
+      "jpgSHA256": "200b73b64a655aa35d5189e250630b2632de75ded113c16a0c13a3f7f01e54f4",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "原创 AI 参考画面，非原片截图。原创代表画面：夜间打烊后的香港茶餐厅里，一名面容虚构的中年父亲俯身整理空桌上的碟子，旁边摆着几张空椅与茶杯；窗外是微雨城市夜色，店内暖灯与旧瓷砖映出克制的怀念。 原创概念图，非原片截图；香港片首映年2024，2025为金像奖年；不以图推断原片镜头、器材或幅比。",
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "src-wd-q13592706",
+      "title": "高海拔之戀II",
+      "year": 2012,
+      "canonicalWid": "src-9121d454303d76eb",
+      "canonicalTitle": "高海拔之戀II",
+      "identityEvidence": {
+        "year": 2011,
+        "sharedPages": [],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q13592706.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h4/40bde7185bf76fea5f8a6ff48674298704053d523fabcf53295146ec73d467b5.png",
+        "filename": "40bde7185bf76fea5f8a6ff48674298704053d523fabcf53295146ec73d467b5.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 1748879,
+        "sha256": "40bde7185bf76fea5f8a6ff48674298704053d523fabcf53295146ec73d467b5"
+      },
+      "jpgSHA256": "591c08f80e37e6db89098cd063f141f381c7c26e32a228a7072e44b4646884a6",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "src-wd-q60686176",
+      "title": "一秒钟",
+      "year": 2019,
+      "canonicalWid": "one-second-2020",
+      "canonicalTitle": "一秒钟",
+      "identityEvidence": {
+        "year": 2020,
+        "sharedPages": [],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q60686176.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h2/2358d09a7d47ad1d2872cfcf2d905d941f6e83ba4c6ec2cd0d53a755569ef9a2.png",
+        "filename": "2358d09a7d47ad1d2872cfcf2d905d941f6e83ba4c6ec2cd0d53a755569ef9a2.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 2278875,
+        "sha256": "2358d09a7d47ad1d2872cfcf2d905d941f6e83ba4c6ec2cd0d53a755569ef9a2"
+      },
+      "jpgSHA256": "b688f155dfd828d1d352a52abfed8a1426b766ac662afe892d1d24a18e2202f2",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "src-wd-q148204",
+      "title": "天堂之门",
+      "year": 1980,
+      "canonicalWid": "heavens-gate-1980",
+      "canonicalTitle": "Heaven’s Gate",
+      "identityEvidence": {
+        "year": 1980,
+        "sharedPages": [],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q148204.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/heavens-gate-1980-190a86773052.png",
+        "filename": "heavens-gate-1980-190a86773052.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 3231879,
+        "sha256": "190a86773052b9f5810409fa8fd1999f39a5bc997b931d1f93aef068a299abc1"
+      },
+      "jpgSHA256": "60334bee80021d5d00c3803ee14b6bd4c839b321ced6adf9fb75db659f837e8f",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜",
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "src-3d6df78a376e5aba",
+      "title": "Splice",
+      "year": 2010,
+      "canonicalWid": "src-a933c9d772791575",
+      "canonicalTitle": "Splice",
+      "identityEvidence": {
+        "year": 2009,
+        "sharedPages": [],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-3d6df78a376e5aba.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-hb/b5a02045fa16433a9862977cc9c925de06a11007ed65ecf33de01a818e858565.png",
+        "filename": "b5a02045fa16433a9862977cc9c925de06a11007ed65ecf33de01a818e858565.png",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 1332329,
+        "sha256": "b5a02045fa16433a9862977cc9c925de06a11007ed65ecf33de01a818e858565"
+      },
+      "jpgSHA256": "7245551b1c783d2d2af1c4abe22a90a9688d1db03f3152d48b48d4dade15f432",
       "bytesVerified": true,
       "referenceLabel": "AI内容参考图（非首镜）",
       "method": "existing built-in imagegen original recovered",
