@@ -1024,9 +1024,9 @@ function syncChipUI(){
   if($('kindSel')) $('kindSel').value=f.kind||'';
   updateAdvBadge();
 }
-function histPreview(id){return window.JINTAI_THREE_IMAGES?.[id]?.preview||histOriginalInfo(id)?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
-function histThumb(id){return window.JINTAI_THREE_IMAGES?.[id]?.preview||histOriginalInfo(id)?.thumb||histPreview(id);}
-function histOriginalInfo(id){if(window.JINTAI_GPT_2000_CORRECTIONS?.[id]?.action==='metadata_hold')return null;const gpt=window.JINTAI_GPT_IMAGES?.[id];if(gpt)return gpt;const selectedSha=window.JINTAI_GPT_2000_SELECTED_EXTERNAL_SHA?.[id];if(selectedSha){for(const candidate of [window.JINTAI_BROWSER_IMAGES?.[id],window.JINTAI_PEOPLE_IMAGES?.[id],window.JINTAI_ARCH_GPT_IMAGES?.[id]])if(candidate?.sha256===selectedSha)return candidate;return null;}return window.JINTAI_QINHAN_IMAGES?.[id]||window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_SHANHAIJING_GPT_IMAGES?.[id]||window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_SHANHAIJING_GPT_IMAGES?.[id]||window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_SHANHAIJING_GPT_IMAGES?.[id]||window.JINTAI_ARCH_GPT_IMAGES?.[id]||window.JINTAI_BROWSER_IMAGES?.[id]||window.JINTAI_SPECIAL_IMAGES?.[id]||window.JINTAI_MYTH_IMAGES?.[id]||window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_MINGUO_FOLK16_IMAGES?.[id]||window.JINTAI_PAGE26_IMAGES?.[id]||window.JINTAI_PAGE25_IMAGES?.[id]||window.JINTAI_PAGE24_IMAGES?.[id]||window.JINTAI_PAGE23_IMAGES?.[id]||window.JINTAI_PAGE22_IMAGES?.[id]||window.JINTAI_PAGE21_IMAGES?.[id]||window.JINTAI_PAGE20_IMAGES?.[id]||window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]||window.JINTAI_SONG_IMAGES?.[id]||(window.JINTAI_XIONGNU_VISUAL_ACCEPTED===true?window.JINTAI_XIONGNU_IMAGES?.[id]:null)||window.JINTAI_PEOPLE_IMAGES?.[id]||null;}
+function histPreview(id){return histOriginalInfo(id)?.preview||window.JINTAI_THREE_IMAGES?.[id]?.preview||window.JINTAI_AI_IMAGES?.[id]||'';}
+function histThumb(id){return histOriginalInfo(id)?.thumb||window.JINTAI_THREE_IMAGES?.[id]?.preview||histPreview(id);}
+function histOriginalInfo(id){if(window.JINTAI_GPT_2000_CORRECTIONS?.[id]?.action==='metadata_hold')return null;const arch=window.JINTAI_ARCH_GPT_IMAGES?.[id];if(arch)return arch;const gpt=window.JINTAI_GPT_IMAGES?.[id];if(gpt)return gpt;const selectedSha=window.JINTAI_GPT_2000_SELECTED_EXTERNAL_SHA?.[id];if(selectedSha){for(const candidate of [window.JINTAI_BROWSER_IMAGES?.[id],window.JINTAI_PEOPLE_IMAGES?.[id],window.JINTAI_ARCH_GPT_IMAGES?.[id]])if(candidate?.sha256===selectedSha)return candidate;return null;}return window.JINTAI_QINHAN_IMAGES?.[id]||window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_SHANHAIJING_GPT_IMAGES?.[id]||window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_SHANHAIJING_GPT_IMAGES?.[id]||window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_SHANHAIJING_GPT_IMAGES?.[id]||window.JINTAI_ARCH_GPT_IMAGES?.[id]||window.JINTAI_BROWSER_IMAGES?.[id]||window.JINTAI_SPECIAL_IMAGES?.[id]||window.JINTAI_MYTH_IMAGES?.[id]||window.JINTAI_THREE_IMAGES?.[id]||window.JINTAI_MINGUO_FOLK16_IMAGES?.[id]||window.JINTAI_PAGE26_IMAGES?.[id]||window.JINTAI_PAGE25_IMAGES?.[id]||window.JINTAI_PAGE24_IMAGES?.[id]||window.JINTAI_PAGE23_IMAGES?.[id]||window.JINTAI_PAGE22_IMAGES?.[id]||window.JINTAI_PAGE21_IMAGES?.[id]||window.JINTAI_PAGE20_IMAGES?.[id]||window.JINTAI_PAGE19_IMAGES?.[id]||window.JINTAI_QING_IMAGES?.[id]||window.JINTAI_GPT_IMAGES?.[id]||window.JINTAI_YUANMING_IMAGES?.[id]||window.JINTAI_SOUTHERN_SONG_IMAGES?.[id]||window.JINTAI_SONG_IMAGES?.[id]||(window.JINTAI_XIONGNU_VISUAL_ACCEPTED===true?window.JINTAI_XIONGNU_IMAGES?.[id]:null)||window.JINTAI_PEOPLE_IMAGES?.[id]||null;}
 function histMuseumCopy(id){
   const info=histOriginalInfo(id);
   return info?.method==='museum_open_access_original'?info:null;
@@ -1039,7 +1039,7 @@ function histOriginalLabel(id){const info=histOriginalInfo(id);return info?.meth
 function openHistOriginal(r){
   const info=histOriginalInfo(r.id);
   if(!info){openHistLightbox(r);return;}
-  if(window.JINTAI_QINHAN_IMAGES?.[r.id]){openHistLightbox(r);return;}
+  if(info===window.JINTAI_QINHAN_IMAGES?.[r.id]){openHistLightbox(r);return;}
   const tab=window.open('about:blank','_blank');
   if(!tab){alert('浏览器阻止弹出原图，请允许弹出窗口后重试。');return;}
   tab.opener=null;
@@ -1353,7 +1353,7 @@ function renderHlb(){
       const originalUrl=new URL(url,location.href),previewUrl=new URL(preview,location.href);
       if(originalUrl.origin===previewUrl.origin&&originalUrl.pathname===previewUrl.pathname)throw new Error('原图与预览路径相同');
       originalSrc=url;
-      raw.href=url;raw.textContent=window.JINTAI_QINHAN_IMAGES?.[r.id]?'新窗口查看秦汉原始 PNG ↗':groupMain?'新窗口查看十态组主图原生 PNG ↗':histMuseumCopy(r.id)?'新窗口查看馆藏高清浏览版 ↗':gpt||three?'新窗口查看 GPT Image PNG ↗':minguo?`新窗口查看 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG ↗`:regenerated?'新窗口查看重生成原始 PNG ↗':`新窗口查看原始 ${nativeFormat} ↗`;
+      raw.href=url;raw.textContent=native===window.JINTAI_QINHAN_IMAGES?.[r.id]?'新窗口查看秦汉原始 PNG ↗':groupMain?'新窗口查看十态组主图原生 PNG ↗':histMuseumCopy(r.id)?'新窗口查看馆藏高清浏览版 ↗':gpt||three?'新窗口查看 GPT Image PNG ↗':minguo?`新窗口查看 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG ↗`:regenerated?'新窗口查看重生成原始 PNG ↗':`新窗口查看原始 ${nativeFormat} ↗`;
       download.href=histMuseumTiff(r.id)||historyDownloadUrl(url);download.textContent=groupMain?'下载十态组主图原生 PNG':histMuseumTiff(r.id)?'下载馆藏 TIFF 原件':gpt?.method==='museum_open_access_original'?'下载馆藏高清浏览版':gpt||three?'下载 GPT Image PNG':minguo?`下载 ${minguo.method==='gpt_image'?'GPT Image':'MiniMax-H3-Image'} 原生 PNG`:regenerated?'下载重生成原始 PNG':`下载原始 ${nativeFormat}`;download.hidden=true;
       $('hlbNote').textContent=`原图入口已就绪，当前显示预览图；原始 ${nativeFormat} 正在后台加载…`;
       const full=new Image();
