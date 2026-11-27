@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "1656-cf6d3046060a",
+  "revision": "1672-92d8e70083a0",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -13251,6 +13251,134 @@
       "width": 1672,
       "height": 941,
       "sha256": "cf6d3046060abc69ddb9a8e414e538433974042303d7252e58ca35a60758614a"
+    },
+    "HL-BSONG-SC-0140": {
+      "title": "北宋·文书工作间·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0140.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0140.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3fb9d5f332c821583217734390369ccf86298b534f9818706d1c56f9b95ccd45"
+    },
+    "HL-BSONG-SC-0141": {
+      "title": "北宋·文书工作间·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0141.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0141.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "3616b87a548d459054093340e27a846104a2e93472aadff1b12b02a2ce9bb307"
+    },
+    "HL-NSONG-SC-0102": {
+      "title": "南宋·贵族书房·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0102.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0102.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0598d8969e0a5941a94c51faa3ce18f18b6058143cd3d01b62357101ac3f8633"
+    },
+    "HL-NSONG-SC-0103": {
+      "title": "南宋·贵族书房·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0103.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0103.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "49eb7753c6bdac6cf2392601a136f1690e0f80664863ca30e663ebdaab9a00c5"
+    },
+    "HL-NSONG-SC-0104": {
+      "title": "南宋·贵族书房·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0104.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0104.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "513501c60c6366c3673514061c1d50c8be4e508d7788b6a8b506895c488edbea"
+    },
+    "HL-NSONG-SC-0105": {
+      "title": "南宋·贵族书房·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0105.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0105.png",
+      "width": 1659,
+      "height": 948,
+      "sha256": "e42df25a4165832d31ec2a40106e3d474cad33572746f2c0485f2b4a6db4d281"
+    },
+    "HL-NSONG-SC-0106": {
+      "title": "南宋·兵器整备·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0106.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0106.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1ae8caf15ba38fd3c153063522a4d111f76de217f77478144aeed4c255d6d53c"
+    },
+    "HL-NSONG-SC-0107": {
+      "title": "南宋·兵器整备·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0107.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0107.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "361ec12c2786d1fb018593f284fa14a4bbb51a4bbe9c197765a944602142fc1e"
+    },
+    "HL-NSONG-SC-0108": {
+      "title": "南宋·兵器整备·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0108.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0108.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ea42f8705d911ab4113ec9ecf272103bfd4c166c4ff7bccc7b05f00e5b636343"
+    },
+    "HL-NSONG-SC-0109": {
+      "title": "南宋·兵器整备·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0109.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0109.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "2b47eb5e0a8b2bf5c0d0f1a5f23df26be681ceba890e6c470f4a30a0452bffab"
+    },
+    "HL-NSONG-SC-0110": {
+      "title": "南宋·战前集结·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0110.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0110.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a511680cec35a4dc29bd3214e4ddd8f45f6ba84d25f349c2c1d9705855248782"
+    },
+    "HL-NSONG-SC-0111": {
+      "title": "南宋·战前集结·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0111.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0111.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "555c20485aee6adc486b803c18abda846ef0c26781c4adb0825e30c319b219b4"
+    },
+    "HL-NSONG-SC-0112": {
+      "title": "南宋·战前集结·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0112.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0112.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9e8625dd773186b9da4a56bbca574c2c8c263d7196737136e43465495885c20c"
+    },
+    "HL-NSONG-SC-0113": {
+      "title": "南宋·战前集结·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0113.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0113.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "b43f9d424d13ea18f161a46935a986b8c81736da05c3bea2db4f6aa78921f0e7"
+    },
+    "HL-BSONG-SC-0142": {
+      "title": "北宋·学舍自习·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0142.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0142.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ed7adad33ebbf7f4686c97e22b233083d4e2a2b636e0ac003201f9ce3cd667df"
+    },
+    "HL-BSONG-SC-0143": {
+      "title": "北宋·学舍自习·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0143.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0143.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "92d8e70083a0c814af90be9e389e4f7d6bef5c8bfff941b34bbde5941a215900"
     }
   }
 }
