@@ -2,7 +2,7 @@
   "fixedScopeWorks": 10141,
   "scopeRevision": "b58616b8990a50aba2766810e46e84ccf7e21c8f",
   "recovered": 29,
-  "generated": 17,
+  "generated": 21,
   "assets": [
     {
       "wid": "src-wd-q105443659",
@@ -852,6 +852,37 @@
       ]
     },
     {
+      "wid": "src-5fe7efd6415d2d39",
+      "title": "U2 3D",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-5fe7efd6415d2d39.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/c18bb8fef45e9ec104c166aea7f4a283c289efec/originals/film-coverage-10141-20261127/src-5fe7efd6415d2d39.png",
+        "sha256": "b5f16ac83f38b1e95f0db03d7f52908c2ed4a7e80c970d81a790f7cb2c136b79",
+        "bytes": 2508359,
+        "width": 1706,
+        "height": 922,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "581648511d6afe712336528abdcc0747d890f0155b68f2cb5885407c9781f52f",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "2006年前后Vertigo巡演的大型正面舞台，四名成年摇滚乐手在矩形LED背景和直立灯架前演出，灯光蓝白与暖红交错，观众位于前景；避免后来360巡演的爪形支架。",
+      "actualPrompt": "Create one original cinematic rock-concert photographic reference image inspired by a mid-2000s stadium concert film. Four fully clothed adult male rock musicians perform on a SIMPLE FRONT-FACING rectangular stage: a vocalist at center holding a microphone, one guitarist at left, a bassist at right, and a drummer at the rear behind a normal drum kit. Show them in expressive dark silhouettes with subtle rim-lit edges rather than recognizable celebrity portraits. Behind them a FLAT RECTANGULAR LED backdrop with abstract white and red light patterns, ordinary UPRIGHT lighting towers, blue-white spotlights cutting through light stage haze. Rows of cheering spectators fill the lower foreground from an audience-floor perspective. Natural mid-2000s concert-camera texture, saturated blue and restrained warm red, energetic but coherent composition, wide 1.85:1 photographic frame. No circular overhead screen, no giant mechanical claw arches, no futuristic stage hardware. No lettering, captions, logos, poster or collage. This is an AI content-reference concept for the 2005-2006 tour period, not an authentic movie frame or verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://www.netflix.com/title/70084224",
+          "basis": "影片官方播放页说明取材Vertigo巡演"
+        },
+        {
+          "url": "https://www.u2.com/blogs/news/u2_360-deg-_tour_revealed_4624",
+          "basis": "乐队官方资料区分2009年360巡演与此前Vertigo 05/06巡演"
+        }
+      ],
+      "adaptationNote": "旧卡片缺可核实原图，候选PNG采用2009年360巡演舞台，与本片Vertigo巡演内容不符，未发布该候选；现按影片官方内容重新创作，明确非首镜。原首条电影节宣传合影不作为影片开场依据。",
+      "replacesExistingPreview": true,
+      "previousPreview": "film-ai/src-5fe7efd6415d2d39.jpg"
+    },
+    {
       "wid": "src-wd-q109510942",
       "title": "马洛",
       "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q109510942.jpg",
@@ -926,6 +957,35 @@
         }
       ],
       "adaptationNote": "现有首条是通用器材与运镜模板，缺少可核对的具体首镜画面；沿用用户授权，依据发行方或电影机构内容简介创作概念参考，明确标注非首镜。"
+    },
+    {
+      "wid": "src-wd-q1384597",
+      "title": "天體野女郎",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1384597.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/c18bb8fef45e9ec104c166aea7f4a283c289efec/originals/film-coverage-10141-20261127/src-wd-q1384597.png",
+        "sha256": "5d0732e5bb077bb46c2dfb179150b0bc4f90b404d48369ef26a8c361091ebf69",
+        "bytes": 3047919,
+        "width": 1615,
+        "height": 974,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "00c4465986decbfd89073927b43410eec224fca45f287498cd486f32f809112b",
+      "referenceLabel": "AI改编参考图（非首镜）",
+      "scene": "五十年代热带探险内容概念：一名穿完整宽松卡其衬衣和长裤的成年原创女探险者站在林间空地，远处成年飞行员与老式小飞机隐约可见；取消裸露、奴役和胁迫细节。",
+      "actualPrompt": "Create one original cinematic photographic reference frame, a modest fully clothed 1950s tropical adventure concept. An ORIGINAL ADULT female explorer, visibly around thirty years old, with practical tied-back blonde hair, wears a loose long-sleeved khaki utility shirt buttoned to the collar, full-length khaki trousers and sturdy hiking boots. She stands calmly at the edge of a sunlit tropical forest clearing, looking thoughtfully toward a narrow path. A fully clothed adult male pilot in a plain light utility jacket stands in the distant background beside a small vintage propeller aircraft partly hidden by broad green leaves. Lush layered trees, warm humid daylight, natural dusty fabric textures, soft Eastmancolor-like 1950s photographic grain, eye-level medium-wide 1.66:1 frame, gentle exploratory atmosphere. Independent calm adults; no captivity, no chains, no threats, no sexual context, no revealing clothing, no violence. No text, captions, logos, collage or poster. A clearly adapted AI content concept, not an actual film frame or a verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://www.filmportal.de/film/liane-die-weisse-sklavin_29e7d8457b5d44c694b29c6ae4d62883",
+          "basis": "德国电影机构确认片名、1957年份、导演及彩色1.66:1格式"
+        },
+        {
+          "url": "https://tv.apple.com/de/movie/liane-die-wei%C3%9Fe-sklavin/umc.cmc.3fhxbvs9fb140imiwxv25bvvx",
+          "basis": "官方发行页的丛林冒险内容，画面经穿衣成年人改编"
+        }
+      ],
+      "adaptationNote": "依据1957年影片发行资料作非首镜探险情境改编；以完整穿衣的成年原创探险者代替原少女形象，取消裸露、奴役和胁迫细节。"
     },
     {
       "wid": "src-wd-q1399876",
@@ -1151,6 +1211,56 @@
         }
       ],
       "adaptationNote": "首条为通用器材风格模板，依既有授权改按AFI内容简介创作概念画面，非影片首镜。"
+    },
+    {
+      "wid": "src-wd-q1443951",
+      "title": "義俠本色",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1443951.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/c18bb8fef45e9ec104c166aea7f4a283c289efec/originals/film-coverage-10141-20261127/src-wd-q1443951.png",
+        "sha256": "0f66da5f3cca13769346c4ac150d6ef6c8088e5893b258ac8d711cf046bbe7e8",
+        "bytes": 2802870,
+        "width": 1927,
+        "height": 816,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "987f5ad48bc94fd48d89bb7f0a69c67be5c01196b5cb9d9f90feae5f3c382514",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "十九世纪末得克萨斯小镇，年长警长身穿朴素深色外套和帽子独坐木廊边，望向空旷尘土街道与店铺，表现旧式执法者与变化中的小镇之间的距离。",
+      "actualPrompt": "Create one original cinematic Western photographic content-reference frame. A weathered older adult town marshal in late-19th-century Texas, wearing a plain dark felt hat, faded brown wool coat, waistcoat, high-collared shirt and worn boots, sits alone at the edge of a timber porch overlooking the dusty main street of a small town. A small simple marshal badge catches a muted highlight. He gazes toward wooden shopfronts, telegraph poles, a rail fence and a few distant fully clothed adult townspeople, with a weary thoughtful expression rather than aggression. Late-afternoon side light, warm dust and subdued olive-brown shadows, tactile weathered timber and natural facial lines, classic late-1960s color 35mm photography, eye-level medium-wide 2.35:1 composition, quiet tension between an old lawman and a changing town. No drawn weapons, no shooting, no injury, no readable shop lettering, no captions, logos, poster or collage. Original fictional person, not an actor likeness. AI content concept, not a genuine film still or a verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://catalog.afi.com/Film/23503-DEATH-OF-A-GUNFIGHTER?cxt=filmography",
+          "basis": "AFI说明Cottonwood Springs的老警长与现代化小镇的矛盾"
+        }
+      ],
+      "adaptationNote": "首条为通用器材风格模板，改据AFI内容简介创作，保留小镇警长与时代变化主题，明确非首镜。"
+    },
+    {
+      "wid": "src-wd-q1444517",
+      "title": "生命中最美好的是自由",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1444517.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/c18bb8fef45e9ec104c166aea7f4a283c289efec/originals/film-coverage-10141-20261127/src-wd-q1444517.png",
+        "sha256": "5933f95e5d66ca042b089df2e3ffc8088235564f0beff24b7f97ce91ce7dfa12",
+        "bytes": 2617332,
+        "width": 2001,
+        "height": 786,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "550cbc8d977c65d54a94ca51c3c77bcdb237893b6f91645866664d90fbc22ab0",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "二十年代美国音乐排练室，三名成年歌曲创作者围在钢琴旁，一人弹奏，另两人看着空白谱纸讨论，舞台暖灯与旧木地板形成轻快音乐片内容概念。",
+      "actualPrompt": "Create one original cinematic musical-film photographic content-reference frame. A 1920s American theater rehearsal room: three fully clothed adult male songwriters in period shirts, waistcoats, high-waisted trousers and simple jackets gather naturally around a polished upright piano. One sits at the keyboard playing, while the other two lean at either end of the piano, sharing an animated thoughtful discussion and holding a few blank manuscript sheets. Warm rehearsal spotlights and soft daylight from high windows illuminate worn wooden floorboards, simple empty stage flats and a row of unoccupied wooden chairs. Cheerful creative collaboration, rich but natural honey-amber and muted blue colors, fine 1950s color-film texture, eye-level wide 2.55:1 composition with distinct readable figures and realistic hands. Original fictional adults, no famous actor portraits. No readable musical notation, no song titles or lyrics, no captions, no lettering, no logos, poster or collage. AI content concept inspired by an official synopsis, not an authentic movie frame or verified opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://catalog.afi.com/Film/51755-THE-BEST-THINGS-IN-LIFE-ARE-FREE",
+          "basis": "AFI说明二十年代Ray Henderson与两位词曲作者在音乐剧排练中的相遇"
+        }
+      ],
+      "adaptationNote": "首条无可核实首镜细节，依据AFI关于三位歌曲作者在音乐排练中相遇的简介创作，明确非首镜，不展示受版权保护歌词。"
     },
     {
       "wid": "src-wd-q16028796",
