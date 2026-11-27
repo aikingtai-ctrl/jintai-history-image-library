@@ -2361,16 +2361,24 @@
     ],
     "chungking-express-1994": [
       {
-        "src": "film-ai/shots/YS-20261103-CN96-chungking-express-1994-096.webp",
-        "sha256": "8ba452c978db748cb1d6d52fa2d082ede6b3118e8d9c481d3f4deb400baac7e9"
+        "src": "film-ai/gallery-reviewed/chungking-express-1994-01.webp",
+        "sha256": "fb87d1b4e70463cd660edf4b349fb00dbd58a3193e95ef215e71e0061ecce670"
       },
       {
-        "src": "film-ai/decks/film-chungking-express-1994.webp",
-        "sha256": "4220e5c6cbad0e63f7b6b7ca7b4855ffab53273ea7e3874e8215289624e26dd5"
+        "src": "film-ai/gallery-reviewed/chungking-express-1994-02.webp",
+        "sha256": "a0c3b98dbe401f8251026500564603be1e03c0a01a5b1dace019f3f497999483"
       },
       {
-        "src": "film-ai/restored/chungking-express-1994.jpg",
-        "sha256": "ece545b67394d344f0b7827d253e5d2e27450fa0cc06915beddcfc5ddd29457b"
+        "src": "film-ai/gallery-reviewed/chungking-express-1994-03.webp",
+        "sha256": "d6afc141d2de2d7979defcd39e87c9f951c2e587d00b94ea1d2e6b9b1b5499ce"
+      },
+      {
+        "src": "film-ai/gallery-reviewed/chungking-express-1994-04.webp",
+        "sha256": "c4833401948b7c8c2e6cdb7a92330ddf3152ee1a12821e8a9d993b5dc6f21de4"
+      },
+      {
+        "src": "film-ai/gallery-reviewed/chungking-express-1994-05.webp",
+        "sha256": "f367061fcdd8d4ddf7a1c38017390e7e215e98d36b679d0d72cead7852287f53"
       }
     ],
     "chunhyang-2000": [
