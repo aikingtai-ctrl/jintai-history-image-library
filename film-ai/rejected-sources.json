@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T18:46:21.694678+08:00",
+  "updated_at": "2026-11-27T20:06:09.310883+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -3159,6 +3159,230 @@
       "sha256": "f7ffb573636f68cd36820ee7c84b0c1017488ce3e9c8e6ded0a3f0e25b56c208",
       "reason": "月下黑色城堡与乌鸦仅有噩梦气氛，没有 Ralph、Mumford 或 Botch 的可核角色形象，无法确定是同片场景。",
       "evidence": "第四十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1c04b15ce3504f10",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-1c04b15ce3504f10.webp",
+      "sha256": "c4fd6ba86643ccde56daaefd5824024eaf60d059b46ecc5ab93d6b7f9a8b0853",
+      "reason": "空道馆的道服、腰带、拳袋只说明武术题材，未见 Tommy、Alex、Travis 或地下竞技场事件。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1c04b15ce3504f10",
+      "src": "film-ai/src-1c04b15ce3504f10.jpg",
+      "sha256": "1bc7b51a96474eeb2ebe889457018ecb1a907aba8adecf2f4d791adfe379abe9",
+      "reason": "三人面向镜头摆拍，无法认作 AFI 所列角色或剧中情节；其中少年面貌及现代街景不能确认影片关联。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1c0b17ec79b573a4",
+      "src": "film-ai/src-1c0b17ec79b573a4.jpg",
+      "sha256": "1c12d68055e3e1d49cb662b2c74ea9953b21c1b2eb76c311ce82fd99d17cfba4",
+      "reason": "同一男女在公寓沙发继续交谈，和 01 的访谈动作、人物、空间高度同义；不能充作第二种剧照。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1c376337d13e2bed",
+      "src": "film-ai/decks/film-src-1c376337d13e2bed.webp",
+      "sha256": "b1891c78b33130c98c383319f7a3e46103bc7b1fcd725e326dd7f7c4dd24473d",
+      "reason": "背对镜头的黑衣女子手持花束看庭院，只与片名服装及丧偶主题泛相似，没有 Julie 或复仇目标的可核动作。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1c376337d13e2bed",
+      "src": "film-ai/src-1c376337d13e2bed.jpg",
+      "sha256": "6756de378b89027e1351ef0628c0d104bab92f0a612b95b381a6154afcb93eb1",
+      "reason": "东亚男子与白色婚纱女子参加现代婚宴，与 1967 法国 Julie Kohler 的人物及婚礼谋杀故事不合。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1c57a3e2b94a70d8",
+      "src": "film-ai/shots/YS-20261106F4-CL68-src-1c57a3e2b94a70d8-006.webp",
+      "sha256": "240b64b0c5f5a41d08f3ab9e2acb56b45bbbd72c486e0269f0e382844fa05d06",
+      "reason": "灾后加油站有狗和四足小机器人，但片方所述 Jeff 是人物同行的机器人；本图既无 Finch 又不能辨 Jeff 的角色设计。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1cbc055900caf23b",
+      "src": "film-ai/src-1cbc055900caf23b.jpg",
+      "sha256": "3c6f8b359c72504e9838f0d5282945be93df4f3a49ba3ee6f75b820c0363344a",
+      "reason": "黑白机场旁多名成人合影，不见年轻歌迷或 Ed Sullivan 现场；原片可插入黑白 Beatles 影像，故不能仅凭黑白判错，先暂缓。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1cc05253f68553dc",
+      "src": "film-ai/quality-reviewed/src-1cc05253f68553dc.png",
+      "sha256": "41da71e0041267db16f730d52d2eab23f7b78147c2bd5b7a8fd245d753a1d4e4",
+      "reason": "黑白课堂物理演示仅与题名相符，缺可读取的档案片目、制作年代及原帧佐证。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1cc05253f68553dc",
+      "src": "film-ai/src-1cc05253f68553dc.jpg",
+      "sha256": "b489a6c6bfdbd7e78d70b3ebc225cebee3bf9a65003bd34274f1e4f2ce729eda",
+      "reason": "现代口播人物与卡通城堡旗帜标志属讲解/品牌画面，非 1952 影片的叙事或纪录画面。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1cda09ccc55be5fb",
+      "src": "film-ai/quality-reviewed/src-1cda09ccc55be5fb.png",
+      "sha256": "9ead409fd4d030de533c6849ea5f93f5cf5adeb4785f719a2b4f8392334076e8",
+      "reason": "红场、圣瓦西里教堂与苏联游行人群符合题名主题，但档案年代和原片画面缺核验，保守暂缓。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1cda09ccc55be5fb",
+      "src": "film-ai/src-1cda09ccc55be5fb.jpg",
+      "sha256": "17abffbf46e3dc4a480e1bf11298d5e116f027aae952a884ad5345d39cf0bea2",
+      "reason": "彩色足球队举杯且图中文字明示 THE 1957 FA CUP FINAL，与 1947 莫斯科五一活动的地点、事件、年代均相冲突。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1d2a622aa1d87307",
+      "src": "film-ai/src-1d2a622aa1d87307.jpg",
+      "sha256": "53b93d001a9c7c61a8616e08534304217529c33fb6ff490af9767f2b72d2b1b3",
+      "reason": "图中清楚写 MANTARRAYA，海底蝠鲼及人物组成别片影碟封面，属于错片且非剧照。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1d550af852b1a396",
+      "src": "film-ai/src-1d550af852b1a396.jpg",
+      "sha256": "61d79d355b0ce4bb4e21f1c4a841bdc62af4831ce206e84c9f054271d102fce2",
+      "reason": "整幅为写有 ANARCHIE 的涂鸦字卡，不是自然的影片场面，也无本片人物。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1d5e340b506cd282",
+      "src": "film-ai/src-1d5e340b506cd282.jpg",
+      "sha256": "665e6f2e4e91509bee503097ce90409c2f8ef06d2b1284a76cb6032727069edf",
+      "reason": "棕榈树前黑白公寓外墙只说明洛杉矶城市环境，不能辨 Martin Harrow、追捕事件或 AFI 明列地点。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1e546417f87fa928",
+      "src": "film-ai/src-1e546417f87fa928.jpg",
+      "sha256": "3208e0584e6aaf8f36633a3f9af5b9e546bf468ca8b6709593c140cdc53e8f85",
+      "reason": "戴雪镜的白胡子老人攀爬雪山，不是 Sony 片目中的年轻 Longfellow Deeds，也非纽约继承故事。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1eaee1e21f343c8d",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-1eaee1e21f343c8d.webp",
+      "sha256": "2f3dfe9780105984635d092028e7bf904042fe51129872f51288e998f7e9106e",
+      "reason": "空会议室桌上夸张作战示意图与军事喜剧题材相近，但无 Topper、救援队或可核事件。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1ed1d3c286259198",
+      "src": "film-ai/src-1ed1d3c286259198.jpg",
+      "sha256": "e83ffd45b58576dad8752cb88af662c4bacb9a0956320f6300f2f000325e3796",
+      "reason": "河道铁桥空景既无名美和同伴，也无废弃设施或杀人录像线索，暂不能对应本片。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1f2197876fa35ec5",
+      "src": "film-ai/decks/film-src-1f2197876fa35ec5.webp",
+      "sha256": "c87923656b6e6ddae80c15cc2f2d37eb39c76d9fecbb11c03937f6eabcec0f3b",
+      "reason": "女子临窗、男子在门口的普通室内构图，既无可辨 Karin/David，也无考古或婚外恋具体事件。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1f2197876fa35ec5",
+      "src": "film-ai/src-1f2197876fa35ec5.jpg",
+      "sha256": "56e03937e5a900c96d9a0509e5055d5253a2794d77d4539e2b15b3106cdbd6bd",
+      "reason": "单名胡须男子的时尚近景难以和 1971 David/Karin 关系或考古职业核对；面貌疑与 Elliott Gould 不符但不足以单凭主观辨脸拒用。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1f4efa926f75f8e1",
+      "src": "film-ai/decks/film-src-1f4efa926f75f8e1.webp",
+      "sha256": "edeb51382159bc7f4f5370615412680257a5502fb199dcaaa8344981934f8323",
+      "reason": "画面为彩色影院放映三名歌舞女子，媒介、人物和影院视角均与 1944 黑白侦探故事不符。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1f4efa926f75f8e1",
+      "src": "film-ai/src-1f4efa926f75f8e1.jpg",
+      "sha256": "7c1ddf2e0e8634be9ec24d00788af8bd769c8c6868bbd460cb4bbd576de84612",
+      "reason": "三名当代东亚女子的棚拍时尚肖像，与 Gene Tierney/Dana Andrews 的黑白纽约悬疑片人物及年代冲突。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1f53ac67f7023ec5",
+      "src": "film-ai/src-1f53ac67f7023ec5.jpg",
+      "sha256": "7712f534448d77b8a53d13e14e31bd125d5f3d59a5362f62252e34722b43079e",
+      "reason": "男子独坐墓碑旁、远处有马，虽属西部片视觉，但 AFI 情节未证墓地事件或角色，不能凭马加墓碑补图。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1f7080aa3e292ecd",
+      "src": "film-ai/decks/film-src-1f7080aa3e292ecd.webp",
+      "sha256": "f8d41ae2011f057d6e7a56eb0b2bfe479e2a8418f9b3a49d77e6b45ea1c6bde9",
+      "reason": "阴雨哥特式庄园大门只具泛恐怖氛围，未见人物或可核的 Morley 家宅标识，暂不当作原片关联画面。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1f7080aa3e292ecd",
+      "src": "film-ai/src-1f7080aa3e292ecd.jpg",
+      "sha256": "99ccba8c72eddde1c62510eb236787a21ea1b57e12dd482513b2802c280d6b40",
+      "reason": "现代东亚男女在精致客厅看文件，人物与 1968 英国 Tigon 电影的主要演员及时代明显冲突。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-1f719297c62ab9ce",
+      "src": "film-ai/src-1f719297c62ab9ce.jpg",
+      "sha256": "df848f70b6f43cb5cee617ac5ea0e44785df5bf8d90949a990f0cda5517f5b14",
+      "reason": "欧洲海滨街头的男女漫步可泛指 Bessie/Fergus 关系，但面貌、地点、情节点均不能核实为 AFI 所列人物。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2285ae808465e7c1",
+      "src": "film-ai/src-2285ae808465e7c1.jpg",
+      "sha256": "193773a269a3382c680a5824f3737f1c80d936f23ad49e7d7c0406af07caf601",
+      "reason": "床上的年轻黑发胡须男子既非年长的 Aschenbach，也非少年 Tadzio，缺威尼斯环境；人物年龄与造型显著冲突。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-23624199468de507",
+      "src": "film-ai/src-23624199468de507.jpg",
+      "sha256": "f8c068ea31eabe7283e906a8e2358df92c49ca012cddd50d8a5bf255690c57d9",
+      "reason": "巨型银杏与远处两名黑影只呈现中心树木，没有三个年代中任一人物或研究行为；与 01 银杏视觉重复。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-23ab3a5b29cf763a",
+      "src": "film-ai/goal9438/src-23ab3a5b29cf763a.jpg",
+      "sha256": "eaa075e13d81c10940c96b9f536cfca07b3e8c6a280861812787148181a30854",
+      "reason": "红灯粉月下的彩色现代和服女子画面，与 Criterion 明示的 1965 黑白满洲前线影片媒介和空间均冲突。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-24616098ab839b70",
+      "src": "film-ai/src-24616098ab839b70.jpg",
+      "sha256": "d7dbdad793873a57c2da0d7e567a13bcbb8e20a049759a626281953069f73551",
+      "reason": "单独的时装棚拍肖像或可对应 Alison 模特职业，但没有剧中公寓、恐怖事件或可识演员的证据。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-24be4459327a83fe",
+      "src": "film-ai/goal9438/src-24be4459327a83fe.jpg",
+      "sha256": "67715e872bf3d86abc37a54d31353bc917c80d6c75abeda7ff7a33c7e12e9fc2",
+      "reason": "同一提箱男子在铁轨旁走向同一小镇，只是 01 下车入镇的另一视角，缺新的事件。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-25110360e4d0528a",
+      "src": "film-ai/src-25110360e4d0528a.jpg",
+      "sha256": "7a278c2d1b8f57b855602671271ecd4185a8ea4fcc76c510876aa7018d41b82a",
+      "reason": "全队整齐面对镜头的合影更像宣传照，虽同为中年棒球员，却缺比赛动作或告别情节，不能当第二剧照。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2560799f9a6eac6b",
+      "src": "film-ai/src-2560799f9a6eac6b.jpg",
+      "sha256": "b50ee62f40a51fd4446822f1594c996731e991491d8cebe9be36a25ee607b8e1",
+      "reason": "绿色城市街道中仍是两人搬大型门/门框，延续 01 完全相同的核心动作；无新的开门世界或人物事件。",
+      "evidence": "第四十七批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
