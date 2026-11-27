@@ -481,7 +481,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
  </div>
 </dialog>
 <div id="toast"></div><div id="printArea"></div>
-<script src="film-ai/manifest.js?v=9cf83c91559574e2"></script>
+<script src="film-ai/manifest.js?v=a13c6ecf3429b5fc"></script>
 <script src="film-ai/decks/manifest.js?v=20261117-gpt-image-film-1827"></script>
 <script src="film-ai/shots-manifest.js?v=2e576cd83e053fee"></script>
 <script>
@@ -1122,7 +1122,7 @@ function sendDeckToCompare(deckId){const d=resolveAnyDeck(deckId);if(!d)return;
  else if((d.items||[]).length){CMP=(d.items||[]).slice(0,8).map(x=>x.id);saveCmp();CMP_MODE='shots';showTab('compare');}}
 function filmPhotoGridHTML(d){const w=d._w||WORK_BY_WID.get(d.filmDeckWid),photos=workPhotoEntries(w);
  if(!photos.length)return'<p class="empty">这部影片目前没有可用剧照；下方仍可查看全部镜头文字资料。</p>';
- return photos.map((p,i)=>`<div class="ditem"><button type="button" class="thumb" data-film-photo-wid="${esc(d.filmDeckWid)}" data-film-photo-index="${i}" aria-label="放大第 ${i+1} 张画面"><img loading="lazy" decoding="async" src="${esc(p.src)}" alt="《${esc(w.t)}》第 ${i+1} 张画面"></button><div class="cap"><b>${i+1}. ${esc(p.kind||'参考画面')}</b><p>${esc(p.shotId&&BYID.get(p.shotId)?.sc||'单片画面参考')}</p></div></div>`).join('');}
+ return photos.map((p,i)=>`<div class="ditem"><button type="button" class="thumb opens-image" data-film-photo-wid="${esc(d.filmDeckWid)}" data-film-photo-index="${i}" aria-label="放大第 ${i+1} 张画面"><img loading="lazy" decoding="async" src="${esc(p.src)}" alt="《${esc(w.t)}》第 ${i+1} 张画面"></button><div class="cap"><b>${i+1}. ${esc(p.kind||'参考画面')}</b><p>${esc(p.shotId&&BYID.get(p.shotId)?.sc||'单片画面参考')}</p></div></div>`).join('');}
 function filmShotTextHTML(d){const rows=(d.items||[]).map(x=>BYID.get(x.id)).filter(Boolean);
  return`<details class="film-shot-text"><summary>展开全部 ${rows.length.toLocaleString()} 条镜头描述（仅文字）</summary><ol>${rows.map(r=>`<li><b>${esc(r.id)}</b> · ${esc(r.sc||'描述待补')}</li>`).join('')}</ol></details>`;}
 async function renderDeckStudio(d){const V=$('deckView');
@@ -1154,7 +1154,7 @@ async function renderDeckStudio(d){const V=$('deckView');
   ${ro?'':'<button class="ghost" id="dkDel" type="button">删除这个图集</button>'}
  </div>
  ${miss?`<p class="warn small">正在后台补齐 ${miss} 个镜头的完整卡片…</p>`:''}
- <div class="dgrid${d.filmDeckWid?' film-photo-grid':''}" id="dkGrid">${d.filmDeckWid?filmPhotoGridHTML(d):(d.items||[]).map((x,i)=>{const r=BYID.get(x.id);if(!r)return'';return`<div class="ditem" draggable="${!ro}" data-i="${i}"><div class="thumb" data-open="${r.id}">${visual(r,520)}</div>${palHTML(r)}<div class="cap"><b>${i+1}. ${esc(r.W.t)}</b> <span class="y">${r.W.y||''} · ${r.id}</span><p>${esc(r.sc)}</p></div>
+ <div class="dgrid${d.filmDeckWid?' film-photo-grid':''}" id="dkGrid">${d.filmDeckWid?filmPhotoGridHTML(d):(d.items||[]).map((x,i)=>{const r=BYID.get(x.id);if(!r)return'';return`<div class="ditem" draggable="${!ro}" data-i="${i}"><div class="thumb${visualHasImage(r)?' opens-image':''}" data-open="${r.id}">${visual(r,520)}</div>${palHTML(r)}<div class="cap"><b>${i+1}. ${esc(r.W.t)}</b> <span class="y">${r.W.y||''} · ${r.id}</span><p>${esc(r.sc)}</p></div>
   ${ro?(x.note?`<p class="note small" style="margin:0 12px 12px;color:var(--mu)">${esc(x.note)}</p>`:''):`<textarea data-note="${i}" placeholder="给这一镜写备注：参考它的什么（光/色/构图/情绪）">${esc(x.note)}</textarea><div class="acts"><button type="button" data-up="${i}">↑</button><button type="button" data-dn="${i}">↓</button><button type="button" data-rm="${i}">移除</button></div>`}</div>`;}).join('')}</div>
  ${d.filmDeckWid?filmShotTextHTML(d):''}`;
  bindCards(V);
@@ -1616,7 +1616,7 @@ async function renderCmpShots(){
  const rows=[['作品',r=>r.W.t+' '+(r.W.y||'')],['导演 / 摄影',r=>r.W.dir+' / '+(r.W.dp||'待核')],['画幅',r=>r.W.ar],['景别',r=>r.size],['机位角度',r=>r.angle],['画面人物',r=>r.frame],['运镜',r=>(r.move||[]).join('、')],['焦段 / 景深',r=>[r.lens_type,r.dof].filter(Boolean).join(' / ')],
   ['灯光',r=>(r.light||[]).join('、')],['主光方向',r=>r.ld],['时间',r=>r.time],['天气',r=>r.weather],['内外景',r=>r.ie],['地点',r=>(r.loc||[]).join('、')],['色彩',r=>(r.color||[]).join('、')],['构图',r=>(r.comp||[]).join('、')],['主体位置',r=>r.pos],['人物情绪',r=>(r.emo||[]).join('、')],['研究笔记',r=>r.note]];
  box.innerHTML=`<p class="muted small" style="margin:6px 0 10px">正在并排精读 <b>${rs.length}</b> 个镜头（上限 ${CMP_MAX} 镜） · 琥珀色高亮行为跨镜差异维度，点击画面可打开完整复刻提示词。</p>
- <div class="cmpgrid" style="grid-template-columns:repeat(${Math.min(rs.length,4)},minmax(280px,1fr))">${rs.map(r=>`<div class="col"><div class="thumb" data-open="${r.id}">${visual(r,640)}</div>${palHTML(r)}<h4>${esc(r.W.t)} <span class="muted small">${r.W.y||''} · ${r.id}</span></h4><p class="small muted" style="margin:0 12px 8px">${esc((r.sc||'').slice(0,58))}</p><div class="acts"><button type="button" data-cmp="${r.id}">移出精读</button></div></div>`).join('')}</div>
+ <div class="cmpgrid" style="grid-template-columns:repeat(${Math.min(rs.length,4)},minmax(280px,1fr))">${rs.map(r=>`<div class="col"><div class="thumb${visualHasImage(r)?' opens-image':''}" data-open="${r.id}">${visual(r,640)}</div>${palHTML(r)}<h4>${esc(r.W.t)} <span class="muted small">${r.W.y||''} · ${r.id}</span></h4><p class="small muted" style="margin:0 12px 8px">${esc((r.sc||'').slice(0,58))}</p><div class="acts"><button type="button" data-cmp="${r.id}">移出精读</button></div></div>`).join('')}</div>
  <div style="overflow-x:auto"><table class="cmp">${rows.map(([n,fn])=>{const vs=rs.map(r=>fn(r)||'');const diff=new Set(vs).size>1&&n!=='研究笔记'&&n!=='作品'&&n!=='导演 / 摄影';return`<tr><th>${n}</th>${vs.map(v=>`<td class="${diff?'diff':''}">${esc(v)}</td>`).join('')}</tr>`;}).join('')}</table></div>`;
  bindCards(box);}
 async function renderCompare(){
@@ -1695,7 +1695,7 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
  <div class="m">${esc(metaParts)}</div>
  ${aiPreview}
  <div class="mosaic" data-wpal="${esc(w.wid)}" style="flex-direction:row;height:22px">${workMosaicSpans(w)}</div><p>${esc(w.look||'')}</p>
- <div class="btns"><button class="pri" data-wid="${esc(w.wid)}">看 ${cnt.toLocaleString()} 个镜头</button>${aiSrc?`<button type="button" data-zoom-wid="${esc(w.wid)}">↗ 打开原图</button>${String((window.FILM_AI_IMAGES||{})[w.wid]||'').startsWith('film-ai/firstshot-20261127/')?`<button type="button" data-download-film-original="${esc(w.wid)}">下载原图</button>`:''}`:''}<button data-wdeck="${esc(w.wid)}">整片图集</button><button data-wfp="${esc(w.wid)}">加入瞬间对照</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
+ <div class="btns"><button class="pri" data-wid="${esc(w.wid)}">看 ${cnt.toLocaleString()} 个镜头</button>${aiSrc?`${String((window.FILM_AI_IMAGES||{})[w.wid]||'').startsWith('film-ai/firstshot-20261127/')?`<button type="button" data-download-film-original="${esc(w.wid)}">下载原图</button>`:''}`:''}<button data-wdeck="${esc(w.wid)}">整片图集</button><button data-wfp="${esc(w.wid)}">加入瞬间对照</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
  $('wGrid').querySelectorAll('.film-ai-preview[data-zoom-wid]').forEach(el=>{
   el.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();el.click();}};
  });

@@ -1,7 +1,7 @@
 {
   "fixedScopeWorks": 10141,
   "scopeRevision": "b58616b8990a50aba2766810e46e84ccf7e21c8f",
-  "recovered": 29,
+  "recovered": 31,
   "generated": 21,
   "assets": [
     {
@@ -850,6 +850,58 @@
           "basis": "BFI confirms the medieval falcon-release opening sequence; restored native reference remains explicitly labelled non-first-shot."
         }
       ]
+    },
+    {
+      "wid": "the-36th-chamber-of-shaolin-1978",
+      "title": "少林三十六房",
+      "canonicalWid": "the-36th-chamber-of-shaolin-1978",
+      "preview": "film-ai/the-36th-chamber-of-shaolin-1978.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b79f82edf615f3ae6e6c27397d97851a81c5c426/originals/film-coverage-10141-20261127/recovered/the-36th-chamber-of-shaolin-1978.png",
+        "sha256": "3cf04edf45917db1b89837436b662b8ee01525d53c079fba2bff8a8396927711",
+        "bytes": 2260541,
+        "width": 1900,
+        "height": 828
+      },
+      "jpgSHA256": "d4f14933acc6d4aa0e1b5a43694957dda009d87f05257a67cee8b1efd141e355",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "少林寺练功房内，刘家辉与李海生饰演的两名赤膊光头武僧正捉对演练拳脚功夫",
+      "actualPrompt": "Create exactly one original AI reference image from the first-shot description below. Library context only: \"少林三十六房\" (1978); this metadata is not lettering to print in the image. Use one continuous cinematic view from one camera. Retain the specified people, age, clothing, era, cultural setting, lighting, and framing. Do not infer ethnicity from the language of this description. Original fictional performers may replace named actors while retaining their described roles and appearance. Preserve any explicitly specified orientation or aspect ratio; otherwise use horizontal 16:9. Render only text explicitly described as visible inside the source image; do not add a title, captions, credits, logos, or a watermark based on the library metadata.\n\nFirst-shot description:\nCinemascope widescreen medium two-shot inside a temple hall showing shirtless shaved-head Shaolin monks played by Gordon Liu and Lee Hoi-Sang sparring intensely, 1978 Lau Kar-Leung kung fu masterpiece.\nScene note: 少林寺练功房内，刘家辉与李海生饰演的两名赤膊光头武僧正捉对演练拳脚功夫",
+      "firstShotId": "VP-the-36th-chamber-of-shaolin-1978-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.6301868109272573,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "the-400-blows-1959",
+      "title": "四百击",
+      "canonicalWid": "the-400-blows-1959",
+      "preview": "film-ai/the-400-blows-1959.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b79f82edf615f3ae6e6c27397d97851a81c5c426/originals/film-coverage-10141-20261127/recovered/the-400-blows-1959.png",
+        "sha256": "cd73e2a1f1bbb6e8ccae43a048b5b169ebbb3795c53aa945d4e2af6efaf60418",
+        "bytes": 1997044,
+        "width": 1672,
+        "height": 941
+      },
+      "jpgSHA256": "8bf16dad7eb87803f62d2f4477e9cfb301efefb6588306965eba55a756cd087e",
+      "nativeLinkOnly": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "recovered built-in image_gen native PNG",
+      "scene": "黑白法国学校教室木课桌前少年安托万端坐凝视前方而身后同学们低头书写的近景",
+      "actualPrompt": "Create exactly one original AI reference image from the first-shot description below. Library context only: \"四百击\" (1959); this metadata is not lettering to print in the image. Use one continuous cinematic view from one camera. Retain the specified people, age, clothing, era, cultural setting, lighting, and framing. Do not infer ethnicity from the language of this description. Original fictional performers may replace named actors while retaining their described roles and appearance. Preserve any explicitly specified orientation or aspect ratio; otherwise use horizontal 16:9. Render only text explicitly described as visible inside the source image; do not add a title, captions, credits, logos, or a watermark based on the library metadata.\n\nFirst-shot description:\nBlack-and-white medium close-up inside a 1950s French classroom, young Jean-Pierre Léaud as Antoine Doinel sitting at a wooden desk looking forward while classmates write behind him.\nScene note: 黑白法国学校教室木课桌前少年安托万端坐凝视前方而身后同学们低头书写的近景",
+      "firstShotId": "VP-the-400-blows-1959-01",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "previewCorrespondenceRGBRMSE": 0.45285552331841994,
+        "nativeCacheAndGenerationRecordSHA256Matched": true
+      },
+      "previewDerivedFromVerifiedNativeOriginal": true
     },
     {
       "wid": "src-5fe7efd6415d2d39",
