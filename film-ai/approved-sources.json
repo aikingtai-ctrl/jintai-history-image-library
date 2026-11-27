@@ -7059,6 +7059,96 @@
         "sha256": "18ea2e93ca7a605f1dd43c9e1fc8489de66be3399c66a137deb4984beabfa390"
       }
     ],
+    "src-1535852ce1d87db3": [
+      {
+        "src": "film-ai/shots/YS-20261103-CN96-src-1535852ce1d87db3-093.webp",
+        "sha256": "27da3bc7f0d3d8f3bf63076a21e1a94b10bf9f35819d8581911fa3f145b0710b"
+      },
+      {
+        "src": "film-ai/src-1535852ce1d87db3.jpg",
+        "sha256": "9d579a5444e2cfe4dc050ff5cd39daf0c5f6c315255621bfe3f91d307de180e0"
+      }
+    ],
+    "src-15f54bf421ebce4c": [
+      {
+        "src": "film-ai/quality-reviewed/src-15f54bf421ebce4c.png",
+        "sha256": "f30ace1a4ff43ba43287faa9620d6001173802814d73335fa6e5c53004810c32"
+      },
+      {
+        "src": "film-ai/src-15f54bf421ebce4c.jpg",
+        "sha256": "b9f792a0bf0b6ce7924d846f4b5a15d74ebab072e280a02cd0caf143153cd454"
+      }
+    ],
+    "src-16454c0883d4ca44": [
+      {
+        "src": "film-ai/firstshot-20261127/src-16454c0883d4ca44.jpg",
+        "sha256": "10fc38905626ec291f7a495ba005f3d226164fdd2310673584dc930702752224"
+      },
+      {
+        "src": "film-ai/decks/film-src-16454c0883d4ca44.webp",
+        "sha256": "a2d4dec2a49fa2f637376c7c35ac6676b30325da2c4b85a128346060f43a9380"
+      }
+    ],
+    "src-167a30cc6566e855": [
+      {
+        "src": "film-ai/decks/film-src-167a30cc6566e855.webp",
+        "sha256": "e3fd49a7fc9574f42069f1f0c7f2923dfa36db5a551cf74c095aef0b035d8301"
+      },
+      {
+        "src": "film-ai/goal9438/src-167a30cc6566e855.jpg",
+        "sha256": "99735969837c30977ac3eace34f2c98226ff384dbfd5a98e23e93b59594c294e"
+      }
+    ],
+    "src-16baa435aa32fa9e": [
+      {
+        "src": "film-ai/shots/WORKCONCEPT-20261127-ri-gua-zhong-tian-2025-gpt.webp",
+        "sha256": "882d9343cd6f3e97c44e8f080a3d28a616e4f1c3e9f7b702b6d2e6ced199e44c"
+      },
+      {
+        "src": "film-ai/src-16baa435aa32fa9e.jpg",
+        "sha256": "b568609682e777da79e03a3a4aeca8c19024923b24d74d0f0859d7297d734f02"
+      }
+    ],
+    "src-16f415a9b96dbf85": [
+      {
+        "src": "film-ai/src-16f415a9b96dbf85.jpg",
+        "sha256": "76281f815a87e34b474825ac8f6d81189721711d034fb1871809082d0463badb"
+      },
+      {
+        "src": "film-ai/shots/YS-20261118-GR-src-16f415a9b96dbf85-01.webp",
+        "sha256": "4cd23b7d3cecc6b8d66a380c6fccc9a791491f7c919899efb7a273accc515c5d"
+      }
+    ],
+    "src-181cda7e1a9b4f35": [
+      {
+        "src": "film-ai/firstshot-20261127/src-181cda7e1a9b4f35.jpg",
+        "sha256": "f2392ed78364c038f49b5202770a0419221b26e5860ece0146c10c824485dde8"
+      },
+      {
+        "src": "film-ai/decks/film-src-181cda7e1a9b4f35.webp",
+        "sha256": "0d1f40217fb0c995101b8151c5fa5f6e228cfd5f1ce5fb5258b3d65dc096ec53"
+      }
+    ],
+    "src-18608e74e7c93c65": [
+      {
+        "src": "film-ai/firstshot-20261127/src-18608e74e7c93c65.jpg",
+        "sha256": "cd4cc90f04c1ea0eb620f4ab59461488a89d9c413e9547ec1ddd471595118d1c"
+      },
+      {
+        "src": "film-ai/decks/film-src-18608e74e7c93c65.webp",
+        "sha256": "24f34c2a5d8d47684bda2673431fe39aea938fdfd523cee5ab9b4edc77209978"
+      }
+    ],
+    "src-195a730e6e4d8980": [
+      {
+        "src": "film-ai/decks/film-src-195a730e6e4d8980.webp",
+        "sha256": "f89114becda89d7a4666d02511c041f3ac6ca63d5e9f4639cb61f5860780bb9d"
+      },
+      {
+        "src": "film-ai/contentref-20261127-batch2/src-195a730e6e4d8980.jpg",
+        "sha256": "43d6062f6deac5d693ef07fdc1142c8c4558e95c8e6891bbc42a7cfa235f8c71"
+      }
+    ],
     "tampopo-1985": [
       {
         "src": "film-ai/decks/film-tampopo-1985.webp",
