@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-27",
+  "reason": "Direct preview sources have mixed provenance; avoid blanket AI claim",
+  "label": "镜头参考图·原文件",
+  "originCounts": {
+    "curated_research_ai|zh.wikipedia.org": 10,
+    "legacy|missing": 2,
+    "curated_concept|missing": 2,
+    "legacy|m.media-amazon.com": 1,
+    "visual|m.media-amazon.com": 4,
+    "legacy|film-grab.com": 4,
+    "curated_research_ai|www.chinanews.com.cn": 1,
+    "curated_research_ai|ent.sina.com.cn": 1
+  },
+  "wids": [
+    "src-1454f9b99892677c",
+    "src-183f678986c8457d",
+    "src-18e10cf3d7de279a",
+    "src-2f00191843d0fc07",
+    "src-37ff4716e77fa4c5",
+    "src-41d6979d385e673c",
+    "src-460d53dbf686e9dd",
+    "src-4bc0dc9d5f2f9a07",
+    "src-4c2288cb8746b6d6",
+    "src-5480fe71f3a50177",
+    "src-54921d0dec043b85",
+    "src-6f6c8adfc06d775a",
+    "src-70139a395642d6b9",
+    "src-7a0d3f43c75bb801",
+    "src-wd-q85883006",
+    "the-aviator-2004",
+    "the-emperor-and-the-assassin-1998",
+    "the-great-buddha-2017",
+    "the-opium-war-1997",
+    "the-puppetmaster-1993",
+    "the-revenant-2015",
+    "the-road-home-1999",
+    "yellow-earth-1984",
+    "blood-valley-2001",
+    "ballet-of-two-2004"
+  ]
+}

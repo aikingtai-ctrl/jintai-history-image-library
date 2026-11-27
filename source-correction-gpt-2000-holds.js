@@ -1,4 +1,4 @@
-/* Display corrections for 29 pending GPT Image items. Frozen prompts and shards remain evidence. */
+/* Display corrections for 29 pending items and accepted historical reconstructions. Frozen prompts remain evidence. */
 (()=>{
   const corrections=Object.create(null);
   function add(id,title,note,sourceUrls){
@@ -69,6 +69,30 @@
       '史实待校正：冻结提示词将祖甲的祭制改革与“盛王”评价并作定论；《史记》与卜辞研究的评价路径不同，应标明史料分歧后再生成。旧 JPEG 仅为存档预览。',
       [yinBenji,'https://www11.ihp.sinica.edu.tw/storage/w2_file/2840jzRVfUI.pdf']);
 
+  const acceptedCorrections=Object.create(null);
+  function accepted(id,note,sourceUrls){acceptedCorrections[id]={note,sourceUrls};}
+  accepted('JT-HF-XIANQIN-EMP-15017',
+      '帝乙：人物容貌与庭院为推拟；旧 JPEG 的后世冠服、舆图和白石栏杆不能当作商代图像证据。',
+      [yinBenji]);
+  accepted('JT-HF-XIANQIN-EMP-16001',
+      '武乙：人物容貌与陶器修补场面为推拟；《史记》所载“射天”属于传世叙事，画面没有将其当作可证事件。',
+      [yinBenji]);
+  accepted('JT-HF-XIANQIN-GEN-13028',
+      '妇好：卜辞及墓葬资料证其为武丁配偶并参与祭祀、军事活动。冻结旧提示词误写胡须、长城和铁骑；旧 JPEG 画的是女性，但军装和边塞场景有后世成分。新图为推拟。',
+      ['https://capitalmuseum.org.cn/exhibition/195433359fe24960be82c5fad40cd43d','https://www.chnmus.net/sitesources/hnsbwy/page_pc/dzjp/mzyp/fhxz/list1.html']);
+  accepted('JT-HF-XIANQIN-GEN-13036',
+      '姜尚：按《史记·齐太公世家》作西周建立后的推拟人物场面；渭水遇文王故事发生于西周前，不沿用旧图的长城、铁骑。',
+      ['https://zh.wikisource.org/zh-hans/%E5%8F%B2%E8%A8%98/%E5%8D%B7032']);
+  accepted('JT-HF-XIANQIN-GEN-20011',
+      '雀：卜辞资料可证其名与商王活动相关；旧提示词指定“讨土方”、强弩等细节缺少本条确证，新图只作未指定战事的推拟。',
+      ['https://www1.ihp.sinica.edu.tw/Publications/Bulletin/1001/Article/1947']);
+  accepted('JT-HF-XIANQIN-OFF-12006',
+      '傅说：《史记·殷本纪》载武丁于傅岩得版筑者傅说并举为相；旧提示词的“托孤”、尚书省和后世官服不沿用。',
+      [yinBenji]);
+  accepted('JT-HF-XIANQIN-OFF-12007',
+      '微子启：《史记·宋微子世家》记其在商末向太师、少师求策，周公后来封其于宋；新图表现前者，旧提示词的后世官署不沿用。',
+      ['https://zh.wikisource.org/zh-hans/%E5%8F%B2%E8%A8%98%E4%B8%89%E5%AE%B6%E8%A8%BB/%E5%AE%8B%E5%BE%AE%E5%AD%90%E4%B8%96%E5%AE%B6']);
+
   function apply(record){
     if(record&&record.id==='JT-HF-XIANQIN-EMP-13026'){
       if(!record._gpt2000FrozenTitle)record._gpt2000FrozenTitle=record.title;
@@ -77,6 +101,14 @@
       record.sub=(record.sub||'').replaceAll('谥高宗','庙号高宗');
       record.correction_note='《史记·殷本纪》记武丁崩后尊为高宗；高宗是庙号，不是谥号。';
       record.correction_sources=[yinBenji];
+    }
+    const acceptedCorrection=record&&acceptedCorrections[record.id];
+    if(acceptedCorrection){
+      if(!record._gpt2000FrozenBrief)record._gpt2000FrozenBrief=record.brief||'';
+      record.brief=acceptedCorrection.note;
+      record.correction_note=acceptedCorrection.note;
+      record.correction_sources=acceptedCorrection.sourceUrls;
+      record.src=acceptedCorrection.sourceUrls.join('；');
     }
     const correction=record&&corrections[record.id];
     if(!correction)return record;
