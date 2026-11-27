@@ -481,7 +481,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
  </div>
 </dialog>
 <div id="toast"></div><div id="printArea"></div>
-<script src="film-ai/manifest.js?v=e6b7a95232b0fc3e"></script>
+<script src="film-ai/manifest.js?v=fffdf5bf976c9f97"></script>
 <script src="film-ai/decks/manifest.js?v=20261117-gpt-image-film-1827"></script>
 <script src="film-ai/shots-manifest.js?v=dc0e92e992468a32"></script>
 <script>
@@ -1630,7 +1630,6 @@ let WPAGE=0,WORKS_RENDER_TOKEN=0,LAST_RENDERED_WORKS_COUNT=0;const WPS=100;const
 let WORKS_VIEW_MODE=(()=>{const u=new URLSearchParams(location.search).get('wview');if(u==='large'||u==='2col'||u==='grid')return u;try{const s=localStorage.getItem('jt_works_view_v2');if(s==='large'||s==='2col'||s==='grid')return s;}catch(e){}return'grid';})();
 function resolveFilmAiAsset(rel){if(!rel)return'';if(/^https?:/i.test(rel))return rel;return IS_GH_FILM?`https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/main/${rel}`:rel;}
 function resolveFilmAiLegacyAsset(rel){return resolveFilmAiAsset(rel);}
-function filmOriginalLabel(src){return window.filmNativeOriginalForPreview?.(src)?'↗ 打开原图':'↗ 查看预览';}
 function getFilmAiSrc(wid){
  const batchRepresentative=(window.FILM_AI_IMAGES||{})[wid];if(typeof batchRepresentative==='string'&&(batchRepresentative.startsWith('film-ai/firstshot-')||batchRepresentative.startsWith('film-ai/contentref-20261127-batch2/')))return resolveFilmAiAsset(batchRepresentative);
   const gallery=(window.FILM_WORK_GALLERIES||{})[wid];
@@ -1697,7 +1696,7 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
  <div class="m">${esc(metaParts)}</div>
  ${aiPreview}
  <div class="mosaic" data-wpal="${esc(w.wid)}" style="flex-direction:row;height:22px">${workMosaicSpans(w)}</div><p>${esc(w.look||'')}</p>
- <div class="btns"><button class="pri" data-wid="${esc(w.wid)}">看 ${cnt.toLocaleString()} 个镜头</button>${aiSrc?`<button type="button" data-zoom-wid="${esc(w.wid)}">${filmOriginalLabel(aiSrc)}</button>${window.filmNativeOriginalForPreview?.(aiSrc)&&String((window.FILM_AI_IMAGES||{})[w.wid]||'').startsWith('film-ai/firstshot-20261127/')?`<button type="button" data-download-film-original="${esc(w.wid)}">下载原图</button>`:''}`:''}<button data-wdeck="${esc(w.wid)}">整片图集</button><button data-wfp="${esc(w.wid)}">加入瞬间对照</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
+ <div class="btns"><button class="pri" data-wid="${esc(w.wid)}">看 ${cnt.toLocaleString()} 个镜头</button>${aiSrc?`${window.filmNativeOriginalForPreview?.(aiSrc)&&String((window.FILM_AI_IMAGES||{})[w.wid]||'').startsWith('film-ai/firstshot-20261127/')?`<button type="button" data-download-film-original="${esc(w.wid)}">下载原图</button>`:''}`:''}<button data-wdeck="${esc(w.wid)}">整片图集</button><button data-wfp="${esc(w.wid)}">加入瞬间对照</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
  $('wGrid').querySelectorAll('.film-ai-preview[data-zoom-wid]').forEach(el=>{
   el.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();el.click();}};
  });
