@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-28T05:24:05.995754+08:00",
+  "updated_at": "2026-11-28T07:09:53.909987+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -5252,6 +5252,244 @@
       "sha256": "e03e33339e4b7f01b5d41c6431680034192be0015375214d35991b077e3edf63",
       "reason": "林中两女子会面可联想 Thérèse 与 Anne，但远景无法识别 Riva/Scob 或两人具体关系；暂缓。",
       "evidence": "第五十六批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-86e759542854c743",
+      "src": "film-ai/src-86e759542854c743.jpg",
+      "sha256": "af62d65a35ca702b01287258e7a240aa03aabc1ea22bbf0d2e4e34979c55a44f",
+      "reason": "红妆戏曲人物持框站于烛前，无法核为车夫、法师或僵尸。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8707221299f97847",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-8707221299f97847.webp",
+      "sha256": "dbf0235d9d3e2a11a6b948dba7da469de3ba959134819d89b81280847d0bfb35",
+      "reason": "空厨房没有 Jessica、孩子、储藏间或被困动作。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8707221299f97847",
+      "src": "film-ai/src-8707221299f97847.jpg",
+      "sha256": "9a37d8be71052afb1b272911ac1c9e794986859f189544dda0f776b862aa8c0d",
+      "reason": "裹毯女子身份不可核，且未见孩子或储藏间。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-871615da6f60b918",
+      "src": "film-ai/decks/film-src-871615da6f60b918.webp",
+      "sha256": "6b3346d5c029a8728935b392e8cbe81dec3982d97a5ec8a94ebecf1bcfa29e65",
+      "reason": "男子持书立于纽约屋顶，不能核为警探或楼顶枪手事件。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-871615da6f60b918",
+      "src": "film-ai/src-871615da6f60b918.jpg",
+      "sha256": "95fc0405937eeea07dff0d3c1c1f177463a318186009e70b509b225b2532e568",
+      "reason": "粉色天空与城市河景无人无警案行动。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-87297081f3560a0d",
+      "src": "film-ai/shots/YS-20261028-src-87297081f3560a0d-01.webp",
+      "sha256": "99d525dce8ad384bab651ffe81f1dd0c61ed8ae0bcddbe42a985bff7f1b36dcc",
+      "reason": "男性教儿童读书，未见徐秀亞或音乐教育；孤儿院泛相似不足。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-87297081f3560a0d",
+      "src": "film-ai/src-87297081f3560a0d.jpg",
+      "sha256": "a8b16c0b329cff2ca2fead616cfc05125bc2e39551badc92886b0cb19489ee0c",
+      "reason": "动漫少女近景与 1973 真人片媒介明确冲突。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8742f21e9f280f33",
+      "src": "film-ai/src-8742f21e9f280f33.jpg",
+      "sha256": "645e5c7315a714658ee114748cd5e4284971494f4658528da8df827ae0c3e073",
+      "reason": "快餐桌男女无可辨 Lucky 邮差身份，也未核演员。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-876e0c81a985d046",
+      "src": "film-ai/shots/WORKCONCEPT-20261127-el-ultimo-arrebato-2025-gpt.webp",
+      "sha256": "fa38f7dabcd0cba036b0205500715bbae73951b398bd7a6da86c5d44524d8454",
+      "reason": "空影院放映机只有电影史泛题材，无 Zulueta 或档案锚点。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-876e0c81a985d046",
+      "src": "film-ai/src-876e0c81a985d046.jpg",
+      "sha256": "66d3ecf4e60ca329e5b77ef2c6830a0f67f403e35ac7afe9a03e68eb48dfc8a8",
+      "reason": "头部着火的持机人似主题概念，虽片目提混合形式，未证为原片画面。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-877d330577db7e80",
+      "src": "film-ai/shots/WORKCONCEPT-20261117-src-877d330577db7e80.webp",
+      "sha256": "d4cdd1251b0146d6be91183134f4c6a2f7ee1f8aca6a599a6b1050bbaa42302d",
+      "reason": "摄影师、摄像机、录音杆显露，构图为拍摄过程幕后照，不是片内观察镜头。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-877d330577db7e80",
+      "src": "film-ai/src-877d330577db7e80.jpg",
+      "sha256": "bf15aeda3c5ee7a67fd30998d4fb624998993e44d7bdff20fc312020d104070e",
+      "reason": "纵版片名与人物拼版是宣传封面。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8798d10c51b01552",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-8798d10c51b01552.webp",
+      "sha256": "4b79a3c8d311f00f0803bb02a1a0991c93ef409a0dac62426ff9dc6d185ac287",
+      "reason": "空校廊只见友情手链，无人物或附身事件。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-87a4aae2b9620c0e",
+      "src": "film-ai/src-87a4aae2b9620c0e.jpg",
+      "sha256": "02bef816b8267fe981bbf4d5c9f9dfc6e08d5d4822b5d181110adb53cac721c8",
+      "reason": "黑白东亚男子肖像叠瞄准框，与德国女主和新闻追踪不合。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-87ee92158f64e978",
+      "src": "film-ai/src-87ee92158f64e978.jpg",
+      "sha256": "c23d790198321883965911cd66d23839d1fe55e7c68226aa02a40bdd8b6df87c",
+      "reason": "下半部纯白空白的单人肖像拼版，不具完整剧情镜头。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-88004a5e355747e4",
+      "src": "film-ai/src-88004a5e355747e4.jpg",
+      "sha256": "39e00ad185039e9096a7442d5bf76bb3d69dd6c099cc16bafe2f8fd43299626f",
+      "reason": "两成年西装人在办公室看文件，无少年或教养院事件；不强判串片。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8859e3970e501e6a",
+      "src": "film-ai/src-8859e3970e501e6a.jpg",
+      "sha256": "1066957acdb523fe42492ee22de56e9914571047e0bd8c247dd782a5ce000731",
+      "reason": "青黑岩石/兽形轮廓不明，缺角色或独立行动。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8875129fb749a68a",
+      "src": "film-ai/shots/WORKCONCEPT-20261117-src-8875129fb749a68a.webp",
+      "sha256": "4beeee9971124ea5d7ae0fff318aff082b487e05ee91a5793492b8491d00d660",
+      "reason": "镜内摄像师拍朋克乐队，未能核为 Pennywise 或原录像段落。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8875129fb749a68a",
+      "src": "film-ai/src-8875129fb749a68a.jpg",
+      "sha256": "b41cd36eb58f8ff7792f7a551953d0d7e3419adf72615ead0eb344afc92f152c",
+      "reason": "橙色几何外框四人摆拍为 VHS/DVD 封套式拼版。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-88b73634e70985aa",
+      "src": "film-ai/src-88b73634e70985aa.jpg",
+      "sha256": "ad999a49c002c7fa6605353ceca7eb4d4570c7b2a7848c1eb62e5f8e9d293cb5",
+      "reason": "教堂长椅中的男女仅通用哥特造型，无可核角色与叙事动作。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-88eb998ef48fa18c",
+      "src": "film-ai/src-88eb998ef48fa18c.jpg",
+      "sha256": "1d632836279b47fef31a0e8cb4f32caa0f8c27cd8813db9d93f56ee3dd9c87fb",
+      "reason": "黑白车内老少二人无法核为 Cassiel 或片目事件；黑白本身不构成错片。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-890e0ef6aee584ea",
+      "src": "film-ai/src-890e0ef6aee584ea.jpg",
+      "sha256": "16be9ccd4a7d6dc0ab7764b1e775c41cba0330493919d4cc126b465a1db68532",
+      "reason": "拄杖老人位于办公室内，不能核为 Sully 或特定关系。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8948dfb7a16403ea",
+      "src": "film-ai/src-8948dfb7a16403ea.jpg",
+      "sha256": "4a095fe9b63511c05d58554853a5096f4cd565a58a64a09f31a5ede7a14509cc",
+      "reason": "黑白旧年代三人摆拍与彩色当代纽约电影媒介和年代不合。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-897660c18369267a",
+      "src": "film-ai/src-897660c18369267a.jpg",
+      "sha256": "01d81ad13baf2bc3bfba1e2fd7748bbde97d341a2bad8d5a21034982b95da321",
+      "reason": "黑白旧年代双人室内照与彩色五人晚宴故事不合。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-897969eeaf50748e",
+      "src": "film-ai/src-897969eeaf50748e.jpg",
+      "sha256": "cf5fa16e1f25efda2e0c61482a28e48050d7e11e8eac6fbd19948214beca5c76",
+      "reason": "黑白歌手对麦克风摆拍，与军旅片人物、行动和媒介不合。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8986da2355dfac4e",
+      "src": "film-ai/src-8986da2355dfac4e.jpg",
+      "sha256": "c973650f60d790f51a06b1821f2bc0475442d9e37ba2cb8f143485b0e6d1b57b",
+      "reason": "竖版手绘人物帆船插画为宣传封面。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-89957d9e8d20f0e3",
+      "src": "film-ai/src-89957d9e8d20f0e3.jpg",
+      "sha256": "0a2d8688fa9ca5a4cec6ca9af5660661d33738dc50d8f76a3afe94235f56af69",
+      "reason": "黑白远景牛车队无法对应 Shankar 或送走行动。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-89feecc6303410c3",
+      "src": "film-ai/src-89feecc6303410c3.jpg",
+      "sha256": "d9f3fd0e01da9e9bf947fa8fb892bf6914f6461a81ac296da11c9c92e1bb41dc",
+      "reason": "古装女子与男子的室内对峙无洪水、孤儿或当代俄国锚点。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8a0f76a22a28872d",
+      "src": "film-ai/src-8a0f76a22a28872d.jpg",
+      "sha256": "2672470a01c18348b5926a03e1b8fa8eb332ef2080e83814a47f2f83cf1746ac",
+      "reason": "昏暗门口独人缺母子或继父关系锚点。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8a5276b2cc24a9f0",
+      "src": "film-ai/src-8a5276b2cc24a9f0.jpg",
+      "sha256": "1c4f5754f38deb91a5370d345cad29348bd67f5e4d78ff4c691fc72cec510b5c",
+      "reason": "东亚男女置于学校体育馆，与南苏丹夫妇及英国家宅叙事不合。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8a5af4cd416a84a2",
+      "src": "film-ai/src-8a5af4cd416a84a2.jpg",
+      "sha256": "d4d20ad0c0f70f1a943e0d1261c46ed44f70db3af62f373429cf480e10d81032",
+      "reason": "白人男子在控制室接电话，与 JFDB 日本演员与岛上科研人物不合。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8a9f9fa650bbafab",
+      "src": "film-ai/src-8a9f9fa650bbafab.jpg",
+      "sha256": "a0e2dbe5b9b51fc88d80a9acd2651c153cfcdc55d744afb268da5d7bcc31abea",
+      "reason": "户外哀悼集会缺三位女巫与 Daryl，演员和故事场景不合。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8ad3fac65c2bad78",
+      "src": "film-ai/shots/WORKCONCEPT-20261117-src-8ad3fac65c2bad78.webp",
+      "sha256": "2246f69f437c116065f4e36835f0c05521024e60c8e2634ac971d9afc6d2e956",
+      "reason": "背镜女子看黑白录像，未能核为 Hurt 饰 Seberg 或特定档案段落。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8ad3fac65c2bad78",
+      "src": "film-ai/src-8ad3fac65c2bad78.jpg",
+      "sha256": "635817847c6188aed02545c5e2a4e6ed41649c9af2f43d5203dbfaf66f7f52bb",
+      "reason": "纵版红条与黑白女像构成书/DVD 封面，不是片内画面。",
+      "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
