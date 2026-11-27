@@ -1,7 +1,7 @@
 {
   "fixedScopeWorks": 10141,
   "scopeRevision": "b58616b8990a50aba2766810e46e84ccf7e21c8f",
-  "recovered": 28,
+  "recovered": 29,
   "generated": 13,
   "assets": [
     {
@@ -815,6 +815,41 @@
       "method": "existing built-in imagegen original recovered",
       "scene": "恢复该作品已有 AI 代表图；非原片首镜",
       "previewDerivedFromVerifiedNativeOriginal": true
+    },
+    {
+      "wid": "a-canterbury-tale-1944",
+      "title": "坎特伯雷故事",
+      "year": 1944,
+      "canonicalWid": "a-canterbury-tale-1944",
+      "canonicalTitle": "坎特伯雷故事",
+      "identityEvidence": {
+        "exactWorkID": true,
+        "existingProvenanceMappedPreview": "film-ai/decks/film-a-canterbury-tale-1944.webp"
+      },
+      "previousPreview": "film-ai/restored/a-canterbury-tale-1944.jpg",
+      "preview": "film-ai/firstshot-coverage10141-20261127/a-canterbury-tale-1944.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-8878-native-20261126/ab3d9f81b3cce0d4faaa443fc86703891089b57275ca3949f689af2cc4485e15.png",
+        "sha256": "ab3d9f81b3cce0d4faaa443fc86703891089b57275ca3949f689af2cc4485e15",
+        "bytes": 2235469,
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing provenance-mapped native PNG recovered",
+      "scene": "恢复该作品已有原生PNG代表图；非已核实原片首镜",
+      "bytesVerified": true,
+      "replacesExistingPreview": true,
+      "reviewed": true,
+      "reviewNote": "已查看，黑白中世纪朝圣者放飞猎鹰的画面与该作品开场情境相符；继续保留非首镜标注。",
+      "jpgSHA256": "67c00327467d7b001d5d9432bbdf1d7e9975951fcc40e7cf1ddde75e5ddf03ea",
+      "previewDerivedFromVerifiedNativeOriginal": true,
+      "sourceEvidence": [
+        {
+          "url": "https://www.bfi.org.uk/sight-and-sound/features/pattern-under-plough-old-weird-britain-film",
+          "basis": "BFI confirms the medieval falcon-release opening sequence; restored native reference remains explicitly labelled non-first-shot."
+        }
+      ]
     },
     {
       "wid": "src-wd-q109510942",
