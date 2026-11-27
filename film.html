@@ -1680,7 +1680,7 @@ function renderWorks(){const token=++WORKS_RENDER_TOKEN,q=$('wq').value.trim().t
  <div class="m">${esc(metaParts)}</div>
  ${aiPreview}
  <div class="mosaic" data-wpal="${esc(w.wid)}" style="flex-direction:row;height:22px">${workMosaicSpans(w)}</div><p>${esc(w.look||'')}</p>
- <div class="btns"><button class="pri" data-wid="${esc(w.wid)}">看 ${cnt.toLocaleString()} 个镜头</button>${aiSrc?`<button type="button" data-zoom-wid="${esc(w.wid)}">↗ 打开原图</button>`:''}<button data-wdeck="${esc(w.wid)}">整片图集</button><button data-wfp="${esc(w.wid)}">加入瞬间对照</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
+ <div class="btns"><button class="pri" data-wid="${esc(w.wid)}">看 ${cnt.toLocaleString()} 个镜头</button>${aiSrc?`<button type="button" data-zoom-wid="${esc(w.wid)}">↗ 打开原图</button>${String((window.FILM_AI_IMAGES||{})[w.wid]||'').startsWith('film-ai/firstshot-20261127/')?`<button type="button" data-download-film-original="${esc(w.wid)}">下载原图</button>`:''}`:''}<button data-wdeck="${esc(w.wid)}">整片图集</button><button data-wfp="${esc(w.wid)}">加入瞬间对照</button><a target="_blank" rel="noopener" href="https://film-grab.com/?s=${encodeURIComponent(w.te||w.t)}">FilmGrab</a><a target="_blank" rel="noopener" href="https://search.douban.com/movie/subject_search?search_text=${encodeURIComponent(w.t)}">豆瓣</a></div></div>`;}).join('');
  $('wGrid').querySelectorAll('.film-ai-preview[data-zoom-wid]').forEach(el=>{
   el.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();el.click();}};
  });
@@ -1983,4 +1983,21 @@ $('retryLoad').onclick=()=>location.reload();
   }
   if(SHARED&&!requestedWid){SHOWSHARED=true;DECK_VIEW_ID='shared';showTab('decks');}
  }catch(e){$('loadStatus').textContent='镜头描述载入中断，请重试载入。';$('retryLoad').hidden=false;console.error('镜头描述载入中断',e);}})();
-</script></body></html>
+</script><script>
+/* FIRSTSHOT_20261127_DOWNLOAD */
+document.addEventListener('click',async event=>{
+ const button=event.target.closest?.('[data-download-film-original]');if(!button)return;
+ event.preventDefault();event.stopImmediatePropagation();
+ const wid=button.getAttribute('data-download-film-original'),preview=(window.FILM_AI_IMAGES||{})[wid];
+ if(typeof preview!=='string'||!preview.startsWith('film-ai/firstshot-20261127/'))return;
+ const source=(window.FILM_PREVIEW_NATIVE_MAP||{})[preview];if(!source)return;
+ button.disabled=true;button.textContent='下载中…';
+ try{
+  const response=await fetch(source);if(!response.ok)throw Error('download');
+  const blob=await response.blob();if(blob.type!=='image/png')throw Error('type');
+  const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=wid+'.png';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  button.textContent='下载原图';
+ }catch{button.textContent='下载失败，请重试';}finally{button.disabled=false;}
+},true);
+</script>
+</body></html>
