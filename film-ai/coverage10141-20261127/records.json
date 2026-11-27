@@ -1,0 +1,688 @@
+{
+  "fixedScopeWorks": 10141,
+  "scopeRevision": "b58616b8990a50aba2766810e46e84ccf7e21c8f",
+  "recovered": 22,
+  "generated": 2,
+  "assets": [
+    {
+      "wid": "src-wd-q105443659",
+      "title": "引见",
+      "year": 2022,
+      "canonicalWid": "src-73b9c050a17c4bf8",
+      "canonicalTitle": "Introduction",
+      "identityEvidence": {
+        "year": 2021,
+        "sharedPages": [
+          "https://film-grab.com/2026/04/15/introduction/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q105443659.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p01/src-73b9c050a17c4bf8-5dc4c577184c.png",
+        "filename": "src-73b9c050a17c4bf8-5dc4c577184c.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 1794855,
+        "sha256": "5dc4c577184cdd5f9ecbbbc9d67974e9b39d3051361bd8566ceaea99e02f9fae"
+      },
+      "jpgSHA256": "53af55dd88713da4acc0554fec610ab399fbeca28ca0a2eb962a189db5eac14f",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "黑白影像，室内场景，一名短发男子身穿浅色连帽厚外套，内搭深色衣物，坐在深色皮质沙发上，双手持书低头阅读。沙发上有花纹靠垫。前景是一张深色玻璃面茶几，上面叠放着几本书。右侧背景是一扇浅色木门，墙面有横向装饰线条。地板为深色木质。整体光线柔和，人物位于画面左侧偏中，环境安静整洁。"
+    },
+    {
+      "wid": "src-wd-q117341032",
+      "title": "愛的一種練習",
+      "year": 2024,
+      "canonicalWid": "src-59830252dba54de0",
+      "canonicalTitle": "Un Amor",
+      "identityEvidence": {
+        "year": 2023,
+        "sharedPages": [
+          "https://film-grab.com/2026/04/20/un-amor/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q117341032.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/6d94c20a952721d5b54ab76cf0ae61099b51d48d/originals/part-03/src-59830252dba54de0-7e350cb29807.png",
+        "filename": "src-59830252dba54de0-7e350cb29807.png",
+        "width": 1920,
+        "height": 819,
+        "bytes": 1686701,
+        "sha256": "7e350cb298074038ae903cecf407a437b1ae1221a3411e67da7308a999c4b295"
+      },
+      "jpgSHA256": "ef3ca7bc3aaa73c8c998fcf8707d7fdb68430a326263bd02003786676104e7ab",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "昏暗冷调的静物特写，粗糙纹理的深色台面上散落着几把金属钥匙、一个深色扁平物件和一个黑色遥控器。画面采用低角度近摄，景深极浅，焦点集中在前景的钥匙与遥控器上，背景完全虚化。整体光线昏暗，呈现冷蓝色调，物体表面有微弱反光，营造出一种压抑、静谧的视觉氛围。"
+    },
+    {
+      "wid": "src-wd-q3567621",
+      "title": "海伦怎么了",
+      "year": 1971,
+      "canonicalWid": "src-8252389669f84170",
+      "canonicalTitle": "What’s the Matter with Helen?",
+      "identityEvidence": {
+        "year": 1971,
+        "sharedPages": [
+          "https://film-grab.com/2021/02/13/whats-the-matter-with-helen/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q3567621.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h2/2557508875bb61dc52d7278b0b82c51ca6157417b8a25d654211fd9a75ff5a4f.png",
+        "filename": "2557508875bb61dc52d7278b0b82c51ca6157417b8a25d654211fd9a75ff5a4f.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1684066,
+        "sha256": "2557508875bb61dc52d7278b0b82c51ca6157417b8a25d654211fd9a75ff5a4f"
+      },
+      "jpgSHA256": "477a7f058db7a247aa3f2bdd3a0f255c7c030451ef171390a79d48b6e534e025",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+    },
+    {
+      "wid": "src-wd-q55564530",
+      "title": "丧尸未逝",
+      "year": 2019,
+      "canonicalWid": "src-866ab3cd82392214",
+      "canonicalTitle": "The Dead Don’t Die",
+      "identityEvidence": {
+        "year": 2019,
+        "sharedPages": [
+          "https://film-grab.com/2019/12/03/the-dead-dont-die/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q55564530.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-hc/c061ebe2bd99f0cb3a04a8d924db656a177d6e79d8bbe160919e893994cacc46.png",
+        "filename": "c061ebe2bd99f0cb3a04a8d924db656a177d6e79d8bbe160919e893994cacc46.png",
+        "width": 1754,
+        "height": 897,
+        "bytes": 2302672,
+        "sha256": "c061ebe2bd99f0cb3a04a8d924db656a177d6e79d8bbe160919e893994cacc46"
+      },
+      "jpgSHA256": "2e3322e69367467ecca96de817082d410fa9a268c8db650c7c189f9d57d8dba9",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+    },
+    {
+      "wid": "src-wd-q64148",
+      "title": "夜的第三章",
+      "year": 1972,
+      "canonicalWid": "src-c96c072b90720ca3",
+      "canonicalTitle": "The Third Part of the Night",
+      "identityEvidence": {
+        "year": 1971,
+        "sharedPages": [
+          "https://film-grab.com/2025/11/26/the-third-part-of-the-night/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q64148.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-c96c072b90720ca3-53ae079e138b.png",
+        "filename": "src-c96c072b90720ca3-53ae079e138b.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 2040760,
+        "sha256": "53ae079e138bfc5df6eba48a71cbed633c7ebf58a20a3f74a858e3d77c3098b4"
+      },
+      "jpgSHA256": "dcd137468e5cced4f01de0e14ad389e5ec83461136b85ecd353101061d350cda",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "一名金发女性面部占据画面主体，额头至鼻梁处有红色液体流下，双眼圆睁，背景为模糊的灰绿色门框结构。"
+    },
+    {
+      "wid": "src-wd-q885894",
+      "title": "霹靂藍天使",
+      "year": 1989,
+      "canonicalWid": "src-bfe66cae94205fe4",
+      "canonicalTitle": "Blue Steel",
+      "identityEvidence": {
+        "year": 1990,
+        "sharedPages": [
+          "https://film-grab.com/2026/09/10/blue-steel/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q885894.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-bfe66cae94205fe4-a62a3a0d00c7.png",
+        "filename": "src-bfe66cae94205fe4-a62a3a0d00c7.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 1829813,
+        "sha256": "a62a3a0d00c7c364702ec6b360493abeadac86b4026895e0b38369516ecd0847"
+      },
+      "jpgSHA256": "188d3ac201ca9c622119430c468b8e36fec8d3eccb8942b08a17e6c2d99d40ca",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "昏暗室内，两名戴帽人物站立，一人抬手触碰右侧金属门板，另一人双手抬起，地面弥漫浓重烟雾，背景有明亮窗户。"
+    },
+    {
+      "wid": "src-wd-q100701374",
+      "title": "屏住呼吸2",
+      "year": 2021,
+      "canonicalWid": "src-b24f2c02bbc20e77",
+      "canonicalTitle": "Don’t Breathe 2",
+      "identityEvidence": {
+        "year": 2021,
+        "sharedPages": [
+          "https://film-grab.com/2023/03/24/dont-breathe-2/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q100701374.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p01/src-b24f2c02bbc20e77-ee3550242adb.png",
+        "filename": "src-b24f2c02bbc20e77-ee3550242adb.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2994715,
+        "sha256": "ee3550242adb117e81c206faf9d6f5f43707ae76e5c2506a83ecc599ff7b3df6"
+      },
+      "jpgSHA256": "ea64a6264c258d6c92d2f04b265041a02786b1f3ca09e257f7aae2ea8681fd98",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "这是一张写实风格的静帧画面，展示了一栋位于荒野中的废弃红砖二层楼房。建筑外观破败，深灰色的屋顶有破损痕迹，烟囱耸立，多个窗户玻璃缺失，露出黑洞洞的内部。房屋左侧和前方被茂密的绿色与枯黄色树木、灌木丛遮挡，植被显得杂乱无章。前景是一片平坦的草地，散落着些许杂物。天空布满厚重的云层，光线柔和而阴郁，整体色彩偏向低饱和度的冷色调，营造出一种荒凉、陈旧且略带压抑的视觉感受。"
+    },
+    {
+      "wid": "src-wd-q482626",
+      "title": "异世浮生",
+      "year": 1990,
+      "canonicalWid": "src-02fdfa63d171ade8",
+      "canonicalTitle": "Jacob’s Ladder",
+      "identityEvidence": {
+        "year": 1990,
+        "sharedPages": [
+          "https://film-grab.com/2021/05/06/jacobs-ladder/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q482626.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p06/src-02fdfa63d171ade8-31eade0e76af.png",
+        "filename": "src-02fdfa63d171ade8-31eade0e76af.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2125841,
+        "sha256": "31eade0e76afc44c5a1362ad1e649ed61a97c2f833b6385dbd9129407465520d"
+      },
+      "jpgSHA256": "4a16516d3c78e7a45439696caa942d89c9700abecb4ff5932a31da488294e71c",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+    },
+    {
+      "wid": "src-wd-q63226470",
+      "title": "我想结束这一切",
+      "year": 2020,
+      "canonicalWid": "im-thinking-of-ending-things-2020",
+      "canonicalTitle": "I’m Thinking of Ending Things",
+      "identityEvidence": {
+        "year": 2020,
+        "sharedPages": [
+          "https://film-grab.com/2021/06/11/im-thinking-of-ending-things/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q63226470.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h7/7a867f767a1ab11d585d95b516085d2c86d8f3a7ead929ce8e4355386b4242e5.png",
+        "filename": "7a867f767a1ab11d585d95b516085d2c86d8f3a7ead929ce8e4355386b4242e5.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2661245,
+        "sha256": "7a867f767a1ab11d585d95b516085d2c86d8f3a7ead929ce8e4355386b4242e5"
+      },
+      "jpgSHA256": "8a40aa902039494794a87c434c7ac853d6ea14e839ab43f5de851566e78a40ec",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+    },
+    {
+      "wid": "src-wd-q64211112",
+      "title": "奇异博士2：疯狂多元宇宙",
+      "year": 2021,
+      "canonicalWid": "src-52392b46bda82d86",
+      "canonicalTitle": "Doctor Strange in the Multiverse of Madness",
+      "identityEvidence": {
+        "year": 2022,
+        "sharedPages": [
+          "https://film-grab.com/2023/02/13/doctor-strange-in-the-multiverse-of-madness/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q64211112.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/bdc7ba9b2501aa2a6a4caa7b5105cb1a44427590/originals/part-03/src-52392b46bda82d86-4247efd95928.png",
+        "filename": "src-52392b46bda82d86-4247efd95928.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 2988670,
+        "sha256": "4247efd95928adca97caebf55f432fa8223e5c38428e8c0c1d0c2aeacf870b50"
+      },
+      "jpgSHA256": "db876fd72656ad42e7445daf0c226abd86cbdfbd0b5830a981da7b65f916b592",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "这是一幅写实风格的城市灾难场景。画面中心是一只巨大的绿色怪物，它拥有多条带有吸盘的触手和红色的眼睛，正用触手缠绕并掀翻一辆白色的公交车。前景中央站着一名身穿深红色斗篷的人物，背对镜头，双手举起，似乎在操控或阻挡怪物。街道两侧是典型的纽约风格砖墙建筑，挂有“Mancini's Pizzeria”等招牌。右侧停着一辆黄色出租车，左侧有一辆银色轿车。街道地面散落着落叶，天空阴沉，光线柔和，整体色调偏向冷灰与怪物的鲜艳色彩形成对比。"
+    },
+    {
+      "wid": "src-wd-q65091224",
+      "title": "艾瑪.",
+      "year": 2020,
+      "canonicalWid": "src-7dce72144bd0b04e",
+      "canonicalTitle": "Emma.",
+      "identityEvidence": {
+        "year": 2020,
+        "sharedPages": [
+          "https://film-grab.com/2021/04/30/emma/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q65091224.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h4/44a15db1ccc27f8300fec37e4d0c5eef57fc840c9f138bb86fb878178e0f161a.png",
+        "filename": "44a15db1ccc27f8300fec37e4d0c5eef57fc840c9f138bb86fb878178e0f161a.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 3216965,
+        "sha256": "44a15db1ccc27f8300fec37e4d0c5eef57fc840c9f138bb86fb878178e0f161a"
+      },
+      "jpgSHA256": "ed6eef024d2fca2f4e26421d4bb4aa05119f9fd22ef7f580630663e62b33d724",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+    },
+    {
+      "wid": "src-wd-q115776037",
+      "title": "塞內卡：地震的創世紀",
+      "year": 2023,
+      "canonicalWid": "src-3b33d18ea1a044d6",
+      "canonicalTitle": "Seneca: On The Creation Of Earthquakes",
+      "identityEvidence": {
+        "year": 2023,
+        "sharedPages": [
+          "https://film-grab.com/2025/12/21/seneca-on-the-creation-of-earthquakes/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q115776037.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/e37999478701b03849ec3d8cd50ee5f143be532d/originals/part-03/src-3b33d18ea1a044d6-02fd00559c92.png",
+        "filename": "src-3b33d18ea1a044d6-02fd00559c92.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 2083203,
+        "sha256": "02fd00559c92d33e3f7a9be72894ef8381db050f3799477b8e9dfa2a88d56238"
+      },
+      "jpgSHA256": "6998c7b19be64ab58062413eb70f67ef1e5993348350a651a83b6a31e2070f08",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "一位光头年长男性，面部有皱纹，身穿金色花纹长袍，内搭浅色衣物，双手抬起张开，手指伸展。人物位于画面中央，背景是深紫色带有几何花纹的墙壁，左侧有模糊的暖黄色光点。光线从左侧照射，在人物面部和手部形成明暗对比，整体色调偏暖黄与深紫。人物表情严肃，目光直视前方。"
+    },
+    {
+      "wid": "src-wd-q3212104",
+      "title": "辣手殺人王",
+      "year": 1971,
+      "canonicalWid": "src-f687200158e02d6e",
+      "canonicalTitle": "The Case of the Scorpion’s Tail",
+      "identityEvidence": {
+        "year": 1971,
+        "sharedPages": [
+          "https://film-grab.com/2025/08/03/the-case-of-the-scorpions-tail/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q3212104.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h0/02d968b5ffa0d2429d1fc54b42903e45cf8e45d75cd4bbd807d016132ee683f9.png",
+        "filename": "02d968b5ffa0d2429d1fc54b42903e45cf8e45d75cd4bbd807d016132ee683f9.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2123507,
+        "sha256": "02d968b5ffa0d2429d1fc54b42903e45cf8e45d75cd4bbd807d016132ee683f9"
+      },
+      "jpgSHA256": "ba373003b2e9d316c93ff90bc58859b494cfd8af76573bf9536b180579f9cfbe",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+    },
+    {
+      "wid": "src-wd-q430521",
+      "title": "史密斯先生",
+      "year": 2007,
+      "canonicalWid": "src-80b66ea58aa8cb03",
+      "canonicalTitle": "Shoot ‘Em Up",
+      "identityEvidence": {
+        "year": 2007,
+        "sharedPages": [
+          "https://film-grab.com/2026/09/09/shoot-em-up/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q430521.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-he/ee19f493546a324a7602d96e294152647b116e61578d9f973661df9e0aff7f6c.png",
+        "filename": "ee19f493546a324a7602d96e294152647b116e61578d9f973661df9e0aff7f6c.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 2007319,
+        "sha256": "ee19f493546a324a7602d96e294152647b116e61578d9f973661df9e0aff7f6c"
+      },
+      "jpgSHA256": "b38cfcc1a0752d10785de0ceb086012c28f7b68b976a2d6960addd97554ea78d",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+    },
+    {
+      "wid": "src-wd-q4659647",
+      "title": "The Human Condition III: A Soldier's Prayer（1961年日本电影）",
+      "year": 1961,
+      "canonicalWid": "src-a2c6c6dad9a108a0",
+      "canonicalTitle": "The Human Condition III: A Soldier’s Prayer",
+      "identityEvidence": {
+        "year": 1961,
+        "sharedPages": [
+          "https://film-grab.com/2025/07/05/the-human-condition-iii-a-soldiers-prayer/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q4659647.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-he/e2ce1166b4cd7e6f98c196a98e263a41d0bc6a96644877d8fa76b89b40d48f23.png",
+        "filename": "e2ce1166b4cd7e6f98c196a98e263a41d0bc6a96644877d8fa76b89b40d48f23.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2490869,
+        "sha256": "e2ce1166b4cd7e6f98c196a98e263a41d0bc6a96644877d8fa76b89b40d48f23"
+      },
+      "jpgSHA256": "31613a34086664d1c620741accaff7ef612be2a9525f564ae3801ae9f511fd71",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+    },
+    {
+      "wid": "src-wd-q46997940",
+      "title": "蜘蛛網中的女孩",
+      "year": 2018,
+      "canonicalWid": "src-8f9b5db2cef15fce",
+      "canonicalTitle": "The Girl In The Spider’s Web",
+      "identityEvidence": {
+        "year": 2018,
+        "sharedPages": [
+          "https://film-grab.com/2026/03/03/the-girl-in-the-spiders-web/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q46997940.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-h2/2288b0f3142ccdff3f6be179e7ec0ac32c6e3de5a17d7ac0fce0aba953ff77d8.png",
+        "filename": "2288b0f3142ccdff3f6be179e7ec0ac32c6e3de5a17d7ac0fce0aba953ff77d8.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 1661622,
+        "sha256": "2288b0f3142ccdff3f6be179e7ec0ac32c6e3de5a17d7ac0fce0aba953ff77d8"
+      },
+      "jpgSHA256": "ede3553796bd0ab7cdce3cf6f8292eb815975aca34b23476651ec0a5be17bc39",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+    },
+    {
+      "wid": "src-wd-q114876189",
+      "title": "舞力麥克：最後一跳",
+      "year": 2023,
+      "canonicalWid": "src-0a6781ce2c80c4d8",
+      "canonicalTitle": "Magic Mike’s Last Dance",
+      "identityEvidence": {
+        "year": 2023,
+        "sharedPages": [
+          "https://film-grab.com/2023/12/20/magic-mikes-last-dance/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q114876189.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/e37999478701b03849ec3d8cd50ee5f143be532d/originals/part-03/src-0a6781ce2c80c4d8-0dc805db1a02.png",
+        "filename": "src-0a6781ce2c80c4d8-0dc805db1a02.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 1788110,
+        "sha256": "0dc805db1a024f68dd6f1e3a768ea76b2f21ccf4ae526d0c2d2b900714293816"
+      },
+      "jpgSHA256": "01b3ebc4b56e5372de0f6c92f0fdfa2e6037f86a81e526c29574b645fcc9dbbf",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "昏暗的现代豪华客厅内，一名身穿黑白拼接T恤的男子正俯身压在一名身穿紫红色套装的女子身上，女子坐在白色沙发边缘，两人面部贴近。背景左侧是带有暖黄色台灯的白色吧台和装饰架，右侧是巨大的落地玻璃窗，窗外可见深蓝色的夜色和模糊的棕榈树影。室内光线昏暗，主要光源来自背景台灯的暖光，人物主体处于较暗的阴影中，营造出私密且充满张力的氛围。"
+    },
+    {
+      "wid": "src-wd-q1686012",
+      "title": "让娜·迪尔曼",
+      "year": 1975,
+      "canonicalWid": "jeanne-dielman-1975",
+      "canonicalTitle": "Jeanne Dielman, 23, quai du commerce, 1080 Bruxelles",
+      "identityEvidence": {
+        "year": 1975,
+        "sharedPages": [
+          "https://film-grab.com/2022/02/16/jeanne-dielman-23-quai-du-commerce-1080-bruxelles/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q1686012.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p05/jeanne-dielman-1975-784aea93f2f7.png",
+        "filename": "jeanne-dielman-1975-784aea93f2f7.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2189401,
+        "sha256": "784aea93f2f7c4a992d9ab915de0f064b1c702fb5fb6ee5ff723e6c50e0efde9"
+      },
+      "jpgSHA256": "26b42caff026b4a6c8e32c9e94a90151113ee823c7a8f34b982b4474ac6f26d0",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+    },
+    {
+      "wid": "src-wd-q488947",
+      "title": "好家伙、坏家伙、怪家伙",
+      "year": 2008,
+      "canonicalWid": "src-be72d41d6602f1c3",
+      "canonicalTitle": "The Good The Bad The Weird",
+      "identityEvidence": {
+        "year": 2008,
+        "sharedPages": [
+          "https://film-grab.com/2024/02/09/the-good-the-bad-the-weird/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q488947.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p03/src-be72d41d6602f1c3-bfb903f025c4.png",
+        "filename": "src-be72d41d6602f1c3-bfb903f025c4.png",
+        "width": 1199,
+        "height": 1312,
+        "bytes": 2382269,
+        "sha256": "bfb903f025c476d1966e36e9bf47bb4c3c34ec6f44cee794b09defb666dc7c10"
+      },
+      "jpgSHA256": "bcef2b0792f312caae476300e92d6d0c147f3f7d991f761c09b837d93ac20ad6",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "一名戴皮帽的男子双手持枪高举，身穿厚棉服，背景是木质墙壁、彩色玻璃窗和水晶吊灯。"
+    },
+    {
+      "wid": "src-wd-q497027",
+      "title": "死人不穿格子衣",
+      "year": 1982,
+      "canonicalWid": "src-b2c1d46926979400",
+      "canonicalTitle": "Dead Men Don’t Wear Plaid",
+      "identityEvidence": {
+        "year": 1982,
+        "sharedPages": [
+          "https://film-grab.com/2024/11/12/dead-men-dont-wear-plaid/"
+        ],
+        "sharedFrames": []
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-wd-q497027.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-ai-originals-20261120-p02/src-b2c1d46926979400-95f2ad98e763.png",
+        "filename": "src-b2c1d46926979400-95f2ad98e763.png",
+        "width": 1774,
+        "height": 887,
+        "bytes": 1870468,
+        "sha256": "95f2ad98e76357673e27ab1f0a5451b3762a6406bb712c34325d0a7a7eaee87f"
+      },
+      "jpgSHA256": "87fde3e4f1b43f5213f39ace5f0d1298be7f6d5010a8b7a1cbdade8983158b6a",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "双手持握一个银色相框，框内是女性肖像照片，玻璃表面反射出持框者的面部轮廓，背景为深色模糊环境。"
+    },
+    {
+      "wid": "src-4192014104b84068",
+      "title": "LE PÈRE DE MES ENFANTS",
+      "year": 2008,
+      "canonicalWid": "src-wd-q587111",
+      "canonicalTitle": "我孩子們的父親",
+      "identityEvidence": {
+        "year": 2009,
+        "sharedPages": [
+          "https://www.imdb.com/title/tt1356928/mediaviewer/rm780680192/",
+          "https://www.imdb.com/title/tt1356928/mediaviewer/rm797457408/",
+          "https://www.imdb.com/title/tt1356928/mediaviewer/rm808223232/"
+        ],
+        "sharedFrames": [
+          "https://m.media-amazon.com/images/M/MV5BYjhkYmFjNGItYjNiNi00YjFiLTgwMzItMTJjNmM0YjRiYmRiXkEyXkFqcGc@._V1_.jpg",
+          "https://m.media-amazon.com/images/M/MV5BNzViN2VlZDQtZTA1ZS00ZTJkLWIwZjktMjE5ZGVhNWM1OGJlXkEyXkFqcGc@._V1_.jpg",
+          "https://m.media-amazon.com/images/M/MV5BMTUxODczODA2NV5BMl5BanBnXkFtZTcwNzExMjQ1Mw@@._V1_.jpg"
+        ]
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-4192014104b84068.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/3f978a5804d1c3e03d10d0630c2fd87f09e1b249/originals/part-01/src-wd-q587111-56500af0ead2.png",
+        "filename": "src-wd-q587111-56500af0ead2.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2074456,
+        "sha256": "56500af0ead290b90bf4a6c5b2a682aac4e5244b470f157c6ee3203c0243133e"
+      },
+      "jpgSHA256": "0be1b98aaa35202d1c4dd6c277f796841887bd39baee9c7cbaf4acc475c346b4",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "俯瞰连绵山丘的阳光露台上，身穿白色衬衫的中年男子倚靠着铁艺栏杆，左手握着手机正在专注通话"
+    },
+    {
+      "wid": "src-6c87053eebd79e7c",
+      "title": "POLISSE",
+      "year": 2011,
+      "canonicalWid": "src-9988fdaed94fd765",
+      "canonicalTitle": "Polisse",
+      "identityEvidence": {
+        "year": 2012,
+        "sharedPages": [
+          "https://www.imdb.com/title/tt1661420/mediaviewer/rm4137531648/",
+          "https://www.imdb.com/title/tt1661420/mediaviewer/rm4120754432/",
+          "https://www.imdb.com/title/tt1661420/mediaviewer/rm4103977216/"
+        ],
+        "sharedFrames": [
+          "https://m.media-amazon.com/images/M/MV5BMTMzMjgzMjExMV5BMl5BanBnXkFtZTcwOTIwODUyNQ@@._V1_.jpg",
+          "https://m.media-amazon.com/images/M/MV5BMTg4Mzk4MDE1Nl5BMl5BanBnXkFtZTcwMDMwODUyNQ@@._V1_.jpg",
+          "https://m.media-amazon.com/images/M/MV5BMTAxNjE5OTAwODZeQTJeQWpwZ15BbWU3MDEzMDg1MjU@._V1_.jpg"
+        ]
+      },
+      "preview": "film-ai/restored-coverage10141-20261127/src-6c87053eebd79e7c.jpg",
+      "png": {
+        "url": "https://github.com/aikingtai-ctrl/jintai-history-image-library/releases/download/film-originals-native-20261124-he/e477e680f0d6c98aeaabf220aa433bcfee34fe11a8fd541def8b6b541ca8b7ab.png",
+        "filename": "e477e680f0d6c98aeaabf220aa433bcfee34fe11a8fd541def8b6b541ca8b7ab.png",
+        "width": 1672,
+        "height": 941,
+        "bytes": 2039677,
+        "sha256": "e477e680f0d6c98aeaabf220aa433bcfee34fe11a8fd541def8b6b541ca8b7ab"
+      },
+      "jpgSHA256": "61fa9bd933cc0c8ecf0153531b286541a26bf6184d25232ff66e54e3afe2edc0",
+      "bytesVerified": true,
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "method": "existing built-in imagegen original recovered",
+      "scene": "恢复该作品已有 AI 代表图；非原片首镜"
+    },
+    {
+      "wid": "src-wd-q16028796",
+      "title": "底層的珍珠",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q16028796.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/68e18eaeeb574af38957b55fa3f70a38d5e2506f/originals/film-coverage-10141-20261127/src-wd-q16028796.png",
+        "sha256": "33eb66b554e0a2be10de61eab842f5a8a405c9a4ee3c6f18a89075ce52bffaa4",
+        "bytes": 3279179,
+        "width": 1448,
+        "height": 1086,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "ccf7af0c30d585fea93111f71db7b07704a3add93fae20b184176722a305f945",
+      "referenceLabel": "AI改编参考图（非首镜）",
+      "scene": "六十年代捷克林地里的临时木杆平台，数根粗糙树干与木梯撑起两张绳网吊床，穿朴素深色外套的成年男子背侧身靠在右侧树干边；人物与旧绳网穿插，远处细密树林和草地延伸，阴天自然光下细腻黑白银盐层次。",
+      "actualPrompt": "Create one original cinematic photographic reference image, a single coherent frame. A 1960s Czech woodland scene in rich black and white 35mm film texture, academy composition around 1.37:1. Rough vertical tree trunks and a rustic elevated timber platform with a handmade wooden ladder; two sagging rope-net hammocks stretch between trunks. A fully clothed adult man in a plain dark period work jacket and flat cap rests side-on against the tree at the right, another adult figure is mostly obscured by a hammock at left. Overgrown grass and fine layered trees in the distant background. Eye level, medium-wide view, soft overcast daylight, natural subdued expression, carefully separated detailed middle grays, documentary everyday realism. No text, no labels, no poster, no collage, no logos. An AI interpretation of an archive scene description, not an authentic film frame.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://film-grab.com/2025/11/24/pearls-of-the-deep/",
+          "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Pearls_of_the_Deep_06.jpg",
+          "sourceShotId": "YS-20261126-2300-src-wd-q16028796-69"
+        }
+      ],
+      "adaptationNote": "原首条画面文字称旧街工坊，与所附 FilmGrab 图片不符；改按该来源可见的林地、吊床、木梯和成年人物生成。该图不是已核实的原片首镜。"
+    },
+    {
+      "wid": "src-wd-q26769930",
+      "title": "再一次体悟",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q26769930.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/68e18eaeeb574af38957b55fa3f70a38d5e2506f/originals/film-coverage-10141-20261127/src-wd-q26769930.png",
+        "sha256": "1b8c6dad7d62d6332e49535bac67a8b7f1d9bdd0c3642008266f288d02343e2d",
+        "bytes": 2155220,
+        "width": 1705,
+        "height": 923,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "2320be8e7ec7d435f2f4cb00c27cfc30500a6f4917414af37cc401db5e44c2c8",
+      "referenceLabel": "AI改编参考图（非首镜）",
+      "scene": "微暗录音工作室黑白近景，长发浓须的成年男音乐人穿黑西服外套，低头凝神，双手按奏电子合成器键盘；头顶后方硕大圆形白色柔光灯形成明亮背环，背景暗而虚化。",
+      "actualPrompt": "Create one original cinematic music documentary photographic reference frame. Wide 1.85:1 composition, monochrome, rich textured black and white. In a dim recording studio, an adult middle-aged male musician with long loose hair and a full long beard, wearing a dark suit jacket over an open-collar dark shirt, bends his head in quiet concentration while both hands play a compact electronic synthesizer along the lower foreground. Medium close view at eye level, figure slightly right of center, chest and hands visible. A huge bright circular white soft light diffuser behind his head and upper shoulders creates a luminous backlit ring and silver edges on his hair. Deep soft studio shadows, blurred equipment in background, shallow depth of field, intimate somber creative concentration, fine film-like grain. Original person, no celebrity name required, fully clothed. No text, no captions, no lettering or brand logos, no collage, not a poster. This is an AI interpretation of the described scene, not a genuine film frame.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://film-grab.com/2020/07/06/one-more-time-with-feeling/",
+          "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Once_More_With_Feeling_006.jpg",
+          "sourceShotId": "YS-20261126-2300-src-wd-q26769930-69"
+        }
+      ],
+      "adaptationNote": "保留首条可见画面的录音棚、长发浓须音乐人、合成器和圆形柔光灯构图；原描述将人物标作尼克·凯夫，身份不可靠，因此不使用该人名。本图非已核实的原片首镜。"
+    }
+  ]
+}

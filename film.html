@@ -481,7 +481,7 @@ table.bench{width:100%;border-collapse:collapse;font-size:17.5px}table.bench th,
  </div>
 </dialog>
 <div id="toast"></div><div id="printArea"></div>
-<script src="film-ai/manifest.js?v=c5cce7a9575a8d85"></script>
+<script src="film-ai/manifest.js?v=7f9e80877f195902"></script>
 <script src="film-ai/decks/manifest.js?v=20261117-gpt-image-film-1827"></script>
 <script src="film-ai/shots-manifest.js?v=364fbdc5da190a70"></script>
 <script>
@@ -865,17 +865,31 @@ function filmImageKey(src){try{const u=new URL(src,location.href),p=u.pathname,m
 function filmStillItems(g){
  return workPhotoEntries(g.w).map(p=>({r:(p.shotId&&BYID.get(p.shotId))||g.rows[0],src:p.src,kind:p.kind}));
 }
-function filmCard(g){const w=g.w,items=filmStillItems(g),hero=items[0],r=hero?.r||g.rows[0],inD=DECKS.cur&&deckHas(r.id),inC=CMP.includes(r.id),label=hero?hero.kind:'暂无已接画面';
+function filmCard(g){const w=g.w,items=filmStillItems(g),hero=items[0],r=hero?.r||g.rows[0],inD=DECKS.cur&&deckHas(r.id),inC=CMP.includes(r.id),label=hero?((window.FILM_AI_REFERENCE_LABELS||{})[w.wid]||hero.kind):'暂无已接画面',native=hero&&(window.filmNativeOriginalForPreview?.(hero.src)||(/\.(?:png|webp)(?:[?#]|$)/i.test(hero.src)?hero.src:''));
  return`<div class="card film-card" data-film-key="${esc(g.key)}"><div class="thumb${hero?' opens-image':''}" data-film-open="${esc(g.key)}" role="button" tabindex="0" aria-label="查看《${esc(w.t)}》最多 5 张不同参考画面">${hero?`<img loading="lazy" src="${esc(hero.src)}" alt="${esc(w.t)} ${esc(label)}">`:visual(r,560)}<span class="badge${hero?.kind==='真实截帧'?' fr':''}">${esc(label)}</span></div>${palHTML(r)}
  <div class="cap" data-film-open="${esc(g.key)}" role="button" tabindex="0"><b>${esc(w.t)}</b> <span class="y">${esc(w.y||'年份待核')}</span><p>${esc(w.look||r.sc||'')}</p></div>
  <div class="tg">${g.rows.length.toLocaleString()} 个匹配镜头 · ${items.length} 张不同画面（上限 5）</div>
- <div class="acts"><button data-film-open="${esc(g.key)}">查看画面 ${items.length}</button><button data-add="${r.id}" class="${inD?'in':''}">${inD?'✓ 主图已入集':'＋主图入集'}</button><button data-cmp="${r.id}" class="${inC?'in':''}">${inC?'✓ 对照中':'对照'}</button></div></div>`;}
+ <div class="acts"><button data-film-open="${esc(g.key)}">查看画面 ${items.length}</button>${native?`<button data-film-native-download="${esc(g.key)}">下载原图</button>`:''}<button data-add="${r.id}" class="${inD?'in':''}">${inD?'✓ 主图已入集':'＋主图入集'}</button><button data-cmp="${r.id}" class="${inC?'in':''}">${inC?'✓ 对照中':'对照'}</button></div></div>`;}
+async function downloadFilmCardOriginal(key,button){
+ const group=FIND_FILM_GROUPS.get(key),preview=group&&filmStillItems(group)[0]?.src;
+ const source=preview&&(window.filmNativeOriginalForPreview?.(preview)||(/\.(?:png|webp)(?:[?#]|$)/i.test(preview)?preview:''));
+ if(!source)return;
+ button.disabled=true;button.textContent='下载中…';
+ try{
+  const link=document.createElement('a');link.download=key+(source.match(/\.(png|webp)(?:[?#]|$)/i)?.[0]?.split(/[?#]/)[0]||'.png');
+  if(/^https:\/\/github\.com\/aikingtai-ctrl\/jintai-history-image-library\/releases\/download\//i.test(source)){link.href=source;link.click();}
+  else{const response=await fetch(source);if(!response.ok)throw Error('download');const blob=await response.blob();if(!blob.type.startsWith('image/'))throw Error('type');const url=URL.createObjectURL(blob);link.href=url;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+  button.textContent='下载原图';
+ }catch{button.textContent='下载失败，请重试';}finally{button.disabled=false;}
+}
+
 function openFilmStillLightbox(key){const g=FIND_FILM_GROUPS.get(key);if(!g)return;const items=filmStillItems(g);if(!items.length){openDetail(g.rows[0].id);return;}
  LB_STATE.items=items.map(({r,src,kind})=>({wid:g.w.wid,src,title:`《${g.w.t}》 · ${kind}`,sub:[g.w.y,kind,r?.id].filter(Boolean).join(' · '),desc:kind==='原片截帧'?'原片截帧；仅供内部研究。':kind==='AI 概念参考图'?'AI 生成的概念参考画面，非影片原帧。':kind==='逐镜参考图'?'依据镜头描述生成的原创参考画面，非影片原帧。':'单片代表图，不是当前镜头的原帧。'}));
  LB_STATE.idx=0;renderLightboxItem();}
 function bindCards(root){root.querySelectorAll('[data-open]').forEach(e=>e.onclick=()=>{const id=e.dataset.open;if(e.classList.contains('thumb')&&shotImageSrc(id)){const r=BYID.get(id);if(r)openShotVisualLightbox(r);else openDetail(id);}else openDetail(id);});
  root.querySelectorAll('[data-film-open]').forEach(e=>{const show=()=>openFilmStillLightbox(e.dataset.filmOpen);e.onclick=show;e.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();show();}};});
  root.querySelectorAll('[data-source-link]').forEach(a=>a.onclick=e=>e.stopPropagation());
+ root.querySelectorAll('[data-film-native-download]').forEach(b=>b.onclick=()=>downloadFilmCardOriginal(b.dataset.filmNativeDownload,b));
  root.querySelectorAll('[data-add]').forEach(b=>b.onclick=e=>{e.stopPropagation();addToDeck([b.dataset.add]);});
  root.querySelectorAll('[data-cmp]').forEach(b=>b.onclick=e=>{e.stopPropagation();toggleCmp(b.dataset.cmp);});}
 function syncPager(cur0,pages){const cur=cur0+1;$('page').textContent=`第 ${cur} / ${pages} 页`;$('prev').disabled=cur0===0;$('next').disabled=cur0>=pages-1;if($('first'))$('first').disabled=cur0===0;if($('last'))$('last').disabled=cur0>=pages-1;
@@ -1634,10 +1648,10 @@ function getFilmAiSrc(wid){
 }
  function workPhotoEntries(w){if(!w)return[];const out=[],seen=new Set(),kindNames={primary:'影片主图',representative:'单片代表图',cover:'AI 图集封面',shot:'逐镜参考图',work:'作品关联图',concept:'AI 概念参考图'};
   const add=(src,shotId='',kind='参考画面')=>{if(!src||out.length>=5||window.FILM_BAD_SOURCE_CHECK?.(src))return;const resolved=resolveFilmAiAsset(src),key=filmImageKey(resolved);if(seen.has(key))return;seen.add(key);out.push({src:resolved,shotId,kind:kindNames[kind]||kind});};
-  const batchRepresentative=(window.FILM_AI_IMAGES||{})[w.wid];if(typeof batchRepresentative==='string'&&batchRepresentative.startsWith('film-ai/firstshot-'))add(batchRepresentative,'','representative');
+  const batchRepresentative=(window.FILM_AI_IMAGES||{})[w.wid];if(typeof batchRepresentative==='string'&&batchRepresentative.startsWith('film-ai/firstshot-'))add(batchRepresentative,'',(window.FILM_AI_REFERENCE_LABELS||{})[w.wid]||'representative');
   const curated=(window.FILM_WORK_GALLERIES||{})[w.wid];
   if(Array.isArray(curated)&&curated.length){curated.forEach(x=>{if(typeof x==='string')add(x);else if(x)add(x.src||x.path,x.shotId||'',x.kind||'参考画面');});return out;}
-  add(getFilmAiSrc(w.wid),'','单片代表图');
+  add(getFilmAiSrc(w.wid),'',(window.FILM_AI_REFERENCE_LABELS||{})[w.wid]||'单片代表图');
   if(!out.length){for(const r of BYW.get(w.i)||[]){const f=frOf(r),src=f?`${FRAME_DIR}/${f.f}`:shotImageSrc(r.id);if(src){add(src,r.id,f?'原片截帧':'逐镜参考图');break;}}}
   return out;}
 function fillSel(id,name,arr){const select=$(id),value=select.value;select.innerHTML=`<option value="">${name}：全部</option>`+arr.map(v=>`<option>${esc(v)}</option>`).join('');if(arr.includes(value))select.value=value;}
