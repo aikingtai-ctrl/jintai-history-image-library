@@ -634,6 +634,219 @@
       "method": "内置 imagegen",
       "sourceBasis": "first-record-event-photo-description",
       "adaptationNote": "首条资料描述为影展活动合影；使用虚构人物，非原片首镜或真实人物照片。"
+    },
+    {
+      "ordinal": 31,
+      "wid": "src-1429449bb6e50534",
+      "title": "Puss in Boots",
+      "firstShotId": "VP-src-1429449bb6e50534-01",
+      "scene": "纯白背景的竖版角色宣传图，头戴宽檐羽毛帽、脚蹬皮靴的橘猫剑客手仗细剑威风凛凛地站立",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Original stylized 3D fairy-tale character against a pure white background: an orange anthropomorphic cat swordsman stands proudly wearing a broad feathered hat, cape and tall boots, holding a slim rapier. Invent an original cat face, costume details and silhouette, full-body pose, no recognizable franchise design. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "d1159c1a3ffb1e17c065d4384288b0c8b5a5435a82a658c0582cec201a84f5c3",
+      "preview": "film-ai/firstshot-20261127/src-1429449bb6e50534.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/9352ec131475b99c17d15b9e22e42dce5188bdac/originals/film-expand-firstshot-20261127/src-1429449bb6e50534.png",
+        "bytes": 1604108,
+        "sha256": "e3c5350bb084b50028330d80dd7c03a009c71b489f22bea9688c3c2ea93cea1c",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（原创角色，非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "使用原创人物或生物造型，保留首条描述的场景、人物关系和构图。 首条资料为角色宣传图，非原片首镜。"
+    },
+    {
+      "ordinal": 32,
+      "wid": "src-144446a0affac90b",
+      "title": "Alien: Covenant",
+      "firstShotId": "VP-84b479d1113a3e39",
+      "scene": "巨大的圆柱形金属隧道内部，两侧墙壁排列着整齐的舱室结构，地面铺设着网格状地板，尽头处可见明亮的出口，整体环境显得深邃且充满工业感。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Deep interior of a huge cylindrical metal spacecraft tunnel. Both walls contain orderly cabin compartments; a grated metal floor leads toward a bright exit far away. Symmetric industrial perspective, precise weathered material, no people or alien creature. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "89e11e287468d2fd5a3c3c25fc3f94548fdf4c9a49e09a9dcd7dd663bfd25f8c",
+      "preview": "film-ai/firstshot-20261127/src-144446a0affac90b.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/9352ec131475b99c17d15b9e22e42dce5188bdac/originals/film-expand-firstshot-20261127/src-144446a0affac90b.png",
+        "bytes": 3140165,
+        "sha256": "d1cd351437219374f1f1782ae42ea5a28070908bdbc3eca294478a28182d0d3a",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 33,
+      "wid": "src-147a03af11db9354",
+      "title": "Cheerful Weather for the Wedding",
+      "firstShotId": "VP-src-147a03af11db9354-01",
+      "scene": "《婚礼的喜悦天气》（2012）户外冷调近景中，头戴三十年代浅蓝礼帽、身穿毛领大衣的菲丽希缇·琼斯回眸凝视",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Outdoor cool-toned close portrait of a fictional adult woman wearing a pale blue 1930s hat and a coat with a furry collar. She turns back to look toward the camera with a thoughtful expression. Soft overcast daylight and blurred garden background. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "17740e8346f5801dfc8e47b094f0ea33eb3769a06d376b7ff8390db674d1c85e",
+      "preview": "film-ai/firstshot-20261127/src-147a03af11db9354.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/9352ec131475b99c17d15b9e22e42dce5188bdac/originals/film-expand-firstshot-20261127/src-147a03af11db9354.png",
+        "bytes": 2221705,
+        "sha256": "898f055674cffef19d73821a4b3ac4c783c94704cd07463a5d12b63531858a66",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 34,
+      "wid": "src-14842e7eb41fe747",
+      "title": "Tudor Rose",
+      "firstShotId": "VP-src-14842e7eb41fe747-01",
+      "scene": "黑白竖幅剧照中十六世纪伦敦塔石门前身穿都铎宫廷长裙的少女简·格雷神情哀伤",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Black-and-white full-length period portrait outside a heavy stone doorway at the Tower of London. A fictional young woman in an opaque Tudor court gown stands sadly in the doorway. Restrained expression, detailed heavy fabric, no injury or execution imagery. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "fd38946408f7425b896a06375400756abc337505466b3e97e578994aa6295b7a",
+      "preview": "film-ai/firstshot-20261127/src-14842e7eb41fe747.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/9352ec131475b99c17d15b9e22e42dce5188bdac/originals/film-expand-firstshot-20261127/src-14842e7eb41fe747.png",
+        "bytes": 3001475,
+        "sha256": "a823102aeccce80b5a9d6238a7cca373181f6d1af2bc1d4751fdb4162e82efff",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 35,
+      "wid": "src-14895aca7c1e67b6",
+      "title": "Lundi Matin",
+      "firstShotId": "VP-src-14895aca7c1e67b6-01",
+      "scene": "横版构图的威尼斯水城海报上，身穿深色西装的中年男子坐在船头抽烟，右侧竖排印有彩色英文片名",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Painterly travel-poster-style composition of Venice: an adult middle-aged man in a dark suit sits at the bow of a small boat, holding a cigarette. Venetian canals and aged facades behind him. Horizontal composition, atmospheric reflected light, no lettering. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "a641231fa518a35c757ea29612be4d1d70bcec666b62cb9df94f9033cf5195ec",
+      "preview": "film-ai/firstshot-20261127/src-14895aca7c1e67b6.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/9352ec131475b99c17d15b9e22e42dce5188bdac/originals/film-expand-firstshot-20261127/src-14895aca7c1e67b6.png",
+        "bytes": 2833217,
+        "sha256": "419afa5c4fe87fd2ed11e884fd9924aa6a9b5bef09323bf94302142c51276296",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI资料参考图（海报描述，非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "first-record-promotional-image-description",
+      "adaptationNote": "按首条资料中的海报画面描述重绘，省略文字；非原片首镜、非原始海报。"
+    },
+    {
+      "ordinal": 36,
+      "wid": "src-149eeb784b9bc52b",
+      "title": "La deuda interna",
+      "firstShotId": "VP-src-149eeb784b9bc52b-01",
+      "scene": "竖幅电影海报，湛蓝天空与黄土峡谷间，乡村教师背着戴圆帽的印第安小男孩在荒原上前行",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Painted film-poster-style composition beneath a vivid blue sky: an adult rural teacher carries a fully clothed Indigenous little boy wearing a round hat on his back while crossing an ochre canyon landscape. Dignified human figures, expansive arid terrain, no lettering. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "508b8981500884c1b3d38a8ddcdf4ddca37894e491740d7fc026f1e1e14ba453",
+      "preview": "film-ai/firstshot-20261127/src-149eeb784b9bc52b.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/9352ec131475b99c17d15b9e22e42dce5188bdac/originals/film-expand-firstshot-20261127/src-149eeb784b9bc52b.png",
+        "bytes": 2988912,
+        "sha256": "8d7754b1bf5893993278e02ab4efe289e9e2a1aaa9647e709719c94fcf63ead9",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI资料参考图（海报描述，非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "first-record-promotional-image-description",
+      "adaptationNote": "按首条资料中的海报画面描述重绘，省略文字；非原片首镜、非原始海报。"
+    },
+    {
+      "ordinal": 37,
+      "wid": "src-14a2a2a878edf438",
+      "title": "The Gate of Heavenly Peace",
+      "firstShotId": "VP-src-14a2a2a878edf438-01",
+      "scene": "戴眼镜的台湾音乐人坐在室内接受访谈且画面左侧与底部印有中文字幕",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Documentary interview portrait of a fictional older East Asian male musician with glasses seated indoors. Quiet plain room, natural soft light, thoughtful expression. No celebrity likeness or invented subtitles. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "9a82655d7fda371dd28ef0d5db5bfb73a7f821a5f50162a3130810fe41bd2210",
+      "preview": "film-ai/firstshot-20261127/src-14a2a2a878edf438.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/9352ec131475b99c17d15b9e22e42dce5188bdac/originals/film-expand-firstshot-20261127/src-14a2a2a878edf438.png",
+        "bytes": 2157020,
+        "sha256": "fd6a2fc9afa8e1c2c11181210a007126856b7c6c26da289de4d5c3409f1e0291",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 38,
+      "wid": "src-14a3e35c7e9ca4b5",
+      "title": "Polyester",
+      "firstShotId": "VP-523c202bcc4df8ef",
+      "scene": "昏暗室内门口处，一名穿白裙女子与一名穿黑上衣黄裤男子面对面站立，男子手持杯状物，左侧为带玻璃窗的白色木门，右侧前景可见椅背局部。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Dim domestic doorway scene. A fully clothed adult woman in a white dress faces an adult man in a black top and yellow trousers who holds a cup. A white wooden door with glass panes is at left, part of a chair back enters the right foreground. Quiet medium two-shot. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "1f56ce01bd86b0d47d91c4cdf3a9056b39863a1765e6c872e751b4e6d48f53a1",
+      "preview": "film-ai/firstshot-20261127/src-14a3e35c7e9ca4b5.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/9352ec131475b99c17d15b9e22e42dce5188bdac/originals/film-expand-firstshot-20261127/src-14a3e35c7e9ca4b5.png",
+        "bytes": 1858018,
+        "sha256": "18d8126eb2b5c5bf797321fdd9facf6a822f82ab6b3180c80063f38ca93de442",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 39,
+      "wid": "src-14c525683b3e1bb2",
+      "title": "Fando y Lis",
+      "firstShotId": "VP-dfe833e606cf593e",
+      "scene": "黑白画面中，两名人物站立在长满杂草与灌木的野外坡地上。周围植被茂密，右侧有松树枝叶遮挡，背景可见蜿蜒的小径与深色树丛，人物在广阔环境中显得渺小。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Black-and-white wide landscape: two small fully clothed figures stand on a scrubby wild hillside surrounded by thick grass and bushes. Pine branches partly obscure the right side. A winding path and dark shrubs recede behind, contemplative spacious framing. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "f767f94174b4d23e41cfc784ce5611e298e809be4e942fbc761cdb0ffaf9087e",
+      "preview": "film-ai/firstshot-20261127/src-14c525683b3e1bb2.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/9352ec131475b99c17d15b9e22e42dce5188bdac/originals/film-expand-firstshot-20261127/src-14c525683b3e1bb2.png",
+        "bytes": 2869667,
+        "sha256": "4866dc55ff54e233637ef064f175e2f6babed405538eded765da54da2caece51",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 40,
+      "wid": "src-14db9ca90b19f410",
+      "title": "JEANNE",
+      "firstShotId": "VP-src-14db9ca90b19f410-01",
+      "scene": "哥特大教堂内景全景中，头戴紫红高帽身穿华丽紫袍的主教端坐中央，身旁站立着穿黑衣的神职人员",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Wide Gothic cathedral interior. A bishop in an elaborate purple robe and tall magenta-purple ecclesiastical hat sits centrally; clergy in plain black stand beside him. Deep stone columns and solemn filtered daylight, original faces, no readable inscriptions. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "5b045b240ae8b5b4dcda2f0a28f1edf410cb695d6a67e02d8f739eceb8a2e4c3",
+      "preview": "film-ai/firstshot-20261127/src-14db9ca90b19f410.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/9352ec131475b99c17d15b9e22e42dce5188bdac/originals/film-expand-firstshot-20261127/src-14db9ca90b19f410.png",
+        "bytes": 2475439,
+        "sha256": "5acb1fe8e46ecab9a046d46273dc347590e40221df22bc0542884a21b018d631",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
     }
   ]
 }
