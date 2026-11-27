@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T09:31:39.206454+08:00",
+  "updated_at": "2026-11-27T10:10:20.518100+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -2312,6 +2312,34 @@
       "sha256": "adeb9006e05c6d6b0c8baf6cfebbc3522ea233bb1f02c2778b9623eab638b519",
       "reason": "黑白房间四人围地图，但其中人物无法认作 Tony 等四名男主，也无珠宝店/巴黎特征；泛犯罪策划场面暂缓。",
       "evidence": "外链两路径第四批30部/逐图建议与联系表"
+    },
+    {
+      "wid": "src-08684d765e601512",
+      "src": "film-ai/src-08684d765e601512.jpg",
+      "sha256": "808d3ccebed8ae9b95b87bad3e75a320c891fe5bb505ae5ac0250dd0ca4632bc",
+      "reason": "same-scene green corridor despite different bytes",
+      "evidence": "20261127_影片去重续验_批次42只读/第03表_5部10图_联系表.png"
+    },
+    {
+      "wid": "src-0947d4a2b4b448ee",
+      "src": "film-ai/src-0947d4a2b4b448ee.jpg",
+      "sha256": "c62c7c1e7a3fa6c973430387efa553ee18c4f4b9b5ea31e807d8dcbbecae7909",
+      "reason": "film title card rather than a distinct story still",
+      "evidence": "20261127_影片去重续验_批次42只读/第03表_5部10图_联系表.png"
+    },
+    {
+      "wid": "src-0b5c547fcd1eed3d",
+      "src": "film-ai/src-0b5c547fcd1eed3d.jpg",
+      "sha256": "339f95e90859811d36408178224b14bfc4567f1d7cd739e28c74c46fc7bdee1a",
+      "reason": "same three-person dining scene with small pose change",
+      "evidence": "20261127_影片去重续验_批次42只读/第05表_5部10图_联系表.png"
+    },
+    {
+      "wid": "src-0ba606f6f641bf97",
+      "src": "film-ai/src-0ba606f6f641bf97.jpg",
+      "sha256": "0e23428574bd395269a1fa4ea9fa9109877ce14b0aace79a08797bf4c34dc4a4",
+      "reason": "fantasy dragon and period characters unrelated to the modern flood film",
+      "evidence": "20261127_影片去重续验_批次42只读/第05表_5部10图_联系表.png"
     }
   ]
 }
