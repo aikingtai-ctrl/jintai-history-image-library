@@ -86,7 +86,8 @@
       const info = window[name]?.[id];
       if (info?.method === 'museum_open_access_original' &&
           /^[a-f0-9]{64}$/i.test(info.sha256 || '') &&
-          /^https:\/\/raw\.githubusercontent\.com\//i.test(info.original || '') &&
+          (/^https:\/\/raw\.githubusercontent\.com\//i.test(info.original || '') ||
+           /^https:\/\/aikingtai-ctrl\.github\.io\/jintai-history-image-library\/history-ai\/page22-museum-originals\/[A-Za-z0-9-]+\.jpe?g(?:[?#]|$)/i.test(info.original || '')) &&
           /\.jpe?g(?:[?#]|$)/i.test(info.original)) return info;
     }
     return null;
