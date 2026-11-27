@@ -1698,6 +1698,221 @@
       "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
       "method": "内置 imagegen",
       "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 81,
+      "wid": "src-18e111f03b995a3e",
+      "title": "Lost in Space",
+      "firstShotId": "VP-src-18e111f03b995a3e-01",
+      "scene": "太空飞船金属舱室内，十岁神童小男孩杰克·约翰逊站在高大的银色机械战警机器人身旁",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Inside a metal spacecraft cabin, a fully clothed ten-year-old boy in practical space clothes stands beside a much taller silver humanoid service robot. Original fictional child face and original robot design, clear friendly scale contrast, cool practical science-fiction lighting. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "cf8ed879f4ee3ca27b43703826042d4e43ecc4cd6061fb88ef3f7b0c9249e7cf",
+      "preview": "film-ai/firstshot-20261127/src-18e111f03b995a3e.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7d45861bc4d79a11af3d640457e75e4ca9c98382/originals/film-expand-firstshot-20261127/src-18e111f03b995a3e.png",
+        "bytes": 2361631,
+        "sha256": "b7383819f7c64d611a43fed5d9ec845528443d6ff9e20403fc894c846e9aa913",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（原创角色）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "使用原创人物或生物造型，保留首条描述的场景、人物关系和构图。"
+    },
+    {
+      "ordinal": 82,
+      "wid": "src-18f9a4a1cd7f5227",
+      "title": "For Scent-imental Reasons",
+      "firstShotId": "VP-src-18f9a4a1cd7f5227-01",
+      "scene": "巴黎香水店橱窗前身穿黄马甲的法国店主惊慌失措地向身穿蓝色制服的高大警察比划求助的2D动画中景",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Original 1940s-style hand-drawn 2D cartoon outside a Paris perfume-shop window. A fictional adult shopkeeper in a yellow waistcoat gestures anxiously while asking a tall fictional policeman in a blue uniform for help. Entirely original character designs, lively comic poses, no harm or readable shop words. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "79f96a287e385b0062b9859b72813c3f6901dc3454784e94ed2b96a97ae07a15",
+      "preview": "film-ai/firstshot-20261127/src-18f9a4a1cd7f5227.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7d45861bc4d79a11af3d640457e75e4ca9c98382/originals/film-expand-firstshot-20261127/src-18f9a4a1cd7f5227.png",
+        "bytes": 2795827,
+        "sha256": "d582ac4d068e9795633a85cc8a637f76bc93dc928b63221164d85b8bd70e6274",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（原创角色）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "使用原创人物或生物造型，保留首条描述的场景、人物关系和构图。"
+    },
+    {
+      "ordinal": 83,
+      "wid": "src-190f07d2554b3d6d",
+      "title": "Doctor Strange",
+      "firstShotId": "VP-68806c13d71d3078",
+      "scene": "左侧站立一名黄色长袍人物，右侧石阶上分布多名深色长袍人物，背景为倾斜的巨大石质建筑，天空阴沉。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Surreal fantasy architectural wide shot. At left stands a fully clothed person in a yellow robe; several dark-robed people occupy stone steps at right. A huge stone building behind them bends and tilts impossibly under a gloomy sky. Original figures, no recognizable franchise costume. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "d5c4ce1606b30db78807d46cb652a8649c61b223a57ec57f3cd960dd5b1f400b",
+      "preview": "film-ai/firstshot-20261127/src-190f07d2554b3d6d.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7d45861bc4d79a11af3d640457e75e4ca9c98382/originals/film-expand-firstshot-20261127/src-190f07d2554b3d6d.png",
+        "bytes": 3037001,
+        "sha256": "e0314e28d629292b7a90fa3411bb0bd2157e6410b4410210a24a0c88b07ea540",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 84,
+      "wid": "src-191d88515c75187e",
+      "title": "Siberia",
+      "firstShotId": "VP-dd7849e920749cab",
+      "scene": "雪坡上的深色木屋与栅栏，周围覆盖厚雪，背景为稀疏针叶林，整体呈现青绿色调。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. A dark timber cabin and simple wooden fence sit on a snowy slope, surrounded by thick snow and sparse conifer trees. Cool blue-green cinematic color, pale wintry atmosphere and quiet isolation, no people. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "2688bf12a031b717615a3361f2995e02718bfd01128801ccaf993a929dd98006",
+      "preview": "film-ai/firstshot-20261127/src-191d88515c75187e.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7d45861bc4d79a11af3d640457e75e4ca9c98382/originals/film-expand-firstshot-20261127/src-191d88515c75187e.png",
+        "bytes": 2427106,
+        "sha256": "f72ec52f8943d2c70a180f3bca40a17977a2097f36ee81375c17c1ebc35ae3d4",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 85,
+      "wid": "src-192d14ab1c084683",
+      "title": "Un señor muy viejo con unas alas enormes",
+      "firstShotId": "VP-src-192d14ab1c084683-01",
+      "scene": "古巴与拉美魔幻现实主义风格海报，上方印有加西亚·马尔克斯原著字样，中央是一名长着巨大洁白羽翼的苍老天使高举双臂仰天呼喊。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Latin American magical-realist painted poster concept: a fictional elderly man with enormous white feathered wings raises both arms toward the sky. He wears a modest worn robe. Warm weathered rural painted background, expressive dignified face, no lettering or signature. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "025a7409d37f45767393af993c427d7c7af3f1df5cc8f60867e755e5f9828093",
+      "preview": "film-ai/firstshot-20261127/src-192d14ab1c084683.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7d45861bc4d79a11af3d640457e75e4ca9c98382/originals/film-expand-firstshot-20261127/src-192d14ab1c084683.png",
+        "bytes": 3318157,
+        "sha256": "51c5235a54cc6b36939798cb7e22d09d8fb8e1cd05ffb4953f6c3b5417d25b87",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI资料参考图（海报描述，非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "first-record-promotional-image-description",
+      "adaptationNote": "按首条资料中的海报画面描述重绘，省略文字；非原片首镜、非原始海报。"
+    },
+    {
+      "ordinal": 86,
+      "wid": "src-1941368bf1c7102b",
+      "title": "Le refuge",
+      "firstShotId": "VP-src-1941368bf1c7102b-01",
+      "scene": "昏暗巴黎公寓卧室内的双人近景，年轻富家子路易与金发女友穆斯双双注射毒品后昏迷在蓝色床单上，房间里笼罩着死亡阴影。",
+      "actualPrompt": "Change only the adult woman’s hair color from dark brown to blonde. Preserve her fictional face, fully opaque clothes, motionless resting posture, the adult man, blue bedding, dark apartment, camera angle and entire composition. No drug tools, needles, nudity, text, logo or watermark.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "6a9c16e79d7169123f9d89f1d7a1993baeeb4325c8c48f918391fe4a6c817ad2",
+      "preview": "film-ai/firstshot-20261127/src-1941368bf1c7102b.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7d45861bc4d79a11af3d640457e75e4ca9c98382/originals/film-expand-firstshot-20261127/src-1941368bf1c7102b.png",
+        "bytes": 1978482,
+        "sha256": "521dbf484de9c3d71b96930854587af94beb11ff680b23b9b466b3038305c53c",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（省略吸毒细节）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "保留双人卧躺和蓝色卧室，省略注射过程与器具，人物明确穿衣。"
+    },
+    {
+      "ordinal": 87,
+      "wid": "src-1947c76e0e814a7e",
+      "title": "Radioactive Dreams",
+      "firstShotId": "VP-src-1947c76e0e814a7e-01",
+      "scene": "《核子梦》竖版录像带封面，火红核爆背景下两名穿复古西装戴墨镜的少年手持武器并立",
+      "actualPrompt": "Change only both adult men’s clothing to ordinary vintage business suits: tailored pinstripe jackets with lapels, white collared dress shirts, neckties and matching suit trousers. No space suits, jumpsuits, shoulder epaulettes, utility belts or futuristic uniforms. Preserve their fictional faces, sunglasses, standing positions, lowered prop weapons, orange nuclear-cloud illustration and aged painted-poster texture. No text, signature, logo or watermark.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "ba5aee4fd37c8cf1427cb619a33907f05c33930432cdd4490940b793de91b1ea",
+      "preview": "film-ai/firstshot-20261127/src-1947c76e0e814a7e.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7d45861bc4d79a11af3d640457e75e4ca9c98382/originals/film-expand-firstshot-20261127/src-1947c76e0e814a7e.png",
+        "bytes": 2595837,
+        "sha256": "c9b9169949148a77f1e40166879eedee5a29517b49b76048e126e21fa818b530",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（成年人物，非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "按录像封面描述绘制，将持械少年改为成年人且道具枪口朝下；非原片首镜。"
+    },
+    {
+      "ordinal": 88,
+      "wid": "src-19509f73716e6eec",
+      "title": "VELIKIJ VOIN ALBANII SKANDERBEG",
+      "firstShotId": "VP-src-19509f73716e6eec-01",
+      "scene": "苍茫蓝灰色群山背景前头缠布巾、手拄木杖的络腮胡长者凝视前方的彩色近景",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Color close portrait of a fictional bearded elderly Balkan man wearing a cloth headwrap and resting a hand on a wooden walking staff. Immense blue-gray mountains behind him, strong weathered face, thoughtful dignified expression and natural light. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "d745e6397511fb2ab9296308aeb6b0869f91a9df401e12ba4851318c8ae7f179",
+      "preview": "film-ai/firstshot-20261127/src-19509f73716e6eec.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7d45861bc4d79a11af3d640457e75e4ca9c98382/originals/film-expand-firstshot-20261127/src-19509f73716e6eec.png",
+        "bytes": 3037737,
+        "sha256": "685718dd0402e1967ff40c226fb3e49a1e15461877dec6dc728fcb01ae327c17",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 89,
+      "wid": "src-1968ea4b30e0cc9b",
+      "title": "殺生",
+      "firstShotId": "VP-src-1968ea4b30e0cc9b-01",
+      "scene": "奇幻壮丽的云海裂缝透下耀眼天光且一名人物仰面悬浮在幽蓝水体之中",
+      "actualPrompt": "Change only the floating adult man’s hairstyle and clothes: short plain black hair, simple modest dark cotton shirt and trousers, without embroidery, brocade, decorative belt, hair ornament or fantasy costume. Preserve his fictional Chinese face, fully clothed face-up floating posture, water, parted clouds, sunbeams and entire composition. No injury or distress. No text, logo, signature or watermark.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "1cfc914b00b10a2ddae36a03360e9e225672e7bd4fe0e3c1b5eaa51227e2f228",
+      "preview": "film-ai/firstshot-20261127/src-1968ea4b30e0cc9b.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7d45861bc4d79a11af3d640457e75e4ca9c98382/originals/film-expand-firstshot-20261127/src-1968ea4b30e0cc9b.png",
+        "bytes": 2230309,
+        "sha256": "d0a94ade4e6cab9658c08c2b7acb7e2d6c46fc7b7600363444874d1fd5a09873",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 90,
+      "wid": "src-1994dff73367bfc6",
+      "title": "Ha chayim alpy Agfa",
+      "firstShotId": "VP-src-1994dff73367bfc6-01",
+      "scene": "黑白剧照中特拉维夫小酒馆吧台旁中年女老板与身穿白衬衫的秃顶男子交谈",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Black-and-white medium two-shot in a small Tel Aviv bar. A fictional middle-aged female proprietor talks with a fictional bald adult man wearing a white shirt beside the counter. Intimate worn interior and restrained documentary light. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "31176d71174e1f712b6e5fa6de37b8c054af392319a271db57bbbdc6bcd0043c",
+      "preview": "film-ai/firstshot-20261127/src-1994dff73367bfc6.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/7d45861bc4d79a11af3d640457e75e4ca9c98382/originals/film-expand-firstshot-20261127/src-1994dff73367bfc6.png",
+        "bytes": 2449931,
+        "sha256": "1e0c97c9640efc4c96346182e2fdc96d45da0118fc0f2eca22b256036e95d9c5",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
     }
   ]
 }
