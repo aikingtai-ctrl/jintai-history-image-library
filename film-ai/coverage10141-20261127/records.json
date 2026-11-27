@@ -2,7 +2,7 @@
   "fixedScopeWorks": 10141,
   "scopeRevision": "b58616b8990a50aba2766810e46e84ccf7e21c8f",
   "recovered": 22,
-  "generated": 2,
+  "generated": 6,
   "assets": [
     {
       "wid": "src-wd-q105443659",
@@ -633,6 +633,32 @@
       "scene": "恢复该作品已有 AI 代表图；非原片首镜"
     },
     {
+      "wid": "src-wd-q109510942",
+      "title": "马洛",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q109510942.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/601bfbdb4cc0b4dae150c4d49f664db825700a46/originals/film-coverage-10141-20261127/src-wd-q109510942.png",
+        "sha256": "3cd29410f95c236321c11db994e6c6911d050522e42129c87faaf169fdc76570",
+        "bytes": 2361422,
+        "width": 1939,
+        "height": 811,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "ee50582c44ae8023a9b546c478f41ca32f4228a2e03f32842a5bb302cd81943a",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "一九三九年洛杉矶复古私家侦探办公室之内，头戴高顶深灰软呢帽、身穿深褐粗呢三件套西装系暗酒红领带的马洛（连姆·尼森）居中垂首沉思，窗外强烈斜射昼光透过多扇大百叶窗在其皱纹密布的面庞、肩头以及背后悬挂的镜框军官肖像与米白木护墙板上切割出经典黑色电影高反差平行明暗斜光条纹，左侧护墙板挂着一盏粉白灯罩黄铜壁灯与复古台灯罩",
+      "actualPrompt": "Create one original cinematic photographic reference frame, wide 2.39:1. A private detective office in late-1930s Los Angeles, warm faded cream plaster walls, wood paneling, black window-blind frames, a small warm brass wall sconce and a pleated shade desk lamp at lower left. An older adult male detective wearing a gray felt fedora, brown textured wool three-piece suit, white shirt and dark burgundy tie stands center-right, head slightly lowered in weary thought. Strong afternoon sunlight passes through Venetian blinds, throwing crisp diagonal bands of light and shadow across his hat, face, jacket, wall and framed portrait. Medium close eye-level composition, earthy brown and muted amber palette, rich dark shadows, film-like grain and natural facial texture, intimate neo-noir realism. Single coherent image, fully clothed, no weapons, no words, no poster, no collage, no logos. AI interpretation based on a reference description, not a genuine movie still.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://film-grab.com/2026/11/06/marlowe/",
+          "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Marlowe_13.jpg",
+          "sourceShotId": "YS-20261125W1-2300-src-wd-q109510942-69"
+        }
+      ],
+      "adaptationNote": "按该作品首条可核对画面描述生成；未证实为影片开场首镜，因此明确标注非首镜。未沿用通用设备风格模板。"
+    },
+    {
       "wid": "src-wd-q16028796",
       "title": "底層的珍珠",
       "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q16028796.jpg",
@@ -659,6 +685,58 @@
       "adaptationNote": "原首条画面文字称旧街工坊，与所附 FilmGrab 图片不符；改按该来源可见的林地、吊床、木梯和成年人物生成。该图不是已核实的原片首镜。"
     },
     {
+      "wid": "src-wd-q1661151",
+      "title": "生生长流",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q1661151.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/601bfbdb4cc0b4dae150c4d49f664db825700a46/originals/film-coverage-10141-20261127/src-wd-q1661151.png",
+        "sha256": "da3beb7c5af3973c46d459eb2360e222851475ef5a7a18a55c4cdb25565d98f6",
+        "bytes": 2984923,
+        "width": 1615,
+        "height": 974,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "f396e1a06340304514fa034090fb7a56b201d807629ef0815e69dd7188beb225",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "经历大地震后瓦砾半敞的伊朗北部山村路边杂货铺正面中全景之中，额头贴着大片白色医疗纱布的深衣老人居中站在破损木屋正中双手各握一把粗糙高粱扫帚平静直望镜头，右侧薄荷绿铁栅窗洞与屋檐空隙外露出晴朗青翠连绵山峦，前景木箱地面堆满整框大蒜头、橘红包装零食袋、膨胀大麻袋、彩色塑料桶以及铺在桌上带有传统暗红几何纹样的大地毯",
+      "actualPrompt": "Create one original cinematic photographic reference frame, aspect about 1.66:1, poetic Iranian neorealist 1990s color 35mm film texture. Eye-level medium-wide frontal view of a small roadside village shop damaged by an earthquake in northern Iran. An elderly adult shopkeeper in a worn dark brown jacket, a clean white gauze bandage on his forehead, stands in the open doorway, holding two rustic straw brooms, looking calmly outward. The rough plaster walls are partly broken; a large open mint-green barred door is at the right. Sunlit green mountains appear behind him through the broken building. Foreground is crowded with garlic bulbs in wooden crates, bright orange unlabeled snack packets, burlap sacks, metal bowls, woven baskets and an earth-toned geometric patterned cloth over the shop table. Warm natural daylight, soft shadows, resilient everyday human dignity, tactile weathered wood and masonry, subtle film grain, gentle muted green and ocher colors. No injury detail, no rubble victims, no text, no captions, no brand names, no poster or collage. Original AI interpretation of the described reference scene, not a genuine film frame.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://film-grab.com/2025/11/25/life-and-nothing-more/",
+          "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Life_and_Nothing_More_10.jpg",
+          "sourceShotId": "YS-20261125W1-2300-src-wd-q1661151-69"
+        }
+      ],
+      "adaptationNote": "按该作品首条可核对画面描述生成；未证实为影片开场首镜，因此明确标注非首镜。未沿用通用设备风格模板。"
+    },
+    {
+      "wid": "src-wd-q21877685",
+      "title": "侏羅紀世界：殞落國度",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q21877685.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/601bfbdb4cc0b4dae150c4d49f664db825700a46/originals/film-coverage-10141-20261127/src-wd-q21877685.png",
+        "sha256": "eedd55c66fd8736eb34b6c3f1507e5fe41c455138755835a5ced346eb75a3dae",
+        "bytes": 2017129,
+        "width": 1939,
+        "height": 811,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "4b85146eb43e5b5dbeddff407d5a6f33ecb7d2208057fa16440409c176ef6707",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "深红吊灯悬垂暗色调装饰复古美式餐馆木隔间长椅之中，穿着西装格衬衫男子与红发女友克莱尔面对面悄声急切倾谈，壁挂发光长条红橙霓虹管同右后远窗刺眼白昼街光交织出浓郁复古警觉暗流",
+      "actualPrompt": "A single original cinematic photographic reference frame, a wide 2.39:1 interior of a retro American diner in subdued dark brown and deep red. Eye-level medium-wide diagonal view down an aisle. At the near booth on the left, an adult man in a subdued casual checked shirt sits with his back partly toward the camera, facing a red-haired adult woman in a pale blouse. They lean toward each other in a quiet intense conversation across a small table. Empty foreground booths and a metal-backed red vinyl chair on the right. Three scarlet pendant lights and vertical orange-red wall light strips glow over dark wood panels, round wall mirrors and stamped metal ceiling tiles. Large bright frosted daylight window in the far background, a few background adult diners in soft shadow. Rich warm low-key interiors contrasted with cool white daylight, cinematic depth and realistic skin texture, carefully composed natural photography. No dinosaurs, no poster, no collage, no captions, no logos, no lettering. AI scene interpretation, not an authentic movie still.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://film-grab.com/2021/04/05/jurassic-world-fallen-kingdom/",
+          "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Jurassic_World_2_012.jpg",
+          "sourceShotId": "YS-20261125-2300-src-wd-q21877685-69"
+        }
+      ],
+      "adaptationNote": "按该作品首条可核对画面描述生成；未证实为影片开场首镜，因此明确标注非首镜。未沿用通用设备风格模板。"
+    },
+    {
       "wid": "src-wd-q26769930",
       "title": "再一次体悟",
       "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q26769930.jpg",
@@ -683,6 +761,32 @@
         }
       ],
       "adaptationNote": "保留首条可见画面的录音棚、长发浓须音乐人、合成器和圆形柔光灯构图；原描述将人物标作尼克·凯夫，身份不可靠，因此不使用该人名。本图非已核实的原片首镜。"
+    },
+    {
+      "wid": "src-wd-q85801170",
+      "title": "最後一個平安夜",
+      "preview": "film-ai/firstshot-coverage10141-20261127/src-wd-q85801170.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/601bfbdb4cc0b4dae150c4d49f664db825700a46/originals/film-coverage-10141-20261127/src-wd-q85801170.png",
+        "sha256": "9142400476daeda35d485a6c2f35612b68d9c3435e741a543e5d2ed67d63dc5b",
+        "bytes": 2583878,
+        "width": 1939,
+        "height": 811,
+        "fullGETVerified": true
+      },
+      "jpgSHA256": "53676a073b6e8b53df0beb14fd84b7c724ae89ed106d8842dddfb689e88973d3",
+      "referenceLabel": "AI内容参考图（非首镜）",
+      "scene": "古典红砖英式豪宅后院白漆庭院桌椅旁，穿着深褐驯鹿圣诞针织套头衫、卡其长裤与红袜的男人（马修·古迪）孤身跷坐白色木靠椅上，双掌捧着暖意微升的白瓷马克杯静望右前空处，一排节庆金暖砖墙沉默守候",
+      "actualPrompt": "A single original cinematic photographic reference frame in wide 2.39:1 composition. Quiet English red-brick country-house terrace on an overcast winter morning, pale blue-green window frames and low potted shrubs. An adult man with short dark hair and a thoughtful slightly strained expression sits relaxed in a white-painted wooden garden armchair at center-left, one leg resting over the other, holding a white ceramic mug. He wears a dark brown knitted Christmas sweater with a reindeer pattern, pale khaki trousers, red socks and plain dark shoes. A second empty white wooden chair stands at his right, with a little white garden table nearby; terracotta paving in foreground. Soft muted daylight, tactile brick and wool, gently desaturated warm earthy tones, calm lonely black-comedy atmosphere, realistic photographic detail. No visible words, no captions, no poster, no collage, no logos. AI interpretation of a described reference scene; not an authentic film opening shot.",
+      "method": "built-in image_gen",
+      "sourceEvidence": [
+        {
+          "url": "https://film-grab.com/2023/12/26/silent-night/",
+          "image": "https://film-grab.com/wp-content/uploads/photo-gallery/Silent_Night_12.jpg",
+          "sourceShotId": "YS-20261125-2300-src-wd-q85801170-37"
+        }
+      ],
+      "adaptationNote": "按该作品首条可核对画面描述生成；未证实为影片开场首镜，因此明确标注非首镜。未沿用通用设备风格模板。"
     }
   ]
 }
