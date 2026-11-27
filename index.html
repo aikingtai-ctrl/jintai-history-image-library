@@ -68,7 +68,7 @@ main{max-width:1640px;margin:0 auto;padding:8px 26px 44px}
 .history-preview-button{position:relative;display:block;width:100%;padding:0;border:0;border-radius:6px;background:transparent;overflow:hidden;cursor:pointer}
 .history-preview-button:focus-visible,.history-detail-preview-button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 .history-preview-button .history-card-preview{margin:0}
-.history-preview-zoom{position:absolute;right:10px;bottom:10px;padding:5px 11px;border-radius:7px;background:rgba(12,25,21,.82);color:#fff;font:600 12.5pt/1.3 "Microsoft YaHei",sans-serif;pointer-events:none}
+.history-preview-zoom{position:absolute;right:10px;bottom:10px;width:26px;height:26px;display:grid;place-items:center;border-radius:6px;background:rgba(12,25,21,.82);color:#fff;pointer-events:none}.history-preview-zoom::after{content:"";width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:7px solid currentColor;transform:translateX(1px)}
 .history-detail-preview-button{display:block;max-width:100%;padding:0;margin:12px auto;border:0;background:transparent;cursor:pointer}
 .history-detail-preview-button .history-detail-preview{margin:0}
 .hlb-stage #hlbImg{width:94%;height:92%}
@@ -1244,7 +1244,7 @@ function render(){
     const views=r.n || (r.variants?r.variants.length:1);
     const historyPreview=histThumb(r.id);
     const originalLabel=histOriginalLabel(r.id);
-    d.innerHTML=`${historyPreview ? `<button type="button" class="history-preview-button" aria-label="${originalLabel}：${esc(r.title)}" title="${originalLabel}"><img class="history-card-preview" loading="lazy" src="${esc(historyPreview)}" alt=""><span class="history-preview-zoom" aria-hidden="true">${originalLabel}</span></button>` : ''}<h3>${esc(r.title)}</h3>${!r.metadata_hold&&window.JINTAI_AI_NOTES?.[r.id] ? `<p>${esc(window.JINTAI_AI_NOTES[r.id])}</p>` : ''}
+    d.innerHTML=`${historyPreview ? `<button type="button" class="history-preview-button" aria-label="${originalLabel}：${esc(r.title)}" title="${originalLabel}"><img class="history-card-preview" loading="lazy" src="${esc(historyPreview)}" alt=""><span class="history-preview-zoom" aria-hidden="true"></span></button>` : ''}<h3>${esc(r.title)}</h3>${!r.metadata_hold&&window.JINTAI_AI_NOTES?.[r.id] ? `<p>${esc(window.JINTAI_AI_NOTES[r.id])}</p>` : ''}
       <div class="summary">${esc(r.brief||'')}</div>
       <div class="card-foot"><span>${esc(eraTxt)} ｜ ${esc(kindTxt)}</span><span class="views">${views} 视角</span></div>`;
     const previewButton=d.querySelector('.history-preview-button');
