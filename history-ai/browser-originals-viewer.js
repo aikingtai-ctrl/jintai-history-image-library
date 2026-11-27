@@ -12,7 +12,7 @@
     'xiongnu-manifest.js', 'specials-400-manifest.js',
     'shanhaijing-gpt-manifest.js', 'shanhaijing-originals-manifest.js',
     'myth-originals-manifest.js',
-    'page25-originals-manifest.js', 'page24-originals-manifest.js',
+    'page26-originals-manifest.js', 'page25-originals-manifest.js', 'page24-originals-manifest.js',
     'page23-originals-manifest.js', 'page22-originals-manifest.js',
     'page21-originals-manifest.js', 'page20-originals-manifest.js',
     'page19-originals-manifest.js', 'qing-manifest.js',
@@ -25,7 +25,7 @@
     'JINTAI_SOUTHERN_SONG_IMAGES', 'JINTAI_MINGUO_FOLK16_IMAGES',
     'JINTAI_XIONGNU_IMAGES', 'JINTAI_SPECIAL_IMAGES',
     'JINTAI_SHANHAIJING_IMAGES', 'JINTAI_MYTH_IMAGES',
-    'JINTAI_PAGE25_IMAGES', 'JINTAI_PAGE24_IMAGES',
+    'JINTAI_PAGE26_IMAGES', 'JINTAI_PAGE25_IMAGES', 'JINTAI_PAGE24_IMAGES',
     'JINTAI_PAGE23_IMAGES', 'JINTAI_PAGE22_IMAGES',
     'JINTAI_PAGE21_IMAGES', 'JINTAI_PAGE20_IMAGES',
     'JINTAI_PAGE19_IMAGES', 'JINTAI_QING_IMAGES',
@@ -86,7 +86,8 @@
       const info = window[name]?.[id];
       if (info?.method === 'museum_open_access_original' &&
           /^[a-f0-9]{64}$/i.test(info.sha256 || '') &&
-          /^https:\/\/raw\.githubusercontent\.com\//i.test(info.original || '') &&
+          (/^https:\/\/raw\.githubusercontent\.com\//i.test(info.original || '') ||
+           /^https:\/\/aikingtai-ctrl\.github\.io\/jintai-history-image-library\/history-ai\/page22-museum-originals\/[A-Za-z0-9-]+\.jpe?g(?:[?#]|$)/i.test(info.original || '')) &&
           /\.jpe?g(?:[?#]|$)/i.test(info.original)) return info;
     }
     return null;
