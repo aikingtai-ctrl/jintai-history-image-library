@@ -1,0 +1,216 @@
+{
+  "batch": "firstshot-20261127",
+  "assets": [
+    {
+      "ordinal": 1,
+      "wid": "san-mao-the-little-vagabond-1949",
+      "title": "三毛流浪记",
+      "firstShotId": "YS-0152-01",
+      "scene": "寒冬深夜，瘦小的光头流浪儿缩着身子，钻进街边的垃圾箱里过夜",
+      "actualPrompt": "Erase the entire pale outlined sign shape and every remaining curved white outline at the extreme upper-left corner. Replace the whole upper-left 200-by-120-pixel area with uninterrupted dark natural nighttime branches and foliage, without any sign frame, symbol, lettering or geometric border. Preserve everything outside that tiny corner, including the boy, bin, streetlamp and complete monochrome scene.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "6acc32643389c4f0b832aa996a6104e048f1377a25cb8cf3f7194abfe260b3a6",
+      "preview": "film-ai/firstshot-20261127/san-mao-the-little-vagabond-1949.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f99d70c7101bc2f64e8742841d0a810537f6888/originals/film-expand-firstshot-20261127/san-mao-the-little-vagabond-1949.png",
+        "bytes": 2213953,
+        "sha256": "f325c4e91e420dc4a440f3206334580a4ded34316c4cfb1a18913e97b87624ef",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 2,
+      "wid": "irreversible-2002",
+      "title": "Irréversible",
+      "firstShotId": "VP-d136c4d243cdbdbc",
+      "scene": "夜间俯视视角下，两辆并排停放的白色厢式货车占据画面主体。左侧车旁一人俯身探出，右侧车旁一人站立，车身表面投射出明显的蓝色光斑。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Overhead nighttime view of two white panel vans parked side by side. A fully clothed adult leans out beside the left van and another adult stands beside the right van. Distinct blue light patches illuminate the van bodies against dark pavement, restrained tense urban atmosphere. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "a6e3ed2ed904f31c63b3ce162f7ce27ebc476ff0d83b6ae598b7026c52487f6f",
+      "preview": "film-ai/firstshot-20261127/irreversible-2002.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f99d70c7101bc2f64e8742841d0a810537f6888/originals/film-expand-firstshot-20261127/irreversible-2002.png",
+        "bytes": 2353329,
+        "sha256": "a50237203e38e73bc8ef45175f73f5df830c51ecc1779e4a4b964e6ef3b37176",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 3,
+      "wid": "it-2017",
+      "title": "It",
+      "firstShotId": "VP-0350438ecac98f43",
+      "scene": "俯拍视角下，左侧站立一名穿粉色上衣和牛仔背带裤的幼童，右侧蹲坐一名穿深色裙装的女子，中间由垂直金属门框分隔，地面为水磨石材质。",
+      "actualPrompt": "Change only the fictional child and adult woman to original white American characters in a late-1980s small-town American domestic setting. Preserve the high-angle composition, child standing at left in a pink shirt and denim overalls, adult woman crouching at right in a dark skirt, the central vertical metal doorframe and terrazzo floor. Original fictional faces, no celebrity likeness. No text, watermark or signature.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "4a130974e3d68f6c3c0cb5f68e710ea9511d9d86997b3c1ba99c714754be4069",
+      "preview": "film-ai/firstshot-20261127/it-2017.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f99d70c7101bc2f64e8742841d0a810537f6888/originals/film-expand-firstshot-20261127/it-2017.png",
+        "bytes": 2735951,
+        "sha256": "d24772676bf8348e703dc0d80e7d2b62f9d5aaf30fd366ad87fb0110c60bb6a5",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 4,
+      "wid": "judas-and-the-black-messiah-2021",
+      "title": "Judas and the Black Messiah",
+      "firstShotId": "VP-8d54b7a9dd97a3a0",
+      "scene": "一名身穿深色西装、系着领带的男子，面部带有明显的红色伤痕，神情凝重地站立在室内，背景为青绿色墙面与木质结构。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. A fictional Black adult man in a dark suit and tie stands solemnly indoors against a teal-green wall and wooden architectural details. His face has a small non-graphic red healed mark. Medium close portrait, restrained period-drama lighting, no active violence. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "9047f510e0b17d8602436a4e561f20ee0019ad1125db92927ec71ea021ee93e0",
+      "preview": "film-ai/firstshot-20261127/judas-and-the-black-messiah-2021.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f99d70c7101bc2f64e8742841d0a810537f6888/originals/film-expand-firstshot-20261127/judas-and-the-black-messiah-2021.png",
+        "bytes": 1983784,
+        "sha256": "bcd01b32757fc2ee53265294cfa416ca7f7de5e146c91e564338f581d3e70373",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 5,
+      "wid": "lan-yu-2001",
+      "title": "蓝宇",
+      "firstShotId": "VP-lan-yu-2001-01",
+      "scene": "怀旧餐厅聚会中景里胡军饰演的陈捍东身穿深色西装坐在餐桌右侧，与围坐一桌的家人朋友们在温暖浓郁的棕红灯光下聚餐",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Warm nostalgic Chinese restaurant gathering. A fictional Chinese adult man in a dark suit sits at the right side of a dining table among several fully clothed adult relatives and friends. Rich brown-red practical light, dishes on the table, convivial but reflective medium-wide framing. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "af4681efaaac34ffc1147f122587478791508375704c282e3f17223ba6299c7c",
+      "preview": "film-ai/firstshot-20261127/lan-yu-2001.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f99d70c7101bc2f64e8742841d0a810537f6888/originals/film-expand-firstshot-20261127/lan-yu-2001.png",
+        "bytes": 2352027,
+        "sha256": "cb0f25ce5e5b86fdb275d21abbc872fbe96659c5ad047f23e30739e02915c2a3",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 6,
+      "wid": "lost-in-the-stars-2023",
+      "title": "消失的她",
+      "firstShotId": "VP-lost-in-the-stars-2023-01",
+      "scene": "水下蓝绿冷光特写中头戴医用帽的络腮胡男子隔着透明潜水头罩凝视镜头且下方带字幕",
+      "actualPrompt": "Change only the diver’s face to an original fictional East Asian Chinese adult man with a short dark beard. Preserve the pale cloth cap, transparent spherical diving helmet, underwater blue-green light, bubbles, clothing and entire composition. Do not resemble a real actor. No text, logo, signature or watermark.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "72f650420efd2e51390488d459863b08c8b6742b1c6de568f2d927d866013da4",
+      "preview": "film-ai/firstshot-20261127/lost-in-the-stars-2023.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f99d70c7101bc2f64e8742841d0a810537f6888/originals/film-expand-firstshot-20261127/lost-in-the-stars-2023.png",
+        "bytes": 2246186,
+        "sha256": "c7c02549d3d7cddaf7c29a075c0a4ff797ef7020458c9515d1437f657f2c5be7",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 7,
+      "wid": "mulholland-drive-2001",
+      "title": "Mulholland Drive",
+      "firstShotId": "VP-526c09eede475369",
+      "scene": "一名深色长发女性的面部与肩颈特写，背景为纯黑环境，人物面部受强光照射，额头左侧可见红色痕迹，神情凝重。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Close portrait of a fictional adult woman with long dark hair against a pure black background. Strong light illuminates her serious face and shoulders, with a small non-graphic red mark at the left side of her forehead. Dark suspenseful cinematic atmosphere, fully clothed. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "7b575e00f674907481a76600ff10971aea891ef9235dc84ecbe823b5176bdaa3",
+      "preview": "film-ai/firstshot-20261127/mulholland-drive-2001.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f99d70c7101bc2f64e8742841d0a810537f6888/originals/film-expand-firstshot-20261127/mulholland-drive-2001.png",
+        "bytes": 1821603,
+        "sha256": "8a3acc754e39661302305847d227008d47f4549fe28905939c34fa55a1ef36ef",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 8,
+      "wid": "no-more-bets-2023",
+      "title": "孤注一掷",
+      "firstShotId": "VP-118a12924ea19ce9",
+      "scene": "反诈专案组会议室内短发干练的女警赵东冉身穿墨绿Polo衫单手托腮严肃审视案情的近景",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. A fictional Chinese adult female police officer with practical short hair wears a dark moss-green polo shirt in an anti-fraud investigation meeting room. She rests her chin on one hand and studies the situation seriously. Restrained close portrait and softly blurred meeting-room details. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "16383376b0cbdc0e6b48c5bfa5f259d7cfb35519bd99810b71afcbc32a6edf0d",
+      "preview": "film-ai/firstshot-20261127/no-more-bets-2023.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f99d70c7101bc2f64e8742841d0a810537f6888/originals/film-expand-firstshot-20261127/no-more-bets-2023.png",
+        "bytes": 1916037,
+        "sha256": "500afe89674c73c6a5fc73ed7e73ecf66ed181db14e36ba9ed21da3cc41e73ca",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 9,
+      "wid": "phoenix-2014",
+      "title": "Phoenix",
+      "firstShotId": "VP-8b4ffe058bcbaa0a",
+      "scene": "透过右侧门框缝隙，可见室内一张铺着白布的金属架，上面躺着一具苍白的人形物体，背景是明亮的白色窗帘。",
+      "actualPrompt": "Change only the patient to an original fictional white German adult woman aged about forty, with short brown hair. Preserve the fully opaque long-sleeved white pajamas, blanket over the legs, peacefully resting posture, hospital bed, white curtains, doorway framing and entire composition. No injury or distress. Original fictional face, no real actor likeness. No text, logo, watermark or signature.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "008c4e2bd788eb770eb4054147abe95144f2bf103fd4fbd75bfef6ad780a23e6",
+      "preview": "film-ai/firstshot-20261127/phoenix-2014.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/ebadb3b5df08f85c662c8708d0c03c58fbc38736/originals/film-expand-firstshot-20261127/phoenix-2014.png",
+        "bytes": 1659831,
+        "sha256": "9b69843010343c5a818d5f69c23810e9c527c4282d9c3f5479aa7f6629b58678",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（穿衣休息人物）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "将原描述的苍白卧躺人形改为明确穿衣且平静休息的人物，保留门框窥视角度、白床及明亮窗帘。"
+    },
+    {
+      "ordinal": 10,
+      "wid": "pi-1998",
+      "title": "Pi",
+      "firstShotId": "VP-302b6bd04a03031c",
+      "scene": "黑白画面中，一名深色短发男子俯身于白色台面之上，头部低垂靠近台面，双手在前方操作，背景为浅色方格瓷砖墙面，右侧台面上排列着数个瓶罐状物体。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Black-and-white interior. A fictional adult man with short dark hair bends low over a white counter, head bowed close to its surface, hands working quietly in front of him. Pale square-tiled wall behind, several small bottles lined up on the counter at right. No weapon or injury. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "db14fbc1459dc7fe031c2d60be2b436e8bc99eb2227d5e2f742592c0ed542d7d",
+      "preview": "film-ai/firstshot-20261127/pi-1998.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f99d70c7101bc2f64e8742841d0a810537f6888/originals/film-expand-firstshot-20261127/pi-1998.png",
+        "bytes": 1983731,
+        "sha256": "69f941aec682a0d23f675704a45ffc6bccd98f5ee181da2d26838b990da476cd",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    }
+  ]
+}
