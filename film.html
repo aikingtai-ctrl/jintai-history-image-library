@@ -1974,6 +1974,13 @@ $('retryLoad').onclick=()=>location.reload();
  }
  refreshLoaded(sourceSummary,visualLoadFailed);$('retryLoad').hidden=!(visualLoadFailed||VISUAL_ASSOCIATION_FAILED);
  $('loadStatus').textContent=(visualLoadFailed||VISUAL_ASSOCIATION_FAILED)?' · 部分分片未载入':'';
- if(SHARED){SHOWSHARED=true;DECK_VIEW_ID='shared';showTab('decks');}
+  const requestedWid=(new URLSearchParams(location.search)).get('wid');
+  if(requestedWid){
+    if(WORK_BY_WID.has(requestedWid)){
+      WID=requestedWid;QP={tags:[],work:null,words:[],rawWords:[]};$('q').value='';
+      showTab('find');await ensureWorkShots(requestedWid);apply();
+    }else{$('loadStatus').textContent=' · 该影片编号未在当前目录中找到';}
+  }
+  if(SHARED&&!requestedWid){SHOWSHARED=true;DECK_VIEW_ID='shared';showTab('decks');}
  }catch(e){$('loadStatus').textContent='镜头描述载入中断，请重试载入。';$('retryLoad').hidden=false;console.error('镜头描述载入中断',e);}})();
 </script></body></html>
