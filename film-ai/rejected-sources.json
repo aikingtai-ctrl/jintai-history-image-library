@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T20:39:57.656055+08:00",
+  "updated_at": "2026-11-27T21:17:28.053922+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -3516,6 +3516,230 @@
       "sha256": "ddd33f07072d9fbf67bc4109cbe6033dd34dfd77d67765e1c00340a0a5262684",
       "reason": "古代东亚甲胄武士与头盔士兵谈话，不是 1942 华沙演员/纳粹间谍故事，人物及时代冲突。",
       "evidence": "第四十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2effb2d2f09a3200",
+      "src": "film-ai/shots/YS-20261028-src-2effb2d2f09a3200-01.webp",
+      "sha256": "bc2c5a956982b7e2f1fffabf923b3ce722b5647341ea8f71974d8be374a1522c",
+      "reason": "黑白家庭五人围桌只符合家庭题材，缺计程车业、两地婚事或可辨人物，未能定位本片情节。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2effb2d2f09a3200",
+      "src": "film-ai/src-2effb2d2f09a3200.jpg",
+      "sha256": "2d29de830e763e09e00ba59c0be11dc9d827d6cc996778d043243751de048898",
+      "reason": "画面是带大字《冤家一姐不一姐》的彩色商业海报，标题、年代、媒介均与 1961 黑白《宜室宜家》不符。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2f1553dcc3f4141b",
+      "src": "film-ai/src-2f1553dcc3f4141b.jpg",
+      "sha256": "1bcff8ccc58053329cafb1f57ca1f066144944435d797e830dba26a52a4b0b95",
+      "reason": "近乎全黑的建筑侧廊无医院标识、Laurie 或 Myers，无法由夜间恐怖气氛定位本片。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2f2da30a7fc0194b",
+      "src": "film-ai/shots/WORKCONCEPT-20261126-solomamma-2025-gpt.webp",
+      "sha256": "f4e4113420cd387194da5eef7d7e236f83dda864b10bbb61201c7461ded0299d",
+      "reason": "成年女子在家阅读文件与记者职业可联想，但无孩子、采访、捐精者身份或可核具体场面。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-2f2da30a7fc0194b",
+      "src": "film-ai/src-2f2da30a7fc0194b.jpg",
+      "sha256": "805da7f490e465e86ef3daf593c59c308ddce2c751c74c781caf74de9e885c56",
+      "reason": "海港边女子望向背包男子有离别感，未能证明两人即 Edith 与捐精者或其具体互动。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3053ded238873e94",
+      "src": "film-ai/src-3053ded238873e94.jpg",
+      "sha256": "6ea475a1387336ef1a54ee1bdb1f5b07a0144f24b78533dc063afbb04a40ddd1",
+      "reason": "现代迷彩服短发军人站在美国旗前，造型与 1967 年影片囚犯及链条劳役年代情境冲突；非可用片内场景。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-309d86d85b49b5e9",
+      "src": "film-ai/src-309d86d85b49b5e9.jpg",
+      "sha256": "7046e1656bb41ee09496d161acca2a5a085bff93b325925408d69ded5e1dd4ad",
+      "reason": "黏土鸡模型与黑白真人女演员肖像左右拼接，是宣传/配音人物拼图，非连续电影场景。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-315a803289def781",
+      "src": "film-ai/src-315a803289def781.jpg",
+      "sha256": "f902bcdae0c3c0af85c1948b4c7d62c75410a2cc62750b1993f621aabf8454e2",
+      "reason": "金发女子独坐敞篷车，AFI 虽记 Missy 驾车接送两主角，图中无人可验证身份或该接送事件。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3161ae37453aa176",
+      "src": "film-ai/src-3161ae37453aa176.jpg",
+      "sha256": "f88aafc7998b82d2089ff6579adfae0f0e70485cb294b36a1bc1fc69ed8c7f6c",
+      "reason": "黑白雨夜城市街道虽可对应前段都市警务，却无 Jim、追查或可识别地点。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-317d586ac33c5588",
+      "src": "film-ai/src-317d586ac33c5588.jpg",
+      "sha256": "9ca52a38c2f572ac0ea183099d3adecf175d38cc3049e8b04d5aa5443b5516b5",
+      "reason": "黑底金属字 NEMESIS 是纯片名字卡，没有人物、物体或情节场景。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-31c5bf7e859763e2",
+      "src": "film-ai/src-31c5bf7e859763e2.jpg",
+      "sha256": "c3df175c5961ab05fb18d5ecf8efcbc69b50510889093c2b649d57e864222e6e",
+      "reason": "原图可见导演佩耳机向演员讲戏，摄影机、轨道和剧组人员进入画面，属片场幕后照。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-320c108be58e65f4",
+      "src": "film-ai/src-320c108be58e65f4.jpg",
+      "sha256": "2c3e7008381532d23bded493a6ca525f1c3028e7531cad23d19174db1681f7a4",
+      "reason": "单名东亚男子戴厚耳帽低头，缺防疫行动、病例信息或可以辨认的片中人物。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-324cb14aef50dae4",
+      "src": "film-ai/shots/YS-20261028-src-324cb14aef50dae4-01.webp",
+      "sha256": "9c013b27ff2434b1c9f16b7c712a4a428fad409ebf66f2986038de82e812a7d8",
+      "reason": "竹林路上集体提红灯笼而行，只是乡村婚俗气氛，无法定位美霞、云郎或其阶层冲突。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-324cb14aef50dae4",
+      "src": "film-ai/src-324cb14aef50dae4.jpg",
+      "sha256": "2975d651178fbbbb30df850285459b38f4267f1fe1c89a669fc450f29d170f53",
+      "reason": "多幅人物剧照拼成结婚主题相册/海报，非单一场景，不能作为一张独立剧照。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3289b138e54aa76b",
+      "src": "film-ai/src-3289b138e54aa76b.jpg",
+      "sha256": "9d6fabd1da2309f9648b69f85d8f8833f8a1cca733729b07b4eb65e8f9d77317",
+      "reason": "正式晚宴背景两名演员手持金球奖奖杯合影，是映后颁奖活动照片而非电影场景。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3494e3c1a759b19c",
+      "src": "film-ai/shots/VP-src-3494e3c1a759b19c-01.webp",
+      "sha256": "509594fe2e6d2f3249caefe80cf153b83e456beec93e61a36b2f138341e8e192",
+      "reason": "女子在室外喝汤/吃东西，只是餐具动作；未见旧警察宿舍、丈夫或保存遗体的情节。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3494e3c1a759b19c",
+      "src": "film-ai/src-3494e3c1a759b19c.jpg",
+      "sha256": "b4493df08ffcfe5415f1c6a6b432b4e61ab881484f43e9791936fd3fdd9f4e72",
+      "reason": "另一女子在室内用白勺进食，与 01 皆是喝汤母题，且无死妻、丈夫或警舍锚点。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-351d86731e81f30e",
+      "src": "film-ai/shots/YS-20261028-src-351d86731e81f30e-01.webp",
+      "sha256": "a6fa742e8e54afff07231b83aff4a5feeb6d54330edc9a2101a3f619d974e4d2",
+      "reason": "整张是高饱和彩色乡村白鹭画面，与机构明确记载的 1968 黑白剧情片媒介不符；也未见可辨角色行动。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-351d86731e81f30e",
+      "src": "film-ai/src-351d86731e81f30e.jpg",
+      "sha256": "de587ea644aa7f08de8f81a9543360fd27d9ef97c2c15a08c16e26c9fe8e4fb8",
+      "reason": "彩色现代美国郊区的黑人女性近景，与 1968 台湾黑白白鹭乡村题材、年代及地域均冲突。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3542eac7c83d79d3",
+      "src": "film-ai/decks/film-src-3542eac7c83d79d3.webp",
+      "sha256": "4acc5adc9708e68e4320ca0488bc0c7738f11d626b78c807c8991a3894aa2724",
+      "reason": "泥泞林道与远处单人只具白俄罗斯乡野氛围，无法判断是否少年 Flyora 或战争时期。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3542eac7c83d79d3",
+      "src": "film-ai/src-3542eac7c83d79d3.jpg",
+      "sha256": "6d84f3a84592b704fd8ef076e78dc704044877689958c248ba9b85a7048f338b",
+      "reason": "两人穿越空旷沙地无村庄、游击队或屠杀锚点；地貌疑点不足以单独认定错片，先暂缓。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-35dadc5c5e37cb82",
+      "src": "film-ai/src-35dadc5c5e37cb82.jpg",
+      "sha256": "63de7511fa89804adaf9748c0967150db232b7e487e0843f036403d3ed1ac7b0",
+      "reason": "同一女子独在室内回望，只能维系人物外貌，缺片场事件、焚书或指控线索。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3717e4d3575dfc50",
+      "src": "film-ai/src-3717e4d3575dfc50.jpg",
+      "sha256": "ecdce80fdd65872ebe6114681e250e94b315bb647faa22e9e845e31c4f3206a8",
+      "reason": "画面有巨大红字《缇萦》和多张人物头像拼版，是影片海报而非单一叙事场景。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3717e4d3575dfc50",
+      "src": "film-ai/shots/YS-20261028-src-3717e4d3575dfc50-01.webp",
+      "sha256": "0e8011b6c1cbca613641d9b2c2469cacf3fbce9fdd25e8775cb1c3303ff21d85",
+      "reason": "古代殿宇台阶前的年轻女子与长者只泛合救父题材，未见上书、庭辩或可辨缇萦身份。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-387a9dd39db8e741",
+      "src": "film-ai/shots/WORKCONCEPT-20261117-src-387a9dd39db8e741.webp",
+      "sha256": "18484a7ef0350227dea41400d2c7a4369706131e1f86208b8c9a6cf43116c8f1",
+      "reason": "与第45批同片别名 src-11de89dfb097c522 的 01 原字节 SHA256 完全相同；该图已在旧 ID 留用建议，不能再作为本 ID 新增剧照。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-387a9dd39db8e741",
+      "src": "film-ai/src-387a9dd39db8e741.jpg",
+      "sha256": "d61ba93e17148075e45c7f5469afec49b08126042ed0613569910bd88efad831",
+      "reason": "两颗相连悬浮球体和吊索人影无法由片方梗概识别为沙虫、飞行器或具体战争场景。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-399bd66b91347537",
+      "src": "film-ai/src-399bd66b91347537.jpg",
+      "sha256": "7f2cd0e4dc0b349fab3b842f9a31541f90dad06cc9f110dc3c1750a27710a104",
+      "reason": "单名清朝官员着蟒袍肖像无可辨历史身份，也未见革命青年或具体行动。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3a8cb6ca0d69c97a",
+      "src": "film-ai/src-3a8cb6ca0d69c97a.jpg",
+      "sha256": "c85491031e86e744962cbcac351ad048d29597e298f4e1801c3d1ac6768cd756",
+      "reason": "绿叶背景戴眼镜成年男子正面摄影肖像，白边竖幅照片格式，不是电影场景；亦无青年群像情节。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3a8cb6ca0d69c97a",
+      "src": "film-ai/quality-reviewed/src-3a8cb6ca0d69c97a.png",
+      "sha256": "31cca533c0965063fb86baa632f5d1a8d6a0d3ca9e5db10f0c28f59114a31f7d",
+      "reason": "街边坐着的年轻女子及两名男子无法由资料馆演员表核出角色或任一故事线，韩国街景不足。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3b6853d4e050a535",
+      "src": "film-ai/goal9438/src-3b6853d4e050a535.jpg",
+      "sha256": "0cdcc5df43ff1f2e018402dc6bd48121cf0e46b2f735ac0948bfd2541d1ac1e4",
+      "reason": "室内两名华服女子对望只合十九世纪布景，未能辨出三段故事中的具体人物或行动。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3b98309d3f6b807d",
+      "src": "film-ai/shots/YS-20261103-CN96-src-3b98309d3f6b807d-093.webp",
+      "sha256": "1e76aeabf5fe72b602087e0f42fb26cdf971568780bd5a77054fae1b59fd83c2",
+      "reason": "单名头巾男子在山林里凝望，服饰与地域可联想但缺莫那身份或抵抗行动，独立叙事不足。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-3bbbbc495c4229fb",
+      "src": "film-ai/src-3bbbbc495c4229fb.jpg",
+      "sha256": "f635ee29c21afaff8b269a742beceacceb461e1468907ffdb78438b766bff534",
+      "reason": "白底居中大胡子男子的独立黑白证件式肖像没有潜艇环境或叙事动作，非电影场景。",
+      "evidence": "第四十九批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
