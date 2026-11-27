@@ -312,6 +312,8 @@ jobs:
               dst.parent.mkdir(parents=True, exist_ok=True)
               total_bytes += src.stat().st_size
               shutil.move(str(src), str(dst))
+          rejected_staged = site / "film-ai" / "rejected-sources.json"
+          assert rejected_staged.is_file() and json.loads(rejected_staged.read_text(encoding="utf-8")) == rejected, "Film rejection ledger missing from Pages artifact"
 
           # Upgrade staged _site/index.html & _site/browser.html to 2-stage progressive wave loading
           # (boot chunk first -> ~1s interactive first screen, then polite waves of 3) without touching repo layout_sha256.
