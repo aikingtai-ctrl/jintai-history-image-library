@@ -1,4 +1,4 @@
-/* Display corrections for 29 pending items and accepted historical reconstructions. Frozen prompts remain evidence. */
+/* Display corrections for 29 pending items and 38 accepted historical reconstructions. Frozen prompts remain evidence. */
 (()=>{
   const corrections=Object.create(null);
   const selectedExternalSha=Object.freeze({"HL-SHANG-AC-0001":"6f16b611f5a775f4ec709c646080fd97f9deb9b7566d6a6c7086557211f1d88f","HL-SHANG-AR-0001":"75d5591735f8e2935e61bf21f8a91c19db38e13f52d8a8209adfdaf3c0ca9791","HL-SHANG-AR-0002":"284ee694c829671eb994677ae31ee0ac99afd4a8c95843921ae66c665479a22c","HL-SHANG-AR-0003":"f1a6abb9635bd050f2464815d11b460cca613bc002f908382844bbf701772b66","HL-SHANG-AR-0006":"d4662b4e196b37b2177ae3eb08c509e4512ad141618c3301a6a2da23a4024f1f","HL-SHANG-AR-0007":"493f21539d53243b5da7385efacf72a22b3c3f0a3bbf0a45669a41f5cd3627b9","HL-SHANG-AR-0008":"45276d1de670510d5d6978d791c0f28d1057550e9d80af2364feb0a3e1e965af","HL-SHANG-CO-0001":"5f4f21bb5ce9d94c0b11083b94a435b8df258016f3528ad50b6c320a4e9a984f","HL-SHANG-CO-0002":"40e3d5f6a2712be97f84c73d784f9dad4fe26a61857eb44d36d903c5898de0c4","HL-SHANG-CO-0003":"433df9cf99479129746cbdcfb9f8cce3c98de98f051c7348bd3ad7484d8c0014","HL-SHANG-CO-0004":"e7f5c0e7ead5a9115cac27dae72a3efba5f1976ae748b07763959925bb70820a","HL-SHANG-CO-0005":"b2a48bf311a5747b16d0c09268830fdb4a37e4a74fd238ba6222edd2bc675b83","HL-SHANG-FA-0001":"d73b3f60365fadcb8073120d3736c389b35bfdd211d4b9288c94fac77c749f4b","HL-SHANG-LS-0001":"1eeced552eb9f971c3054ac52c4e1766c7d2a91944a3223e6fa160d9b0c55814","HL-SHANG-PR-0001":"523d07862a683a4bae8dabd386d39bd4fc203c969045288e8b9418d5df16b9dc","HL-SHANG-SC-0001":"7a7b11e4487c50008add7d9f6c8b02c4739da1d1ad7526636cbd7d7b78654b5a","HL-ZHOU-AC-0001":"1d1d5cc00286fa0b36306e4c69fb655b384f1a92f78a28406d7352000d74c9f1","HL-ZHOU-CO-0001":"74dbab65d02487a3d104800691be19bf8d6c772966c15af5b4186e2c0273c6d9","HL-ZHOU-CO-0002":"c761c9097d16a4309f7f96a0c233c4717c1a73026fde9f496e1e5a400e09d23e","HL-ZHOU-CO-0003":"d641742cc5ec8494efb6907f28b00056000f241fe884b2dd3a4a484cac64540c","HL-ZHOU-CO-0004":"3177990d8dcf672d0c49aae8b79ee7621edaa6699e39a4c59a753573e44738d2","HL-ZHOU-CO-0005":"604cfed4a48de7615261fc948a369f365e08707e69827d07e72265ae871a5354"});
@@ -165,6 +165,16 @@
       '箕子：借同批 GPT Image 肖像保持人物一致，作武王问《洪范》的传世叙事；旧题“大儒哲人”及朝鲜教化场面不沿用。',
       [songShiji,'https://zh.wikisource.org/wiki/%E5%B0%9A%E6%9B%B8/%E6%B4%AA%E7%AF%84']);
 
+  accepted("HL-SHANG-AC-0002", "三星堆二号祭祀坑金面罩青铜人头像的解释性器物图；局部形貌据馆藏说明推拟，非该藏品实拍复制。 图像是 GPT Image 根据文本新生成的解释性示意，非馆藏实拍原图。", ["https://www.hkpm.org.hk/sc/visit/audio-guide/g8-gazing-at-sanxingdui"]);
+  accepted("HL-SHANG-AC-0003", "殷墟小屯 M18 多骨笄发式的解释性重建；人物容貌、具体笄数、服装与发式细节未获考古确证。 图像是 GPT Image 根据文本新生成的解释性示意，非馆藏实拍原图。", ["https://img.dpm.org.cn/Uploads/file/2025/08/18/1755495600IcLMtESpe218986.pdf"]);
+  accepted("HL-SHANG-AC-0004", "商代玉玦器物为主体；背景单侧佩戴仅示可能用法，不断言成对佩戴、缺口朝向和身份。 图像是 GPT Image 根据文本新生成的解释性示意，非馆藏实拍原图。", ["https://www.dpm.org.cn/collection/jade/233848.html"]);
+  accepted("HL-SHANG-AC-0005", "商代青铜胄形制的解释性器物图；不添考古未证的青铜身甲或红缨。 图像是 GPT Image 根据文本新生成的解释性示意，非馆藏实拍原图。", ["https://www.dpm.org.cn/Uploads/pdf/3717/T00011_00.pdf"]);
+  accepted("HL-SHANG-AC-0006", "据殷墟妇好墓玉人 M5:372 所见发式作人物推拟，不能沿用原题“商代男子髡发”；入库前须更正页面题名及说明。 图像是 GPT Image 根据文本新生成的解释性示意，非馆藏实拍原图。", ["https://img.dpm.org.cn/Uploads/file/2025/08/18/1755495600IcLMtESpe218986.pdf"]);
+  accepted("HL-SHANG-AC-0007", "玉柄形器与玉串饰分开展示，不断言二者原为一组、胸前佩戴或特定礼仪用途。 图像是 GPT Image 根据文本新生成的解释性示意，非馆藏实拍原图。", ["https://www.dpm.org.cn/classify_detail/258152.html"]);
+  accepted("HL-SHANG-AC-0008", "玉鸟与玉鱼为分开陈列的器物形制推拟，不断言原为一条项链或固定组合。 图像是 GPT Image 根据文本新生成的解释性示意，非馆藏实拍原图。", ["https://www.chnmuseum.cn/zp/zpml/kgfjp/202112/t20211203_252532.shtml", "https://www.dpm.org.cn/collection/jade/233823.html"]);
+  accepted("HL-SHANG-AC-0009", "海贝与蚌泡分开作材质、形制对照，不绘制无据的斜挎贝带。 图像是 GPT Image 根据文本新生成的解释性示意，非馆藏实拍原图。", ["https://www.chnmuseum.cn/zp/zpml/hb/202202/t20220228_253674.shtml", "https://www.dpm.org.cn/lacquerwares/talk/208597.html"]);
+  accepted("HL-SHANG-AC-0012", "弦纹铜镜与骨笄作现代对照陈列，不断言由同一贵族女子同时使用或同墓成组出土。 图像是 GPT Image 根据文本新生成的解释性示意，非馆藏实拍原图。", ["https://www.chnmuseum.cn/zp/zpml/kgfjp/202203/t20220322_254498.shtml"]);
+
   const acceptedTitles=Object.freeze({
     'JT-HF-XIANQIN-OFF-15021':'比干（另一条目）·商朝',
     'JT-HF-XIANQIN-OFF-16003':'微子启（帝乙长子）·商末周初',
@@ -173,7 +183,8 @@
     'JT-HF-XIANQIN-OFF-20008':'巫贤（祖乙时期）·商朝',
     'JT-HF-XIANQIN-OFF-20010':'傅说（《说命》传世叙事）·商朝',
     'JT-HF-XIANQIN-SCH-20009':'甘盘（聚落事务场景）·商朝',
-    'JT-HF-XIANQIN-SCH-22009':'箕子·商末周初（《洪范》传世叙事）'
+    'JT-HF-XIANQIN-SCH-22009':'箕子·商末周初（《洪范》传世叙事）',
+    'HL-SHANG-AC-0006':"殷墟玉人所见发式推拟"
   });
 
   function apply(record){
