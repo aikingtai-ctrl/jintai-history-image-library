@@ -423,6 +423,217 @@
       "method": "内置 imagegen",
       "sourceBasis": "user-approved-scene-adaptation",
       "adaptationNote": "使用原创人物或生物造型，保留首条描述的场景、人物关系和构图。"
+    },
+    {
+      "ordinal": 21,
+      "wid": "port-of-call-2015",
+      "title": "踏血寻梅",
+      "firstShotId": "VP-port-of-call-2015-01",
+      "scene": "春夏饰演的少女王佳梅身穿白色背心仰躺在出租屋床垫上举起双手凝视指尖",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. A fictional fully clothed young adult Chinese woman in a plain white cotton sleeveless top lies on her back on a modest rental-room mattress. She lifts both hands above her face and quietly studies her fingertips. Frame face, shoulders and raised hands, contemplative nonsexual presentation. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "d817875927dc95f1ca1363313e406d7cf3fa30b0c4d5184c8c599cf8442f248a",
+      "preview": "film-ai/firstshot-20261127/port-of-call-2015.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b21ca4a9ee878acd5f38fce98f48c4a6fea17f2f/originals/film-expand-firstshot-20261127/port-of-call-2015.png",
+        "bytes": 2106362,
+        "sha256": "0de41467a77469f9eb3daebd89ef163c7e067c37c52f0d4e8efd886a47dc0381",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 22,
+      "wid": "powaqqatsi-1988",
+      "title": "Powaqqatsi",
+      "firstShotId": "VP-beb328bc18fe870e",
+      "scene": "灰白雾气笼罩的开阔荒野，地平线上散布着数个行走的人物剪影，左上角悬挂着明亮的圆形光源，地面呈现暗色起伏。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. A broad gray-white misty wilderness. Several small human silhouettes walk along the distant horizon. A bright round light hangs high at the upper left, and low dark undulations shape the ground. Meditative documentary landscape with subdued atmosphere. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "0614cd23a5645dc21abb0febbd10f3b0e8d2b2d4a907e75944e90affa921ef7d",
+      "preview": "film-ai/firstshot-20261127/powaqqatsi-1988.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b21ca4a9ee878acd5f38fce98f48c4a6fea17f2f/originals/film-expand-firstshot-20261127/powaqqatsi-1988.png",
+        "bytes": 1675614,
+        "sha256": "8ec3308a03f78388501fdd1626f72b181c24dad23b609505eb0f6d6f7dad2ee1",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 23,
+      "wid": "predator-1987",
+      "title": "Predator",
+      "firstShotId": "VP-bbb79340b74d06bc",
+      "scene": "一名佩戴通讯耳机的男子面部特写，背景为昏暗的红色环境，可见模糊的圆形灯光和金属结构，人物神情凝重，视线偏向一侧。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Close portrait of a fictional adult man wearing a communications headset in a dim red-lit industrial cabin. Blurred circular lamps and metal structures behind him. Serious expression, eyes looking slightly to one side, restrained suspense. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "0c2e3a1547c2b63e1add507f321f1d0bd86597d9542dbb2e7594e1581e8e20a3",
+      "preview": "film-ai/firstshot-20261127/predator-1987.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b21ca4a9ee878acd5f38fce98f48c4a6fea17f2f/originals/film-expand-firstshot-20261127/predator-1987.png",
+        "bytes": 1819435,
+        "sha256": "3588b4618188d21b2130ed279bee6f7ed53f4dc61d7c516d1283ef2f4e1e9edd",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 24,
+      "wid": "pride-and-prejudice-2005",
+      "title": "Pride & Prejudice",
+      "firstShotId": "VP-fe9728887439e175",
+      "scene": "昏暗室内大厅中，数十名身着十八世纪服饰的人物密集站立，前景与中景人物清晰，背景人影模糊，地面可见圆形图案。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. A dim grand interior hall crowded with several dozen fully clothed people in late-Georgian period dress. Foreground and middle-ground figures are clear, distant faces fade softly into shadow. A circular pattern is visible on the floor. Warm muted historical-drama atmosphere. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "6409c3f70f2c5bc95156ba178174456f707a865fedb2cb35970038676b474593",
+      "preview": "film-ai/firstshot-20261127/pride-and-prejudice-2005.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b21ca4a9ee878acd5f38fce98f48c4a6fea17f2f/originals/film-expand-firstshot-20261127/pride-and-prejudice-2005.png",
+        "bytes": 2233646,
+        "sha256": "b3eed4a785aba6d6f302f0b5097a02c9b96033f985c822a93ba05b0e83186eb5",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 25,
+      "wid": "prisoners-2013",
+      "title": "Prisoners",
+      "firstShotId": "VP-968fe23f4cc3ff8e",
+      "scene": "雨夜加油站，一辆深色轿车停在加油机旁，车头大灯开启，照亮前方湿滑的地面，背景是排列整齐的加油机与顶棚灯光。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. A dark sedan stands beside a fuel pump at a petrol station on a rainy night. Headlights illuminate the wet ground in front, reflecting under the canopy lights. Other pumps align in the background. Empty tense nighttime scene, no violence. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "6113942f36407a8d77c402e34b4c4f85342e968b8a1896b5cd04d48b0d8249dc",
+      "preview": "film-ai/firstshot-20261127/prisoners-2013.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b21ca4a9ee878acd5f38fce98f48c4a6fea17f2f/originals/film-expand-firstshot-20261127/prisoners-2013.png",
+        "bytes": 2583015,
+        "sha256": "02eddcca738caab0c5ba947dc32bcafe67fb5564dab5e0e590ab9378bb979425",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 26,
+      "wid": "ptu-2003",
+      "title": "PTU",
+      "firstShotId": "VP-ptu-2003-01",
+      "scene": "警车驾驶座主观视角下一只手在方向盘旁举起香港警察委任证件夹",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. First-person view from the driving seat of a Hong Kong police car: a hand holds open a fictional movie-prop identification wallet beside the steering wheel. Dark dashboard and nighttime windshield beyond. Plain unreadable placeholder information, no real person’s identity or usable official document. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "96abf714f45aec3b2153f2641bb88b52f3e4fc49816c8c459a3cbfc8098dca68",
+      "preview": "film-ai/firstshot-20261127/ptu-2003.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b21ca4a9ee878acd5f38fce98f48c4a6fea17f2f/originals/film-expand-firstshot-20261127/ptu-2003.png",
+        "bytes": 2247237,
+        "sha256": "89b660c78072e85980e7e06fa5efd0cd19989d6aca76be63f49223b8f968796b",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 27,
+      "wid": "public-enemies-2009",
+      "title": "公众之敌",
+      "firstShotId": "VP-public-enemies-2009-01",
+      "scene": "芝加哥高档餐厅的暖光下，留着复古卷发的女子比莉面带迷人微笑，深情注视着对面的狄林杰。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Warm elegant 1930s Chicago restaurant. A fictional adult woman with carefully waved period hair smiles gently while looking lovingly across the table toward an adult man whose shoulder is softly visible in the foreground. Close portrait, warm practical light, original faces. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "4431c868d8fc7e380ae5e2512182ce91150c84e3da8e84883aa9a17cc12ac103",
+      "preview": "film-ai/firstshot-20261127/public-enemies-2009.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b21ca4a9ee878acd5f38fce98f48c4a6fea17f2f/originals/film-expand-firstshot-20261127/public-enemies-2009.png",
+        "bytes": 2101503,
+        "sha256": "fd0d72a20aee73eaef41d42b2aba46ed3f4b1ba4abfb11a0c69340d7f2d050e2",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 28,
+      "wid": "queen-margot-1994",
+      "title": "玛戈皇后",
+      "firstShotId": "VP-e64e69f0baffc747",
+      "scene": "十六世纪王宫卧房黑白双人中景，身穿华丽白色宫廷礼服的玛戈王后坐在床上，右侧穿白衬衣的男子俯身交谈。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Black-and-white historical two-shot in a sixteenth-century royal bedchamber. A fictional adult queen in an elaborate opaque white court gown sits on the bed. At right an adult man in a loose white shirt leans toward her in conversation. Modest clothing, solemn period atmosphere. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "5033e4795fe1f44986d2a73120207f1f4859d9e4df2588dbd7d291784969ede4",
+      "preview": "film-ai/firstshot-20261127/queen-margot-1994.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b21ca4a9ee878acd5f38fce98f48c4a6fea17f2f/originals/film-expand-firstshot-20261127/queen-margot-1994.png",
+        "bytes": 2537041,
+        "sha256": "1202ac14ec856d4d4181b19b6673761c2e9cb938ccef8f1d4e5a2fc60a5767e3",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 29,
+      "wid": "slumdog-millionaire-2008",
+      "title": "Slumdog Millionaire",
+      "firstShotId": "VP-6b4af598f8b35f2d",
+      "scene": "画面主体为右侧排列的数个木制框架结构，左侧站立一人，地面遍布碎石杂物，远处可见水平线，整体笼罩在强烈的黄色逆光中。",
+      "actualPrompt": "Change only the man and the historical-looking construction details to a contemporary late-2000s Indian setting. The man at left is an original fictional Indian young adult with short dark hair, wearing a plain modern cotton shirt, trousers and ordinary shoes. Remove the cloak, tunic, boots and all ancient-period styling. Keep the same man-at-left composition, timber frame structures at right, ground debris, horizon and strong yellow-gold backlight. No actor likeness. No text, logo or watermark.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "5bef700499a69ca8354ebb71cf2ba998dbb5072f47833902845abd02600351b8",
+      "preview": "film-ai/firstshot-20261127/slumdog-millionaire-2008.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b21ca4a9ee878acd5f38fce98f48c4a6fea17f2f/originals/film-expand-firstshot-20261127/slumdog-millionaire-2008.png",
+        "bytes": 2541815,
+        "sha256": "1798107fb8304b829ee964b73d0c5b669036c7d825cfd854bda7f8f59fc8f6e0",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 30,
+      "wid": "src-141d64c78bbafeb1",
+      "title": "Shape of the Moon",
+      "firstShotId": "VP-src-141d64c78bbafeb1-01",
+      "scene": "荷兰纪录片导演Leonard与制片人姐姐在活动现场手持《新月形》光盘合影",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. At a documentary-film event, two fictional Dutch adult siblings, a man and a woman, stand side by side holding a plain DVD case together for a photograph. Natural friendly expressions, modest clothing, blurred event setting. No celebrity likenesses or readable cover words. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "ae18f52ebfc91e2f36c8a834e9df7b2ede9655947091009373bb9867aff82fcf",
+      "preview": "film-ai/firstshot-20261127/src-141d64c78bbafeb1.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/b21ca4a9ee878acd5f38fce98f48c4a6fea17f2f/originals/film-expand-firstshot-20261127/src-141d64c78bbafeb1.png",
+        "bytes": 2430091,
+        "sha256": "0e2d4b4a9fe51d186c1bf0e31c10a5df7964b40e34fe0bd6284534269b77e64e",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI资料参考图（非首镜）",
+      "method": "内置 imagegen",
+      "sourceBasis": "first-record-event-photo-description",
+      "adaptationNote": "首条资料描述为影展活动合影；使用虚构人物，非原片首镜或真实人物照片。"
     }
   ]
 }
