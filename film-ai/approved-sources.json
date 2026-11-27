@@ -3413,12 +3413,24 @@
     ],
     "dune-part-two-2024": [
       {
-        "src": "film-ai/decks/film-dune-part-two-2024.webp",
-        "sha256": "18484a7ef0350227dea41400d2c7a4369706131e1f86208b8c9a6cf43116c8f1"
+        "src": "film-ai/gallery-reviewed/dune-part-two-2024-01.webp",
+        "sha256": "3b42f5a7f1028224015713c9751b21ff99eb4dca5823a43e3c67a8875848f342"
       },
       {
-        "src": "film-ai/restored/dune-part-two-2024.jpg",
-        "sha256": "d7c1a224fd1fe946bdcc89389c5f53faf1d48c834e9af70bea7de242b59f1490"
+        "src": "film-ai/gallery-reviewed/dune-part-two-2024-02.webp",
+        "sha256": "ac3164beca889c4a07e120c18a12aeb1c1d0798cacf24360b3386cd9b0fbe33c"
+      },
+      {
+        "src": "film-ai/gallery-reviewed/dune-part-two-2024-03.webp",
+        "sha256": "b62ee53262d27726ca2c900596db9dad31e50aaa3c53771629adfd2ff44708b8"
+      },
+      {
+        "src": "film-ai/gallery-reviewed/dune-part-two-2024-04.webp",
+        "sha256": "97795bf43551b329371aebe9c29d460e0288d139ab09459e214aff38122942cc"
+      },
+      {
+        "src": "film-ai/gallery-reviewed/dune-part-two-2024-05.webp",
+        "sha256": "dde176232e408971a7de3ca3ace7796da3df32e70d9301af254d47a6319e983a"
       }
     ],
     "dwelling-by-the-west-lake-2023": [

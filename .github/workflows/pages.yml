@@ -276,7 +276,7 @@ jobs:
                   if name.lower().endswith((".jpg", ".jpeg")):
                       if rel not in film_ai_jpg_need_fetch:
                           continue
-                  elif not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js", "film-ai/rejected-sources.json") or rel.startswith("film-ai/decks/")):
+                  elif not (rel in ("film-ai/manifest.js", "film-ai/shots-manifest.js", "film-ai/rejected-sources.json", "film-ai/work-aliases.js") or rel.startswith("film-ai/decks/")):
                       continue
               elif top == "history-ai":
                   history_files = {
@@ -328,6 +328,10 @@ jobs:
               shutil.move(str(src), str(dst))
           rejected_staged = site / "film-ai" / "rejected-sources.json"
           assert rejected_staged.is_file() and json.loads(rejected_staged.read_text(encoding="utf-8")) == rejected, "Film rejection ledger missing from Pages artifact"
+          aliases_staged = site / "film-ai" / "work-aliases.js"
+          assert aliases_staged.is_file() and aliases_staged.read_bytes() == git_bytes("show", "HEAD:film-ai/work-aliases.js"), "Reviewed film aliases missing from Pages artifact"
+          alias_match = re.search(r"window\.FILM_WORK_ALIASES=(\{[^\n]*\});", aliases_staged.read_text(encoding="utf-8"))
+          assert alias_match and len(json.loads(alias_match.group(1))) >= 46, "Reviewed film alias mapping incomplete"
 
           # Upgrade staged _site/index.html & _site/browser.html to 2-stage progressive wave loading
           # (boot chunk first -> ~1s interactive first screen, then polite waves of 3) without touching repo layout_sha256.
