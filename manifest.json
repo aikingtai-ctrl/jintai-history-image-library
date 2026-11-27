@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "1736-e2f762da22f4",
+  "revision": "1751-0dc1428e2619",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -13891,6 +13891,126 @@
       "width": 1672,
       "height": 941,
       "sha256": "e2f762da22f49e4c852bd9adb5b02da995b7804cbfd016ffaee50b65e3cf50f0"
+    },
+    "HL-XIXIA-SC-0055": {
+      "title": "西夏兴庆府市集·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0055.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0055.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1b9e8f0c66c5848c3589434c53499e1f26e95222a3cdf7b4e337c4a0b5381bc2"
+    },
+    "HL-XIXIA-SC-0056": {
+      "title": "西夏兴庆府市集·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-XIXIA-SC-0056.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-XIXIA-SC-0056.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a64f845c0c7f1f7e42eb35b28e7e398e995bf6d5b4432ffc8d47585e074c4211"
+    },
+    "HL-BSONG-SC-0158": {
+      "title": "北宋除夕守岁·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0158.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0158.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1ad69aeeee3e67c48919212bcd1e988c939dcd7b1c66197d8601f3d5e9be1a00"
+    },
+    "HL-BSONG-SC-0159": {
+      "title": "北宋除夕守岁·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0159.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0159.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0456150dd0c379554cced232e761d6d71f4d44901889755b15315b377f35417a"
+    },
+    "HL-BSONG-SC-0160": {
+      "title": "北宋除夕守岁·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0160.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0160.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9e69878662bbf3d2f7b580d6bf18ae8924066b2f2252514f8a341a47737706f4"
+    },
+    "HL-BSONG-SC-0161": {
+      "title": "北宋除夕守岁·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0161.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0161.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1a487ae4c26e1f870e87a975ad6693cf8ac0ff1694ea296a0e17932c847a0625"
+    },
+    "HL-BSONG-SC-0162": {
+      "title": "北宋东京元宵灯山·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0162.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0162.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f6e9bb6541d47da1e0e5cb1ee446f0a0719ea4fab282b1b049225e4ff67e23d7"
+    },
+    "HL-BSONG-SC-0163": {
+      "title": "北宋东京元宵灯山·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0163.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0163.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f5928f079fca851bbd3be7ce257fb158f44be1220e0ccfe4723c6f13b69738a3"
+    },
+    "HL-BSONG-SC-0164": {
+      "title": "北宋东京元宵灯山·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0164.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0164.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "72c9042476a5300963a62847bedab5ba3f6a2fc9e99914a6f36a15e6e3875ea7"
+    },
+    "HL-BSONG-SC-0165": {
+      "title": "北宋东京元宵灯山·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0165.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0165.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5f607ae37439843455a1ba32515fc6ab729914e90dc4872b176aad6bbd69525d"
+    },
+    "HL-BSONG-SC-0166": {
+      "title": "北宋金明池龙舟·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0166.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0166.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "f5f344db958b81432e25330ec7ea34d8229770ac05c9ed4881aae617c62daeba"
+    },
+    "HL-BSONG-SC-0167": {
+      "title": "北宋金明池龙舟·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0167.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0167.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "15417e7efd61770f6a1c1d4f835b6eeea3f2f7ce735f2501903f7a73b5d53d86"
+    },
+    "HL-BSONG-SC-0169": {
+      "title": "北宋金明池龙舟·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0169.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0169.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "c8e94dd876cd85e6bbc65c39c57f01414bd26f1d405ba2002b003d3b4e78587a"
+    },
+    "HL-BSONG-SC-0170": {
+      "title": "北宋婚礼拜堂·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0170.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0170.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "6704c9a6b4df4e13dd1c7f37a4bda485254357a44cd7ba3f237a16a88147d06b"
+    },
+    "HL-BSONG-SC-0171": {
+      "title": "北宋婚礼拜堂·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0171.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0171.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0dc1428e261970c9266a04e03e22b7e886bb56596cd8bfdc0870512801e32a56"
     }
   }
 }
