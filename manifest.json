@@ -2,7 +2,7 @@
   "schema": 1,
   "era": "宋辽金西夏",
   "target": 11163,
-  "revision": "1640-ae21f9f42296",
+  "revision": "1656-cf6d3046060a",
   "images": {
     "HF-20261015-0063": {
       "title": "【历史名人】宋太祖（赵匡胤）（北宋·北宋开国皇帝（艺祖太祖皇帝））",
@@ -13123,6 +13123,134 @@
       "width": 1672,
       "height": 941,
       "sha256": "ae21f9f42296277b52139b6bef6eae60c9379d10aa9416c413fd4a01aec2c6fd"
+    },
+    "HL-BSONG-SC-0132": {
+      "title": "北宋·道路停歇·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0132.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0132.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "a5ffc769054f271c7e2bb1acf285967f9271a8b6a877f87a231449b559e5cff5"
+    },
+    "HL-BSONG-SC-0133": {
+      "title": "北宋·道路停歇·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0133.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0133.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "864a732220a2c66468cf0aa045170f7965f79a30bf62ac233a16d801f59dd515"
+    },
+    "HL-NSONG-SC-0094": {
+      "title": "南宋·旅舍入住·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0094.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0094.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "ed55c051dd00ce529cd265c2f9e5483f904c23a0400a91acb6b9458950b70d0d"
+    },
+    "HL-NSONG-SC-0095": {
+      "title": "南宋·旅舍入住·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0095.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0095.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5faca73400e147dea6c16940209f6a8e976b228e1f7d5a2ee925fd599353fddd"
+    },
+    "HL-NSONG-SC-0096": {
+      "title": "南宋·旅舍入住·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0096.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0096.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5fed5fd5310ed6e99ae97b31108dc1c963452de91f0aa41fa0ea0e7c3801902f"
+    },
+    "HL-NSONG-SC-0097": {
+      "title": "南宋·旅舍入住·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0097.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0097.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "0a979679e5dea4ff6338b3e0c49d9886186c5eeb4e413df2ecdfe3951b00e595"
+    },
+    "HL-BSONG-SC-0134": {
+      "title": "北宋·渡口候船·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0134.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0134.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "47021faabca0cc34271b852ae57d93c9b28258e36309989bc569b231d1ef3405"
+    },
+    "HL-BSONG-SC-0135": {
+      "title": "北宋·渡口候船·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0135.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0135.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "9b82a5be2456040800cb2238fa6d7612eb45141e05f25c3d228cdd8655d5a1e5"
+    },
+    "HL-BSONG-SC-0136": {
+      "title": "北宋·渡口候船·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0136.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0136.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "00adcb1987807a04bd7ff922e193a3a4f3198f0bf73172a6eb83a521527725a3"
+    },
+    "HL-BSONG-SC-0137": {
+      "title": "北宋·渡口候船·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0137.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0137.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "e8953a3ca4bb5091987f77462dfee24f343e3b4e9e5ee26dc667549b1862b339"
+    },
+    "HL-NSONG-SC-0098": {
+      "title": "南宋·船舱行旅·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0098.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0098.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "882abec44d91d870176f794b9c8fbf4c9191a9f9614821a28a22aeef763846c3"
+    },
+    "HL-NSONG-SC-0099": {
+      "title": "南宋·船舱行旅·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0099.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0099.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d9dc73014766e2abbd9b9b8a851a096cd2ee9e7b828c2064a50e4a416f82833a"
+    },
+    "HL-NSONG-SC-0100": {
+      "title": "南宋·船舱行旅·冬雪",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0100.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0100.png",
+      "width": 1659,
+      "height": 948,
+      "sha256": "c3739bafb2aad4c293608f65a8e3b578dbe5c3324d38451ea9a807c763ed4291"
+    },
+    "HL-NSONG-SC-0101": {
+      "title": "南宋·船舱行旅·黄昏",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-NSONG-SC-0101.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-NSONG-SC-0101.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5d98a4151b499953b4a09dffdf38564d7a54372fc59bf1b1f5f663039ea7d8e2"
+    },
+    "HL-BSONG-SC-0138": {
+      "title": "北宋·文书工作间·夜景",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0138.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0138.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "d5cf33eb6c55c28f46f87c81b3974ba9fc4a4e3dbcf8838b1e65fa15b6761da9"
+    },
+    "HL-BSONG-SC-0139": {
+      "title": "北宋·文书工作间·雨雾天",
+      "preview": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/previews/HL-BSONG-SC-0139.jpg",
+      "original": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/codex/song-originals-png-20261123/images/HL-BSONG-SC-0139.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "cf6d3046060abc69ddb9a8e414e538433974042303d7252e58ca35a60758614a"
     }
   }
 }
