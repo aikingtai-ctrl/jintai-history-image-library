@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T10:22:18.220288+08:00",
+  "updated_at": "2026-11-27T15:14:30.824744+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -2466,6 +2466,202 @@
       "sha256": "17a2a6578308004416f2d8b69b3d4eda125dd338d8fd20d8f1b692f18b8f1246",
       "reason": "灰白医院内三位医护与病床符合影片总体视觉风格，但机构片目没有确认该场景，人物也不可辨；暂缓具体片目归属。",
       "evidence": "外链两路径第五批剩余23部/逐图建议与联系表"
+    },
+    {
+      "wid": "src-00cc2583196a6d12",
+      "src": "film-ai/quality-reviewed/src-00cc2583196a6d12.png",
+      "sha256": "17a69c3213613430053c1730f69d5faa8e820d64ee32c4e48fab08ac599d277b",
+      "reason": "水彩画风与动画媒介一致，但两名成人普通居室进餐未呈现可核的精神医疗机构、人物或活动；仅画风不能确认片目关联。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-00cc2583196a6d12",
+      "src": "film-ai/src-00cc2583196a6d12.jpg",
+      "sha256": "dc31d9ee26b24882da5dc84306fd76987116e6110c95a8275974dcd2d098101e",
+      "reason": "西雅图电影节舞台集体领奖照，是真人活动摄影而非动画片内画面。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-015c8904916692b9",
+      "src": "film-ai/shots/YS-20261029-AW10-src-015c8904916692b9-07.webp",
+      "sha256": "70ed4a58873a695598187f98496e4adea9818ca5b5e20faed06159b083a0a176",
+      "reason": "成年白人男子在绿色雨巷奔跑，未见 Brett、父亲、博彩酒吧、债务或南非地点锚点；不能凭追逐氛围认作本片。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-015c8904916692b9",
+      "src": "film-ai/src-015c8904916692b9.jpg",
+      "sha256": "c277672ce7e1ad10fa67978efafe118709c5c4e6c1ae84255457e24ed8c0b6bf",
+      "reason": "与 01 同一男子、雨巷、姿势和机位，仅轻微色调/裁切变化；pHash 距离 4、dHash 距离 7，不构成第二幅剧照。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-017ef3995241eb29",
+      "src": "film-ai/src-017ef3995241eb29.jpg",
+      "sha256": "2a245a1da9d20af9cebd00b52b4cf5b3084628e62b0aab080c1326715e8e68fb",
+      "reason": "灰发男子在白墙前的独立宣传肖像，非阿勒颇救援现场或纪录片事件画面。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-021925e64eb361f6",
+      "src": "film-ai/src-021925e64eb361f6.jpg",
+      "sha256": "857199dfd3f25164a86f61dc42bfbf74ec169d4d55e0a51df7615cae13e8b15d",
+      "reason": "橙色原野仅有极小人影，无 Kubo、魔法三味线、折纸或定格角色锚点。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-02229e65b8309e0a",
+      "src": "film-ai/src-02229e65b8309e0a.jpg",
+      "sha256": "e2ec26480b793adf0bcf08bdd932aa6d68ab6fe7d15983731d2f2acfc73651dc",
+      "reason": "两名旧装男子在室外墙前交谈，虽黑白与服装年代一致，缺 Baptiste、Garance、剧场事件可核身份。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0297435fc6f378c1",
+      "src": "film-ai/src-0297435fc6f378c1.jpg",
+      "sha256": "9e8abab741a2684d5d42593d731e922526f477c7dcda1b6cdb75b3484705999e",
+      "reason": "红发男子在石墙前的单人肖像缺男爵、实验室、造人事件或可核演员身份。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-02a08f36d00209aa",
+      "src": "film-ai/src-02a08f36d00209aa.jpg",
+      "sha256": "8c2e948157b8ba3a97cfc6dd3d158b3ad94528afd726fa87761c26c432e4a047",
+      "reason": "烛光餐厅男女近景缺相机、刺客或可辨角色，视觉更像泛年代爱情片，暂未证确切错片。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-02aff8f0f6f0c202",
+      "src": "film-ai/shots/WORKCONCEPT-20261126-noirs-matins-2025-gpt.webp",
+      "sha256": "2f11dc8f957fc299c26ad3b0df870fb712d58db86267b9af99b388067273d06a",
+      "reason": "早餐桌旁只见两名成年人，缺两兄弟、新搬家或弟弟察觉异样的情节锚点；可能是父母但不可确认。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-02aff8f0f6f0c202",
+      "src": "film-ai/src-02aff8f0f6f0c202.jpg",
+      "sha256": "34e1a6276cb7a3c50b05a7f782da27ee3e1d9e83d9eabe9a0cd303842444cf1c",
+      "reason": "落日下单独年轻女子特写与官方两兄弟/家庭搬家主轴无可核联系，未凭面貌擅判错片。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-02b7469df2295b20",
+      "src": "film-ai/src-02b7469df2295b20.jpg",
+      "sha256": "9edba9afdc3240b92f240395a4a020c4dd963e75f22f8f3d070614963b31c565",
+      "reason": "金发女子站在写有 13 的墙边，数字是泛系列符号，未见 Tina 的念力、Jason 或湖边可核情节。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-02e61fe6a40bf4ef",
+      "src": "film-ai/src-02e61fe6a40bf4ef.jpg",
+      "sha256": "7f2bf55c60538845085e7b500545b7012fe8a98cf930961f2c0735644485f74b",
+      "reason": "律师办公室中两名男子交谈可泛指法律线，但无法辨明 Gavin 或 Oliver，缺 Rose 夫妻关系锚点。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-043f7755fe1c6f40",
+      "src": "film-ai/decks/film-src-043f7755fe1c6f40.webp",
+      "sha256": "19af00afd2763f8c06d8aa288a7522bf06ad3c47774e914375d7ef3b8dc285bf",
+      "reason": "林地道路尽头的独栋房屋只对应泛片名，缺 Mari、犯罪团伙或 Collingwood 家人的任何行动。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-043f7755fe1c6f40",
+      "src": "film-ai/src-043f7755fe1c6f40.jpg",
+      "sha256": "eb4dd0803c1c74550850fa69d0f640ac9cb8ef507423aadd39fd68bfed5e19c5",
+      "reason": "灰发东亚男子在现代室内的特写，与 AFI 列出的 1972 美国片人物/演员及恐怖情节均不合。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0460019e5dda2d3d",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-0460019e5dda2d3d.webp",
+      "sha256": "3f926155651ee798edb76e56fae3abc51a89693644b791da9248b3074d61b4e9",
+      "reason": "男子背对镜头坐于调查地图前，缺 Stephen/Jesse 父子或可核具体案件线索。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0460019e5dda2d3d",
+      "src": "film-ai/src-0460019e5dda2d3d.jpg",
+      "sha256": "ccecd948eac1154badf93b915050465be0acb9c40647cf520497cebe220d41c3",
+      "reason": "长发胡须驾车男子面貌无法可靠对应 Scott Glenn 或片中罪犯；仅公路行驶不足以确认本片。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-04c9111f964586c6",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-04c9111f964586c6.webp",
+      "sha256": "510d59667b0a06bc0f9628b040e76d5b08c7fcdc4e0663a00e693e36b3420d94",
+      "reason": "空录影采访席虽是纪录片制作场景，却没有 Aileen 本人、采访过程或本案可核物件。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-04c9111f964586c6",
+      "src": "film-ai/src-04c9111f964586c6.jpg",
+      "sha256": "506ba16059f16668dd340b990807e9abc6da726202266de232ca48c378a12ed1",
+      "reason": "黑白女子采访面孔未获 Aileen 原纪录影像核对；纪录片可能含档案素材，不能仅因黑白断错，但也不能作已证主体。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-04cb5494425caac6",
+      "src": "film-ai/src-04cb5494425caac6.jpg",
+      "sha256": "ebab6403600c01a04bcf95b7628f7d4e0666447c54bf04019ca18423e364293c",
+      "reason": "可见‘BRIAN YUZNA talks about RETURN OF THE LIVING DEAD 3’采访字幕、导演近景和片海报，是幕后访谈而非电影场景。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-05042c008cd0b6f7",
+      "src": "film-ai/src-05042c008cd0b6f7.jpg",
+      "sha256": "b1996b3439f892301f8b9e26a063ea5e1b25fbf5fb26c1fd1e31ba17c2da914a",
+      "reason": "英国乡路摩托和轿车无录音、Crossley、夫妻或魔力叫声情节锚点。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-05213689c4591853",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-05213689c4591853.webp",
+      "sha256": "a1d1b2d9f69eac089d34197d2059f81cc4d3de2d7199647770087cdb02bce3de",
+      "reason": "匿名双手翻阅法律资料的空桌景缺 Darby/Gray、鹈鹕简报或刺杀调查可核细节。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-052fccc14b04d19d",
+      "src": "film-ai/src-052fccc14b04d19d.jpg",
+      "sha256": "2b098bb6021b8abf86d92b17c8a3bac16f17f1e9b6ce4a25459e9208dd582536",
+      "reason": "骷髅军全幅黑白，与 AFI 记载原片彩色媒介不合；虽有题材关联，不宜充作本片彩色剧照。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-059a373d6e497a98",
+      "src": "film-ai/src-059a373d6e497a98.jpg",
+      "sha256": "fa47769c3fb1cca2f37844a777c006dda9d86903036dc90c9c8c32286dc9eb85",
+      "reason": "女子在麦克风前读稿虽可泛指密讯，但无 Mabuse、监视设备或可辨组织身份。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-05b7356f7eb8a48e",
+      "src": "film-ai/src-05b7356f7eb8a48e.jpg",
+      "sha256": "59b7f004b13e507e7c0873c77eaa691e6d2384c2ea3763c780f7632112fc73bf",
+      "reason": "仍是荒凉沼泽中的单人远景，缺与 01 不同人物事件；尽管感知哈希远，语义重复不足第二张。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-065f85d340650798",
+      "src": "film-ai/src-065f85d340650798.jpg",
+      "sha256": "19348f57eb4aec32cb041ddeba8fda67deb18d88432d7d47d1d6bfa225fd7686",
+      "reason": "白衫女子与帽衫男子室内谈话，无可辨 Hedwig、乐队、演出或身份故事锚点；未无证据判串片。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-0679a01cb73ef5d2",
+      "src": "film-ai/src-0679a01cb73ef5d2.jpg",
+      "sha256": "1bd5734fa2197767c29dd6e42c93735a51ff23ddd8c043af60c939997501e658",
+      "reason": "祖母与男孩人物组合可能相符，但图为全幅黑白，与 AFI 记录的原片彩色素材规范冲突，不能称原片彩色剧照。",
+      "evidence": "第四十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "tetsuo-the-iron-man-1989",
+      "src": "film-ai/goal9438/tetsuo-the-iron-man-1989.jpg",
+      "sha256": "f3f99656fdcfe3046a6f1448aad55d664e2db39c2d105b559852ed862552d41d",
+      "reason": "空工业廊道虽符合黑白工业质感，但无人物或人机异变锚点；片目关联不足，不作为第二张影片剧照。",
+      "evidence": "第四十三批新增封面单片/逐图建议与联系表"
     }
   ]
 }
