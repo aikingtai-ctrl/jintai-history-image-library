@@ -70,6 +70,14 @@
       [yinBenji,'https://www11.ihp.sinica.edu.tw/storage/w2_file/2840jzRVfUI.pdf']);
 
   function apply(record){
+    if(record&&record.id==='JT-HF-XIANQIN-EMP-13026'){
+      if(!record._gpt2000FrozenTitle)record._gpt2000FrozenTitle=record.title;
+      record.title=(record.title||'').replaceAll('谥高宗','庙号高宗');
+      record.brief=(record.brief||'').replaceAll('谥高宗','庙号高宗');
+      record.sub=(record.sub||'').replaceAll('谥高宗','庙号高宗');
+      record.correction_note='《史记·殷本纪》记武丁崩后尊为高宗；高宗是庙号，不是谥号。';
+      record.correction_sources=[yinBenji];
+    }
     const correction=record&&corrections[record.id];
     if(!correction)return record;
     if(!record._gpt2000FrozenTitle)record._gpt2000FrozenTitle=record.title;
