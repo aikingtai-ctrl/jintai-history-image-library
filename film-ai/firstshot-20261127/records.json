@@ -211,6 +211,218 @@
       "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
       "method": "内置 imagegen",
       "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 11,
+      "wid": "pieta-2012",
+      "title": "圣殇",
+      "firstShotId": "VP-546f6864578f6ccf",
+      "scene": "黑暗中一柄锋利的黑色尖刀刺穿印有清秀女子面庞与罗马数字刻度的圆形钟表盘面的超现实特写",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Surreal still-life close-up in darkness: a sharp black knife pierces a circular clock face printed with an original fictional adult woman’s portrait and Roman numeral hour marks. It is an inanimate clock illustration, no real person, no blood or injury. Dramatic controlled light on metal and paper. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "75aede54e3f4ed53fe74a280120f593c1f44c58de803fc35b522f3c30fa8570b",
+      "preview": "film-ai/firstshot-20261127/pieta-2012.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/5f99d70c7101bc2f64e8742841d0a810537f6888/originals/film-expand-firstshot-20261127/pieta-2012.png",
+        "bytes": 2263323,
+        "sha256": "6a241afec30ce4262c534cbed3f71dd668cfef4a36efafd05f6e1ae3a886d06d",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 12,
+      "wid": "pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003",
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "firstShotId": "VP-d9b516d6a9267ad0",
+      "scene": "三名身着十八世纪风格服饰的人物坐在石砌高台边缘，左侧竖立一面英国国旗，背景为阴沉多云的天空。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Three fully clothed fictional adults in eighteenth-century clothing sit along the edge of a high stone platform. A British Union flag stands upright at the left. Behind them a dark overcast sky fills the frame. Balanced historical-adventure medium-wide view, no actor likenesses. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "d554936d701a67f25009f580b5f2e1f14ac95d4931766f370f48a82c11f90678",
+      "preview": "film-ai/firstshot-20261127/pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f52c526a277635e0a0e784c9d75e68fa9bf064f6/originals/film-expand-firstshot-20261127/pirates-of-the-caribbean-the-curse-of-the-black-pearl-2003.png",
+        "bytes": 2593116,
+        "sha256": "499e61d2a9f5fd97d55865c0d1b095f0711becab1508fc9906f7df53173a32c9",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 13,
+      "wid": "pixote-1980",
+      "title": "街童",
+      "firstShotId": "VP-pixote-1980-01",
+      "scene": "日间轿车车厢内中景，身穿红黄碎花衬衫的托尼·托纳多坐在副驾驶座上回首张望",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Daytime medium shot inside a car. A fictional Black adult man wearing a red-and-yellow small-floral shirt sits in the front passenger seat and turns to look behind him. Sunlit windows, natural car upholstery and documentary color. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "0ed42d91ea9d6abcc2ffdb147f33e92141f461d398f2ccd747797e16db86a86d",
+      "preview": "film-ai/firstshot-20261127/pixote-1980.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f52c526a277635e0a0e784c9d75e68fa9bf064f6/originals/film-expand-firstshot-20261127/pixote-1980.png",
+        "bytes": 2524536,
+        "sha256": "bf3b42423ee73af052d4447416e3c6b22a29ebf3941b4e984aad121f4a1f4ee7",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 14,
+      "wid": "poetry-2010",
+      "title": "诗",
+      "firstShotId": "VP-poetry-2010-01",
+      "scene": "红光灯带装点的昏暗朗诵室内美子系着印花丝巾站在麦克风前托腮深情朗诵诗歌",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. A fictional elderly Korean woman wearing a printed scarf stands at a microphone in a dim poetry-recital room lit by a red light strip. One hand supports her cheek as she recites thoughtfully. Intimate medium close-up, modest clothing, quiet emotional concentration. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "a85190baaa7f8b914ee55ec5d5d6065c95895c84e47c97f6bf195e9af0c691b3",
+      "preview": "film-ai/firstshot-20261127/poetry-2010.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f52c526a277635e0a0e784c9d75e68fa9bf064f6/originals/film-expand-firstshot-20261127/poetry-2010.png",
+        "bytes": 2032315,
+        "sha256": "0964278cf1700dc0968d7dcc834c848d93e17ba4edc74a84b319e349ea8d40cc",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 15,
+      "wid": "police-story-1985",
+      "title": "警察故事",
+      "firstShotId": "VP-police-story-1985-01",
+      "scene": "夜晚街头阿美头戴白色安全帽身穿白衣蓝背带裙跨坐在红白摩托车上",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Nighttime Hong Kong street. A fictional Chinese adult woman in a white safety helmet, plain white top and blue pinafore dress sits astride a red-and-white motorcycle. Urban night light, clear complete sitting posture, no motion or danger. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "b0c844700dd1c6c81bd2ad8911a669f22add2c966ca31f8aeaba413aead2b94c",
+      "preview": "film-ai/firstshot-20261127/police-story-1985.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f52c526a277635e0a0e784c9d75e68fa9bf064f6/originals/film-expand-firstshot-20261127/police-story-1985.png",
+        "bytes": 2578998,
+        "sha256": "f1d65c13830c535356e34780668c6d0efcb77ca2627cb87dc170e89d00bc9e81",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 16,
+      "wid": "poltergeist-1982",
+      "title": "Poltergeist",
+      "firstShotId": "VP-aeda17a80d61ab6f",
+      "scene": "画面主体为大片排列整齐的红顶郊区住宅，前景是宽阔的绿色草坪与一条横向道路，背景为起伏的荒山与更多房屋，整体呈现开阔的居住区景观。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Wide daytime landscape of neatly arranged red-roofed suburban houses. A broad green lawn and a horizontal road fill the foreground; rolling dry hills and more homes recede behind. Expansive quiet residential composition, no people. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "3e93c05489e6537c88c99323516a501b9439e891f29a9f0733b2dacdf6472a85",
+      "preview": "film-ai/firstshot-20261127/poltergeist-1982.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f52c526a277635e0a0e784c9d75e68fa9bf064f6/originals/film-expand-firstshot-20261127/poltergeist-1982.png",
+        "bytes": 3254574,
+        "sha256": "df8666e65b0ef0505f59c491b6cd226ec02f600e1bc5d9552187dd5a727d3e3f",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 17,
+      "wid": "polytechnique-2009",
+      "title": "Polytechnique",
+      "firstShotId": "VP-09860e910d70b1a1",
+      "scene": "黑白画面中，一名留着胡须的年轻男子面部占据左侧大半幅面，眼神凝视右前方。背景极度虚化，右侧隐约可见模糊的圆形物体轮廓与暗色空间。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Black-and-white close-up of a fictional young adult bearded man. His face occupies most of the left side and he gazes steadily toward the right front. Extremely shallow focus, a vague round object and dark space blurred at right, subdued natural expression. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "57d608ee26d9f3b22738d2169212bfc1044be057eed5d59197737d3edfaf99d5",
+      "preview": "film-ai/firstshot-20261127/polytechnique-2009.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f52c526a277635e0a0e784c9d75e68fa9bf064f6/originals/film-expand-firstshot-20261127/polytechnique-2009.png",
+        "bytes": 2063745,
+        "sha256": "07c553c78da3194114a1b7ad383095e74e4ecc6b6e056d6aa299b8d4bc17a5ba",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 18,
+      "wid": "ponyo-2008",
+      "title": "Ponyo",
+      "firstShotId": "VP-88c2a51d78a8fc6a",
+      "scene": "深蓝色水下环境中，一艘带有透明球形驾驶舱的潜水艇正在航行，周围充满了大量白色气泡，右上方有一条巨大的鱼形生物游过。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Hand-drawn 2D animation under deep blue water. An unusual small submarine with a transparent spherical cockpit moves amid numerous white bubbles. A huge original fish-shaped creature swims past in the upper right. Rich painted underwater space, no recognizable franchise characters. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "f21d69e8cd05bec4b2389069268cae527ffbb737a5881de2a0f2352614180f1e",
+      "preview": "film-ai/firstshot-20261127/ponyo-2008.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f52c526a277635e0a0e784c9d75e68fa9bf064f6/originals/film-expand-firstshot-20261127/ponyo-2008.png",
+        "bytes": 2684826,
+        "sha256": "ae234e42ef9ba1505c417be48dd1ecc5241b693c88aca5f3f67c84f0625c51f4",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（原创角色）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "使用原创人物或生物造型，保留首条描述的场景、人物关系和构图。"
+    },
+    {
+      "ordinal": 19,
+      "wid": "poppoya-1999",
+      "title": "铁道员",
+      "firstShotId": "VP-4fe45a2c44f4c26b",
+      "scene": "北海道幌舞站值班室桌面上摆放着一副金属圆框老花镜与翻开的站务日志本的静物特写",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Quiet still-life close-up on a worn duty-room desk at a small Hokkaido railway station. A pair of round metal reading glasses rests beside an opened station logbook. Cold daylight, aged wood and paper textures, no legible personal records or lettering. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "8cf9e448ea178e3fd0bc890d8fc91c4ba326b54820fb97c9bc181da582b3975c",
+      "preview": "film-ai/firstshot-20261127/poppoya-1999.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f52c526a277635e0a0e784c9d75e68fa9bf064f6/originals/film-expand-firstshot-20261127/poppoya-1999.png",
+        "bytes": 2697122,
+        "sha256": "b8b8841f523bdeab81949711410272b29093f2468ca84d1b4f6fad9927d92ff1",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "首条镜头描述 AI 参考图；非原片帧",
+      "method": "内置 imagegen",
+      "sourceBasis": "shot-list-first-record"
+    },
+    {
+      "ordinal": 20,
+      "wid": "porco-rosso-1992",
+      "title": "Porco Rosso",
+      "firstShotId": "VP-6ff15832ab0c2c5a",
+      "scene": "一艘白色船体的甲板，木质地板呈对角线延伸。甲板上聚集着约二十名身穿白色上衣、蓝绿色裤子和白色帽子的船员，他们排成两列，身体前倾，双手紧握绳索。甲板左上方有一群穿着各色复古服装的乘客站立围观。甲板边缘设有黄色躺椅，船尾悬挂着一面绿白红三色旗帜。",
+      "actualPrompt": "Create one new AI reference image based on this scene, wide 16:9 composition. Hand-drawn 2D animation of a white passenger ship deck with diagonal wooden planks. Approximately twenty sailors in white shirts, teal-blue trousers and white caps form two rows, leaning forward while holding thick ropes. A few period-dressed passengers watch at upper left. Yellow deck chairs and an Italian tricolor at the stern. Original character designs. Use original fictional faces. No added logo, watermark, signature, readable caption or title. Not an actual film frame.",
+      "sourceRevision": "5564e025b538d350395e7d19eefc17c753abe693",
+      "sourceSHA256": "2f36aa275dd55bafd8aef1f2e74c6e013c6c30c4893b13173201da7ad9401258",
+      "preview": "film-ai/firstshot-20261127/porco-rosso-1992.jpg",
+      "png": {
+        "url": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/f52c526a277635e0a0e784c9d75e68fa9bf064f6/originals/film-expand-firstshot-20261127/porco-rosso-1992.png",
+        "bytes": 2898048,
+        "sha256": "1259eb51fae2d6521f7095c270756b63f81ee0f4747603aa61858a97c99f27c4",
+        "width": 1672,
+        "height": 941
+      },
+      "referenceLabel": "AI改编参考图（原创角色）",
+      "method": "内置 imagegen",
+      "sourceBasis": "user-approved-scene-adaptation",
+      "adaptationNote": "使用原创人物或生物造型，保留首条描述的场景、人物关系和构图。"
     }
   ]
 }
