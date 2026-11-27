@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T23:48:51.901149+08:00",
+  "updated_at": "2026-11-28T00:24:06.215702+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -4174,6 +4174,223 @@
       "sha256": "98926e394d56d97b575e5ebc568e783df10e8ca8d3ac60c14a5c0d6bd8c2e59f",
       "reason": "画面顶部巨大黄色 UN ANNO DI SCUOLA 字样叠在合影上，是片名海报拼版，不能作为独立剧照。",
       "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5d22b1cb6632819b",
+      "src": "film-ai/goal9438/src-5d22b1cb6632819b.jpg",
+      "sha256": "4f789b69cd0b34afc85878927bf0be4d810f27bf8d36575c53839e9e5860090c",
+      "reason": "同片候选变为饱和的彩色卧室肖像，而 AFI 确认本版为黑白影片；不能把其他彩色改编或新绘画面冒作本版剧照。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5d533a451a281628",
+      "src": "film-ai/src-5d533a451a281628.jpg",
+      "sha256": "74b6b755084cbf0ba2d5536bc4a779c8e375da624fd7fd0236f522277814a215",
+      "reason": "纯白摄影棚背景下的成年男子正式肖像，且非 Langdon/Sophie 解谜场面；属于演员或名人头像式非剧照。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5de4fe00afd1efde",
+      "src": "film-ai/decks/film-src-5de4fe00afd1efde.webp",
+      "sha256": "bf8f49577bad0d93db13a1504103132e301ead8422488657dd91643272c1c98f",
+      "reason": "书页、海浪和胶片轮虽可比附文字与影像实验，却没有可证为寺山该短片的角色、表演或构图；书本造景只是宽泛主题。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5de4fe00afd1efde",
+      "src": "film-ai/goal9438/src-5de4fe00afd1efde.jpg",
+      "sha256": "87b2a89ca3e54ac7127e5b44dc319ef9c7fbaccb676493784aa942aaac272290",
+      "reason": "巨眼、马及废墟的超现实拼贴同样只像实验影像；一手片目不能把这些具体元素归给该片。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5e338e3dbb57b263",
+      "src": "film-ai/src-5e338e3dbb57b263.jpg",
+      "sha256": "61fc61ac4cf5835dc07c2fd4e461a820b05ffcfb8b8af57b8d7d971a70b41ac7",
+      "reason": "纯绿色影棚背景的现代成年女性头像，无婚礼故事场面且不是本片少年 Frankie 或 Berenice 的叙事画面。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5e38b7b113ba59cb",
+      "src": "film-ai/src-5e38b7b113ba59cb.jpg",
+      "sha256": "7116067bbfd0a216a8f512e9b8135bd74135a9c7a4a0707e0735908cbcbfe3f4",
+      "reason": "白框中的黑白单人头像是一张演员肖像照，既无戏台也无服装师工作，不应按电影叙事图入库。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5ee08b1076454b75",
+      "src": "film-ai/goal3377/src-5ee08b1076454b75.jpg",
+      "sha256": "6fd7e8e698b140c0841f00fb4d675f8d5ad6b7b293731c473de8e1cfeeb393aa",
+      "reason": "雨伞女子走入完整花园别墅，仅复述女主在宅院活动；缺柏家女儿、失明柏霈文或相较 01 的新情节锚点。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5fe7efd6415d2d39",
+      "src": "film-ai/firstshot-coverage10141-20261127/src-5fe7efd6415d2d39.jpg",
+      "sha256": "581648511d6afe712336528abdcc0747d890f0155b68f2cb5885407c9781f52f",
+      "reason": "仍是四人乐队、灯光和观众的同一类演唱会全景；较 02 只换舞台灯色和视角，缺第二项活动。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5fef3d575be203ce",
+      "src": "film-ai/decks/film-src-5fef3d575be203ce.webp",
+      "sha256": "842adc53e59c4ba0beec88191cee1ee5c601df0e7c058593dd08f4d249590919",
+      "reason": "黑猫、竹林与远处茅屋属同一夜间鬼屋布局；02 增加白衣鬼女，01 缺独立叙事信息。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-60525ecc67d87083",
+      "src": "film-ai/decks/film-src-60525ecc67d87083.webp",
+      "sha256": "d002301a69b6c10a9496921833f1b30a89e1b6ba28650d7d28b600cfb2714d4a",
+      "reason": "男子提公文包走向马戏棚虽像旅行推销，却无咖啡、Mick 或 BFI 列的具体遭遇。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-60525ecc67d87083",
+      "src": "film-ai/goal9438/src-60525ecc67d87083.jpg",
+      "sha256": "f4880f6db58afe6881e4ee967adc7c18864af911f673abc89e9e107cbf511e38",
+      "reason": "白帽男子望着城市游行与招贴，是宽泛政治讽刺画面；无可核的推销员身份或事件。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-61984feff10c549e",
+      "src": "film-ai/goal9438/src-61984feff10c549e.jpg",
+      "sha256": "022833015d795ba613106ba8b902b70c9f31722ade8c3760d2b1cf82d193c9e0",
+      "reason": "黑衣男子隔河窥视灯火房子是泛黑色电影悬疑构图；无法确认此人身份或独立于 01 的谋杀/掩盖情节。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-620545cceed912b8",
+      "src": "film-ai/goal9438/src-620545cceed912b8.jpg",
+      "sha256": "568061d6a653f7b2ce50abc5571f8e677df76f3aceb5873d49e5102bc4446326",
+      "reason": "独立黑白女子立在轰炸废墟前，不是本片彩色古董商主线；无法当作该片重逢或战争创伤的具体场景。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-62924e9d9cfd0ce0",
+      "src": "film-ai/src-62924e9d9cfd0ce0.jpg",
+      "sha256": "565d085ff0b0bcb58570fd6426ea8e3d7113c5729be4d343b52b10efbfc8e6be",
+      "reason": "西部牛仔骑马穿越红色荒漠，与勃艮第村庄老年女性故事、地点和人物均冲突。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-629a97b4a92c4623",
+      "src": "film-ai/shots/WORKCONCEPT-20261127-life-is-like-that-2025-gpt.webp",
+      "sha256": "f62b9f20c5f3d623dd8bd2450b18a5bc579bcfaea82a34134f6b1f76fe740bcd",
+      "reason": "老妇背影在餐桌前翻旧相册虽触及记忆主题，却是写实摄影风格；原作是动画/转描纪录片，须以真实片帧证实才可采用。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-629a97b4a92c4623",
+      "src": "film-ai/src-629a97b4a92c4623.jpg",
+      "sha256": "f4b5f4748cd6384c94bfc46457f3adad435330a4c1a92d51b824ab906c4dcbb2",
+      "reason": "纯蓝背景现代男子商务肖像与 Miko 女士、记忆和动画媒介全无关联，且为非叙事头像。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-63a56be68637290d",
+      "src": "film-ai/decks/film-src-63a56be68637290d.webp",
+      "sha256": "3827d0fc585de6f0a47fcbaea54e4e369a30cc3873b7a2abf06db8e64367337e",
+      "reason": "同一男女与箱子在车站登上东方快车，只是 01 列车逃亡的出发阶段，未带来另一独立情节。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-641ef0fc07811c2b",
+      "src": "film-ai/goal9438/src-641ef0fc07811c2b.jpg",
+      "sha256": "66ef86782d7934de51f5a8dfd9904e1573675690562151129e2dcec3ed02a347",
+      "reason": "黑白医生举试管、女子旁观虽可能来自黑白发行版，但缺可核演员或与 01 不同的月圆谋杀实验事件。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-64a0fe7c2ed9cbfc",
+      "src": "film-ai/decks/film-src-64a0fe7c2ed9cbfc.webp",
+      "sha256": "5e847185b09475e8e7b18aacdc3ca6c4ff1c514cc13a14408fb8248f16491a77",
+      "reason": "夫妇同在火车望阿尔卑斯山，仅是同一返乡列车的陪衬角度，缺作曲身份或新闪回。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-664b0b9bb25c08d0",
+      "src": "film-ai/goal9438/src-664b0b9bb25c08d0.jpg",
+      "sha256": "9fefc2550138bcdf65ce131671908c46165833bdd9ecc691bf5477ca220505b6",
+      "reason": "仍是同一浪人在同院落独坐的侧角，人物动作和事件与 01 相同且少了家臣对峙。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-6650d3d4e648d718",
+      "src": "film-ai/src-6650d3d4e648d718.jpg",
+      "sha256": "6854621968af040710235c704b7cacb41daacdd8a6c3dce56361c7610b1aa303",
+      "reason": "只是同一女子继续在水边画画的近景，虽然构图哈希差距大，语义仍与 01 重复。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-66c8b970769beafa",
+      "src": "film-ai/goal9438/src-66c8b970769beafa.jpg",
+      "sha256": "257cd8529d49a83f1bc3edc19f2e2481a200bf7b33800057357be9b95268f9c5",
+      "reason": "披黑纱女子立在乡村教堂旁，未见夜总会、收养孩子或可核片中人物，无法把它归到该片另一情节。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-66e08f10b4906b6d",
+      "src": "film-ai/src-66e08f10b4906b6d.jpg",
+      "sha256": "7d8ec1ed733d47febbf37315cc776b03d6ee03deb72a1620d1b8ef013d03af0d",
+      "reason": "单独的巴洛克装束女性在豪华室内，不足以确认是本片人物或另一古罗马/未来纽约情节；本片确有罗马意象，故暂缓而非判错。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-6719a7d78631d2ee",
+      "src": "film-ai/src-6719a7d78631d2ee.jpg",
+      "sha256": "ffd0e6347b07e8b08c66023cabd7c077d93365a1d1247e61449c4b3c2b13e410",
+      "reason": "人物正面宣传合影上叠有巨幅英文片名 FAMILY MATTERS，是海报式主视觉，不是独立叙事场景。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-675392081eee3614",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-675392081eee3614.webp",
+      "sha256": "8e28364b629e6e004feefe9560b1dd993f93910c2a75936f4b6df18bd16d5b55",
+      "reason": "动画风格街道里只见两只手交换钱包，没有狼或其他拟人动物、具体骗局及角色身份，不能仅凭钱包把它归给本片。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-675392081eee3614",
+      "src": "film-ai/src-675392081eee3614.jpg",
+      "sha256": "0c024cf532621ba29c39f98c50574945eca4d2e7033ccb53d4e35fc2f079c6e1",
+      "reason": "整张只有黑底白字 THE BAD GUYS 片名标识，无场景、人物或动作，是片名字卡。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-675394a6028d88ca",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-675394a6028d88ca.webp",
+      "sha256": "d6d24a032d1b0aa782098be62022fc9a0754989c86ad8bee409fad532bcf7b29",
+      "reason": "无人的侦探桌和窗外工厂可作推理氛围，但缺 Enola、失踪女孩、火柴厂证物或具体查案动作。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-687fc3ef15e97a80",
+      "src": "film-ai/src-687fc3ef15e97a80.jpg",
+      "sha256": "d5f0e01c7d44ef7d3f01622f4120dd4393189d92cedb97182abc1695b502a28e",
+      "reason": "白旗袍女子独立旧城阳台，欠缺秦汉角色、红披肩、共舞或乱世具体关系，不能只因时代着装认作林青霞。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-687fc3ef15e97a80",
+      "src": "film-ai/shots/VP-src-687fc3ef15e97a80-01.webp",
+      "sha256": "318557e008ce72f11b2c9050b785d23691ae9e9173370046cb15820537937a92",
+      "reason": "另一张仍是同一白旗袍女子站在阳台回望，既无可核演员又与 01 同一活动语义重复。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-69411941cccfb24e",
+      "src": "film-ai/goal9438/src-69411941cccfb24e.jpg",
+      "sha256": "7ee06e76b538f937af7ff0538159fb881bca8345514f749ddbc953d404cc70ec",
+      "reason": "同一颜色夹克的少年帮派在高架下走街，只延续 01 的集体街行，缺新冲突或人物关系。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-69c7ab2db8e375bc",
+      "src": "film-ai/src-69c7ab2db8e375bc.jpg",
+      "sha256": "a1a60548e7cbacc2847d9cdf189ae7527e5eeb1d639a4f5022c5f9cd7ca25513",
+      "reason": "孤身女子坐在私人室内仅表情沉思，缺工厂、罢工或山间集体生活关联。",
+      "evidence": "第五十二批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
