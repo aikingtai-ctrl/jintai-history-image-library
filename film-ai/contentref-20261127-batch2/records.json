@@ -141,6 +141,42 @@
       "preview": "film-ai/contentref-20261127-batch2/src-19fe750572d462b2.jpg",
       "previewSHA256": "645dd0b754b04747575930ae8a362d96fbbde7e842d89e99f85243e484bb7697",
       "method": "built-in image_gen"
+    },
+    {
+      "wid": "src-1af30bb36af7116a",
+      "title": "My Neighbour Totoro",
+      "year": 1988,
+      "referenceScene": "两名原创小女孩从旧日本乡村住宅的木地板方形入口，背向镜头探入有木梁与高窗的阁楼；拼贴纸艺改编。",
+      "referencePrompt": "Use case: illustration-story. Asset type: one landscape 16:9 original AI content reference image for My Neighbour Totoro (1988). Primary request: two fictional young sisters seen only from behind, in simple summer clothes, climb through a square wooden hatch into the dusty attic of an old Japanese countryside farmhouse. Show tilted timber beams, a small sunlit high window, baskets and drifting dust; the quiet excitement of exploring a new home. Render as a distinctive cut-paper collage with rough handmade paper textures, flat geometric shapes, minimal facial detail and muted earthy colors. Avoid anime aesthetics and avoid Studio Ghibli visual style or character designs. This is a new thematic reference, not a film frame. No forest creature, text, title, logo or watermark.",
+      "originalSourceDescription": "昏暗阁楼内，两个小孩从地板开口处探出上半身，背景是倾斜的屋顶木梁和上方的小窗。",
+      "sourceEvidence": [
+        "https://www.ghibli.jp/works/totoro/",
+        "https://whatson.bfi.org.uk/imax/Online/default.asp?BOparam%3A%3AWScontent%3A%3AloadArticle%3A%3Apermalink=my-neighbor-totoro-imax-subtitled"
+      ],
+      "sourceSHA256": "5518d2dce8f820b29735fb1b54acae353ba5ea36df53b4510a15f66bd3630b66",
+      "originalURL": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/3308f39d5ab67303230ce7ee535dd8bed6dbf766/originals/contentref-20261127-batch2/src-1af30bb36af7116a.png",
+      "originalSHA256": "50db5662e125cd73809383f8534953b4355cc8eb4b125105b00f456f0d513015",
+      "preview": "film-ai/contentref-20261127-batch2/src-1af30bb36af7116a.jpg",
+      "previewSHA256": "b4fa7f3a218d32afdf2263e5c9c85e7225fd4643293b07f5870136fbd90f4b70",
+      "method": "built-in image_gen"
+    },
+    {
+      "wid": "src-1b3e8fed2232b2f7",
+      "title": "Desert Flower",
+      "year": 2009,
+      "referenceScene": "虚构索马里裔女性活动家在国际会议厅讲台前发言，座席中代表们认真聆听。",
+      "referencePrompt": "Use case: historical-scene. Asset type: one landscape 16:9 original AI content reference image for Desert Flower (2009). Primary request: a fictional adult Somali woman activist in a modest black tailored suit stands alone at a microphone in a large international assembly hall, addressing delegates about women's dignity. Wide elevated view conveys the scale of the hall while keeping her clearly visible, rows of seated delegates softly out of focus, respectful and hopeful atmosphere. Contemporary 1990s conference photography, natural color, realistic architectural detail. This is a newly imagined thematic reference inspired by the film biography and Waris Dirie's documented advocacy, not a film frame or likeness of Waris Dirie or Liya Kebede. No readable emblems, flags, text, title, logos or watermark; no graphic medical imagery.",
+      "originalSourceDescription": "联合国大会厅讲台前的俯拍中远景，索马里传奇超模华莉丝·迪里身穿黑色礼服独自站在麦克风前，面对台下数百名各国代表发表演讲。",
+      "sourceEvidence": [
+        "https://www.filmportal.de/en/movie/wustenblume_6dc111d49a856fa7e040007f01001e1b",
+        "https://www.un.org/womenwatch/daw/followup/session/presskit/fs4.htm"
+      ],
+      "sourceSHA256": "930c48445b3bad01b093709dd62606c389154d05ccf736c56f98f76949ed92a3",
+      "originalURL": "https://raw.githubusercontent.com/aikingtai-ctrl/jintai-history-image-library/3308f39d5ab67303230ce7ee535dd8bed6dbf766/originals/contentref-20261127-batch2/src-1b3e8fed2232b2f7.png",
+      "originalSHA256": "070bc58e79f6bce2447a58583b4d36c1b27715f9ff6362b1287549f82c491ee3",
+      "preview": "film-ai/contentref-20261127-batch2/src-1b3e8fed2232b2f7.jpg",
+      "previewSHA256": "bf53632c016946ea427de156502bfe4ef385c0979da18a5ff243ac15e6d1def8",
+      "method": "built-in image_gen"
     }
   ]
 }
