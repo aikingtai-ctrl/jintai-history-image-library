@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-27T22:40:04.237936+08:00",
+  "updated_at": "2026-11-27T23:48:51.901149+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -3950,6 +3950,230 @@
       "sha256": "bcc4d86b335cc06058b33cac1d175d4e76fcb9017573ddae48199b2222f342f1",
       "reason": "另一传统房间仅远处两个人影，人物不可辨认，也未表现影片主线；与 01 同为室内空景。",
       "evidence": "第五十批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4c197c2b6f3a6ccd",
+      "src": "film-ai/goal9438/src-4c197c2b6f3a6ccd.jpg",
+      "sha256": "c5942a464f267797f0934a8fd864c29c15b2ab5cb3df9e4dbd8d5393011c4b2e",
+      "reason": "另一角度仍是相同两骑手与牛群涉同一河段，虽哈希不同，只是同一赶牛事件的重述。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4c76057b155752e2",
+      "src": "film-ai/goal9438/src-4c76057b155752e2.jpg",
+      "sha256": "8d2bf517ccc891af7d2e15fb81395585925fe23c963c7c8b50201bd7f3f9af79",
+      "reason": "舞者在似乎仍有炉火的钢厂地板起舞；AFI 所载舞蹈职业地点是夜店，不能凭舞姿证明此工业舞台是影片场景。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4d8912e060e90055",
+      "src": "film-ai/src-4d8912e060e90055.jpg",
+      "sha256": "57e00c46ee21dc9faf2fb61e19feed4e6ebac650e3e33ecdc3483369bb781817",
+      "reason": "橙色矿山空景缺居民、煤井与采煤动作，无法确认是 Jerada 重演片段。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4f3476a7785c1d5e",
+      "src": "film-ai/shots/WORKCONCEPT-20261127-mata-hari-documentary-2025-gpt.webp",
+      "sha256": "5b9882c8578ff9c451595e23878105f0d2ca33f3760196cc1373e3da747d870b",
+      "reason": "空置剪辑台、胶片盘与档案纪录方式相符，但没有 Carradine、Calista 或未完成项目的可核物件。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4f3476a7785c1d5e",
+      "src": "film-ai/src-4f3476a7785c1d5e.jpg",
+      "sha256": "a7c3e147cff29d9165806e759128d575060fca936fc8a3b5fe36152bcc0a5251",
+      "reason": "年长男子与女孩面对面虽能暗示父女，无法证明是 David 与 Calista 或纪录片中的历史影像。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4f4bc1c1677564e8",
+      "src": "film-ai/src-4f4bc1c1677564e8.jpg",
+      "sha256": "9336fbfc97b276f996b13ba11496b57086d5fc58121d931bcf4397023f731a7f",
+      "reason": "纯山谷空镜虽符合地理环境，缺继地者、造屋图纸或家族事件。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-4ffa3b54b1f95635",
+      "src": "film-ai/src-4ffa3b54b1f95635.jpg",
+      "sha256": "b2ead1d5320d403b332743515098d838c870b5aec5c62bdb988cdf3d8099fe69",
+      "reason": "蓝色运动衣女子持麦克风唱歌，未见脑控、暗杀、目标身份或可核演员，现有片目无法关联。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5014549dd3ae915f",
+      "src": "film-ai/src-5014549dd3ae915f.jpg",
+      "sha256": "71b8c0f1567fdf135d592c6b54565fe8ed8e3a4568b3ba1e7517fcd54b97d5a4",
+      "reason": "灰阶工业金库肉搏虽有丧尸与劫案元素，却与 01 彩色拉斯维加斯媒介显著不同，人物和场面无法与片方材料核实。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-505bf446ac3c5092",
+      "src": "film-ai/src-505bf446ac3c5092.jpg",
+      "sha256": "2d9e2386651628292f67454dd7c7c38eddf83c1829950c9e7b40c1a5b29165a5",
+      "reason": "两位老人在水乡河边并坐，缺京京、京剧或外孙与外公关系的可核锚点。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-50a57bb01ee0536b",
+      "src": "film-ai/goal9438/src-50a57bb01ee0536b.jpg",
+      "sha256": "fba7d9ae280ace0e20b7803c869e3cf3524eebab07e4db4c73eb2e187f163c01",
+      "reason": "仍是同一夫妇和梗犬在客厅调情饮酒，较 01 的看线索缺新的调查叙事。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-514071651549125c",
+      "src": "film-ai/decks/film-src-514071651549125c.webp",
+      "sha256": "e4d1bca5a080b48a7669f3532f6c28d600fe270ec509d90d800aab130614ac72",
+      "reason": "空轮椅与湖景可联想伯爵夫人，但没有角色、遗产或谋杀动作，不能把道具推定为该片场景。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-514071651549125c",
+      "src": "film-ai/goal9438/src-514071651549125c.jpg",
+      "sha256": "d7d293d84a4e4510359663d78def2c5ddc560b4d24a5c89e01663921bd8137f1",
+      "reason": "夜晚湖边别墅是泛恐怖片环境，无角色、谋杀或具体房产争夺证据。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-519c38bc0d8b61de",
+      "src": "film-ai/goal9438/src-519c38bc0d8b61de.jpg",
+      "sha256": "0f94e4d1e312f838ad82f1e34c7aced630d4462f36ba2d020e345014a19d5057",
+      "reason": "女子在幕侧回望巨影仅呈悬疑气氛，未能核定是 Eve/Charlotte 或一项独立案件。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-521a780bc7f27f5b",
+      "src": "film-ai/decks/film-src-521a780bc7f27f5b.webp",
+      "sha256": "2090f33f8776b8ae3400c88849c9b0575e56d113325044625e55ef01f539b294",
+      "reason": "两名男子望火车和桥，可能是爆破前的同一事件前景，缺较 02 新的行动。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-533b38afb42582e9",
+      "src": "film-ai/src-533b38afb42582e9.jpg",
+      "sha256": "327eb8b3d83ac9094205321dc3a8b4b92ef6ab41474ebdb87412974c9b29be3a",
+      "reason": "红房间女子背影独舞，未出现拳手、三姐妹或约旦家庭环境，无法确认片内关联。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5376fb791818cac7",
+      "src": "film-ai/decks/film-src-5376fb791818cac7.webp",
+      "sha256": "9c4079d82bdc9ae88aa3e8f20357c9f845933e3f7f0ded385aa2149f6bf7960e",
+      "reason": "女子持灯攀楼梯仅表现同一住宅空间，未具房客嫌疑或独立命案信息。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-541a856b76ff2ec1",
+      "src": "film-ai/src-541a856b76ff2ec1.jpg",
+      "sha256": "8a36dda6097ea767850b77469590ce9b41084044be468ebee22f790e5db733d9",
+      "reason": "画面是印有片名与 Carl Rogers 姓名的单人肖像书封，不是纪录片自然场景。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5445ccf6895a7440",
+      "src": "film-ai/src-5445ccf6895a7440.jpg",
+      "sha256": "f34f539062d757a0ac61ae9e58ce823bb5c4eda1c6320e184e9a0ecee25f1ed3",
+      "reason": "整张为写着“剧终 / THE END”的结束字卡，不是可代表一项叙事情节的剧照。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-55072df68e619aae",
+      "src": "film-ai/src-55072df68e619aae.jpg",
+      "sha256": "e9f31c6dee8f1d7fee27a01b57f781fb3d1e88304d6d3e66f50aeaf7a2551b5f",
+      "reason": "深夜山路上的单辆红巴士缺组合成员、音乐表演或爱尔兰语政治活动锚点。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-55d8fbeacbb24073",
+      "src": "film-ai/shots/WORKCONCEPT-20261127-le-bambine-2025-gpt.webp",
+      "sha256": "e4eada69ac75798be415bf84152f6e09542535af0987d722c7c6639a0cd7dc7f",
+      "reason": "三辆自行车停在校门边虽可泛指三个女孩，但无女孩、1997 年事件或人物关系；且需并入同一片目。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-55d8fbeacbb24073",
+      "src": "film-ai/src-55d8fbeacbb24073.jpg",
+      "sha256": "ee40fcca15e0a72c03d6d3b49edcd2eeb855ce8fb7a80a9690c97b7efc0fdac6",
+      "reason": "三名明显成年女子在现代夜间泳池筏上起舞，与 Swiss Films 记载的 1997 年八岁女孩三人组主线和媒介场景不符。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-580da2749ca531a0",
+      "src": "film-ai/shots/WORKCONCEPT-20261127-mares-nest-2025-gpt.webp",
+      "sha256": "7232e343514ce7c7897fd47231078be6304dd1a24238dc3db7a43c0fc9d767e7",
+      "reason": "空石屋与山路只提供潜在山中小屋地点，没有 Moon 或智者/翻译，不能确认属于电影旅程。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-580da2749ca531a0",
+      "src": "film-ai/src-580da2749ca531a0.jpg",
+      "sha256": "56dc049cee622e55c17869affb85b4b6ae85328d707c29e4f293a4c2ce384a84",
+      "reason": "独自女孩在荒野废墟水池边可联想 Moon 游历，但未出现山中智者/翻译或可核特定事件，不能仅凭女孩和荒野认片。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5858bfc908e2bcc4",
+      "src": "film-ai/shots/WORKCONCEPT-20261126-with-hasan-in-gaza-2025-gpt.webp",
+      "sha256": "6e856791b19ab3f0f7b8e85f6f02bc0f1a5b82cf4fb138618df6fac304d76ca2",
+      "reason": "海边两男子旁有旧摄像机，但无法确认是 Hasan/Aljafari 或 2001 年档案影像；同片旧来源 01 已表达 MiniDV 母题。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5858bfc908e2bcc4",
+      "src": "film-ai/src-5858bfc908e2bcc4.jpg",
+      "sha256": "81868c53bd8c5f0dc87dc675677dc3c7b79c42898eaeeba314f2da56a8b38ce5",
+      "reason": "现代高清海边废墟与旧来源 02 的废墟旅人叙事近义，且不能证明为 2001 年 MiniDV 原影像。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5872db05b47f88fc",
+      "src": "film-ai/src-5872db05b47f88fc.jpg",
+      "sha256": "835bc6fcc285afbd18423bc5556e8af974e104dd8de4e5b9bb4ac983225f95b4",
+      "reason": "观众席三名陌生成年面孔未能与发行方所列 Zendaya、Mike Faist、Josh O’Connor 角色核实；仅是网球观众场景。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-58c6171677a586e6",
+      "src": "film-ai/decks/film-src-58c6171677a586e6.webp",
+      "sha256": "86756175f137fc59965af6c3887d839848a57004111395460b33ce1bc3b93248",
+      "reason": "持灯女子站在病床旁，可能是救世军看护，但无法确认 Edit/David 或具体病室事件。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-594baa5d52f41630",
+      "src": "film-ai/shots/WORKCONCEPT-20261124-the-life-of-chuck-2024-gpt.webp",
+      "sha256": "4dede093e81cef30a3c0800b64d22cd4eccf37a29e36601211871989c400f414",
+      "reason": "男子在街头看另一对人跳舞，只有广义舞蹈主题；多伦多电影节资料未给这三人或该街景，不能指认为 Chuck。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-594baa5d52f41630",
+      "src": "film-ai/src-594baa5d52f41630.jpg",
+      "sha256": "7a7fa6626acf553b93df58cfb253a589d48e7bc929b926a9d980aca1b1445b01",
+      "reason": "独坐室内看电视男子缺 Chuck、祖父、舞蹈或世界终结告别线索，无法归片。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5b06560c94899c70",
+      "src": "film-ai/src-5b06560c94899c70.jpg",
+      "sha256": "e8a5efb3856973cea0f604ccb91c23e47216ea1ca83e6ef39d308bf46aea8ae4",
+      "reason": "夜间窗前真人孤影虽不与混合摄影媒介绝对冲突，却无工厂、劳动或偶像，可核片目关联不足。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5b1f7ba69b62b051",
+      "src": "film-ai/decks/film-src-5b1f7ba69b62b051.webp",
+      "sha256": "1026d4048c917df539d54f05bf19af65b09601fad14d2e9126bec40ed1d288a7",
+      "reason": "两个孩子在草地边掩埋小动物，与 02 相同哀悼/埋葬事件的前景，缺另一叙事阶段。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-5b9994cf94c978cc",
+      "src": "film-ai/src-5b9994cf94c978cc.jpg",
+      "sha256": "98926e394d56d97b575e5ebc568e783df10e8ca8d3ac60c14a5c0d6bd8c2e59f",
+      "reason": "画面顶部巨大黄色 UN ANNO DI SCUOLA 字样叠在合影上，是片名海报拼版，不能作为独立剧照。",
+      "evidence": "第五十一批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
