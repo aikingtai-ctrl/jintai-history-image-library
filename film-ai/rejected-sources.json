@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-28T07:09:53.909987+08:00",
+  "updated_at": "2026-11-28T09:02:58.818355+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -5490,6 +5490,202 @@
       "sha256": "635817847c6188aed02545c5e2a4e6ed41649c9af2f43d5203dbfaf66f7f52bb",
       "reason": "纵版红条与黑白女像构成书/DVD 封面，不是片内画面。",
       "evidence": "第五十七批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8b265939d8db35cb",
+      "src": "film-ai/decks/film-src-8b265939d8db35cb.webp",
+      "sha256": "07aefcb853f67a308d6747157b48d6f672df3329dad62757e8684d1bfc22c79f",
+      "reason": "雨夜旧宅和汽车可作恐怖片氛围，但无 Tommy、青年住户或可辨 Pinehurst 事件。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8b265939d8db35cb",
+      "src": "film-ai/src-8b265939d8db35cb.jpg",
+      "sha256": "ea10af003893cb002427c9a0ef6f41ffbe50674a297950666e119590327bff02",
+      "reason": "眼镜男子驾车的日间特写无法确认 Tommy 或该片行动。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8b423137d525573f",
+      "src": "film-ai/shots/VP-src-8b423137d525573f-01.webp",
+      "sha256": "b466254847ad1eccba12e12898d48d27dcd4a43f6a8931f99f4308481d3e8e19",
+      "reason": "与 01 原字节 SHA、Git OID 及 pHash/dHash 完全相同，不构成第二景。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8b5eda64888c4c1f",
+      "src": "film-ai/src-8b5eda64888c4c1f.jpg",
+      "sha256": "73bc7d07b3aa5d64a1984597d78abf7261db462d1dc88adab33f0c46f7f13e2c",
+      "reason": "只有抽象绿色水面纹理，无山村、节庆或人物行动。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8b89366b75f12426",
+      "src": "film-ai/src-8b89366b75f12426.jpg",
+      "sha256": "0f57a28388a55ccf04aedbfe87b31f95bd42ff2f3f4e6d3a1a933b00271c6c7b",
+      "reason": "作画手与红衣舞者纸像不能核为顾省斋所画，也无女侠行动；不据画师职业直接收录。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8bbf4834537fb136",
+      "src": "film-ai/shots/WORKCONCEPT-20261117-src-8bbf4834537fb136.webp",
+      "sha256": "931a331be9aa12a2a3a4b6059424ee8236364d6c7fea8779aa68c471917c7f64",
+      "reason": "与已准入 as-tears-go-by-1988 的 01 原字节 SHA/OID/pHash/dHash 全同；同片别名不得作为新影片重复准入。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8bbf4834537fb136",
+      "src": "film-ai/src-8bbf4834537fb136.jpg",
+      "sha256": "d79960d8857b2a9f835b5035880948c355e6ec1e8ddfe39bbc0258179f513318",
+      "reason": "画面为西方白人情侣蓝色雨窗对望；官方主要角色为刘德华、张曼玉、张学友等港片人物，明显串片。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8bf126f597f66af8",
+      "src": "film-ai/src-8bf126f597f66af8.jpg",
+      "sha256": "30e9d506dc8d199d4909103c0e994eb359bd20ba08ee8df2f7c4b407b84c0c70",
+      "reason": "东亚男子与西方成年人惊悚式对峙，和 Fausto/Elena 青年恋情设定不合。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8c398dacd429960c",
+      "src": "film-ai/src-8c398dacd429960c.jpg",
+      "sha256": "2a290fa745c2ab5385d73defae8556b503f6fe7bf60198677fb7f2e1a31c8181",
+      "reason": "两男子荒漠近景与 01 视觉题材重叠，缺载具或独立剧情行动；暂不扩成第二景。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8c6e6ff6f2c77efb",
+      "src": "film-ai/src-8c6e6ff6f2c77efb.jpg",
+      "sha256": "c97842c805a2d349ee356f799e6d7fe7cceef63f7775fb97b3dc12cde0c4609e",
+      "reason": "黑白乡村夫妻肖像与当代彩色政治竞选职业情境冲突。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8c77e8f24e50be47",
+      "src": "film-ai/src-8c77e8f24e50be47.jpg",
+      "sha256": "3d61103c041b939cf33ec8a7e7acc0e7cb6c94256b808ea4f5c1e01f7d389f8a",
+      "reason": "VHS 盒与抽象字体包装不是片内场景。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8ccea20c336d80fe",
+      "src": "film-ai/src-8ccea20c336d80fe.jpg",
+      "sha256": "2cd2735724b63cdf911657cbff888b48b8c8a6fd87c95371b22f13836404f0b3",
+      "reason": "男子着 19 世纪西式马甲在旧式办公室对谈，与 1980 年南非乡镇时空冲突。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8d076e4fdbeb2298",
+      "src": "film-ai/src-8d076e4fdbeb2298.jpg",
+      "sha256": "15c58bc047931dcbf8fdaf0b0f2842851cd7e4427617ec36c303535d28c585c8",
+      "reason": "绿色夜视滤镜下乡村木屋不含女主、坦克或荒漠水源；媒介风格亦异。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8d1c4524b6d2ba9a",
+      "src": "film-ai/src-8d1c4524b6d2ba9a.jpg",
+      "sha256": "4dfdcba162555be52f5ac26e2343b01b728d7f2d7132ad0bcf8f0dd9445a14ba",
+      "reason": "排版片名海报而非完整片内画面。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8d2929266d8a834e",
+      "src": "film-ai/src-8d2929266d8a834e.jpg",
+      "sha256": "d830b2143db8d21d0ad7fcd41c7ec8df4d2e52376d069b942edeea9c31685166",
+      "reason": "黑白女性旧肖像与青少年冰球片人物和媒介冲突。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8db46bb68dc7dbcf",
+      "src": "film-ai/src-8db46bb68dc7dbcf.jpg",
+      "sha256": "e86e3b913964271621fbf12dca023510e2c64b7b34cc57abd6ee80b357ba75af",
+      "reason": "三名白人成年背包客在高山徒步，和少年忍者、有毒废料厂情节无关。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8de6ab4dcc45e8a1",
+      "src": "film-ai/src-8de6ab4dcc45e8a1.jpg",
+      "sha256": "6a0421d8dde8fc2a491978803f7b730403e8ef83f035385746e1c208e78841c1",
+      "reason": "成年金发女子独处旧教堂，年龄与双童主角设定不符。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8e172ff4a070dba0",
+      "src": "film-ai/src-8e172ff4a070dba0.jpg",
+      "sha256": "b16d683c341b438483b488ea695761b40291fe8489cd991c1f5eadd1a6eb39ce",
+      "reason": "湖边两个青年女性仅通用露营画面，无法连到转化营或惊悚事件。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8e1868763c003594",
+      "src": "film-ai/src-8e1868763c003594.jpg",
+      "sha256": "01a85e24a52f888a30da27d1b3eaaed8640f0bbb03201ae0e95ac13c1ff19a26",
+      "reason": "旧式剃须器具静物缺机器人或乐园动作，无法确认为第二场景。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8e197bfe95c791b0",
+      "src": "film-ai/src-8e197bfe95c791b0.jpg",
+      "sha256": "8c92991551697c9499163ff25a893e98dc286695a7b35e6addea75ae843b9db5",
+      "reason": "黑白旧家庭合影里的狗近白色，和当代彩色男孩/黄狗求生叙事不合。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8e19e0d0369fb68a",
+      "src": "film-ai/src-8e19e0d0369fb68a.jpg",
+      "sha256": "599dcd934b2d35624e6d2c9a664bbd188e8c46b7501313aede5559d1513e21a1",
+      "reason": "女性头盔肖像只有泛科幻服装，缺机器人、星球或可核角色。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8e3407fc07c0c4d0",
+      "src": "film-ai/src-8e3407fc07c0c4d0.jpg",
+      "sha256": "43e454ecb756766bea7303cb1696d9813b649831a1814dc59670737c3b32c7d8",
+      "reason": "灰发男子站在美国旗旁讲台，外貌和年龄无从核为杜鲁门，或为别位总统。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8e6fbdcd65e72c06",
+      "src": "film-ai/src-8e6fbdcd65e72c06.jpg",
+      "sha256": "fa7ea6e9e2c963dd686d35a3a1c156f88bc6e2e2df007317b0c2fd636e031938",
+      "reason": "黑白男子打电话的通用黑色电影画面没有 Kelly 或可核冲突事件。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8e82f39f033f6f89",
+      "src": "film-ai/src-8e82f39f033f6f89.jpg",
+      "sha256": "153a98bb44938186a170a34619d4ade2a1e139599acfa10b01ad0956810d3b11",
+      "reason": "金发女子后台化妆间独照无法认定是 Jane 或颁奖礼行动。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8ec47d60399b12a8",
+      "src": "film-ai/src-8ec47d60399b12a8.jpg",
+      "sha256": "e3984c67da3691e051127f4e3b439310e39da4e1224d9b18720e7482c9d3aaf4",
+      "reason": "高饱和跑车与片名构成动作片封面图，不是片内独立场景。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8ee06434785b81fc",
+      "src": "film-ai/src-8ee06434785b81fc.jpg",
+      "sha256": "696bfc9d2fec91441350b98d2500a2d056265017d7b15a454a63e6c46ac3a55b",
+      "reason": "黑白宣传照片带明显片名文字，是宣传拼版而非片内镜头。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8ee8ba4f8b277469",
+      "src": "film-ai/shots/WORKCONCEPT-20261117-src-8ee8ba4f8b277469.webp",
+      "sha256": "12c98ef4b26e0de12636738e25bea5cdc2225dfa9c7cef8d2a6d050238b9d9f9",
+      "reason": "AI 摆拍式农家夫妇审阅文件，无法认定 Jordan 家族实录；纪录片不宜用虚构画面充当剧照。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8ee8ba4f8b277469",
+      "src": "film-ai/src-8ee8ba4f8b277469.jpg",
+      "sha256": "ffb522378d8035e09b43004f94d88fd7715e2a19898bfea0769ef737092e82e5",
+      "reason": "风车与夕阳谷仓只是泛农场风景，缺 Jordan 家族或纪录片实录证据。",
+      "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
