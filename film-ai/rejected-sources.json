@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-11-28T09:02:58.818355+08:00",
+  "updated_at": "2026-11-28T11:45:10.241130+08:00",
   "policy": "Path remains denied even if bytes change, until the source is visually re-reviewed and this entry is removed.",
   "sources": [
     {
@@ -5686,6 +5686,188 @@
       "sha256": "ffb522378d8035e09b43004f94d88fd7715e2a19898bfea0769ef737092e82e5",
       "reason": "风车与夕阳谷仓只是泛农场风景，缺 Jordan 家族或纪录片实录证据。",
       "evidence": "第五十八批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8f410a75cf421740",
+      "src": "film-ai/src-8f410a75cf421740.jpg",
+      "sha256": "afe54aaf4256ebbfd6d3ae59088d0234f23a06543010ceb92ff2e7158857d229",
+      "reason": "单纯雪峰远景及极小人物，无可核 Pierre、扎营或神秘光芒。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8f4fc2a0e8d37b11",
+      "src": "film-ai/src-8f4fc2a0e8d37b11.jpg",
+      "sha256": "f0527e67090d00ddf462bf779f585d69142064898b1a48b0f96ed59b734398e9",
+      "reason": "青年与女子在水果摊相对，未见 Jerry、收容所或摄影行动，无法确认片内关系。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8fbc3757f89fb9e1",
+      "src": "film-ai/src-8fbc3757f89fb9e1.jpg",
+      "sha256": "caa0578881febead5cf4ccc792bb3c9a8916dea44889389a9ab97a6c4e54dfc6",
+      "reason": "中年女子室内肖像未显示与诗人 Charles 或其关系的可核行动。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8fe9ef5c8f592be0",
+      "src": "film-ai/src-8fe9ef5c8f592be0.jpg",
+      "sha256": "1219b3becef517e64cc5691bb3a3d8b858008e6ac91773e9be950c4f61198275",
+      "reason": "车前男女合影仅有年代氛围，无楼梯、Helen 女佣身份或可核事件。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-8ff8eb653a2ade13",
+      "src": "film-ai/src-8ff8eb653a2ade13.jpg",
+      "sha256": "aacfcb8597155c136ebcabc8f0228ed139f75fe0f0fd12e270173b00281ea34c",
+      "reason": "红色片名字体覆盖黑暗舞台，是标题宣传视觉而非另一独立场景。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-906d86a52dd10a67",
+      "src": "film-ai/src-906d86a52dd10a67.jpg",
+      "sha256": "9975402414df83ae29c6af869e85e832cf9d1bb16a4428cc8673841bd8a702be",
+      "reason": "两名外貌近似的女服务员对视，无法识别 Diane/Rita 或关联失踪调查。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-90895ea17819ae9e",
+      "src": "film-ai/src-90895ea17819ae9e.jpg",
+      "sha256": "81ceff8045357d8b4b466a28df39d7fba00b0475159e24af89e0095aad7782bf",
+      "reason": "只有郊区住宅外观，缺 Carol、病症或环境过敏行动。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-90abc86f49f17a46",
+      "src": "film-ai/src-90abc86f49f17a46.jpg",
+      "sha256": "0f9993485038db2f19f8aeeef140845016347e1537461b367450bb110faab7c2",
+      "reason": "图中宇航服与太空展人群不属于 1955 都市婚姻喜剧情节。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-90d7a941fedd7fb3",
+      "src": "film-ai/src-90d7a941fedd7fb3.jpg",
+      "sha256": "b0de027e28032ef47256e454fff3eec22e67871df967ed4103bf0f4a38204084",
+      "reason": "酒吧里成年男女独立对话，虽有酒吧副线但缺少女主角或可核关键行动。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-915a51fcf2848bc0",
+      "src": "film-ai/src-915a51fcf2848bc0.jpg",
+      "sha256": "11cac01f239ca96c9d56920ab66c00f868c8bd315829281e23deedc990dfb175",
+      "reason": "黑白餐桌剧照与官方彩色影片媒介不符，也无 Gus 劫持关系。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-91ad370c2ce7caee",
+      "src": "film-ai/src-91ad370c2ce7caee.jpg",
+      "sha256": "dc026446d870030181bbfc7a9ded4a797e2e43d3e6f6e215b8e103b8b4b4ad5e",
+      "reason": "男子只手持难辨设备近景，不能确认是 Nick 或时间机器的另一行动。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-91b41f99c3a90ff3",
+      "src": "film-ai/shots/WORKCONCEPT-20261118-src-91b41f99c3a90ff3.webp",
+      "sha256": "b6ca0606454f3006151f08654732fc209863aa28dd40c902292751ce02ae7bc1",
+      "reason": "雨窗前背影女子只有通用悬疑气氛，未显示视觉恢复或目击事件。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-91b41f99c3a90ff3",
+      "src": "film-ai/src-91b41f99c3a90ff3.jpg",
+      "sha256": "f1873cf7d133c18ead584b95ef9a45aa9f23265a90cf0f874b3d9d677896bcfe",
+      "reason": "拥抱情侣无法识别 Emma 与警探或案情行动。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-91b444cb06d368e3",
+      "src": "film-ai/shots/WORKCONCEPT-20261117-src-91b444cb06d368e3.webp",
+      "sha256": "2dfc13d400ee97f3d93fc1544bbc6c19d74182f10195c9e8d7a0ea19fe3c53b6",
+      "reason": "孩子排队朝海边住宅走去，但发色和超常行为不清，尚不足确认本片。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-91dfdbf882ad4c67",
+      "src": "film-ai/src-91dfdbf882ad4c67.jpg",
+      "sha256": "4014d9a353b30cca78cf9badc4ef6fde2413210328c8db174b2845b8e9f701c1",
+      "reason": "只有一名女子在漆黑楼梯下方，缺联谊会、节庆或电话关联证据。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-92166192c4223196",
+      "src": "film-ai/src-92166192c4223196.jpg",
+      "sha256": "6a4923406bba2de60e986087fbadada823b07f5302ed5a383f90874ae383f2e8",
+      "reason": "男子与女子居家交谈但无法核定旧恋人或 Emily 的委托关系。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-9245731d27956cf1",
+      "src": "film-ai/src-9245731d27956cf1.jpg",
+      "sha256": "a29cc67cddcc15e16b458ee3d1310ab953f6c3fc0b6fc3d12d57203b02be3fcf",
+      "reason": "男子在雾中手持文件，缺出租车或目击追捕可核联系。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-9276589042d417db",
+      "src": "film-ai/src-9276589042d417db.jpg",
+      "sha256": "b3aa021e72a367a104968fc6375ccf9f624ad4716a32cf5a28c7e8e8530856c3",
+      "reason": "阿富汗山口单一人物远景没有 Bond、Kara 或任务行动，仅有地貌关联。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-927abb807eb13733",
+      "src": "film-ai/src-927abb807eb13733.jpg",
+      "sha256": "b3e5dcbfda9a18d3ee0b550bb642cb1415bae5e2af1630b4c6befd0c23fe6374",
+      "reason": "直接排有片名文字的竖版海报，不能充当第二个影片场景。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-92e43de1932512c8",
+      "src": "film-ai/src-92e43de1932512c8.jpg",
+      "sha256": "b7d972c86aa107e4a9e7c8b567fc4121abeb93358f1c1858046e11aa95a216c5",
+      "reason": "年轻女子室内单人肖像不含彗星、幸存行动或可核人物标识。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-92fb2247ab372193",
+      "src": "film-ai/shots/WORKCONCEPT-20261117-src-92fb2247ab372193.webp",
+      "sha256": "13e491daf3c8c8659d2d79dd9e8fa811c94eeaa6c646884e8cc633192948b449",
+      "reason": "雨窗前女子面对男子剪影，只有通用黑色电影氛围，不能核为本片人物。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-92fb2247ab372193",
+      "src": "film-ai/src-92fb2247ab372193.jpg",
+      "sha256": "6e9c2668338370ee8baddfe31f3229c7cbd8d629ca17e303b4d2ff1c2c1922ba",
+      "reason": "高山徒步者与都市犯罪及人物关系设定无关，明显串片。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-932707044d6be142",
+      "src": "film-ai/src-932707044d6be142.jpg",
+      "sha256": "90382db4db35e308898e2ab528e23fc8b8833eb7eb53abe7c04ca12061bda020",
+      "reason": "烛光室内三人群像没有可辨咒语、遗体、Haggis 或恶魔，暂不能作独立剧情场景。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-9350afa71b29071b",
+      "src": "film-ai/src-9350afa71b29071b.jpg",
+      "sha256": "fba13f57cf3aee323a20443996c2086c961bb46cba0b91c78936503bf87ce137",
+      "reason": "红色大叉叠在彩色女子肖像上，像后制封面且与黑白影片媒介不符。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-935f38e1e339779c",
+      "src": "film-ai/shots/WORKCONCEPT-20261127-hara-watan-2025-gpt.webp",
+      "sha256": "18870f8d108895505d1b52a8773420618feb0d2fe9b23fda9bf8c39efebe41ef",
+      "reason": "日落河边空舟没有两名儿童、难民营或跨境迁徙行动。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
+    },
+    {
+      "wid": "src-935f38e1e339779c",
+      "src": "film-ai/src-935f38e1e339779c.jpg",
+      "sha256": "783fd1c4896781fae41f0d2503534c6b86f252193b23ac9da3b1ffa6e2112c69",
+      "reason": "遮阳游船上人群无可辨两名儿童或逃难事实，可能只是旅游船，不可冒充难民旅途。",
+      "evidence": "第五十九批30部来源ID电影/逐图建议与联系表"
     }
   ]
 }
