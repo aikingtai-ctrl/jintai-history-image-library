@@ -69,7 +69,11 @@
     return tunnelPromise;
   }
 
+  function isMetadataHeld(id) {
+    return window.JINTAI_GPT_2000_CORRECTIONS?.[id]?.action === 'metadata_hold';
+  }
   function originalInfo(id) {
+    if (isMetadataHeld(id)) return null;
     for (const name of MAPS) {
       const info = window[name]?.[id];
       if (!info || !/^[a-f0-9]{64}$/i.test(info.sha256 || '')) continue;
@@ -82,6 +86,7 @@
     return null;
   }
   function museumJpegInfo(id) {
+    if (isMetadataHeld(id)) return null;
     for (const name of MAPS) {
       const info = window[name]?.[id];
       if (info?.method === 'museum_open_access_original' &&
@@ -199,7 +204,7 @@
       } else {
         const missing = document.createElement('span');
         missing.className = 'jt-original-missing';
-        missing.textContent = '主图未生成';
+        missing.textContent = isMetadataHeld(row.id) ? '旧版主图暂缓展示' : '主图未生成';
         block.appendChild(missing);
       }
       const desc = card.querySelector('.desc');
@@ -222,7 +227,7 @@
       addPreview(block, museum, curItem.title);
       addMuseumControls(block, museum);
     } else {
-      block.textContent = '该条目尚无已验收的主图 PNG。';
+      block.textContent = isMetadataHeld(curItem.id) ? '旧版主图暂缓展示，待来源与图片验收。' : '该条目尚无已验收的主图 PNG。';
     }
     body.insertBefore(block, document.getElementById('mTabs'));
   }
