@@ -107,7 +107,7 @@ dialog.zg-lightbox::backdrop{background:rgba(0,0,0,.85)}
   <div class="tabs">
     <button class="tab on" id="tabBooks" onclick="setTab('books')">一、57部古籍《角色·场景·道具·配套》归拢总表（57部·800组篇章）</button>
     <button class="tab" id="tabPrompts" onclick="setTab('prompts')">二、专项新增 8,000 条角色/场景/道具/配套 IMAGE 2 提示词（800组×10态）</button>
-    <button class="tab" id="tabExisting" onclick="setTab('existing')">三、全库既有 57 部古籍关联资产检索（精选 700 组 / 总计 3,093 组）</button>
+    <button class="tab" id="tabExisting" onclick="setTab('existing')">三、全库既有 57 部古籍关联资产检索（精选 947 组 / 总计 3,093 组）</button>
   </div>
 </header>
 <main>
@@ -181,13 +181,6 @@ dialog.zg-lightbox::backdrop{background:rgba(0,0,0,.85)}
 </main>
 <script src="source-correction-zg-g036.js?v=20261127"></script>
 <script src="source-correction-zg-g037.js?v=20261127"></script>
-<script src="source-correction-zg-g038.js?v=20261127"></script>
-<script src="source-correction-zg-g039.js?v=20261128b"></script>
-<script src="source-correction-zg-g040.js?v=20261128"></script>
-<script src="source-correction-zg-g041.js?v=20261128"></script>
-<script src="source-correction-zg-g042.js?v=20261128"></script>
-<script src="source-correction-zg-g043.js?v=20261128"></script>
-<script src="source-correction-zg-g044.js?v=20261128"></script>
 <script>
 /*__SPEC_ALL_SHARD_START__*/
 function _inflateSpecAll(d){if(!d||d.v!==1)return d;var B=atob(d.z),nB=B.length,src=new Uint8Array(nB),q;for(q=0;q<nB;q++)src[q]=B.charCodeAt(q);var bp=0,bb=0,bc=0,out=new Uint8Array(Math.max(4096,nB*6)),op=0;function gb(k){while(bc<k){bb|=(src[bp++]||0)<<bc;bc+=8;}var r=bb&((1<<k)-1);bb>>>=k;bc-=k;return r;}function bt(lens,num){var cnt=new Int32Array(16),off=new Int32Array(16),i,mx=0;for(i=0;i<num;i++)if(lens[i]){cnt[lens[i]]++;if(lens[i]>mx)mx=lens[i];}if(!mx)return{t:new Int32Array(2),m:1};var code=0;for(i=1;i<=mx;i++){code=(code+cnt[i-1])<<1;off[i]=code;}var sz=1<<mx,tab=new Int32Array(sz);for(i=0;i<num;i++){var l=lens[i];if(l){var c=off[l]++,rv=0,j;for(j=0;j<l;j++)if(c&(1<<j))rv|=1<<(l-1-j);var st=1<<l,v=(l<<16)|i;for(j=rv;j<sz;j+=st)tab[j]=v;}}return{t:tab,m:sz-1,x:mx};}function ds(h){while(bc<15&&bp<nB){bb|=src[bp++]<<bc;bc+=8;}var v=h.t[bb&h.m],l=v>>>16;bb>>>=l;bc-=l;return v&65535;}var FL=new Uint8Array(288),FD=new Uint8Array(32);for(q=0;q<144;q++)FL[q]=8;for(;q<256;q++)FL[q]=9;for(;q<280;q++)FL[q]=7;for(;q<288;q++)FL[q]=8;for(q=0;q<32;q++)FD[q]=5;var FT=bt(FL,288),DT=bt(FD,32),LB=[3,4,5,6,7,8,9,10,11,13,15,17,19,23,27,31,35,43,51,59,67,83,99,115,131,163,195,227,258],LE=[0,0,0,0,0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3,4,4,4,4,5,5,5,5,0],DB=[1,2,3,4,5,7,9,13,17,25,33,49,65,97,129,193,257,385,513,769,1025,1537,2049,3073,4097,6145,8193,12289,16385,24577],DE=[0,0,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,10,10,11,11,12,12,13,13],CO=[16,17,18,0,8,7,9,6,10,5,11,4,12,3,13,2,14,1,15];function ens(need){if(op+need<=out.length)return;var nl=out.length*2;while(nl<op+need)nl*=2;var no=new Uint8Array(nl);no.set(out.subarray(0,op));out=no;}var bf=0;while(!bf){bf=gb(1);var ty=gb(2);if(ty===0){bb=0;bc=0;var ln=src[bp]|(src[bp+1]<<8);bp+=4;ens(ln);out.set(src.subarray(bp,bp+ln),op);bp+=ln;op+=ln;}else{var lt,dt;if(ty===1){lt=FT;dt=DT;}else{var hl=gb(5)+257,hd=gb(5)+1,hc=gb(4)+4,cl=new Uint8Array(19),k;for(k=0;k<hc;k++)cl[CO[k]]=gb(3);var ct=bt(cl,19),al=new Uint8Array(hl+hd),ai=0;while(ai<hl+hd){var sy=ds(ct);if(sy<16)al[ai++]=sy;else if(sy===16){var rp=gb(2)+3,pv=al[ai-1];while(rp--)al[ai++]=pv;}else if(sy===17){var rp2=gb(3)+3;while(rp2--)al[ai++]=0;}else{var rp3=gb(7)+11;while(rp3--)al[ai++]=0;}}lt=bt(al.subarray(0,hl),hl);dt=bt(al.subarray(hl),hd);}for(;;){var s0=ds(lt);if(s0===256)break;if(s0<256){if(op>=out.length)ens(1);out[op++]=s0;}else{var li=s0-257,ml=LB[li]+(LE[li]?gb(LE[li]):0),di=ds(dt),md=DB[di]+(DE[di]?gb(DE[di]):0);ens(ml);var sp=op-md,u;for(u=0;u<ml;u++)out[op++]=out[sp+u];}}}}return JSON.parse(new TextDecoder('utf-8').decode(out.subarray(0,op)));}
@@ -205,124 +198,6 @@ async function loadSpecAllRes(relName,isManifest,checkFn){
   if(await loadSpecAllTag(SPEC_ALL_LOCAL+relName,checkFn,12000))return true;
   throw new Error('spec-all-load-'+clean);
 }
-const ZG_G031_TITLE='《卖胡粉女／买粉复生（拟题）》';
-const ZG_G031_NOTE='史料核对：本次所核《幽明录》记载富家子买胡粉、卖粉女子临尸恸哭、男子复生；未见白氍毹、画眉或卖粉女子施法。下方保留冻结的影视概念提示词，其中白毯、镜、服饰和场景细节不可当作古籍明文。';
-const ZG_G032_TITLE='《黄原与青犬入妙音宅（拟题）》';
-const ZG_G032_NOTE='史料核对：《幽明录》卷二记黄原见青犬，随犬入山穴，遇太真夫人之女妙音；太真夫人与妙音为两人。冻结提示词中的黑犬、白獭化形、连理白玉佩及珍珠螺钿漆盒未见所核原文；下方原提示词仅供追溯，不能作为史料。';
-const ZG_G033_TITLE='《新鬼推磨舂谷求食（拟题）》';
-const ZG_G033_NOTE='史料核对：《太平广记》卷三百二十一引《幽明录》记新鬼形疲瘦，遇死已二十年的肥健旧友；先在奉佛人家西厢推磨、后在奉道人家门旁舂谷，均未获食。冻稿中的韦驮神像、青石磨自转、偷吃生面、幽冥仙境及具体衣饰器形未见所核原文；下方原提示词仅供追溯。';
-const ZG_G034_TITLE='《钟繇遇美妇及墓中遗迹（拟题）》';
-const ZG_G034_NOTE='史料核对：《幽明录》卷二记钟繇遇美妇，因僚友怀疑她是鬼而起杀意，妇人停在户外问其故；钟繇不忍，只轻伤她。次日循血迹至大墓，见棺中女子穿白练衫、丹绣裲襠，一髀有伤。冻稿中的颍川旧宅月夜、青年魏太傅、错金环首剑、玉蝉和斗法幻境未见所核原文；下方原提示词仅供追溯。';
-const ZG_G035_TITLE='《甄冲拒社公婚聘（拟题）》';
-const ZG_G035_NOTE='史料核对：《幽明录》卷五记甄冲字叔让、中山人、为云社令，自己说已老、有妻与成年子；社郎及社公携女郎和两岸车马仪仗求婚，甄冲拔刀横膝拒婚，至天明未屈。冻稿中的中山县令、南朝官袍、青衣迎妇、亡妻假形、白猪精与斩妻并非此段原文；下方原提示词仅供追溯。';
-const ZG_G036_TITLE='《巴丘黃金潭金牛（拟题）》';
-const ZG_G036_NOTE='史料核对：唐《藝文類聚》卷八十三引《幽明錄》记巴丘黄金潭钓人引出金锁满船，金牛出现后跃回潭，钓人以刀截得数尺。《太平御覽》卷九百亦引此事。冻稿的古亭、黑衣高冠亭神、自缚、琵琶原形与焚琴均无所引原文支持；原冻结提示词另存溯源，当前展示提示词已纠正，服饰、船型与光线仅为影视演绎。';
-const ZG_G037_TITLE='《贾弼之梦易头（拟题）》';
-const ZG_G037_NOTE='史料核对：《幽明錄》卷四传本记河东贾弼之于义熙中任瑯邪府参军，梦中两遇陌生人求易头，先拒后许；醒后众人惊避，他取镜自照，归家后家人亦惊避；“半面啼，半面笑”与五笔俱书见该传本后续。《南史》卷五十九另记太元时“員外散騎侍郎平陽賈弼”及十八州谱，不可拼入梦事原文；《太平廣記》卷三百六十此处仅作“半面笑”与双手执笔，是异文。冻稿冥司医馆、兽纹大铜镜/镜台、象牙笏板、狼毫笔、具名谱卷及建康竹轩牛车均非所核梦事原文明文；本题为拟题，细部造型与建筑为影视复原。';
-function zgCorrectG031Meta(meta){
-  const g=(meta.groups||[]).find(x=>x[0]==='ZG-20261028-G031');
-  if(g){
-    g[5]=ZG_G031_TITLE;
-    g[6]='富家子与卖胡粉女子（原典人物）；服饰造型为影视诠释';
-    g[7]='市肆买胡粉；女子临尸恸哭与男子复生（具体建筑为影视诠释）';
-    g[8]='百余裹胡粉见原典；漆盒、白毯、铜镜为影视诠释道具';
-    g[9]='《幽明录》对应段：富家子日往市买胡粉，女子临尸抚之恸哭，男子豁然更生。白氍毹与画眉未见本次核对原文。';
-  }
-  const b=(meta.books||[]).find(x=>x.book_no===5);
-  if(b){
-    b.stories=b.stories.map(x=>x==='《买粉儿白氍毹画眉复生》'?ZG_G031_TITLE:x);
-    b.characters=b.characters.map(x=>x.includes('执氍毹包裹尸身的侍婢')?'富家子与卖胡粉女子（服饰为影视诠释）':x);
-    b.scenes=b.scenes.map(x=>x.includes('白氍毹毛毯上少女魂魄')?'卖粉女子临尸恸哭、男子复生（具体场景为影视诠释）':x);
-    b.props=b.props.map(x=>x.includes('洁白羊毛氍毹毯与铜柄菱花镜')?'白毯与铜镜：影视诠释道具，非本次核对原典明文':x);
-  }
-}
-function zgCorrectG032Meta(meta){
-  const g=(meta.groups||[]).find(x=>x[0]==='ZG-20261028-G032');
-  if(g){
-    g[5]=ZG_G032_TITLE;
-    g[6]='黄原、引路青犬、太真夫人及其女妙音（服饰为影视诠释）';
-    g[7]='黄原随青犬入山穴；穴中平衢槐柳、院墙与厅前池台';
-    g[8]='原文有“解佩分袂”，佩饰具体形制未述；白玉佩、珍珠螺钿盒为影视概念道具';
-    g[9]='《幽明录》卷二黄原段：青犬引路，太真夫人之女妙音与黄原成婚；未见黑犬、白獭化形或具名玉佩漆盒。';
-  }
-  const b=(meta.books||[]).find(x=>x.book_no===5);
-  if(b){
-    b.stories=b.stories.map(x=>x==='《黄原黑犬引路入太真夫人水际妙宅》'?ZG_G032_TITLE:x);
-    b.characters=b.characters.map(x=>x.includes('千年老白獭化形')?'黄原、引路青犬、太真夫人及其女妙音（服饰为影视诠释）':x);
-  }
-}
-function zgCorrectG033Meta(meta){
-  const g=(meta.groups||[]).find(x=>x[0]==='ZG-20261028-G033');
-  if(g){
-    g[5]=ZG_G033_TITLE;
-    g[6]='形疲瘦的新鬼与死已二十年的肥健旧友；服饰、相貌为影视推想';
-    g[7]='集市东头奉佛人家西厢推磨，西头奉道人家门旁舂谷；后来在另家庭院遇白狗';
-    g[8]='磨、碓、簸筛、竹竿与白狗见引文；具体材质、器形和陈设为影视推想';
-    g[9]='《太平广记》卷三百二十一〈新鬼〉引《幽明录》：新鬼为两户劳作而未获食；具体衣饰、法器及幻境未述。';
-  }
-  const b=(meta.books||[]).find(x=>x.book_no===5);
-  if(b)b.stories=b.stories.map(x=>x==='《新死鬼形疲瘦入人家磨面》'?ZG_G033_TITLE:x);
-}
-function zgCorrectG034Meta(meta){
-  const g=(meta.groups||[]).find(x=>x[0]==='ZG-20261028-G034');
-  if(g){
-    g[5]=ZG_G034_TITLE;
-    g[6]='钟繇与来访的美妇；原文未说明此时年龄与职位，棺中女子衣着见白练衫、丹绣裲襠';
-    g[7]='妇人停在户外质问杀意，钟繇轻伤之；次日循血迹至大冢';
-    g[8]='新棉拭血、白练衫与丹绣裲襠见原文；刀剑、玉蝉和灯台具体器形未述';
-    g[9]='《幽明录》卷二钟繇段：妇人微伤离去、血迹通大冢；未记颍川旧宅月夜、青年魏太傅或具名兵器。';
-  }
-  const b=(meta.books||[]).find(x=>x.book_no===5);
-  if(b)b.stories=b.stories.map(x=>x==='《钟繇颍川旧宅月夜遇美妇》'?ZG_G034_TITLE:x);
-}
-function zgCorrectG035Meta(meta){
-  const g=(meta.groups||[]).find(x=>x[0]==='ZG-20261028-G035');
-  if(g){
-    g[5]=ZG_G035_TITLE;
-    g[6]='甄冲（云社令，自述年老有室家）、社郎、社公及其女；具体衣饰为影视推想';
-    g[7]='惠怀县两岸迎婚仪仗、岸边幔屋；甄冲横刀膝上拒婚，社公召虎，至天明未屈';
-    g[8]='四望车、锦步障、青幢赤络、白麈尾与横膝之刀见原文；器形细节为推想';
-    g[9]='《幽明录》卷五甄冲段：甄冲为云社令、已有妻儿，拒社公之女婚聘；未记白猪化形或斩假妻。';
-  }
-  const b=(meta.books||[]).find(x=>x.book_no===5);
-  if(b)b.stories=b.stories.map(x=>x==='《甄冲社公假形与青衣迎妇》'?ZG_G035_TITLE:x);
-}
-function zgCorrectG036Meta(meta){
-  const g=(meta.groups||[]).find(x=>x[0]==='ZG-20261028-G036');
-  if(g){
-    g[5]=ZG_G036_TITLE;
-    g[6]='匿名钓人、黄金潭金牛；人物年龄衣饰与金牛质感为影视演绎';
-    g[7]='巴丘县金冈以上黄金潭、上方黄金瀨；钓人引金锁满船，金牛出而返潭';
-    g[8]='金锁、满船金锁与斫锁之刀见原典；链环、刀与船的具体形制为影视演绎';
-    g[9]='《藝文類聚》卷八十三引《幽明錄》巴丘黄金潭段：钓人获金锁、金牛现身、以刀截得数尺；旧古亭琵琶故事无所引原文支持。';
-    g[10]='https://wk.100ke.info/wiki/藝文類聚/卷083';
-  }
-  const b=(meta.books||[]).find(x=>x.book_no===5);
-  if(b){
-    b.stories=b.stories.map(x=>x==='《巴丘县古亭琵琶精自缚》'?ZG_G036_TITLE:x);
-    b.characters=b.characters.flatMap(x=>x.includes('巴丘县过客游侠')?['匿名钓人（金锁满船、受惊斫锁；衣饰为影视演绎）']:x.includes('千年老琵琶木精')?['黄金潭金牛（声貌雄壮、跃回潭；质感为影视演绎）']:x.includes('劈碎古琵琶投火焚烧')?[]:[x]);
-    b.scenes=b.scenes.map(x=>x.includes('巴丘县江畔风雨飘摇')?'巴丘黄金潭与上方黄金瀨（地貌、天气为影视演绎）':x.includes('三更阴风怒号楼板震响')?'钓人引金锁满船，金牛出潭（时间与光线为影视演绎）':x.includes('游侠厉声喝令怪人自缚')?'金牛跃回潭、钓人以刀截得数尺金锁':x);
-    b.props=b.props.map(x=>x.includes('六朝曲项四弦古琵琶')?'金锁（金链具体形制为影视演绎）':x.includes('游侠随身的铁鞘长剑、火折子')?'斫锁之刀与满锁的船（器形为影视演绎）':x.includes('巴丘江岸双层重檐木构邮亭')?'黄金潭与黄金瀨（水岸地貌为影视演绎）':x);
-  }
-}
-function zgCorrectG037Meta(meta){
-  const g=(meta.groups||[]).find(x=>x[0]==='ZG-20261028-G037');
-  if(g){
-    g[5]=ZG_G037_TITLE;
-    g[6]='河东贾弼之（义熙中瑯邪府参军）、梦中多须大鼻异目陌生人、惊避的众人与家人；面容服饰为影视复原';
-    g[7]='两次梦中问易头，先拒后许；醒后众人惊避、瑯邪王惊异、取镜自照、归家自陈与府中核验；住宅与府署建筑为影视复原';
-    g[8]='镜与两足、两手、口各执一笔见《幽明錄》传本；镜具材质纹饰、笔毫种类与具名谱卷未述';
-    g[9]='《幽明錄》卷四：河东贾弼之，义熙中为瑯邪府参军；两梦易头、取镜、后能半面啼笑与五笔俱书。《南史》卷59另记太元官职与十八州谱；《太平廣記》卷360为仅半面笑/双手执笔异文。';
-    g[10]='https://zh.wikisource.org/zh/%E5%B9%BD%E6%98%8E%E9%8C%84';
-  }
-  const b=(meta.books||[]).find(x=>x.book_no===5);
-  if(b){
-    b.stories=b.stories.map(x=>x==='《河东贾弼之梦易颜面》'?ZG_G037_TITLE:x);
-    b.characters=b.characters.map(x=>x==='河东太原名士贾弼之（原貌俊朗，梦醒后面目奇丑、半面能哭半面能笑）'?'河东贾弼之（义熙中瑯邪府参军；面容服饰为影视复原）':x==='梦中操刀易面的冥司奇人与手持铜镜惊呼的贾氏家眷'?'梦中多须、大鼻、异目的陌生人；家人于贾弼之归家后惊避':x==='围观贾弼之左面啼泣右面欢笑奇技的东晋朝臣宾客'?'贾弼之后来能半面啼、半面笑；围观宾客未见所核原文':x);
-    b.scenes=b.scenes.map(x=>x==='东晋太元年间建康贾氏宅第清幽的竹林书轩'?'义熙中贾弼之醒后众人惊避的住处（地点、布局为影视复原）':x==='梦境中云雾迷离、两具肉身互换头面的超现实幽冥医馆'?'两次梦中陌生人求易头，贾弼之先拒后许（原文未述手术与冥司医馆）':x==='贾弼之晨起临铜镜自照、展示半面欢笑半面落泪双面奇相的戏剧现场'?'受召至瑯邪府后取镜自照；归家自陈并遣人府中核验（半面啼笑在后续）':x);
-    b.props=b.props.map(x=>x==='映出奇异面容的东晋规矩兽纹大铜镜与木质镜台'?'贾弼之取镜自照（材质、纹饰与镜台未见所核原文）':x==='贾弼之手持的象牙笏板、狼毫笔与撰写的《十八州士族谱》卷轴'?'两足、两手、口各捉一笔俱书；笔种未述，《南史》另记谱学，具名卷轴非梦事道具':x);
-  }
-}
 async function hydrateSpecialistPage(){
   if(document.getElementById('jt_gate_css')&&document.documentElement.getAttribute('data-jt-ok')!=='1')return;
   const stEl=document.getElementById('pCount');
@@ -333,20 +208,6 @@ async function hydrateSpecialistPage(){
   const boot=(mf&&mf.meta_shard)?(shards.length?[mf.meta_shard,shards[0]]:[mf.meta_shard]):(shards.length?[shards[0]]:[]);
   await Promise.all(boot.map(sh=>loadSpecAllRes(sh+ver,false,()=>{if(!window.__SPEC_ALL_CHUNKS__[sh])throw new Error('chunk');})));
   const meta=_inflateSpecAll(window.__SPEC_ALL_CHUNKS__[mf.meta_shard]);delete window.__SPEC_ALL_CHUNKS__[mf.meta_shard];
-  zgCorrectG031Meta(meta);
-  zgCorrectG032Meta(meta);
-  zgCorrectG033Meta(meta);
-  zgCorrectG034Meta(meta);
-  zgCorrectG035Meta(meta);
-  zgCorrectG036Meta(meta);
-  zgCorrectG037Meta(meta);
-  window.JINTAI_G039_CORRECT_META?.(meta);
-  window.JINTAI_G038_CORRECT_META?.(meta);
-  window.JINTAI_G040_CORRECT_META?.(meta);
-  window.JINTAI_G041_CORRECT_META?.(meta);
-  window.JINTAI_G042_CORRECT_META?.(meta);
-  window.JINTAI_G043_CORRECT_META?.(meta);
-  window.JINTAI_G044_CORRECT_META?.(meta);
   RAW.books=meta.books||[];
   RAW.groups=meta.groups||[];
   RAW.existing=meta.existing||[];
@@ -447,19 +308,12 @@ const _mapZgItem = x => {
   const subTypes35={342:'社公之女形貌',346:'车马仪仗',347:'岸边拒婚',348:'佩刀概念',349:'岸边器用',350:'四望车与锦步障'};
   const subTypes36={352:'金牛本相',356:'深潭氛围',357:'斫锁现场',358:'金锁器物',359:'刀与金锁',360:'船与潭瀨'};
   const subTypes37={362:'梦中陌生人',366:'梦境对话',367:'归家核验',368:'镜具概念',369:'五笔俱书',370:'府署建筑复原'};
-  let item={
+  return {
     seq: x[0], id: x[1], gid: g[0], book_no: g[1], book: g[2], author_era: g[3],
     era: g[4], story: g[5], characters: g[6], scenes: g[7], props: g[8],
     basis: g[9], url: g[10], asset_type: x[3], sub_type: corrected?(subTypes[x[0]]||x[4]):corrected32?(subTypes32[x[0]]||x[4]):corrected33?(subTypes33[x[0]]||x[4]):corrected34?(subTypes34[x[0]]||x[4]):corrected35?(subTypes35[x[0]]||x[4]):corrected36?(subTypes36[x[0]]||x[4]):corrected37?(subTypes37[x[0]]||x[4]):x[4], label,
     ratio: x[6], title, prompt: corrected37?(window.JINTAI_G037_PROMPTS?.[x[1]]||'G037核对提示词暂未载入，请稍后重试。'):corrected36?(window.JINTAI_G036_PROMPTS?.[x[1]]||'G036核对提示词暂未载入，请稍后重试。'):x[8], frozen_prompt: corrected37||corrected36?x[8]:undefined, source_note: corrected?ZG_G031_NOTE:corrected32?ZG_G032_NOTE:corrected33?ZG_G033_NOTE:corrected34?ZG_G034_NOTE:corrected35?ZG_G035_NOTE:corrected36?ZG_G036_NOTE:corrected37?ZG_G037_NOTE:''
   };
-  item=window.JINTAI_G038_CORRECT_ITEM?.(item,x)||item;
-  item=window.JINTAI_G039_CORRECT_ITEM?.(item,x)||item;
-  item=window.JINTAI_G040_CORRECT_ITEM?.(item,x)||item;
-  item=window.JINTAI_G041_CORRECT_ITEM?.(item,x)||item;
-  item=window.JINTAI_G042_CORRECT_ITEM?.(item,x)||item;
-  item=window.JINTAI_G043_CORRECT_ITEM?.(item,x)||item;
-  return window.JINTAI_G044_CORRECT_ITEM?.(item,x)||item;
 };
 const ITEMS = RAW.items.map(_mapZgItem);
 let curBookNo = 0, page = 0, PAGE_SIZE = 40, filtered = ITEMS;
