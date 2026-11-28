@@ -9,6 +9,7 @@
     if(previous)previous(row);
     if(!row||row.id!==c.id)return row;
     for(const [key,value] of Object.entries(c.fields))row[key]=value;
+    row.metadata_hold=false;delete row.correction_note;
     if(!Array.isArray(row.variants)||row.variants.length===0){
       row.variants=c.variants.map(view=>({label:view.label,ratio:view.ratio,prompt:view.p}));
       row._hydrated=true;
