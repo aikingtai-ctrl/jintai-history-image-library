@@ -870,7 +870,8 @@ function filmStillItems(g){
  return photos.map(p=>({r:(p.shotId&&BYID.get(p.shotId))||g.rows[0],src:p.src,kind:p.kind,shotId:p.shotId||''}));
 }
 function filmCardSummary(w,fallback,hero){
- const summary=String(w.look||fallback||'');
+ let summary=String(w.look||fallback||'');
+ if(w.wid==='as-tears-go-by-1988')summary=summary.replace(/《旺角卡門》[（(]1989[）)]/u,'《旺角卡門》（1988）');
  return hero?.kind==='AI 概念参考图'
   ?summary.replace(/\s*[·｜|]\s*源帧[^·｜|]*$/u,'').trim()
   :summary;
