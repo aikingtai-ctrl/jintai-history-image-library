@@ -1,0 +1,21 @@
+/* Liaoshi volume 80: repair Ma Dechen's citation and hold unsupported portrait. */
+(()=>{
+  const c={"id":"HF-20261022-0662","sourceShardSha256":"a29f708e5e1c8fed4782a6c8aea7c019858a73ddd6c355b733d009b3f812f409","fields":{"c":"","id":"HF-20261022-0662","title":"【历史名人·史源校勘】马得臣（辽代南京人、翰林学士承旨）","sub":"《辽史》卷80记其保宁间任政事舍人、翰林学士，后谏球马","src":"《辽史》卷80〈马得臣〉维基文库指定修订（pageid 100672、revid 2121808）：https://zh.wikisource.org/w/index.php?title=%E9%81%BC%E5%8F%B2%2F%E5%8D%B780&oldid=2121808。旧稿的字仲儒、统和初任职、进呈《贞观政要》及比作魏徵均不能由本传证实；本次未核原刊影印和舆服原文。","hold":"本传中的任职、三帝纪事与谏球马可核；本人容貌、具体冠服和旧具象画像无直接证据，暂缓展示","level":"B","evidence":{"historical_source":"《辽史》卷80〈马得臣〉（维基文库录文指定修订）","source_url":"https://zh.wikisource.org/w/index.php?title=%E9%81%BC%E5%8F%B2%2F%E5%8D%B780&oldid=2121808","pageid":100672,"revid":2121808,"pinned_revision_html_sha256":"2bdd59fa137b121fa6d640df6d9011bc84f676720a687ed9a2e728e7bdf1e8d2","pinned_revision_api_sha256":"bb05a923a3e0a642eb375d484407a7544d7b04a98f5fa9daf0f3ebf7a07121dd","batch_unpinned_html_sha256":"e9a8350028372ce09f56e10c879c1536242ce90679e37eb2717c5079a62beccc","batch_latest_api_sha256":"bb05a923a3e0a642eb375d484407a7544d7b04a98f5fa9daf0f3ebf7a07121dd","wikitext_sha256":"7e56bbf3db0100973623258c4ff005d03eeea3c3f981efc9cccef4f56d7cec92","person_section_sha256":"e97c4708ce9e7ca8201bf62f9eec087c27279710364ee10d35b5745951514f2e","supports":["南京人，好学博古，善属文，尤长于诗","保宁间累迁政事舍人、翰林学士；乾亨初为南京副留守并复拜翰林学士承旨","圣宗时摘录唐高祖、太宗、玄宗三纪可法事进呈","随军进言降不可杀、亡不可追；后兼谏议大夫、知宣徽院事","谏圣宗击鞠球马无度，奏后帝嘉叹良久"],"not_supported_by_this_volume":["字仲儒与945—999生卒年","统和初始任政事舍人、翰林学士","进呈《贞观政要》或圣宗比作魏徵","本人五官须髯、金鱼袋、象牙朝笏、深绯公服及上京大安殿呈书画面"],"scope":"维基文库卷80的pageid 100672、revid 2121808录文；原刊影印、其他史料、传世肖像与《辽史·仪卫志》未核","old_image_status":"本 ID 显示层暂缓旧具象图像；不删除原始记录或可能存在的资产"},"review_status":"《辽史》卷80指定修订本传已核；旧误引和具象画像暂缓；原刊影印未核","qualification":"任职与谏诤史事由本传支持；字、生卒、本人容貌、特定冠服及旧图板细节未获此卷支持","lib":"Claude 图库","era":"宋辽金西夏","dyn":"辽代","kind":"人物","cat":"历史人物谏诤史事考据概念","story":"","brief":"史源校勘概念。卷80本传记马得臣为南京人，保宁间累迁政事舍人、翰林学士，乾亨初复拜翰林学士承旨；圣宗时摘录唐高祖、太宗、玄宗三纪可法事进呈，后谏击鞠球马无度，帝嘉叹良久。旧稿把这些史事误作统和初和《贞观政要》、魏徵之比；具体生卒、字、本人容貌与冠服未由本传证实。","n":1,"text":"hf-20261022-0662 【历史名人·史源校勘】马得臣（辽代南京人、翰林学士承旨） 《辽史》卷80记其保宁间任政事舍人、翰林学士，后谏球马 《辽史》卷80〈马得臣〉维基文库指定修订（pageid 100672、revid 2121808）：https://zh.wikisource.org/w/index.php?title=%e9%81%bc%e5%8f%b2%2f%e5%8d%b780&oldid=2121808。旧稿的字仲儒、统和初任职、进呈《贞观政要》及比作魏徵均不能由本传证实；本次未核原刊影印和舆服原文。 本传中的任职、三帝纪事与谏球马可核；本人容貌、具体冠服和旧具象画像无直接证据，暂缓展示 辽代 人物 历史人物谏诤史事考据概念 史源校勘概念。卷80本传记马得臣为南京人，保宁间累迁政事舍人、翰林学士，乾亨初复拜翰林学士承旨；圣宗时摘录唐高祖、太宗、玄宗三纪可法事进呈，后谏击鞠球马无度，帝嘉叹良久。旧稿把这些史事误作统和初和《贞观政要》、魏徵之比；具体生卒、字、本人容貌与冠服未由本传证实。 史源校勘概念。卷80本传记马得臣为南京人，保宁间累迁政事舍人、翰林学士，乾亨初复拜翰林学士承旨；圣宗时摘录唐高祖、太宗、玄宗三纪可法事进呈，后谏击鞠球马无度，帝嘉叹良久。旧稿把这些史事误作统和初和《贞观政要》、魏徵之比；具体生卒、字、本人容貌与冠服未由本传证实。","anchor":"史源校勘概念。卷80本传记马得臣为南京人，保宁间累迁政事舍人、翰林学士，乾亨初复拜翰林学士承旨；圣宗时摘录唐高祖、太宗、玄宗三纪可法事进呈，后谏击鞠球马无度，帝嘉叹良久。旧稿把这些史事误作统和初和《贞观政要》、魏徵之比；具体生卒、字、本人容貌与冠服未由本传证实。"},"variants":[{"label":"马得臣·辽代三纪进呈史事概念","ratio":"3:2","p":"【图板性质】《辽史》卷80〈马得臣〉本传所记进呈唐三帝纪事的影视研究概念图，横幅3:2；不是马得臣本人写生肖像或古籍实物复原。\n【可核事实】本传记马得臣为南京人，保宁间任政事舍人、翰林学士，乾亨初复拜翰林学士承旨；圣宗即位后，摘录唐高祖、太宗、玄宗三纪中可法之事进呈。\n【画面】以典籍摘录与进呈的官署工作为单一叙事瞬间；人物仅作远景或背影示意，书卷与桌案为一般影视道具，不写指定殿名、衣色纹章、特定佩饰或能辨识的个人面貌。不把该工作误画成其他唐代书籍进呈。\n【出处与边界】维基文库《辽史》卷80指定修订：https://zh.wikisource.org/w/index.php?title=%E9%81%BC%E5%8F%B2%2F%E5%8D%B780&oldid=2121808。卷文录文已核，原刊影印、服章原文与本人传世肖像未核。"}]};
+  const holds=window.JINTAI_GPT_2000_CORRECTIONS||(window.JINTAI_GPT_2000_CORRECTIONS=Object.create(null));
+  holds[c.id]={action:'metadata_hold',title:c.fields.title,note:'旧版具象画像缺少本传或独立图像依据，暂缓展示。',sourceUrls:[c.fields.evidence.source_url]};
+  const previous=window.applyJintaiSourceCorrection;
+  window.JINTAI_MA_DECHEN_0662_CORRECTION=c;
+  window.applyJintaiSourceCorrection=function(row){
+    if(previous)previous(row);
+    if(!row||row.id!==c.id)return row;
+    for(const [key,value] of Object.entries(c.fields))row[key]=value;
+    row.metadata_hold=false;delete row.correction_note;
+    if(!Array.isArray(row.variants)||row.variants.length===0){
+      row.variants=c.variants.map(view=>({label:view.label,ratio:view.ratio,prompt:view.p}));
+      row._hydrated=true;
+    }else if(row.variants.length===c.variants.length){
+      row.variants.forEach((view,i)=>{view.label=c.variants[i].label;view.ratio=c.variants[i].ratio;view.prompt=c.variants[i].p;delete view.p;});
+    }
+    return row;
+  };
+})();
