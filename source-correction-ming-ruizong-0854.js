@@ -7,7 +7,10 @@
     if(previous)previous(row);
     if(!row||row.id!==c.id)return row;
     for(const [key,value] of Object.entries(c.fields))row[key]=value;
-    if(Array.isArray(row.variants)&&row.variants.length===c.variants.length){
+    if(!Array.isArray(row.variants)||row.variants.length===0){
+      row.variants=c.variants.map(view=>({label:view.label,ratio:view.ratio,prompt:view.p}));
+      row._hydrated=true;
+    }else if(row.variants.length===c.variants.length){
       row.variants.forEach((view,i)=>{view.label=c.variants[i].label;view.ratio=c.variants[i].ratio;view.prompt=c.variants[i].p;delete view.p;});
     }
     return row;
